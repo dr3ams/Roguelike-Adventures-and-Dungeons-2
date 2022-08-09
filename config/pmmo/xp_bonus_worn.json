@@ -7,104 +7,107 @@
 	{
 		"magic": 2
 	},
-	"eidolon:prestigious_palm":
+"eidolon:prestigious_palm":
 	{
 		"magic": 2
 	},
-	"eidolon:warded_mail":
+"eidolon:warded_mail":
 			{
 		"magic": 1
 	},
-	"eidolon:warlock_cloak":
+"eidolon:warlock_cloak":
 			{
-		"magic": 4
+		"magic": 20,
+		"shadow": 20
 	},
-	"eidolon:warlock_hat":
+"eidolon:warlock_hat":
 			{
-		"magic": 2
+		"magic": 20,
+		"shadow": 20
 	},
-	"eidolon:warlock_boots":
+"eidolon:warlock_boots":
 			{
-		"magic": 2
+		"magic": 20,
+		"shadow": 20
 	},
-	"dungeons_gear:cave_crawler_chestplate":
+"dungeons_gear:cave_crawler_chestplate":
 	{
 		"slayer": 5
 	},
-	"dungeons_gear:cave_crawler_helmet":
+"dungeons_gear:cave_crawler_helmet":
 	{
 		"slayer": 5
 	},
-	"dungeons_gear:dark_chestplate":
+"dungeons_gear:dark_chestplate":
 	{
 		"slayer": 10
 	},
-	"dungeons_gear:dark_helmet":
+"dungeons_gear:dark_helmet":
 	{
 		"slayer": 10
 	},
-	"dungeons_gear:frost_bite_chestplate":
+"dungeons_gear:frost_bite_chestplate":
 	{
 		"slayer": 10
 	},
-	"dungeons_gear:frost_bite_helmet":
+"dungeons_gear:frost_bite_helmet":
 	{
 		"slayer": 10
 	},
-	"dungeons_gear:grim_chestplate":
+"dungeons_gear:grim_chestplate":
 	{
 		"slayer": 10
 	},
-	"dungeons_gear:grim_helmet":
+"dungeons_gear:grim_helmet":
 	{
 		"slayer": 10
 	},
-	"dungeons_gear:phantom_chestplate":
+"dungeons_gear:phantom_chestplate":
 	{
 		"slayer": 10
 	},
-	"dungeons_gear:phantom_helmet":
+"dungeons_gear:phantom_helmet":
 	{
 		"slayer": 10
 	},
-	"dungeons_gear:royal_guard_chestplate":
+"dungeons_gear:royal_guard_chestplate":
 	{
 		"slayer": 10
 	},
-	"dungeons_gear:royal_guard_helmet":
+"dungeons_gear:royal_guard_helmet":
 	{
 		"slayer": 10
 	},
-	"dungeons_gear:soul_hood":
+"dungeons_gear:soul_hood":
 	{
 		"endurance": 5,
 		"slayer": 10,
 		"magic": 5
 	},
-	"dungeons_gear:soul_robe":
+"dungeons_gear:soul_robe":
 	{
 		"endurance": 5,
 		"slayer": 10,
 		"magic": 5
 	},
-	"dungeons_gear:souldancer_hood":
+"dungeons_gear:souldancer_hood":
 	{
 		"endurance": 10,
 		"slayer": 10,
 		"magic": 5
 	},
-	"dungeons_gear:souldancer_robe":
+"dungeons_gear:souldancer_robe":
 	{
 		"endurance": 10,
 		"slayer": 10,
 		"magic": 5
 	},
-	"dungeons_gear:spelunker_chestplate":
+"dungeons_gear:spelunker_chestplate":
 	{
 		"slayer": 5,
 		"mining": 5
 	},
-	"dungeons_gear:spelunker_helmet":
+"dungeons_gear:spelunker_helmet":
 	{
 		"slayer": 5,
 		"mining": 5
@@ -564,6 +567,26 @@
 		"swimming": 15,
 		"fishing": 7.5
 	},
+	"minecraft:netherite_helmet":
+	{
+		"endurance": 15,
+		"combat": 10
+	},
+	"minecraft:netherite_chestplate":
+	{
+		"endurance": 15,
+		"combat": 10
+	},
+	"minecraft:netherite_leggings":
+	{
+		"endurance": 15,
+		"combat": 10
+	},
+	"minecraft:netherite_boots":
+	{
+		"endurance": 15,
+		"combat": 10
+	},
 	"spartanshields:shield_basic_bronze":
 	{
 		"endurance": 20,
@@ -799,7 +822,7 @@
 		"endurance": 10,
 		"combat": 10
 	},
-	"twilightforest:knightmetal_chestplate":
+"twilightforest:knightmetal_chestplate":
 	{
 		"endurance": 7,
 		"combat": 7
@@ -817,10 +840,6 @@
 "twilightforest:knightmetal_boots":
 	{
 		"endurance": 7
-	},
-"twilightforest:knightmetal_sword":
-	{
-		"combat": 5
 	},
 "twilightforest:steeleaf_chestplate":
 	{
@@ -846,18 +865,6 @@
 		"woodcutting": 2,
 		"agility": 5
 	},
-	"twilightforest:steeleaf_sword":
-	{
-		"agility": 5
-	},
-"twilightforest:steeleaf_hoe":
-	{
-		"farming": 10
-	},
-"twilightforest:steeleaf_pickaxe":
-	{
-		"agility": 5
-	},
 "twilightforest:ironwood_helmet":
 	{
 		"woodcutting": 4,
@@ -881,14 +888,6 @@
 		"woodcutting": 2,
 		"smithing": 2,
 		"mining": 3
-	},
-"twilightforest:ironwood_pickaxe":
-	{
-		"mining": 3
-	},
-"twilightforest:ironwood_sword":
-	{
-		"combat": 2
 	},
 "twilightforest:yeti_helmet":
 	{
@@ -978,7 +977,7 @@
 		"endurance": 5,
 		"magic": 10
 	},
-	"blue_skies:horizonite_helmet":
+"blue_skies:horizonite_helmet":
 	{
 		"mining": 2,
 		"excavation": 1
@@ -1201,24 +1200,24 @@
 "arsarsenal:source_steel_helmet":
 	{
 		"magic": 3,
-		"agility": 3
+		"endurance": 3
 	},
 "arsarsenal:source_steel_chestplate":
 	{
 		"magic": 3,
-		"agility": 3
+		"endurance": 3
 	},
 "arsarsenal:source_steel_leggings":
 	{
 		"magic": 3,
-		"agility": 3
+		"endurance": 3
 	},
 "arsarsenal:source_steel_boots":
 	{
 		"magic": 3,
-		"agility": 3
+		"endurance": 3
 	},
-"arsarsenal:fire_hood":
+"arsarsenal:fire_hat":
 	{
 		"magic": 3,
 		"agility": 3
@@ -1238,7 +1237,7 @@
 		"magic": 3,
 		"agility": 3
 	},
-"arsarsenal:aqua_hood":
+"arsarsenal:aqua_hat":
 	{
 		"magic": 3,
 		"agility": 3
@@ -1258,7 +1257,7 @@
 		"magic": 3,
 		"agility": 3
 	},
-"arsarsenal:earth_hood":
+"arsarsenal:earth_hat":
 	{
 		"magic": 3,
 		"agility": 3
@@ -1278,7 +1277,7 @@
 		"magic": 3,
 		"agility": 3
 	},
-"arsarsenal:air_hood":
+"arsarsenal:air_hat":
 	{
 		"magic": 3,
 		"agility": 3
@@ -1392,18 +1391,327 @@
 		"combat": 3,
 		"archery": 9
 	},
-"environmental:thief_hood":
+"atum:wanderer_helmet":
 	{
+		"wayfaring": 10,
+		"agility": 10
+	},
+"atum:wanderer_chest":
+	{
+		"wayfaring": 10,
+		"agility": 10
+	},
+"atum:wanderer_legs":
+	{
+		"wayfaring": 10,
+		"agility": 10
+	},
+"atum:wanderer_boots":
+	{
+		"wayfaring": 10,
+		"agility": 10
+	},
+"atum:desert_helmet_iron":
+	{
+		"wayfaring": 10,
+		"excavation": 10
+	},
+"atum:desert_chest_iron":
+	{
+		"wayfaring": 10,
+		"excavation": 10
+	},
+"atum:desert_legs_iron":
+	{
+		"wayfaring": 10,
+		"excavation": 10
+	},
+"atum:desert_boots_iron":
+	{
+		"wayfaring": 10,
+		"excavation": 10
+	},
+"atum:desert_helmet_gold":
+	{
+		"wayfaring": 10,
+		"mining": 10
+	},
+"atum:desert_chest_gold":
+	{
+		"wayfaring": 10,
+		"mining": 10
+	},
+"atum:desert_legs_gold":
+	{
+		"wayfaring": 10,
+		"mining": 10
+	},
+"atum:desert_boots_gold":
+	{
+		"wayfaring": 10,
+		"mining": 10
+	},
+"atum:desert_helmet_diamond":
+	{
+		"wayfaring": 10,
+		"dungeoneering": 10
+	},
+"atum:desert_chest_diamond":
+	{
+		"wayfaring": 10,
+		"dungeoneering": 10
+	},
+"atum:desert_legs_diamond":
+	{
+		"wayfaring": 10,
+		"dungeoneering": 10
+	},
+"atum:desert_boots_diamond":
+	{
+		"wayfaring": 10,
+		"dungeoneering": 10
+	},
+"atum:relic_silver_idol":
+	{
+		"combat": 1
+	},
+"atum:relic_gold_idol":
+	{
+		"combat": 2
+	},
+"atum:relic_sapphire_idol":
+	{
+		"combat": 5
+	},
+"atum:relic_ruby_idol":
+	{
+		"combat": 10
+	},
+"atum:relic_emerald_idol":
+	{
+		"combat": 15
+	},
+"atum:relic_diamond_idol":
+	{
+		"combat": 20
+	},
+"atum:relic_silver_necklace":
+	{
+		"magic": 1
+	},
+"atum:relic_gold_necklace":
+	{
+		"magic": 2
+	},
+"atum:relic_sapphire_necklace":
+	{
+		"magic": 5
+	},
+"atum:relic_ruby_necklace":
+	{
+		"magic": 10
+	},
+"atum:relic_emerald_necklace":
+	{
+		"magic": 15
+	},
+"atum:relic_diamond_necklace":
+	{
+		"magic": 20
+	},
+"atum:relic_silver_ring":
+	{
+		"mining": 1
+	},
+"atum:relic_gold_ring":
+	{
+		"mining": 2
+	},
+"atum:relic_sapphire_ring":
+	{
+		"mining": 5
+	},
+"atum:relic_ruby_ring":
+	{
+		"mining": 10
+	},
+"atum:relic_emerald_ring":
+	{
+		"mining": 15
+	},
+"atum:relic_diamond_ring":
+	{
+		"mining": 20
+	},
+"atum:relic_silver_brooch":
+	{
+		"endurance": 1
+	},
+"atum:relic_gold_brooch":
+	{
+		"endurance": 2
+	},
+"atum:relic_sapphire_brooch":
+	{
+		"endurance": 5
+	},
+"atum:relic_ruby_brooch":
+	{
+		"endurance": 10
+	},
+"atum:relic_emerald_brooch":
+	{
+		"endurance": 15
+	},
+"atum:relic_diamond_brooch":
+	{
+		"endurance": 20
+	},
+"atum:relic_silver_bracelet":
+	{
+		"archery": 1
+	},
+"atum:relic_gold_bracelet":
+	{
+		"archery": 2
+	},
+"atum:relic_sapphire_bracelet":
+	{
+		"archery": 5
+	},
+"atum:relic_ruby_bracelet":
+	{
+		"archery": 10
+	},
+"atum:relic_emerald_bracelet":
+	{
+		"archery": 15
+	},
+"atum:relic_diamond_bracelet":
+	{
+		"archery": 20
+	},
+"iceandfire:dread_torch":
+	{
+		"dungeoneering": 20
+	},
+"minecraft:soul_torch":
+	{
+		"dungeoneering": 5
+	},
+"undergarden:shard_torch":
+	{
+		"dungeoneering": 10
+	},
+"iceandfire:dragon_skull_ice":
+	{
+		"dragonslayer": 100,
+		"slayer": 50
+	},
+"iceandfire:dragon_skull_lightning":
+	{
+		"dragonslayer": 100,
+		"slayer": 50
+	},
+"iceandfire:dragon_skull_fire":
+	{
+		"dragonslayer": 100,
+		"slayer": 50
+	},
+"iceandfire:hippogryph_skull":
+	{
+		"farming": 50,
 		"agility": 25
 	},
-"mysticalworld:antler_hat":
+"iceandfire:cyclops_skull":
 	{
-		"agility": 15,
-		"farming": 15
+		"building": 50,
+		"cooking": 50
 	},
-"greekfantasy:nemean_lion_hide":
+"iceandfire:cockatrice_skull":
 	{
-		"combat": 20,
-		"endurance": 20
+		"farming": 50,
+		"magic": 25
+	},
+"iceandfire:stymphalian_skull":
+	{
+		"crafting": 50,
+		"smithing": 50
+	},
+"iceandfire:amphithere_skull":
+	{
+		"flying": 50,
+		"archery": 25
+	},
+"iceandfire:seaserpent_skull":
+	{
+		"swimming": 50,
+		"fishing": 50,
+		"sailing": 50
+	},
+"iceandfire:hydra_skull":
+	{
+		"alchemy": 50,
+		"endurance": 25
+	},
+"enigmaticlegacy:earth_heart":
+	{
+		"mining": 10,
+		"excavation": 10,
+		"woodcutting": 10,
+		"farming": 10
+	},
+"quark:diamond_heart":
+	{
+		"mining": 5,
+		"excavation": 5
+	},
+"betterendforge:crystalite_helmet":
+	{
+		"magic": 10
+	},
+"betterendforge:crystalite_chestplate":
+	{
+		"magic": 10
+	},
+"betterendforge:crystalite_leggings":
+	{
+		"magic": 10
+	},
+"betterendforge:crystalite_boots":
+	{
+		"magic": 10
+	},
+"betterendforge:thallasium_helmet":
+	{
+		"smithing": 5
+	},
+"betterendforge:thallasium_chestplate":
+	{
+		"smithing": 5
+	},
+"betterendforge:thallasium_leggings":
+	{
+		"smithing": 5
+	},
+"betterendforge:thallasium_boots":
+	{
+		"smithing": 5
+	},
+"betterendforge:terminite_helmet":
+	{
+		"smithing": 10
+	},
+"betterendforge:terminite_chestplate":
+	{
+		"smithing": 10
+	},
+"betterendforge:terminite_leggings":
+	{
+		"smithing": 10
+	},
+"betterendforge:terminite_boots":
+	{
+		"smithing": 10
 	}
 }

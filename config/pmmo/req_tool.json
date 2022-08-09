@@ -265,47 +265,25 @@
 	{
 		"excavation": 25
 	},
-	"aquaculture:neptunium_axe":
+"aquaculture:neptunium_axe":
 	{
 		"woodcutting": 30
 	},
-	"aquaculture:neptunium_hoe":
+"aquaculture:neptunium_hoe":
 	{
 		"farming": 40
 	},
-	"aquaculture:neptunium_pickaxe":
+"aquaculture:neptunium_pickaxe":
 	{
 		"mining": 47
 	},
-	"aquaculture:neptunium_shovel":
+"aquaculture:neptunium_shovel":
 	{
 		"excavation": 30
 	},
 	"create:deforester":
 	{
 		"woodcutting": 92
-	},
-	"doomweapon:argent_axe":
-	{
-		"woodcutting": 80
-	},
-	"doomweapon:argent_hoe":
-	{
-		"farming": 80
-	},
-	"doomweapon:argent_paxel":
-	{
-		"woodcutting": 80,
-		"excavation": 80,
-		"mining": 80
-	},
-	"doomweapon:argent_pickaxe":
-	{
-		"mining": 80
-	},
-	"doomweapon:argent_shovel":
-	{
-		"excavation": 80
 	},
 	"endreborn:end_stone_axe":
 	{
@@ -401,67 +379,83 @@
 	},
 	"iceandfire:dragonbone_axe":
 	{
-		"woodcutting": 50
+		"woodcutting": 50,
+		"dragonslayer": 2
 	},
 	"iceandfire:dragonbone_hoe":
 	{
-		"farming": 50
+		"farming": 50,
+		"dragonslayer": 2
 	},
 	"iceandfire:dragonbone_pickaxe":
 	{
-		"mining": 50
+		"mining": 50,
+		"dragonslayer": 2
 	},
 	"iceandfire:dragonbone_shovel":
 	{
-		"excavation": 50
+		"excavation": 50,
+		"dragonslayer": 2
 	},
 	"iceandfire:dragonsteel_fire_axe":
 	{
-		"woodcutting": 90
+		"woodcutting": 60,
+		"dragonslayer": 15
 	},
 	"iceandfire:dragonsteel_fire_hoe":
 	{
-		"farming": 90
+		"farming": 60,
+		"dragonslayer": 15
 	},
 	"iceandfire:dragonsteel_fire_pickaxe":
 	{
-		"mining": 90
+		"mining": 60,
+		"dragonslayer": 15
 	},
 	"iceandfire:dragonsteel_fire_shovel":
 	{
-		"excavation": 90
+		"excavation": 60,
+		"dragonslayer": 15
 	},
 	"iceandfire:dragonsteel_ice_axe":
 	{
-		"woodcutting": 90
+		"woodcutting": 60,
+		"dragonslayer": 15
 	},
 	"iceandfire:dragonsteel_ice_hoe":
 	{
-		"farming": 90
+		"farming": 60,
+		"dragonslayer": 15
 	},
 	"iceandfire:dragonsteel_ice_pickaxe":
 	{
-		"mining": 90
+		"mining": 60,
+		"dragonslayer": 15
 	},
 	"iceandfire:dragonsteel_ice_shovel":
 	{
-		"excavation": 90
+		"excavation": 60,
+		"dragonslayer": 15
 	},
 	"iceandfire:dragonsteel_lightning_axe":
 	{
-		"woodcutting": 90
+		"woodcutting": 60,
+		"dragonslayer": 15
 	},
 	"iceandfire:dragonsteel_lightning_hoe":
 	{
-		"farming": 90
+		"farming": 60,
+		"dragonslayer": 15
 	},
 	"iceandfire:dragonsteel_lightning_pickaxe":
 	{
-		"mining": 90
+		"mining": 60,
+		"dragonslayer": 15
 	},
 	"iceandfire:dragonsteel_lightning_shovel":
 	{
-		"excavation": 90
+		"excavation": 60,
+		"dragonslayer": 15
 	},
 	"iceandfire:myrmex_jungle_axe":
 	{
@@ -821,7 +815,8 @@
 	},
 "the_afterlight:lunarite_pickaxe":
 	{
-		"mining": 65
+		"mining": 50,
+		"farming": 40
 	},
 "the_afterlight:eclipse_crystal_pickaxe":
 	{
@@ -829,14 +824,15 @@
 	},
 "betterendforge:thallasium_pickaxe":
 	{
-		"mining": 17
+		"mining": 13
 	},
 "betterendforge:terminite_pickaxe":
 	{
-		"mining": 40
+		"mining": 37
 	},
 "betterendforge:aeternium_pickaxe":
 	{
-		"mining": 85
+		"mining": 47,
+		"smithing": 19
 	}
 }
