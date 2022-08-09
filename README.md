@@ -1,6 +1,7 @@
 # Roguelike-Adventures-and-Dungeons-2
 
 [![LOGO](https://user-images.githubusercontent.com/7347489/183646677-cb0da427-d4b7-436e-9f72-566183bd5447.png)](https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-2)
+![col3](https://user-images.githubusercontent.com/7347489/183647041-2764c769-6945-4f75-939c-f314a9b47d10.png)
 
 [![1](https://img.shields.io/discord/512339624627011586?color=blue&label=discord&logo=discord&style=for-the-badge)](https://discord.gg/CG6HjQjW5c) [![2](https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Dreams01&type=patrons&style=for-the-badge)](https://www.patreon.com/Dreams01) [![3](https://img.shields.io/badge/Rent%20-a%20server-cyan?style=for-the-badge&logo=Codeforces&logoColor=cyan)](https://bisecthosting.com/xdreamz) [![4](https://img.shields.io/badge/My-projects-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/dreams01/projects)
 
@@ -94,5 +95,6 @@ Modpack encourages many different playstyles like
 Need a server to play with friends? Don't know how to setup one? Just rent already configured server - install and update my modpacks( and dozens of others!) in one click!
 [![bisecthosting](https://i.imgur.com/EHeCmev.png)](https://bisecthosting.com/xdreamz)
 Click on the picture above, select plan(at least 5GB), use my code xdreamz to get 25% off your first month and enjoy playing with your friends!
+
 
 
