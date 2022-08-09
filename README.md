@@ -1,4 +1,4 @@
-# Roguelike-Adventures-and-Dungeons-2
+# Roguelike Adventures and Dungeons 2
 
 [![LOGO](https://user-images.githubusercontent.com/7347489/183646677-cb0da427-d4b7-436e-9f72-566183bd5447.png)](https://www.curseforge.com/minecraft/modpacks/roguelike-adventures-and-dungeons-2)
 ![col3](https://user-images.githubusercontent.com/7347489/183647041-2764c769-6945-4f75-939c-f314a9b47d10.png)
