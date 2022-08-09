@@ -1,0 +1,20 @@
+{
+  "OrbData": {
+    "type": "healing",
+    "effectMultiplier": 2,
+    "color": "#FF0046",
+    "blockList": ["minecraft:spawner"],
+    "blockListType": "whitelist",
+    "blockDropChance": 30.0,
+    "entityList": ["minecraft:pig", "minecraft:sheep", "minecraft:rabbit", "minecraft:villager", "minecraft:cow", "minecraft:fox", "minecraft:chicken", "minecraft:horse", "minecraft:donkey"],
+    "entityListType": "blacklist",
+    "entityDropChance": 15.5
+  },
+  "ExtraData": {
+    "pickup-message": "You've picked up a health orb!",
+    "animation": false,
+    "sound": true,
+    "follow-player": false,
+    "pickup-delay": 10
+  }
+}

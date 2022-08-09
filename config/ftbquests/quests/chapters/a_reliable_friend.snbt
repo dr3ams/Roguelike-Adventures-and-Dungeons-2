@@ -1,0 +1,679 @@
+{
+	id: "000000000000062C"
+	group: "0FF98225FE921275"
+	order_index: 0
+	filename: "a_reliable_friend"
+	title: "A Reliable Friend"
+	icon: "doggytalents:doggy_charm"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Dog Bone"
+			x: -3.0d
+			y: -2.5d
+			shape: "gear"
+			description: [
+				"Step 1:"
+				"Find a wild wolf (the Vanilla Minecraft wolf)."
+				"Step 2:"
+				"Feed it bones (right click with a bone in your hand) until hearts appear above its head. If a collar appears on its neck and it sits down, you've done it right!"
+				"Step 3:"
+				"Feed the dog at least one Training Treat and the dog will disappear for a very brief second and a dog without a collar will take its place. At this point, you now have a Doggy Talents dog."
+			]
+			size: 1.5d
+			id: "000000000000062D"
+			tasks: [{
+				id: "000000000000062E"
+				type: "item"
+				item: "minecraft:bone"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "000000000000066F"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "1E81638DEBDC2793"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "potions"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["The first treat you will need to level up your dog. It can only level the dog to 20. After that, you will require the next tier treat, the Super Treat."]
+			dependencies: ["000000000000062D"]
+			id: "000000000000062F"
+			tasks: [{
+				id: "0000000000000630"
+				type: "item"
+				item: "doggytalents:training_treat"
+			}]
+			rewards: [{
+				id: "000000000000065C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			description: [
+				"Once you have a Doggy Talents dog, you will be able to right click on it with a stick in hand (main or secondary) to open the dog information/talents menu."
+				""
+				"This menu allows you to change the name of your dog, toggle its behavior, add talents, and toggle whether to obey other players. In the menu, your dog's basic level, dire level, and level spending points will be displayed just under the name box."
+				""
+				"The more you level up your dog using the Treats in this order: Training Treat, Super Treat, Master Treat, and Dire Treat; the more points you have available to spend on your talents. Eventually, the dog will hit its maximum level, which will not"
+				"allow you to get anymore points once it hits this level cap."
+			]
+			dependencies: ["000000000000062F"]
+			id: "0000000000000631"
+			tasks: [{
+				id: "0000000000000632"
+				type: "item"
+				item: "minecraft:stick"
+			}]
+			rewards: [{
+				id: "0000000000000664"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			description: ["The second treat you will need to level up your dog. It can only level the dog to 40. After that, you will require the next tier treat, the Master Treat."]
+			dependencies: ["000000000000062F"]
+			id: "0000000000000633"
+			tasks: [{
+				id: "0000000000000634"
+				type: "item"
+				item: "doggytalents:super_treat"
+			}]
+			rewards: [
+				{
+					id: "000000000000066C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1205359A60610AB9"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			description: ["The third treat you will need to level up your dog. It can only level the dog to 60. After that, you will require the final tier treat, the Dire Treat."]
+			dependencies: ["0000000000000633"]
+			id: "0000000000000635"
+			tasks: [{
+				id: "0000000000000636"
+				type: "item"
+				item: "doggytalents:master_treat"
+			}]
+			rewards: [
+				{
+					id: "000000000000066D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0000000000000671"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "0000000000000678"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			description: [
+				"The forth and final treat you will need to level up your dog. It adds dire levels, which is maxed at 30. After that, you will no longer have the ability to level up the dog, hence the dog has reached the ultimate level. Also, at the maximum dire"
+				"level, end-like particles will begin to emit from your dog."
+			]
+			dependencies: ["0000000000000635"]
+			id: "0000000000000637"
+			tasks: [{
+				id: "0000000000000638"
+				type: "item"
+				item: "doggytalents:dire_treat"
+			}]
+			rewards: [
+				{
+					id: "000000000000066E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0000000000000670"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "0000000000000677"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 3
+				}
+				{
+					id: "5FB966971CF6BE79"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			dependencies: ["000000000000062F"]
+			id: "0000000000000639"
+			tasks: [{
+				id: "000000000000063A"
+				type: "item"
+				item: {
+					id: "doggytalents:whistle"
+					Count: 1b
+					tag: {
+						mode: 4
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000065E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			description: [
+				"This item is like a map, but for locating your dog when it has the Radio Collar equipped. To locate your dog, right click with the item in your main hand and it will give your dog's distance away from you and in which direction it is in. However,"
+				"this item only works if the dog is in the same dimension."
+			]
+			dependencies: ["0000000000000639"]
+			id: "000000000000063B"
+			tasks: [
+				{
+					id: "000000000000063C"
+					type: "item"
+					item: "doggytalents:radar"
+				}
+				{
+					id: "0000000000000657"
+					type: "item"
+					item: "doggytalents:radio_collar"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000065F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0000000000000675"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 5
+				}
+				{
+					id: "4EE7323A301A5858"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			description: [
+				"This item allows you to carry food items for your dog. You can feed your dog the items inside by right clicking on your dog with the bag in hand."
+				"You can also place the items from inside the bag into a Food Bowl by right clicking on the bowl with the bag in your hand."
+			]
+			dependencies: ["0000000000000631"]
+			id: "000000000000063D"
+			tasks: [{
+				id: "000000000000063E"
+				type: "item"
+				item: "doggytalents:treat_bag"
+			}]
+			rewards: [
+				{
+					id: "0000000000000666"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "000000000000067F"
+					type: "item"
+					item: "minecraft:bone"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Dog Decorations"
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["0000000000000639"]
+			id: "000000000000063F"
+			tasks: [
+				{
+					id: "0000000000000640"
+					type: "item"
+					item: "doggytalents:cape"
+				}
+				{
+					id: "0000000000000641"
+					type: "item"
+					item: "doggytalents:cape_coloured"
+				}
+				{
+					id: "0000000000000642"
+					type: "item"
+					item: "doggytalents:leather_jacket"
+				}
+				{
+					id: "0000000000000643"
+					type: "item"
+					item: "doggytalents:sunglasses"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000660"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0000000000000679"
+					type: "item"
+					item: "doggytalents:tiny_bone"
+				}
+				{
+					id: "000000000000067A"
+					type: "item"
+					item: "minecraft:slime_ball"
+					count: 5
+				}
+				{
+					id: "000000000000067B"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "7A937262A8B529FE"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			description: [
+				"This gives your dog a collar! To equip the collar, right click on your dog with the collar in your main hand. You can customize the color of the collars in a similar fashion as in the Wearable Backpacks mod!"
+				"To do so, just add it and dyes in a crafting table or applying it directly to your dog. You can take them off by using the Collar Sheers"
+			]
+			dependencies: ["0000000000000639"]
+			id: "0000000000000644"
+			tasks: [
+				{
+					id: "0000000000000645"
+					type: "item"
+					item: "doggytalents:spotted_collar"
+				}
+				{
+					id: "0000000000000647"
+					type: "item"
+					item: {
+						id: "doggytalents:wool_collar"
+						Count: 1b
+						tag: {
+							collar_colour: 16383998
+						}
+					}
+				}
+				{
+					id: "0000000000000648"
+					type: "item"
+					item: "doggytalents:multicoloured_collar"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000066B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0000000000000676"
+					type: "item"
+					item: "minecraft:black_dye"
+					count: 16
+				}
+				{
+					id: "7C177854BE43C380"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			description: ["This special stick gives your dog the Glowing Level 1 effect for 100 ticks (5 seconds), the Speed Level 6 effect for 200 ticks (10 seconds), and the regeneration Level 1 effect for 100 ticks (5 seconds)."]
+			dependencies: ["0000000000000631"]
+			id: "0000000000000649"
+			tasks: [{
+				id: "000000000000064A"
+				type: "item"
+				item: "doggytalents:chew_stick"
+			}]
+			rewards: [
+				{
+					id: "0000000000000665"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0000000000000672"
+					type: "item"
+					item: "minecraft:chicken"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: [
+				"You can play with your dog with this item! First, set your dog into docile mode, then right click to throw the bone. The dog to take off after the bone, grab it, and give it back to you as a Drool Throw Bone"
+				"To throw the bone again, you must clean the bone off first by right clicking it or adding it to a crafting table in order to get a Throw Bone."
+			]
+			dependencies: ["0000000000000649"]
+			id: "000000000000064B"
+			tasks: [{
+				id: "000000000000064C"
+				type: "item"
+				item: "doggytalents:throw_bone"
+			}]
+			rewards: [
+				{
+					id: "0000000000000667"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0000000000000680"
+					type: "item"
+					item: "minecraft:black_dye"
+					count: 16
+				}
+				{
+					id: "4C36C4CB25688ACF"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			description: ["This functions the same way as the Throw Bone."]
+			dependencies: ["0000000000000649"]
+			id: "000000000000064D"
+			tasks: [{
+				id: "000000000000064E"
+				type: "item"
+				item: "doggytalents:throw_stick"
+			}]
+			rewards: [
+				{
+					id: "0000000000000668"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "000000000000067E"
+					type: "item"
+					item: "minecraft:egg"
+					count: 3
+				}
+				{
+					id: "5EB925A23AC2E368"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "201219CB088CEF0C"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			description: ["This special bone is required to breed your dogs."]
+			dependencies: ["0000000000000651"]
+			id: "000000000000064F"
+			tasks: [{
+				id: "0000000000000650"
+				type: "item"
+				item: "doggytalents:breeding_bone"
+			}]
+			rewards: [
+				{
+					id: "0000000000000662"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0000000000000673"
+					type: "item"
+					item: "minecraft:porkchop"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["0000000000000631"]
+			id: "0000000000000651"
+			tasks: [{
+				id: "0000000000000652"
+				type: "item"
+				item: {
+					id: "doggytalents:dog_bed"
+					Count: 1b
+					tag: {
+						doggytalents: {
+							casingId: "minecraft:oak_planks"
+							beddingId: "minecraft:white_wool"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000663"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0000000000000681"
+					type: "item"
+					item: "minecraft:egg"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["0000000000000651"]
+			id: "0000000000000653"
+			tasks: [{
+				id: "0000000000000654"
+				type: "item"
+				item: "doggytalents:dog_bath"
+			}]
+			rewards: [
+				{
+					id: "0000000000000669"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "000000000000067D"
+					type: "item"
+					item: "minecraft:slime_ball"
+					count: 5
+				}
+				{
+					id: "7F27C39CD14FBEC9"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["0000000000000651"]
+			id: "0000000000000655"
+			tasks: [{
+				id: "0000000000000656"
+				type: "item"
+				item: "doggytalents:food_bowl"
+			}]
+			rewards: [
+				{
+					id: "000000000000066A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0000000000000674"
+					type: "item"
+					item: "minecraft:mutton"
+					count: 3
+				}
+				{
+					id: "59E90D44A7085F45"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "467EAED6C96FA94D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			description: ["These special sheers can cut off the wool collars off your dog. Also, the sheers can untame your dog."]
+			dependencies: ["0000000000000639"]
+			id: "0000000000000658"
+			tasks: [{
+				id: "0000000000000659"
+				type: "item"
+				item: "doggytalents:collar_shears"
+			}]
+			rewards: [
+				{
+					id: "0000000000000661"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "000000000000067C"
+					type: "item"
+					item: "minecraft:bone"
+					count: 5
+				}
+				{
+					id: "16FEC89FC0B86C47"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "20511E4B7917B7E9"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			description: [
+				"Modes"
+				""
+				"These control how the dog reacts to other entities and interacts with you The tips of each mode appear above the dog as in the following image"
+				""
+				"Docile (D)"
+				"In this mode, your dog will follow you but not attack anything. They will also play fetch with you when you throw the Throw Bone or Throw Stick. This mode will show up as the tip,\"(D)\" just above the dogs name."
+				""
+				"Wandering (W)"
+				"In this mode, your dog will stay near its bowl and wait for your next command. To set your dog's bowl, simply place one and bring your dog within 1 block of it. This mode will show up as the tip,\"(W)\" just above the dog's name."
+				""
+				"Aggressive (A)"
+				"In this mode, your dog will follow you and attack anything that either attacks you or that you attack. This mode will show up as the tip,\"(A)\" just above the dogs name."
+				""
+				"Berserker (B)"
+				"In this mode, your dog will follow you and will attack any mob that draws near. This mode will show up as the tip,\"(B)\" just above the dogs name."
+				""
+				"Tactical (T)"
+				"In this mode, your dog will follow you but will not attack anything unless you use the command beam to attack the entity you right click on (with the item in hand). This mode will show up as the tip,\"(T)\" just above the dogs name."
+				""
+				"Incapacitated (I)"
+				"In this mode, your dog will be covered in blood and it will not attack nor will let you interact with it (except to let you make it sit down). The dog will enter this mode only when its health is 1/2 of a heart (1 HP) and its health will not reach 0,"
+				"preventing the dog from dying. The dog will eventually exit this mode once its health reaches above 1 HP, however, it will not be at full health after exiting this mode. To force the dog to exit the mode at full health, feed it a cake."
+				"This mode can be turned off in the configuration settings. This mode will show up as the tip,\"(I)\" just above the dogs name."
+			]
+			dependencies: ["000000000000062F"]
+			id: "000000000000065A"
+			tasks: [{
+				id: "000000000000065B"
+				type: "checkmark"
+				title: "Dog Modes"
+				icon: "itemfilters:tag"
+			}]
+			rewards: [{
+				id: "000000000000065D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+	]
+}

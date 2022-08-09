@@ -1,0 +1,30 @@
+#Enable "advanced" zoom, which requires you to push a button, and use the scroll wheel to zoom in/out
+EnableAdvancedZoom = true
+
+#Simple zoom settings (used if advanced zoom is disabled
+[SimpleZoom]
+	#Set to 1.0 for maximal zoom, or 0.0 for no zoom at all
+	#Range: 0.0 ~ 1.0
+	ZoomStrength = 1.0
+	#Set by how much % your mouse sensitivy will be decreased during zooming
+	#Range: 0.0 ~ 1.0
+	ZoomMouseSensitivity = 0.25
+
+#Advanced zoom settings (used if advanced zoom is enabled
+[AdvancedZoom]
+	#Minimal zoom
+	#Range: 0.0 ~ 1.0
+	ZoomStrengthMin = 0.25
+	#Maximal zoom
+	#Range: 0.0 ~ 1.0
+	ZoomStrengthMax = 1.0
+	#Minimal Mouse sensitivity lowering
+	#Range: 0.0 ~ 1.0
+	ZoomMouseSensitivityMin = 0.019999999552965164
+	#Maximal mouse sensitivity lowering
+	#Range: 0.0 ~ 1.0
+	ZoomMouseSensitivityMax = 0.25
+	#The amount of zooming steps you'll have
+	#Range: 2 ~ 100
+	ZoomSteps = 4
+

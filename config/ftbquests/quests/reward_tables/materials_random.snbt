@@ -1,0 +1,52 @@
+{
+	id: "3931E53FF85F6579"
+	order_index: 2
+	title: "Materials Random"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:iron_ingot" }
+		{ item: "minecraft:flint", count: 6 }
+		{ item: "minecraft:stick", count: 8 }
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:long_regeneration"
+				}
+			}
+		}
+		{ item: "randomite:randomite_ore" }
+		{ item: "atum:coin_dirty" }
+		{ item: "atum:coin_gold" }
+		{ item: "minecraft:gunpowder" }
+		{ item: "minecraft:diamond" }
+		{ item: "minecraft:water_bucket" }
+		{ item: "minecraft:paper", count: 3 }
+		{ item: "minecraft:clay_ball", count: 19 }
+		{ item: "minecraft:sugar", count: 5 }
+		{ item: "aquaculture:box" }
+		{ item: "aquaculture:lockbox" }
+		{ item: "minecraft:ender_pearl", count: 2 }
+		{ item: "minecraft:gold_nugget", count: 16 }
+		{ item: "twilightforest:ironwood_raw" }
+		{ item: "minecraft:coal", count: 3 }
+		{ item: "minecraft:netherite_scrap" }
+		{ item: "minecraft:brick", count: 15 }
+		{ item: "aquaculture:treasure_chest" }
+		{ item: "ars_nouveau:magic_clay" }
+		{ item: "ars_nouveau:mana_gem", count: 4 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		glow: 1b
+		string_id: "materials_random"
+	}
+}

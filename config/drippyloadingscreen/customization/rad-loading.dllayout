@@ -1,0 +1,75 @@
+type = hud
+
+customization-meta {
+  randomgroup = 2
+  keepaspectratio = false
+  backgroundimage = config/drippyloadingscreen/loading1.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = #000000
+}
+
+customization {
+  x = 1
+  textcolor = #ffffff
+  action = editforgestatustext
+  y = -14
+}
+
+customization {
+  visible = false
+  x = 4
+  action = editprogressbar
+  y = -362
+}
+
+customization {
+  visible = false
+  x = 32
+  action = editlogo
+  y = 144
+}
+
+customization {
+  x = 9
+  textcolor = #ffffff
+  action = editforgememoryinfo
+  y = 16
+}
+
+customization {
+  orientation = bottom-left
+  x = 0
+  width = %guiwidth%
+  actionid = 81dcbd90-66d7-4adc-87f7-2b96893437a71648740562708
+  y = 0
+  action = addcustomprogressbar
+  height = 11
+  direction = right
+  barcolor = #DAA12A
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  path = config/fancymenu/buttons/rad.png
+  orientation = mid-left
+  x = 0
+  width = 415
+  action = addtexture
+  actionid = 20b4077e-6a47-4302-97ae-b51a6fd000461637413384336
+  y = 0
+  height = 80
+}
+
+customization {
+  path = config/drippyloadingscreen/is-loading.png
+  orientation = mid-left
+  x = 263
+  width = 153
+  action = addtexture
+  actionid = 1141ed1f-fdae-48da-9df4-b65f676401031637425655974
+  y = 69
+  height = 20
+}
+

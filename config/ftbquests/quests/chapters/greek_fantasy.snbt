@@ -1,0 +1,154 @@
+{
+	id: "41537843447CBF9F"
+	group: "2C344CA71B9F0CFD"
+	order_index: 3
+	filename: "greek_fantasy"
+	title: "Greek Fantasy"
+	icon: {
+		id: "greekfantasy:gold_lyre"
+		Count: 1b
+		tag: {
+			Song: "greekfantasy:greensleeves"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "19CA7A84F0C29142"
+			tasks: [{
+				id: "665441988D971B88"
+				type: "item"
+				item: "greekfantasy:dragon_tooth"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			id: "7CC541B0654F5EEB"
+			tasks: [{
+				id: "64F40646C8CD4E45"
+				type: "item"
+				item: {
+					id: "greekfantasy:unicorn_horn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			id: "170068BBB38ED03C"
+			tasks: [{
+				id: "599018FD18062095"
+				type: "item"
+				item: "greekfantasy:styxian_shard"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			id: "50A54F2DD1DC7855"
+			tasks: [{
+				id: "669CF402226BC717"
+				type: "item"
+				item: "greekfantasy:fiery_hide"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			id: "389696683B432B8E"
+			tasks: [{
+				id: "6AF4B6EF2625885C"
+				type: "item"
+				item: "greekfantasy:snake_fang"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			id: "16D1B482C458F4F3"
+			tasks: [{
+				id: "2EB84BDAC6D8DCFC"
+				type: "item"
+				item: "greekfantasy:cursed_hair"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			id: "1C91E69DED9A2DC4"
+			tasks: [{
+				id: "6FD4051386E5BCC7"
+				type: "item"
+				item: "greekfantasy:fiery_bat_wing"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			id: "024C2BE2EF98F4C2"
+			tasks: [{
+				id: "10BEF96FA883F74B"
+				type: "item"
+				item: "greekfantasy:fiery_gear"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			id: "3349BB35DAC38517"
+			tasks: [{
+				id: "2043FC54B83A92C3"
+				type: "item"
+				item: "greekfantasy:dog_claw"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.0d
+			id: "23C599B70D1149FD"
+			tasks: [{
+				id: "363009CE9045AF4B"
+				type: "item"
+				item: "greekfantasy:ichor"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			id: "5369168883EF7185"
+			tasks: [{
+				id: "19CBB907348D9B90"
+				type: "item"
+				item: "greekfantasy:ambrosia"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.0d
+			id: "7AC9EC6349232DF8"
+			tasks: [{
+				id: "73AD02493BE2F7BF"
+				type: "item"
+				item: "greekfantasy:magic_feather"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.0d
+			id: "3BC38BFA654397E1"
+			tasks: [{
+				id: "6F9AC13FF0372729"
+				type: "item"
+				item: "greekfantasy:conch"
+			}]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+version = 2
+
+# Maximum bullet travel distance (in blocks)
+bulletMaxDistance = 256.0
+
+# Musket
+
+# Standard deviation of bullet spread (in degrees)
+bulletStdDev = 1.0
+# Muzzle velocity of bullet (in blocks per second)
+bulletSpeed = 180.0
+# Minimum damage at point-blank range
+damageMin = 20.5
+# Maximum damage at point-blank range
+damageMax = 21.0
+
+# Pistol
+
+# Standard deviation of bullet spread (in degrees)
+pistolBulletStdDev = 1.5
+# Muzzle velocity of bullet (in blocks per second)
+pistolBulletSpeed = 140.0
+# Minimum damage at point-blank range
+pistolDamageMin = 12.0
+# Maximum damage at point-blank range
+pistolDamageMax = 12.5

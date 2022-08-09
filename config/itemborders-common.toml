@@ -1,0 +1,32 @@
+
+#Client Configuration
+[client]
+
+	[client.options]
+		# If the hotbar should display item borders.
+		hotbar = true
+		# If item borders should show for common items.
+		show_for_common = false
+		# If the borders should have square corners.
+		square_corners = false
+		# If automatic borders (based on item rarity) should be enabled.
+		auto_borders = true
+		# Custom border colors for specific items. Format: { <color> = ["list of selectors"] }. Selectors supported:
+		#    Item name - Use item name for vanilla items or include mod name for modded items.  Examples: "minecraft:stick", "iron_ore"
+		#    Tag - $ followed by tag name.  Examples: "$forge:stone", "$planks"
+		#    Mod name - @ followed by mod identifier.  Examples: "@spoiledeggs"
+		#    Rarity - ! followed by item's rarity.  This is ONLY vanilla rarities.  Examples: "!uncommon", "!rare", "!epic"
+		#    Item name color - # followed by color hex code, the hex code must match exactly.  Examples: "#23F632"
+		#    Display name - % followed by any text.  Will match any item with this text in its tooltip display name.  Examples: "%Netherite", "%[Uncommon]"
+		#    Tooltip text - Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: "^Legendary"
+		#    NBT tag - & followed by tag name and optional comparator (=, >, <, or !=) and value, in the format <tag><comparator><value> or just <tag>.  Examples: "&Damage=0", "&Tier>1", "&map!=128", "&Enchantments"
+		manual_borders = {}
+		# If border colors should sync with loot beam colors. (From Loot Beams mod--any custom beams colors specified in Loot Beams configuration will be displayed as borders.)
+		loot_beam_sync = true
+		# If the borders should fully envelop item slots (otherwise they will only show on the bottom portion of the slot).
+		full_border = false
+		# If the borders draw over items instead of under.
+		over_items = false
+		# If the borders should have a more prominent glow.
+		extra_glow = false
+

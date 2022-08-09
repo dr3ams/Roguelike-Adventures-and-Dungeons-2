@@ -1,0 +1,684 @@
+{
+	id: "07EF94D208BB22E8"
+	group: "67B03B24E53297B4"
+	order_index: 3
+	filename: "cheesy_business"
+	title: "Cheesy Business"
+	icon: "rats:rat_trap"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -3.0d
+			y: -3.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_rats.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			width: 4.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_rats2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -2.5d
+			y: 0.0d
+			description: [
+				"In order to protect one's lively hood from rat attacks and infestations, they can craft a rat trap"
+				""
+				"These and traditional defenses against rats, like stone houses and Ocelots can help protect against rodent infestations."
+			]
+			dependencies: ["60A98B1357B81D11"]
+			id: "03A59DE3E3891061"
+			tasks: [{
+				id: "1964E149334573AA"
+				type: "item"
+				item: "rats:rat_trap"
+			}]
+			rewards: [{
+				id: "5DBA9B3563127546"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			description: [
+				"Important aspect of Rats is cheese. Cheese is made by pouring milk into a cauldron"
+				""
+				"Asides from being a good food source, cheese is also used to tame wild rats, and for a plethora of rat-related crafting recipes."
+				""
+				""
+			]
+			dependencies: ["60A98B1357B81D11"]
+			id: "5287FD38B69C71B9"
+			tasks: [{
+				id: "62259AEA93BAC527"
+				type: "item"
+				item: "rats:cheese"
+			}]
+			rewards: [{
+				id: "2B2C0111BCAB5FFE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_monsters"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["5287FD38B69C71B9"]
+			id: "5CA79B5846DF3C0F"
+			tasks: [{
+				id: "3EFB7993E7BC41A7"
+				type: "item"
+				item: "rats:nether_cheese"
+			}]
+			rewards: [{
+				id: "1DABBDADDA2C5196"
+				type: "item"
+				item: "rats:cheese"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			description: ["Rats are small creatures that spawn at night in the overworld, just like monsters. They are usually afraid of players and will run from them on sight. They can become quite a nuisance as rats are able to dig through wooden walls, steal food and seeds from chests, and destroy crops. Additionally, rats can sneak through fences and navigate through doors."]
+			id: "60A98B1357B81D11"
+			tasks: [{
+				id: "3F6B4DE3B6DF35E5"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "3748BBC8DB9D8D3D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "05E4C1CFBAAF575D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["5CA79B5846DF3C0F"]
+			id: "66753E6C24D6C1A2"
+			tasks: [{
+				id: "0AD70F02E6E16EE1"
+				type: "item"
+				item: "rats:rat_upgrade_demon"
+			}]
+			rewards: [{
+				id: "2A4AA07E416ADAA4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			description: [
+				"Rat Cages are blocks crafted with iron bars, iron ingots, and wheat. They are used to contain and breed rats. Any rats that are riding the player's shoulders or head can be deposited in the cage by interacting with it. Rats in cages can be released by clicking on the cage again. There is no set limit to how many rats can be in a cage, but vanilla's entity cramming rules still apply. Rat cages can be decorated through the use of several items known as Rat Cage Decorations. Rat Tubes can also be connected to cages. Rat Cages connect to adjacent cage blocks to form one large cage."
+				""
+				"Rats of opposing genders in the same cage will breed as long as a Rat Breeding Lantern is placed in the cage. Their pups have a chance of having new color mutations not present in their parents."
+				""
+				"Tamed Rats can be made to do a variety of things, but one of the most important of these is auto-crafting."
+				""
+				"One can start the autocrafting process by giving a tamed rat the Crafting Upgrade, and placing the rat on top of a Rat Crafting Table"
+			]
+			dependencies: ["0FBC75A8226C78D8"]
+			id: "356CFEE6C2861E73"
+			tasks: [{
+				id: "180F2F318EEBED16"
+				type: "item"
+				item: "rats:rat_cage"
+			}]
+			rewards: [{
+				id: "1A8BE90C45BEB575"
+				type: "item"
+				item: "rats:herb_bundle"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: ["There are over 30 unique decorations for rat cages including rat hammocks and rat igloos. These can be applied to a rat cage by clicking on the cage with the respective item. They can be removed by trying to replace the decoration or by breaking the Rat Cage Block."]
+			dependencies: ["356CFEE6C2861E73"]
+			dependency_requirement: "one_completed"
+			id: "57D050BC4C4F0844"
+			tasks: [{
+				id: "42C8642C86EAAE73"
+				type: "item"
+				item: "rats:rat_water_bottle"
+			}]
+			rewards: [
+				{
+					id: "44424F8EEE788853"
+					type: "item"
+					item: "rats:cheese"
+				}
+				{
+					id: "04920061A8855C7F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: ["Rat tubes are plastic tubes that can be attached to cages and blocks. Right clicking a rat tube will create an opening for rats to enter."]
+			dependencies: ["356CFEE6C2861E73"]
+			id: "586CD4AFCDAAB1BE"
+			tasks: [{
+				id: "15D9EA7156701DB6"
+				type: "item"
+				item: "rats:rat_tube_white"
+			}]
+			rewards: [
+				{
+					id: "7A292DE3CA1CEAC9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+				{
+					id: "2B9DC7577F0A1F68"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "4BE07EA6055293CE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			description: [
+				"In order to use the Cheese Staff, it must be \"bound\" to a rat. This is done by Right-Clicking the rat with the cheese staff in hand. Once bound to a rat, the cheese staff can then be clicked on any block."
+				""
+				"Click on a chest or container block with the bound staff in hand to open up the Cheese Staff Menu. Here the player can mark the container as either a pick-up or drop off a container for the rat's various commands."
+				""
+				"The Staff can also be used to set a home point for the rat. The home point is the block that the rat will wander around when set to \"Wander\" command."
+			]
+			dependencies: ["50C9FF36FEDAC1F0"]
+			id: "2A06481BD57E5A8E"
+			tasks: [{
+				id: "36E40F19C127A2CA"
+				type: "item"
+				item: {
+					id: "rats:cheese_stick"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6B15F0025CFDFC1B"
+				type: "item"
+				item: "rats:herb_bundle"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			description: ["Rat Upgrade: Platter will allow a rat to transfer an entire stack of an items at a time. Typically, a rat without this upgrade will only transfer a single item at a time."]
+			dependencies: ["2A06481BD57E5A8E"]
+			id: "4067608F0749CF58"
+			tasks: [{
+				id: "7663A323BB53B394"
+				type: "item"
+				item: "rats:rat_upgrade_platter"
+			}]
+			rewards: [
+				{
+					id: "207B2C78CABF9BA5"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "1D974DB20310C803"
+					type: "item"
+					item: "losttrinkets:treasure_bag"
+				}
+				{
+					id: "05B369A9B0D232AA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Specialization"
+			x: 0.5d
+			y: -4.0d
+			description: [
+				"There are a multitude of upgrades that can be crafted for rats, ranging from simple health and speed boosts, to massive strength and armor gains, along with new abilities, like cooking food and carrying entire stacks of items."
+				""
+				"Most specialization of rats comes from Rat Upgrades. These give rats specific stats or abilities, and there are currently 50 rat upgrades available."
+			]
+			dependencies: ["5287FD38B69C71B9"]
+			id: "32DD2DCE063BFE76"
+			tasks: [{
+				id: "6C40DD6E0AD03F72"
+				type: "item"
+				item: "rats:rat_upgrade_basic"
+			}]
+			rewards: [{
+				id: "12D2381C7E5E19B2"
+				type: "item"
+				item: "rats:tiny_coin"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["32DD2DCE063BFE76"]
+			id: "6CD4BA301AF3F7AB"
+			tasks: [{
+				id: "6D466E509E9A2D78"
+				type: "item"
+				item: "rats:rat_upgrade_crafting"
+			}]
+			rewards: [{
+				id: "51B2442039DEE15F"
+				type: "item"
+				item: "rats:assorted_vegetables"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			dependencies: ["6CD4BA301AF3F7AB"]
+			id: "609693353E874E26"
+			tasks: [{
+				id: "24113CBB30E68EA8"
+				type: "item"
+				item: "rats:rat_crafting_table"
+			}]
+			rewards: [
+				{
+					id: "448FCB55ADF27162"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "03A884949B53C64D"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "74966C3773408867"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			description: [
+				"Taming a rat is considered difficult as they actively try and avoid players. It is impossible to tame a Plague Rat, but a normal Rat is tamed using Cheese. Like other food items, rats will eat cheese items that are thrown on the floor. However, wild rats have a trust variable that increases with each feeding of cheese. As the rat slowly trusts the player it will not flee as fast or far, and by the time it has had 10 cheese, it will trust the player enough not to flee. Once the rat has been fed cheese 10 times, each additional feeding will have a 33% chance of taming the rat. It can take up to 15 times to tame a rat. Rats are tamed when they make heart particles and can be interacted with."
+				""
+			]
+			dependencies: ["5287FD38B69C71B9"]
+			id: "0FBC75A8226C78D8"
+			tasks: [{
+				id: "38EF53E23CD9D0E4"
+				type: "checkmark"
+				title: "Taming"
+			}]
+			rewards: [
+				{
+					id: "00C84BF7CE5C1250"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "741B875925B819A5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"Tamed rats have a menu that can be accessed by interacting on them with most items or an empty hand."
+				""
+				"In this menu, the player can change the helmet and banner the rat is wearing, change the rat's 3 equipped upgrades, and the item held in the rat's hands or mouth. More importantly, the player can cycle through rat commands by pressing the arrows to the right. The current status of the rat and its gender are also displayed."
+			]
+			dependencies: ["0FBC75A8226C78D8"]
+			id: "317360572C8BEEA6"
+			tasks: [{
+				id: "12B75969C53BE39C"
+				type: "checkmark"
+				title: "Rat Menu"
+			}]
+			rewards: [
+				{
+					id: "2067D6BF4344B560"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1C1C3AB4A1D07B70"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			description: [
+				"Rats have a variety of commands that can be changed in their menu, or through the use of a Rat Flute. They are as follows:"
+				"- Wander - The rat will mill around aimlessly like most vanilla creatures. Note that the rat will still defend its owner while under this command."
+				"- Stay Here - The rat will slouch upwards and sit, not moving at all and not following any other tasks."
+				"- Follow Me - The rat will follow the owner like a Wolf, and defend the owner from attacks."
+				"- Hunt Prey - The rat will target any animals and monsters in the area and attack them. Rats will not attack baby mobs."
+				"- Gather Items - The rat will pick up any items on the floor."
+				"- Harvest - The rat will break grass blocks and crops and pick up the drops. Some upgrades, like the Rat Upgrade: Miner, Rat Upgrade: Planter and Rat Upgrade: Fisherman override this command."
+				"- Transport Items - The rat will carry items from a pickup container (like a chest) and move them to a deposit container."
+				""
+				"Note: For the Hunt Prey, Gather Items, Harvest and Transport Items commands, players can use a Cheese Staff on containers to designate them as pick up and drop off locations."
+			]
+			dependencies: ["5287FD38B69C71B9"]
+			id: "50C9FF36FEDAC1F0"
+			tasks: [{
+				id: "734AB6500F825E78"
+				type: "checkmark"
+				title: "Rat Commands"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			dependencies: ["2A06481BD57E5A8E"]
+			id: "485A458BAB25FDEE"
+			tasks: [{
+				id: "3E35D74D3FF32010"
+				type: "item"
+				item: {
+					id: "rats:radius_stick"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "341FCCA995F01DE6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+				{
+					id: "082002D0956CF1F8"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "28AF9A7102113A92"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			dependencies: ["2A06481BD57E5A8E"]
+			id: "44346160CBA71AF3"
+			tasks: [{
+				id: "7FDC480FB3988855"
+				type: "item"
+				item: {
+					id: "rats:patrol_stick"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "07689571A28077A1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+				{
+					id: "3B73D224088B4FA4"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "093E853AB14BAAC4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			description: ["Clicking with the Rat flute will make a flute noise and command all rats within the local area. Sneak+Clicking will cycle through and change the command the flute gives."]
+			dependencies: ["50C9FF36FEDAC1F0"]
+			id: "4799C026D3216A0F"
+			tasks: [{
+				id: "096EBA9426362D93"
+				type: "item"
+				item: {
+					id: "rats:rat_flute"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3416C1711869134D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+				{
+					id: "26F55C8BCF49A739"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "51D7D9969555B7D3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			dependencies: ["32DD2DCE063BFE76"]
+			id: "46F152F375420398"
+			tasks: [{
+				id: "05EAF2A05663E3F6"
+				type: "item"
+				item: "rats:rat_upgrade_miner_ore"
+			}]
+			rewards: [
+				{
+					id: "5A1855711AF8A661"
+					type: "item"
+					item: "losttrinkets:treasure_bag"
+				}
+				{
+					id: "1AA0CC39F7D3F31F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			dependencies: ["32DD2DCE063BFE76"]
+			id: "048D25F91104B7BE"
+			tasks: [{
+				id: "79199BBF05302AB1"
+				type: "item"
+				item: "rats:rat_upgrade_fisherman"
+			}]
+			rewards: [{
+				id: "0543AB9E29FDE52E"
+				type: "item"
+				item: "rats:assorted_vegetables"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			dependencies: ["32DD2DCE063BFE76"]
+			id: "11E242367E1A62FD"
+			tasks: [{
+				id: "5D6493A02C840466"
+				type: "item"
+				item: "rats:rat_upgrade_farmer"
+			}]
+			rewards: [
+				{
+					id: "3800C2E48919266E"
+					type: "item"
+					item: "rats:herb_bundle"
+				}
+				{
+					id: "115C1D5670BB5691"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			dependencies: ["32DD2DCE063BFE76"]
+			id: "0F46FC761FFE41F6"
+			tasks: [{
+				id: "1A80D2518EACE8DD"
+				type: "item"
+				item: "rats:rat_upgrade_disenchanter"
+			}]
+			rewards: [
+				{
+					id: "261163CF4CCE8B28"
+					type: "item"
+					item: "rats:assorted_vegetables"
+				}
+				{
+					id: "5114696111D819F1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			dependencies: ["32DD2DCE063BFE76"]
+			id: "2D2D191AC6593851"
+			tasks: [{
+				id: "2E19E412DCFFF21E"
+				type: "item"
+				item: "rats:rat_upgrade_shears"
+			}]
+			rewards: [
+				{
+					id: "74C0293D6B497B9C"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "7CF9332B6C31C7BD"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			dependencies: ["46F152F375420398"]
+			id: "281469D45F3FCDC9"
+			tasks: [{
+				id: "033ADB98DFE9170A"
+				type: "item"
+				item: "rats:rat_quarry"
+			}]
+			rewards: [
+				{
+					id: "4679D4C4D62AEEA2"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "2030680A6B0C36B6"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "6A0F106178353B1D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+	]
+}

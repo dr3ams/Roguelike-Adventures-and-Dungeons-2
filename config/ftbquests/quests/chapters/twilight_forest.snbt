@@ -1,0 +1,3189 @@
+{
+	id: "1133B51512D669EC"
+	group: "241F1DC7B6D6E9D6"
+	order_index: 9
+	filename: "twilight_forest"
+	title: "Twilight zone"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 9.0d
+			y: 3.0d
+			width: 30.0d
+			height: 35.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_layout.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 19.5d
+			y: -9.0d
+			width: 7.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_lich2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			width: 12.0d
+			height: 12.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_hydra2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.5d
+			y: -8.0d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_naga2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.0d
+			y: -12.5d
+			width: 15.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/twil_forest.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_ghast2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 18.0d
+			y: -1.0d
+			width: 7.0d
+			height: 7.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_mino2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 19.5d
+			y: 14.5d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_queen2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 20.0d
+			y: 5.5d
+			width: 7.0d
+			height: 7.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_yeti2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.0d
+			y: 15.0d
+			width: 7.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_troll.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			width: 6.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_phantom.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 7.0d
+			y: -8.0d
+			shape: "hexagon"
+			subtitle: "Enter the mysterious magical woodlands; the Twilight Forest."
+			size: 2.0d
+			id: "539453A048F71094"
+			tasks: [{
+				id: "307BD60C8100A631"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [{
+				id: "0EAE70B906F60E07"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "twilightforest:guide"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "twilightforest:naga_trophy"
+			x: 10.5d
+			y: -8.0d
+			subtitle: "Slay the Naga in its forest courtyard and obtain a Naga Scale to overcome the barrier magic surrounding the Lich's tower."
+			description: ["The Naga can be found in the Naga Courtyard. When killed it drops Naga Scales and a Naga Trophy along with some other loot; touching a scale will allow the player to enter the Lich Tower."]
+			dependencies: ["539453A048F71094"]
+			size: 1.5d
+			id: "4EA90E4534247A4D"
+			tasks: [{
+				id: "0F20673ED018E7C1"
+				type: "kill"
+				entity: "twilightforest:naga"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4286F9B154CCE477"
+					type: "item"
+					item: {
+						id: "randomloot:basic_case"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5DE91D6A59288CD1"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3217392E0E0EA597"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "Twilight Lich"
+			icon: "twilightforest:lich_trophy"
+			x: 14.25d
+			y: -8.0d
+			subtitle: "Slay the Twilight Lich at top of his tower and retrieve a Scepter to clear poisonous mosquitoes from the Swamp, see through blinding darkness of the Dark Forest's curse, and resist the Snowy Forest's chill."
+			description: [
+				"The Twilight Lich can be found in the Lich Tower. Killing it and getting a scepter will allow the player to enter the Swamp, Dark Forest, and Snowy Forest as well as the dungeons in each area."
+				""
+				"The next stage in Twilight Forest progression is the Twilight Swamp. The Twilight Lich must be defeated and its Scepter taken before entering this phase. Entering this stage before the Twilight Lich is defeated will inflict Hunger on the player."
+			]
+			dependencies: ["4EA90E4534247A4D"]
+			size: 1.5d
+			id: "392FE0691197DA9F"
+			tasks: [{
+				id: "4930D8AF39174807"
+				type: "advancement"
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6046CDEAFF5AD5DC"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2B71A325BD7C9F15"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6DF7C5180229699A"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "641A9E2099E8C69A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "Minoshroom"
+			icon: "twilightforest:minoshroom_trophy"
+			x: 14.25d
+			y: -1.5d
+			subtitle: "The meat and mushroom stew pleasantly warms you, enough so you feel you're acclimatised enough to venture into the Fire Swamp."
+			description: ["The Minoshroom can be found in Labyrinths, which are found in the Twilight Swamp biome. Natural entrances can be found through caves or the small hills found in the surface that lead directly to the center. The goal of this dungeon is to kill the Minoshroom. Killing it and eating one of the dropped Meef Stroganoff will allow the player to enter the Fire Swamp."]
+			dependencies: ["392FE0691197DA9F"]
+			size: 1.5d
+			id: "2D5BBCD3F940BE54"
+			tasks: [{
+				id: "2A028674EE9E84D0"
+				type: "advancement"
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "44969DB0B7AB09D5"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "29AC00989AAC7EF7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 1.75d
+			y: -1.5d
+			subtitle: "Defeat the mighty Hydra and empower yourself."
+			description: [
+				"The Hydra can be found in the Hydra Lair in the middle of a Fire Swamp. Killing it and obtaining Fiery Blood from it will complete one step to unlocking the Highlands."
+				""
+				"The next stage in Twilight Forest progression is the Dark Forest biome. Added to its already extreme darkness, players will have Blindness inflicted on them unless they have defeated the Twilight Lich first. This can be circumvented if the player is wearing a helmet enchanted with Night Vision."
+			]
+			dependencies: ["2D5BBCD3F940BE54"]
+			size: 1.5d
+			id: "5349542EAF609696"
+			tasks: [{
+				id: "539599F82AFFA74E"
+				type: "advancement"
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "115A393C8F2A6ACB"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "70103962D316BB4C"
+					type: "item"
+					item: {
+						id: "randomloot:basic_case"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0CD2B4E7BB634B1F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:knight_phantom_trophy"
+			x: 1.75d
+			y: 6.0d
+			subtitle: "Settle the restless phantoms in the Knight's Tomb and the carminite tower's devices will obey you."
+			description: ["The Knight Phantom can be found in the Goblin Knight Stronghold underneath Dark Forests. Before being able to enter the stronghold, the player must find a room with a Trophy Pedestal. On the pedestal, they must place any trophy. When placed down the shield around the stronghold will be removed.The player then needs to go through the stronghold until the Knight Phantom is found. When killed it will allow access to the Dark Tower."]
+			dependencies: ["5349542EAF609696"]
+			size: 1.5d
+			id: "2E603FCB82DC886B"
+			tasks: [{
+				id: "324B9460C3E173BA"
+				type: "kill"
+				entity: "twilightforest:knight_phantom"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "711F24E357B2D03C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7DB5A6DBA43C69B4"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2A06549689FD9B3C"
+					type: "item"
+					item: {
+						id: "randomloot:basic_case"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5E323D9505A89A4D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7BDE1004DDC6BECC"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:ur_ghast_trophy"
+			x: 9.0d
+			y: 6.0d
+			subtitle: "Touch the fiery red tears of the Ur-Ghast."
+			description: [
+				"The Ur-Ghast can be found in the Dark Tower found in the middle of the Dark Forest. It is found at the top of the tower, along with many other monsters, such as Carminite Ghastlings, Towerwood Borers, and Carminite Golems. Killing it and taking the Fiery Tears will complete one step to unlocking the Highlands."
+				""
+				"The next stage in Twilight Forest progression is in the Snowy Forest and Glacier biomes. If entered before defeating the Twilight Lich, the player will freeze and move much slower than in other biomes."
+			]
+			dependencies: ["2E603FCB82DC886B"]
+			size: 1.5d
+			id: "43FF6B04F1048E09"
+			tasks: [{
+				id: "0C38CAE4EABB8FE3"
+				type: "kill"
+				entity: "twilightforest:ur_ghast"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "00ED6BA8B6210BF7"
+					type: "item"
+					item: {
+						id: "randomloot:basic_case"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "05D6A6A544B40C0D"
+					type: "item"
+					item: {
+						id: "losttrinkets:treasure_bag"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4E8521410391D3F5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3807D2D59C0E683D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:yeti_trophy"
+			x: 16.0d
+			y: 6.0d
+			subtitle: "Line your garments with the soft fur from the Alpha Yeti, keeping you safe from the Glacier's cold."
+			description: ["The Alpha Yeti is found in the Yeti Lair, in the center of Snowy Forest biomes. There are four natural entrances. Inside the lair are many Yeti packs. Killing the Alpha Yeti and obtaining the Alpha Yeti Fur will unlock the Glacier biome."]
+			dependencies: ["43FF6B04F1048E09"]
+			size: 1.5d
+			id: "78493192F7A18FD2"
+			tasks: [{
+				id: "3B74574A7A378B5D"
+				type: "kill"
+				entity: "twilightforest:yeti_alpha"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2A45D88A3F1BA831"
+					type: "item"
+					item: {
+						id: "randomloot:basic_case"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "028D3D0A4F2C971C"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0886BF412AFF7F44"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "7966A62B59BAF6AD"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			icon: "twilightforest:snow_queen_trophy"
+			x: 13.5d
+			y: 13.5d
+			subtitle: "Defeat the Snow Queen atop the Aurora Palace."
+			description: ["The Snow Queen is found in the Aurora Palace, located in Glacier biomes. When conquered, the player will complete one step to unlocking the Highlands."]
+			dependencies: ["78493192F7A18FD2"]
+			size: 1.5d
+			id: "680FD59F7ACC7E21"
+			tasks: [{
+				id: "3AD10933377BFBF9"
+				type: "kill"
+				entity: "twilightforest:snow_queen"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "73E87BCA76D4A73F"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5C411BDCC99BA327"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1D7AB84EC5E2B4C8"
+					type: "item"
+					item: {
+						id: "losttrinkets:treasure_bag"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7A0982C0F87B3348"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "5DE15FA5529EFF18"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 13.5d
+			subtitle: "Slay the Hydra, Ur-Ghast, and Snow Queen to clear the acid rain and embolden yourself for the Highlands."
+			description: [
+				"When the Hydra, Ur-Ghast and Snow Queen have been defeated, the Highlands will unlock, revealing the final stages in progression. If entered before defeating all three bosses, the player will be damaged by acid rain."
+				""
+				"Unlike previous stages, the Highlands does not have a boss to defeat, rather an item to obtain to get to the center. This area is split into two: the Troll Cave and the Cloud Cottage. To complete this achievement, the player must obtain the Lamp of Cinders from inside an Obsidian vault, requiring a Giant's Pickaxe to break in. Once the Lamp is acquired, the player can move on to the next stage."
+			]
+			dependencies: ["680FD59F7ACC7E21"]
+			size: 1.5d
+			id: "1753F7DDF2ADEFFB"
+			tasks: [{
+				id: "59DC7AC06246775E"
+				type: "advancement"
+				advancement: "twilightforest:progress_merge"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4882BF8B31070412"
+					type: "item"
+					item: {
+						id: "randomloot:basic_case"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1370BEF9E9E03BA0"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "054272810F4CA823"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "40E20B8E2F357C9C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5553F2945EABA3F9"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 13.5d
+			dependencies: ["1753F7DDF2ADEFFB"]
+			id: "04E37D5F670BF1EF"
+			tasks: [{
+				id: "561F18C72A436EC2"
+				type: "kill"
+				entity: "twilightforest:troll"
+				value: 1L
+			}]
+			rewards: [{
+				id: "14E4C4F401972E85"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingots_valuable"
+						rpgloot.randomize: 0b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 13.5d
+			dependencies: ["1A898BE14947DF6B"]
+			id: "0A11D3845D8F231B"
+			tasks: [{
+				id: "241D4783AA74782D"
+				type: "kill"
+				entity: "twilightforest:giant_miner"
+				value: 1L
+			}]
+			rewards: [{
+				id: "382092897640E0B3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_random"
+						rpgloot.randomize: 0b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 13.5d
+			dependencies: ["04E37D5F670BF1EF"]
+			id: "1A898BE14947DF6B"
+			tasks: [{
+				id: "16DB4D91424F9116"
+				type: "item"
+				item: {
+					id: "twilightforest:magic_beans"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "367DDCD4A01CA410"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "potions"
+						rpgloot.randomize: 0b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 13.5d
+			dependencies: ["0A11D3845D8F231B"]
+			id: "76A2F6D8DEEDE474"
+			tasks: [{
+				id: "76CEB8ADBEB6CDD4"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "319814BDCD88F94A"
+				type: "item"
+				item: {
+					id: "aquaculture:treasure_chest"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 13.5d
+			description: ["The Thornlands stage is the final functioning stage in Twilight Forest. It is completed by simply burning through the dense bushes of Thorns with a Lamp of Cinders. This allows the player to move onto the final stage of progression."]
+			dependencies: ["76A2F6D8DEEDE474"]
+			id: "19B32C52F6F2C275"
+			tasks: [{
+				id: "5C2E039600515C81"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0E9A9D0630EC8EA9"
+					type: "item"
+					item: {
+						id: "randomloot:golden_case"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "03324B41C3FE9DC0"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "33AFFFF9B693EB14"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "564CAABEF28C0FD9"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -6.5d
+			dependencies: ["4EA90E4534247A4D"]
+			id: "77DB32C64BF7962B"
+			tasks: [
+				{
+					id: "3F4B65D6E3CDACC4"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:fire_protection"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "63A8A8BF41C49B62"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:protection"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3BF5F90D7E7BD310"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "328846247D490FBB"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -10.0d
+			dependencies: ["392FE0691197DA9F"]
+			id: "27A065BD26842CD3"
+			tasks: [{
+				id: "20A4C21ED34C404C"
+				type: "item"
+				item: {
+					id: "twilightforest:zombie_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D7BFAEC294639B7"
+				type: "item"
+				item: {
+					id: "ars_nouveau:greater_experience_gem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: -10.0d
+			dependencies: ["392FE0691197DA9F"]
+			id: "48672320EA3BBE52"
+			tasks: [
+				{
+					id: "64E6152FD4835862"
+					type: "item"
+					item: {
+						id: "twilightforest:twilight_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "263E078C44BC7FDD"
+					type: "item"
+					item: {
+						id: "twilightforest:lifedrain_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5F8435BE27FA79EB"
+					type: "item"
+					item: {
+						id: "twilightforest:shield_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4D6925FB2C6398A1"
+				type: "item"
+				item: {
+					id: "aquaculture:treasure_chest"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.5d
+			dependencies: ["2D5BBCD3F940BE54"]
+			id: "4ED928DF3D7629F7"
+			tasks: [{
+				id: "7336A11E084413B2"
+				type: "item"
+				item: {
+					id: "twilightforest:meef_stroganoff"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4BD4EB9D49E04460"
+				type: "item"
+				item: {
+					id: "roughtweaks:salve"
+					Count: 1b
+					tag: {
+						Damage: 0
+						rpgloot.randomize: 0b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: -3.0d
+			dependencies: ["2D5BBCD3F940BE54"]
+			id: "2CA0B2EC7C8E1F8A"
+			tasks: [{
+				id: "0127E67130B9A9F8"
+				type: "item"
+				item: {
+					id: "twilightforest:minotaur_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A699DE497F133FA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "300BFEDFD36B1084"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["5349542EAF609696"]
+			id: "60850D22B87DAF3D"
+			tasks: [{
+				id: "3B6370D655DC9154"
+				type: "item"
+				item: {
+					id: "twilightforest:hydra_chop"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7F1916D521C4DD15"
+					type: "item"
+					item: {
+						id: "roughtweaks:salve"
+						Count: 1b
+						tag: {
+							Damage: 0
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "08FA4B42D187BCE6"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:bandage"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["5349542EAF609696"]
+			id: "5B4FCB841C143C8C"
+			tasks: [{
+				id: "2C018BCCE844A8D9"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0A5EB7BE6E6AC20A"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:bandage"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0D774EE1877CF68B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["5B4FCB841C143C8C"]
+			id: "452F897D00F27CD1"
+			tasks: [{
+				id: "6AEE28F78E829F5F"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4EF8C2E1B45B389A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "potions"
+						rpgloot.randomize: 0b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			dependencies: ["5B4FCB841C143C8C"]
+			id: "55DEDAE298ABD5E1"
+			tasks: [
+				{
+					id: "5EE1D0A67302FAE5"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "689A92D46BC3DFD0"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "524D746D0CE172F4"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1CB1CB80C2B8B8CF"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "56B4A68787A241B5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_monsters"
+						rpgloot.randomize: 0b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 8.0d
+			dependencies: ["2E603FCB82DC886B"]
+			id: "236B3A5578BB02A2"
+			tasks: [{
+				id: "01B9E44DA4062CF3"
+				type: "item"
+				item: {
+					id: "twilightforest:phantom_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "16F975BDCF627482"
+				type: "item"
+				item: {
+					id: "roughtweaks:salve"
+					Count: 1b
+					tag: {
+						Damage: 0
+						rpgloot.randomize: 0b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			dependencies: ["2E603FCB82DC886B"]
+			id: "7B6BDA10E18D81E1"
+			tasks: [{
+				id: "253E086606512516"
+				type: "item"
+				item: {
+					id: "twilightforest:phantom_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3198FDDF164004D5"
+				type: "item"
+				item: {
+					id: "majruszs_difficulty:bandage"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -10.0d
+			dependencies: ["4EA90E4534247A4D"]
+			id: "69C8DD71CCA0B2EE"
+			tasks: [{
+				id: "3D72E485FC4460AE"
+				type: "item"
+				item: {
+					id: "twilightforest:charm_of_life_1"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "74E558A7773133A2"
+				type: "item"
+				item: {
+					id: "ars_nouveau:greater_experience_gem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -10.0d
+			dependencies: ["69C8DD71CCA0B2EE"]
+			id: "330A51B23D7F0CDD"
+			tasks: [{
+				id: "36927078023DEB59"
+				type: "item"
+				item: {
+					id: "twilightforest:charm_of_life_2"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1514160929CA9BFA"
+					type: "item"
+					item: {
+						id: "randomloot:basic_case"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5251B871B59F437E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 8.0d
+			dependencies: ["43FF6B04F1048E09"]
+			id: "0054F0E9BAE7842E"
+			tasks: [{
+				id: "1F374D22AA90CB6C"
+				type: "item"
+				item: {
+					id: "twilightforest:carminite"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B5FDEE64B5DBC08"
+				type: "item"
+				item: {
+					id: "majruszs_difficulty:bandage"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.5d
+			dependencies: ["4EA90E4534247A4D"]
+			id: "4BCAB2B1FBD6B2ED"
+			tasks: [{
+				id: "36FE3810EBB3AF53"
+				type: "item"
+				item: {
+					id: "twilightforest:charm_of_keeping_1"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "48EFDBB13BCA0780"
+					type: "item"
+					item: {
+						id: "losttrinkets:treasure_bag"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4FA2605A53787938"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 7.5d
+			dependencies: ["78493192F7A18FD2"]
+			id: "5EA6F61A0ACC5A78"
+			tasks: [{
+				id: "689207BFA6216ADB"
+				type: "item"
+				item: {
+					id: "twilightforest:alpha_fur"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C2364BC1F4B4B61"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_monsters"
+						rpgloot.randomize: 0b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: 8.5d
+			dependencies: ["5EA6F61A0ACC5A78"]
+			id: "0A7717B4ABB3CAAF"
+			tasks: [{
+				id: "005B761E66506814"
+				type: "item"
+				item: {
+					id: "twilightforest:yeti_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 2s
+								id: "minecraft:protection"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:feather_falling"
+							}
+						]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0EF2EFDBE7A28B2D"
+				type: "item"
+				item: {
+					id: "twilightforest:charm_of_life_1"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 15.5d
+			dependencies: ["680FD59F7ACC7E21"]
+			id: "7895F78F275CDD0A"
+			tasks: [{
+				id: "1C9E01E9E6AC1F13"
+				type: "item"
+				item: {
+					id: "twilightforest:triple_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4AF701A080F367BD"
+					type: "item"
+					item: {
+						id: "twilightforest:charm_of_keeping_1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "06667BB4929670E8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "40942CB17A32E34A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "potions"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 15.5d
+			dependencies: ["680FD59F7ACC7E21"]
+			id: "49B04D5A2166E27C"
+			tasks: [{
+				id: "2D30985925B7FC89"
+				type: "item"
+				item: {
+					id: "twilightforest:seeker_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "254AA9D5E6D54451"
+					type: "item"
+					item: {
+						id: "twilightforest:charm_of_keeping_1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7454393B3BC9AE3C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 15.5d
+			dependencies: ["680FD59F7ACC7E21"]
+			id: "2F0DAD544F0C0E31"
+			tasks: [{
+				id: "7711671ED04B1A77"
+				type: "item"
+				item: {
+					id: "twilightforest:ender_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "469CC629B6AAFDF8"
+					type: "item"
+					item: {
+						id: "twilightforest:charm_of_life_1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7BB0E9EFCCED0914"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -10.0d
+			id: "06B73D35B0EC71B6"
+			tasks: [{
+				id: "37F5544DB436BABF"
+				type: "item"
+				item: {
+					id: "twilightforest:ice_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+						"dungeons_gear:bow": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C4854D786B1A554"
+				type: "item"
+				item: {
+					id: "randomite:randomite_ore"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.5d
+			dependencies: ["2D5BBCD3F940BE54"]
+			id: "68B82F7514264D71"
+			tasks: [{
+				id: "5437E161E2672FF4"
+				type: "item"
+				item: {
+					id: "twilightforest:mazebreaker_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6590C1D144B2CA2B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingots_valuable"
+						rpgloot.randomize: 0b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -10.0d
+			description: ["The Questing Ram is a friendly boss animal added by Twilight Forest. He is found in the Quest Grove, which can only be found in the Enchanted Forest biome. Unlike other bosses, this animal is not meant to be slain. Instead, the player is supposed to complete his Quest of giving it Wool in every color. Wool can be given to him by dropping the Wool under the Ram, or by using the Wool on him. Each time a block of Wool is given his body will elongate and a stripe of that color wool will be added to his body."]
+			dependencies: ["539453A048F71094"]
+			id: "3B03FB1361F6D5C7"
+			tasks: [{
+				id: "2B907FDABF072042"
+				type: "advancement"
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.0d
+			y: -10.0d
+			dependencies: ["3B03FB1361F6D5C7"]
+			id: "397890EB285B0849"
+			tasks: [{
+				id: "77F1649FC0554A23"
+				type: "item"
+				item: {
+					id: "twilightforest:crumble_horn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			dependencies: ["3DA5A105662621B3"]
+			id: "5D6C0AB1641EB02E"
+			tasks: [{
+				id: "17F944328BBFD47D"
+				type: "item"
+				item: {
+					id: "twilightforest:peacock_fan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2D92CC495569E1A4"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0979AECACE2E0456"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3857DADA3A7F8710"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -9.0d
+			dependencies: ["3DA5A105662621B3"]
+			id: "4F7A110F8D369099"
+			tasks: [{
+				id: "25511221CEF2B828"
+				type: "item"
+				item: {
+					id: "twilightforest:moonworm_queen"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2425C6F1A6AA0E10"
+					type: "item"
+					item: {
+						id: "losttrinkets:treasure_bag"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2899F24B4707F4C9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -8.0d
+			subtitle: "Hunt some of the local wildlife."
+			dependencies: ["539453A048F71094"]
+			id: "1FFD924446E28C60"
+			tasks: [{
+				id: "276DFDBF717CB08F"
+				type: "item"
+				item: {
+					id: "twilightforest:magic_map_focus"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4C3A259D2B8BAF5A"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "120D8CD53C01570C"
+					type: "item"
+					item: {
+						id: "roughtweaks:salve"
+						Count: 1b
+						tag: {
+							Damage: 0
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			dependencies: ["1FFD924446E28C60"]
+			id: "3DA5A105662621B3"
+			tasks: [{
+				id: "5A24FB0A42778A97"
+				type: "item"
+				item: {
+					id: "twilightforest:magic_map_empty"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3880858FA3B9C5FA"
+				type: "item"
+				item: {
+					id: "ars_nouveau:greater_experience_gem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: -5.5d
+			dependencies: ["4BCAB2B1FBD6B2ED"]
+			id: "7B55DE3A8A23CF39"
+			tasks: [{
+				id: "4416D9C81BD4E692"
+				type: "item"
+				item: {
+					id: "twilightforest:charm_of_keeping_2"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "76C17914653E3008"
+				type: "item"
+				item: {
+					id: "minecraft:golden_apple"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -5.5d
+			dependencies: ["7B55DE3A8A23CF39"]
+			id: "717FFC8EB7AAB446"
+			tasks: [{
+				id: "38295C52071E5394"
+				type: "item"
+				item: {
+					id: "twilightforest:charm_of_keeping_3"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7207FBA7A0B72E7F"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "277139A4D1EEC78F"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "124227A62A4AEA30"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -10.0d
+			id: "12A60ED4122F8DF6"
+			tasks: [{
+				id: "5796908C38F619B3"
+				type: "item"
+				item: {
+					id: "twilightforest:transformation_powder"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "64EE3D948A7410D1"
+				type: "item"
+				item: {
+					id: "losttrinkets:treasure_bag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 8.0d
+			dependencies: ["43FF6B04F1048E09"]
+			id: "49A6F814FDCD73FA"
+			tasks: [{
+				id: "0E809B1DAB54EEB0"
+				type: "item"
+				item: {
+					id: "twilightforest:experiment_115"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C41D1C146B79A1B"
+				type: "item"
+				item: {
+					id: "losttrinkets:treasure_bag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 3.5d
+			dependencies: ["78493192F7A18FD2"]
+			id: "7CFDC9D05792B0F7"
+			tasks: [{
+				id: "004111041AFF2328"
+				type: "item"
+				item: {
+					id: "twilightforest:arctic_fur"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "07934FEEA211ADB1"
+				type: "item"
+				item: {
+					id: "twilightforest:charm_of_life_1"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 13.0d
+			dependencies: ["680FD59F7ACC7E21"]
+			id: "783894B924DADBF3"
+			tasks: [{
+				id: "6DB1319EBB15C2E6"
+				type: "item"
+				item: {
+					id: "twilightforest:ice_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7CA8F24AE2A86C6A"
+					type: "item"
+					item: {
+						id: "twilightforest:charm_of_life_1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "240B2F73965055AD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 14.0d
+			dependencies: ["680FD59F7ACC7E21"]
+			id: "4ECAAA1CD6BE4BF5"
+			tasks: [{
+				id: "1A92E39BB58BB84A"
+				type: "item"
+				item: {
+					id: "twilightforest:glass_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7B07ED8F6D9F5B18"
+					type: "item"
+					item: {
+						id: "twilightforest:charm_of_keeping_1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1B08FCD42A7880F2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -10.0d
+			dependencies: ["3DA5A105662621B3"]
+			id: "55BF8309DB1F164E"
+			tasks: [{
+				id: "2DBC738F3EA29777"
+				type: "item"
+				item: {
+					id: "twilightforest:maze_map_empty"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1369AEA9F0C61774"
+				type: "item"
+				item: {
+					id: "randomite:randomite_ore"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 8.0d
+			dependencies: ["43FF6B04F1048E09"]
+			id: "1CA63912FEC9F2F1"
+			tasks: [{
+				id: "2F323BE3FF2C474A"
+				type: "item"
+				item: {
+					id: "twilightforest:knightmetal_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "48D5DD294183EBB1"
+				type: "item"
+				item: {
+					id: "ars_nouveau:greater_experience_gem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			dependencies: ["3DA5A105662621B3"]
+			id: "56393E6D9603847B"
+			tasks: [{
+				id: "2DB21B4592253160"
+				type: "item"
+				item: {
+					id: "twilightforest:steeleaf_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "29D38BDA5317A912"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "440500B9813529B3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -6.5d
+			dependencies: ["539453A048F71094"]
+			id: "04342EF31AB96881"
+			tasks: [{
+				id: "07B6DC966D68F28A"
+				type: "item"
+				item: {
+					id: "twilightforest:ironwood_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7D4EA9E01D682A08"
+				type: "item"
+				item: {
+					id: "minecraft:golden_apple"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			dependencies: ["56393E6D9603847B"]
+			id: "6D5895760DE85DBB"
+			tasks: [
+				{
+					id: "49FEDCD0CDF6C9DB"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:blast_protection"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3051F6A8DE45F95A"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:projectile_protection"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0B1BB1ECD7F383BF"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:feather_falling"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "368247D3A024B5C4"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:fire_protection"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3A0074E77B42A022"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3EF9235C0991D5F9"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			dependencies: ["04342EF31AB96881"]
+			id: "4CD5D945469ED7CD"
+			tasks: [
+				{
+					id: "3402FF086F109E70"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2C05314E4B5EABEB"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:protection"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "57D586ACD0A8D948"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:feather_falling"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "126287E15A95443A"
+					type: "item"
+					item: {
+						id: "twilightforest:ironwood_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:aqua_affinity"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7BF33F2D8FFE4A88"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4751C20151E0C123"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "77E67D8C01F24042"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			dependencies: ["56393E6D9603847B"]
+			id: "791467693193FE2C"
+			tasks: [{
+				id: "7DD8D43FC472D769"
+				type: "item"
+				item: {
+					id: "twilightforest:steeleaf_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "minecraft:fortune"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "408AF34B167E39BD"
+				type: "item"
+				item: {
+					id: "randomloot:basic_case"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			dependencies: ["56393E6D9603847B"]
+			id: "29DC2B7477E00670"
+			tasks: [{
+				id: "52830A225F9060F4"
+				type: "item"
+				item: {
+					id: "twilightforest:steeleaf_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "minecraft:looting"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "770DDE2C2385D466"
+					type: "item"
+					item: {
+						id: "randomloot:basic_case"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "371D1D58C09BFBCC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -6.5d
+			dependencies: ["04342EF31AB96881"]
+			id: "1F3527F5941E03C1"
+			tasks: [{
+				id: "45B9DD44CB0618B2"
+				type: "item"
+				item: {
+					id: "twilightforest:ironwood_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:knockback"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "783C104DEC5DFDA1"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2286D7FD01510E7B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -5.5d
+			dependencies: ["04342EF31AB96881"]
+			id: "13D7D177D3D16A11"
+			tasks: [{
+				id: "626420C6A7583BCA"
+				type: "item"
+				item: {
+					id: "twilightforest:ironwood_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:efficiency"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "28FE3F7E323D59F7"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3BE0B9FDF66A4EB5"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 9.0d
+			dependencies: ["1CA63912FEC9F2F1"]
+			id: "5A77C5DF43E148DD"
+			tasks: [{
+				id: "252469E332F10CAB"
+				type: "item"
+				item: {
+					id: "twilightforest:knightmetal_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "70F8F9D13ACB4A56"
+					type: "item"
+					item: {
+						id: "twilightforest:charm_of_keeping_1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6EA8648D5ABF710F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 9.0d
+			dependencies: ["1CA63912FEC9F2F1"]
+			id: "6DAE4853C05E792B"
+			tasks: [{
+				id: "116AF5959D257E81"
+				type: "item"
+				item: {
+					id: "twilightforest:block_and_chain"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "41FEEA00F2F210DF"
+					type: "item"
+					item: {
+						id: "twilightforest:charm_of_keeping_1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1ADD3A883B9064D9"
+					type: "item"
+					item: {
+						id: "roughtweaks:salve"
+						Count: 1b
+						tag: {
+							Damage: 0
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			description: ["Get your axes and shears ready! Search every nook and cranny and get anything and everything that comes from trees! Craft, loot, obtain every slab... sapling... leaves... more... everything. ALL OF IT! "]
+			id: "4BA7DC6CA55620AB"
+			tasks: [{
+				id: "1248CDC2A4B7663D"
+				type: "advancement"
+				advancement: "twilightforest:arborist"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "003D090B286EE741"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+					random_bonus: 20
+				}
+				{
+					id: "01125639EDFBBCF8"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6C52B911382AEE10"
+					type: "item"
+					item: {
+						id: "randomloot:golden_case"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2117895550104B67"
+					type: "item"
+					item: {
+						id: "losttrinkets:treasure_bag"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

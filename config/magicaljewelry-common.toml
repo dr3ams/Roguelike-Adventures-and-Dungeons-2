@@ -1,0 +1,76 @@
+
+#Effect Settings
+[effect_settings]
+	#Amount of effects for Uncommon rarity [default: 1]
+	#Range: 0 ~ 3
+	uncommonAmount = 1
+	#Amount of effects for Rare rarity [default: 2]
+	#Range: 0 ~ 4
+	rareAmount = 2
+	#Amount of effects for Epic rarity [default: 2]
+	#Range: 0 ~ 5
+	epicAmount = 2
+	#Amount of effects for Legendary rarity, excluding Legendary Effect [default: 2]
+	#Range: 0 ~ 6
+	legendaryAmount = 2
+	#Max level for combined effects [default: 2]
+	#Range: 1 ~ 3
+	maxEffectLevel = 2
+	#Should Epic and Legendary rarity have attributes
+	epicLegendaryAttributes = true
+	#Should Legendary rarity have special effects
+	legendaryEffects = true
+	#Should Regeneration effect be combinable to level 2
+	regenerationCombinable = false
+
+#Durability Settings
+[jewel_durability]
+	#Should Jewels have durability, Legendary rarity is always unbreakable
+	jewelDurability = true
+	#Set the durability of Uncommon rarity [default: 7200]
+	#Range: 600 ~ 21600
+	uncommonDurability = 7200
+	#Set the durability of Rare rarity [default: 14400]
+	#Range: 600 ~ 21600
+	rareDurability = 14400
+	#Set the durability of Epic rarity [default: 21600]
+	#Range: 600 ~ 21600
+	epicDurability = 21600
+
+#Rarity Drop Settings
+[rarity_drop_settings]
+	#Note that to change the drop rate for Uncommon rarity, you have to change the other values.
+	#If Rare, Epic and Legendary are all at max drop rate, Uncommon will not be able to drop.
+	#Drop rate for Rare rarity [default: 30]
+	#Range: 15 ~ 60
+	rareDrop = 30
+	#Note that to change the drop rate for Uncommon rarity, you have to change the other values.
+	#If Rare, Epic and Legendary are all at max drop rate, Uncommon will not be able to drop.
+	#Drop rate for Epic rarity [default: 15]
+	#Range: 5 ~ 30
+	epicDrop = 15
+	#Note that to change the drop rate for Uncommon rarity, you have to change the other values.
+	#If Rare, Epic and Legendary are all at max drop rate, Uncommon will not be able to drop.
+	#Drop rate for Legendary rarity [default: 5]
+	#Range: 1 ~ 10
+	legendaryDrop = 5
+	#Should there only be one rarity that can drop
+	oneRarityDrop = false
+	#Pick what rarity to drop, if oneRarityDrop is enabled
+	#Allowed Values: UNCOMMON, RARE, EPIC, LEGENDARY
+	jewelRarityToDrop = "UNCOMMON"
+	#Should Legendary rarity be upgrade only. If upgrading is disabled, you can't get Legendary rarity
+	legendaryUpgradeOnly = false
+	#Should Jewels be able to be upgraded
+	disableUpgrading = false
+
+#Jewels in chests
+[jewels_in_chests]
+	#Jewels can be found in chests
+	jewelsInChest = true
+
+#Misc Jewel Settings
+[misc_jewel_settings]
+	#Disable Effect Icons in the top right corner
+	effectIconDisabled = false
+

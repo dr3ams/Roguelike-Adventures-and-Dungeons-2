@@ -1,0 +1,19 @@
+{
+  "name": "frog_food",
+  "requirement": "A minimum of 1 Item is required.",
+  "info": [
+    "item; Can be an Item name like: minecraft:wheat. Or it can be an Item Tag like: tag:forge:seeds.",
+    "breeding; Determines if this Item can be used to breed.",
+    "healAmount; Is the amount of half a hearts this Item will heal.",
+    "growthAmount; Is the amount of ticks this Item will advance the Age of a Baby. A Baby needs 24000 ticks to become an adult.",
+    "(20 ticks is 1 second. This means that a Baby needs 1200 seconds, or 20 minutes, to become an adult.)"
+  ],
+  "items": [
+    {
+      "item": "minecraft:spider_eye",
+      "breeding": true,
+      "healAmount": 2,
+      "growthAmount": 40
+    }
+  ]
+}

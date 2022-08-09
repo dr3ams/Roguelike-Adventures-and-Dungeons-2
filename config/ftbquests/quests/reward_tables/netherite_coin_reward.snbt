@@ -1,0 +1,21 @@
+{
+	id: "780A6CFC2F1EFBE6"
+	order_index: 17
+	title: "Netherite coin reward"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "legendary_loot_crate"
+				}
+			}
+		}
+		{ item: "kubejs:diamond_coin", count: 3 }
+		{ item: "minecraft:netherite_ingot" }
+		{ item: "randomite:randomite_ore", count: 15 }
+		{ item: "minecraft:totem_of_undying" }
+	]
+}

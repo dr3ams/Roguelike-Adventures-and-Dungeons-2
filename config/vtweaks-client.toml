@@ -1,0 +1,19 @@
+
+#Client Configuration Settings
+[client_configs]
+	#Enable a recurring heartbeat sound when health drops below a threshold
+	enableLowHealthSound = false
+	#The volume at which to play the low health sound (if enabled)
+	#Range: 0.0 ~ 1.0
+	lowHealthSoundVolume = 0.5
+	#The highest health percentage the player must have to trigger the low health sound
+	#Range: 0.0 ~ 1.0
+	lowHealthSoundThreshold = 0.25
+	#The frequency with which the low health sound will play (in milliseconds)
+	#Range: 0 ~ 9223372036854775807
+	lowHealthSoundFrequency = 2000
+	#Enable colored particles for challenger mobs (dependent on particle setting as well)
+	enableChallengerMobParticles = true
+	#If enabled, all bees will always be half-sized. Does not affect breeding or hitboxes
+	enableSmallBees = false
+

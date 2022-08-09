@@ -1,0 +1,110 @@
+
+[General]
+	#If all applicable items should recive random modifiers. Else they must be randomized through nbt.
+	modify_all = true
+	#Changes the base strength of "most" modifiers, default 0.2D (20%)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	global_strength_modifier = 0.2
+	#Chance of the item not having a prefix or suffix (seperate)
+	#Range: 0.0 ~ 1.0
+	empty_affix_chance = 0.2
+	#If the rarity should be dimmed.
+	dim_rarity_tooltip = true
+
+#Chance of a rarity being chosen out of the others.
+["Rarity Weights"]
+	#Range: > 0
+	0_common = 11
+	#Range: > 0
+	1_uncommon = 10
+	#Range: > 0
+	2_rare = 7
+	#Range: > 0
+	3_epic = 4
+	#Range: > 0
+	4_legendary = 1
+	#Range: > 0
+	5_mythic = 0
+
+#Registry names of items that the modifier should also be applied to.
+["Item Additions"]
+	arcaneshielding = []
+	frost = []
+	fire = []
+	learning = []
+	speed = []
+	lifesteal = []
+	mending = []
+	swiftness = []
+	guarding = []
+	reaching = []
+	regeneration = []
+	critical = []
+	lightning = []
+	aquatic = []
+
+#Strength Multiplier of each modifier. (this is also multiplied by global_strength_modifier)
+["Strength Multipliers"]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	arcaneshielding = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	frost = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	fire = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	learning = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	speed = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	lifesteal = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	mending = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	swiftness = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	guarding = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	reaching = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	regeneration = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	critical = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	lightning = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	aquatic = 1.0
+
+#Chance of the prefix being chose out of others.
+["Prefix Weights"]
+	#Range: > 0
+	frost = 5
+	#Range: > 0
+	fire = 5
+	#Range: > 0
+	lifesteal = 5
+	#Range: > 0
+	mending = 0
+	#Range: > 0
+	reaching = 0
+	#Range: > 0
+	critical = 5
+	#Range: > 0
+	lightning = 5
+	#Range: > 0
+	aquatic = 5
+
+#Chance of the suffix being chose out of others.
+["Suffix Weights"]
+	#Range: > 0
+	arcaneshielding = 5
+	#Range: > 0
+	learning = 5
+	#Range: > 0
+	speed = 5
+	#Range: > 0
+	swiftness = 5
+	#Range: > 0
+	guarding = 5
+	#Range: > 0
+	regeneration = 5
+

@@ -1,0 +1,70 @@
+
+#Beam Config
+["Loot Beams"]
+	#If beams should be colored the same as the Items name (excludes name colors from rarity). This has priority over render_rarity_color.
+	render_name_color = true
+	#If beams should be colored the same as the Items rarity.
+	render_rarity_color = true
+	#The radius of the Loot Beam.
+	#Range: 0.0 ~ 5.0
+	beam_radius = 1.0
+	#The height of the Loot Beam.
+	#Range: 0.0 ~ 10.0
+	beam_height = 1.0
+	#The Y-offset of the loot beam.
+	#Range: -30.0 ~ 30.0
+	beam_y_offset = 0.0
+	#Transparency of the Loot Beam.
+	#Range: 0.0 ~ 1.0
+	beam_alpha = 0.85
+	#How close the player has to be to see the beam. (note: ItemEntities stop rendering at 24 blocks, so that is the limit for beams)
+	#Range: 0.0 ~ 24.0
+	render_distance = 24.0
+	#Overrides an item's beam color with hex color. Must follow the specific format: (registryname=hexcolor) Or (#tagname=hexcolor). Example: "minecraft:stone=0xFFFFFF". This also accepts modids.
+	color_overrides = []
+
+	#Item Config
+	["Loot Beams".Items]
+		#If all Items Loot Beams should be rendered. Has priority over only_equipment and only_rare.
+		all_items = true
+		#If Loot Beams should only be rendered on items with rarity.
+		only_rare = false
+		#If Loot Beams should only be rendered on equipment. (Equipment includes: Swords, Tools, Armor, Shields, Bows, Crossbows, Tridents, Arrows, and Fishing Rods)
+		only_equipment = false
+		#Registry names of items that Loot Beams should render on. Example: "minecraft:stone", "minecraft:iron_ingot", You can also specify modids for a whole mod's items.
+		whitelist = []
+		#Registry names of items that Loot Beams should NOT render on. This has priority over everything. You can also specify modids for a whole mod's items.
+		blacklist = ["minecraft:air", "bountiful:bounty", "minecraft:stone", "minecraft:netherrack", "minecraft:dirt", "minecraft:cobblestone", "minecraft:andesite", "minecraft:bamboo", "minecraft:basalt", "minecraft:birch_sapling", "minecraft:acacia_sapling", "minecraft:clay_ball", "minecraft:coal", "minecraft:dark_oak_sapling", "minecraft:diorite", "minecraft:egg", "minecraft:ender_pearl", "minecraft:glowstone_dust", "minecraft:glowstone", "minecraft:granite", "minecraft:gravel", "minecraft:jungle_sapling", "minecraft:kelp", "minecraft:mycelium", "minecraft:oak_sapling", "minecraft:podzol", "minecraft:spruce_sapling", "minecraft:wheat_seeds"]
+
+	#Item nametags
+	["Loot Beams".Nametags]
+		#Render nametags as bordered. Set to false for flat nametag with background.
+		borders = true
+		#If Item nametags should be rendered.
+		render_nametags = true
+		#If Item nametags should be rendered when looking at items.
+		render_nametags_onlook = true
+		#If the count of item's should also be shown in the nametag.
+		render_stackcount = true
+		#How close the player has to look at the item to render the nametag.
+		#Range: 0.0 ~ 5.0
+		nametag_look_sensitivity = 0.018
+		#Transparency of the nametag text.
+		#Range: 0.0 ~ 1.0
+		nametag_text_alpha = 1.0
+		#Transparency of the nametag background/border.
+		#Range: 0.0 ~ 1.0
+		nametag_background_alpha = 0.5
+		#Scale of the nametag.
+		#Range: -10.0 ~ 10.0
+		nametag_scale = 1.0
+		#The Y-offset of the nametag.
+		#Range: -30.0 ~ 30.0
+		nametag_y_offset = 0.75
+		#If a smaller tag should be rendered under with DMCLoot rarities.
+		dmcloot_compat_rarity = true
+		#Define what the smaller tag should render on. Example: "Exotic", "Ancient". The string supplied has to be the tooltip line below the name. This is really only used for modpacks.
+		custom_rarities = []
+		#If rarities should ignore color and render as white (This is really only used for modpacks)
+		white_rarities = false
+

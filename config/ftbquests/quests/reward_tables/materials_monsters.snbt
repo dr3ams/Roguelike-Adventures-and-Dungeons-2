@@ -1,0 +1,69 @@
+{
+	id: "4E7BD9543DD23B4E"
+	order_index: 1
+	title: "Materials Monsters"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "twilightforest:raven_feather" }
+		{ item: "twilightforest:armor_shard" }
+		{ item: "alexsmobs:gazelle_horn" }
+		{ item: "rats:plague_essence" }
+		{ item: "alexsmobs:bone_serpent_tooth" }
+		{ item: "alexsmobs:rattlesnake_rattle" }
+		{ item: "alexsmobs:kangaroo_hide", count: 2 }
+		{ item: "tropicraft:iguana_leather" }
+		{ item: "aquaculture:lockbox" }
+		{ item: "minecraft:bone" }
+		{ item: "minecraft:rabbit" }
+		{ item: "minecraft:slime_ball", count: 4 }
+		{ item: "minecraft:fermented_spider_eye" }
+		{ item: "aquaculture:box" }
+		{ item: "minecraft:horse_spawn_egg" }
+		{ item: "upgrade_aquatic:glow_squid_spawn_egg" }
+		{ item: "mysticalworld:frog_spawn_egg" }
+		{ item: "mysticalworld:duck_spawn_egg" }
+		{ item: "minecraft:feather", count: 2 }
+		{ item: "minecraft:gunpowder", count: 3 }
+		{ item: "minecraft:leather", count: 2 }
+		{ item: "minecraft:spider_eye" }
+		{ item: "minecraft:blaze_powder" }
+		{ item: "minecraft:ghast_tear" }
+		{ item: "iceandfire:dragonscales_gray" }
+		{ item: "iceandfire:fire_dragon_heart" }
+		{ item: "minecraft:magma_cream" }
+		{ item: "quark:toretoise_spawn_egg" }
+		{ item: "quark:crab_leg", count: 5 }
+		{ item: "quark:ravager_hide" }
+		{ item: "upgrade_aquatic:glowing_ink_sac", count: 2 }
+		{ item: "environmental:duck", count: 5 }
+		{ item: "ars_nouveau:wilden_spike" }
+		{ item: "ars_nouveau:wilden_wing" }
+		{ item: "ars_nouveau:wilden_horn" }
+		{ item: "minecraft:ender_pearl" }
+		{ item: "minecraft:ink_sac", count: 3 }
+		{ item: "iceandfire:myrmex_jungle_resin" }
+		{ item: "iceandfire:deathworm_chitin_yellow" }
+		{ item: "minecraft:rabbit_foot" }
+		{ item: "minecraft:blaze_rod" }
+		{ item: "savageandravage:creeper_spores" }
+		{ item: "minecraft:egg" }
+		{ item: "mysticalworld:antlers" }
+		{ item: "mysticalworld:carapace" }
+		{ item: "minecraft:emerald" }
+		{ item: "minecraft:rabbit_hide", count: 2 }
+		{ item: "minecraft:honeycomb", count: 4 }
+		{ item: "minecraft:string", count: 4 }
+		{ item: "minecraft:scute" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 12001067
+		string_id: "materials_monsters"
+	}
+}

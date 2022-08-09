@@ -1,0 +1,124 @@
+
+["Mob Interactions"]
+	#Determines if Piglins will run away from Warpbeetles
+	piglinFearWarpbeetle = true
+	#Determines if Piglins will run away from Embodies
+	piglinFearEmbody = true
+	#Determines if Piglins will run away from Blackstone Dwarves
+	piglinFearDwarf = true
+	#Determines if Hoglins will run away from Warpbeetles
+	hoglinFearWarpbeetle = true
+	#Determines if Hoglins will run away from Embodies
+	hoglinFearEmbody = true
+	#Determines if Spiders and Warpbeetles will fight
+	spiderAttackWarpbeetle = true
+	#Determines if Skeletons will attack Piglins
+	skeletonAttackPiglin = true
+	#Determines if Skeletons will attack Piglin Brutes
+	skeletonAttackBrute = true
+	#Determines if Skeletons and Embodies will fight
+	skeletonAttackEmbody = true
+	#Determines if Skeletons and Basalt Giants will fight
+	skeletonAttackGiant = true
+	#Determines if Piglins will attack Skeletons
+	piglinAttackSkeleton = true
+	#Determines if Piglins will attack Volines
+	piglinAttackVoline = true
+	#Determines if Piglin Brutes will attack Skeletons
+	bruteAttackSkeleton = true
+	#Determines if Piglin Brutes will attack Volines
+	bruteAttackVoline = true
+	#Determines if Ghasts will shoot at Embodies
+	ghastAttackEmbody = false
+	#Determines if Ghasts will shoot at Volines
+	ghastAttackVoline = false
+	#Determines if Ghasts will shoot at Skeletons
+	ghastAttackSkeleton = false
+	#Determines if Ghasts will shoot at Glowsquitos
+	ghastAttackGlowsquito = false
+	#Determines if Glowsquitos and Blackstone Dwarves will fight
+	glowsquitoAttackDwarf = true
+	#Determines if Glowsquitos will attack Entities with the Luminous Effect
+	glowsquitoAttackLuminous = true
+	#Determines if Blackstone Dwarves will attack Piglins
+	dwarfAttackPiglin = true
+	#Determines if Blackstone Dwarves will attack Zombified Piglins
+	dwarfAttackZombiePiglin = true
+	#Determines if Blackstone Dwarves will attack Players
+	dwarfAttackPlayer = true
+	#Determines if Blindsights will attack Glowsquitos
+	blindsightAttackGlowsquito = true
+	#Determines if Blindsights will attack Players
+	blindsightAttackPlayer = true
+	#Determines if Basalt Giants will attack Magma Cubes
+	giantAttackMagmaCube = true
+	#Determines if Embodies will attack Piglins
+	embodyAttackPiglin = true
+	#Determines if Embodies will attack Players
+	embodyAttackPlayer = true
+	#Determines if Voline will attack Entities with Fire Resistance
+	volineAttackFireResistance = true
+	#Determines if Voline will attack Players
+	volineAttackPlayer = true
+	#Determines if Voline will attack small Magma Cubes
+	volineAttackMagmaCube = true
+	#Determines if Hogchops will replace Porkchops in Hoglin Drops
+	useHogchops = true
+	#Determines the speed at which Glowsilk Moths fly
+	#Range: 0.0 ~ 1.7976931348623157E308
+	glowsilkSpeed = 1.3
+
+["Mob Spawning"]
+
+	["Mob Spawning"."Spawnable Biomes"]
+		#Determines what biomes Volines will spawn in
+		volineBiomes = "minecraft:nether_wastes, minecraft:crimson_forest, byg:magma_wastes"
+		#Determines what biomes Warpbeetles will spawn in
+		warpbeetleBiomes = "minecraft:warped_forest, byg:warped_desert"
+		#Determines what biomes Shroomloins will spawn in
+		shroomloinBiomes = "minecraft:crimson_forest, byg:crimson_gardens, byg:glowstone_gardens, byg:embur_bog, byg:sythian_torrids"
+		#Determines what biomes Basalt Giants will spawn in
+		basaltGiantBiomes = "minecraft:basalt_deltas, infernalexp:delta_shores, byg:magma_wastes"
+		#Determines what biomes Embodies will spawn in
+		embodyBiomes = "minecraft:soul_sand_valley, byg:warped_desert, byg:wailing_garth, byg:withering_woods"
+		#Determines what biomes Glowsquitos will spawn in
+		glowsquitoBiomes = "infernalexp:glowstone_canyon, byg:glowstone_gardens"
+		#Determines what biomes Glowsilk Moths will spawn in
+		glowsilkMothBiomes = "minecraft:crimson_forest, minecraft:basalt_deltas, infernalexp:glowstone_canyon, byg:glowstone_gardens"
+		#Determines what biomes Blindsights will spawn in
+		blindsightBiomes = "infernalexp:glowstone_canyon, byg:glowstone_gardens"
+		#Determines what biomes Blackstone Dwarfs will spawn in
+		blackstoneDwarfBiomes = "infernalexp:glowstone_canyon, byg:magma_wastes"
+
+["World Generation"]
+	#CHANGING THIS REQUIRES A GAME RESTART
+	biomesListIsWhitelist = false
+	#CHANGING THIS REQUIRES A GAME RESTART
+	biomesList = ""
+
+["Bonemeal Behaviour"]
+	#Determines if a shroomlight tear will grow when a shroomlight is bonemealed (overrides shroomlightGrowChance)
+	isShroomlightGrowable = true
+	#Determines the chance a shroomlight tear will grow when a shroomlight is bonemealed
+	#Range: 0.0 ~ 1.0
+	shroomlightGrowChance = 1.0
+
+[Miscellaneous]
+	#Determines if thrown fire charges will explode on impact
+	fireChargeExplosion = true
+	#Determines the duration in seconds of the effect that Cured Jerky gives
+	#Range: > 0
+	jerkyEffectDuration = 8
+	#Determines the amplifier of the effect that Cured Jerky gives
+	#Range: 0 ~ 2
+	jerkyEffectAmplifier = 1
+	#Determines if bricks are throwable or not
+	useThrowableBricks = true
+
+	[Miscellaneous."Luminous Fungus"]
+		#Determines the distance an entity has to be from a luminous fungus for it to activate (larger values have performance impact)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		luminousFungusActivateDistance = 4.0
+		#Determines whether Luminous Fungus gives the Luminance effect on collision with an entity
+		luminousFungusGivesEffect = true
+

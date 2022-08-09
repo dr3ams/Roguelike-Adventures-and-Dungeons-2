@@ -1,0 +1,43 @@
+
+["Weakness Effect"]
+	#The maximum amount of an item a player can eat before receiving the weakness effect. A value of -1 disables this feature.
+	#Range: -1 ~ 1280
+	maxItemUsesPerDaySingleItem = 16
+	#The maximum of the total amount of items a player can eat before receiving the weakness effect. A value of -1 disables this feature.
+	#Range: -1 ~ 1280
+	maxItemUsesPerDayTotal = -1
+	#The duration of the weakness effect in seconds when eating too much of an item.
+	#Range: 1 ~ 3600
+	weaknessDurationSeconds = 45
+
+["Glow Effect"]
+	#When eating glowstone, the duration in seconds of how long entities around should be glowing with an outline. A value of 0 disables the item use.
+	#Range: 0 ~ 3600
+	glowEntityDurationSeconds = 20
+	#For the glow effect, the radius in blocks around the player of entities affected.
+	#Range: 1 ~ 128
+	glowEntitiesAroundAffectedRadiusBlocks = 32
+
+["Other Effects"]
+	#The time in miliseconds of cooldown in between uses of eating an edible.
+	#Range: 0 ~ 3600000
+	_cooldownInMsBetweenUses = 1000
+	#After eating blaze powder, the duration in seconds of the strength effect the player receives. A value of 0 disables the item use.
+	#Range: 0 ~ 3600
+	blazePowderStrengthDurationSeconds = 15
+	#After eating magma cream, the duration in seconds of the fire resistance effect the player receives. A value of 0 disables the item use.
+	#Range: 0 ~ 3600
+	magmaCreamFireResistanceDurationSeconds = 15
+	#After eating some sugar, the duration in seconds of the speed effect the player receives. A value of 0 disables the item use.
+	#Range: 0 ~ 3600
+	sugarSpeedDurationSeconds = 15
+	#After eating a ghast tear, the duration in seconds of the regeneration effect the player receives. A value of 0 disables the item use.
+	#Range: 0 ~ 3600
+	ghastTearDurationSeconds = 15
+	#After eating some phantom membrane, the duration in seconds of the slow falling effect the player receives. A value of 0 disables the item use.
+	#Range: 0 ~ 3600
+	phantomMembraneDurationSeconds = 15
+	#After eating a rabbit's foot, the duration in seconds of the jump boost effect the player receives. A value of 0 disables the item use.
+	#Range: 0 ~ 3600
+	rabbitsFootDurationSeconds = 15
+

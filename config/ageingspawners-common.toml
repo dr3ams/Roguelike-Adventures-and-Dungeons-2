@@ -1,0 +1,26 @@
+
+#General settings
+[General]
+	#Decides whether the spawner is on blacklist or whitelist-only mode [Default: WHITELIST]
+	#Allowed Values: BLACKLIST, WHITELIST
+	spawnerMode = "WHITELIST"
+
+#Whitelist settings
+[Whitelist]
+	#Decides default amount of spawns a spawner can have in WHITELIST mode unless specified [Default: 20]
+	#Range: > 1
+	whitelistMaxSpawnCount = 20
+	#Decides which mobs age a spawner (requires spawnerMode to be set to WHITELIST) 
+	#[syntax: 'modid:entity;times' or 'modid:entity' ] 
+	#[example: 'minecraft:pig;5' ]
+	whitelist = [""]
+
+#Blacklist settings
+[Blacklist]
+	#Decides the amount of spawns a spawner can have in BLACKLIST mode [Default: 20]
+	#Range: > 1
+	blacklistMaxSpawnCount = 20
+	#Decides which mobs don't age a spawner (requires spawnerMode to be set to BLACKLIST) 
+	#[syntax: 'modid:entity']
+	blacklist = [""]
+

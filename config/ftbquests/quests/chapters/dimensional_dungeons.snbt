@@ -1,0 +1,306 @@
+{
+	id: "2B8506307F0DA912"
+	group: "241F1DC7B6D6E9D6"
+	order_index: 5
+	filename: "dimensional_dungeons"
+	title: "Dimensional Travels"
+	icon: "dimdungeons:block_portal_keyhole"
+	subtitle: ["Limitless adventure from a single portal that you can build anywhere!"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 5.5d
+			y: 2.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "dimdungeons:textures/block/block_keyhole_front_lit2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "dimdungeons:textures/block/block_keyhole_front_empty.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "dimdungeons:textures/block/block_charger_top_3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "dimdungeons:textures/block/block_charger_top_1.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 4.0d
+			y: 3.0d
+			description: [
+				"Dimensional Dungeons adds limitless procedurally generated dungeons to Minecraft! These dungeons are all placed in a single, separate dimension which can be accessed from a portal anywhere on the Overworld. This makes the dungeons themselves renewable and it provides challenging, replayable content."
+				""
+				"The dungeon dimension limits building and block breaking. This allows for a proper adventure mode-like experience"
+				""
+				""
+				"Besides challenges in room design the dungeons are also randomly populated with enemies and worthwhile loot! Many rooms with valuable treasure chests require solving a puzzle that will test your knowledge of Minecraft game mechanics."
+			]
+			id: "373262E31E3E4D5B"
+			tasks: [{
+				id: "0549D2EE17A5251A"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "dimdungeons:guide_book"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5C2D4295AB59621B"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "1735164BA2D78666"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			description: ["Blank Portal Keys are crafted from a Blaze Rod and a Name Tag. You may want several."]
+			dependencies: ["373262E31E3E4D5B"]
+			id: "49D31A8380AFA032"
+			tasks: [{
+				id: "12B2B5EEC9822AE4"
+				type: "item"
+				item: "dimdungeons:item_portal_key"
+			}]
+			rewards: [{
+				id: "61B9A2749C052810"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_random"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			description: ["First craft three Gilded Portal Blocks, which are a Chiseled Stone Brick surrounded by 8 Gold Ingots."]
+			dependencies: ["19C09B0537FF8F85"]
+			id: "06FDB1551D976F28"
+			tasks: [{
+				id: "4DF5F1A54C512A3A"
+				type: "item"
+				item: "dimdungeons:block_gilded_portal"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "49785DA9C5E9C87B"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "4C2D7FF0D88E1E94"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			description: ["Second, combine one of your three Gilded Portal Blocks with the Trapped Chest and the Eye of Ender to form a Portal Keyhole Block."]
+			dependencies: ["06FDB1551D976F28"]
+			id: "467404C9A88BA929"
+			tasks: [{
+				id: "3C4B4629A328B684"
+				type: "item"
+				item: "dimdungeons:block_portal_keyhole"
+			}]
+			rewards: [
+				{
+					id: "3FC9CD30F75F7A70"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "77E853324AA3466E"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			title: "Activating Portal Keys"
+			x: 6.5d
+			y: 5.5d
+			description: [
+				"A blank key cannot be used to enter a dungeon. A newly crafted key must first be used in an 'activation ritual' which will inscribe the name and location of a randomly generated dungeon onto the key. This action will require you to bring the key to a fitting location on The Overworld."
+				""
+				"Basically, find a Stronghold, and use the key on the top of an End Portal Frame. You must aim for the black square on top."
+				""
+				"Go back to your portal frame and place the key in the keyhole. If everything is correct then a golden dungeon portal should appear. If the frame was not built correctly then the portal will shatter immediately."
+				""
+				"Keys can only be written to once. However keys are absolutely reusable! If you find a dungeon that is worth visiting more than once be sure to save that key somewhere in your base. A named key will always consistently take you back to the same dungeon."
+			]
+			dependencies: ["49D31A8380AFA032"]
+			id: "2205A97ACB6A9309"
+			tasks: [{
+				id: "028ACB8879FC66F1"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "557BA510C4195368"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			description: [
+				"First, here is a minimum raw materials list:"
+				"- 9x Stone Bricks"
+				"- 3x Chiseled Stone Bricks"
+				"- 24x Gold Ingots"
+				"- 1x Trapped Chest"
+				"- 1x Eye of Ender"
+				""
+				"Keep in mind you will also need to craft and activate keys. This is only the first step."
+			]
+			dependencies: ["373262E31E3E4D5B"]
+			id: "19C09B0537FF8F85"
+			tasks: [{
+				id: "0E498E4858047C55"
+				type: "checkmark"
+				title: "Creating the Basic Portal"
+			}]
+			rewards: [{
+				id: "7E79C499DFD17B21"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			description: [
+				"Basically you need a frame of Stone Bricks surrounding two air blocks. And replace the top center block with the Portal Keyhole Block. The two spires on the side need to have your two remaining Gilded Portal BLocks on top."
+				""
+				"{image:rad2:textures/misc/build_basic_1.png width:170 height:100 align:1}"
+				"Sinking the portal into the ground is a good idea so that you don't have to jump into it. But remember you still need to place the Stone Bricks on the bottom even if you can't see them!"
+				""
+				"Other Stone Brick variants can be used in the build, too. And the only air blocks that matter are the two blocks where the portal will appear."
+			]
+			dependencies: ["467404C9A88BA929"]
+			id: "46BDA3FB1FD338F7"
+			tasks: [{
+				id: "48F36A95518DC117"
+				type: "checkmark"
+				title: "Valid Portal Builds"
+			}]
+			rewards: [{
+				id: "06781A553566752E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			subtitle: "Activate portal key"
+			dependencies: ["2205A97ACB6A9309"]
+			id: "5F3AE6FDE9AC06B6"
+			tasks: [{
+				id: "4F86E5AD6BC0CB17"
+				type: "advancement"
+				advancement: "dimdungeons:dungeons/activate_basic_key"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5E68E60CB268C538"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "potions"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			subtitle: "Find two portal crown blocks"
+			description: [
+				"Advanced dungeons are exactly what they sound like. Bigger layouts, tougher monsters, and improved loot!"
+				""
+				"While exploring basic dungeons you might find a Portal Keystone Block with an item in it. Take it! The item inside should be an advanced key, with a different naming convention and a different color. This is the only way to obtain advanced dungeon keys. They must be found!"
+				""
+				"Your basic portal frame is not powerful enough to handle these legendary new portal keys! You must enhance your basic portal with additional blocks."
+				""
+				"First, you must hang two colorful banners, one on each spire. The banners should be white/purple with either color as the base. For reference, match the filled keyhole itself."
+				""
+				"Second you must place two Portal Crown Blocks on top of your portal frame. You're going to have to rely on finding Portal Crown Blocks as loot in basic dungeon chests."
+			]
+			dependencies: ["5F3AE6FDE9AC06B6"]
+			id: "563459F7C0D8D8D3"
+			tasks: [{
+				id: "3A7C69B1D45081EA"
+				type: "advancement"
+				advancement: "dimdungeons:dungeons/find_crown"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "03D3B4BD7967EF3C"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "58626ABC605251BF"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+	]
+}

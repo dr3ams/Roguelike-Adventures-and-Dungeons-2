@@ -1,0 +1,398 @@
+{
+	tabs: [
+		{
+			title: "Basic"
+			icon: "minecraft:grass_block"
+			entries: [
+				{
+					item: { id: "minecraft:ink_sac", Count: 5b }
+					buy: 10L
+				}
+				{
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 5L
+				}
+				{
+					item: {
+						id: "roughtweaks:salve"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					buy: 10L
+				}
+				{
+					item: {
+						id: "majruszs_difficulty:bandage"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 20L
+				}
+			]
+		}
+		{
+			title: "Cases"
+			icon: "randomloot:golden_case"
+			entries: [
+				{
+					item: "aquaculture:lockbox"
+					buy: 50L
+				}
+				{
+					item: "aquaculture:box"
+					buy: 10L
+				}
+				{
+					item: "randomloot:basic_case"
+					buy: 200L
+				}
+				{
+					item: "randomloot:golden_case"
+					buy: 500L
+				}
+				{
+					item: "aquaculture:treasure_chest"
+					buy: 100L
+				}
+			]
+		}
+		{
+			title: "Exotic"
+			icon: "waystones:waystone"
+			entries: [
+				{
+					item: {
+						id: "waystones:waystone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 200L
+				}
+				{
+					item: {
+						id: "waystones:mossy_waystone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 200L
+				}
+				{
+					item: {
+						id: "waystones:sandy_waystone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 200L
+				}
+				{
+					item: {
+						id: "waystones:warp_plate"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 200L
+				}
+				{
+					item: {
+						id: "waystones:sharestone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 200L
+				}
+				{
+					item: {
+						id: "waystones:bound_scroll"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 25L
+				}
+				{
+					item: {
+						id: "waystones:warp_scroll"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 50L
+				}
+				{
+					item: {
+						id: "waystones:warp_stone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 350L
+				}
+			]
+		}
+		{
+			title: "Potions"
+			icon: {
+				id: "enigmaticlegacy:common_potion"
+				Count: 1b
+				tag: {
+					EnigmaticPotion: "haste"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			entries: [{
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				buy: 15L
+			}]
+		}
+		{
+			title: "Equipment"
+			icon: {
+				id: "usefulhats:lucky_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+					itemModifier: "modifiers:intrepid"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			entries: [
+				{
+					item: {
+						id: "usefulhats:lucky_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 100L
+				}
+				{
+					item: {
+						id: "usefulhats:wing_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 50L
+				}
+				{
+					item: {
+						id: "usefulhats:straw_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 50L
+				}
+				{
+					item: {
+						id: "usefulhats:shulker_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 100L
+				}
+				{
+					item: {
+						id: "usefulhats:chopping_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 50L
+				}
+				{
+					item: {
+						id: "usefulhats:ender_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 100L
+				}
+				{
+					item: {
+						id: "usefulhats:halo"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 100L
+				}
+				{
+					item: {
+						id: "usefulhats:mining_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 150L
+				}
+				{
+					item: {
+						id: "usefulhats:mushroom_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 50L
+				}
+			]
+		}
+		{
+			title: "Consumable"
+			icon: {
+				id: "minecraft:enchanted_golden_apple"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			entries: [
+				{
+					item: {
+						id: "berry_nice:goldensweetberry"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 20L
+				}
+				{
+					item: {
+						id: "brewevolution:full_dried_bread"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 10L
+				}
+			]
+		}
+	]
+}

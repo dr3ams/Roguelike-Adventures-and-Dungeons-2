@@ -1,0 +1,853 @@
+{
+	id: "2A79FAE23F150F49"
+	group: ""
+	order_index: 0
+	filename: "features_and_mechanics"
+	title: "Features | mechanics"
+	icon: {
+		id: "losttrinkets:book_o_enchanting"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 1.0d
+			y: -4.0d
+			width: 7.0d
+			height: 1.5d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			width: 10.0d
+			height: 17.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_frame_white.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			width: 6.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_dice.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			icon: "itemfilters:weak_nbt"
+			x: -0.5d
+			y: -0.5d
+			description: [
+				"There are couple of new mechanics that this pack employs, descriptions of which you will find following this quest."
+				"You can always come back here to read them again."
+				""
+				"- Gain variable benefits for eating a greater variety of foods."
+				"- Harvest groups of blocks at time to speed up mining, harvesting, and tilling."
+				"- more Piglins behaviors"
+				"- progressive difficulty(including bosses)"
+				"- bleeding"
+				"- new nether portal mechanics"
+			]
+			id: "56127AAF761DC8DA"
+			tasks: [{
+				id: "6FCE6B669DDF6914"
+				type: "checkmark"
+				title: "New mechanics and features"
+			}]
+			rewards: [{
+				id: "53256419445952A3"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			icon: {
+				id: "losttrinkets:mad_piggy"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.0d
+			y: -0.5d
+			description: [
+				"- Piglins now have a reputation system that works similarly to Villagers. Doing things like fighting alongside them against Wither mobs, giving them gifts and bartering with them increases your reputation. Doing things like hurting or killing Piglin mobs and engaging in unauthorized mining/chest opening around them decreases your reputation."
+				""
+				"- At +50 reputation with a Piglin, you will no longer be required to wear gold armor around them. At +100 reputation, you will be authorized to open chests and mine gold around them."
+				""
+				"- At -50 reputation with a Piglin, you will no longer receive items from bartering. At -100 reputation, you will be attacked on sight regardless of whether or not you are wearing gold armor."
+				""
+				"- Piglins seek out and pick up food items (by default, porkchops and cooked porkchops) and consume them, complete with an eating animation. Players can also right-click them with their food items if the Piglin has not already recently eaten and they will accept it. Eating food will also restore a Piglin's health in an amount identical to the food item's hunger value."
+				""
+				"- Piglins can now barter with gold nuggets and gold blocks. Gold nuggets make you far more likely to receive common barter items, with all item stack sizes halved. Gold blocks make you far more likely to receive rare barter items, with all item stack sizes doubled."
+				""
+				"- Piglins now shake their heads like Villagers when declining an offered item."
+				""
+				" Piglins now emit particles/make sounds when accepting an item from you or declining it."
+				""
+				""
+			]
+			dependencies: ["56127AAF761DC8DA"]
+			id: "0DA780E82198E59C"
+			tasks: [{
+				id: "4C371DDFD42B66C2"
+				type: "checkmark"
+				title: "New Piglins Behavior"
+			}]
+			rewards: [{
+				id: "665866DA9908B914"
+				type: "item"
+				item: "minecraft:golden_carrot"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:nether_star"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.0d
+			y: 1.0d
+			description: [
+				"Nether portals now come in the form of Dimensional Rifts, which you'll find scattered deep underground. You'll have to find one of these Rifts in order to get to the Nether - but be careful, because it's now a one-way trip!"
+				""
+				"To get back from the Nether, you'll have to search for a Monolith. These are new, semi-rare structures that can be easily spotted from far away thanks to the beams they shoot into the sky."
+				""
+				"The block at the center of each Monolith that shoots this beam is called a Reclaimer, and it's the key to returning to the Overworld. However, the Reclaimer won't do much without a little power. In order to power it, you'll have to place a gold block on each of its four sides - something that shouldn't be too difficult to pull off in the Nether. "
+				""
+				"Once powered, the Reclaimer has the ability to lift you back into the Overworld."
+				"================================="
+				" You can bucket the Dimensional Plasma from a Dimensional Rift to bring it closer to your base, and you can mine the Reclaimer from a Monolith and place it right by where your Plasma teleports you to in the Nether."
+				""
+				"So, it's pretty close to a two-way portal, the only real difference being you'll have to find a Dimensional Rift and a Monolith first."
+			]
+			id: "25045A0059F4E280"
+			tasks: [{
+				id: "7C18E741D1CA3145"
+				type: "checkmark"
+				title: "New nether portal mechanics"
+			}]
+			rewards: [{
+				id: "079877221EB51759"
+				type: "item"
+				item: {
+					id: "minecraft:golden_carrot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "ars_nouveau:ritual_moonfall"
+			x: -2.0d
+			y: -2.0d
+			description: [
+				"Blood Moon:"
+				"Blood Moons are a lunar event that cranks up the monster spawn cap as well as preventing the player from sleeping! The mechanics of the blood moon are inspired by the spawn rate increase that occurs in Terraria's Blood Moon."
+				""
+				"Harvest Moon:"
+				"The harvest moon is a lunar which cranks up both the crop growth rate and crop drop rate!"
+				""
+				"Blue Moon:"
+				"The blue moon is a lunar event that gives you the luck effect and increases the quality of loot in vanilla loot tables!"
+			]
+			dependencies: ["56127AAF761DC8DA"]
+			id: "1D7B582F298ADFDF"
+			tasks: [{
+				id: "2166672F8EECC3D0"
+				type: "checkmark"
+				title: "New Lunar events"
+			}]
+			rewards: [{
+				id: "07AA1991ADA77735"
+				type: "item"
+				item: "vanillafoodpantry:fizzydrink_blueberry"
+			}]
+		}
+		{
+			icon: "blue_skies:everbright_portal"
+			x: -2.0d
+			y: 2.5d
+			shape: "square"
+			subtitle: "Current dimensions count: 10"
+			description: [
+				"• Atum 2 - a new and unique desert dimension full of sand, temples, as well as many new enemies! Traveling through the dimension you can discover new artifacts, making your way to them through mountains of sand and enemies."
+				""
+				"• Blue skies: Everbright and Everdawn - two new dimensions, one lighter and colder, and the other darker and warmer. In each of them you will find new blocks, mobs, tools, weapons and bosses."
+				""
+				"• Dimensional Dungeons - limitless procedurally generated dungeons dimension."
+				""
+				"• The Afterlight - a soul-themed dark and luminescent dimension, located on the Dark Arm of the Dimensional Plane (In between the End and the Overworld)"
+				""
+				"• The Bumblezone - an unBEElievable dimension full of bees that become REALLY angry if you take their honey!"
+				""
+				"• Tropicraft - dimension adding tropical world"
+				""
+				"• Twilight forest - a realm basked in mystery and eerie twilight."
+				""
+				"• Undergarden - a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."
+			]
+			id: "6EAF4C02AC262FC0"
+			tasks: [{
+				id: "1A3AEEE0A82E3188"
+				type: "checkmark"
+				title: "New dimensions!"
+			}]
+			rewards: [{
+				id: "59B1B5BF66E28F2F"
+				type: "item"
+				item: {
+					id: "minecraft:golden_carrot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "ars_nouveau:glyph_haste"
+			x: -0.5d
+			y: -2.0d
+			subtitle: "In-Depth, Well Balanced and Seamlessly Integrated Dodging"
+			description: [
+				"- Armor Weights. Dodging is impacted directly by the heaviness of your armor; you have to think twice about what you equip!"
+				""
+				"- You can adjust the Dodge Key button from its default value of Left-Alt in Minecraft's controls menu!"
+			]
+			dependencies: ["56127AAF761DC8DA"]
+			id: "55DE8B3522A4F8A6"
+			tasks: [{
+				id: "36478D84CB178449"
+				type: "checkmark"
+				title: "Dodge"
+			}]
+			rewards: [
+				{
+					id: "012430C1D7AE5D6B"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "elenaidodge2:long_replenishment"
+						}
+					}
+				}
+				{
+					id: "54785A567EA1C042"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			title: "New Enchantment system by Apotheosis"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: 1.0d
+			y: 1.0d
+			description: [
+				"There is now a new system for enchanting that uses three stats, instead of the original single stat system."
+				""
+				"Eterna is the stat that controls what level your enchanting table is at.  Certain types of bookshelves are only capable of providing certain max levels of Eterna, so be sure to check the max on the block."
+				""
+				"Quanta determines how much flux is in your enchanting process.  When you begin an enchantment process, after spending your experience, your Quanta level will work behind the scenes to change your enchantment level.  This is not always beneficial, as Quanta is capable of both increasing and decreasing the actual enchanting level.  With a lot of Quanta, and a little luck, you could technically receive an enchantment equal to spending 200 levels!"
+				""
+				"Arcana determines how hard it is to get rare enchantments.  At 0%, the base rules for enchantment rarity apply, but as your Arcana increases, rare enchantments will become more common, and common enchantments will become quite rare.  At 100% Arcana, the rarities are flipped on their heads entirely, and Very Rare enchantments will show up at the rate of common enchantments, while Common enchantments will be hard to find!  Finally, at 25% and 75% Arcana, every time you enchant, you are guaranteed an extra enchantment."
+				""
+				"To support the new enchantment stat system, Apotheosis adds 11 new bookshelves, each with their own unique enchanting stat combinations.  Shown here are the Endshelves, Seashelves, Hellshelves, the Beeshelf and the Melonshelf.  Combinations of these shelves can allow for any stat values you could dream of, however, reaching significantly high Eterna levels requires Endshelves."
+				""
+				"The Enchantment Library"
+				"The Enchantment Library is a block focused on storing enchantments.  Simply insert an enchanted book, and every enchantment on that book will be stored in the library internally.  Each enchantment on a deposited book will be stored as points.  A point is simply equivalent to a level 1 enchantment, and as such an enchantment is worth the amount of points it would take to combine it from level one books (2^(level -1) points per level).  The library also records the max level it has ever seen for a given enchantment, and you may only extract enchantments up to that level.  Meaning if you want to be able to extract a higher level of an enchantment, the library will need to have had that level deposited at least one time.To extract enchantments from the library, simply click the tile of the enchantment you want to extract, and it will be extracted to the output slot.  If the output slot is empty, a new enchanted book will be generated.  If it is not empty, it will apply the next level of that enchantment to the book (if you have enough points).  Shift-clicking on a tile will attempt to extract the max level available (if you have enough points).  The point cost for extracting is shown in the tooltip.  If that tooltip is red, you do not have enough points for that operation."
+			]
+			dependencies: ["56127AAF761DC8DA"]
+			id: "6FCA404FDB2D82CC"
+			tasks: [{
+				id: "07F42EA7E8CC38A5"
+				type: "checkmark"
+				title: "New Enchanting mechanics"
+			}]
+			rewards: [{
+				id: "25FD19220EA221C0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "New and overhauled structures!"
+			icon: "ars_nouveau:familiar_wixie"
+			x: -0.5d
+			y: 1.0d
+			description: [
+				"- underground and flying villages"
+				"- overhauled mineshaft, strongholds, dungeons, caves"
+			]
+			id: "6560CFA3F7737BBB"
+			tasks: [{
+				id: "3E8E9CE8F8302CF2"
+				type: "checkmark"
+				title: "New structures!"
+			}]
+			rewards: [{
+				id: "1387A24745731B2C"
+				type: "item"
+				item: {
+					id: "minecraft:golden_carrot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "archers_paradox:redstone_arrow"
+			x: 1.0d
+			y: -2.0d
+			description: [
+				"Each animal and human being can now bleed. This is an effect that deals damage similar to poison and can be removed using a new item: Bandages. The chance of bleeding is lower the more pieces of armor you have."
+				""
+				"Bleeding is caused by many different sources such as receiving sword damage, being bitten by a spider, or by touching a cactus..."
+				""
+				"It is important to keep bandages with you at all times because bleeding becomes more deadly as the game progresses!"
+			]
+			dependencies: ["56127AAF761DC8DA"]
+			id: "04CC7C1C1BFE864D"
+			tasks: [{
+				id: "344ADACFCEB0D8A7"
+				type: "checkmark"
+				title: "Bleeding"
+			}]
+			rewards: [{
+				id: "0721D0DFC9A4BC06"
+				type: "item"
+				item: "majruszs_difficulty:bandage"
+				count: 2
+			}]
+		}
+		{
+			icon: {
+				id: "losttrinkets:golden_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.0d
+			y: -0.5d
+			description: [
+				"A difficulty value is tracked for each player."
+				"As difficulty increases, mobs become stronger."
+				""
+				""
+				"The difficulty value will determine how much extra health mobs can have. Mobs will also gain bonus attack damage and potion effects."
+				""
+			]
+			dependencies: ["56127AAF761DC8DA"]
+			id: "0F19628AC9F04F38"
+			tasks: [{
+				id: "7006A7CF76CC94F9"
+				type: "checkmark"
+				title: "Scaling Difficulty"
+				icon: "scalinghealth:heart_crystal"
+			}]
+			rewards: [{
+				id: "0BD8646D6609FB8F"
+				type: "item"
+				item: {
+					id: "majruszs_difficulty:bandage"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: [
+				"Each Wither killed and Ender Dragon (re)spawned will count towards a point of Difficulty, making them harder the next time they're spawned.Each point of difficulty increases the Bosses stats and unlocks abilities."
+				""
+				"Wither "
+				"Wither Health increases by 10 for each point of difficulty."
+				"Regenerates 0.05 HP per second for each point of difficulty (up to 1 HP per second). This is summed to the base regeneration of 1 HP per second the Wither already has."
+				"After the first Wither Spawned the second Wither will spawn Wither Minions (Wither Skeletons)."
+				"Has 2% chance per point of difficulty (up to 50%) to drop a Nether Star Shard."
+				""
+				"Ender Dragon"
+				"The Ender Dragon deals 10% more damage per point of difficulty for both attacking and the Acid Pool."
+				"Has 10 more HP per point of Difficulty"
+				"Can spit an acid fireball more frequently, given by the Difficulty and the remaining Ender Crystals."
+				"As the difficulty goes up, more cages will spawn around Crystals on the towers."
+				"After the first Dragon Killed the second one will spawn Larvae (Endermites) at the center of the island."
+				"From the third Dragon she will start spawning Minions (Purple Shulkers) around the island."
+				""
+			]
+			dependencies: ["0F19628AC9F04F38"]
+			id: "68203BBBB58B26EA"
+			tasks: [{
+				id: "6C079A785E1D9855"
+				type: "checkmark"
+				title: "Progressive Bosses"
+				icon: "productivebees:upgrade_productivity"
+			}]
+			rewards: [{
+				id: "3678E73DDD73B55C"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+			}]
+		}
+		{
+			icon: "majruszs_difficulty:undead_battle_standard"
+			x: 2.5d
+			y: -0.5d
+			description: [
+				"The game progress is divided into three parts: Normal Mode, Expert Mode, and Master Mode."
+				""
+				"- Normal Mode starts at the beginning of the game."
+				""
+				"- Expert Mode starts when the first player enters the Nether.(or enters any dimension from other mods)"
+				""
+				"- Master Mode starts when you defeat the Ender Dragon."
+			]
+			dependencies: ["0F19628AC9F04F38"]
+			id: "577182F7C0C5B85B"
+			tasks: [{
+				id: "654635E50ADA3AD9"
+				type: "checkmark"
+				title: "Progressive Difficulty"
+			}]
+			rewards: [{
+				id: "203EF8DF6395F7A6"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+			}]
+		}
+		{
+			title: "Normal mode changes"
+			icon: "minecraft:skeleton_skull"
+			x: 4.0d
+			y: -1.5d
+			subtitle: "Some of the new difficulty mechanics:"
+			description: [
+				"- Groups of enemies"
+				"Enemies appear in groups with one leader and followers who attack the same target as the leader. Followers are more likely to have weapons and leaders to have armors."
+				""
+				"- Undead Army (new Raid)"
+				"The new raid starts after killing a certain amount of undead enemies. It has 3-5 waves, scales difficulty over time, and rewards the player with a treasure bag after finishing it. Also scales difficulty with each player participating in!"
+				""
+				"- fall damage can causes Slowness and Nausea"
+				""
+				"- drowning damage can causes Nausea and Weakness"
+				""
+				"- Creepers may spawn with a negative effect"
+				""
+				"- animals (like Wolves), Zombies, and Spiders can bite you causing Bleeding"
+				""
+				"- arrows and direct damage from sharp items (tools, weapons, shears) also can cause Bleeding"
+				""
+				"- touching a cactus also may cause Bleeding"
+			]
+			dependencies: ["577182F7C0C5B85B"]
+			id: "6E509EA1B20B6476"
+			tasks: [{
+				id: "413AD55DBDF6F7A1"
+				type: "checkmark"
+				title: "New difficulty mechanics"
+			}]
+			rewards: [
+				{
+					id: "1741242638737932"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+					count: 2
+				}
+				{
+					id: "680F2DF9758F6039"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			icon: "farmersdelight:cake_slice"
+			x: -0.5d
+			y: 2.5d
+			description: [
+				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods."
+				""
+				"You will receive variable benefits depending on how diverse your current diet is, and has been in the recent past."
+				""
+				"You will have to maintain that level of diversity to keep those benefits. This should encourage automation of a variety of foods, rather than just encouraging you to eat each food once (SoL: Carrot Edition)."
+				""
+				"*Note: This means your diversity score is constantly and dynamically changing depending on what your current and past diet. Thus, you can have many benefits after eating a diverse set of foods for a time, but falling back to eating only bread will gradually result in a loss/weakening of gained benefits.To get a higher diversity score, you need to keep including more and more diverse types of foods in your diet."
+			]
+			id: "35190DA84895073D"
+			tasks: [{
+				id: "6331E4029462A823"
+				type: "checkmark"
+				title: "Benefits for eating variety of foods"
+			}]
+			rewards: [{
+				id: "4A593D39CE5A8B79"
+				type: "item"
+				item: {
+					id: "minecraft:golden_carrot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "fins:spindly_emerald"
+			x: 1.0d
+			y: 2.5d
+			description: [
+				"There are multiple new villager jobs, all with unique trades, workstations, and advancements!"
+				"- OCEANOGRAPHER"
+				"- NETHEROLOGIST"
+				"- FORESTER"
+				"- ENDEROLOGIST"
+				"- ENGINEER"
+				"- FLORIST"
+				"- HUNTER"
+				"- MINER"
+				""
+				"There are also some villager tools that you should check. @villagertools"
+			]
+			id: "2574DDCEFF8FE519"
+			tasks: [{
+				id: "62AD44FDD001C367"
+				type: "checkmark"
+				title: "Improved villagers"
+			}]
+			rewards: [{
+				id: "1A3E8B8ABF4D5B26"
+				type: "item"
+				item: {
+					id: "minecraft:golden_carrot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "relics:stellar_catalyst"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.5d
+			y: 2.5d
+			description: [
+				"Lost Trinkets mod adds more than 70+ unlockable trinkets with different abilities and rarities."
+				""
+				"Trinkets are randomly unlocked when you doing some activities like fighting enemies and bosses, trading, mining ores, cutting trees, and farming.Each activity has a rarity of unlocking trinkets eg: killing bosses has a better chance than normal enemies"
+				""
+				"You can access the trinket GUI by pressing the R key on your keyboard."
+				"========================"
+				"There are also countless amount of curious(baubles) which have their own slot in your inventory. Each with unique different ability or property. "
+				""
+				"You can access curio slots from your inventory near your character model.(G button)"
+			]
+			id: "0E5AE2A43020AFC3"
+			tasks: [{
+				id: "0904DC2D17454C24"
+				type: "checkmark"
+				title: "Trinkets and curious"
+			}]
+			rewards: [{
+				id: "70CB36DD6DEEB01C"
+				type: "item"
+				item: {
+					id: "minecraft:golden_carrot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "ars_nouveau:glyph_wither"
+			x: 4.0d
+			y: -0.5d
+			subtitle: "- Expert Mode starts when the first player enters the Nether"
+			description: [
+				"- loot has a 25% chance to be doubled"
+				""
+				"- experience from all sources is increased by 20%"
+				""
+				"- all monsters have their health and damage increased by 20%(at night the bonus is doubled to 40%)"
+				""
+				"- Illusioner spawn naturally during the night"
+				""
+				"- new Elite Skeleton spawn naturally during the night(shoots arrows extremely precisely)"
+				""
+				"- Piglins may spawn in a group"
+				""
+				"- Pillagers may spawn in a group"
+				""
+				"- Creepers on explosion may spawn more Creeperlings"
+				""
+				"- Slimes have a chance to inflict Slowness effect"
+				""
+				"- Wither Skeletons may spawn with the Wither Sword instead of the Stone Sword"
+				""
+				"- Undead Army now has 4 waves"
+				""
+				"- undead spawned during the Undead Army are twice as likely to have enchanted items"
+				""
+				"- undead spawned during the Undead Army are twice as likely to have armor pieces"
+				""
+				"- Undead Army gives 100% more experience for completing it"
+				""
+				"- whenever you die from Bleeding or are killed by a Zombie there spawns a special Zombie with your head"
+			]
+			dependencies: ["577182F7C0C5B85B"]
+			id: "78655B49D92DA1AB"
+			tasks: [
+				{
+					id: "5496EBE642A0F682"
+					type: "checkmark"
+					title: "New mechanics for Expert Mode"
+				}
+				{
+					id: "4F575278249F1D60"
+					type: "kill"
+					entity: "minecraft:wither"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "211DA38465A84BB6"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:golden_bandage"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "382323F735456BD6"
+					type: "item"
+					item: {
+						id: "roughtweaks:medkit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:end_crystal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.0d
+			y: 0.5d
+			subtitle: "- Master Mode starts when you defeat the Ender Dragon."
+			description: [
+				"- loot has a 75% chance to be doubled"
+				""
+				"- experience from all sources is increased by 50%"
+				""
+				"- all monsters have their health and damage increased by 40% (instead of 20% chance)(at night the bonus is doubled to 80%)"
+				""
+				"- Phantom and new End Keeper spawn naturally near new structures"
+				""
+				"- Elite Skeleton may spawn in a group"
+				""
+				"- Enderman may teleport target on hit"
+				""
+				"- Shulker may inflict Blindness effect"
+				""
+				"- Creepers on explosion may spawn more Creeperlings"
+				""
+				"- Undead Army now has 5 waves"
+				""
+				"- undead spawned during the Undead Army are quadruple as likely to have enchanted items"
+				""
+				"- undead spawned during the Undead Army are thrice as likely to have armor pieces"
+				""
+				"- Undead Army now rewards with 2 Treasure Bags (instead of 1)"
+				""
+				"- Undead Army gives 200% more experience for completing it (instead of 100%)"
+				""
+			]
+			dependencies: ["577182F7C0C5B85B"]
+			id: "13FD3ACE5C674BD1"
+			tasks: [
+				{
+					id: "09A7C72ACFB0BDEE"
+					type: "checkmark"
+					title: "New mechanics for Master Mode"
+				}
+				{
+					id: "6D379DD2E28FDD77"
+					type: "kill"
+					entity: "minecraft:ender_dragon"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "39492D8B75AEE13F"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:golden_bandage"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "106880E710C077BF"
+					type: "item"
+					item: {
+						id: "roughtweaks:medkit_enchanted"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			subtitle: "Keeps safe your inventory items on death with many features for better survivability and exploration"
+			description: [
+				"Corail Tombstone handles your death in Minecraft by providing tons of configuration options, many features to encourage to discover the world and several compatibilities between mods."
+				""
+				"It also introduces a perk system : the Knowledge of Death, and a magic system based on some enchantable items with the help of the Souls haunting the Decorative Graves and waiting for a way to be freed for their eternal sentence.A screen in game allows to configure player preferences, access a Compendium of infos and the selection of the perks."
+			]
+			id: "00EEAE0FACC02300"
+			tasks: [{
+				id: "6121BA739D1C7316"
+				type: "advancement"
+				advancement: "tombstone:adventure/first_knowledge"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3D72B5E03815639D"
+					type: "item"
+					item: {
+						id: "minecraft:bone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2304ED8288AB39AC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

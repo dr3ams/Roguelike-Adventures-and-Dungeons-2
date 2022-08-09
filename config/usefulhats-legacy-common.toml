@@ -1,0 +1,217 @@
+
+#Some configs in relation to other mods.
+["Compatibility option"]
+	#Whether or not hats from this mod should be placeable in Baubles head slot if Baubles is installed.
+	baublesEnabled = true
+	#Whether or not hats from this mod should be placeable in Curios head slots if Curios is installed.
+	curiosEnabled = true
+	#Whether or not a Curios head slot should be added if Curios is installed.
+	curiosAddHeadSlot = false
+
+#Enable or disable certain hats. Disabled hats will not be craftable.
+["Accessibility Config"]
+	#Whether or not Aquanaut Helmet should be enabled.
+	aquanautHelmetEnabled = true
+	#Whether or not Bunny Ears should be enabled.
+	bunnyEarsEnabled = true
+	#Whether or not Chopping Hat should be enabled.
+	choppingHatEnabled = true
+	#Whether or not Ender Helmet should be enabled.
+	enderHelmetEnabled = true
+	#Whether or not Halo should be enabled.
+	haloEnabled = true
+	#Whether or not Lucky Hat should be enabled.
+	luckyHatEnabled = true
+	#Whether or not Mining Hat should be enabled.
+	miningHatEnabled = true
+	#Whether or not Mushroom Hat should be enabled.
+	mushroomHatEnabled = true
+	#Whether or not Postman Hat should be enabled.
+	postmanHatEnabled = true
+	#Whether or not Shulker Helmet should be enabled.
+	shulkerHelmetEnabled = true
+	#Whether or not Stocking Cap should be enabled.
+	stockingCapEnabled = true
+	#Whether or not Straw Hat should be enabled.
+	strawHatEnabled = true
+	#Whether or not Wing Helmet should be enabled.
+	wingHelmetEnabled = true
+
+#Various options that affect individual hats.
+["Balance Options"]
+
+	["Balance Options"."Aquanaut Helmet"]
+		#Whether or not damaging of Aquanaut Helmet should be enabled.
+		aquanautHelmetDamageEnabled = true
+		#Aquanaut Helmet durability.
+		#Range: 1 ~ 10000
+		aquanautHelmetDurability = 600
+		#Aquanaut Helmet effect time of Conduit Power without Respiration enchantment. (in seconds)
+		#Range: 10 ~ 120
+		aquanautHelmetEffectTimeWithRespiration0 = 60
+		#Aquanaut Helmet effect time of Conduit Power with Respiration I. (in seconds)
+		#Range: 10 ~ 180
+		aquanautHelmetEffectTimeWithRespiration1 = 120
+		#Aquanaut Helmet effect time of Conduit Power with Respiration II. (in seconds)
+		#Range: 10 ~ 240
+		aquanautHelmetEffectTimeWithRespiration2 = 180
+		#Aquanaut Helmet effect time of Conduit Power with Respiration III. (in seconds)
+		#Range: 10 ~ 300
+		aquanautHelmetEffectTimeWithRespiration3 = 240
+
+	["Balance Options"."Bunny Ears"]
+		#Whether or not damaging of Bunny Ears should be enabled.
+		bunnyEarsDamageEnabled = true
+		#Bunny Ears durability.
+		#Range: 1 ~ 10000
+		bunnyEarsDurability = 600
+
+	["Balance Options"."Chopping Hat"]
+		#Whether or not damaging of Chopping Hat should be enabled.
+		choppingHatDamageEnabled = true
+		#Chopping Hat durability.
+		#Range: 1 ~ 10000
+		choppingHatDurability = 300
+		#Chopping Hat speed increase without Efficiency enchantment.
+		#Range: 0.0 ~ 1.0
+		choppingHatSpeedWithEfficiency0 = 0.2
+		#Chopping Hat speed increase with Efficiency I.
+		#Range: 0.0 ~ 1.0
+		choppingHatSpeedWithEfficiency1 = 0.4
+		#Chopping Hat speed increase with Efficiency II.
+		#Range: 0.0 ~ 2.0
+		choppingHatSpeedWithEfficiency2 = 0.6
+		#Chopping Hat speed increase with Efficiency III.
+		#Range: 0.0 ~ 3.0
+		choppingHatSpeedWithEfficiency3 = 0.8
+		#Chopping Hat speed increase with Efficiency IV.
+		#Range: 0.0 ~ 4.0
+		choppingHatSpeedWithEfficiency4 = 1.0
+		#Chopping Hat speed increase with Efficiency V.
+		#Range: 0.0 ~ 5.0
+		choppingHatSpeedWithEfficiency5 = 1.5
+
+	["Balance Options"."Ender Helmet"]
+		#Whether or not damaging of Ender Helmet should be enabled.
+		enderHelmetDamageEnabled = true
+		#Ender Helmet durability.
+		#Range: 1 ~ 10000
+		enderHelmetDurability = 80
+		#Whether or not interdimensional teleporting with the Ender Helmet should be enabled.
+		enderHelmetInterdimensionalEnabled = true
+
+	["Balance Options".Halo]
+		#Whether or not damaging of Halo should be enabled.
+		haloDamageEnabled = true
+		#Halo durability.
+		#Range: 1 ~ 10000
+		haloDurability = 600
+		#Detecting range of Halo for damage calculation. (in blocks)
+		#Range: 1 ~ 100
+		haloDetectingRange = 16
+
+	["Balance Options"."Lucky Hat"]
+		#Whether or not damaging of Lucky Hat should be enabled.
+		luckyHatDamageEnabled = true
+		#Lucky Hat durability.
+		#Range: 1 ~ 10000
+		luckyHatDurability = 300
+		#Whether or not Hunger effect of Lucky Hat should be enabled while running.
+		luckyHatUnluckEnabled = true
+
+	["Balance Options"."Mining Hat"]
+		#Whether or not damaging of Mining Hat should be enabled.
+		miningHatDamageEnabled = true
+		#Mining Hat durability.
+		#Range: 1 ~ 10000
+		miningHatDurability = 450
+		#Whether or not Night Vision effect of Mining Hat should be enabled in dark areas.
+		miningHatNightVisionEnabled = true
+		#Whether or not wearing a Mining Hat should make Piglins neutral.
+		miningHatMakePiglinsNeutralEnabled = true
+		#Mining Hat speed increase without Efficiency enchantment.
+		#Range: 0.0 ~ 1.0
+		miningHatSpeedWithEfficiency0 = 0.2
+		#Mining Hat speed increase with Efficiency I.
+		#Range: 0.0 ~ 1.0
+		miningHatSpeedWithEfficiency1 = 0.4
+		#Mining Hat speed increase with Efficiency II.
+		#Range: 0.0 ~ 2.0
+		miningHatSpeedWithEfficiency2 = 0.6
+		#Mining Hat speed increase with Efficiency III.
+		#Range: 0.0 ~ 3.0
+		miningHatSpeedWithEfficiency3 = 0.8
+		#Mining Hat speed increase with Efficiency IV.
+		#Range: 0.0 ~ 4.0
+		miningHatSpeedWithEfficiency4 = 1.0
+		#Mining Hat speed increase with Efficiency V.
+		#Range: 0.0 ~ 5.0
+		miningHatSpeedWithEfficiency5 = 1.5
+
+	["Balance Options"."Mushroom Hat"]
+		#Whether or not damaging of Mushroom Hat should be enabled.
+		mushroomHatDamageEnabled = true
+		#Mushroom Hat durability.
+		#Range: 1 ~ 10000
+		mushroomHatDurability = 80
+		#Interval the Mushroom Hat is eaten by the player (in ticks). default: 60 (3 seconds)
+		#Range: 1 ~ 10000
+		mushroomHatEatInterval = 60
+
+	["Balance Options"."Postman Hat"]
+		#Whether or not damaging of Postman Hat should be enabled.
+		postmanHatDamageEnabled = true
+		#Postman Hat durability.
+		#Range: 1 ~ 10000
+		postmanHatDurability = 600
+		#Whether or not Hunger effect of Postman Hat should be enabled while running.
+		postmanHatHungerEnabled = true
+
+	["Balance Options"."Shulker Helmet"]
+		#Whether or not damaging of Shulker Helmet should be enabled.
+		shulkerHelmetDamageEnabled = true
+		#Shulker Helmet durability.
+		#Range: 1 ~ 10000
+		shulkerHelmetDurability = 600
+
+	["Balance Options"."Stocking Cap"]
+		#Whether or not damaging of Stocking Cap should be enabled.
+		stockingCapDamageEnabled = true
+		#Stocking Cap durability.
+		#Range: 1 ~ 10000
+		stockingCapDurability = 600
+
+	["Balance Options"."Straw Hat"]
+		#Whether or not damaging of Straw Hat should be enabled.
+		strawHatDamageEnabled = true
+		#Straw Hat durability.
+		#Range: 1 ~ 10000
+		strawHatDurability = 300
+		#Straw Hat speed increase without Efficiency enchantment.
+		#Range: 0.0 ~ 1.0
+		strawHatSpeedWithEfficiency0 = 0.2
+		#Straw Hat speed increase with Efficiency I.
+		#Range: 0.0 ~ 1.0
+		strawHatSpeedWithEfficiency1 = 0.4
+		#Straw Hat speed increase with Efficiency II.
+		#Range: 0.0 ~ 2.0
+		strawHatSpeedWithEfficiency2 = 0.6
+		#Straw Hat speed increase with Efficiency III.
+		#Range: 0.0 ~ 3.0
+		strawHatSpeedWithEfficiency3 = 0.8
+		#Straw Hat speed increase with Efficiency IV.
+		#Range: 0.0 ~ 4.0
+		strawHatSpeedWithEfficiency4 = 1.0
+		#Straw Hat speed increase with Efficiency V.
+		#Range: 0.0 ~ 5.0
+		strawHatSpeedWithEfficiency5 = 1.5
+
+	["Balance Options"."Wing Helmet"]
+		#Whether or not damaging of Wing Helmet should be enabled.
+		wingHelmetDamageEnabled = true
+		#Wing Helmet durability.
+		#Range: 1 ~ 10000
+		wingHelmetDurability = 600
+		#Whether or not Levitation effect of Wing Helmet should be enabled.
+		wingHelmetLevitationEnabled = true
+

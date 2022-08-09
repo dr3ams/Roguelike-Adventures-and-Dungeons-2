@@ -1,0 +1,61 @@
+{
+  "name": "zebra_food",
+  "requirement": "A minimum of 1 Item is required.",
+  "info": [
+    "item; Can be an Item name like: minecraft:wheat. Or it can be an Item Tag like: tag:forge:seeds.",
+    "breeding; Determines if this Item can be used to breed.",
+    "healAmount; Is the amount of half a hearts this Item will heal.",
+    "growthAmount; Is the amount of ticks this Item will advance the Age of a Baby. A Baby needs 24000 ticks to become an adult.",
+    "(20 ticks is 1 second. This means that a Baby needs 1200 seconds, or 20 minutes, to become an adult.)"
+  ],
+  "items": [
+    {
+      "item": "minecraft:wheat",
+      "breeding": true,
+      "healAmount": 2,
+      "growthAmount": 20
+    },
+    {
+      "item": "minecraft:hay_block",
+      "breeding": true,
+      "healAmount": 20,
+      "growthAmount": 180
+    },
+    {
+      "item": "minecraft:sugar",
+      "breeding": false,
+      "healAmount": 1,
+      "growthAmount": 30
+    },
+    {
+      "item": "minecraft:apple",
+      "breeding": false,
+      "healAmount": 3,
+      "growthAmount": 60
+    },
+    {
+      "item": "minecraft:carrot",
+      "breeding": false,
+      "healAmount": 3,
+      "growthAmount": 60
+    },
+    {
+      "item": "minecraft:golden_carrot",
+      "breeding": false,
+      "healAmount": 4,
+      "growthAmount": 60
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "breeding": false,
+      "healAmount": 10,
+      "growthAmount": 240
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "breeding": false,
+      "healAmount": 20,
+      "growthAmount": 240
+    }
+  ]
+}

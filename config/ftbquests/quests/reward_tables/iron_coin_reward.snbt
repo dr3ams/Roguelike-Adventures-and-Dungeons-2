@@ -1,0 +1,64 @@
+{
+	id: "32F9A93C0635A760"
+	order_index: 14
+	title: "Iron coin reward"
+	loot_size: 1
+	rewards: [
+		{ item: "aquaculture:lockbox", count: 4 }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "uncommon_loot_crate"
+				}
+			}
+		}
+		{ item: "kubejs:copper_coin", count: 3 }
+		{ item: "minecraft:iron_ore", random_bonus: 5 }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "random_mob_drops"
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "random_materials"
+				}
+			}
+		}
+		{ item: "minecraft:gunpowder", count: 16 }
+		{ item: "minecraft:clay_ball", count: 32 }
+		{ item: "minecraft:ink_sac", count: 16 }
+		{ item: "minecraft:book", count: 16 }
+		{ item: "minecraft:slime_ball", count: 16 }
+		{ item: "minecraft:llama_spawn_egg" }
+		{ item: "minecraft:goat_spawn_egg" }
+		{ item: "minecraft:donkey_spawn_egg" }
+		{ item: "minecraft:cow_spawn_egg" }
+		{ item: "minecraft:chicken_spawn_egg" }
+		{ item: "minecraft:bee_spawn_egg" }
+		{ item: "minecraft:sheep_spawn_egg" }
+		{ item: "minecraft:wolf_spawn_egg" }
+		{ item: "minecraft:sand", count: 64 }
+		{ item: "randomite:randomite_ore", count: 3 }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "hat_loot_crate"
+				}
+			}
+		}
+		{ item: "kubejs:diamond_nugget", count: 3 }
+		{ item: "kubejs:emerald_nugget", count: 3 }
+	]
+}

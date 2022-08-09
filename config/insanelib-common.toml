@@ -1,0 +1,32 @@
+
+[Base]
+	#No more boring 3D Area of Effect Clouds
+	"Enable Area Effect Cloud 3D" = true
+	#A few fixes
+	"Enable Fixes" = true
+	#Set custom blocks appearing when fluids merge
+	"Enable Fluid Mixin" = false
+
+	#No more boring 3D Area of Effect Clouds
+	[Base."Area Effect Cloud 3D"]
+		#If true, vanilla Area of Effect Clouds will be replaced with 3D versions of them
+		"Replace Vanilla Area of Effect Clouds" = true
+
+	#A few fixes
+	[Base.Fixes]
+		#If true, mobs will have their follow range fixed. https://bugs.mojang.com/browse/MC-145656
+		"Fix Follow Range" = true
+		#Removes the random bonus health given to Leader Zombies. In vanilla it's useless since doesn't work. https://minecraft.fandom.com/wiki/Attribute#Vanilla_modifiers
+		"Remove Zombies Bonus Health" = true
+		#When affected by slowness the player can still jump really far away. When true, jumps length will be calculated base off player's movement speed.
+		"Fix Jump Movement Factor" = true
+		#The fix for Jump Movement Factor is applied only when the player is slowed down.
+		"Fix Jump Movement Factor Slowdown Only" = true
+
+	#Set custom blocks appearing when fluids merge
+	[Base."Fluid Mixin"]
+		#A list of fluids flowing over other fluids and the block created. It's highly recommended to use tags since fluids are split between still and flowing.
+		#Format must be modid:fluid_or_tag_id,modid:fluid_or_tag_id,modid_block_output[,modid:block_below_required]
+		#block_below_required is optional.
+		"Custom Fluid Mixin" = []
+

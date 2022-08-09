@@ -1,0 +1,36 @@
+{
+	id: "5F9723EEDCAA90F3"
+	order_index: 13
+	title: "Copper coin reward"
+	loot_size: 1
+	rewards: [
+		{ item: "aquaculture:box", count: 10 }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "common_loot_crate"
+				}
+			}
+		}
+		{ item: "minecraft:copper_ore", random_bonus: 5 }
+		{ item: "minecraft:coal", count: 16 }
+		{ item: "minecraft:clay_ball", count: 16 }
+		{ item: "minecraft:leather", count: 8 }
+		{ item: "minecraft:paper", count: 8 }
+		{ item: "minecraft:ink_sac", count: 8 }
+		{ item: "minecraft:bone", count: 8 }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "random_dyes"
+				}
+			}
+		}
+		{ item: "minecraft:sand", count: 32 }
+		{ item: "randomite:randomite_ore" }
+	]
+}

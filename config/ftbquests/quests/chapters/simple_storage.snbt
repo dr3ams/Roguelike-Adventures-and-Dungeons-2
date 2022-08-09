@@ -1,0 +1,1080 @@
+{
+	id: "000000000000011A"
+	group: "67B03B24E53297B4"
+	order_index: 4
+	filename: "simple_storage"
+	title: "Storage Solutions"
+	icon: "storagenetwork:master"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -2.0d
+		y: -3.5d
+		width: 6.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "rad2:textures/misc/storage_drawers.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 10.0d
+			y: 1.5d
+			description: ["The root of your Simple Storage Network. You will only need a single root per network."]
+			dependencies: ["0000000000001247"]
+			size: 1.5d
+			id: "00000000000001A1"
+			tasks: [{
+				id: "00000000000001A2"
+				type: "item"
+				item: "storagenetwork:master"
+			}]
+			rewards: [
+				{
+					id: "00000000000004A9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7A1C8725E10915F8"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			description: ["Link cables are used to link inventories (a chest for example) into a network. Only a single link cable must be in contact with the chest, a standard network cable can then connect the remaining distance to the network."]
+			dependencies: ["00000000000001A1"]
+			id: "00000000000001A3"
+			tasks: [{
+				id: "00000000000001A4"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+			}]
+			rewards: [
+				{
+					id: "00000000000004B2"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "45F3A38F5B4EF719"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "0F591974734065AD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 2.5d
+			description: ["This block allows you to craft with items from a network."]
+			dependencies: ["00000000000001A1"]
+			id: "00000000000001A5"
+			tasks: [{
+				id: "00000000000001A6"
+				type: "item"
+				item: "storagenetwork:request"
+			}]
+			rewards: [
+				{
+					id: "00000000000004B1"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "7177442E69CBB2AC"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			description: ["These cables are the basis of the Simple Storage Network. Use these cables to link your network together."]
+			id: "00000000000001A7"
+			tasks: [{
+				id: "00000000000001A8"
+				type: "item"
+				item: "storagenetwork:kabel"
+			}]
+			rewards: [{
+				id: "00000000000004A8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.5d
+			description: ["This block will allow you to see what is stored in a network."]
+			dependencies: ["00000000000001A1"]
+			id: "00000000000001A9"
+			tasks: [{
+				id: "00000000000001AA"
+				type: "item"
+				item: "storagenetwork:inventory"
+			}]
+			rewards: [
+				{
+					id: "00000000000004AA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "33A8339A93F67256"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			description: ["An import cable imports items INTO the network (aka the output of machine into the network). Only a single import cable needs to be placed on a block to attach it to a network, the remaining distance can be connected with standard network cable."]
+			dependencies: ["00000000000001A1"]
+			id: "0000000000001132"
+			tasks: [{
+				id: "0000000000001133"
+				type: "item"
+				item: "storagenetwork:import_kabel"
+			}]
+			rewards: [
+				{
+					id: "4A09F33A42CA6D8B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "75B581F4E04B2F0F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			description: [
+				"An export cable pulls items OUT of a network and into a block (aka importing a item into a machine from the network). Only a single export cable needs to be placed to put into a block, they can be connected by standard network cable to the network."
+				"Can be right clicked to set whitelists/blacklists of items for the link."
+			]
+			dependencies: ["00000000000001A1"]
+			id: "0000000000001134"
+			tasks: [{
+				id: "0000000000001135"
+				type: "item"
+				item: "storagenetwork:export_kabel"
+			}]
+			rewards: [
+				{
+					id: "50F9A905C4B7B46D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "14C9D01A08565F01"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			description: ["Functions as a link cable but can limit the items that are connected and set storage priority."]
+			dependencies: ["00000000000001A3"]
+			id: "0000000000001136"
+			tasks: [{
+				id: "0000000000001137"
+				type: "item"
+				item: "storagenetwork:filter_kabel"
+			}]
+			rewards: [{
+				id: "0ACCBAF65F991BAB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_random"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			description: ["Acts like an input cable but allows the input to the network to be filtered."]
+			dependencies: ["0000000000001132"]
+			id: "0000000000001138"
+			tasks: [{
+				id: "0000000000001139"
+				type: "item"
+				item: "storagenetwork:import_filter_kabel"
+			}]
+			rewards: [{
+				id: "4903646E96543313"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_random"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			description: ["This upgrade will improve the speed that a cable will operate at. Can be input when right clicking a linked cable and input at the top right."]
+			dependencies: ["00000000000001A1"]
+			id: "000000000000113E"
+			tasks: [{
+				id: "000000000000113F"
+				type: "item"
+				item: "storagenetwork:speed_upgrade"
+			}]
+			rewards: [{
+				id: "7AC0A34DDD8A5061"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.5d
+			description: ["This upgrade will increase the size of a stack of items that a link cable can move. Can be input by right clicking a linked cable and input at the top right."]
+			dependencies: ["000000000000113E"]
+			id: "0000000000001140"
+			tasks: [{
+				id: "0000000000001141"
+				type: "item"
+				item: "storagenetwork:stack_upgrade"
+			}]
+			rewards: [{
+				id: "1515B5FAE6E75ACE"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			description: [
+				"This remote will allow you to see the contents of a network at a distance. Can be linked to a network by shift right clicking the root with the remote."
+				""
+				"The network will need to be chunk loaded to be seen at a distance."
+			]
+			dependencies: ["00000000000001A1"]
+			id: "0000000000001142"
+			tasks: [{
+				id: "0000000000001143"
+				type: "item"
+				item: "storagenetwork:inventory_remote"
+			}]
+			rewards: [{
+				id: "0F11964F5B71F4EA"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.5d
+			description: [
+				"An upgrade of the storage remote that allows you to craft at a distance from your storage network."
+				""
+				"Your network will need to be chunk loaded to remain active at a distance."
+			]
+			dependencies: ["0000000000001142"]
+			id: "0000000000001144"
+			tasks: [{
+				id: "0000000000001145"
+				type: "item"
+				item: "storagenetwork:crafting_remote"
+			}]
+			rewards: [{
+				id: "497E653A506CE07E"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			description: ["The Network Guide Book will be your guide to Simple Storage Network machines and mechanics."]
+			dependencies: ["00000000000001A7"]
+			id: "0000000000001247"
+			tasks: [{
+				id: "33818785937E10F5"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "storagenetwork:network_book"
+					}
+				}
+			}]
+			rewards: [{
+				id: "763B3C01122046A2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			description: [
+				"The Drawer Controller will allow you to connect all storage drawers in a 12 block radius making a large combined storage."
+				""
+				"You can deposit items into the entire system by right clicking items onto it. Double right clicking the controller will attempt to dump your enitre inventory into the system, but only if they currently exist in the system."
+			]
+			id: "66D26625F2F9CB42"
+			tasks: [{
+				id: "63A91F340990AA6A"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [{
+				id: "2CD6ED900C5F902E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingots_basic"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["The Drawer Controller Slave will allow you to extend your storage system when connected to a storage controller. This is more performance friendly than having multiple controllers."]
+			dependencies: ["66D26625F2F9CB42"]
+			id: "159670F55DD10CD9"
+			tasks: [{
+				id: "35A2C7E8A1B6A68E"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+			rewards: [{
+				id: "498E7334455DB466"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingots_basic"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			description: [
+				"Compacting drawers are a special drawer that will hold a specific material type and allow it to be changed between its different material amounts."
+				""
+				"For example, loading this drawer with a iron block will allow you to pull the iron block, 9 iron ingots, or 81 iron nuggets from it with no crafting required."
+			]
+			id: "69855EE51B48E6B7"
+			tasks: [{
+				id: "0EF6459DC48C1415"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+			rewards: [{
+				id: "6D8EA48E2F86153F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_random"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			description: [
+				"The Drawer Key will allow you to lock an item to a storage drawer slot. This will lock that item into that slot, even when all items are removed from the drawer."
+				""
+				"The Quantify Key will allow you to show/hide the storage drawer display of the number of items contained on the face of the drawer."
+			]
+			id: "206FE38B596D60E7"
+			tasks: [
+				{
+					id: "6EDAB27E297A5D18"
+					type: "item"
+					item: "storagedrawers:drawer_key"
+				}
+				{
+					id: "164EE8493589ECEB"
+					type: "item"
+					item: "storagedrawers:quantify_key"
+				}
+			]
+			rewards: [{
+				id: "330991C9EC35ED62"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			description: ["Full-size 1x1 storage drawers will store 32 stacks of an item."]
+			id: "0994B5C8D2761BEA"
+			tasks: [{
+				id: "0498B4CE87823DEF"
+				type: "item"
+				title: "Full Storage Drawer: Single Item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "storagedrawers:oak_full_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:spruce_full_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:birch_full_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:jungle_full_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:acacia_full_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:dark_oak_full_drawers_1"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E964647D9EF8BB9"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 6.5d
+			description: ["Full-size 1x2 storage drawers will store 16 stacks of an item per drawer (32 stacks overall)."]
+			id: "5B1664C5DEB1160D"
+			tasks: [{
+				id: "23A19BE3AFE3F041"
+				type: "item"
+				title: "Full Storage Drawer: Two Items"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "storagedrawers:oak_full_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:spruce_full_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:birch_full_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:jungle_full_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:acacia_full_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:dark_oak_full_drawers_2"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D1A0C0B8FBF048A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 8.0d
+			description: ["Full-size 2x2 storage drawers will store 8 stacks of an item per drawer (32 stacks overall)."]
+			id: "3EA48F9716705F18"
+			tasks: [{
+				id: "702BCF9A77D94BFF"
+				type: "item"
+				title: "Full Storage Drawer: Four Items"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "storagedrawers:oak_full_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:spruce_full_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:birch_full_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:jungle_full_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:acacia_full_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:dark_oak_full_drawers_4"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "4EA1ACAE495A2A39"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			description: ["Half-size 1x1 storage drawers will store 16 stacks of an item."]
+			id: "5649FC1867467561"
+			tasks: [{
+				id: "2936B970D64810EC"
+				type: "item"
+				title: "Half Storage Drawer: One Item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "storagedrawers:oak_half_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:spruce_half_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:birch_half_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:jungle_half_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:acacia_half_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:dark_oak_half_drawers_1"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "331EB73832860C12"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.5d
+			description: ["Half-size 1x2 storage drawers will store 8 stacks of an item per drawer (16 stacks overall)."]
+			id: "057CB349E1D67E10"
+			tasks: [{
+				id: "12084578B8CA0A5E"
+				type: "item"
+				title: "Half Storage Drawer: Two Items"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "storagedrawers:oak_half_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:spruce_half_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:birch_half_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:jungle_half_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:acacia_half_drawers_2"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:dark_oak_half_drawers_2"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0E82A0954E7F0120"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			description: ["Half-size 2x2 storage drawers will store 4 stacks of an item per drawer (16 stacks overall)."]
+			id: "227177C9C7B62C0C"
+			tasks: [{
+				id: "6ABC8CE33AAEDE2F"
+				type: "item"
+				title: "Half Storage Drawer: Four Items"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "storagedrawers:oak_half_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:spruce_half_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:birch_half_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:jungle_half_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:acacia_half_drawers_4"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:dark_oak_half_drawers_4"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "16BE27C8206D7EE7"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			description: ["Trim pieces will allow you to extend your network around corners or other configurations without sacrificing a true storage drawer. It is helpful when setting up a controller based system."]
+			id: "039F4C3E503F2102"
+			tasks: [{
+				id: "3CCB0CCB0FF80E03"
+				type: "item"
+				title: "Storage Drawers Trim"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "storagedrawers:oak_trim"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:spruce_trim"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:birch_trim"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:jungle_trim"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:acacia_trim"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:dark_oak_trim"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CF2A20028604705"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["The storage downgrade will drop the storage of the drawer it is installed in to one stack."]
+			dependencies: ["3B2469805D2E4E2B"]
+			id: "61E553A98BE5C2EC"
+			tasks: [{
+				id: "3331603F27717CAC"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+			rewards: [
+				{
+					id: "2FB90C84B853B4DF"
+					type: "item"
+					item: "minecraft:potato"
+					count: 2
+				}
+				{
+					id: "3FAFEC3DC149DCB6"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			description: ["The first level of storage upgrade will increase the storage of a drawer block by 2 times."]
+			dependencies: ["3B2469805D2E4E2B"]
+			id: "0F7BAC3F5F3CDBDB"
+			tasks: [{
+				id: "3CC33AB4B41F77F6"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+			rewards: [{
+				id: "36E6CF8C4306FAC9"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["The second level of storage upgrade will increase the storage of a drawer block by 4 times."]
+			dependencies: ["3B2469805D2E4E2B"]
+			id: "723A9F5E5263517D"
+			tasks: [{
+				id: "1ACCFF354020E04A"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+			rewards: [{
+				id: "7ED2B53E7DE35904"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: ["The third level of storage upgrade will increase the storage of a drawer block by 8 times."]
+			dependencies: ["3B2469805D2E4E2B"]
+			id: "71C41E71CF881A59"
+			tasks: [{
+				id: "169060706CFE2861"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+			rewards: [{
+				id: "4C3478B03F9EA8D2"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			description: ["The fourth level of storage upgrade will increase the storage of a drawer block by 16 times."]
+			dependencies: ["3B2469805D2E4E2B"]
+			id: "4F02FD27A3688E42"
+			tasks: [{
+				id: "527AA91805541582"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+			rewards: [{
+				id: "3CE46348D03DDB94"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			description: ["The fifth, and final, level of storage upgrade will increase the storage of a drawer block by 32 times."]
+			dependencies: ["3B2469805D2E4E2B"]
+			id: "0EA88FDF0A8CF786"
+			tasks: [{
+				id: "6CF0E1219B0CEFE9"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [{
+				id: "47E031118555788E"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: ["The void upgrade will void any items added to the drawer past its max capacity."]
+			dependencies: ["3B2469805D2E4E2B"]
+			id: "338FEC8C826F9B46"
+			tasks: [{
+				id: "5438AD3C0017A4B7"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+			rewards: [{
+				id: "7FB55526695FE1F8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			description: ["The conversion upgrade will convert materials from different mods to a single type. (You should not run into this in this pack)."]
+			dependencies: ["3B2469805D2E4E2B"]
+			id: "6175CD799995E927"
+			tasks: [{
+				id: "08AEBCD0B098CFF2"
+				type: "item"
+				item: "storagedrawers:conversion_upgrade"
+			}]
+			rewards: [
+				{
+					id: "15CC134AA8F31CFE"
+					type: "item"
+					item: "minecraft:potato"
+				}
+				{
+					id: "248AC7F4836D57E6"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			shape: "hexagon"
+			description: ["This upgrade template is the base of many upgrades that can be applied to storage drawers."]
+			size: 1.5d
+			id: "3B2469805D2E4E2B"
+			tasks: [{
+				id: "0486A34CED4444A8"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+			rewards: [{
+				id: "028AD2EC150BD42C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			description: ["The illumination upgrade will make the item and number count on the front of the drawer glow, being more visible in less lit areas."]
+			dependencies: ["3B2469805D2E4E2B"]
+			id: "52B6116AD14A0D31"
+			tasks: [{
+				id: "11BC150BD2FB8EEC"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+			rewards: [{
+				id: "187B5DDE5F447DF7"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			description: ["The redstone upgrade will ouptut a redstone signal equivalent to the level that the storage is full."]
+			dependencies: ["3B2469805D2E4E2B"]
+			id: "1A1749750B6EF51A"
+			tasks: [{
+				id: "3B1CFA370C78BE9E"
+				type: "item"
+				item: "storagedrawers:redstone_upgrade"
+			}]
+			rewards: [{
+				id: "4C078574C57750F7"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			description: ["The min redstone upgrade will output a redstone signal equivalent to the lowest filled drawer level."]
+			dependencies: ["3B2469805D2E4E2B"]
+			id: "17742B177BFBE35C"
+			tasks: [{
+				id: "213912AE7784E34C"
+				type: "item"
+				item: "storagedrawers:min_redstone_upgrade"
+			}]
+			rewards: [{
+				id: "7737ECBF9C2AEB55"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			description: ["The max redstone upgrade will output a redstone signal equivalent to how full the most filled drawer."]
+			dependencies: ["3B2469805D2E4E2B"]
+			id: "49997B92CC48A598"
+			tasks: [{
+				id: "1CC3DF86D3A81EDA"
+				type: "item"
+				item: "storagedrawers:max_redstone_upgrade"
+			}]
+			rewards: [{
+				id: "726E2B0CE1C6A516"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "48C004235BF8136A"
+			tasks: [{
+				id: "61B284A6955B9176"
+				type: "item"
+				item: {
+					id: "bagofyurting:bag_of_yurting"
+					Count: 1b
+					tag: {
+						radius: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2B0534266A2508E5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "6E26B79892F262D0"
+			tasks: [{
+				id: "3C84CB2059B31BE2"
+				type: "item"
+				item: {
+					id: "atum:palm_crate"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6859A73C10B8D858"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+}

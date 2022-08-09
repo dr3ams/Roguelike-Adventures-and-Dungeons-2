@@ -1,0 +1,6410 @@
+{
+	id: "53C5ABF9E0AA409B"
+	group: "0FF98225FE921275"
+	order_index: 2
+	filename: "dragons_in_your_own_homeland"
+	title: "Dragons!"
+	icon: {
+		id: "iceandfire:dragon_skull_ice"
+		Count: 1b
+		tag: {
+			Stage: 4
+			DragonAge: 75
+		}
+	}
+	subtitle: ["In your own homeland! Can you believe it?"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -0.5d
+		y: -0.5d
+		width: 17.0d
+		height: 30.0d
+		rotation: 0.0d
+		image: "rad2:textures/misc/rad_iceandfire4.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 1.0d
+			shape: "octagon"
+			dependencies: ["2CFA4190DF280F3F"]
+			size: 2.0d
+			id: "589F991D7DCB2D69"
+			tasks: [{
+				id: "6065DDF6F583F78C"
+				type: "item"
+				item: {
+					id: "iceandfire:bestiary"
+					Count: 1b
+					tag: {
+						Pages: [I;0]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "31045F64A9A28788"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "07A2C30C73C9779A"
+					type: "item"
+					item: {
+						id: "titles:title_scroll_uncommon"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			subtitle: "Click on the scale to learn more!"
+			dependencies: ["0289B5163EDBE735"]
+			id: "43CB9B3DAD77683A"
+			tasks: [{
+				id: "4ADC46F4B9A68D7C"
+				type: "item"
+				title: "Slay any Fire dragon!"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:scales/fire_dragon"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "30CD3C0A06062524"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "378E4047813A231B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			subtitle: "Click on the scale to learn more!"
+			dependencies: ["0289B5163EDBE735"]
+			id: "35557AE2D124F340"
+			tasks: [{
+				id: "2C38EDA94738B25A"
+				type: "item"
+				title: "Slay any Ice dragon!"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:scales/ice_dragon"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "583DA70E80B8C5F5"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "42B281BCE447248D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			subtitle: "Click on the scale to learn more!"
+			dependencies: ["0289B5163EDBE735"]
+			id: "605894F90D1565D9"
+			tasks: [{
+				id: "1BC7DBCE2CFB50A0"
+				type: "item"
+				title: "Slay any Lightning dragon!"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:scales/lightning_dragon"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4CE6826A9233C257"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "6ADD49FD054F9DD4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["43CB9B3DAD77683A"]
+			id: "40E40EAE5E9F826B"
+			tasks: [{
+				id: "21EAAB181975526E"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonforge_fire_brick"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3808F789AA6D96E8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["40E40EAE5E9F826B"]
+			id: "4E8A99E032F0A61D"
+			tasks: [{
+				id: "7D894C9A604C81A7"
+				type: "item"
+				item: {
+					id: "iceandfire:fire_dragon_heart"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3E30AE2D9629E4C6"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "5D928C8C9F538DA7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -4.5d
+			dependencies: ["4E8A99E032F0A61D"]
+			id: "1EE1729CD3AEBD42"
+			tasks: [{
+				id: "271D0655DFDC38C1"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonforge_fire_core_disabled"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3AF4D74E5A6AC909"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "08CFF3FEB144810C"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -6.0d
+			dependencies: ["1EE1729CD3AEBD42"]
+			id: "09882BA9CA9D8453"
+			tasks: [{
+				id: "5C404584B3F960AD"
+				type: "item"
+				item: {
+					id: "iceandfire:fire_dragon_blood"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7EFA8501085357A1"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "75CFC961259B1336"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -8.0d
+			dependencies: ["09882BA9CA9D8453"]
+			id: "5F7B4E456CD5AD52"
+			tasks: [{
+				id: "291119A0B85E5C9D"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_fire_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "18034C65B61182C3"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "41AF7B8FB569E9DD"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["35557AE2D124F340"]
+			id: "46F53F4EBEC22267"
+			tasks: [{
+				id: "446E1539B246BB6D"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonforge_ice_brick"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CFD10BD5CAEBB6E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["46F53F4EBEC22267"]
+			id: "569F7C8844F12952"
+			tasks: [{
+				id: "6ACBBD5825CEC2CD"
+				type: "item"
+				item: {
+					id: "iceandfire:ice_dragon_heart"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6A36A4898DB8644A"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "5E310751F66E613A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			dependencies: ["569F7C8844F12952"]
+			id: "3E9CCB8DB588089C"
+			tasks: [{
+				id: "140B68DC0D47D547"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonforge_ice_core_disabled"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57916E387FA67E70"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0CA8EC1097F0F1D9"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -8.0d
+			dependencies: ["3E9CCB8DB588089C"]
+			id: "596E4BBBE5ECB9C5"
+			tasks: [{
+				id: "7FBEC95AA1D594A6"
+				type: "item"
+				item: {
+					id: "iceandfire:ice_dragon_blood"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2E183330BA864C07"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "318E1D02F03477BE"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -10.0d
+			dependencies: ["596E4BBBE5ECB9C5"]
+			id: "586BC8112DF3B5FA"
+			tasks: [{
+				id: "0A3BA92372E67F42"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_ice_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2DB1CD9F94788791"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "164D4BD2BB479AB4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["605894F90D1565D9"]
+			id: "6F3D29EC75E31974"
+			tasks: [{
+				id: "0EB40544BF88CACD"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonforge_lightning_brick"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7D2C6BA3F246D6E0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["6F3D29EC75E31974"]
+			id: "66764D2E1627DD07"
+			tasks: [{
+				id: "127992F6E81C4BB9"
+				type: "item"
+				item: {
+					id: "iceandfire:lightning_dragon_heart"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "51EA5FF65F6E9327"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "7EAB0DBAFF8E52BC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			dependencies: ["66764D2E1627DD07"]
+			id: "10A3EC802FAA1206"
+			tasks: [{
+				id: "1FD3F38D39B12233"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonforge_lightning_core_disabled"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5947D9CA7C0244C6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7EDFC3D6BC612095"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -8.0d
+			dependencies: ["10A3EC802FAA1206"]
+			id: "752042A08C0343CE"
+			tasks: [{
+				id: "6DD99A4A199CDD50"
+				type: "item"
+				item: {
+					id: "iceandfire:lightning_dragon_blood"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A0759244E9965C1"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "0D27ED2BF16A4AA3"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -9.5d
+			dependencies: ["752042A08C0343CE"]
+			id: "2BFCFAF2EF10A54E"
+			tasks: [{
+				id: "0864576AC8371698"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_lightning_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4C35137B098BDCF3"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "3C3D98576767791A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -7.0d
+			dependencies: ["09882BA9CA9D8453"]
+			id: "42178C8AE0F6403F"
+			tasks: [{
+				id: "016600D915AF06DE"
+				type: "item"
+				item: {
+					id: "iceandfire:summoning_crystal_fire"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "40FD725C507DE90A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.0d
+			dependencies: ["596E4BBBE5ECB9C5"]
+			id: "44D34FC0F25E3719"
+			tasks: [{
+				id: "7DA3080F2B3E02F7"
+				type: "item"
+				item: {
+					id: "iceandfire:summoning_crystal_ice"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3832705A9FAA435A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.0d
+			dependencies: ["752042A08C0343CE"]
+			id: "2A58AD42BCAFD8E2"
+			tasks: [{
+				id: "5B23E6674FBB4682"
+				type: "item"
+				item: {
+					id: "iceandfire:summoning_crystal_lightning"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "33FE237CD415A5F9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["589F991D7DCB2D69"]
+			id: "0289B5163EDBE735"
+			tasks: [{
+				id: "4921EEBF5FA54DA1"
+				type: "item"
+				item: {
+					id: "iceandfire:lectern"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B50B737C829C639"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["0289B5163EDBE735"]
+			id: "2561999DAEEF2DA3"
+			tasks: [{
+				id: "51F27E1F49BDAFA9"
+				type: "item"
+				item: {
+					id: "iceandfire:podium_dark_oak"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F802C710E320A92"
+				type: "item"
+				item: {
+					id: "aquaculture:box"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			id: "2CFA4190DF280F3F"
+			tasks: [{
+				id: "3C11967FC34A982B"
+				type: "item"
+				item: {
+					id: "iceandfire:manuscript"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "320A65B07D71EAAE"
+				type: "item"
+				item: {
+					id: "ars_nouveau:greater_experience_gem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["0289B5163EDBE735"]
+			id: "49AD80E916672BBE"
+			tasks: [{
+				id: "03DD66F1004D3C84"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6086E385629FEA9C"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "2F26A22D29BE99B3"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -7.0d
+			dependencies: ["09882BA9CA9D8453"]
+			id: "2D16B44C7D383ED2"
+			tasks: [{
+				id: "46211E84A1A68344"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_fire"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "60E6C6CF4FFB3264"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "52D384E690F476EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6C6030155103261C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -8.0d
+			dependencies: ["596E4BBBE5ECB9C5"]
+			id: "668B64CA5C7C8280"
+			tasks: [{
+				id: "2412808E16ABCE1F"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_ice"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "64B5E47F79D7D300"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "486FA55FF82DD449"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5455E069613ACE3F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -10.5d
+			dependencies: ["752042A08C0343CE"]
+			id: "4374C6812B288DC4"
+			tasks: [{
+				id: "45E1BEE12E41FE41"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_lightning"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "70BE5F07ADEA18DB"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "21F8A80AB5038E85"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5BEA62858F603F38"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["0289B5163EDBE735"]
+			id: "6981F829E387F126"
+			tasks: [{
+				id: "702F12FBB62E3915"
+				type: "item"
+				title: "Any #iceandfire:dragon_skulls"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "iceandfire:dragon_skulls"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "75EE57ABC11C925F"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "4B7D0EBE4E931E9D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			dependencies: ["5C42AD1E351785EA"]
+			id: "51C4C91587A70CBA"
+			tasks: [{
+				id: "430714BC2E7F90D9"
+				type: "item"
+				item: {
+					id: "iceandfire:dragon_stick"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0ED068F1E2AD50F5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "101DB813363799DE"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			dependencies: ["5C42AD1E351785EA"]
+			id: "313CAD78364A3D66"
+			tasks: [{
+				id: "1EF31CBDA907DC53"
+				type: "item"
+				item: {
+					id: "iceandfire:dragon_flute"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5B3E6B1923E3236D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1751279975B3442F"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["49AD80E916672BBE"]
+			id: "452887E4D3CF63A4"
+			tasks: [{
+				id: "033E55E8144A4961"
+				type: "item"
+				item: {
+					id: "iceandfire:tide_trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "65445B46990DED45"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_monsters"
+						rpgloot.randomize: 0b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["5C42AD1E351785EA"]
+			id: "6C82D3C21252DD57"
+			tasks: [{
+				id: "67A693E3761346BA"
+				type: "item"
+				item: {
+					id: "iceandfire:dragon_horn"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "640AB978A0B9B4E8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1B328CC42B98F286"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			id: "55C1E6BBD60D4586"
+			tasks: [{
+				id: "04B97B8533F9A5C7"
+				type: "item"
+				item: {
+					id: "iceandfire:pixie_dust"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "490988B868E04BAB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			dependencies: ["55C1E6BBD60D4586"]
+			id: "5B954A9364237C12"
+			tasks: [{
+				id: "20CD02A6C59D3256"
+				type: "item"
+				item: {
+					id: "iceandfire:pixie_jar_0"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "488E662050D9F556"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7769863026086622"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1316C4BA32E9AB72"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			dependencies: ["55C1E6BBD60D4586"]
+			id: "325E00CC4C5AB970"
+			tasks: [{
+				id: "05C44DFC0FC218AE"
+				type: "item"
+				item: {
+					id: "iceandfire:pixie_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "12FDE1797B5E2140"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "695E21C2584035E7"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "04608340F0455442"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 8.0d
+			shape: "hexagon"
+			id: "4C794E3FD4687CA5"
+			tasks: [{
+				id: "594A82AFE8B5E0D9"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_jungle_chitin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B70B026DBEAD458"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.0d
+			y: 7.5d
+			shape: "hexagon"
+			id: "7A802CBAD47B9356"
+			tasks: [{
+				id: "3630BE9A1F28DDE1"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_desert_chitin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "38F781893D379518"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.5d
+			y: 11.0d
+			id: "4576D3B3A1577D84"
+			tasks: [{
+				id: "27630217A1027FC1"
+				type: "item"
+				item: {
+					id: "iceandfire:cyclops_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "18C8F95FC0A4D08F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1671D62EE4C6B344"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1FCED5988C628E5A"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 8.5d
+			id: "556A07D30BC8D028"
+			tasks: [{
+				id: "0AC4E22746A8E4A0"
+				type: "item"
+				item: {
+					id: "iceandfire:deathworm_tounge"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "510409A41114EEEF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			dependencies: ["556A07D30BC8D028"]
+			id: "30E37D1C695A053E"
+			tasks: [{
+				id: "6B7B606F45BEB153"
+				type: "item"
+				item: {
+					id: "iceandfire:deathworm_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "363852520CC7DF47"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7CA575C849101060"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7C2D1CEE4AC93637"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5A89DAFEE36995CD"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 10.0d
+			id: "05A7E9B1299D7219"
+			tasks: [{
+				id: "2C76D7A98BDB4E6E"
+				type: "item"
+				item: {
+					id: "iceandfire:rotten_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "33BE00BC5A683812"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "282A4BB548AA260D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1B4E59C548522525"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 11.0d
+			id: "3491C4CCEF1E4619"
+			tasks: [{
+				id: "3CCFEDCC39DC3992"
+				type: "item"
+				item: {
+					id: "iceandfire:troll_tusk"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2FC4098B4968D92A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "45634D7BDFA55479"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "23C6318A9D3C47FA"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 10.0d
+			id: "5F9AC0AB15154C7D"
+			tasks: [{
+				id: "2A8CB89E57A1253E"
+				type: "item"
+				item: {
+					id: "iceandfire:gorgon_head"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1067151B3C866DF9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3AD6B45438D0ED75"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "75FBA3D471EB0100"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "473DF5977FB580A8"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 9.0d
+			id: "0047A5D92B057234"
+			tasks: [{
+				id: "7746B0AAC5A7CF68"
+				type: "item"
+				item: {
+					id: "iceandfire:siren_tear"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "69278D08D191122C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "61F7F410250790D2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1833976DE0CAA45F"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "68D5A0078DFF0148"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			id: "0ADD071E01154009"
+			tasks: [{
+				id: "0F62115205D793EF"
+				type: "item"
+				item: {
+					id: "iceandfire:hydra_fang"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "05C55B7F1E23A0CD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "15E2FC052D4CB640"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4DD36758CDEA592E"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 9.0d
+			id: "1B2BDBEA1BEF2D23"
+			tasks: [{
+				id: "7AFC4E589642968A"
+				type: "item"
+				item: {
+					id: "iceandfire:sea_serpent_fang"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0E3818FB56A1DD26"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F84296B8D796E8C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5DCD83733D7BBC80"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			dependencies: ["5C42AD1E351785EA"]
+			id: "1DCD8CFCE09D656F"
+			tasks: [{
+				id: "4EA299FFA71040B6"
+				type: "item"
+				item: {
+					id: "iceandfire:dragon_meal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A5515A6E272D809"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			dependencies: ["1DCD8CFCE09D656F"]
+			id: "4451F4351231A711"
+			tasks: [{
+				id: "4DE62474F8989571"
+				type: "item"
+				item: {
+					id: "iceandfire:sickly_dragon_meal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6698E812EF7DBCB0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "63B99E37DD306ECD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			shape: "octagon"
+			subtitle: "Obtain a dragon egg"
+			size: 2.0d
+			id: "5C42AD1E351785EA"
+			tasks: [{
+				id: "05B29B48495316BC"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "07E494B21C74E34D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "765C23292E271FFA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			id: "0DBDC4BAA4465307"
+			tasks: [{
+				id: "557F6530028246D7"
+				type: "item"
+				item: {
+					id: "iceandfire:stymphalian_bird_feather"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4B8424FE3EB3B1FF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "47EB14CCD3155BCD"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "66A5DC8A71EF715B"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5A5A1DC811873D1C"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: ["7A802CBAD47B9356"]
+			id: "068274D8B4859A4D"
+			tasks: [{
+				id: "6883B98C384FEE5D"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_desert_swarm"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3DA19838512D4538"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "20CD35BA3B97EA9E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 9.0d
+			dependencies: ["4C794E3FD4687CA5"]
+			id: "616FBE2E85C35B68"
+			tasks: [{
+				id: "1A20A57AB4E2797C"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_jungle_swarm"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3A4DD4CDA5A9F519"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "532B2A967A226068"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			id: "53F95089CB6FF9CF"
+			tasks: [{
+				id: "6651C8310874C6FE"
+				type: "item"
+				item: {
+					id: "iceandfire:amphithere_feather"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E0E910E0CD8A395"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			dependencies: ["53F95089CB6FF9CF"]
+			id: "0638813A7CD7CB60"
+			tasks: [{
+				id: "21747FDDD543995F"
+				type: "item"
+				item: {
+					id: "iceandfire:amphithere_macuahuitl"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6C26F73EC8E7BB66"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "52C604BCC227F126"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0A006505415BD5C8"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "110BADC721783229"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 8.0d
+			dependencies: ["4C794E3FD4687CA5"]
+			id: "01189CB83DB9E541"
+			tasks: [
+				{
+					id: "1FD42A20635DB0A0"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_jungle_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "499BD785BDD8518C"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_jungle_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "106B40DD9AD2F5DB"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_jungle_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6FA0F0C4C30673B8"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_jungle_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "46D947BEF7F828A2"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "57A3028E6722B532"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "711D81F0B363298B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3A056AC33E5076F0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			dependencies: ["7A802CBAD47B9356"]
+			id: "3650F5B9FA248305"
+			tasks: [
+				{
+					id: "572AE292A1F1C7C6"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_desert_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4D4D44E7C4576979"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_desert_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4465BC2A11F7E82F"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_desert_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "612527EC4A213E08"
+					type: "item"
+					item: {
+						id: "iceandfire:myrmex_desert_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2260B6C93EFC7873"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "6A59B5B22820B573"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "646DCB0956FACFCA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "38712AFFD3CF972D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 6.5d
+			dependencies: ["7A802CBAD47B9356"]
+			id: "0A467E459CE07970"
+			tasks: [{
+				id: "61115568CF7E91BD"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_desert_sword_venom"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "192B4F3B20491E6B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "445DD890620A050B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 8.5d
+			dependencies: ["7A802CBAD47B9356"]
+			id: "1DEDAE012978C313"
+			tasks: [{
+				id: "1B312C01372F53C9"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_desert_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "592482617000824A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "1B69D646ECC72F1E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 7.0d
+			dependencies: ["4C794E3FD4687CA5"]
+			id: "786DB1AF99840E9D"
+			tasks: [{
+				id: "41773344E422B050"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_jungle_sword_venom"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "38368A0632EF5C2E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "7C6BA0E6DDB1D51A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 9.0d
+			dependencies: ["4C794E3FD4687CA5"]
+			id: "34E88C7D2C8583B9"
+			tasks: [{
+				id: "4F3F53FF73BC5E76"
+				type: "item"
+				item: {
+					id: "iceandfire:myrmex_jungle_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2296F9566205D541"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "216EE400EBEB113B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			id: "5474A3F78B629DB9"
+			tasks: [{
+				id: "33EAA179E3DA3CBB"
+				type: "item"
+				item: {
+					id: "iceandfire:ectoplasm"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6068EE2D60A31B5A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "46F170D98127D020"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0747FECB80159844"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			id: "1E4783908222E61C"
+			tasks: [{
+				id: "0A74D7E989DA4C88"
+				type: "item"
+				item: {
+					id: "iceandfire:ghost_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "20777366BB503B52"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			dependencies: ["1E4783908222E61C"]
+			id: "6E1A96AF0E1B0F18"
+			tasks: [{
+				id: "7B568A53CC48F830"
+				type: "item"
+				item: {
+					id: "iceandfire:ghost_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "50746182DFC885E5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2F76CF935C4ACE04"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "66C822A577C5CD27"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -10.5d
+			dependencies: ["5F7B4E456CD5AD52"]
+			id: "13F3473F3041F8BE"
+			tasks: [{
+				id: "020DE6BFBCDEE1BB"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_fire_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "608435A03679E4B8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0325CBCDBD8E25D7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -11.5d
+			dependencies: ["2BFCFAF2EF10A54E"]
+			id: "6F46536FE6DBE744"
+			tasks: [{
+				id: "718978BC9E6B3ED3"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_lightning_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "51790EC40320AD78"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7393BE242B03DA35"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -12.5d
+			dependencies: ["586BC8112DF3B5FA"]
+			id: "14B446040569CF12"
+			tasks: [{
+				id: "00182983DB052CC2"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_ice_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "77B27C0A26663FF6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4231752FFFB68A5B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -9.5d
+			dependencies: ["5F7B4E456CD5AD52"]
+			id: "44117F70E9596B2B"
+			tasks: [{
+				id: "4B58AD6B87C3A55D"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_fire_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2388AB8F665B551D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "524D68AD15A7F79E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -12.0d
+			dependencies: ["2BFCFAF2EF10A54E"]
+			id: "27B5323C5BB49F13"
+			tasks: [{
+				id: "3430B16A8D907830"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_lightning_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "62BBE239319A46D5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "086F05CC6577B33F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -13.0d
+			dependencies: ["586BC8112DF3B5FA"]
+			id: "403F6D4DD0791D26"
+			tasks: [{
+				id: "62CADCDBAA9522FA"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_ice_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "51BDDA7D2565C62C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "633BC166D28D66D0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -8.5d
+			dependencies: ["5F7B4E456CD5AD52"]
+			id: "27158F9244EA2788"
+			tasks: [
+				{
+					id: "0B8163CC79D96BCB"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "65242A14D90B4D9E"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1FC7AD59AAE50DCE"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7C3C724BB0741D1B"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "266210A08D6F88D5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "69510AC342E71F76"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "10A3CA64EC05C4DB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "33571F426E4B621E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6DB534DC8408BDAD"
+					type: "item"
+					item: {
+						id: "titles:title_scroll_uncommon"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1ED2EBC7236A0DCE"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -9.5d
+			dependencies: ["586BC8112DF3B5FA"]
+			id: "62638BBF2AB81B65"
+			tasks: [
+				{
+					id: "6764550E33A8BB89"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "252EC188505FE5C7"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "40F9EF8BC3A1245D"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "27422083033750AF"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6337A6B3AC7A1B40"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1F3C9F63E88064A4"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "4FC504F121990273"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "039DE0FD5C9EA933"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6F55534EC9F7CE1A"
+					type: "item"
+					item: {
+						id: "titles:title_scroll_uncommon"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4548F209689E516A"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -12.0d
+			dependencies: ["2BFCFAF2EF10A54E"]
+			id: "59FAEE03C6A088F6"
+			tasks: [
+				{
+					id: "7EB0842665A94EBA"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6D3097834AE87724"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4F478F9039A9518A"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4F8D9AF90928043D"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1ED02C34DF5830C4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "56690D7A52BBEED2"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "2EF3120913861A2D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "772D8EF13DAA9825"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "766597FB2C60B82C"
+					type: "item"
+					item: {
+						id: "titles:title_scroll_uncommon"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7DE3022289C0D4B5"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			id: "77444F5105A251CC"
+			tasks: [{
+				id: "49336133B2F9E1AE"
+				type: "item"
+				item: {
+					id: "iceandfire:hydra_heart"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A0F5C91E9ED1145"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "44CB3B89F58BB1EC"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "032A1D4D49F31717"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "52096FC2786245BE"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			shape: "hexagon"
+			id: "0E4019386C4B8CFE"
+			tasks: [
+				{
+					id: "5EC5EB9F59AFFD5A"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_red_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "76DA77A8BBF13A58"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_red_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "299B06BC8A9C8C52"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_red_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "57EA31480520C9E3"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_red_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "26E769C4AF00777D"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "1792FAF62E1B3D31"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0179BB6FDD971B2D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "778B3D9BF2973AEB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			shape: "hexagon"
+			id: "07DA535C13196AC8"
+			tasks: [
+				{
+					id: "762798D3FF4C286E"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_gray_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4E30194F1F9B7963"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_gray_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "21B49BC9E9F556CD"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_gray_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2A5F694AB9360C14"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_gray_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0B1E3BBC4EF3E223"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "0339BE019DB68790"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "21192B1CAB01B9F5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "26C1C6669029DBED"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			shape: "hexagon"
+			id: "41230E060D6C8CB1"
+			tasks: [
+				{
+					id: "1B5DA65F5114B5E6"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_bronze_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "67786420B1AE2EED"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_bronze_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3E1BAD35E2BF5D66"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_bronze_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6D202DB5971A240E"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_bronze_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2CD9CB52584938BF"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "1689F6EA7ECEDA21"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "57A4F1AA8D121640"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "742C0B3DD4019405"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			shape: "hexagon"
+			id: "54830473C8AEC5DE"
+			tasks: [
+				{
+					id: "4507F68FC11E837B"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_blue_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "07C90B2A3500BB71"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_blue_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "55521573C4188F83"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_blue_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "79C9DF50366AE295"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_blue_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "61F3CEF068DCD029"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "0344B6529A28D5EE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3BE75FFD7F3670B5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "73E025129EC2DFA3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			shape: "hexagon"
+			id: "7E1BBA1182F0EE5F"
+			tasks: [
+				{
+					id: "62F721B0ADAE7CF7"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_green_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "67824FD1F7C30622"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_green_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7C0C1FDF06F64150"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_green_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "18D680DF24F6C2AD"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_green_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2F068F488DF34C8C"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "582AA60AD0E05F05"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "593972B1A8A5D42C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5A0589AF57605878"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			shape: "hexagon"
+			id: "17F272AF83DD7A1A"
+			tasks: [
+				{
+					id: "03F54CB06A1E6818"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_white_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5440F152E74C778F"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_white_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "388757F08C7CE1C4"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_white_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2C9D4241E2A6A1E1"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_white_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1D0D3D19D32061E1"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "2E3EA11D417CFCF6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0033B2337FFC5C6F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "614727EA47A2C506"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			shape: "hexagon"
+			id: "786DED1B68FD5F91"
+			tasks: [
+				{
+					id: "38C58F0972E5D3E6"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_sapphire_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0995B0D92301F6A5"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_sapphire_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7FEEFEDDA08A760C"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_sapphire_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0359B8095A5AC3AC"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_sapphire_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2413B6F4AB4712F0"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "2AF99C699F62294D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "32902ED544D46256"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "639AE1AEF6931CC6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			shape: "hexagon"
+			id: "0B75C0E40E54BD4E"
+			tasks: [
+				{
+					id: "6E38FA706D721729"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_silver_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "52AC70CAC0DC969A"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_silver_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "24442F74C725D25A"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_silver_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "270ED9B4DA6D2139"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_silver_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "246F9DB9EDA1819D"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "19962C622DDBBFD4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "48C87F23E79D8E80"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "679A99CD76D0101D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			shape: "hexagon"
+			id: "2DA13FE433A4EFAD"
+			tasks: [
+				{
+					id: "413393084AB46523"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_electric_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "562D8FEE18B89E72"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_electric_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6B7105B079815335"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_electric_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "14939A8C3D291A2F"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_electric_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "79724AD8A72322BD"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "6211EA6B6BD15D84"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "778746212A0D5A1B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5CE49CB6F6FAADF6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			shape: "hexagon"
+			id: "0AAB50722797EC84"
+			tasks: [
+				{
+					id: "00FEEE83DBC802FD"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_amythest_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "175873C96BAF9708"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_amythest_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "01B7AC230686F6A9"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_amythest_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "00DDDF8162529108"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_amythest_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6EC7B9CB28AFC50B"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "157E851368E3BCB0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3AE5C621EAC654E8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "676613837E61AC09"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			shape: "hexagon"
+			id: "03CCBAB436670A45"
+			tasks: [
+				{
+					id: "5923BE13D219AF45"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_copper_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7002F9C863614EC1"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_copper_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "65DBE6389D39AE1A"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_copper_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4C1A70207D625663"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_copper_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6D4B9BB3922BC2E6"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "2F49831D2557E9C7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4D67537B23D4ACCC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0E6AAE63973467BA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			shape: "hexagon"
+			id: "37FE487C4B90C3DA"
+			tasks: [
+				{
+					id: "6C6984400850FEF2"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_black_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6E6BBC8A6CEC4541"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_black_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "51D5F7DBB1A4814C"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_black_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "52EAD49A32CCBAEB"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_black_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2EF1255665EDC286"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "30AD90127C411951"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "491253120F96AA86"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "30788AD8D729D13D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 7.5d
+			shape: "hexagon"
+			id: "4D6660F8B0F43778"
+			tasks: [
+				{
+					id: "707242D7E03E8523"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_teal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2C3811624A02D1A1"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_teal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2D7EF31A91668DDA"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_teal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "05FD11228BD04B92"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_teal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2B0A9B65AB0901B7"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "3BF1D661EC8FBD1A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1B419EA6A46529F8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "58A63CE1A23AF422"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 5.5d
+			shape: "hexagon"
+			id: "7D9F47D76734EA0B"
+			tasks: [
+				{
+					id: "645C2796B665742B"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_blue_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "22FB16863940F599"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_blue_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1C3A166979166A03"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_blue_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "56791C8B6A205CA2"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_blue_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6A31BF604C1F8394"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "613C63506A585813"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "090904CA1BFFD61F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "37DA0D6391DF481E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			shape: "hexagon"
+			id: "0F859924193129AC"
+			tasks: [
+				{
+					id: "25BD2654FF2CDAA5"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_bronze_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5E23C50AC31555D8"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_bronze_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1EC78F5316A09D6E"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_bronze_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7C8044B5329CCC9C"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_bronze_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "37EE0F9962C788EB"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "03FEFEF64E0D6B86"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "017CB6E3F404D057"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3E6CE40134FD3453"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 7.5d
+			shape: "hexagon"
+			id: "749B3E13754BC483"
+			tasks: [
+				{
+					id: "664EF8D97938ECBD"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_deepblue_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "566B5AD3FC99A786"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_deepblue_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "28C7057D1BEF53A5"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_deepblue_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0EDB8EAA058F0329"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_deepblue_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6B208C3F22E18805"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "49D9BB0B3F9DA2F1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7BC44FF2E7421A7A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1C519477AEEB9F03"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			shape: "hexagon"
+			id: "2D763BDF106127F9"
+			tasks: [
+				{
+					id: "298FC6591C39FA2C"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_green_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3FB2C04F35745BDB"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_green_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "58B4466A81C10847"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_green_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "54C15049BEC4D11E"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_green_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "16AE87E42C18DD0E"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "01669B0345F12901"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "115CA1F2C03B45E4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2D9D9E6B0AD3AA69"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 6.5d
+			shape: "hexagon"
+			id: "44684CB3EC11F0E5"
+			tasks: [
+				{
+					id: "133D7D0838B434AF"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_purple_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2F74FADCC2247591"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_purple_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2A07FC3359C9385D"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_purple_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3ACA93177453FC48"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_purple_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6B229BD0F90ED8EE"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "18D240EAE4FB7D8A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1BE9CDE32ABDCC01"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "62C36FD2F7EF9901"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			shape: "hexagon"
+			id: "453F194225307F8A"
+			tasks: [
+				{
+					id: "31FD56535ED365E9"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_red_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "22485AE4EFE87058"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_red_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "21B9AAE5221E20A3"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_red_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "65EB016269C1BAD0"
+					type: "item"
+					item: {
+						id: "iceandfire:tide_red_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5E1D93E2421F0AED"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "33F19A96528F79C2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "199AB52AB4E06046"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1783F0B0F520FB85"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 9.0d
+			shape: "hexagon"
+			id: "461694134C5F7AB4"
+			tasks: [
+				{
+					id: "29F16D654661F2B2"
+					type: "item"
+					item: {
+						id: "iceandfire:forest_troll_leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "49737A81D8AB597B"
+					type: "item"
+					item: {
+						id: "iceandfire:forest_troll_leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2BA77261AF789ED1"
+					type: "item"
+					item: {
+						id: "iceandfire:forest_troll_leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0E9E5845A420FA19"
+					type: "item"
+					item: {
+						id: "iceandfire:forest_troll_leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "310479805AA8D3A1"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "6766469018E01645"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "035E3B13C49BC9AD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "376074F7EEB61AE3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 9.0d
+			shape: "hexagon"
+			id: "0E881D23151E6A38"
+			tasks: [
+				{
+					id: "396E753ADDFCFACC"
+					type: "item"
+					item: {
+						id: "iceandfire:frost_troll_leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7A350EAA0A611F33"
+					type: "item"
+					item: {
+						id: "iceandfire:frost_troll_leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0D0F251C19963B05"
+					type: "item"
+					item: {
+						id: "iceandfire:frost_troll_leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "00A7DF71795A55D9"
+					type: "item"
+					item: {
+						id: "iceandfire:frost_troll_leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6E902EDBC27F6AAB"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "38B393293BF2C8E0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "69367CDD2C70DE8F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0056260D04BB3B45"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 9.0d
+			shape: "hexagon"
+			id: "077A073A83843265"
+			tasks: [
+				{
+					id: "63A9E3B7319AB2C2"
+					type: "item"
+					item: {
+						id: "iceandfire:mountain_troll_leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5E08362F797FBA69"
+					type: "item"
+					item: {
+						id: "iceandfire:mountain_troll_leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "306FC42A00B9FB61"
+					type: "item"
+					item: {
+						id: "iceandfire:mountain_troll_leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7E3FA37AB39383B3"
+					type: "item"
+					item: {
+						id: "iceandfire:mountain_troll_leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6714A5495AB9FCE6"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "578DBC8140F73623"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5C5AC46DEC1A6025"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7EA5CA3293EA93A4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 5.0d
+			id: "2FA74B751A466994"
+			tasks: [{
+				id: "3CB84413F32FDB55"
+				type: "item"
+				item: {
+					id: "iceandfire:deathworm_chitin_yellow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "029457FEDA0E920E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F00CC47F57ADFB7"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "18CFC9B6FE054AA1"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 5.0d
+			id: "3C69793758816639"
+			tasks: [{
+				id: "0D714BBE2908402B"
+				type: "item"
+				item: {
+					id: "iceandfire:deathworm_chitin_white"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5590778D7EF9D76C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "78D5688D21DD33C3"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6E969D8F4A284C64"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			id: "3E7A578EDADACEAA"
+			tasks: [{
+				id: "291E0F94BC74C6F0"
+				type: "item"
+				item: {
+					id: "iceandfire:deathworm_chitin_red"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1F7A5E097D5C5C1A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4CD47C78E98A47F3"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "54117358CFAEB747"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 10.0d
+			id: "0D1A2A3B6AAAACF8"
+			tasks: [{
+				id: "799A78A95F1E1E3D"
+				type: "item"
+				item: {
+					id: "iceandfire:hippogryph_talon"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "024A0852DA32ED01"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "18EB40A6B6377DBF"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3E50A8ED4E381C97"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -10.5d
+			dependencies: ["5F7B4E456CD5AD52"]
+			id: "79222FD515377830"
+			tasks: [
+				{
+					id: "0F06D7E462C3DA96"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonarmor_dragonsteel_fire_head"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "28FA607B9BB8E9A4"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonarmor_dragonsteel_fire_neck"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4A904035CB0B06DC"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonarmor_dragonsteel_fire_body"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "140BF893D4219CDF"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonarmor_dragonsteel_fire_tail"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0A3C8BCBE94E2928"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "5B02AFCBF7D19108"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -11.0d
+			dependencies: ["586BC8112DF3B5FA"]
+			id: "47FBF871DC42B9F0"
+			tasks: [
+				{
+					id: "2BB50C61CFDCF7EC"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonarmor_dragonsteel_ice_head"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4C060598F506EC3B"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonarmor_dragonsteel_ice_neck"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "71A8630E47EE6B7F"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonarmor_dragonsteel_ice_body"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "336AD3AD826B45AF"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonarmor_dragonsteel_ice_tail"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6B160E867B5C5849"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "4DD12C80ACA445AF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -10.0d
+			dependencies: ["2BFCFAF2EF10A54E"]
+			id: "7004E82094588EBB"
+			tasks: [
+				{
+					id: "1D967B92490E8439"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonarmor_dragonsteel_lightning_head"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6A3131582A002322"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonarmor_dragonsteel_lightning_neck"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6F3E32777167185B"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonarmor_dragonsteel_lightning_body"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "00F497242271FAF8"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonarmor_dragonsteel_lightning_tail"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "013A330E688A1439"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "dragonslayer"
+					amount: 10.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "2AABF01BA85D3A02"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

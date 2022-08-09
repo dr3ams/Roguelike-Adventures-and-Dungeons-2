@@ -1,0 +1,51 @@
+{
+	id: "24C95E93543644BD"
+	group: "241F1DC7B6D6E9D6"
+	order_index: 10
+	filename: "tropicraft"
+	title: "Chill in tropics"
+	icon: "tropicraft:pina_colada"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.5d
+		y: -0.5d
+		shape: "octagon"
+		subtitle: "Why bother with quests? Just chill..."
+		size: 2.0d
+		id: "0559FD160CFF6C2A"
+		tasks: [{
+			id: "7CFF4B6C5213D5EE"
+			type: "dimension"
+			dimension: "tropicraft:tropics"
+		}]
+		rewards: [
+			{
+				id: "121F76ECE13674D6"
+				type: "item"
+				item: {
+					id: "abnormals_delight:pickerelweed_juice"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}
+			{
+				id: "7B3A03488BD094D8"
+				type: "item"
+				item: {
+					id: "simplefarming:ice_cream_sundae"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}
+		]
+	}]
+}

@@ -1,0 +1,2735 @@
+{
+	id: "690C3D15379D602D"
+	group: "2C344CA71B9F0CFD"
+	order_index: 0
+	filename: "ars_noveau"
+	title: "Ars Nouveau"
+	icon: {
+		id: "ars_nouveau:apprentice_hood"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: "octagon"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 2.5d
+		y: 3.0d
+		width: 20.0d
+		height: 21.0d
+		rotation: 0.0d
+		image: "ars_nouveau:textures/gui/spell_book_template.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["0DDCA8596165F660"]
+			id: "1C9F00340D0A1997"
+			tasks: [{
+				id: "625757E4C11D06B9"
+				type: "item"
+				item: "ars_nouveau:worn_notebook"
+			}]
+			rewards: [{
+				id: "5FB1CB2126E754E1"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "ars_nouveau:mana_regen_potion"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["1C9F00340D0A1997"]
+			id: "52BA4A6A022B5A32"
+			tasks: [{
+				id: "1C42E3D4D89B643A"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1BC8745FF1098785"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "ars_nouveau:spell_damage"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "382001C81B2524C7"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "663C15D3F432A6E7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "422E2F8F6176FFCA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			size: 2.0d
+			id: "0DDCA8596165F660"
+			tasks: [{
+				id: "08645C3FAFC3A5A8"
+				type: "item"
+				item: "ars_nouveau:mana_gem"
+			}]
+			rewards: [
+				{
+					id: "69CBC2D3BEADF77C"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "485D4F05511E4109"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archwood_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["0DDCA8596165F660"]
+			id: "2659D61BF197EB3E"
+			tasks: [{
+				id: "42523DA32A0D6A20"
+				type: "item"
+				item: "ars_nouveau:dull_trinket"
+			}]
+			rewards: [
+				{
+					id: "0BC6D502098116B4"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "22A640A2356E8B68"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["0DDCA8596165F660"]
+			id: "1929A82F22BA575D"
+			tasks: [{
+				id: "4DCDD42066078B25"
+				type: "item"
+				item: "ars_nouveau:mundane_belt"
+			}]
+			rewards: [
+				{
+					id: "596F31FA2CD39C81"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "55F18835B5CEB195"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["0DDCA8596165F660"]
+			id: "65F152690082DD41"
+			tasks: [{
+				id: "23CD085BA29F729D"
+				type: "item"
+				item: "ars_nouveau:ring_of_potential"
+			}]
+			rewards: [
+				{
+					id: "66A2BF57EA4477A7"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0F05A92CCED72856"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 1.5d
+			dependencies: ["26485168C1FCD66E"]
+			id: "762F017D149E9018"
+			tasks: [{
+				id: "4579F48FCB455726"
+				type: "item"
+				item: "ars_nouveau:mythical_clay"
+			}]
+			rewards: [
+				{
+					id: "5DA09079325F31C0"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					random_bonus: 10
+				}
+				{
+					id: "6F62EDE79B4DD42E"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "17251A32586B586E"
+					type: "item"
+					item: {
+						id: "ars_nouveau:source_berry_roll"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7C3FAFD3AD854E95"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			dependencies: ["4BAEB4A66837BCAD"]
+			id: "26485168C1FCD66E"
+			tasks: [{
+				id: "49A26ACF7C38B481"
+				type: "item"
+				item: "ars_nouveau:marvelous_clay"
+			}]
+			rewards: [
+				{
+					id: "238547DCEF9F2510"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					random_bonus: 5
+				}
+				{
+					id: "1E4A657099926268"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "25B9BB671B0B6D5A"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3F1CB2FC113DCE78"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["0DDCA8596165F660"]
+			id: "4BAEB4A66837BCAD"
+			tasks: [{
+				id: "47481C7045F1526A"
+				type: "item"
+				item: "ars_nouveau:magic_clay"
+			}]
+			rewards: [{
+				id: "16D0DC6B2E7199B2"
+				type: "item"
+				item: {
+					id: "randomite:randomite_ore"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.25d
+			y: -3.0d
+			size: 1.5d
+			id: "7F9225E5CA7986A6"
+			tasks: [{
+				id: "62F33141CDEAF50D"
+				type: "item"
+				item: "ars_nouveau:mana_bloom"
+			}]
+			rewards: [{
+				id: "25D04C105362E787"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			dependencies: ["7F9225E5CA7986A6"]
+			id: "4A3496748AB9E7FF"
+			tasks: [{
+				id: "502D42037EE4914E"
+				type: "item"
+				item: "ars_nouveau:mana_fiber"
+			}]
+			rewards: [
+				{
+					id: "1E681A39973C078A"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "595B652679D7CA19"
+					type: "item"
+					item: {
+						id: "ars_nouveau:mana_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "69909B039CCAE8C7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			dependencies: ["4A3496748AB9E7FF"]
+			id: "059A9420DE24D272"
+			tasks: [{
+				id: "56E2602890E8EB1E"
+				type: "item"
+				item: "ars_nouveau:blaze_fiber"
+			}]
+			rewards: [
+				{
+					id: "371233ACEEF7A942"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "535DABCC0E3019F1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "potions"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			dependencies: ["059A9420DE24D272"]
+			id: "2CE8F52EE44DA32B"
+			tasks: [{
+				id: "66CA8D7248324203"
+				type: "item"
+				item: "ars_nouveau:end_fiber"
+			}]
+			rewards: [
+				{
+					id: "182F1DA8C05D43DB"
+					type: "item"
+					item: {
+						id: "minecraft:cake"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2FDE4A3DA1FC6A19"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "ars_nouveau:spell_damage"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "611BA9648E91496E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["4A3496748AB9E7FF"]
+			id: "33786A2ED014F391"
+			tasks: [{
+				id: "0BB03AD889A6CC6F"
+				type: "item"
+				item: "ars_nouveau:blank_parchment"
+			}]
+			rewards: [{
+				id: "0DD617DB90F4CB17"
+				type: "item"
+				item: {
+					id: "aquaculture:lockbox"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Novice Mage"
+			x: 5.5d
+			y: -4.0d
+			dependencies: ["4A3496748AB9E7FF"]
+			id: "0E79A2269DA68ECF"
+			tasks: [
+				{
+					id: "3BEBDFB84E031B82"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "06F708589E0E1F0B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1578A3564E9FDF76"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E113F953A487192"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3559A5D9E3DCF171"
+					type: "item"
+					item: {
+						id: "roughtweaks:bandage"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "20E4EED72EDEF82D"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "ars_nouveau:spell_damage"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["0DDCA8596165F660"]
+			size: 1.5d
+			id: "723C95AA69B46EE2"
+			tasks: [{
+				id: "52453A293F344144"
+				type: "item"
+				item: "ars_nouveau:arcane_stone"
+			}]
+			rewards: [{
+				id: "2E9030BF511FD7BD"
+				type: "item"
+				item: {
+					id: "ars_nouveau:archwood_chest"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Regular Mage"
+			x: 7.5d
+			y: -4.0d
+			dependencies: ["059A9420DE24D272"]
+			id: "3A26B9512412B253"
+			tasks: [
+				{
+					id: "619FE62BFA9FD2A6"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "77E5D7AEBC6169A9"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "189D96429E5D8498"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "397E6EB0D4434CDC"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "06332FC7C634CBB6"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "588B3484EAF3A8D7"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "60A078F2F08274F8"
+					type: "item"
+					item: {
+						id: "roughtweaks:bandage"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Arch Mage"
+			x: 9.5d
+			y: -4.0d
+			dependencies: ["2CE8F52EE44DA32B"]
+			id: "1F404A32911A3D3B"
+			tasks: [
+				{
+					id: "5AEF5DDB6AEC4E7F"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7BB16762573CBD06"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "25106AB266560256"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "79DC3F40FE6E79B8"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4378A1153E2DF185"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "249C411F9504B3DD"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "229ABA7D59D7AC02"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "306376B758FC34A7"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "ars_nouveau:mana_boost"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2E08F0EE5989AF96"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["5A2D31CE13582F25"]
+			id: "198E7721FB2BE726"
+			tasks: [
+				{
+					id: "48E2982161292FD0"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "61D9DE4AD1ED6CCC"
+					type: "item"
+					item: {
+						id: "ars_nouveau:arcane_core"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5838C7192E637DDE"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6DC2E8A28B9CC8BC"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "74612C4CF00D2102"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "54CD2F3A1D287EDE"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "225A48F0A0F4DC77"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: [
+				"723C95AA69B46EE2"
+				"4BAEB4A66837BCAD"
+			]
+			id: "1CDFAAB12C713AA0"
+			tasks: [{
+				id: "7356953D6183525E"
+				type: "item"
+				item: "ars_nouveau:glyph_press"
+			}]
+			rewards: [{
+				id: "03809235A157A597"
+				type: "item"
+				item: {
+					id: "ars_nouveau:glyph_gust"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			dependencies: ["723C95AA69B46EE2"]
+			id: "5A2D31CE13582F25"
+			tasks: [{
+				id: "6492E0AAA498D06F"
+				type: "item"
+				item: "ars_nouveau:arcane_pedestal"
+			}]
+			rewards: [
+				{
+					id: "355FC7BEF58D9D87"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1D9974C56200071E"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["723C95AA69B46EE2"]
+			id: "302856FE5F57B0D9"
+			tasks: [{
+				id: "3C02713AFAFBF583"
+				type: "item"
+				item: "ars_nouveau:crystallizer"
+			}]
+			rewards: [{
+				id: "571FE87A54C8444C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_magic"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			dependencies: ["5A2D31CE13582F25"]
+			id: "003991D4C43FE16F"
+			tasks: [{
+				id: "1109218834EF5772"
+				type: "item"
+				item: "ars_nouveau:ritual"
+			}]
+			rewards: [
+				{
+					id: "64E78F5E9F1BBD4D"
+					type: "item"
+					item: {
+						id: "ars_nouveau:mana_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1ABC73F7BE2E705E"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "652AFEF9540490C6"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 8.5d
+			dependencies: ["003991D4C43FE16F"]
+			id: "27A84E504F0EB61F"
+			tasks: [{
+				id: "48F4E237F2F43E75"
+				type: "item"
+				item: {
+					id: "ars_nouveau:ritual_binding"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7D930A1F5138CF32"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3E030B7A566FA9FA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7082F57B0517A3F8"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "1C6CA31FD197C170"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			dependencies: ["27A84E504F0EB61F"]
+			id: "65E6C41E6F0112E3"
+			tasks: [{
+				id: "2B0A61ADA63C311C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:familiar_sylph"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "259A7082A329FB5C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7C84E2DDD9E17EDF"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7B4C7BCD3F1A562E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 10.0d
+			dependencies: ["27A84E504F0EB61F"]
+			id: "16B463C33CFCD102"
+			tasks: [{
+				id: "6F44FAC0DFC49AEF"
+				type: "item"
+				item: {
+					id: "ars_nouveau:familiar_bookwyrm"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6CE7CC974F2B0A94"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "551C7D8359A9BAA9"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0C6636199F2F1FA3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 9.5d
+			dependencies: ["27A84E504F0EB61F"]
+			id: "78FB328E41BAE0BB"
+			tasks: [{
+				id: "78A99079F3824243"
+				type: "item"
+				item: {
+					id: "ars_nouveau:familiar_carbuncle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1081C70162562E91"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7C171DFCC2DD9B6C"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4CD1F9E27AAB8F27"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 9.5d
+			dependencies: ["27A84E504F0EB61F"]
+			id: "1D5172C70F3B531F"
+			tasks: [{
+				id: "68B02328875A9ED7"
+				type: "item"
+				item: {
+					id: "ars_nouveau:familiar_drygmy"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1B9144A20131C001"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7F339C0DDE5CEAB9"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6B45317F2ED82696"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 8.5d
+			dependencies: ["27A84E504F0EB61F"]
+			id: "3ED3358F2C471AEE"
+			tasks: [{
+				id: "10E3A9D7A0DA8216"
+				type: "item"
+				item: {
+					id: "ars_nouveau:familiar_wixie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5E0AE082819B748C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "477845518278AF99"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "06D03E48625C604E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			dependencies: ["33786A2ED014F391"]
+			id: "25BA0194DDD6372F"
+			tasks: [{
+				id: "3CF5CB6AC09D25D0"
+				type: "item"
+				item: {
+					id: "ars_nouveau:spell_parchment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4203E3C02A2E1789"
+					type: "item"
+					item: {
+						id: "ars_nouveau:mana_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "17991A2480A88DFC"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			dependencies: ["25BA0194DDD6372F"]
+			id: "10E60641C10C53F9"
+			tasks: [{
+				id: "2B6B5A921EAB9B62"
+				type: "item"
+				item: {
+					id: "ars_nouveau:scribes_table"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "748AEF1FFF3A3DE9"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archwood_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "511D93373C05838B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "175FDB694FAD0B7C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			id: "62D47B00D4AA64AB"
+			tasks: [{
+				id: "75B933BAB89968D0"
+				type: "item"
+				item: {
+					id: "ars_nouveau:wilden_horn"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "5833A1B6C3821D16"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0C68732FA73BDFAE"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "07DB546B5F3F22C1"
+					type: "item"
+					item: {
+						id: "ars_nouveau:mana_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "6781F8D541040DA6"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			id: "50C7CBEC81496AEC"
+			tasks: [{
+				id: "72B1129652AAA74C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:wilden_wing"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "351FF87B5AFA3D8D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1F36906221093B53"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "14B0BBE40EE81FC9"
+					type: "item"
+					item: {
+						id: "ars_nouveau:mana_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "023DB1E7D87A1A9F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			id: "02B3B29F629E72D0"
+			tasks: [{
+				id: "27EED3E9BC23E6F8"
+				type: "item"
+				item: {
+					id: "ars_nouveau:drygmy_shard"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "179EE1135A745E4A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "02B04D4487510288"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3DE5476F409053D3"
+					type: "item"
+					item: {
+						id: "ars_nouveau:mana_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "5BA0C326E0B104BB"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			id: "05A16983A2318D38"
+			tasks: [{
+				id: "37FD3A88E9ACDC34"
+				type: "item"
+				item: {
+					id: "ars_nouveau:wixie_shards"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "597BC6AB18A06E04"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "25A75515801ACBB4"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "77D746D7024741AD"
+					type: "item"
+					item: {
+						id: "ars_nouveau:mana_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "02E41F014CF5B656"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -4.0d
+			id: "5BE04A9494368D2B"
+			tasks: [{
+				id: "694CC515D908C5D3"
+				type: "item"
+				item: {
+					id: "ars_nouveau:sylph_shards"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "108E0DEFE1CF54D9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "661BFB2CFE89D439"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "06B45590D0C4A062"
+					type: "item"
+					item: {
+						id: "ars_nouveau:mana_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "010D891E0E308DC7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			id: "4882888E941602BC"
+			tasks: [{
+				id: "2D7AEAAF7D681E08"
+				type: "item"
+				item: {
+					id: "ars_nouveau:carbuncle_shards"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "052185990F4B7AEA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7378DCA71446EA42"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1EC826C9FAF999E7"
+					type: "item"
+					item: {
+						id: "ars_nouveau:mana_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "189AE7982FB6E273"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			dependencies: ["198E7721FB2BE726"]
+			id: "5A59A84030FA74FE"
+			tasks: [{
+				id: "19AAEF4AE422558F"
+				type: "item"
+				item: {
+					id: "ars_nouveau:dominion_wand"
+					Count: 1b
+					tag: {
+						en_id: -1
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0DD4E3169CC60311"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_random"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["198E7721FB2BE726"]
+			id: "5A58777B575B6917"
+			tasks: [{
+				id: "7814D46FF9282F10"
+				type: "item"
+				item: {
+					id: "ars_nouveau:wand"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "04420B55D183FD79"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3E1BC8584F6E54D0"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1EC740777E79D2D4"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["723C95AA69B46EE2"]
+			id: "593AA3FBDF9BD18F"
+			tasks: [{
+				id: "4104841656480965"
+				type: "item"
+				item: {
+					id: "ars_nouveau:mana_jar"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2097A99DBA594B2A"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "61D91B87E30142A0"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			dependencies: [
+				"696BC33ABF272A06"
+				"0837AC6784C33A0C"
+				"397D0D122C3882A7"
+				"6D20C00950B7F07A"
+				"275D850264871036"
+				"593AA3FBDF9BD18F"
+			]
+			id: "55A4DF369B65E139"
+			tasks: [{
+				id: "15AAE4926BBC92E3"
+				type: "item"
+				item: {
+					id: "ars_nouveau:arcane_relay"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00A138D4A65E3061"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "ars_nouveau:mana_boost"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "57D3867988670F16"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			id: "696BC33ABF272A06"
+			tasks: [{
+				id: "3796C06E7CF947F8"
+				type: "item"
+				item: {
+					id: "ars_nouveau:alchemical_sourcelink"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1623DBF1547B840A"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "ars_nouveau:spell_damage"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "40F54284A5F6C6F4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 6.5d
+			id: "0837AC6784C33A0C"
+			tasks: [{
+				id: "0356B7F142ED1E5F"
+				type: "item"
+				item: {
+					id: "ars_nouveau:vitalic_sourcelink"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2BEA233F6B06BC6E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "119033851949EA2D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			id: "397D0D122C3882A7"
+			tasks: [{
+				id: "1D71DE672EE6171F"
+				type: "item"
+				item: {
+					id: "ars_nouveau:mycelial_sourcelink"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4D1B2E09782D4340"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "48DB0B5343D1602B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "potions"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4BC844FDB44529A6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 6.5d
+			id: "6D20C00950B7F07A"
+			tasks: [{
+				id: "05B97702A4763FCE"
+				type: "item"
+				item: {
+					id: "ars_nouveau:mana_condenser"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "25C72B97F3C7F919"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3279813B6C59D399"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3EAC172F6F0EB0DA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			id: "275D850264871036"
+			tasks: [{
+				id: "1777FB813CD07F93"
+				type: "item"
+				item: {
+					id: "ars_nouveau:volcanic_accumulator"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3CA456599BC86A87"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "ars_nouveau:mana_regen_potion"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2376B502F27D98EB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			dependencies: ["593AA3FBDF9BD18F"]
+			id: "51D589D3AD532F7B"
+			tasks: [{
+				id: "24D0D2A2677DBF9A"
+				type: "item"
+				item: {
+					id: "ars_nouveau:basic_spell_turret"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "29601B8707DD67A9"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2BB32887D9A80012"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["593AA3FBDF9BD18F"]
+			id: "630D1E2D39AC579A"
+			tasks: [{
+				id: "509ED6CB77D57E31"
+				type: "item"
+				item: {
+					id: "ars_nouveau:potion_jar"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6D4BBD43BE9DBFC4"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "ars_nouveau:mana_regen"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "527615EF0AE4BA6D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			dependencies: ["198E7721FB2BE726"]
+			id: "1BB5A3BE509A0592"
+			tasks: [{
+				id: "42BA6ECE3586CA36"
+				type: "item"
+				item: {
+					id: "ars_nouveau:potion_flask"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6AAAB7F9B1FB2D20"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "potions"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			dependencies: ["198E7721FB2BE726"]
+			id: "3325BFCEFB44DE86"
+			tasks: [{
+				id: "0FEA4D665EAEBE2D"
+				type: "item"
+				item: {
+					id: "ars_nouveau:ring_of_greater_discount"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "07491ADFC299774B"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "ars_nouveau:mana_regen"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4F7356FEA762B7EF"
+					type: "item"
+					item: {
+						id: "roughtweaks:bandage"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			dependencies: ["198E7721FB2BE726"]
+			id: "6BC8A28A792C35B2"
+			tasks: [{
+				id: "2C743AC8F24DA388"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "47FA32402A204875"
+					type: "item"
+					item: {
+						id: "randomloot:basic_case"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "30C1AB6B321574D0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 5.5d
+			dependencies: ["198E7721FB2BE726"]
+			id: "6E2F82D196CC174F"
+			tasks: [{
+				id: "3D73A2E99F58229A"
+				type: "item"
+				item: {
+					id: "ars_nouveau:mana_bloom_crop"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5ECD0AE2ACF4BBC7"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0329EDB1E2F95A6B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "40BB7FB867C95A00"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			dependencies: ["198E7721FB2BE726"]
+			id: "7135C814D7124C34"
+			tasks: [{
+				id: "22D44C0BD72BCC9A"
+				type: "item"
+				item: {
+					id: "ars_nouveau:amulet_of_mana_regen"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "472928132024274F"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "ars_nouveau:spell_damage"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0F8A793365AEB5A2"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "ars_nouveau:mana_regen_potion"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			id: "0BC25D3C9DB2D2D4"
+			tasks: [{
+				id: "4F3D50C654AB9C31"
+				type: "item"
+				item: {
+					id: "ars_nouveau:wilden_spike"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "27202E6EF4638DA7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "10523F7F88879B3E"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6E84A10E0E0233A9"
+					type: "item"
+					item: {
+						id: "ars_nouveau:mana_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "76670F9375252F37"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+	]
+}

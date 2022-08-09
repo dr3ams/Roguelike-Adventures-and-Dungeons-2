@@ -1,0 +1,3453 @@
+{
+	id: "0000000000000FED"
+	group: "67B03B24E53297B4"
+	order_index: 1
+	filename: "culinary_engineering"
+	title: "Culinary Expedition"
+	icon: "cookingforblockheads:cooking_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -10.0d
+			y: 13.0d
+			shape: "gear"
+			subtitle: "(Connection from \"Farmer's Delight\" chapter)"
+			description: ["With this book you will be able to make food specifically from in your inventory."]
+			size: 1.5d
+			id: "0000000000000FF0"
+			tasks: [{
+				id: "0000000000000FF1"
+				type: "item"
+				item: "cookingforblockheads:crafting_book"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 13.0d
+			shape: "rsquare"
+			description: ["This cooking table is the first step in having a entire functioning and linked kitchen. It will be where you craft your food. "]
+			dependencies: ["0000000000000FF0"]
+			id: "0000000000000FF2"
+			tasks: [{
+				id: "0000000000000FF3"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+			rewards: [
+				{
+					id: "00000000000012EE"
+					type: "item"
+					item: "minecraft:white_terracotta"
+					count: 16
+				}
+				{
+					id: "5112EC8038ADC97B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 13.0d
+			shape: "rsquare"
+			description: ["By having a sink linked into your kitchen (touching other counter blocks and equipment) you will have water supplied freely to all your recipes."]
+			id: "0000000000000FF4"
+			tasks: [{
+				id: "0000000000000FF5"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			rewards: [
+				{
+					id: "00000000000012EF"
+					type: "item"
+					item: "pamhc2foodcore:saltitem"
+					count: 8
+				}
+				{
+					id: "78905B4D40483CC4"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 12.0d
+			shape: "rsquare"
+			description: ["The oven will allow you to cook any food needed in your recipes, when connected in your kitchen. Without upgrades the oven will require a fuel source to cook food."]
+			id: "0000000000000FF6"
+			tasks: [{
+				id: "0000000000000FF7"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [{
+				id: "40E814AAD5508DD8"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 12.0d
+			description: ["The toaster will convert bread to toast for any recipe needing it."]
+			id: "0000000000000FF8"
+			tasks: [{
+				id: "0000000000000FF9"
+				type: "item"
+				item: "cookingforblockheads:toaster"
+			}]
+			rewards: [
+				{
+					id: "00000000000012F5"
+					type: "item"
+					item: "minecraft:bread"
+					count: 4
+				}
+				{
+					id: "4144CC5713A84A2D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 14.0d
+			description: [
+				"Provides a constant supply of milk for recipes without manually having to be filled. "
+				""
+				"May want to drop an anvil on a cow over a milk jar to see if one actually fits."
+			]
+			dependencies: ["0000000000000FFC"]
+			id: "0000000000000FFA"
+			tasks: [{
+				id: "0000000000000FFB"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [
+				{
+					id: "00000000000012F8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "72C2EA73964CA810"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 12.0d
+			description: ["Holds milk to be used in recipes. Must be filled with milk manually."]
+			id: "0000000000000FFC"
+			tasks: [{
+				id: "0000000000000FFD"
+				type: "item"
+				item: "cookingforblockheads:milk_jar"
+			}]
+			rewards: [
+				{
+					id: "00000000000012F7"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+				{
+					id: "56655E9A5BCDBF10"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 12.0d
+			description: [
+				"The fridge is a decorative storage block that will allow you to store ingredients for recipes."
+				"Can be double stacked to expand storage space."
+			]
+			id: "0000000000000FFE"
+			tasks: [{
+				id: "0000000000000FFF"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+			}]
+			rewards: [{
+				id: "12FAECEC48295782"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 14.0d
+			description: ["Holds tools that will be able to be used in recipes in attached kitchens."]
+			id: "0000000000001000"
+			tasks: [{
+				id: "0000000000001001"
+				type: "item"
+				item: "cookingforblockheads:tool_rack"
+			}]
+			rewards: [
+				{
+					id: "00000000000012F6"
+					type: "random"
+				}
+				{
+					id: "7631441200DA19FC"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 14.0d
+			description: ["Holds and displays spices to be used in the kitchen."]
+			id: "0000000000001002"
+			tasks: [{
+				id: "0000000000001003"
+				type: "item"
+				item: "cookingforblockheads:spice_rack"
+			}]
+			rewards: [{
+				id: "2EC289651DC693A7"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 14.0d
+			description: ["Stores and displays fruit for recipes that can be used by the kitchen."]
+			id: "0000000000001004"
+			tasks: [{
+				id: "0000000000001005"
+				type: "item"
+				item: "cookingforblockheads:fruit_basket"
+			}]
+			rewards: [
+				{
+					id: "00000000000012F9"
+					type: "item"
+					item: "minecraft:apple"
+					count: 4
+				}
+				{
+					id: "00000000000012FA"
+					type: "item"
+					item: "minecraft:sweet_berries"
+					count: 4
+				}
+				{
+					id: "330AC11837818074"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 11.0d
+			description: ["A fridge upgrade that will provide all the snow and ice you need for recipes. "]
+			dependencies: ["0000000000000FFE"]
+			id: "0000000000001006"
+			tasks: [{
+				id: "0000000000001007"
+				type: "item"
+				item: "cookingforblockheads:ice_unit"
+			}]
+			rewards: [
+				{
+					id: "00000000000012F3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3ACD8E8AB40BF7E3"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 11.0d
+			description: ["A fridge upgrade that saves the last item in a slot so that item spaces are saved from being replaced."]
+			dependencies: ["0000000000000FFE"]
+			id: "0000000000001008"
+			tasks: [{
+				id: "0000000000001009"
+				type: "item"
+				item: "cookingforblockheads:preservation_chamber"
+			}]
+			rewards: [
+				{
+					id: "00000000000012F4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "240EC6315B7EA15E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 11.0d
+			description: ["By applying this upgrade to your oven it will be able to accept RF to cook food, no longer requiring fuel."]
+			dependencies: ["0000000000000FF6"]
+			id: "000000000000100A"
+			tasks: [{
+				id: "000000000000100B"
+				type: "item"
+				item: "cookingforblockheads:heating_unit"
+			}]
+			rewards: [
+				{
+					id: "00000000000012F2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7C6B1878ADC16A46"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 12.5d
+			description: [
+				"A hanging kitchen cabinet to decorate your kitchen and provide some extra storage."
+				""
+				"Can be dyed to change their color."
+			]
+			id: "000000000000100C"
+			tasks: [{
+				id: "000000000000100D"
+				type: "item"
+				item: "cookingforblockheads:cabinet"
+			}]
+			rewards: [{
+				id: "1CB8E89514E41F0E"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 12.5d
+			description: [
+				"A simple hanging cabinet corner to help around bends while maintaining connection."
+				""
+				"Can be dyed to change their color."
+			]
+			id: "000000000000100E"
+			tasks: [{
+				id: "000000000000100F"
+				type: "item"
+				item: "cookingforblockheads:hanging_corner"
+			}]
+			rewards: [{
+				id: "5F22815B31F57F01"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 14.0d
+			description: [
+				"Kitchen counter allows you to connect multiple pieces of kitchen equipment together as well as provide some storage for ingredients."
+				""
+				"Can be dyed to change their color."
+			]
+			id: "0000000000001010"
+			tasks: [{
+				id: "0000000000001011"
+				type: "item"
+				item: "cookingforblockheads:counter"
+			}]
+			rewards: [{
+				id: "3E796A6A30269524"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 14.0d
+			description: [
+				"A simple corner to help counters around bends, maintaining their connection."
+				""
+				"Can be dyed to change their color."
+			]
+			id: "0000000000001012"
+			tasks: [{
+				id: "0000000000001013"
+				type: "item"
+				item: "cookingforblockheads:corner"
+			}]
+			rewards: [{
+				id: "6F3B33084A2E2BFD"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 3.285714285714292d
+			y: 13.267857142857153d
+			description: ["The \"classic\" kitchen flooring. Can be converted to a number of other colors, check the recipes in JEI. "]
+			id: "0000000000001014"
+			tasks: [{
+				id: "0000000000001015"
+				type: "item"
+				item: "cookingforblockheads:white_kitchen_floor"
+			}]
+			rewards: [{
+				id: "02F0E02AE8900633"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			icon: {
+				id: "farmersdelight:skillet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -3.75d
+			y: 16.25d
+			shape: "octagon"
+			description: [
+				"Surrounding the above Kitchen item quests are a number of recipes that you can try to make. These may be complex but their benefits and boost may be appealing if you give them a try. Trying out a good number of these food will help you get benefits from SOL: Potato Edition."
+				"*You may need to zoom out quite a bit to see all the quests*"
+				""
+				"Feel no need to complete a lot of these quests as they do not provide rewards, but are here to give you ideas on what to cook to keep your diet diverse."
+				""
+				"May this be your veritable recipe book."
+			]
+			size: 2.5d
+			id: "000000000000107A"
+			tasks: [{
+				id: "000000000000107B"
+				type: "checkmark"
+				title: "Recipe Time"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 26.0d
+			id: "00000000000013A3"
+			tasks: [{
+				id: "00000000000013A4"
+				type: "item"
+				item: "vanillafoodpantry:apple_pie"
+			}]
+			rewards: [{
+				id: "692963FE49EE2D41"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 26.0d
+			id: "00000000000013A5"
+			tasks: [{
+				id: "00000000000013A6"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:mixed_berry_pie"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 8
+							FoodTotal: 26
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "64A675311D90FDBB"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 26.0d
+			id: "00000000000013A7"
+			tasks: [{
+				id: "00000000000013A8"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:enriched_pumpkin_pie"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 8
+							FoodTotal: 32
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6739B3645A43F1DF"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 26.0d
+			id: "00000000000013A9"
+			tasks: [{
+				id: "00000000000013AA"
+				type: "item"
+				item: "vanillafoodpantry:golden_fruit_pie"
+			}]
+			rewards: [{
+				id: "4EA5201D3B84AB27"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 26.0d
+			id: "00000000000013AB"
+			tasks: [{
+				id: "00000000000013AC"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:egg_pie"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 5
+							FoodTotal: 26
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "63C935F6E36BF886"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -9.5d
+			y: 26.0d
+			id: "00000000000013AD"
+			tasks: [{
+				id: "00000000000013AE"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:egg_pie_mushroom"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 5
+							FoodTotal: 26
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F6ADC7847A940D6"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -8.0d
+			y: 26.0d
+			id: "00000000000013AF"
+			tasks: [{
+				id: "00000000000013B0"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:egg_pie_chicken"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 5
+							FoodTotal: 30
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "29AB35B6924B787B"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 26.0d
+			id: "00000000000013B1"
+			tasks: [{
+				id: "00000000000013B2"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:egg_pie_ham"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 5
+							FoodTotal: 30
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3EF47307B1C8762A"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 26.0d
+			id: "00000000000013B3"
+			tasks: [{
+				id: "00000000000013B4"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:egg_pie_allium"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 5
+							FoodTotal: 26
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "63B87ABA6958507F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 26.0d
+			id: "00000000000013B5"
+			tasks: [{
+				id: "00000000000013B6"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:fish_pie_salmon"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 5
+							FoodTotal: 30
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "301EAD15F61BC0C5"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 23.5d
+			id: "00000000000013B7"
+			tasks: [{
+				id: "00000000000013B8"
+				type: "item"
+				item: "simplefarming:beef_and_broccoli"
+			}]
+			rewards: [{
+				id: "65DBA538E2E01C69"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 22.0d
+			id: "00000000000013B9"
+			tasks: [{
+				id: "00000000000013BA"
+				type: "item"
+				item: "simplefarming:beef_curry"
+			}]
+			rewards: [{
+				id: "5AD75CEDBD559B21"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 23.5d
+			id: "00000000000013BB"
+			tasks: [{
+				id: "00000000000013BC"
+				type: "item"
+				item: "simplefarming:italian_beef"
+			}]
+			rewards: [{
+				id: "0385832286C5E60A"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 20.5d
+			id: "00000000000013BD"
+			tasks: [{
+				id: "00000000000013BE"
+				type: "item"
+				item: "simplefarming:salad"
+			}]
+			rewards: [{
+				id: "0E4BF5AEAC0AEE02"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 23.5d
+			id: "00000000000013BF"
+			tasks: [{
+				id: "00000000000013C0"
+				type: "item"
+				item: "simplefarming:corn_salad"
+			}]
+			rewards: [{
+				id: "1A917C964E2A8ABA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 22.0d
+			id: "00000000000013C1"
+			tasks: [{
+				id: "00000000000013C2"
+				type: "item"
+				item: "simplefarming:caesar_salad"
+			}]
+			rewards: [{
+				id: "04A3A5706E202916"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 19.0d
+			id: "00000000000013C3"
+			tasks: [{
+				id: "00000000000013C4"
+				type: "item"
+				item: "simplefarming:cheeseburger"
+			}]
+			rewards: [{
+				id: "4208A07A440B0B2F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 20.5d
+			id: "00000000000013C5"
+			tasks: [{
+				id: "00000000000013C6"
+				type: "item"
+				item: "simplefarming:chicken_noodle_soup"
+			}]
+			rewards: [{
+				id: "6D669E583D9A423B"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -9.5d
+			y: 19.0d
+			id: "00000000000013C7"
+			tasks: [{
+				id: "00000000000013C8"
+				type: "item"
+				item: "simplefarming:chicken_curry"
+			}]
+			rewards: [{
+				id: "0CD40D1FC0443001"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 23.5d
+			id: "00000000000013C9"
+			tasks: [{
+				id: "00000000000013CA"
+				type: "item"
+				item: "simplefarming:chicken_parmesan"
+			}]
+			rewards: [{
+				id: "4C35E5FB1984CF74"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 20.5d
+			id: "00000000000013CB"
+			tasks: [{
+				id: "00000000000013CC"
+				type: "item"
+				item: "simplefarming:blt"
+			}]
+			rewards: [{
+				id: "53B3340B46B33574"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 20.5d
+			id: "00000000000013CD"
+			tasks: [{
+				id: "00000000000013CE"
+				type: "item"
+				item: "simplefarming:chili"
+			}]
+			rewards: [{
+				id: "4F8312B51BA78BDA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 23.5d
+			id: "00000000000013CF"
+			tasks: [{
+				id: "00000000000013D0"
+				type: "item"
+				item: "simplefarming:egg_sandwich"
+			}]
+			rewards: [{
+				id: "180A7C2E08E5142F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 20.5d
+			id: "00000000000013D1"
+			tasks: [{
+				id: "00000000000013D2"
+				type: "item"
+				item: "simplefarming:eggplant_parmesan"
+			}]
+			rewards: [{
+				id: "53B22AFE809ED528"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 22.0d
+			id: "00000000000013D3"
+			tasks: [{
+				id: "00000000000013D4"
+				type: "item"
+				item: "simplefarming:fish_and_chips"
+			}]
+			rewards: [{
+				id: "6BFDD37FAA33D10E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 19.0d
+			id: "00000000000013D5"
+			tasks: [{
+				id: "00000000000013D6"
+				type: "item"
+				item: "simplefarming:fish_sandwich"
+			}]
+			rewards: [{
+				id: "3B2D8A59EAD751F9"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 22.0d
+			id: "00000000000013D7"
+			tasks: [{
+				id: "00000000000013D8"
+				type: "item"
+				item: "simplefarming:fried_rice"
+			}]
+			rewards: [{
+				id: "335D779F224E0CFC"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 22.0d
+			id: "00000000000013D9"
+			tasks: [{
+				id: "00000000000013DA"
+				type: "item"
+				item: "simplefarming:hamburger"
+			}]
+			rewards: [{
+				id: "54F408E8A094C95B"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 22.0d
+			id: "00000000000013DB"
+			tasks: [{
+				id: "00000000000013DC"
+				type: "item"
+				item: "simplefarming:hotdog"
+			}]
+			rewards: [{
+				id: "5B3F467F9E27C4BA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 22.0d
+			id: "00000000000013DD"
+			tasks: [{
+				id: "00000000000013DE"
+				type: "item"
+				item: "simplefarming:lasagna"
+			}]
+			rewards: [{
+				id: "556EADFD238E973F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 23.5d
+			id: "00000000000013DF"
+			tasks: [{
+				id: "00000000000013E0"
+				type: "item"
+				item: "simplefarming:mutton_curry"
+			}]
+			rewards: [{
+				id: "521598DD5A9243C9"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 20.5d
+			id: "00000000000013E1"
+			tasks: [{
+				id: "00000000000013E2"
+				type: "item"
+				item: "simplefarming:pad_thai"
+			}]
+			rewards: [{
+				id: "599FCE5A02BDB359"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -9.5d
+			y: 20.5d
+			id: "00000000000013E3"
+			tasks: [{
+				id: "00000000000013E4"
+				type: "item"
+				item: "simplefarming:pasta"
+			}]
+			rewards: [{
+				id: "458EDF9A8F7B72D3"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -9.5d
+			y: 22.0d
+			id: "00000000000013E5"
+			tasks: [{
+				id: "00000000000013E6"
+				type: "item"
+				item: "simplefarming:squid_ink_pasta"
+			}]
+			rewards: [{
+				id: "1A7355B7010DE01F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 19.0d
+			id: "00000000000013E7"
+			tasks: [{
+				id: "00000000000013E8"
+				type: "item"
+				item: "simplefarming:pork_curry"
+			}]
+			rewards: [{
+				id: "13347C88B4F0FBBA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 22.0d
+			id: "00000000000013E9"
+			tasks: [{
+				id: "00000000000013EA"
+				type: "item"
+				item: "simplefarming:pulled_pork_sandwich"
+			}]
+			rewards: [{
+				id: "4B174A8F6D8958E3"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 20.5d
+			id: "00000000000013EB"
+			tasks: [{
+				id: "00000000000013EC"
+				type: "item"
+				item: "simplefarming:sandwich"
+			}]
+			rewards: [{
+				id: "295BDDFB56187D2C"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 22.0d
+			id: "00000000000013ED"
+			tasks: [{
+				id: "00000000000013EE"
+				type: "item"
+				item: "simplefarming:sausage_barley_soup"
+			}]
+			rewards: [{
+				id: "520465CCEC0E03DD"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -9.5d
+			y: 23.5d
+			id: "00000000000013EF"
+			tasks: [{
+				id: "00000000000013F0"
+				type: "item"
+				item: "simplefarming:spaghetti"
+			}]
+			rewards: [{
+				id: "732A5F7CF5354776"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 22.0d
+			id: "00000000000013F1"
+			tasks: [{
+				id: "00000000000013F2"
+				type: "item"
+				item: "simplefarming:spinach_mushroom_quiche"
+			}]
+			rewards: [{
+				id: "4C6987274A413B9A"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 20.5d
+			id: "00000000000013F3"
+			tasks: [{
+				id: "00000000000013F4"
+				type: "item"
+				item: "simplefarming:spinach_quinoa_quiche"
+			}]
+			rewards: [{
+				id: "58662189FF39C371"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 19.0d
+			id: "00000000000013F5"
+			tasks: [{
+				id: "00000000000013F6"
+				type: "item"
+				item: "simplefarming:squash_casserole"
+			}]
+			rewards: [{
+				id: "08A5CB86FB514730"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 23.5d
+			id: "00000000000013F7"
+			tasks: [{
+				id: "00000000000013F8"
+				type: "item"
+				item: "simplefarming:squash_soup"
+			}]
+			rewards: [{
+				id: "37093A4EC24900BD"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 23.5d
+			id: "00000000000013F9"
+			tasks: [{
+				id: "00000000000013FA"
+				type: "item"
+				item: "simplefarming:stuffed_corn_zucchini"
+			}]
+			rewards: [{
+				id: "16F721F36FDAF841"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 23.5d
+			id: "00000000000013FB"
+			tasks: [{
+				id: "00000000000013FC"
+				type: "item"
+				item: "simplefarming:trail_mix"
+			}]
+			rewards: [{
+				id: "4F1DEAB15F6CEB98"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 19.0d
+			id: "00000000000013FD"
+			tasks: [{
+				id: "00000000000013FE"
+				type: "item"
+				item: "simplefarming:turnip_beetroot_gratin"
+			}]
+			rewards: [{
+				id: "4353D4B480F669AA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 20.5d
+			id: "00000000000013FF"
+			tasks: [{
+				id: "0000000000001400"
+				type: "item"
+				item: "simplefarming:vegetable_curry"
+			}]
+			rewards: [{
+				id: "181ECB86B2FB9A0E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 20.5d
+			id: "0000000000001401"
+			tasks: [{
+				id: "0000000000001402"
+				type: "item"
+				item: "simplefarming:veggie_burger"
+			}]
+			rewards: [{
+				id: "73E279C4B3703EFF"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -14.5d
+			y: 31.0d
+			id: "0000000000001403"
+			tasks: [{
+				id: "0000000000001404"
+				type: "item"
+				item: "vanillafoodpantry:enriched_bread"
+			}]
+			rewards: [{
+				id: "06E479889E36659B"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -14.5d
+			y: 32.5d
+			id: "0000000000001405"
+			tasks: [{
+				id: "0000000000001406"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:molasses_bread"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 5
+							FoodTotal: 14
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4763C2ADE536A416"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -14.5d
+			y: 34.0d
+			id: "0000000000001407"
+			tasks: [{
+				id: "0000000000001408"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:egg_bread"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 5
+							FoodTotal: 18
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D72A4C6335F43DE"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -14.5d
+			y: 29.5d
+			id: "0000000000001409"
+			tasks: [{
+				id: "000000000000140A"
+				type: "item"
+				item: "vanillafoodpantry:honey_bread"
+			}]
+			rewards: [{
+				id: "64E31FC56278A831"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 34.0d
+			id: "000000000000140B"
+			tasks: [{
+				id: "000000000000140C"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:apple_bread"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 5
+							FoodTotal: 14
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "32766B52F92F886F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 31.0d
+			id: "000000000000140D"
+			tasks: [{
+				id: "000000000000140E"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:pumpkin_bread"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 5
+							FoodTotal: 14
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "45F6EF0C7E45EE4B"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 32.5d
+			id: "000000000000140F"
+			tasks: [{
+				id: "0000000000001410"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:potato_bread"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 5
+							FoodTotal: 18
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5BB59AF53BD517F1"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -11.5d
+			y: 32.5d
+			id: "0000000000001411"
+			tasks: [{
+				id: "0000000000001412"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:muscle_bread"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 5
+							FoodTotal: 20
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1447BC33E2AF90CA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -11.5d
+			y: 34.0d
+			id: "0000000000001413"
+			tasks: [{
+				id: "0000000000001414"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:klingon_bread"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 5
+							FoodTotal: 18
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "01801A6CCB10B7A4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -11.5d
+			y: 31.0d
+			id: "0000000000001415"
+			tasks: [{
+				id: "0000000000001416"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:beets_bread"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 5
+							FoodTotal: 14
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "602774C0E4274169"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -13.0d
+			y: 29.5d
+			id: "0000000000001417"
+			tasks: [{
+				id: "0000000000001418"
+				type: "item"
+				item: "vanillafoodpantry:allium_bread"
+			}]
+			rewards: [{
+				id: "259D8352A2129DA0"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -11.5d
+			y: 29.5d
+			id: "0000000000001419"
+			tasks: [{
+				id: "000000000000141A"
+				type: "item"
+				item: "vanillafoodpantry:french_bread"
+			}]
+			rewards: [{
+				id: "443ADB52CEA4474E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 29.5d
+			id: "000000000000141B"
+			tasks: [{
+				id: "000000000000141C"
+				type: "item"
+				item: "vanillafoodpantry:nomads_snack_bar"
+			}]
+			rewards: [{
+				id: "699BF76B92E5D0D0"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 31.0d
+			id: "000000000000141D"
+			tasks: [{
+				id: "000000000000141E"
+				type: "item"
+				item: "vanillafoodpantry:nomads_meal_bar"
+			}]
+			rewards: [{
+				id: "7EDAECD20FB572F4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 32.5d
+			id: "000000000000141F"
+			tasks: [{
+				id: "0000000000001420"
+				type: "item"
+				item: "vanillafoodpantry:roasted_vegetables"
+			}]
+			rewards: [{
+				id: "00D311C1D6E11AB2"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 34.0d
+			id: "0000000000001421"
+			tasks: [{
+				id: "0000000000001422"
+				type: "item"
+				item: "vanillafoodpantry:desert_salad"
+			}]
+			rewards: [{
+				id: "5BF94B316BA4103F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 29.5d
+			id: "0000000000001423"
+			tasks: [{
+				id: "0000000000001424"
+				type: "item"
+				item: "vanillafoodpantry:bat_burger"
+			}]
+			rewards: [{
+				id: "03E366D3FB20DCCD"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 31.0d
+			id: "0000000000001425"
+			tasks: [{
+				id: "0000000000001426"
+				type: "item"
+				item: "vanillafoodpantry:bat_cheeseburger"
+			}]
+			rewards: [{
+				id: "5DA7544A6C60C892"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 32.5d
+			id: "0000000000001427"
+			tasks: [{
+				id: "0000000000001428"
+				type: "item"
+				item: "vanillafoodpantry:carrot_burger"
+			}]
+			rewards: [{
+				id: "641E5C6D8F4CEDDA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 29.5d
+			id: "0000000000001429"
+			tasks: [{
+				id: "000000000000142A"
+				type: "item"
+				item: "vanillafoodpantry:mysterious_fruit_salad"
+			}]
+			rewards: [{
+				id: "09C9294E7518FB55"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 31.0d
+			id: "000000000000142B"
+			tasks: [{
+				id: "000000000000142C"
+				type: "item"
+				item: "vanillafoodpantry:fruit_salad"
+			}]
+			rewards: [{
+				id: "76B247E722737A07"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 32.5d
+			id: "000000000000142D"
+			tasks: [{
+				id: "000000000000142E"
+				type: "item"
+				item: "vanillafoodpantry:berries_and_cream"
+			}]
+			rewards: [{
+				id: "3581FAB76BA6FBC1"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 34.0d
+			id: "000000000000142F"
+			tasks: [{
+				id: "0000000000001430"
+				type: "item"
+				item: "vanillafoodpantry:honey_glazed_melon_bites"
+			}]
+			rewards: [{
+				id: "466CEB09BA8BC673"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 34.0d
+			id: "0000000000001431"
+			tasks: [{
+				id: "0000000000001432"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:special_salad"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 6
+							FoodTotal: 25
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "73360DC5A0106F28"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -18.5d
+			y: 19.0d
+			id: "0000000000001433"
+			tasks: [{
+				id: "0000000000001434"
+				type: "item"
+				item: "vanillafoodpantry:bread_pocket_egg_mushroom"
+			}]
+			rewards: [{
+				id: "3F5A72346D9BCCEC"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -17.0d
+			y: 19.0d
+			id: "0000000000001435"
+			tasks: [{
+				id: "0000000000001436"
+				type: "item"
+				item: "vanillafoodpantry:bread_pocket_egg_steak"
+			}]
+			rewards: [{
+				id: "55E4A0B2DBF4204F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -15.5d
+			y: 19.0d
+			id: "0000000000001437"
+			tasks: [{
+				id: "0000000000001438"
+				type: "item"
+				item: "vanillafoodpantry:bread_pocket_egg_ham"
+			}]
+			rewards: [{
+				id: "211A4D98BC3EB1F9"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -18.5d
+			y: 20.5d
+			id: "0000000000001439"
+			tasks: [{
+				id: "000000000000143A"
+				type: "item"
+				item: "vanillafoodpantry:bread_pocket_egg_spam"
+			}]
+			rewards: [{
+				id: "1E40E71C00A6728F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -17.0d
+			y: 20.5d
+			id: "000000000000143B"
+			tasks: [{
+				id: "000000000000143C"
+				type: "item"
+				item: "vanillafoodpantry:bread_pocket_roast_veg"
+			}]
+			rewards: [{
+				id: "0D1B33BF999E3B5F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -15.5d
+			y: 20.5d
+			id: "000000000000143D"
+			tasks: [{
+				id: "000000000000143E"
+				type: "item"
+				item: "vanillafoodpantry:bread_pocket_fish_salad"
+			}]
+			rewards: [{
+				id: "2E4158679B7E59A3"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 17.0d
+			id: "000000000000143F"
+			tasks: [{
+				id: "0000000000001440"
+				type: "item"
+				item: "vanillafoodpantry:double_fried_egg_sandwich"
+			}]
+			rewards: [{
+				id: "72787AADAFBBBEAD"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 17.0d
+			id: "0000000000001441"
+			tasks: [{
+				id: "0000000000001442"
+				type: "item"
+				item: "vanillafoodpantry:ham_egg_sandwich"
+			}]
+			rewards: [{
+				id: "54D7CC655C94772E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 17.0d
+			id: "0000000000001443"
+			tasks: [{
+				id: "0000000000001444"
+				type: "item"
+				item: "vanillafoodpantry:spam_egg_sandwich"
+			}]
+			rewards: [{
+				id: "2F8D967DA24A1C9E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 19.0d
+			id: "0000000000001445"
+			tasks: [{
+				id: "0000000000001446"
+				type: "item"
+				item: "vanillafoodpantry:cyclops_sandwich"
+			}]
+			rewards: [{
+				id: "3C71933DA3ECA48E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 17.0d
+			id: "0000000000001447"
+			tasks: [{
+				id: "0000000000001448"
+				type: "item"
+				item: "vanillafoodpantry:sunbutter_appleslices_sandwich"
+			}]
+			rewards: [{
+				id: "02BFF9CE40F7B7A7"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 17.0d
+			id: "0000000000001449"
+			tasks: [{
+				id: "000000000000144A"
+				type: "item"
+				item: "vanillafoodpantry:crafty_preserves_sunbutter_sandwich"
+			}]
+			rewards: [{
+				id: "4B6C05AFBE6A9CC1"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 17.0d
+			id: "000000000000144D"
+			tasks: [{
+				id: "000000000000144E"
+				type: "item"
+				item: "vanillafoodpantry:honey_sunbutter_sandwich"
+			}]
+			rewards: [{
+				id: "03E5205A67D31CC0"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 19.0d
+			id: "000000000000144F"
+			tasks: [{
+				id: "0000000000001450"
+				type: "item"
+				item: "vanillafoodpantry:fish_sausage_mashwrap"
+			}]
+			rewards: [{
+				id: "0D4B518F64C85085"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 19.0d
+			id: "0000000000001451"
+			tasks: [{
+				id: "0000000000001452"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:decker_generic"
+					Count: 1b
+					tag: {
+						SAMPLE: 1b
+						"carrots:root": {
+							UiTip: "{\"translate\":\"item.vfp.caramelized_alliums\"}_||_{\"translate\":\"item.vfp.cheese_ball\"}_||_{\"translate\":\"item.vfp.potato_bread\"}_||_{\"translate\":\"item.vfp.roasted_seeds_sunflower\"}_||_{\"translate\":\"item.vfp.roasted_vegetables\"}_||_{\"translate\":\"item.vfp.decker.bonus\"}"
+							FoodPortion: 5
+							FoodTotal: 39
+							FoodSaturation: 0.898718f
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7595C4A242C0B00F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 20.5d
+			id: "0000000000001453"
+			tasks: [{
+				id: "0000000000001454"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:decker_kinged"
+					Count: 1b
+					tag: {
+						SAMPLE: 1b
+						"carrots:root": {
+							UiTip: "{\"translate\":\"item.vfp.bat_cheeseburger\"}_||_{\"translate\":\"item.vfp.cheese_sandwich\"}_||_{\"translate\":\"item.vfp.egg_minibread\"}"
+							FoodPortion: 5
+							FoodTotal: 23
+							FoodSaturation: 0.71304345f
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "442E473C301F9077"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 20.5d
+			id: "0000000000001455"
+			tasks: [{
+				id: "0000000000001456"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:decker_cuban"
+					Count: 1b
+					tag: {
+						SAMPLE: 1b
+						"carrots:root": {
+							UiTip: "{\"translate\":\"item.minecraft.cooked_porkchop\"}_||_{\"translate\":\"item.vfp.caramelized_alliums\"}_||_{\"translate\":\"item.vfp.cheese_ball\"}_||_{\"translate\":\"item.vfp.cooked_salt_pork\"}_||_{\"translate\":\"item.vfp.french_bread\"}_||_{\"translate\":\"item.vfp.decker.bonus\"}"
+							FoodPortion: 5
+							FoodTotal: 30
+							FoodSaturation: 0.9f
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "70BB16244349BFBF"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 22.0d
+			id: "0000000000001457"
+			tasks: [{
+				id: "0000000000001458"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:decker_chicken"
+					Count: 1b
+					tag: {
+						SAMPLE: 1b
+						"carrots:root": {
+							UiTip: "{\"translate\":\"item.minecraft.cooked_chicken\"}_||_{\"translate\":\"item.vfp.french_bread\"}_||_{\"translate\":\"item.vfp.portion_roasted_veg\"}"
+							FoodPortion: 5
+							FoodTotal: 23
+							FoodSaturation: 0.6f
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5FA77F5CFD59F6D4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 22.0d
+			id: "0000000000001459"
+			tasks: [{
+				id: "000000000000145A"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:decker_steak"
+					Count: 1b
+					tag: {
+						SAMPLE: 1b
+						"carrots:root": {
+							UiTip: "{\"translate\":\"item.minecraft.cooked_beef\"}_||_{\"translate\":\"item.vfp.caramelized_alliums\"}_||_{\"translate\":\"item.vfp.french_bread\"}"
+							FoodPortion: 5
+							FoodTotal: 20
+							FoodSaturation: 0.66562504f
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3AD737C82B38D15F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 22.0d
+			id: "000000000000145B"
+			tasks: [{
+				id: "000000000000145C"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:decker_cheesesteak"
+					Count: 1b
+					tag: {
+						SAMPLE: 1b
+						"carrots:root": {
+							UiTip: "{\"translate\":\"item.minecraft.cooked_beef\"}_||_{\"translate\":\"item.vfp.cheese_ball\"}_||_{\"translate\":\"item.vfp.french_bread\"}_||_{\"translate\":\"item.vfp.sauteed_alliums_mushrooms\"}"
+							FoodPortion: 5
+							FoodTotal: 25
+							FoodSaturation: 0.6571429f
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "53392676480ACB64"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 23.5d
+			id: "000000000000145D"
+			tasks: [{
+				id: "000000000000145E"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:decker_mutton"
+					Count: 1b
+					tag: {
+						SAMPLE: 1b
+						"carrots:root": {
+							UiTip: "{\"translate\":\"item.minecraft.cooked_mutton\"}_||_{\"translate\":\"item.vfp.caramelized_alliums\"}_||_{\"translate\":\"item.vfp.french_bread\"}"
+							FoodPortion: 5
+							FoodTotal: 18
+							FoodSaturation: 0.6464286f
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0176A02A8A8D77D0"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 23.5d
+			id: "000000000000145F"
+			tasks: [{
+				id: "0000000000001460"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:decker_fish"
+					Count: 1b
+					tag: {
+						SAMPLE: 1b
+						"carrots:root": {
+							UiTip: "{\"translate\":\"item.minecraft.cooked_salmon\"}_||_{\"translate\":\"item.vfp.french_bread\"}_||_{\"translate\":\"item.vfp.portion_roasted_veg\"}"
+							FoodPortion: 5
+							FoodTotal: 23
+							FoodSaturation: 0.67058825f
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "18995CE7BCE9517F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 23.5d
+			id: "0000000000001461"
+			tasks: [{
+				id: "0000000000001462"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:decker_veggie"
+					Count: 1b
+					tag: {
+						SAMPLE: 1b
+						"carrots:root": {
+							UiTip: "{\"translate\":\"item.vfp.caramelized_alliums\"}_||_{\"translate\":\"item.vfp.french_bread\"}_||_{\"translate\":\"item.vfp.roasted_vegetables\"}"
+							FoodPortion: 5
+							FoodTotal: 25
+							FoodSaturation: 0.6f
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D06ED814ECA9ACD"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -19.0d
+			y: 11.5d
+			id: "0000000000001463"
+			tasks: [{
+				id: "0000000000001464"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:stuffed_potato"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 6
+							FoodTotal: 12
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "78C0F5B22286C478"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -17.5d
+			y: 11.5d
+			id: "0000000000001465"
+			tasks: [{
+				id: "0000000000001466"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:stuffed_potato_egg"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 6
+							FoodTotal: 18
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "638BDA6A973D6A7A"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -16.0d
+			y: 11.5d
+			id: "0000000000001467"
+			tasks: [{
+				id: "0000000000001468"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:stuffed_potato_shroom"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 6
+							FoodTotal: 18
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "12E705100C247F28"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -19.0d
+			y: 13.0d
+			id: "0000000000001469"
+			tasks: [{
+				id: "000000000000146A"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:stuffed_potato_redmeat"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 6
+							FoodTotal: 18
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "72EACC0F2B0904A9"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -17.5d
+			y: 13.0d
+			id: "000000000000146B"
+			tasks: [{
+				id: "000000000000146C"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:stuffed_potato_poultry"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 6
+							FoodTotal: 18
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B9F1B4E691C9A11"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -16.0d
+			y: 13.0d
+			id: "000000000000146D"
+			tasks: [{
+				id: "000000000000146E"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:stuffed_potato_spam"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 6
+							FoodTotal: 18
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6404325807F84563"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -19.0d
+			y: 14.5d
+			id: "000000000000146F"
+			tasks: [{
+				id: "0000000000001470"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:stuffed_potato_pork"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 6
+							FoodTotal: 18
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "54F77B886F4865B3"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -17.5d
+			y: 14.5d
+			id: "0000000000001471"
+			tasks: [{
+				id: "0000000000001472"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:stuffed_potato_fish"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 6
+							FoodTotal: 18
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "41B9402E9824CCBF"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -16.0d
+			y: 14.5d
+			id: "0000000000001473"
+			tasks: [{
+				id: "0000000000001474"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:stuffed_potato_cheese"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 6
+							FoodTotal: 18
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C382B86030805C1"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -19.0d
+			y: 10.0d
+			id: "0000000000001475"
+			tasks: [{
+				id: "0000000000001476"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:stuffed_potato_veggie"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 6
+							FoodTotal: 18
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1CA0A79AE1F9A437"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -16.0d
+			y: 10.0d
+			id: "0000000000001477"
+			tasks: [{
+				id: "0000000000001478"
+				type: "item"
+				item: {
+					id: "vanillafoodpantry:stuffed_potato_muscle_egg"
+					Count: 1b
+					tag: {
+						"carrots:root": {
+							FoodPortion: 6
+							FoodTotal: 21
+							XFood: 1b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2BE558C907ADD039"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -18.5d
+			y: 23.5d
+			id: "0000000000001479"
+			tasks: [{
+				id: "000000000000147A"
+				type: "item"
+				item: "vanillafoodpantry:friedegg_sop_combo"
+			}]
+			rewards: [{
+				id: "18024C0B83003AEC"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -18.5d
+			y: 22.0d
+			id: "000000000000147B"
+			tasks: [{
+				id: "000000000000147C"
+				type: "item"
+				item: "vanillafoodpantry:fish_sop"
+			}]
+			rewards: [{
+				id: "0C4928B88E6D105B"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -17.0d
+			y: 23.5d
+			id: "000000000000147D"
+			tasks: [{
+				id: "000000000000147E"
+				type: "item"
+				item: "vanillafoodpantry:veggie_stew_combo"
+			}]
+			rewards: [{
+				id: "1E720B0F3F149491"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -15.5d
+			y: 23.5d
+			id: "000000000000147F"
+			tasks: [{
+				id: "0000000000001480"
+				type: "item"
+				item: "vanillafoodpantry:cave_stew"
+			}]
+			rewards: [{
+				id: "4C2996C06AB15608"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -17.0d
+			y: 22.0d
+			id: "0000000000001481"
+			tasks: [{
+				id: "0000000000001482"
+				type: "item"
+				item: "vanillafoodpantry:ham_hocks_stew"
+			}]
+			rewards: [{
+				id: "368479BDC613DD8C"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -15.5d
+			y: 22.0d
+			id: "0000000000001483"
+			tasks: [{
+				id: "0000000000001484"
+				type: "item"
+				item: "vanillafoodpantry:polar_bear_stew"
+			}]
+			rewards: [{
+				id: "675530A58BBCF992"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 20.5d
+			id: "0000000000001487"
+			tasks: [{
+				id: "0000000000001488"
+				type: "item"
+				item: "vanillafoodpantry:kebab_flatbread_combo"
+			}]
+			rewards: [{
+				id: "3504A01DA9C3A927"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 11.5d
+			id: "0000000000001489"
+			tasks: [{
+				id: "000000000000148A"
+				type: "item"
+				item: "vanillafoodpantry:nuggets_chicken_combo"
+			}]
+			rewards: [{
+				id: "0E894FDF2F8319BA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 11.5d
+			id: "000000000000148B"
+			tasks: [{
+				id: "000000000000148C"
+				type: "item"
+				item: "vanillafoodpantry:nuggets_beef_combo"
+			}]
+			rewards: [{
+				id: "2066519A7844E291"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 11.5d
+			id: "000000000000148D"
+			tasks: [{
+				id: "000000000000148E"
+				type: "item"
+				item: "vanillafoodpantry:nuggets_mutton_combo"
+			}]
+			rewards: [{
+				id: "004F576161C0772D"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 13.0d
+			id: "000000000000148F"
+			tasks: [{
+				id: "0000000000001490"
+				type: "item"
+				item: "vanillafoodpantry:nuggets_pork_combo"
+			}]
+			rewards: [{
+				id: "2544045ACA1CE614"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 13.0d
+			id: "0000000000001491"
+			tasks: [{
+				id: "0000000000001492"
+				type: "item"
+				item: "vanillafoodpantry:nuggets_fish_combo"
+			}]
+			rewards: [{
+				id: "21F71045C0DF982D"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 13.0d
+			id: "0000000000001493"
+			tasks: [{
+				id: "0000000000001494"
+				type: "item"
+				item: "vanillafoodpantry:nuggets_mushrooms_combo"
+			}]
+			rewards: [{
+				id: "14C5229FDA1B34DB"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 14.5d
+			id: "0000000000001495"
+			tasks: [{
+				id: "0000000000001496"
+				type: "item"
+				item: "vanillafoodpantry:nuggets_veggies_combo"
+			}]
+			rewards: [{
+				id: "60579DD56B5BA7EA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 14.5d
+			id: "0000000000001497"
+			tasks: [{
+				id: "0000000000001498"
+				type: "item"
+				item: "vanillafoodpantry:nuggets_squid_combo"
+			}]
+			rewards: [{
+				id: "05AF1454F790DF11"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 14.5d
+			id: "0000000000001499"
+			tasks: [{
+				id: "000000000000149A"
+				type: "item"
+				item: "vanillafoodpantry:nuggets_carrots_combo"
+			}]
+			rewards: [{
+				id: "6F1E8D729459CF02"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 10.0d
+			id: "000000000000149B"
+			tasks: [{
+				id: "000000000000149C"
+				type: "item"
+				item: "vanillafoodpantry:nuggets_newyorker"
+			}]
+			rewards: [{
+				id: "5397AF376CA76782"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 34.0d
+			id: "000000000000149D"
+			tasks: [{
+				id: "000000000000149E"
+				type: "item"
+				item: "vanillafoodpantry:fizzydrink_klingon"
+			}]
+			rewards: [{
+				id: "2D09C9DD5B784BE4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 32.5d
+			id: "000000000000149F"
+			tasks: [{
+				id: "00000000000014A0"
+				type: "item"
+				item: "vanillafoodpantry:fizzydrink_milk"
+			}]
+			rewards: [{
+				id: "18EB4D408DFC7282"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 31.0d
+			id: "00000000000014A1"
+			tasks: [{
+				id: "00000000000014A2"
+				type: "item"
+				item: "vanillafoodpantry:fizzydrink_berry_mix"
+			}]
+			rewards: [{
+				id: "70E58549232147B1"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 29.5d
+			id: "00000000000014A3"
+			tasks: [{
+				id: "00000000000014A4"
+				type: "item"
+				item: "vanillafoodpantry:fizzydrink_poppy"
+			}]
+			rewards: [{
+				id: "55AB99332F7FEE90"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 29.5d
+			id: "00000000000014A5"
+			tasks: [{
+				id: "00000000000014A6"
+				type: "item"
+				item: "vanillafoodpantry:fizzydrink_apple"
+			}]
+			rewards: [{
+				id: "775FA5B4E562B4DE"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 31.0d
+			id: "00000000000014A7"
+			tasks: [{
+				id: "00000000000014A8"
+				type: "item"
+				item: "vanillafoodpantry:fizzydrink_orange"
+			}]
+			rewards: [{
+				id: "2CC8DA08393A3FBF"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 32.5d
+			id: "00000000000014A9"
+			tasks: [{
+				id: "00000000000014AA"
+				type: "item"
+				item: "vanillafoodpantry:fizzydrink_dandy"
+			}]
+			rewards: [{
+				id: "1A6CB0E0FF8F9892"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 29.5d
+			id: "00000000000014AB"
+			tasks: [{
+				id: "00000000000014AC"
+				type: "item"
+				item: "vanillafoodpantry:fizzydrink_cocoa"
+			}]
+			rewards: [{
+				id: "3B963C0B6F93FE9F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 31.0d
+			id: "00000000000014AD"
+			tasks: [{
+				id: "00000000000014AE"
+				type: "item"
+				item: "vanillafoodpantry:fizzydrink_ink"
+			}]
+			rewards: [{
+				id: "163806AECECEFFAA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 32.5d
+			id: "00000000000014AF"
+			tasks: [{
+				id: "00000000000014B0"
+				type: "item"
+				item: "vanillafoodpantry:fizzydrink_melon"
+			}]
+			rewards: [{
+				id: "3F4C1DA1863E5CA4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 29.5d
+			id: "00000000000014B1"
+			tasks: [{
+				id: "00000000000014B2"
+				type: "item"
+				item: "vanillafoodpantry:fizzydrink_chorusfruit"
+			}]
+			rewards: [{
+				id: "1545829686A8CA66"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 34.0d
+			id: "00000000000014B3"
+			tasks: [{
+				id: "00000000000014B4"
+				type: "item"
+				item: "vanillafoodpantry:fizzydrink_syrup"
+			}]
+			rewards: [{
+				id: "6C8D9042C7618DB5"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 29.5d
+			id: "00000000000014B5"
+			tasks: [{
+				id: "00000000000014B6"
+				type: "item"
+				item: "vanillafoodpantry:juice_carrot"
+			}]
+			rewards: [{
+				id: "4EB37EE40E3469D2"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 29.5d
+			id: "00000000000014B7"
+			tasks: [{
+				id: "00000000000014B8"
+				type: "item"
+				item: "vanillafoodpantry:juice_cane"
+			}]
+			rewards: [{
+				id: "20235BC69533D896"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 31.0d
+			id: "00000000000014B9"
+			tasks: [{
+				id: "00000000000014BA"
+				type: "item"
+				item: "vanillafoodpantry:juice_cactus"
+			}]
+			rewards: [{
+				id: "540B657469D5B56D"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 32.5d
+			id: "00000000000014BB"
+			tasks: [{
+				id: "00000000000014BC"
+				type: "item"
+				item: "vanillafoodpantry:juice_potato"
+			}]
+			rewards: [{
+				id: "68F0E802DB7E1A4B"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 32.5d
+			id: "00000000000014BD"
+			tasks: [{
+				id: "00000000000014BE"
+				type: "item"
+				item: "vanillafoodpantry:juice_berries"
+			}]
+			rewards: [{
+				id: "207A47C5E5678DA4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 31.0d
+			id: "00000000000014BF"
+			tasks: [{
+				id: "00000000000014C0"
+				type: "item"
+				item: "vanillafoodpantry:juice_melon"
+			}]
+			rewards: [{
+				id: "2AC76341E52C1659"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 34.0d
+			id: "00000000000014C1"
+			tasks: [{
+				id: "00000000000014C2"
+				type: "item"
+				item: "vanillafoodpantry:juice_kelp"
+			}]
+			rewards: [{
+				id: "37A81A9B4859659A"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 29.5d
+			id: "00000000000014C5"
+			tasks: [{
+				id: "00000000000014C6"
+				type: "item"
+				item: "vanillafoodpantry:milkdrink_cocoa"
+			}]
+			rewards: [{
+				id: "468734366610F5AB"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 32.5d
+			id: "00000000000014C7"
+			tasks: [{
+				id: "00000000000014C8"
+				type: "item"
+				item: "vanillafoodpantry:milkdrink_sweet"
+			}]
+			rewards: [{
+				id: "0576E6983EE65577"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 34.0d
+			id: "00000000000014C9"
+			tasks: [{
+				id: "00000000000014CA"
+				type: "item"
+				item: "vanillafoodpantry:milkdrink_pumpkin"
+			}]
+			rewards: [{
+				id: "6D3A87A5129245CA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 32.5d
+			id: "00000000000014CB"
+			tasks: [{
+				id: "00000000000014CC"
+				type: "item"
+				item: "vanillafoodpantry:milkdrink_klingon"
+			}]
+			rewards: [{
+				id: "32A54D1B2DF55892"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 34.0d
+			id: "00000000000014CD"
+			tasks: [{
+				id: "00000000000014CE"
+				type: "item"
+				item: "vanillafoodpantry:milkdrink_apple"
+			}]
+			rewards: [{
+				id: "228A03CDC4D4B2BC"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 31.0d
+			id: "00000000000014CF"
+			tasks: [{
+				id: "00000000000014D0"
+				type: "item"
+				item: "vanillafoodpantry:milkdrink_berry_mix"
+			}]
+			rewards: [{
+				id: "74D36890550F9903"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 34.0d
+			id: "00000000000014D3"
+			tasks: [{
+				id: "00000000000014D4"
+				type: "item"
+				item: "vanillafoodpantry:juice_raftugli"
+			}]
+			rewards: [{
+				id: "232B6821EC928697"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 31.0d
+			id: "00000000000014D5"
+			tasks: [{
+				id: "00000000000014D6"
+				type: "item"
+				item: "vanillafoodpantry:milkdrink_muscle_mix"
+			}]
+			rewards: [{
+				id: "59CB3E2B2660EEF3"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			title: "Nugget Life"
+			icon: "vanillafoodpantry:nuggets_chicken_fried"
+			x: 10.0d
+			y: 10.0d
+			shape: "diamond"
+			description: ["Frying chunks of anything improves them greatly! "]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000001489"
+				"000000000000148B"
+				"000000000000148D"
+				"0000000000001493"
+				"0000000000001491"
+				"000000000000148F"
+				"0000000000001495"
+				"0000000000001497"
+				"0000000000001499"
+				"000000000000149B"
+			]
+			hide: true
+			size: 2.0d
+			id: "0B878A4ECF50D27A"
+		}
+		{
+			title: "Sandwich Delight"
+			icon: {
+				id: "vanillafoodpantry:decker_chicken"
+				Count: 1b
+				tag: {
+					SAMPLE: 1b
+					"carrots:root": {
+						UiTip: "{\"translate\":\"item.minecraft.cooked_chicken\"}_||_{\"translate\":\"item.vfp.french_bread\"}_||_{\"translate\":\"item.vfp.portion_roasted_veg\"}"
+						FoodPortion: 9
+						FoodTotal: 23
+						FoodSaturation: 0.6f
+						XFood: 1b
+					}
+				}
+			}
+			x: 9.0d
+			y: 17.0d
+			shape: "diamond"
+			description: ["These are some big wacky sandwiches!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"000000000000145D"
+				"000000000000145F"
+				"0000000000001461"
+				"000000000000145B"
+				"0000000000001459"
+				"0000000000001457"
+				"0000000000001487"
+				"0000000000001455"
+				"0000000000001453"
+				"0000000000001451"
+				"0000000000001445"
+				"000000000000144F"
+			]
+			hide: true
+			size: 2.0d
+			id: "5E6C47157E196F54"
+		}
+		{
+			title: "Stew Dipper"
+			icon: "vanillafoodpantry:beetroot_soup_combo"
+			x: -17.0d
+			y: 17.0d
+			shape: "diamond"
+			description: ["Some nice stuffed meals with some nice stew on the side!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000001479"
+				"000000000000147D"
+				"000000000000147F"
+				"0000000000001483"
+				"0000000000001481"
+				"000000000000147B"
+				"0000000000001439"
+				"000000000000143B"
+				"000000000000143D"
+				"0000000000001437"
+				"0000000000001435"
+				"0000000000001433"
+			]
+			hide: true
+			size: 2.0d
+			id: "7E935433AB750D06"
+		}
+		{
+			title: "Potato Buffet"
+			icon: "minecraft:baked_potato"
+			x: -17.5d
+			y: 10.0d
+			shape: "diamond"
+			description: ["You could stuff just about anything into a potato, and you have done all of it!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000001463"
+				"0000000000001469"
+				"000000000000146F"
+				"0000000000001475"
+				"0000000000001477"
+				"0000000000001473"
+				"0000000000001471"
+				"000000000000146B"
+				"000000000000146D"
+				"0000000000001467"
+				"0000000000001465"
+			]
+			hide: true
+			size: 2.0d
+			id: "35FF942B58777250"
+		}
+		{
+			title: "Just Like Gram Made"
+			icon: {
+				id: "vanillafoodpantry:fish_pie_salmon"
+				Count: 1b
+				tag: {
+					"carrots:root": {
+						FoodPortion: 5
+						FoodTotal: 30
+						XFood: 1b
+					}
+				}
+			}
+			x: -4.0d
+			y: 26.0d
+			shape: "diamond"
+			description: ["Pies just like they used to make."]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000013B5"
+				"00000000000013B1"
+				"00000000000013AD"
+				"00000000000013AF"
+				"00000000000013AB"
+				"00000000000013A3"
+				"00000000000013A5"
+				"00000000000013A7"
+				"00000000000013A9"
+				"00000000000013B3"
+			]
+			hide: true
+			size: 2.0d
+			id: "2FEBBB3C1BA1959D"
+		}
+		{
+			title: "Baker's Basics"
+			icon: "minecraft:bread"
+			x: -13.0d
+			y: 28.0d
+			shape: "diamond"
+			description: ["Time to open a bakery!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000001409"
+				"0000000000001417"
+				"0000000000001419"
+				"0000000000001415"
+				"000000000000140D"
+				"0000000000001403"
+				"0000000000001405"
+				"000000000000140F"
+				"0000000000001411"
+				"0000000000001413"
+				"000000000000140B"
+				"0000000000001407"
+			]
+			hide: true
+			size: 2.0d
+			id: "5346C66B4B8BE004"
+		}
+		{
+			title: "Wacky Lunch and Salad Combo"
+			icon: "simplefarming:olive_tomato_salad"
+			x: -7.0d
+			y: 28.0d
+			shape: "diamond"
+			description: ["This is some wacky stuff with greens!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000001431"
+				"0000000000001427"
+				"0000000000001425"
+				"0000000000001423"
+				"000000000000141B"
+				"0000000000001429"
+				"000000000000142B"
+				"000000000000141D"
+				"000000000000141F"
+				"000000000000142D"
+				"000000000000142F"
+				"0000000000001421"
+			]
+			hide: true
+			size: 2.0d
+			id: "0057D8CFA014B6F4"
+		}
+		{
+			title: "Soda Bar"
+			icon: {
+				id: "farmersdelight:melon_juice"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.0d
+			y: 28.0d
+			shape: "diamond"
+			description: ["Liquids that don't power machines, but they sure put pep in your step!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000014D5"
+				"00000000000014CB"
+				"00000000000014CD"
+				"00000000000014C9"
+				"00000000000014C7"
+				"00000000000014CF"
+				"00000000000014C5"
+				"00000000000014B5"
+				"00000000000014B9"
+				"00000000000014BB"
+				"00000000000014C1"
+				"00000000000014D3"
+				"00000000000014BD"
+				"00000000000014BF"
+				"00000000000014B7"
+				"00000000000014A5"
+				"00000000000014A7"
+				"00000000000014A9"
+				"000000000000149D"
+				"00000000000014B3"
+				"000000000000149F"
+				"00000000000014A1"
+				"00000000000014A3"
+				"00000000000014AB"
+				"00000000000014AD"
+				"00000000000014AF"
+				"00000000000014B1"
+			]
+			hide: true
+			size: 2.0d
+			id: "3C4163BBEFFFDEC3"
+		}
+		{
+			title: "Soup, Salad, and Casserole"
+			icon: "simplefarming:spinach_quinoa_quiche"
+			x: 3.0d
+			y: 19.0d
+			shape: "diamond"
+			description: ["You have a straight up cafe menu with these things!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000013F3"
+				"00000000000013F1"
+				"00000000000013FB"
+				"00000000000013BF"
+				"00000000000013C1"
+				"00000000000013BD"
+				"00000000000013C5"
+				"00000000000013ED"
+				"00000000000013F7"
+				"00000000000013F9"
+				"00000000000013D3"
+				"00000000000013CD"
+				"00000000000013F5"
+				"00000000000013FD"
+			]
+			hide: true
+			size: 2.0d
+			id: "22A371ED8FFC7FFF"
+		}
+		{
+			title: "Two Slices of Bread and Anything"
+			icon: "fins:crab_sandwich"
+			x: -4.0d
+			y: 19.0d
+			shape: "diamond"
+			description: ["Is a hotdog a sandwich?"]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000013D5"
+				"00000000000013CF"
+				"00000000000013BB"
+				"00000000000013C3"
+				"00000000000013D9"
+				"00000000000013DB"
+				"00000000000013E9"
+				"00000000000013CB"
+				"00000000000013EB"
+				"0000000000001401"
+				"000000000000144D"
+				"0000000000001449"
+				"0000000000001447"
+				"000000000000143F"
+				"0000000000001441"
+				"0000000000001443"
+			]
+			hide: true
+			size: 2.0d
+			id: "64725ADDE2ACEA50"
+		}
+		{
+			title: "All Around the World"
+			icon: "simplefarming:chicken_curry"
+			x: -11.0d
+			y: 19.0d
+			shape: "diamond"
+			description: ["Some meals from all over the world!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"00000000000013E1"
+				"00000000000013D7"
+				"00000000000013B7"
+				"00000000000013EF"
+				"00000000000013E5"
+				"00000000000013E3"
+				"00000000000013D1"
+				"00000000000013DD"
+				"00000000000013C9"
+				"00000000000013DF"
+				"00000000000013B9"
+				"00000000000013FF"
+				"00000000000013E7"
+				"00000000000013C7"
+			]
+			hide: true
+			size: 2.0d
+			id: "2B31C2CFA31CBE7F"
+		}
+		{
+			x: -2.5d
+			y: 23.5d
+			id: "7B6256D75067AB36"
+			tasks: [{
+				id: "591E25A496BB6C23"
+				type: "item"
+				item: "fins:crab_sandwich"
+			}]
+			rewards: [{
+				id: "2D20D954F62DE528"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+	]
+}

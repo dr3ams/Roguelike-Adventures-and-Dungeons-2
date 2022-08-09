@@ -1,0 +1,58 @@
+{
+	id: "0BC9EE62BBE93C0A"
+	order_index: 16
+	title: "Diamond coin reward"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "epic_loot_crate"
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "tinker_s_material_loot_crate"
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "tinker_s_part_loot_crate"
+				}
+			}
+		}
+		{ item: "kubejs:gold_coin", count: 3 }
+		{ item: "minecraft:diamond_ore" }
+		{ item: "minecraft:emerald_ore" }
+		{ item: "minecraft:axolotl_spawn_egg" }
+		{ item: "minecraft:mooshroom_spawn_egg" }
+		{ item: "minecraft:villager_spawn_egg" }
+		{ item: "kubejs:iron_coin", count: 10 }
+		{ item: "minecraft:emerald", count: 3 }
+		{ item: "minecraft:diamond", count: 3 }
+		{ item: "minecraft:amethyst_shard", count: 8 }
+		{ item: "minecraft:totem_of_undying" }
+		{ item: "buddycards:buddysteel_ingot" }
+		{ item: "aquaculture:neptunium_ingot" }
+		{ item: "randomite:randomite_ore", count: 10 }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "hat_loot_crate"
+				}
+			}
+		}
+	]
+}

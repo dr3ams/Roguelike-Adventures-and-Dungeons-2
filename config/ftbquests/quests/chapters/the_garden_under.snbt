@@ -1,0 +1,1125 @@
+{
+	id: "4D9749A9C944ECE8"
+	group: "241F1DC7B6D6E9D6"
+	order_index: 4
+	filename: "the_garden_under"
+	title: "The garden Under"
+	icon: "undergarden:deepturf_block"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 0.0d
+			id: "4C6F949FFA715364"
+			tasks: [{
+				id: "2DE60313C6484CEE"
+				type: "item"
+				item: {
+					id: "undergarden:catalyst"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "56E1AC921360B362"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["4C6F949FFA715364"]
+			size: 1.5d
+			id: "29BF84A63E82A63C"
+			tasks: [{
+				id: "75D470E0AFB9470C"
+				type: "dimension"
+				dimension: "undergarden:undergarden"
+			}]
+			rewards: [{
+				id: "54C08C074F409245"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "potions"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			dependencies: ["0B5EF31B3DBC9DE2"]
+			id: "556166EB2D38864C"
+			tasks: [
+				{
+					id: "3A33923C413913D8"
+					type: "item"
+					item: {
+						id: "undergarden:slingshot"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:bow": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "10858F9F508CD956"
+					type: "item"
+					item: "undergarden:depthrock_pebble"
+				}
+			]
+			rewards: [
+				{
+					id: "0B059AE186EFD057"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "3EE74DEEB8D07CB5"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["274C8CD10763851C"]
+			id: "018570DD4BB7DE24"
+			tasks: [{
+				id: "7E25A0FC4BD253FC"
+				type: "item"
+				item: "undergarden:cloggrum_ore"
+			}]
+			rewards: [
+				{
+					id: "29E704037E8AD65D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+				{
+					id: "1611CC0185BE9833"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "61148C915FCDD8E7"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["018570DD4BB7DE24"]
+			id: "2BE179E3CB62EC60"
+			tasks: [{
+				id: "38D1D570FA3B2873"
+				type: "item"
+				item: "undergarden:cloggrum_ingot"
+			}]
+			rewards: [
+				{
+					id: "1B1A0C374E0C5279"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+						}
+					}
+				}
+				{
+					id: "388ACD2D600A7855"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["499F09164370C639"]
+			size: 1.5d
+			id: "6EC6F2C9D32D1B8E"
+			tasks: [{
+				id: "4247547D29BB8384"
+				type: "item"
+				item: "undergarden:diamond_ore"
+			}]
+			rewards: [
+				{
+					id: "5CC1DF1AACE7B542"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_basic"
+						}
+					}
+				}
+				{
+					id: "0382082EFC7FEE90"
+					type: "item"
+					item: {
+						id: "roughtweaks:medkit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1493FF3B897A6161"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			dependencies: ["2BE179E3CB62EC60"]
+			id: "323B957615CD18E2"
+			tasks: [
+				{
+					id: "1AA463CF561ADF2F"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7E41D384294114EF"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47328CBAD3BBD8D8"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A60EEFF867CA27E"
+					type: "item"
+					item: {
+						id: "undergarden:cloggrum_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1B7401D9516E1FE5"
+				type: "item"
+				item: "randomloot:basic_case"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["29BF84A63E82A63C"]
+			size: 1.5d
+			id: "274C8CD10763851C"
+			tasks: [{
+				id: "6F42A4395A8D25A1"
+				type: "item"
+				item: "undergarden:iron_ore"
+			}]
+			rewards: [
+				{
+					id: "7F3AFD2691DDA269"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_basic"
+						}
+					}
+				}
+				{
+					id: "4FF89A6B57124BF2"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["274C8CD10763851C"]
+			size: 1.5d
+			id: "499F09164370C639"
+			tasks: [{
+				id: "4F54BBC5EE37EBF7"
+				type: "item"
+				item: "undergarden:gold_ore"
+			}]
+			rewards: [
+				{
+					id: "6FB7DB8F260E5079"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_basic"
+						}
+					}
+				}
+				{
+					id: "185852805D97FB9A"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			dependencies: ["499F09164370C639"]
+			id: "3E8D81625369E9E9"
+			tasks: [{
+				id: "57A93A2EF14882A2"
+				type: "item"
+				item: "undergarden:regalium_ore"
+			}]
+			rewards: [
+				{
+					id: "56F03970730E9FE6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+				{
+					id: "37FA1B694B281F5D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "579A3AFDC4109B79"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			dependencies: ["3E8D81625369E9E9"]
+			id: "7AB829B116D3495C"
+			tasks: [{
+				id: "3D4EC970F64412A2"
+				type: "item"
+				item: "undergarden:regalium_ingot"
+			}]
+			rewards: [
+				{
+					id: "78D872D3A8A045E8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+						}
+					}
+				}
+				{
+					id: "5FB62AE6FA3623DE"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 3.0d
+			dependencies: ["6EC6F2C9D32D1B8E"]
+			id: "4A455CCEEE973422"
+			tasks: [{
+				id: "21C61D4F8ECF2B57"
+				type: "item"
+				item: "undergarden:forgotten_ingot"
+			}]
+			rewards: [
+				{
+					id: "548F423F2503CB31"
+					type: "item"
+					item: {
+						id: "roughtweaks:bandage"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D6A728234E5DCDC"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			dependencies: ["274C8CD10763851C"]
+			id: "28413C0BD4F59A16"
+			tasks: [{
+				id: "1A975973367DD318"
+				type: "item"
+				item: "undergarden:froststeel_ore"
+			}]
+			rewards: [
+				{
+					id: "7A8A11A4D66B52C8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+				{
+					id: "15F9F4160BD541B1"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "4F1BF1B5F5390632"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			dependencies: ["28413C0BD4F59A16"]
+			id: "6021E7E3254ACF31"
+			tasks: [{
+				id: "5D1EA1E30E9F5EF0"
+				type: "item"
+				item: "undergarden:froststeel_ingot"
+			}]
+			rewards: [
+				{
+					id: "20EDA2BD58FFCA0B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+						}
+					}
+				}
+				{
+					id: "60D1B6E57EB91B4A"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			dependencies: ["27654986081EFE73"]
+			id: "658339B2ABB5FB34"
+			tasks: [{
+				id: "45D22FD41241618E"
+				type: "item"
+				item: "undergarden:shard_torch"
+			}]
+			rewards: [{
+				id: "2AA30B49F6423D5D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "potions"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			dependencies: ["658339B2ABB5FB34"]
+			id: "0A930BDB32118A2D"
+			tasks: [{
+				id: "65F8C9270B41C4E9"
+				type: "item"
+				item: "undergarden:shard_o_lantern"
+			}]
+			rewards: [{
+				id: "3F8D10653DA1042E"
+				type: "item"
+				item: "losttrinkets:treasure_bag"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			dependencies: ["0B5EF31B3DBC9DE2"]
+			id: "6491E7803F70CCCA"
+			tasks: [{
+				id: "1274A21C16AD0432"
+				type: "item"
+				item: "undergarden:gloomgourd_seeds"
+			}]
+			rewards: [{
+				id: "429A5A9FA35A553B"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			dependencies: ["6491E7803F70CCCA"]
+			id: "188D2C7BC58D2BEE"
+			tasks: [{
+				id: "46DDB3F1FE31FB68"
+				type: "item"
+				item: "undergarden:gloomgourd_pie"
+			}]
+			rewards: [{
+				id: "456ECED0FA9DF3F2"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			dependencies: ["0B5EF31B3DBC9DE2"]
+			id: "0E49B77DE8AF8D29"
+			tasks: [{
+				id: "42CB233D2C470253"
+				type: "item"
+				item: "undergarden:blisterberry"
+			}]
+			rewards: [{
+				id: "54315EB48DFA1072"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 13.0d
+			y: -0.5d
+			dependencies: ["6EC6F2C9D32D1B8E"]
+			id: "2DC795CB47957AB2"
+			tasks: [{
+				id: "367647B21803E1F3"
+				type: "item"
+				item: "undergarden:underbeans"
+			}]
+			rewards: [
+				{
+					id: "7C0BB6A7D20E1C94"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "potions"
+						}
+					}
+				}
+				{
+					id: "36721693CD5EC22F"
+					type: "item"
+					item: "losttrinkets:treasure_bag"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["29BF84A63E82A63C"]
+			id: "0B5EF31B3DBC9DE2"
+			tasks: [{
+				id: "39B1D0468DB957ED"
+				type: "item"
+				item: "undergarden:mogmoss"
+			}]
+			rewards: [
+				{
+					id: "38650DE88EE21714"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5F107353ABE9AB7E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4FEA68A699656CF1"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["29BF84A63E82A63C"]
+			id: "703849AAE5F2D4BC"
+			tasks: [{
+				id: "56B813460A38BA2C"
+				type: "item"
+				item: "undergarden:droopvine_item"
+			}]
+			rewards: [{
+				id: "2AA79D87AF20C2BE"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			dependencies: ["499F09164370C639"]
+			id: "24BD242ECF4E943A"
+			tasks: [{
+				id: "5A9A3F4AC43D221C"
+				type: "item"
+				item: "undergarden:veiled_stew"
+			}]
+			rewards: [
+				{
+					id: "0BA6F7B8E400E027"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "13446F168BDFF251"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			dependencies: ["499F09164370C639"]
+			id: "760DC5559AB33E17"
+			tasks: [{
+				id: "0916E7A253CFE8F7"
+				type: "item"
+				item: "undergarden:indigo_stew"
+			}]
+			rewards: [
+				{
+					id: "019DBB7193D2E66E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "5E5C4E7CF1F152AC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["274C8CD10763851C"]
+			id: "091975CE7D583E34"
+			tasks: [{
+				id: "3CA5706B80048326"
+				type: "item"
+				item: "undergarden:inky_stew"
+			}]
+			rewards: [
+				{
+					id: "1CCBB72E4461E7ED"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "1E1D04CB7A17FB1B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			dependencies: ["6EC6F2C9D32D1B8E"]
+			id: "483F411F5D478DBA"
+			tasks: [{
+				id: "4F3396878253753A"
+				type: "item"
+				item: "undergarden:bloody_stew"
+			}]
+			rewards: [
+				{
+					id: "6A71832789219CB1"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "5C5C0887C36E6143"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			dependencies: ["0B5EF31B3DBC9DE2"]
+			id: "0CF99C9FC38B1ED2"
+			tasks: [{
+				id: "6050DC2E3686068C"
+				type: "item"
+				item: "undergarden:mogmoss_rug"
+			}]
+			rewards: [
+				{
+					id: "6A54CBA5EB2350EB"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "776A1991EFA0B014"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "06007DCFA365BC53"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			dependencies: ["0B5EF31B3DBC9DE2"]
+			id: "29198808C005A0FA"
+			tasks: [{
+				id: "685D2B1C70D2F210"
+				type: "item"
+				item: "undergarden:depthrock_bed"
+			}]
+			rewards: [
+				{
+					id: "13151E6CADC2AB35"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "25E758B0DA7BBDB4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "64512CFB13713140"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["499F09164370C639"]
+			id: "27654986081EFE73"
+			tasks: [{
+				id: "32C87811D7C6CBAB"
+				type: "item"
+				item: "undergarden:utheric_shard"
+			}]
+			rewards: [{
+				id: "492D32CEA3F56EC0"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 4.5d
+			dependencies: ["4A455CCEEE973422"]
+			id: "113ADEE783C3B34A"
+			tasks: [{
+				id: "2526E202F20807A2"
+				type: "item"
+				item: {
+					id: "undergarden:forgotten_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7B53BBF3D81E21AF"
+					type: "item"
+					item: {
+						id: "roughtweaks:bandage"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34EE107409F3B19A"
+					type: "item"
+					item: "randomloot:basic_case"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 5.5d
+			dependencies: ["4A455CCEEE973422"]
+			id: "00723ECE71700C83"
+			tasks: [{
+				id: "52F2EB9493B1065B"
+				type: "item"
+				item: {
+					id: "undergarden:forgotten_battleaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 4s
+							id: "minecraft:knockback"
+						}]
+					}
+				}
+			}]
+			rewards: [{
+				id: "25BD203EF2A97C63"
+				type: "item"
+				item: {
+					id: "roughtweaks:bandage"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 5.5d
+			dependencies: ["4A455CCEEE973422"]
+			id: "7613B36490A0BCBF"
+			tasks: [{
+				id: "379D08C4035C9454"
+				type: "item"
+				item: {
+					id: "undergarden:forgotten_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A87178B553BF2B2"
+				type: "item"
+				item: {
+					id: "roughtweaks:bandage"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 4.5d
+			dependencies: ["4A455CCEEE973422"]
+			id: "247089BEDE2B3704"
+			tasks: [{
+				id: "083DF5B42F98EB4C"
+				type: "item"
+				item: {
+					id: "undergarden:forgotten_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "67994B284108DCD1"
+				type: "item"
+				item: {
+					id: "roughtweaks:bandage"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["499F09164370C639"]
+			id: "55A4EF2BD2B47F6F"
+			tasks: [{
+				id: "1D3B49894931E2F1"
+				type: "item"
+				item: "undergarden:utherium_ore"
+			}]
+			rewards: [
+				{
+					id: "2882A65F99CD427D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+				{
+					id: "5E9CFC3743DF30AB"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "24E66155087DE54D"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 4.5d
+			dependencies: ["55A4EF2BD2B47F6F"]
+			id: "4CD65985F3E4B85E"
+			tasks: [{
+				id: "257B686D0A487CBB"
+				type: "item"
+				item: "undergarden:utherium_ingot"
+			}]
+			rewards: [
+				{
+					id: "20C0E9B38955D572"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+						}
+					}
+				}
+				{
+					id: "10BBF877EC110F6F"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			dependencies: ["6021E7E3254ACF31"]
+			id: "08EB7BF28317474D"
+			tasks: [
+				{
+					id: "4C8F69A011F32082"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1B4B008364CFD2CC"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "613D04F6A9BF1874"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F8D298E24DBC08E"
+					type: "item"
+					item: {
+						id: "undergarden:froststeel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "194F42A4A9BF05A5"
+				type: "item"
+				item: "randomloot:basic_case"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 5.5d
+			dependencies: ["4CD65985F3E4B85E"]
+			id: "588080D63F6F6110"
+			tasks: [
+				{
+					id: "118CDD221795F540"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1FB1FAEE69B97581"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "287BC86BD8C3EE6B"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0EB11688C39CB7F8"
+					type: "item"
+					item: {
+						id: "undergarden:utheric_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "507ED7EF5D26F71A"
+				type: "item"
+				item: "randomloot:basic_case"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			dependencies: ["2BE179E3CB62EC60"]
+			id: "247E3AE1E4DE8A8A"
+			tasks: [{
+				id: "15B1C354277FE306"
+				type: "item"
+				item: {
+					id: "undergarden:cloggrum_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EA1F5636C4ECC5B"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+	]
+}

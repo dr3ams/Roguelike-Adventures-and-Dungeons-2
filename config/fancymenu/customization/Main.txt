@@ -1,0 +1,284 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = background
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = 15
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\buttons\multiplayer_h.png
+  backgroundnormal = config\fancymenu\buttons\multiplayer.png
+}
+
+customization {
+  identifier = %id=400322%
+  seconds = 2.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 0.8
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = bottom-right
+  x = -22
+  action = movebutton
+  y = -22
+}
+
+customization {
+  identifier = %id=604382%
+  seconds = 4.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = 37
+}
+
+customization {
+  identifier = %id=400382%
+  width = 117
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\buttons\options_h.png
+  backgroundnormal = config\fancymenu\buttons\options.png
+}
+
+customization {
+  identifier = %id=400382%
+  seconds = 2.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 0.8
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-left
+  x = 138
+  action = movebutton
+  y = 37
+}
+
+customization {
+  identifier = %id=502382%
+  width = 63
+  action = resizebutton
+  height = 24
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\buttons\quit_h.png
+  backgroundnormal = config\fancymenu\buttons\quit.png
+}
+
+customization {
+  identifier = %id=502382%
+  seconds = 2.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 0.8
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-right
+  x = -45
+  action = movebutton
+  y = -22
+}
+
+customization {
+  identifier = %id=376382%
+  seconds = 4.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 1
+  action = movebutton
+  y = -7
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\buttons\singleplayer_h.png
+  backgroundnormal = config\fancymenu\buttons\singleplayer.png
+}
+
+customization {
+  identifier = %id=400298%
+  seconds = 1.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 0.8
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 3.0
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\buttons\rent_h.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  fadein = true
+  fadeinspeed = 0.6
+  x = -74
+  width = 169
+  actionid = 2f45a1c7-8ada-4e88-9673-49ec21a8df131636882984680
+  action = addbutton
+  y = -12
+  delayappearance = true
+  backgroundnormal = config\fancymenu\buttons\rent.png
+  value = 
+  delayappearanceeverytime = false
+  height = 9
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 3.0
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\buttons\patreon_h.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  fadein = true
+  fadeinspeed = 0.6
+  x = 1
+  width = 125
+  actionid = 9594869d-5a9d-461e-96cc-8789ce0827ca1636882984694
+  action = addbutton
+  y = -12
+  delayappearance = true
+  backgroundnormal = config\fancymenu\buttons\patreon.png
+  value = 
+  delayappearanceeverytime = false
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  delayappearanceseconds = 0.5
+  path = config/fancymenu/buttons/rad.png
+  fadein = true
+  fadeinspeed = 0.5
+  x = 1
+  width = 393
+  action = addtexture
+  actionid = 8638351a-3b4e-48c9-885d-ce05bb73d7961617450957456
+  y = 18
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 76
+}
+
+customization {
+  path = config/fancymenu/buttons/bili.png
+  orientation = top-left
+  x = 284
+  width = 77
+  action = addtexture
+  actionid = c6b465aa-832b-4112-b046-63251a5aa30a1650621616051
+  y = 46
+  height = 25
+}
+

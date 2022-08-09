@@ -1,0 +1,353 @@
+{
+	id: "76389659C6680826"
+	group: "241F1DC7B6D6E9D6"
+	order_index: 13
+	filename: "highway_to_the_bumblezone"
+	title: "To the Bumblezone"
+	icon: "rats:rat_upgrade_bee"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 10.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "feywild:textures/item/honeycomb.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "♪ Highway to the Bumble Zone ♫"
+			icon: {
+				id: "feywild:honeycomb"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			description: [
+				"  The Bumblezone is a dimension filled with Honeycomb Blocks, Honey Blocks, Honey Crystals, Sugar Water, and few new bee-related Blocks! There's even a structure with unique bee armor you can obtain!"
+				""
+				""
+				" Entering the dimension is super easy! Just throw an Enderpearl at any Bee Nest or Beehive (even modded ones works!) to enter inside it and spawn into the dimension. You can also make yourself (riding a mob or vehicle) or any mob enter the dimension by using a piston to push the player or mob into a Beehive or Bee Nest block!"
+				""
+				"To teleport out of the dimension, you can either dig down and fall below Y = 0 or climb your way to above Y = 256."
+			]
+			size: 2.0d
+			id: "17777CD49B8B6F41"
+			tasks: [
+				{
+					id: "03C664A54AB9519A"
+					type: "dimension"
+					dimension: "the_bumblezone:the_bumblezone"
+				}
+				{
+					id: "6ED6A250C59F80CB"
+					type: "item"
+					item: {
+						id: "minecraft:ender_pearl"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "333E1CB31D02A943"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			dependencies: ["17777CD49B8B6F41"]
+			id: "5E4C69CC15CADF88"
+			tasks: [{
+				id: "59B034778B633DD3"
+				type: "item"
+				item: {
+					id: "the_bumblezone:honey_crystal_shards"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3A78F2B47DC05DB4"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "117F06DA4F7A0656"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2A6B50B3264D3D50"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["5E4C69CC15CADF88"]
+			id: "3E69CC75B111D4A4"
+			tasks: [{
+				id: "52042FF627E24425"
+				type: "item"
+				item: {
+					id: "the_bumblezone:honey_crystal_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "17787B5E1B0E8890"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "46D7792752576FE6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2CF068393A5B5CEA"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["17777CD49B8B6F41"]
+			id: "1FB762B916742CA8"
+			tasks: [{
+				id: "1F8C6ABDCBA42758"
+				type: "item"
+				item: {
+					id: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "350947017A819A5A"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "65D766DD0691C1B7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7E8BDA40E50B1FF9"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["17777CD49B8B6F41"]
+			id: "33D0C473F05F9631"
+			tasks: [{
+				id: "47CD1F4F0BD2475B"
+				type: "item"
+				item: {
+					id: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "728C28673FCE608F"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "45E2AF0021A70C59"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "279EA6197C70FF0F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["17777CD49B8B6F41"]
+			id: "3BFBB0CC1C2BE735"
+			tasks: [{
+				id: "323F6FE496B9FA0A"
+				type: "item"
+				item: {
+					id: "the_bumblezone:beehive_beeswax"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "44CAECB66D0AB62A"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "5300B5EFCB1DAFDC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "180B35209241CCC9"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["17777CD49B8B6F41"]
+			id: "3730EDB687A5A265"
+			tasks: [{
+				id: "31C72068708F3FEB"
+				type: "item"
+				item: {
+					id: "the_bumblezone:sugar_infused_stone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "621F6CE424992BEE"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "1CA62C94382C0934"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "378DBE25B041FD04"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			subtitle: "Tame a Behemoth with buckets of honey"
+			dependencies: ["17777CD49B8B6F41"]
+			id: "5C0AEAAA45EB107A"
+			tasks: [{
+				id: "3954B8A6161C74AA"
+				type: "advancement"
+				advancement: "the_bumblezone:the_bumblezone/beehemoth/tamed_beehemoth"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "59FF631405BCFBED"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "41273E0E0168DA52"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0FFCB54C92256CAF"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			subtitle: "Infused a Slime with honey"
+			dependencies: ["17777CD49B8B6F41"]
+			id: "1AE3D1728F1CC7A6"
+			tasks: [{
+				id: "6632BE41823B5496"
+				type: "advancement"
+				advancement: "the_bumblezone:the_bumblezone/honey_slime/honey_slime_creation"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3A9C1CE71CA71843"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "5DAF3D5F3CC801D8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "602E17C9DD31E6EB"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,158 @@
+{
+	id: "57B98D90761AB9F1"
+	order_index: 6
+	title: "Materials Magic"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "eidolon:arcane_gold_ingot" }
+		{ item: "eidolon:arcane_gold_nugget", count: 3 }
+		{
+			item: {
+				id: "ars_nouveau:runic_chalk"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "ars_nouveau:blank_glyph", count: 5 }
+		{ item: "eidolon:pewter_blend" }
+		{ item: "eidolon:pewter_ingot" }
+		{ item: "eidolon:sulfur" }
+		{ item: "eidolon:soul_shard" }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "ars_nouveau:reactive"
+					}]
+				}
+			}
+		}
+		{ item: "ars_nouveau:red_archwood_sapling" }
+		{ item: "ars_nouveau:green_archwood_sapling" }
+		{ item: "ars_nouveau:purple_archwood_sapling" }
+		{ item: "ars_nouveau:wixie_shards" }
+		{ item: "ars_nouveau:magic_clay" }
+		{ item: "ars_nouveau:mythical_clay" }
+		{ item: "ars_nouveau:blaze_fiber" }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "ars_nouveau:mana_boost"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "ars_nouveau:spell_damage"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "ars_nouveau:spell_damage_long"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "ars_nouveau:spell_damage_strong"
+				}
+			}
+		}
+		{ item: "ars_nouveau:drygmy_shard" }
+		{ item: "ars_nouveau:mana_gem" }
+		{ item: "ars_nouveau:mana_fiber" }
+		{ item: "ars_nouveau:mana_bloom" }
+		{ item: "ars_nouveau:end_fiber" }
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "ars_nouveau:mana_regen"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "ars_nouveau:mana_regen_potion"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "ars_nouveau:mana_regen_potion_long"
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "ars_nouveau:mana_regen_potion_strong"
+				}
+			}
+		}
+		{ item: "ars_nouveau:carbuncle_shards" }
+		{ item: "ars_nouveau:sylph_shards" }
+		{ item: "ars_nouveau:mana_berry" }
+		{ item: "randomite:randomite_ore" }
+		{ item: "ars_nouveau:arcane_ore" }
+		{ item: "eidolon:shadow_gem" }
+		{ item: "eidolon:ender_calx" }
+		{ item: "eidolon:lesser_soul_gem" }
+		{ item: "eidolon:enchanted_ash" }
+		{ item: "enigmaticlegacy:mending_mixture" }
+		{ item: "enigmaticlegacy:ender_rod" }
+		{ item: "enigmaticlegacy:astral_dust" }
+		{ item: "iceandfire:manuscript" }
+		{ item: "betterendforge:crystal_shards" }
+		{ item: "pickletweaks:emerald_apple" }
+		{ item: "betterendforge:eternal_crystal" }
+		{ item: "mysticalworld:young_pearl" }
+		{ item: "mysticalworld:carapace" }
+		{ item: "iceandfire:amythest_gem" }
+		{ item: "iceandfire:sapphire_gem" }
+		{ item: "mysticalworld:silk_cocoon" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 9525759
+		string_id: "materials_magic"
+	}
+}

@@ -1,0 +1,119 @@
+
+#Client Configuration
+[client]
+
+	[client.visual_options]
+		# Whether item names in tooltips should have a line under them separating them from the rest of the tooltip.
+		name_separator = true
+		# If enabled, tooltip border colors will match item rarity colors (except for custom borders).
+		borders_match_rarity = true
+		# If enabled, tooltips will display a drop shadow.
+		tooltip_shadow = true
+		# If enabled, items showing a custom border will have a special shine effect when hovered over.
+		shine_effect = true
+		# If enabled, utilizes some workarounds to improve compatibility with mods that alter tooltips.
+		compatibility_mode = false
+
+	# Custom borders are broken into 16 "levels", with level 0 being intended for the "best" or "rarest" items. Only level 0 has a custom border built-in, but others can be added with resource packs.
+	[client.custom_borders]
+
+		# The start and end border colors of each levels' borders. Note that they can be entered as a hex code in the format "0xAARRGGBB" or "0xRRGGBB" for convenience.
+		[client.custom_borders.colors]
+			#Range: 0 ~ 4294967295
+			level0_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level0_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level1_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level1_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level2_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level2_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level3_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level3_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level4_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level4_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level5_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level5_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level6_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level6_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level7_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level7_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level8_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level8_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level9_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level9_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level10_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level10_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level11_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level11_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level12_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level12_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level13_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level13_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level14_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level14_end_color = 4284103197
+			#Range: 0 ~ 4294967295
+			level15_start_color = 4288244002
+			#Range: 0 ~ 4294967295
+			level15_end_color = 4284103197
+
+		# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.
+		[client.custom_borders.priorities]
+			priorities = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+		# Entry types:
+		#   Item name - Use item name for vanilla items or include mod name for modded items.  Examples: "minecraft:stick", "iron_ore"
+		#   Tag - $ followed by tag name.  Examples: "$forge:stone" or "$planks"
+		#   Mod name - @ followed by mod identifier.  Examples: "@spoiledeggs"
+		#   Rarity - ! followed by item's rarity.  This is ONLY vanilla rarities.  Examples: "!uncommon", "!rare", "!epic"
+		#   Item name color - # followed by color hex code, the hex code must match exactly.  Examples: "#23F632"
+		#   Display name - % followed by any text.  Will match any item with this text in its tooltip display name.  Examples: "%[Uncommon]"
+		#   Tooltip text - ^ followed by any text.  Will match any item with this text anywhere in the tooltip text (besides the name).  Examples: "^Legendary"
+		#   NBT tag - & followed by tag name and optional comparator (=, >, <, or !=) and value, in the format <tag><comparator><value> or just <tag>.  Examples: "&Damage=0", "&Tier>1", "&Broken", "&map!=128"
+		[client.custom_borders.definitions]
+			level0_entries = ["!epic", "!rare"]
+			level1_entries = []
+			level2_entries = []
+			level3_entries = []
+			level4_entries = []
+			level5_entries = []
+			level6_entries = []
+			level7_entries = []
+			level8_entries = []
+			level9_entries = []
+			level10_entries = []
+			level11_entries = []
+			level12_entries = []
+			level13_entries = []
+			level14_entries = []
+			level15_entries = []
+			# Enter blacklist selectors here using the same format as above.  Any items that match these selectors will NOT show a border.
+			blacklist = []
+

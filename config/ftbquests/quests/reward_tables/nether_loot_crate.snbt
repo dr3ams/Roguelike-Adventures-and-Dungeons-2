@@ -1,0 +1,81 @@
+{
+	id: "06D97134E53F8B2D"
+	order_index: 27
+	title: "Nether loot crate"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:obsidian", count: 2 }
+		{ item: "minecraft:experience_bottle", count: 16 }
+		{ item: "minecraft:netherrack", count: 64 }
+		{ item: "minecraft:nether_bricks", count: 32 }
+		{ item: "minecraft:quartz", count: 16 }
+		{ item: "minecraft:soul_sand", count: 32 }
+		{ item: "tconstruct:netherite_item_frame" }
+		{ item: "minecraft:netherite_scrap" }
+		{ item: "minecraft:nether_wart" }
+		{ item: "quark:blue_nether_bricks", count: 32 }
+		{ item: "quark:netherrack_bricks", count: 64 }
+		{ item: "tconstruct:cobalt_ore" }
+		{ item: "minecraft:soul_soil", count: 32 }
+		{ item: "quark:soul_sandstone", count: 32 }
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "alexsmobs:strong_soulsteal"
+				}
+			}
+		}
+		{ item: "minecraft:crimson_stem", count: 32 }
+		{ item: "minecraft:warped_stem", count: 32 }
+		{ item: "minecraft:red_nether_bricks", count: 32 }
+		{ item: "minecraft:blackstone", count: 32 }
+		{ item: "minecraft:glowstone_dust", count: 16 }
+		{ item: "minecraft:gold_nugget", count: 16 }
+		{ item: "minecraft:blaze_rod", count: 2 }
+		{ item: "minecraft:magma_cream", count: 4 }
+		{ item: "nethersdelight:hoglin_loin", count: 8 }
+		{ item: "minecraft:ghast_tear", count: 2 }
+		{ item: "minecraft:magma_block" }
+		{ item: "minecraft:basalt", count: 32 }
+		{ item: "kubejs:copper_coin" }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "common_loot_crate"
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "random_mob_drops"
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "random_dyes"
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 13713467
+		string_id: "nether_loot_crate"
+	}
+}

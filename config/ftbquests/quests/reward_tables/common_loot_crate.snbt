@@ -1,0 +1,61 @@
+{
+	id: "41B3133EE4B82E1A"
+	order_index: 4
+	title: "Common loot crate"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:spruce_log", count: 64 }
+		{ item: "minecraft:birch_log", count: 64 }
+		{ item: "minecraft:jungle_log", count: 64 }
+		{ item: "minecraft:carrot", count: 64 }
+		{ item: "minecraft:potato", count: 64 }
+		{ item: "minecraft:apple", count: 64 }
+		{ item: "minecraft:beef", count: 64 }
+		{ item: "minecraft:stone", count: 16 }
+		{ item: "minecraft:granite", count: 64 }
+		{ item: "minecraft:diorite", count: 64 }
+		{ item: "minecraft:andesite", count: 64 }
+		{ item: "minecraft:dirt", count: 64 }
+		{ item: "minecraft:grass_block", count: 16 }
+		{ item: "minecraft:deepslate", count: 32 }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "random_dyes"
+				}
+			}
+		}
+		{ item: "minecraft:red_sand", count: 64 }
+		{ item: "minecraft:dark_oak_planks", count: 32 }
+		{ item: "minecraft:acacia_planks", count: 32 }
+		{ item: "minecraft:jungle_planks", count: 32 }
+		{ item: "minecraft:birch_planks", count: 32 }
+		{ item: "minecraft:spruce_planks", count: 32 }
+		{ item: "minecraft:oak_planks", count: 32 }
+		{ item: "minecraft:sand", count: 64 }
+		{ item: "minecraft:gravel", count: 64 }
+		{ item: "minecraft:flint", count: 32 }
+		{ item: "minecraft:lapis_lazuli", count: 16 }
+		{ item: "minecraft:paper", count: 16 }
+		{ item: "minecraft:clay_ball", count: 64 }
+		{ item: "minecraft:coal", count: 16 }
+		{ item: "minecraft:string", count: 32 }
+		{ item: "minecraft:oak_log", count: 64 }
+		{ item: "minecraft:dark_oak_log", count: 64 }
+		{ item: "minecraft:acacia_log", count: 64 }
+		{ item: "aquaculture:box" }
+		{ item: "kubejs:diamond_nugget" }
+		{ item: "kubejs:emerald_nugget" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 12895428
+		string_id: "common_loot_crate"
+	}
+}

@@ -1,0 +1,713 @@
+{
+	id: "0000000000000579"
+	group: ""
+	order_index: 5
+	filename: "shop"
+	title: "$ - COIN SHOP - $"
+	icon: "kubejs:gold_coin"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -8.0d
+			y: -2.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/copper_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/diamond_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/gold_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/iron_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/netherite_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "ftbchunks:textures/faces/minecraft/wandering_trader.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/nether_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Common loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "common_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: -8.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "For Copper coin (repeatable)"
+			size: 2.0d
+			id: "64AE92F598464E3E"
+			tasks: [{
+				id: "3BB03FCF02073F96"
+				type: "item"
+				item: "kubejs:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "314181AFAC5E20D3"
+				type: "questsadditions:repeat_random"
+				table_id: 4734148794142699034L
+			}]
+		}
+		{
+			title: "Uncommon loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "uncommon_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: -4.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "For Iron coin (repeatable)"
+			size: 2.0d
+			id: "071F9F757CCADA93"
+			tasks: [{
+				id: "2262663480ABB5B9"
+				type: "item"
+				item: "kubejs:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0E5F4DD7AFF34BFD"
+				type: "questsadditions:repeat_random"
+				table_id: 5735513140715080140L
+			}]
+		}
+		{
+			title: "Rare loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "rare_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "For Gold coin (repeatable)"
+			size: 2.0d
+			id: "62356B57A7D667A6"
+			tasks: [{
+				id: "64B6FB6EC391B652"
+				type: "item"
+				item: "kubejs:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4602EE5ADE50C4EA"
+				type: "questsadditions:repeat_random"
+				table_id: 1428536202741681313L
+			}]
+		}
+		{
+			title: "Epic loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "epic_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: 4.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "For Diamond coin (repeatable)"
+			size: 2.0d
+			id: "2EB2758D16E8BAE2"
+			tasks: [{
+				id: "6F316CB4B0B62C5B"
+				type: "item"
+				item: "kubejs:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3C25C0FEAF1FD585"
+				type: "questsadditions:repeat_random"
+				table_id: 4179527381065745422L
+			}]
+		}
+		{
+			title: "Legendary loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "legendary_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: 8.0d
+			y: 0.0d
+			shape: "octagon"
+			subtitle: "For Netherite coin (repeatable)"
+			size: 2.0d
+			id: "15645F279C638145"
+			tasks: [{
+				id: "1AA543BE63FB898A"
+				type: "item"
+				item: "kubejs:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "63435944E644AE08"
+				type: "questsadditions:repeat_random"
+				table_id: 329072492022215216L
+			}]
+		}
+		{
+			title: "Exchange Stone"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "For Granite/Diorite/Andesite (repeatable)"
+			id: "7525A4AAA54D2F0F"
+			tasks: [{
+				id: "6CCAEDACC1C14C99"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5CB2EDC161160448"
+				type: "questsadditions:repeat_choice"
+				table_id: 8073191519896831574L
+			}]
+		}
+		{
+			disable_toast: true
+			x: -8.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			size: 2.0d
+			id: "12AA5A2ECF315050"
+			tasks: [{
+				id: "17B7046770CA5003"
+				type: "item"
+				item: "kubejs:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "58EFBCD9109C82B8"
+				type: "questsadditions:repeat_choice"
+				table_id: 6888013663897817331L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			size: 2.0d
+			id: "4CA69F473539E565"
+			tasks: [{
+				id: "0D11EF81DDA0EF14"
+				type: "item"
+				item: "kubejs:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "049A916DF780D3D5"
+				type: "questsadditions:repeat_choice"
+				table_id: 3673153046364661600L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			size: 2.0d
+			id: "2146186B43D64F53"
+			tasks: [{
+				id: "7035844CA6BDC17C"
+				type: "item"
+				item: "kubejs:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2B307A5F73283760"
+				type: "questsadditions:repeat_choice"
+				table_id: 6733206692322637508L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 4.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			size: 2.0d
+			id: "0802FC6EE2B78153"
+			tasks: [{
+				id: "266B9F8F0D5CEBDB"
+				type: "item"
+				item: "kubejs:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "260ADFF3E6B10438"
+				type: "questsadditions:repeat_choice"
+				table_id: 849472112562879498L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 8.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			size: 2.0d
+			id: "4BD23FFF77631DA0"
+			tasks: [{
+				id: "49D3E72E213678F0"
+				type: "item"
+				item: "kubejs:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5E7303190250E9C8"
+				type: "questsadditions:repeat_choice"
+				table_id: 8649845864696576998L
+			}]
+		}
+		{
+			title: "Exchange Charcoal"
+			x: -6.0d
+			y: 1.5d
+			subtitle: "For any type of wood (repeatable)"
+			id: "308D3B4CF9E12F88"
+			tasks: [{
+				id: "637C2DCF5167900B"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2A0267D3EED36CA8"
+				type: "questsadditions:repeat_choice"
+				table_id: 3101518903568742149L
+			}]
+		}
+		{
+			icon: "minecraft:emerald_block"
+			x: -2.5d
+			y: 4.0d
+			subtitle: "Exchange resources for coins"
+			id: "43B06F2F3D6CDA23"
+			tasks: [
+				{
+					id: "64ED1C348774A692"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:emerald_block"
+					consume_items: true
+				}
+				{
+					id: "75E69DF91972CDE8"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "5E8D6B27166D43AB"
+				type: "questsadditions:repeat_choice"
+				table_id: 8328805356612065572L
+			}]
+		}
+		{
+			icon: "minecraft:diamond_block"
+			x: 2.0d
+			y: 5.0d
+			subtitle: "Exchange resources for coins"
+			id: "71377794D49477FE"
+			tasks: [
+				{
+					id: "6C9A0788313F9468"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:diamond_block"
+					consume_items: true
+				}
+				{
+					id: "54B2A2A686503311"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "24FF3CFB9ED90596"
+				type: "questsadditions:repeat_choice"
+				table_id: 4173479592353618945L
+			}]
+		}
+		{
+			icon: "minecraft:gold_block"
+			x: -1.5d
+			y: 4.0d
+			subtitle: "Exchange resources for coins"
+			id: "7C6A42B20111F81A"
+			tasks: [
+				{
+					id: "51B4D6508AF34018"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:gold_block"
+					consume_items: true
+				}
+				{
+					id: "04AEA60A754EC1C3"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "25FFA9FDD65048B0"
+				type: "questsadditions:repeat_choice"
+				table_id: 5362484379163422117L
+			}]
+		}
+		{
+			icon: "minecraft:lapis_block"
+			x: -5.5d
+			y: 4.0d
+			subtitle: "Exchange resources for coins"
+			id: "0B5A2317489F888F"
+			tasks: [
+				{
+					id: "1343A8009F0690C0"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:lapis_block"
+					consume_items: true
+				}
+				{
+					id: "57485A426484D5C3"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "02EF4A044434E9A9"
+				type: "questsadditions:repeat_choice"
+				table_id: 1032612325942029560L
+			}]
+		}
+		{
+			icon: "minecraft:redstone_block"
+			x: -6.5d
+			y: 4.0d
+			subtitle: "Exchange resources for coins"
+			id: "1079D5E9E631D409"
+			tasks: [
+				{
+					id: "25FFD8D0D64BC518"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:redstone_block"
+					consume_items: true
+				}
+				{
+					id: "4AEDA27D6B8428EE"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "0201F3C3FCE06B45"
+				type: "questsadditions:repeat_choice"
+				table_id: 4707609894193240217L
+			}]
+		}
+		{
+			icon: "minecraft:amethyst_block"
+			x: -6.0d
+			y: 5.0d
+			subtitle: "Exchange resources for coins"
+			id: "395B642C27BB51E8"
+			tasks: [
+				{
+					id: "1CAC3D506A5A6A94"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:amethyst_block"
+					consume_items: true
+				}
+				{
+					id: "4D6CF0C144811E2B"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "70E2E421E35F7599"
+				type: "questsadditions:repeat_choice"
+				table_id: 7890226414257577026L
+			}]
+		}
+		{
+			icon: "minecraft:nether_star"
+			x: 4.0d
+			y: 4.0d
+			id: "0DA179A681837DE0"
+			tasks: [
+				{
+					id: "179554568A8F4C77"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:nether_star"
+					consume_items: true
+				}
+				{
+					id: "3422806F3B97EFA0"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "61E2186CAE66B8FE"
+				type: "questsadditions:repeat_choice"
+				table_id: 4590487423188971105L
+			}]
+		}
+		{
+			icon: "minecraft:netherite_block"
+			x: 4.0d
+			y: 5.0d
+			id: "19632673E3DA0019"
+			tasks: [
+				{
+					id: "19355BFFA1C826E5"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:netherite_block"
+					consume_items: true
+				}
+				{
+					id: "0B24FAC7BDD146B5"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "1FEABE6F0B3FAC39"
+				type: "questsadditions:repeat_choice"
+				table_id: 4590487423188971105L
+			}]
+		}
+		{
+			icon: "buddycards:buddysteel_block"
+			x: -2.0d
+			y: 5.0d
+			id: "665A83F8FD6E2A4E"
+			tasks: [
+				{
+					id: "496B91089ED73628"
+					type: "item"
+					disable_toast: true
+					item: "buddycards:buddysteel_block"
+					consume_items: true
+				}
+				{
+					id: "34546D65DFF46E3F"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "46A0D9F444C5CEE9"
+				type: "questsadditions:repeat_choice"
+				table_id: 5362484379163422117L
+			}]
+		}
+		{
+			icon: "tconstruct:cobalt_block"
+			x: -2.0d
+			y: 3.0d
+			id: "6CF9E53F3D8F13B4"
+			tasks: [
+				{
+					id: "1C1C7852ADB98172"
+					type: "item"
+					item: "tconstruct:cobalt_block"
+				}
+				{
+					id: "0A0A23B1F98A3B1D"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "1FB2DC911D85D58F"
+				type: "questsadditions:repeat_choice"
+				table_id: 5362484379163422117L
+			}]
+		}
+		{
+			icon: "aquaculture:neptunium_block"
+			x: 2.5d
+			y: 4.0d
+			id: "2C5561209FB23B2D"
+			tasks: [
+				{
+					id: "74B8901259061BAB"
+					type: "item"
+					disable_toast: true
+					item: "aquaculture:neptunium_block"
+					consume_items: true
+				}
+				{
+					id: "3A5F191A454BBEB7"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "42DA5BCF2A82F413"
+				type: "questsadditions:repeat_choice"
+				table_id: 4173479592353618945L
+			}]
+		}
+		{
+			icon: "tconstruct:manyullyn_block"
+			x: 1.5d
+			y: 4.0d
+			id: "2B84E8DA44358BA6"
+			tasks: [
+				{
+					id: "11BF4247BBE7355B"
+					type: "item"
+					disable_toast: true
+					item: "tconstruct:manyullyn_block"
+					consume_items: true
+				}
+				{
+					id: "718A6DB4C30043B3"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
+			rewards: [{
+				id: "0338D0DCD1D8307B"
+				type: "questsadditions:repeat_choice"
+				table_id: 4173479592353618945L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 9.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			size: 2.0d
+			id: "637B4E0CF8EE27A0"
+			tasks: [{
+				id: "415052283BCDC314"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:nether_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "54144210F25142F5"
+				type: "questsadditions:repeat_choice"
+				table_id: 493550106172164909L
+			}]
+		}
+	]
+}

@@ -1,0 +1,289 @@
+
+#Extensive Config options for all the Generation Features.
+#For more information check the wiki.
+[Generation]
+
+	[Generation.Trees]
+
+		[Generation.Trees.Palm_Tree]
+			#Should generate Palm Trees. (Default: true)
+			generate = true
+			#Determines the rarity of Palm Trees. (Default: 1)
+			#Range: 1 ~ 2000000000
+			count = 1
+			#Biomes/BiomeCategories where Palm Trees will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["minecraft:beach"]
+			#Prints a message to the log for each Biome that has been registered for generation.
+			debug = false
+
+		[Generation.Trees.Swamp_Willow_Tree]
+			#Should generate Swamp Willow Trees. (Default: true)
+			generate = true
+			#Determines the rarity of Swamp Willow Trees. (Default: 1)
+			#Range: 1 ~ 2000000000
+			count = 1
+			#Biomes/BiomeCategories where Swamp Willow Trees will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["swamp"]
+			#Prints a message to the log for each Biome that has been registered for generation.
+			debug = false
+
+	[Generation.Plants]
+
+		[Generation.Plants.Feather_Reed_Grass]
+			#Should generate Feather Reed Grass. (Default: true)
+			generate = true
+			#Determines the rarity of Feather Reed Grass. (Default: 3)
+			#Range: 1 ~ 64
+			count = 3
+			#Biomes/BiomeCategories where Feather Reed Grass will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["jungle", "plains", "savanna", "minecraft:beach", "forest", "minecraft:river", "swamp"]
+
+		[Generation.Plants.Dead_Grass]
+			#Should generate Dead Grass. (Default: true)
+			generate = true
+			#Determines the rarity of Dead Grass. (Default: 2)
+			#Range: 1 ~ 64
+			count = 2
+			#Biomes/BiomeCategories where Dead Grass will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["overworld"]
+
+		[Generation.Plants.Short_Grass]
+			#Should generate Short Grass. (Default: true)
+			generate = true
+			#Determines the rarity of Short Grass. (Default: 4)
+			#Range: 1 ~ 64
+			count = 4
+			#Biomes/BiomeCategories where Short Grass will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["overworld"]
+
+		[Generation.Plants.Dune_Grass]
+			#Should generate Dune Grass. (Default: true)
+			generate = true
+			#Determines the rarity of Dune Grass. (Default: 4)
+			#Range: 1 ~ 64
+			count = 4
+			#Biomes/BiomeCategories where Dune Grass will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["minecraft:beach"]
+
+		[Generation.Plants.Tall_Water_Reeds]
+			#Should generate Tall Water Reeds. (Default: true)
+			generate = true
+			#Determines the rarity of Tall Water Reeds. (Default: 64)
+			#Range: 1 ~ 128
+			count = 64
+			#Biomes/BiomeCategories where Tall Water Reeds will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["overworld"]
+
+	[Generation.Flowers]
+
+		[Generation.Flowers.Pink_Cactus_Flower]
+			#Should generate Pink Cactus Flowers. (Default: true)
+			generate = true
+			#Determines the rarity of Pink Cactus Flowers. (Default: 3)
+			#Range: 1 ~ 64
+			count = 3
+			#Biomes/BiomeCategories where Pink Cactus Flowers will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["desert", "minecraft:badlands", "minecraft:badlands_plateau"]
+
+		[Generation.Flowers.Purple_Verbena]
+			#Should generate Purple Verbenas. (Default: true)
+			generate = true
+			#Determines the rarity of Purple Verbenas. (Default: 32)
+			#Range: 1 ~ 128
+			count = 32
+			#Biomes/BiomeCategories where Purple Verbenas will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["forest", "minecraft:plains"]
+
+		[Generation.Flowers.Blue_Poppy]
+			#Should generate Blue Poppies. (Default: true)
+			generate = true
+			#Determines the rarity of Blue Poppies. (Default: 64)
+			#Range: 1 ~ 128
+			count = 64
+			#Biomes/BiomeCategories where Blue Poppies will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["extreme_hills"]
+
+		[Generation.Flowers.Dark_Violet]
+			#Should generate Dark Violets. (Default: true)
+			generate = true
+			#Determines the rarity of Dark Violets. (Default: 48)
+			#Range: 1 ~ 128
+			count = 48
+			#Biomes/BiomeCategories where Dark Violets will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["forest", "swamp"]
+
+	[Generation.Mushrooms]
+
+		[Generation.Mushrooms.White_Mushroom]
+			#Should generate White Mushrooms. (Default: true)
+			generate = true
+			#Determines the rarity of White Mushrooms. (Default: 4)
+			#Range: 1 ~ 64
+			count = 4
+			#Biomes/BiomeCategories where White Mushrooms will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["forest", "swamp"]
+
+			[Generation.Mushrooms.White_Mushroom.Big]
+				#Should generate Big White Mushrooms. (Default: false)
+				generate_big = false
+				#Determines the rarity of Big White Mushrooms. (Default: 0.4)
+				#Range: 0.0 ~ 1.0
+				count_big = 0.4
+				#Biomes/BiomeCategories where Big White Mushrooms will generate.
+				#To add Biomes or Categories:
+				#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+				generation_biomes_big = ["swamp"]
+
+		[Generation.Mushrooms.Yellow_Mushroom]
+			#Should generate Yellow Mushrooms. (Default: true)
+			generate = true
+			#Determines the rarity of Yellow Mushrooms. (Default: 4)
+			#Range: 1 ~ 64
+			count = 4
+			#Biomes/BiomeCategories where Yellow Mushrooms will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["forest", "swamp"]
+
+			[Generation.Mushrooms.Yellow_Mushroom.Big]
+				#Should generate Big Yellow Mushrooms. (Default: false)
+				generate_big = false
+				#Determines the rarity of Big Yellow Mushrooms. (Default: 0.4)
+				#Range: 0.0 ~ 1.0
+				count_big = 0.4
+				#Biomes/BiomeCategories where Big Yellow Mushrooms will generate.
+				#To add Biomes or Categories:
+				#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+				generation_biomes_big = ["swamp"]
+
+		[Generation.Mushrooms.Gray_Mushroom]
+			#Should generate Gray Mushrooms. (Default: true)
+			generate = true
+			#Determines the rarity of Gray Mushrooms. (Default: 4)
+			#Range: 1 ~ 64
+			count = 4
+			#Biomes/BiomeCategories where Gray Mushrooms will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["forest", "swamp"]
+
+			[Generation.Mushrooms.Gray_Mushroom.Big]
+				#Should generate Big Gray Mushrooms. (Default: false)
+				generate_big = false
+				#Determines the rarity of Big Gray Mushrooms. (Default: 0.4)
+				#Range: 0.0 ~ 1.0
+				count_big = 0.4
+				#Biomes/BiomeCategories where Big Gray Mushrooms will generate.
+				#To add Biomes or Categories:
+				#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+				generation_biomes_big = ["swamp"]
+
+	[Generation.Small_Features]
+
+		[Generation.Small_Features.Small_Rocks]
+			#Should generate Small Rocks. (Default: true)
+			generate = true
+			#Determines the rarity of Small Rocks. (Default: 1)
+			#Range: 1 ~ 64
+			count = 1
+			#Biomes/BiomeCategories where Small Rocks will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["overworld"]
+			#Choose the default variant for Small Rocks to generate. (Default: "stone")
+			#Note: This will overwrite the variants that have been turned off.
+			#Options: stone, cobble, mossy, andesite, diorite, granite, sandstone, red_sandstone.
+			default_rock = "stone"
+
+			[Generation.Small_Features.Small_Rocks.Underground]
+				#Should generate Small Rocks underground. (Default: true)
+				generate_underground = true
+				#Determines the rarity of Small Rocks underground. (Default: 8)
+				#Range: 1 ~ 64
+				count_underground = 8
+				#Biomes/BiomeCategories where Small Rocks will generate underground.
+				#To add Biomes or Categories:
+				#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+				generation_biomes_underground = ["overworld"]
+
+			#Set to false to disable types of Small Rocks that will generate. (Default: true)
+			[Generation.Small_Features.Small_Rocks.Variants]
+				generate_stone = true
+				generate_cobble = true
+				generate_mossy = true
+				generate_andesite = true
+				generate_diorite = true
+				generate_granite = true
+				generate_sandstone = true
+				generate_red_sandstone = true
+
+		[Generation.Small_Features.Starfish]
+			#Should generate Starfish. (Default: true)
+			generate = false
+			#Determines the rarity of Starfish. (Default: 4)
+			#Range: 1 ~ 64
+			count = 4
+			#Biomes/BiomeCategories where Starfish will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["minecraft:beach", "minecraft:warm_ocean", "minecraft:deep_warm_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean"]
+			#Colors of Starfish that will naturally generate.
+			generation_colors = ["white", "orange", "magenta", "light_blue", "pink", "lime", "blue", "red"]
+
+		[Generation.Small_Features.Sea_Shells]
+			#Should generate Sea Shells. (Default: true)
+			generate = false
+			#Determines the rarity of Sea Shells. (Default: 2)
+			#Range: 1 ~ 64
+			count = 2
+			#Biomes/BiomeCategories where Sea Shells will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["beach", "ocean", "river"]
+
+		[Generation.Small_Features.Pinecones]
+			#Should generate Pinecones. (Default: true)
+			generate = false
+			#Determines the rarity of Pinecones. (Default: 2)
+			#Range: 1 ~ 64
+			count = 2
+			#Biomes/BiomeCategories where Pinecones will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["taiga", "forest"]
+
+		[Generation.Small_Features.Sandcastle]
+			#Should generate Sandcastles. (Default: true)
+			generate = false
+			#Determines the rarity of Sandcastles. (Default: 1)
+			#Range: 1 ~ 64
+			count = 1
+			#Biomes/BiomeCategories where Sandcastles will generate.
+			#To add Biomes or Categories:
+			#["Category 1", "Category 2", "Biome 1", "Biome 2", etc...]
+			generation_biomes = ["minecraft:beach", "minecraft:deep_lukewarm_ocean", "minecraft:deep_ocean", "minecraft:deep_warm_ocean", "minecraft:lukewarm_ocean", "minecraft:ocean", "minecraft:warm_ocean"]
+

@@ -1,0 +1,15 @@
+
+#Options for general mod behavior.
+[general]
+	#You shouldn't manually change the version number.
+	configVersion = 1
+	#If set to FALSE the block protection on the dungeon dimension will be disabled, making the options in the next section useless.
+	globalBlockProtection = true
+
+#Options for block behavior in the dungeon dimension.
+[blocks]
+	#List of blocks which any player should be allowed to break, defying the block protection. (For example, gravestones or death chests.) Default value is empty.
+	breakingWhitelist = []
+	#List of blocks that players will be unable to interact with. It is strongly recommended to preserve the defaults.
+	interactionBlacklist = ["minecraft:dispenser", "minecraft:dropper", "minecraft:hopper", "minecraft:anvil", "minecraft:chipped_anvil", "minecraft:damaged_anvil", "minecraft:furnace", "minecraft:note_block", "minecraft:repeater", "minecraft:comparator", "minecraft:redstone_wire", "minecraft:beacon", "minecraft:crafting_table", "minecraft:enchanting_table", "minecraft:loom", "minecraft:smoker", "minecraft:blast_furnace", "minecraft:cartography_table", "minecraft:fletching_table", "minecraft:smithing_table", "minecraft:grindstone", "minecraft:stonecutter", "minecraft:respawn_anchor", "minecraft:lodestone", "minecraft:beehive", "minecraft:bee_nest", "minecraft:black_bed", "minecraft:blue_bed", "minecraft:brown_bed", "minecraft:cyan_bed", "minecraft:gray_bed", "minecraft:green_bed", "minecraft:light_blue_bed", "minecraft:light_gray_bed", "minecraft:lime_bed", "minecraft:magenta_bed", "minecraft:orange_bed", "minecraft:pink_bed", "minecraft:purple_bed", "minecraft:red_bed", "minecraft:white_bed", "minecraft:yellow_bed", "minecraft:flower_pot", "minecraft:potted_dandelion", "minecraft:potted_poppy", "minecraft:potted_blue_orchid", "minecraft:potted_allium", "minecraft:potted_azure_bluet", "minecraft:potted_red_tulip", "minecraft:potted_orange_tulip", "minecraft:potted_white_tulip", "minecraft:potted_pink_tulip", "minecraft:potted_oxeye_daisy", "minecraft:potted_cornflower", "minecraft:potted_lily_of_the_valley", "minecraft:potted_wither_rose", "minecraft:potted_oak_sapling", "minecraft:potted_spruce_sapling", "minecraft:potted_birch_sapling", "minecraft:potted_jungle_sapling", "minecraft:potted_acacia_sapling", "minecraft:potted_dark_oak_sapling", "minecraft:potted_red_mushroom", "minecraft:potted_brown_mushroom", "minecraft:potted_fern", "minecraft:potted_dead_bush", "minecraft:potted_cactus", "minecraft:potted_bamboo", "minecraft:potted_crimson_fungus", "minecraft:potted_warped_fungus", "minecraft:potted_crimson_roots", "minecraft:potted_warped_roots"]
+

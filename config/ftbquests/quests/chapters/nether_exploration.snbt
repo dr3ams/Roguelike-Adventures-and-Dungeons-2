@@ -1,0 +1,2500 @@
+{
+	id: "0B0F7E88D52F378E"
+	group: "241F1DC7B6D6E9D6"
+	order_index: 1
+	filename: "nether_exploration"
+	title: "Nether Exploration"
+	icon: "minecraft:crimson_nylium"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -6.0d
+		y: -4.5d
+		width: 3.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "nethers_delight:textures/block/crimson_fungus_colony_stage3.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: -0.75d
+			shape: "octagon"
+			size: 1.5d
+			id: "4ABA0AF14F4830E5"
+			tasks: [{
+				id: "65D3DC57A00517D1"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "753897D7E79A3329"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "706DE69EA80B301C"
+					type: "item"
+					item: "minecraft:cake"
+				}
+				{
+					id: "23EAEB5BF0046E19"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "2E1252F4A5FC2ED0"
+			tasks: [{
+				id: "2B928F292B685E1F"
+				type: "item"
+				item: "minecraft:lodestone"
+			}]
+			rewards: [
+				{
+					id: "7FF320272CCBC76C"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "013F464F232332FF"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "46986285004F8604"
+			tasks: [{
+				id: "3DE0DFF246102EAC"
+				type: "item"
+				item: "minecraft:basalt"
+			}]
+			rewards: [
+				{
+					id: "4B7E5C8736523516"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "6BB95B4CAACB68A3"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			dependencies: ["46986285004F8604"]
+			id: "0BC837BAE9BF5D1D"
+			tasks: [{
+				id: "53D9BE3D344F0B59"
+				type: "item"
+				item: "minecraft:polished_basalt"
+			}]
+			rewards: [
+				{
+					id: "4BD734E66B5B5949"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "2725679FB19F83B0"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "5924C8AA2148FC68"
+			tasks: [{
+				id: "0523357F29E2E5FD"
+				type: "item"
+				item: "minecraft:blackstone"
+			}]
+			rewards: [
+				{
+					id: "290185B21B1A4BFC"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "42AA588530A43F82"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			dependencies: ["5924C8AA2148FC68"]
+			id: "09D61D5FA721A63F"
+			tasks: [{
+				id: "46B34FF518F8D7F3"
+				type: "item"
+				item: "minecraft:polished_blackstone"
+			}]
+			rewards: [
+				{
+					id: "56C6ABA6E2A51CD6"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "73274FAEE5D9F37A"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["5924C8AA2148FC68"]
+			id: "5D3072BDDCF2CCDA"
+			tasks: [{
+				id: "38C22498B35BA7C8"
+				type: "item"
+				item: "minecraft:gilded_blackstone"
+			}]
+			rewards: [
+				{
+					id: "27377B1B8BCCF8F0"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "08CFFE9163063EDD"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["5924C8AA2148FC68"]
+			id: "1F4D4B7F7BFFE905"
+			tasks: [{
+				id: "7319C5B794C2989E"
+				type: "item"
+				item: "betterendforge:blackstone_lantern"
+			}]
+			rewards: [
+				{
+					id: "3A7D2BF21A310A97"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "14988FCA9C5454A0"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "55DBF9AB804E499E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["5924C8AA2148FC68"]
+			id: "0EC9F28874B977ED"
+			tasks: [{
+				id: "5AAB10220CF3BA00"
+				type: "item"
+				item: "quark:twisted_blackstone_bricks"
+			}]
+			rewards: [
+				{
+					id: "5791C218A41E32AE"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "65FDA5A3C84B95BF"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["5924C8AA2148FC68"]
+			id: "783B50DE91433AEE"
+			tasks: [{
+				id: "22D494B970AA76EB"
+				type: "item"
+				item: "quark:weeping_blackstone_bricks"
+			}]
+			rewards: [
+				{
+					id: "5ACF132C0B17E231"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "4789B7BF20131B20"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "342DF0DC66D3FC75"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "67A339531A61A13F"
+			tasks: [{
+				id: "68AD8A8F335EF91F"
+				type: "item"
+				item: "minecraft:nether_gold_ore"
+			}]
+			rewards: [
+				{
+					id: "5DCD112866E8B619"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "18C5751A138E87B7"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "63E4DEAD58EA1044"
+			tasks: [{
+				id: "3034171437DF36AD"
+				type: "item"
+				item: {
+					id: "upgradednetherite_items:netherite_apple"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71AB21640D8CB173"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "049F4F81204488DB"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			dependencies: ["63E4DEAD58EA1044"]
+			id: "21F1BF0DE36BC880"
+			tasks: [{
+				id: "1BD52709596F3D83"
+				type: "item"
+				item: {
+					id: "upgradednetherite_items:enchanted_netherite_apple"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1E8197541B888420"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+				}
+				{
+					id: "328C93F967ACA4AD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "40609C59E4FA4972"
+			tasks: [{
+				id: "039546A5A8CD96B7"
+				type: "item"
+				item: "minecraft:shroomlight"
+			}]
+			rewards: [
+				{
+					id: "5086AD5FC25B34B3"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+				}
+				{
+					id: "63D77BB5509ADFF5"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "18201286EAFF10E1"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "73121D8C1E6CD319"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "0D02D42CC2FE1569"
+			tasks: [{
+				id: "79564CBC68B5670B"
+				type: "item"
+				item: "minecraft:warped_nylium"
+			}]
+			rewards: [{
+				id: "3B44E17FF5FC683A"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "3974D350BB9DAE3A"
+			tasks: [{
+				id: "5D6A645089BC6306"
+				type: "item"
+				item: "minecraft:crimson_nylium"
+			}]
+			rewards: [{
+				id: "009FBBDEBAFECCC2"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "4111908B09AAFE7D"
+			tasks: [{
+				id: "6378CFAE315823D3"
+				type: "item"
+				item: "minecraft:crimson_stem"
+			}]
+			rewards: [{
+				id: "2CF7A1A187C8AD39"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["4111908B09AAFE7D"]
+			id: "18DCBB7814DAF929"
+			tasks: [{
+				id: "7CC1B0852FA2DB7B"
+				type: "item"
+				item: "supplementaries:crimson_lantern"
+			}]
+			rewards: [{
+				id: "7A0E6416286C9851"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["3974D350BB9DAE3A"]
+			id: "3547528CA228CD35"
+			tasks: [{
+				id: "60F479E513B5144D"
+				type: "item"
+				item: "minecraft:crimson_fungus"
+			}]
+			rewards: [{
+				id: "7B31AD95B24EF082"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			dependencies: ["4111908B09AAFE7D"]
+			id: "5F0EB14CE3831AE9"
+			tasks: [{
+				id: "0A3BAD56B238BA49"
+				type: "item"
+				item: "floormats:connected/nether/connected_gilded_crimson_stem"
+			}]
+			rewards: [{
+				id: "11BF22A7EE7EDD98"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["4111908B09AAFE7D"]
+			id: "3A9F44F58CBB1632"
+			tasks: [{
+				id: "07517DC6DA222C63"
+				type: "item"
+				item: "floormats:connected/nether/connected_crimson_stem"
+			}]
+			rewards: [{
+				id: "150B4073413E12DB"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["4111908B09AAFE7D"]
+			id: "29490C6065BD6AAC"
+			tasks: [{
+				id: "546574C5FCB24D40"
+				type: "item"
+				item: "quark:crimson_chest"
+			}]
+			rewards: [
+				{
+					id: "386EE48756D87B73"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+				}
+				{
+					id: "077F7E12A3361B6F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["0F0AA12E6E9A4350"]
+			id: "3A0EF46E832AB5E4"
+			tasks: [{
+				id: "3DBB1C9ECAB1C116"
+				type: "item"
+				item: "floormats:connected/nether/connected_warped_stem"
+			}]
+			rewards: [
+				{
+					id: "2DE6F23F35670218"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "0BF69E955C71CF52"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			dependencies: ["0F0AA12E6E9A4350"]
+			id: "34C353266CF4D229"
+			tasks: [{
+				id: "7CD040E160309DD7"
+				type: "item"
+				item: "floormats:connected/nether/connected_gilded_warped_stem"
+			}]
+			rewards: [{
+				id: "68F9BDF6A8C5DF02"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["0F0AA12E6E9A4350"]
+			id: "43A18A19D4D9D8E2"
+			tasks: [{
+				id: "516723368B3D9747"
+				type: "item"
+				item: "quark:warped_chest"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["0F0AA12E6E9A4350"]
+			id: "04013B081700E4A9"
+			tasks: [{
+				id: "60A827DB82BEB6E9"
+				type: "item"
+				item: "valhelsia_structures:warped_post"
+			}]
+			rewards: [{
+				id: "7F2986E56E2264DF"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "0F0AA12E6E9A4350"
+			tasks: [{
+				id: "6D690E6928BE634E"
+				type: "item"
+				item: "minecraft:warped_stem"
+			}]
+			rewards: [{
+				id: "5273057D3607AB4A"
+				type: "item"
+				item: "supplementaries:candy"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["0F0AA12E6E9A4350"]
+			id: "39B4598D10583635"
+			tasks: [{
+				id: "43E060F4CBD7350E"
+				type: "item"
+				item: "minecraft:warped_door"
+			}]
+			rewards: [{
+				id: "2B7FAC4F31780F71"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["0D02D42CC2FE1569"]
+			id: "6F71C255CDF5A4D9"
+			tasks: [{
+				id: "434C39CDB41DEB44"
+				type: "item"
+				item: "eidolon:warped_sprouts"
+			}]
+			rewards: [
+				{
+					id: "5C63479985C68918"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "7F9D9DCC997C087A"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "6D925AD6D9275970"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: ["0F0AA12E6E9A4350"]
+			id: "70BC62E7AF939546"
+			tasks: [{
+				id: "6233D945FF30CB8B"
+				type: "item"
+				item: "quark:warped_post"
+			}]
+			rewards: [
+				{
+					id: "3348A8D7D4B5F8A7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "3B4049A1C71A3B32"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "1FF5E2CC96EA1264"
+			tasks: [{
+				id: "03BFDC95874E8D43"
+				type: "item"
+				item: "minecraft:soul_torch"
+			}]
+			rewards: [
+				{
+					id: "620230C3CD465B73"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "2753F32E2BC5AF02"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			dependencies: ["1FF5E2CC96EA1264"]
+			id: "09EBBFAC3E896F55"
+			tasks: [{
+				id: "21246CBACECE1231"
+				type: "item"
+				item: "minecraft:soul_lantern"
+			}]
+			rewards: [
+				{
+					id: "62080E69141A4A87"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "7215A20D4E41C35A"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "2A5E4E82A40DBFCC"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "63871B96A2A11F52"
+			tasks: [{
+				id: "3DE176441FA028F7"
+				type: "item"
+				item: "decorative_blocks:soul_brazier"
+			}]
+			rewards: [{
+				id: "22A3270247FD2C99"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "60EE45363E31B08B"
+			tasks: [{
+				id: "31104495250E3539"
+				type: "item"
+				item: "minecraft:soul_campfire"
+			}]
+			rewards: [
+				{
+					id: "33BA4FC62E58B08B"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "3A8B818AF34A8042"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			dependencies: ["7137B3D4835692E8"]
+			id: "4A163C73BCFE6474"
+			tasks: [{
+				id: "0BD2721107AED2B4"
+				type: "item"
+				item: "minecraft:respawn_anchor"
+			}]
+			rewards: [
+				{
+					id: "049C63E7861E4DEA"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "15EEEAE6CEAA853B"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "4FDB69572109C47D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "6DB3D917A8F87B71"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "7137B3D4835692E8"
+			tasks: [{
+				id: "1ED4462D359C783F"
+				type: "item"
+				item: "minecraft:crying_obsidian"
+			}]
+			rewards: [
+				{
+					id: "6F527B6D48A00F53"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+				}
+				{
+					id: "57A8B2FE62FEA9CC"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "732A9F26810E2099"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "52232EA3F724096F"
+			tasks: [{
+				id: "09387DD6B6597986"
+				type: "kill"
+				entity: "minecraft:hoglin"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "2084A63822FD30D0"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+				}
+				{
+					id: "15851C13041B70E6"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "3AED4BDFD3E2F5CE"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "7CE3256CA69C8130"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "5DCD88F5D69C1D8D"
+			tasks: [{
+				id: "3D58332C56BAF488"
+				type: "kill"
+				entity: "minecraft:zoglin"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "4B66AE25FBE028EE"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "7FB704B102DA2830"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "67AC4A9E200188C1"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			dependencies: ["5F0EB14CE3831AE9"]
+			id: "7B2D427CAF90540B"
+			tasks: [{
+				id: "2BD352363122F8A0"
+				type: "item"
+				item: "floormats:nether/crimson_stem/gilded_crimson_stem_floormat_item"
+			}]
+			rewards: [
+				{
+					id: "172A81EE1762714C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "474B8C9F3B8D3090"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			dependencies: ["3A9F44F58CBB1632"]
+			id: "10591673E1C1B10F"
+			tasks: [{
+				id: "16C1E34D147314C4"
+				type: "item"
+				item: "floormats:nether/crimson_stem/crimson_stem_floormat_item"
+			}]
+			rewards: [
+				{
+					id: "2810F1BECD402F74"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "39A35A728AFD13A3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			dependencies: ["34C353266CF4D229"]
+			id: "4F3F64911B9A47E4"
+			tasks: [{
+				id: "5FC14B204FBABAD9"
+				type: "item"
+				item: "floormats:nether/warped_stem/gilded_warped_stem_floormat_item"
+			}]
+			rewards: [
+				{
+					id: "1000F8C6E3DE03D8"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "0D0988067C449DCB"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			dependencies: ["3A0EF46E832AB5E4"]
+			id: "1C41CF5FCC54E352"
+			tasks: [{
+				id: "5E817E7015907CF9"
+				type: "item"
+				item: "floormats:nether/warped_stem/warped_stem_floormat_item"
+			}]
+			rewards: [{
+				id: "67D99C447E344317"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			dependencies: ["4111908B09AAFE7D"]
+			id: "17EE68968A44657A"
+			tasks: [{
+				id: "7A826A100E53D9C8"
+				type: "item"
+				item: "minecraft:crimson_door"
+			}]
+			rewards: [{
+				id: "29C76C6BFCC88DD0"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["65760A3965C0610B"]
+			id: "22AD943138F5C856"
+			tasks: [{
+				id: "2D3CFED606E6A9AB"
+				type: "item"
+				item: "upgradednetherite:fire_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "7EC9B1826A2FF8F6"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "5C66D18177670CC8"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["65760A3965C0610B"]
+			id: "3B5966CE0415E109"
+			tasks: [{
+				id: "7748F8840A511DE1"
+				type: "item"
+				item: "upgradednetherite:gold_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "71D9ABD84A869B78"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "68D0080422314CE1"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["65760A3965C0610B"]
+			id: "1F32E351FBF052A2"
+			tasks: [{
+				id: "00CF7F62291474FB"
+				type: "item"
+				item: "upgradednetherite:wither_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "0CCE53419B23F04C"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "050D86277C872980"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			dependencies: ["65760A3965C0610B"]
+			id: "363BD95AA810F14F"
+			tasks: [{
+				id: "747AE6871142BC47"
+				type: "item"
+				item: "upgradednetherite:poison_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "31C782E39010018D"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "130E494F71DC97AF"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			dependencies: ["65760A3965C0610B"]
+			id: "56ADA502CFC3807D"
+			tasks: [{
+				id: "5D53DA885B4AC862"
+				type: "item"
+				item: "upgradednetherite:water_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "64724EE1F8B21150"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "3DF695EAF540C9E4"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			dependencies: ["65760A3965C0610B"]
+			id: "4FC103EC12228BBB"
+			tasks: [{
+				id: "4E5F2F25D004FA81"
+				type: "item"
+				item: "upgradednetherite:feather_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "40BCD2EC667061B9"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "323652180A76BCC5"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			dependencies: ["65760A3965C0610B"]
+			id: "6D57242610098E42"
+			tasks: [{
+				id: "6BCA7F4637FD9EB5"
+				type: "item"
+				item: "upgradednetherite:phantom_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "589E3981A731EDC4"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "4F78CB420BDE8C9B"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			dependencies: ["65760A3965C0610B"]
+			id: "42D44EE61E2CEF2E"
+			tasks: [{
+				id: "2C7DB58FF0D4CBB0"
+				type: "item"
+				item: "upgradednetherite:ender_upgraded_netherite_ingot"
+			}]
+			rewards: [
+				{
+					id: "724CF33F354DB709"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "3982C04037A22DDD"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			shape: "gear"
+			size: 1.5d
+			id: "65760A3965C0610B"
+			tasks: [{
+				id: "17E9F692EB3287BC"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+			rewards: [{
+				id: "4F87250F366A0B40"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			title: "Golderite Armor"
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["3B5966CE0415E109"]
+			id: "6727E197F4283EAD"
+			tasks: [
+				{
+					id: "51C19FD07C6B24D6"
+					type: "item"
+					item: {
+						id: "upgradednetherite:gold_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4B52A00A5022409E"
+					type: "item"
+					item: {
+						id: "upgradednetherite:gold_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "61091F06A6A61B24"
+					type: "item"
+					item: {
+						id: "upgradednetherite:gold_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "01763DBA30A14198"
+					type: "item"
+					item: {
+						id: "upgradednetherite:gold_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7B3EAA81170E42AE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "364EB7DD9200E187"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "36A304000316DB90"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			title: "Prismarite Armor"
+			x: 11.5d
+			y: -1.0d
+			dependencies: ["56ADA502CFC3807D"]
+			id: "602F6BB604D64DDA"
+			tasks: [
+				{
+					id: "7528A1C720B6C6F5"
+					type: "item"
+					item: {
+						id: "upgradednetherite:water_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16B95EA610E5C408"
+					type: "item"
+					item: {
+						id: "upgradednetherite:water_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "61869886A93172FD"
+					type: "item"
+					item: {
+						id: "upgradednetherite:water_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "034A507BAE675019"
+					type: "item"
+					item: {
+						id: "upgradednetherite:water_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "46FF68E87CE1062E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1E1CA9581707A626"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "59CBE1A48D79457B"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			title: "Enderite Armor"
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["42D44EE61E2CEF2E"]
+			id: "179CE2F43D189547"
+			tasks: [
+				{
+					id: "0C4A0F96FFAC465A"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ender_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "67291AA6FFAC92DC"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ender_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1ADEB21B5E02B923"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ender_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63D909FAB37314C3"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ender_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1E00E753CADB3400"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "28A68115E664F34E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "49370DA9946CE418"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			title: "Blazerite Armor"
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["22AD943138F5C856"]
+			id: "3EF22104C917962E"
+			tasks: [
+				{
+					id: "12A272438625CA16"
+					type: "item"
+					item: {
+						id: "upgradednetherite:fire_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7F2B32C357B557B8"
+					type: "item"
+					item: {
+						id: "upgradednetherite:fire_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "750697B80A8EB2A2"
+					type: "item"
+					item: {
+						id: "upgradednetherite:fire_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "047EC975102EB1C4"
+					type: "item"
+					item: {
+						id: "upgradednetherite:fire_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "18D1F8B53D794C61"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "177B3D9FE3300C87"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "119B37A517870C76"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			title: "Featherite Armor"
+			x: 10.5d
+			y: -3.5d
+			dependencies: ["4FC103EC12228BBB"]
+			id: "2B235A1B58499000"
+			tasks: [
+				{
+					id: "212DD4E061BDD7A2"
+					type: "item"
+					item: {
+						id: "upgradednetherite:feather_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "597388EDB1959918"
+					type: "item"
+					item: {
+						id: "upgradednetherite:feather_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "174569B6144FC4F8"
+					type: "item"
+					item: {
+						id: "upgradednetherite:feather_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0AACAFDFE852FB6B"
+					type: "item"
+					item: {
+						id: "upgradednetherite:feather_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0F8832E1C00B631A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2DD126893E3A46E9"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "36234D3A250F1810"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Phanterite Armor"
+			x: 7.5d
+			y: -4.0d
+			dependencies: ["6D57242610098E42"]
+			id: "1D0C9364745C4EDE"
+			tasks: [
+				{
+					id: "7ED8A0489873B69D"
+					type: "item"
+					item: {
+						id: "upgradednetherite:phantom_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "082914C018753EEC"
+					type: "item"
+					item: {
+						id: "upgradednetherite:phantom_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4AE1C495591D2C96"
+					type: "item"
+					item: {
+						id: "upgradednetherite:phantom_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4963730B016401BF"
+					type: "item"
+					item: {
+						id: "upgradednetherite:phantom_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6BA753E32269582D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "38A1B6562A01340D"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "00EB64A48520112A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Spiderite Armor"
+			x: 11.0d
+			y: 2.0d
+			dependencies: ["363BD95AA810F14F"]
+			id: "74D61CFA5A3395DB"
+			tasks: [
+				{
+					id: "364A0E0DF57B4655"
+					type: "item"
+					item: {
+						id: "upgradednetherite:poison_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3DE0E9DDCED51EB4"
+					type: "item"
+					item: {
+						id: "upgradednetherite:poison_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "552B16804992BE9A"
+					type: "item"
+					item: {
+						id: "upgradednetherite:poison_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "14B2B8CA7CA5CFD0"
+					type: "item"
+					item: {
+						id: "upgradednetherite:poison_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6C9029D701B140E2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6A2CC94939B72DB0"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "44F69BFAA56202F8"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			title: "Witherite Armor"
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["1F32E351FBF052A2"]
+			id: "004D06A98BA5D542"
+			tasks: [
+				{
+					id: "67B7BD9FC62C09EF"
+					type: "item"
+					item: {
+						id: "upgradednetherite:wither_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "29A3814C89476CD9"
+					type: "item"
+					item: {
+						id: "upgradednetherite:wither_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1750F34968056FD1"
+					type: "item"
+					item: {
+						id: "upgradednetherite:wither_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3C47453D2B5603E9"
+					type: "item"
+					item: {
+						id: "upgradednetherite:wither_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6FB182E5B85B133A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "50547CE2B7ECFE89"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "31C570D92A9B5F68"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			title: "Golderite Arms"
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["3B5966CE0415E109"]
+			id: "2DF44D23C354CDC6"
+			tasks: [
+				{
+					id: "2561D062871C9B79"
+					type: "item"
+					item: {
+						id: "upgradednetherite:gold_upgraded_netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "442E52C6F554BBE1"
+					type: "item"
+					item: {
+						id: "upgradednetherite:gold_upgraded_netherite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1656B228B4D2D80C"
+					type: "item"
+					item: {
+						id: "upgradednetherite:gold_upgraded_netherite_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2FE2ED6092770B98"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "24C5AFF84750B8F6"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			title: "Blazerite Arms"
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["22AD943138F5C856"]
+			id: "791FB402D5A1BFA4"
+			tasks: [
+				{
+					id: "692C82960CD65F8B"
+					type: "item"
+					item: {
+						id: "upgradednetherite:fire_upgraded_netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4D1F76FD90C7A07A"
+					type: "item"
+					item: {
+						id: "upgradednetherite:fire_upgraded_netherite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A446F2AF9A12654"
+					type: "item"
+					item: {
+						id: "upgradednetherite:fire_upgraded_netherite_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6139CCE9350366A0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4D71F606CAA61E32"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			title: "Enderite Arms"
+			x: 7.5d
+			y: 3.0d
+			dependencies: ["42D44EE61E2CEF2E"]
+			id: "581E9E45E5ED4FB2"
+			tasks: [
+				{
+					id: "7417AEE11C427D4A"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ender_upgraded_netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B30934AA3A6D26F"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ender_upgraded_netherite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7458F75EAFCF5B57"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ender_upgraded_netherite_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7DF88A6B1584CCDA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "24F72361FDC8273D"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			title: "Spiderite Arms"
+			x: 10.0d
+			y: 2.5d
+			dependencies: ["363BD95AA810F14F"]
+			id: "2835561D267FAFDD"
+			tasks: [
+				{
+					id: "4EE867E7C93DFE4D"
+					type: "item"
+					item: {
+						id: "upgradednetherite:poison_upgraded_netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "20DE1D17764D3D9F"
+					type: "item"
+					item: {
+						id: "upgradednetherite:poison_upgraded_netherite_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0D3101E486AA5441"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5FC43FE00942BEB7"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			title: "Prismarite Arms"
+			x: 11.5d
+			y: 0.0d
+			dependencies: ["56ADA502CFC3807D"]
+			id: "4A450C79CCDB7840"
+			tasks: [
+				{
+					id: "53D5143DC50E97EE"
+					type: "item"
+					item: {
+						id: "upgradednetherite:water_upgraded_netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BAE4F036DFEDAD0"
+					type: "item"
+					item: {
+						id: "upgradednetherite:water_upgraded_netherite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4D3AEAA4F588C667"
+					type: "item"
+					item: {
+						id: "upgradednetherite:water_upgraded_netherite_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "151F7D6B37A87C90"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "53CD202AC5BFCC85"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			title: "Featherite Arms"
+			x: 11.0d
+			y: -2.5d
+			dependencies: ["4FC103EC12228BBB"]
+			id: "222CFF53D6C06F91"
+			tasks: [
+				{
+					id: "4BD730496D14EAD0"
+					type: "item"
+					item: {
+						id: "upgradednetherite:feather_upgraded_netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "72C36EBC4F86D392"
+					type: "item"
+					item: {
+						id: "upgradednetherite:feather_upgraded_netherite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "594B302FDB71DB36"
+					type: "item"
+					item: {
+						id: "upgradednetherite:feather_upgraded_netherite_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "68A0834E47C64C9D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7FFCADECCBE55CB6"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			title: "Phanterite Arms"
+			x: 8.5d
+			y: -4.0d
+			dependencies: ["6D57242610098E42"]
+			id: "4E8D67A9761ACBC1"
+			tasks: [
+				{
+					id: "09A5173C7C6F938D"
+					type: "item"
+					item: {
+						id: "upgradednetherite:phantom_upgraded_netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3FB1B6A23A34A383"
+					type: "item"
+					item: {
+						id: "upgradednetherite:phantom_upgraded_netherite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "59B464BF69A26689"
+					type: "item"
+					item: {
+						id: "upgradednetherite:phantom_upgraded_netherite_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1FA5C9F831780266"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "24758E7B88FB0F09"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			title: "Witherite Arms"
+			x: 5.5d
+			y: -3.5d
+			dependencies: ["1F32E351FBF052A2"]
+			id: "77A8AD4D89E56A1F"
+			tasks: [
+				{
+					id: "405F2F26CBAF068E"
+					type: "item"
+					item: {
+						id: "upgradednetherite:wither_upgraded_netherite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71C604366208C5E7"
+					type: "item"
+					item: {
+						id: "upgradednetherite:wither_upgraded_netherite_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7F788A66D5785618"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "691A8E4EAD56846B"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["40609C59E4FA4972"]
+			id: "214E89C00242A696"
+			tasks: [{
+				id: "02D5E45B9EB2B352"
+				type: "item"
+				item: "infernalexp:chiseled_glowstone_bricks"
+			}]
+			rewards: [
+				{
+					id: "31B02BE5C55C9799"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "2F304DBD8B20FFC6"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "1122E0D9CE8352D2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			dependencies: ["60EE45363E31B08B"]
+			id: "14873B1D32953A2B"
+			tasks: [{
+				id: "5C6A0082559AC281"
+				type: "item"
+				item: "infernalexp:glow_campfire"
+			}]
+			rewards: [
+				{
+					id: "1D68018529B421B1"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "4FED94CDA21B2EBE"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "49E74A8C18825E26"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			dependencies: ["09EBBFAC3E896F55"]
+			id: "71C6E5460F00AAA8"
+			tasks: [{
+				id: "3C956F3B57CC2011"
+				type: "item"
+				item: "infernalexp:glow_lantern"
+			}]
+			rewards: [
+				{
+					id: "09FBA31E24DD1B48"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "08BB9C8E2DCA87D0"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "26087375E4EADD6E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "26273B48330D94FC"
+			tasks: [{
+				id: "0853E4ACFD0F7D23"
+				type: "item"
+				item: "infernalexp:infernal_painting"
+			}]
+			rewards: [
+				{
+					id: "4D0126547FD505CE"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "522D5FEE3FEB8B65"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "78C7C47EE81B2358"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["52232EA3F724096F"]
+			id: "74F8054E3C58876B"
+			tasks: [{
+				id: "7FE4FB352CBA4E67"
+				type: "item"
+				item: "infernalexp:cooked_hogchop"
+			}]
+			rewards: [
+				{
+					id: "0D9C4DBAE88E7CAA"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "00CE620C2D47C3EE"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "1AE3D365639DA278"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			dependencies: ["357B034F06F47129"]
+			id: "1C246B7933ACF8FA"
+			tasks: [
+				{
+					id: "18375501281BBACA"
+					type: "item"
+					item: "infernalexp:charged_chiseled_soul_slate_bricks"
+				}
+				{
+					id: "6C6E1333CFDAB164"
+					type: "item"
+					item: {
+						id: "infernalexp:charged_chiseled_soul_stone_bricks"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "55FCF6B30CF4861B"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "13F2BC52777948FF"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "3C7E01AF2E530D97"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["214E89C00242A696"]
+			id: "2A31BA8A10957C75"
+			tasks: [{
+				id: "0A22A87326510F66"
+				type: "item"
+				item: "infernalexp:smooth_glowstone"
+			}]
+			rewards: [
+				{
+					id: "06FC5EE9503321A5"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "3340FB26402FFF64"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "11BEE253B27AE9D1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["46986285004F8604"]
+			id: "357B034F06F47129"
+			tasks: [{
+				id: "5D8DDA737DE45C45"
+				type: "item"
+				item: "infernalexp:magmatic_chiseled_basalt_bricks"
+			}]
+			rewards: [
+				{
+					id: "6164FBAF43507A0F"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "06A7A46FD55ACF20"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "02F8440BC3699794"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			dependencies: ["0BC837BAE9BF5D1D"]
+			id: "29EAFB7C2D441011"
+			tasks: [{
+				id: "679ACD5819DAE913"
+				type: "item"
+				item: {
+					id: "infernalexp:polished_basalt_tiles"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+	]
+}

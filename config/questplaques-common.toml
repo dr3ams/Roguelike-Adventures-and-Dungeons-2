@@ -1,0 +1,26 @@
+
+# Quest Plaques Configuration Options
+# The options set here will apply only to plaques shown for quests, not advancements.
+# If you would like to change display options, like plaque position or duration, these settings can be found in the Advancement Plaques configuration file.
+[client]
+
+	[client.visual_options]
+		# If plaques should show for "task"-level quests (quest tasks).
+		tasks = true
+		# If plaques should show for "goal"-level quests (standard quests).
+		goals = true
+		# If plaques should show for "challenge"-level quests (quest chapters).
+		challenges = true
+		# Text color to use for plaque titles (like "Quest Complete!"). Can be entered as an 8-digit hex color code 0xAARRGGBB for convenience.
+		#Range: 0 ~ 4294967295
+		title_color = 4281541120
+		# Text color to use for quest names on plaques. Can be entered as an 8-digit hex color code 0xAARRGGBB for convenience.
+		#Range: 0 ~ 4294967295
+		name_color = 4294967295
+
+	[client.functionality_options]
+		# Whether to skip the task plaque for quests that only have a single task.
+		consolidate_simple_quests = true
+		# Whitelist of quests to show plaques for.  Leave empty to display for all.  Specify as numerical quest ID for FTB Quests and Custom Quests.
+		whitelist = []
+

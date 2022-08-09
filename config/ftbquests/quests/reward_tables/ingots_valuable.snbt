@@ -1,0 +1,89 @@
+{
+	id: "60BF6515F4373139"
+	order_index: 4
+	title: "Ingots Valuable"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "undergarden:forgotten_ingot" }
+		{ item: "undergarden:regalium_ingot" }
+		{ item: "undergarden:froststeel_ingot" }
+		{ item: "buddycards:buddysteel_ingot" }
+		{ item: "upgradednetherite:gold_upgraded_netherite_ingot" }
+		{ item: "upgradednetherite:fire_upgraded_netherite_ingot" }
+		{ item: "upgradednetherite:ender_upgraded_netherite_ingot" }
+		{ item: "aquaculture:neptunium_ingot" }
+		{ item: "enigmaticlegacy:etherium_ingot" }
+		{ item: "minecraft:netherite_ingot" }
+		{ item: "eidolon:arcane_gold_ingot" }
+		{ item: "upgradednetherite:phantom_upgraded_netherite_ingot" }
+		{ item: "upgradednetherite:poison_upgraded_netherite_ingot" }
+		{ item: "twilightforest:knightmetal_ingot" }
+		{ item: "twilightforest:fiery_ingot" }
+		{ item: "atum:nebu_ingot" }
+		{ item: "twilightforest:ironwood_ingot" }
+		{ item: "tropicraft:shaka_ingot" }
+		{ item: "the_afterlight:lunariteingot" }
+		{ item: "the_afterlight:crystillium_ingot" }
+		{ item: "the_afterlight:livingessenceingot" }
+		{ item: "blue_skies:horizonite_ingot" }
+		{ item: "blue_skies:ventium_ingot" }
+		{ item: "blue_skies:falsite_ingot" }
+		{ item: "aquaculture:box" }
+		{ item: "aquaculture:lockbox" }
+		{
+			item: {
+				id: "the_afterlight:livingessenceingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "blue_skies:horizonite_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "the_afterlight:crystillium_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "the_afterlight:moonsteel_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16766976
+		string_id: "ingots_valuable"
+	}
+}

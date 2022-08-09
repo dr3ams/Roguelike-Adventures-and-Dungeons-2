@@ -1,0 +1,29 @@
+{
+  "_commentSyntax": "to check if your config-file has the correct syntax, test your configuration on this website: https://jsonlint.com/",
+  "_comment": "explanation to the config structure can be found here: https://github.com/tristankechlo/Tool-Leveling/wiki/",
+  "upgradeCostMultiplier": 5.0,
+  "minUpgradeCost": 1000,
+  "allowIncompatibleEnchantments": false,
+  "allowWrongEnchantments": false,
+  "defaultItemWorth": 10,
+  "allowLevelingOfUselessEnchantments": false,
+  "allowLevelingOfBreakingEnchanments": false,
+  "globalEnchantmentCap": 10,
+  "enchantmentWhitelist": [],
+  "enchantmentBlacklist": [
+    "minecraft:mending",
+    "minecraft:aqua_affinity",
+    "minecraft:channeling",
+    "minecraft:binding_curse",
+    "minecraft:vanishing_curse",
+    "minecraft:flame",
+    "minecraft:infinity",
+    "minecraft:multishot",
+    "minecraft:silk_touch",
+    "dungeons_gear:prospector",
+    "dungeons_gear:lucky_explorer"
+  ],
+  "enchantmentCaps": {
+    "minecraft:fire_protection": 10
+  }
+}

@@ -1,0 +1,553 @@
+{
+	id: "2610F864F5FA4690"
+	order_index: 12
+	title: "Artefact crate"
+	loot_size: 1
+	rewards: [
+		{ item: "artifacts:antidote_vessel", weight: 40 }
+		{ item: "artifacts:aqua_dashers", weight: 40 }
+		{ item: "artifacts:bunny_hoppers", weight: 40 }
+		{ item: "artifacts:charm_of_sinking", weight: 40 }
+		{ item: "artifacts:cloud_in_a_bottle", weight: 40 }
+		{ item: "artifacts:cross_necklace", weight: 40 }
+		{ item: "artifacts:crystal_heart", weight: 40 }
+		{ item: "artifacts:digging_claws", weight: 40 }
+		{ item: "artifacts:eternal_steak", weight: 40 }
+		{ item: "artifacts:everlasting_beef", weight: 40 }
+		{ item: "artifacts:feral_claws", weight: 40 }
+		{ item: "artifacts:fire_gauntlet", weight: 40 }
+		{ item: "artifacts:flame_pendant", weight: 40 }
+		{ item: "artifacts:flippers", weight: 40 }
+		{ item: "artifacts:golden_hook", weight: 40 }
+		{ item: "artifacts:helium_flamingo", weight: 40 }
+		{ item: "artifacts:kitty_slippers", weight: 40 }
+		{ item: "artifacts:lucky_scarf", weight: 40 }
+		{ item: "artifacts:mimic_spawn_egg", weight: 40 }
+		{ item: "artifacts:night_vision_goggles", weight: 40 }
+		{ item: "artifacts:novelty_drinking_hat", weight: 40 }
+		{ item: "artifacts:obsidian_skull", weight: 40 }
+		{ item: "artifacts:panic_necklace", weight: 40 }
+		{ item: "artifacts:plastic_drinking_hat", weight: 40 }
+		{ item: "artifacts:pocket_piston", weight: 40 }
+		{ item: "artifacts:power_glove", weight: 40 }
+		{ item: "artifacts:running_shoes", weight: 40 }
+		{ item: "artifacts:scarf_of_invisibility", weight: 40 }
+		{ item: "artifacts:shock_pendant", weight: 40 }
+		{ item: "artifacts:snorkel", weight: 40 }
+		{ item: "artifacts:steadfast_spikes", weight: 40 }
+		{ item: "artifacts:superstitious_hat", weight: 40 }
+		{ item: "artifacts:thorn_pendant", weight: 40 }
+		{ item: "artifacts:umbrella", weight: 40 }
+		{ item: "artifacts:universal_attractor", weight: 40 }
+		{ item: "artifacts:vampiric_glove", weight: 40 }
+		{ item: "artifacts:villager_hat", weight: 40 }
+		{ item: "artifacts:whoopee_cushion", weight: 40 }
+		{ item: "bountifulbaubles:amulet_cross", weight: 40 }
+		{ item: "bountifulbaubles:amulet_sin_empty", weight: 40 }
+		{ item: "bountifulbaubles:amulet_sin_gluttony", weight: 40 }
+		{ item: "bountifulbaubles:amulet_sin_pride", weight: 40 }
+		{ item: "bountifulbaubles:amulet_sin_wrath", weight: 40 }
+		{ item: "bountifulbaubles:ankh_charm", weight: 40 }
+		{ item: "bountifulbaubles:apple", weight: 40 }
+		{ item: "bountifulbaubles:balloon", weight: 40 }
+		{ item: "bountifulbaubles:bezoar", weight: 40 }
+		{ item: "bountifulbaubles:black_dragon_scale", weight: 40 }
+		{ item: "bountifulbaubles:broken_black_dragon_scale", weight: 40 }
+		{ item: "bountifulbaubles:broken_heart", weight: 40 }
+		{ item: "bountifulbaubles:disintegration_tablet", weight: 40 }
+		{ item: "bountifulbaubles:ender_dragon_scale", weight: 40 }
+		{ item: "bountifulbaubles:gloves_dexterity", weight: 40 }
+		{
+			item: {
+				id: "bountifulbaubles:gloves_digging_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "bountifulbaubles:gloves_digging_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "bountifulbaubles:horseshoe_balloon", weight: 40 }
+		{ item: "bountifulbaubles:lucky_horseshoe", weight: 40 }
+		{ item: "bountifulbaubles:magic_mirror", weight: 40 }
+		{ item: "bountifulbaubles:mixed_dragon_scale", weight: 40 }
+		{ item: "bountifulbaubles:obsidian_skull", weight: 40 }
+		{ item: "bountifulbaubles:phylactery_charm", weight: 40 }
+		{ item: "bountifulbaubles:potion_recall", weight: 40 }
+		{ item: "bountifulbaubles:potion_wormhole", weight: 40 }
+		{ item: "bountifulbaubles:resplendent_token", weight: 40 }
+		{ item: "bountifulbaubles:ring_free_action", weight: 40 }
+		{ item: "bountifulbaubles:ring_overclocking", weight: 40 }
+		{ item: "bountifulbaubles:shield_ankh", weight: 40 }
+		{ item: "bountifulbaubles:shield_cobalt", weight: 40 }
+		{ item: "bountifulbaubles:shield_obsidian", weight: 40 }
+		{ item: "bountifulbaubles:shulker_heart", weight: 40 }
+		{ item: "bountifulbaubles:spectral_silt", weight: 40 }
+		{ item: "bountifulbaubles:sunglasses", weight: 40 }
+		{ item: "bountifulbaubles:vitamins", weight: 40 }
+		{ item: "bountifulbaubles:water_candle", weight: 40 }
+		{ item: "bountifulbaubles:wormhole_mirror", weight: 40 }
+		{
+			item: {
+				id: "relics:amphibian_boot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "relics:aquasteel_ingot", weight: 40 }
+		{
+			item: {
+				id: "relics:arrow_quiver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:bastion_ring"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "relics:blank_rune", weight: 40 }
+		{
+			item: {
+				id: "relics:blazing_flask"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "relics:bloody_feather", weight: 40 }
+		{ item: "relics:bloody_lectern", weight: 40 }
+		{
+			item: {
+				id: "relics:camouflage_ring"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:chalk"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:chorus_inhibitor"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "relics:chrysolite", weight: 40 }
+		{ item: "relics:coal_parchment", weight: 40 }
+		{ item: "relics:common_scrap", weight: 40 }
+		{
+			item: {
+				id: "relics:delay_ring"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:drowned_belt"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:elytra_booster"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:enders_hand"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "relics:epic_scrap", weight: 40 }
+		{ item: "relics:firesteel_ingot", weight: 40 }
+		{ item: "relics:flaming_amber_dust", weight: 40 }
+		{ item: "relics:flaming_amber_geode", weight: 40 }
+		{
+			item: {
+				id: "relics:fragrant_flower"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:ghost_skin_talisman"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:holy_locket"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:horse_flute"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:hunter_belt"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:ice_breaker"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:ice_skates"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:infinity_ham"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:jellyfish_necklace"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:leather_belt"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:lucky_horseshoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:magic_mirror"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:magma_walker"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:midnight_robe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "relics:mithril_ingot", weight: 40 }
+		{ item: "relics:obsidian_ingot", weight: 40 }
+		{
+			item: {
+				id: "relics:old_boot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:out_runner"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "relics:pedestal", weight: 40 }
+		{
+			item: {
+				id: "relics:rage_glove"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "relics:rare_scrap", weight: 40 }
+		{
+			item: {
+				id: "relics:reflection_necklace"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "relics:relic_contract", weight: 40 }
+		{ item: "relics:rune_of_air", weight: 40 }
+		{ item: "relics:rune_of_cold", weight: 40 }
+		{ item: "relics:rune_of_earth", weight: 40 }
+		{ item: "relics:rune_of_explosion", weight: 40 }
+		{ item: "relics:rune_of_fire", weight: 40 }
+		{ item: "relics:rune_of_lightning", weight: 40 }
+		{ item: "relics:rune_of_love", weight: 40 }
+		{ item: "relics:rune_of_luck", weight: 40 }
+		{ item: "relics:rune_of_moon", weight: 40 }
+		{ item: "relics:rune_of_redstone", weight: 40 }
+		{ item: "relics:rune_of_sun", weight: 40 }
+		{ item: "relics:rune_of_water", weight: 40 }
+		{ item: "relics:runic_altar", weight: 40 }
+		{ item: "relics:runic_anvil", weight: 40 }
+		{
+			item: {
+				id: "relics:runic_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:scarab_talisman"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:shadow_glaive"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:slime_heart"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:soul_devourer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:space_dissector"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:spatial_sign"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:spider_necklace"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:spore_sack"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "relics:squire_bag"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "relics:steel_ingot", weight: 40 }
+		{
+			item: {
+				id: "relics:stellar_catalyst"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "relics:terrasteel_ingot", weight: 40 }
+		{ item: "relics:uncommon_scrap", weight: 40 }
+		{
+			item: {
+				id: "relics:wool_mitten"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "artefact_crate"
+	}
+}

@@ -1,0 +1,56 @@
+{
+	id: "13D32E1B91340CA1"
+	order_index: 6
+	title: "Rare loot crate"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:gold_ingot", count: 32 }
+		{ item: "minecraft:lapis_ore", count: 8 }
+		{ item: "minecraft:emerald_ore", count: 4 }
+		{ item: "minecraft:redstone_ore", count: 16 }
+		{ item: "minecraft:slime_ball", count: 64 }
+		{ item: "minecraft:lapis_lazuli", count: 32 }
+		{ item: "minecraft:emerald", count: 3 }
+		{ item: "minecraft:diamond", count: 3 }
+		{ item: "minecraft:netherite_scrap", count: 3 }
+		{ item: "minecraft:egg", count: 16 }
+		{ item: "minecraft:ink_sac", count: 64 }
+		{ item: "minecraft:ender_pearl", count: 16 }
+		{ item: "randomite:randomite_ore", count: 8 }
+		{ item: "minecraft:golden_apple", count: 3 }
+		{ item: "aquaculture:lockbox" }
+		{ item: "create:brass_ingot", count: 16 }
+		{ item: "aquaculture:treasure_chest" }
+		{ item: "waystones:return_scroll" }
+		{ item: "waystones:bound_scroll" }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "hat_loot_crate"
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "hat_loot_crate"
+				}
+			}
+		}
+		{ item: "kubejs:diamond_nugget", count: 9 }
+		{ item: "kubejs:emerald_nugget", count: 9 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 3048191
+		string_id: "rare_loot_crate"
+	}
+}

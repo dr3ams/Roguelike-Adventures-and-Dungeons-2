@@ -1,0 +1,66 @@
+{
+	id: "049119B020563230"
+	order_index: 8
+	title: "Legendary loot crate"
+	loot_size: 1
+	rewards: [
+		{ item: "oreberriesreplanted:essence_berry_bush" }
+		{ item: "oreberriesreplanted:zinc_oreberry_bush" }
+		{ item: "oreberriesreplanted:iron_oreberry_bush" }
+		{ item: "oreberriesreplanted:gold_oreberry_bush" }
+		{ item: "oreberriesreplanted:copper_oreberry_bush" }
+		{ item: "oreberriesreplanted:tin_oreberry_bush" }
+		{ item: "oreberriesreplanted:aluminum_oreberry_bush" }
+		{ item: "oreberriesreplanted:lead_oreberry_bush" }
+		{ item: "oreberriesreplanted:nickel_oreberry_bush" }
+		{ item: "oreberriesreplanted:uranium_oreberry_bush" }
+		{ item: "oreberriesreplanted:silver_oreberry_bush" }
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "defense"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "souls"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "upgrades"
+				}
+			}
+		}
+		{ item: "minecraft:nether_star" }
+		{ item: "randomite:randomite_ore", count: 64 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16299838
+		string_id: "legendary_loot_crate"
+	}
+}

@@ -1,0 +1,52 @@
+{
+	id: "5D7127D0072C76C4"
+	order_index: 15
+	title: "Gold coin reward"
+	loot_size: 1
+	rewards: [
+		{ item: "aquaculture:treasure_chest" }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "rare_loot_crate"
+				}
+			}
+		}
+		{ item: "kubejs:iron_coin", count: 3 }
+		{ item: "minecraft:gold_ore", random_bonus: 5 }
+		{ item: "minecraft:lapis_ore", random_bonus: 5 }
+		{ item: "quark:blue_blossom_sapling" }
+		{ item: "quark:lavender_blossom_sapling" }
+		{ item: "quark:orange_blossom_sapling" }
+		{ item: "quark:pink_blossom_sapling" }
+		{ item: "quark:yellow_blossom_sapling" }
+		{ item: "quark:red_blossom_sapling" }
+		{ item: "quark:egg_parrot_red_blue" }
+		{ item: "quark:egg_parrot_blue" }
+		{ item: "quark:egg_parrot_green" }
+		{ item: "quark:egg_parrot_yellow_blue" }
+		{ item: "quark:egg_parrot_grey" }
+		{ item: "quark:stoneling_spawn_egg" }
+		{ item: "minecraft:horse_spawn_egg" }
+		{ item: "minecraft:ocelot_spawn_egg" }
+		{ item: "minecraft:glow_squid_spawn_egg" }
+		{ item: "minecraft:ender_pearl", count: 4 }
+		{ item: "minecraft:glow_berries", count: 32 }
+		{ item: "randomite:randomite_ore", count: 5 }
+		{ item: "minecraft:golden_carrot", count: 32 }
+		{ item: "minecraft:glistering_melon_slice", count: 32 }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "hat_loot_crate"
+				}
+			}
+		}
+		{ item: "kubejs:diamond_nugget", count: 8 }
+		{ item: "kubejs:emerald_nugget", count: 8 }
+	]
+}

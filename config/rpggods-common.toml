@@ -1,0 +1,39 @@
+
+[favor]
+	#Set to false to disable favor, offerings, sacrifices, and perks
+	favor_enabled = true
+	#Number of ticks between favor calculations.
+	#Increase to reduce the frequency of favor updates.
+	#THIS AFFECTS PERKS, FAVOR DECAY, AND COOLDOWNS.
+	#Range: 1 ~ 24000
+	favor_update_rate = 20
+	#Percent chance that perks with [random tick] conditions run (every [favor_update_rate] ticks)
+	#Range: 0.0 ~ 1.0
+	random_perk_chance = 0.34
+	#Percent chance that favor will deplete (every [favor_update_rate] ticks)
+	#Applies to all players independent of their favor decay rate
+	#Range: 0.0 ~ 1.0
+	favor_decay_rate = 0.006
+	#Amount of favor to deplete when applicable
+	#Range: 0 ~ 1024
+	favor_decay_amount = 1
+	#True to notify player when a perk is given
+	perk_feedback = true
+	#True to send feedback through chat instead of status bar
+	#Only if perk_feedback is True
+	perk_feedback_chat = false
+
+[affinity]
+	#True if mobs can be given AI to avoid the player
+	flee_enabled = true
+	#True if mobs can be given AI to be hostile
+	hostile_enabled = true
+	#True if mobs can be given AI to be passive
+	passive_enabled = true
+	#True if mobs can be given AI to become tamed
+	tameable_enabled = true
+
+[sitting]
+	#List of mobs that appear to sit (used client-side)
+	sitting_mobs = ["minecraft:zombie", "minecraft:husk", "minecraft:drowned", "minecraft:skeleton", "minecraft:stray", "minecraft:wither_skeleton", "minecraft:vindicator", "minecraft:pillager", "minecraft:evoker", "minecraft:illusioner", "minecraft:piglin", "minecraft:zombified_piglin", "minecraft:enderman"]
+

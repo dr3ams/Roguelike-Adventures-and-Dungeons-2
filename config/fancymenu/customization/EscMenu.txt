@@ -1,0 +1,61 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.IngameMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=398306%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504306%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=374330%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -102
+  width = 98
+  actionid = a1b34f12-4b6d-4a82-bb16-f76e7a281ad81641053959316
+  action = addbutton
+  y = -124
+  label = Support the author
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = Report Bugs
+  loopbackgroundanimations = true
+  hoverlabel = Visit Discord
+  x = 4
+  width = 98
+  actionid = d3fa7b45-d091-407c-a3e4-50708c5d4ced1641053981499
+  action = addbutton
+  y = -124
+  value = 
+  height = 20
+}
+

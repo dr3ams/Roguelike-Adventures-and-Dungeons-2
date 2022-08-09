@@ -1,0 +1,136 @@
+
+[general]
+	#Determines if right-clicking crops will harvest them. Server configuration overrides client.
+	"Right Click Crop Harvest" = false
+	#Determines if grass will spread to the custom dirt blocks added by this mod. Sever configuration overrides client.
+	"Enable Grass Spreading To Custom Dirt" = true
+	#Determines if more events are printed to the minecraft log. Only use this when submitting a log for an issue. Only a few areas will have this functionality enabled.
+	"Enable Verbose Logging" = false
+	#Determines if the Step Assist family of enchantments is enabled. 
+	#Requires World Restart. Server Configuration overrides client.
+	"Enable Step Assist Enchantment" = true
+	#Determines if home command is enabled. This command will allow the player to teleport to the last bed they slept in or where they entered the dimension from. Server configuration overrides client.
+	"Enable Home Command" = true
+
+	[general."extra drops"]
+		#Defines the drop chance of diamond shards from coal ore blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Diamond Shard Drop Chance" = 1
+		#Defines the drop chance of beet root seeds from tall grass blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Beetroot Seed Drop Chance" = 4
+		#Defines the drop chance of melon seeds from tall grass blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Melon Seed Drop Chance" = 4
+		#Defines the drop chance of pumpkin seeds from tall grass blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Pumpkin Seed Drop Chance" = 4
+		#Defines the drop chance of cocoa seeds from tall grass blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Cocoa Seed Drop Chance" = 4
+		#Defines the drop chance of potatoes from dirt/grass blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Potato Drop Chance" = 4
+		#Defines the drop chance of carrots from dirt/grass blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Carrot Drop Chance Name" = 4
+		#Defines the drop chance of beet roots from dirt/grass blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Beetroot Drop Chance" = 4
+		#Defines the drop chance of clay items from dirt/grass blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Clay Item Drop Chance" = 4
+		#Defines the drop chance of bones from dirt/grass blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Bone Drop Chance" = 4
+		#Defines the drop chance of coal from stone (all vanilla varieties) blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Coal Drop Chance" = 4
+		#Defines the drop chance of flint from stone (all vanilla varieties) blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Flint Drop Chance" = 4
+		#Defines the drop chance of iron nuggets from stone (all vanilla varieties) blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Iron Nugget Drop Chance" = 4
+		#Defines the drop chance of gold nuggets from stone (all vanilla varieties) blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Gold Nugget Drop Chance" = 2
+		#Defines the drop chance of apples from leaves (all varieties) blocks. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Apple Drop Chance" = 4
+		#Defines the drop chance of monster heads when zombies or skeletons die. This is percent based so 1 = 1%. Server configuration overrides client.
+		#Range: 0 ~ 100
+		"Monster Head Drop Chance" = 4
+
+	[general.recipes]
+		#Determines if the recipe(s) associated with the Metal Recipes are enabled. Server configuration overrides client.
+		"Metal Recipes" = true
+		#Determines if the recipe(s) associated with the Armor Recipes are enabled. Server configuration overrides client.
+		"Armor Recipes" = true
+		#Determines if the recipe(s) associated with the Misc Recipes are enabled. Server configuration overrides client.
+		"Misc Recipes" = true
+		#Determines if the recipe(s) associated with the Nether Star are enabled. Server configuration overrides client.
+		"Nether Star" = true
+		#Determines if the recipe(s) associated with the Stone Recipes are enabled. Server configuration overrides client.
+		"Stone Recipes" = true
+		#Determines if the recipe(s) associated with the Wood Recipes are enabled. Server configuration overrides client.
+		"Wood Recipes" = true
+		#Determines if the recipe(s) associated with the Bed Compass are enabled. Server configuration overrides client.
+		"Bed Compass" = true
+		#Determines if the recipe(s) associated with the Enriched Farmland are enabled. Server configuration overrides client.
+		"Enriched Farmland" = true
+		#Determines if the recipe(s) associated with the Mini Redstone are enabled. Server configuration overrides client.
+		"Mini Redstone" = true
+		#Determines if the recipe(s) associated with the Redstone Clock are enabled. Server configuration overrides client.
+		"Redstone Clock" = true
+		#Determines if the recipe(s) associated with the Dirt Recipes are enabled. Server configuration overrides client.
+		"Dirt Recipes" = true
+		#Determines if the recipe(s) associated with the Snorkel are enabled. Server configuration overrides client.
+		Snorkel = true
+		#Determines if the recipe(s) associated with the Whetstone are enabled. Server configuration overrides client.
+		Whetstone = true
+		#Determines if the recipe(s) associated with the Glowstone Slab are enabled. Server configuration overrides client.
+		"Glowstone Slab" = true
+		#Determines if the recipe(s) associated with the Fluffy Fabric are enabled. Server configuration overrides client.
+		"Fluffy Fabric" = true
+		#Determines if the recipe(s) associated with the Stone Shears are enabled. Server configuration overrides client.
+		"Stone Shears" = true
+		#Determines if the recipe(s) associated with the Diamond Shard are enabled. Server configuration overrides client.
+		"Diamond Shard" = true
+		#Determines if the recipe(s) associated with the Redstone Scanner are enabled. Server configuration overrides client.
+		"Redstone Scanner" = true
+		#Determines if the recipe(s) associated with the Sickle are enabled. Server configuration overrides client.
+		Sickle = true
+		#Determines if the recipe(s) associated with the Swift Blade are enabled. Server configuration overrides client.
+		"Swift Blade" = true
+		#Determines if the recipe(s) associated with the Iron Lump are enabled. Server configuration overrides client.
+		"Iron Lump" = true
+		#Determines if the recipe(s) associated with the Charcoal Block are enabled. Server configuration overrides client.
+		"Charcoal Block" = true
+		#Determines if the recipe(s) associated with the Saddle are enabled. Server configuration overrides client.
+		Saddle = true
+		#Determines if the recipe(s) associated with the String are enabled. Server configuration overrides client.
+		String = true
+		#Determines if the recipe(s) associated with the Scroll are enabled. Server configuration overrides client.
+		Scroll = true
+		#Determines if the recipe(s) associated with the Wooden Crate are enabled. Server configuration overrides client.
+		"Wooden Crate" = true
+		#Determines if the recipe(s) associated with the Clutch of Eggs are enabled. Server configuration overrides client.
+		"Clutch of Eggs" = true
+		#Determines if the recipe(s) associated with the Carton of Eggs are enabled. Server configuration overrides client.
+		"Carton of Eggs" = true
+		#Determines if the recipe(s) associated with the Bunch of Beets are enabled. Server configuration overrides client.
+		"Bunch of Beets" = true
+		#Determines if the recipe(s) associated with the Bunch of Carrots are enabled. Server configuration overrides client.
+		"Bunch of Carrots" = true
+		#Determines if the recipe(s) associated with the Bunch of Potatoes are enabled. Server configuration overrides client.
+		"Bunch of Potatoes" = true
+		#Determines if the recipe(s) associated with the Crate of Beets are enabled. Server configuration overrides client.
+		"Crate of Beets" = true
+		#Determines if the recipe(s) associated with the Crate of Carrots are enabled. Server configuration overrides client.
+		"Crate of Carrots" = true
+		#Determines if the recipe(s) associated with the Crate of Potatoes are enabled. Server configuration overrides client.
+		"Crate of Potatoes" = true
+		#Determines if the recipe(s) associated with the Bag of Holding are enabled. Server configuration overrides client.
+		"Bag of Holding" = true
+

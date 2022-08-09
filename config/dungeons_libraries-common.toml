@@ -1,0 +1,15 @@
+
+#Combat Configuration
+[combat_configuration]
+	#Enable area of effects also being applied to players. 
+	#If you do not want area of effects being applied to other players, disable this feature. [true / false]
+	enableAreaOfEffectOnOtherPlayers = false
+	#Add entities that will never be targeted by aggressive Dungeons effects. 
+	#To do so, enter their registry names.
+	effectTargetBlacklist = ["guardvillagers:guard", "minecraft:bat", "minecraft:bee", "minecraft:chicken", "minecraft:cod", "minecraft:cow", "minecraft:dolphin", "minecraft:donkey", "minecraft:fox", "minecraft:horse", "minecraft:iron_golem", "minecraft:mooshroom", "minecraft:ocelot", "minecraft:panda", "minecraft:parrot", "minecraft:pig", "minecraft:polar_bear", "minecraft:pufferfish", "minecraft:rabbit", "minecraft:salmon", "minecraft:sheep", "minecraft:squid", "minecraft:strider", "minecraft:trader_llama", "minecraft:tropical_fish", "minecraft:turtle", "minecraft:villager", "minecraft:wandering_trader", "minecraft:wolf"]
+
+#Souls Configuration
+[souls_configuration]
+	#Enables keeping of souls upon death, disabled by default. [true / false]
+	enableKeepSoulsOnDeath = false
+

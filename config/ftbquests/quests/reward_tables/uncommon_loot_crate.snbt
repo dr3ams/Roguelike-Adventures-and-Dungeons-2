@@ -1,0 +1,72 @@
+{
+	id: "4F98A2D03CE849CC"
+	order_index: 5
+	title: "Uncommon loot crate"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:amethyst_shard", count: 16 }
+		{ item: "minecraft:iron_ingot", count: 16 }
+		{ item: "minecraft:copper_ingot", count: 32 }
+		{ item: "minecraft:gold_ingot", count: 16 }
+		{ item: "minecraft:ender_pearl", count: 8 }
+		{ item: "minecraft:bone", count: 32 }
+		{ item: "minecraft:ink_sac", count: 32 }
+		{ item: "minecraft:gold_ore", count: 16 }
+		{ item: "minecraft:cooked_beef", count: 32 }
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:cake" }
+		{ item: "minecraft:cooked_chicken", count: 64 }
+		{ item: "randomite:randomite_ore", count: 4 }
+		{ item: "minecraft:redstone", count: 32 }
+		{ item: "minecraft:lapis_lazuli", count: 16 }
+		{ item: "minecraft:slime_ball", count: 16 }
+		{ item: "minecraft:leather", count: 16 }
+		{ item: "minecraft:golden_carrot", count: 16 }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "random_mob_drops"
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "random_materials"
+				}
+			}
+		}
+		{ item: "minecraft:sheep_spawn_egg" }
+		{ item: "minecraft:pig_spawn_egg" }
+		{ item: "minecraft:cow_spawn_egg" }
+		{ item: "minecraft:chicken_spawn_egg" }
+		{ item: "minecraft:torch", count: 64 }
+		{ item: "aquaculture:lockbox" }
+		{ item: "create:experience_nugget" }
+		{ item: "create:zinc_ingot", count: 16 }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "hat_loot_crate"
+				}
+			}
+		}
+		{ item: "kubejs:diamond_nugget", count: 3 }
+		{ item: "kubejs:emerald_nugget", count: 3 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 56450
+		string_id: "uncommon_loot_crate"
+	}
+}

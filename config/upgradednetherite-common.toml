@@ -1,0 +1,153 @@
+
+["General Options"]
+	#Disable Tooltips ?(Client Only)
+	DisableTooltips = false
+
+["Armor Options"]
+	#How many pieces of Gold Upgraded armor are needed to activate the effects?
+	#Range: 1 ~ 4
+	UpgradedPlayerGoldArmorRequireSet = 4
+	#How many pieces of Fire Upgraded armor are needed to activate the effects?
+	#Range: 1 ~ 4
+	UpgradedPlayerFireArmorRequireSet = 4
+	#How many pieces of Ender Upgraded armor are needed to activate the effects?
+	#Range: 1 ~ 4
+	UpgradedPlayerEnderArmorRequireSet = 4
+	#How many pieces of Water Upgraded armor are needed to activate the effects?
+	#Range: 1 ~ 4
+	UpgradedPlayerWaterArmorRequireSet = 4
+	#How many pieces of Wither Upgraded armor are needed to activate the effects?
+	#Range: 1 ~ 4
+	UpgradedPlayerWitherArmorRequireSet = 4
+	#How many pieces of Poison Upgraded armor are needed to activate the effects?
+	#Range: 1 ~ 4
+	UpgradedPlayerPoisonArmorRequireSet = 4
+	#How many pieces of Phantom Upgraded armor are needed to activate the effects?
+	#Range: 1 ~ 4
+	UpgradedPlayerPhantomArmorRequireSet = 4
+	#How many pieces of Feather Upgraded armor are needed to activate the effects?
+	#Range: 1 ~ 4
+	UpgradedPlayerFeatherArmorRequireSet = 4
+	#How many pieces of Ultimate Upgraded armor are needed to activate the effects?
+	#Range: 1 ~ 4
+	UpgradedPlayerUltimateArmorRequireSet = 4
+
+["Fire Armor Effect Options"]
+	#Enable Fire Upgraded Armor Effect : Fire damage immune. ?
+	EnableFireImmune = true
+	#Fire Upgraded Armor loose durability when protect the player ? (Require EnableFireImmune = True)
+	EnableDamageDurabilityFireArmor = false
+	#How many durability damage take the Fire Upgraded Armor when protect the player ? 
+	#Range: 1 ~ 100
+	DamageDurabilityFireArmor = 1
+	#How many tick between durability damage for the Fire Upgraded Armor when it protect the player ? (20ticks = 1sec)
+	#Range: 1 ~ 1000
+	DelayDamageDurabilityFireArmor = 20
+
+["Ender Armor Effect Options"]
+	#Ender Upgraded Armor Break when save the player ? 
+	EnableBreakEnderArmor = false
+
+["Water Armor Effect Options"]
+	#How many durability damage take the Water Upgraded Armor when protect the player ? 
+	#Range: 1 ~ 100
+	DamageDurabilityWaterArmor = 1
+	#Water Upgraded Armor loose durability when protect the player ? 
+	EnableDamageDurabilityWaterArmor = false
+	#How many tick between durability damage for the Water Upgraded Armor when it protect the player ? (20ticks = 1sec)
+	#Range: 1 ~ 1000
+	DelayDamageDurabilityWaterArmor = 20
+
+["Wither Armor Effect Options"]
+	#How many durability damage take the Wither Upgraded Armor when protect the player ? 
+	#Range: 1 ~ 100
+	DamageDurabilityWitherArmor = 5
+	#Wither Upgraded Armor loose durability when protect the player ? 
+	EnableDamageDurabilityWitherArmor = false
+	#How many tick between durability damage for the Wither Upgraded Armor when it protect the player ? (20ticks = 1sec)
+	#Range: 1 ~ 1000
+	DelayDamageDurabilityWitherArmor = 20
+
+["Poison Armor Effect Options"]
+	#Poison Upgraded Armor loose durability when protect the player ? 
+	EnableDamageDurabilityPoisonArmor = false
+	#How many durability damage take the Poison Upgraded Armor when protect the player ? 
+	#Range: 1 ~ 100
+	DamageDurabilityPoisonArmor = 5
+	#How many tick between durability damage for the Poison Upgraded Armor when it protect the player ? (20ticks = 1sec)
+	#Range: 1 ~ 1000
+	DelayDamageDurabilityPoisonArmor = 20
+	#Enable Poison Upgraded Armor Effect : Climbs Walls ?
+	EnableClimbWall = true
+
+["Phantom Armor Effect Options"]
+	#Phantom Upgraded Armor loose durability when protect the player ? (Depend on fall distance)
+	EnableDamageDurabilityPhantomArmor = false
+	#How many durability damage take the Phantom Upgraded Armor when protect the player ? (Fall distance * Value)
+	#Range: 1 ~ 100
+	MultiplierDamageDurabilityPhantomArmor = 1
+	#Enable Phantom Upgraded Armor Effect : Step Height ?
+	EnableStepHeight = true
+
+["Feather Armor Effect Options"]
+	#Feather Upgraded Armor loose durability when the player walk on water ? 
+	EnableWaterDamageDurabilityFeatherArmor = false
+	#Feather Upgraded Armor loose durability when the player walk on lava ? 
+	EnableLavaDamageDurabilityFeatherArmor = false
+	#Feather Upgraded Armor loose durability when reducing fall damage ? 
+	EnableFallDamageDurabilityFeatherArmor = false
+	#How many tick between durability damage for the Feather Upgraded Armor when the player walk on water/lava or slow falling ? (20ticks = 1sec)
+	#Range: 1 ~ 1000
+	DelayDamageDurabilityFeatherArmor = 20
+	#How many durability damage take the Feather Upgraded Armor when the player walk on water/lava or slow falling ? 
+	#Range: 1 ~ 100
+	DamageDurabilityFeatherArmor = 1
+
+["Ultimate Armor Effect Options"]
+	#Ultimate Upgraded Armor have Gold Upgraded Netherite Effect ?
+	EnableUltimateGoldArmorEffect = true
+	#Ultimate Upgraded Armor have Fire Upgraded Netherite Effect ?
+	EnableUltimateFireArmorEffect = true
+	#Ultimate Upgraded Armor have Ender Upgraded Netherite Effect ?
+	EnableUltimateEnderArmorEffect = true
+	#Ultimate Upgraded Armor have Water Upgraded Netherite Effect ?
+	EnableUltimateWaterArmorEffect = true
+	#Ultimate Upgraded Armor have Wither Upgraded Netherite Effect ?
+	EnableUltimateWitherArmorEffect = true
+	#Ultimate Upgraded Armor have Poison Upgraded Netherite Effect ?
+	EnableUltimatePoisonArmorEffect = true
+	#Ultimate Upgraded Armor have Phantom Upgraded Netherite Effect ?
+	EnableUltimatePhantomArmorEffect = true
+	#Ultimate Upgraded Armor have Feather Upgraded Netherite Effect ?
+	EnableUltimateFeatherArmorEffect = true
+	#Ultimate Upgraded Armor allow you to fly ?
+	EnableUltimateFlying = false
+	#Ultimate Upgraded Armor remove all damage ? (Excludes Void Damage)
+	EnableUltimateNoDamage = false
+	#Ultimate Upgraded Armor, Tool and Weapon don't loose durability ?
+	EnableUltimateUnbreakable = false
+
+["Tool Options"]
+	#Auto-Smelt is affected by Fortune ? (Only Ingot & Charcoal)
+	EnableAutoSmeltFortune = false
+
+["Ultimate Tool&Weapon Effect Options"]
+	#Ultimate Upgraded Tool and Weapon have Gold Upgraded Netherite Effect ?
+	EnableUltimateGoldToolEffect = true
+	#Ultimate Upgraded Tool and Weapon have Fire Upgraded Netherite Effect ?
+	EnableUltimateFireToolEffect = true
+	#Ultimate Upgraded Tool and Weapon have Ender Upgraded Netherite Effect ?
+	EnableUltimateEnderToolEffect = true
+	#Ultimate Upgraded Tool and Weapon have Water Upgraded Netherite Effect ?
+	EnableUltimateWaterToolEffect = true
+	#Ultimate Upgraded Tool and Weapon have Wither Upgraded Netherite Effect ?
+	EnableUltimateWitherToolEffect = true
+	#Ultimate Upgraded Tool and Weapon have Poison Upgraded Netherite Effect ?
+	EnableUltimatePoisonToolEffect = true
+	#Ultimate Upgraded Tool and Weapon have Phantom Upgraded Netherite Effect ?
+	EnableUltimatePhantomToolEffect = true
+	#Ultimate Upgraded Tool and Weapon have Feather Upgraded Netherite Effect ?
+	EnableUltimateFeatherToolEffect = true
+	#Ultimate Upgraded Weapon insta kill target ?
+	EnableUltimateIntaKill = false
+

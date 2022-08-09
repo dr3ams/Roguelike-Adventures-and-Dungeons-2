@@ -1,0 +1,3265 @@
+{
+	id: "0399220027D545F6"
+	group: "0FF98225FE921275"
+	order_index: 1
+	filename: "alexs_mobs"
+	title: "Hostile World"
+	icon: {
+		id: "rats:rat_upgrade_warrior"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -8.5d
+			description: ["Grizzly Bears will randomly drop some of their hair with time."]
+			dependencies: ["4E20E64264B2AA55"]
+			id: "11AD9C3E6F7ED206"
+			tasks: [{
+				id: "5600BE1C666EA251"
+				type: "item"
+				item: "alexsmobs:bear_fur"
+			}]
+			rewards: [{
+				id: "340E06F7124FEBEF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -8.5d
+			y: 1.5d
+			description: ["Roadrunners will drop these if they lose battles against Rattlesnakes.... or you."]
+			dependencies: ["32F7D28F7B29709C"]
+			id: "7462427AC1D865C7"
+			tasks: [{
+				id: "062115DFB9A8E0A6"
+				type: "item"
+				item: "alexsmobs:roadrunner_feather"
+			}]
+			rewards: [{
+				id: "7362384A28563B41"
+				type: "item"
+				item: "alexsmobs:roadrunner_feather"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 3.0d
+			description: ["These boots, which are fitted with Roadrunner feathers, will allow users to run faster on sand."]
+			dependencies: ["7462427AC1D865C7"]
+			id: "12976ADEDD3B9090"
+			tasks: [{
+				id: "12F81678685F16CD"
+				type: "item"
+				item: {
+					id: "alexsmobs:roadrunner_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "572BCFB7DCCC3B47"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -9.5d
+			y: 14.0d
+			description: ["A drop from Bone Serpents when they leap out of lava and are killed."]
+			dependencies: ["6C2B0968097E6A03"]
+			id: "15132115F40EF4EA"
+			tasks: [{
+				id: "71619495E5032397"
+				type: "item"
+				item: "alexsmobs:bone_serpent_tooth"
+			}]
+			rewards: [{
+				id: "3E1A49BB8521AFF7"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 15.0d
+			description: ["This special potion will allow you to look through lava like it was water."]
+			dependencies: ["15132115F40EF4EA"]
+			id: "2092B6A1EE21D018"
+			tasks: [{
+				id: "72DEF711876FB75D"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:lava_vision"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C2755CFD1E314F1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -6.0d
+			y: -7.0d
+			description: ["A drop from Gazelle's when they are unfortunately killed, but they also may drop some mutton."]
+			dependencies: ["617FBFA90048602D"]
+			id: "1561DE019D318A18"
+			tasks: [{
+				id: "7ABF08CE502BA3D7"
+				type: "item"
+				item: "alexsmobs:gazelle_horn"
+			}]
+			rewards: [{
+				id: "23142A2F01E41DEC"
+				type: "item"
+				item: "minecraft:mutton"
+				count: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["This Crocodile item is dropped when baby crocodiles age up or are killed."]
+			dependencies: ["4B89A8800535AB16"]
+			id: "2FBC1196F9B59DF7"
+			tasks: [{
+				id: "6C695EDB244719DB"
+				type: "item"
+				item: "alexsmobs:crocodile_scute"
+			}]
+			rewards: [{
+				id: "65E65E9D89D5AB31"
+				type: "item"
+				item: "alexsmobs:crocodile_scute"
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: ["This crocodile armor will give you some protection but also increase your swim speed."]
+			dependencies: ["2FBC1196F9B59DF7"]
+			id: "7B74EDBD46057811"
+			tasks: [{
+				id: "55B1F5C0010212AB"
+				type: "item"
+				item: {
+					id: "alexsmobs:crocodile_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "641B159A3198F44C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "18EC327014C28237"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -1.5d
+			description: ["A maggot will drop when a Fly is killed."]
+			dependencies: ["49AB71E75762D0B9"]
+			id: "042E30144F9A1D2A"
+			tasks: [{
+				id: "2CFDD31640066490"
+				type: "item"
+				item: "alexsmobs:maggot"
+			}]
+			rewards: [{
+				id: "20E0157B26AF049E"
+				type: "item"
+				item: "alexsmobs:maggot"
+				count: 3
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			description: ["A rare drop from jungle leaves. Can be used to make a Simple Farming tree whose bananas will work in the same way."]
+			id: "2CF3F2F094B0D3B1"
+			tasks: [{
+				id: "2F2509E78CBF66D8"
+				type: "item"
+				item: "alexsmobs:banana"
+			}]
+			rewards: [
+				{
+					id: "45C540FB68964752"
+					type: "item"
+					item: "alexsmobs:banana"
+					count: 5
+				}
+				{
+					id: "1C83CD5CB0CE25EA"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4798175C6D621DC1"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 13.0d
+			description: ["A Crimson Mosquito drop when killed while inflated with blood from a mob."]
+			dependencies: ["3EF3C919FDC60E1B"]
+			id: "3B5F5AF7209A9221"
+			tasks: [{
+				id: "5EF379925A17EEAA"
+				type: "item"
+				item: "alexsmobs:blood_sac"
+			}]
+			rewards: [{
+				id: "4E407F372943B7DE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: 13.0d
+			description: ["A random drop when killing a Crimson Mosquito."]
+			dependencies: ["3EF3C919FDC60E1B"]
+			id: "3EC4C7FDCDB42C8D"
+			tasks: [{
+				id: "1A81541ABDE0D3CA"
+				type: "item"
+				item: "alexsmobs:mosquito_proboscis"
+			}]
+			rewards: [{
+				id: "74F337BD4367E789"
+				type: "item"
+				item: "alexsmobs:mosquito_proboscis"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: 15.0d
+			description: ["A custom weapon that fires mosquito spit as a weapon. Blood sacks can be used as ammunition."]
+			dependencies: [
+				"3B5F5AF7209A9221"
+				"3EC4C7FDCDB42C8D"
+			]
+			id: "2BA62BA8195FC90F"
+			tasks: [{
+				id: "3703E14E87D5EAC9"
+				type: "item"
+				item: {
+					id: "alexsmobs:blood_sprayer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6F0DBDCDADE8797F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "435322EC940FD8AC"
+					type: "item"
+					item: "alexsmobs:blood_sac"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 1.5d
+			description: ["A Rattlesnake drop when killed, usually when protecting other creatures from its venomous bite."]
+			dependencies: ["295FFF98AC0C3FB2"]
+			id: "1670F799696648EA"
+			tasks: [{
+				id: "14B04FCEC03DCB1E"
+				type: "item"
+				item: "alexsmobs:rattlesnake_rattle"
+			}]
+			rewards: [{
+				id: "1D77006C38694FB8"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 10.0d
+			description: ["Once you lead a Endergrade down to you with a Chorus fruit you can saddle them much like a pig in the overworld. By crafting a Chorus Fruit on a Stick you can lead an Endergrade around in any direction you want."]
+			dependencies: ["3CD714A755372F99"]
+			id: "60286A30B5BF3EBF"
+			tasks: [{
+				id: "539E21D26BDBDE87"
+				type: "item"
+				item: "alexsmobs:chorus_on_a_stick"
+			}]
+			rewards: [
+				{
+					id: "372062164B25838D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5478A87BCFD6F7A9"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			description: ["A random Hammerhead Shark item that may drop when it attacks."]
+			dependencies: ["2C2D57D238A96C47"]
+			id: "12903E07FD2AA25B"
+			tasks: [{
+				id: "0B77AD7BC335F364"
+				type: "item"
+				item: "alexsmobs:shark_tooth"
+			}]
+			rewards: [{
+				id: "19061E1292F8E483"
+				type: "item"
+				item: "alexsmobs:shark_tooth"
+				count: 3
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.5d
+			description: ["These arrows travel better underwater where they deal extra damage to sea creatures."]
+			dependencies: ["12903E07FD2AA25B"]
+			id: "77213B3F102D54FC"
+			tasks: [{
+				id: "0F6970038AA15D78"
+				type: "item"
+				item: "alexsmobs:shark_tooth_arrow"
+			}]
+			rewards: [{
+				id: "7D5E3E3B7942FD70"
+				type: "item"
+				item: "alexsmobs:shark_tooth_arrow"
+				count: 11
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			description: ["Just in case you want to move some lobsters around."]
+			dependencies: ["493146EF96766BF4"]
+			id: "0A695B938C047241"
+			tasks: [{
+				id: "71AABA26300386B5"
+				type: "item"
+				item: "alexsmobs:lobster_bucket"
+			}]
+			rewards: [{
+				id: "044B44E42E8CBBD3"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: ["A Lobster item that drops when they are killed."]
+			dependencies: ["493146EF96766BF4"]
+			id: "5B599C2BB40A43DD"
+			tasks: [{
+				id: "3AC3964E80C583B9"
+				type: "item"
+				item: "alexsmobs:lobster_tail"
+			}]
+			rewards: [{
+				id: "20497616CCD7A3F4"
+				type: "item"
+				item: "alexsmobs:lobster_tail"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			description: ["Would go nice with some butter."]
+			dependencies: ["5B599C2BB40A43DD"]
+			id: "3B65899892E55F6F"
+			tasks: [{
+				id: "717BA1871FF674CF"
+				type: "item"
+				item: "alexsmobs:cooked_lobster_tail"
+			}]
+			rewards: [{
+				id: "326CBA13D89ABD10"
+				type: "item"
+				item: "vanillafoodpantry:homemade_butter"
+			}]
+		}
+		{
+			x: -18.0d
+			y: 1.5d
+			description: ["An occasional drop from live Komodo Dragons."]
+			dependencies: ["6BC74F4BAEA808FF"]
+			id: "08F33774046B54FC"
+			tasks: [{
+				id: "0D23CE0916F75F31"
+				type: "item"
+				item: "alexsmobs:komodo_spit"
+			}]
+			rewards: [{
+				id: "7ADC6ADEC9153DD8"
+				type: "item"
+				item: "alexsmobs:komodo_spit"
+				count: 2
+			}]
+		}
+		{
+			x: -17.29761904761905d
+			y: 2.6071428571428186d
+			description: ["Taking a few drops of saliva and putting it into a bottle could be pretty potent."]
+			dependencies: ["08F33774046B54FC"]
+			id: "7EBEA1931702D1E5"
+			tasks: [{
+				id: "62EC16B92C5F9D63"
+				type: "item"
+				item: "alexsmobs:komodo_spit_bottle"
+			}]
+			rewards: [{
+				id: "1CB8CAD5C0311D3E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -16.583333333333343d
+			y: 3.678571428571395d
+			description: ["The very definition of poison."]
+			dependencies: [
+				"7EBEA1931702D1E5"
+				"154772C9462DDCC4"
+			]
+			id: "598345B0F9427722"
+			tasks: [{
+				id: "0EA839DFED08E778"
+				type: "item"
+				item: "alexsmobs:poison_bottle"
+			}]
+			rewards: [{
+				id: "649407DAF5400409"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -15.5d
+			y: 5.0d
+			description: ["A very potent poison resistance potion made from poison essence and a Rattlesnake tail."]
+			dependencies: [
+				"598345B0F9427722"
+				"1670F799696648EA"
+			]
+			id: "310DB627AF3DCE9B"
+			tasks: [{
+				id: "6AB5340F587CFDC4"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:poison_resistance"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B9EC2967752C2D7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			description: ["A random drop from Capuchin Monkeys when fed bananas. "]
+			dependencies: ["76291B63F0ED9022"]
+			id: "05B3DE276E40F772"
+			tasks: [{
+				id: "1461BD6CFCC7D731"
+				type: "item"
+				item: "alexsmobs:banana_peel"
+			}]
+			rewards: [{
+				id: "1677938C00103DCA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			description: [
+				"A very \"unique\" soup......"
+				"Maybe try some of this better soup."
+			]
+			dependencies: ["05B3DE276E40F772"]
+			id: "5FE4BCE33C614980"
+			tasks: [{
+				id: "7DE107F6DBEF8906"
+				type: "item"
+				item: "alexsmobs:sopa_de_macaco"
+			}]
+			rewards: [{
+				id: "3C82761AB3FB798E"
+				type: "item"
+				item: "minecraft:beetroot_soup"
+			}]
+		}
+		{
+			x: -17.5d
+			y: 5.0d
+			description: ["This item is a Cave Centipede drop when they are killed, where multiple can be dropped."]
+			dependencies: ["3231E98238491AF0"]
+			id: "154772C9462DDCC4"
+			tasks: [{
+				id: "180B35B0BB919AD9"
+				type: "item"
+				item: "alexsmobs:centipede_leg"
+			}]
+			rewards: [{
+				id: "1AAB98F4A877062B"
+				type: "item"
+				item: "alexsmobs:centipede_leg"
+				count: 2
+			}]
+		}
+		{
+			x: -16.5d
+			y: 6.5d
+			description: ["Grants the wearer the ability to climb walls."]
+			dependencies: ["154772C9462DDCC4"]
+			id: "673635AB75E98296"
+			tasks: [{
+				id: "364EC70179948791"
+				type: "item"
+				item: {
+					id: "alexsmobs:centipede_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "61D9563F82FA27DA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "00F60DD82068E585"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 13.0d
+			description: ["The larva for a Crimson Mosquito, made from a maggot and proboscis. Is the favorite treat of the Warped Toad, and will allow you to tame it with a few of these."]
+			dependencies: ["3EC4C7FDCDB42C8D"]
+			id: "6D5AA599D202F0AF"
+			tasks: [{
+				id: "3DC5597D70910A0A"
+				type: "item"
+				item: "alexsmobs:mosquito_larva"
+			}]
+			rewards: [{
+				id: "3F6128FEE1CFEB02"
+				type: "item"
+				item: "alexsmobs:mosquito_larva"
+				count: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			description: ["Every 7-10 days a moose can drop one of their antlers."]
+			dependencies: ["3705153037F1DDEE"]
+			id: "2DFC032306822F4E"
+			tasks: [{
+				id: "7D8CA585B9505139"
+				type: "item"
+				item: "alexsmobs:moose_antler"
+			}]
+			rewards: [{
+				id: "42B83502B5DC6F7D"
+				type: "item"
+				item: "alexsmobs:moose_antler"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			description: ["By mounting some antlers to this hat it will give the player a knockback ability."]
+			dependencies: ["2DFC032306822F4E"]
+			id: "27F0DB0AF1386C6D"
+			tasks: [{
+				id: "2A68C851464EBAC0"
+				type: "item"
+				item: {
+					id: "alexsmobs:moose_headgear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E24662780A92557"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			description: ["These are some big ribs that are dropped when a moose is killed."]
+			dependencies: ["3705153037F1DDEE"]
+			id: "61C774465250F5E2"
+			tasks: [{
+				id: "0B83A5C69A722347"
+				type: "item"
+				item: "alexsmobs:moose_ribs"
+			}]
+			rewards: [{
+				id: "472FB949C5746205"
+				type: "item"
+				item: "alexsmobs:moose_ribs"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			description: ["It is Barbeque time!"]
+			dependencies: ["61C774465250F5E2"]
+			id: "11AFA0A04E10DF94"
+			tasks: [{
+				id: "32DB582575A5FAC4"
+				type: "item"
+				item: "alexsmobs:cooked_moose_ribs"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.0d
+			description: ["A drop from Mimicubes that can be used to duplicate enchanted tools, result is broken but duplicate tool."]
+			dependencies: ["54A887A01A32BB84"]
+			id: "0B0040DAC5D0E2C8"
+			tasks: [{
+				id: "00FAEB55E3A7B2AA"
+				type: "item"
+				item: "alexsmobs:mimicream"
+			}]
+			rewards: [{
+				id: "753E61056FEA34DF"
+				type: "item"
+				item: "alexsmobs:mimicream"
+				count: 3
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			description: ["A drop when a Raccoon is killed."]
+			dependencies: ["5AF05B20BB414210"]
+			id: "43A6451E42293BAC"
+			tasks: [{
+				id: "166A0DF287F39D32"
+				type: "item"
+				item: "alexsmobs:raccoon_tail"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			description: ["This fun hat will give the wearer a speed boost while sneaking."]
+			dependencies: ["43A6451E42293BAC"]
+			id: "5E067D93C8018428"
+			tasks: [{
+				id: "1CFD2F5A909BAEE3"
+				type: "item"
+				item: {
+					id: "alexsmobs:frontier_cap"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B09E7CD8A48EFC5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			description: ["When you want a slimey little buddy of your own."]
+			dependencies: ["2142DDB9A0AF6B94"]
+			id: "759CC2ED6720614D"
+			tasks: [{
+				id: "50F159BA577FC800"
+				type: "item"
+				item: "alexsmobs:blobfish_bucket"
+			}]
+			rewards: [{
+				id: "397F97B292D9E35D"
+				type: "item"
+				item: "losttrinkets:treasure_bag"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			description: ["The sad little body of a blobfish when it is killed."]
+			dependencies: ["2142DDB9A0AF6B94"]
+			id: "235A8DAEDFF467D7"
+			tasks: [{
+				id: "3286E77C29DC9875"
+				type: "item"
+				item: "alexsmobs:blobfish"
+			}]
+			rewards: [{
+				id: "0AFFC4BA380655F0"
+				type: "item"
+				item: "alexsmobs:blobfish"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			description: ["By compressing blobfish down into a bottle, Fish Oil can be made that can have some interesting properties in the rain."]
+			dependencies: ["235A8DAEDFF467D7"]
+			id: "005E68B4C5271269"
+			tasks: [{
+				id: "5C7464F62CB0DD68"
+				type: "item"
+				item: "alexsmobs:fish_oil"
+			}]
+			rewards: [{
+				id: "1E95E4F3FA1EEE0C"
+				type: "item"
+				item: "alexsmobs:fish_oil"
+				count: 2
+			}]
+		}
+		{
+			x: -12.5d
+			y: 3.0d
+			description: ["This Rattle is made with Rattlesnake tail. It will catch the attention of Cockroaches."]
+			dependencies: ["1670F799696648EA"]
+			id: "679FB7E7C654385F"
+			tasks: [{
+				id: "19D31D99E32BAF86"
+				type: "item"
+				item: "alexsmobs:maraca"
+			}]
+			rewards: [{
+				id: "32FDBAEAB5DEBC1B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -10.5d
+			y: 4.5d
+			description: ["A random drop when killing Cockroaches."]
+			dependencies: ["3B5935EFBF9C27D7"]
+			id: "147F7EA3E650C141"
+			tasks: [{
+				id: "4A1E5CD54BAF7A7F"
+				type: "item"
+				item: "alexsmobs:cockroach_wing_fragment"
+			}]
+			rewards: [{
+				id: "632F82CF39CB7BA0"
+				type: "item"
+				item: "alexsmobs:cockroach_wing_fragment"
+				count: 3
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.5d
+			description: ["A rebuilt wing of a Cockroach."]
+			dependencies: ["147F7EA3E650C141"]
+			id: "4DC3338C71A2086D"
+			tasks: [{
+				id: "2FD18E114E0FE331"
+				type: "item"
+				item: "alexsmobs:cockroach_wing"
+			}]
+			rewards: [{
+				id: "59E077B437620EEE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.5d
+			description: ["This potion will allow a person to go almost invisible to hostile bugs."]
+			dependencies: ["4DC3338C71A2086D"]
+			id: "3B1E5DEBB7BE02F1"
+			tasks: [{
+				id: "1B05EE63E81476D3"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:bug_pheromones"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6C27111D0D893390"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0963A3AC98575CC8"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -9.0d
+			description: ["A rare drop from acacia trees."]
+			id: "568B1FDB06169851"
+			tasks: [{
+				id: "79126CD9D0AD4237"
+				type: "item"
+				item: "alexsmobs:acacia_blossom"
+			}]
+			rewards: [{
+				id: "4CC4667252307EDB"
+				type: "item"
+				item: "alexsmobs:acacia_blossom"
+				count: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: 7.0d
+			description: ["After Soul Vulture has become filled from its health drain attack it may drop this infused heart."]
+			dependencies: ["292B32B34CD5094A"]
+			id: "3E83CFACFBDFDEB2"
+			tasks: [{
+				id: "63A93237BADBA22A"
+				type: "item"
+				item: "alexsmobs:soul_heart"
+			}]
+			rewards: [
+				{
+					id: "4DF80267D690A21B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "23BE6640C97931B9"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 8.5d
+			description: ["This potion will give the drinker the Soul Vultures health sapping power."]
+			dependencies: ["3E83CFACFBDFDEB2"]
+			id: "6A1A2DA7A8CF7DFC"
+			tasks: [{
+				id: "66B8F8B6B4128277"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:soulsteal"
+					}
+				}
+			}]
+			rewards: [{
+				id: "032D1B64A72FF455"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			description: ["Shearing mossy Alligator Snapping Turtles has a chance to drop this."]
+			dependencies: ["6964B640BF90A11C"]
+			id: "76AAFE97A27F9401"
+			tasks: [{
+				id: "2354928341859A19"
+				type: "item"
+				item: "alexsmobs:spiked_scute"
+			}]
+			rewards: [{
+				id: "0494940CD1D9299C"
+				type: "item"
+				item: "alexsmobs:spiked_scute"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			description: ["This modified turtle helmet provides knockback resistance and allows the wearer to breathe underwater for 15 more seconds. Also has a chance to return melee attacks."]
+			dependencies: ["76AAFE97A27F9401"]
+			id: "7C7C37A9744A5749"
+			tasks: [{
+				id: "43B7921B92D4A21C"
+				type: "item"
+				item: {
+					id: "alexsmobs:spiked_turtle_shell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "43EC41F6B0FDA9A9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.5d
+			description: ["The core of a Guster that can drop when they are killed."]
+			dependencies: ["586FB5B01BB6C341"]
+			id: "1F21942D74A4B548"
+			tasks: [{
+				id: "2D788644FF1CE5F1"
+				type: "item"
+				item: "alexsmobs:guster_eye"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 3.0d
+			description: ["Throw a little sand in their eyes!"]
+			dependencies: ["1F21942D74A4B548"]
+			id: "3E2F7D08A8E596F1"
+			tasks: [{
+				id: "79667C6F209C2E6A"
+				type: "item"
+				item: {
+					id: "alexsmobs:pocket_sand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "140C65FC53463AD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.0d
+			description: ["The Gustmaker, when powered with redstone, emits little Gusters in a line that can push stuff around."]
+			dependencies: ["1F21942D74A4B548"]
+			id: "2401BD24F4787BEE"
+			tasks: [{
+				id: "4A08C8CC60DB08D7"
+				type: "item"
+				item: "alexsmobs:gustmaker"
+			}]
+			rewards: [
+				{
+					id: "730D3520D358C026"
+					type: "item"
+					item: "minecraft:lever"
+				}
+				{
+					id: "79B79FB24325B61C"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 13.0d
+			description: ["What gives the Warped Mosquito its strength."]
+			dependencies: ["47BE77D8F21BBDCC"]
+			id: "323E3518BE41C84D"
+			tasks: [{
+				id: "7466FDC5B490C584"
+				type: "item"
+				item: "alexsmobs:warped_muscle"
+			}]
+			rewards: [{
+				id: "28A197BA81394DDA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 13.0d
+			description: ["The warped power behind the Warped Mosquito."]
+			dependencies: ["47BE77D8F21BBDCC"]
+			id: "1DD27A6265642B96"
+			tasks: [{
+				id: "69C3C165B652D650"
+				type: "item"
+				item: "alexsmobs:hemolymph_sac"
+			}]
+			rewards: [{
+				id: "41E40B84EE4639C6"
+				type: "item"
+				item: "alexsmobs:hemolymph_sac"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 15.0d
+			description: ["An upgraded Blood Sprayer."]
+			dependencies: [
+				"323E3518BE41C84D"
+				"1DD27A6265642B96"
+				"2BA62BA8195FC90F"
+				"0B0040DAC5D0E2C8"
+			]
+			id: "7E104C87A3BB6CA4"
+			tasks: [{
+				id: "733A3D3E59544AC5"
+				type: "item"
+				item: {
+					id: "alexsmobs:hemolymph_blaster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B6C481D87B6663E"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 11.5d
+			description: ["Try to catch a Stradpole in a bucket of lava."]
+			dependencies: ["4EDC8D006049F8E4"]
+			id: "13EDF3FD77403F25"
+			tasks: [{
+				id: "4AE8288976987969"
+				type: "item"
+				item: "alexsmobs:stradpole_bucket"
+			}]
+			rewards: [{
+				id: "48B142CD79EFCAEE"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 13.0d
+			description: ["A rare Straddler drop that has an interesting use."]
+			dependencies: ["4EDC8D006049F8E4"]
+			id: "1D01C2288B41EBDC"
+			tasks: [{
+				id: "5BABD09020966A53"
+				type: "item"
+				item: "alexsmobs:straddlite"
+			}]
+			rewards: [{
+				id: "16E611377AB6A99D"
+				type: "item"
+				item: "alexsmobs:straddlite"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 13.0d
+			description: ["A dyeable board that allows you to surf lava. Be careful to not hit anything though because you may fall off."]
+			dependencies: ["1D01C2288B41EBDC"]
+			id: "76D75DF855373032"
+			tasks: [{
+				id: "6F0FC34DF30FD700"
+				type: "item"
+				item: {
+					id: "alexsmobs:straddleboard"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "578539AEF0D91CB4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			description: ["An occasional drop from a live Emu."]
+			dependencies: ["051CA3BEF47E6BCF"]
+			id: "38854ED19F0C1963"
+			tasks: [{
+				id: "3E740055ADB7D366"
+				type: "item"
+				item: "alexsmobs:emu_egg"
+			}]
+			rewards: [{
+				id: "6E9B1E0DDF597ECD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["A whole omelet in a shell."]
+			dependencies: ["38854ED19F0C1963"]
+			id: "5155710838D1A547"
+			tasks: [{
+				id: "3CE12C0C528D8BB6"
+				type: "item"
+				item: "alexsmobs:boiled_emu_egg"
+			}]
+			rewards: [{
+				id: "14A50E2C25011DB8"
+				type: "item"
+				item: "pamhc2foodcore:toastitem"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			description: ["An Emu drop when killed."]
+			dependencies: ["051CA3BEF47E6BCF"]
+			id: "369959C82AF24ECD"
+			tasks: [{
+				id: "2EDDC0933AB806CE"
+				type: "item"
+				item: "alexsmobs:emu_feather"
+			}]
+			rewards: [{
+				id: "54A122BBF62F12B5"
+				type: "item"
+				item: "alexsmobs:emu_feather"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			description: ["Gives the wearer the Emu dodge ability."]
+			dependencies: [
+				"369959C82AF24ECD"
+				"4FBF9E3701C078F6"
+			]
+			id: "25B989B6383563D8"
+			tasks: [{
+				id: "417EE5A316C452B3"
+				type: "item"
+				item: {
+					id: "alexsmobs:emu_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0E1C3B1A350B4391"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "688672923C3DD8A5"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 8.0d
+			description: ["A Dropbear drop which can be used to make flint and steel or a special potion."]
+			dependencies: ["0544039A394BA4C5"]
+			id: "3DAF08614ABA2EC5"
+			tasks: [{
+				id: "20299B6FFF0AC499"
+				type: "item"
+				item: "alexsmobs:dropbear_claw"
+			}]
+			rewards: [{
+				id: "08C9AA67E57F2FBB"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 7.5d
+			description: ["This potion allows whoever drinks it to walk on ceilings like a Dropbear."]
+			dependencies: ["3DAF08614ABA2EC5"]
+			id: "4FE66E25E32AEBAE"
+			tasks: [{
+				id: "491D219FBC87114E"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:clinging"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6499C6EFC0F16AE2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			description: ["A Kangaroo drop when they are sadly killed."]
+			dependencies: ["6941D667244F04D9"]
+			id: "62E977DBD3A3F3FE"
+			tasks: [{
+				id: "4F70AF34DD1E0BC5"
+				type: "item"
+				item: "alexsmobs:kangaroo_meat"
+			}]
+			rewards: [{
+				id: "2CD6531416286BE0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			description: ["Might as well cook up the meat."]
+			dependencies: ["62E977DBD3A3F3FE"]
+			id: "5156BA2D508BE4D0"
+			tasks: [{
+				id: "5D30E69B7CB6A0D1"
+				type: "item"
+				item: "alexsmobs:cooked_kangaroo_meat"
+			}]
+			rewards: [{
+				id: "66684701385986D7"
+				type: "item"
+				item: "minecraft:bread"
+				count: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			description: ["A fine artisan burger."]
+			dependencies: ["5156BA2D508BE4D0"]
+			id: "16FB2CA4AEF796DC"
+			tasks: [{
+				id: "5A45D61C27A565ED"
+				type: "item"
+				item: "alexsmobs:kangaroo_burger"
+			}]
+			rewards: [{
+				id: "27069516902A1AE4"
+				type: "xp"
+				xp: 500
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			description: ["A Kangaroo that can be crafted into leather or some fancy pants."]
+			dependencies: ["6941D667244F04D9"]
+			id: "4FBF9E3701C078F6"
+			tasks: [{
+				id: "5C057F378B832103"
+				type: "item"
+				item: "alexsmobs:kangaroo_hide"
+			}]
+			rewards: [{
+				id: "2512B0CB217F59B2"
+				type: "item"
+				item: "alexsmobs:kangaroo_hide"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.0d
+			description: ["A drop from Cachalot Whales when they attack."]
+			id: "68D06C789ABF3D14"
+			tasks: [{
+				id: "6A36D4B67C346235"
+				type: "item"
+				item: "alexsmobs:cachalot_whale_tooth"
+			}]
+			rewards: [{
+				id: "3F22DD01B390C13D"
+				type: "item"
+				item: "alexsmobs:cachalot_whale_tooth"
+				count: 3
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			description: ["A reward given by a whale for saving it from being beached."]
+			id: "151159150037976D"
+			tasks: [{
+				id: "1BDD5F030839EFB0"
+				type: "item"
+				item: "alexsmobs:ambergris"
+			}]
+			rewards: [{
+				id: "4313E32BE7BB072B"
+				type: "item"
+				item: "alexsmobs:ambergris"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 3.5d
+			description: ["The Echolocator can locate nearby caves."]
+			dependencies: [
+				"151159150037976D"
+				"68D06C789ABF3D14"
+			]
+			id: "456C97EA74811997"
+			tasks: [{
+				id: "1ACE9699E2BFB049"
+				type: "item"
+				item: {
+					id: "alexsmobs:echolocator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "18117C87072BC748"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 13.5d
+			y: 3.5d
+			description: ["The Enderlocator can be used to locate the end portal."]
+			dependencies: ["456C97EA74811997"]
+			id: "02E95675EB8EF204"
+			tasks: [{
+				id: "1464AB23C58B3215"
+				type: "item"
+				item: {
+					id: "alexsmobs:endolocator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "39FD9B60FFE9608D"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -12.5d
+			description: ["A rare drop from chamber blocks or Queens. Can be used to create new ant colonies when used on dirt or grass."]
+			dependencies: ["7E6468F38A587264"]
+			id: "16CAFA17D62FD870"
+			tasks: [{
+				id: "0BDA5802571BADA9"
+				type: "item"
+				item: "alexsmobs:leafcutter_ant_pupa"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -11.5d
+			description: ["This fungi can be used to feed ants and heal them or boost the Queen's reprodction. It can be collected by right clicking a moldy ant chamber under an anthill, where placing a shroomlight will stop the ants from being angry."]
+			dependencies: ["7E6468F38A587264"]
+			id: "6C244C409D094052"
+			tasks: [{
+				id: "3F3CAE2209A529AA"
+				type: "item"
+				item: "alexsmobs:gongylidia"
+			}]
+			rewards: [{
+				id: "6D6723F46A073E05"
+				type: "item"
+				item: "alexsmobs:gongylidia"
+				count: 5
+			}]
+		}
+		{
+			x: 9.0d
+			y: 12.0d
+			description: ["A drop from Enderiophage, it can hold a stack of items inside which will be transported into whatever block is above them."]
+			dependencies: ["40CFB3D7A3ECB1B9"]
+			id: "57D3C1E86A23E5AD"
+			tasks: [{
+				id: "1D7D964AFD8CCC28"
+				type: "item"
+				item: "alexsmobs:capsid"
+			}]
+			rewards: [{
+				id: "39173D66A55F793A"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 9.5d
+			description: ["A special firework with special DNA effect that can be made in the End."]
+			dependencies: ["57D3C1E86A23E5AD"]
+			id: "1A85A5ED5D9EDD86"
+			tasks: [{
+				id: "660A9211FC204506"
+				type: "item"
+				item: "alexsmobs:enderiophage_rocket"
+			}]
+			rewards: [{
+				id: "14BEC4B0CF295317"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -7.5d
+			y: -11.5d
+			description: ["The Falconry Glove will allow you to pick up tamed Bald Eagles. Then by punching while pointing at a mob from long range will send the eagle off to attack it. If not hovering over a mob the eagle will just hop off."]
+			dependencies: ["0433861EE023060D"]
+			id: "7FB236F280E77256"
+			tasks: [{
+				id: "2C5C6F871671B792"
+				type: "item"
+				item: "alexsmobs:falconry_glove"
+			}]
+			rewards: [{
+				id: "34905C384E6907AD"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -12.5d
+			description: ["The Falconry Hood allows finer control of Bald Eagle flight, giving third-person control over the eagle's flight. The Eagle can fly up to 150 blocks out from its owner. Sneaking will stop the flying mode."]
+			dependencies: ["7FB236F280E77256"]
+			id: "2BA83FDF7240DE8B"
+			tasks: [{
+				id: "3C040D4468053D5C"
+				type: "item"
+				item: "alexsmobs:falconry_hood"
+			}]
+			rewards: [{
+				id: "5E48C1E1EAD16A14"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -16.5d
+			y: 1.5d
+			description: ["A drop when a Tarantula Hawk is killed."]
+			dependencies: ["737BD5F672EB23AF"]
+			id: "5F33DAD5DEE9892A"
+			tasks: [{
+				id: "470FA84FF6B6CF89"
+				type: "item"
+				item: "alexsmobs:tarantula_hawk_wing_fragment"
+			}]
+			rewards: [{
+				id: "2FCFAB7AF6960D59"
+				type: "item"
+				item: "alexsmobs:tarantula_hawk_wing_fragment"
+				count: 4
+			}]
+		}
+		{
+			x: -15.5d
+			y: 2.5d
+			description: ["A reconstructed Tarantula Hawk wing."]
+			dependencies: ["5F33DAD5DEE9892A"]
+			id: "4480FBB32C9E3248"
+			tasks: [{
+				id: "4818558C819F7EE6"
+				type: "item"
+				item: "alexsmobs:tarantula_hawk_wing"
+			}]
+			rewards: [
+				{
+					id: "2A11577510479A13"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "643FEBDC40CDE574"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: 4.0d
+			description: ["An enhanced elytra with Tarantula Hawk wings that provides extra protection, durability, and enchantability."]
+			dependencies: ["4480FBB32C9E3248"]
+			id: "6F5AC67DDB20ADB4"
+			tasks: [{
+				id: "446C9044228A45EE"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C08A81F665BBC03"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -9.0d
+			description: [
+				"Encounter a Grizzly Bear"
+				""
+				"While these forest bears may seem cuddly, it is best to keep your distance from a Grizzly Bear as they may have young nearby that they will protect fiercely. Naturally they are very neutral mobs though. "
+			]
+			id: "4E20E64264B2AA55"
+			tasks: [{
+				id: "2CDF8914DBF19EC1"
+				type: "advancement"
+				title: "Grizzly Bear Encountered"
+				advancement: "alexsmobs:alexsmobs/grizzly_bear"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "392508A9633EF701"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "06ECDBF446334306"
+					type: "item"
+					item: "minecraft:honeycomb"
+				}
+				{
+					id: "43D6B59710139384"
+					type: "item"
+					item: "minecraft:salmon"
+				}
+				{
+					id: "00C26B8E5F537ED7"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -10.0d
+			description: ["A Grizzly Bear can be tamed by waiting for it to eat some honey, or by feeding a honeycomb to the bear, then feeding it some salmon. They are fierce defenders and a good mount."]
+			dependencies: ["4E20E64264B2AA55"]
+			id: "240F618AC1E292F7"
+			tasks: [{
+				id: "57620075DD5F169C"
+				type: "advancement"
+				title: "Teddy the Bear"
+				advancement: "alexsmobs:alexsmobs/tame_grizzly_bear"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: -6.5d
+			description: ["This potion will allow you to create a uncommon speed potion that will help you get where you are going quicker."]
+			dependencies: ["1561DE019D318A18"]
+			id: "792DBA9FA8A22FD5"
+			tasks: [{
+				id: "5842E473899E6454"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:speed_iii"
+					}
+				}
+			}]
+			rewards: [{
+				id: "57D012BE4C75F766"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			description: ["A crocodile is a large swamp and river based creature that is very dangerous to be near. You can still breed these creatures though with the use of rotten flesh. When the egg hatches, a nearby player is imprinted upon the baby and it will listen to their commands."]
+			id: "4B89A8800535AB16"
+			tasks: [{
+				id: "1CBE91AD76108762"
+				type: "advancement"
+				title: "Crocodile Encountered"
+				advancement: "alexsmobs:alexsmobs/crocodile"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "15818836E32A1165"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "26F537AD8BF5B742"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			description: ["Alligator Snapping Turtles are large swamp turtles. They will take a bite out of anything that gets too near. They rarely move and grow a mossy layer over their shell."]
+			id: "6964B640BF90A11C"
+			tasks: [{
+				id: "76B42026258E100A"
+				type: "advancement"
+				title: "Alligator Snapping Turtle Encountered"
+				advancement: "alexsmobs:alexsmobs/alligator_snapping_turtle"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "743900948393C170"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7780B6F0F682DEF4"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			description: [
+				"Breed two Hummingbirds with flowers."
+				""
+				"Hummingbirds are found in jungles, flower forests, and sunflower areas where they are quickly flying around pollinating crops and flowers more quickly than bees."
+			]
+			id: "68585BA9EB6949FD"
+			tasks: [{
+				id: "3EBF1EF204B6F41B"
+				type: "advancement"
+				title: "Hummingbreeder"
+				advancement: "alexsmobs:alexsmobs/breed_hummingbird"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5D0AD82283FA76F2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "76FB0348D2D0523C"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			description: [
+				"Go swimming with a pod of Orcas. Will grant faster attack speed."
+				""
+				"This large sea animal can be found in cold oceans where it can be seen jumping up out of the water. They aren't the friendliest so watch where you swing but they will also attack Guardians and Drowned."
+			]
+			id: "58BC291643685897"
+			tasks: [{
+				id: "1E88FF99723FF9F5"
+				type: "advancement"
+				title: "Orca's Might"
+				advancement: "alexsmobs:alexsmobs/orcas_might"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6FC9300FEF389D61"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "68C37396C31151F0"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -14.0d
+			description: [
+				"Blessed by a Sunbird."
+				""
+				"The Sunbird is a mythological bird found flying above mountains. Will cause undead to burst into flame when nearby but naturally do not attack. "
+			]
+			id: "46E970252CE65795"
+			tasks: [{
+				id: "21284B920BF52531"
+				type: "advancement"
+				title: "Blessings from the Sky"
+				advancement: "alexsmobs:alexsmobs/sunbird_blessing"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0CA26A3CE7DF8136"
+				type: "item"
+				item: "majruszs_difficulty:bandage"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			description: [
+				"Tame a Gorilla with bananas."
+				""
+				"Gorillas are large apes found in jungles where they are peaceful but will handily defend themselves. Silverback Gorillas will lead each pack where baby gorillas can be seen clinging to their Gorilla's backs."
+			]
+			dependencies: ["2CF3F2F094B0D3B1"]
+			id: "49474262BB1DD1F1"
+			tasks: [{
+				id: "5B394498182F2EA9"
+				type: "advancement"
+				title: "Mighty Joe Young"
+				advancement: "alexsmobs:alexsmobs/tame_gorilla"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5C48D2813A425EAF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			description: [
+				"Tame a Capuchin Monkey with bananas."
+				""
+				"These small monkeys are prevalent in Jungles where they are fond of being given bananas. Once tamed they can sit on their friend's shoulder, follow, wander, stay, and even attack with both melee and ranged attacks."
+				"They can be fed eggs to heal them but maggots are used to breed them. "
+			]
+			dependencies: ["2CF3F2F094B0D3B1"]
+			id: "76291B63F0ED9022"
+			tasks: [{
+				id: "515F2AE9A1C47768"
+				type: "advancement"
+				title: "Mini Mo"
+				advancement: "alexsmobs:alexsmobs/tame_capuchin"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "40C6CE211C59FD35"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -13.0d
+			y: 0.5d
+			description: ["The Rattlesnake is a venomous snake native to deserts and badlands. Its location is usually given away by it's distinctive rattle sound made by its tail. They bite and poison a person if they get too close while rattling."]
+			id: "295FFF98AC0C3FB2"
+			tasks: [{
+				id: "5ED6AA67B994CB19"
+				type: "advancement"
+				title: "Rattlesnake Encountered"
+				advancement: "alexsmobs:alexsmobs/rattlesnake"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "613720ADBE74AA81"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -13.5d
+			y: 4.5d
+			description: ["Who knows what will happen if you give a Cockroach a Maraca."]
+			dependencies: [
+				"679FB7E7C654385F"
+				"3B5935EFBF9C27D7"
+			]
+			id: "0E7A15BD940ECF8E"
+			tasks: [{
+				id: "1139B235EB572777"
+				type: "advancement"
+				title: "La Cucaracha"
+				advancement: "alexsmobs:alexsmobs/la_cucaracha"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2AAFE2A5B5C9E176"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: -9.0d
+			description: [
+				"Tame a non-tusked Elephant."
+				""
+				"Elephants are the large roamers of the Savannas. They can be found in three varieties: calves, tusked, and non-tusked. Elephants overall are very defensive of all of their herd family. Full Size Tusked Elephants cannot be tamed with Acacia Blossoms. Can be sometimes seen as a Wandering Trader's animal."
+			]
+			dependencies: ["568B1FDB06169851"]
+			id: "2FF82B88371F5F07"
+			tasks: [{
+				id: "152BF44EB964BD44"
+				type: "advancement"
+				title: "Safari Adventure"
+				advancement: "alexsmobs:alexsmobs/tame_elephant"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7CD84B3A95C81ACC"
+				type: "item"
+				item: "alexsmobs:acacia_blossom"
+				count: 4
+			}]
+		}
+		{
+			x: -8.5d
+			y: -10.0d
+			description: [
+				"Tame a tusked elephant as a calf."
+				""
+				"Tusked elelphants can only be tamed as a calf, but they will grow up to be fierce defenders."
+			]
+			dependencies: ["2FF82B88371F5F07"]
+			id: "24285EBFC92AD6C5"
+			tasks: [{
+				id: "0DD7CF75490E294D"
+				type: "advancement"
+				title: "Greatest Warrior"
+				advancement: "alexsmobs:alexsmobs/tame_elephant_tusked"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "10AB456B8E4D68C3"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -8.0d
+			description: [
+				"Place a colored carpet on a tamed Elephant."
+				""
+				"Elephants can be decorated with different colored carpets as well as have chests added to them to allow them to carry many items."
+			]
+			dependencies: ["2FF82B88371F5F07"]
+			id: "4718CFDE2B4A98EB"
+			tasks: [{
+				id: "44DF9DD4AE95E8DD"
+				type: "advancement"
+				title: "Elephant Style"
+				advancement: "alexsmobs:alexsmobs/elephant_swag"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7957B6564EDC7FAF"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			description: [
+				"Tame a Mantis Shrimp with Tropical Fish."
+				""
+				"Giant neutral creatures found in reefs or warm oceans that pack a heck of a punch. Mantis Shrimp can be healed with any fish and be bred with lobster tails. A tamed mantis shrimp can be given a block with a sneak right click and it will seek it out and break it if set into its breaking mode."
+			]
+			id: "1404B0021D22163E"
+			tasks: [{
+				id: "7DCC80D0F958A866"
+				type: "advancement"
+				title: "Bullets, for Hands"
+				advancement: "alexsmobs:alexsmobs/tame_mantis_shrimp"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1D0707B97CF39192"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			description: ["Give tamed mantis shrimp a bucket of water"]
+			dependencies: ["1404B0021D22163E"]
+			id: "7E59CB5BD918ED99"
+			tasks: [{
+				id: "1B8A368CA6453177"
+				type: "advancement"
+				title: "I'm Parched"
+				advancement: "alexsmobs:alexsmobs/mantis_shrimp_bucket"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4E56FF11EE680F8E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.5d
+			description: [
+				"Guster Encountered"
+				""
+				"A Guster is angry desert spirt that are created during storms. They will attack everything sending it high into the air or shooting sand at them."
+			]
+			id: "586FB5B01BB6C341"
+			tasks: [{
+				id: "6F62F95DCC74816E"
+				type: "advancement"
+				title: "Guster Encountered"
+				advancement: "alexsmobs:alexsmobs/guster"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5B537F5BB867D04F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.0d
+			y: -10.0d
+			description: [
+				"Tame a Bald Eagle with Fish Oil."
+				""
+				"Bald Eagles are neutral large birds found near mountains with plenty of trees. They fly to lakes to grab salmon out of the water or hunt nearby rabbits. They can be lured in and tamed with Fish Oil. They follow typical follower commands. They can be healed with fish and bred with rotten flesh."
+			]
+			id: "0433861EE023060D"
+			tasks: [{
+				id: "60979777BE765F46"
+				type: "advancement"
+				title: "Not Really Bald"
+				advancement: "alexsmobs:alexsmobs/tame_bald_eagle"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0FC3CCEA54C05081"
+				type: "item"
+				item: "majruszs_difficulty:bandage"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -12.5d
+			description: ["Kill an animal from 100 blocks away with a hooded Bald Eagle."]
+			dependencies: ["2BA83FDF7240DE8B"]
+			id: "2FABD2A54A4B0A4E"
+			tasks: [{
+				id: "0DC163D693E32FA0"
+				type: "advancement"
+				title: "Long Distance Killer"
+				advancement: "alexsmobs:alexsmobs/bald_eagle_challenge"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "46C21E8DA0507D8B"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -15.5d
+			y: 0.5d
+			description: [
+				"Encounter a Tarantula Hawk"
+				""
+				"The Tarantula Hawk is a giant neutral wasp that flies around deserts. They love attacking spiders, which they paralyze and bury underground. They are difficult to fight due to their very erratic flight. They can be healed with flowers."
+			]
+			id: "3CA1304CC6ED84A5"
+			tasks: [{
+				id: "7D15C1F72B8C19A2"
+				type: "advancement"
+				title: "Tarantula Hawk Encountered"
+				advancement: "alexsmobs:alexsmobs/tarantula_hawk"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "732299EB567FA6CA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5A984892BEBA6844"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: 1.5d
+			description: [
+				"Tame Tarantula Hawk with spider eyes. They can be very good protectors against most monsters."
+				"Two tamed Tarantula Hawks can be bred with fermented spider eyes, where they will then seek out a spider to paralyze and bury. Eventually a baby Tarantula Hawk will emerge from where the spider was buried."
+			]
+			dependencies: ["3CA1304CC6ED84A5"]
+			id: "737BD5F672EB23AF"
+			tasks: [{
+				id: "470721B071F9795A"
+				type: "advancement"
+				title: "Pet Flying Devil"
+				advancement: "alexsmobs:alexsmobs/tame_tarantula_hawk"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0FE3CD398E6B8B3C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			description: [
+				"Feed meat to a Tiger to gain its blessing."
+				""
+				"Tigers are large cats found in dense bamboo. They are weary of people and will attack if gotten too near. They are very good hunters and can become nearly invisible while hunting. By feeding them meat, their blessing can be gained which will allow you to approach them and they will come to your aid. They can be bred with Acacia Blossoms. They have potential to be born as white tigers."
+			]
+			id: "6B7F9A97D3149745"
+			tasks: [{
+				id: "47E2205644777034"
+				type: "advancement"
+				title: "Blessings of Tony"
+				advancement: "alexsmobs:alexsmobs/tigers_blessing"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6B8D81E6C595D982"
+					type: "item"
+					item: "vanillafoodpantry:bowl_milk"
+				}
+				{
+					id: "32E16B866B7CDDA0"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			description: [
+				"Rescue a beached Cachalot Whale."
+				""
+				"Cachalot Whales are large neutral creatures found in pretty much every ocean. Their favorite prey are squid. Sometimes during storms they may spawn beached on the shore."
+			]
+			id: "4B530B73DFFA452D"
+			tasks: [{
+				id: "41AB33590C0FB4EA"
+				type: "advancement"
+				title: "Aqua Rescue Force"
+				advancement: "alexsmobs:alexsmobs/save_cachalot_whale"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1C8F925F7EF99FFF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3EF0DFA67B6D3037"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3C0824B88C9A81E1"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -10.0d
+			description: [
+				"What could go wrong jumping on an anthill?"
+				""
+				"Leafcutter Ants are small ants that eat the leaves off of trees in jungles. Colonies can consist up to 20 ants. Typically only workers are seen but a queen can be summoned by jumping on an anthill. Queens are needed for the colony to repopulate."
+			]
+			id: "7E6468F38A587264"
+			tasks: [{
+				id: "300156AB96F3BDE6"
+				type: "advancement"
+				title: "Ants in my Pants"
+				advancement: "alexsmobs:alexsmobs/stomp_leafcutter_anthill"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5E47A36797E501F1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "51BD105B88F567F8"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			description: [
+				"Kangaroo Encountered"
+				""
+				"Large jumping friends of the savanna and badlands, Kangaroos are a neutral creature. They are very good at defending themselves. They can be tamed with carrots where they gain the normal follower characteristics and a accessible storage by sneak right clicking. A melee weapon, helmet, and chestpiece placed in the storage can be used by the Kangaroo. Can be healed with non-meat foods and bred with a dead bush or grass."
+			]
+			id: "6941D667244F04D9"
+			tasks: [{
+				id: "681C7849CB7DF7F8"
+				type: "advancement"
+				title: "Kangaroo Jack"
+				advancement: "alexsmobs:alexsmobs/kangaroo"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5A0479B4BC8A8A61"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			description: [
+				"Emu Encountered"
+				""
+				"A large ground bird, the Emu is found in savanna and badlands. They initially panic when attacked but may return to attack. They like attacking skeletons though. They can be bred with Wheat but cannot be tamed. They will appear in a few different colors."
+			]
+			id: "051CA3BEF47E6BCF"
+			tasks: [{
+				id: "2FC20090FF5FDCC1"
+				type: "advancement"
+				title: "Emu Day Out"
+				advancement: "alexsmobs:alexsmobs/emu"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1C791AFC6001ADDD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "797E02A4BBD8C273"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 11.0d
+			description: [
+				"Encounter Enderiophage"
+				""
+				"The Enderiophage is pretty much just a giant virus commonly found in the End Midlands. It's primary prey is the Endergrades, but it will also attack Endermen. If allowed to pass on its virus it will affect the host until they die and burst with new Enderiophages. "
+			]
+			id: "40CFB3D7A3ECB1B9"
+			tasks: [{
+				id: "04F776AF5D636E3E"
+				type: "advancement"
+				title: "End Virus"
+				advancement: "alexsmobs:alexsmobs/enderiophage"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "16D1ECC238BC0E81"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.0d
+			y: 12.0d
+			description: ["To heal the End Flu Chorus fruit or milk can be eaten/drank."]
+			dependencies: ["40CFB3D7A3ECB1B9"]
+			id: "44DD26244ADEC0F8"
+			tasks: [{
+				id: "6BCC47F491E9A812"
+				type: "advancement"
+				title: "Hope it isn't Contagious"
+				advancement: "alexsmobs:alexsmobs/ender_flu"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1E64A18FE68C2A56"
+				type: "item"
+				item: "vanillafoodpantry:gelo_chorusfruit"
+				count: 4
+			}]
+		}
+		{
+			x: -8.0d
+			y: 8.5d
+			description: ["Long dead birds that now inhabits the Nether. They have a health stealing attack which they use to great effect up to five times."]
+			id: "292B32B34CD5094A"
+			tasks: [{
+				id: "021CDEE7CA77D77C"
+				type: "advancement"
+				title: "Soul Vulture Encountered"
+				advancement: "alexsmobs:alexsmobs/soul_vulture"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "19BC2A4D6A557ADD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "79DB30FB8307E418"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 7.0d
+			description: [
+				"Lure a Spectre over in the End and hitch a ride with a lead."
+				""
+				"Spectres are a relative of Phantoms but are completely passive. They cannot be attacked by physical means. Their favorite item is a Soul Heart, which they will follow very intently."
+			]
+			dependencies: ["3E83CFACFBDFDEB2"]
+			id: "425A42A957D7D70B"
+			tasks: [{
+				id: "2B197BD81934156E"
+				type: "advancement"
+				title: "Hitching a Ride"
+				advancement: "alexsmobs:alexsmobs/spectre"
+				criterion: ""
+			}]
+		}
+		{
+			x: -14.0d
+			y: 11.5d
+			description: [
+				"Encounter a Straddler"
+				""
+				"A Straddler is large rocky version of a Strider found in Basalt Deltas. They are aggressive and will attack an explorers they see by launching Stradpoles at them."
+			]
+			id: "4EDC8D006049F8E4"
+			tasks: [{
+				id: "00699EA6765B7B6C"
+				type: "advancement"
+				title: "Straddler Encountered"
+				advancement: "alexsmobs:alexsmobs/straddler"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "32E66281E6847474"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7857EAFB13405EF1"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0EDEAB92D077389F"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: 11.5d
+			description: ["Feeding a Stradpole a Crimson Mosquito Larva and it might grow up."]
+			dependencies: [
+				"13EDF3FD77403F25"
+				"6D5AA599D202F0AF"
+			]
+			id: "649DAB5F8334BF09"
+			tasks: [{
+				id: "4A084078BEDF8074"
+				type: "advancement"
+				title: "Lava Tadpole Feast"
+				advancement: "alexsmobs:alexsmobs/stradpole_feed"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "19326A9DC755907D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.0d
+			y: 10.5d
+			description: ["The Crimson Mosquito is a native of Crimson Forests where it will suck the blood of almost an creature. It can then spit this blood back at other targets."]
+			id: "3EF3C919FDC60E1B"
+			tasks: [{
+				id: "5E6012AB1B7B64E9"
+				type: "advancement"
+				title: "Cimson Mosquito Encountered"
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0616805ECC476653"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2BCDAC5185C93B4C"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 11.5d
+			description: [
+				"The Warped Toad is a rare spawn in Warped Forests which is neutral. Its favorite food is Crimson Mosquitos so it may be worth having one of these as a friend."
+				"It can be healed with maggots and bred with Crimson Mosquito Larva."
+			]
+			dependencies: ["6D5AA599D202F0AF"]
+			id: "434FB123BC8DEEDE"
+			tasks: [{
+				id: "1131503C338F9EEB"
+				type: "advancement"
+				title: "Mosquito Repellent"
+				advancement: "alexsmobs:alexsmobs/tame_warped_toad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "238F36B03F86D58D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 13.0d
+			description: ["What could happen when a Crimson Mosquito feeds on a Mungus covered with Warped Fungus?"]
+			dependencies: [
+				"3EF3C919FDC60E1B"
+				"365AD0B3FADC70B1"
+			]
+			id: "6AD1386215D8E52F"
+			tasks: [{
+				id: "6DEB65E3D52A483A"
+				type: "advancement"
+				title: "Mad Scientist"
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito_sick"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2BDE0160261BA560"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 11.0d
+			description: [
+				"Kill the Warped Mosquito"
+				""
+				"The Warped Mosquito is a very dangerous evolution of a Crimson Mosquito. It will attack pretty much everything and will suck blood to regenerate health."
+			]
+			dependencies: ["6AD1386215D8E52F"]
+			id: "47BE77D8F21BBDCC"
+			tasks: [{
+				id: "23757EA29413C93A"
+				type: "advancement"
+				title: "Bye Bye Mega Chad"
+				advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6BDC7FA1CF2C9F7C"
+				type: "item"
+				item: "losttrinkets:treasure_bag"
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:seal"
+				}
+			}
+			x: 3.5d
+			y: 2.0d
+			description: ["The seal is a cute, if not loud, creature frequently found on beaches or icebergs. Usually they are found sleeping but are very good swimmers. Giving a seal three fish with \"trade\" with the seal and they will dive into the water and bring back a sea related item (some are valuable). Can be bred with lobster tails."]
+			id: "5A0A76BD018B4C93"
+			tasks: [{
+				id: "197A98242A90B910"
+				type: "checkmark"
+				title: "Seal Encountered"
+			}]
+			rewards: [
+				{
+					id: "621DD7E6E8D3606C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7136B527C158C0F0"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2D543F44C82C4559"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:shoebill"
+				}
+			}
+			x: 1.5d
+			y: 0.5d
+			description: ["Shoebills are strange birds that inhabit swamps and will flee if attacked. They are more of solitary fishmen and won't keep all of their catch which can be picked up. They can be fed Crocodile eggs to increase the lure of their catches and Blobfish to increase the luck of their catch. They cannot be bred."]
+			id: "249C1132B4C26334"
+			tasks: [{
+				id: "03E5690E11AA0C47"
+				type: "checkmark"
+				title: "Shoebill Encountered"
+			}]
+			rewards: [
+				{
+					id: "78754F8B4C96B3FE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "08FF90321074D381"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:snow_leopard"
+				}
+			}
+			x: -2.0d
+			y: -3.5d
+			description: ["The Snow Leopard is a big cat found in snowy mountain area where they live in solitude. They won't be aggressive to players but love hunting and will protect themselves. While hunting they often create extra drops due to their skill (like high luck). They cannot be tamed but can be bred with Moose Ribs. "]
+			id: "782985747FDE09EA"
+			tasks: [{
+				id: "2B166C07821F73AF"
+				type: "checkmark"
+				title: "Snow Leopard Encountered"
+			}]
+			rewards: [
+				{
+					id: "4B5390A324FFA24A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "65E5B467DA7B8B3A"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:crow"
+				}
+			}
+			x: -4.0d
+			y: -2.5d
+			description: [
+				"Crows are annoyancing birds found in forests and plains where they circle fields and stop crop growth. They can be scared away with a scarecrow of a simple carved pumpkin. They will pickup any food or seeds and eat them."
+				"They can be tamed by giving them some pumpkin seeds. When tamed they can follow the the basic tamed animal rules (Stay, follow, wander) but can also collect items. When set to gather mode crows will look for chests with item frames on them. Whatever item is in the frame will be collected and placed into the chest."
+			]
+			id: "0AE3D19B46EFA9D1"
+			tasks: [{
+				id: "3734C4A298D233E4"
+				type: "checkmark"
+				title: "Crow Encountered"
+			}]
+			rewards: [
+				{
+					id: "1282C934E5B760F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5A065490E7399A66"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "48B5A3B9493BC5EA"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:mungus"
+				}
+			}
+			x: -2.0d
+			y: 11.5d
+			description: ["Mungi are mushroom creatures found in different Mushroom biomes. They are completely passive. They have mushroomson them that on them that they will grow more of depending on the biome. They have a chance of creating giant mushrooms. If killed with 5 mushrooms on it, it will explode and spread their mushroom covering them. They can be bred with Mushroom Stew."]
+			id: "365AD0B3FADC70B1"
+			tasks: [{
+				id: "3F02A31D66A19AAE"
+				type: "checkmark"
+				title: "Mungus Encountered"
+			}]
+			rewards: [
+				{
+					id: "57DE95FD347B41B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6A2376672884C884"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:platypus"
+				}
+			}
+			x: 2.5d
+			y: 1.0d
+			description: [
+				"The Platypus is a strange little animal that can be found in rivers. It has a poisonous attack to return on attackers. It can be bred with Lobster Tails."
+				"It's special ability is that when fed with redstone it will seak out clay blocks where it will dig up maggots and clay balls."
+			]
+			id: "36086B5B081E1FE7"
+			tasks: [{
+				id: "2A3E156CC6B9B96B"
+				type: "checkmark"
+				title: "Platypus Encountered"
+			}]
+			rewards: [
+				{
+					id: "7BCA9F8F78AB1428"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0886E387D314BB65"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:tasmanian_devil"
+				}
+			}
+			x: -4.0d
+			y: 0.5d
+			description: ["The Tasmanian Devil is a small creature found in temperate forests. They can be found in groups making growling noises. They will also heartily defend themselves if attacked. Can be fed rotten flesh to release a howl to scare away all monsters for a time. They cannot be tamed but can be bred with meat."]
+			id: "44E83C7E2B80B35F"
+			tasks: [{
+				id: "1B4280C7AA14546E"
+				type: "checkmark"
+				title: "Tasmanian Devil Encountered"
+			}]
+			rewards: [
+				{
+					id: "61721ACBF1603562"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "04F258BAC36EDFFB"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:raccoon"
+				}
+			}
+			x: -3.0d
+			y: -8.0d
+			description: ["Raccoons are natives of plains and forests where they can be seen foraging for food. They will come up to players to beg if food is being held but they will also steal food from chests. Will wash food when near water. Can be tamed when given an egg near water and can be bred with bread."]
+			id: "5AF05B20BB414210"
+			tasks: [{
+				id: "3A7584CFC76C55E5"
+				type: "checkmark"
+				title: "Raccoon Encountered"
+			}]
+			rewards: [
+				{
+					id: "5C0FF384D71A826C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1CE73E2290A1C063"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "570DBD81AB808E3B"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:gazelle"
+				}
+			}
+			x: -5.0d
+			y: -8.0d
+			description: ["The Gazelle is a small creature of the savannas is very timid and prefers its large groups which will flee at the first sign of danger."]
+			id: "617FBFA90048602D"
+			tasks: [{
+				id: "7B953C134B4B9D34"
+				type: "checkmark"
+				title: "Gazelle Encountered"
+			}]
+			rewards: [
+				{
+					id: "535B1936F6BCB6D6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "524C694603679926"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:fly"
+				}
+			}
+			x: -10.5d
+			y: -2.5d
+			description: ["This annoying bug is pretty common across the overworld. They will chase and bite zombies to near death. They are bred with rotten flesh. Make sure these do not get into the Nether...."]
+			id: "49AB71E75762D0B9"
+			tasks: [{
+				id: "3F5513E24A79A11D"
+				type: "checkmark"
+				title: "Fly Encountered"
+			}]
+			rewards: [
+				{
+					id: "2C6DFA122BB1BD9B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2C8DE4BB015C40D5"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "670A7C3428CBDB4F"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:moose"
+				}
+			}
+			x: -5.0d
+			y: -3.5d
+			description: [
+				"The Moose, the Big Boy of the Tundra and Taiga, are neutral but very capable of protecting themselves."
+				"Can be bred with dandelions."
+			]
+			id: "3705153037F1DDEE"
+			tasks: [{
+				id: "6E10393222B9B3FB"
+				type: "checkmark"
+				title: "Moose Encountered"
+			}]
+			rewards: [
+				{
+					id: "79451D01310FF620"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5BA7C20198D9039A"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:komodo_dragon"
+				}
+			}
+			x: -18.0d
+			y: 0.5d
+			description: [
+				"The Komodo Dragon is the largest lizard you will ever see, which you could experience travelling through the badlands. They will attack almost anything so watch out and they have a very poisonous bite."
+				"If given a very large amount of rotten flesh they can be tamed where they will fiercely protect their friends and are also a good mount."
+			]
+			id: "6BC74F4BAEA808FF"
+			tasks: [{
+				id: "41F14FF24FEB6C4E"
+				type: "checkmark"
+				title: "Komodo Dragon Encountered"
+			}]
+			rewards: [
+				{
+					id: "2F797E77AFEA73A8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "78C1F3C114891E86"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:roadrunner"
+				}
+			}
+			x: -8.5d
+			y: 0.5d
+			description: ["The Roadrunner is a quick ground bird that can be found in deserts and badlands. They are predator of Rattlesnakes. Can be bred with maggots."]
+			id: "32F7D28F7B29709C"
+			tasks: [{
+				id: "2F70AE2127CF9BD6"
+				type: "checkmark"
+				title: "Roadrunner Encountered"
+			}]
+			rewards: [{
+				id: "751F3F802322873E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:centipede_head"
+				}
+			}
+			x: -18.5d
+			y: 3.5d
+			description: ["A rare underground bug that can be found deep down. It slowly moves but it has a powerful bite and is poisonous."]
+			id: "3231E98238491AF0"
+			tasks: [{
+				id: "1B833EB81F91BAA8"
+				type: "checkmark"
+				title: "Cave Centipede Encountered"
+			}]
+			rewards: [
+				{
+					id: "6DA04C9E1A2BF052"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0F4D828CDC2086CC"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7DCDAF91EBE72A66"
+					type: "item"
+					item: {
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:cockroach"
+				}
+			}
+			x: -12.0d
+			y: 4.5d
+			description: [
+				"Cockroaches can be be found underground in the dark corners of caves. While they are normally scared of people they can be fed with sugar or bread to make them more comfortable. They will eat any food dropped on the ground as well."
+				"Their most unique ability may be the ability to lose their head and keep on running though. They can be bred with sugar."
+			]
+			id: "3B5935EFBF9C27D7"
+			tasks: [{
+				id: "08E6F1F0A7B5A54E"
+				type: "checkmark"
+				title: "Cockroach Encountered"
+			}]
+			rewards: [{
+				id: "061AD01051C06419"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:lobster"
+				}
+			}
+			x: 5.0d
+			y: 2.0d
+			description: ["A Lobster is a small sea creature found in the water right off the beach. They will pinch anything aggresive to them but usually won't chase. Can come in a number of colors."]
+			id: "493146EF96766BF4"
+			tasks: [{
+				id: "02C48EBD34FB1A3C"
+				type: "checkmark"
+				title: "Lobster Encountered"
+			}]
+			rewards: [
+				{
+					id: "0D3AE27787779FE9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7975242D4CCF030C"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:blobfish"
+				}
+			}
+			x: 6.5d
+			y: 1.5d
+			description: ["This..... squishy fish is usually found deep in oceans. When a slimeball is used on a blobfish will allow it to survive on land."]
+			id: "2142DDB9A0AF6B94"
+			tasks: [{
+				id: "6A2D1EB640ED231C"
+				type: "checkmark"
+				title: "Blobfish Encountered"
+			}]
+			rewards: [
+				{
+					id: "2E6F7297801F88E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "68F543C11A5EBF57"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:hammerhead_shark"
+				}
+			}
+			x: 9.0d
+			y: 3.5d
+			description: ["A Hammerhead Shark are a large creature native in warmer oceans. It is a predator of any creature below half health."]
+			id: "2C2D57D238A96C47"
+			tasks: [{
+				id: "53C361BF979CBC5C"
+				type: "checkmark"
+				title: "Hammerhead Shark Encountered"
+			}]
+			rewards: [
+				{
+					id: "20ECCF756CC54EDE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6389BDCFFEA8AD16"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:endergrade"
+				}
+			}
+			x: 8.5d
+			y: 8.5d
+			description: ["This large animal of the End is a peaceful floating creature that is happy spending its days just floating around Chorus Forests eating chorus fruits. You can lure a Endergrade over to you by holding a Chorus fruit which you can also use to breed them."]
+			id: "3CD714A755372F99"
+			tasks: [{
+				id: "4CC884AF1B78D455"
+				type: "checkmark"
+				title: "Endergrade Encountered"
+			}]
+			rewards: [
+				{
+					id: "453DF25531B70071"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4E41ACED63929E93"
+					type: "item"
+					item: "minecraft:chorus_fruit"
+					count: 6
+				}
+				{
+					id: "7A45D6ABF20E88AF"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:mimicube"
+				}
+			}
+			x: 6.5d
+			y: 8.5d
+			description: ["A slime relative of the End found typically in End Cities. Have very powerful magical abilities of mimicing an attackers weapons and armor."]
+			id: "54A887A01A32BB84"
+			tasks: [{
+				id: "1B2BDECD58C9963B"
+				type: "checkmark"
+				title: "Mimicube Encountered"
+			}]
+			rewards: [
+				{
+					id: "52D6521BBC52700F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3900360B906B3C70"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:bone_serpent"
+				}
+			}
+			x: -11.0d
+			y: 15.0d
+			description: ["The Bone Serpent is a native of the lava lakes of the Nether where it preys on almost everything, especially Wither Skeletons."]
+			id: "6C2B0968097E6A03"
+			tasks: [{
+				id: "2F90E30454A80EFC"
+				type: "checkmark"
+				title: "Bone Serpent Encountered"
+			}]
+			rewards: [
+				{
+					id: "0370ACA924ABCEFF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "614311DD452D7E35"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:dropbear"
+				}
+			}
+			x: -14.0d
+			y: 9.5d
+			description: ["The Dropbear is an evil creature native to the Nether Wastes. It hangs from the ceiling where it waits for things to walk beneath it to drop down upon and attack."]
+			id: "0544039A394BA4C5"
+			tasks: [{
+				id: "3904F121483CB9A9"
+				type: "checkmark"
+				title: "Dropbear Encountered"
+			}]
+			rewards: [
+				{
+					id: "2B0A0D2830DC0523"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4B402A24D8F4C518"
+					type: "item"
+					item: "majruszs_difficulty:bandage"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			description: ["This potion, made from bear hair and potions of strength, will create a potion giving knockback resistance."]
+			dependencies: ["11AD9C3E6F7ED206"]
+			id: "2655420D8A840C65"
+			tasks: [{
+				id: "7F6CA93CB8FA72D9"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:knockback_resistance"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F36BF0D45D44C77"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+}

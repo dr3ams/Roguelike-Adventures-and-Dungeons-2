@@ -1,0 +1,142 @@
+{
+	id: "3A00AA024D71440E"
+	order_index: 7
+	title: "Epic loot crate"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:unbreaking"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "constructionwand:diamond_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:mending"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:unbreaking"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:silk_touch"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+		{ item: "minecraft:copper_ingot", count: 64 }
+		{ item: "minecraft:emerald", count: 32 }
+		{ item: "minecraft:lapis_lazuli", count: 64 }
+		{ item: "minecraft:gold_ingot", count: 64 }
+		{ item: "minecraft:diamond", count: 16 }
+		{ item: "minecraft:iron_ingot", count: 64 }
+		{ item: "minecraft:netherite_ingot", count: 8 }
+		{ item: "create_stuff_additions:heap_of_experience", count: 32 }
+		{ item: "randomite:randomite_ore", count: 8 }
+		{ item: "aquaculture:lockbox", count: 5 }
+		{ item: "minecraft:golden_apple", count: 3 }
+		{ item: "minecraft:glistering_melon_slice", count: 32 }
+		{ item: "villagertools:restock" }
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 3s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+		{ item: "create:brass_ingot", count: 32 }
+		{ item: "aquaculture:treasure_chest", count: 10 }
+		{ item: "oreberriesreplanted:essence_berry_bush" }
+		{ item: "oreberriesreplanted:iron_oreberry_bush" }
+		{ item: "oreberriesreplanted:gold_oreberry_bush" }
+		{ item: "oreberriesreplanted:copper_oreberry_bush" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 12664063
+		string_id: "epic_loot_crate"
+	}
+}

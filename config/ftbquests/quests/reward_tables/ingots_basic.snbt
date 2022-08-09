@@ -1,0 +1,101 @@
+{
+	id: "351222B6C5DB4816"
+	order_index: 0
+	title: "Ingots Basic"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "minecraft:iron_ingot", weight: 40 }
+		{ item: "minecraft:gold_ingot", weight: 20 }
+		{ item: "eidolon:pewter_ingot", weight: 10 }
+		{ item: "twilightforest:ironwood_ingot", weight: 40 }
+		{ item: "minecraft:netherite_ingot" }
+		{ item: "buddycards:buddysteel_ingot", weight: 5 }
+		{
+			item: {
+				id: "mysticalworld:copper_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalworld:lead_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalworld:tin_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "undergarden:froststeel_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "undergarden:cloggrum_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "eidolon:pewter_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "arsarsenal:source_steel_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "ingots_basic"
+	}
+}

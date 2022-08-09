@@ -1,0 +1,83 @@
+
+#General Configuration
+[general_configuration]
+	#Determines whether or not Piglins can only give bartering loot if the received bartering item came from a living being [true/false, default:true]
+	requireLivingForBarter = true
+
+#Ageable Configuration
+[ageable_configuration]
+	#Minimum total food value for a piglin to breed [0-100, default: 12]
+	#Range: 0 ~ 100
+	minFoodValueForBreeding = 12
+
+#Greed Configuration
+[greed_configuration]
+	#Determines whether or not a piglin will replace a non-gold piece of equipment with a gold one when crafting equipment [default: true]
+	piglinsPreferCraftedEquipment = true
+
+#Positive Reputation Configuration
+[positive_reputation_configuration]
+	#The amount of major positive gossip received from Piglins that have seen you kill the Wither [0-100, default: 100]
+	#Range: 0 ~ 100
+	witherKilledRepAmount = 100
+	#The amount of additional minor positive gossip received from Piglins that have seen you kill the Wither [0-200, default: 200]
+	#Range: 0 ~ 200
+	witherKilledRepBonus = 200
+	#The amount of major positive gossip received from Piglins that have seen you kill Wither Skeletons [0-100, default: 25]
+	#Range: 0 ~ 100
+	witherSkeletonRepAmount = 25
+	#The amount of additional minor positive gossip received from Piglins that have seen you kill Wither Skeletons [0-200, default: 25]
+	#Range: 0 ~ 200
+	witherSkeletonRepBonus = 25
+	#The amount of minor positive gossip received from giving a non-bartering gold item to a Piglin [0-200, default: 12]
+	#Range: 0 ~ 200
+	goldGiftRepAmount = 12
+	#The amount of minor positive gossip received from giving a food item to a Piglin [0-200, default: 6]
+	#Range: 0 ~ 200
+	foodGiftRepAmount = 6
+	#The amount of minor positive gossip received from bartering with a Piglin [0-200, default: 3]
+	#Range: 0 ~ 200
+	barterRepAmount = 3
+	#The minimum gossip requirement to be considered an ally of a Piglin. Allows you to open containers and mine gold around them [0-300, default: 100]
+	#Range: 0 ~ 300
+	allyGossipRequirement = 100
+	#The minimum gossip requirement to be considered friendly with a Piglin. Allows you to not have to wear gold around them [0-300, default: 50]
+	#Range: 0 ~ 300
+	friendlyGossipRequirement = 50
+
+#Negative Reputation Configuration
+[negative_reputation_configuration]
+	#The amount of minor negative gossip received from Piglins who catch you stealing their gold [0-200, default: 25]
+	#Range: 0 ~ 200
+	goldStolenRepAmount = 12
+	#The amount of minor negative gossip received from hurting an adult Piglin [0-200, default: 12]
+	#Range: 0 ~ 200
+	adultPiglinHurtRepAmount = 12
+	#The amount of minor negative gossip received from hurting a baby Piglin [0-200, default: 25]
+	#Range: 0 ~ 200
+	babyPiglinHurtRepAmount = 25
+	#The amount of major negative gossip received from Piglins that have seen you kill an adult Piglin [0-100, default: 25]
+	#Range: 0 ~ 100
+	adultPiglinKilledRepAmount = 25
+	#The amount of additional minor negative gossip received from Piglins that have seen you kill an adult Piglin [0-200, default: 0]
+	#Range: 0 ~ 200
+	adultPiglinKilledRepBonus = 0
+	#The amount of major negative gossip received from Piglins that have seen you kill a baby Piglin [0-100, default: 25]
+	#Range: 0 ~ 100
+	babyPiglinKilledRepAmount = 25
+	#The amount of additional minor negative gossip received from Piglins that have seen you kill a baby Piglin [0-200, default: 25]
+	#Range: 0 ~ 200
+	babyPiglinKilledRepBonus = 25
+	#The amount of major negative gossip received from Piglins that have seen you kill a Piglin Brute [0-100, default: 50]
+	#Range: 0 ~ 100
+	bruteKilledRepAmount = 50
+	#The amount of additional minor negative gossip received from Piglins that have seen you kill a Piglin Brute [0-200, default: 50]
+	#Range: 0 ~ 200
+	bruteKilledRepBonus = 50
+	#The maximum gossip requirement to be considered unfriendly with a Piglin. Prevents you from receiving any bartering loot [-300-0, default: -50]
+	#Range: -300 ~ 0
+	unfriendlyGossipRequirement = -50
+	#The maximum gossip requirement to be considered an enemy of a Piglin. Prevents you from making them neutral by wearing gold armor [-300-0, default: -100]
+	#Range: -300 ~ 0
+	enemyGossipRequirement = -100
+

@@ -1,0 +1,56 @@
+{
+	id: "23C4FE9BC166D7DA"
+	order_index: 3
+	title: "Materials Dusts"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "the_afterlight:crushed_moon_crystal_dust" }
+		{ item: "feywild:fey_dust" }
+		{ item: "infernalexp:moth_dust" }
+		{ item: "minecraft:redstone" }
+		{ item: "minecraft:glowstone_dust" }
+		{ item: "iceandfire:pixie_dust" }
+		{ item: "mysticalworld:copper_dust" }
+		{ item: "mysticalworld:lead_dust" }
+		{ item: "mysticalworld:silver_dust" }
+		{ item: "mysticalworld:tin_dust" }
+		{ item: "mysticalworld:gold_dust" }
+		{ item: "mysticalworld:iron_dust" }
+		{ item: "vanillafoodpantry:rock_salt_crystals" }
+		{ item: "waystones:warp_dust" }
+		{ item: "betterendforge:ender_dust" }
+		{
+			item: {
+				id: "byg:purple_glowcane_dust"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "byg:pink_glowcane_dust"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 9926
+		string_id: "materials_dusts"
+	}
+}

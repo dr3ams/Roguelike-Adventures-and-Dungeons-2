@@ -1,0 +1,704 @@
+{
+	id: "242CDE7D5C126607"
+	group: "2C344CA71B9F0CFD"
+	order_index: 2
+	filename: "dark_magoc"
+	title: "Dark Magic"
+	icon: "eidolon:unholy_symbol"
+	default_quest_shape: "pentagon"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.0d
+		y: 1.0d
+		width: 5.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "rad2:textures/misc/rad_pottable.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -2.5d
+			y: -1.0d
+			description: ["Eidolon is a magic mod that draws on a lot of different inspirations, with aspects of alchemy and theurgy. It takes a bit of a dark perspective, also featuring mechanics themed around necromancy and soul manipulation. If you have ever wanted to play as a dark mage, performing strange rituals and communing with dark gods, this is the mod for you."]
+			size: 1.5d
+			id: "33CDFA7BEC28AAE4"
+			tasks: [{
+				id: "645EF385FA37C52D"
+				type: "item"
+				item: "eidolon:codex"
+			}]
+			rewards: [
+				{
+					id: "711FD22CC79AF74F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0C6B8C7F9D560F5A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["23C32890BF4AD849"]
+			id: "724BED5E6BC50B13"
+			tasks: [{
+				id: "67788A33918AC016"
+				type: "item"
+				item: "eidolon:brazier"
+			}]
+			rewards: [
+				{
+					id: "4B0C3CBD04DB2A78"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+					}
+				}
+				{
+					id: "7EBB530F670126DD"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "608F9E78D2E4C817"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["13C7EDEC0BC8386F"]
+			id: "48302AA45802AEC1"
+			tasks: [{
+				id: "2120D89AF06F3C52"
+				type: "item"
+				item: "eidolon:wooden_altar"
+			}]
+			rewards: [
+				{
+					id: "02B4315EB48DB395"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+					}
+				}
+				{
+					id: "3B10BB862B6880DB"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "7BB3FE88FAB71AE5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.25d
+			y: 3.0d
+			shape: "hexagon"
+			dependencies: ["1781BF73A9B88972"]
+			size: 1.5d
+			id: "718979859BEC4605"
+			tasks: [{
+				id: "414CC9507CA1AEEE"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+			rewards: [
+				{
+					id: "37F5F573E10A5048"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+					}
+				}
+				{
+					id: "4247810278464EFA"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "41CE5286E9241DD6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "26FEA1EA8E29147A"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "shadow"
+					amount: 40.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			dependencies: ["1781BF73A9B88972"]
+			id: "681BBE6321B1198A"
+			tasks: [{
+				id: "4498333C2181FFB2"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+			rewards: [
+				{
+					id: "36129ECD24C80AEF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+					}
+				}
+				{
+					id: "3C7BFA1A6D7BC831"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "177A5ADD89407F60"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			dependencies: ["724BED5E6BC50B13"]
+			id: "644D5A362072C4BD"
+			tasks: [{
+				id: "7598C0C6B4C2BB68"
+				type: "item"
+				item: "eidolon:stone_hand"
+			}]
+			rewards: [
+				{
+					id: "69EC774602CFB99F"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "7F119528AE99D086"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			dependencies: ["718979859BEC4605"]
+			id: "1E6DD6FE104ED87D"
+			tasks: [{
+				id: "3B1319DDB265B3C9"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+			rewards: [
+				{
+					id: "761CD1B53CC7820D"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "27B8ED87CC95CD4D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "030E4ED00DBC377E"
+					type: "item"
+					item: {
+						id: "roughtweaks:bandage"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			dependencies: ["1781BF73A9B88972"]
+			id: "3A89E3DDD5793061"
+			tasks: [{
+				id: "41DD5CDDBD441680"
+				type: "item"
+				item: "eidolon:wooden_brewing_stand"
+			}]
+			rewards: [
+				{
+					id: "0AE11FC166A40C6D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+					}
+				}
+				{
+					id: "059536780B49CD0F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "4E141352608A9F1B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			dependencies: [
+				"48302AA45802AEC1"
+				"718979859BEC4605"
+			]
+			id: "22169EC4EBBF6C79"
+			tasks: [{
+				id: "65DD10629C25D571"
+				type: "item"
+				item: "eidolon:stone_altar"
+			}]
+			rewards: [
+				{
+					id: "7F6E8FA61078E2DF"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "7E4B35CB57D031FC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			icon: "eidolon:soul_shard"
+			x: -1.0d
+			y: -3.5d
+			description: [
+				"Using shards of pure soul energy, activate powerful rituals at the brazier. Create new items, summon monsters, and ward huge areas from hostile creatures."
+				""
+			]
+			dependencies: ["33CDFA7BEC28AAE4"]
+			id: "23C32890BF4AD849"
+			tasks: [{
+				id: "222902CD47873BDA"
+				type: "checkmark"
+				title: "Rituals"
+			}]
+			rewards: [
+				{
+					id: "396C31014EFE1B4F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2678F3F09814D6CF"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			icon: "eidolon:candle"
+			x: -0.5d
+			y: -1.0d
+			description: ["Build an altar and pray to the dark lord. Perform sacrifices, upgrade your altar, improve your reputation with them, and they might reveal to you new knowledge or grant you new abilities..."]
+			dependencies: ["33CDFA7BEC28AAE4"]
+			id: "13C7EDEC0BC8386F"
+			tasks: [{
+				id: "2F86602B29D35F4E"
+				type: "checkmark"
+				title: "Theurgy"
+			}]
+			rewards: [
+				{
+					id: "7E3B025BE1EFAE61"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5C2B5E6D46A5F1F4"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			icon: "eidolon:zombie_heart"
+			x: -2.0d
+			y: 3.0d
+			description: ["Perform alchemy at the crucible, and tinker with magic items at a new workbench. Using soul shards and a huge variety of other ingredients, take your pick of a large selection of magical weapons, tools, armor, and curios."]
+			dependencies: ["33CDFA7BEC28AAE4"]
+			id: "1781BF73A9B88972"
+			tasks: [{
+				id: "2087C57547373840"
+				type: "checkmark"
+				title: "Artifice"
+			}]
+			rewards: [
+				{
+					id: "62E203224D50B1AC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0982D6361D51A0F5"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 6.5d
+			dependencies: ["681BBE6321B1198A"]
+			id: "40E05CF54764D01C"
+			tasks: [{
+				id: "7A10CB8E84D23752"
+				type: "item"
+				item: "eidolon:lesser_soul_gem"
+			}]
+			rewards: [
+				{
+					id: "580A01ACA3C082CA"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "2273C09557CEADDD"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 5.0d
+			dependencies: ["3E9BA331A9835279"]
+			id: "149F6FD66D67C8F2"
+			tasks: [
+				{
+					id: "2BF5C5FE6767635B"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "18948B9F7798D572"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_cloak"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07AF31683556CC3A"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "52E7DEA2B133682A"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "3754AC93CBE7E917"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "potions"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			dependencies: ["681BBE6321B1198A"]
+			id: "0E337EB162FB5F1F"
+			tasks: [{
+				id: "266BF232A72821A3"
+				type: "item"
+				item: "eidolon:arcane_gold_ingot"
+			}]
+			rewards: [
+				{
+					id: "654EA681A60BB49F"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "1F8B432ECD27045E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["48302AA45802AEC1"]
+			id: "37E7DC86B5E38946"
+			tasks: [{
+				id: "23862087FAE9E310"
+				type: "item"
+				item: "eidolon:candlestick"
+			}]
+			rewards: [
+				{
+					id: "13014E7629E69A6C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+					}
+				}
+				{
+					id: "7EFA63AD625B27BE"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "1E02DECF925B07EC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			dependencies: ["718979859BEC4605"]
+			id: "3E9BA331A9835279"
+			tasks: [{
+				id: "6CE50E0FF0DA53B0"
+				type: "item"
+				item: "eidolon:wicked_weave"
+			}]
+			rewards: [{
+				id: "63DD7787C6970790"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_magic"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.0d
+			dependencies: ["3E9BA331A9835279"]
+			id: "27769955ED81E09C"
+			tasks: [{
+				id: "48D86E961B3FB70B"
+				type: "item"
+				item: "eidolon:prestigious_palm"
+			}]
+			rewards: [{
+				id: "6FDB1A9CFDA8F2C6"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["718979859BEC4605"]
+			id: "142904685D8A33AE"
+			tasks: [{
+				id: "211B9D1634C9508F"
+				type: "item"
+				item: "eidolon:basic_belt"
+			}]
+			rewards: [
+				{
+					id: "663C5C870C86E86B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "4B18673E77324C63"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			dependencies: ["718979859BEC4605"]
+			id: "1DD56ABAFCEAE701"
+			tasks: [{
+				id: "3876CFBA34E5EA6B"
+				type: "item"
+				item: "eidolon:basic_amulet"
+			}]
+			rewards: [
+				{
+					id: "6CCEDEEE2D44DBBB"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "281D395F5033EB74"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			dependencies: ["718979859BEC4605"]
+			id: "2793379EA92F582E"
+			tasks: [{
+				id: "24FAF0E5D6B695E9"
+				type: "item"
+				item: "eidolon:basic_ring"
+			}]
+			rewards: [
+				{
+					id: "0C97CD097995E727"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "3C11D2469CCF61A2"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			dependencies: ["718979859BEC4605"]
+			id: "5399B2BA4CB674C0"
+			tasks: [{
+				id: "258AB4FF5D3879D0"
+				type: "item"
+				item: "eidolon:glass_hand"
+			}]
+			rewards: [
+				{
+					id: "3A28F0008D2830CB"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "15191103B379CAEE"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 5.0d
+			dependencies: ["718979859BEC4605"]
+			id: "5168B8C00C0AA09D"
+			tasks: [{
+				id: "77A2BE606BDAD0C5"
+				type: "item"
+				item: "eidolon:resolute_belt"
+			}]
+			rewards: [
+				{
+					id: "7C6C590A4CFAEC59"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "1661A13A736A8E21"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			dependencies: ["718979859BEC4605"]
+			id: "1ECB3AF7664088FA"
+			tasks: [{
+				id: "1A248C79B4C44789"
+				type: "item"
+				item: "eidolon:mind_shielding_plate"
+			}]
+			rewards: [
+				{
+					id: "4410688C22762B7E"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "54E7400DD810C2DD"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+	]
+}

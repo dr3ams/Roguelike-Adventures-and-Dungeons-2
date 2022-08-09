@@ -1,0 +1,639 @@
+
+[Features]
+
+	#Configuration for Bandage item.
+	[Features.Bandage]
+		#Is Bandage always usable? If not player can only use Bandage when it is bleeding.
+		is_always_usable = true
+		#Duration in seconds of Regeneration effect.
+		#Range: 1.0 ~ 120.0
+		regeneration_duration = 4.0
+		#Level/amplifier of Regeneration effect.
+		#Range: 0 ~ 10
+		regeneration_amplifier = 0
+
+	#Hermes Boots item configuration.
+	[Features.HermesBoots]
+		#Movement speed extra multiplier. (requires game/world restart!)
+		#Range: 0.0 ~ 5.0
+		movement_speed_bonus = 0.25
+
+	#Config for End Leggings ability.
+	[Features.EndLeggings]
+		#Armor bonus for every enchantment level.
+		#Range: 0.0 ~ 10.0
+		armor_bonus = 0.2
+
+	#Configuration for GoldenBandage item.
+	[Features.GoldenBandage]
+		#Is GoldenBandage always usable? If not player can only use GoldenBandage when it is bleeding.
+		is_always_usable = true
+		#Duration in seconds of Regeneration effect.
+		#Range: 1.0 ~ 120.0
+		regeneration_duration = 4.0
+		#Level/amplifier of Regeneration effect.
+		#Range: 0 ~ 10
+		regeneration_amplifier = 1
+		#Duration in seconds of Bleeding Immunity effect.
+		#Range: 1.0 ~ 600.0
+		immunity_duration = 90.0
+
+	#Configuration for treasure bags.
+	[Features.TreasureBag]
+		#Is treasure bag from Undead Army available in survival mode?
+		undead_army = true
+		#Is treasure bag from Elder Guardian available in survival mode?
+		elder_guardian = true
+		#Is treasure bag from Wither available in survival mode?
+		wither = true
+		#Is treasure bag from Ender Dragon available in survival mode?
+		ender_dragon = true
+		#Is treasure bag from Fishing available in survival mode?
+		fishing = true
+		#Is treasure bag from Pillager Raid available in survival mode?
+		pillager = true
+
+	#Configuration for new late game ore.
+	[Features.EndShardOre]
+		#Should this ore be available in survival mode? (ore generation, loot tables etc.) (requires game restart!)
+		is_enabled = true
+		#Maximum distance within which all nearby Endermans will be triggered. (when block was mined)
+		#Range: 0.0 ~ 1000000.0
+		trigger_distance = 700.0
+
+	#Bleeding potion effect.
+	[Features.Bleeding]
+		#Damage dealt by bleeding every tick.
+		#Range: 0.0 ~ 20.0
+		damage = 1.0
+		#Cooldown between attacking entity.
+		#Range: 0.0 ~ 20.0
+		cooldown = 4.0
+		#Bleeding chance reduction per armor piece.
+		#Range: 0.0 ~ 0.25
+		armor_reduction = 0.2
+		#List of entities that are immune to Bleeding effect. (only human-like mobs and animals)
+		black_list = ["minecraft:skeleton_horse"]
+
+		#Bleeding amplifier.
+		[Features.Bleeding.amplifier]
+			#Normal Mode
+			#Range: 0 ~ 10
+			normal = 0
+			#Expert Mode
+			#Range: 0 ~ 10
+			expert = 1
+			#Master Mode
+			#Range: 0 ~ 10
+			master = 1.5
+
+	#Spider inflicts poison.
+	[Features.SpiderPoison]
+		#Is this feature enabled?
+		is_enabled = false
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+
+	#Sky Keeper inflicts levitation.
+	[Features.SkyKeeperLevitation]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 0.5
+		#Effect duration in seconds.
+		#Range: 1.0 ~ 600.0
+		duration = 6.0
+
+	#Drowned attacks with trident spawn lightning bolt.
+	[Features.DrownedLightning]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 0.1
+
+	#Drowning inflicts Nausea and Drowning.
+	[Features.NauseaAndWeaknessWhenDrowning]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 1.0
+		#Effects duration in seconds.
+		#Range: 1.0 ~ 600.0
+		duration = 5.0
+
+	#Wither Sword inflicts Wither II.
+	[Features.WitherSword]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 0.6
+		#Effect duration in seconds.
+		#Range: 1.0 ~ 600.0
+		duration = 6.0
+
+	#Touching cactus inflict bleeding.
+	[Features.CactusBleeding]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 0.5
+		#Effect duration in seconds.
+		#Range: 1.0 ~ 600.0
+		duration = 24.0
+
+	#All sharp items inflict bleeding. (tools, weapons, shears etc.)
+	[Features.SharpItemBleeding]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+		#Effect duration in seconds.
+		#Range: 1.0 ~ 600.0
+		duration = 24.0
+
+	#Arrow inflicts bleeding.
+	[Features.ArrowBleeding]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+		#Effect duration in seconds.
+		#Range: 1.0 ~ 600.0
+		duration = 24.0
+
+	#Thrown trident cause bleeding on target.
+	[Features.TridentBleeding]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 0.5
+		#Effect duration in seconds.
+		#Range: 1.0 ~ 600.0
+		duration = 30.0
+
+	#Animals, zombies and spiders inflict bleeding.
+	[Features.BiteBleeding]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 0.5
+		#Effect duration in seconds.
+		#Range: 1.0 ~ 600.0
+		duration = 24.0
+
+	#Enderman attack teleports the player somewhere nearby.
+	[Features.EndermanTeleport]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 0.4
+
+	#Sneaking while attacking with End Sword inflicts levitation.
+	[Features.EndSwordLevitation]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 0.5
+		#Effect duration in seconds.
+		#Range: 1.0 ~ 600.0
+		duration = 4.0
+
+	#Makes all nearby enderman target player when it hits any of them.
+	[Features.EndermanAttack]
+		#Is this feature enabled?
+		is_enabled = true
+
+	#Shulker inflict Blindness.
+	[Features.ShulkerBlindness]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 0.5
+		#Effect duration in seconds.
+		#Range: 1.0 ~ 600.0
+		duration = 5.0
+
+	#Applies Nausea and Slowness on fall.
+	[Features.FallEffects]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 0.2
+		#Effects duration in seconds.
+		#Range: 1.0 ~ 600.0
+		duration = 3.0
+		#Is applying Nausea enabled?
+		nausea = true
+		#Is applying Slowness enabled?
+		slowness = true
+
+	#Makes all Creepers take less damage from other Creepers.
+	[Features.CreeperExplosionReduction]
+		#Is this feature enabled?
+		is_enabled = false
+		#Damage multiplier when Creepers attack Creeper.
+		#Range: 0.0 ~ 1.0
+		damage_multiplier = 0.1
+
+	#Makes all Creepers ignite every nearby Creeper when exploding.
+	[Features.CreeperIgnite]
+		#Is this feature enabled?
+		is_enabled = false
+
+	#Slime inflicts Slowness.
+	[Features.SlimeSlowness]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 0.5
+		#Effect duration in seconds.
+		#Range: 1.0 ~ 600.0
+		duration = 6.0
+
+	#Damage and health bonuses of hostile creatures.
+	[Features.SpawnBonuses]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 1.0
+		#Extra damage and health multiplier at night.
+		#Range: 1.0 ~ 10.0
+		night_multiplier = 2.0
+
+		#Extra health multiplier.
+		[Features.SpawnBonuses.HealthMultiplier]
+			#Normal Mode
+			#Range: 0.0 ~ 10.0
+			normal = 0.0
+			#Expert Mode
+			#Range: 0.0 ~ 10.0
+			expert = 0.2
+			#Master Mode
+			#Range: 0.0 ~ 10.0
+			master = 0.4
+
+		#Extra damage multiplier.
+		[Features.SpawnBonuses.DamageMultiplier]
+			#Normal Mode
+			#Range: 0.0 ~ 10.0
+			normal = 0.0
+			#Expert Mode
+			#Range: 0.0 ~ 10.0
+			expert = 0.2
+			#Master Mode
+			#Range: 0.0 ~ 10.0
+			master = 0.4
+
+	#Wither Skeleton spawns with Wither Sword.
+	[Features.WitherSkeletonSword]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 0.5
+
+	#Evoker spawns with Totem of Undying.
+	[Features.EvokerTotem]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 1.0
+
+	#Creepers spawning charged.
+	[Features.CreeperCharged]
+		#Is this feature enabled?
+		is_enabled = false
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 0.125
+
+	#Creeper spawns with negative effects applied.
+	[Features.CreeperEffects]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 0.375
+		#Duration of effects applied to creeper.
+		#Range: 1.0 ~ 60.0
+		duration = 6.0
+
+	#Piglin spawns in groups.
+	[Features.PiglingGroup]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+		#Chance for followers to have a Golden Sword.
+		#Range: 0.0 ~ 0.5
+		golden_sword_chance = 0.25
+
+	#Pillager spawns in groups with Pillager's Wolves.
+	[Features.PillagerGroup]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+
+	#Skeleton spawns in groups.
+	[Features.SkeletonGroup]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+		#Chance for followers to have a Wooden Sword.
+		#Range: 0.0 ~ 0.5
+		wooden_sword_chance = 0.5
+		#Chance for followers to have a Stone Sword.
+		#Range: 0.0 ~ 0.5
+		stone_sword_chance = 0.25
+
+	#Zombies spawns in groups.
+	[Features.ZombieGroup]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+		#Chance for followers to have a Wooden Axe.
+		#Range: 0.0 ~ 0.5
+		wooden_axe_chance = 0.25
+		#Chance for followers to have a Stone Sword.
+		#Range: 0.0 ~ 0.5
+		stone_sword_chance = 0.25
+
+	#Extra chance for jockey to spawn.
+	[Features.Jockey]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 0.125
+
+	#Elite Skeleton spawns in groups.
+	[Features.EliteSkeletonGroup]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+
+	#Creepers exploding when near the player behind the wall.
+	[Features.CreeperDestroyingWalls]
+		#Is this feature enabled?
+		is_enabled = false
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 1.0
+
+	#Spawns special Zombie whenever player dies from Bleeding or Zombie.
+	[Features.PlayerZombie]
+		#Is this feature enabled?
+		is_enabled = false
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 1.0
+		#Chance for spawned Zombie to have a player's head.
+		#Range: 0.0 ~ 1.0
+		head_chance = 1.0
+		#Chance for special Zombie to drop a player's head on death. (if it has one)
+		#Range: 0.0 ~ 1.0
+		head_drop_chance = 0.01
+
+	#Increases size of all explosions. (creeper, tnt, ghast ball etc.)
+	[Features.BiggerExplosionSize]
+		#Is this feature enabled?
+		is_enabled = false
+		#Explosion radius multiplier. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 1.0 ~ 10.0
+		maximum_multiplier = 1.2599
+
+	#Makes all explosions leave fire.
+	[Features.ExplosionCausingFire]
+		#Is this feature enabled?
+		is_enabled = false
+		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		chance = 1.0
+
+	#Creepers after the explosion have a chance to spawn Creeperlings.
+	[Features.SplitCreeper]
+		#Is this feature enabled?
+		is_enabled = true
+		#Chance of this feature to happen. 
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+
+		#Maximum amount of Creeperlings.
+		[Features.SplitCreeper.maximum_creeperlings]
+			#Normal Mode
+			#Range: 0 ~ 10
+			normal = 1
+			#Expert Mode
+			#Range: 0 ~ 10
+			expert = 3
+			#Master Mode
+			#Range: 0 ~ 10
+			master = 5
+
+	#Experience bonuses.
+	[Features.Experience]
+
+		#Extra experience multiplier.
+		[Features.Experience.BonusMultiplier]
+			#Normal Mode
+			#Range: 0.0 ~ 10.0
+			normal = 0.0
+			#Expert Mode
+			#Range: 0.0 ~ 10.0
+			expert = 0.2
+			#Master Mode
+			#Range: 0.0 ~ 10.0
+			master = 0.4
+
+	#Everything related to fishing.
+	[Features.Fishing]
+
+		#Required amount of items fished to get Treasure Bag.
+		[Features.Fishing.RequiredItems]
+			#Normal Mode
+			#Range: 3 ~ 100
+			normal = 20
+			#Expert Mode
+			#Range: 3 ~ 100
+			expert = 15
+			#Master Mode
+			#Range: 3 ~ 100
+			master = 10
+
+[Entities]
+
+	[Entities.EliteSkeleton]
+		#Is entity naturally spawning?
+		is_spawning = true
+		#Chance for Elite Skeleton to use Tipped Arrow instead of simple Arrow. (scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		tipped_arrow_chance = 0.75
+		#Chance for quick shot. (series of 4 shots in the shorter interval) (scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		quick_shot_chance = 0.5
+		#Chance for shooting 3 arrows instead of 1. (scaled by Clamped Regional Difficulty)
+		#Range: 0.0 ~ 1.0
+		multi_shot_chance = 0.5
+
+	[Entities.Giant]
+		#Is entity naturally spawning?
+		is_spawning = false
+
+	[Entities.Illusioner]
+		#Is entity naturally spawning?
+		is_spawning = true
+
+	[Entities.PillagerWolf]
+		#Is entity naturally spawning?
+		is_spawning = true
+
+	[Entities.SkyKeeper]
+		#Is entity naturally spawning?
+		is_spawning = true
+
+	[Entities.Creeperling]
+		#Is entity naturally spawning?
+		is_spawning = true
+
+[Structures]
+
+	#Configuration for Flying Phantom structure.
+	[Structures.FlyingPhantom]
+		#Is this structure enabled?
+		is_enabled = true
+		#Minimum distance in chunks between this structures.
+		#Range: 4 ~ 200
+		minimum_distance = 47
+		#Maximum distance in chunks between this structures.
+		#Range: 4 ~ 200
+		maximum_distance = 67
+
+	#Configuration for Flying End Island structure.
+	[Structures.FlyingEndIsland]
+		#Is this structure enabled?
+		is_enabled = true
+		#Minimum distance in chunks between this structures.
+		#Range: 4 ~ 200
+		minimum_distance = 6
+		#Maximum distance in chunks between this structures.
+		#Range: 4 ~ 200
+		maximum_distance = 12
+		#Chance for spawning building on island.
+		#Range: 0.0 ~ 1.0
+		building_chance = 0.2
+
+	#Configuration for Flying End Ship structure.
+	[Structures.FlyingEndShip]
+		#Is this structure enabled?
+		is_enabled = true
+		#Minimum distance in chunks between this structures.
+		#Range: 4 ~ 200
+		minimum_distance = 32
+		#Maximum distance in chunks between this structures.
+		#Range: 4 ~ 200
+		maximum_distance = 64
+
+[GameState]
+
+	[GameState.IncreasingDifficulty]
+		#List of entities starting Expert Mode after killing them.
+		entities_expert = ["none"]
+		#List of entities starting Master Mode after killing them.
+		entities_master = ["minecraft:ender_dragon"]
+		#List of dimensions starting Expert Mode when a player enters it for the first time. (ignored when any_dimension_expert is set to true)
+		dimensions_expert = ["minecraft:the_nether"]
+		#List of dimensions starting Master Mode when a player enters it for the first time.
+		dimensions_master = ["none"]
+		#Should entering any dimension start Expert Mode?
+		any_dimension_expert = false
+
+[UndeadArmy]
+	#Is the Undead Army enabled?
+	is_enabled = true
+	#Required amount of killed undead to start the Undead Army.
+	#Range: 10 ~ 1000
+	kill_requirement = 100
+	#Extra size multiplier for each extra player participating in the Undead Army.
+	#Range: 0.1 ~ 1.0
+	player_scale = 0.5
+	#Time between waves. (in seconds) (requires game/world restart!) 
+	#Range: 3.0 ~ 60.0
+	time_between_waves = 10.0
+	#The maximum duration before Undead Army will end if there is no player. (in seconds) (requires game/world restart!) 
+	#Range: 300.0 ~ 3200.0
+	inactive_duration = 900.0
+
+	#Experience for each player after defeating the Undead Army.
+	[UndeadArmy.Experience]
+		#Normal Mode
+		#Range: 4 ~ 1000
+		normal = 40
+		#Expert Mode
+		#Range: 4 ~ 1000
+		expert = 80
+		#Master Mode
+		#Range: 4 ~ 1000
+		master = 120
+
+	#Treasure Bags for each player after defeating the Undead Army.
+	[UndeadArmy.TreasureBags]
+		#Normal Mode
+		#Range: 1 ~ 5
+		normal = 1
+		#Expert Mode
+		#Range: 1 ~ 5
+		expert = 1
+		#Master Mode
+		#Range: 1 ~ 5
+		master = 2
+
+	#Chance of the undead to have enchanted items. (separate for each item)
+	[UndeadArmy.EnchantedItems]
+		#Normal Mode
+		#Range: 0.0 ~ 1.0
+		normal = 0.125
+		#Expert Mode
+		#Range: 0.0 ~ 1.0
+		expert = 0.25
+		#Master Mode
+		#Range: 0.0 ~ 1.0
+		master = 0.5
+
+	#Chance of the undead to have armor piece. (separate for each armor piece)
+	[UndeadArmy.ArmorChance]
+		#Normal Mode
+		#Range: 0.0 ~ 1.0
+		normal = 0.25
+		#Expert Mode
+		#Range: 0.0 ~ 1.0
+		expert = 0.5
+		#Master Mode
+		#Range: 0.0 ~ 1.0
+		master = 0.75
+

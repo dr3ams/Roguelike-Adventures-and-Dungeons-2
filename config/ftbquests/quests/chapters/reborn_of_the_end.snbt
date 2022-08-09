@@ -1,0 +1,3248 @@
+{
+	id: "00000000000005C5"
+	group: "241F1DC7B6D6E9D6"
+	order_index: 2
+	filename: "reborn_of_the_end"
+	title: "End Exploration"
+	icon: "betterendforge:chorus_nylium"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 2.5d
+			y: -0.5d
+			width: 15.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_dragon.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "betterendforge:textures/sky/nebula_3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.5d
+			y: 3.5d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "betterendforge:textures/sky/nebula_2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.5d
+			y: -3.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "betterendforge:textures/images/infusion_ritual/ritual_structure.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.5d
+			y: 9.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "betterendforge:textures/block/end_lily_leaf_small.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.5d
+			y: 9.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "betterendforge:textures/block/filalux_wings_top.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -2.5d
+			y: 5.5d
+			dependencies: ["00000000000005D4"]
+			id: "00000000000005CB"
+			tasks: [{
+				id: "00000000000005CC"
+				type: "item"
+				item: "endergetic:puffbug_bottle"
+			}]
+			rewards: [
+				{
+					id: "0000000000000615"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7D55E68407263A20"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "6B178AAC79ACB8F4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["00000000000005EF"]
+			id: "00000000000005D0"
+			tasks: [{
+				id: "00000000000005D1"
+				type: "item"
+				item: "endergetic:acidian_lantern"
+			}]
+			rewards: [
+				{
+					id: "0000000000000616"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "248B907E4AA18491"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			dependencies: ["00000000000005E9"]
+			id: "00000000000005D2"
+			tasks: [{
+				id: "00000000000005D3"
+				type: "item"
+				item: "endergetic:poise_boat"
+			}]
+			rewards: [
+				{
+					id: "000000000000061D"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "6CB44A18B1BE166F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["00000000000005EF"]
+			id: "00000000000005D4"
+			tasks: [{
+				id: "00000000000005D5"
+				type: "item"
+				item: "endergetic:bolloom_bud"
+			}]
+			rewards: [
+				{
+					id: "0000000000000622"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "000000000000062A"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			dependencies: ["00000000000005E9"]
+			id: "00000000000005D6"
+			tasks: [{
+				id: "00000000000005D7"
+				type: "item"
+				item: "endergetic:poise_ladder"
+			}]
+			rewards: [
+				{
+					id: "000000000000061A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "594CFD242552141B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 5.0d
+			dependencies: ["00000000000005E9"]
+			id: "00000000000005D8"
+			tasks: [{
+				id: "00000000000005D9"
+				type: "item"
+				item: "endergetic:eumus_brick"
+			}]
+			rewards: [
+				{
+					id: "000000000000061B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "374563F34FF46E78"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["00000000000005E9"]
+			id: "00000000000005E7"
+			tasks: [{
+				id: "00000000000005E8"
+				type: "item"
+				item: "endergetic:poise_bookshelf"
+			}]
+			rewards: [
+				{
+					id: "000000000000061C"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "36DA7334FC027763"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 3.5d
+			dependencies: ["00000000000005EF"]
+			id: "00000000000005E9"
+			tasks: [{
+				id: "00000000000005EA"
+				type: "item"
+				item: "endergetic:poise_planks"
+			}]
+			rewards: [{
+				id: "0000000000000628"
+				type: "item"
+				item: "randomite:randomite_ore"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			shape: "gear"
+			size: 1.5d
+			id: "00000000000005EF"
+			tasks: [{
+				id: "00000000000005F0"
+				type: "item"
+				item: "minecraft:end_stone"
+			}]
+			rewards: [{
+				id: "0000000000000627"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["00000000000005D4"]
+			id: "5E58C743EB40697D"
+			tasks: [{
+				id: "4DA467D02330A18D"
+				type: "item"
+				item: "endergetic:bolloom_balloon"
+			}]
+			rewards: [
+				{
+					id: "7236CBEA3BD81F3F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1BDB978B19568834"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "0BA4161A4D8AB0E4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			dependencies: ["00000000000005E9"]
+			id: "4417B225D5CD5381"
+			tasks: [{
+				id: "68CFF21289B30F3E"
+				type: "item"
+				item: "endergetic:poise_chest"
+			}]
+			rewards: [
+				{
+					id: "0CD57CE6D2BB0216"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "07D113535D3B2A6E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			dependencies: ["00000000000005E9"]
+			id: "2E786F1B59BC1560"
+			tasks: [{
+				id: "6B2A602D98802BB6"
+				type: "item"
+				item: "endergetic:ender_lantern"
+			}]
+			rewards: [
+				{
+					id: "1D5C905E1B83A5AA"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "4EBC517C756A82A6"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "75CA88F230B8344E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			dependencies: ["00000000000005E9"]
+			id: "61B63B9A90DC9A41"
+			tasks: [{
+				id: "6596A5A4EDE55B69"
+				type: "item"
+				item: "endergetic:ender_campfire"
+			}]
+			rewards: [
+				{
+					id: "4293EF83D8A7B5C6"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "65A9C5C801133A05"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "4FD58A74F4D07219"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:elytra"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -0.5d
+			shape: "hexagon"
+			dependencies: ["00000000000005EF"]
+			size: 2.0d
+			id: "3697C11949A0A907"
+			tasks: [{
+				id: "0CE7A1C2DE63B1EB"
+				type: "checkmark"
+				title: "Ender Explorer"
+			}]
+			rewards: [{
+				id: "4C81EAC2B111AE2B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "betterendforge:end_lily_leaf"
+			x: -3.0d
+			y: -1.5d
+			description: ["Deep lakes in the nether filled with End Lotus flowers."]
+			dependencies: ["3697C11949A0A907"]
+			id: "783082B8C8FB9061"
+			tasks: [{
+				id: "28BD9EBD8925D2CE"
+				type: "biome"
+				title: "Megalake"
+				icon: "betterendforge:end_lily_leaf"
+				biome: "betterendforge:megalake"
+			}]
+			rewards: [
+				{
+					id: "3848D941F1F185B3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4D209F46905C5E0F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			description: ["Megalakes but with Lacugrove trees and various flowers. May seem to be a more like a grassland than a lake."]
+			dependencies: ["3697C11949A0A907"]
+			id: "1ECA6B89B6D233FE"
+			tasks: [{
+				id: "419C5234C87CB873"
+				type: "biome"
+				title: "Megalake Grove"
+				icon: "betterendforge:umbrella_moss_tall"
+				biome: "betterendforge:megalake_grove"
+			}]
+			rewards: [
+				{
+					id: "1688F47A89BE7CBB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "270043B3E5A2266A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			description: ["Flower-filled land covered with giant bioluminescent glowshroom trees."]
+			dependencies: ["3697C11949A0A907"]
+			id: "72621E64C7433420"
+			tasks: [{
+				id: "568F3788FDCDA03E"
+				type: "biome"
+				title: "Foggy Mushroomland"
+				icon: "betterendforge:mossy_glowshroom_fur"
+				biome: "betterendforge:foggy_mushroomland"
+			}]
+			rewards: [
+				{
+					id: "07EB06FCD7525A53"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1ABFA346EFC0A0F5"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			description: ["Thick forest of hanging vines, Umbrella trees, and jellyshrooms."]
+			dependencies: ["3697C11949A0A907"]
+			id: "3F33F2304E5E7667"
+			tasks: [{
+				id: "7F1464E45E6DD2CF"
+				type: "biome"
+				title: "Umbrella Jungle"
+				icon: "betterendforge:twisted_umbrella_moss_tall"
+				biome: "betterendforge:umbrella_jungle"
+			}]
+			rewards: [{
+				id: "2249F925E1F64EAB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			description: ["Large stars of ice and snow that exist between ender islands."]
+			dependencies: ["3697C11949A0A907"]
+			id: "5D80B3968D2593F6"
+			tasks: [{
+				id: "7BCB30C57D340AE2"
+				type: "biome"
+				title: "Ice Starfield"
+				icon: "betterendforge:ancient_emerald_ice"
+				biome: "betterendforge:ice_starfield"
+			}]
+			rewards: [
+				{
+					id: "1B5698A10F4224F5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "02C20FC725B75ADD"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: ["End stone spires covered in pink Tenanea trees and vines."]
+			dependencies: ["3697C11949A0A907"]
+			id: "6BE71A977A31E41B"
+			tasks: [{
+				id: "059A1A00A55A3E1C"
+				type: "biome"
+				title: "Blossoming Spires"
+				icon: "betterendforge:tenanea_sapling"
+				biome: "betterendforge:blossoming_spires"
+			}]
+			rewards: [
+				{
+					id: "23AEE4C33054D0CD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5E5374882AD863DA"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: ["A flat grassland that is extremely grassy and has lumecorn sprouts."]
+			dependencies: ["3697C11949A0A907"]
+			id: "13EAD10EE57FCCBC"
+			tasks: [{
+				id: "63BFFF5B0CA5798D"
+				type: "biome"
+				title: "Glowing Grasslands"
+				icon: "betterendforge:blooming_cooksonia"
+				biome: "betterendforge:glowing_grasslands"
+			}]
+			rewards: [
+				{
+					id: "1B0B718256E72F83"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "35E83F55C05BEBD9"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			description: ["A vibrant orange land with thick ground cover and large Helix trees."]
+			dependencies: ["3697C11949A0A907"]
+			id: "60862E8751A2AB9D"
+			tasks: [{
+				id: "37BD9C1B9C1A2962"
+				type: "biome"
+				title: "Amber Land"
+				icon: "betterendforge:amber_grass"
+				biome: "betterendforge:amber_land"
+			}]
+			rewards: [
+				{
+					id: "4773E7E67A488A1A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1E5E85C190CEBB9E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			description: ["A land filled with various stacks of sulfur vents that contain their own water based ecosystems. Are worth a dive into."]
+			dependencies: ["3697C11949A0A907"]
+			id: "0D771167B0378700"
+			tasks: [{
+				id: "26155791932AF541"
+				type: "biome"
+				title: "Sulphur Springs"
+				icon: "betterendforge:hydrothermal_vent"
+				biome: "betterendforge:sulphur_springs"
+			}]
+			rewards: [
+				{
+					id: "11AB34BBB07E1A28"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "665EE52AB5FF69B6"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			description: ["A forest of Chorus plants and Pythadendron trees."]
+			dependencies: ["3697C11949A0A907"]
+			id: "580BDDDD0ED68F5A"
+			tasks: [{
+				id: "1E1E2436F090A050"
+				type: "biome"
+				title: "Chorus Forest"
+				icon: "betterendforge:chorus_nylium"
+				biome: "betterendforge:chorus_forest"
+			}]
+			rewards: [
+				{
+					id: "35244BE0FF0AD73F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5301C112C3709EC4"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			description: ["A desolate, dusty region with not much significance beyond a large Enderman population."]
+			dependencies: ["3697C11949A0A907"]
+			id: "5660A78B0AE862C7"
+			tasks: [{
+				id: "6C9A3C8AFE33C2A9"
+				type: "biome"
+				title: "Dust Wasteland"
+				icon: "minecraft:end_stone"
+				biome: "betterendforge:dust_wasteland"
+			}]
+			rewards: [
+				{
+					id: "72ADE9DD2F4F7DE3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "31AEA1E6FBCAD5A6"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			description: ["A layered mountainous land of various ender rocks."]
+			dependencies: ["3697C11949A0A907"]
+			id: "4FD8DB6A4B137B73"
+			tasks: [{
+				id: "509D3A508AD6D23E"
+				type: "biome"
+				title: "Painted Mountains"
+				icon: "betterendforge:violecite"
+				biome: "betterendforge:painted_mountains"
+			}]
+			rewards: [
+				{
+					id: "1738CD56C3839E5A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7A32F2C9F2408D27"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: ["Dark forest of Dragon trees and shadow plants."]
+			dependencies: ["3697C11949A0A907"]
+			id: "6D798E6430C4C1C5"
+			tasks: [{
+				id: "2BF57FC30148AB9E"
+				type: "biome"
+				title: "Shadow Forest"
+				icon: "betterendforge:shadow_grass"
+				biome: "betterendforge:shadow_forest"
+			}]
+			rewards: [
+				{
+					id: "4C2746B2026D1581"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3E25AE88F1FB5826"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			description: ["Mountainous islands that have large rainbow Aurora Crystal formations."]
+			dependencies: ["3697C11949A0A907"]
+			id: "742FA17F32B5562D"
+			tasks: [{
+				id: "371FA0013EB104B6"
+				type: "biome"
+				title: "Crystal Mountains"
+				icon: "betterendforge:aurora_crystal"
+				biome: "betterendforge:crystal_mountains"
+			}]
+			rewards: [
+				{
+					id: "111CD125140326BD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "111364F76AA81B14"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			description: ["Mining Aurora Crystal will give you shards that are infused with a mythical energy that pulses through the End."]
+			dependencies: ["742FA17F32B5562D"]
+			id: "5E2DFA9A653F3619"
+			tasks: [{
+				id: "00E94F69B9B1075B"
+				type: "item"
+				item: "betterendforge:crystal_shards"
+			}]
+			rewards: [{
+				id: "5C9A6B7A8FE5BDD1"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			description: ["The End for Dummies explains portal restart rituals and infusions."]
+			dependencies: [
+				"5E2DFA9A653F3619"
+				"0B56F802933E9AB7"
+			]
+			id: "5FE08145513FF66D"
+			tasks: [{
+				id: "0FFDEDBC35546A6A"
+				type: "item"
+				item: "betterendforge:guidebook"
+			}]
+			rewards: [{
+				id: "142B05B29006B955"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			description: ["Infusion rituals and pedestal setup are described in The End for Dummies."]
+			dependencies: ["5FE08145513FF66D"]
+			id: "55DCE2FA47D4C837"
+			tasks: [{
+				id: "33057BB7CEA11A6D"
+				type: "item"
+				item: "betterendforge:infusion_pedestal"
+			}]
+			rewards: [{
+				id: "20C878DBB071EF96"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			title: "Amber"
+			x: 9.0d
+			y: -5.0d
+			description: ["Comes from Amber ore. Gives raw amber, placing 2x2 in a crafting table to make a gem."]
+			dependencies: ["55DCE2FA47D4C837"]
+			id: "5E4164741B56B1BC"
+			tasks: [
+				{
+					id: "54F96D53C523B048"
+					type: "item"
+					item: "betterendforge:amber_gem"
+				}
+				{
+					id: "7B3FCC92FBC455BB"
+					type: "item"
+					item: "betterendforge:raw_amber"
+				}
+			]
+			rewards: [
+				{
+					id: "7FD22FF46BC87E81"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "63CAF823CB3E3A6D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -6.0d
+			description: ["Infused Terminite Armor"]
+			dependencies: ["5E4164741B56B1BC"]
+			id: "254E533B919E0141"
+			tasks: [
+				{
+					id: "666D7ABBC8030354"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60D4FDBE448CADB3"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73C1F60908B712DF"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "747BBFFAC48F382E"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7F006423967074B0"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "4D2AF817482E4721"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "2C3D30465188331A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -3.0d
+			description: ["Comes from Ender Ore, rare ore deep in ender islands."]
+			dependencies: ["55DCE2FA47D4C837"]
+			id: "6E047390333830E1"
+			tasks: [{
+				id: "35D9D17378CFBBF4"
+				type: "item"
+				item: "betterendforge:ender_shard"
+			}]
+			rewards: [
+				{
+					id: "64509404EDF4DE86"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2E96FEF5941C27DC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -5.0d
+			description: ["Used to re-activate portals, in infusions, and to make a respawn obelisk."]
+			dependencies: ["6E047390333830E1"]
+			id: "16BC2746E4DD50B9"
+			tasks: [{
+				id: "481BAE1D47E8E4C7"
+				type: "item"
+				item: "betterendforge:eternal_crystal"
+			}]
+			rewards: [
+				{
+					id: "2CFD32189E2D0E92"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "4E06A0BFB1DFA4B3"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			description: ["Can be made by a number of methods on an anvil, check JEI for specifics."]
+			id: "0B56F802933E9AB7"
+			tasks: [{
+				id: "78DBEF6A0D0A5E13"
+				type: "item"
+				item: "betterendforge:ender_dust"
+			}]
+			rewards: [{
+				id: "38B7F1FC7BAF2FD5"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			description: ["Alloy of Iron and Ender Dust made in a End Stone Smelter."]
+			dependencies: [
+				"0B56F802933E9AB7"
+				"46966AA1DDAD75DC"
+			]
+			id: "2F65B1126A72219F"
+			tasks: [{
+				id: "655865A531EB741B"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+			}]
+			rewards: [
+				{
+					id: "2AC8171988F9E19D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "022BB92CCFFFAF87"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "1CD3ED3C8E1C2159"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			description: ["Alloy of Netherite and Terminite made in a End Stone Smelter."]
+			dependencies: ["2F65B1126A72219F"]
+			id: "0BD7D528F30810EC"
+			tasks: [{
+				id: "2CFDAEF3092BDF7F"
+				type: "item"
+				item: "betterendforge:aeternium_ingot"
+			}]
+			rewards: [
+				{
+					id: "153960542EBFDD82"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0AB1BE41BF7DDFD4"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "5D535548F7CA8E02"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			description: ["Able to create unique alloys."]
+			dependencies: ["32C3FF52CD5AB5E7"]
+			id: "46966AA1DDAD75DC"
+			tasks: [{
+				id: "2BD755899F8F728A"
+				type: "item"
+				item: "betterendforge:end_stone_smelter"
+			}]
+			rewards: [
+				{
+					id: "301330DD2728CD48"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "5C6C2542AD3C1223"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Terminite Tools"
+			x: 7.0d
+			y: 4.0d
+			description: ["A handy Terminite tool set."]
+			dependencies: ["2F65B1126A72219F"]
+			id: "692AFCEA58029429"
+			tasks: [
+				{
+					id: "5A1F280E8BB6ED7E"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D36BB7825CBA0F0"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5846F53B9EF57D35"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5305776B4B33FB26"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "32C67DD1419ADF87"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "001A89DBA6A2D354"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "19B097A8F735738C"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			title: "Terminite Armor"
+			x: 9.0d
+			y: 4.0d
+			description: ["A whole set of End-alloy armor."]
+			dependencies: ["2F65B1126A72219F"]
+			id: "3A8254A2C4CDE79E"
+			tasks: [
+				{
+					id: "0EA580BEF42BD6BB"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70DE2EB58353B950"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17FE1BC9DB7D883E"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1AA0A97764E4B577"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "35D47D00B8308630"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "5154DD18C4D03BCB"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Aeternium Armor"
+			x: 10.5d
+			y: 4.0d
+			description: [
+				"From combining Terminite Armor with Aeternium ingots in a Smithing Table."
+				""
+				"One of the highest tiers of armor."
+			]
+			dependencies: [
+				"0BD7D528F30810EC"
+				"3A8254A2C4CDE79E"
+			]
+			id: "28A8442346F33F41"
+			tasks: [
+				{
+					id: "71A3B0D5665D7837"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5936A8F3EAD442BB"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36B506A540310BB5"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "358D7DDBA14EC93D"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2BB4E47874DE014B"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "42C08F0DD4945EA1"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Aeternium Tools"
+			x: 12.0d
+			y: 4.0d
+			description: ["A set of some of the most durable tools in the game."]
+			dependencies: ["6FF5FFEE7F672F05"]
+			id: "36543B4BFF59FC05"
+			tasks: [
+				{
+					id: "3D7F81B2DA447F24"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F92487B510CB74F"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "76D3299533AE1109"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "46937ECFF320CE6D"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "128BD303E05F627D"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "440B91AEB53F761A"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "474BAB1094D8948F"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "2FA1BB6A9D1B26D0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Aeternium Tool Parts"
+			x: 13.0d
+			y: 2.5d
+			description: ["Smithed in an anvil with a Smith Hammer and Aeternium ingots."]
+			dependencies: ["0BD7D528F30810EC"]
+			id: "6FF5FFEE7F672F05"
+			tasks: [
+				{
+					id: "380AC66D876AE12B"
+					type: "item"
+					item: "betterendforge:leather_wrapped_stick"
+					count: 5L
+				}
+				{
+					id: "2B2FF700F1692190"
+					type: "item"
+					item: "betterendforge:aeternium_sword_handle"
+				}
+				{
+					id: "0D90C2914661B1C9"
+					type: "item"
+					item: "betterendforge:aeternium_sword_blade"
+				}
+				{
+					id: "4D50D174D65147A2"
+					type: "item"
+					item: "betterendforge:aeternium_hammer_head"
+				}
+				{
+					id: "4AF2A5F3F91B2318"
+					type: "item"
+					item: "betterendforge:aeternium_hoe_head"
+				}
+				{
+					id: "3F0106DEA4221D46"
+					type: "item"
+					item: "betterendforge:aeternium_axe_head"
+				}
+				{
+					id: "205B7A8C79AF58A9"
+					type: "item"
+					item: "betterendforge:aeternium_pickaxe_head"
+				}
+				{
+					id: "09B67B5F5B6F3802"
+					type: "item"
+					item: "betterendforge:aeternium_shovel_head"
+				}
+			]
+			rewards: [{
+				id: "3FA522192582C4D4"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			shape: "square"
+			dependencies: ["63A64571BBB85FE5"]
+			id: "39A61748CFB2F2D8"
+			tasks: [{
+				id: "359480332DF3D726"
+				type: "item"
+				item: {
+					id: "betterendforge:sulphuric_rock"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "465661C5798506E9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "439E573DB0F1492C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "14BD6FD4E630A0F5"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			shape: "square"
+			dependencies: ["39A61748CFB2F2D8"]
+			id: "782DEB53EFBB738C"
+			tasks: [{
+				id: "50A3E4C82B23BE6B"
+				type: "item"
+				item: {
+					id: "betterendforge:sulphuric_rock_polished"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "018ACE0146D33D54"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2E72236DD99BA3CD"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "3E08B10932D1D89E"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			shape: "square"
+			dependencies: ["39A61748CFB2F2D8"]
+			id: "0C3DD4D7B3E03A0A"
+			tasks: [{
+				id: "1BED65C7280F718F"
+				type: "item"
+				item: {
+					id: "betterendforge:sulphuric_rock_tiles"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2B506B56CAB00B98"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "35324E5F233CDD99"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "2918041177E5E472"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			shape: "square"
+			dependencies: ["39A61748CFB2F2D8"]
+			id: "0B232373C5605B4B"
+			tasks: [{
+				id: "7977E566F320018C"
+				type: "item"
+				item: {
+					id: "betterendforge:sulphuric_rock_pedestal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6A18BFA1F9E78617"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7E32E6994B31E11F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "7ACC51805EB7BB7F"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 8.0d
+			shape: "square"
+			dependencies: ["63A64571BBB85FE5"]
+			id: "269E793268F8802E"
+			tasks: [{
+				id: "05573BECCD03739E"
+				type: "item"
+				item: {
+					id: "betterendforge:violecite"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "13FE058F7B51F346"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3E0A50C46750F5F1"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "6C0F9701E7901800"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 9.0d
+			shape: "square"
+			dependencies: ["269E793268F8802E"]
+			id: "49CCD5669342BECB"
+			tasks: [{
+				id: "310D396B7FF3E7A0"
+				type: "item"
+				item: {
+					id: "betterendforge:violecite_polished"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5A05DF25E4E45EB5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "50E6703393BAD18F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "35324A2C63C8D363"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 7.5d
+			shape: "square"
+			dependencies: ["269E793268F8802E"]
+			id: "1F9C3A646D1331CE"
+			tasks: [{
+				id: "2E8D6D1AED3D0761"
+				type: "item"
+				item: {
+					id: "betterendforge:violecite_pedestal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7D02AC6909ED3EDE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1C373A150B7EB47F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "098A30E3771250C5"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 6.5d
+			shape: "square"
+			dependencies: ["269E793268F8802E"]
+			id: "0E4C1821A9B993BA"
+			tasks: [{
+				id: "2971454259A72DC5"
+				type: "item"
+				item: {
+					id: "betterendforge:violecite_lantern"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5970F4E27435ABB8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "68C8CFED3F336D5B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "6C9331D536402A35"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 9.5d
+			shape: "square"
+			dependencies: ["63A64571BBB85FE5"]
+			id: "75E1E7342850F01A"
+			tasks: [{
+				id: "2ECFB2B0F2BD2AF7"
+				type: "item"
+				item: {
+					id: "betterendforge:flavolite"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "02BB96882C3F26A0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "41E8F159AC14D714"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "439F1C5B0730B823"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 10.5d
+			shape: "square"
+			dependencies: ["75E1E7342850F01A"]
+			id: "560078C59257B59D"
+			tasks: [{
+				id: "434D8409475C8958"
+				type: "item"
+				item: {
+					id: "betterendforge:flavolite_lantern"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "513C2BBB8F4934C5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "06E8CB33C0839F37"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "290899DD0156D2B6"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 7.5d
+			shape: "square"
+			dependencies: ["63A64571BBB85FE5"]
+			id: "5ED2954BF674562F"
+			tasks: [{
+				id: "20B0F05D27F0EFFE"
+				type: "item"
+				item: {
+					id: "betterendforge:virid_jadestone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6B2CCA9658D27CEB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0EA3C69AA7F35A78"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "5F2A2048F52402FF"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 10.0d
+			shape: "square"
+			dependencies: ["63A64571BBB85FE5"]
+			id: "6CEB160C26CB76E6"
+			tasks: [{
+				id: "11B3D6DDA9005BDB"
+				type: "item"
+				item: {
+					id: "betterendforge:azure_jadestone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "799D599526DB22A5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6CE35B230C2E3C22"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "6C57B5296DE472F4"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 8.5d
+			shape: "square"
+			dependencies: ["63A64571BBB85FE5"]
+			id: "449B74375F7BF371"
+			tasks: [{
+				id: "0E471FB798860CD9"
+				type: "item"
+				item: {
+					id: "betterendforge:sandy_jadestone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "43DB4B3A6F10F83F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "07645A3E86B08644"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "6882264444AFE6C5"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 9.5d
+			shape: "square"
+			dependencies: ["63A64571BBB85FE5"]
+			id: "0E36BF29D8DD8FD7"
+			tasks: [{
+				id: "1236B5E099206A20"
+				type: "item"
+				item: {
+					id: "betterendforge:umbralith"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6C05DF44E63817D9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "59BE9330FDC7E139"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "3ADF71BD27F95B64"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			shape: "square"
+			dependencies: ["269E793268F8802E"]
+			id: "426ACE2EBEBB9FEE"
+			tasks: [{
+				id: "6102B44005BF648C"
+				type: "item"
+				item: {
+					id: "betterendforge:missing_tile"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "360095278FDBFD1C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "39C6366D14CD2297"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "79167E95C6C459AD"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 8.5d
+			shape: "hexagon"
+			id: "264AD5D47F599BB4"
+			tasks: [{
+				id: "7F66B1C94BE9D452"
+				type: "item"
+				item: {
+					id: "betterendforge:mossy_glowshroom_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7578C57C35D97DD1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "44F4907BDFF57D3F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			shape: "hexagon"
+			id: "3A69B1F4A875CBF9"
+			tasks: [{
+				id: "1180B4483DE46F42"
+				type: "item"
+				item: {
+					id: "betterendforge:lacugrove_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7AD2667B4DFF2C0F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1196C9E242F7421A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			shape: "hexagon"
+			id: "2591568476B5A934"
+			tasks: [{
+				id: "74A1F02F0BE73F1C"
+				type: "item"
+				item: {
+					id: "betterendforge:end_lotus_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "20A65672AE424809"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "15F38E118DD192C7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 8.5d
+			shape: "hexagon"
+			id: "0B5B4B03D633C140"
+			tasks: [{
+				id: "11C019455C7F8230"
+				type: "item"
+				item: {
+					id: "betterendforge:pythadendron_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6844B5291136ABC1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5215E8D6FB012969"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 9.5d
+			shape: "hexagon"
+			id: "26650D3189DFCC04"
+			tasks: [{
+				id: "37DF1B6F9BF35224"
+				type: "item"
+				item: {
+					id: "betterendforge:dragon_tree_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00426C42BF372A9E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1D1BFB90B952F09E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 10.5d
+			shape: "hexagon"
+			id: "7478ED9C3DED4949"
+			tasks: [{
+				id: "551091DE080EC336"
+				type: "item"
+				item: {
+					id: "betterendforge:tenanea_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0F2CF2B90A8A4FA6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "491DC0A755234688"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 11.0d
+			shape: "hexagon"
+			id: "3CAF3F3365052229"
+			tasks: [{
+				id: "7E5BE8BF16066B6D"
+				type: "item"
+				item: {
+					id: "betterendforge:helix_tree_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4A1D2AA7EB390BDF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5B05AD2C97293CEB"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 9.5d
+			shape: "hexagon"
+			id: "707438FF0D3D725F"
+			tasks: [{
+				id: "47AA8AD28BCBEE21"
+				type: "item"
+				item: {
+					id: "betterendforge:umbrella_tree_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5831C3E8B0C91AFC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3D379EEFC2689D7A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 10.5d
+			shape: "hexagon"
+			id: "0B7D883FB10BC411"
+			tasks: [{
+				id: "0425B51855917269"
+				type: "item"
+				item: {
+					id: "betterendforge:jellyshroom_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "49F78F8BE4E1A0BA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "29F589B69D6A910A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 11.0d
+			shape: "hexagon"
+			id: "48BC53862EE64A59"
+			tasks: [{
+				id: "2E6998DD86319F08"
+				type: "item"
+				item: {
+					id: "betterendforge:lucernia_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "16BDC4B1B6D9D893"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "04BB48E331B89A45"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 9.5d
+			shape: "square"
+			dependencies: ["75E1E7342850F01A"]
+			id: "13098C19BDCFDF51"
+			tasks: [{
+				id: "7132F20698408292"
+				type: "item"
+				item: {
+					id: "betterendforge:flavolite_tiles"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0F0456B97F28E7F3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "474C9EE6FAE5F80B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "747AB400FD817D70"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 8.0d
+			description: ["End dimension was improved!"]
+			dependencies: ["00000000000005EF"]
+			id: "63A64571BBB85FE5"
+			tasks: [{
+				id: "300A3AC891D5B4A2"
+				type: "checkmark"
+				title: "New end stones!"
+			}]
+			rewards: [{
+				id: "70E46E17B747F69C"
+				type: "item"
+				item: {
+					id: "ars_nouveau:greater_experience_gem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			dependencies: ["2F65B1126A72219F"]
+			id: "553BC4807C727F26"
+			tasks: [{
+				id: "744C7FA9B9FD46B3"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_chandelier"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C37FDB758B2473F"
+				type: "item"
+				item: {
+					id: "aquaculture:lockbox"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["32C3FF52CD5AB5E7"]
+			id: "201F0A93BEF6E77B"
+			tasks: [{
+				id: "0D5034A5E96BD05F"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_bulb_lantern"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "663ED4502B8FA107"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_basic"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "55FC4662ABCABAF7"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["32C3FF52CD5AB5E7"]
+			id: "40E26311C46FC8C2"
+			tasks: [{
+				id: "26F33468AB998D0A"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_anvil"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3C8265CC66E78915"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "01F1AA2788EA5C31"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			dependencies: ["2F65B1126A72219F"]
+			id: "526D35099BFBF1DC"
+			tasks: [{
+				id: "2BBDE4786C346210"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_bulb_lantern"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0538A00F49792503"
+				type: "item"
+				item: {
+					id: "randomite:randomite_ore"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["5E2DFA9A653F3619"]
+			id: "44246B5F76798F22"
+			tasks: [{
+				id: "50A9544970E328EA"
+				type: "item"
+				item: {
+					id: "betterendforge:end_stone_lantern"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "78049EA5EB61CED2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_random"
+						rpgloot.randomize: 0b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["00000000000005EF"]
+			id: "3435DF9BFA69769A"
+			tasks: [{
+				id: "65990C5B2574D905"
+				type: "item"
+				item: {
+					id: "betterendforge:purpur_pedestal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F19FC23718DFA73"
+				type: "item"
+				item: {
+					id: "randomite:randomite_ore"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["00000000000005EF"]
+			id: "34B1E3ABB56E4376"
+			tasks: [{
+				id: "15BDEB8056206E20"
+				type: "item"
+				item: {
+					id: "betterendforge:filalux_lantern"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4848CD64BA3E0E81"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_random"
+						rpgloot.randomize: 0b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			dependencies: ["2F65B1126A72219F"]
+			id: "18772A5144A8AC07"
+			tasks: [{
+				id: "605FA1A58643E0B7"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_anvil"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "732AA968948FD0FA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_random"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "53EB150F9C1E5DD2"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			id: "32C3FF52CD5AB5E7"
+			tasks: [{
+				id: "615635188CC43DB6"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7C5E49B2D71267D5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+							rpgloot.randomize: 0b
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "137B4841061F6589"
+					type: "item"
+					item: {
+						id: "ars_nouveau:greater_experience_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 8.5d
+			shape: "hexagon"
+			id: "6A63E88C8F4D9F42"
+			tasks: [{
+				id: "6B4E74F166DDC6F3"
+				type: "item"
+				item: {
+					id: "betterendforge:blossom_berry_seed"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "72486029B94F7DCC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "179CB39C98A85408"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 7.5d
+			shape: "hexagon"
+			id: "0CA55C9A2FFEEB26"
+			tasks: [{
+				id: "29E20782B9037CA3"
+				type: "item"
+				item: {
+					id: "betterendforge:shadow_berry"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "20E675025C0F9777"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7A7E4AA35F46A26F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			shape: "hexagon"
+			id: "5DDC4A45DB00B4B9"
+			tasks: [{
+				id: "330694D2B1B5BC7A"
+				type: "item"
+				item: {
+					id: "betterendforge:glowing_pillar_seed"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2818DE62B5FC87EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1994A3ACF5AF2C79"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 7.5d
+			shape: "hexagon"
+			id: "037F3C67CD6E3745"
+			tasks: [{
+				id: "5CC0501C1EF9C1E0"
+				type: "item"
+				item: {
+					id: "betterendforge:lumecorn_seed"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "188DCAEF185D8B9D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "40328DDFED21307B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			shape: "hexagon"
+			id: "0F1D8D8A78843218"
+			tasks: [{
+				id: "14071F5137347D5B"
+				type: "item"
+				item: {
+					id: "betterendforge:lanceleaf_seed"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5AD75B72395F7A49"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7CA978FF2A097D5F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 10.5d
+			shape: "hexagon"
+			id: "216F437C44439913"
+			tasks: [{
+				id: "4233F2E22F1834AF"
+				type: "item"
+				item: {
+					id: "betterendforge:end_lotus_seed"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "100108CEE7318530"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "353E81C1FB8BB602"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 11.5d
+			shape: "hexagon"
+			id: "4094A73E83DFF591"
+			tasks: [{
+				id: "4957F980ADBCA885"
+				type: "item"
+				item: {
+					id: "betterendforge:end_lily_seed"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "753C20585377F534"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62B7EA3C8EDA005A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 12.0d
+			shape: "hexagon"
+			id: "0753C459CE8187DE"
+			tasks: [{
+				id: "40A3561DA8B8CB08"
+				type: "item"
+				item: {
+					id: "betterendforge:blue_vine_seed"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "69E3E1D64C2380E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "72E7659F873AED4D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 11.5d
+			shape: "hexagon"
+			id: "1C4E24B20AC41148"
+			tasks: [{
+				id: "4C0BF9701A853190"
+				type: "item"
+				item: {
+					id: "betterendforge:chorus_mushroom_seed"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "49F735F3ED2954F3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7BD13927CF6ED84A"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 10.5d
+			shape: "hexagon"
+			id: "6908CFE949DB869F"
+			tasks: [{
+				id: "5A6841D66740EEBD"
+				type: "item"
+				item: {
+					id: "betterendforge:amber_root_seed"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2710E004B0572A02"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2A1D31582083F554"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+	]
+}

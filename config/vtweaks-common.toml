@@ -1,0 +1,104 @@
+
+#Miscellaneous
+[miscellaneous]
+	#Disables thunder storms, fixing glitched lighting from thunder and other side-effects
+	enableStormTweak = false
+	#Prints your death point in chat
+	enableDeathPoint = true
+	#Show food hunger & saturation on item hover
+	#Allowed Values: NEVER, WITH_SHIFT, ALWAYS
+	foodTooltipSetting = "NEVER"
+	#Show a welcome message in chat when joining a world for the first time
+	enableGuideNotifier = false
+	#Show tool durability on item hover
+	#Allowed Values: NEVER, WITH_SHIFT, ALWAYS
+	durabilityTooltipSetting = "WITH_SHIFT"
+	#Makes all anvil tool repairs always cost 1 level of XP
+	enableCheapAnvilRepair = true
+
+#Block Tweaks
+["block tweaks"]
+	#A list of blocks to ignore, of form <modid:block>
+	cropTweaksBlacklist = []
+	#Allows for r-clicking to harvest most any (including mod) crops
+	cropTweaksEnabled = true
+	#Allows more plants to be bonemealed
+	enableBonemealTweak = true
+	#Fixes some tools NOT being effective on certain materials
+	enableToolEffTweaks = true
+	#Allows for uneaten cake to drop on break
+	enableCakeDrop = false
+	#Trees fall down (like, actually not just like lumbering). Credit to Tersnip's impl (oitsjustjo.se/u/5cCfruy1x)
+	enableTreeChopDown = false
+	#The number of logs above the one broken to trigger the chopdown effect
+	#Range: > 1
+	chopDownLogRequirement = 3
+
+#Enchantments
+[enchantments]
+	#Number of levels Imperishable costs to create in an anvil
+	#Range: 1 ~ 40
+	imperishableCost = 30
+	#Should the lumbering enchantment also prune the leaves of a tree?
+	lumberingCutsLeaves = true
+	#Should the lumbering enchantment be strict about wood types?
+	#e.g. if you're in a forest with mixed woods touching, should lumbering only break the same type of wood that was initially broken?
+	lumberingIsStrictAboutWood = true
+	#Enable the Imperishable enchantment for any breakable item
+	enableImperishable = false
+	#Feather Falling IV or above directs 100% of fall damage to boots
+	enableFeatherFallTweak = true
+	#Number of levels Lumbering costs to create in an anvil
+	#Range: 1 ~ 40
+	lumberingCost = 16
+	#Enable the Lumbering enchantment for Axes
+	enableLumbering = false
+	#The maximum amount of logs lumbering can destroy
+	#Range: > 1
+	maxLumberCount = 1024
+
+#Mob Tweaks
+["mob tweaks"]
+	#A data-driven way to make some special mobs with abilities, effects, specialized loot and more!
+	challengerMobsEnabled = true
+	#Prevents mobs from spawning above sea level unless it's a new moon
+	peacefulSurfaceEnabled = false
+	#A list of dimensions (of form <modid:type>) to ignore when prevent surface mob spawns.
+	peacefulSurfaceDimBlacklist = ["minecraft:the_nether", "minecraft:the_end"]
+	#Allows chicken feathers to be plucked w/ shears
+	enableFeatherPlucking = true
+	#Allows you to gear up tamed pets any armor and/or weapon. Doesn't render, but DOES work!
+	enablePetArmory = false
+	#The lowest Y-level which mobs will be prevented from spawning
+	#Range: 1 ~ 255
+	peacefulSurfaceMinY = 60
+	#If set to "OWNER", this will prevent owners of pets from attacking their own pet. If set to "ALL", this prevents all players from attacking anyone's pet
+	#Allowed Values: DISABLED, OWNER, ALL
+	disablePetFriendlyFire = "OWNER"
+	#This controls the overall chance for V-Tweaks to attempt converting a monster to a Challenger.
+	#This chance is applied before any Challenger Mob weights or entity filters.
+	#Range: 0.0 ~ 1.0
+	challengerMobGlobalChance = 0.25
+	#Any time a Baby Zombie (or Zombie Piglin) spawns, it will be replaced with an adult
+	disableBabyZombies = true
+
+#Item Tweaks
+["item tweaks"]
+	#Allows egg items in the world to hatch instead of despawn
+	eggHatchingEnabled = false
+	#The chance (out of 100 - higher means more frequent) that the egg will turn into a chick
+	#**DO NOT SET THIS TOO HIGH OR ELSE CHICKENS MAY INFINITELY LAG YOUR WORLD**
+	#Range: 1 ~ 100
+	eggHatchingChance = 1
+	#Convert Concrete Powder to Concrete when the item is thrown into water
+	enableConreteTweaks = true
+	#Allow for modifications to item despawn timers
+	enableDespawnTimeAdjustments = false
+	#Adjust Item Despawn Time (in ticks: 20 ticks in a second - default despawn delay is 6000 ticks)
+	#-1 prevents items from despawning at all.
+	#If other "do x on despawn" configs are enabled, then those items **will still despawn**
+	#Range: > -1
+	despawnTimeAdjustments = 6000
+	#Instead of de-spawning, saplings will attempt to plant themselves
+	enableSaplingPlanting = false
+

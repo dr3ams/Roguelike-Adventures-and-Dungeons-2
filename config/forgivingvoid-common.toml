@@ -1,0 +1,29 @@
+
+#Configuration for Forgiving Void
+[common]
+	#The y level at which Forgiving Void should forgive the player and send them towards the sky.
+	#Range: -64 ~ 0
+	triggerAtY = -32
+	#The amount of damage applied to the player when they land.
+	#Range: > 0
+	damageOnFall = 19
+	#The height from which the player will be falling after falling through the void.
+	#Range: 256 ~ 4096
+	fallingHeight = 300
+	#Prevent death on void fall (limits damage to leave at least 0.5 hearts)
+	preventDeath = false
+	#Set to false to make Forgiving Void not trigger in the overworld void (dimension 0).
+	triggerInOverworld = true
+	#Set to false to make Forgiving Void not trigger in the nether void (dimension -1).
+	triggerInNether = true
+	#Set to false to make Forgiving Void not trigger in the end void (dimension 1).
+	triggerInEnd = true
+	#Set to true if you want the dimensionBlacklist to be treated as a whitelist instead. Options triggerInOverworld etc. still take priority.
+	dimensionBlacklistIsWhitelist = false
+	#Set to true if players are rubber-banding while falling through the void. If you're hosting a public server, you should only do this if you have proper anti-cheat installed.
+	disableVanillaAntiCheatWhileFalling = true
+	#List of additional dimension ids to be blacklisted from Forgiving Void. Options triggerInOverworld etc. take priority.
+	dimensionBlacklist = []
+	#For integration with the Game Stages mod, set this to the game stage that needs to be unlocked in order for Forgiving Void to be enabled.
+	requiredGameStage = ""
+

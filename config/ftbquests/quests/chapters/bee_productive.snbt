@@ -1,0 +1,636 @@
+{
+	id: "0000000000000778"
+	group: "67B03B24E53297B4"
+	order_index: 2
+	filename: "bee_productive"
+	title: "Bee Productive"
+	icon: "minecraft:honeycomb"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: -0.5d
+		width: 12.0d
+		height: 6.0d
+		rotation: 0.0d
+		image: "rad2:textures/misc/rad_bee.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -4.0d
+			y: 2.0d
+			description: ["Will help you with all the info about the Productive Bees mod."]
+			dependencies: ["000000000000078F"]
+			id: "0000000000000779"
+			tasks: [{
+				id: "255D63473F896235"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "productivebees:guide"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5ECC8A0E30096549"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "7E840BC50845A1B9"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			description: ["Your own fresh bottled honey!"]
+			dependencies: ["0000000000000781"]
+			id: "000000000000077B"
+			tasks: [{
+				id: "000000000000077C"
+				type: "item"
+				item: "minecraft:honey_bottle"
+			}]
+			rewards: [{
+				id: "00000000000007B9"
+				type: "item"
+				item: "quark:orange_blossom_sapling"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			description: ["Catches bees that fly over it. Load it with cages to load the bees into. Can have a flower placed on top to attract bees to it (if they like that kind of thing)."]
+			dependencies: ["0000000000000795"]
+			id: "000000000000077D"
+			tasks: [{
+				id: "000000000000077E"
+				type: "item"
+				item: "productivebees:catcher"
+			}]
+			rewards: [
+				{
+					id: "00000000000007B0"
+					type: "item"
+					item: "minecraft:cornflower"
+				}
+				{
+					id: "69A727216AD6B4B3"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			description: ["Incubates BaBees (in a cage) until they are adults by using honey treats. Can also incubate new bees from genes and eggs."]
+			dependencies: ["0000000000000795"]
+			id: "000000000000077F"
+			tasks: [{
+				id: "0000000000000780"
+				type: "item"
+				item: "productivebees:incubator"
+			}]
+			rewards: [
+				{
+					id: "00000000000007B4"
+					type: "item"
+					item: "simplefarming:turnip_beetroot_gratin"
+				}
+				{
+					id: "75806C2B37D9416C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			description: ["Will bottle honey into glass bottles when honey is pumped into into the machine."]
+			dependencies: ["0000000000000795"]
+			id: "0000000000000781"
+			tasks: [{
+				id: "0000000000000782"
+				type: "item"
+				item: "productivebees:bottler"
+			}]
+			rewards: [{
+				id: "00000000000007B6"
+				type: "item"
+				item: "minecraft:peony"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			description: ["Processes combs from hives into honey and resources. Is powered by FE."]
+			dependencies: ["0000000000000795"]
+			id: "0000000000000783"
+			tasks: [{
+				id: "0000000000000784"
+				type: "item"
+				item: "productivebees:powered_centrifuge"
+			}]
+			rewards: [
+				{
+					id: "5234E213E00FF6EF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_basic"
+						}
+					}
+				}
+				{
+					id: "746D7143E303F396"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+				{
+					id: "55124F3DF9838160"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			description: [
+				"Allows you to locate a nest of the block type you right click on."
+				""
+				"i.e. Right click on a oak log block to locate a oak nest."
+			]
+			dependencies: ["000000000000078F"]
+			id: "0000000000000785"
+			tasks: [{
+				id: "0000000000000786"
+				type: "item"
+				item: {
+					id: "productivebees:nest_locator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000007AC"
+					type: "item"
+					item: "minecraft:coal_ore"
+				}
+				{
+					id: "0000000000000FEC"
+					type: "item"
+					item: "minecraft:iron_ore"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"A more advanced bee hive that will keep your bees happier, allows them to be moved peacefully, and allows expansion hives."
+				"The best part is though that you wont need a campfire under the hive to harvest it peacefully."
+			]
+			dependencies: ["0000000000000791"]
+			id: "0000000000000787"
+			tasks: [{
+				id: "3D43AED01828F90C"
+				type: "item"
+				title: "Advanced Beehive"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "productivebees:advanced_beehives"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "00000000000007A7"
+					type: "item"
+					item: "randomite:randomite_ore"
+					count: 2
+				}
+				{
+					id: "00000000000007A8"
+					type: "item"
+					item: "minecraft:cornflower"
+				}
+				{
+					id: "00000000000007A9"
+					type: "item"
+					item: "minecraft:poppy"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["Can be attached to the top of Advanced Bee Hives to expand their housing from 3 to 5 bees."]
+			dependencies: ["0000000000000787"]
+			id: "0000000000000789"
+			tasks: [{
+				id: "63D31D44E13AD23F"
+				type: "item"
+				title: "Expansion Box"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "productivebees:expansion_boxes"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0FDB5D895FF52E54"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "5E777418A78D322E"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			description: ["A decorative container to show off a bee."]
+			dependencies: ["000000000000078F"]
+			id: "000000000000078B"
+			tasks: [{
+				id: "000000000000078C"
+				type: "item"
+				item: {
+					id: "productivebees:jar_oak"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "00000000000007B1"
+				type: "item"
+				item: "quark:orange_item_frame"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			description: ["Can hold up to 3 items which can be used for feeding your bees."]
+			dependencies: ["0000000000000791"]
+			id: "000000000000078D"
+			tasks: [{
+				id: "000000000000078E"
+				type: "item"
+				item: "productivebees:feeder"
+			}]
+			rewards: [
+				{
+					id: "00000000000007AE"
+					type: "item"
+					item: "minecraft:allium"
+				}
+				{
+					id: "00000000000007AF"
+					type: "item"
+					item: "minecraft:azure_bluet"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -2.0d
+			y: 0.0d
+			shape: "gear"
+			description: [
+				"Will allow you to capture/release bees with a right click of the cage. "
+				""
+				"*One time use per cage*"
+				""
+			]
+			size: 2.0d
+			id: "000000000000078F"
+			tasks: [{
+				id: "0000000000000790"
+				type: "item"
+				item: {
+					id: "productivebees:bee_cage"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "57E24F6431401163"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "5F60C13EF213BC19"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			description: ["A custom made home for your bees to keep them closer to your base."]
+			dependencies: ["000000000000078F"]
+			id: "0000000000000791"
+			tasks: [{
+				id: "0000000000000792"
+				type: "item"
+				item: "minecraft:beehive"
+			}]
+			rewards: [{
+				id: "00000000000007A4"
+				type: "item"
+				item: "randomite:randomite_ore"
+				count: 2
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			description: ["A home for Draconic Bees."]
+			dependencies: ["0000000000000789"]
+			id: "0000000000000793"
+			tasks: [{
+				id: "0000000000000794"
+				type: "item"
+				item: "productivebees:dragon_egg_hive"
+			}]
+			rewards: [
+				{
+					id: "3530AF79F624780B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+					}
+				}
+				{
+					id: "6D00D9AC9A3747FD"
+					type: "item"
+					item: "losttrinkets:treasure_bag"
+				}
+				{
+					id: "3A4F82CAB66C6234"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			shape: "hexagon"
+			description: [
+				"The first harvest from your bees!"
+				""
+				"Use a pair of shears on a level 5 honey beehive to harvest honeycomb."
+			]
+			dependencies: ["0000000000000791"]
+			id: "0000000000000795"
+			tasks: [{
+				id: "0000000000000796"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
+		}
+		{
+			title: "Hive Upgrades"
+			x: 2.5d
+			y: 2.5d
+			description: ["A variety of upgrades to your hives and bee focused machines."]
+			dependencies: ["0000000000000787"]
+			id: "0000000000000797"
+			tasks: [
+				{
+					id: "0000000000000798"
+					type: "item"
+					item: "productivebees:upgrade_productivity"
+				}
+				{
+					id: "0000000000000799"
+					type: "item"
+					item: "productivebees:upgrade_time"
+				}
+				{
+					id: "000000000000079A"
+					type: "item"
+					item: "productivebees:upgrade_breeding"
+				}
+				{
+					id: "000000000000079B"
+					type: "item"
+					item: "productivebees:upgrade_comb_block"
+				}
+				{
+					id: "000000000000079C"
+					type: "item"
+					item: "productivebees:upgrade_anti_teleport"
+				}
+				{
+					id: "000000000000079D"
+					type: "item"
+					item: "productivebees:upgrade_range"
+				}
+			]
+			rewards: [
+				{
+					id: "00000000000007B3"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "50EE453B386DBF86"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			description: ["This generator will generate FE when fed with honey. For example, a single bottle of honey will generate 1500 FE."]
+			dependencies: ["0000000000000795"]
+			id: "00000000000007A0"
+			tasks: [{
+				id: "00000000000007A1"
+				type: "item"
+				item: "productivebees:honey_generator"
+			}]
+			rewards: [
+				{
+					id: "00000000000007B5"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+				{
+					id: "6CE4B0F492C40C09"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			description: [
+				"A nice combo of liquid honey and some honey comb."
+				""
+				"Will calm angry bees and make baby bees grow faster."
+			]
+			dependencies: ["000000000000077B"]
+			id: "00000000000007A2"
+			tasks: [{
+				id: "00000000000007A3"
+				type: "item"
+				item: "productivebees:honey_treat"
+			}]
+			rewards: [
+				{
+					id: "00000000000007B8"
+					type: "item"
+					item: "minecraft:rose_bush"
+				}
+				{
+					id: "253E1ACD8654F5A7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -5.5d
+			description: ["A nice and tasty treat for yourself after all that bee work."]
+			dependencies: ["00000000000007A2"]
+			id: "1EF6661253EDAE23"
+			tasks: [{
+				id: "56944ACBCD1EAD87"
+				type: "item"
+				item: "productivebees:sugarbag_honeycomb"
+			}]
+			rewards: [
+				{
+					id: "26F23D0CB4D77BB0"
+					type: "item"
+					item: "minecraft:cornflower"
+					count: 6
+				}
+				{
+					id: "2E442C0A32D05E3F"
+					type: "item"
+					item: "minecraft:lily_of_the_valley"
+					count: 6
+				}
+				{
+					id: "53E8462C11059904"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "BumbleBee Rodeo"
+			x: 7.0d
+			y: -3.5d
+			description: [
+				"The optimal form of transportation."
+				""
+				"Works like riding a pig or strider and lust be lead with a Treat on a Stick (which so kindly has been provided to you)."
+			]
+			dependencies: ["00000000000007A2"]
+			id: "3F2196582D1EF27A"
+			tasks: [{
+				id: "49AF7B7240A3C205"
+				type: "advancement"
+				title: "BumbleBee Rodeo"
+				icon: "minecraft:saddle"
+				advancement: "productivebees:husbandry/bee_cage/overworld_nest/treat_on_nest/bumblebee_rider"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "41F2DC05B551D8CD"
+				type: "item"
+				item: {
+					id: "productivebees:treat_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			description: ["Sturdy bee cages are unlimited use versions of the bee cage. You aren't specialized enough in the art of bees to make one though, so these must be found in villages."]
+			dependencies: ["000000000000078F"]
+			id: "199CBDA1EBA33D57"
+			tasks: [{
+				id: "3021844D5CBAC6A7"
+				type: "item"
+				item: "productivebees:sturdy_bee_cage"
+			}]
+			rewards: [
+				{
+					id: "23904EEB408CB41F"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "51E4C940855D3436"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			description: [
+				"Squashed bee material is gained by crushing bees into bottler loaded with empty glass bottles. This bee material can then be put into a centrifuge to get vials of gene samples."
+				""
+				"Gene samples can be combined to raise their viability then can be crafted with a honey treat to give bees that specific trait."
+				"A honey treat infused with a specific bee type gene can be used to infuse a egg (chicken egg) with that gene to get a spawn egg for the bee type."
+			]
+			dependencies: ["0000000000000781"]
+			id: "5CD554DBDB7A9C6D"
+			tasks: [{
+				id: "2AD1DFED48BDACBF"
+				type: "item"
+				item: "productivebees:gene_bottle"
+			}]
+			rewards: [{
+				id: "0A813EF625FD8B4C"
+				type: "item"
+				item: "quark:pink_blossom_sapling"
+			}]
+		}
+	]
+}

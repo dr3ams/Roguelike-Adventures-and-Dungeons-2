@@ -1,0 +1,155 @@
+
+["Structure Feature Spread and Separation Configuration"]
+	#+--------------------------------------------------------------------------------------------------+
+	#Archer Tower: Minimum spread dist
+	#Range: 1 ~ 256
+	archerTowerMinDist = 85
+	#+--------------------------------------------------------------------------------------------------+
+	#Archer Tower: Maximum spread dist
+	#Range: 1 ~ 256
+	archerTowerMaxDist = 185
+	#+--------------------------------------------------------------------------------------------------+
+	#Centre: Minimum spread dist
+	#Range: 1 ~ 256
+	centreMinDist = 90
+	#+--------------------------------------------------------------------------------------------------+
+	#Centre: Maximum spread dist
+	#Range: 1 ~ 256
+	centreMaxDist = 120
+	#+--------------------------------------------------------------------------------------------------+
+	#Fort: Minimum spread dist
+	#Range: 1 ~ 256
+	fortMinDist = 110
+	#+--------------------------------------------------------------------------------------------------+
+	#Fort: Maximum spread dist
+	#Range: 1 ~ 256
+	fortMaxDist = 170
+	#+--------------------------------------------------------------------------------------------------+
+	#Mine: Minimum spread dist
+	#Range: 1 ~ 256
+	mineMinDist = 65
+	#+--------------------------------------------------------------------------------------------------+
+	#Mine: Maximum spread dist
+	#Range: 1 ~ 256
+	mineMaxDist = 85
+	#+--------------------------------------------------------------------------------------------------+
+	#Tower: Minimum spread dist
+	#Range: 1 ~ 256
+	towerMinDist = 115
+	#+--------------------------------------------------------------------------------------------------+
+	#Tower: Maximum spread dist
+	#Range: 1 ~ 256
+	towerMaxDist = 195
+	#+--------------------------------------------------------------------------------------------------+
+	#Castle: Minimum spread dist
+	#Range: 1 ~ 256
+	iceCastleMinDist = 110
+	#+--------------------------------------------------------------------------------------------------+
+	#Castle: Maximum spread dist
+	#Range: 1 ~ 256
+	iceCastleMaxDist = 145
+
+["Structure Biome Category Configuration"]
+	#+--------------------------------------------------------------------------------------------------+
+	#Biome Categories for Illager Archer Tower to spawn in
+	archer_tower_categories = ["extreme_hills", "forest", "icy", "mushroom", "none", "plains", "savanna", "taiga"]
+	#+--------------------------------------------------------------------------------------------------+
+	#Biome Categories for Illager Centre to spawn in
+	centre_categories = ["desert", "extreme_hills", "forest", "icy", "jungle", "mesa", "mushroom", "none", "plains", "savanna", "swamp", "taiga"]
+	#+--------------------------------------------------------------------------------------------------+
+	#Biome Categories for Illager Fort to spawn in
+	fort_categories = ["desert", "forest", "jungle", "mesa", "mushroom", "none", "plains", "savanna"]
+	#+--------------------------------------------------------------------------------------------------+
+	#Biome Categories for Illager Mine to spawn in
+	mine_categories = ["desert", "mesa", "mushroom", "none", "savanna"]
+	#+--------------------------------------------------------------------------------------------------+
+	#Biome Categories for Illager Tower to spawn in
+	tower_categories = ["forest", "none", "plains", "swamp"]
+	#+--------------------------------------------------------------------------------------------------+
+	#Biome Categories for Ice Castle to spawn in
+	ice_castle_categories = ["extreme_hills", "icy", "taiga"]
+
+["Structure Biome Whitelist Configuration"]
+	#+--------------------------------------------------------------------------------------------------+
+	#Biomes that the Illager Archer Tower has to spawn in
+	at_whitelist = []
+	#+--------------------------------------------------------------------------------------------------+
+	#Biomes that the Illager Centre has to spawn in
+	c_whitelist = []
+	#+--------------------------------------------------------------------------------------------------+
+	#Biomes that the Illager Fort has to spawn in
+	f_whitelist = []
+	#+--------------------------------------------------------------------------------------------------+
+	#Biomes that the Illager Mine has to spawn in
+	m_whitelist = []
+	#+--------------------------------------------------------------------------------------------------+
+	#Biomes that the Illager Tower has to spawn in
+	t_whitelist = []
+	#+--------------------------------------------------------------------------------------------------+
+	#Biomes that the Ice Castle has to spawn in
+	ice_whitelist = []
+
+["Structure Biome Blacklist Configuration"]
+	#Biomes for Illager Archer Tower to not spawn in
+	at_blacklist = []
+	#Biomes for Illager Centre to not spawn in
+	c_blacklist = []
+	#Biomes for Illager Fort to not spawn in
+	f_blacklist = []
+	#Biomes for Illager Mine to not spawn in
+	m_blacklist = []
+	#Biomes for Illager Tower to not spawn in
+	t_blacklist = []
+	#Biomes for Ice Castle to not spawn in.
+	ice_blacklist = []
+
+["Structure Dimension Whitelist Configuration"]
+	#Dimensions for structures to spawn in.
+	dim_whitelist = ["minecraft:overworld"]
+
+["Raid Wave Member Configuration"]
+	#Archer Wave Counts
+	#Requires a list of no more and no less than 8 integers, each corresponding to its respective wave.
+	#Requires a world restart to properly update values.
+	archer_wave_counts = [1, 0, 0, 0, 1, 2, 2, 3]
+	#Berserker Wave Counts
+	#Requires a list of no more and no less than 8 integers, each corresponding to its respective wave.
+	#Requires a world restart to properly update values.
+	berserker_wave_counts = [0, 0, 0, 0, 0, 1, 1, 1]
+	#Black Iron Golem Wave Counts
+	#Requires a list of no more and no less than 8 integers, each corresponding to its respective wave.
+	#Requires a world restart to properly update values.
+	black_iron_golem_wave_counts = [0, 0, 1, 0, 0, 1, 0, 1]
+	#Enchanter Wave Counts
+	#Requires a list of no more and no less than 8 integers, each corresponding to its respective wave.
+	#Requires a world restart to properly update values.
+	enchanter_wave_counts = [0, 1, 0, 1, 0, 1, 0, 1]
+	#Furantur Wave Counts
+	#Requires a list of no more and no less than 8 integers, each corresponding to its respective wave.
+	#Requires a world restart to properly update values.
+	furantur_wave_counts = [1, 0, 1, 1, 0, 2, 1, 2]
+	#Hoarder Wave Counts
+	#Requires a list of no more and no less than 8 integers, each corresponding to its respective wave.
+	#Requires a world restart to properly update values.
+	hoarder_wave_counts = [1, 1, 1, 1, 1, 1, 1, 1]
+	#Illager King Wave Counts
+	#Requires a list of no more and no less than 8 integers, each corresponding to its respective wave.
+	#Requires a world restart to properly update values.
+	illager_king_wave_counts = [0, 0, 0, 1, 0, 0, 0, 1]
+	#Necromancer Wave Counts
+	#Requires a list of no more and no less than 8 integers, each corresponding to its respective wave.
+	#Requires a world restart to properly update values.
+	necromancer_wave_counts = [0, 0, 1, 0, 1, 1, 1, 1]
+	#Miner Wave Counts
+	#Requires a list of no more and no less than 8 integers, each corresponding to its respective wave.
+	#Requires a world restart to properly update values.
+	miner_wave_counts = [0, 0, 0, 0, 0, 0, 0, 0]
+	#Frostmancer Wave Counts
+	#Requires a list of no more and no less than 8 integers, each corresponding to its respective wave.
+	#Requires a world restart to properly update values.
+	frostmancer_wave_counts = [0, 0, 0, 0, 0, 0, 0, 0]
+	#Illager General Wave Counts
+	#Requires a list of no more and no less than 8 integers, each corresponding to its respective wave.
+	#Requires a world restart to properly update values.
+	illager_general_wave_counts = [1, 0, 0, 1, 0, 0, 1, 1]
+

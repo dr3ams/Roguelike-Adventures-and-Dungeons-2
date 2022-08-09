@@ -1,0 +1,624 @@
+# Configuration File
+
+@CONFIG_VERSION: 2.1
+
+##########################################################################################################
+# Accessibility Options
+#--------------------------------------------------------------------------------------------------------#
+# You may disable certain items or features from being obtainable/usable here.
+# Please note that as of release 2.6.0 of Enigmatic Legacy, those options are automatically generated
+# for most items in the mod. They may refer to items that do not exist yet or are not obtainable in any
+# case, and may not work for certain items due to non-generic obtaining methods or generic oversight.
+# 
+# If you discover option that does not work, but for whatever reason you really need it, submit an issue
+# pointing out to such option here: https://github.com/Extegral/Enigmatic-Legacy/issues
+##########################################################################################################
+
+"Accessibility Options" {
+    # Whether or not Angel's Blessing should be enabled. [default: true, synchronized: yes]
+    B:AngelsBlessingEnabled=true
+
+    # Whether or not Astral Breaker should be enabled. [default: true, synchronized: yes]
+    B:AstralBreakerEnabled=true
+
+    # Whether or not Astral Dust should be enabled. [default: true, synchronized: yes]
+    B:AstralDustEnabled=true
+
+    # Whether or not Axe of Executioner should be enabled. [default: true, synchronized: yes]
+    B:AxeofExecutionerEnabled=true
+
+    # Whether or not Blank Scroll should be enabled. [default: true, synchronized: yes]
+    B:BlankScrollEnabled=true
+
+    # Whether or not Blazing Core should be enabled. [default: true, synchronized: yes]
+    B:BlazingCoreEnabled=true
+
+    # Whether or not bonus recipes for wool dyeing should be enabled. [default: true, synchronized: yes]
+    B:BonusWoolRecipesEnabled=true
+
+    # Whether or not Ceaseless Enchantment should be enabled. [default: true, synchronized: yes]
+    B:CeaselessEnchantmentEnabled=true
+
+    # Whether or not Charm of Treasure Hunter should be enabled. [default: true, synchronized: yes]
+    B:CharmofTreasureHunterEnabled=true
+
+    # Whether or not Common Potions should be enabled. [default: true, synchronized: yes]
+    B:CommonPotionsEnabled=true
+
+    # Whether or not Corrupted Tome should be enabled. [default: true, synchronized: yes]
+    B:CorruptedTomeEnabled=true
+
+    # Whether or not Enigmatic Legacy should purposefully crash client whenever any mod tries to inject unnamed LootPool into any loot table. If false, stacktraces will be printed to log but game will proceed as normal. [default: true, synchronized: no]
+    B:CrashOnUnnamedPool=true
+
+    # Whether or not Crying Netherite Armor should be enabled. [default: true, synchronized: yes]
+    B:CryingNetheriteArmorEnabled=true
+
+    # Whether or not Crying Netherite Axe should be enabled. [default: true, synchronized: yes]
+    B:CryingNetheriteAxeEnabled=true
+
+    # Whether or not Crying Netherite Hoe should be enabled. [default: true, synchronized: yes]
+    B:CryingNetheriteHoeEnabled=true
+
+    # Whether or not Crying Netherite Ingot should be enabled. [default: true, synchronized: yes]
+    B:CryingNetheriteIngotEnabled=true
+
+    # Whether or not Crying Netherite Pickaxe should be enabled. [default: true, synchronized: yes]
+    B:CryingNetheritePickaxeEnabled=true
+
+    # Whether or not Crying Netherite Shovel should be enabled. [default: true, synchronized: yes]
+    B:CryingNetheriteShovelEnabled=true
+
+    # Whether or not Crying Netherite Sword should be enabled. [default: true, synchronized: yes]
+    B:CryingNetheriteSwordEnabled=true
+
+    # Whether or not this mod should add any custom loot to dungeon chests' loot tables. This options is mainly for modpack developers and enables them to re-add that loot on their own terms, since no other ways of modifying what Enigmatic Legacy adds to loot tables currently exist. [default: true, synchronized: yes]
+    B:CustomDungeonLootEnabled=true
+
+    # Whether or not Dark Armor should be enabled. [default: true, synchronized: yes]
+    B:DarkArmorEnabled=true
+
+    # Whether or not Darkest Scroll should be enabled. [default: true, synchronized: yes]
+    B:DarkestScrollEnabled=true
+
+    # If true, tools with area of effect abilities will not have those abilities disabled when player holds Shift (crouches). [default: false, synchronized: yes]
+    B:DisableAOEShiftSuppression=false
+
+    # Whether or not Emblem of Bloodstained Valor should be enabled. [default: true, synchronized: yes]
+    B:EmblemofBloodstainedValorEnabled=true
+
+    # Whether or not Emblem of Monster Slayer should be enabled. [default: true, synchronized: yes]
+    B:EmblemofMonsterSlayerEnabled=true
+
+    # Whether or not Enchanter's Pearl should be enabled. [default: true, synchronized: yes]
+    B:EnchantersPearlEnabled=true
+
+    # Whether or not Ender Rod should be enabled. [default: true, synchronized: yes]
+    B:EnderRodEnabled=true
+
+    # Whether or not Enigmatic Amulet should be enabled. [default: true, synchronized: yes]
+    B:EnigmaticAmuletEnabled=true
+
+    # Whether or not Essence of Raging Life should be enabled. [default: true, synchronized: yes]
+    B:EssenceofRagingLifeEnabled=true
+
+    # Whether or not Etherium Armor should be enabled. [default: true, synchronized: yes]
+    B:EtheriumArmorEnabled=true
+
+    # Whether or not Etherium Broadsword should be enabled. [default: true, synchronized: yes]
+    B:EtheriumBroadswordEnabled=true
+
+    # Whether or not Etherium Ingot should be enabled. [default: true, synchronized: yes]
+    B:EtheriumIngotEnabled=true
+
+    # Whether or not Etherium Ore should be enabled. [default: true, synchronized: yes]
+    B:EtheriumOreEnabled=true
+
+    # Whether or not Etherium Pickaxe should be enabled. [default: true, synchronized: yes]
+    B:EtheriumPickaxeEnabled=true
+
+    # Whether or not Etherium Scythe should be enabled. [default: true, synchronized: yes]
+    B:EtheriumScytheEnabled=true
+
+    # Whether or not Etherium Shovel should be enabled. [default: true, synchronized: yes]
+    B:EtheriumShovelEnabled=true
+
+    # Whether or not Etherium Warxe should be enabled. [default: true, synchronized: yes]
+    B:EtheriumWarxeEnabled=true
+
+    # Whether or not Exquisite Ring should be enabled. [default: true, synchronized: yes]
+    B:ExquisiteRingEnabled=true
+
+    # Whether or not Extradimensional Eye should be enabled. [default: true, synchronized: yes]
+    B:ExtradimensionalEyeEnabled=true
+
+    # Whether or not Eye of Nebula should be enabled. [default: true, synchronized: yes]
+    B:EyeofNebulaEnabled=true
+
+    # Whether or not Forbidden Fruit should be enabled. [default: true, synchronized: yes]
+    B:ForbiddenFruitEnabled=true
+
+    # Whether or not Fruit of Ascension should be enabled. [default: true, synchronized: yes]
+    B:FruitofAscensionEnabled=true
+
+    # Whether or not Gem of Binding should be enabled. [default: true, synchronized: yes]
+    B:GemofBindingEnabled=true
+
+    # Whether or not Gift of the Heaven should be enabled. [default: true, synchronized: yes]
+    B:GiftoftheHeavenEnabled=true
+
+    # Whether or not Grace of the Creator should be enabled. [default: true, synchronized: yes]
+    B:GraceoftheCreatorEnabled=true
+
+    # Whether or not Guide to Feral Hunt should be enabled. [default: true, synchronized: yes]
+    B:GuidetoFeralHuntEnabled=true
+
+    # Whether or not Guite to Animal Companionship should be enabled. [default: true, synchronized: yes]
+    B:GuitetoAnimalCompanionshipEnabled=true
+
+    # Whether or not Heart of the Earth should be enabled. [default: true, synchronized: yes]
+    B:HeartoftheEarthEnabled=true
+
+    # Whether or not Heart of the Golem should be enabled. [default: true, synchronized: yes]
+    B:HeartoftheGolemEnabled=true
+
+    # Whether or not Heart of the Guardian should be enabled. [default: true, synchronized: yes]
+    B:HeartoftheGuardianEnabled=true
+
+    # Whether or not Iron Ring should be enabled. [default: true, synchronized: yes]
+    B:IronRingEnabled=true
+
+    # Whether or not Keystone of The Oblivion should be enabled. [default: true, synchronized: yes]
+    B:KeystoneofTheOblivionEnabled=true
+
+    # Whether or not Lore Fragment should be enabled. [default: true, synchronized: yes]
+    B:LoreFragmentEnabled=true
+
+    # Whether or not Magnet Ring should be enabled. [default: true, synchronized: yes]
+    B:MagnetRingEnabled=true
+
+    # Whether or not Megasponge should be enabled. [default: true, synchronized: yes]
+    B:MegaspongeEnabled=true
+
+    # Whether or not Mending Mixture should be enabled. [default: true, synchronized: yes]
+    B:MendingMixtureEnabled=true
+
+    # Whether or not Nefarious Essence should be enabled. [default: true, synchronized: yes]
+    B:NefariousEssenceEnabled=true
+
+    # Whether or not Nemesis Curse should be enabled. [default: true, synchronized: yes]
+    B:NemesisCurseEnabled=true
+
+    # Whether or not Pact of Infinite Avarice should be enabled. [default: true, synchronized: yes]
+    B:PactofInfiniteAvariceEnabled=true
+
+    # Whether or not Pearl of the Void should be enabled. [default: true, synchronized: yes]
+    B:PearloftheVoidEnabled=true
+
+    # Whether or not Potion of Recall should be enabled. [default: true, synchronized: yes]
+    B:PotionofRecallEnabled=true
+
+    # If true, Enigmatic Legacy will cycle through each player's recipe book and trigger 'minecraft:recipe_unlocked' criterion trigger for everything that they have unlocked upon player joining the world. [default: true, synchronized: no]
+    B:RetriggerRecipeUnlocks=true
+
+    # Whether or not Ring of Dislocation should be enabled. [default: true, synchronized: yes]
+    B:RingofDislocationEnabled=true
+
+    # Whether or not Ring of Ender should be enabled. [default: true, synchronized: yes]
+    B:RingofEnderEnabled=true
+
+    # Whether or not Ring of the Seven Curses should be enabled. [default: true, synchronized: yes]
+    B:RingoftheSevenCursesEnabled=true
+
+    # Whether or not Scroll of Ageless Wisdom should be enabled. [default: true, synchronized: yes]
+    B:ScrollofAgelessWisdomEnabled=true
+
+    # Whether or not Scroll of Postmortal Recall should be enabled. [default: true, synchronized: yes]
+    B:ScrollofPostmortalRecallEnabled=true
+
+    # Whether or not Scroll of a Thousand Curses should be enabled. [default: true, synchronized: yes]
+    B:ScrollofaThousandCursesEnabled=true
+
+    # Whether or not Sharpshooter Enchantment should be enabled. [default: true, synchronized: yes]
+    B:SharpshooterEnchantmentEnabled=true
+
+    # Whether or not Slayer Enchantment should be enabled. [default: true, synchronized: yes]
+    B:SlayerEnchantmentEnabled=true
+
+    # Whether or not Tattered Tome should be enabled. [default: true, synchronized: yes]
+    B:TatteredTomeEnabled=true
+
+    # Whether or not The Acknowledgment should be enabled. [default: true, synchronized: yes]
+    B:TheAcknowledgmentEnabled=true
+
+    # Whether or not The Architect's Inkwell should be enabled. [default: true, synchronized: yes]
+    B:TheArchitectsInkwellEnabled=true
+
+    # Whether or not The Twist should be enabled. [default: true, synchronized: yes]
+    B:TheTwistEnabled=true
+
+    # Whether or not Tome of Hungering Knowledge should be enabled. [default: true, synchronized: yes]
+    B:TomeofHungeringKnowledgeEnabled=true
+
+    # Whether or not Torrent Enchantment should be enabled. [default: true, synchronized: yes]
+    B:TorrentEnchantmentEnabled=true
+
+    # Whether or not Twisted Heart should be enabled. [default: true, synchronized: yes]
+    B:TwistedHeartEnabled=true
+
+    # Whether or not Twisted Mirror should be enabled. [default: true, synchronized: yes]
+    B:TwistedMirrorEnabled=true
+
+    # Whether or not Ultimate Potions should be enabled. [default: true, synchronized: yes]
+    B:UltimatePotionsEnabled=true
+
+    # Whether or not Unholy Grail should be enabled. [default: true, synchronized: yes]
+    B:UnholyGrailEnabled=true
+
+    # Whether or not Unholy Stone should be enabled. [default: true, synchronized: yes]
+    B:UnholyStoneEnabled=true
+
+    # Whether or not Will of the Ocean should be enabled. [default: true, synchronized: yes]
+    B:WilloftheOceanEnabled=true
+
+    # Whether or not Withered Tome should be enabled. [default: true, synchronized: yes]
+    B:WitheredTomeEnabled=true
+
+    # Whether or not Wormhole Potion should be enabled. [default: true, synchronized: yes]
+    B:WormholePotionEnabled=true
+
+    # Whether or not Wrath Enchantment should be enabled. [default: true, synchronized: yes]
+    B:WrathEnchantmentEnabled=true
+}
+
+
+##########################################################################################################
+# Balance Options
+#--------------------------------------------------------------------------------------------------------#
+# Various options that mostly affect individual items
+##########################################################################################################
+
+"Balance Options" {
+    # Acceleration modifier for active ability of Angel's Blessing. The greater it is, the more momentum you will gain. [range: 0.0 ~ 256.0, default: 1.0, synchronized: yes]
+    D:AngelBlessingAccelerationModifier=1.0
+
+    # Separate acceleration modifier for active ability of Angel's Blessing when player is flying with Elytra. [range: 0.0 ~ 256.0, default: 0.6, synchronized: yes]
+    D:AngelBlessingAccelerationModifierElytra=0.6
+
+    # Active ability cooldown for Angel's Blessing. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 40, synchronized: yes]
+    I:AngelBlessingCooldown=40
+
+    # Chance to deflect projectile when having Angel's Blessing equipped. Measured in percents. [range: 0 ~ 100, default: 50, synchronized: yes]
+    I:AngelBlessingDeflectChance=50
+
+    # The depth of Astral Breaker AOE mining. [range: 0 ~ 127, default: 1, synchronized: yes]
+    I:AstralBreakerMiningDepth=1
+
+    # The radius of Astral Breaker AOE mining. Set to -1 to disable the feature. [range: -1 ~ 127, default: 3, synchronized: yes]
+    I:AstralBreakerMiningRadius=3
+
+    # Chance to get an Emerald when slaying any mob with Pact of Infinite Avarice equipped. [range: 0 ~ 100, default: 15, synchronized: yes]
+    I:AvariceScrollEmeraldChance=15
+
+    # Attack speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
+    D:BerserkEmblemAttackSpeedBoost=1.0
+
+    # Damage increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
+    D:BerserkEmblemDamageBoost=1.0
+
+    # Damage resistance provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
+    D:BerserkEmblemResistanceBoost=0.5
+
+    # Movement speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
+    D:BerserkEmblemSpeedBoost=0.5
+
+    # Active ability cooldown for Blazing Core. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 0, synchronized: yes]
+    I:BlazingCoreCooldown=0
+
+    # How much fire-based damage instantly receives any creature that attacks bearer of the Blazing Core. [range: 0.0 ~ 512.0, default: 4.0, synchronized: yes]
+    D:BlazingCoreDamageFeedback=4.0
+
+    # How how many seconds any creature that attacks bearer of the Blazing Core will be set on fire. [range: 0 ~ 512, default: 4, synchronized: yes]
+    I:BlazingCoreIgnitionFeedback=4
+
+    # Whether or not crossbows with Ceaseless should be able to shoot basic arrows even if there are none in player's inventory. [default: true, synchronized: yes]
+    B:CeaselessEnchantmentAllowNoArrow=true
+
+    # Damage increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
+    I:CursedScrollDamageBoost=4
+
+    # Mining speed increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 7, synchronized: yes]
+    I:CursedScrollMiningBoost=7
+
+    # Health regeneration increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
+    I:CursedScrollRegenBoost=4
+
+    # The damage bonus stat provided by red Enigmatic Amulet. [range: -32768.0 ~ 32768.0, default: 1.5, synchronized: yes]
+    D:EnigmaticAmuletDamageBonus=1.5
+
+    # Whether or not it should be possible to equip multiple Enigmatic Amulets, granted player somehow gets more than one charm slot. [default: false, synchronized: yes]
+    B:EnigmaticAmuletMultiequip=false
+
+    # If true, only original owner of Extradimensional Vessel will be able to pick it up. [default: false, synchronized: yes]
+    B:EnigmaticAmuletOwnerOnlyVessel=false
+
+    # What fraction of player's experience should be stored in Extradimensional Vessel upon their death. Experience that is not stored will be lost forever. 1.0 means that all experience is saved. [range: 0.0 ~ 1.0, default: 1.0, synchronized: yes]
+    D:EnigmaticAmuletSavedXPFraction=1.0
+
+    # If true, color of Enigmatic Amulet will be assigned using player's name as seed for generating it, instead of randomly - so that every player will always receive one specific color. [default: false, synchronized: yes]
+    B:EnigmaticAmuletSeededColorGen=false
+
+    # Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death. [default: true, synchronized: yes]
+    B:EnigmaticAmuletVesselEnabled=false
+
+    # Active ability cooldown for Heart of Creation. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 3, synchronized: yes]
+    I:EnigmaticItemCooldown=3
+
+    # Damage reduction of shield generated by Etherium Armor. Defined as percentage. [range: 0 ~ 100, default: 50, synchronized: yes]
+    I:EtheriumArmorShieldReduction=50
+
+    # The value of health to which player wearing full Etherium Armor set should be brough to activate the shield ability. Defined as percentage. [range: 0 ~ 100, default: 40, synchronized: yes]
+    I:EtheriumArmorShieldThreshold=40
+
+    # The volume Etherium Waraxe AOE mining. Set to -1 to disable the feature. [range: -1 ~ 127, default: 3, synchronized: yes]
+    I:EtheriumAxeMiningVolume=3
+
+    # The depth of Etherium Pickaxe AOE mining. [range: 0 ~ 127, default: 1, synchronized: yes]
+    I:EtheriumPickaxeMiningDepth=1
+
+    # The radius of Etherium Pickaxe AOE mining. Set to -1 to disable the feature. [range: -1 ~ 127, default: 3, synchronized: yes]
+    I:EtheriumPickaxeMiningRadius=3
+
+    # The volume Etherium Scythe AOE mining. Set to -1 to disable the feature. [range: -1 ~ 127, default: 3, synchronized: yes]
+    I:EtheriumScytheMiningVolume=3
+
+    # The depth of Etherium Shovel AOE mining. [range: 0 ~ 127, default: 1, synchronized: yes]
+    I:EtheriumShovelMiningDepth=1
+
+    # The radius of Etherium Shovel AOE mining. Set to -1 to disable the feature. [range: -1 ~ 127, default: 3, synchronized: yes]
+    I:EtheriumShovelMiningRadius=3
+
+    # Cooldown of Etherium Broadsword ability. Measured in ticks. [range: 0 ~ 32768, default: 40, synchronized: yes]
+    I:EtheriumSwordCooldown=40
+
+    # Active ability cooldown for Eye of the Nebula. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 60, synchronized: yes]
+    I:EyeOfNebulaCooldown=60
+
+    # Probability for Eye of the Nebula to teleport it's bearer from any attack without receiving any damage. Defined as percentage. [range: 0 ~ 100, default: 15, synchronized: yes]
+    I:EyeOfNebulaDodgeChance=15
+
+    # Range in which Eye of the Nebula searches for a position to teleport it's bearer to when dodging the attack. [range: 1.0 ~ 128.0, default: 16.0, synchronized: yes]
+    D:EyeOfNebulaDodgeRange=16.0
+
+    # Magic Damage resistance provided by Eye of the Nebula. Defined as percentage. [range: 0 ~ 100, default: 65, synchronized: yes]
+    I:EyeOfNebulaMagicResistance=65
+
+    # Range in which Eye of the Nebula can reach an entity when using it's active ability. [range: 1.0 ~ 128.0, default: 32.0, synchronized: yes]
+    D:EyeOfNebulaPhaseRange=32.0
+
+    # Default chance to behead an enemy with Axe of Executioner. Defined as percentage. [range: 0 ~ 100, default: 10, synchronized: yes]
+    I:ForbiddenAxeBeheadingBase=10
+
+    # Bonus percantage to beheading chance from each Looting level applied to Axe of Executioner. [range: 0 ~ 100, default: 5, synchronized: yes]
+    I:ForbiddenAxeBeheadingBonus=5
+
+    # How much should be subtracted from regeneration of player who have consumed The Forbidden Fruit.  [range: 0 ~ 100, default: 80, synchronized: yes]
+    I:ForbiddenFruitRegenerationSubtraction=80
+
+    # Active ability cooldown for Heart of the Golem. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 0, synchronized: yes]
+    I:GolemHeartCooldown=0
+
+    # Default amount of armor points provided by Heart of the Golem. [range: 0.0 ~ 256.0, default: 4.0, synchronized: yes]
+    D:GolemHeartDefaultArmor=4.0
+
+    # Resistance to explosion damage provided by Heart of the Golem. Defined as percentage. [range: 0 ~ 100, default: 40, synchronized: yes]
+    I:GolemHeartExplosionResistance=40
+
+    # Resistance to knockback provided by Heart of the Golem. Defined as percentage. [range: 0 ~ 100, default: 100, synchronized: yes]
+    I:GolemHeartKnockbackResistance=100
+
+    # Resistance to melee attacks provided by Heart of the Golem. Defined as percentage. [range: 0 ~ 100, default: 25, synchronized: yes]
+    I:GolemHeartMeleeResistance=25
+
+    # The amount of armor points provided by Heart of the Golem when it's bearer has no armor equipped. [range: 0.0 ~ 256.0, default: 16.0, synchronized: yes]
+    D:GolemHeartSuperArmor=16.0
+
+    # The amount of armor toughness provided by Heart of the Golem when it's bearer has no armor equipped. [range: 0.0 ~ 256.0, default: 4.0, synchronized: yes]
+    D:GolemHeartSuperArmorToughness=4.0
+
+    # Modifier for Magic Damage vulnerability applied by Heart of the Golem. Default value of 2.0 means that player will receive twice as much damage from magic. [range: 1.0 ~ 256.0, default: 2.0, synchronized: yes]
+    D:GolemHeartVulnerabilityModifier=2.0
+
+    # Range of active/passive abilities of Heart of the Guardian. [range: 0 ~ 32768, default: 24, synchronized: yes]
+    I:GuardianHeartAbilityRange=24
+
+    # Cooldown of enraging ability of Heart of the Guardian. Measured in ticks. [range: 0 ~ 32768, default: 200, synchronized: yes]
+    I:GuardianHeartActiveAbilityCooldown=200
+
+    # Range in which monster enraged by active ability of Heart of the Guardian will seek new target. Monsters within this range will target enraged monster back. [range: 0 ~ 32768, default: 12, synchronized: yes]
+    I:GuardianHeartEnrageRange=12
+
+    # Multiplier for experience consumption by Gift of the Heaven. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
+    D:HeavenScrollXPCostModifier=1.0
+
+    # The range in which Guide to Feral Hunt will redirect damage from pet to it's owner. [range: 0 ~ 32768, default: 24, synchronized: yes]
+    I:HunterGuideEffectiveDistance=24
+
+    # The percantage subtracted from damage redirected by Guide to Feral Hunt, if Guide to Animal Companionship is also possessed. [range: 0 ~ 100, default: 50, synchronized: yes]
+    I:HunterGuideSynergyDamageReduction=50
+
+    # Inverts the Shift behaviour of Magnetic Ring and Dislocation Ring. [default: false, synchronized: yes]
+    B:MagnetRingInvertShift=false
+
+    # The radius in which Magnetic Ring will attract items. [range: 1 ~ 256, default: 8, synchronized: yes]
+    I:MagnetRingRange=8
+
+    # Radius in which Exptrapolated Megaspong absorbs water. Default 4 equals to vanilla sponge [range: 0 ~ 128, default: 4, synchronized: yes]
+    I:MegaspongeRadius=4
+
+    # Mining speed boost granted by Charm of Treasure Hunter. Defined as percentage. [range: 0 ~ 1000, default: 30, synchronized: yes]
+    I:MiningCharmBreakSpeed=30
+
+    # Additional block reach granted by Charm of Treasure Hunter. [range: 0.0 ~ 16.0, default: 2.15, synchronized: yes]
+    D:MiningCharmReachDistance=2.15
+
+    # Whether or not Emblem of Monster Slayer should provide +1 Looting Level. [default: true, synchronized: yes]
+    B:MonsterCharmBonusLooting=true
+
+    # Whether or not Emblem of Monster Slayer should provide double experience drop from monsters. [default: true, synchronized: yes]
+    B:MonsterCharmDoubleXP=true
+
+    # Damage bonus against agressive creatures for Emblem of Monster Slayer. Defined as percentage. [range: 0 ~ 1000, default: 10, synchronized: yes]
+    I:MonsterCharmHostileDamage=10
+
+    # Damage bonus against undead enemies for Emblem of Monster Slayer. Defined as percentage. [range: 0 ~ 1000, default: 25, synchronized: yes]
+    I:MonsterCharmUndeadDamage=25
+
+    # Hard cap for Keystone of The Oblivion. When it's reached, you will no longer be able to add new items to it's list via crafting. Required to prevent potential perfomance issues with ridiculously large lists. [range: 1 ~ 32768, default: 100, synchronized: yes]
+    I:OblivionStoneHardcap=100
+
+    # Soft cap for Keystone of The Oblivion. When it's reached, the list view seen in it's Ctrl tooltip will be fixed at this amount of items, and become chaotic and unreadable. Required since monitors are not infinitely large these days. [range: 1 ~ 32768, default: 25, synchronized: yes]
+    I:OblivionStoneSoftcap=25
+
+    # Active ability cooldown for Will of the Ocean. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 600, synchronized: yes]
+    I:OceanStoneCooldown=600
+
+    # Swimming speed boost provided by Will of the Ocean. Defined as percentage. [range: 0 ~ 1000, default: 200, synchronized: yes]
+    I:OceanStoneSwimBoost=200
+
+    # Damage resistance against underwater creatures provided by Will of the Ocean. Defined as percentage. [range: 0 ~ 100, default: 40, synchronized: yes]
+    I:OceanStoneUnderwaterCreaturesResistance=40
+
+    # Multiplier for experience consumption by active ability of Will of the Ocean. [range: 0.0 ~ 1000.0, default: 1.0, synchronized: yes]
+    D:OceanStoneXPCostModifier=1.0
+
+    # Whether or not it should be allowed to equip multiple spellstones if they are different items, granted player somehow gets more than one spellstone slot. [default: false, synchronized: yes]
+    B:SpellstonesMultiequip=false
+
+    # The radius in which Dislocation Ring will collect items. [range: 1 ~ 256, default: 16, synchronized: yes]
+    I:SuperMagnetRingRange=16
+
+    # Whether or not Dislocation Ring should play sound effect when teleporting items to player. [default: false, synchronized: yes]
+    B:SuperMagnetRingSound=false
+
+    # Attack damage of The Twist, actual damage shown in tooltip will be is 1 + this_value. [range: 0.0 ~ 32768.0, default: 8.0, synchronized: yes]
+    D:TheTwistAttackDamage=8.0
+
+    # Attack speed of The Twist. [range: -32768.0 ~ 32768.0, default: -1.8, synchronized: yes]
+    D:TheTwistAttackSpeed=-1.8
+
+    # Attack damage bonus of The Twist against players and bossess. [range: 0 ~ 32768, default: 300, synchronized: yes]
+    I:TheTwistBossDamageBonus=300
+
+    # Knockback bonus of The Twist. For Phantoms, this value is multiplied by 1.5. [range: 0 ~ 32768, default: 300, synchronized: yes]
+    I:TheTwistKnockbackPowerBonus=300
+
+    # Base damage dealt by Darkness every half a second, when it devours a creature in proximity of bearer of the pearl. [range: 0.0 ~ 1000.0, default: 4.0, synchronized: yes]
+    D:VoidPearlBaseDarknessDamage=4.0
+
+    # Active ability cooldown for Pearl of the Void. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 0, synchronized: yes]
+    I:VoidPearlCooldown=0
+
+    # Modifier for slowing down player's regeneration when bearing the pearl. This includes natural regeneration, as well as artificial healing effects that work over time. The greater it is, the slower player will regenerate. [range: 0.0 ~ 1000.0, default: 1.0, synchronized: yes]
+    D:VoidPearlRegenerationModifier=1.0
+
+    # Range in which Pearl of the Void will force darkness to devour living creatures. [range: 0.0 ~ 128.0, default: 16.0, synchronized: yes]
+    D:VoidPearlShadowRange=16.0
+
+    # Chance for Pearl of the Void to prevent it's bearer death from receiving lethal amout of damage. Defined as percentage. [range: 0 ~ 100, default: 35, synchronized: yes]
+    I:VoidPearlUndeadChance=35
+
+    # Level of Withering that bearer of the pearl will apply to entitities they attack. [range: 0 ~ 3, default: 2, synchronized: yes]
+    I:VoidPearlWitheringLevel=2
+
+    # Amout of ticks for which bearer of the pearl will apply Withering effect to entities they attack. 20 ticks equals to 1 second. [range: 0 ~ 32768, default: 100, synchronized: yes]
+    I:VoidPearlWitheringTime=100
+
+    # Range in which Scroll of Ageless Wisdom collects experience orbs when active. [range: 1.0 ~ 128.0, default: 16.0, synchronized: yes]
+    D:XPScrollCollectionRange=16.0
+}
+
+
+##########################################################################################################
+# Generic Config
+#--------------------------------------------------------------------------------------------------------#
+# Some different stuff
+##########################################################################################################
+
+"Generic Config" {
+    # Maximum amount of Soul Crystals a player can loose before they won't drop anymore. Each crystal lost subtracts 10% of from their maximum possible health value. [range: 1 ~ 10, default: 9, synchronized: no]
+    I:MaxSoulCrystalLoss=9
+
+    # Soul Crystals mechanic mode. 0 - disabled unless enforced by specific in-game items; 1 - also enabled when keepInventory is true; 2 - always enabled. [range: 0 ~ 2, default: 0, synchronized: no]
+    I:SoulCrystalsMode=0
+}
+
+
+##########################################################################################################
+# Save the Bees
+#--------------------------------------------------------------------------------------------------------#
+# This category exists solely because of Jusey1z who really wanted to protect his bees.
+# Btw Jusey, when I said 'very cute though', I meant you. Bees are cute either of course.
+##########################################################################################################
+
+"Save the Bees" {
+    # If true, bees will never affected by the Second Curse of Ring of the Seven Curses. [default: false, synchronized: yes]
+    B:CursedRingDontTouchMyBees=true
+}
+
+
+##########################################################################################################
+# The Seven Curses
+#--------------------------------------------------------------------------------------------------------#
+# Config options directly affecting Ring of the Seven Curses
+##########################################################################################################
+
+"The Seven Curses" {
+    # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 30, synchronized: yes]
+    I:CursedRingArmorDebuff=30
+
+    # Set to false to disable ALL special drops that can be obtained from vanilla mobs when bearing Ring of the Seven Curses. [default: true, synchronized: yes]
+    B:CursedRingEnableSpecialDrops=true
+
+    # How much additional Enchanting Power ring provides in Enchanting Table. [range: 0 ~ 32768, default: 10, synchronized: yes]
+    I:CursedRingEnchantingBonus=10
+
+    # Allows to adjust how frequently Endermen will try to randomly teleport to player bearing the ring, even if they can't see the player and are not angered yet. Lower value = less probability of this happening. [range: 0.01 ~ 32768.0, default: 1.0, synchronized: yes]
+    D:CursedRingEndermenRandomportFrequency=1.0
+
+    # Range in which Endermen can try to randomly teleport to bearers of the ring. [range: 8.0 ~ 32768.0, default: 32.0, synchronized: yes]
+    D:CursedRingEndermenRandomportRange=32.0
+
+    # How much experience will drop from mobs to bearers of the ring, measured in percents. [range: 0 ~ 32768, default: 400, synchronized: yes]
+    I:CursedRingExperienceBonus=400
+
+    # How many bonus Fortune levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
+    I:CursedRingFortuneBonus=1
+
+    # How much knockback bearers of the ring take, measured in percents. [range: 0 ~ 32768, default: 200, synchronized: yes]
+    I:CursedRingKnockbackDebuff=200
+
+    # How many bonus Looting levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
+    I:CursedRingLootingBonus=1
+
+    # How much damage monsters receive from bearers of the ring will be decreased, in percents. [range: 0 ~ 32768, default: 50, synchronized: yes]
+    I:CursedRingMonsterDamageDebuff=50
+
+    # List of entities that should never be affected by the Second Curse of Ring of the Seven Curses. Examples: minecraft:iron_golem, minecraft:zombified_piglin. Changing this option required game restart to take effect. [default: , synchronized: no]
+    S:CursedRingNeutralAngerBlacklist <
+     >
+
+    # Range in which neutral creatures are angered against bearers of the ring. [range: 4.0 ~ 32768.0, default: 24.0, synchronized: yes]
+    D:CursedRingNeutralAngerRange=24.0
+
+    # Range in which neutral creatures can see and target bearers of the ring even if they can't directly see them. [range: 0.0 ~ 32768.0, default: 4.0, synchronized: yes]
+    D:CursedRingNeutralXRayRange=4.0
+
+    # Defines how much damage bearers of the ring receive from any source. Measured as percentage. [range: 0 ~ 32768, default: 200, synchronized: yes]
+    I:CursedRingPainModifier=200
+
+    # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when entering a new world, instead of just being added to their inventory. [default: false, synchronized: yes]
+    B:CursedRingUltraHardcode=false
+}
+
+

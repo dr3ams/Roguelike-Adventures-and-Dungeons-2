@@ -1,0 +1,57 @@
+#[INTERNAL] Mod configuration version -- DO NOT ALTER, EVER!
+version = 1
+
+[general]
+	#[INTERNAL] Set true to enable development checks and workflows. Do NOT enable in a regular environment. Applies only to library.
+	debug_mode = false
+
+# Used to control how the library and dependent mods work with other thirdparty mods.
+[integration]
+	#Set to true to use fair play settings wherever appropriate (for example could disable x-ray potion effects or insta-kill weapons or certain enchantments in multi-player environments). Defaults OFF (anything goes!)
+	fairplay_pvp = false
+	#Set to true to consider neutral potions as 'bad' for certain operations; for example, when blanket clearing harmful effects with antidotes or in selection of random potion effects. Affects all library-dependent mods.
+	neutral_effects_bad = false
+	#Set to your preferred baubles mod's id. Note that if this value is defined and the named mod is not present but another baubles mod is, that other mod will NOT be used. If you want to disable mod integration, set this value to "*NONE*". Leave the value as "*DEFAULT*" to have the library bind to any mod it recognizes (Curios,Baubles Reborn). Affects auto-integration of all library-dependent mods.
+	baubles_mod_used = "*DEFAULT*"
+	#Set to your preferred environment or climate mod's id. Note that if this value is defined and the named mod is not present but another similar mod is, that other mod will NOT be used. If you want to disable mod integration, set this value to "*NONE*". Leave the value as "*DEFAULT*" to have the library bind to any mod it recognizes (Serene Seasons). Affects auto-integration of all library-dependent mods.
+	environ_mod_used = "*DEFAULT*"
+	#Set to your preferred survival mod's id. Note that if this value is defined and the named mod is not present but another survival mod is, that other mod will NOT be used. If you want to disable mod integration, set this value to "*NONE*". Leave the value as "*DEFAULT*" to have the library bind to any mod it recognizes (Survive). Affects auto-integration of all library-dependent mods.
+	survival_mod_used = "*DEFAULT*"
+	#Set to true to add a few more difficulty tweaks to some survival mod mechanics (eg make thirst matter). Ignored if auto-integration with survival mods disabled. Affects all library-dependent mods.
+	more_survival_tweaks = false
+	#List of non-standard world types for which almanac tracking is done if that feature is enabled. Ignored unless almanacs have been enabled by at least one dependent mod. Tracking is ALWAYS done for the three standard Minecraft dimensions (overworld, the nether, the end). Requires a restart if changed.
+	almanac_tracked_dims = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+	#Set to true to make shared buffs visible to recipients in their HUD. Note that whether the effect is actually visible may depend on the other mods present.
+	shared_effects_shown = false
+	#Set to 'false' to remove or disable automatic application of nourishment related 'xxx Fed' buffs from consuming food or drink. Note that the underlying effects are still defined and available for use in data packs even if this option is set 'false'; the option only affects how the library and dependent mods like Vanilla Food Pantry and Super Buckets use those effects. Does not impact custom effects like Muscle Boost.
+	fighting_foods = "*DEFAULT*"
+	#Set to 'false' to disable ability to process food items into a simple charcoal substitute. Affects features within mods like Vanilla Food Pantry, Super Blocks, and Smart Hoppers.
+	food_to_fuel = "*DEFAULT*"
+	#Set to the max block distance a recipient entity for a far-reaching shared effect can be from the source. Primarily used for food-related buffs but can also apply to (de)buffs, campfires, and similar items. Set to 0 to disable sharing of all effects for library and dependent mods.
+	#Range: 0 ~ 32
+	shared_effects_max_reach = 8
+	#Set false to prevent library from enabling Forge's builtin 'milk' fluid. Be warned that turning this off can impact builtin recipes.
+	forge_milkfluid = true
+
+# Used to diagnose farming and fishing almanacs and advancements within dependent mods. INTERNAL.
+# Does not affect the fixed psuedo-season of the Nether or the End (a single 336-day long season)
+[almanac]
+	#[INTERNAL] Set to the number of ticks associated with a FULL day-night cycle in game. Alter this value for testing only as setting it does NOT change the actual game clock.
+	ticks_per_fullday = -1
+	#[INTERNAL] Set to the number of ticks associated with the day portion of a day-night cycle in game including both dawn and dusk portions. Alter this value for testing only as setting it does NOT change the actual game clock.
+	ticks_in_daytime = -1
+	#[INTERNAL] Set to the number of ticks associated with dawn portion of a day-night cycle in game. Leave as-is to use 50s or 1000 ticks. Alter this value for testing only as setting it does NOT change the actual game clock.
+	ticks_in_dawn = -1
+	#[INTERNAL] Set to the number of ticks associated with dusk portion of a day-night cycle in game. Leave as-is to use 50s or 1000 ticks. Alter this value for testing only as setting it does NOT change the actual game clock.
+	ticks_in_dusk = -1
+	#[INTERNAL] Set to the preferred almanac computation algo when a season-providing mod is NOT present. Allowed values are 'config'(default), '84x4', 'biome', and 'disabled'
+	fallback_impl = "*DEFAULT*"
+	#[INTERNAL] Set to the number of subseasons associated with a single full almanac season in game. Alter this value for debugging only; leave as-is to allow library to determine value from mods present. If no environment mods are present, defaults to 3; for example: 'early', 'mid', 'late' designations.
+	subseasons_per_season = -1
+	#[INTERNAL] Set to the number of weeks associated with a single subseason in game. Note that each week consists of 7 full Minecraft days ALWAYS. Alter this value for debugging only; leave as-is to allow library to determine value from mods present. If no environment mods are present, defaults to 4 for a default season length of 84 Minecraft days for 3 subseasons.
+	weeks_per_subseason = -1
+	#[INTERNAL] Set to the number of seasons associated with a single full almanac year in game (overworld). Alter this value for debugging only; leave as-is to allow library to determine value from mods present. If no environment mods are present defaults to 4; for example: spring, summer, autumn, and winter. Does not affect the fixed single-season almanacs assigned to the Nether and the End.
+	seasons_per_year = -1
+	#[INTERNAL] Set to the number of ticks to add as an offset on day one of world creation. Alter this value if you have an environment mod that "shifts" its first day to match some custom starting point (for example 'start on the last day of spring'). Do NOT change this value for an existing world; you will screw things up badly. Defaults to zero(0).
+	day1_ticks_offset = -1
+

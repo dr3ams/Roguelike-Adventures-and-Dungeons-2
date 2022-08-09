@@ -1,0 +1,9 @@
+#If TRUE, Night Vision brightness will gradually fade over a number of ticks instead of abruptly stopping.
+"Fade Out" = true
+#If the fade out option is enabled (TRUE), adjust this value to change the duration of the fade.
+#Range: 10 ~ 200
+"Fade Out Ticks" = 20
+#Adjust this value to change the default brightness of the Night Vision effect. Setting this to 0 will effectively disable it.
+#Range: 0.0 ~ 1.0
+"Max Brightness" = 1.0
+

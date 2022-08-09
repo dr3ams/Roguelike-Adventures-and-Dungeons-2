@@ -1,0 +1,16 @@
+{
+  // The duration in ticks for the levitation effect applied by fey dust.
+  // Minimum: 1
+  "fey_dust_ticks": 30,
+  
+  // Whether players should spawn with a Feywild Lexicon
+  "initial_lexicon": false,
+  
+  // Whether the players should be able to select one of the court's scrolls on first login, on first time opening the guide book or none.
+  // Allowed values: book, login, none
+  "initial_scroll": "none",
+  
+  // This determines the weight of the rune stone appearing in mineshaft treasure chests.
+  // Range: 1 - 100
+  "rune_stone_weight": 20
+}

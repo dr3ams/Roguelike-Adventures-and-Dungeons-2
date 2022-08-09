@@ -1,0 +1,18 @@
+
+#Mob Enchantments Configuration
+[mob_enchantment_configuration]
+
+	#Enchantments on Spawn Configuration
+	[mob_enchantment_configuration.spawn_mob_enchantment_configuration]
+		#Enable the the spawning of enchanted mobs. [true / false]
+		enableEnchantedMobs = false
+		#Disables specific mob enchantments from appearing on mobs. Use the full name, eg: dungeons_mobs:protection. Defaults to empty list
+		enchantOnSpawnExclusionEnchantments = []
+		#Disables specific mob from receiveing enchantments on spawn. Use the full name, eg: dungeons_mobs:protection. Defaults to bosses.
+		enchantOnSpawnExclusionMobs = ["minecraft:wither", "minecraft:ender_dragon"]
+		#Chance for a mob to spawn with enchantments. Is multiplied with the difficulty level (1 - 3). Defaults to 0.015.
+		#Range: 0.0 ~ 1.0
+		enchantOnSpawnChance = 0.015
+		#Enable the the spawning of enchanted passive mobs. [true / false]
+		enableEnchantedPassiveMobs = true
+
