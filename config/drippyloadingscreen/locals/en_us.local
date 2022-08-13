@@ -540,4 +540,42 @@ drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.openglversion =
 drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.randomtext = Random Text From TXT File
 drippyloadingscreen.helper.ui.dynamicvariabletextfield.variables.randomtext.desc = Picks a random text from a TXT file.%n%%n%Supports custom change intervals for texts.%n%%n%Just replace '<filepath>' (remove the < >)%n%with the path to your TXT file%n%and replace '<interval_sec>' (remove the < >)%n%with the change interval in seconds.%n%An interval of 0 will make it%n%pick a text only once per session.%n%%n%§lExample:%n%%randomtext:path/to/file.txt:10%
 
+drippyloadingscreen.back = Back
+drippyloadingscreen.done = Done
+drippyloadingscreen.cancel = Cancel
+
+drippyloadingscreen.audio.channel = Audio Channel: §6{}
+drippyloadingscreen.audio.loop.on = Loop: §aOn
+drippyloadingscreen.audio.loop.off = Loop: §cOff
+drippyloadingscreen.audio.once_per_session.on = Once Per Session: §aOn
+drippyloadingscreen.audio.once_per_session.off = Once Per Session: §cOff
+drippyloadingscreen.audio.once_per_session.desc = If the element should play its%n%audios only once per session.
+drippyloadingscreen.audio.manage = Manage Audios
+drippyloadingscreen.audio.manage.desc = Add, edit or remove audios.
+drippyloadingscreen.audio.choose = Choose Audio
+drippyloadingscreen.audio.choose.info = §lAudio Info%n%%n%{}%n%Index: §6{}%n%Volume: §6{}
+drippyloadingscreen.audio.add = Add Audio
+drippyloadingscreen.audio.remove = Remove Audio
+drippyloadingscreen.audio.remove.confirm = §c§lAre you sure?%n%%n%Do you really want to §cdelete §rthis audio?%n% %n% %n% %n%
+drippyloadingscreen.audio.edit = Edit Audio
+drippyloadingscreen.audio.add_or_edit = Add/Edit Audio
+drippyloadingscreen.audio.sourcetype.external_local = Source Type: §6Local
+drippyloadingscreen.audio.sourcetype.external_web = Source Type: §6Web
+drippyloadingscreen.audio.choosesource = Choose Source
+drippyloadingscreen.audio.choosesource.file.invalid = §c§lInvalid File!%n%%n%The chosen file is not a valid OGG file!%n% %n% %n% %n%
+drippyloadingscreen.audio.choosesource.url = Input Audio URL
+drippyloadingscreen.audio.choosesource.url.invalid = §c§lInvalid URL!%n%%n%This is not a valid URL!%n%Please make sure you have a working internet connection%n%and didn't make any typos.%n% %n% %n% %n%
+drippyloadingscreen.audio.index = Index
+drippyloadingscreen.audio.index.desc = The audio index is used to order%n%the audio entries of the element.%n%It can be used to control%n%in what order audios are played.%n%%n%Audios with the same index%n%get §lshuffled§r.
+drippyloadingscreen.audio.volume = Volume
+drippyloadingscreen.audio.volume.desc = The volume of this audio.
+
+drippyloadingscreen.audio.item = Audio
+drippyloadingscreen.audio.item.desc = Add an audio handler to your layout.%n%%n%Can be used to play background sounds.%n%Can hold multiple sounds at once.%n%%n%§cThis element is only visible%n%§cin the editor!%n%§cIt will be invisible in the actual menu.
+
+drippyloadingscreen.config.categories.loading_behaviour = Loading Behaviour
+
+drippyloadingscreen.config.custom_sound_engine_reloading = Custom Sound Reloading
+drippyloadingscreen.config.custom_sound_engine_reloading.desc = If the reloading behaviour of%n%the sound engine should be%n%changed, so sounds can play in%n%the loading screen.
+
 

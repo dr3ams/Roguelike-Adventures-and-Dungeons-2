@@ -1,9 +1,9 @@
 {
 	id: "0000000000000579"
 	group: ""
-	order_index: 5
+	order_index: 1
 	filename: "shop"
-	title: "$ - COIN SHOP - $"
+	title: "$ - COIN SHOP - $(WIP)"
 	icon: "kubejs:gold_coin"
 	disable_toast: true
 	default_quest_shape: ""
@@ -71,19 +71,7 @@
 		}
 		{
 			x: 0.0d
-			y: -4.0d
-			width: 2.0d
-			height: 2.0d
-			rotation: 0.0d
-			image: "ftbchunks:textures/faces/minecraft/wandering_trader.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 0.0d
-			y: 7.0d
+			y: 4.0d
 			width: 2.0d
 			height: 2.0d
 			rotation: 0.0d
@@ -374,8 +362,8 @@
 		}
 		{
 			icon: "minecraft:emerald_block"
-			x: -2.5d
-			y: 4.0d
+			x: -2.0d
+			y: 1.0d
 			subtitle: "Exchange resources for coins"
 			id: "43B06F2F3D6CDA23"
 			tasks: [
@@ -401,8 +389,8 @@
 		}
 		{
 			icon: "minecraft:diamond_block"
-			x: 2.0d
-			y: 5.0d
+			x: 1.5d
+			y: 4.0d
 			subtitle: "Exchange resources for coins"
 			id: "71377794D49477FE"
 			tasks: [
@@ -428,8 +416,8 @@
 		}
 		{
 			icon: "minecraft:gold_block"
-			x: -1.5d
-			y: 4.0d
+			x: -2.0d
+			y: 0.0d
 			subtitle: "Exchange resources for coins"
 			id: "7C6A42B20111F81A"
 			tasks: [
@@ -508,33 +496,6 @@
 			}]
 		}
 		{
-			icon: "minecraft:amethyst_block"
-			x: -6.0d
-			y: 5.0d
-			subtitle: "Exchange resources for coins"
-			id: "395B642C27BB51E8"
-			tasks: [
-				{
-					id: "1CAC3D506A5A6A94"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:amethyst_block"
-					consume_items: true
-				}
-				{
-					id: "4D6CF0C144811E2B"
-					type: "xp"
-					value: 10L
-					points: false
-				}
-			]
-			rewards: [{
-				id: "70E2E421E35F7599"
-				type: "questsadditions:repeat_choice"
-				table_id: 7890226414257577026L
-			}]
-		}
-		{
 			icon: "minecraft:nether_star"
 			x: 4.0d
 			y: 4.0d
@@ -589,7 +550,7 @@
 		{
 			icon: "buddycards:buddysteel_block"
 			x: -2.0d
-			y: 5.0d
+			y: 6.0d
 			id: "665A83F8FD6E2A4E"
 			tasks: [
 				{
@@ -608,30 +569,6 @@
 			]
 			rewards: [{
 				id: "46A0D9F444C5CEE9"
-				type: "questsadditions:repeat_choice"
-				table_id: 5362484379163422117L
-			}]
-		}
-		{
-			icon: "tconstruct:cobalt_block"
-			x: -2.0d
-			y: 3.0d
-			id: "6CF9E53F3D8F13B4"
-			tasks: [
-				{
-					id: "1C1C7852ADB98172"
-					type: "item"
-					item: "tconstruct:cobalt_block"
-				}
-				{
-					id: "0A0A23B1F98A3B1D"
-					type: "xp"
-					value: 10L
-					points: false
-				}
-			]
-			rewards: [{
-				id: "1FB2DC911D85D58F"
 				type: "questsadditions:repeat_choice"
 				table_id: 5362484379163422117L
 			}]
@@ -663,35 +600,9 @@
 			}]
 		}
 		{
-			icon: "tconstruct:manyullyn_block"
-			x: 1.5d
-			y: 4.0d
-			id: "2B84E8DA44358BA6"
-			tasks: [
-				{
-					id: "11BF4247BBE7355B"
-					type: "item"
-					disable_toast: true
-					item: "tconstruct:manyullyn_block"
-					consume_items: true
-				}
-				{
-					id: "718A6DB4C30043B3"
-					type: "xp"
-					value: 10L
-					points: false
-				}
-			]
-			rewards: [{
-				id: "0338D0DCD1D8307B"
-				type: "questsadditions:repeat_choice"
-				table_id: 4173479592353618945L
-			}]
-		}
-		{
 			disable_toast: true
 			x: 0.0d
-			y: 9.0d
+			y: 6.0d
 			shape: "octagon"
 			subtitle: "Choice repeatable reward"
 			size: 2.0d
@@ -707,6 +618,740 @@
 				id: "54144210F25142F5"
 				type: "questsadditions:repeat_choice"
 				table_id: 493550106172164909L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			id: "3DA852CBB9294515"
+			tasks: [{
+				id: "63354904326B25E3"
+				type: "item"
+				title: "Any #forge:storage_blocks/fire_dragon_scale"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/fire_dragon_scale"
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			id: "3D6CC2442D45C8EA"
+			tasks: [{
+				id: "3ECAC917B23BE9D7"
+				type: "item"
+				title: "Any #forge:storage_blocks/lightning_dragon_scale"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/lightning_dragon_scale"
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			id: "5F69FA7386F4FDE6"
+			tasks: [{
+				id: "75010189665CDA70"
+				type: "item"
+				title: "Any #forge:storage_blocks/ice_dragon_scale"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:storage_blocks/ice_dragon_scale"
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 0.0d
+			y: 13.5d
+			id: "4A12C6E1F6EC5589"
+			tasks: [{
+				id: "438AC9A430B0E41C"
+				type: "item"
+				item: {
+					id: "the_afterlight:moon_crystal_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 7.0d
+			id: "71800296DBFE3A6C"
+			tasks: [{
+				id: "4E78213AF871D872"
+				type: "item"
+				item: {
+					id: "tropicraft:azurite_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 4.0d
+			y: 14.5d
+			id: "039DA54BE74CB431"
+			tasks: [{
+				id: "5B08AAA30F69E39A"
+				type: "item"
+				item: {
+					id: "twilightforest:carminite_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 3.0d
+			y: 14.5d
+			id: "5BB337B17577E875"
+			tasks: [{
+				id: "5D53C4A521684623"
+				type: "item"
+				item: {
+					id: "twilightforest:knightmetal_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: -2.0d
+			y: 9.0d
+			id: "30E490B7F82D7CEB"
+			tasks: [{
+				id: "408C8EB4C3796A14"
+				type: "item"
+				item: {
+					id: "iceandfire:amythest_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.0d
+			id: "735BAB1C9E00DD56"
+			tasks: [{
+				id: "1F5AB7D633AECEFE"
+				type: "item"
+				item: {
+					id: "iceandfire:sapphire_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			id: "047CDF996476E120"
+			tasks: [{
+				id: "0DC2621091F0A955"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_lightning_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 2.0d
+			y: 13.5d
+			id: "4086F94DAD8287A3"
+			tasks: [{
+				id: "5B1AA537E0B1F796"
+				type: "item"
+				item: {
+					id: "the_afterlight:moonsteel_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 13.5d
+			id: "7681DE4BDF70D77F"
+			tasks: [{
+				id: "54D3DA3B3B2C16B8"
+				type: "item"
+				item: {
+					id: "the_afterlight:crystillium_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 13.5d
+			id: "298235E0C4D4E9A7"
+			tasks: [{
+				id: "2BDA89E9A598A309"
+				type: "item"
+				item: {
+					id: "the_afterlight:lunarite_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.5d
+			id: "48FD0FCFEC7B0209"
+			tasks: [{
+				id: "51ADD5FCD3E61E63"
+				type: "item"
+				item: {
+					id: "undergarden:cloggrum_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 1.0d
+			y: 12.5d
+			id: "448648936134BDB8"
+			tasks: [{
+				id: "7E1FBB6125C86D99"
+				type: "item"
+				item: {
+					id: "undergarden:froststeel_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 3.0d
+			y: 12.5d
+			id: "12D3DFA52143C082"
+			tasks: [{
+				id: "71D311291C3B68F7"
+				type: "item"
+				item: {
+					id: "undergarden:utherium_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 2.0d
+			y: 12.5d
+			id: "5D48F30709BC485F"
+			tasks: [{
+				id: "5BD3707CBA5F52BD"
+				type: "item"
+				item: {
+					id: "undergarden:regalium_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 4.0d
+			y: 12.5d
+			id: "406CD5FAB66EF695"
+			tasks: [{
+				id: "65E58DDA765AC295"
+				type: "item"
+				item: {
+					id: "undergarden:forgotten_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: -6.0d
+			y: 9.0d
+			id: "2230EF3DB7AC7ECA"
+			tasks: [{
+				id: "18B6833E3B353664"
+				type: "item"
+				item: {
+					id: "ars_nouveau:mana_gem_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 6.5d
+			y: 10.5d
+			id: "5828E2CF1BECC740"
+			tasks: [{
+				id: "24D5759A18240C7A"
+				type: "item"
+				item: {
+					id: "buddycards:buddysteel_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 7.5d
+			y: 10.5d
+			id: "058E542C50B08DE3"
+			tasks: [{
+				id: "015C95D3A642EAB2"
+				type: "item"
+				item: {
+					id: "buddycards:zylex_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 8.5d
+			y: 10.5d
+			id: "6886491A81A257F0"
+			tasks: [{
+				id: "680101B02BF9B8C6"
+				type: "item"
+				item: {
+					id: "buddycards:luminis_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 0.0d
+			y: 14.5d
+			id: "160D8FD210AA58C5"
+			tasks: [{
+				id: "140D0C00EF8A39B3"
+				type: "item"
+				item: {
+					id: "twilightforest:ironwood_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 1.0d
+			y: 14.5d
+			id: "3097589142158865"
+			tasks: [{
+				id: "102CE6C8BFAD9480"
+				type: "item"
+				item: {
+					id: "twilightforest:steeleaf_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 2.0d
+			y: 14.5d
+			id: "125B7746F8C58CF4"
+			tasks: [{
+				id: "4F4682AFD6D70B13"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.0d
+			id: "54E41164D998A205"
+			tasks: [{
+				id: "3F632F34C716C589"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.5d
+			id: "782149E3BDE6A230"
+			tasks: [{
+				id: "5D891F9E1EADB083"
+				type: "item"
+				item: {
+					id: "blue_skies:moonstone_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			id: "214F4118140ECEFE"
+			tasks: [{
+				id: "7F1861A7E01639A8"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.0d
+			id: "747467D2F1BE9D77"
+			tasks: [{
+				id: "25097211BA3BB94F"
+				type: "item"
+				item: {
+					id: "betterendforge:ender_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 10.5d
+			y: 10.5d
+			id: "49ADA812AFE768C1"
+			tasks: [{
+				id: "6C1F6A9A1B6C0CC0"
+				type: "item"
+				item: {
+					id: "buddycards:perfect_buddysteel_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 9.5d
+			y: 10.5d
+			id: "2F5234005843FB71"
+			tasks: [{
+				id: "78CD422D02EC2DD0"
+				type: "item"
+				item: {
+					id: "buddycards:deep_luminis_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: -6.0d
+			y: 8.0d
+			id: "708C375E99C61E6B"
+			tasks: [{
+				id: "07C4016799BF95CD"
+				type: "item"
+				item: {
+					id: "tropicraft:zirconium_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 4.0d
+			y: 11.5d
+			id: "4D16613ADC013012"
+			tasks: [{
+				id: "573A11467BF7294D"
+				type: "item"
+				item: {
+					id: "blue_skies:diopside_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.5d
+			id: "3BDBA0D11C1C355B"
+			tasks: [{
+				id: "6FFB92EC23DD7744"
+				type: "item"
+				item: {
+					id: "blue_skies:pyrope_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.5d
+			id: "01ABB11450AEB545"
+			tasks: [{
+				id: "3A6057BC94B0AD36"
+				type: "item"
+				item: {
+					id: "blue_skies:aquite_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.5d
+			id: "2A32F0877F368BF3"
+			tasks: [{
+				id: "70EA690C481C183B"
+				type: "item"
+				item: {
+					id: "blue_skies:falsite_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.5d
+			id: "318C1FAC429FAF49"
+			tasks: [{
+				id: "3E6B271447166976"
+				type: "item"
+				item: {
+					id: "blue_skies:ventium_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 2.0d
+			y: 10.5d
+			id: "352F879701678EE8"
+			tasks: [{
+				id: "05FF6B2F3E744D23"
+				type: "item"
+				item: {
+					id: "blue_skies:horizonite_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.5d
+			id: "6C49CD1B01042957"
+			tasks: [{
+				id: "4A48BA0D79218938"
+				type: "item"
+				item: {
+					id: "blue_skies:sunstone_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
 			}]
 		}
 	]

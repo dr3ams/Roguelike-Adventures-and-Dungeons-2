@@ -1,0 +1,25 @@
+
+#Does It Tick Settings
+[Settings]
+
+	[Settings."Core Config"]
+		"Use Automatic Distance Values (Higher in Singleplayer, Lower in SMP)" = true
+		"Use Extreme Measures (quick setting to turn on high-performance mode)" = false
+		"Ignore Dead Entities (with this turned on, the tick check will run a lot faster, but entities won't die if outside range)" = false
+
+	[Settings."Custom Tick Distance Settings"]
+		"(LivingEntity) Max Horizontal Tick Distance [Default 64]" = 64
+		"(LivingEntity) Max Vertical Tick Distance [Default 32]" = 32
+		"(LivingEntity) Max Spawn Check Horizontal Distance [Default 64]" = 64
+		"(LivingEntity) Max Spawn Check Vertical Distance [Default 32]" = 32
+		"(Fluid) Max Fluid Tick Horizontal Distance [Squared, Default 64]" = 64
+		"(Fluid) Max Fluid Tick Vertical Distance [Default 32]" = 32
+
+	[Settings."Other Settings"]
+		"Optimize Item Movement (items move at 1/4 speed)" = true
+		"Optimize Fluid Ticks" = true
+		"Ignore Dead Entities (with this turned on, the tick check will run a lot faster, but entities won't die if outside range)" = false
+
+	[Settings."Entity Whitelist"]
+		"Whitelisted Entities" = ["ender_dragon", "ghast"]
+

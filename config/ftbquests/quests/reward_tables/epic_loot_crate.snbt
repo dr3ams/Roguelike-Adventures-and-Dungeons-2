@@ -1,6 +1,6 @@
 {
 	id: "3A00AA024D71440E"
-	order_index: 7
+	order_index: 10
 	title: "Epic loot crate"
 	loot_size: 1
 	rewards: [
@@ -86,14 +86,12 @@
 				}
 			}
 		}
-		{ item: "minecraft:copper_ingot", count: 64 }
 		{ item: "minecraft:emerald", count: 32 }
 		{ item: "minecraft:lapis_lazuli", count: 64 }
 		{ item: "minecraft:gold_ingot", count: 64 }
 		{ item: "minecraft:diamond", count: 16 }
 		{ item: "minecraft:iron_ingot", count: 64 }
 		{ item: "minecraft:netherite_ingot", count: 8 }
-		{ item: "create_stuff_additions:heap_of_experience", count: 32 }
 		{ item: "randomite:randomite_ore", count: 8 }
 		{ item: "aquaculture:lockbox", count: 5 }
 		{ item: "minecraft:golden_apple", count: 3 }
@@ -123,12 +121,22 @@
 				}
 			}
 		}
-		{ item: "create:brass_ingot", count: 32 }
 		{ item: "aquaculture:treasure_chest", count: 10 }
 		{ item: "oreberriesreplanted:essence_berry_bush" }
 		{ item: "oreberriesreplanted:iron_oreberry_bush" }
 		{ item: "oreberriesreplanted:gold_oreberry_bush" }
 		{ item: "oreberriesreplanted:copper_oreberry_bush" }
+		{
+			item: {
+				id: "minecraft:enchanted_golden_apple"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
 	]
 	loot_crate: {
 		drops: {

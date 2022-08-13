@@ -14,7 +14,7 @@
 	#Allowed Values: NEVER, WITH_SHIFT, ALWAYS
 	durabilityTooltipSetting = "WITH_SHIFT"
 	#Makes all anvil tool repairs always cost 1 level of XP
-	enableCheapAnvilRepair = true
+	enableCheapAnvilRepair = false
 
 #Block Tweaks
 ["block tweaks"]
@@ -40,7 +40,7 @@
 	#Range: 1 ~ 40
 	imperishableCost = 30
 	#Should the lumbering enchantment also prune the leaves of a tree?
-	lumberingCutsLeaves = true
+	lumberingCutsLeaves = false
 	#Should the lumbering enchantment be strict about wood types?
 	#e.g. if you're in a forest with mixed woods touching, should lumbering only break the same type of wood that was initially broken?
 	lumberingIsStrictAboutWood = true

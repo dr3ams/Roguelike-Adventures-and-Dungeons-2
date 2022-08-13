@@ -970,18 +970,11 @@
 				type: "item"
 				item: "floormats:nether/crimson_stem/gilded_crimson_stem_floormat_item"
 			}]
-			rewards: [
-				{
-					id: "172A81EE1762714C"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "474B8C9F3B8D3090"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
+			rewards: [{
+				id: "172A81EE1762714C"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
 		}
 		{
 			x: -0.5d
@@ -1022,18 +1015,11 @@
 				type: "item"
 				item: "floormats:nether/warped_stem/gilded_warped_stem_floormat_item"
 			}]
-			rewards: [
-				{
-					id: "1000F8C6E3DE03D8"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "0D0988067C449DCB"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
+			rewards: [{
+				id: "1000F8C6E3DE03D8"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
 		}
 		{
 			x: 0.5d
@@ -2494,6 +2480,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "531D19E0418DD589"
+				type: "ftbmoney:money"
+				ftb_money: 10L
 			}]
 		}
 	]

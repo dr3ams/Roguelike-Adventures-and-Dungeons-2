@@ -1,8 +1,23 @@
 type = customizablemenus
 
+net.minecraft.client.gui.screen.IngameMenuScreen {
+}
+
 net.minecraft.client.gui.screen.MainMenuScreen {
 }
 
-net.minecraft.client.gui.screen.IngameMenuScreen {
+net.minecraft.client.gui.screen.WorldLoadProgressScreen {
+}
+
+net.minecraft.client.gui.screen.DirtMessageScreen {
+}
+
+net.minecraft.client.gui.screen.WorkingScreen {
+}
+
+net.minecraft.client.gui.screen.DownloadTerrainScreen {
+}
+
+net.minecraft.client.gui.screen.ConnectingScreen {
 }
 
