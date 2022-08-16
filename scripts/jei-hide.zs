@@ -143,9 +143,4 @@ for allItems in game.items {
 			removeAndHide(allItems);
 		}
 	}
-	if (allItems.owner == "byg") {
-		if ("ametrine" in (allItems.registryName as string) || "pendorite" in (allItems.registryName as string)) {
-			removeAndHide(allItems);
-		}
-	}
 }

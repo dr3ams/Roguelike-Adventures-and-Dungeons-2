@@ -63,7 +63,7 @@
 	biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore"
 	#Percent chance of generating in an allowed chunk.
 	#Range: 0.0 ~ 1.0
-	probability = 0.4
+	probability = 0.6
 	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
 	valid_dimensions = "minecraft:overworld"
 
@@ -120,5 +120,5 @@
 ["waystones compat"]
 	#Percent chance for a waystone from Waystones to generate on top of the tower
 	#Range: 0 ~ 100
-	tower_waystone_chance = 100
+	tower_waystone_chance = 80
 

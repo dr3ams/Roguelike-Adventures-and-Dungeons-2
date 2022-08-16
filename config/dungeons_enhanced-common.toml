@@ -138,7 +138,7 @@
 ["Large Dungeon"]
 	#The average distance between structures of this type, measured in chunks.
 	#Range: > 1
-	spacing = 39
+	spacing = 24
 	#Percent chance of generating in an allowed chunk.
 	#Range: 0.0 ~ 1.0
 	probability = 0.45
@@ -223,10 +223,10 @@
 ["Ruined Building"]
 	#The average distance between structures of this type, measured in chunks.
 	#Range: > 1
-	spacing = 47
+	spacing = 30
 	#Percent chance of generating in an allowed chunk.
 	#Range: 0.0 ~ 1.0
-	probability = 0.45
+	probability = 0.5
 	#A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
 	#Range: > 0
 	offset = 9

@@ -1,24 +1,24 @@
 
 [advanced]
-	#How items should be handed to you
-	#Allowed Values: INVENTORY, MOUSE_PICKUP
-	GiveMode = "MOUSE_PICKUP"
 	#Debug mode enabled
 	DebugMode = false
 	#Display search bar in the center
 	CenterSearch = false
+	#Set low-memory mode (makes search very slow, but uses less RAM)
+	LowMemorySlowSearchEnabled = false
+	#Enable fast batched item rendering for JEI (disable this if items in JEI are not rendering correctly)
+	FastItemRenderingEnabled = true
+	#Enable cheating items into the hotbar by using the shift+number keys.
+	CheatToHotbarUsingHotkeysEnabled = false
+	#How items should be handed to you
+	#Allowed Values: INVENTORY, MOUSE_PICKUP
+	GiveMode = "MOUSE_PICKUP"
+	#Max number of columns shown
+	#Range: 4 ~ 100
+	MaxColumns = 9
 	#Max. recipe gui height
 	#Range: > 175
 	RecipeGuiHeight = 350
-	#Set low-memory mode (makes search very slow, but uses less RAM)
-	LowMemorySlowSearchEnabled = false
-	#Max number of columns shown
-	#Range: 4 ~ 100
-	MaxColumns = 11
-	#Enable cheating items into the hotbar by using the shift+number keys.
-	CheatToHotbarUsingHotkeysEnabled = false
-	#Enable fast batched item rendering for JEI (disable this if items in JEI are not rendering correctly)
-	FastItemRenderingEnabled = true
 
 [colors]
 	#Color values to search for
@@ -26,12 +26,15 @@
 
 [sorting]
 	#Sorting order for the ingredient list. Valid stages: [MOD_NAME, INGREDIENT_TYPE, ALPHABETICAL, CREATIVE_MENU, TAG, TOOL_TYPE, WEAPON_DAMAGE, ARMOR, MAX_DURABILITY]
-	IngredientSortStages = ["MOD_NAME", "INGREDIENT_TYPE", "CREATIVE_MENU"]
+	IngredientSortStages = ["MOD_NAME", "INGREDIENT_TYPE", "CREATIVE_MENU", "ALPHABETICAL", "WEAPON_DAMAGE", "TOOL_TYPE", "ARMOR", "TAG"]
 
 [search]
 	#Search mode for Mod Names (prefix: @)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	ModNameSearchMode = "REQUIRE_PREFIX"
+	#Search mode for Tooltips (prefix: #)
+	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
+	TooltipSearchMode = "ENABLED"
 	#Search mode for Tag Names (prefix: $)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	TagSearchMode = "REQUIRE_PREFIX"
@@ -44,9 +47,6 @@
 	#Search mode for resources IDs (prefix: &)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	ResourceIdSearchMode = "DISABLED"
-	#Search mode for Tooltips (prefix: #)
-	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	TooltipSearchMode = "ENABLED"
 	#Search advanced tooltips (visible with F3+H)
 	SearchAdvancedTooltips = false
 

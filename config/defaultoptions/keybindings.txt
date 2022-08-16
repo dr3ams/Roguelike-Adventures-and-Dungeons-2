@@ -32,13 +32,13 @@ key_key.hotbar.6:key.keyboard.6:NONE
 key_key.hotbar.7:key.keyboard.7:NONE
 key_key.hotbar.8:key.keyboard.8:NONE
 key_key.hotbar.9:key.keyboard.9:NONE
-key_Pegasus Soul Key:key.keyboard.left.control:NONE
 key_key.secondarySprint:key.keyboard.w:NONE
 key_key.dismount:key.keyboard.left.shift:NONE
 key_key.narrator:key.keyboard.b:CONTROL
 key_key.pause:key.keyboard.escape:NONE
 key_key.gui:key.keyboard.f1:NONE
 key_key.debugInfo:key.keyboard.f3:NONE
+key_Pegasus Soul Key:key.keyboard.left.control:NONE
 key_key.dragon_fireAttack:key.keyboard.r:NONE
 key_key.dragon_strike:key.keyboard.g:NONE
 key_key.dragon_down:key.keyboard.x:NONE
@@ -57,6 +57,9 @@ key_key.waila.show_overlay:key.keyboard.keypad.1:NONE
 key_key.waila.toggle_liquid:key.keyboard.unknown:ALT
 key_key.solpotato.open_food_book:key.keyboard.unknown:NONE
 key_key.solpotato.open_food_book:key.keyboard.unknown:NONE
+key_iris.keybind.reload:key.keyboard.r:NONE
+key_iris.keybind.toggleShaders:key.keyboard.k:NONE
+key_iris.keybind.shaderPackSelection:key.keyboard.o:NONE
 key_key.curios.open.desc:key.keyboard.g:NONE
 key_key.pmmo.showBar:key.keyboard.tab:NONE
 key_key.pmmo.showList:key.keyboard.left.alt:NONE
@@ -70,11 +73,11 @@ key_key.dungeons_gear.curiosintegration.description_slot1:key.keyboard.v:NONE
 key_key.dungeons_gear.curiosintegration.description_slot2:key.keyboard.b:NONE
 key_key.dungeons_gear.curiosintegration.description_slot3:key.keyboard.n:NONE
 key_key.stepup.desc:key.keyboard.h:NONE
-key_key.titles.openTitleSelection:key.keyboard.j:NONE
 key_key.cofh.mode_change_increment:key.keyboard.v:NONE
 key_key.cofh.mode_change_decrement:key.keyboard.b:NONE
-key_key.unionlib.open_union_inventory:key.keyboard.u:NONE
+key_key.titles.openTitleSelection:key.keyboard.j:NONE
 key_cos.key.opencosarmorinventory:key.keyboard.unknown:NONE
+key_key.unionlib.open_union_inventory:key.keyboard.u:NONE
 key_Key to open upgrade inventory:key.keyboard.b:NONE
 key_placebo.toggleWings:key.keyboard.keypad.8:NONE
 key_placebo.toggleTrails:key.keyboard.keypad.9:NONE
@@ -85,6 +88,7 @@ key_key.relics.hud_second:key.keyboard.2:ALT
 key_key.relics.hud_third:key.keyboard.3:ALT
 key_key.relics.hud_fourth:key.keyboard.4:ALT
 key_key.relics.hud_fifth:key.keyboard.5:ALT
+key_Show comparison tooltip:key.keyboard.left.shift:NONE
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown:NONE
 key_gui.xaero_instant_waypoint:key.keyboard.keypad.add:NONE
 key_gui.xaero_toggle_slime:key.keyboard.unknown:NONE
@@ -103,44 +107,42 @@ key_gui.xaero_toggle_entity_radar:key.keyboard.unknown:NONE
 key_gui.xaero_reverse_entity_radar:key.keyboard.unknown:NONE
 key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown:NONE
 key_gui.xaero_minimap_settings:key.keyboard.y:NONE
-key_Show comparison tooltip:key.keyboard.left.shift:NONE
 key_key.ezzoom.zoom:key.keyboard.z:NONE
 key_key.elenaidodge.dodge:key.keyboard.left.alt:NONE
-key_key.enderRing:key.keyboard.i:NONE
-key_key.spellstoneAbility:key.keyboard.k:NONE
-key_key.xpScroll:key.keyboard.unknown:NONE
-key_key.spartanweaponry.access_quiver:key.keyboard.i:NONE
-key_key.ars_nouveau.open_book:key.keyboard.c:NONE
-key_key.ars_nouveau.selection_hud:key.keyboard.v:NONE
-key_key.ars_nouveau.previous_slot:key.keyboard.z:NONE
-key_key.ars_nouveau.next_slot:key.keyboard.x:NONE
-key_key.ftbquests.quests:key.keyboard.unknown:NONE
-key_key.ship_sail:key.keyboard.r:NONE
-key_key.ship_inventory:key.keyboard.i:NONE
 key_gui.xaero_open_map:key.keyboard.m:NONE
 key_gui.xaero_open_settings:key.keyboard.right.bracket:NONE
 key_gui.xaero_map_zoom_in:key.keyboard.unknown:NONE
 key_gui.xaero_map_zoom_out:key.keyboard.unknown:NONE
 key_gui.xaero_quick_confirm:key.keyboard.right.shift:NONE
+key_key.ars_nouveau.open_book:key.keyboard.c:NONE
+key_key.ars_nouveau.selection_hud:key.keyboard.v:NONE
+key_key.ars_nouveau.previous_slot:key.keyboard.z:NONE
+key_key.ars_nouveau.next_slot:key.keyboard.x:NONE
+key_key.enderRing:key.keyboard.i:NONE
+key_key.spellstoneAbility:key.keyboard.k:NONE
+key_key.xpScroll:key.keyboard.unknown:NONE
+key_key.spartanweaponry.access_quiver:key.keyboard.i:NONE
+key_key.ftbquests.quests:key.keyboard.unknown:NONE
+key_key.ship_sail:key.keyboard.r:NONE
+key_key.ship_inventory:key.keyboard.i:NONE
 key_key.endergetic.booflo_vest:key.keyboard.space:NONE
 key_key.endergetic.booflo_slam:key.keyboard.x:NONE
 key_key.storagenetwork.remote:key.keyboard.i:NONE
 key_key.toastcontrol.clear:key.keyboard.unknown:NONE
-key_quark.keybind.transfer_insert:key.keyboard.unknown:NONE
-key_quark.keybind.transfer_extract:key.keyboard.unknown:NONE
-key_quark.keybind.shift_lock:key.keyboard.unknown:NONE
 key_quark.keybind.lock_rotation:key.keyboard.k:NONE
+key_quark.keybind.change_hotbar:key.keyboard.z:NONE
 key_quark.keybind.autorun:key.keyboard.caps.lock:NONE
 key_key.inventoryhud.toggle:key.keyboard.i:NONE
 key_key.inventoryhud.openconfig:key.keyboard.o:NONE
 key_key.inventoryhud.togglepot:key.keyboard.unknown:NONE
 key_key.inventoryhud.togglearm:key.keyboard.unknown:NONE
 key_key.inventoryhud.toggleall:key.keyboard.unknown:NONE
+key_quark.keybind.back:key.mouse.4:NONE
+key_quark.keybind.transfer_insert:key.keyboard.unknown:NONE
+key_quark.keybind.transfer_extract:key.keyboard.unknown:NONE
+key_quark.keybind.shift_lock:key.keyboard.unknown:NONE
 key_quark.keybind.sort_player:key.keyboard.unknown:NONE
 key_quark.keybind.sort_container:key.keyboard.unknown:NONE
-key_quark.keybind.change_hotbar:key.keyboard.z:NONE
-key_quark.keybind.camera_mode:key.keyboard.f12:NONE
-key_quark.keybind.back:key.mouse.4:NONE
 key_quark.emote.no:key.keyboard.unknown:NONE
 key_quark.emote.yes:key.keyboard.unknown:NONE
 key_quark.emote.wave:key.keyboard.unknown:NONE
@@ -159,6 +161,7 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown:NONE
+key_quark.keybind.camera_mode:key.keyboard.f12:NONE
 key_Build Current Structure:key.keyboard.b:ALT
 key_tombstone.message.knowledge_of_death:key.keyboard.unknown:NONE
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b:NONE
@@ -191,7 +194,6 @@ key_key.craftingtweaks.decompressStack:key.keyboard.unknown:NONE
 key_key.craftingtweaks.decompressAll:key.keyboard.unknown:NONE
 key_key.craftingtweaks.refill_last:key.keyboard.tab:NONE
 key_key.craftingtweaks.refill_last_stack:key.keyboard.tab:NONE
-key_key.configured.open_mod_list:key.keyboard.unknown:NONE
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.toggleCheatMode:key.keyboard.unknown:NONE
