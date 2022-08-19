@@ -116,7 +116,7 @@
 		"Dragon Attack Damage(Lightning breath)" = 3.5
 		#Change this to slow down or speed up dragon or amphithere flight.
 		#Range: 0.0 ~ 2.0
-		"Dragon Flight Speed Modifier" = 1.0
+		"Dragon Flight Speed Modifier" = 0.7
 		#Enable this if your server is being bombarded with moved wrongly or moved too fast console messages. REQUIRES RESTART!
 		"Dragon Moved Wrongly Error Fix" = false
 
@@ -143,7 +143,7 @@
 		"Explosive Dragon Breath" = false
 		#How many blocks away can dragons spot potential prey. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
-		"Dragon Target Search Length" = 128
+		"Dragon Target Search Length" = 64
 		#How many blocks away can dragons wander from their defined "home" position.
 		#Range: 1 ~ 10000
 		"Dragon Wander From Home Distance" = 40
@@ -152,7 +152,7 @@
 		"Dragon Hunger Tick Rate" = 3000
 		#Every interval of this number in ticks, dragon allowed to break blocks.
 		#Range: 0 ~ 10000
-		"Dragon Block Break Cooldown" = 5
+		"Dragon Block Break Cooldown" = 10
 		#True if villagers should run away and hide from dragons and other hostile Ice and Fire mobs.
 		"Villagers Fear Dragons" = true
 		#True if animals should run away and hide from dragons and other hostile Ice and Fire mobs.
@@ -190,10 +190,10 @@
 		"Cyclops Max Health" = 150.0
 		#How many blocks away can cyclopes detect sheep. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
-		"Cyclopes Sheep Search Length" = 17
+		"Cyclopes Sheep Search Length" = 10
 		#Cyclops attack strength
 		#Range: 1.0 ~ 10000.0
-		"Cyclops Attack Strength" = 15.0
+		"Cyclops Attack Strength" = 20.0
 		#Amount of damage done with cyclops bite attack.
 		#Range: 1.0 ~ 10000.0
 		"Cyclops Bite Strength" = 40.0

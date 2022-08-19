@@ -28,7 +28,7 @@
 	#Allows to control which Keybind Tooltips are displayed, 1 => Description, 2 => Icons, 4 => View, they can be added together if wanted.
 	#This won't disable functionality just hide the keybinding tooltip itself
 	#Range: 0 ~ 7
-	"Visible Tooltips" = 7
+	"Visible Tooltips" = 5
 	#Hides curses from items until shift is pressed
 	"Hide Curses" = false
 	#Shows Enchantment descriptions on items. Automatically disabled if said mod is detected
@@ -36,7 +36,7 @@
 	#If Enchantment Descriptions should not be exclusive to Books
 	"Show on Items" = false
 	#If valid Target Icons should be shown
-	"Enchantment Icons" = true
+	"Enchantment Icons" = false
 	#If Icons should be displayed. Can be toggled ingame with a key
 	"Enchantment Icons Visible" = true
 	#How many Icon Rows should exists
