@@ -1,5 +1,5 @@
-name: 🐛 Bug / Crash Report
-description: File a bug / crash report
+name: Bug / Crash Report
+description: Create a report to help us improve
 title: "[Bug]: "
 labels: [bug, crash]
 body:
@@ -7,56 +7,53 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+        **WE DO NOT PROVIDE SUPPORT TO HEAVILY MODIFIED MODPACKS. OUR PACK IS CURATED FOR WORKABILITY AND NO CONTENT OVERLAP, NOT ADDING ADDITIONAL MODS TO.** **If you have any mods added by yourself -- first uninstall it and confirm the issue still occurs.**
   - type: checkboxes
     id: general-info
     attributes:
       label: General Info
       description: You may select more than one.
       options:
-        - label: I am running a modpack
+        - label: I didn't added any mods
         - label: I can reproduce this issue consistently in single-player
         - label: I can reproduce this issue consistently in multi-player
         - label: I have searched for this issue previously and it was either (1) not previously reported, or (2) previously fixed and I am having the same problem.
           required: true
         - label: I am crashing and can provide my crash report(s)
-        - label: I am using the latest version of the mod
+        - label: I am using the latest version of the modpack
     validations:
       required: false
   - type: input
-    id: forge-info
-    attributes:
-      label: Forge version
-      placeholder: ex. 36.2.0
-    validations:
-      required: true
-  - type: input
     id: mod-info
     attributes:
-      label: Mod version
-      placeholder: ex. 0.0.1
-    validations:
-      required: true
-  - type: input
-    id: java-info
-    attributes:
-      label: Java version
-      placeholder: ex. Java 8 update 51
+      label: Modpack version
+      placeholder: ex. 0.3
     validations:
       required: true
   - type: textarea
     id: issue-description
     attributes:
-      label: Issue Description
-      description: Also tell us, what did you expect to happen?
+      label: Describe your issue
+      description: A clear and concise description of what the bug is.
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
       required: true
+      
+  - type: textarea
+    id: issue-reproduce
+    attributes:
+      label: Steps to reproduce the issue
+      description: A clear and concise description of what the bug is.
+      placeholder: 1. Go to...; 2. Click on...; 3. Use that...
+    validations:
+      required: true   
+      
   - type: textarea
     id: logs
     attributes:
       label: Additional Information
-      description: Please post any crash reports, screenshots, etc. here. (use Pastebin or Imgur accordingly)
-      placeholder: Please put crash reports onto pastebin
+      description: Please post crash report(located in crash-reports folder) and latest.log(located in logs folder), screenshots, etc. here. (use Pastebin.com, gist.github.com or Imgur.com accordingly). 
+      placeholder: If the pack is crashing please provide the latest.log from the logs folder of your instance.
     validations:
-      required: false
+      required: true
