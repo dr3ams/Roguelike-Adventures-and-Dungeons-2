@@ -7,6 +7,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+        
         **WE DO NOT PROVIDE SUPPORT TO HEAVILY MODIFIED MODPACKS. OUR PACK IS CURATED FOR WORKABILITY AND NO CONTENT OVERLAP, NOT ADDING ADDITIONAL MODS TO.** **If you have any mods added by yourself -- first uninstall it and confirm the issue still occurs.**
   - type: checkboxes
     id: general-info
@@ -24,10 +25,17 @@ body:
     validations:
       required: false
   - type: input
-    id: mod-info
+    id: launcher-info
+    attributes:
+      label: Your launcher
+      placeholder: ex. Curseforge, GDL, ATLauncher
+    validations:
+      required: true
+  - type: input
+    id: modpack-info
     attributes:
       label: Modpack version
-      placeholder: ex. 0.3
+      placeholder: ex. 1.3
     validations:
       required: true
   - type: textarea
