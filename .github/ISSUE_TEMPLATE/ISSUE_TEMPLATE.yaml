@@ -55,7 +55,7 @@ body:
       description: A clear and concise description of what the bug is.
       placeholder: 1. Go to...; 2. Click on...; 3. Use that...
     validations:
-      required: true   
+      required: false   
       
   - type: textarea
     id: logs
