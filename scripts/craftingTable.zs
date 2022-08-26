@@ -51,6 +51,7 @@ craftingTable.removeByName("vanillafoodpantry:optional/ender_eye_from_lava_sand"
 craftingTable.removeByName("vanillafoodpantry:optional/magma_cream_from_lava_sand");
 
 
+
 craftingTable.removeRecipe(<item:prefab:block_glass_slab>);
 craftingTable.addShaped("slabs_glass", <item:prefab:block_glass_slab> * 4, [[<tag:items:forge:glass>], [<tag:items:forge:glass>]]);
 
@@ -62,7 +63,7 @@ craftingTable.addShaped("gloves_digging_diamond", <item:bountifulbaubles:gloves_
 [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]]);
 
 
-
+craftingTable.removeByName("rats:rat_upgrade_dragon_vanilla");
 craftingTable.removeByName("rats:rat_upgrade_chef");
 craftingTable.addShaped("rats_upgrade_chef", <item:rats:rat_upgrade_chef>,[
     [<tag:items:forge:chef_upgrade_items>, <item:rats:chef_toque>, <tag:items:forge:chef_upgrade_items>],

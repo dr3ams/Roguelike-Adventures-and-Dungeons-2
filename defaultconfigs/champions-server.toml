@@ -154,15 +154,15 @@
 	[affixes.reflective]
 		#The minimum percent of damage to reflect back
 		#Range: 0.0 ~ 1.0
-		reflectiveMinPercent = 0.1
+		reflectiveMinPercent = 0.01
 		#The maximum percent of damage to reflect back
 		#Range: 0.0 ~ 1.0
-		reflectiveMaxPercent = 0.35
+		reflectiveMaxPercent = 0.25
 		#The maximum amount of damage to reflect back
 		#Range: > 0
-		reflectiveMax = 100
+		reflectiveMax = 80
 		#Set to true to enable deadly reflected strikes
-		reflectiveLethal = true
+		reflectiveLethal = false
 
 	[affixes.magnetic]
 		#Strength of the magnetic pulling effect

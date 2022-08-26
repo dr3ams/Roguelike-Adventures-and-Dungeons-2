@@ -1658,6 +1658,7 @@
 		{
 			x: 18.0d
 			y: -3.5d
+			description: ["You can also disenchant enchanted books and any equipment on Grindstone and get some levels back"]
 			dependencies: ["4D4CE785FDA4EFB9"]
 			id: "43509530CAD67EE9"
 			tasks: [{
@@ -3919,6 +3920,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6A0F7AF0AC1F747B"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
 		}
 		{
 			x: 16.5d
@@ -4378,6 +4384,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "6F58459B1D9E0711"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3FF523B3DDA79B5C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
 		}
 		{
 			x: 11.0d
@@ -4575,6 +4593,7 @@
 			x: 19.0d
 			y: 7.0d
 			dependencies: ["268FEFB76E852EE6"]
+			hide: true
 			id: "76CDF977DD44821E"
 			tasks: [{
 				id: "5CC737BFECC43E69"
@@ -4605,6 +4624,7 @@
 			x: 17.0d
 			y: 7.0d
 			dependencies: ["544027B606EEA00D"]
+			hide: true
 			id: "62CC0A7EBAFC51DD"
 			tasks: [{
 				id: "5B96DB466E7BEDA1"
@@ -4623,6 +4643,7 @@
 			x: 18.0d
 			y: 7.0d
 			dependencies: ["62CC0A7EBAFC51DD"]
+			hide: true
 			id: "268FEFB76E852EE6"
 			tasks: [{
 				id: "771AF7CE54E75D9E"
@@ -4672,7 +4693,9 @@
 			x: 20.0d
 			y: 7.0d
 			description: ["Blame @Doctor Mage#5234"]
+			hide_dependency_lines: false
 			dependencies: ["76CDF977DD44821E"]
+			hide: true
 			id: "2ED6AA00DF16FDBC"
 			tasks: [{
 				id: "6FEA670A38266F94"

@@ -50,6 +50,11 @@
 						}
 					}
 				}
+				{
+					id: "792365B00559EB46"
+					type: "xp_levels"
+					xp_levels: 5
+				}
 			]
 		}
 		{
@@ -93,6 +98,11 @@
 						}
 					}
 				}
+				{
+					id: "5E254AE76002A078"
+					type: "xp_levels"
+					xp_levels: 5
+				}
 			]
 		}
 		{
@@ -127,6 +137,11 @@
 							Damage: 0
 						}
 					}
+				}
+				{
+					id: "56631FF9380F6F5A"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 		}
@@ -647,6 +662,11 @@
 					type: "choice"
 					table_id: 768393147870328736L
 				}
+				{
+					id: "719832C8EB4EEB5F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
 			]
 		}
 		{
@@ -697,6 +717,11 @@
 					id: "5E91CD013401CD7E"
 					type: "choice"
 					table_id: 768393147870328736L
+				}
+				{
+					id: "134CAF3F781BD3E1"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 		}
@@ -749,6 +774,11 @@
 					type: "choice"
 					table_id: 768393147870328736L
 				}
+				{
+					id: "5EA8BA50E8F59F26"
+					type: "xp_levels"
+					xp_levels: 5
+				}
 			]
 		}
 		{
@@ -799,6 +829,11 @@
 					id: "0D07BD34643C2873"
 					type: "choice"
 					table_id: 768393147870328736L
+				}
+				{
+					id: "115525E2E80ADC4C"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 		}
@@ -851,6 +886,11 @@
 					type: "choice"
 					table_id: 768393147870328736L
 				}
+				{
+					id: "14213AFBA10C168C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
 			]
 		}
 		{
@@ -901,6 +941,11 @@
 					id: "16065169647B5341"
 					type: "choice"
 					table_id: 768393147870328736L
+				}
+				{
+					id: "4A5FEED6775E5B23"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 		}
@@ -953,6 +998,11 @@
 					type: "choice"
 					table_id: 768393147870328736L
 				}
+				{
+					id: "14579AF83CA2E03D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
 			]
 		}
 		{
@@ -998,6 +1048,11 @@
 					type: "choice"
 					table_id: 768393147870328736L
 				}
+				{
+					id: "4DBFDB9BE9E64E61"
+					type: "xp_levels"
+					xp_levels: 5
+				}
 			]
 		}
 		{
@@ -1042,6 +1097,11 @@
 					id: "1AF9BBD6B63B06FA"
 					type: "choice"
 					table_id: 768393147870328736L
+				}
+				{
+					id: "0D12B4DD7A734E92"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 		}
@@ -1410,11 +1470,23 @@
 				entity: "minecraft:zombie"
 				value: 15L
 			}]
-			rewards: [{
-				id: "4E41CA8238C8E252"
-				type: "choice"
-				table_id: 8545390299491237994L
-			}]
+			rewards: [
+				{
+					id: "4E41CA8238C8E252"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "09E2C3F9CC6C1C73"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7C67CE02F9D23233"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
 		}
 		{
 			icon: "minecraft:zombie_head"
@@ -1428,11 +1500,23 @@
 				entity: "minecraft:zombie"
 				value: 30L
 			}]
-			rewards: [{
-				id: "629CF85EB172F740"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "629CF85EB172F740"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "7D18EC556A8887C7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "4BC1B5109670FE53"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
 		}
 		{
 			icon: "minecraft:zombie_head"
@@ -1507,11 +1591,23 @@
 				entity: "minecraft:skeleton"
 				value: 15L
 			}]
-			rewards: [{
-				id: "49DCF0375D18ECFA"
-				type: "choice"
-				table_id: 8545390299491237994L
-			}]
+			rewards: [
+				{
+					id: "49DCF0375D18ECFA"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "731EA944C13B333A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0ACB71D1CDBA7FC9"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
 		}
 		{
 			icon: {
@@ -1533,11 +1629,23 @@
 				entity: "minecraft:skeleton"
 				value: 30L
 			}]
-			rewards: [{
-				id: "5B954C142B833986"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "5B954C142B833986"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "4E21495BC15B3534"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6BDBE5B354200CD7"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
 		}
 		{
 			icon: {
@@ -1559,11 +1667,23 @@
 				entity: "minecraft:skeleton"
 				value: 60L
 			}]
-			rewards: [{
-				id: "25FD615EEB4FB324"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "25FD615EEB4FB324"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "4F6C796DA541D307"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2339E592F35409D5"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
 		}
 		{
 			icon: {
@@ -1637,11 +1757,23 @@
 				entity: "minecraft:zombie"
 				value: 60L
 			}]
-			rewards: [{
-				id: "316C4AAE3EC74A63"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "316C4AAE3EC74A63"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "0124CFF9E4D518D9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1DFEBDDF6F3CCDC4"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
 		}
 		{
 			icon: {
@@ -1688,11 +1820,23 @@
 				entity: "minecraft:creeper"
 				value: 10L
 			}]
-			rewards: [{
-				id: "35979555667CD87D"
-				type: "choice"
-				table_id: 8545390299491237994L
-			}]
+			rewards: [
+				{
+					id: "35979555667CD87D"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "3BCBB82AC3AD70F8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "11FF61351D74E30C"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
 		}
 		{
 			icon: {
@@ -1714,11 +1858,23 @@
 				entity: "minecraft:creeper"
 				value: 30L
 			}]
-			rewards: [{
-				id: "344548DAFFFD2AAC"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "344548DAFFFD2AAC"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "2485D22A50042E49"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "11019937A9B52FDD"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
 		}
 		{
 			icon: {
@@ -1740,11 +1896,23 @@
 				entity: "minecraft:creeper"
 				value: 60L
 			}]
-			rewards: [{
-				id: "77802341898B7855"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "77802341898B7855"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "75FD611C760EA9CB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7F7E0ECCB1AB8C31"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
 		}
 		{
 			icon: {
@@ -1765,11 +1933,23 @@
 				entity: "minecraft:wither_skeleton"
 				value: 10L
 			}]
-			rewards: [{
-				id: "0311C7E99586496A"
-				type: "choice"
-				table_id: 8545390299491237994L
-			}]
+			rewards: [
+				{
+					id: "0311C7E99586496A"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "025E37F43005D4F3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7F509E5081A7304B"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
 		}
 		{
 			icon: {
@@ -1791,11 +1971,23 @@
 				entity: "minecraft:wither_skeleton"
 				value: 50L
 			}]
-			rewards: [{
-				id: "44FAE3FA7D83DC7B"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "44FAE3FA7D83DC7B"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "027233AED185959D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "79F8025ABF87CC5C"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
 		}
 		{
 			icon: {
@@ -1842,11 +2034,23 @@
 				entity: "minecraft:spider"
 				value: 10L
 			}]
-			rewards: [{
-				id: "49B72610443526AD"
-				type: "choice"
-				table_id: 8545390299491237994L
-			}]
+			rewards: [
+				{
+					id: "49B72610443526AD"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "1ADD8BC61AF2E9DD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3211EE883D534D14"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
 		}
 		{
 			icon: {
@@ -1868,6 +2072,23 @@
 				entity: "minecraft:spider"
 				value: 30L
 			}]
+			rewards: [
+				{
+					id: "1D06C9EE45B2B631"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "5324D8E1184A4234"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "64A9EBF85FB13853"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
 		}
 		{
 			icon: {
@@ -1889,69 +2110,23 @@
 				entity: "minecraft:spider"
 				value: 100L
 			}]
-		}
-		{
-			icon: {
-				id: "minecraft:cobweb"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
+			rewards: [
+				{
+					id: "6C5934EDE080E6C6"
+					type: "choice"
+					table_id: 768393147870328736L
 				}
-			}
-			x: -4.0d
-			y: 9.5d
-			dependencies: ["16B7281F7910FF1E"]
-			id: "709D7AA1BE9A4F08"
-			tasks: [{
-				id: "2C867845A5AF8BA8"
-				type: "kill"
-				entity: "minecraft:spider"
-				value: 100L
-			}]
-		}
-		{
-			icon: {
-				id: "minecraft:cobweb"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
+				{
+					id: "649482A4A4BB56D4"
+					type: "xp_levels"
+					xp_levels: 5
 				}
-			}
-			x: -4.0d
-			y: 10.5d
-			dependencies: ["709D7AA1BE9A4F08"]
-			id: "3BF876830A637663"
-			tasks: [{
-				id: "78A4D66E4B82D73D"
-				type: "kill"
-				entity: "minecraft:spider"
-				value: 100L
-			}]
-		}
-		{
-			icon: {
-				id: "minecraft:cobweb"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
+				{
+					id: "3F143B2FFB487D39"
+					type: "ftbmoney:money"
+					ftb_money: 50L
 				}
-			}
-			x: -4.0d
-			y: 11.5d
-			dependencies: ["3BF876830A637663"]
-			id: "2A34DEBCA8D3A3F2"
-			tasks: [{
-				id: "117188E4A53FD570"
-				type: "kill"
-				entity: "minecraft:spider"
-				value: 100L
-			}]
+			]
 		}
 		{
 			x: -5.5d
@@ -1963,11 +2138,23 @@
 				entity: "artifacts:mimic"
 				value: 5L
 			}]
-			rewards: [{
-				id: "084186EA34770330"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "084186EA34770330"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "6711A7AE8013DC92"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "713C7FC71A30BEF1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 		}
 		{
 			x: -5.5d
@@ -1980,11 +2167,23 @@
 				entity: "artifacts:mimic"
 				value: 10L
 			}]
-			rewards: [{
-				id: "738FD45C2D89CC72"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "738FD45C2D89CC72"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "106E31A9B4850B3C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1F578E865133F841"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
 		}
 		{
 			x: -5.5d
@@ -2022,11 +2221,23 @@
 				entity: "minecraft:slime"
 				value: 10L
 			}]
-			rewards: [{
-				id: "75C0CD07865438C0"
-				type: "choice"
-				table_id: 8545390299491237994L
-			}]
+			rewards: [
+				{
+					id: "75C0CD07865438C0"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "3102A24CFA15F6B4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7F138B8806B5B549"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
 		}
 		{
 			icon: {
@@ -2048,11 +2259,23 @@
 				entity: "minecraft:slime"
 				value: 30L
 			}]
-			rewards: [{
-				id: "5C2E78A5187C3D91"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "5C2E78A5187C3D91"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "5918312B0D7D7B4B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "2AE11763EB507879"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
 		}
 		{
 			icon: {
@@ -2074,11 +2297,23 @@
 				entity: "minecraft:slime"
 				value: 100L
 			}]
-			rewards: [{
-				id: "619BC6792BE9E699"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "619BC6792BE9E699"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "3BB0C07D0A6601FC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5138C44F00DE5DCB"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -2088,17 +2323,9 @@
 			tasks: [{
 				id: "7F9FF2BF5A48B9B9"
 				type: "kill"
-				icon: {
-					id: "minecraft:slime_ball"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				icon: "minecraft:slime_ball"
 				entity: "minecraft:slime"
-				value: 100L
+				value: 200L
 			}]
 			rewards: [{
 				id: "1BC8CCC568820645"
@@ -2114,17 +2341,9 @@
 			tasks: [{
 				id: "18083296F033EEF3"
 				type: "kill"
-				icon: {
-					id: "minecraft:slime_ball"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				icon: "minecraft:slime_ball"
 				entity: "minecraft:slime"
-				value: 100L
+				value: 400L
 			}]
 			rewards: [{
 				id: "3BBB8A7A2CD4CC5F"
@@ -2150,13 +2369,57 @@
 				id: "2944EA85C53B17E8"
 				type: "kill"
 				entity: "minecraft:slime"
-				value: 100L
+				value: 1000L
 			}]
-			rewards: [{
-				id: "399BC6E084220D1C"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "399BC6E084220D1C"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "06BC38B6F5A7DD03"
+					type: "item"
+					item: {
+						id: "relics:slime_heart"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0EBD6785DFDD9EA9"
+					type: "item"
+					item: {
+						id: "curios:crown"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "38B18E34FBE08031"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "735353843D9053DD"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
 		}
 		{
 			icon: {
@@ -2177,11 +2440,23 @@
 				entity: "minecraft:evoker"
 				value: 1L
 			}]
-			rewards: [{
-				id: "7353832C1CB68C06"
-				type: "choice"
-				table_id: 8545390299491237994L
-			}]
+			rewards: [
+				{
+					id: "7353832C1CB68C06"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "080EF117FE6F7A42"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "44F0CA59ABC867A9"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
 		}
 		{
 			icon: {
@@ -2204,11 +2479,23 @@
 				entity: "minecraft:evoker"
 				value: 5L
 			}]
-			rewards: [{
-				id: "34627ABDD5A06928"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "34627ABDD5A06928"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "5B70AAF40B7A9A45"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "2B7EEDF967E74D1B"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
 		}
 		{
 			icon: {
@@ -2253,11 +2540,23 @@
 				entity: "minecraft:vindicator"
 				value: 10L
 			}]
-			rewards: [{
-				id: "78D1CA8DDD8D260E"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "78D1CA8DDD8D260E"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "188A66C9F1277412"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "63AAF6A5E9D577B7"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -2277,11 +2576,23 @@
 				entity: "minecraft:vindicator"
 				value: 30L
 			}]
-			rewards: [{
-				id: "2A0AE009A8AB8681"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "2A0AE009A8AB8681"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "00936A70EF171C0A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "2CE9E530127EC948"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -2329,11 +2640,23 @@
 				entity: "minecraft:pillager"
 				value: 10L
 			}]
-			rewards: [{
-				id: "0FC0289633D7AFEB"
-				type: "choice"
-				table_id: 8545390299491237994L
-			}]
+			rewards: [
+				{
+					id: "0FC0289633D7AFEB"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "6385754E72704CC7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7752B52AB3BD4A9E"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -2346,11 +2669,23 @@
 				entity: "minecraft:pillager"
 				value: 30L
 			}]
-			rewards: [{
-				id: "0743DCD826AD69FF"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "0743DCD826AD69FF"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "3E9259DEBCB493B7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "2A8DDEA22A2294A4"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -2363,11 +2698,23 @@
 				entity: "minecraft:pillager"
 				value: 60L
 			}]
-			rewards: [{
-				id: "39A2740675F360A5"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "39A2740675F360A5"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "02A472AE57332F2E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "073BF72E4CECC601"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -2462,11 +2809,23 @@
 				entity: "illagers_plus:miner"
 				value: 10L
 			}]
-			rewards: [{
-				id: "3812FA6E190462AC"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "3812FA6E190462AC"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "5862F686A9F17791"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "17726AEC4B1CC22A"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
 		}
 		{
 			icon: {
@@ -2487,11 +2846,23 @@
 				entity: "minecraft:ghast"
 				value: 10L
 			}]
-			rewards: [{
-				id: "69F0B6D70E3A8A02"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "69F0B6D70E3A8A02"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "190FFC8F9AA2DD3A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0EEFC1324735A3E9"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
 		}
 		{
 			icon: {
@@ -2513,11 +2884,23 @@
 				entity: "minecraft:ghast"
 				value: 30L
 			}]
-			rewards: [{
-				id: "6729D11D203E895C"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "6729D11D203E895C"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "49B2EA58A60B061E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6CFA6B4DCFA36EBB"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
 		}
 		{
 			icon: {
@@ -2564,11 +2947,23 @@
 				entity: "minecraft:piglin"
 				value: 10L
 			}]
-			rewards: [{
-				id: "638FAE7585791CDB"
-				type: "choice"
-				table_id: 8545390299491237994L
-			}]
+			rewards: [
+				{
+					id: "638FAE7585791CDB"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "70FDBFC55C98101D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "4C3EF65AF982FC1A"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
 		}
 		{
 			icon: {
@@ -2606,11 +3001,23 @@
 				entity: "minecraft:piglin_brute"
 				value: 10L
 			}]
-			rewards: [{
-				id: "271D861B9DEFF7C1"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "271D861B9DEFF7C1"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "24D1555281A7FCEE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "71D39A66C50A85F9"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -2623,11 +3030,23 @@
 				entity: "minecraft:piglin_brute"
 				value: 50L
 			}]
-			rewards: [{
-				id: "2F8F8E01BA9A3ABF"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "2F8F8E01BA9A3ABF"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "536B8F281F2D7360"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6DB602B49826367B"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -2665,11 +3084,23 @@
 				entity: "minecraft:blaze"
 				value: 10L
 			}]
-			rewards: [{
-				id: "384EF15588029245"
-				type: "choice"
-				table_id: 8545390299491237994L
-			}]
+			rewards: [
+				{
+					id: "384EF15588029245"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "363F9A60B5811C4A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5D294DBA533C16FC"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
 		}
 		{
 			icon: {

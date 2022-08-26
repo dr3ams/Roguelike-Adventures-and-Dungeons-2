@@ -14,7 +14,6 @@
 				}
 			}
 		}
-		{ item: "minecraft:copper_ore", random_bonus: 5 }
 		{ item: "minecraft:coal", count: 16 }
 		{ item: "minecraft:clay_ball", count: 16 }
 		{ item: "minecraft:leather", count: 8 }
@@ -32,5 +31,9 @@
 		}
 		{ item: "minecraft:sand", count: 32 }
 		{ item: "randomite:randomite_ore" }
+		{
+			ftb_money: 10L
+			type: "ftbmoney:money"
+		}
 	]
 }

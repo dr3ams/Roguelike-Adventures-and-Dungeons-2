@@ -679,19 +679,12 @@
 			]
 			dependencies: ["577182F7C0C5B85B"]
 			id: "78655B49D92DA1AB"
-			tasks: [
-				{
-					id: "5496EBE642A0F682"
-					type: "checkmark"
-					title: "New mechanics for Expert Mode"
-				}
-				{
-					id: "4F575278249F1D60"
-					type: "kill"
-					entity: "minecraft:wither"
-					value: 1L
-				}
-			]
+			tasks: [{
+				id: "4F575278249F1D60"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
 			rewards: [
 				{
 					id: "211DA38465A84BB6"
@@ -767,19 +760,12 @@
 			]
 			dependencies: ["577182F7C0C5B85B"]
 			id: "13FD3ACE5C674BD1"
-			tasks: [
-				{
-					id: "09A7C72ACFB0BDEE"
-					type: "checkmark"
-					title: "New mechanics for Master Mode"
-				}
-				{
-					id: "6D379DD2E28FDD77"
-					type: "kill"
-					entity: "minecraft:ender_dragon"
-					value: 1L
-				}
-			]
+			tasks: [{
+				id: "6D379DD2E28FDD77"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
 			rewards: [
 				{
 					id: "39492D8B75AEE13F"

@@ -21,7 +21,7 @@
 	optimizeItems = true
 	#Defines the max. number of items per type which are allowed to lay around in the world.
 	#Range: 10 ~ 128
-	maxNumberOfItemsPerType = 16
+	maxNumberOfItemsPerType = 32
 	#Defines the max. number of items which are allowed to lay around in a single world.
 	#Range: 10 ~ 1000
 	maxNumberOfItems = 64
@@ -54,7 +54,7 @@
 #View / render distance optimization.
 ["View Distance"]
 	#Range: 4 ~ 32
-	viewDistanceMax = 16
+	viewDistanceMax = 20
 	#Range: 2 ~ 16
 	viewDistanceMin = 2
 	#Range: 2 ~ 16
@@ -69,10 +69,10 @@
 		entityCrammingEnabled = true
 		#Defines the min. numbers of mob singularity on a single block.
 		#Range: 0 ~ 64
-		minEntityCramming = 5
+		minEntityCramming = 4
 		#Defines the max. numbers of mob singularity on a single block.
 		#Range: 1 ~ 64
-		maxEntityCramming = 14
+		maxEntityCramming = 10
 
 	[Gamerule."Random Tick Speed"]
 		#Enable/Disable dynamic random tick speed adjustments.
@@ -86,10 +86,10 @@
 	spawnerEnabled = true
 	#Defines the max. number of entities per world for spawners.
 	#Range: 1 ~ 4096
-	spawnerMaxEntityPerWorld = 1000
+	spawnerMaxEntityPerWorld = 500
 	#Defines the max. number of entities per chunk for spawners.
 	#Range: 1 ~ 512
-	spawnerMaxEntityPerChunk = 100
+	spawnerMaxEntityPerChunk = 20
 
 #Spawn optimization
 #Playing with difficulty HARD could exceed the max number of hostile entity from the 
@@ -102,32 +102,32 @@
 	denyList = [""]
 
 	[Spawn.Minecraft]
-		minecraftEnabled = true
+		minecraftEnabled = false
 		#e.g. mostly bats
 		#Range: 1 ~ 64
 		minecraftMaxPassiveMobsPerPlayer = 2
 		#Range: 1 ~ 512
-		minecraftMaxPassiveMobsPerWorld = 8
+		minecraftMaxPassiveMobsPerWorld = 100
 		#e.g. sheep, pig, horse, fox, ...
 		#Range: 1 ~ 64
 		minecraftMaxNeutralMobsPerPlayer = 4
 		#Range: 1 ~ 512
-		minecraftMaxNeutralMobsPerWorld = 8
+		minecraftMaxNeutralMobsPerWorld = 100
 		#e.g. slime, spider, zombie, ravager, ...
 		#Range: 1 ~ 64
-		minecraftMaxHostileMobsPerPlayer = 4
+		minecraftMaxHostileMobsPerPlayer = 10
 		#Range: 1 ~ 512
-		minecraftMaxHostileMobsPerWorld = 8
+		minecraftMaxHostileMobsPerWorld = 100
 		#e.g. mostly fish
 		#Range: 1 ~ 64
-		minecraftMaxWaterPassiveMobsPerPlayer = 2
+		minecraftMaxWaterPassiveMobsPerPlayer = 10
 		#Range: 1 ~ 512
-		minecraftMaxWaterPassiveMobsPerWorld = 8
+		minecraftMaxWaterPassiveMobsPerWorld = 100
 		#e.g. squid, dolphin, ...
 		#Range: 1 ~ 64
-		minecraftMaxWaterNeutralMobsPerPlayer = 2
+		minecraftMaxWaterNeutralMobsPerPlayer = 10
 		#Range: 1 ~ 512
-		minecraftMaxWaterNeutralMobsPerWorld = 8
+		minecraftMaxWaterNeutralMobsPerWorld = 100
 
 	[Spawn.Limitations]
 		#Enable/Disable general spawn limitations for unknown mobs.
@@ -140,7 +140,7 @@
 		spawnLimitationMaxMobsPerPlayer = 12
 		#Defines the max. number of unknown entities of a specific type, which could spawn within a single world. Use 0 to disable this optimization.
 		#Range: 1 ~ 512
-		spawnLimitationMaxMobsPerWorld = 22
+		spawnLimitationMaxMobsPerWorld = 32
 
 #This sections allows to control specific setting for some mods.
 #You don't need to disable any mod support if the mod is not installed.
@@ -160,17 +160,17 @@
 	[Mod."Alex's Mobs"]
 		modAlexmobsEnabled = true
 		#Range: 1 ~ 64
-		modAlexmobsMaxPassiveMobsPerPlayer = 2
+		modAlexmobsMaxPassiveMobsPerPlayer = 8
 		#Range: 1 ~ 512
-		modAlexmobsMaxPassiveMobsPerWorld = 8
+		modAlexmobsMaxPassiveMobsPerWorld = 16
 		#Range: 1 ~ 64
-		modAlexmobsMaxNeutralMobsPerPlayer = 2
+		modAlexmobsMaxNeutralMobsPerPlayer = 8
 		#Range: 1 ~ 512
-		modAlexmobsMaxNeutralMobsPerWorld = 8
+		modAlexmobsMaxNeutralMobsPerWorld = 16
 		#Range: 1 ~ 64
-		modAlexmobsMaxHostileMobsPerPlayer = 2
+		modAlexmobsMaxHostileMobsPerPlayer = 6
 		#Range: 1 ~ 512
-		modAlexmobsMaxHostileMobsPerWorld = 10
+		modAlexmobsMaxHostileMobsPerWorld = 16
 
 	[Mod."Aquaculture 2"]
 		modAquacultureEnabled = true
@@ -182,15 +182,15 @@
 	[Mod."Artifacts Mod"]
 		modArtifactsEnabled = true
 		#Range: 1 ~ 64
-		modArtifactsMaxHostileMobsPerPlayer = 2
+		modArtifactsMaxHostileMobsPerPlayer = 4
 		#Range: 1 ~ 512
-		modArtifactsMaxHostileMobsPerWorld = 12
+		modArtifactsMaxHostileMobsPerWorld = 16
 
 	[Mod."Dungeons Mod"]
 		modDungeonsmodEnabled = true
 		modDungeonsmodOptimizeWhirlwind = true
 		#Range: 1 ~ 64
-		modDungeonsmodMaxHostileMobsPerPlayer = 4
+		modDungeonsmodMaxHostileMobsPerPlayer = 8
 		#Range: 1 ~ 512
 		modDungeonsmodMaxHostileMobsPerWorld = 16
 		#Range: 1 ~ 64
@@ -201,15 +201,15 @@
 	[Mod."Ice and Fire: Dragons"]
 		modIceandfireEnabled = true
 		#Range: 1 ~ 64
-		modIceandfireMaxPassiveMobsPerPlayer = 2
+		modIceandfireMaxPassiveMobsPerPlayer = 6
 		#Range: 1 ~ 512
 		modIceandfireMaxPassiveMobsPerWorld = 16
 		#Range: 1 ~ 64
-		modIceandfireMaxNeutralMobsPerPlayer = 1
+		modIceandfireMaxNeutralMobsPerPlayer = 4
 		#Range: 1 ~ 512
 		modIceandfireMaxNeutralMobsPerWorld = 16
 		#Range: 1 ~ 64
-		modIceandfireMaxHostileMobsPerPlayer = 2
+		modIceandfireMaxHostileMobsPerPlayer = 4
 		#Range: 1 ~ 512
 		modIceandfireMaxHostileMobsPerWorld = 16
 		#Range: 1 ~ 64
@@ -227,11 +227,11 @@
 	[Mod."Mowzie's Mobs"]
 		modMowziesMobsEnabled = true
 		#Range: 1 ~ 64
-		modMowziesMobsMaxNeutralMobsPerPlayer = 2
+		modMowziesMobsMaxNeutralMobsPerPlayer = 4
 		#Range: 1 ~ 512
 		modMowziesMobsMaxNeutralMobsPerWorld = 16
 		#Range: 1 ~ 64
-		modMowziesMobsMaxHostileMobsPerPlayer = 2
+		modMowziesMobsMaxHostileMobsPerPlayer = 4
 		#Range: 1 ~ 512
 		modMowziesMobsMaxHostileMobsPerWorld = 16
 		#Range: 1 ~ 64
@@ -249,15 +249,15 @@
 	[Mod.Quark]
 		modQuarkEnabled = true
 		#Range: 1 ~ 64
-		modQuarkMaxPassiveMobsPerPlayer = 2
+		modQuarkMaxPassiveMobsPerPlayer = 4
 		#Range: 1 ~ 512
 		modQuarkMaxPassiveMobsPerWorld = 16
 		#Range: 1 ~ 64
-		modQuarkMaxNeutralMobsPerPlayer = 2
+		modQuarkMaxNeutralMobsPerPlayer = 4
 		#Range: 1 ~ 512
 		modQuarkMaxNeutralMobsPerWorld = 16
 		#Range: 1 ~ 64
-		modQuarkMaxHostileMobsPerPlayer = 2
+		modQuarkMaxHostileMobsPerPlayer = 4
 		#Range: 1 ~ 512
 		modQuarkMaxHostileMobsPerWorld = 16
 
@@ -293,7 +293,7 @@
 	[Mod.Supplementaries]
 		" modSupplementariesEnabled" = true
 		#Range: 1 ~ 64
-		modSupplementariesMaxPassiveMobsPerPlayer = 2
+		modSupplementariesMaxPassiveMobsPerPlayer = 4
 		#Range: 1 ~ 512
 		modSupplementariesMaxPassiveMobsPerWorld = 16
 
@@ -337,15 +337,15 @@
 	[Mod."The Twilight Forest"]
 		modTwilightForestEnabled = true
 		#Range: 1 ~ 64
-		modTwilightForestMaxPassiveMobsPerPlayer = 2
+		modTwilightForestMaxPassiveMobsPerPlayer = 8
 		#Range: 1 ~ 512
 		modTwilightForestMaxPassiveMobsPerWorld = 16
 		#Range: 1 ~ 64
-		modTwilightForestMaxHostileMobsPerPlayer = 2
+		modTwilightForestMaxHostileMobsPerPlayer = 8
 		#Range: 1 ~ 512
 		modTwilightForestMaxHostileMobsPerWorld = 16
 		#Range: 1 ~ 64
-		modTwilightForestMaxBossesPerPlayer = 2
+		modTwilightForestMaxBossesPerPlayer = 8
 		#Range: 1 ~ 512
 		modTwilightForestMaxBossesPerWorld = 8
 
@@ -396,11 +396,11 @@
 
 [Experimental]
 	#Burn Crepper during day light.
-	burnCreeperDuringDaylight = false
+	burnCreeperDuringDaylight = true
 
 [Debug]
 	#Changed the default log level to get more output.
 	logLevel = "info"
 	#Enable/Disable logging of the server/world load.
-	logServerLoad = true
+	logServerLoad = false
 

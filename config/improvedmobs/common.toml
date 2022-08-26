@@ -4,7 +4,7 @@
 	#Disable/Enables the whole difficulty scaling of this mod. Requires a mc restart
 	"Enable difficulty scaling" = true
 	#Time in ticks for which the difficulty shouldnt increase at the beginning. One full minecraft day is 24000 ticks
-	"Difficulty Delay" = 0
+	"Difficulty Delay" = 72000
 	#Handles increase in difficulty regarding current difficulty.
 	#Format is <minimum current difficulty>-<increase every 2400 ticks>
 	#Example ["0-0.01","10-0.1","30-0"]
@@ -83,7 +83,7 @@
 #Settings for mod integration
 [integration]
 	#Should the scaling health mods difficulty system be used instead of this ones. (Requires scaling health mod)
-	"Use Scaling Health Mod" = true
+	"Use Scaling Health Mod" = false
 
 #Settings regarding custom ai for mobs
 [ai]
@@ -155,12 +155,12 @@
 	#Range: 0.0 ~ 1.0
 	"Weapon Chance" = 0.05
 	#Adds additional x*difficulty% to base weapon chance
-	"Weapon Chance Add" = 0.3
+	"Weapon Chance Add" = 0.2
 	#Base chance for each armor pieces to get enchanted
 	#Range: 0.0 ~ 1.0
 	"Enchanting Chance" = 0.1
 	#Adds additional x*difficulty% to base enchanting chance
-	"Enchanting Addition" = 0.2
+	"Enchanting Addition" = 0.1
 	#Specify min and max enchanting levels according to difficulty. difficulty-minLevel-maxLevel
 	"Enchanting Calc" = ["0-5-10", "25-5-15", "50-10-17", "100-15-25", "200-20-30", "250-30-35"]
 	#Chance for mobs to have an item in offhand
@@ -191,7 +191,7 @@
 	#Knockback will be increased by difficulty*0.002*x. Set to 0 to disable
 	"Knockback Increase" = 1.0
 	#Maximum increase in knockback
-	"Max Knockback" = 0.5
+	"Max Knockback" = 0.3
 	#Magic resistance will be increased by difficulty*0.0016*x. Set to 0 to disable
 	"Magic Resistance Increase" = 1.0
 	#Maximum increase in magic resistance. Magic reduction is percentage

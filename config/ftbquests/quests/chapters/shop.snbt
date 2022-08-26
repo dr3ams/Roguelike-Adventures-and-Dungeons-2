@@ -347,13 +347,21 @@
 			y: 1.5d
 			subtitle: "For any type of wood (repeatable)"
 			id: "308D3B4CF9E12F88"
-			tasks: [{
-				id: "637C2DCF5167900B"
-				type: "item"
-				item: "minecraft:charcoal"
-				count: 64L
-				consume_items: true
-			}]
+			tasks: [
+				{
+					id: "637C2DCF5167900B"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "02D09D641E22E2FF"
+					type: "xp"
+					value: 1L
+					points: false
+				}
+			]
 			rewards: [{
 				id: "2A0267D3EED36CA8"
 				type: "questsadditions:repeat_choice"

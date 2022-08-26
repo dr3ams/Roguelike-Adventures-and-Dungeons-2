@@ -22,26 +22,64 @@
 		{ item: "aquaculture:treasure_chest" }
 		{ item: "waystones:return_scroll" }
 		{ item: "waystones:bound_scroll" }
-		{
-			item: {
-				id: "ftbquests:lootcrate"
-				Count: 1b
-				tag: {
-					type: "hat_loot_crate"
-				}
-			}
-		}
-		{
-			item: {
-				id: "ftbquests:lootcrate"
-				Count: 1b
-				tag: {
-					type: "hat_loot_crate"
-				}
-			}
-		}
 		{ item: "kubejs:diamond_nugget", count: 9 }
 		{ item: "kubejs:emerald_nugget", count: 9 }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "hat_crate"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "dungeon_s_gear_crate"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "relic_crate"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "artefact_crate"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
 	]
 	loot_crate: {
 		drops: {

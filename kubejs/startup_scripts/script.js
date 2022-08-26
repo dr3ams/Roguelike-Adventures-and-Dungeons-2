@@ -6,7 +6,6 @@ onEvent('item.registry', event => {
 	// Register new items here
 	// event.create('example_item').displayName('Example Item')
 event.create('mark_miner').displayName('I. Mark of the Miner').glow(true)
-
 event.create('mark_farmer').displayName('I. Mark of the Farmer').glow(true)
 event.create('mark_warrior').displayName('I. Mark of the Warrior').glow(true)
 event.create('mark_archer').displayName('I. Mark of the Archer').glow(true)
@@ -56,6 +55,7 @@ event.create('nether_coin').displayName('Nether Coin').tooltip('Acquired through
 
 event.create('diamond_nugget').displayName('Diamond Nugget')
 event.create('emerald_nugget').displayName('Emerald Nugget')
+  
 
 
 })
