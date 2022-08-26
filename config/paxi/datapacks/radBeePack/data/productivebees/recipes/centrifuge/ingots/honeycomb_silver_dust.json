@@ -1,0 +1,26 @@
+{
+    "replace": true,
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "tag": "forge:honeycombs/silver"
+    },
+    "outputs": [
+        {
+            "item": {
+                "tag": "forge:ingots/silver"
+            },
+            "chance": 90
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        },
+        {
+            "fluid": {
+                "fluid": "productivebees:honey"
+            },
+            "amount": 50
+        }
+    ]
+}
