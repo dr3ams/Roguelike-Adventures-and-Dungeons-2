@@ -13,6 +13,10 @@
 	{
 		"mining": 20
 	},
+	"minecraft:ancient_debris":
+	{
+		"mining": 20
+	},
 	"#forge:ores/coal":
 	{
 		"mining": 1
@@ -25,9 +29,13 @@
 	{
 		"mining": 10
 	},
-	"minecraft:nether_gold_ore":
+	"#forge:ores/emerald":
 	{
-		"mining": 3
+		"mining": 10
+	},
+	"#forge:ores/sapphire":
+	{
+		"mining": 10
 	},
 	"#forge:ores/gold":
 	{
@@ -44,6 +52,10 @@
 	"#forge:ores/nickel":
 	{
 		"mining": 5
+	},
+	"#forge:ores/lead":
+	{
+		"mining": 4
 	},
 	"#forge:ores/quartz":
 	{
@@ -255,62 +267,6 @@
 	{
 		"woodcutting": 14
 	},
-	"bno:netheraluminum_ore":
-	{
-		"mining": 8
-	},
-	"bno:nethercoal_ore":
-	{
-		"mining": 4
-	},
-	"bno:nethercopper_ore":
-	{
-		"mining": 7
-	},
-	"bno:netherdiamond_ore":
-	{
-		"mining": 35
-	},
-	"bno:netheremerald_ore":
-	{
-		"mining": 60
-	},
-	"bno:netheriron_ore":
-	{
-		"mining": 12
-	},
-	"bno:netherlapis_ore":
-	{
-		"mining": 5
-	},
-	"bno:netherlead_ore":
-	{
-		"mining": 20
-	},
-	"bno:nethernickel_ore":
-	{
-		"mining": 28
-	},
-	"bno:netherosmium_ore":
-	{
-		"mining": 16
-	},
-	"bno:netherredstone_ore":
-	{
-		"mining": 1.5
-	},
-	"bno:nethersilver_ore":
-	{
-		"mining": 22
-	},
-	"bno:nethertin_ore":
-	{
-		"mining": 10
-	},
-	"bno:netheruranium_ore":
-	{
-		"mining": 22
-	},
 	"byg:holly_log":
 	{
 		"woodcutting": 8
@@ -453,6 +409,11 @@
 	{
 		"mining": 12,
 		"magic": 2
+	},
+	"good_nights_sleep:candy_ore":
+	{
+		"mining": 7,
+		"magic": 1
 	},
 	"iceandfire:amythest_ore":
 	{
@@ -622,32 +583,32 @@
 	},
 	"minecraft:infested_chiseled_stone_bricks":
 	{
-		"mining": 5,
+		"mining": 15,
 		"dungeoneering": 10
 	},
 	"minecraft:infested_cobblestone":
 	{
-		"mining": 1,
+		"mining": 15,
 		"dungeoneering": 10
 	},
 	"minecraft:infested_cracked_stone_bricks":
 	{
-		"mining": 1,
+		"mining": 15,
 		"dungeoneering": 10
 	},
 	"minecraft:infested_mossy_stone_bricks":
 	{
-		"mining": 1,
+		"mining": 15,
 		"dungeoneering": 10
 	},
 	"minecraft:infested_stone":
 	{
-		"mining": 1,
+		"mining": 15,
 		"dungeoneering": 10
 	},
 	"minecraft:infested_stone_bricks":
 	{
-		"mining": 1,
+		"mining": 15,
 		"dungeoneering": 10
 	},
 	"minecraft:jungle_log":
@@ -686,18 +647,23 @@
 	{
 		"farming": 7.5
 	},
+	"minecraft:mossy_cobblestone":
+	{
+		"mining": 7
+	},
 	"minecraft:chiseled_stone_bricks":
 	{
-		"mining": 1,
+		"mining": 7,
 		"dungeoneering": 3
 	},
 	"minecraft:cracked_stone_bricks":
 	{
-		"mining": 1,
+		"mining": 7,
 		"dungeoneering": 3
 	},
 	"minecraft:mossy_stone_bricks":
 	{
+		"mining": 7,
 		"dungeoneering": 3
 	},
 	"minecraft:mycelium":
@@ -1007,140 +973,152 @@
 	{
 		"mining": 7
 	},
+	"undergarden:otherside_utherium_ore":
+	{
+		"mining": 7
+	},
 	"upgrade_aquatic:embedded_ammonite":
 	{
 		"mining": 1
 	},
-	"buddycards:deep_luminis":
-	{
-		"mining": 20
-	},
-	"the_afterlight:overworld_moon_crystal_ore":
-	{
-		"mining": 10
-	},
-	"the_afterlight:slate_moon_crystal_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:everbright_aquite_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:everbright_charoite_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:everbright_diopside_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:everbright_emerald_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:everbright_moonstone_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:everbright_pyrope_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:everdawn_aquite_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:everdawn_charoite_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:everdawn_diopside_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:everdawn_emerald_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:everdawn_moonstone_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:everdawn_pyrope_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:falsite_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:horizonite_ore":
-	{
-		"mining": 10
-	},
-	"blue_skies:ventium_ore":
-	{
-		"mining": 10
-	},
 	"atum:bone_ore":
 	{
-		"mining": 10
-	},
-	"atum:coal_ore":
-	{
-		"mining": 2
-	},
-	"atum:diamond_ore":
-	{
-		"mining": 10
-	},
-	"atum:emerald_ore":
-	{
-		"mining": 10
-	},
-	"atum:gold_ore":
-	{
-		"mining": 10
-	},
-	"atum:iron_ore":
-	{
-		"mining": 3
-	},
-	"atum:lapis_ore":
-	{
-		"mining": 5
-	},
-	"atum:nebu_ore":
-	{
-		"mining": 5
-	},
-	"atum:redstone_ore":
-	{
-		"mining": 2
+		"mining": 1
 	},
 	"atum:relic_ore":
 	{
-		"mining": 10
+		"mining": 7
 	},
-	"stalwart_dungeons:chorundum_ore":
+	"atum:nebu_ore":
+	{
+		"mining": 15
+	},
+	"betterendforge:ender_ore":
+	{
+		"mining": 5
+	},
+	"betterendforge:amber_ore":
+	{
+		"mining": 5
+	},
+	"betterendforge:thallasium_ore":
+	{
+		"mining": 3
+	},
+	"#blue_skies:ores/diopside":
 	{
 		"mining": 10
 	},
-	"stalwart_dungeons:tungsten_ore":
+	"#blue_skies:ores/pyrope":
+	{
+		"mining": 3
+	},
+	"#blue_skies:ores/aquite":
+	{
+		"mining": 4
+	},
+	"#blue_skies:ores/charoite":
 	{
 		"mining": 10
 	},
-	"the_afterlight:aquastone_ore":
+	"#blue_skies:ores/moonstone":
 	{
-		"mining": 10
+		"mining": 2
 	},
-	"the_afterlight:bloodstone_ore":
+	"blue_skies:falsite_ore":
+	{
+		"mining": 6
+	},
+	"blue_skies:ventium_ore":
+	{
+		"mining": 3
+	},
+	"blue_skies:horizonite_ore":
+	{
+		"mining": 2
+	},
+	"buddycards:luminis_ore":
+	{
+		"mining": 1.5
+	},
+	"majruszs_difficulty:end_shard_ore":
 	{
 		"mining": 20
 	},
+	"byg:anthracite_ore":
+	{
+		"mining": 1.5
+	},
+	"byg:lignite_ore":
+	{
+		"mining": 1.5
+	},
+	"quark:biotite_ore":
+	{
+		"mining": 1
+	},
+	"stalwart_dungeons:tungsten_ore":
+	{
+		"mining": 15,
+		"dungeoneering": 15
+	},
+	"stalwart_dungeons:chorundum_ore":
+	{
+		"mining": 15,
+		"dungeoneering": 15
+	},
+	"the_afterlight:slate_moon_crystal_ore":
+	{
+		"mining": 9,
+		"wayfaring": 5
+	},
+	"the_afterlight:overworld_moon_crystal_ore":
+	{
+		"mining": 9,
+		"wayfaring": 5
+	},
+	"the_afterlight:moon_shard_ore":
+	{
+		"mining": 1
+	},
+	"the_afterlight:slate_moon_shard_ore":
+	{
+		"mining": 1
+	},
+	"the_afterlight:moonsteel_ore":
+	{
+		"mining": 6
+	},
 	"the_afterlight:crystillium_ore":
 	{
+		"mining": 3
+	},
+	"the_afterlight:slate_crystillium":
+	{
+		"mining": 3
+	},
+	"the_afterlight:bloodstone_ore":
+	{
+		"mining": 8
+	},
+	"the_afterlight:aquastone_ore":
+	{
+		"mining": 8
+	},
+	"the_afterlight:verdant_ore":
+	{
+		"mining": 8
+	},
+	"the_afterlight:eclipse_shard_ore":
+	{
 		"mining": 10
+	},
+	"the_afterlight:pearl_shard_ore":
+	{
+		"mining": 2
+	},
+	"the_afterlight:lunarite_scrap_block":
+	{
+		"mining": 20
 	}
 }
