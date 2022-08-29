@@ -5,19 +5,19 @@
 	hiveTickRate = 1500
 	#How long time a bee should stay in the hive when having delivered honey. Default 4800.
 	#Range: > 20
-	timeInHive = 4800
+	timeInHive = 6400
 	#How many ticks it takes for process a recipe in the centrifuge. Default 200.
 	#Range: > 20
-	centrifugeProcessingTime = 300
+	centrifugeProcessingTime = 600
 	#How many ticks it takes for process a recipe in the powered centrifuge. Default 100.
 	#Range: > 20
-	centrifugePoweredProcessingTime = 100
+	centrifugePoweredProcessingTime = 300
 	#How much FE to use per tick for a powered centrifuge when processing an item. Default 10.
 	#Range: > 1
-	centrifugePowerUse = 10
+	centrifugePowerUse = 20
 	#How many ticks it takes for process a recipe in the incubator. Default 3600.
 	#Range: > 20
-	incubatorProcessingTime = 3600
+	incubatorProcessingTime = 4200
 	#How much FE to use per tick for an incubator when processing an item. Default 10.
 	#Range: > 1
 	incubatorPowerUse = 10
@@ -26,10 +26,10 @@
 	incubatorTreatUse = 20
 	#How much FE to generate per tick. Default 60.
 	#Range: > 1
-	generatorPowerGen = 60
+	generatorPowerGen = 20
 	#How much honey to consume per tick. Default 5.
 	#Range: > 1
-	generatorHoneyUse = 5
+	generatorHoneyUse = 10
 	#A priority list of Mod IDs that results of comb output should stem from, aka which mod you want the copper to come from.
 	preferredTagSource = ["productivebees", "thermal", "immersiveengineering", "create", "mekanism", "silents_mechanisms"]
 	#How many bees can fit in a bee bomb. Default is 10
@@ -98,7 +98,7 @@
 	combBlockTimeModifier = 1.0
 	#Multiplier per productivity upgrade installed in the hive.
 	#Range: 1.0 ~ 2.147483647E9
-	productivityMultiplier = 1.4
+	productivityMultiplier = 1.2
 	#Chance for a bee to produce an offspring after a hive visit.
 	#Range: 0.0 ~ 1.0
 	breedingChance = 0.05

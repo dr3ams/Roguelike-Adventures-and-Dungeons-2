@@ -63,7 +63,7 @@ craftingTable.addShaped("gloves_digging_diamond", <item:bountifulbaubles:gloves_
 [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]]);
 
 
-craftingTable.removeByName("rats:rat_upgrade_dragon_vanilla");
+//craftingTable.removeByName("rats:rat_upgrade_dragon_vanilla");
 craftingTable.removeByName("rats:rat_upgrade_chef");
 craftingTable.addShaped("rats_upgrade_chef", <item:rats:rat_upgrade_chef>,[
     [<tag:items:forge:chef_upgrade_items>, <item:rats:chef_toque>, <tag:items:forge:chef_upgrade_items>],

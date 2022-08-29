@@ -17,6 +17,8 @@
 		# The end border color of the "equipped" badge.
 		#Range: 0 ~ 4294967295
 		badge_border_end = 1623360778
+		# If badge_text should override the built-in translatable text.
+		override_badge_text = false
 
 	[client.control_options]
 		# If the comparison tooltip should show by default (pressing bound key hides).

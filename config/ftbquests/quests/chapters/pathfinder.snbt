@@ -1032,7 +1032,15 @@
 			]
 		}
 		{
-			icon: "environmental:blue_wisteria_sapling"
+			icon: {
+				id: "minecraft:blue_orchid"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 6.0d
 			y: 9.5d
 			id: "6A7074CB684BD834"
@@ -1379,7 +1387,15 @@
 			]
 		}
 		{
-			icon: "druidcraft:darkwood_sapling"
+			icon: {
+				id: "minecraft:snowball"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 7.0d
 			y: 6.0d
 			id: "4FB1AB2D08BB9803"
