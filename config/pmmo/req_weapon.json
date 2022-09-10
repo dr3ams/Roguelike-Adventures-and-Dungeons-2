@@ -99,6 +99,18 @@
 	{
 		"combat": 3
 	},
+"greekfantasy:cursed_bow":
+	{
+		"archery": 3
+	},
+"greekfantasy:apollo_bow":
+	{
+		"archery": 7
+	},
+"greekfantasy:artemis_bow":
+	{
+		"archery": 20
+	},
 "mysticalworld:lead_knife":
 	{
 		"combat": 4
@@ -118,6 +130,10 @@
 "aquaculture:neptunium_sword":
 	{
 		"combat": 70
+	},
+"aquaculture:neptunium_bow":
+	{
+		"archery": 20
 	},
 "ars_nouveau:spell_bow":
 	{
@@ -166,10 +182,6 @@
 	"dungeons_gear:battlestaff_of_terror":
 	{
 		"combat": 35
-	},
-	"dungeons_gear:betterfly_crossbow":
-	{
-		"archery": 25
 	},
 	"dungeons_gear:bonebow":
 	{
@@ -368,10 +380,6 @@
 	{
 		"combat": 15
 	},
-	"dungeons_gear:master_bow":
-	{
-		"archery": 25
-	},
 	"dungeons_gear:masters_bow":
 	{
 		"archery": 25
@@ -529,6 +537,34 @@
 		"combat": 55
 	},
 	"dungeons_gear:winters_touch":
+	{
+		"archery": 25
+	},
+	"dungeons_gear:shivering_bow":
+	{
+		"archery": 25
+	},
+	"dungeons_gear:wind_bow":
+	{
+		"archery": 10
+	},
+	"dungeons_gear:burst_gale_bow":
+	{
+		"archery": 20
+	},
+	"dungeons_gear:echo_of_the_valley":
+	{
+		"archery": 20
+	},
+	"dungeons_gear:harpoon_crossbow":
+	{
+		"archery": 25
+	},
+	"dungeons_gear:nautical_crossbow":
+	{
+		"archery": 25
+	},
+	"dungeons_gear:sugar_rush":
 	{
 		"archery": 25
 	},
@@ -846,10 +882,9 @@
 	},
 	"minecraft:bow":
 	{
-		"archery": 1,
 		"agility": 3
 	},
-		"extrabows:diamond_bow":
+	"extrabows:diamond_bow":
 	{
 		"archery": 15
 	},
@@ -1939,67 +1974,83 @@
 	},
 	"spartanweaponry:quarterstaff_bronze":
 	{
-		"combat": 20
+		"combat": 10,
+		"agility": 10
 	},
 	"spartanweaponry:quarterstaff_copper":
 	{
-		"combat": 8
+		"combat": 4,
+		"agility": 4
 	},
 	"spartanweaponry:quarterstaff_diamond":
 	{
-		"combat": 45
+		"combat": 22,
+		"agility": 22
 	},
 	"spartanweaponry:quarterstaff_electrum":
 	{
-		"combat": 20
+		"combat": 10,
+		"agility": 10
 	},
 	"spartanweaponry:quarterstaff_gold":
 	{
-		"combat": 35
+		"combat": 18,
+		"agility": 18
 	},
 	"spartanweaponry:quarterstaff_invar":
 	{
-		"combat": 22
+		"combat": 11,
+		"agility": 11
 	},
 	"spartanweaponry:quarterstaff_iron":
 	{
-		"combat": 25
+		"combat": 12,
+		"agility": 12
 	},
 	"spartanweaponry:quarterstaff_lead":
 	{
-		"combat": 20
+		"combat": 10,
+		"agility": 10
 	},
 	"spartanweaponry:quarterstaff_netherite":
 	{
-		"combat": 65
+		"combat": 33,
+		"agility": 33
 	},
 	"spartanweaponry:quarterstaff_nickel":
 	{
-		"combat": 20
+		"combat": 10,
+		"agility": 10
 	},
 	"spartanweaponry:quarterstaff_platinum":
 	{
-		"combat": 37
+		"combat": 18,
+		"agility": 18
 	},
 	"spartanweaponry:quarterstaff_silver":
 	{
-		"combat": 17
+		"combat": 9,
+		"agility": 9
 	},
 	"spartanweaponry:quarterstaff_steel":
 	{
-		"combat": 25
+		"combat": 13,
+		"agility": 13
 	},
 	"spartanweaponry:quarterstaff_stone":
 	{
-		"combat": 15
+		"combat": 7,
+		"agility": 7
 	},
 	"spartanweaponry:quarterstaff_tin":
 	{
-		"combat": 15
+		"combat": 8,
+		"agility": 8
 	},
 	"spartanweaponry:quarterstaff_wood":
 	{
-		"combat": 5
+		"combat": 2,
+		"agility": 2
 	},
 	"spartanweaponry:rapier_bronze":
 	{
@@ -2469,6 +2520,94 @@
 	{
 		"combat": 70
 	},
+"upgradednetherite:netherite_bow":
+	{
+		"archery": 60
+	},	
+"upgradednetherite:netherite_crossbow":
+	{
+		"archery": 60
+	},
+"upgradednetherite:gold_upgraded_netherite_bow":
+	{
+		"archery": 70
+	},	
+"upgradednetherite:fire_upgraded_netherite_bow":
+	{
+		"archery": 70
+	},	
+"upgradednetherite:ender_upgraded_netherite_bow":
+	{
+		"archery": 70
+	},	
+"upgradednetherite:water_upgraded_netherite_bow":
+	{
+		"archery": 70
+	},	
+"upgradednetherite:phantom_upgraded_netherite_bow":
+	{
+		"archery": 70
+	},	
+"upgradednetherite:feather_upgraded_netherite_bow":
+	{
+		"archery": 70
+	},	
+"upgradednetherite:ultimate_upgraded_netherite_bow":
+	{
+		"archery": 70
+	},	
+"upgradednetherite:corrupt_upgraded_netherite_bow":
+	{
+		"archery": 70
+	},
+"upgradednetherite:wither_upgraded_netherite_bow":
+	{
+		"archery": 70
+	},
+"upgradednetherite:spider_upgraded_netherite_bow":
+	{
+		"archery": 70
+	},
+"upgradednetherite:gold_upgraded_netherite_crossbow":
+	{
+		"archery": 70
+	},	
+"upgradednetherite:fire_upgraded_netherite_crossbow":
+	{
+		"archery": 70
+	},	
+"upgradednetherite:ender_upgraded_netherite_crossbow":
+	{
+		"archery": 70
+	},	
+"upgradednetherite:water_upgraded_netherite_crossbow":
+	{
+		"archery": 70
+	},	
+"upgradednetherite:phantom_upgraded_netherite_crossbow":
+	{
+		"archery": 70
+	},	
+"upgradednetherite:feather_upgraded_netherite_crossbow":
+	{
+		"archery": 70
+	},	
+"upgradednetherite:ultimate_upgraded_netherite_crossbow":
+	{
+		"archery": 70
+	},	
+"upgradednetherite:corrupt_upgraded_netherite_crossbow":
+	{
+		"archery": 70
+	},
+"upgradednetherite:wither_upgraded_netherite_crossbow":
+	{
+		"archery": 70
+	},
+"upgradednetherite:spider_upgraded_netherite_crossbow":
+	{
+		"archery": 70
+	},
 "atum:short_bow":
 	{
 		"agility": 3
@@ -2513,8 +2652,33 @@
 	{
 		"combat": 30
 	},
+"twilightforest:triple_bow":
+	{
+		"archery": 33
+	},
+"twilightforest:ice_bow":
+	{
+		"archery": 9
+	},
+"twilightforest:seeker_bow":
+	{
+		"archery": 15
+	},
+"twilightforest:ender_bow":
+	{
+		"archery": 19
+	},
 "randomloot:sword":
 	{
-		"combat": 15
+		"combat": 40
+	},
+"dreadsteel:dreadsteel_scythe":
+	{
+		"combat": 100,
+		"dragonslayer":15
+	},
+"infernalexp:glowsilk_bow":
+	{
+		"archery": 7
 	}
 }
