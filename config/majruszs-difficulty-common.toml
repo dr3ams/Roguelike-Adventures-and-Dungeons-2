@@ -563,11 +563,11 @@
 
 	[GameState.IncreasingDifficulty]
 		#List of entities starting Expert Mode after killing them.
-		entities_expert = ["none"]
+		entities_expert = ["minecraft:wither"]
 		#List of entities starting Master Mode after killing them.
 		entities_master = ["minecraft:ender_dragon"]
 		#List of dimensions starting Expert Mode when a player enters it for the first time. (ignored when any_dimension_expert is set to true)
-		dimensions_expert = ["minecraft:the_nether"]
+		dimensions_expert = ["none"]
 		#List of dimensions starting Master Mode when a player enters it for the first time.
 		dimensions_master = ["none"]
 		#Should entering any dimension start Expert Mode?

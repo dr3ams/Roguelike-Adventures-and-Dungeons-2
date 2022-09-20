@@ -1,0 +1,22 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [
+		{
+			"tag": "forge:feathers"
+		},
+		{
+			"tag": "forge:rods/wooden"
+		},
+		{
+			"tag": "forge:gems/diamond"
+		}
+	],
+	"result": {
+		"item": "spartanweaponry:arrow_diamond",
+		"count": 6
+	}
+}

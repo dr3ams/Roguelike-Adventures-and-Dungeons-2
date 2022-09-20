@@ -7,8 +7,6 @@
 	handle_player_death = true
 	#Whether to restore beneficial effects after a player dies [false/true|default:true]
 	restore_effects_on_death = false
-	#Whether to log the positions of players' graves [false/true|default:true]
-	log_player_grave = true
 	#The radius in which items should be collected when a grave is spawned [1..10|default:5]
 	#Range: 1 ~ 10
 	sniffer_range = 5
@@ -20,7 +18,7 @@
 	#Percent of stolen experience by killing a player when PvP mode is enabled [0..100|default:30]
 	#Range: 0 ~ 100
 	pvp_stolen_xp = 30
-	#Knowledge of Death loss why dying [0..500|default:0]
+	#Knowledge of Death loss on death [0..500|default:0]
 	#Range: 0 ~ 500
 	knowledge_loss = 0
 	#Only abandoned graves can have losses of items (based on the decay_time) [false/true|default:true]
@@ -138,19 +136,6 @@
 	chance_pray_reward = 40
 	#Allows to replace a grave plate already set on a grave [false/true|default:true]
 	can_replace_grave_plate = true
-	#Allows lost tablets to find locations outside the current world [false/true|default:true]
-	lost_tablet_search_outside_world = true
-	#Allows lost tablets to find modded structures [false/true|default:true]
-	lost_tablet_modded_structure = true
-	#The structures that can't be discovered by lost tablets
-	lost_tablet_denied_structures = []
-	#Duration of voodoo poppet's effects in seconds when preventing death [5..60000|default:60]
-	#Range: 5 ~ 60000
-	duration_voodoo_poppet_effects = 60
-	#Damaged items can be recycled with the Book of Recycling
-	can_recycle_damaged_item = true
-	#The items that can't be recycled by the Book of Recycling
-	denied_item_to_recycle = []
 
 #Allows to customize or disable the enchantments
 [enchantments]
@@ -213,10 +198,26 @@
 
 #Allows to enable some features related to others mods
 [compatibility]
-	#Allows to auto-equip the slots from Curio mod [false/true|default:true]
-	allow_curio_auto_equip = true
 	#Keeps the cosmetic armor when you die [false/true|default:true]
 	keep_cosmetic_armor = true
 	#Ensure the potion effects to stay on the player after returning from end conquered [false/true|default:true]
 	preserve_effects_on_return_end_conquered = true
+	#Allows to auto-equip the slots from Curio mod [false/true|default:true]
+	curio_auto_equip = true
+
+#For settings related to magic items
+[magic_item]
+	#Damaged items can be recycled with the Book of Recycling
+	can_recycle_damaged_item = true
+	#The items that can't be recycled by the Book of Recycling
+	denied_item_to_recycle = []
+	#Allows lost tablets to find locations outside the current world [false/true|default:true]
+	lost_tablet_search_outside_world = true
+	#Allows lost tablets to find modded structures [false/true|default:true]
+	lost_tablet_modded_structure = true
+	#The structures that can't be discovered by lost tablets
+	lost_tablet_denied_structures = []
+	#Duration of voodoo poppet's effects in seconds when preventing death [5..60000|default:60]
+	#Range: 5 ~ 60000
+	duration_voodoo_poppet_effects = 60
 

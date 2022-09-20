@@ -1,0 +1,69 @@
+{
+  "type": "betterendforge:infusion",
+  "input": {
+    "item": "minecraft:book"
+  },
+  "output": {
+    "id": "quark:ancient_tome",
+    "Count": 1,
+    "tag": {
+      "StoredEnchantments": [
+        {
+          "lvl": 1,
+          "id": "spartanshields:payback"
+        }
+      ]
+    }
+  },
+  "time": 300,
+  "catalysts": [
+    {
+      "item": {
+        "item": "betterendforge:enchanted_petal"
+      },
+      "index": 0
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "index": 1
+    },
+    {
+      "item": {
+        "item": "alexsmobs:serrated_shark_tooth"
+      },
+      "index": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "index": 3
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "index": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "index": 5
+    },
+    {
+      "item": {
+        "item": "alexsmobs:serrated_shark_tooth"
+      },
+      "index": 6
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "index": 7
+    }
+  ]
+}

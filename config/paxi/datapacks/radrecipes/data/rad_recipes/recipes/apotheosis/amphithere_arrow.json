@@ -1,0 +1,21 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [{
+			"tag": "forge:flint"
+		},
+		{
+			"tag": "forge:rods/wooden"
+		},
+		{
+			"item": "iceandfire:amphithere_feather"
+		}
+	],
+	"result": {
+		"item": "iceandfire:amphithere_arrow",
+		"count": 6
+	}
+}

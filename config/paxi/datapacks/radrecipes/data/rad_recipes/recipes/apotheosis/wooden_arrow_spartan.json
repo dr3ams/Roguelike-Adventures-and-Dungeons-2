@@ -1,0 +1,22 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [
+		{
+			"tag": "minecraft:planks"
+		},
+		{
+			"tag": "forge:rods/wooden"
+		},
+		{
+			"tag": "forge:feathers"
+		}
+	],
+	"result": {
+		"item": "spartanweaponry:arrow_wood",
+		"count": 6
+	}
+}

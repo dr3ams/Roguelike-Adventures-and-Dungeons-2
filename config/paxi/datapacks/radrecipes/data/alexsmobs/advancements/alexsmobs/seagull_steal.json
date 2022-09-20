@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "alexsmobs:tab_icon",
+      "nbt": "{DisplayEntityType:\"alexsmobs:seagull\"}"
+    },
+    "title": {
+      "translate": "advancements.alexsmobs.seagull_steal.title"
+    },
+    "description": {
+      "text": "Feed a raw cod to a seagull"
+    }
+  },
+  "parent": "alexsmobs:alexsmobs/root",
+  "criteria": {
+    "ex": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cod"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "alexsmobs:seagull"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ex"
+    ]
+  ]
+}

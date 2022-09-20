@@ -1,0 +1,21 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [{
+			"item": "minecraft:arrow"
+		},
+		{
+			"item": "minecraft:tnt"
+		},
+		{
+			"item": "minecraft:arrow"
+		}
+	],
+	"result": {
+		"item": "archers_paradox:explosive_arrow",
+		"count": 4
+	}
+}

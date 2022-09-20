@@ -1,0 +1,21 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [{
+			"item": "minecraft:arrow"
+		},
+		{
+			"item": "minecraft:glowstone_dust"
+		},
+		{
+			"item": "minecraft:arrow"
+		}
+	],
+	"result": {
+		"item": "archers_paradox:glowstone_arrow",
+		"count": 4
+	}
+}

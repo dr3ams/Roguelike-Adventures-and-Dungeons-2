@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" i ",
+		"isi",
+		" i "
+	],
+	"key": {
+		"s": {
+			"item": "spartanshields:shield_basic_wood"
+		},
+		"i": {
+			"tag": "forge:gems/lapis"
+		}
+	},
+	"result": {
+		"item": "spartanshields:shield_mekanism_lapis_lazuli"
+	},
+	"conditions": [
+		{
+			"type": "forge:not",
+			"value": {
+					"type" : "forge:tag_empty",
+					"tag": "forge:gems/lapis"
+			}
+		}
+	]
+}

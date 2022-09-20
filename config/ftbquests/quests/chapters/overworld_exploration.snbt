@@ -5339,5 +5339,33 @@
 				}
 			]
 		}
+		{
+			title: "Experience, skills and character progression."
+			x: 4.0d
+			y: 0.0d
+			subtitle: "(brief explanation about stats)"
+			description: [
+				"Project MMO allows players to advance through the game in their own unique method. Compared to traditional Minecraft gameplay where players have to craft powerful armors and weapons and later rely entirely on them for damage and protection, Project MMO introduces a more “RPG-styled” method of progressing through the game."
+				""
+				"Starting the game you will not be able to use armor, decent tools and specific artifacts/relics/baubles, because this requires a certain level of the player associated with a specific item. In addition to the restrictions - leveling gives a variety of bonuses - passive(like improving your damage) or active(like the ability to salvage item for another one), thereby engaging in certain activities, you will improve your character."
+				""
+				"As players perform a certain action, they would get better at doing so. For example, if a player wants to become the best warrior, they can train themselves by swinging their swords all day to earn more points in strength."
+				""
+				"You will be able to see the settings of the mod when you press the P button"
+			]
+			dependencies: ["18FF6DA5335C0711"]
+			id: "79F271A2D7FA06A1"
+			tasks: [{
+				id: "35029CE2D859E7F9"
+				type: "pmmo:skill"
+				skill: "agility"
+				requiredLevel: 1.0d
+			}]
+			rewards: [{
+				id: "3EF5B45E046B2310"
+				type: "random"
+				table_id: 8545390299491237994L
+			}]
+		}
 	]
 }

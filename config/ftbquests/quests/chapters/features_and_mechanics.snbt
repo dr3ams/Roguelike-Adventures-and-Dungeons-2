@@ -645,7 +645,7 @@
 			icon: "ars_nouveau:glyph_wither"
 			x: 4.0d
 			y: -0.5d
-			subtitle: "- Expert Mode starts when the first player enters the Nether"
+			subtitle: "- Expert Mode starts when the first player kills the Wither"
 			description: [
 				"- loot has a 25% chance to be doubled"
 				""
@@ -834,6 +834,40 @@
 					xp: 100
 				}
 			]
+		}
+		{
+			icon: {
+				id: "productivebees:upgrade_productivity"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.0d
+			y: 4.0d
+			subtitle: "(brief explanation about stats)"
+			description: [
+				"Project MMO allows players to advance through the game in their own unique method. Compared to traditional Minecraft gameplay where players have to craft powerful armors and weapons and later rely entirely on them for damage and protection, Project MMO introduces a more “RPG-styled” method of progressing through the game."
+				""
+				"Starting the game you will not be able to use armor, decent tools and specific artifacts/relics/baubles, because this requires a certain level of the player associated with a specific item. In addition to the restrictions - leveling gives a variety of bonuses - passive(like improving your damage) or active(like the ability to salvage item for another one), thereby engaging in certain activities, you will improve your character."
+				""
+				"As players perform a certain action, they would get better at doing so. For example, if a player wants to become the best warrior, they can train themselves by swinging their swords all day to earn more points in strength."
+				""
+				"You will be able to see the settings of the mod when you press the P button"
+			]
+			id: "21051AB7F9354B98"
+			tasks: [{
+				id: "2C149B5C78D7807A"
+				type: "checkmark"
+				title: "Experience, skills and character progression. "
+			}]
+			rewards: [{
+				id: "1AD53B7061225B84"
+				type: "xp"
+				xp: 100
+			}]
 		}
 	]
 }

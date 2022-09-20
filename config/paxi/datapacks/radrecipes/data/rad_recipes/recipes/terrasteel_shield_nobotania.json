@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" i ",
+		"iti",
+		" i "
+	],
+	"key": {
+		"i": {
+			"tag": "forge:ingots/terrasteel"
+		},
+		"t": {
+			"item": "spartanshields:shield_basic_wood"
+		}
+	},
+	"result": {
+		"item": "spartanshields:shield_botania_terrasteel"
+	},
+	"conditions": [
+		{
+			"type": "forge:not",
+			"value": {
+			"type":"forge:mod_loaded",
+			"modid": "botania"
+			}
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "# #",
+          "# #"
+        ],
+        "key": {
+          "#": {
+            "tag": "forge:ingots/silver"
+          }
+        },
+        "result": {
+	    "item": "iceandfire:armor_silver_metal_boots",
+	    "nbt": "{AttributeModifiers:[{Amount: 1.0d, Slot: \"feet\", AttributeName: \"minecraft:generic.armor\", UUID: [I;-2074234244,-970700449,-1935712224,-1448768661], Name:\"Armor modifier\"},{Amount: 1.0d, Slot: \"feet\", Operation:0, AttributeName: \"mysticalworld:blessed\", UUID: [I;-2074234244,-970700449,-1935712224,-1448768661], Name:\"Armor Blessing\"}]}",
+	    "type": "minecraft:item_nbt"
+      }
+    }

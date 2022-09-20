@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+        "decorator": {
+            "type": "minecraft:count",
+            "config": {
+                "count": 38
+            }
+        },
+        "feature": {
+            "type": "minecraft:decorated",
+            "config": {
+                "decorator": {
+                    "type": "minecraft:square",
+                    "config": {}
+                },
+                "feature": {
+                    "type": "minecraft:decorated",
+                    "config": {
+                        "decorator": {
+                            "type": "minecraft:range",
+                            "config": {
+                                "maximum": 128,
+                                "bottom_offset": 0,
+                                "top_offset": 0
+                            }
+                        },
+                        "feature": {
+                            "type": "minecraft:ore",
+                            "config": {
+                                "state": {
+                                    "Name": "good_nights_sleep:negatite_ore"
+                                },
+                                "size": 12,
+                                "target": {
+                                    "predicate_type": "minecraft:block_match",
+                                    "block": "byg:rocky_stone"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

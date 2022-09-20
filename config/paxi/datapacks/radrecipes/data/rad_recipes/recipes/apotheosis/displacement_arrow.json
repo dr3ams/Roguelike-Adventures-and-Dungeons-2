@@ -1,0 +1,21 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [{
+			"item": "archers_paradox:ender_arrow"
+		},
+		{
+			"item": "minecraft:gunpowder"
+		},
+		{
+			"item": "archers_paradox:ender_arrow"
+		}
+	],
+	"result": {
+		"item": "archers_paradox:displacement_arrow",
+		"count": 4
+	}
+}

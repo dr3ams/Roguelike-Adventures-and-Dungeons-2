@@ -2,16 +2,16 @@
 #Common configuration settings
 [common]
 	#If true, prevents the trader from despawning if named
-	preventDespawnIfNamed = true
+	preventDespawnIfNamed = false
 
 	#Goblin Trader settings
 	[common.goblin_trader]
 		#The chance out of one hundred that the trader will spawn in the over world
 		#Range: 1 ~ 100
-		traderSpawnChance = 25
+		traderSpawnChance = 15
 		#The amount of ticks before the trader will spawn again
 		#Range: > 0
-		traderSpawnDelay = 24000
+		traderSpawnDelay = 34000
 		#The minimum level the trader can spawn
 		#Range: 0 ~ 256
 		traderMinSpawnLevel = 0
@@ -31,10 +31,10 @@
 	[common.vein_goblin_trader]
 		#The chance out of one hundred that the trader will spawn in the over world
 		#Range: 1 ~ 100
-		traderSpawnChance = 25
+		traderSpawnChance = 15
 		#The amount of ticks before the trader will spawn again
 		#Range: > 0
-		traderSpawnDelay = 24000
+		traderSpawnDelay = 44000
 		#The minimum level the trader can spawn
 		#Range: 0 ~ 256
 		traderMinSpawnLevel = 0

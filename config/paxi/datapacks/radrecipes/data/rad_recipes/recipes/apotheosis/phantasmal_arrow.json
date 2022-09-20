@@ -1,0 +1,21 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [{
+			"item": "cofh_core:ectoplasm"
+		},
+		{
+			"item": "minecraft:arrow"
+		},
+		{
+			"item": "cofh_core_ectoplasm"
+		}
+	],
+	"result": {
+		"item": "archers_paradox:phantasmal_arrow",
+		"count": 2
+	}
+}

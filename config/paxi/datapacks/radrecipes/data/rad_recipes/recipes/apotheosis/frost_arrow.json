@@ -1,0 +1,21 @@
+{
+	"type": "apotheosis:fletching",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "village"
+	}],
+	"ingredients": [{
+			"item": "minecraft:arrow"
+		},
+		{
+			"item": "minecraft:packed_ice"
+		},
+		{
+			"item": "minecraft:arrow"
+		}
+	],
+	"result": {
+		"item": "archers_paradox:frost_arrow",
+		"count": 4
+	}
+}
