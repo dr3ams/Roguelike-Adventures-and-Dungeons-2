@@ -573,7 +573,7 @@
 	{
 		"excavation": 1
 	},
-	"minecraft:gravel":
+	"#forge:gravel":
 	{
 		"excavation": 1
 	},
@@ -762,9 +762,14 @@
 	{
 		"excavation": 1.2
 	},
-	"minecraft:sand":
+	"#forge:sand":
 	{
 		"excavation": 1
+	},
+	"#tropicraft:sand":
+	{
+		"excavation": 1,
+		"wayfaring": 1
 	},
 	"minecraft:snow_block":
 	{
@@ -1120,5 +1125,10 @@
 	"the_afterlight:lunarite_scrap_block":
 	{
 		"mining": 20
-	}
+	},
+	"infernalexp:glowsilk_cocoon":
+	{
+		"mining": 20,
+		"farming": 100
+	},
 }
