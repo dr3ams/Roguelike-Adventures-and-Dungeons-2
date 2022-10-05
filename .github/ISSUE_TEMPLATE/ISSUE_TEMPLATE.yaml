@@ -55,13 +55,17 @@ body:
       description: A clear and concise description of what the bug is.
       placeholder: 1. Go to...; 2. Click on...; 3. Use that...
     validations:
-      required: false   
+      required: false  
       
+- type: markdown
+    attributes:
+      value: **PLEASE PROVIDE ANY TYPE OF LOGS. REPORTS WITHOUT LOGS/CRASH-REPORTS WILL BE CLOSED WITHOUT REVIEWING**
+        
   - type: textarea
     id: logs
     attributes:
       label: Additional Information
-      description: Please post crash report(located in crash-reports folder) and latest.log(located in logs folder), screenshots, etc. here. (use Pastebin.com, gist.github.com or Imgur.com accordingly). 
+      description: **Please post crash report(located in crash-reports folder) and latest.log(located in logs folder), screenshots, etc. here. (use Pastebin.com, gist.github.com or Imgur.com accordingly).** 
       placeholder: If the pack is crashing please provide the latest.log from the logs folder of your instance.
     validations:
       required: true
