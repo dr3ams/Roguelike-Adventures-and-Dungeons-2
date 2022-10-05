@@ -65,4 +65,7 @@ body:
       placeholder: If the pack is crashing please provide the latest.log from the logs folder of your instance.
     validations:
       required: true
-
+  - type: markdown
+    id: logs
+    attributes:
+      value: "PLEASE PROVIDE ANY TYPE OF LOGS. REPORTS WITHOUT LOGS OR CRASH-REPORTS WILL BE CLOSED WITHOUT REVIEWING"
