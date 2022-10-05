@@ -57,10 +57,7 @@ body:
     validations:
       required: false  
       
-- type: markdown
-    attributes: |
-      value: **PLEASE PROVIDE ANY TYPE OF LOGS. REPORTS WITHOUT LOGS/CRASH-REPORTS WILL BE CLOSED WITHOUT REVIEWING**
-        
+
   - type: textarea
     id: logs
     attributes:
