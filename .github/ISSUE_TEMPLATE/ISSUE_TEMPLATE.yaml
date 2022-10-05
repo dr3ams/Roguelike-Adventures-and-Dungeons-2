@@ -56,9 +56,7 @@ body:
       description: A clear and concise description of what the bug is.
       placeholder: 1. Go to...; 2. Click on...; 3. Use that...
     validations:
-      required: false  
-      
-        
+      required: false
   - type: textarea
     id: logs
     attributes:
@@ -70,5 +68,5 @@ body:
 
  - type: markdown
     id: logs
-    attributes: 
+    attributes:
       value: "PLEASE PROVIDE ANY TYPE OF LOGS. REPORTS WITHOUT LOGS OR CRASH-REPORTS WILL BE CLOSED WITHOUT REVIEWING"
