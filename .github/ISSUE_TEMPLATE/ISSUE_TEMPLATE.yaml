@@ -57,10 +57,14 @@ body:
     validations:
       required: false  
       
- - type: markdown
-    attributes: 
-      value: "!PLEASE PROVIDE ANY TYPE OF LOGS. REPORTS WITHOUT LOGS/CRASH-REPORTS WILL BE CLOSED WITHOUT REVIEWING!"
+      
+        - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
         
+        **WE DO NOT PROVIDE SUPPORT TO HEAVILY MODIFIED MODPACKS. OUR PACK IS CURATED FOR WORKABILITY AND NO CONTENT OVERLAP, NOT ADDING ADDITIONAL MODS TO.** **If you have any mods added by yourself -- first uninstall it and confirm the issue still occurs.**
+
 
   - type: textarea
     id: logs
