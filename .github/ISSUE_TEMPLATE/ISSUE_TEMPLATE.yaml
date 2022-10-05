@@ -4,6 +4,7 @@ title: "[Bug]: "
 labels: [bug]
 body:
   - type: markdown
+    id: title
     attributes:
       value: |
         **NAME YOUR ISSUE PROPERLY! DON'T LEAVE THE TITLE EMPTY**
@@ -67,8 +68,8 @@ body:
     validations:
       required: true
 
-body:
  - type: markdown
+    id: logs
     attributes: 
       value: |
       PLEASE PROVIDE ANY TYPE OF LOGS. REPORTS WITHOUT LOGS/CRASH-REPORTS WILL BE CLOSED WITHOUT REVIEWING
