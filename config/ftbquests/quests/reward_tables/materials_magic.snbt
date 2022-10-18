@@ -145,6 +145,17 @@
 		{ item: "iceandfire:amythest_gem" }
 		{ item: "iceandfire:sapphire_gem" }
 		{ item: "mysticalworld:silk_cocoon" }
+		{
+			item: {
+				id: "tombstone:dust_of_vanishing"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
 	]
 	loot_crate: {
 		drops: {

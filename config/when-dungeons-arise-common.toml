@@ -431,14 +431,14 @@
 			plagueAsylumSeparation = 250
 			#Number of Jigsaw iterations when generating a Plague Asylum.
 			#Range: 0 ~ 1000000
-			plagueAsylumSize = 35
+			plagueAsylumSize = 25
 			#Whether Plague Asylums adapt the terrain around them or not.
 			plagueAsylumTransformsTerrain = false
 			#The point in which Plague Asylums will start spawning. This is based around X = 0, Z = 0.
 			#Range: 0 ~ 1000000
 			plagueAsylumSpawnpointSeparation = 1600
 			#Whether cartographer villagers generate maps for Plague Asylums or not.
-			plagueAsylumMapTrades = true
+			plagueAsylumMapTrades = false
 
 	["When Configurations Arise"."Eerie Structures"]
 

@@ -1,0 +1,43 @@
+{
+  "__comment": "recipe template used to generate all prefab recipes. You can change ingredients and move around 1, 2, and 3. If a mod is required and might be missing, put your template nbt file under a folder named with the mod required, the recipe won't be load if the mod is missing.",
+  "type": "capsule:blueprint_prefabs",
+  "conditions": [],
+  "result": {
+    "item": "capsule:capsule",
+    "nbt": {
+      "state": 3,
+      "display": {
+        "color": 2963801
+      },
+      "sourceInventory": {},
+      "structureName": "",
+      "label": "",
+      "size": 1
+    }
+  },
+  "pattern": [
+    "2b3",
+    "l1l",
+    " p "
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:stone_button"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "l": {
+      "item": "minecraft:blue_dye"
+    },
+    "1": {
+      "item": "minecraft:air"
+    },
+    "2": {
+      "item": "minecraft:air"
+    },
+    "3": {
+      "item": "minecraft:air"
+    }
+  }
+}

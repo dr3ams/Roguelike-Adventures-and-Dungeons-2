@@ -4,7 +4,1952 @@
 	order_index: 0
 	filename: "the_patreon"
 	title: "The Patreon"
-	default_quest_shape: ""
+	icon: {
+		id: "kubejs:heart"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
-	quests: [ ]
+	images: [{
+		x: 3.0d
+		y: 10.5d
+		width: 14.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "rad2:textures/misc/thank.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: {
+				id: "kubejs:heart"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.0d
+			y: 3.5d
+			description: [
+				"I would like to thank everyone who supports me in any way: subbing on Patreon, renting a server or by simply downloading any of my packs."
+				""
+				"Your contribution is very important."
+				""
+				"Also, I would like to thank everyone who were somehow involved in RAD 2 development:"
+				""
+				"• Bizzoula#4739"
+				"• Doctor Mage#5234"
+				"• Hawk.Eye#2569"
+				"• Zarchyar#3407"
+				"• recyclingTiger#0854"
+				"• Samiel Flame#3844"
+				"• Xaikii#5318"
+				"• Samara#0323"
+				"• Mastarin#6697 "
+				"• Rho#1633"
+			]
+			size: 2.0d
+			id: "1E533E35056D96A1"
+			tasks: [{
+				id: "0816AD3C57AC7395"
+				type: "checkmark"
+				title: "THANK YOU FOR YOUR SUPPORT!"
+			}]
+		}
+		{
+			title: "Rebecca"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.5d
+			y: -1.5d
+			subtitle: "Rebecca"
+			id: "7A82C067B25BBC57"
+			tasks: [{
+				id: "43DF67FFC95F37E7"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "51B0FC0C20A33B9C"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "bryan chenu"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.5d
+			y: -1.5d
+			subtitle: "bryan chenu"
+			id: "6E3231E2134E3A00"
+			tasks: [{
+				id: "2C34F9D8A1EC054E"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Sikumii Hunter"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.5d
+			y: -1.5d
+			subtitle: "Sikumii Hunter"
+			id: "78C49E7A8C670991"
+			tasks: [{
+				id: "15A31D4E91F7121B"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Walther Krueger"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.5d
+			y: -1.5d
+			subtitle: "Walther Krueger"
+			id: "31612AF4525867B4"
+			tasks: [{
+				id: "48971482A88FBB5F"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Mibe"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.5d
+			y: -1.5d
+			subtitle: "Mibe"
+			id: "034DDE9EA7412A4D"
+			tasks: [{
+				id: "223942BAE0DE68F3"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "lets play"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.5d
+			y: -1.5d
+			subtitle: "lets play"
+			id: "509B5BC008B9B44D"
+			tasks: [{
+				id: "69C2910C33A554BF"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "maple maple"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.5d
+			y: 8.5d
+			subtitle: "maple maple"
+			id: "15BD68DF06FF1371"
+			tasks: [{
+				id: "37149027C3CE97BA"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "mike"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.5d
+			y: 8.5d
+			subtitle: "mike"
+			id: "59C4F051008704D6"
+			tasks: [{
+				id: "62F3664F55666C67"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Rahim"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.5d
+			y: 4.5d
+			subtitle: "Rahim"
+			id: "2DD77152DFCA308A"
+			tasks: [{
+				id: "64D6DC74ADD21E91"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Michael"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 3.5d
+			subtitle: "Michael"
+			id: "0F7A5D81D190DA27"
+			tasks: [{
+				id: "45CAA8B338231C20"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Plisko"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.5d
+			y: 4.5d
+			subtitle: "Plisko"
+			id: "7E46722D76602C57"
+			tasks: [{
+				id: "0883F09CE92D0506"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Autumnepi"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.5d
+			y: 8.5d
+			subtitle: "Autumnepi"
+			id: "3E9EB44482D6241F"
+			tasks: [{
+				id: "210407B525494D64"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "GouPeche"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -0.5d
+			y: 8.5d
+			subtitle: "GouPeche"
+			id: "76F6F0B9AAD0E014"
+			tasks: [{
+				id: "4BAA86926B6D2CF7"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Gloria Padilla"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.0d
+			y: -0.5d
+			subtitle: "Gloria Padilla"
+			id: "610B996B1B03C9C3"
+			tasks: [{
+				id: "3C37E59CAF30D136"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Shay Masmad"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.0d
+			y: -0.5d
+			subtitle: "Shay Masmad"
+			id: "3F76892B1594C339"
+			tasks: [{
+				id: "122DD84D78FF52B8"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "takeo-10"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.0d
+			y: -0.5d
+			subtitle: "takeo-10"
+			id: "712109F4E4EDCE95"
+			tasks: [{
+				id: "2A6AF6C6D6966832"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Chengxu Guan"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.0d
+			y: 7.5d
+			subtitle: "Chengxu Guan"
+			id: "0BEB7BB3E14FEB9F"
+			tasks: [{
+				id: "11B41A0B43C1D24F"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "无民宝"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: 7.5d
+			subtitle: "无民宝"
+			id: "15C2CB5A62FCC57F"
+			tasks: [{
+				id: "06269568B42D784A"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Thunder Banana"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.5d
+			y: 0.5d
+			subtitle: "Thunder Banana"
+			id: "55AD33688867A77A"
+			tasks: [{
+				id: "715D5E88FFBB8241"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "wenghuisai"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.5d
+			y: 0.5d
+			subtitle: "wenghuisai"
+			id: "5EB87DD15008A2BC"
+			tasks: [{
+				id: "1E91DB34E8B0BDF5"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Jerky"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.5d
+			y: 0.5d
+			subtitle: "Jerky"
+			id: "5D71CE61633B465F"
+			tasks: [{
+				id: "71551D012D0DDA4D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "chen"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 8.5d
+			y: 2.5d
+			subtitle: "chen"
+			id: "476E7521CC3664AF"
+			tasks: [{
+				id: "21084CECA8B6CA3B"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Holly Nagy"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.5d
+			y: 4.5d
+			subtitle: "Holly Nagy"
+			id: "705828E686337303"
+			tasks: [{
+				id: "7512927D1875EA2F"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Kid Small"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.5d
+			y: 4.5d
+			subtitle: "Kid Small"
+			id: "761382786FD38B29"
+			tasks: [{
+				id: "46219D376862DB15"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Zn狐狸"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.0d
+			y: 7.5d
+			subtitle: "Zn狐狸"
+			id: "62F9EA9F48861646"
+			tasks: [{
+				id: "2FDBFCC7B9CCF9AE"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "郭俊宏"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.0d
+			y: 7.5d
+			subtitle: "郭俊宏"
+			id: "7E297A0D5B9E962C"
+			tasks: [{
+				id: "432E8BD51EF792F9"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "龙鑫 王"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 5.5d
+			subtitle: "龙鑫 王"
+			id: "4D5F160D67D770B5"
+			tasks: [{
+				id: "0F4775E62C1AFE1E"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Lighthouse07"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.0d
+			y: 7.5d
+			subtitle: "Lighthouse07"
+			id: "60C77F218AFAA4C4"
+			tasks: [{
+				id: "148ED1860A4BCF8D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "冯鑫达"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.5d
+			y: 6.5d
+			subtitle: "冯鑫达"
+			id: "4904080DDE54E408"
+			tasks: [{
+				id: "37ABBF971A723FDE"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "sean"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.0d
+			y: 7.5d
+			subtitle: "sean"
+			id: "730D6F2516AFB1ED"
+			tasks: [{
+				id: "5EEF24CA64B08D9D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Crewary"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.5d
+			y: 0.5d
+			subtitle: "Crewary"
+			id: "16CFE75BBECF6CA3"
+			tasks: [{
+				id: "068EFED99F8A2FD9"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "ancheng"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.0d
+			y: 7.5d
+			subtitle: "ancheng"
+			id: "43205D4080CAF031"
+			tasks: [{
+				id: "5877AE7506AFDA95"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "郁"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.0d
+			y: 7.5d
+			subtitle: "郁"
+			id: "3099840D151BCB17"
+			tasks: [{
+				id: "42E167649ECF6D07"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Hailey Hartshorn"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.5d
+			y: 6.5d
+			subtitle: "Hailey Hartshorn"
+			id: "6CCFBAC4C55DF33E"
+			tasks: [{
+				id: "449A1DCF5E7C8DFC"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Paula Antonette Williams"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.5d
+			y: 6.5d
+			subtitle: "Paula Antonette Williams"
+			id: "5F98A7120BBE5DA0"
+			tasks: [{
+				id: "0E91D7307E5EF9EB"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Clayton Stuart"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.5d
+			y: 4.5d
+			subtitle: "Clayton Stuart"
+			id: "66EBDE1EC6D41B49"
+			tasks: [{
+				id: "19F8F31D895ADEC1"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "ZED"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.5d
+			y: 2.5d
+			subtitle: "ZED"
+			id: "7EE1D1BA72A8A9A6"
+			tasks: [{
+				id: "50CA61EA6222A214"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Jose De Loera"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.5d
+			y: 6.5d
+			subtitle: "Jose De Loera"
+			id: "0337711F21AF23D6"
+			tasks: [{
+				id: "0B1E09CF67D45B39"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "hawk eye"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.0d
+			y: 1.5d
+			subtitle: "hawk eye"
+			id: "693592D0CA716AC1"
+			tasks: [{
+				id: "541D338066FB7062"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Girf"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.0d
+			y: 5.5d
+			subtitle: "Girf"
+			id: "01F207AD42413091"
+			tasks: [{
+				id: "3ADF664607773889"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Zack Eubanks"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.0d
+			y: 5.5d
+			subtitle: "Zack Eubanks"
+			id: "042C960AA4E6AF57"
+			tasks: [{
+				id: "25D6F89AD5F010B1"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Raphaël"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.0d
+			y: -0.5d
+			subtitle: "Raphaël"
+			id: "5084B348F6D179D4"
+			tasks: [{
+				id: "4C70954D18BD18BD"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "LLJ 默笙"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.0d
+			y: -0.5d
+			subtitle: "LLJ 默笙"
+			id: "6E87B0903702102E"
+			tasks: [{
+				id: "75CF40200F158CFF"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Splashy"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: -0.5d
+			subtitle: "Splashy"
+			id: "3EE46153DCAD4244"
+			tasks: [{
+				id: "068D9535244A5B81"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Asriel K"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.0d
+			y: -0.5d
+			subtitle: "Asriel K"
+			id: "40FF44A2BC424C2E"
+			tasks: [{
+				id: "6D08C0B076A7AB47"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Nolan Lamascus"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.5d
+			y: 0.5d
+			subtitle: "Nolan Lamascus"
+			id: "3C1E818A9C62681F"
+			tasks: [{
+				id: "1F5C915BC4920792"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Arthur Hawes"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.5d
+			y: 0.5d
+			subtitle: "Arthur Hawes"
+			id: "0A325154F396046E"
+			tasks: [{
+				id: "2D2B9727F107A6D7"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "wuzhaoyi"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.5d
+			y: 8.5d
+			subtitle: "wuzhaoyi"
+			id: "386474BB1618D0EF"
+			tasks: [{
+				id: "064440323BE2791D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "silver san"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: -0.5d
+			subtitle: "silver san"
+			id: "567EE5AFDD19E66B"
+			tasks: [{
+				id: "2E22F4E04AE92AFC"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "小熊"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.0d
+			y: -0.5d
+			subtitle: "小熊"
+			id: "03C5D4F5854101AF"
+			tasks: [{
+				id: "27E48C6C12126F72"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "sonic"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.5d
+			y: 8.5d
+			subtitle: "sonic"
+			id: "4AE3ABE212EFAB1C"
+			tasks: [{
+				id: "20E455919BDCA54E"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "AYPangLian"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.5d
+			y: 2.5d
+			subtitle: "AYPangLian"
+			id: "1D1C2451A64E1D05"
+			tasks: [{
+				id: "3BDDEA3C46B75E61"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "超鹏 李"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 8.0d
+			y: 1.5d
+			subtitle: "超鹏 李"
+			id: "140A4F12D062B4DC"
+			tasks: [{
+				id: "29B354A1DFA611D0"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "realkarmakun"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 7.5d
+			subtitle: "realkarmakun"
+			id: "47A106C842267DC9"
+			tasks: [{
+				id: "0AD7368A73C79EDA"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "William Merrill"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.5d
+			y: 8.5d
+			subtitle: "William Merrill"
+			id: "2F686D805C40AF39"
+			tasks: [{
+				id: "105085787B7FB201"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Kruscle"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.0d
+			y: 5.5d
+			subtitle: "Kruscle"
+			id: "285590EB3BB13B8D"
+			tasks: [{
+				id: "7C504A53699D49A8"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "chaosbolt"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -0.5d
+			y: 0.5d
+			subtitle: "chaosbolt"
+			id: "52645EBAE1C2851A"
+			tasks: [{
+				id: "6D95C70C7856D7BE"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "sims400ok"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 1.5d
+			subtitle: "sims400ok"
+			id: "6D3F29EBCC319992"
+			tasks: [{
+				id: "7E95B42D85066DA4"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "lei hao"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -0.5d
+			y: 2.5d
+			subtitle: "lei hao"
+			id: "13ECC967B07FA1F6"
+			tasks: [{
+				id: "24BDCD430249A2F9"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "p yy"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.0d
+			y: 3.5d
+			subtitle: "p yy"
+			id: "062D059B08A71BCC"
+			tasks: [{
+				id: "49E6AD87EB2B67FA"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Brandon Jowett"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -0.5d
+			y: 4.5d
+			subtitle: "Brandon Jowett"
+			id: "0D9B367A0D91866C"
+			tasks: [{
+				id: "5E232E24C14D7499"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "hyzsss"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: 1.5d
+			id: "7103237FE21D8F19"
+			tasks: [{
+				id: "7671BE5DD1402D01"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "ezdoes"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.5d
+			y: 2.5d
+			subtitle: "ezdoes"
+			id: "52E09C29ABE39934"
+			tasks: [{
+				id: "285FAC7E0C736A08"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Frank Zhang"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.0d
+			y: 3.5d
+			subtitle: "Frank Zhang"
+			id: "3FE39E3C3C8B1BDA"
+			tasks: [{
+				id: "3FCB3504A36042FB"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "DoeDeco"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.5d
+			y: 4.5d
+			subtitle: "DoeDeco"
+			id: "2F84B5ACC0C9C192"
+			tasks: [{
+				id: "5013AB52A443F2A9"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Linda Saffell"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 8.0d
+			y: 5.5d
+			subtitle: "Linda Saffell"
+			id: "07222DB567CA55F8"
+			tasks: [{
+				id: "072C69FBDA3410AB"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "iactor"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.5d
+			y: 2.5d
+			subtitle: "iactor"
+			id: "2E890105C16039B5"
+			tasks: [{
+				id: "6147998106323E9A"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Seedy_Slim"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.0d
+			y: 1.5d
+			subtitle: "Seedy_Slim"
+			id: "5BF9C445DD6FE067"
+			tasks: [{
+				id: "179AAAEB0BF20C41"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Diogo Machado"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.5d
+			y: 6.5d
+			subtitle: "Diogo Machado"
+			id: "595E2637F6B7C8BC"
+			tasks: [{
+				id: "08577C61DFD367DF"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "mitchell miller"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -0.5d
+			y: 6.5d
+			subtitle: "mitchell miller"
+			id: "22E9028C3AEC069E"
+			tasks: [{
+				id: "358C81A44C156D5D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Liz Kruger"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.0d
+			y: 5.5d
+			subtitle: "Liz Kruger"
+			id: "70A8E1C00447AE37"
+			tasks: [{
+				id: "6C7896B2B7D733F2"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Francisco Enriquez III"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: 5.5d
+			subtitle: "Francisco Enriquez III"
+			id: "5F54C64200BBE99D"
+			tasks: [{
+				id: "47F6263F9543029C"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "BigGlue"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.5d
+			y: 6.5d
+			subtitle: "BigGlue"
+			id: "794C3459273F6235"
+			tasks: [{
+				id: "41A1E2A22341E329"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Clark Ploeg"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.0d
+			y: 5.5d
+			subtitle: "Clark Ploeg"
+			id: "334521BA002E5149"
+			tasks: [{
+				id: "4DE336BC3BC6B8F6"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Kos Archeon"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.5d
+			y: 6.5d
+			subtitle: "Kos Archeon"
+			id: "696A13265EFAFCED"
+			tasks: [{
+				id: "03904D517CA09E44"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "xinghao Huang"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.0d
+			y: 1.5d
+			subtitle: "xinghao Huang"
+			id: "6A3674E61DF6C9EC"
+			tasks: [{
+				id: "7349F54F0644B727"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "CAT_HAOZI"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.5d
+			y: 2.5d
+			subtitle: "CAT_HAOZI"
+			id: "2D8F32D6AB1CC70C"
+			tasks: [{
+				id: "5A641804F3BDC7DC"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "荒魂 真理"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.0d
+			y: 1.5d
+			subtitle: "荒魂 真理"
+			id: "6649709BE0F2DED0"
+			tasks: [{
+				id: "010F023B6A739D18"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "豪猪 薛"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.5d
+			y: 0.5d
+			subtitle: "豪猪 薛"
+			id: "78648AB59A26D021"
+			tasks: [{
+				id: "1BFB402CC46DBEEB"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "昱暄 张"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.5d
+			y: 0.5d
+			subtitle: "昱暄 张"
+			id: "5237D06E3D66295A"
+			tasks: [{
+				id: "75EDD34B71BD6835"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "嘉文 熊"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.0d
+			y: 1.5d
+			subtitle: "嘉文 熊"
+			id: "5BB24755FAC53C57"
+			tasks: [{
+				id: "07B2AB2E967B7715"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Kevin Lin"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.5d
+			y: 2.5d
+			subtitle: "Kevin Lin"
+			id: "6940795A435139CA"
+			tasks: [{
+				id: "4419E84DE3BB3D6A"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "julie johnson"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 8.0d
+			y: 3.5d
+			subtitle: "julie johnson"
+			id: "4409607E5ECE889B"
+			tasks: [{
+				id: "6C5A7F0CE39434D5"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "威 隆"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.0d
+			y: 3.5d
+			subtitle: "威 隆"
+			id: "542201E114DADBC4"
+			tasks: [{
+				id: "70E9257D3A1ECBDA"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "ZMH"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.0d
+			y: 5.5d
+			subtitle: "ZMH"
+			id: "3A6E07D3F685ECFB"
+			tasks: [{
+				id: "01EDCB4640C00E70"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Tsui King Wo"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.5d
+			y: 6.5d
+			subtitle: "Tsui King Wo"
+			id: "47EAE70F36156B36"
+			tasks: [{
+				id: "5600EE4B5B8E5A47"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Sadie Davis"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.5d
+			y: 6.5d
+			subtitle: "Sadie Davis"
+			id: "01CD63A2B88963D2"
+			tasks: [{
+				id: "1EA89AFFA4BF0179"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Pnut_225"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.0d
+			y: 1.5d
+			subtitle: "Pnut_225"
+			id: "39BBAE1215140EB8"
+			tasks: [{
+				id: "780589F17B9767EA"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "AnotherAmber"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 8.5d
+			y: 4.5d
+			subtitle: "AnotherAmber"
+			id: "0D83F9AC6BB558B2"
+			tasks: [{
+				id: "6E4BAB1B579A436E"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Michael Barfield"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.0d
+			y: 5.5d
+			subtitle: "Michael Barfield"
+			id: "3425610A1790A0EB"
+			tasks: [{
+				id: "536C92C9449D60CD"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "börtl"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.5d
+			y: 0.5d
+			subtitle: "börtl"
+			id: "03F1E10027789CC0"
+			tasks: [{
+				id: "46BAE1A9C9062D25"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Nuno"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: 3.5d
+			subtitle: "Nuno"
+			id: "6E3BF4D777FCAC8D"
+			tasks: [{
+				id: "6030AD6289D63B1D"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.0d
+			y: 1.5d
+			subtitle: "Zykic"
+			id: "044C9B570689C860"
+			tasks: [{
+				id: "52AEFA8FFF1D3E43"
+				type: "checkmark"
+				title: "Zykic"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:enchanted_golden_apple"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.5d
+			y: 8.5d
+			subtitle: "Want custom icon/description/reward?"
+			description: ["Msg me (dreams) anywhere and we will arrange it!"]
+			id: "5D04D87B47AD5904"
+			tasks: [{
+				id: "039F3C5B8DE2E5AA"
+				type: "checkmark"
+				title: "Custom?"
+			}]
+		}
+	]
 }

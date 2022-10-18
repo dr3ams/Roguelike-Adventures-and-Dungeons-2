@@ -5,11 +5,12 @@
 	filename: "dragons_in_your_own_homeland"
 	title: "Dragons!"
 	icon: {
-		id: "iceandfire:dragon_skull_ice"
+		id: "iceandfire:dragon_skull_fire"
 		Count: 1b
-		tag: {
-			Stage: 4
-			DragonAge: 75
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
 		}
 	}
 	subtitle: ["In your own homeland! Can you believe it?"]

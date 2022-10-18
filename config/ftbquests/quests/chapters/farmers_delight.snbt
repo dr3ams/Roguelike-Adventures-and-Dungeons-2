@@ -1304,44 +1304,6 @@
 			]
 		}
 		{
-			x: -10.5d
-			y: -7.5d
-			description: [
-				"Will automate the feeding of animals depending on the feed inserted."
-				""
-				"-Can be used to automate animal breeding to a degree."
-				""
-			]
-			id: "00000000000000CB"
-			tasks: [{
-				id: "000000000000132A"
-				type: "item"
-				item: "farmingforblockheads:feeding_trough"
-			}]
-			rewards: [
-				{
-					id: "0000000000000132"
-					type: "item"
-					item: "minecraft:black_dye"
-					count: 16
-				}
-				{
-					id: "000000000000014F"
-					type: "item"
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 2s
-								id: "ensorcellation:gourmand"
-							}]
-						}
-					}
-				}
-			]
-		}
-		{
 			x: -12.0d
 			y: -0.5d
 			description: ["Cook up some Cactus!"]
@@ -1753,7 +1715,6 @@
 			x: -12.0d
 			y: -7.5d
 			description: ["The skin of the innocent..... oh boy that sounds bad....."]
-			dependencies: ["00000000000000CB"]
 			id: "0000000000000FE2"
 			tasks: [{
 				id: "0000000000000FE3"
@@ -1900,34 +1861,9 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: -8.5d
-			description: ["This nest will collect up all those chicken eggs for you into a single place."]
-			id: "0000000000001225"
-			tasks: [{
-				id: "0000000000001226"
-				type: "item"
-				item: "farmingforblockheads:chicken_nest"
-			}]
-			rewards: [
-				{
-					id: "000000000000132D"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "000000000000132E"
-					type: "item"
-					item: "minecraft:wheat_seeds"
-					count: 6
-				}
-			]
-		}
-		{
 			x: -12.0d
 			y: -8.5d
 			description: ["Eggs o'plenty!"]
-			dependencies: ["0000000000001225"]
 			id: "000000000000132B"
 			tasks: [{
 				id: "000000000000132C"

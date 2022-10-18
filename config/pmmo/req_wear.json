@@ -107,7 +107,7 @@
         "endurance": 48
     },
     "eidolon:warlock_hat": {
-        "endurance": 7
+        "endurance": 0
     },
     "eidolon:warlock_cloak": {
         "endurance": 7
@@ -403,19 +403,23 @@
         "crafting": 25
     },
     "dungeons_gear:archers_hood": {
-        "endurance": 20
+        "archery": 8,
+		"agility": 5,
+		"endurance": 5
     },
     "dungeons_gear:archers_vest": {
-        "endurance": 20
+        "archery": 8,
+		"agility": 5,
+		"endurance": 5
     },
     "dungeons_gear:battle_robe": {
         "endurance": 20
     },
     "dungeons_gear:cave_crawler_chestplate": {
-        "endurance": 40
+        "endurance": 10
     },
     "dungeons_gear:cave_crawler_helmet": {
-        "endurance": 40
+        "endurance": 10
     },
     "dungeons_gear:champions_chestplate": {
         "endurance": 30
@@ -436,10 +440,10 @@
         "endurance": 30
     },
     "dungeons_gear:ember_hat": {
-        "endurance": 30
+        "magic": 8
     },
     "dungeons_gear:ember_robe": {
-        "endurance": 30
+        "magic": 8
     },
     "dungeons_gear:evocation_hat": {
         "endurance": 30
@@ -448,10 +452,12 @@
         "endurance": 30
     },
     "dungeons_gear:fox_hood": {
-        "endurance": 40
+        "magic": 5,
+		"endurance": 2
     },
     "dungeons_gear:fox_vest": {
-        "endurance": 40
+        "magic": 5,
+		"endurance": 2
     },
     "dungeons_gear:frost_bite_chestplate": {
         "endurance": 40
@@ -466,16 +472,20 @@
         "endurance": 40
     },
     "dungeons_gear:full_metal_chestplate": {
-        "endurance": 40
+        "endurance": 25
     },
     "dungeons_gear:full_metal_helmet": {
-        "endurance": 40
+        "endurance": 25
     },
     "dungeons_gear:grim_chestplate": {
-        "endurance": 30
+        "agility": 10,
+		"magic": 5,
+		"endurance": 2
     },
     "dungeons_gear:grim_helmet": {
-        "endurance": 30
+        "agility": 10,
+		"magic": 5,
+		"endurance": 2
     },
     "dungeons_gear:guards_chestplate": {
         "endurance": 30
@@ -490,19 +500,20 @@
         "endurance": 40
     },
     "dungeons_gear:highland_chestplate": {
-        "endurance": 40
+        "endurance": 25
     },
     "dungeons_gear:highland_helmet": {
-        "endurance": 40
+        "endurance": 25
     },
     "dungeons_gear:hunters_vest": {
-        "endurance": 10
+        "endurance": 3,
+		"agility": 3
     },
     "dungeons_gear:mercenary_chestplate": {
-        "endurance": 30
+        "endurance": 20
     },
     "dungeons_gear:mercenary_helmet": {
-        "endurance": 30
+        "endurance": 20
     },
     "dungeons_gear:ocelot_hood": {
         "endurance": 30
@@ -547,10 +558,10 @@
         "endurance": 30
     },
     "dungeons_gear:shadow_walker_hood": {
-        "endurance": 30
+        "agility": 15
     },
     "dungeons_gear:shadow_walker_vest": {
-        "endurance": 30
+        "agility": 15
     },
     "dungeons_gear:snow_chestplate": {
         "endurance": 30
@@ -571,16 +582,16 @@
         "endurance": 40
     },
     "dungeons_gear:spelunker_chestplate": {
-        "endurance": 30
+        "endurance": 10
     },
     "dungeons_gear:spelunker_helmet": {
-        "endurance": 30
+        "endurance": 10
     },
     "dungeons_gear:spider_hood": {
-        "endurance": 40
+        "endurance": 20
     },
     "dungeons_gear:spider_vest": {
-        "endurance": 40
+        "endurance": 20
     },
     "dungeons_gear:splendid_robe": {
         "endurance": 30
@@ -1709,7 +1720,7 @@
         "endurance": 25
     },
     "alexsmobs:centipede_leggings": {
-        "endurance": 35,
+        "endurance": 20,
         "agility": 15
     },
     "alexsmobs:moose_headgear": {
@@ -1994,7 +2005,7 @@
         "swimming": 3
     },
     "relics:hunter_belt": {
-        "magic": 5,
+        "agility": 5,
         "combat": 5
     },
     "relics:rage_glove": {
@@ -2232,7 +2243,7 @@
         "magic": 15
     },
     "ars_nouveau:amulet_of_mana_boost": {
-        "magic": 10
+        "magic": 8
     },
     "ars_nouveau:amulet_of_mana_regen": {
         "magic": 10

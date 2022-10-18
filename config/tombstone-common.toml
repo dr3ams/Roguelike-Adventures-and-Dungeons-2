@@ -73,7 +73,7 @@
 #Miscellaneous options
 [general]
 	#Allows teleportation to other dimensions [false/true|default:true]
-	teleport_dim = true
+	teleport_dim = false
 	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
 	unhandled_beneficial_effects = ["extraalchemy", "astralsorcery:potiontimefreeze", "xreliquary:flight_potion"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
@@ -125,17 +125,23 @@
 [decorative_grave]
 	#Allows the merchant grave gardian [false/true|default:true]
 	allow_grave_gardian = true
-	#Time in minutes to check if a soul appears on a grave [30..10000|default:30]
-	#Range: 30 ~ 10000
-	time_soul = 30
+	#Time in minutes to check if a soul appears on a grave [1..10000|default:30]
+	#Range: 1 ~ 10000
+	time_soul = 120
 	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
 	#Range: 0 ~ 1000
-	chance_soul = 100
+	chance_soul = 30
 	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:40]
 	#Range: 0 ~ 100
-	chance_pray_reward = 40
+	chance_pray_reward = 20
 	#Allows to replace a grave plate already set on a grave [false/true|default:true]
 	can_replace_grave_plate = true
+	#Minimum distance between Grave Gardians to spawn [10..200|default:100]
+	#Range: 10 ~ 200
+	distance_between_grave_guardian = 100
+	#Time in minutes for a Grave Guardian to restock its offers [1..1000|default:60]
+	#Range: 1 ~ 1000
+	restock_time_grave_guardian = 60
 
 #Allows to customize or disable the enchantments
 [enchantments]
@@ -145,7 +151,7 @@
 	nerf_plague_bringer = true
 	#Maximum duration of stolen effects in minutes [1..MAX|default:60]
 	#Range: > 1
-	max_duration_magic_siphon = 60
+	max_duration_magic_siphon = 20
 	#Duration of applied effects in seconds [1..MAX|default:10]
 	#Range: > 1
 	duration_plague_bringer = 10
@@ -162,9 +168,7 @@
 	recovery_player_timer = 19
 	#Maximum number of backups per player [5..100|default:15]
 	#Range: 5 ~ 100
-	recovery_player_max_saves = 15
-	#Enables to backup automatically dead familiars [false/true|default:true]
-	recovery_familiar_enable = true
+	recovery_player_max_saves = 5
 	#Backup players on death [false/true|default:false]
 	backup_on_death = true
 	#Log when players are automatically back up [false/true|default:false]
@@ -186,7 +190,7 @@
 	chance_soul_receptacle_on_boss = 50
 	#Chance on 1000 for undead mobs to drop Grave's Dust [0..1000|default:100]
 	#Range: 0 ~ 1000
-	chance_grave_dust = 100
+	chance_grave_dust = 50
 	#Minimum life for an undead to be considered as a boss for drop [200..MAX|default:200]
 	#Range: > 200
 	undead_boss_life_for_drop = 200

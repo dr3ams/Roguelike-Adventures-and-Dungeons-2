@@ -19,6 +19,9 @@ craftingTable.removeRecipe(<item:waystones:warp_scroll>);
 craftingTable.removeRecipe(<item:waystones:warp_stone>);
 craftingTable.removeRecipe(<item:waystones:warp_plate>);
 
+craftingTable.removeRecipe(<item:greekfantasy:golden_apple_sapling>);
+craftingTable.removeRecipe(<item:minecraft:enchanted_golden_apple>);
+
 craftingTable.removeRecipe(<item:apotheosis:hellshelf>);
 craftingTable.addShaped("hellshelf", <item:apotheosis:hellshelf>, 
 [[<item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>],

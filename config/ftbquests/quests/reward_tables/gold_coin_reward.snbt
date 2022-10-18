@@ -41,5 +41,16 @@
 		}
 		{ item: "kubejs:diamond_nugget", count: 8 }
 		{ item: "kubejs:emerald_nugget", count: 8 }
+		{
+			item: {
+				id: "tombstone:dust_of_vanishing"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
 	]
 }

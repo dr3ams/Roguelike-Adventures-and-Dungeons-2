@@ -99,7 +99,7 @@
 	maxMobSpeedBoost = 1.0
 	#What is the maximum amount an aggressive mob's HP will be boosted?
 	#Range: 0.0 ~ 1024.0
-	maxMobHPBoost = 10.0
+	maxMobHPBoost = 8.0
 	#Should mob xp multipliers inside of biomes be enabled? false means no multipliers
 	biomeMobMultiplierEnabled = true
 	#How much an aggresive mob's HP will increase per one Power Level?
@@ -110,7 +110,7 @@
 	mobSpeedBoostPerPowerLevel = 1.0
 	#What is the maximum amount an aggressive mob's damage will be boosted?
 	#Range: 0.0 ~ 1.0E9
-	maxMobDamageBoost = 5.0
+	maxMobDamageBoost = 3.0
 	#How much an aggresive mob's damage will increase per one Power Level?
 	#Range: 0.0 ~ 10.0
 	mobDamageBoostPerPowerLevel = 1.0
@@ -230,22 +230,22 @@
 [Multipliers]
 	#How much xp everyone gains on Peaceful Difficulty (1 = normal, 2 = twice as much)
 	#Range: 0.0 ~ 1000.0
-	peacefulMultiplier = 0.4
+	peacefulMultiplier = 0.6
 	#How much xp you get in biomes you do not meet the requirements for (1 = Full xp, 0.5 = Half xp)
 	#Range: 0.0 ~ 1.0
 	biomePenaltyMultiplier = 0.5
 	#How much xp everyone gains on Easy Difficulty (1 = normal, 2 = twice as much)
 	#Range: 0.0 ~ 1000.0
-	easyMultiplier = 0.4
+	easyMultiplier = 0.6
 	#How much xp everyone gains on Hard Difficulty (1 = normal, 2 = twice as much)
 	#Range: 0.0 ~ 1000.0
-	hardMultiplier = 0.6
+	hardMultiplier = 0.9
 	#How much xp everyone gains on Normal Difficulty (1 = normal, 2 = twice as much)
 	#Range: 0.0 ~ 1000.0
-	normalMultiplier = 0.5
+	normalMultiplier = 0.8
 	#How much xp everyone gains (1 = normal, 2 = twice as much)
 	#Range: 0.0 ~ 1000.0
-	globalMultiplier = 0.6
+	globalMultiplier = 0.8
 	#How much percentage of level you loose on death (Full Levels or Xp above Whole Level depends on deathLoosesLevels)
 	#Range: 0.0 ~ 1.0
 	deathPenaltyMultiplier = 0.5
@@ -418,7 +418,7 @@
 	hpRegenPerMinuteBase = 1.0
 	#Addition per level to hpRegenPerMinuteBase (if set to 0.01, every 100 Endurance levels, you regen 1 more half heart per 60 seconds, 0 means no extra regeneration)
 	#Range: 0.0 ~ 1000.0
-	hpRegenPerMinuteBoostPerLevel = 0.02
+	hpRegenPerMinuteBoostPerLevel = 0.01
 	#Multiplier for xp gained in endurance from Regeneration
 	#Range: 0.0 ~ 1000000.0
 	hpRegenXpMultiplier = 15.23
@@ -426,7 +426,7 @@
 [Combat]
 	#How much percentage bonus damage do you get per Combat level in Melee?
 	#Range: 0.001 ~ 1000.0
-	damageBonusPercentPerLevelMelee = 0.01
+	damageBonusPercentPerLevelMelee = 0.02
 	#How much extra damage can you get from the Combat skill max?
 	#Range: 0.0 ~ 1.0E9
 	maxExtraDamagePercentageBoostMelee = 30.0
@@ -434,7 +434,7 @@
 [Archery]
 	#How much percentage bonus damage do you get per Archery level in Archery?
 	#Range: 0.001 ~ 1000.0
-	damageBonusPercentPerLevelArchery = 0.01
+	damageBonusPercentPerLevelArchery = 0.02
 	#How much extra damage can you get from the Archery skill max?
 	#Range: 0.0 ~ 1.0E9
 	maxExtraDamagePercentageBoostArchery = 70.0
@@ -529,10 +529,10 @@
 [Magic]
 	#How much percentage bonus damage do you get per Magic level in Magic?
 	#Range: 0.001 ~ 1000.0
-	damageBonusPercentPerLevelMagic = 0.005
+	damageBonusPercentPerLevelMagic = 0.015
 	#How much extra damage can you get from the Magic skill max?
 	#Range: 0.0 ~ 1.0E9
-	maxExtraDamagePercentageBoostMagic = 100.0
+	maxExtraDamagePercentageBoostMagic = 130.0
 
 [Slayer]
 	#How much slayer xp is awarded upon killing an aggresive mob by default

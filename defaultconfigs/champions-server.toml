@@ -88,7 +88,7 @@
 		desecratingCloudRadius = 2.0
 		#The duration (in seconds) of the cloud effect
 		#Range: > 1
-		desecratingCloudDuration = 6
+		desecratingCloudDuration = 3
 
 	[affixes.enkindling]
 		#How often the champion will shoot projectiles (in seconds)
@@ -98,7 +98,7 @@
 	[affixes.hasty]
 		#The base movement speed bonus
 		#Range: 0.0 ~ 1.7976931348623157E308
-		hastyMovementBonus = 0.25
+		hastyMovementBonus = 0.15
 
 	[affixes.infested]
 		#The amount of parasites to spawn per interval
@@ -106,7 +106,7 @@
 		infestedAmount = 2
 		#The time (in seconds) between parasite spawns
 		#Range: 1 ~ 100
-		infestedInterval = 3
+		infestedInterval = 5
 		#The amount of parasites to infest per health point of the champion
 		#Range: 0.0 ~ 1.7976931348623157E308
 		infestedPerHealth = 0.5
@@ -126,7 +126,7 @@
 	[affixes.knocking]
 		#The multiplier to apply to the knockback strength
 		#Range: 0.0 ~ 1.7976931348623157E308
-		knockingMultiplier = 5.0
+		knockingMultiplier = 3.0
 
 	[affixes.lively]
 		#The amount of health per second regeneration
@@ -137,7 +137,7 @@
 		livelyPassiveMultiplier = 5.0
 		#Set cooldown (in seconds) for regeneration after getting attacked
 		#Range: > 1
-		livelyCooldown = 3
+		livelyCooldown = 6
 
 	[affixes.molten]
 		#Set to true to have Molten champions not be damaged by water

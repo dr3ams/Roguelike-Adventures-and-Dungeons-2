@@ -869,5 +869,35 @@
 				xp: 100
 			}]
 		}
+		{
+			icon: {
+				id: "minecraft:damaged_anvil"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.0d
+			y: 5.5d
+			description: [
+				"With higher Smithing level you will be able to Salvage items into other"
+				""
+				"Put the item in Off-hand, crouch and right-click the Smithing table"
+			]
+			dependencies: ["21051AB7F9354B98"]
+			id: "39830998CAEB8FEF"
+			tasks: [{
+				id: "2AE1CA33A9DEC417"
+				type: "checkmark"
+				title: "Salvaging"
+			}]
+			rewards: [{
+				id: "23DCB2570A8B73FF"
+				type: "xp"
+				xp: 100
+			}]
+		}
 	]
 }

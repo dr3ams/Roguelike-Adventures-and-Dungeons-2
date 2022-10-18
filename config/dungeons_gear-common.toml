@@ -37,7 +37,7 @@
 	enableSalvaging = true
 	#Add enchantments that should be prevented from being applied to any gear. 
 	#To do so, enter their registry names.
-	enchantmentBlacklist = ["dungeons_gear:melee_aura"]
+	enchantmentBlacklist = ["dungeons_gear:melee_aura", "dungeons_gear:gravity_pulse"]
 	#Add enchantments that should be designated as treasure-only. 
 	#To do so, enter their registry names.
 	treasureOnlyEnchantments = []
@@ -166,7 +166,7 @@
 	chainsChance = 0.3
 	#The decimal chance for Radiance to trigger [0.0-1.0, default: 0.2]
 	#Range: 0.0 ~ 1.0
-	radianceChance = 0.2
+	radianceChance = 0.0
 	#The decimal chance for Thundering to trigger [0.0-1.0, default: 0.3]
 	#Range: 0.0 ~ 1.0
 	thunderingChance = 0.3
@@ -229,7 +229,7 @@
 	explodingMultiplierPerLevel = 0.2
 	#The chance for Poison Cloud to trigger [-5.0-5.0, default: 0.3]
 	#Range: -5.0 ~ 5.0
-	prospectorChancePerLevel = 0.3
+	prospectorChancePerLevel = 0.0
 
 #Fancy Loot Table Configuration
 [fancy_loot_table_configuration]

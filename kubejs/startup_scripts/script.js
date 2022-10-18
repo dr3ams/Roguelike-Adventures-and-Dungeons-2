@@ -56,9 +56,22 @@ event.create('nether_coin').displayName('Nether Coin').tooltip('Acquired through
 event.create('diamond_nugget').displayName('Diamond Nugget')
 event.create('emerald_nugget').displayName('Emerald Nugget')
   
-
-
+event.create('star').displayName('Star').glow(true)
+event.create('medal').displayName('medal').glow(true)
+event.create('heart').displayName('heart')
+event.create('caution').displayName('caution')
+event.create('chest').displayName('chest')
+event.create('fire').displayName('fire')
+event.create('forbid').displayName('forbid')
+event.create('help').displayName('help')
+event.create('key').displayName('key')
+event.create('lightning').displayName('lightning')
+event.create('lock').displayName('lock')
+event.create('lock-2').displayName('lock-2')
+event.create('mark').displayName('mark')
+event.create('skull').displayName('skull')
 })
+
 onEvent('block.registry', event => {
 	// Register new blocks here
 	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')

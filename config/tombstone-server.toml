@@ -12,7 +12,7 @@
 [general]
 	#The duration of the Ghostly Shape effect in seconds [0..MAX|default:120]
 	#Range: > 0
-	ghostly_shape_duration = 120
+	ghostly_shape_duration = 6
 	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
 	#Range: -1 ~ 100
 	chance_enchanted_grave_key = 0
@@ -50,18 +50,16 @@
 	plague_bringer_combining_magic_siphon = false
 	#Max level for Shadow Step [1..10|default:5]
 	#Range: 1 ~ 10
-	max_level_shadow_step = 5
+	max_level_shadow_step = 3
 	#Max level for Magic Siphon [1..10|default:5]
 	#Range: 1 ~ 10
-	max_level_magic_siphon = 5
+	max_level_magic_siphon = 3
 	#Max level for Plague Bringer [1..10|default:5]
 	#Range: 1 ~ 10
-	max_level_plague_bringer = 5
+	max_level_plague_bringer = 3
 	#Max level for Curse of Bones [1..10|default:5]
 	#Range: 1 ~ 10
 	max_level_curse_of_bones = 5
-	#Allows Frostbite to combine with Fire Aspect [false/true|default:false]
-	frostbite_combining_fire_aspect = true
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]
@@ -132,6 +130,10 @@
 	allow_christmas_hat = true
 	#Bag of Seeds [false/true|default:true]
 	allow_bag_of_seeds = true
+	#Magic Scroll [false/true|default:true]
+	allow_magic_scroll = true
+	#Familiar Stone [false/true|default:true]
+	allow_familiar_stone = true
 
 #Allows to change the chance to drop some items
 [loot]

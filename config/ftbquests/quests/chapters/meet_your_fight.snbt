@@ -10,7 +10,7 @@
 	quests: [
 		{
 			x: -3.5d
-			y: 2.0d
+			y: 3.0d
 			shape: "hexagon"
 			description: [
 				"Bellringer is a boss added by Meet Your Fight. It can be summoned by using a Haunted Bell. When killed, it drops 1 Phantoplasm and 3-4 Gold Ingots."
@@ -59,7 +59,7 @@
 		}
 		{
 			x: 0.0d
-			y: 1.5d
+			y: 2.25d
 			shape: "hexagon"
 			description: [
 				"Swampjaw is a boss added by Meet Your Fight. It can be summoned by using a Fossil Bait. When killed, it drops 1 Mossy Tooth, 3-6 Bones, 2-4 Vines, and 1-3 Dirt."
@@ -107,7 +107,7 @@
 		}
 		{
 			x: 3.5d
-			y: 2.0d
+			y: 3.0d
 			shape: "hexagon"
 			size: 1.5d
 			id: "4BBEF37E398FA6EA"
@@ -147,7 +147,7 @@
 		}
 		{
 			x: -5.0d
-			y: 2.0d
+			y: 3.0d
 			dependencies: ["01586496C0B6EB67"]
 			id: "4FA4121CB7AE573E"
 			tasks: [{
@@ -169,7 +169,7 @@
 		}
 		{
 			x: 0.0d
-			y: 3.0d
+			y: 4.0d
 			dependencies: ["6A51E5206B5F75D4"]
 			id: "430B95CA9EB92E5C"
 			tasks: [{
@@ -191,7 +191,7 @@
 		}
 		{
 			x: 5.0d
-			y: 2.0d
+			y: 3.0d
 			dependencies: ["4BBEF37E398FA6EA"]
 			id: "2902A2D96332A34A"
 			tasks: [{
@@ -213,7 +213,7 @@
 		}
 		{
 			x: 7.0d
-			y: 1.5d
+			y: 2.5d
 			dependencies: ["2902A2D96332A34A"]
 			id: "2BFC276EEE062A1F"
 			tasks: [{
@@ -246,7 +246,7 @@
 		}
 		{
 			x: 6.0d
-			y: 3.0d
+			y: 4.0d
 			dependencies: ["2902A2D96332A34A"]
 			id: "3825DCF170FB6A6A"
 			tasks: [{
@@ -279,7 +279,7 @@
 		}
 		{
 			x: 6.0d
-			y: 1.0d
+			y: 2.0d
 			dependencies: ["2902A2D96332A34A"]
 			id: "6B90A18AD9F4B77D"
 			tasks: [{
@@ -318,7 +318,7 @@
 		}
 		{
 			x: 7.0d
-			y: 2.5d
+			y: 3.5d
 			dependencies: ["2902A2D96332A34A"]
 			id: "0D656D70646EA87A"
 			tasks: [{
@@ -350,7 +350,7 @@
 			]
 		}
 		{
-			x: -1.0d
+			x: -1.5d
 			y: 4.0d
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "36FC8D7BB0D670BF"
@@ -383,7 +383,7 @@
 			]
 		}
 		{
-			x: 0.5d
+			x: 1.0d
 			y: 5.0d
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "00C8004131AAE6F7"
@@ -422,7 +422,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: 1.5d
 			y: 4.0d
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "3E12346156015D00"
@@ -455,7 +455,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -1.0d
 			y: 5.0d
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "3F3BE8A3EBB7D7B7"
@@ -489,7 +489,7 @@
 		}
 		{
 			x: -7.0d
-			y: 2.5d
+			y: 3.5d
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "6FB76A93A64BE52D"
 			tasks: [{
@@ -522,7 +522,7 @@
 		}
 		{
 			x: -6.0d
-			y: 1.0d
+			y: 2.0d
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "0B6A4216C393C695"
 			tasks: [{
@@ -555,7 +555,7 @@
 		}
 		{
 			x: -6.0d
-			y: 3.0d
+			y: 4.0d
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "352860E048E56249"
 			tasks: [{
@@ -588,7 +588,7 @@
 		}
 		{
 			x: -7.0d
-			y: 1.5d
+			y: 2.5d
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "2C8425F45507BE14"
 			tasks: [{
@@ -620,8 +620,8 @@
 			]
 		}
 		{
-			x: 3.75d
-			y: -5.25d
+			x: -8.5d
+			y: 0.0d
 			shape: "octagon"
 			size: 1.5d
 			id: "33ED106956388C27"
@@ -670,8 +670,8 @@
 			]
 		}
 		{
-			x: 5.25d
-			y: -5.25d
+			x: -8.5d
+			y: -1.5d
 			shape: "octagon"
 			size: 1.5d
 			id: "4446A9B07703FE84"
@@ -726,8 +726,8 @@
 			]
 		}
 		{
-			x: 6.75d
-			y: -5.25d
+			x: -7.0d
+			y: 0.0d
 			shape: "octagon"
 			size: 1.5d
 			id: "382A5D280EB90F59"
@@ -782,8 +782,8 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: -3.75d
+			x: -5.5d
+			y: -3.0d
 			shape: "octagon"
 			size: 1.5d
 			id: "7E0B0B3735772BEB"
@@ -838,8 +838,8 @@
 			]
 		}
 		{
-			x: 6.75d
-			y: -3.75d
+			x: -7.0d
+			y: -3.0d
 			shape: "octagon"
 			size: 1.5d
 			id: "1A32C61A2D159BC3"
@@ -894,8 +894,8 @@
 			]
 		}
 		{
-			x: 5.25d
-			y: -3.75d
+			x: -8.5d
+			y: -3.0d
 			shape: "octagon"
 			size: 1.5d
 			id: "34F0AA6D88CF1F5B"
@@ -950,8 +950,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: -5.25d
+			x: -5.5d
+			y: -1.5d
 			shape: "octagon"
 			size: 1.5d
 			id: "0740419211FF21CA"
@@ -1006,8 +1006,8 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: -5.25d
+			x: -7.0d
+			y: -1.5d
 			shape: "octagon"
 			size: 1.5d
 			id: "54F57E26D76A7CBE"
@@ -1056,8 +1056,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -5.25d
+			x: -5.5d
+			y: 0.0d
 			shape: "octagon"
 			size: 1.5d
 			id: "69E6868AE0269E59"
@@ -1106,8 +1106,9 @@
 			]
 		}
 		{
+			title: "Gateways"
 			x: 0.0d
-			y: -1.0d
+			y: 0.0d
 			shape: "hexagon"
 			description: [
 				"Every gate opened contains a link to a world full of a certain type of mob.  Waves and waves of those mobs will progressively pour forth, and each wave completed will spawn additional loot from that mob at that portal."
@@ -1130,325 +1131,6 @@
 				id: "557B489BEE277204"
 				type: "ftbmoney:money"
 				ftb_money: 5L
-			}]
-		}
-		{
-			x: 0.0d
-			y: -4.5d
-			dependencies: ["2859B5A6AAB94D7E"]
-			id: "272D1F3AED3A32C4"
-			tasks: [{
-				id: "3E0F8484390D6C36"
-				type: "item"
-				item: {
-					id: "gateways:small_gate_opener"
-					Count: 1b
-					tag: {
-						gateway_data: {
-							name: "gateways.small_slime_gate"
-							max_wave_time: 600
-							completion_xp: 150
-							color: "green"
-							entity: {
-								Entity: {
-									id: "minecraft:slime"
-								}
-								Weight: 1
-							}
-						}
-						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_slime_gate\"}]}"
-					}
-				}
-			}]
-		}
-		{
-			x: -3.5d
-			y: -3.0d
-			dependencies: ["2859B5A6AAB94D7E"]
-			id: "1803FE110598D1BC"
-			tasks: [{
-				id: "7A4FA2948454F5A6"
-				type: "item"
-				item: {
-					id: "gateways:small_gate_opener"
-					Count: 1b
-					tag: {
-						gateway_data: {
-							name: "gateways.small_spider_gate"
-							max_wave_time: 600
-							completion_xp: 150
-							color: "red"
-							entity: {
-								Entity: {
-									id: "minecraft:spider"
-								}
-								Weight: 1
-							}
-						}
-						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_spider_gate\"}]}"
-					}
-				}
-			}]
-		}
-		{
-			x: 2.5d
-			y: 0.5d
-			dependencies: ["2859B5A6AAB94D7E"]
-			id: "12C83D44563168C7"
-			tasks: [{
-				id: "740370D9ECC5937B"
-				type: "item"
-				item: {
-					id: "gateways:small_gate_opener"
-					Count: 1b
-					tag: {
-						gateway_data: {
-							name: "gateways.small_enderman_gate"
-							max_wave_time: 1200
-							completion_xp: 500
-							color: "purple"
-							entity: {
-								Entity: {
-									id: "minecraft:enderman"
-								}
-								Weight: 1
-							}
-						}
-						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_enderman_gate\"}]}"
-					}
-				}
-			}]
-		}
-		{
-			x: -4.0d
-			y: -2.0d
-			dependencies: ["2859B5A6AAB94D7E"]
-			id: "7D1DD6EFDAD03A7F"
-			tasks: [{
-				id: "460288FD3A8195D5"
-				type: "item"
-				item: {
-					id: "gateways:small_gate_opener"
-					Count: 1b
-					tag: {
-						gateway_data: {
-							name: "gateways.small_zombie_gate"
-							max_wave_time: 600
-							completion_xp: 150
-							color: "blue"
-							entity: {
-								Entity: {
-									id: "minecraft:zombie"
-								}
-								Weight: 1
-							}
-						}
-						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_zombie_gate\"}]}"
-					}
-				}
-			}]
-		}
-		{
-			x: 1.0d
-			y: -4.0d
-			dependencies: ["2859B5A6AAB94D7E"]
-			id: "13F3AA37DE8A9A6F"
-			tasks: [{
-				id: "1BA575937F91BFCD"
-				type: "item"
-				item: {
-					id: "gateways:small_gate_opener"
-					Count: 1b
-					tag: {
-						gateway_data: {
-							name: "gateways.small_creeper_gate"
-							max_wave_time: 350
-							completion_xp: 100
-							color: "green"
-							entity: {
-								Entity: {
-									id: "minecraft:creeper"
-								}
-								Weight: 1
-							}
-						}
-						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_creeper_gate\"}]}"
-					}
-				}
-			}]
-		}
-		{
-			x: -3.5d
-			y: -1.0d
-			dependencies: ["2859B5A6AAB94D7E"]
-			id: "09A97A51C1721D5A"
-			tasks: [{
-				id: "0CD966C132CBF9A9"
-				type: "item"
-				item: {
-					id: "gateways:small_gate_opener"
-					Count: 1b
-					tag: {
-						gateway_data: {
-							name: "gateways.small_blaze_gate"
-							max_wave_time: 750
-							completion_xp: 250
-							color: "red"
-							entity: {
-								Entity: {
-									id: "minecraft:blaze"
-								}
-								Weight: 1
-							}
-						}
-						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_blaze_gate\"}]}"
-					}
-				}
-			}]
-		}
-		{
-			x: 3.5d
-			y: -1.0d
-			dependencies: ["2859B5A6AAB94D7E"]
-			id: "06B507BDDEDC3FC0"
-			tasks: [{
-				id: "406E7D0F0F76C8D7"
-				type: "item"
-				item: {
-					id: "gateways:small_gate_opener"
-					Count: 1b
-					tag: {
-						gateway_data: {
-							name: "gateways.small_witch_gate"
-							max_wave_time: 1400
-							completion_xp: 700
-							color: "pink"
-							entity: {
-								Entity: {
-									id: "minecraft:witch"
-								}
-								Weight: 1
-							}
-						}
-						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_witch_gate\"}]}"
-					}
-				}
-			}]
-		}
-		{
-			x: -1.0d
-			y: -4.0d
-			dependencies: ["2859B5A6AAB94D7E"]
-			id: "4CB9FEBCDCFD96D0"
-			tasks: [{
-				id: "7D13DEDB3E098106"
-				type: "item"
-				item: {
-					id: "gateways:small_gate_opener"
-					Count: 1b
-					tag: {
-						gateway_data: {
-							name: "gateways.small_shulker_gate"
-							max_wave_time: 1000
-							completion_xp: 400
-							color: "purple"
-							entity: {
-								Entity: {
-									id: "minecraft:shulker"
-								}
-								Weight: 1
-							}
-						}
-						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_shulker_gate\"}]}"
-					}
-				}
-			}]
-		}
-		{
-			x: 4.0d
-			y: -2.0d
-			dependencies: ["2859B5A6AAB94D7E"]
-			id: "40E688AE40EB5851"
-			tasks: [{
-				id: "68F0CC673F98103D"
-				type: "item"
-				item: {
-					id: "gateways:small_gate_opener"
-					Count: 1b
-					tag: {
-						gateway_data: {
-							name: "gateways.small_magma_gate"
-							max_wave_time: 450
-							completion_xp: 100
-							color: "red"
-							entity: {
-								Entity: {
-									id: "minecraft:magma_cube"
-								}
-								Weight: 1
-							}
-						}
-						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_magma_gate\"}]}"
-					}
-				}
-			}]
-		}
-		{
-			x: 3.5d
-			y: -3.0d
-			dependencies: ["2859B5A6AAB94D7E"]
-			id: "53B5C74A0C13C3AE"
-			tasks: [{
-				id: "1B0BAE61D259BA1C"
-				type: "item"
-				item: {
-					id: "gateways:small_gate_opener"
-					Count: 1b
-					tag: {
-						gateway_data: {
-							name: "gateways.small_ghast_gate"
-							max_wave_time: 500
-							completion_xp: 250
-							color: "white"
-							entity: {
-								Entity: {
-									id: "minecraft:ghast"
-								}
-								Weight: 1
-							}
-						}
-						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_ghast_gate\"}]}"
-					}
-				}
-			}]
-		}
-		{
-			x: -2.5d
-			y: 0.5d
-			dependencies: ["2859B5A6AAB94D7E"]
-			id: "65B5CE1D775CBB44"
-			tasks: [{
-				id: "5431B6E28F9D954F"
-				type: "item"
-				item: {
-					id: "gateways:small_gate_opener"
-					Count: 1b
-					tag: {
-						gateway_data: {
-							name: "gateways.small_skeleton_gate"
-							max_wave_time: 600
-							completion_xp: 150
-							color: "white"
-							entity: {
-								Entity: {
-									id: "minecraft:skeleton"
-								}
-								Weight: 1
-							}
-						}
-						opener_name: "{\"translate\":\"gateways.gate_opener\",\"with\":[{\"translate\":\"gateways.small_skeleton_gate\"}]}"
-					}
-				}
 			}]
 		}
 		{
@@ -3288,6 +2970,63 @@
 				type: "choice"
 				table_id: 768393147870328736L
 			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			shape: "hexagon"
+			dependencies: ["2859B5A6AAB94D7E"]
+			id: "708556958CC998BE"
+			tasks: [{
+				id: "4E64AF068D7426AF"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:zombie_gate_small"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "4790D2538E078E87"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "36AA73BB03AB93CC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4F21C6CA74AA160E"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "491F411908A9772E"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:skeleton_gate_small"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 	]
 }
