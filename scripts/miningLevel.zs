@@ -116,18 +116,6 @@ public class miningLevel_constants {
 		<block:blue_skies:ventium_ore> : {"min" : 1, "max" : 64},
 		<block:blue_skies:horizonite_ore> : {"min" : 1, "max" : 25},
 		
-		<block:the_afterlight:moon_shard_ore> : {"min" : 1, "max" : 128},
-		<block:the_afterlight:moonsteel_ore> : {"min" : 1, "max" : 255},
-		<block:the_afterlight:crystillium_ore> : {"min" : 1, "max" : 45},
-		<block:the_afterlight:bloodstone_ore> : {"min" : 1, "max" : 25},
-		<block:the_afterlight:aquastone_ore> : {"min" : 1, "max" : 30},
-		<block:the_afterlight:slate_crystillium> : {"min" : 1, "max" : 64},
-		<block:the_afterlight:verdant_ore> : {"min" : 1, "max" : 35},
-		<block:the_afterlight:pearl_shard_ore> : {"min" : 1, "max" : 26},
-		<block:the_afterlight:eclipse_shard_ore> : {"min" : 1, "max" : 15},
-		<block:the_afterlight:slate_moon_shard_ore> : {"min" : 1, "max" : 64},
-		<block:the_afterlight:slate_moon_crystal_ore> : {"min" : 1, "max" : 25},
-		<block:the_afterlight:overworld_moon_crystal_ore> : {"min" : 1, "max" : 15}
 		
 	};
 	public static var spreadLevels = {

@@ -42,18 +42,7 @@
 	<item:buddycards:luminis_ore>,
 	<item:randomite:randomite_ore>,
 	<item:stalwart_dungeons:chorundum_ore>,
-	<item:the_afterlight:moon_shard_ore>,
-	<item:the_afterlight:moonsteel_ore>,
-	<item:the_afterlight:crystillium_ore>,
-	<item:the_afterlight:bloodstone_ore>,
-	<item:the_afterlight:aquastone_ore>,
-	<item:the_afterlight:slate_crystillium>,
-	<item:the_afterlight:verdant_ore>,
-	<item:the_afterlight:pearl_shard_ore>,
-	<item:the_afterlight:eclipse_shard_ore>,
-	<item:the_afterlight:slate_moon_shard_ore>,
-	<item:the_afterlight:slate_moon_crystal_ore>,
-	<item:the_afterlight:overworld_moon_crystal_ore>,
+
 	<item:stalwart_dungeons:chorundum_ore>,
 	<item:majruszs_difficulty:end_shard_ore>,
 	<item:atum:bone_ore>,
@@ -95,10 +84,6 @@
 <tag:items:forge:ores/amethyst>.add(
     <item:iceandfire:amythest_ore>
 );
-<tag:items:forge:ores/moon_crystal>.add(
-    <item:the_afterlight:slate_moon_crystal_ore>,
-	<item:the_afterlight:overworld_moon_crystal_ore>
-);
 <tag:items:forge:ores/quartz>.add(
     <item:byg:blue_nether_quartz_ore>,
 	<item:byg:brimstone_nether_quartz_ore>
@@ -123,18 +108,6 @@
 	<block:buddycards:luminis_ore>,
 	<block:randomite:randomite_ore>,
 	<block:stalwart_dungeons:chorundum_ore>,
-	<block:the_afterlight:moon_shard_ore>,
-	<block:the_afterlight:moonsteel_ore>,
-	<block:the_afterlight:crystillium_ore>,
-	<block:the_afterlight:bloodstone_ore>,
-	<block:the_afterlight:aquastone_ore>,
-	<block:the_afterlight:slate_crystillium>,
-	<block:the_afterlight:verdant_ore>,
-	<block:the_afterlight:pearl_shard_ore>,
-	<block:the_afterlight:eclipse_shard_ore>,
-	<block:the_afterlight:slate_moon_shard_ore>,
-	<block:the_afterlight:slate_moon_crystal_ore>,
-	<block:the_afterlight:overworld_moon_crystal_ore>,
 	<block:stalwart_dungeons:chorundum_ore>,
 	<block:majruszs_difficulty:end_shard_ore>,
 	<block:atum:bone_ore>,
@@ -173,10 +146,7 @@
 <tag:blocks:forge:ores/amethyst>.add(
     <block:iceandfire:amythest_ore>
 );
-<tag:blocks:forge:ores/moon_crystal>.add(
-    <block:the_afterlight:slate_moon_crystal_ore>,
-	<block:the_afterlight:overworld_moon_crystal_ore>
-);
+
 <tag:blocks:forge:ores/quartz>.add(
     <block:byg:blue_nether_quartz_ore>,
 	<block:byg:brimstone_nether_quartz_ore>
