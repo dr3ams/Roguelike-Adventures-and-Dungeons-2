@@ -2,9 +2,14 @@
   "biomes": [
     [
       {
-        "type": "REGISTRY_NAME",
+        "type": "BIOME_DICT",
         "negate": false,
-        "value": "minecraft:small_end_islands"
+        "value": "end"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:the_end"
       }
     ]
   ]

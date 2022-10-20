@@ -8,5 +8,7 @@
 	hudYOffset = 0
 	#The distance, in blocks, from which the champion HUD can be seen
 	#Range: 0 ~ 1000
-	hudRange = 10
+	hudRange = 50
+	#Set to true to move the WAILA overlay underneath the champion HUD
+	enableWailaIntegration = true
 

@@ -6,6 +6,8 @@ firstPersonEffects = true
 rotateTrophyHeadsGui = true
 #Disable the nag screen when Optifine is installed.
 disableOptifineNagScreen = false
+#Disables the toasts that appear when a biome is locked. Not recommended if you're not familiar with progression.
+disableLockedBiomeToasts = false
 
 #Client only: Controls for the Loading screen
 ["Loading Screen"]
@@ -30,5 +32,5 @@ disableOptifineNagScreen = false
 	#Range: 0.0 ~ 360.0
 	tiltConstant = 22.5
 	#List of items to be used for the wobbling Loading Icon. (domain:item).
-	loadingIconStacks = ["twilightforest:experiment_115", "twilightforest:magic_map", "twilightforest:charm_of_life_2", "twilightforest:charm_of_keeping_3", "twilightforest:phantom_helmet", "twilightforest:lamp_of_cinders", "twilightforest:carminite", "twilightforest:block_and_chain", "twilightforest:yeti_helmet", "twilightforest:hydra_chop", "twilightforest:magic_beans", "twilightforest:ironwood_raw", "twilightforest:naga_scale", "twilightforest:miniature_structure", "twilightforest:knightmetal_block", "twilightforest:borer_essence"]
+	loadingIconStacks = ["twilightforest:experiment_115", "twilightforest:magic_map", "twilightforest:charm_of_life_2", "twilightforest:charm_of_keeping_3", "twilightforest:phantom_helmet", "twilightforest:lamp_of_cinders", "twilightforest:carminite", "twilightforest:block_and_chain", "twilightforest:yeti_helmet", "twilightforest:hydra_chop", "twilightforest:magic_beans", "twilightforest:ironwood_raw", "twilightforest:naga_scale", "twilightforest:twilight_portal_miniature_structure", "twilightforest:lich_tower_miniature_structure", "twilightforest:knightmetal_block", "twilightforest:ghast_trap", "twilightforest:time_sapling", "twilightforest:transformation_sapling", "twilightforest:mining_sapling", "twilightforest:sorting_sapling", "twilightforest:rainboak_sapling", "twilightforest:borer_essence"]
 

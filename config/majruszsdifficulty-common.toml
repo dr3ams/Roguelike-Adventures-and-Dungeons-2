@@ -1,0 +1,1236 @@
+
+[GameModifiers]
+
+	[GameModifiers.Bandages]
+
+		#Config for a Bandage item.
+		[GameModifiers.Bandages.Bandage]
+
+			[GameModifiers.Bandages.Bandage.Regeneration]
+				#Level of the effect to apply.
+				#Range: 1 ~ 10
+				amplifier = 1
+				#Duration in seconds.
+				#Range: 1.0 ~ 999.0
+				duration = 4.0
+
+		#Config for a Golden Bandage item.
+		[GameModifiers.Bandages.GoldenBandage]
+
+			[GameModifiers.Bandages.GoldenBandage.Regeneration]
+				#Level of the effect to apply.
+				#Range: 1 ~ 10
+				amplifier = 2
+				#Duration in seconds.
+				#Range: 1.0 ~ 999.0
+				duration = 4.0
+
+			[GameModifiers.Bandages.GoldenBandage.Immunity]
+				#Level of the effect to apply.
+				#Range: 1 ~ 10
+				amplifier = 1
+				#Duration in seconds.
+				#Range: 1.0 ~ 999.0
+				duration = 60.0
+
+	#Animals (wolfs and from other mods), zombies and spiders may inflict bleeding.
+	[GameModifiers.BiteBleeding]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.3
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = false
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "NORMAL"
+
+		#Level of the effect to apply.
+		[GameModifiers.BiteBleeding.Amplifier]
+			#Normal Mode
+			#Range: 1 ~ 10
+			normal = 1
+			#Expert Mode
+			#Range: 1 ~ 10
+			expert = 2
+			#Master Mode
+			#Range: 1 ~ 10
+			master = 3
+
+		#Duration in seconds.
+		[GameModifiers.BiteBleeding.Duration]
+			#Normal Mode
+			#Range: 1.0 ~ 999.0
+			normal = 24.0
+			#Expert Mode
+			#Range: 1.0 ~ 999.0
+			expert = 24.0
+			#Master Mode
+			#Range: 1.0 ~ 999.0
+			master = 24.0
+
+	#Cactus damage may inflict bleeding.
+	[GameModifiers.CactusBleeding]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.5
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = false
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "NORMAL"
+
+		#Level of the effect to apply.
+		[GameModifiers.CactusBleeding.Amplifier]
+			#Normal Mode
+			#Range: 1 ~ 10
+			normal = 1
+			#Expert Mode
+			#Range: 1 ~ 10
+			expert = 2
+			#Master Mode
+			#Range: 1 ~ 10
+			master = 3
+
+		#Duration in seconds.
+		[GameModifiers.CactusBleeding.Duration]
+			#Normal Mode
+			#Range: 1.0 ~ 999.0
+			normal = 24.0
+			#Expert Mode
+			#Range: 1.0 ~ 999.0
+			expert = 24.0
+			#Master Mode
+			#Range: 1.0 ~ 999.0
+			master = 24.0
+
+	#Makes a Creeper ignite once any other Creeper explode nearby.
+	[GameModifiers.CreeperChainReaction]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "EXPERT"
+
+	#Creeper explodes when the player is behind the wall.
+	[GameModifiers.CreeperExplodeBehindWall]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 1.0
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = false
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "NORMAL"
+
+	#Makes a Creeper take less damage from explosions.
+	[GameModifiers.CreeperExplosionImmunity]
+		#Range: 0.0 ~ 0.99
+		damage_multiplier = 0.2
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "EXPERT"
+
+	#Make the Creeperling do not destroy block on explosion.
+	[GameModifiers.CreeperlingsCannotDestroyBlocks]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+
+	#Creeper may spawn charged.
+	[GameModifiers.CreeperSpawnCharged]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.125
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "NORMAL"
+
+	#Creeper may spawn with negative effects applied.
+	[GameModifiers.CreeperSpawnDebuffed]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.375
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "NORMAL"
+
+		[GameModifiers.CreeperSpawnDebuffed.Weakness]
+			#Level of the effect to apply.
+			#Range: 1 ~ 10
+			amplifier = 1
+			#Duration in seconds.
+			#Range: 1.0 ~ 999.0
+			duration = 60.0
+
+		[GameModifiers.CreeperSpawnDebuffed.Slowness]
+			#Level of the effect to apply.
+			#Range: 1 ~ 10
+			amplifier = 1
+			#Duration in seconds.
+			#Range: 1.0 ~ 999.0
+			duration = 60.0
+
+		[GameModifiers.CreeperSpawnDebuffed.MiningFatigue]
+			#Level of the effect to apply.
+			#Range: 1 ~ 10
+			amplifier = 1
+			#Duration in seconds.
+			#Range: 1.0 ~ 999.0
+			duration = 60.0
+
+		[GameModifiers.CreeperSpawnDebuffed.Saturation]
+			#Level of the effect to apply.
+			#Range: 1 ~ 10
+			amplifier = 1
+			#Duration in seconds.
+			#Range: 1.0 ~ 999.0
+			duration = 60.0
+
+	#When the Creeper explode it may spawn a few Creeperlings.
+	[GameModifiers.CreeperSplitIntoCreeperlings]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.666
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = false
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "NORMAL"
+
+		#Maximum amount of Creeperlings to spawn.
+		[GameModifiers.CreeperSplitIntoCreeperlings.MaxCreeperlings]
+			#Normal Mode
+			#Range: 1 ~ 10
+			normal = 2
+			#Expert Mode
+			#Range: 1 ~ 10
+			expert = 4
+			#Master Mode
+			#Range: 1 ~ 10
+			master = 6
+
+	#Gives a chance to double the loot.
+	[GameModifiers.DoubleLoot]
+		#List of items that cannot be duplicated.
+		forbidden_items = ["minecraft:nether_star", "minecraft:totem_of_undying"]
+
+		#Determines the chance on Normal Mode.
+		[GameModifiers.DoubleLoot.NormalMode]
+			#Chance of this to happen.
+			#Range: 0.0 ~ 1.0
+			chance = 0.0
+			#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+			scaled_by_crd = false
+
+		#Determines the chance on Expert Mode.
+		[GameModifiers.DoubleLoot.ExpertMode]
+			#Chance of this to happen.
+			#Range: 0.0 ~ 1.0
+			chance = 0.2
+			#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+			scaled_by_crd = false
+
+		#Determines the chance on Master Mode.
+		[GameModifiers.DoubleLoot.MasterMode]
+			#Chance of this to happen.
+			#Range: 0.0 ~ 1.0
+			chance = 0.4
+			#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+			scaled_by_crd = false
+
+	#Inflicts several debuffs when taking drown damage (these debuffs stack).
+	[GameModifiers.DrownDebuffs]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 1.0
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = false
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "NORMAL"
+
+		[GameModifiers.DrownDebuffs.Nausea]
+			#Maximum duration in seconds it can reach.
+			#Range: 5.0 ~ 999.0
+			maximum_duration = 60.0
+
+			#Level of the effect to apply.
+			[GameModifiers.DrownDebuffs.Nausea.Amplifier]
+				#Normal Mode
+				#Range: 1 ~ 10
+				normal = 1
+				#Expert Mode
+				#Range: 1 ~ 10
+				expert = 1
+				#Master Mode
+				#Range: 1 ~ 10
+				master = 1
+
+			#Duration in seconds.
+			[GameModifiers.DrownDebuffs.Nausea.Duration]
+				#Normal Mode
+				#Range: 1.0 ~ 999.0
+				normal = 2.0
+				#Expert Mode
+				#Range: 1.0 ~ 999.0
+				expert = 2.0
+				#Master Mode
+				#Range: 1.0 ~ 999.0
+				master = 2.0
+
+		[GameModifiers.DrownDebuffs.Weakness]
+			#Maximum duration in seconds it can reach.
+			#Range: 5.0 ~ 999.0
+			maximum_duration = 60.0
+
+			#Level of the effect to apply.
+			[GameModifiers.DrownDebuffs.Weakness.Amplifier]
+				#Normal Mode
+				#Range: 1 ~ 10
+				normal = 1
+				#Expert Mode
+				#Range: 1 ~ 10
+				expert = 1
+				#Master Mode
+				#Range: 1 ~ 10
+				master = 1
+
+			#Duration in seconds.
+			[GameModifiers.DrownDebuffs.Weakness.Duration]
+				#Normal Mode
+				#Range: 1.0 ~ 999.0
+				normal = 10.0
+				#Expert Mode
+				#Range: 1.0 ~ 999.0
+				expert = 10.0
+				#Master Mode
+				#Range: 1.0 ~ 999.0
+				master = 10.0
+
+	#Drowned trident throw may spawn a lightning bolt when it rains.
+	[GameModifiers.DrownedLightningAttack]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "EXPERT"
+
+	#Enderman attack may teleport the player somewhere nearby.
+	[GameModifiers.EndermanTeleport]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.5
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "MASTER"
+
+	#Evoker may spawn with a Totem of Undying.
+	[GameModifiers.EvokerWithTotem]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 1.0
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "NORMAL"
+
+	#Gives extra experience as the difficulty increases.
+	[GameModifiers.ExperienceBonus]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+
+		#Extra bonus multiplier to experience gathered from any source.
+		[GameModifiers.ExperienceBonus.BonusMultiplier]
+			#Normal Mode
+			#Range: 0.0 ~ 10.0
+			normal = 0.0
+			#Expert Mode
+			#Range: 0.0 ~ 10.0
+			expert = 0.2
+			#Master Mode
+			#Range: 0.0 ~ 10.0
+			master = 0.4
+
+	#Inflicts several debuffs when taking fall damage.
+	[GameModifiers.FallDebuffs]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 1.0
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = false
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "NORMAL"
+
+		[GameModifiers.FallDebuffs.Nausea]
+
+			#Level of the effect to apply.
+			[GameModifiers.FallDebuffs.Nausea.Amplifier]
+				#Normal Mode
+				#Range: 1 ~ 10
+				normal = 1
+				#Expert Mode
+				#Range: 1 ~ 10
+				expert = 1
+				#Master Mode
+				#Range: 1 ~ 10
+				master = 1
+
+			#Duration in seconds.
+			[GameModifiers.FallDebuffs.Nausea.Duration]
+				#Normal Mode
+				#Range: 1.0 ~ 999.0
+				normal = 8.0
+				#Expert Mode
+				#Range: 1.0 ~ 999.0
+				expert = 8.0
+				#Master Mode
+				#Range: 1.0 ~ 999.0
+				master = 8.0
+
+		[GameModifiers.FallDebuffs.Slowness]
+
+			#Level of the effect to apply.
+			[GameModifiers.FallDebuffs.Slowness.Amplifier]
+				#Normal Mode
+				#Range: 1 ~ 10
+				normal = 1
+				#Expert Mode
+				#Range: 1 ~ 10
+				expert = 1
+				#Master Mode
+				#Range: 1 ~ 10
+				master = 1
+
+			#Duration in seconds.
+			[GameModifiers.FallDebuffs.Slowness.Duration]
+				#Normal Mode
+				#Range: 1.0 ~ 999.0
+				normal = 6.0
+				#Expert Mode
+				#Range: 1.0 ~ 999.0
+				expert = 6.0
+				#Master Mode
+				#Range: 1.0 ~ 999.0
+				master = 6.0
+
+	#Jockey is more likely to spawn.
+	[GameModifiers.JockeySpawn]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.125
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = false
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "EXPERT"
+
+	#All hostile mobs get damage and health bonuses.
+	[GameModifiers.MobsSpawnStronger]
+		#List of mobs that should not get health and damage bonuses. (for instance minecraft:wither)
+		excluded_mobs = []
+		#List of dimensions where health and damage bonuses should not be applied. (for instance minecraft:overworld)
+		excluded_dimensions = []
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+
+		[GameModifiers.MobsSpawnStronger.HealthBonusMultiplier]
+			#Normal Mode
+			#Range: 0.0 ~ 10.0
+			normal = 0.0
+			#Expert Mode
+			#Range: 0.0 ~ 10.0
+			expert = 0.15
+			#Master Mode
+			#Range: 0.0 ~ 10.0
+			master = 0.3
+
+		[GameModifiers.MobsSpawnStronger.DamageBonusMultiplier]
+			#Normal Mode
+			#Range: 0.0 ~ 10.0
+			normal = 0.0
+			#Expert Mode
+			#Range: 0.0 ~ 10.0
+			expert = 0.15
+			#Master Mode
+			#Range: 0.0 ~ 10.0
+			master = 0.3
+
+		#Multiplies health and damage bonuses at night.
+		[GameModifiers.MobsSpawnStronger.NightMultiplier]
+			#Normal Mode
+			#Range: 1.0 ~ 10.0
+			normal = 2.0
+			#Expert Mode
+			#Range: 1.0 ~ 10.0
+			expert = 2.0
+			#Master Mode
+			#Range: 1.0 ~ 10.0
+			master = 2.0
+
+	#Phantom attack may inflict stackable levitation effect.
+	[GameModifiers.PhantomLevitationAttack]
+		#Maximum duration in seconds it can reach.
+		#Range: 5.0 ~ 999.0
+		maximum_duration = 60.0
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.75
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "MASTER"
+
+		#Level of the effect to apply.
+		[GameModifiers.PhantomLevitationAttack.Amplifier]
+			#Normal Mode
+			#Range: 1 ~ 10
+			normal = 1
+			#Expert Mode
+			#Range: 1 ~ 10
+			expert = 1
+			#Master Mode
+			#Range: 1 ~ 10
+			master = 1
+
+		#Duration in seconds.
+		[GameModifiers.PhantomLevitationAttack.Duration]
+			#Normal Mode
+			#Range: 1.0 ~ 999.0
+			normal = 5.0
+			#Expert Mode
+			#Range: 1.0 ~ 999.0
+			expert = 5.0
+			#Master Mode
+			#Range: 1.0 ~ 999.0
+			master = 5.0
+
+	#Piglins may spawn in groups.
+	[GameModifiers.PiglinsInGroup]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "EXPERT"
+
+		#Chance for a sidekick to have the Golden Sword.
+		[GameModifiers.PiglinsInGroup.SidekickGoldenSword]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.4
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.2
+
+		#Chance for a leader to have the Golden Helmet.
+		[GameModifiers.PiglinsInGroup.LeaderGoldenHelmet]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.67
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.75
+
+		#Chance for a leader to have the Golden Chestplate.
+		[GameModifiers.PiglinsInGroup.LeaderGoldenChestplate]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.67
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.75
+
+		#Chance for a leader to have the Golden Leggings.
+		[GameModifiers.PiglinsInGroup.LeaderGoldenLeggings]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.67
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.75
+
+		#Chance for a leader to have the Golden Boots.
+		[GameModifiers.PiglinsInGroup.LeaderGoldenBoots]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.67
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.75
+
+		[GameModifiers.PiglinsInGroup.Piglins]
+			#Minimum amount of mobs to spawn (leader is not considered).
+			#Range: 1 ~ 9
+			min_count = 1
+			#Maximum amount of mobs to spawn (leader is not considered).
+			#Range: 1 ~ 9
+			max_count = 3
+
+	#Makes all explosions (creepers, ghast ball etc.) much more deadly.
+	[GameModifiers.PowerfulExplosions]
+		#Multiplies explosion radius by the given value (this value is scaled by Clamped Regional Difficulty).
+		#Range: 1.0 ~ 10.0
+		radius_multiplier = 1.2599
+		#Gives all explosions a chance to cause fire (this value is scaled by Clamped Regional Difficulty).
+		#Range: 0.0 ~ 1.0
+		fire_chance = 0.75
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+
+	#All sharp items (tools, shears etc.) may inflict bleeding.
+	[GameModifiers.SharpToolsBleeding]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = false
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "NORMAL"
+
+		#Level of the effect to apply.
+		[GameModifiers.SharpToolsBleeding.Amplifier]
+			#Normal Mode
+			#Range: 1 ~ 10
+			normal = 1
+			#Expert Mode
+			#Range: 1 ~ 10
+			expert = 2
+			#Master Mode
+			#Range: 1 ~ 10
+			master = 3
+
+		#Duration in seconds.
+		[GameModifiers.SharpToolsBleeding.Duration]
+			#Normal Mode
+			#Range: 1.0 ~ 999.0
+			normal = 24.0
+			#Expert Mode
+			#Range: 1.0 ~ 999.0
+			expert = 24.0
+			#Master Mode
+			#Range: 1.0 ~ 999.0
+			master = 24.0
+
+	#Shulker attack may inflict stackable blindness effect.
+	[GameModifiers.ShulkerBlindnessAttack]
+		#Maximum duration in seconds it can reach.
+		#Range: 5.0 ~ 999.0
+		maximum_duration = 60.0
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.5
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "MASTER"
+
+		#Level of the effect to apply.
+		[GameModifiers.ShulkerBlindnessAttack.Amplifier]
+			#Normal Mode
+			#Range: 1 ~ 10
+			normal = 1
+			#Expert Mode
+			#Range: 1 ~ 10
+			expert = 1
+			#Master Mode
+			#Range: 1 ~ 10
+			master = 1
+
+		#Duration in seconds.
+		[GameModifiers.ShulkerBlindnessAttack.Duration]
+			#Normal Mode
+			#Range: 1.0 ~ 999.0
+			normal = 5.0
+			#Expert Mode
+			#Range: 1.0 ~ 999.0
+			expert = 5.0
+			#Master Mode
+			#Range: 1.0 ~ 999.0
+			master = 5.0
+
+	#Skeletons may spawn in groups.
+	[GameModifiers.SkeletonsInGroup]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "EXPERT"
+
+		#Chance for a sidekick to have the Wooden Sword.
+		[GameModifiers.SkeletonsInGroup.SidekickWoodenSword]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.5
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.2
+
+		#Chance for a sidekick to have the Stone Sword.
+		[GameModifiers.SkeletonsInGroup.SidekickStoneSword]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.25
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.2
+
+		#Chance for a leader to have the Leather Helmet.
+		[GameModifiers.SkeletonsInGroup.LeaderLeatherHelmet]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.67
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.75
+
+		#Chance for a leader to have the Leather Chestplate.
+		[GameModifiers.SkeletonsInGroup.LeaderLeatherChestplate]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.67
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.75
+
+		#Chance for a leader to have the Leather Leggings.
+		[GameModifiers.SkeletonsInGroup.LeaderLeatherLeggings]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.67
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.75
+
+		#Chance for a leader to have the Leather Boots.
+		[GameModifiers.SkeletonsInGroup.LeaderLeatherBoots]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.67
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.75
+
+		[GameModifiers.SkeletonsInGroup.Skeletons]
+			#Minimum amount of mobs to spawn (leader is not considered).
+			#Range: 1 ~ 9
+			min_count = 1
+			#Maximum amount of mobs to spawn (leader is not considered).
+			#Range: 1 ~ 9
+			max_count = 3
+
+	#Shulker attack may inflict stackable blindness effect.
+	[GameModifiers.SlimeSlownessAttack]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.5
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "EXPERT"
+
+		#Level of the effect to apply.
+		[GameModifiers.SlimeSlownessAttack.Amplifier]
+			#Normal Mode
+			#Range: 1 ~ 10
+			normal = 1
+			#Expert Mode
+			#Range: 1 ~ 10
+			expert = 1
+			#Master Mode
+			#Range: 1 ~ 10
+			master = 1
+
+		#Duration in seconds.
+		[GameModifiers.SlimeSlownessAttack.Duration]
+			#Normal Mode
+			#Range: 1.0 ~ 999.0
+			normal = 6.0
+			#Expert Mode
+			#Range: 1.0 ~ 999.0
+			expert = 6.0
+			#Master Mode
+			#Range: 1.0 ~ 999.0
+			master = 6.0
+
+	#Blocks certain mobs from spawning when given game stage is active.
+	[GameModifiers.SpawnBlocker]
+		#Normal Mode
+		normal = ["minecraft:illusioner", "majruszsdifficulty:tank"]
+		#Expert Mode
+		expert = []
+		#Master Mode
+		master = []
+
+	#If the player dies from a zombie or bleeding, then a zombie with player's name spawns in the same place.
+	[GameModifiers.SpawnPlayerZombie]
+		#Chance for a zombie to have player's head.
+		#Range: 0.0 ~ 1.0
+		head_chance = 1.0
+		#Chance for a zombie to drop player's head.
+		#Range: 0.0 ~ 1.0
+		head_drop_chance = 0.1
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 1.0
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = false
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "EXPERT"
+
+	#Spider attack may inflict poison effect.
+	[GameModifiers.SpiderPoisonAttack]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "NORMAL"
+
+		#Level of the effect to apply.
+		[GameModifiers.SpiderPoisonAttack.Amplifier]
+			#Normal Mode
+			#Range: 1 ~ 10
+			normal = 1
+			#Expert Mode
+			#Range: 1 ~ 10
+			expert = 1
+			#Master Mode
+			#Range: 1 ~ 10
+			master = 1
+
+		#Duration in seconds.
+		[GameModifiers.SpiderPoisonAttack.Duration]
+			#Normal Mode
+			#Range: 1.0 ~ 999.0
+			normal = 4.0
+			#Expert Mode
+			#Range: 1.0 ~ 999.0
+			expert = 7.0
+			#Master Mode
+			#Range: 1.0 ~ 999.0
+			master = 15.0
+
+	#All throwable sharp items (arrows, trident etc.) may inflict bleeding.
+	[GameModifiers.ThrowableWeaponsBleeding]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.4
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = false
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "NORMAL"
+
+		#Level of the effect to apply.
+		[GameModifiers.ThrowableWeaponsBleeding.Amplifier]
+			#Normal Mode
+			#Range: 1 ~ 10
+			normal = 1
+			#Expert Mode
+			#Range: 1 ~ 10
+			expert = 2
+			#Master Mode
+			#Range: 1 ~ 10
+			master = 3
+
+		#Duration in seconds.
+		[GameModifiers.ThrowableWeaponsBleeding.Duration]
+			#Normal Mode
+			#Range: 1.0 ~ 999.0
+			normal = 24.0
+			#Expert Mode
+			#Range: 1.0 ~ 999.0
+			expert = 24.0
+			#Master Mode
+			#Range: 1.0 ~ 999.0
+			master = 24.0
+
+	#Wither Skeleton may spawn with the Wither Sword.
+	[GameModifiers.WitherSkeletonWithSword]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "EXPERT"
+
+		[GameModifiers.WitherSkeletonWithSword.WitherSword]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.5
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.01
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.2
+
+	#Wither Sword inflicts wither effect.
+	[GameModifiers.WitherSwordEffect]
+		#Level of the effect to apply.
+		#Range: 1 ~ 10
+		amplifier = 2
+		#Duration in seconds.
+		#Range: 1.0 ~ 999.0
+		duration = 6.0
+
+	#Zombies may spawn in groups as miners (only underground).
+	[GameModifiers.ZombiesInGroup]
+		#Specifies whether this game modifier is enabled.
+		is_enabled = true
+		#Chance of this to happen.
+		#Range: 0.0 ~ 1.0
+		chance = 0.25
+		#Specifies whether the chance should be scaled by Clamped Regional Difficulty.
+		scaled_by_crd = true
+		#Minimum game stage required for that to happen.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		minimum_stage = "EXPERT"
+
+		#Chance for a sidekick to have the Wooden Pickaxe (main hand).
+		[GameModifiers.ZombiesInGroup.SidekickWoodenPickaxe]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.75
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.1
+
+		#Chance for a sidekick to have the Stone Pickaxe (main hand).
+		[GameModifiers.ZombiesInGroup.SidekickStonePickaxe]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.5
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.1
+
+		#Chance for a sidekick to have the Iron Pickaxe (main hand).
+		[GameModifiers.ZombiesInGroup.SidekickIronPickaxe]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.1
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.2
+
+		#Chance for a sidekick to have a Coal (offhand).
+		[GameModifiers.ZombiesInGroup.SidekickCoal]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.6
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 1.0
+
+		#Chance for a sidekick to have an Iron Ingot (offhand).
+		[GameModifiers.ZombiesInGroup.SidekickIronIngot]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.4
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 1.0
+
+		#Chance for a sidekick to have a Gold Ingot (offhand).
+		[GameModifiers.ZombiesInGroup.SidekickGoldIngot]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.2
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 1.0
+
+		#Chance for a sidekick to have a Diamond (offhand).
+		[GameModifiers.ZombiesInGroup.SidekickDiamond]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.1
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 1.0
+
+		#Chance for a leader to have the Iron Helmet.
+		[GameModifiers.ZombiesInGroup.LeaderIronHelmet]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.67
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.75
+
+		#Chance for a leader to have the Iron Chestplate.
+		[GameModifiers.ZombiesInGroup.LeaderIronChestplate]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.67
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.75
+
+		#Chance for a leader to have the Iron Leggings.
+		[GameModifiers.ZombiesInGroup.LeaderIronLeggings]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.67
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.75
+
+		#Chance for a leader to have the Iron Boots.
+		[GameModifiers.ZombiesInGroup.LeaderIronBoots]
+			#Chance that a mob will get the item.
+			#Range: 0.0 ~ 1.0
+			chance = 0.67
+			#Chance for item to drop.
+			#Range: 0.0 ~ 1.0
+			drop_chance = 0.05
+			#Chance for item to be randomly enchanted (enchants depend on Clamped Regional Difficulty).
+			#Range: 0.0 ~ 1.0
+			enchant_chance = 0.75
+
+		[GameModifiers.ZombiesInGroup.Zombies]
+			#Minimum amount of mobs to spawn (leader is not considered).
+			#Range: 1 ~ 9
+			min_count = 1
+			#Maximum amount of mobs to spawn (leader is not considered).
+			#Range: 1 ~ 9
+			max_count = 3
+
+[UndeadArmy]
+	#Can the Undead Army spawn?
+	is_enabled = true
+	#Required amount of killed undead to start the Undead Army. (set to 0 if you want to disable this)
+	#Range: 0 ~ 1000
+	kill_requirement = 100
+	#Extra size multiplier for each extra player participating in the Undead Army.
+	#Range: 0.1 ~ 1.0
+	player_scale = 0.5
+	#Chance for all Skeletons to spawn on Skeleton Horse.
+	#Range: 0.1 ~ 1.0
+	horse_chance = 0.15
+	#Time in seconds between waves (requires world/game restart).
+	#Range: 3.0 ~ 60.0
+	time_between_waves = 10.0
+	#Duration in seconds after which the Undead Army will end if there is no player nearby (requires world/game restart).
+	#Range: 300.0 ~ 3200.0
+	inactive_duration = 900.0
+
+	#Experience reward for each player after defeating the Undead Army.
+	[UndeadArmy.ExperienceReward]
+		#Normal Mode
+		#Range: 4 ~ 1000
+		normal = 40
+		#Expert Mode
+		#Range: 4 ~ 1000
+		expert = 80
+		#Master Mode
+		#Range: 4 ~ 1000
+		master = 120
+
+	#Chance for the undead item to be enchanted (separate for each item).
+	[UndeadArmy.EnchantedItemChance]
+		#Normal Mode
+		#Range: 0.0 ~ 1.0
+		normal = 0.125
+		#Expert Mode
+		#Range: 0.0 ~ 1.0
+		expert = 0.25
+		#Master Mode
+		#Range: 0.0 ~ 1.0
+		master = 0.5
+
+	#Chance for the undead to have armor piece (separate for each armor piece).
+	[UndeadArmy.ArmorChance]
+		#Normal Mode
+		#Range: 0.0 ~ 1.0
+		normal = 0.25
+		#Expert Mode
+		#Range: 0.0 ~ 1.0
+		expert = 0.5
+		#Master Mode
+		#Range: 0.0 ~ 1.0
+		master = 0.75
+
+	#Amount of enemies in each wave (format: {minimal amount}-{maximal amount} {entity}).
+	[UndeadArmy.WaveMembers]
+		wave_1 = ["4-6 minecraft:zombie", "1-2 minecraft:husk", "2-4 minecraft:skeleton", "1-2 minecraft:stray"]
+		wave_2 = ["3-5 minecraft:zombie", "1-2 minecraft:husk", "2-4 minecraft:skeleton", "1-2 minecraft:stray"]
+		wave_3 = ["2-4 minecraft:zombie", "1-3 minecraft:husk", "1-3 minecraft:skeleton", "1-3 minecraft:stray", "1-1 majruszsdifficulty:tank"]
+		wave_4 = ["1-3 minecraft:zombie", "3-5 minecraft:husk", "1-3 minecraft:skeleton", "2-4 minecraft:stray", "2-2 majruszsdifficulty:tank"]
+		wave_5 = ["1-3 minecraft:zombie", "4-6 minecraft:husk", "1-3 minecraft:skeleton", "3-5 minecraft:stray", "3-3 majruszsdifficulty:tank"]
+
+[GameStage]
+
+	[GameStage.GameStage]
+		#Game stage set at the beginning of a new world.
+		#Allowed Values: NORMAL, EXPERT, MASTER
+		default_mode = "NORMAL"
+		#Determines whether any dimension should start Expert Mode (useful for integration with other mods).
+		any_dimension_expert = true
+
+		#Determines what starts the Expert Mode.
+		[GameStage.GameStage.ExpertMode]
+			#List of entities which start the game stage after killing them.
+			triggering_entities = ["none"]
+			#List of dimensions which start the game stage after entering them.
+			triggering_dimensions = ["minecraft:the_nether"]
+
+		#Determines what starts the Master Mode.
+		[GameStage.GameStage.MasterMode]
+			#List of entities which start the game stage after killing them.
+			triggering_entities = ["minecraft:ender_dragon"]
+			#List of dimensions which start the game stage after entering them.
+			triggering_dimensions = ["none"]
+
+[TreasureBag]
+
+	[TreasureBag.TreasureBagManager]
+
+		[TreasureBag.TreasureBagManager.UndeadArmy]
+			#Determines whether this Treasure Bag should drop.
+			is_enabled = true
+
+		[TreasureBag.TreasureBagManager.ElderGuardian]
+			#Determines whether this Treasure Bag should drop.
+			is_enabled = true
+
+		[TreasureBag.TreasureBagManager.Wither]
+			#Determines whether this Treasure Bag should drop.
+			is_enabled = true
+
+		[TreasureBag.TreasureBagManager.EnderDragon]
+			#Determines whether this Treasure Bag should drop.
+			is_enabled = true
+
+		[TreasureBag.TreasureBagManager.Fishing]
+			#Determines whether this Treasure Bag should drop.
+			is_enabled = true
+
+			#Required amount of items fished to get this Treasure Bag.
+			[TreasureBag.TreasureBagManager.Fishing.RequiredFishCount]
+				#Normal Mode
+				#Range: 3 ~ 100
+				normal = 20
+				#Expert Mode
+				#Range: 3 ~ 100
+				expert = 15
+				#Master Mode
+				#Range: 3 ~ 100
+				master = 10
+
+		[TreasureBag.TreasureBagManager.PillagerRaid]
+			#Determines whether this Treasure Bag should drop.
+			is_enabled = true
+

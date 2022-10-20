@@ -1,0 +1,53 @@
+
+[COMMON]
+
+	[COMMON.Intoxication]
+		#How much toxin should be required for the player to be intoxicated? Default is 20. Set to 0 to disable.
+		#Range: > 0
+		Max_Toxin_Level = 20
+		#At how much toxin should the player become intoxicated? (Keep at or below Max_Toxin_Level) Set to Max_Toxin_Level for Dark Souls like behavior. Keep at 75% of Max_Toxin_Level for The Witcher 3 like behavior.
+		#Range: > 0
+		Toxin_Threshold = 15
+		#At which toxin level should the player recover from intoxication? (Keep below Max_Toxin_Level)) Set to 0 for Dark Souls like behavior. Keep at 75% of Max_Toxin_Level for The Witcher 3 like behavior.
+		#Range: > 0
+		Toxin_Recovery = 15
+		#How much toxin should be acquired per potion level? Default is 20.
+		#Range: > 0
+		Toxin_Per_Potion_Level = 3
+		#How long should it take for the toxin level to decrement (in ticks)? Default is 300. Set to 0 to disable.
+		#Range: > 0
+		Max_Toxin_Tick = 300
+		#By how much should the toxin level be decreased over time? Default value is 1. Set to 0 to disable.
+		#Range: > 0
+		Toxin_Decrement_Over_Time = 1
+		#How fast should intoxication effects reapply (20 ticks = 1 second)? Default value is 40.
+		#Range: > 0
+		Toxin_Reapply = 40
+		#How long should intoxication effects last when applied (20 ticks = 1 second)? Default value is 40.
+		#Range: > 0
+		Toxin_Duration = 40
+
+	[COMMON.Potion]
+		#How long should it take for the player to use a Potion? Default value is 16. Vanilla value is 32.
+		#Range: > 1
+		Potion_Use_Duration = 16
+
+	[COMMON.Miscellaneous]
+		#Should Cows be milkable with bottles? Setting this to false will remove the means to obtain milk bottle items.
+		Milking_Cows = true
+
+	[COMMON."Splash Potion"]
+		#How long should it take for the player to use another Splash Potion? Default value is 16.
+		#Range: > 1
+		Splash_Cooldown = 16
+
+	[COMMON."Lingering Potion"]
+		#How long should it take for the player to use another Lingering Potion? Default value is 16.
+		#Range: > 1
+		Lingering_Cooldown = 16
+
+	[COMMON."Honey Bottle"]
+		#How long should it take for the player to drink a bottle of honey? Default value is 24. Vanilla value is 40.
+		#Range: > 1
+		Honey_Use_Duration = 24
+

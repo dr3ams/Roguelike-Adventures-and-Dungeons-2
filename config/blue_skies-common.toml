@@ -1,14 +1,42 @@
-#
-# When loading files from datapacks, set this to true to log missing registry data for things like items.
-# Default: false
-log_missing_registry_data_for_datapacks = false
-#
-# The emerald cost for the Zeal Lighter sold by the Gatekeeper.
-# Default: 12
-gatekeeper_emerald_count = 8
-#
-# A list of mods that are allowed to generate features in our dimensions.
-# Default: []
-# Example: ["minecraft", "blue_skies", "botania"]
-allowed_mods_for_feature_gen = []
+
+[Debug]
+	#
+	# When loading files from datapacks, set this to true to log missing registry data for things like items.
+	# Default: false
+	log_missing_registry_data_for_datapacks = false
+
+["Holiday Content"]
+	#
+	# Determines if Halloween cosmetic effects should happen.
+	# Default: true
+	allow_halloween_content = true
+	#
+	# Determines if Christmas cosmetic effects should happen.
+	# Default: true
+	allow_christmas_content = true
+
+[Gatekeeper]
+	#
+	# The emerald cost for the Zeal Lighter sold by the Gatekeeper.
+	# Default: 8
+	zeal_lighter_cost = 8
+	#
+	# The percent chance of the Gatekeeper's house generating.
+	# Default: 75
+	#Range: 0 ~ 100
+	gatekeeper_house_chance = 75
+
+["Mod Compatibility"]
+	#
+	# A list of mods that are allowed to generate features in the Everbright and Everdawn.
+	# This does not make them generate, it just allows them to pass the filter. 
+	# Default: []
+	# Example: ["minecraft", "farlanders", "botania"]
+	allowed_mods_for_feature_gen = []
+	#
+	# A list of mobs that are allowed to spawn in the Everbright and Everdawn.
+	# This does not make them spawn, it just allows them to pass the filter. 
+	# Default: []
+	# Example: ["minecraft:bee", "moolands:awful_cow", "alexs_mobs:grizzly_bear"]
+	allowed_mobs_for_spawning = []
 

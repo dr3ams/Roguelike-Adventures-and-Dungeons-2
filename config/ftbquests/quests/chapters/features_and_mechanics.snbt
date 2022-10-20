@@ -5,13 +5,9 @@
 	filename: "features_and_mechanics"
 	title: "Features | mechanics"
 	icon: {
-		id: "losttrinkets:book_o_enchanting"
+		id: "kubejs:book_04g"
 		Count: 1b
-		ForgeCaps: {
-			"dungeons_libraries:built_in_enchantments": {
-				BuiltInEnchantments: [ ]
-			}
-		}
+		tag: { }
 	}
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
@@ -83,13 +79,9 @@
 		}
 		{
 			icon: {
-				id: "losttrinkets:mad_piggy"
+				id: "simplehats:pighead"
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
+				tag: { }
 			}
 			x: -2.0d
 			y: -0.5d
@@ -269,8 +261,7 @@
 				}
 				{
 					id: "54785A567EA1C042"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 			]
 		}
@@ -345,7 +336,11 @@
 			}]
 		}
 		{
-			icon: "archers_paradox:redstone_arrow"
+			icon: {
+				id: "kubejs:bleed"
+				Count: 1b
+				tag: { }
+			}
 			x: 1.0d
 			y: -2.0d
 			description: [
@@ -453,7 +448,11 @@
 			}]
 		}
 		{
-			icon: "majruszs_difficulty:undead_battle_standard"
+			icon: {
+				id: "kubejs:skull"
+				Count: 1b
+				tag: { }
+			}
 			x: 2.5d
 			y: -0.5d
 			description: [
@@ -525,8 +524,7 @@
 				}
 				{
 					id: "680F2DF9758F6039"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 			]
 		}
@@ -564,7 +562,11 @@
 			}]
 		}
 		{
-			icon: "fins:spindly_emerald"
+			icon: {
+				id: "villagertools:restock"
+				Count: 1b
+				tag: { }
+			}
 			x: 1.0d
 			y: 2.5d
 			description: [
@@ -602,11 +604,9 @@
 		}
 		{
 			icon: {
-				id: "relics:stellar_catalyst"
+				id: "nameless_trinkets:mysterious_trinket"
 				Count: 1b
-				tag: {
-					Damage: 0
-				}
+				tag: { }
 			}
 			x: 2.5d
 			y: 2.5d

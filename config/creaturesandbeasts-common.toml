@@ -1,0 +1,711 @@
+
+[General]
+	# Determines how many yeti hides can be used to reinforce an item.
+	# Default: 5
+	# Range: [0, inf]
+	hideAmount = 5
+	# Determines the experience cost of applying yeti hide to an item.
+	# Default: 1
+	# Range: [0, inf]
+	hideCost = 1
+	# Determines the multiplier used to add armor per yeti hide on an item.
+	# Default: 0.01
+	# Range: [0.0, inf]
+	hideMultiplier = 0.01
+
+[Spawns]
+
+	# Default: 
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:yeti"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:snowy_plains"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 1
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 2
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 3
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:yeti"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:ice_spikes"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 1
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 2
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 3
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:yeti"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:snowy_taiga"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 1
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 2
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 3
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:yeti"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:frozen_peaks"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 2
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 2
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 3
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:yeti"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:snowy_slopes"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 1
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 2
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 3
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:little_grebe"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:river"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 35
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 2
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 3
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:cactem"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:badlands"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 3
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 6
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 13
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:cactem"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:wooded_badlands"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 3
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 6
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 13
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:cactem"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:eroded_badlands"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 3
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 6
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 13
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:cactem"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:desert"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 3
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 6
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 13
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:sporeling"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:mushroom_fields"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 20
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 3
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 5
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:sporeling"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:swamp"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 25
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 3
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 5
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:sporeling"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:lush_caves"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 60
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 3
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 5
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:sporeling"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:dark_forest"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 70
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 3
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 5
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:sporeling"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:nether_wastes"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 60
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 2
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "monster"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 4
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:sporeling"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:warped_forest"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 2
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 2
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "monster"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 4
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:sporeling"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:crimson_forest"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 120
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 2
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "monster"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 4
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:lilytad"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:swamp"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 45
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 1
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 1
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:minipad"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:swamp"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 20
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 3
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 6
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 1.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:end_whale"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:the_end"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 1
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 1
+		#Determines the spawn cost for the entity.
+		mobCost = 400.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 1
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 1.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:end_whale"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:end_barrens"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 1
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 1
+		#Determines the spawn cost for the entity.
+		mobCost = 400.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 1
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 1.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:end_whale"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:end_highlands"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 1
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 1
+		#Determines the spawn cost for the entity.
+		mobCost = 400.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 1
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 1.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:end_whale"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:end_midlands"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 1
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 1
+		#Determines the spawn cost for the entity.
+		mobCost = 400.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 1
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 1.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:end_whale"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:small_end_islands"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 1
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 1
+		#Determines the spawn cost for the entity.
+		mobCost = 400.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 1
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:cindershell"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:nether_wastes"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 400
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 2
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 8
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:lizard"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:badlands"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 15
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 1
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 4
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:lizard"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:wooded_badlands"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 15
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 1
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 4
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:lizard"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:eroded_badlands"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 15
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 1
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 4
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:lizard"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:desert"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 15
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 1
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 4
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:lizard"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:jungle"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 100
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 1
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 4
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:lizard"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:bamboo_jungle"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 100
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 1
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 4
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:lizard"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:sparse_jungle"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 100
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 1
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 4
+
+	[[Spawns.spawns]]
+		#Determines the maximum cost for the entity in a given area.
+		energyBudget = 0.0
+		# Determines what entity this spawn is applied to.
+		entityType = "cnb:lizard"
+		# Determines what biome this entity should spawn in.
+		biome = "minecraft:mushroom_fields"
+		#Determines the spawn weight of the entity.
+		# Range: [0, 1000000]
+		spawnWeight = 10
+		#Determines the minimum number of entities to spawn.
+		# Range: [0, 1000000]
+		minCount = 1
+		#Determines the spawn cost for the entity.
+		mobCost = 0.0
+		#Determines what spawn category this entity should use.
+		spawnCategory = "creature"
+		#Determines the maximum number of entities to spawn.
+		# Range: [0, 1000000]
+		maxCount = 4
+

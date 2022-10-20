@@ -6,20 +6,17 @@
 	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
 	#Range: 0 ~ 2
 	debugLevel = 0
+	#Downwards Speed & Exhaustion Modifer: Reduce downard digging to 80% of normal.
+	#Range: 0 ~ 100
+	downModifier = 20
 	#Normal Ore Behavior: true
-	aNormalOre = true
-	#Sideways and Upwards Digging Speed & Exhaustion Modifer: (none) 1.0 to (max) 32.0
-	#Range: 1.0 ~ 32.0
-	digModifier = 4.0
-	#Downwards Speed & Exhaustion Modifer: (none) 1.0 to (max) 32.0
-	#Range: 1.0 ~ 32.0
-	downModifier = 1.03
+	normalOre = true
 
-["Tool Values 6464"]
-	#Tool String 6464
-	defaultToolsActual = "hbm:default,hbm:default_dimension,48,10.0;minecraft:torch,minecraft:overworld,48,0.2;minecraft:wooden_pickaxe,minecraft:overworld,48,8.0;minecraft:stone_pickaxe,minecraft:overworld,48,4.0;minecraft:iron_pickaxe,minecraft:overworld,48,2.0;minecraft:golden_pickaxe,minecraft:overworld,48,1.0;minecraft:diamond_pickaxe,minecraft:overworld,48,1.2;minecraft:netherite_pickaxe,minecraft:overworld,48,1.1;minecraft:wooden_shovel,minecraft:overworld,48,8.0;minecraft:stone_shovel,minecraft:overworld,48,4.0;minecraft:iron_shovel,minecraft:overworld,48,2.0;minecraft:golden_shovel,minecraft:overworld,48,1.0;minecraft:diamond_shovel,minecraft:overworld,48,1.2;minecraft:netherite_shovel,minecraft:overworld,48,1.1;minecraft:wooden_axe,minecraft:overworld,48,2.0;minecraft:stone_axe,minecraft:overworld,48,1.0;minecraft:iron_axe,minecraft:overworld,48,2.0;minecraft:golden_axe,minecraft:overworld,48,1.0;minecraft:diamond_axe,minecraft:overworld,48,1.2;minecraft:netherite_axe,minecraft:overworld,48,1.1;minecraft:iron_pickaxe,minecraft:the_nether,124,2.2;minecraft:netherite_pickaxe,minecraft:the_nether,124,1.0;"
+["Tool Config Values : tool,dimension , upperYlimit, lowerYlimit, exhaustion, pct slower;"]
+	#list of tool configurations
+	toolsList = ["hbm:default1,hbm:default_dimension1,48,0,25,50", "minecraft:torch,minecraft:overworld,48,-32,0,100", "vanillaplustools:diamond_hammer,minecraft:overworld,48,-32,4,45", "vanillaplustools:*,minecraft:overworld,48,-32,50,40", "minecraft:wooden_pickaxe,minecraft:overworld,60,48,90,85", "minecraft:stone_pickaxe,minecraft:overworld,55,32,50,75", "minecraft:iron_pickaxe,minecraft:overworld,48,10,25,65", "minecraft:golden_pickaxe,minecraft:overworld,32,-32,10,55", "minecraft:diamond_pickaxe,minecraft:overworld,32,-32,4,45", "minecraft:netherite_pickaxe,minecraft:overworld,16,-60,2,35", "minecraft:wooden_shovel,minecraft:overworld,60,50,90,85", "minecraft:stone_shovel,minecraft:overworld,55,30,50,75", "minecraft:iron_shovel,minecraft:overworld,48,0,25,65", "minecraft:golden_shovel,minecraft:overworld,48,0,10,55", "minecraft:diamond_shovel,minecraft:overworld,48,-32,4,45", "minecraft:netherite_shovel,minecraft:overworld,48,-48,2,35", "minecraft:wooden_axe,minecraft:overworld,60,40,90,85", "minecraft:stone_axe,minecraft:overworld,60,32,50,75", "minecraft:iron_axe,minecraft:overworld,48,10,25,65", "minecraft:golden_axe,minecraft:overworld,32,-32,10,35", "minecraft:diamond_axe,minecraft:overworld,48,-32,4,35", "minecraft:netherite_axe,minecraft:overworld,32,-32,2,35", "minecraft:wooden_pickaxe,minecraft:the_nether,124,32,90,85", "minecraft:stone_pickaxe,minecraft:the_nether,124,24,50,75", "minecraft:iron_pickaxe,minecraft:the_nether,124,16,25,65", "minecraft:golden_pickaxe,minecraft:the_nether,124,8,10,5", "minecraft:diamond_pickaxe,minecraft:the_nether,124,4,4,25", "minecraft:netherite_pickaxe,minecraft:the_nether,124,4,2,5"]
 
-["Blocks White List Values 6464"]
-	#Blocks Whitelist String 6464
-	defaultBlocksWhiteListActual = "ore_stone_variants:coal_ore;ore_stone_variants:iron_ore;ore_stone_variants:gold_ore;ore_stone_variants:diamond_ore;ore_stone_variants:lapis_ore;ore_stone_variants:redstone_ore;rockcandy:candy_ore;minecraft:oak_planks;minecraft:oak_fence;"
+["Blocks Ignore List "]
+	#Blocks Ignored by Harder Branch Mining .
+	ignoreBlocksList = ["ore_stone_variants:coal_ore", "ore_stone_variants:iron_ore", "ore_stone_variants:gold_ore", "ore_stone_variants:diamond_ore", "ore_stone_variants:lapis_ore", "ore_stone_variants:redstone_ore", "rockcandy:candy_ore", "minecraft:oak_planks", "minecraft:oak_fence"]
 

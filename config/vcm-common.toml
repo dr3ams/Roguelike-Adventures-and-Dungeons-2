@@ -1,0 +1,29 @@
+
+["Configs for ViesCraft Machines"]
+	"======== General Settings ========" = "---"
+	#Should machine engine sounds play while turned on with fuel?
+	Sounds-Engine-On = true
+	#Base forward speed of flying machines in %.
+	#Range: 1 ~ 1000
+	Movement-ForwardSpeed-FlyingMachine = 100
+	#Base forward speed of ground machines in %.
+	#Range: 1 ~ 1000
+	Movement-ForwardSpeed-GroundMachine = 100
+	#Base forward speed of hauler machines in %.
+	#Range: 1 ~ 1000
+	Movement-ForwardSpeed-HaulerMachine = 100
+	#Base forward speed of sea machines in %.
+	#Range: 1 ~ 1000
+	Movement-ForwardSpeed-SeaMachine = 100
+	" " = " "
+	"======== Fuel Settings ========" = "---"
+	#Amount of time 1x'coal' powers a machine for when consumed. (in seconds)
+	#Range: 1 ~ 9999
+	Fuel-BurnTime-Coal = 30
+	#Amount of time 1x'charcoal' powers a machine for when consumed. (in seconds)
+	#Range: 1 ~ 9999
+	Fuel-BurnTime-Charcoal = 30
+	#Amount of time 1x'machine pellet' powers a machine for when consumed. (in seconds)
+	#Range: 1 ~ 9999
+	Fuel-BurnTime-MachinePellet = 60
+

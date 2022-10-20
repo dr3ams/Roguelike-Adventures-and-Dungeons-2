@@ -1,0 +1,125 @@
+
+[renderers]
+
+	[renderers.inventory_renderer]
+		#Show a tooltip when hovering over an effect widget.
+		hovering_tooltip = true
+		#Minimum screen border distance for effect widgets.
+		#Range: > 0
+		screen_border_distance = 3
+		#Show remaining status effect duration on tooltip.
+		tooltip_duration = true
+		#Maximum amount of status effects rendered in a single row.
+		#Range: 1 ~ 255
+		max_columns = 5
+		#Space between individual effect widgets on y-axis.
+		#Range: > 0
+		widget_space_y = 1
+		#Alpha value for effect widgets.
+		#Range: 0.0 ~ 1.0
+		widget_alpha = 1.0
+		#Space between individual effect widgets on x-axis.
+		#Range: > 0
+		widget_space_x = 1
+		#Respect vanilla's "hideParticles" flag which prevents a status effect from showing when set via commands.
+		respect_hide_particles = false
+		#Exclude certain menus from showing active status effects. Useful when effect icons overlap with other screen elements.
+		menu_blacklist = ["curios:curios_container"]
+		#Maximum amount of status effects rendered in a single column.
+		#Range: 1 ~ 255
+		max_rows = 255
+		#Print menu type to game chat whenever a new menu screen is opened. Only intended to find menu types to be added to "menu_blacklist".
+		debug_container_types = false
+		#Render active status effects in every menu screen, not just in the player inventory.
+		effects_everywhere = true
+		#Allow effect renderer to fall back to a more compact version (when available) if not enough screen space exists. Otherwise effect widgets might run off-screen.
+		allow_fallback = true
+		#Screen side to render status effects on.
+		#Allowed Values: LEFT, RIGHT
+		screen_side = "LEFT"
+		#What to do when there are more effects to display than there is room on-screen.
+		#Allowed Values: CONDENSE, SKIP
+		overflow_mode = "CONDENSE"
+		#Effect renderer to be used.
+		#This setting might not be respected when not enough screen space is available. To force this setting disable "allow_fallback".
+		#Allowed Values: NONE, COMPACT, VANILLA
+		renderer_type = "VANILLA"
+
+	[renderers.hud_renderer]
+		#Respect vanilla's "hideParticles" flag which prevents a status effect from showing when set via commands.
+		respect_hide_particles = true
+		#Maximum amount of status effects rendered in a single column.
+		#Range: 1 ~ 255
+		max_rows = 255
+		#Offset on y-axis.
+		#Range: > 0
+		offset_y = 110
+		#Allow effect renderer to fall back to a more compact version (when available) if not enough screen space exists. Otherwise effect widgets might run off-screen.
+		allow_fallback = false
+		#Offset on x-axis.
+		#Range: > 0
+		offset_x = 3
+		#Maximum amount of status effects rendered in a single row.
+		#Range: 1 ~ 255
+		max_columns = 2
+		#Screen side to render status effects on.
+		#Allowed Values: LEFT, RIGHT
+		screen_side = "RIGHT"
+		#What to do when there are more effects to display than there is room on-screen.
+		#Allowed Values: CONDENSE, SKIP
+		overflow_mode = "CONDENSE"
+		#Space between individual effect widgets on y-axis.
+		#Range: > 0
+		widget_space_y = 1
+		#Alpha value for effect widgets.
+		#Range: 0.0 ~ 1.0
+		widget_alpha = 0.75
+		#Space between individual effect widgets on x-axis.
+		#Range: > 0
+		widget_space_x = 1
+		#Effect renderer to be used.
+		#This setting might not be respected when not enough screen space is available. To force this setting disable "allow_fallback".
+		#Allowed Values: NONE, COMPACT, VANILLA
+		renderer_type = "COMPACT"
+
+[widgets]
+
+	[widgets.vanilla_widget]
+		#Display string to be used for an effect duration that is too long to show.
+		#Allowed Values: VANILLA, INFINITY, NONE
+		long_duration_string = "VANILLA"
+		#Effect name color. Setting this to "EFFECT" will use potion color.
+		#Allowed Values: EFFECT, BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+		name_color = "EFFECT"
+		#Should the effect icon start to blink when the effect is running out.
+		blinking_alpha = true
+		#Show duration for ambient effects.
+		ambient_duration = true
+		#Should ambient effect widgets have a cyan colored border.
+		ambient_border = true
+		#Effect duration color. Setting this to "EFFECT" will use potion color.
+		#Allowed Values: EFFECT, BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+		duration_color = "GRAY"
+
+	[widgets.compact_widget]
+		#Display string to be used for an effect duration that is too long to show.
+		#Allowed Values: VANILLA, INFINITY, NONE
+		long_duration_string = "INFINITY"
+		#Effect amplifier color. Setting this to "EFFECT" will use potion color.
+		#Allowed Values: EFFECT, BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+		amplifier_color = "EFFECT"
+		#Should the effect icon start to blink when the effect is running out.
+		blinking_alpha = true
+		#Show duration for ambient effects.
+		ambient_duration = false
+		#Top corner to draw effect amplifier in, or none.
+		#Allowed Values: NONE, TOP_LEFT, TOP_RIGHT
+		effect_amplifier = "TOP_RIGHT"
+		#Should ambient effect widgets have a cyan colored border.
+		ambient_border = true
+		#Draw harmful effects on a separate line from beneficial ones. This is turned on in vanilla.
+		separate_effects = false
+		#Effect duration color. Setting this to "EFFECT" will use potion color.
+		#Allowed Values: EFFECT, BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+		duration_color = "GRAY"
+

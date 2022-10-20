@@ -15,81 +15,58 @@ checkPortalDestination = false
 portalLightning = false
 #If false, the return portal will require the activation item.
 shouldReturnPortalBeUsable = true
-#Sets the default value of the game rule controlling enforced progression.
-progressionRuleDefault = true
-#Disable the uncrafting function of the uncrafting table. Provided as an option when interaction with other mods produces exploitable recipes.
-disableUncrafting = true
+#Use a valid advancement resource location as a string. For example, using the string "minecraft:story/mine_diamond" will lock the portal behind the "Diamonds!" advancement. Invalid/Empty Advancement resource IDs will leave the portal entirely unlocked.
+portalUnlockedByAdvancement = ""
 #If true, Keepsake Caskets that are spawned when a player dies will not be accessible by other players. Use this if you dont want people taking from other people's death caskets. NOTE: server operators will still be able to open locked caskets.
 uuid_locking = false
+#If true, disables the ability to make Skull Candles by right clicking a vanilla skull with a candle. Turn this on if you're having mod conflict issues for some reason.
+skull_candles = false
 
 #Settings that are not reversible without consequences.
 ["Dimension Settings"]
 	#If true, players spawning for the first time will spawn in the Twilight Forest.
 	newPlayersSpawnInTF = false
+	#If true, the return portal will spawn for new players that were sent to the TF if `spawn_in_tf` is true.
+	portalForNewPlayer = true
 	#If true, Twilight Forest will generate as a void except for Major Structures
 	skylightForest = false
 	#If true, giant Twilight Oaks will also spawn in void worlds
 	skylightOaks = true
-	#Destination dimension for Twilight Portals and some other logic as well
-	twilightDimensionID = "twilightforest:twilightforest"
 
-	#Weights for various small features
-	["Dimension Settings"."World-Gen Weights"]
-		#Range: > 0
-		stoneCircleWeight = 10
-		#Range: > 0
-		wellWeight = 10
-		#Range: > 0
-		stalagmiteWeight = 12
-		#Range: > 0
-		foundationWeight = 10
-		#Range: > 0
-		monolithWeight = 10
-		#Range: > 0
-		groveRuinsWeight = 5
-		#Range: > 0
-		hollowStumpWeight = 12
-		#Range: > 0
-		fallenHollowLogWeight = 10
-		#Range: > 0
-		fallenSmallLogWeight = 10
-		#Range: > 0
-		druidHutWeight = 10
+#Defines custom stalactites generated in hollow hills.
+#Format is "modid:block size maxLength minHeight weight", where the properties are:
+#Size - the maximum length of the stalactite relative to the space between hill floor and ceiling,
+#Max length - maximum length of a stalactite in blocks,
+#Min height - minimum space between the hill floor and the stalactite to let it generate,
+#Weight - how often it generates.
+#
+#For example: "minecraft:iron_ore 0.7 8 1 24" would add a stalactite equal to the default iron ore stalactite.
+["Custom Hollow Hill Stalactites"]
+	#Blocks generating as stalactites in large hills only
+	largeHill = []
+	#Blocks generating as stalactites in medium and large hills
+	mediumHill = []
+	#Blocks generating as stalactites in all hills
+	smallHill = []
+	#If true, default stalactites and stalactites defined by other mods will not be used.
+	useConfigOnly = false
 
-	#Defines custom stalactites generated in hollow hills.
-	#Format is "modid:block size maxLength minHeight weight", where the properties are:
-	#Size - the maximum length of the stalactite relative to the space between hill floor and ceiling,
-	#Max length - maximum length of a stalactite in blocks,
-	#Min height - minimum space between the hill floor and the stalactite to let it generate,
-	#Weight - how often it generates.
-	#
-	#For example: "minecraft:iron_ore 0.7 8 1 24" would add a stalactite equal to the default iron ore stalactite.
-	["Dimension Settings"."Custom Hollow Hill Stalactites"]
-		#Blocks generating as stalactites in large hills only
-		largeHill = []
-		#Blocks generating as stalactites in medium and large hills
-		mediumHill = []
-		#If true, default stalactites and stalactites defined by other mods will not be used.
-		useConfigOnly = false
-		#Blocks generating as stalactites in all hills
-		smallHill = []
-
-#Lets you sacrifice various things to improve world performance.
-["Performance Tweaks"]
-	#Amount of canopy coverage. Lower numbers improve chunk generation speed at the cost of a thinner forest.
-	#Range: 0.0 ~ 1.7976931348623157E308
-	canopyCoverage = 1.7000000476837158
-	#Chance that a chunk in the Twilight Forest will contain a twilight oak tree. Higher numbers reduce the number of trees, increasing performance.
-	#Range: > 1
-	twilightOakChance = 48
-	#This controls the opacity of leaves, changing the amount of light blocked. Can be used to decrease complexity in some lighting checks.
-	#Range: 0 ~ 255
-	leavesLightOpacity = 1
-	#Setting this true will make Twilight Glaciers generate with Packed Ice instead of regular translucent Ice, decreasing amount of light checking calculations.
-	glacierPackedIce = false
-	#If the dimension has per-block skylight values. Disabling this will significantly improve world generation performance, at the cost of flat lighting everywhere.
-	#WARNING: Once chunks are loaded without skylight, that data is lost and cannot easily be regenerated. Be careful!
-	enableSkylight = true
+#Settings for all things related to the uncrafting table.
+["Uncrafting Table"]
+	#If you don't want to disable uncrafting altogether, and would rather disable certain recipes, this is for you.
+	#To add a recipe, add the mod id followed by the name of the recipe. You can check this in things like JEI.
+	#Example: "twilightforest:moonworm_queen" will disable uncrafting the moonworm queen into itself and 3 torchberries.
+	#If an item has multiple crafting recipes and you wish to disable them all, add the item to the "twilightforest:banned_uncraftables" item tag.
+	#If you have a problematic ingredient, like infested towerwood for example, add the item to the "twilightforest:banned_uncrafting_ingredients" item tag.
+	disableUncraftingRecipes = []
+	#Here, you can disable all items from certain mods from being uncrafted.
+	#Input a valid mod id to disable all uncrafting recipes from that mod.
+	#Example: "twilightforest" will disable all uncrafting recipes from this mod.
+	blacklistedUncraftingModIds = []
+	#If true, this will invert the above option from a blacklist to a whitelist.
+	flipIdList = false
+	#Disable the uncrafting function of the uncrafting table. Recommended as a last resort if there's too many things to change about its behavior.
+	disableUncrafting = false
 
 #We recommend downloading the Shield Parry mod for parrying, but these controls remain for without.
 ["Shield Parrying"]

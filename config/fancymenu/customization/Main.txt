@@ -1,7 +1,7 @@
 type = menu
 
 customization-meta {
-  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  identifier = net.minecraft.client.gui.screens.TitleScreen
   randomgroup = 1
   renderorder = foreground
   randommode = false
@@ -52,10 +52,10 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  orientation = bottom-right
-  x = -22
+  orientation = top-right
+  x = -20
   action = movebutton
-  y = -22
+  y = 0
 }
 
 customization {
@@ -147,10 +147,10 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = bottom-right
-  x = -45
+  orientation = top-right
+  x = -44
   action = movebutton
-  y = -22
+  y = 0
 }
 
 customization {
@@ -244,7 +244,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 423
   width = 13
   action = deep_customization_element:title_screen_realms_notification
@@ -348,5 +348,15 @@ customization {
   actionid = c6b465aa-832b-4112-b046-63251a5aa30a1650621616051
   y = 46
   height = 25
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
 }
 

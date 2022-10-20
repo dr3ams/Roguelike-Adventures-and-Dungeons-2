@@ -13,10 +13,17 @@
 	#Set whether the dimension list is a blacklist or whitelist
 	#Allowed Values: BLACKLIST, WHITELIST
 	dimensionPermission = "BLACKLIST"
+	#A list of entities that are blacklisted/whitelisted for champions
+	entitiesList = []
+	#Set whether the entities list is a blacklist or whitelist
+	#Allowed Values: BLACKLIST, WHITELIST
+	entitiesPermission = "BLACKLIST"
 	#Set to true to show HUD display for champions, including health, affixes, and tier
 	showHud = true
 	#Set to true to have champions generate a colored particle effect indicating their rank
 	showParticles = true
+	#Set to true to show champion tier and affixes in The One Probe overlay
+	enableTOPIntegration = true
 
 [loot]
 	#Set to true to allow fake players to generate champion loot
@@ -33,25 +40,25 @@
 [growth]
 	#The percent increase in health multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	healthGrowth = 0.5
+	healthGrowth = 0.35
 	#The percent increase in attack damage multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	attackGrowth = 1.0
+	attackGrowth = 0.5
 	#The increase in armor multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
-	armorGrowth = 3.0
+	armorGrowth = 2.0
 	#The increase in armor toughness multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
-	toughnessGrowth = 3.0
+	toughnessGrowth = 1.0
 	#The increase in knockback resistance multiplied by the growth factor
 	#Range: 0.0 ~ 1.0
-	knockbackResistanceGrowth = 0.1
+	knockbackResistanceGrowth = 0.05
 	#The increase in experience multiplied by the growth factor
 	#Range: > 0
 	experienceGrowth = 1
 	#The increase in explosive range multiplied by the growth factor
 	#Range: 0 ~ 100
-	explosionGrowth = 0
+	explosionGrowth = 2
 
 [affixes]
 	#Set the maximum distance that mobs can use their targeted abilities from, 0 to disable
@@ -69,7 +76,7 @@
 	[affixes.arctic]
 		#How often the champion will shoot projectiles (in seconds)
 		#Range: 1 ~ 100
-		arcticAttackInterval = 3
+		arcticAttackInterval = 1
 
 	[affixes.dampened]
 		#The amount of damage reduction to apply to indirect attacks
@@ -79,26 +86,26 @@
 	[affixes.desecrating]
 		#How long (in seconds) between cloud placements
 		#Range: > 1
-		desecratingCloudInterval = 5
+		desecratingCloudInterval = 3
 		#How long (in seconds) it takes for the effect cloud to activate after being placed
 		#Range: > 0
 		desecratingCloudActivationTime = 1
 		#The radius of the cloud effect
 		#Range: 1.0 ~ 1.7976931348623157E308
-		desecratingCloudRadius = 2.0
+		desecratingCloudRadius = 4.0
 		#The duration (in seconds) of the cloud effect
 		#Range: > 1
-		desecratingCloudDuration = 3
+		desecratingCloudDuration = 10
 
 	[affixes.enkindling]
 		#How often the champion will shoot projectiles (in seconds)
 		#Range: 1 ~ 100
-		enkindlingAttackInterval = 3
+		enkindlingAttackInterval = 1
 
 	[affixes.hasty]
 		#The base movement speed bonus
 		#Range: 0.0 ~ 1.7976931348623157E308
-		hastyMovementBonus = 0.15
+		hastyMovementBonus = 0.25
 
 	[affixes.infested]
 		#The amount of parasites to spawn per interval
@@ -106,13 +113,13 @@
 		infestedAmount = 2
 		#The time (in seconds) between parasite spawns
 		#Range: 1 ~ 100
-		infestedInterval = 5
+		infestedInterval = 3
 		#The amount of parasites to infest per health point of the champion
 		#Range: 0.0 ~ 1.7976931348623157E308
 		infestedPerHealth = 0.5
 		#The total amount of parasites a champion can house at once
 		#Range: > 1
-		infestedTotal = 1
+		infestedTotal = 20
 		#The mob to use as a parasite for infestation
 		infestedParasite = "minecraft:silverfish"
 		#The mob to use as a parasite for infestation of ender mob
@@ -126,7 +133,7 @@
 	[affixes.knocking]
 		#The multiplier to apply to the knockback strength
 		#Range: 0.0 ~ 1.7976931348623157E308
-		knockingMultiplier = 3.0
+		knockingMultiplier = 5.0
 
 	[affixes.lively]
 		#The amount of health per second regeneration
@@ -137,7 +144,7 @@
 		livelyPassiveMultiplier = 5.0
 		#Set cooldown (in seconds) for regeneration after getting attacked
 		#Range: > 1
-		livelyCooldown = 6
+		livelyCooldown = 3
 
 	[affixes.molten]
 		#Set to true to have Molten champions not be damaged by water
@@ -146,7 +153,7 @@
 	[affixes.plagued]
 		#The effect that will be spread
 		#Format:[effect];[power];[duration(secs)]
-		plaguedEffect = "minecraft:poison;10;1"
+		plaguedEffect = "minecraft:poison;15;1"
 		#The range of the plagued effect
 		#Range: 1 ~ 100
 		plaguedRange = 5
@@ -154,15 +161,15 @@
 	[affixes.reflective]
 		#The minimum percent of damage to reflect back
 		#Range: 0.0 ~ 1.0
-		reflectiveMinPercent = 0.01
+		reflectiveMinPercent = 0.1
 		#The maximum percent of damage to reflect back
 		#Range: 0.0 ~ 1.0
-		reflectiveMaxPercent = 0.25
+		reflectiveMaxPercent = 0.35
 		#The maximum amount of damage to reflect back
 		#Range: > 0
-		reflectiveMax = 80
+		reflectiveMax = 100
 		#Set to true to enable deadly reflected strikes
-		reflectiveLethal = false
+		reflectiveLethal = true
 
 	[affixes.magnetic]
 		#Strength of the magnetic pulling effect

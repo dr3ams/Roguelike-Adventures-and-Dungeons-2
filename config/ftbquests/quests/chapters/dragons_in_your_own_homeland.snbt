@@ -1,16 +1,15 @@
 {
 	id: "53C5ABF9E0AA409B"
-	group: "0FF98225FE921275"
-	order_index: 2
+	group: "5AAD108D5AD37CD9"
+	order_index: 5
 	filename: "dragons_in_your_own_homeland"
 	title: "Dragons!"
 	icon: {
-		id: "iceandfire:dragon_skull_fire"
+		id: "iceandfire:dragon_skull_ice"
 		Count: 1b
-		ForgeCaps: {
-			"dungeons_libraries:built_in_enchantments": {
-				BuiltInEnchantments: [ ]
-			}
+		tag: {
+			Stage: 4
+			DragonAge: 75
 		}
 	}
 	subtitle: ["In your own homeland! Can you believe it?"]
@@ -89,11 +88,8 @@
 			rewards: [
 				{
 					id: "30CD3C0A06062524"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "378E4047813A231B"
@@ -123,11 +119,8 @@
 			rewards: [
 				{
 					id: "583DA70E80B8C5F5"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "42B281BCE447248D"
@@ -157,11 +150,8 @@
 			rewards: [
 				{
 					id: "4CE6826A9233C257"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "6ADD49FD054F9DD4"
@@ -215,11 +205,8 @@
 			rewards: [
 				{
 					id: "3E30AE2D9629E4C6"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "5D928C8C9F538DA7"
@@ -280,11 +267,8 @@
 			rewards: [
 				{
 					id: "7EFA8501085357A1"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "75CFC961259B1336"
@@ -322,11 +306,8 @@
 			rewards: [
 				{
 					id: "18034C65B61182C3"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "41AF7B8FB569E9DD"
@@ -380,11 +361,8 @@
 			rewards: [
 				{
 					id: "6A36A4898DB8644A"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "5E310751F66E613A"
@@ -445,11 +423,8 @@
 			rewards: [
 				{
 					id: "2E183330BA864C07"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "318E1D02F03477BE"
@@ -487,11 +462,8 @@
 			rewards: [
 				{
 					id: "2DB1CD9F94788791"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "164D4BD2BB479AB4"
@@ -545,11 +517,8 @@
 			rewards: [
 				{
 					id: "51EA5FF65F6E9327"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "7EAB0DBAFF8E52BC"
@@ -610,11 +579,8 @@
 			rewards: [
 				{
 					id: "7A0759244E9965C1"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "0D27ED2BF16A4AA3"
@@ -652,11 +618,8 @@
 			rewards: [
 				{
 					id: "4C35137B098BDCF3"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "3C3D98576767791A"
@@ -845,11 +808,8 @@
 			rewards: [
 				{
 					id: "6086E385629FEA9C"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "2F26A22D29BE99B3"
@@ -882,8 +842,7 @@
 			rewards: [
 				{
 					id: "60E6C6CF4FFB3264"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					type: "custom"
 				}
 				{
 					id: "52D384E690F476EE"
@@ -933,8 +892,7 @@
 			rewards: [
 				{
 					id: "64B5E47F79D7D300"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					type: "custom"
 				}
 				{
 					id: "486FA55FF82DD449"
@@ -984,8 +942,7 @@
 			rewards: [
 				{
 					id: "70BE5F07ADEA18DB"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					type: "custom"
 				}
 				{
 					id: "21F8A80AB5038E85"
@@ -1031,11 +988,8 @@
 			rewards: [
 				{
 					id: "75EE57ABC11C925F"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "4B7D0EBE4E931E9D"
@@ -1249,8 +1203,7 @@
 				}
 				{
 					id: "7769863026086622"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "1316C4BA32E9AB72"
@@ -1296,8 +1249,7 @@
 				}
 				{
 					id: "695E21C2584035E7"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "04608340F0455442"
@@ -1390,8 +1342,7 @@
 				}
 				{
 					id: "1671D62EE4C6B344"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "1FCED5988C628E5A"
@@ -1457,8 +1408,7 @@
 				}
 				{
 					id: "7CA575C849101060"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "7C2D1CEE4AC93637"
@@ -1513,8 +1463,7 @@
 				}
 				{
 					id: "282A4BB548AA260D"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "1B4E59C548522525"
@@ -1556,8 +1505,7 @@
 				}
 				{
 					id: "45634D7BDFA55479"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "23C6318A9D3C47FA"
@@ -1602,8 +1550,7 @@
 				}
 				{
 					id: "3AD6B45438D0ED75"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "75FBA3D471EB0100"
@@ -1658,8 +1605,7 @@
 				}
 				{
 					id: "61F7F410250790D2"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "1833976DE0CAA45F"
@@ -1714,8 +1660,7 @@
 				}
 				{
 					id: "15E2FC052D4CB640"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "4DD36758CDEA592E"
@@ -1757,8 +1702,7 @@
 				}
 				{
 					id: "5F84296B8D796E8C"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "5DCD83733D7BBC80"
@@ -1905,8 +1849,7 @@
 				}
 				{
 					id: "47EB14CCD3155BCD"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "66A5DC8A71EF715B"
@@ -1957,8 +1900,7 @@
 			rewards: [
 				{
 					id: "3DA19838512D4538"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					type: "custom"
 				}
 				{
 					id: "20CD35BA3B97EA9E"
@@ -1988,8 +1930,7 @@
 			rewards: [
 				{
 					id: "3A4DD4CDA5A9F519"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					type: "custom"
 				}
 				{
 					id: "532B2A967A226068"
@@ -2050,8 +1991,7 @@
 				}
 				{
 					id: "52C604BCC227F126"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "0A006505415BD5C8"
@@ -2155,8 +2095,7 @@
 			rewards: [
 				{
 					id: "46D947BEF7F828A2"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "57A3028E6722B532"
@@ -2273,8 +2212,7 @@
 			rewards: [
 				{
 					id: "2260B6C93EFC7873"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "6A59B5B22820B573"
@@ -2341,8 +2279,7 @@
 			rewards: [
 				{
 					id: "192B4F3B20491E6B"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					type: "custom"
 				}
 				{
 					id: "445DD890620A050B"
@@ -2375,8 +2312,7 @@
 			rewards: [
 				{
 					id: "592482617000824A"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					type: "custom"
 				}
 				{
 					id: "1B69D646ECC72F1E"
@@ -2409,8 +2345,7 @@
 			rewards: [
 				{
 					id: "38368A0632EF5C2E"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					type: "custom"
 				}
 				{
 					id: "7C6BA0E6DDB1D51A"
@@ -2443,8 +2378,7 @@
 			rewards: [
 				{
 					id: "2296F9566205D541"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					type: "custom"
 				}
 				{
 					id: "216EE400EBEB113B"
@@ -2478,8 +2412,7 @@
 				}
 				{
 					id: "46F170D98127D020"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "0747FECB80159844"
@@ -2548,8 +2481,7 @@
 				}
 				{
 					id: "2F76CF935C4ACE04"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "66C822A577C5CD27"
@@ -2993,8 +2925,7 @@
 				}
 				{
 					id: "69510AC342E71F76"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "10A3CA64EC05C4DB"
@@ -3129,8 +3060,7 @@
 				}
 				{
 					id: "1F3C9F63E88064A4"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "4FC504F121990273"
@@ -3265,8 +3195,7 @@
 				}
 				{
 					id: "56690D7A52BBEED2"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "2EF3120913861A2D"
@@ -3347,8 +3276,7 @@
 				}
 				{
 					id: "44CB3B89F58BB1EC"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "032A1D4D49F31717"
@@ -3452,8 +3380,7 @@
 			rewards: [
 				{
 					id: "26E769C4AF00777D"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "1792FAF62E1B3D31"
@@ -3570,8 +3497,7 @@
 			rewards: [
 				{
 					id: "0B1E3BBC4EF3E223"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "0339BE019DB68790"
@@ -3688,8 +3614,7 @@
 			rewards: [
 				{
 					id: "2CD9CB52584938BF"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "1689F6EA7ECEDA21"
@@ -3806,8 +3731,7 @@
 			rewards: [
 				{
 					id: "61F3CEF068DCD029"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "0344B6529A28D5EE"
@@ -3924,8 +3848,7 @@
 			rewards: [
 				{
 					id: "2F068F488DF34C8C"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "582AA60AD0E05F05"
@@ -4042,8 +3965,7 @@
 			rewards: [
 				{
 					id: "1D0D3D19D32061E1"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "2E3EA11D417CFCF6"
@@ -4160,8 +4082,7 @@
 			rewards: [
 				{
 					id: "2413B6F4AB4712F0"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "2AF99C699F62294D"
@@ -4278,8 +4199,7 @@
 			rewards: [
 				{
 					id: "246F9DB9EDA1819D"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "19962C622DDBBFD4"
@@ -4396,8 +4316,7 @@
 			rewards: [
 				{
 					id: "79724AD8A72322BD"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "6211EA6B6BD15D84"
@@ -4514,8 +4433,7 @@
 			rewards: [
 				{
 					id: "6EC7B9CB28AFC50B"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "157E851368E3BCB0"
@@ -4632,8 +4550,7 @@
 			rewards: [
 				{
 					id: "6D4B9BB3922BC2E6"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "2F49831D2557E9C7"
@@ -4750,8 +4667,7 @@
 			rewards: [
 				{
 					id: "2EF1255665EDC286"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "30AD90127C411951"
@@ -4868,8 +4784,7 @@
 			rewards: [
 				{
 					id: "2B0A9B65AB0901B7"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "3BF1D661EC8FBD1A"
@@ -4986,8 +4901,7 @@
 			rewards: [
 				{
 					id: "6A31BF604C1F8394"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "613C63506A585813"
@@ -5104,8 +5018,7 @@
 			rewards: [
 				{
 					id: "37EE0F9962C788EB"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "03FEFEF64E0D6B86"
@@ -5222,8 +5135,7 @@
 			rewards: [
 				{
 					id: "6B208C3F22E18805"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "49D9BB0B3F9DA2F1"
@@ -5340,8 +5252,7 @@
 			rewards: [
 				{
 					id: "16AE87E42C18DD0E"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "01669B0345F12901"
@@ -5458,8 +5369,7 @@
 			rewards: [
 				{
 					id: "6B229BD0F90ED8EE"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "18D240EAE4FB7D8A"
@@ -5576,8 +5486,7 @@
 			rewards: [
 				{
 					id: "5E1D93E2421F0AED"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "33F19A96528F79C2"
@@ -5694,8 +5603,7 @@
 			rewards: [
 				{
 					id: "310479805AA8D3A1"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "6766469018E01645"
@@ -5812,8 +5720,7 @@
 			rewards: [
 				{
 					id: "6E902EDBC27F6AAB"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "38B393293BF2C8E0"
@@ -5930,8 +5837,7 @@
 			rewards: [
 				{
 					id: "6714A5495AB9FCE6"
-					type: "ftbmoney:money"
-					ftb_money: 30L
+					type: "custom"
 				}
 				{
 					id: "578DBC8140F73623"
@@ -5999,8 +5905,7 @@
 				}
 				{
 					id: "6F00CC47F57ADFB7"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "18CFC9B6FE054AA1"
@@ -6042,8 +5947,7 @@
 				}
 				{
 					id: "78D5688D21DD33C3"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "6E969D8F4A284C64"
@@ -6085,8 +5989,7 @@
 				}
 				{
 					id: "4CD47C78E98A47F3"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "54117358CFAEB747"
@@ -6128,8 +6031,7 @@
 				}
 				{
 					id: "18EB40A6B6377DBF"
-					type: "ftbmoney:money"
-					ftb_money: 5L
+					type: "custom"
 				}
 				{
 					id: "3E50A8ED4E381C97"
@@ -6208,11 +6110,8 @@
 			rewards: [
 				{
 					id: "0A3C8BCBE94E2928"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "5B02AFCBF7D19108"
@@ -6295,11 +6194,8 @@
 			rewards: [
 				{
 					id: "6B160E867B5C5849"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "4DD12C80ACA445AF"
@@ -6382,11 +6278,8 @@
 			rewards: [
 				{
 					id: "013A330E688A1439"
-					type: "pmmo:xpreward"
+					type: "custom"
 					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
 				}
 				{
 					id: "2AABF01BA85D3A02"

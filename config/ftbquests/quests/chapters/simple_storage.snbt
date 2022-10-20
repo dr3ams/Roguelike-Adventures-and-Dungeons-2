@@ -1,28 +1,20 @@
 {
-	id: "000000000000011A"
+	id: "27EF62BB9D2D4031"
 	group: "67B03B24E53297B4"
-	order_index: 4
+	order_index: 2
 	filename: "simple_storage"
 	title: "Storage Solutions"
-	icon: "storagenetwork:master"
+	icon: {
+		id: "kubejs:chest"
+		Count: 1b
+		tag: { }
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: -2.0d
-		y: -3.5d
-		width: 6.0d
-		height: 3.0d
-		rotation: 0.0d
-		image: "rad2:textures/misc/storage_drawers.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
-			x: 10.0d
-			y: 1.5d
+			x: 11.5d
+			y: 5.5d
 			description: ["The root of your Simple Storage Network. You will only need a single root per network."]
 			dependencies: ["0000000000001247"]
 			size: 1.5d
@@ -32,22 +24,15 @@
 				type: "item"
 				item: "storagenetwork:master"
 			}]
-			rewards: [
-				{
-					id: "00000000000004A9"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "7A1C8725E10915F8"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
+			rewards: [{
+				id: "5F2BB0532CA7C353"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
-			x: 9.0d
-			y: 0.5d
+			x: 10.0d
+			y: 4.5d
 			description: ["Link cables are used to link inventories (a chest for example) into a network. Only a single link cable must be in contact with the chest, a standard network cable can then connect the remaining distance to the network."]
 			dependencies: ["00000000000001A1"]
 			id: "00000000000001A3"
@@ -56,33 +41,15 @@
 				type: "item"
 				item: "storagenetwork:storage_kabel"
 			}]
-			rewards: [
-				{
-					id: "00000000000004B2"
-					type: "item"
-					item: "minecraft:emerald"
-				}
-				{
-					id: "45F3A38F5B4EF719"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "0F591974734065AD"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_random"
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "3C318D73A3125C5C"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
 		}
 		{
-			x: 11.5d
-			y: 2.5d
+			x: 13.0d
+			y: 6.5d
 			description: ["This block allows you to craft with items from a network."]
 			dependencies: ["00000000000001A1"]
 			id: "00000000000001A5"
@@ -91,22 +58,15 @@
 				type: "item"
 				item: "storagenetwork:request"
 			}]
-			rewards: [
-				{
-					id: "00000000000004B1"
-					type: "item"
-					item: "minecraft:emerald"
-				}
-				{
-					id: "7177442E69CBB2AC"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
+			rewards: [{
+				id: "00000000000004B1"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
 		}
 		{
-			x: 6.5d
-			y: 1.5d
+			x: 8.5d
+			y: 5.5d
 			description: ["These cables are the basis of the Simple Storage Network. Use these cables to link your network together."]
 			id: "00000000000001A7"
 			tasks: [{
@@ -115,14 +75,14 @@
 				item: "storagenetwork:kabel"
 			}]
 			rewards: [{
-				id: "00000000000004A8"
+				id: "1E83E4F9BB76809B"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
 		}
 		{
-			x: 8.5d
-			y: 2.5d
+			x: 10.0d
+			y: 6.5d
 			description: ["This block will allow you to see what is stored in a network."]
 			dependencies: ["00000000000001A1"]
 			id: "00000000000001A9"
@@ -131,22 +91,15 @@
 				type: "item"
 				item: "storagenetwork:inventory"
 			}]
-			rewards: [
-				{
-					id: "00000000000004AA"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "33A8339A93F67256"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
+			rewards: [{
+				id: "11CD692C4D6802E4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
-			x: 11.0d
-			y: 0.5d
+			x: 13.0d
+			y: 4.5d
 			description: ["An import cable imports items INTO the network (aka the output of machine into the network). Only a single import cable needs to be placed on a block to attach it to a network, the remaining distance can be connected with standard network cable."]
 			dependencies: ["00000000000001A1"]
 			id: "0000000000001132"
@@ -157,26 +110,21 @@
 			}]
 			rewards: [
 				{
-					id: "4A09F33A42CA6D8B"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					id: "1B1F98DC6263F64D"
+					type: "xp"
+					xp: 430
 				}
 				{
-					id: "75B581F4E04B2F0F"
+					id: "28610D411322E501"
 					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_random"
-						}
-					}
+					item: "kubejs:emerald_nugget"
+					random_bonus: 3
 				}
 			]
 		}
 		{
-			x: 10.0d
-			y: 0.0d
+			x: 11.5d
+			y: 4.0d
 			description: [
 				"An export cable pulls items OUT of a network and into a block (aka importing a item into a machine from the network). Only a single export cable needs to be placed to put into a block, they can be connected by standard network cable to the network."
 				"Can be right clicked to set whitelists/blacklists of items for the link."
@@ -190,26 +138,21 @@
 			}]
 			rewards: [
 				{
-					id: "50F9A905C4B7B46D"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					id: "5F9FA6CD0989C90B"
+					type: "xp"
+					xp: 430
 				}
 				{
-					id: "14C9D01A08565F01"
+					id: "00B15957F62890ED"
 					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_random"
-						}
-					}
+					item: "kubejs:emerald_nugget"
+					random_bonus: 3
 				}
 			]
 		}
 		{
-			x: 8.5d
-			y: -0.5d
+			x: 10.5d
+			y: 3.5d
 			description: ["Functions as a link cable but can limit the items that are connected and set storage priority."]
 			dependencies: ["00000000000001A3"]
 			id: "0000000000001136"
@@ -218,21 +161,23 @@
 				type: "item"
 				item: "storagenetwork:filter_kabel"
 			}]
-			rewards: [{
-				id: "0ACCBAF65F991BAB"
-				type: "item"
-				item: {
-					id: "ftbquests:lootcrate"
-					Count: 1b
-					tag: {
-						type: "materials_random"
-					}
+			rewards: [
+				{
+					id: "1C241C575BC7499A"
+					type: "xp"
+					xp: 430
 				}
-			}]
+				{
+					id: "30D7A9DD54D4B116"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 3
+				}
+			]
 		}
 		{
-			x: 11.5d
-			y: -0.5d
+			x: 12.5d
+			y: 3.5d
 			description: ["Acts like an input cable but allows the input to the network to be filtered."]
 			dependencies: ["0000000000001132"]
 			id: "0000000000001138"
@@ -241,21 +186,23 @@
 				type: "item"
 				item: "storagenetwork:import_filter_kabel"
 			}]
-			rewards: [{
-				id: "4903646E96543313"
-				type: "item"
-				item: {
-					id: "ftbquests:lootcrate"
-					Count: 1b
-					tag: {
-						type: "materials_random"
-					}
+			rewards: [
+				{
+					id: "12462BD0B1450058"
+					type: "xp"
+					xp: 430
 				}
-			}]
+				{
+					id: "6B175AA3D96732C0"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 4
+				}
+			]
 		}
 		{
-			x: 9.5d
-			y: 3.0d
+			x: 11.0d
+			y: 7.0d
 			description: ["This upgrade will improve the speed that a cable will operate at. Can be input when right clicking a linked cable and input at the top right."]
 			dependencies: ["00000000000001A1"]
 			id: "000000000000113E"
@@ -264,15 +211,22 @@
 				type: "item"
 				item: "storagenetwork:speed_upgrade"
 			}]
-			rewards: [{
-				id: "7AC0A34DDD8A5061"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
+			rewards: [
+				{
+					id: "18E54E01CD8C6511"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "01908C4FAD174446"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
 		}
 		{
-			x: 9.5d
-			y: 4.5d
+			x: 10.0d
+			y: 7.5d
 			description: ["This upgrade will increase the size of a stack of items that a link cable can move. Can be input by right clicking a linked cable and input at the top right."]
 			dependencies: ["000000000000113E"]
 			id: "0000000000001140"
@@ -281,15 +235,22 @@
 				type: "item"
 				item: "storagenetwork:stack_upgrade"
 			}]
-			rewards: [{
-				id: "1515B5FAE6E75ACE"
-				type: "ftbmoney:money"
-				ftb_money: 20L
-			}]
+			rewards: [
+				{
+					id: "02269FE7FEC42B59"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "781E0DA22B774DF3"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
 		}
 		{
-			x: 10.5d
-			y: 3.0d
+			x: 12.0d
+			y: 7.0d
 			description: [
 				"This remote will allow you to see the contents of a network at a distance. Can be linked to a network by shift right clicking the root with the remote."
 				""
@@ -302,15 +263,22 @@
 				type: "item"
 				item: "storagenetwork:inventory_remote"
 			}]
-			rewards: [{
-				id: "0F11964F5B71F4EA"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
+			rewards: [
+				{
+					id: "251D7BC60B3B7D9F"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "18521CF849183838"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
 		}
 		{
-			x: 10.5d
-			y: 4.5d
+			x: 13.0d
+			y: 7.5d
 			description: [
 				"An upgrade of the storage remote that allows you to craft at a distance from your storage network."
 				""
@@ -323,15 +291,22 @@
 				type: "item"
 				item: "storagenetwork:crafting_remote"
 			}]
-			rewards: [{
-				id: "497E653A506CE07E"
-				type: "ftbmoney:money"
-				ftb_money: 20L
-			}]
+			rewards: [
+				{
+					id: "74AF05A268BEB1C7"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "779ED19F45C0BDB6"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
 		}
 		{
-			x: 8.0d
-			y: 1.5d
+			x: 9.5d
+			y: 5.5d
 			description: ["The Network Guide Book will be your guide to Simple Storage Network machines and mechanics."]
 			dependencies: ["00000000000001A7"]
 			id: "0000000000001247"
@@ -353,8 +328,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -1.5d
+			x: -2.5d
+			y: 8.5d
 			description: [
 				"The Drawer Controller will allow you to connect all storage drawers in a 12 block radius making a large combined storage."
 				""
@@ -367,20 +342,20 @@
 				item: "storagedrawers:controller"
 			}]
 			rewards: [{
-				id: "2CD6ED900C5F902E"
+				id: "77D62054D856C3A6"
 				type: "item"
 				item: {
 					id: "ftbquests:lootcrate"
 					Count: 1b
 					tag: {
-						type: "ingots_basic"
+						type: "common_loot_crate"
 					}
 				}
 			}]
 		}
 		{
-			x: -1.0d
-			y: -1.5d
+			x: -1.5d
+			y: 8.5d
 			description: ["The Drawer Controller Slave will allow you to extend your storage system when connected to a storage controller. This is more performance friendly than having multiple controllers."]
 			dependencies: ["66D26625F2F9CB42"]
 			id: "159670F55DD10CD9"
@@ -390,20 +365,14 @@
 				item: "storagedrawers:controller_slave"
 			}]
 			rewards: [{
-				id: "498E7334455DB466"
+				id: "546D82078400C8F1"
 				type: "item"
-				item: {
-					id: "ftbquests:lootcrate"
-					Count: 1b
-					tag: {
-						type: "ingots_basic"
-					}
-				}
+				item: "aquaculture:lockbox"
 			}]
 		}
 		{
 			x: -2.0d
-			y: 5.0d
+			y: 9.5d
 			description: [
 				"Compacting drawers are a special drawer that will hold a specific material type and allow it to be changed between its different material amounts."
 				""
@@ -416,20 +385,14 @@
 				item: "storagedrawers:compacting_drawers_3"
 			}]
 			rewards: [{
-				id: "6D8EA48E2F86153F"
+				id: "4E4A690FE189AAE4"
 				type: "item"
-				item: {
-					id: "ftbquests:lootcrate"
-					Count: 1b
-					tag: {
-						type: "materials_random"
-					}
-				}
+				item: "kubejs:copper_coin"
 			}]
 		}
 		{
-			x: -2.0d
-			y: 6.5d
+			x: -1.0d
+			y: 9.5d
 			description: [
 				"The Drawer Key will allow you to lock an item to a storage drawer slot. This will lock that item into that slot, even when all items are removed from the drawer."
 				""
@@ -448,19 +411,27 @@
 					item: "storagedrawers:quantify_key"
 				}
 			]
-			rewards: [{
-				id: "330991C9EC35ED62"
-				type: "ftbmoney:money"
-				ftb_money: 20L
-			}]
+			rewards: [
+				{
+					id: "2B77907382DA2297"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					random_bonus: 23
+				}
+				{
+					id: "315C51443D192085"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
 		}
 		{
-			x: -3.5d
-			y: 5.0d
+			x: -3.0d
+			y: 1.5d
 			description: ["Full-size 1x1 storage drawers will store 32 stacks of an item."]
-			id: "0994B5C8D2761BEA"
+			id: "780A36F4890D3165"
 			tasks: [{
-				id: "0498B4CE87823DEF"
+				id: "38D6DB6F8EDE2E63"
 				type: "item"
 				title: "Full Storage Drawer: Single Item"
 				item: {
@@ -497,14 +468,14 @@
 				}
 			}]
 			rewards: [{
-				id: "7E964647D9EF8BB9"
-				type: "ftbmoney:money"
-				ftb_money: 10L
+				id: "535A8845E39F05EF"
+				type: "xp"
+				xp: 350
 			}]
 		}
 		{
-			x: -3.5d
-			y: 6.5d
+			x: -2.0d
+			y: 1.5d
 			description: ["Full-size 1x2 storage drawers will store 16 stacks of an item per drawer (32 stacks overall)."]
 			id: "5B1664C5DEB1160D"
 			tasks: [{
@@ -545,14 +516,14 @@
 				}
 			}]
 			rewards: [{
-				id: "3D1A0C0B8FBF048A"
-				type: "ftbmoney:money"
-				ftb_money: 10L
+				id: "37AF758D852152D4"
+				type: "xp"
+				xp: 350
 			}]
 		}
 		{
-			x: -3.5d
-			y: 8.0d
+			x: -1.0d
+			y: 1.5d
 			description: ["Full-size 2x2 storage drawers will store 8 stacks of an item per drawer (32 stacks overall)."]
 			id: "3EA48F9716705F18"
 			tasks: [{
@@ -593,14 +564,14 @@
 				}
 			}]
 			rewards: [{
-				id: "4EA1ACAE495A2A39"
-				type: "ftbmoney:money"
-				ftb_money: 10L
+				id: "671C005E9C17CEE0"
+				type: "xp"
+				xp: 350
 			}]
 		}
 		{
-			x: -0.5d
-			y: 5.0d
+			x: -3.0d
+			y: 2.5d
 			description: ["Half-size 1x1 storage drawers will store 16 stacks of an item."]
 			id: "5649FC1867467561"
 			tasks: [{
@@ -641,14 +612,14 @@
 				}
 			}]
 			rewards: [{
-				id: "331EB73832860C12"
-				type: "ftbmoney:money"
-				ftb_money: 10L
+				id: "477FBB901E45C461"
+				type: "xp"
+				xp: 350
 			}]
 		}
 		{
-			x: -0.5d
-			y: 6.5d
+			x: -2.0d
+			y: 2.5d
 			description: ["Half-size 1x2 storage drawers will store 8 stacks of an item per drawer (16 stacks overall)."]
 			id: "057CB349E1D67E10"
 			tasks: [{
@@ -689,14 +660,14 @@
 				}
 			}]
 			rewards: [{
-				id: "0E82A0954E7F0120"
-				type: "ftbmoney:money"
-				ftb_money: 10L
+				id: "675A263605EDE356"
+				type: "xp"
+				xp: 350
 			}]
 		}
 		{
-			x: -0.5d
-			y: 8.0d
+			x: -1.0d
+			y: 2.5d
 			description: ["Half-size 2x2 storage drawers will store 4 stacks of an item per drawer (16 stacks overall)."]
 			id: "227177C9C7B62C0C"
 			tasks: [{
@@ -737,14 +708,14 @@
 				}
 			}]
 			rewards: [{
-				id: "16BE27C8206D7EE7"
-				type: "ftbmoney:money"
-				ftb_money: 10L
+				id: "688748F3DADEB13D"
+				type: "xp"
+				xp: 350
 			}]
 		}
 		{
-			x: -2.0d
-			y: 8.0d
+			x: -3.0d
+			y: 9.5d
 			description: ["Trim pieces will allow you to extend your network around corners or other configurations without sacrificing a true storage drawer. It is helpful when setting up a controller based system."]
 			id: "039F4C3E503F2102"
 			tasks: [{
@@ -785,14 +756,14 @@
 				}
 			}]
 			rewards: [{
-				id: "7CF2A20028604705"
-				type: "ftbmoney:money"
-				ftb_money: 10L
+				id: "0C520E9F9D47AC8E"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
 			x: -1.5d
-			y: 0.0d
+			y: 3.5d
 			description: ["The storage downgrade will drop the storage of the drawer it is installed in to one stack."]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "61E553A98BE5C2EC"
@@ -801,23 +772,16 @@
 				type: "item"
 				item: "storagedrawers:one_stack_upgrade"
 			}]
-			rewards: [
-				{
-					id: "2FB90C84B853B4DF"
-					type: "item"
-					item: "minecraft:potato"
-					count: 2
-				}
-				{
-					id: "3FAFEC3DC149DCB6"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
+			rewards: [{
+				id: "2FB90C84B853B4DF"
+				type: "item"
+				item: "minecraft:potato"
+				count: 2
+			}]
 		}
 		{
 			x: -0.5d
-			y: 0.5d
+			y: 4.0d
 			description: ["The first level of storage upgrade will increase the storage of a drawer block by 2 times."]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "0F7BAC3F5F3CDBDB"
@@ -827,14 +791,14 @@
 				item: "storagedrawers:obsidian_storage_upgrade"
 			}]
 			rewards: [{
-				id: "36E6CF8C4306FAC9"
-				type: "ftbmoney:money"
-				ftb_money: 10L
+				id: "28FC0373099B4DEB"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
 			x: 0.0d
-			y: 1.5d
+			y: 5.0d
 			description: ["The second level of storage upgrade will increase the storage of a drawer block by 4 times."]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "723A9F5E5263517D"
@@ -843,15 +807,22 @@
 				type: "item"
 				item: "storagedrawers:iron_storage_upgrade"
 			}]
-			rewards: [{
-				id: "7ED2B53E7DE35904"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
+			rewards: [
+				{
+					id: "4869B0D941F677E6"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "5AEF5EE6D368CB8F"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
 		}
 		{
 			x: 0.0d
-			y: 2.5d
+			y: 6.0d
 			description: ["The third level of storage upgrade will increase the storage of a drawer block by 8 times."]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "71C41E71CF881A59"
@@ -860,15 +831,28 @@
 				type: "item"
 				item: "storagedrawers:gold_storage_upgrade"
 			}]
-			rewards: [{
-				id: "4C3478B03F9EA8D2"
-				type: "ftbmoney:money"
-				ftb_money: 20L
-			}]
+			rewards: [
+				{
+					id: "36AF3B6B317F7E6C"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "67F6560BAB1C9A11"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "54A3C911F5328322"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					random_bonus: 35
+				}
+			]
 		}
 		{
 			x: -0.5d
-			y: 3.5d
+			y: 7.0d
 			description: ["The fourth level of storage upgrade will increase the storage of a drawer block by 16 times."]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "4F02FD27A3688E42"
@@ -877,15 +861,23 @@
 				type: "item"
 				item: "storagedrawers:diamond_storage_upgrade"
 			}]
-			rewards: [{
-				id: "3CE46348D03DDB94"
-				type: "ftbmoney:money"
-				ftb_money: 20L
-			}]
+			rewards: [
+				{
+					id: "3CB34D1222F725B0"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "7DF06D59A675095D"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 11
+				}
+			]
 		}
 		{
 			x: -1.5d
-			y: 4.0d
+			y: 7.5d
 			description: ["The fifth, and final, level of storage upgrade will increase the storage of a drawer block by 32 times."]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "0EA88FDF0A8CF786"
@@ -894,15 +886,23 @@
 				type: "item"
 				item: "storagedrawers:emerald_storage_upgrade"
 			}]
-			rewards: [{
-				id: "47E031118555788E"
-				type: "ftbmoney:money"
-				ftb_money: 20L
-			}]
+			rewards: [
+				{
+					id: "5749FBBD5FE795BE"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 11
+				}
+				{
+					id: "3C996D910B79004B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 		}
 		{
 			x: -2.5d
-			y: 0.0d
+			y: 3.5d
 			description: ["The void upgrade will void any items added to the drawer past its max capacity."]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "338FEC8C826F9B46"
@@ -912,14 +912,14 @@
 				item: "storagedrawers:void_upgrade"
 			}]
 			rewards: [{
-				id: "7FB55526695FE1F8"
-				type: "xp_levels"
-				xp_levels: 3
+				id: "79F0AD730B814D04"
+				type: "xp"
+				xp: 400
 			}]
 		}
 		{
 			x: -3.5d
-			y: 0.5d
+			y: 4.0d
 			description: ["The conversion upgrade will convert materials from different mods to a single type. (You should not run into this in this pack)."]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "6175CD799995E927"
@@ -935,15 +935,16 @@
 					item: "minecraft:potato"
 				}
 				{
-					id: "248AC7F4836D57E6"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					id: "4EED8A8F4FA38480"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 4
 				}
 			]
 		}
 		{
 			x: -2.0d
-			y: 2.0d
+			y: 5.5d
 			shape: "hexagon"
 			description: ["This upgrade template is the base of many upgrades that can be applied to storage drawers."]
 			size: 1.5d
@@ -961,7 +962,7 @@
 		}
 		{
 			x: -4.0d
-			y: 1.5d
+			y: 5.0d
 			description: ["The illumination upgrade will make the item and number count on the front of the drawer glow, being more visible in less lit areas."]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "52B6116AD14A0D31"
@@ -971,14 +972,14 @@
 				item: "storagedrawers:illumination_upgrade"
 			}]
 			rewards: [{
-				id: "187B5DDE5F447DF7"
-				type: "ftbmoney:money"
-				ftb_money: 10L
+				id: "0EB5C816490FC1BD"
+				type: "xp"
+				xp: 400
 			}]
 		}
 		{
 			x: -4.0d
-			y: 2.5d
+			y: 6.0d
 			description: ["The redstone upgrade will ouptut a redstone signal equivalent to the level that the storage is full."]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "1A1749750B6EF51A"
@@ -988,14 +989,14 @@
 				item: "storagedrawers:redstone_upgrade"
 			}]
 			rewards: [{
-				id: "4C078574C57750F7"
-				type: "ftbmoney:money"
-				ftb_money: 10L
+				id: "16ACE51DF5CF002B"
+				type: "xp"
+				xp: 400
 			}]
 		}
 		{
 			x: -3.5d
-			y: 3.5d
+			y: 7.0d
 			description: ["The min redstone upgrade will output a redstone signal equivalent to the lowest filled drawer level."]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "17742B177BFBE35C"
@@ -1005,14 +1006,14 @@
 				item: "storagedrawers:min_redstone_upgrade"
 			}]
 			rewards: [{
-				id: "7737ECBF9C2AEB55"
-				type: "ftbmoney:money"
-				ftb_money: 10L
+				id: "43F4376F7F16A77C"
+				type: "xp"
+				xp: 400
 			}]
 		}
 		{
 			x: -2.5d
-			y: 4.0d
+			y: 7.5d
 			description: ["The max redstone upgrade will output a redstone signal equivalent to how full the most filled drawer."]
 			dependencies: ["3B2469805D2E4E2B"]
 			id: "49997B92CC48A598"
@@ -1022,59 +1023,1288 @@
 				item: "storagedrawers:max_redstone_upgrade"
 			}]
 			rewards: [{
-				id: "726E2B0CE1C6A516"
-				type: "ftbmoney:money"
-				ftb_money: 10L
+				id: "057C6F0EAA4883BC"
+				type: "xp"
+				xp: 400
 			}]
+		}
+		{
+			x: 1.5d
+			y: 13.0d
+			id: "2B883394188D4FAB"
+			tasks: [{
+				id: "508E0C08D77B4E13"
+				type: "item"
+				item: "storageracks:stone_controller"
+			}]
+			rewards: [{
+				id: "15793FDB88CB6488"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "common_loot_crate"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			id: "2054E11CE018502D"
+			tasks: [{
+				id: "64A4E958029CF225"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "749516CF5D97E14D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "common_loot_crate"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "6DAAA86AA643EA39"
+			tasks: [{
+				id: "3DC2525C6BB58843"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "42954D6EAC187663"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 32
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			dependencies: ["2054E11CE018502D"]
+			id: "51B0905EE4A366F2"
+			tasks: [{
+				id: "598C6F91DA4E32CB"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [
+				{
+					id: "30A5287C2A28B080"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "7C26006CDDA17532"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			dependencies: ["51B0905EE4A366F2"]
+			id: "6467F1F232F9DD67"
+			tasks: [{
+				id: "024AF2FE3776A5D1"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [
+				{
+					id: "1612AC8AA1AA079A"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "38946A0C234B033C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6CA7449EFCF0BE75"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 12
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			dependencies: ["6467F1F232F9DD67"]
+			id: "505D5D5258983F9E"
+			tasks: [{
+				id: "06FF7520893F649F"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [
+				{
+					id: "419072CF7F002C30"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "2FC30219A32EDA77"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0D65063094B595B3"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 6
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 8.0d
+			dependencies: ["505D5D5258983F9E"]
+			id: "4643DCF8052DED30"
+			tasks: [{
+				id: "3647F2A2539232D2"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [
+				{
+					id: "0D8CA6DE66C166C2"
+					type: "item"
+					item: "kubejs:diamond_coin"
+				}
+				{
+					id: "0B3257AF7809ED05"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "037E77EB50923D7E"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 11.5d
+			dependencies: ["486014CD2A837708"]
+			id: "749617EBF5D1413B"
+			tasks: [{
+				id: "68BEC4CF2EED289E"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:smelting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "76648DF25385B728"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1D55D699EFD3EB00"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 4
+				}
+				{
+					id: "6430058AEA5041DB"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 12.0d
+			dependencies: ["486014CD2A837708"]
+			id: "6FFB315B53D77C06"
+			tasks: [{
+				id: "378EF9C1BF3E8B09"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:crafting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "445251D11C8AE0EC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "02C2946703E7EA1D"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 4
+				}
+				{
+					id: "47F56F71790EC75D"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 13.0d
+			dependencies: ["2B883394188D4FAB"]
+			id: "5E085EB8EE5845EB"
+			tasks: [{
+				id: "1D5EB0F7B62CE92F"
+				type: "item"
+				item: "storageracks:iron_controller"
+			}]
+			rewards: [{
+				id: "2AE0F5119B383B2C"
+				type: "item"
+				item: "minecraft:iron_nugget"
+				count: 4
+				random_bonus: 10
+			}]
+		}
+		{
+			x: 4.5d
+			y: 13.0d
+			dependencies: ["5E085EB8EE5845EB"]
+			id: "461A21647F55A685"
+			tasks: [{
+				id: "373E2035C7F31E3D"
+				type: "item"
+				item: "storageracks:gold_controller"
+			}]
+			rewards: [
+				{
+					id: "3FCE713CA4614024"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					random_bonus: 26
+				}
+				{
+					id: "684FA42FAEC7ACD7"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 13.0d
+			dependencies: ["461A21647F55A685"]
+			id: "3EA9EB7CBDE16888"
+			tasks: [{
+				id: "398CB39CCD618BB3"
+				type: "item"
+				item: "storageracks:emerald_controller"
+			}]
+			rewards: [
+				{
+					id: "2FD6C26EAA673CE7"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 9
+				}
+				{
+					id: "448D00E8E0285D55"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 13.0d
+			dependencies: ["3EA9EB7CBDE16888"]
+			id: "6966C1E45AD713A2"
+			tasks: [{
+				id: "7F1466B5C7DB77BC"
+				type: "item"
+				item: "storageracks:diamond_controller"
+			}]
+			rewards: [
+				{
+					id: "1205DED20F872FF3"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 11
+				}
+				{
+					id: "063D1B51514796FF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			id: "4528C4656D892D07"
+			tasks: [{
+				id: "61A839CACDC3E1CE"
+				type: "item"
+				title: "Any #forge:barrels/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:barrels/wooden"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B9AD27948221290"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 32
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			dependencies: ["4528C4656D892D07"]
+			id: "35EBF526A8992DA7"
+			tasks: [{
+				id: "5AA84C7A6A118F4F"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:iron_barrel"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "77D36F1475DB4636"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "3D732CCEE8623D6E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["6DAAA86AA643EA39"]
+			id: "7E7F95B6596D988C"
+			tasks: [{
+				id: "1B31C98B0FE398E9"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:iron_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2B5AFE80F614669A"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "329E9D8AEB6B5DAF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["7E7F95B6596D988C"]
+			id: "16EC6DF310001E72"
+			tasks: [{
+				id: "63A28F6B136DE309"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:gold_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "062EE0D6C77EB40D"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "614A6206C2F82205"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "76F1815F916902C7"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 10
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["16EC6DF310001E72"]
+			id: "78D2BC4C1F310261"
+			tasks: [{
+				id: "45C456A41BA34DAE"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:diamond_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "54D9D0E6BA5E2A02"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "57EB3347D8701541"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5EAEB5B597E7BAB0"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 6
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			dependencies: ["78D2BC4C1F310261"]
+			id: "1F26F1D1C891FB82"
+			tasks: [{
+				id: "36D75143B63631B8"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:netherite_chest"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "23410DC9A2C676E3"
+					type: "item"
+					item: "kubejs:diamond_coin"
+				}
+				{
+					id: "3D084A88605BAADA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "62182B50F64F5C53"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			dependencies: ["35EBF526A8992DA7"]
+			id: "054F88DD8590E7EB"
+			tasks: [{
+				id: "6D8A31110C1D9566"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:gold_barrel"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1C04D003D8E8457A"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "2A2D24D542C3570E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "39C3C1335AD92350"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 10
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			dependencies: ["054F88DD8590E7EB"]
+			id: "0642CBB7333C4B61"
+			tasks: [{
+				id: "34ADC3D5DD862ECC"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:diamond_barrel"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4ABBEB333F4448BB"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "7385589338F12F2D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "735DBC5B6A6527EA"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 6
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			dependencies: ["0642CBB7333C4B61"]
+			id: "27C7119138CFE59D"
+			tasks: [{
+				id: "433935F707CE8622"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:netherite_barrel"
+					Count: 1b
+					tag: {
+						woodType: "oak"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "32F3F65E9A51C33D"
+					type: "item"
+					item: "kubejs:diamond_coin"
+				}
+				{
+					id: "1CC30A35A0D749CA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "492535708D90746F"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["088BA26A90FD99BF"]
+			id: "2D6C6A382B8A3998"
+			tasks: [{
+				id: "409A3CB114A90A5E"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:crafting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1FD3B3287F2DBC45"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "61F7E7AFD736E067"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+				}
+				{
+					id: "0E81BAE716762FE5"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["088BA26A90FD99BF"]
+			id: "0F5B730633284C4B"
+			tasks: [{
+				id: "77B5D113DD54E40D"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:smelting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "256551DC29ECC405"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "72EE4A3C00E3E9A9"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+				}
+				{
+					id: "11A2BBBD798DB31F"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["088BA26A90FD99BF"]
+			id: "5F3DA96F838C3362"
+			tasks: [{
+				id: "765B65A0C48E4E4A"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:smoking_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "543EC53300AC4A03"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "358388BB5C95CFCA"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			dependencies: ["088BA26A90FD99BF"]
+			id: "68F1BCCCFD5AE85A"
+			tasks: [{
+				id: "6B4C8E61B1D3E094"
+				type: "item"
+				item: {
+					id: "sophisticatedstorage:blasting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "49B858DF850F8809"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "535C15AEEE60DFDA"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["088BA26A90FD99BF"]
+			id: "0FC6F4326FD6DE76"
+			tasks: [{
+				id: "6281C76D96D94E0A"
+				type: "item"
+				item: "sophisticatedstorage:stonecutter_upgrade"
+			}]
+			rewards: [
+				{
+					id: "3AFD85DA6C72F2F4"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "47DF68BFCA45D965"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+				}
+				{
+					id: "0061CFBDF6CFCF50"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["088BA26A90FD99BF"]
+			id: "0D130C4EF0D1822F"
+			tasks: [{
+				id: "648185142F20762C"
+				type: "item"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+			}]
+			rewards: [
+				{
+					id: "31D0645ED9DC5F11"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "7C7E8D73BDC030B0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["0D130C4EF0D1822F"]
+			id: "23250CF5304B881D"
+			tasks: [{
+				id: "638783E31C82CA99"
+				type: "item"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+			}]
+			rewards: [
+				{
+					id: "7231453F1F07A820"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "736F0D5535C7D6A2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "0FD37AD985B9BEBC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			dependencies: ["23250CF5304B881D"]
+			id: "2D81B6ABB60C669B"
+			tasks: [{
+				id: "7B1FA74D9AF698D3"
+				type: "item"
+				item: "sophisticatedstorage:stack_upgrade_tier_3"
+			}]
+			rewards: [
+				{
+					id: "38C8ED8919918A9C"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "76C59304AF76D7AC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "10E75674F58596EC"
+					type: "item"
+					item: "minecraft:gold_ingot"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["2D81B6ABB60C669B"]
+			id: "457E4B0F63FB2868"
+			tasks: [{
+				id: "3637C961A337F2B0"
+				type: "item"
+				item: "sophisticatedstorage:stack_upgrade_tier_4"
+			}]
+			rewards: [
+				{
+					id: "594D495F9BAB939E"
+					type: "item"
+					item: "kubejs:diamond_coin"
+				}
+				{
+					id: "725F8EEC7D059DEF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "640146EB3383E805"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			shape: "octagon"
+			size: 1.4d
+			id: "088BA26A90FD99BF"
+			tasks: [{
+				id: "7674683C148A1AB0"
+				type: "item"
+				item: "sophisticatedstorage:upgrade_base"
+			}]
+			rewards: [{
+				id: "07999E986B9DE204"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			id: "486014CD2A837708"
+			tasks: [{
+				id: "3590383963FD3C82"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+			rewards: [{
+				id: "70D0F5F39CBA6C74"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.0d
+			dependencies: ["486014CD2A837708"]
+			id: "24584908ED5D7D8F"
+			tasks: [{
+				id: "461F5869993AF689"
+				type: "item"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+			}]
+			rewards: [
+				{
+					id: "01024E5329313F19"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1F750A9722B3C657"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 4
+				}
+				{
+					id: "64A9B086235EB004"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 4
+				}
+			]
 		}
 		{
 			x: 2.0d
-			y: 2.0d
-			id: "48C004235BF8136A"
+			y: 10.0d
+			dependencies: ["486014CD2A837708"]
+			id: "579DEF01E6EFF706"
 			tasks: [{
-				id: "61B284A6955B9176"
+				id: "079AC00E00028B39"
+				type: "item"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+			}]
+			rewards: [
+				{
+					id: "5EE39CD553D5125F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6EF6DD02B4198E4B"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 4
+				}
+				{
+					id: "4696B8833844228C"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 11.0d
+			dependencies: ["486014CD2A837708"]
+			id: "2D871A1AA98301BA"
+			tasks: [{
+				id: "093D8801192208FB"
+				type: "item"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+			rewards: [
+				{
+					id: "1F8DCF2E2C092F9C"
+					type: "item"
+					item: "kubejs:diamond_coin"
+				}
+				{
+					id: "66A714A213A81242"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "6774EDF4C6A4E42E"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+					random_bonus: 3
+				}
+				{
+					id: "58F8AF89D3613FC6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 11.5d
+			dependencies: ["486014CD2A837708"]
+			id: "5B6AAE02B8E5C0C9"
+			tasks: [{
+				id: "749B451D6990169C"
 				type: "item"
 				item: {
-					id: "bagofyurting:bag_of_yurting"
+					id: "sophisticatedbackpacks:blasting_upgrade"
 					Count: 1b
-					tag: {
-						radius: 0
-					}
 					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
+						"polymorph:stack_recipe_data": { }
 					}
 				}
 			}]
 			rewards: [{
-				id: "2B0534266A2508E5"
-				type: "xp"
-				xp: 100
+				id: "2A784D880FA6D122"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "common_loot_crate"
+					}
+				}
 			}]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
-			id: "6E26B79892F262D0"
+			x: 6.5d
+			y: 11.0d
+			dependencies: ["486014CD2A837708"]
+			id: "056DE2F6D3CBD844"
 			tasks: [{
-				id: "3C84CB2059B31BE2"
+				id: "5705D47E04C47238"
 				type: "item"
-				item: {
-					id: "atum:palm_crate"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+			}]
+			rewards: [
+				{
+					id: "3C127343CBFBE658"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3DF2FFF583F13247"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 4
+				}
+				{
+					id: "4435593D6B57A89C"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 8.0d
+			id: "6FF0CFAB17FEE6B6"
+			tasks: [{
+				id: "31D9B2EC82719E12"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+			rewards: [
+				{
+					id: "7BFD84C89DECBBF3"
+					type: "item"
+					item: "kubejs:copper_coin"
+					random_bonus: 1
+				}
+				{
+					id: "2EA9E277285D5E72"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			dependencies: ["5FF093DB7AF16ACC"]
+			id: "74FDF9EB8A5A2783"
+			tasks: [{
+				id: "3031F920EB366F10"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}]
+			rewards: [
+				{
+					id: "1A68E35631DDCE7F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
 						}
 					}
 				}
+				{
+					id: "31C590FA3BAC453B"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "3690FF57647683A5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "78D8305B71672574"
+					type: "item"
+					item: "aquaculture:lockbox"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			dependencies: ["6FF0CFAB17FEE6B6"]
+			id: "5FF093DB7AF16ACC"
+			tasks: [{
+				id: "61F4F842195823E2"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
 			}]
-			rewards: [{
-				id: "6859A73C10B8D858"
-				type: "xp"
-				xp: 100
+			rewards: [
+				{
+					id: "2DD9C83934B46B68"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "01BFD51A96EBB20B"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "2BA1664B7D8A1411"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "4FD41CC92131D98F"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			dependencies: ["74FDF9EB8A5A2783"]
+			id: "65FD322E1FD69FA6"
+			tasks: [{
+				id: "21DBB0106673CB6F"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
 			}]
+			rewards: [
+				{
+					id: "287E115B9A8DFDC9"
+					type: "item"
+					item: "kubejs:diamond_coin"
+				}
+				{
+					id: "13B7BB09FCF60CA3"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+					random_bonus: 2
+				}
+				{
+					id: "7FDDEA6BDA4D638B"
+					type: "item"
+					item: "minecraft:diamond"
+					random_bonus: 2
+				}
+				{
+					id: "0C4FB6EDA98FFF9C"
+					type: "item"
+					item: "minecraft:emerald"
+					random_bonus: 2
+				}
+				{
+					id: "546794C063319A01"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 9.0d
+			dependencies: ["486014CD2A837708"]
+			id: "75C8964025171C77"
+			tasks: [{
+				id: "34C6ADEFCB6B861A"
+				type: "item"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+			}]
+			rewards: [
+				{
+					id: "0B8A232901613A52"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5AA6D6F9809A9BF9"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 4
+				}
+				{
+					id: "0D9435959184E179"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 10.0d
+			dependencies: ["486014CD2A837708"]
+			id: "66E58F7757452A10"
+			tasks: [{
+				id: "78EA893C2A6F9B91"
+				type: "item"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+			rewards: [
+				{
+					id: "7B0D1AEC19B95D6C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7F1C23E1F8BA1631"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 4
+				}
+				{
+					id: "2603DE7A791FF866"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 4
+				}
+			]
 		}
 	]
 }

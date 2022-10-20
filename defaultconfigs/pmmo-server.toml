@@ -1,0 +1,232 @@
+
+#General settings on the server
+[General]
+	#how much extra reach should a player get in creative mode
+	#Range: 4.0 ~ 1.7976931348623157E308
+	"Creative Reach" = 5.0
+	#Which block should be used for salvaging
+	"Salvage Block" = "minecraft:smithing_table"
+
+#Settings related level gain
+[Levels]
+	#The highest level a player can acheive in any skill.
+	#NOTE: if this is changing on you to a lower value, that's intentional
+	#If your formula makes the required xp to get max level greater than
+	#pmmo can store, pmmo will replace your value with the actual max.
+	#Range: > 1
+	"Max Level" = 329
+	#shold levels be determined using an exponential forumula?
+	"Use Exponential Formula" = true
+	#How much experience should players lose when they die?
+	#zero is no loss, one is lose everything
+	#Range: 0.0 ~ 1.0
+	"Loss on death" = 0.05
+	#should loss of experience cross levels?
+	#for example, if true, a player with 1 xp above their current level would lose the
+	#[Loss on death] percentage of xp and fall below their current level.  However,
+	#if false, the player would lose only 1 xp as that would put them at the base xp of their current level
+	"Lose Levels On Death" = false
+	#This setting only matters if [Lose Level On Death] is set to false.
+	#If this is true the [Loss On Death] applies only to the experience above the current level
+	#for exmample if level 3 is 1000k xp and the player has 1020 and dies.  the player will only lose
+	#the [Loss On Death] of the 20 xp above the level's base.
+	"Lose Only Excess" = true
+
+	#Settings for Linear XP configuration
+	[Levels."LINEAR LEVELS"]
+		#what is the base xp to reach level 2 (this + level * xpPerLevel)
+		#Range: 1 ~ 9223372036854775807
+		"Base XP" = 500
+		#What is the xp increase per level (baseXp + level * this)
+		#Range: 1.0 ~ 1.7976931348623157E308
+		"Per Level" = 1000.0
+
+	#Settings for Exponential XP configuration
+	[Levels."EXPONENTIAL LEVELS"]
+		#What is the x in: x * ([Power Base]^([Per Level] * level))
+		#Range: > 1
+		"Base XP" = 250
+		#What is the x in: [Base XP] * (x^([Per Level] * level))
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Power Base" = 1.104088404342588
+		#What is the x in: [Base XP] * ([Power Base]^(x * level))
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Per Level" = 1.1
+
+#Settngs governing requirements at the macro level
+[Requirements]
+
+	#Should requirements apply for the applicable action type
+	[Requirements.Req_Enabled]
+		"WEAR Req Enabled" = true
+		"USE_ENCHANTMENT Req Enabled" = true
+		"TOOL Req Enabled" = true
+		"WEAPON Req Enabled" = true
+		"USE Req Enabled" = false
+		"PLACE Req Enabled" = false
+		"BREAK Req Enabled" = false
+		"KILL Req Enabled" = false
+		"TRAVEL Req Enabled" = false
+		"RIDE Req Enabled" = false
+		"TAME Req Enabled" = false
+		"BREED Req Enabled" = false
+		"INTERACT Req Enabled" = false
+		"ENTITY_INTERACT Req Enabled" = false
+
+	#Should requirements be strictly enforced?
+	#if no, then requirements will have certain penalties applied
+	#proportionate to the gap between the player and the requirement
+	[Requirements.Strict_Reqs]
+		"WEAR Req Strict" = false
+		"USE_ENCHANTMENT Req Strict" = false
+		"TOOL Req Strict" = false
+		"WEAPON Req Strict" = false
+		"USE Req Strict" = false
+		"PLACE Req Strict" = false
+		"BREAK Req Strict" = false
+		"KILL Req Strict" = false
+		"TRAVEL Req Strict" = false
+		"RIDE Req Strict" = false
+		"TAME Req Strict" = false
+		"BREED Req Strict" = false
+		"INTERACT Req Strict" = false
+		"ENTITY_INTERACT Req Strict" = false
+
+#All settings related to the gain of experience
+[XP_Gains]
+	#how much of the original XP should be awarded when a player breaks a block they placed
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Reuse Penalty" = 0.0
+	#Should xp Gains from perks be added onto by configured xp values
+	"Perks Plus Configs" = false
+
+	#Settings related to certain default event XP awards.
+	[XP_Gains.Event_XP_Specifics]
+
+		[XP_Gains.Event_XP_Specifics.Damage_Received]
+
+			[XP_Gains.Event_XP_Specifics.Damage_Received."FROM_ENVIRONMENT Skills and Ratios"]
+				endurance = 10.0
+
+			[XP_Gains.Event_XP_Specifics.Damage_Received."FROM_IMPACT Skills and Ratios"]
+				endurance = 15.0
+
+			[XP_Gains.Event_XP_Specifics.Damage_Received."FROM_MAGIC Skills and Ratios"]
+				magic = 15.0
+
+			[XP_Gains.Event_XP_Specifics.Damage_Received."FROM_PROJECTILE Skills and Ratios"]
+				endurance = 15.0
+
+			[XP_Gains.Event_XP_Specifics.Damage_Received."RECEIVE_DAMAGE Skills and Ratios"]
+				endurance = 1.0
+
+		[XP_Gains.Event_XP_Specifics.Damage_Dealt]
+
+			[XP_Gains.Event_XP_Specifics.Damage_Dealt."DEAL_MELEE_DAMAGE Skills and Ratios"]
+				combat = 1.0
+
+			[XP_Gains.Event_XP_Specifics.Damage_Dealt."DEAL_RANGED_DAMAGE SKills and Ratios"]
+				archery = 1.0
+
+		[XP_Gains.Event_XP_Specifics.Jumps]
+
+			[XP_Gains.Event_XP_Specifics.Jumps."JUMP Skills and Ratios"]
+				agility = 2.5
+
+			[XP_Gains.Event_XP_Specifics.Jumps."SPRINT_JUMP Skills and Ratios"]
+				agility = 2.5
+
+			[XP_Gains.Event_XP_Specifics.Jumps."CROUCH_JUMP Skills and Ratios"]
+				agility = 2.5
+
+		[XP_Gains.Event_XP_Specifics.Player_Actions]
+
+			[XP_Gains.Event_XP_Specifics.Player_Actions."BREATH_CHANGE Skills and Ratios"]
+				swimming = 1.0
+
+			[XP_Gains.Event_XP_Specifics.Player_Actions."HEALTH_CHANGE Skills and Ratios"]
+				endurance = 1.0
+
+			[XP_Gains.Event_XP_Specifics.Player_Actions."SPRINTING Skills and Ratios"]
+				agility = 30.0
+
+			[XP_Gains.Event_XP_Specifics.Player_Actions."SUBMERGED Skills and Ratios"]
+				swimming = 1.0
+
+			[XP_Gains.Event_XP_Specifics.Player_Actions."SWIMMING Skills and Ratios"]
+				swimming = 100.0
+
+			[XP_Gains.Event_XP_Specifics.Player_Actions."DIVING Skills and Ratios"]
+				swimming = 150.0
+
+			[XP_Gains.Event_XP_Specifics.Player_Actions."SURFACING Skills and Ratios"]
+				swimming = 50.0
+
+			[XP_Gains.Event_XP_Specifics.Player_Actions."SWIM_SPRINTING Skills and Ratios"]
+				swimming = 200.0
+
+#All setings governing party behavior
+[Party]
+	#How close do party members have to be to share experience.
+	#Range: > 0
+	"Party Range" = 50
+	#How much bonus xp should parties earn.
+	#This value is multiplied by the party size.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	"Party Bonus" = 1.05
+
+#settings related to how strong mobs get based on player level.
+[Mob_Scaling]
+	#Should mob scaling be turned on.
+	"Enable Mob Scaling" = true
+	#How far should players be from spawning mobs to affect scaling?
+	#Range: > 0
+	"Scaling AOE" = 50
+	#what is the minimum level for scaling to kick in
+	#Range: > 0
+	"Base Level" = 0
+
+	#How should mob attributes be calculated with respect to the player's level.
+	[Mob_Scaling.Formula]
+		#shold levels be determined using an exponential forumula?
+		"Use Exponential Formula" = true
+
+		#Settings for Linear scaling configuration
+		[Mob_Scaling.Formula.LINEAR_LEVELS]
+			#What is the xp increase per level ((level - base_level) * this)
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Per Level" = 1.0
+
+		#Settings for Exponential scaling configuration
+		[Mob_Scaling.Formula.EXPONENTIAL_LEVELS]
+			#What is the x in: (x^([Per Level] * level))
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Power Base" = 1.104088404342588
+			#What is the x in: ([Power Base]^(x * level))
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Per Level" = 1.0
+
+	#These settings control which skills affect scaling and the ratio for each skill
+	#HP Scale: 1 = half a heart, or 1 hitpoint
+	#SPD Scale: 0.7 is base for most mobs.  this is added to that. so 0.7 from scaling is double speed
+	#DMG Scale: is a multiplier of their base damage.  1 = no change, 2 = double damage
+	#negative values are possible and you can use this to create counterbalance skills
+	[Mob_Scaling.Scaling_Settings]
+
+		[Mob_Scaling.Scaling_Settings."HP Scaling and Ratios"]
+			combat = 0.01
+
+		[Mob_Scaling.Scaling_Settings."Speed Scaling and Ratios"]
+			combat = 0.001
+
+		[Mob_Scaling.Scaling_Settings."Damage Scaling and Ratios"]
+			combat = 0.001
+
+#Settings related to the Vein Miner
+[Vein_Miner]
+	#If true, default consume will be ignored in favor of only allowing
+	#veining blocks with declared values.
+	"Require Settings" = false
+	#how much a block should consume if no setting is defined.
+	"Vein Mine Default Consume" = 1
+

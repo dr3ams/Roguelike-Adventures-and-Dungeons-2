@@ -6,16 +6,11 @@
 	CenterSearch = false
 	#Set low-memory mode (makes search very slow, but uses less RAM)
 	LowMemorySlowSearchEnabled = false
-	#Enable fast batched item rendering for JEI (disable this if items in JEI are not rendering correctly)
-	FastItemRenderingEnabled = true
 	#Enable cheating items into the hotbar by using the shift+number keys.
 	CheatToHotbarUsingHotkeysEnabled = false
 	#How items should be handed to you
 	#Allowed Values: INVENTORY, MOUSE_PICKUP
 	GiveMode = "MOUSE_PICKUP"
-	#Max number of columns shown
-	#Range: 4 ~ 100
-	MaxColumns = 11
 	#Max. recipe gui height
 	#Range: > 175
 	RecipeGuiHeight = 350
@@ -26,7 +21,7 @@
 
 [sorting]
 	#Sorting order for the ingredient list. Valid stages: [MOD_NAME, INGREDIENT_TYPE, ALPHABETICAL, CREATIVE_MENU, TAG, TOOL_TYPE, WEAPON_DAMAGE, ARMOR, MAX_DURABILITY]
-	IngredientSortStages = ["MOD_NAME", "INGREDIENT_TYPE", "CREATIVE_MENU", "ALPHABETICAL", "WEAPON_DAMAGE", "TOOL_TYPE", "ARMOR", "TAG"]
+	IngredientSortStages = ["MOD_NAME", "INGREDIENT_TYPE", "CREATIVE_MENU"]
 
 [search]
 	#Search mode for Mod Names (prefix: @)
@@ -44,16 +39,55 @@
 	#Search mode for Colors (prefix: ^)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	ColorSearchMode = "DISABLED"
-	#Search mode for resources IDs (prefix: &)
+	#Search mode for resources locations (prefix: &)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ResourceIdSearchMode = "DISABLED"
+	ResourceLocationSearchMode = "DISABLED"
 	#Search advanced tooltips (visible with F3+H)
 	SearchAdvancedTooltips = false
 
 [modname]
 	#Formatting for mod name tooltip
-	#Use these formatting keys:
+	#Use these formatting colors:
 	#black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, white
+	#With these formatting options:
 	#obfuscated, bold, strikethrough, underline, italic
 	ModNameFormat = "blue italic"
+
+[IngredientList]
+	#Max number of rows shown
+	#Range: 1 ~ 100
+	MaxRows = 16
+	#Max number of columns shown
+	#Range: 4 ~ 100
+	MaxColumns = 9
+	#Horizontal alignment of the ingredient grid inside the available area
+	#Allowed Values: LEFT, CENTER, RIGHT
+	HorizontalAlignment = "RIGHT"
+	#Horizontal alignment of the ingredient grid inside the available area
+	#Allowed Values: TOP, CENTER, BOTTOM
+	VerticalAlignment = "TOP"
+	#Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.
+	#Allowed Values: ENABLED, AUTO_HIDE, DISABLED
+	ButtonNavigationVisibility = "ENABLED"
+	#Set to true to draw a background texture behind the gui.
+	DrawBackground = false
+
+[BookmarkList]
+	#Max number of rows shown
+	#Range: 1 ~ 100
+	MaxRows = 16
+	#Max number of columns shown
+	#Range: 4 ~ 100
+	MaxColumns = 9
+	#Horizontal alignment of the ingredient grid inside the available area
+	#Allowed Values: LEFT, CENTER, RIGHT
+	HorizontalAlignment = "LEFT"
+	#Horizontal alignment of the ingredient grid inside the available area
+	#Allowed Values: TOP, CENTER, BOTTOM
+	VerticalAlignment = "TOP"
+	#Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.
+	#Allowed Values: ENABLED, AUTO_HIDE, DISABLED
+	ButtonNavigationVisibility = "ENABLED"
+	#Set to true to draw a background texture behind the gui.
+	DrawBackground = false
 

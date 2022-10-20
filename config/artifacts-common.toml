@@ -5,32 +5,45 @@
 #Setting this to 10000 will completely prevent artifacts from spawning
 #When set to 0, every container that can contain artifacts will contain an artifact
 #Range: 0.0 ~ 10000.0
-artifact_rarity = 3.0
+artifact_rarity = 1.0
 
 [campsite]
+	#Probability that a campsite has a mimic instead of a chest
+	#Range: 0.0 ~ 1.0
+	mimic_chance = 0.3
 	#Whether to use wooden chests from other mods when generating campsites
 	#(keeping this enabled may make it easier to distinguish them from mimics)
 	use_modded_chests = true
-	#List of biome IDs in which campsites are not allowed to generate
-	#End and nether biomes are excluded by default
-	#To blacklist all biomes from a single mod, use "modid:*"
-	biome_blacklist = ["minecraft:void", "twilightforest:*"]
+	#Affects the amount of campsites generating in the world
+	#This is the amount of times a campsite attempts to generate in each chunk
+	#The actual amount of campsites per chunk is lower than this value, since not every attempt at generating a campsite is successful
+	#Set this to 0 to prevent campsites from generating entirely
+	#Range: > 0
+	count = 4
 	#Rarity of campsites generating in the world
-	#The chance a campsite generates in a specific chunk is 1/rarity
-	#A rarity of 1 will generate a campsite in every chunk, while 10000 will generate no campsites
-	#Not every attempt at generating a campsite succeeds, this also depends on the density and shape of caves
-	#Range: 1 ~ 10000
-	rarity = 75
-	#The minimum y-level at which a campsite can generate
-	#Range: 1 ~ 255
-	min_y = 1
-	#The maximum y-level at which a campsite can generate
-	#Range: 1 ~ 255
-	max_y = 35
-	#Probability for a container of a campsite to be replaced by a mimic
-	#Range: 0.0 ~ 1.0
-	mimic_chance = 0.3
-	#Probability for an ore vein to generate underneath a campsite
-	#Range: 0.0 ~ 1.0
-	ore_chance = 0.35
+	#You don't need this unless you want to make campsites rarer than 1 attempt per chunk
+	#Each attempt to generate a campsite will succeed with a chance of 1/rarity
+	#Range: > 1
+	rarity = 1
+	#The minimum y-level campsites can spawn at
+	#Range: -2048 ~ 2048
+	min_y = -60
+	#The maximum y-level campsites can spawn at
+	#Range: -2048 ~ 2048
+	max_y = 40
+	#After choosing an initial position between min_y and max_y, a downwards scan will be performed to find a suitable non-air block to place the campsite on
+	#(This means campsites can spawn slightly below min_y)
+	#The scan range is the amount of blocks downwards to search for
+	#If no suitable location is found, no campsite will spawn
+	#Range: 1 ~ 4096
+	scan_range = 8
+	#The maximum amount of air blocks above a campsite
+	#To prevent too many campsites from spawning in large, open caves, campsites will not spawn if the cave ceiling in a candidate location is higher than this value
+	#Set this to 0 to allow campsites to be placed regardless of ceiling height
+	#Range: 0 ~ 4096
+	max_ceiling_height = 6
+	#List of biome IDs in which campsites are not allowed to generate
+	#End and nether biomes are excluded by default and do not have to be in this list
+	#To blacklist all biomes from a single mod, use "modid:*"
+	biome_blacklist = ["minecraft:void", "undergarden:*", "the_bumblezone:*", "twilightforest:*"]
 

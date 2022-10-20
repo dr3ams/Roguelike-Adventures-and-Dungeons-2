@@ -29,9 +29,9 @@
 	#Enable Meshes?
 	meshes = true
 	#Enable Magnet?
-	magnet = false
+	magnet = true
 	#Enable Night Vision Goggles?
-	nightVisionGoggles = false
+	nightVisionGoggles = true
 	#Enable Paxels?
 	paxels = true
 	#Enable Flint tools and armor?
@@ -49,9 +49,12 @@
 ["Grid Repair"]
 	#Should Crafting Grid Tool Repairing be enabled?
 	enabled = true
-	#How much material should be required to fully repair a tool.
+	#How much material required to fully repair a tool.
 	#Range: 1 ~ 8
-	cost = 4
+	cost = 3
+	#How much additional material required to repair enchanted tools.
+	#Range: 0 ~ 8
+	enchantmentCost = 1
 	#Crafting grid repair removes all non-curse enchantments.
 	stripEnchantments = false
 	#Should default repair materials be disabled? Doing this makes it so ONLY the custom materials work.
@@ -60,6 +63,8 @@
 	overrideMode = false
 	#Makes it so shovels need 50% less material to repair.
 	cheapShovel = true
+	#Makes it so shears need 50% less material to repair.
+	cheapShears = true
 	#Tools that should not be repairable in the crafting grid.
 	#Ex: ["minecraft:stone_pickaxe", "minecraft:stone_sword"]
 	blacklist = []
@@ -69,12 +74,12 @@
 	#Ex: ["minecraft:stone_shovel=tag:forge:ingots/iron"]
 	#You can specify how effective the material is by appending @<multiplier>
 	#Ex: ["minecraft:stone_shovel=minecraft:stick@0.5"]
-	overrides = []
+	overrides = ["minecraft:shears=minecraft:iron_ingot", "pickletweaks:flint_shears=minecraft:flint"]
 
 #Disable and configure tweaks.
 [Tweaks]
 	#Enabled tools not breaking?
-	toolBreaking = false
+	toolBreaking = true
 	#Tools and weapons that should be ineffective.
 	#Ex: ["minecraft:stone_pickaxe", "minecraft:stone_sword"]
 	uselessTools = []

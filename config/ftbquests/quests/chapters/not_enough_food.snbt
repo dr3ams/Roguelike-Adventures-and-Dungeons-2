@@ -1,0 +1,3811 @@
+{
+	id: "62E81CB0EB2A6987"
+	group: "67B03B24E53297B4"
+	order_index: 1
+	filename: "not_enough_food"
+	title: "Not Enough Food"
+	icon: {
+		id: "farmersdelight:roast_chicken_block"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 6.5d
+			y: 3.0d
+			dependencies: ["29CD2BA25DD2395B"]
+			id: "4E2850F4670F5763"
+			tasks: [{
+				id: "4103C981852AA608"
+				type: "item"
+				item: "farmersdelight:basket"
+			}]
+			rewards: [{
+				id: "2616B0FD5D5DCEDC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "random_mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			dependencies: ["19A4385584636C45"]
+			id: "0ABFF67C8B76BE22"
+			tasks: [{
+				id: "33983829F5397FF6"
+				type: "item"
+				item: "farmersdelight:vegetable_noodles"
+			}]
+			rewards: [
+				{
+					id: "49ADE529FAB689F7"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "2B6BD02B1D94F6B1"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "496CB4B56D9D1A70"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			dependencies: ["19A4385584636C45"]
+			id: "52E3B3D4F0915EEE"
+			tasks: [{
+				id: "0F6E9F9670CC0CEF"
+				type: "item"
+				item: "farmersdelight:ratatouille"
+			}]
+			rewards: [
+				{
+					id: "13C0B2E68E8C5156"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_mob_drops"
+						}
+					}
+				}
+				{
+					id: "3A9333DB329714CA"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "2E5C6BB9DEE36778"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -6.5d
+			dependencies: ["19A4385584636C45"]
+			id: "107EBB12815A4B23"
+			tasks: [{
+				id: "2BFC8F0FA8F7EECD"
+				type: "item"
+				item: "farmersdelight:squid_ink_pasta"
+			}]
+			rewards: [
+				{
+					id: "5BB5D95CE99B6B49"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_enchant"
+						}
+					}
+				}
+				{
+					id: "690F07AF99D39004"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "05AB6F24901B6A81"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -5.5d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "42E37B71FCF59BAD"
+			tasks: [{
+				id: "0D901A641F7D3407"
+				type: "item"
+				item: "farmersdelight:cake_slice"
+			}]
+			rewards: [
+				{
+					id: "7FCEC06500CB0C20"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_mob_drops"
+						}
+					}
+				}
+				{
+					id: "1F91A0C59B4B0124"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -6.5d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "2DA15FAD0E755A26"
+			tasks: [{
+				id: "5B012B73CE682726"
+				type: "item"
+				item: "farmersdelight:chocolate_pie_slice"
+			}]
+			rewards: [
+				{
+					id: "4359813A1EE6935E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_materials"
+						}
+					}
+				}
+				{
+					id: "20A34E28986CDBA9"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -6.5d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "2EE16C98E49A9947"
+			tasks: [
+				{
+					id: "13EC24A172393C72"
+					type: "item"
+					item: "farmersdelight:brown_mushroom_colony"
+				}
+				{
+					id: "35FA93C50AF89367"
+					type: "item"
+					item: "farmersdelight:red_mushroom_colony"
+				}
+			]
+			rewards: [
+				{
+					id: "4B1258A107995AE1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_enchant"
+						}
+					}
+				}
+				{
+					id: "716B005C30357893"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			shape: "gear"
+			subtitle: "Knives are scavenging tools: they allow you to obtain a few more resources from both fauna and flora."
+			description: [
+				""
+				"- Any animals you slay using a Knife are guaranteed to drop secondary items, such as Leather and Feathers;"
+				""
+				"- Grassy plants (grass, wheat, rice etc) cut with a Knife will occasionally yield Straw, a firm and useful fiber;"
+				""
+				"- They act as a modest melee weapon: swings faster than a sword for lesser damage;"
+				""
+				"- Later on, they are also useful for cutting and portioning ingredients when preparing meals."
+			]
+			size: 1.5d
+			id: "06FCFD49B9DC5C59"
+			tasks: [{
+				id: "325414C7C64C34F1"
+				type: "item"
+				item: {
+					id: "farmersdelight:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B694323AEFC9E27"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["06FCFD49B9DC5C59"]
+			id: "32D6083223BDCD90"
+			tasks: [{
+				id: "2F29C6C3020F6B0A"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			rewards: [
+				{
+					id: "39474A18862183A9"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "549EF9529551BCFD"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "5036299CEDA9E672"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			shape: "hexagon"
+			description: [
+				"The Stove is a direct upgrade to the Campfire's cooking features, and a suitable heat source for the Cooking Pot."
+				""
+				"To add items to its grill, simply right-click the Stove when it has no objects blocking its top face. Stoves detect campfire recipes to cook, meaning they usually also take 30 seconds to fully prepare items. Stoves cannot be automated through item transferring blocks (e.g. Hoppers), but require no fuel to cook items, much like a Campfire."
+				""
+				"Stoves can hold six (6) items on its grill, and will gently pop cooked outputs above its surface, instead of throwing them around."
+				""
+				"Stoves can be put out using shovels or buckets of water, and reignited with Flint and Steel."
+			]
+			dependencies: ["32D6083223BDCD90"]
+			id: "19A4385584636C45"
+			tasks: [{
+				id: "6424A97C1667029E"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+			rewards: [
+				{
+					id: "389A061ADDDAF0F0"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "5BCBAE559000B7D9"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "352401029288CE2F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			description: ["When consumed, it will remove a single random negative effect from the player, keeping positive ones untouched. This provides a simple use for Cocoa Beans in difficult, risky trips."]
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "55AF1779E7AE28A7"
+			tasks: [{
+				id: "1AD4A3D0C7E69859"
+				type: "item"
+				item: "farmersdelight:hot_cocoa"
+			}]
+			rewards: [{
+				id: "2C0256ECBCC24E69"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "The Cutting Board is a workstation where players can break down one item into many outputs, by using a valid tool on it."
+			description: [
+				"Items can be placed on the Cutting Board by using them on it. It always prefers receiving items from the off-hand, allowing players to hold their ingredients there while holding the tool in their main hand, processing the stack simply by holding the use button."
+				""
+				"When the correct tool is used on a valid item, it will be broken down into 1-4 different outputs, which are swiped sideways. Outputs always fly to the direction opposite to the Cutting Board's handle, allowing them to be collected by an item-capturing block, such as a Hopper or Basket. The tool receives 1 point of damage for each processed item."
+			]
+			dependencies: ["19A4385584636C45"]
+			id: "2FEC85DD348C7C1C"
+			tasks: [{
+				id: "298229CF438BC9F7"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+			rewards: [
+				{
+					id: "3459E88F5003EC26"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "5184C3629734A578"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "0C68AEE65E2BDBAE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "604569BC4764E258"
+			tasks: [{
+				id: "567B754D8FE1DD06"
+				type: "checkmark"
+				title: "Pet Foods"
+			}]
+			rewards: [{
+				id: "09498BF35D65A18A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			description: ["This combination allows your mount to be a lot more agile during travels. Since mounts eat a large volume of feed, the item does not need to be contained in a Bowl, saving some inventory space."]
+			dependencies: ["604569BC4764E258"]
+			id: "31E7C56ABBA6A7B2"
+			tasks: [{
+				id: "234786C946748E53"
+				type: "item"
+				item: "farmersdelight:horse_feed"
+			}]
+			rewards: [{
+				id: "715FB4A935E84804"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.5d
+			description: ["This combination allows wolves to catch up a lot more easily with you or nimble opponents, as well as last longer in battle."]
+			dependencies: ["604569BC4764E258"]
+			id: "3693C3F67BD59401"
+			tasks: [{
+				id: "7C797806CAA4F4F8"
+				type: "item"
+				item: "farmersdelight:dog_food"
+			}]
+			rewards: [{
+				id: "3DA70B6B3EF25A10"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			subtitle: "Feasts are very large meals, which can be placed as a block to provide multiple servings to players."
+			description: [
+				"Feasts are not edible directly as an item; they must be placed down as a block first. When placed, players can use (right-click) them with Bowls to serve themselves with a consumable portion."
+				""
+				"The existing feasts in Farmer's Delight provide 4 servings in total. Plated feasts will also leave behind leftovers in the form of a dirty plate; right-clicking or mining it will retrieve the original Bowl, and any bones or food scraps left behind."
+			]
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "619A52669514E850"
+			tasks: [{
+				id: "251874AE085FBC47"
+				type: "checkmark"
+				title: "Feasts"
+			}]
+			rewards: [{
+				id: "4D3E45D3809A8E8A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			dependencies: ["619A52669514E850"]
+			id: "0F27533115C5827C"
+			tasks: [{
+				id: "380E7230888F381C"
+				type: "item"
+				item: "farmersdelight:roast_chicken_block"
+			}]
+			rewards: [{
+				id: "0F6AAD95E2FA0B82"
+				type: "item"
+				item: "kubejs:iron_coin"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			dependencies: ["619A52669514E850"]
+			id: "7B635770381DDE91"
+			tasks: [{
+				id: "7327769944FE4209"
+				type: "item"
+				item: "farmersdelight:stuffed_pumpkin_block"
+			}]
+			rewards: [{
+				id: "1E98EA5E0DB56007"
+				type: "item"
+				item: "kubejs:iron_coin"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			dependencies: ["619A52669514E850"]
+			id: "41751B25A229932D"
+			tasks: [{
+				id: "5F9316E69617978D"
+				type: "item"
+				item: "farmersdelight:honey_glazed_ham_block"
+			}]
+			rewards: [{
+				id: "3F642B4DB4F12F1C"
+				type: "item"
+				item: "kubejs:iron_coin"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			dependencies: ["619A52669514E850"]
+			id: "0D2CCDC7E72BE396"
+			tasks: [{
+				id: "0E1904B128889DB2"
+				type: "item"
+				item: "farmersdelight:shepherds_pie_block"
+			}]
+			rewards: [{
+				id: "2538FF1A0AAE6B7A"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			shape: "hexagon"
+			description: [
+				"The Cooking Pot is a workstation where you can both prepare and store a large amount of meals. When placed above any suitable heat source (campfire, open flames, lava, a stove etc.), it will start bubbling, indicating it's ready to cook."
+				""
+				"You can put up to six ingredients inside a pot. If they match, the pot will start cooking them up into a meal. Most meals need a container to be served on, such as Bowls; the result slot will tell you which one to use. Simply add the container on the corresponding slot, or right-click the pot with it, to take a serving!"
+				""
+				"Meals tend to be quite large, so they don't stack up as high in your inventory. If you're not going to eat them all right away, you can just mine the whole pot and take it with you! Cooking Pots can hold 64 servings of any meal with a container, regardless of their maximum stack limit."
+			]
+			dependencies: ["32D6083223BDCD90"]
+			id: "18F8DADD01FEC9C2"
+			tasks: [{
+				id: "0023DC50F9911E64"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+			rewards: [
+				{
+					id: "503D2311941E6AB1"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "68FD5D4C45E8615D"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "488DA4E392176250"
+					type: "item"
+					item: "minecraft:slime_ball"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			dependencies: ["06FCFD49B9DC5C59"]
+			id: "028FAF610E83646D"
+			tasks: [{
+				id: "08BA65E1FA0D98C9"
+				type: "item"
+				item: {
+					id: "farmersdelight:iron_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "47B29E45FA44FE0B"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["028FAF610E83646D"]
+			id: "1201103F5FC0E441"
+			tasks: [{
+				id: "35D540E73DE01D44"
+				type: "item"
+				item: {
+					id: "farmersdelight:golden_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3B0A1ED7888489F5"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "28C463BBE05C5CC2"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			dependencies: ["447D1005B0881D70"]
+			id: "29CD2BA25DD2395B"
+			tasks: [{
+				id: "4192F72A6804831B"
+				type: "item"
+				item: "farmersdelight:canvas"
+			}]
+			rewards: [{
+				id: "41BAD0330BAEC100"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			description: [
+				"Using a Knife on grassy plants will yield Straw, a useful building and composting material. Early on, it's best used to craft some Ropes."
+				""
+			]
+			dependencies: ["06FCFD49B9DC5C59"]
+			id: "447D1005B0881D70"
+			tasks: [{
+				id: "12722207D34CA838"
+				type: "item"
+				item: "farmersdelight:straw"
+			}]
+			rewards: [{
+				id: "781101BAF9A6BD96"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			description: [
+				"Rich Soil is an enhanced type of dirt, more fertile and durable to the elements."
+				""
+				"Rich Soil cannot be directly crafted. To make it, you must craft Organic Compost and place it into the world, letting it decompose over time."
+				""
+				"Organic Compost will decompose more easily under sunlight and moisture from nearby water, but doesn't actually hydrate like farmland. It can also be gently accelerated by placing activators next to it, in a 3x3x3 area centered on itself."
+				""
+				"Currently, the following blocks behave as activators for Organic Compost:"
+				"- Brown and Red Mushrooms, and their Colonies;"
+				"- Podzol and Mycelium;"
+				"- Other blocks of Organic Compost;"
+				"- Rich Soil, normal or tilled."
+			]
+			dependencies: ["447D1005B0881D70"]
+			id: "56D3BC7D09F900CA"
+			tasks: [{
+				id: "6D4707A71CD44077"
+				type: "item"
+				item: "farmersdelight:organic_compost"
+			}]
+			rewards: [{
+				id: "3868E5AC6AFC1217"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			description: [
+				"Ropes are essentially reverse scaffolding: the can be continuously deployed downward from the same spot, and can be climbed without collision. This allows players to safely descend or ascend high altitudes, such as ravines or mountains."
+				""
+				"When placing Rope, you can use more ropes against the first one to deploy them downward. This will continuously extend a column of rope down to the bottom-most Y-level possible, allowing for easy and controllable descents into chasms, ravines or from high locations."
+				""
+				"To suppress rope deployment, simply sneak while placing it. If there's no space underneath to deploy, it will also place normally."
+			]
+			dependencies: ["447D1005B0881D70"]
+			id: "27E4CBB51DBD27CD"
+			tasks: [{
+				id: "52366E5C113F92FE"
+				type: "item"
+				item: "farmersdelight:rope"
+			}]
+			rewards: [{
+				id: "180CFD2E2371FBF5"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			description: ["Fully absorbs your fall without dealing damage."]
+			dependencies: ["27E4CBB51DBD27CD"]
+			id: "22E1A465FAF7EAA2"
+			tasks: [{
+				id: "2E02EF01A2AC0E72"
+				type: "item"
+				item: "farmersdelight:safety_net"
+			}]
+			rewards: [
+				{
+					id: "2820EBBBFA117AD2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "23850B15A830AB3C"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			description: [
+				"When any growable plant is placed on Rich Soil, its growth will be randomly boosted, similar to the usage of Bone Meal."
+				"Rich Soil can be tilled into Rich Farmland through the use of hoes. Rich Farmland is immune to mob trampling and won't unravel to Melons or Pumpkins, but requires hydration in order to boost crops."
+				""
+				"Mushrooms planted on Rich Soil under sufficient darkness will eventually form a Mushroom Colony. Such colonies will grow from 2 to 5 mushroom caps over time, dropping them when harvested."
+			]
+			dependencies: ["56D3BC7D09F900CA"]
+			id: "1729A82B2351DE53"
+			tasks: [{
+				id: "5229C5BEC0FE4C1B"
+				type: "item"
+				item: "farmersdelight:rich_soil"
+			}]
+			rewards: [
+				{
+					id: "5DFF93BF5E61BECD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "15FDF1C12591F0B7"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			dependencies: ["1201103F5FC0E441"]
+			id: "0025624788BAAD2A"
+			tasks: [{
+				id: "56FC2F11AF962177"
+				type: "item"
+				item: {
+					id: "farmersdelight:diamond_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "605D71A1FE5F83FB"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "76585A912D3F13DC"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			dependencies: ["0025624788BAAD2A"]
+			id: "0277464EB3D23D4B"
+			tasks: [{
+				id: "6C2B43C22E0E1315"
+				type: "item"
+				item: {
+					id: "farmersdelight:netherite_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "25A7E5370448A6A0"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "2D434F325A5CEC9D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+				{
+					id: "5EB8FF180AB8D37E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			shape: "octagon"
+			dependencies: ["0D311219A9B8B41F"]
+			size: 2.0d
+			id: "55B6C6B821A1BB7B"
+			tasks: [{
+				id: "5A96415AA54D7AFC"
+				type: "item"
+				item: "croptopia:cooking_pot"
+			}]
+			rewards: [{
+				id: "5414814A0B41E81F"
+				type: "item"
+				item: "kubejs:iron_coin"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 2.5d
+			shape: "octagon"
+			dependencies: ["777A3FD9985E8276"]
+			size: 2.0d
+			id: "2D7FEC001E7E4600"
+			tasks: [{
+				id: "73E95891B496C956"
+				type: "item"
+				item: "croptopia:food_press"
+			}]
+			rewards: [{
+				id: "3FFA2357CBF1FC75"
+				type: "item"
+				item: "kubejs:iron_coin"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -4.0d
+			shape: "octagon"
+			dependencies: ["084B4E6B7693DDEA"]
+			size: 2.0d
+			id: "0D311219A9B8B41F"
+			tasks: [{
+				id: "5321C4C0423E58F1"
+				type: "item"
+				item: "croptopia:knife"
+			}]
+			rewards: [{
+				id: "02F4BA69960F1AA2"
+				type: "item"
+				item: "kubejs:iron_coin"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			shape: "octagon"
+			dependencies: ["55B6C6B821A1BB7B"]
+			size: 2.0d
+			id: "777A3FD9985E8276"
+			tasks: [{
+				id: "0B56E56A47A45630"
+				type: "item"
+				item: "croptopia:frying_pan"
+			}]
+			rewards: [{
+				id: "405B73A69F1B21A9"
+				type: "item"
+				item: "kubejs:iron_coin"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -6.5d
+			id: "084B4E6B7693DDEA"
+			tasks: [{
+				id: "03BBA86DA119502A"
+				type: "item"
+				item: "croptopia:mortar_and_pestle"
+			}]
+			rewards: [{
+				id: "7102DD4A5E005318"
+				type: "item"
+				item: "kubejs:copper_coin"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -6.5d
+			dependencies: ["084B4E6B7693DDEA"]
+			id: "168FD3C6CC6BD4EE"
+			tasks: [{
+				id: "036E39ACCDE0506D"
+				type: "item"
+				item: "croptopia:paprika"
+			}]
+			rewards: [
+				{
+					id: "49D24B3B5612D7DD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "29C1B4284504985B"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "60F2825569A83252"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "68D00498B9444682"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -6.5d
+			dependencies: ["084B4E6B7693DDEA"]
+			id: "615DCB65BC5E64F8"
+			tasks: [{
+				id: "7FBC13F2853FA8E9"
+				type: "item"
+				item: "croptopia:mashed_potatoes"
+			}]
+			rewards: [
+				{
+					id: "267D8AB263D19F1F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1740CC3D39099705"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "2EAD96093DEE0C63"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "552D3561D8E08BB2"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -2.5d
+			dependencies: ["0D311219A9B8B41F"]
+			id: "7F6D57FBEB475DDB"
+			tasks: [{
+				id: "6F7E7400D855EC54"
+				type: "item"
+				item: "croptopia:bacon"
+			}]
+			rewards: [
+				{
+					id: "308C39D01B0786AC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "582631064E82922D"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "488B8455CC5FA281"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "1DCAA379341FCA47"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -1.5d
+			dependencies: ["7F6D57FBEB475DDB"]
+			id: "7560E458FF7CACF7"
+			tasks: [{
+				id: "7CDADCC06E312E09"
+				type: "item"
+				item: "croptopia:cooked_bacon"
+			}]
+			rewards: [
+				{
+					id: "7F37600212858B7B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "697926D4C6FCB896"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "74C737EA45096A41"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "7CB4BAB1877DDBBD"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -1.5d
+			dependencies: ["7560E458FF7CACF7"]
+			id: "737EAB97B8A5FBBA"
+			tasks: [{
+				id: "13A87FDF14CDE0A8"
+				type: "item"
+				item: "croptopia:blt"
+			}]
+			rewards: [
+				{
+					id: "25043EB2AE5B759F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3C6F99BA9C6C5833"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "2C01AC0A10106647"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "4F600C401BE4CE43"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -1.5d
+			dependencies: ["7560E458FF7CACF7"]
+			id: "46F453CCB3DFE2BA"
+			tasks: [{
+				id: "06DDE991B3E1A2D7"
+				type: "item"
+				item: "farmersdelight:bacon_sandwich"
+			}]
+			rewards: [
+				{
+					id: "034EB03373E2293E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "21A557DFC45D7E0B"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "35E3F50509CA5FA1"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "531B8659FB1B27AD"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -2.0d
+			dependencies: ["7F6D57FBEB475DDB"]
+			id: "17CFDFE732088C68"
+			tasks: [{
+				id: "61BCBE0C3D8A8F56"
+				type: "item"
+				item: "croptopia:potato_soup"
+			}]
+			rewards: [
+				{
+					id: "0489DA65AB005607"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "52B182290A87FA4C"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "6D8FBA273AC31125"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "08533F7BE15E1A3E"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			dependencies: ["55B6C6B821A1BB7B"]
+			id: "774F15D38BFA7BD9"
+			tasks: [{
+				id: "5E0ADEC2C75BCD15"
+				type: "item"
+				item: "croptopia:rum_raisin_ice_cream"
+			}]
+			rewards: [
+				{
+					id: "0534714F6399C8DA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "56F8E5EE7F905891"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "1BEB5D74066FCA37"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "185B2823C784617E"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			dependencies: ["55B6C6B821A1BB7B"]
+			id: "38240811D987B40C"
+			tasks: [{
+				id: "0C6E72B4DA241969"
+				type: "item"
+				item: "croptopia:raspberry_jam"
+			}]
+			rewards: [
+				{
+					id: "645F6C2E56BC4121"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6C12E533E3AE02A0"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "4C17A4A1768F9AC7"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "635A7CF92FE6690C"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -6.0d
+			dependencies: ["55B6C6B821A1BB7B"]
+			id: "5709596EB90F2A98"
+			tasks: [{
+				id: "679019AE70B6E15C"
+				type: "item"
+				item: "croptopia:borscht"
+			}]
+			rewards: [
+				{
+					id: "5606DAC1F3D72FBD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "79B5DC1948A3E407"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "5F75B14595192680"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "75366DF223E804E5"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			dependencies: ["55B6C6B821A1BB7B"]
+			id: "6A82F892CCF9FEA2"
+			tasks: [{
+				id: "7DEE8DDBC0F01E71"
+				type: "item"
+				item: "croptopia:pecan_ice_cream"
+			}]
+			rewards: [
+				{
+					id: "40F26AB9B9562428"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "27571AD7CD7183A6"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "3237D87EF7B7AE24"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "7A35557E40D31C72"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -5.0d
+			dependencies: ["55B6C6B821A1BB7B"]
+			id: "0ECB2FDD2759F9FE"
+			tasks: [{
+				id: "64F5B21F45389CFD"
+				type: "item"
+				item: "croptopia:onion_rings"
+			}]
+			rewards: [
+				{
+					id: "7F311CB4B727F138"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "501ACCA6C115D124"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "3A8DA9EABA76BC31"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "1318BB497DF73F94"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			dependencies: ["55B6C6B821A1BB7B"]
+			id: "12AE72B47C07CB03"
+			tasks: [{
+				id: "7EB32B07741159CB"
+				type: "item"
+				item: "croptopia:chimichanga"
+			}]
+			rewards: [
+				{
+					id: "5B2CB2B1FD2316FC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "576C771DC4CCB4A9"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "588B9E76732EB377"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "4F30703402FA402E"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["55B6C6B821A1BB7B"]
+			id: "1F45502AA853EC86"
+			tasks: [{
+				id: "22B046AB61FCC4FD"
+				type: "item"
+				item: "croptopia:tamales"
+			}]
+			rewards: [
+				{
+					id: "468B71314CFB2DC8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "62916376B57F04FD"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "6CCDDE7E3528955E"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "08EFAE75CD1FC3D3"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			dependencies: ["55B6C6B821A1BB7B"]
+			id: "08D09B28CA812B0A"
+			tasks: [{
+				id: "641A1057C8734200"
+				type: "item"
+				item: "croptopia:stuffed_poblanos"
+			}]
+			rewards: [
+				{
+					id: "5DC925744B463D2A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "23A12F81AAF5E3D6"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "420D28DE40C3CABF"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "44FAD9D8E05D956E"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			dependencies: ["55B6C6B821A1BB7B"]
+			id: "18EBC1B4A6D68C11"
+			tasks: [{
+				id: "301275C3749EFCC8"
+				type: "item"
+				item: "croptopia:lemon_chicken"
+			}]
+			rewards: [
+				{
+					id: "1E0024551464227C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1448B4C2B9E9EAF1"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "17CA66E56E4F65DD"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "3C940CCD4BB553F0"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -6.5d
+			dependencies: ["55B6C6B821A1BB7B"]
+			id: "384BF1FC42D066AD"
+			tasks: [{
+				id: "29EC99AE413F583C"
+				type: "item"
+				item: "croptopia:chicken_and_noodles"
+			}]
+			rewards: [
+				{
+					id: "1A0399A9E1E3ACD2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2ECA43DF466A72B6"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "4F67432356E9EBFC"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "4EF480E3CC96CD2C"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -6.5d
+			dependencies: ["55B6C6B821A1BB7B"]
+			id: "4C0A3150676D7FF2"
+			tasks: [{
+				id: "151BC66773B81270"
+				type: "item"
+				item: "croptopia:mango_ice_cream"
+			}]
+			rewards: [
+				{
+					id: "1E8B10CFE111017E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6C86804ED46A8220"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "07C51008036986D1"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "27A07065B238BE84"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			dependencies: ["55B6C6B821A1BB7B"]
+			id: "327CF3F750BC17DE"
+			tasks: [{
+				id: "4FB1613359C89A18"
+				type: "item"
+				item: "croptopia:chili_relleno"
+			}]
+			rewards: [
+				{
+					id: "5B6015BBCD1077E9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "525546B743CE5835"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "4A8EAC55F8541F86"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "00006786798037F4"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			dependencies: ["777A3FD9985E8276"]
+			id: "5C679AD55640FE02"
+			tasks: [{
+				id: "15EA4F5143F2DCBC"
+				type: "item"
+				item: "croptopia:cornish_pasty"
+			}]
+			rewards: [
+				{
+					id: "5F44E00B5CA3A10A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "44EBB1340653B972"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "781F76DF294A6993"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "5C29656179501B6B"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["777A3FD9985E8276"]
+			id: "232E53A09F6D9061"
+			tasks: [{
+				id: "67C4D60A743E19E3"
+				type: "item"
+				item: "croptopia:fajitas"
+			}]
+			rewards: [
+				{
+					id: "7D7B9E05367556A1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "56C4CEE9555D1A63"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "4BD4DC9F876E9BCD"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "511BCB971C80F3AD"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["777A3FD9985E8276"]
+			id: "14D350E6A4E3BCEB"
+			tasks: [{
+				id: "1763FF0F6D7A0993"
+				type: "item"
+				item: "croptopia:shepherds_pie"
+			}]
+			rewards: [
+				{
+					id: "7C5ED11DA86DDEA2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "450B46144474E58F"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "706D88ECBFA0491A"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "04B34D1419CEFA65"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["777A3FD9985E8276"]
+			id: "1B14813A8AEB0042"
+			tasks: [{
+				id: "6906152AA9DF4195"
+				type: "item"
+				item: "croptopia:beef_wellington"
+			}]
+			rewards: [
+				{
+					id: "14F4F08B2A5093E4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "198471BBF49D61BF"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "58AF4FBFF00340E7"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "13C8B06274A0DC1F"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["777A3FD9985E8276"]
+			id: "7002BD0A483241BC"
+			tasks: [{
+				id: "5429E1B3EACD8A9D"
+				type: "item"
+				item: "croptopia:steamed_clams"
+			}]
+			rewards: [
+				{
+					id: "3DE5BACD743E13D8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1EABE7995EC93314"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "197D45F672D4B117"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "1738301A6A030940"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			dependencies: ["777A3FD9985E8276"]
+			id: "67CE055CD6EEE104"
+			tasks: [{
+				id: "5A4E07480188938C"
+				type: "item"
+				item: "croptopia:goulash"
+			}]
+			rewards: [
+				{
+					id: "738BFF4F07631CCE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "05AE2BF88396E7F7"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "484A024EDD9DFB14"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "265EFA9D20E0D113"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 5.0d
+			dependencies: ["777A3FD9985E8276"]
+			id: "6D33165BBD0331FB"
+			tasks: [{
+				id: "0FAED4B174E707FA"
+				type: "item"
+				item: "croptopia:hamburger"
+			}]
+			rewards: [
+				{
+					id: "2B93C233A360BDDF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "02AE9E458AFF00B4"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "5D8AE6D2A8C4E119"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "000D71AB608A5F2C"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 5.0d
+			dependencies: ["777A3FD9985E8276"]
+			id: "4DD79E8B18170194"
+			tasks: [{
+				id: "5E5C8E974D4F031D"
+				type: "item"
+				item: "croptopia:crab_legs"
+			}]
+			rewards: [
+				{
+					id: "26F8D457D76558FF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4BD3F02D83AC0C2F"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "74B561DD91339C2D"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "4EF9A44AB53219DB"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 5.0d
+			dependencies: ["777A3FD9985E8276"]
+			id: "47B32405E3EC4BCA"
+			tasks: [{
+				id: "39188E8202FA19BD"
+				type: "item"
+				item: "croptopia:fried_calamari"
+			}]
+			rewards: [
+				{
+					id: "3490E499299C860C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "268FC890047D87DF"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "5F5D592E4399BA9D"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "5DCEC47810BCAAFE"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["777A3FD9985E8276"]
+			id: "223585F2388B232C"
+			tasks: [{
+				id: "6F8AC1C981CCBECB"
+				type: "item"
+				item: "croptopia:pizza"
+			}]
+			rewards: [
+				{
+					id: "4324726BF893C7B9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6DDB6C3E49F454FE"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "12F1BBDE5D9626F1"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "145A5E140EABFCB6"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["777A3FD9985E8276"]
+			id: "17EE8AC29B045197"
+			tasks: [{
+				id: "61A8EF29D930BCB3"
+				type: "item"
+				item: "croptopia:quesadilla"
+			}]
+			rewards: [
+				{
+					id: "1365AB9D429B50E8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1215ACA0B3884578"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "2695E0B0F4571479"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "6C9B06246D692AFC"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["777A3FD9985E8276"]
+			id: "54F77932DFBD2B5C"
+			tasks: [{
+				id: "35969BB18CD28EB2"
+				type: "item"
+				item: "croptopia:brownies"
+			}]
+			rewards: [
+				{
+					id: "1AE8688575D6CDE5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6E9A1B588B6484A6"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "1684FF86A59F4038"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "7BFAB68B3E592131"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			dependencies: ["777A3FD9985E8276"]
+			id: "18FEA06CC8F1153D"
+			tasks: [{
+				id: "5F1D7575EAEFA241"
+				type: "item"
+				item: "croptopia:scrambled_eggs"
+			}]
+			rewards: [
+				{
+					id: "49C4E0FB3EE18D9B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5A6A32681AA2CC29"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "4CD91FF6E0A65C10"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "4FDD0596C3B60308"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			dependencies: ["777A3FD9985E8276"]
+			id: "4DC02DCB2C0665F6"
+			tasks: [{
+				id: "731DAD0487C1763A"
+				type: "item"
+				item: "croptopia:stuffed_artichoke"
+			}]
+			rewards: [
+				{
+					id: "49D93D34904F4274"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3B7E0227B8AA053E"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "62034952DC66CDE2"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "41D4D2DC7458AF5D"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			dependencies: ["55B6C6B821A1BB7B"]
+			id: "2FAB93C8A16F31E0"
+			tasks: [{
+				id: "284DC0ED42684856"
+				type: "item"
+				item: "croptopia:chicken_and_dumplings"
+			}]
+			rewards: [
+				{
+					id: "1B46F51C95EB0683"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7177653CF29DED75"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "5DD19A074902E327"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "04A9793AC88DAF9B"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			dependencies: ["55B6C6B821A1BB7B"]
+			id: "3E62E6AB1DE51820"
+			tasks: [{
+				id: "1004367C4C5C3164"
+				type: "item"
+				item: "croptopia:chocolate_ice_cream"
+			}]
+			rewards: [
+				{
+					id: "6687CA1073C615D6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "17E69D04B10B65EA"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "07B0E3035F13FF6F"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "613DB5B749643444"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: 0.0d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "34327C478DB14387"
+			tasks: [{
+				id: "3B679882E2D09AFF"
+				type: "item"
+				item: "croptopia:apple_juice"
+			}]
+			rewards: [
+				{
+					id: "6F83BAEF18B06025"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1B85B23D496836D6"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "29EC41F4682CC888"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "37E093317D865C9A"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 0.0d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "247433D2952FFD73"
+			tasks: [{
+				id: "0C14E96223C19456"
+				type: "item"
+				item: "croptopia:cranberry_juice"
+			}]
+			rewards: [
+				{
+					id: "50FF4FA52BFF2D1A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "232E724465BAD0DC"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "6746CC69B4DF8DAF"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "43E8DA108DCEED61"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 0.5d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "7905E6DF97C14B0B"
+			tasks: [{
+				id: "06D200CB50EB47DF"
+				type: "item"
+				item: "croptopia:grape_juice"
+			}]
+			rewards: [
+				{
+					id: "1CD8B98FFE60E427"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0C7CEDE5BB4961D6"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "309984D54EF75EBF"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "59CB668E22849F6E"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 1.5d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "73C2F352FC09F25C"
+			tasks: [{
+				id: "6BB79AD338328CF1"
+				type: "item"
+				item: "croptopia:melon_juice"
+			}]
+			rewards: [
+				{
+					id: "080314D094CB2536"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "31704092C696720A"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "4F874DF185B49CC0"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "5D715CB7D0BF61B2"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 5.0d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "2038B8BEC1477E04"
+			tasks: [{
+				id: "59397AB5408570E0"
+				type: "item"
+				item: "croptopia:orange_juice"
+			}]
+			rewards: [
+				{
+					id: "6E3AD5B51B60D981"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "01FCA34AE3799065"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "28CF9D0AA858821E"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "0C7EAA3ACF71AA4B"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 4.5d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "7CE0190E76F00C00"
+			tasks: [{
+				id: "6BFDDAB21E9D00E4"
+				type: "item"
+				item: "croptopia:pineapple_juice"
+			}]
+			rewards: [
+				{
+					id: "2C2563BAA47D904B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "58FD4229DDCB0CB4"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "06552C81D4327C9D"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "510EF246486B47B9"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 3.5d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "41DB8327FF22330B"
+			tasks: [{
+				id: "0DB9BBD57A5C918B"
+				type: "item"
+				item: "croptopia:tomato_juice"
+			}]
+			rewards: [
+				{
+					id: "2D63B1265296D04D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5CB8AA308FE0918E"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "09839B3A225A4BD3"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "64D2108A0A6039C2"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 5.0d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "0791F13368F84CEE"
+			tasks: [{
+				id: "1D0DBE73A17D6103"
+				type: "item"
+				item: "croptopia:mead"
+			}]
+			rewards: [
+				{
+					id: "43C481C9CE3BD5A7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2AF3050853C51267"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "05F3BCB360DC4AC9"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "0B9E0566DB370677"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: 5.0d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "3174B5B6C3340816"
+			tasks: [{
+				id: "3DA59AA3299AFB29"
+				type: "item"
+				item: "croptopia:beer"
+			}]
+			rewards: [
+				{
+					id: "67AB0CE7728D6132"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "24106DBEDD9DC2EC"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "637B0DAE2E951F47"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "35654DEB70116D15"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 3.5d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "16B0F58CB3359DBE"
+			tasks: [{
+				id: "2D6A58C149DEE7E7"
+				type: "item"
+				item: "croptopia:peanut_butter"
+			}]
+			rewards: [
+				{
+					id: "118857B9BE7A9A23"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3298824631311D53"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "5D31F419776648E7"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "1ADE63D88B1B5F38"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 0.0d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "6F3444291C4FBED8"
+			tasks: [{
+				id: "56539581D92ABF58"
+				type: "item"
+				item: "croptopia:saguaro_juice"
+			}]
+			rewards: [
+				{
+					id: "45F59173D4143053"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3CE1847BE7385956"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "4288425AB3CFEE6C"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "558459B2E22ABD74"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 2.5d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "02D85911A78234B7"
+			tasks: [{
+				id: "7524C88BB28BAEB1"
+				type: "item"
+				item: "croptopia:coffee"
+			}]
+			rewards: [
+				{
+					id: "2CCCBA24E207DDB9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4A01BC5A6AAF233A"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "0E6C02D73766C7FA"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "0CF74A3099042E75"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 0.5d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "71CB6F76769FB362"
+			tasks: [{
+				id: "4B00E6F1DD485A81"
+				type: "item"
+				item: "croptopia:lemonade"
+			}]
+			rewards: [
+				{
+					id: "37A9D1B2F240AFDC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "671E6B1A630E1850"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "0B718E55AC0341CC"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "0BCA631742475D2A"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 4.5d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "727FCEE8D34A7526"
+			tasks: [{
+				id: "3E81BB5AEAE08929"
+				type: "item"
+				item: "croptopia:wine"
+			}]
+			rewards: [
+				{
+					id: "069C764F83EC5310"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "65FB69D598175AF4"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "7A981B16368C3E42"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "16DF14D91798C4CA"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: 1.5d
+			dependencies: ["2D7FEC001E7E4600"]
+			id: "6D16B04515E7D6D4"
+			tasks: [{
+				id: "735376FA8DAD9275"
+				type: "item"
+				item: "croptopia:limeade"
+			}]
+			rewards: [
+				{
+					id: "0C4AD8ED0CC50DA2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3D7C638FF0C6144D"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "1F01687D23BBDAE5"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "64995316C334B41D"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -3.0d
+			id: "0C12072090E4DBD6"
+			tasks: [{
+				id: "475EC89C016AB067"
+				type: "item"
+				item: "croptopia:fruit_salad"
+			}]
+			rewards: [
+				{
+					id: "7EE7CC31373420E4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "38FA31A864EB3383"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "67DFA3EF9D1DB3B8"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "37713D84689C8E3C"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -4.0d
+			id: "28CBAD8F341ED563"
+			tasks: [{
+				id: "30BBB067354DF485"
+				type: "item"
+				item: "croptopia:blt"
+			}]
+			rewards: [
+				{
+					id: "2763A6C2E0076AA8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "436D1EE6D2CC8A4A"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "7B0CA70CCBEA5B3A"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "17C208C6E362DEED"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -5.0d
+			id: "4CCE454B9C73985E"
+			tasks: [{
+				id: "24B3E2217F18A997"
+				type: "item"
+				item: "croptopia:saucy_chips"
+			}]
+			rewards: [
+				{
+					id: "39A512936AFB9CDA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "42EF7ECD14C9FC08"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "12E0826C00E12DCA"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "2F2843E2655F74A8"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -6.0d
+			id: "0400A023A7396DD8"
+			tasks: [{
+				id: "2289B6AC16E8A840"
+				type: "item"
+				item: "croptopia:leek_soup"
+			}]
+			rewards: [
+				{
+					id: "3C812A2C8E36E938"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2AA48FBB9B359502"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "4C9DFC6EA46FF727"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "5A5A3B126EE6D604"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -5.0d
+			id: "55243B328EE8CFFA"
+			tasks: [{
+				id: "55A1D9B60B0ED892"
+				type: "item"
+				item: "croptopia:strawberry_smoothie"
+			}]
+			rewards: [
+				{
+					id: "1E5E0B07DB24F721"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "440B0D80FFE0AC0D"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "145B75E0C6D2DBF7"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "79933639CC2EA5F0"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -3.0d
+			id: "1A10F69532E7EA32"
+			tasks: [{
+				id: "67C8C7CBEBFDAE21"
+				type: "item"
+				item: "croptopia:banana_smoothie"
+			}]
+			rewards: [
+				{
+					id: "5370EF1300595E8C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "44F4AF3486CB6CA2"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "3DE53F47BFA929AA"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "568E279F2D46027D"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -2.0d
+			id: "4C4794969E6F19EF"
+			tasks: [{
+				id: "0E4B833660647B3D"
+				type: "item"
+				item: "croptopia:leafy_salad"
+			}]
+			rewards: [
+				{
+					id: "094A1B579B1400E1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "49A3DACE7F14E681"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "3C2C5BA84E185CCA"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "6C19D0F363E8938A"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -6.0d
+			id: "4C33AA9B83A21880"
+			tasks: [{
+				id: "2383B55D38E8E95E"
+				type: "item"
+				item: "croptopia:salsa"
+			}]
+			rewards: [
+				{
+					id: "0A8346A3B4B2EC9D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3AA4CE05679EF269"
+					type: "item"
+					item: "tconstruct:copper_nugget"
+				}
+				{
+					id: "4B4E0DF209B43232"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2
+				}
+				{
+					id: "468A63326D098725"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -5.0d
+			id: "1551E4FD839807A2"
+			tasks: [{
+				id: "6F69029988FDA087"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [
+				{
+					id: "25953A992E76E8A1"
+					type: "item"
+					item: "cookingforblockheads:recipe_book"
+				}
+				{
+					id: "0AE0BA46FEBCA714"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -3.5d
+			dependencies: ["1551E4FD839807A2"]
+			id: "1223B74DE8108C67"
+			tasks: [{
+				id: "7058268E47CF5430"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+			rewards: [
+				{
+					id: "0BD84C22EF67251B"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "0CF11DB6B4563FA9"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -2.0d
+			dependencies: ["1223B74DE8108C67"]
+			id: "6B649400E699D31F"
+			tasks: [{
+				id: "38A11EFAA835CD69"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "75E3E069A0F1AFA4"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "4109175886C45297"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -0.5d
+			dependencies: ["6B649400E699D31F"]
+			id: "6232E0EC41F931BA"
+			tasks: [{
+				id: "334B35A42469F031"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			rewards: [
+				{
+					id: "0A75730FB4558909"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "2518679EDCD0FF03"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: 1.0d
+			dependencies: ["6232E0EC41F931BA"]
+			id: "71F7425B228485C4"
+			tasks: [{
+				id: "1875883B455683A9"
+				type: "item"
+				item: "cookingforblockheads:counter"
+			}]
+			rewards: [
+				{
+					id: "33682787F4095DEC"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "6FEB0C02FFA96AE1"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: 2.5d
+			dependencies: ["71F7425B228485C4"]
+			id: "12F512B24CF56B09"
+			tasks: [{
+				id: "642FB815DE09D4AE"
+				type: "item"
+				item: "cookingforblockheads:cabinet"
+			}]
+			rewards: [
+				{
+					id: "5C7389B401C1AB97"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "4B7A5EA593E2FB53"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: 4.0d
+			dependencies: ["12F512B24CF56B09"]
+			id: "1A565B02E67D7872"
+			tasks: [
+				{
+					id: "742210107EF4DCA8"
+					type: "item"
+					item: "cookingforblockheads:spice_rack"
+				}
+				{
+					id: "38C2B91E603D115A"
+					type: "item"
+					item: "cookingforblockheads:tool_rack"
+				}
+				{
+					id: "363C06785AFA13DD"
+					type: "item"
+					item: "cookingforblockheads:fruit_basket"
+				}
+				{
+					id: "4166AF4B71C4CA49"
+					type: "item"
+					item: "cookingforblockheads:milk_jar"
+				}
+				{
+					id: "23A17487A659F529"
+					type: "item"
+					item: "cookingforblockheads:toaster"
+				}
+			]
+			rewards: [
+				{
+					id: "732F6B000BBA0D1F"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "43BB26D6C0A18EC0"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			dependencies: ["619A52669514E850"]
+			id: "54890B0F03CB39E0"
+			tasks: [{
+				id: "6EBD3DA71D412E10"
+				type: "item"
+				item: "nethersdelight:stuffed_hoglin"
+			}]
+			rewards: [{
+				id: "3A0A32B8A0447098"
+				type: "item"
+				item: "kubejs:iron_coin"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["19A4385584636C45"]
+			id: "29DA0B063A256624"
+			tasks: [{
+				id: "64D04F82B130CA93"
+				type: "item"
+				item: "nethersdelight:grilled_strider"
+			}]
+			rewards: [
+				{
+					id: "140454D1C00E33BB"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "6A1341A09163EFC9"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			dependencies: ["19A4385584636C45"]
+			id: "14D298CB7608D220"
+			tasks: [{
+				id: "197041DD1DF197FF"
+				type: "item"
+				item: "nethersdelight:strider_moss_stew"
+			}]
+			rewards: [
+				{
+					id: "1378DF7B84FC6E05"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "1317577DF96299DA"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -6.5d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "2782C4B72A464664"
+			tasks: [{
+				id: "48B34DF5305144B1"
+				type: "item"
+				item: "nethersdelight:nether_skewer"
+			}]
+			rewards: [
+				{
+					id: "5E0FD3DAADD757D6"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "6C426C6DD6A3BA53"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			dependencies: ["19A4385584636C45"]
+			id: "7FEF422EAC3257DD"
+			tasks: [{
+				id: "58F01CB629C29F61"
+				type: "item"
+				item: "alexsdelight:kangaroo_stew"
+			}]
+			rewards: [
+				{
+					id: "368FE77E271C8B49"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "6CBFCBD3D10C3165"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			dependencies: ["19A4385584636C45"]
+			id: "212610E372FD7F92"
+			tasks: [{
+				id: "7E539A5F7E27BDC9"
+				type: "item"
+				item: "alexsdelight:acacia_blossom_soup"
+			}]
+			rewards: [
+				{
+					id: "01B191B0A318D2F0"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "7B77EFF4C6E48263"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -4.5d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "5208C122A79FB6D4"
+			tasks: [{
+				id: "40A96A255CF3974B"
+				type: "item"
+				item: "farmersdelight:salmon_roll"
+			}]
+			rewards: [{
+				id: "639781BFA9FB27B6"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "0F72242F67FB23EA"
+			tasks: [{
+				id: "63166586FF2EB727"
+				type: "item"
+				item: "farmersdelight:cabbage_rolls"
+			}]
+			rewards: [{
+				id: "77F67130A5E9031C"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.5d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "5625E3B3A16BC9B6"
+			tasks: [{
+				id: "4CD83405D6CCD04F"
+				type: "item"
+				item: "farmersdelight:cod_roll"
+			}]
+			rewards: [{
+				id: "20EF1019FD977D70"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "62089B796DB351EE"
+			tasks: [{
+				id: "136A1BD0C9B1D263"
+				type: "item"
+				item: "farmersdelight:kelp_roll"
+			}]
+			rewards: [{
+				id: "2CC99774A219DB9A"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.5d
+			dependencies: [
+				"5625E3B3A16BC9B6"
+				"5208C122A79FB6D4"
+				"62089B796DB351EE"
+			]
+			id: "1872F40DABDF5FAF"
+			tasks: [{
+				id: "08E3A7BEF2AC8FDE"
+				type: "item"
+				item: "farmersdelight:rice_roll_medley_block"
+			}]
+			rewards: [
+				{
+					id: "45FFC57650845DA4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "74F3CF3889317CB3"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "6A6E488CCF7AE3AD"
+			tasks: [{
+				id: "277C9D02358EAF00"
+				type: "item"
+				item: "farmersdelight:bone_broth"
+			}]
+			rewards: [{
+				id: "0AE999E429FEF9B6"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: 10.5d
+			y: -6.5d
+			dependencies: ["2EE16C98E49A9947"]
+			id: "2CBC743A01A4D249"
+			tasks: [{
+				id: "11ABCED42E7D31D1"
+				type: "item"
+				item: "farmersdelight:mushroom_rice"
+			}]
+			rewards: [
+				{
+					id: "6BF5BBD06C10B568"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "181762967958B7D4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "1EBAB25F45475F48"
+			tasks: [{
+				id: "16E76C5CA796E2CC"
+				type: "item"
+				item: "farmersdelight:glow_berry_custard"
+			}]
+			rewards: [
+				{
+					id: "431DB11842A45F7C"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "514A2BFE5E6D09AD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tea time!"
+			x: 0.0d
+			y: -1.0d
+			shape: "hexagon"
+			dependencies: ["32D6083223BDCD90"]
+			size: 1.5d
+			id: "0960AD8BA5C09440"
+			tasks: [{
+				id: "50D9091CB3744BA2"
+				type: "item"
+				item: "farmersrespite:kettle"
+			}]
+			rewards: [
+				{
+					id: "5967B39F483EEE49"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5A48CD35022E76BA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "519D620D2E5D0FF5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "648BAB58990F8D8D"
+			tasks: [{
+				id: "7EA689C816A1D777"
+				type: "item"
+				item: "farmersrespite:coffee_beans"
+			}]
+			rewards: [
+				{
+					id: "5EDBB3EB559DA391"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "083CC03DD10CCBA4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "51DF5016D3B2B89A"
+			tasks: [{
+				id: "219B121B727AAD03"
+				type: "item"
+				item: "farmersrespite:green_tea_leaves"
+			}]
+			rewards: [
+				{
+					id: "05E0D8FEB504C313"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "618FA908F3BA2B3C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "4D9C56A8C025C187"
+			tasks: [{
+				id: "38125E4987DDB934"
+				type: "item"
+				item: "farmersrespite:yellow_tea_leaves"
+			}]
+			rewards: [
+				{
+					id: "20360452C1A299F8"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "7911F1F7AA4DE8A3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "04CDF780E05C5C2D"
+			tasks: [{
+				id: "55BC8F7744D082A2"
+				type: "item"
+				item: "farmersrespite:black_tea_leaves"
+			}]
+			rewards: [
+				{
+					id: "4226AFCB98055854"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "11E3B8B3A7FEA0C2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "6F7BFBA1ED098E26"
+			tasks: [{
+				id: "7123D9467555B8C5"
+				type: "item"
+				item: "farmersrespite:rose_hips"
+			}]
+			rewards: [
+				{
+					id: "604DAA1065469A0A"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "73D794BD014AD5A7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["2F0545EAD838C471"]
+			id: "16371A1ABC7EDFEA"
+			tasks: [{
+				id: "2E6238D6CF976114"
+				type: "item"
+				item: "farmersrespite:dandelion_tea"
+			}]
+			rewards: [
+				{
+					id: "020FE5240944C916"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6F138EE456FAFEE3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["648BAB58990F8D8D"]
+			id: "1DB53B94CE26EC1F"
+			tasks: [{
+				id: "3E659ACCBBADA69C"
+				type: "item"
+				item: "farmersrespite:coffee"
+			}]
+			rewards: [
+				{
+					id: "765DC1016E48CFA6"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "678CD24F339DA825"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["51DF5016D3B2B89A"]
+			id: "1801CABEB4546A91"
+			tasks: [{
+				id: "614B7A3AFC24BDB3"
+				type: "item"
+				item: "farmersrespite:green_tea"
+			}]
+			rewards: [
+				{
+					id: "4C1756C0F3E688B1"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "729D0346C2B1A66A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["4D9C56A8C025C187"]
+			id: "75E87C071232E880"
+			tasks: [{
+				id: "034EDFD628CE924F"
+				type: "item"
+				item: "farmersrespite:yellow_tea"
+			}]
+			rewards: [
+				{
+					id: "52BE19B6EB7F856B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4B3A4F5C9C9B2C56"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["04CDF780E05C5C2D"]
+			id: "2DE60B5902EB6E77"
+			tasks: [{
+				id: "1E93E2F8E8763D04"
+				type: "item"
+				item: "farmersrespite:black_tea"
+			}]
+			rewards: [
+				{
+					id: "0EA9F484550BEAFD"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "14EBE219335BB49B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["6F7BFBA1ED098E26"]
+			id: "254EEEE83C8C2627"
+			tasks: [{
+				id: "6BE15097F46EA6F1"
+				type: "item"
+				item: "farmersrespite:rose_hip_tea"
+			}]
+			rewards: [
+				{
+					id: "517A7D86467C6382"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4D0D2974E2CE7F70"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "2F0545EAD838C471"
+			tasks: [{
+				id: "3EB7731A52CE54FC"
+				type: "item"
+				item: "minecraft:dandelion"
+			}]
+			rewards: [
+				{
+					id: "55CC37B00C819FFB"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2BD8154A25176F67"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+	]
+}

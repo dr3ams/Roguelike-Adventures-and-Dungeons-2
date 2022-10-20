@@ -5,6 +5,8 @@
 	enableVanillaCropCrates = true
 	#Should Novice and Apprentice Farmers buy this mod's crops? (May reduce chances of other trades appearing)
 	farmersBuyFDCrops = true
+	#Should the Wandering Trader sell some of this mod's items? (Currently includes crop seeds and onions)
+	wanderingTraderSellsFDItems = true
 	#How often (in percentage) should Rich Soil succeed in boosting a plant's growth at each random tick? Set it to 0.0 to disable this.
 	#Range: 0.0 ~ 1.0
 	richSoilBoostChance = 0.2
@@ -14,16 +16,16 @@
 	#A list of dye colors that, when used as the background of a Canvas Sign, should default to white text when placed.
 	#Dyes: ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black"]
 	canvasSignDarkBackgroundList = ["gray", "purple", "blue", "brown", "green", "red", "black"]
-	#Should the Wandering Trader sell some of this mod's items? (Currently includes crop seeds and onions)
-	wanderingTraderSellsFDItems = true
+	#Should players be able to reel back rope, bottom to top, when sneak-using with an empty hand on them?
+	enableRopeReeling = true
 
 #Vanilla item overrides
 [overrides]
-	#Should items inside the tag 'farmersdelight:comfort_foods' grant 2 minutes of Comfort when eaten? (defaults to vanilla SoupItems)
-	comfortFoodTagEffect = true
+	#Should soups and stews from vanilla Minecraft grant additional effects, like meals from this mod?
+	vanillaSoupExtraEffects = true
 	#Should Rabbit Stew grant users the jumping prowess of a rabbit when eaten?
 	rabbitStewJumpBoost = true
-	#Should most vanilla tools register a dispenser behavior when facing a Cutting Board?
+	#Should the Dispenser be able to operate a Cutting Board in front of it?
 	dispenserUsesToolsOnCuttingBoard = true
 
 	#Stack size overrides
@@ -37,10 +39,10 @@
 
 #World generation
 [world]
-	#Generate Compost Heaps across all village biomes
-	genVillageCompostHeaps = true
 	#Should this mod add some of its items (ropes, seeds, knives, meals etc.) as extra chest loot across Minecraft?
 	generateFDChestLoot = true
+	#Generate Compost Heaps across all village biomes
+	genVillageCompostHeaps = true
 
 	#Wild Cabbage generation
 	[world.wild_cabbages]
@@ -48,7 +50,7 @@
 		genWildCabbages = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 10
+		chance = 30
 
 	#Sea Beet generation
 	[world.wild_beetroots]
@@ -56,7 +58,7 @@
 		genWildBeetroots = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 10
+		chance = 30
 
 	#Wild Potato generation
 	[world.wild_potatoes]
@@ -64,7 +66,7 @@
 		genWildPotatoes = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 8
+		chance = 100
 
 	#Wild Carrot generation
 	[world.wild_carrots]
@@ -72,7 +74,7 @@
 		genWildCarrots = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 8
+		chance = 120
 
 	#Wild Onion generation
 	[world.wild_onions]
@@ -80,7 +82,7 @@
 		genWildOnions = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 8
+		chance = 120
 
 	#Tomato Vines generation
 	[world.wild_tomatoes]
@@ -88,7 +90,7 @@
 		genWildTomatoes = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 8
+		chance = 100
 
 	#Wild Rice generation
 	[world.wild_rice]
@@ -96,5 +98,34 @@
 		genWildRice = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 10
+		chance = 20
+
+	#Brown Mushroom Colony generation
+	[world.brown_mushroom_colonies]
+		#Generate brown mushroom colonies on mushroom fields
+		genBrownMushroomColony = true
+		#Chance of generating clusters. Smaller value = more frequent.
+		#Range: > 0
+		chance = 15
+
+	#Red Mushroom Colony generation
+	[world.red_mushroom_colonies]
+		#Generate red mushroom colonies on mushroom fields
+		genRedMushroomColony = true
+		#Chance of generating clusters. Smaller value = more frequent.
+		#Range: > 0
+		chance = 15
+
+#Farming
+[farming]
+	#Which rope should Tomato Vines leave behind when mined by hand?
+	defaultTomatoVineRope = "farmersdelight:rope"
+	#Should tomato vines be able to climb any rope tagged as farmersdelight:ropes?
+	#Beware: this will convert these blocks into the block specified in defaultTomatoVineRope.
+	enableTomatoVineClimbingTaggedRopes = true
+
+#Recipe book
+[recipe_book]
+	#Should the Cooking Pot have a Recipe Book available on its interface?
+	enableRecipeBookCookingPot = true
 

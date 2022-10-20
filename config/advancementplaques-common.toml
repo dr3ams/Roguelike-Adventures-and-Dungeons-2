@@ -8,12 +8,15 @@
 		# The distance from the top or bottom of the screen, in pixels.
 		#Range: 8 ~ 256
 		distance = 16
-		# Hide waila/hwyla/jade popups while plaques are showing.
-		hide_waila = true
+		# The horizontal offset from the center, in pixels.
+		#Range: -256 ~ 256
+		horizontal_offset = 0
+		# Hide waila/hwyla/jade/wthit popups while plaques are showing.
+		hide_waila = false
 		# If plaques should show for task advancements (normal advancements).
-		tasks = false
+		tasks = true
 		# If plaques should show for goal advancements (medium-difficulty advancements).
-		goals = false
+		goals = true
 		# If plaques should show for challenge advancements (high-difficulty advancements).
 		challenges = true
 		# Text color to use for plaque titles (like "Advancement made!"). Can be entered as an 8-digit hex color code 0xAARRGGBB for convenience.

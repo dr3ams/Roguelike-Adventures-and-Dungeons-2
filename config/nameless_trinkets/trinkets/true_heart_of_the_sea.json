@@ -1,0 +1,78 @@
+{
+  "config": {
+    "miningUnderwaterSpeed": 3.0,
+    "chokingDamage": 1.5,
+    "blindnessWhenChoking": true,
+    "airReductionSpeed": 5,
+    "swimSpeedMultiplier": 300.0
+  },
+  "loot": [
+    {
+      "table": [
+        "minecraft:chests/spawn_bonus_chest"
+      ],
+      "chance": 0.5
+    },
+    {
+      "table": [
+        "minecraft:chests/village/village_desert_house",
+        "minecraft:chests/village/village_plains_house",
+        "minecraft:chests/village/village_snowy_house",
+        "minecraft:chests/village/village_taiga_house",
+        "minecraft:chests/village/village_savanna_house",
+        "minecraft:chests/village/village_butcher"
+      ],
+      "chance": 0.01
+    },
+    {
+      "table": [
+        "minecraft:chests/abandoned_mineshaft",
+        "minecraft:chests/buried_treasure",
+        "minecraft:chests/pillager_outpost",
+        "minecraft:chests/stronghold_corridor",
+        "minecraft:chests/woodland_mansion"
+      ],
+      "chance": 0.125
+    },
+    {
+      "table": [
+        "minecraft:chests/village/village_armorer",
+        "minecraft:chests/village/village_toolsmith",
+        "minecraft:chests/village/village_weaponsmith"
+      ],
+      "chance": 0.035
+    },
+    {
+      "table": [
+        "minecraft:chests/bastion_treasure"
+      ],
+      "chance": 0.35
+    },
+    {
+      "table": [
+        "minecraft:chests/simple_dungeon",
+        "minecraft:chests/nether_bridge",
+        "minecraft:chests/ruined_portal",
+        "minecraft:chests/shipwreck_treasure"
+      ],
+      "chance": 0.05
+    },
+    {
+      "table": [
+        "minecraft:chests/end_city_treasure",
+        "minecraft:chests/jungle_temple",
+        "minecraft:chests/underwater_ruin_big"
+      ],
+      "chance": 0.15
+    },
+    {
+      "table": [
+        "minecraft:chests/village/village_tannery",
+        "minecraft:chests/village/village_temple",
+        "minecraft:chests/bastion_hoglin_stable",
+        "minecraft:chests/desert_pyramid"
+      ],
+      "chance": 0.1
+    }
+  ]
+}

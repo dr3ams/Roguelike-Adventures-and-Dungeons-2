@@ -1,0 +1,2068 @@
+{
+	id: "0817BDFE298D5C86"
+	group: "67B03B24E53297B4"
+	order_index: 3
+	filename: "create"
+	title: "Machinery"
+	icon: "create:flywheel"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.5d
+			y: 7.5d
+			width: 7.5d
+			height: 1.7d
+			rotation: 0.0d
+			image: "litv3:textures/misc/fraame_long.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "litv3:textures/misc/fraame_sq.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			width: 4.0d
+			height: 0.65d
+			rotation: 0.0d
+			image: "litv3:textures/misc/fluu.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			width: 4.5d
+			height: 0.8d
+			rotation: 0.0d
+			image: "litv3:textures/misc/movee.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 15.5d
+			y: -0.5d
+			width: 7.5d
+			height: 1.7d
+			rotation: 0.0d
+			image: "litv3:textures/misc/fraame_long.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 14.0d
+			y: -1.5d
+			width: 4.5d
+			height: 0.8d
+			rotation: 0.0d
+			image: "litv3:textures/misc/logii.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			width: 2.8d
+			height: 2.8d
+			rotation: 0.0d
+			image: "create:textures/gui/logo.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.5d
+			y: 2.5d
+			width: 28.0d
+			height: 16.0d
+			rotation: 0.0d
+			image: "litv3:textures/misc/create-big-border.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -1.0d
+			y: -1.0d
+			subtitle: "Welcome to Create!"
+			description: [
+				"I'll be your short and basic guide in a beautiful world of Create!"
+				""
+				"You can also always check Youtube for more detailed visual walkthroughs. (you will definitely will do that)"
+				""
+				"Now let's create your first machinery"
+			]
+			id: "6D677805996BDA93"
+			tasks: [{
+				id: "3BF6D1AF538599E8"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "1E84491518ACFB66"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "create:goggles"
+			x: -1.0d
+			y: 0.5d
+			subtitle: "Check it out right now. It's awesome I promise!"
+			description: [
+				"Pondering is an in-game guide system that allows the player to quickly get information about Create blocks."
+				""
+				"An item can be Pondered by hovering over it and holding \"W\" until the bar below the item is filled up. This displays an animated infographic about the item being pondered."
+				""
+				"The full Ponder Index can be accessed through the Create menu by clicking the Engineer's Goggles icon in the pause menu."
+				""
+				""
+			]
+			dependencies: ["6D677805996BDA93"]
+			id: "30E915732BC23F46"
+			tasks: [{
+				id: "7FAF15E0CFA84359"
+				type: "checkmark"
+				title: "Detailed info"
+			}]
+			rewards: [
+				{
+					id: "1F12DE5921DF143E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "188F824995D4CA8C"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			shape: "octagon"
+			subtitle: "Hover over this block in your inventory and hold 'W' to see how it works and how to assemble it correctly"
+			description: [
+				""
+				""
+				"One of the more basic generators is called the Water Wheel. This concept should sound familiar, especially to people that have been playing modded minecraft for a bit. To get it spinning, all you have to do is get some water flowing around it. Pay attention the direction the water is flowing though, as it will spin at only half the rate when water flows in the wrong direction."
+			]
+			dependencies: ["2C1C0E127A96B892"]
+			size: 2.0d
+			id: "1D71C57E9B52C64D"
+			tasks: [{
+				id: "1B1C32F9BA45D1A6"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [
+				{
+					id: "764A047F9593040C"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "369DA2BBADCD44AA"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 9
+				}
+				{
+					id: "4B1A8233AE85141D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			description: [
+				"While cogwheels can be used as fancy looking shafts, their main use is a little different. They will relay rotation sideways to other cogwheels while keeping the axis of rotation. Directly adjacent cogwheels will also reverse the direction of rotation."
+				""
+				"When mixing large and small cogwheel the speed of rotation will also change"
+				""
+				"Two large cogwheels at an 90° Angle allow for the axis of rotation to be changed."
+			]
+			dependencies: ["6D677805996BDA93"]
+			id: "2C1C0E127A96B892"
+			tasks: [{
+				id: "7F850FB8ACFA7E47"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+			rewards: [
+				{
+					id: "0121FCC3749172EC"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "3C970077DEE253D5"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "595E9E65087B103B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["3770B7298AFF38A4"]
+			id: "79D6A542A0729479"
+			tasks: [{
+				id: "3D51510F68CA6D5F"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [
+				{
+					id: "64280E1462BF138A"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 4
+					random_bonus: 8
+				}
+				{
+					id: "59B9207B5570CED9"
+					type: "item"
+					item: "minecraft:copper_ingot"
+					random_bonus: 2
+				}
+				{
+					id: "01597F5364415125"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			description: [
+				"The most basic and cheapest way of transferring rotational force is the shaft. This will relay rotation in a straight line to all connected shafts."
+				""
+				"Shafts also come in a encased variant, they have the same functionality, just look a bit different"
+			]
+			dependencies: ["1D71C57E9B52C64D"]
+			id: "3770B7298AFF38A4"
+			tasks: [{
+				id: "676C9FD886987D1B"
+				type: "item"
+				item: "create:shaft"
+			}]
+			rewards: [
+				{
+					id: "43130A6E08595803"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 16
+				}
+				{
+					id: "3A2EF010F0F7AA52"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			dependencies: ["79D6A542A0729479"]
+			id: "67D26DEF0E563519"
+			tasks: [{
+				id: "13A440DE7C64D236"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+			rewards: [
+				{
+					id: "294D193739E6EA7C"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 8
+				}
+				{
+					id: "38877B32F25CFB9A"
+					type: "item"
+					item: "minecraft:copper_ingot"
+					random_bonus: 3
+				}
+				{
+					id: "7DF2B6192910F810"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 9
+				}
+				{
+					id: "3B6C883B8FBE3315"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			shape: "octagon"
+			dependencies: ["67D26DEF0E563519"]
+			size: 2.0d
+			id: "7741EAC5855D8B05"
+			tasks: [{
+				id: "317AEBE0CE4BD949"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [
+				{
+					id: "6959879BEDC5C8EA"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "49241DE534909E91"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 4
+				}
+				{
+					id: "644FF80F731E8A42"
+					type: "item"
+					item: "minecraft:copper_ingot"
+					count: 2
+				}
+				{
+					id: "0BA61F02881EA7E5"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+				}
+				{
+					id: "2F1FF54E44062F82"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			icon: "itemfilters:not"
+			x: 3.5d
+			y: -2.1d
+			description: [
+				"A lot of Create's machines need to be powered to operate. This power can be called rotational force or just Rotation."
+				""
+				"There are a couple different components that can create this rotational force in one way or another, they are called Generators. Just generation alone won't get you very far though, it still has to be relayed to the desired machines."
+				""
+				"There is a variety of different blocks in Create that can achieve just that. Best is play around with each component to familiarize yourself with its abilities. It is important to know the options when having to deal with complex connection tasks in a potentially less forgiving environment."
+				""
+				"Multiple generators can be connected together in order achieve a greater Capacity score for the attached kinetic network. When attaching new generators to running components, it is important that the added generator rotates in the same direction as the component it is attached to. When connecting two kinetic blocks with incompatible direction of rotation, you'll notice that the blocks just break. However, trouble-shooting this will be quite straight-forward - all you need to do is to include a means of reversing the rotation between the generator and the rest"
+			]
+			dependencies: ["1D71C57E9B52C64D"]
+			size: 0.7d
+			id: "47A879AED7CD6345"
+			tasks: [{
+				id: "4A48BF7733075FF8"
+				type: "checkmark"
+				title: "Generate and Convey"
+			}]
+			rewards: [{
+				id: "467F5037CE0FD8B2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["67D26DEF0E563519"]
+			id: "18C9EDD4E37799EC"
+			tasks: [
+				{
+					id: "7357EEFA6AD3906D"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "02DF866604D62FB3"
+					type: "item"
+					item: "create:white_sail"
+				}
+			]
+			rewards: [
+				{
+					id: "04DC0EABDB54FC9C"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "153CCF1CBE60BD4E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6A66A84C77FF2FBD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "185A6FB088BBCB43"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			dependencies: ["67D26DEF0E563519"]
+			id: "6966DF5ED25C21DF"
+			tasks: [{
+				id: "34CECCCE7422637A"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [
+				{
+					id: "1098CE34CFA5B17E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1425FA13D2216329"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			description: ["The gearbox is a simple block that relays rotation between 4 of its faces while reversing straight connections."]
+			dependencies: ["67D26DEF0E563519"]
+			id: "3483F642D8F5D294"
+			tasks: [
+				{
+					id: "386A41A28CE25839"
+					type: "item"
+					item: "create:gearbox"
+				}
+				{
+					id: "319004932FC21DBF"
+					type: "item"
+					item: "create:vertical_gearbox"
+				}
+			]
+			rewards: [
+				{
+					id: "6978C45D9C2C0C23"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 8
+				}
+				{
+					id: "2EB88DC5AFC279FA"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+				{
+					id: "57B93B8C6F8E4B52"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 9
+				}
+				{
+					id: "773905A0E29E16C0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			dependencies: ["67F012DB8672ACD9"]
+			id: "5AFFEF0FE9E14625"
+			tasks: [
+				{
+					id: "0945FB86049A8414"
+					type: "item"
+					item: "create:goggles"
+				}
+				{
+					id: "7FE156A524160A1C"
+					type: "item"
+					item: "create:wrench"
+				}
+			]
+			rewards: [
+				{
+					id: "1680E769F323492B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "3A4433C97800BFA0"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			dependencies: ["540B55BEFF0879E3"]
+			id: "4DFD8DABC116C853"
+			tasks: [{
+				id: "75EAE567C9DB1A82"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [
+				{
+					id: "502781B4FF05F29F"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 9
+					random_bonus: 2
+				}
+				{
+					id: "297A7CD11B83FF81"
+					type: "item"
+					item: "minecraft:copper_ingot"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "0E0AE51593F63ED5"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 3.0d
+			shape: "octagon"
+			dependencies: ["2EB653CBB74BFDF4"]
+			size: 2.0d
+			id: "21DA1CC37A474873"
+			tasks: [
+				{
+					id: "0D49D7D2CF26DA3D"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "6D12B4537940291A"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [
+				{
+					id: "1F58B17BF5004D4B"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "198886EB03AAFF07"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0C319A559EC17BA7"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 8
+					random_bonus: 8
+				}
+				{
+					id: "73463F31E1ABFD89"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 4
+					random_bonus: 2
+				}
+				{
+					id: "5F69C6E8844A4D39"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 6
+				}
+			]
+		}
+		{
+			title: "Belts"
+			x: 7.5d
+			y: 4.5d
+			description: [
+				"To place down belts you will need 2 shafts facing in the same direction. They can be placed in 3 orientations, horizontal, vertical or diagonal at an 45° angle"
+				""
+				"Click on the first shaft and you will see some particle effects to where you are looking. When looking at a valid second shaft, these particles will turn green. Once you got a belt in place, it will relay rotation between the two shafts while keeping rotation and speed the same."
+				""
+				"You can also click a shaft onto any piece of a belt to insert an additional pulley that you can connect components to."
+			]
+			dependencies: ["540B55BEFF0879E3"]
+			id: "07980ABDC8986709"
+			tasks: [
+				{
+					id: "72EC658CB1A556F4"
+					type: "item"
+					item: "minecraft:dried_kelp"
+				}
+				{
+					id: "3EBB39B11C1502BA"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+				{
+					id: "15570C134854D5E3"
+					type: "item"
+					item: "create:belt_connector"
+				}
+			]
+			rewards: [
+				{
+					id: "1E83682C3D7D1355"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "77882FF3DB13BB03"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "752365F92F8635F3"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 4.5d
+			dependencies: ["540B55BEFF0879E3"]
+			id: "7943CB775123BE57"
+			tasks: [{
+				id: "3A6A592125A203AB"
+				type: "item"
+				item: "create:chute"
+			}]
+			rewards: [
+				{
+					id: "2B165BD897BF6335"
+					type: "item"
+					item: "minecraft:slime_ball"
+					random_bonus: 3
+				}
+				{
+					id: "32DFA0D30BF11548"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+					random_bonus: 2
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["7741EAC5855D8B05"]
+			id: "5A1A8131023E8765"
+			tasks: [{
+				id: "0AAC5704F1B4A745"
+				type: "item"
+				item: "create:depot"
+			}]
+			rewards: [
+				{
+					id: "13DFA455AF68042F"
+					type: "item"
+					item: "minecraft:copper_ingot"
+					random_bonus: 3
+				}
+				{
+					id: "55C67C54DF81B100"
+					type: "item"
+					item: "minecraft:raw_iron"
+					random_bonus: 3
+				}
+				{
+					id: "20E1789C5A0CBF6C"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 5.0d
+			dependencies: ["239CA302D0E9B38F"]
+			id: "06DF0442A4886D38"
+			tasks: [{
+				id: "2BF91D73B71E9D44"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "6BFE9CB8D45F319A"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "024F0743C545674D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			dependencies: ["7741EAC5855D8B05"]
+			id: "67F012DB8672ACD9"
+			tasks: [{
+				id: "7A828E14341EC91C"
+				type: "item"
+				item: "create:golden_sheet"
+			}]
+			rewards: [
+				{
+					id: "29FB667AA826F78D"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+				{
+					id: "6C2F0C4DD57AA4C7"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			dependencies: ["540B55BEFF0879E3"]
+			id: "2EB653CBB74BFDF4"
+			tasks: [{
+				id: "3E7A9540B9FBEA85"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [
+				{
+					id: "012D506D5861C396"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					random_bonus: 3
+				}
+				{
+					id: "2A3904BCB6D33694"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "366586E07B799DC2"
+					type: "item"
+					item: "minecraft:andesite"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			dependencies: ["7741EAC5855D8B05"]
+			id: "540B55BEFF0879E3"
+			tasks: [{
+				id: "71826D4C0C99258D"
+				type: "item"
+				item: "create:iron_sheet"
+			}]
+			rewards: [{
+				id: "34AB75BF70206DD5"
+				type: "item"
+				item: "minecraft:iron_nugget"
+				count: 9
+			}]
+		}
+		{
+			x: 11.5d
+			y: 5.0d
+			dependencies: ["21DA1CC37A474873"]
+			id: "70B9E6447E8D4B29"
+			tasks: [
+				{
+					id: "0A4D8B6487E1200B"
+					type: "item"
+					item: "create:brass_ingot"
+				}
+				{
+					id: "187EE711D1F891B8"
+					type: "item"
+					item: "create:brass_sheet"
+				}
+			]
+			rewards: [
+				{
+					id: "54671E5916C521AF"
+					type: "item"
+					item: "create:zinc_nugget"
+					count: 4
+					random_bonus: 8
+				}
+				{
+					id: "2BEBBA6D22A22CF3"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 3
+				}
+				{
+					id: "420509A74C9975F0"
+					type: "item"
+					item: "minecraft:slime_ball"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 5.0d
+			shape: "octagon"
+			dependencies: ["70B9E6447E8D4B29"]
+			size: 2.0d
+			id: "239CA302D0E9B38F"
+			tasks: [{
+				id: "4ACE2EC517E51704"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 9L
+			}]
+			rewards: [
+				{
+					id: "21B2923377017216"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "02553852CF5D8A59"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "42EDBAA433D9B912"
+					type: "item"
+					item: "create:zinc_ingot"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["67D26DEF0E563519"]
+			id: "2B4D2CECE651C777"
+			tasks: [
+				{
+					id: "6C2689BC16C02BA8"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "735EA7F55832E904"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+				{
+					id: "1B9CE94A10FE174B"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+				{
+					id: "73C48E9BF781A6BC"
+					type: "item"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0F2DD5DEF4A4E671"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "01DBBA6B55240D3D"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "114AD7FF88D822F3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2DEA269EA100CFD8"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["67D26DEF0E563519"]
+			id: "5E8C888A30151EE7"
+			tasks: [
+				{
+					id: "47882DD29A7E45E9"
+					type: "item"
+					item: "create:mechanical_piston"
+				}
+				{
+					id: "058367FE902C4BA2"
+					type: "item"
+					item: "create:piston_extension_pole"
+				}
+			]
+			rewards: [
+				{
+					id: "26CC6871B52467A4"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "6B20CF85CA6A602C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "3AAEEC9A82197E5F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "24A3A9E6E4FA3923"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			dependencies: ["540B55BEFF0879E3"]
+			id: "6F8474F751BB6966"
+			tasks: [{
+				id: "77F7C945BD30A93B"
+				type: "item"
+				item: "create:mechanical_harvester"
+			}]
+			rewards: [{
+				id: "51A638C756A99007"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 5.0d
+			dependencies: ["70B9E6447E8D4B29"]
+			id: "20D47F19D03BD8C2"
+			tasks: [{
+				id: "70099274DD6B536D"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [
+				{
+					id: "69C501980F130D31"
+					type: "item"
+					item: "create:zinc_nugget"
+					count: 4
+					random_bonus: 8
+				}
+				{
+					id: "0D9E25B56515DE41"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "5ADE1E1D8923A980"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "494725F9A0AB0584"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 6.0d
+			dependencies: ["20D47F19D03BD8C2"]
+			id: "34D365CFB0A240F9"
+			tasks: [{
+				id: "0D50584E44D1539D"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			rewards: [
+				{
+					id: "5230CE980EAB7F3A"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "43F12C9616D35D6B"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "5F3ACE10BD8678B4"
+					type: "item"
+					item: "create:zinc_nugget"
+					count: 4
+					random_bonus: 10
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			dependencies: ["7741EAC5855D8B05"]
+			id: "2118BC5A8B0902C6"
+			tasks: [{
+				id: "0C974B50FF4424AC"
+				type: "item"
+				item: "create:copper_sheet"
+			}]
+			rewards: [
+				{
+					id: "604CBA95D10A1EF1"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "348AC9CF3421507D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "23F87FA31F347363"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			dependencies: ["2118BC5A8B0902C6"]
+			id: "7DB111AFF620FC85"
+			tasks: [
+				{
+					id: "0ECDB5D9C52F1DAD"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "090A459BE3857276"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+			]
+			rewards: [
+				{
+					id: "5663FF5ADB522570"
+					type: "item"
+					item: "minecraft:redstone"
+					random_bonus: 5
+				}
+				{
+					id: "6E8FED5818B441B1"
+					type: "item"
+					item: "minecraft:slime_ball"
+					random_bonus: 5
+				}
+				{
+					id: "61B47894B80EACB9"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 9
+				}
+				{
+					id: "5CB9FC55FC50969C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			dependencies: ["2118BC5A8B0902C6"]
+			id: "116D95959E34AE37"
+			tasks: [{
+				id: "31607D1E70A176AA"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+			rewards: [
+				{
+					id: "545B3F7454EEE5F8"
+					type: "item"
+					item: "minecraft:redstone"
+					random_bonus: 5
+				}
+				{
+					id: "3B5DA941865B106A"
+					type: "item"
+					item: "minecraft:slime_ball"
+					random_bonus: 6
+				}
+				{
+					id: "7B03ED80992648ED"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 9
+				}
+				{
+					id: "3D02924C9DFC2641"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "7281AB93B14CFE70"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			dependencies: ["2118BC5A8B0902C6"]
+			id: "3580AAEF1770B0F1"
+			tasks: [{
+				id: "0917F1795C918CBC"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [
+				{
+					id: "65DB3D246CCB7360"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 2
+					random_bonus: 6
+				}
+				{
+					id: "6EEC6AAA3B315DB7"
+					type: "item"
+					item: "minecraft:slime_ball"
+					random_bonus: 3
+				}
+				{
+					id: "5EA7631B9E854F14"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 9
+				}
+				{
+					id: "15D82705FB63A9B2"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "400A78710D90A267"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["67D26DEF0E563519"]
+			id: "533F93A6D4914D2F"
+			tasks: [{
+				id: "4D0A0E0171AAD140"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+			rewards: [
+				{
+					id: "293CCA110F95FC63"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "761731B08310B2A4"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "3FDCD08D84CD3D62"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["67D26DEF0E563519"]
+			id: "197AE51E423835D4"
+			tasks: [
+				{
+					id: "7A6502511B5058D4"
+					type: "item"
+					item: "create:gantry_carriage"
+				}
+				{
+					id: "5B89EA4AC9ABA07C"
+					type: "item"
+					item: "create:gantry_shaft"
+				}
+			]
+			rewards: [
+				{
+					id: "136AB0B33A809F5D"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "5142FA372E8374E7"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "0D44296DECECD6BB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "576B13AB66E2C20A"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["67D26DEF0E563519"]
+			id: "27A4548599B02459"
+			tasks: [{
+				id: "32B5D8A85480A518"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+			rewards: [
+				{
+					id: "1D953647E386ECD9"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "217A25903EE69DE7"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "631A85E0232FD4D8"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			dependencies: ["2118BC5A8B0902C6"]
+			id: "6CC5F6B328B8989F"
+			tasks: [{
+				id: "5D1A64BD9EAADB55"
+				type: "item"
+				item: "create:smart_fluid_pipe"
+			}]
+			rewards: [
+				{
+					id: "405C52EC9C938864"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+				}
+				{
+					id: "7BB132D99EC76B57"
+					type: "item"
+					item: "minecraft:slime_ball"
+					random_bonus: 5
+				}
+				{
+					id: "26E99178B5498C4D"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 9
+				}
+				{
+					id: "2BE2C74AD644703F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			dependencies: ["2118BC5A8B0902C6"]
+			id: "7FE7F8063109CCA9"
+			tasks: [{
+				id: "3CF19C86C502A375"
+				type: "item"
+				item: "create:fluid_valve"
+			}]
+			rewards: [
+				{
+					id: "13B91A8FDC9FC6B7"
+					type: "item"
+					item: "minecraft:slime_ball"
+					random_bonus: 3
+				}
+				{
+					id: "7A9E1DFBD76D7CD0"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 9
+				}
+				{
+					id: "77115AEC0BB15657"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 6.5d
+			dependencies: ["239CA302D0E9B38F"]
+			id: "13F6F6EE7338BBF6"
+			tasks: [
+				{
+					id: "62230328E583BB13"
+					type: "item"
+					item: "create_sa:brass_drone_item"
+				}
+				{
+					id: "3722CDAF2E3FE0E8"
+					type: "item"
+					item: {
+						id: "create_sa:drone_controller"
+						Count: 1b
+						tag: {
+							tagAction: 0b
+							tagPulseAction: 0b
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2551114E28A882D1"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "5232BF762C07F5CF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "48097C7664FF67EC"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 7
+				}
+				{
+					id: "5FBA2E9DA6C821E5"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 4
+					random_bonus: 8
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 6.5d
+			dependencies: ["239CA302D0E9B38F"]
+			id: "1ED526E9341CAB0A"
+			tasks: [{
+				id: "4DE1CA413A74F4E9"
+				type: "item"
+				item: {
+					id: "create_sa:flamethrower"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6AAAD25F71AD57CD"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "47A9D8E8FD0DF9D1"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					random_bonus: 3
+				}
+				{
+					id: "319E7BA041899726"
+					type: "item"
+					item: "create:zinc_nugget"
+					count: 4
+					random_bonus: 9
+				}
+				{
+					id: "0F5646DECFB07BE5"
+					type: "item"
+					item: "create:brass_nugget"
+					count: 3
+					random_bonus: 8
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 5.5d
+			dependencies: ["7943CB775123BE57"]
+			id: "1355C48C0FAE2984"
+			tasks: [{
+				id: "5B20925D817663CB"
+				type: "item"
+				item: "create:smart_chute"
+			}]
+			rewards: [
+				{
+					id: "5A330083AC85F317"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "7384D4FD64DA4B3D"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 9
+				}
+				{
+					id: "7A494BFAA11D3430"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: ["79D6A542A0729479"]
+			id: "76DA52AD0DCFDA6E"
+			tasks: [{
+				id: "1A5C5DBC291D3521"
+				type: "item"
+				item: "create:speedometer"
+			}]
+			rewards: [
+				{
+					id: "1E820FE824994254"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 9
+				}
+				{
+					id: "278C984107A00E34"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "382E9B615883D3A2"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 4
+				}
+				{
+					id: "15FBC6E489B150D0"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["79D6A542A0729479"]
+			id: "23AC0F0F9D970405"
+			tasks: [{
+				id: "3F2EE99FA2557609"
+				type: "item"
+				item: "create:stressometer"
+			}]
+			rewards: [
+				{
+					id: "15CB08ED9B8742C9"
+					type: "item"
+					item: "minecraft:slime_ball"
+					random_bonus: 2
+				}
+				{
+					id: "1B09E4E8DF157EEA"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+					random_bonus: 3
+				}
+				{
+					id: "5077B00AE758010D"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "5BF643F06D4BA9E5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 6.0d
+			dependencies: ["20D47F19D03BD8C2"]
+			id: "13BA37E45FCF1664"
+			tasks: [{
+				id: "62D7062594AB10C3"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [
+				{
+					id: "500446E35F5F67B6"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "1B13EFB2399CAFBD"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "6DB3366885C63275"
+					type: "item"
+					item: "create:zinc_nugget"
+					count: 4
+					random_bonus: 8
+				}
+				{
+					id: "7C55C577D13E2B7B"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["67D26DEF0E563519"]
+			id: "507FC5E479A1EFFA"
+			tasks: [{
+				id: "5F3EFE4726226B35"
+				type: "item"
+				item: "create:brown_toolbox"
+			}]
+			rewards: [
+				{
+					id: "11443D8F3B2B3A1F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "44BF281B950BA048"
+					type: "item"
+					item: "minecraft:copper_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["70B9E6447E8D4B29"]
+			id: "2E2D0D7C72BB412B"
+			tasks: [{
+				id: "7BCBE1F08E4598F9"
+				type: "item"
+				item: {
+					id: "create:linked_controller"
+					Count: 1b
+					tag: {
+						Items: {
+							Size: 12
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4CBBE08F1B24ABAB"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "2F8172383FEF2B40"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "42CF9CA9B194D128"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["70B9E6447E8D4B29"]
+			id: "648A92286B54DD84"
+			tasks: [{
+				id: "52756BC5B1C55CEC"
+				type: "item"
+				item: "create:redstone_link"
+			}]
+			rewards: [
+				{
+					id: "6DCA8A3DAC2D3F1D"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "0DA6F245D809A48F"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "00B29186BE31538B"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["79D6A542A0729479"]
+			id: "4EC21A1268E421BC"
+			tasks: [{
+				id: "366511797CD9951B"
+				type: "item"
+				item: "create:analog_lever"
+			}]
+			rewards: [
+				{
+					id: "54354A9803130BDA"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "3882024B439E2151"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "593C503F417D2174"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 17.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["70B9E6447E8D4B29"]
+			id: "49E3B19487685DD2"
+			tasks: [{
+				id: "4378B5EFE06B0C0E"
+				type: "item"
+				item: "create:pulse_repeater"
+			}]
+			rewards: [
+				{
+					id: "1DC8265176977C75"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "62051A2CAF351ED3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6EB15DD06D5DA731"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["70B9E6447E8D4B29"]
+			id: "38D8C65E65D64C6C"
+			tasks: [{
+				id: "60E15BC48CCDB5B2"
+				type: "item"
+				item: "create:pulse_extender"
+			}]
+			rewards: [
+				{
+					id: "22786627572AAE7A"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 3
+					random_bonus: 2
+				}
+				{
+					id: "27AC716F8981A9A1"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "78A4F0C91E994AEC"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -0.5d
+			id: "7BE9BEA61F6150BB"
+			tasks: [{
+				id: "570B8196136A1E07"
+				type: "item"
+				item: "create:powered_latch"
+			}]
+			rewards: [
+				{
+					id: "4595F86990144B2D"
+					type: "item"
+					item: "minecraft:redstone"
+					random_bonus: 2
+				}
+				{
+					id: "27A774AF558FA8CE"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "42C0AEC21FFCE57D"
+					type: "item"
+					item: "minecraft:slime_ball"
+					random_bonus: 2
+				}
+				{
+					id: "48393203108E2DB8"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 1
+				}
+				{
+					id: "131E2EC280301580"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 7.0d
+			dependencies: ["239CA302D0E9B38F"]
+			id: "34822FE2F5408EE5"
+			tasks: [{
+				id: "4ED83556084C5FE1"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "690F7A4EC5DAA259"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "6E4B4666E5367E38"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 3.5d
+			dependencies: ["06DF0442A4886D38"]
+			id: "2CC55E81CB7AB50B"
+			tasks: [
+				{
+					id: "364BE3348D50270A"
+					type: "item"
+					item: "create:sturdy_sheet"
+				}
+				{
+					id: "7E63C4417CA57869"
+					type: "item"
+					item: "create:railway_casing"
+				}
+			]
+			rewards: [
+				{
+					id: "3975EF9A899C18FD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "06330F3EB4BEC3FC"
+					type: "item"
+					item: "create:brass_nugget"
+					random_bonus: 8
+				}
+				{
+					id: "2C7F78FD07EB0597"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 3.5d
+			dependencies: ["2CC55E81CB7AB50B"]
+			id: "56B6FCA3F5434E3A"
+			tasks: [{
+				id: "2451A59C43EA28E4"
+				type: "item"
+				item: "create:track_station"
+			}]
+			rewards: [
+				{
+					id: "61D1AD822F75FB22"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3918AD64AEFA9EBC"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: 3.5d
+			dependencies: ["03E80819FF7B5EB9"]
+			id: "6773B0750333AA43"
+			tasks: [{
+				id: "36A679005A2F043D"
+				type: "item"
+				item: "create:controls"
+			}]
+			rewards: [
+				{
+					id: "6C0C30529A5A3E48"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+				{
+					id: "29FF908AFDE10648"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 3
+				}
+				{
+					id: "51A1EEBB372DBACA"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 3
+				}
+			]
+		}
+		{
+			x: 18.5d
+			y: 3.5d
+			dependencies: ["56B6FCA3F5434E3A"]
+			id: "03E80819FF7B5EB9"
+			tasks: [{
+				id: "7C5444621766A8F0"
+				type: "item"
+				item: "create:track"
+			}]
+			rewards: [
+				{
+					id: "3250EFAF4AD5B93B"
+					type: "item"
+					item: "create:zinc_nugget"
+					count: 4
+				}
+				{
+					id: "10D1203FABAA037D"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 4
+				}
+				{
+					id: "587C787E4D7E81FA"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "17F18EE966000051"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

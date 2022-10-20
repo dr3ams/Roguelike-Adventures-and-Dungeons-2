@@ -1,0 +1,97 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3.0,
+        "max": 8.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+		{
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:dandelion"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:poppy"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:allium"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:azure_bluet"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:orange_tulip"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:white_tulip"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:pink_tulip"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:oxeye_daisy"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:cornflower"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:lily_of_the_valley"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:bamboo"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:birch_sapling"
+        }
+      ]
+    }
+  ]
+}

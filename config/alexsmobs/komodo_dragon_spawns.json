@@ -9,7 +9,33 @@
       {
         "type": "BIOME_DICT",
         "negate": false,
-        "value": "mesa"
+        "value": "jungle"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": true,
+        "value": "dense"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:sandstone_valley"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:red_oasis"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:skylands_summer"
       }
     ]
   ]

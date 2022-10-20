@@ -1,6 +1,6 @@
 # Configuration File
 
-@CONFIG_VERSION: 2.0
+@CONFIG_VERSION: 2.1
 
 ##########################################################################################################
 # Generic Config
@@ -9,14 +9,24 @@
 ##########################################################################################################
 
 "Generic Config" {
+    # Text overflow mode which should be used by The Acknowledgment specifically. This is separate from Patchouli's global setting since it uses RESIZE by default, which unpromptly attempts to rescale font even when no rescaling is neccessary, and it is never neccessary for The Acknowledgment thanks to my continuous efforts to make texts fit perfectly on each and every page. [default: OVERFLOW]
+    # Valid values: OVERFLOW, TRUNCATE, RESIZE
+    S:AcknowledgmentOverflowMode=OVERFLOW
+
+    # If false, active ability of Angel's Blessing will not be triggerable by pressing jump key in mid-air. [default: true]
+    B:AngelBlessingDoubleJump=true
+
     # Whether or not flame particles should appear when the Astral Breaker breaks a block [default: true]
     B:AstralBreakerFlameParticlesToggle=true
 
-    # Controls how obscured your vision is in lava when Blazing Core is equipped. Lower value equals more visibility. [range: 0.0 ~ 1024.0, default: 0.3]
-    D:BlazingCoreLavaDensity=0.3
+    # Controls how obscured your vision is in lava when Blazing Core is equipped. Higher value equals more visibility. [range: 0.0 ~ 1024.0, default: 4.0]
+    D:BlazingCoreLavaDensity=4.0
 
     # Flips the parabolic function bearing responsibility for heat bar rendering when temporary fire resistance from Blazing Core is active. Instead of default behavior, it will start decreasing slowly, but will expotentially speed up the closer to the end it is. This is a purely visual effect - raw fire immunity time provided stays unchanged. [default: false]
     B:BlazingCoreTraitorBarEnabled=false
+
+    # If true, disables subtitles for The Architect's narration. [default: false]
+    B:DisableQuoteSubtitles=false
 
     # Whether or not button for accessing Ender Chest should be added to inventory GUI when player has Ring of Ender equipped. [default: true]
     B:EnderChestButtonEnabled=true
@@ -39,11 +49,44 @@
     # Whether or not food icons on hunger bar should be replaced when custom ones after Forbidden Fruit was consumed. [default: true]
     B:ForbiddenFruitReplaceHungerBar=true
 
+    # Whether or not button for toggling magnet effects should be added to inventory GUI when player has Ring of Ender equipped. [default: true]
+    B:MagnetRingButtonEnabled=true
+
+    # Allows to set offset for Magnet Effects button on X axis. [range: -32768 ~ 32768, default: 0]
+    I:MagnetRingButtonOffsetX=0
+
+    # Allows to set offset for Magnet Effects button on X axis, for creative inventory specifically. [range: -32768 ~ 32768, default: 0]
+    I:MagnetRingButtonOffsetXCreative=0
+
+    # Allows to set offset for Magnet Effects button on Y axis. [range: -32768 ~ 32768, default: 0]
+    I:MagnetRingButtonOffsetY=0
+
+    # Allows to set offset for Magnet Effects button on Y axis, for creative inventory specifically. [range: -32768 ~ 32768, default: 0]
+    I:MagnetRingButtonOffsetYCreative=0
+
+    # Controls how obscured your vision is in lava when Molten Heart effect is active. Higher value equals more visibility. [range: 0.0 ~ 1024.0, default: 6.0]
+    D:MoltenHeartLavaDensity=6.0
+
     # Whether or not oxygen bar should pe prevented from rendering if Will of the Ocean or Pearl of the Void is equipped. [default: true]
     B:SuppressUnneccessaryOxygenRender=true
 
     # Whether or not Enigmatic Legacy should show notification in chat when new mod update is available. [default: true]
-    B:UpdateHandlerEnabled=false
+    B:UpdateHandlerEnabled=true
+}
+
+
+##########################################################################################################
+# The Seven Curses
+#--------------------------------------------------------------------------------------------------------#
+# Config options directly affecting Ring of the Seven Curses
+##########################################################################################################
+
+"The Seven Curses" {
+    # If true, tooltip of Ring of the Seven Curses cannot be read before it is equipped. Fun way to teach players that not every mystery is worth investigating. [default: false]
+    B:CursedRingConcealAbilities=false
+
+    # Set to false to disable displaying lore on Ring of the Seven Curses. Useful if you are a modpack developer wanting to have your own. [default: true]
+    B:CursedRingDisplayLore=true
 }
 
 

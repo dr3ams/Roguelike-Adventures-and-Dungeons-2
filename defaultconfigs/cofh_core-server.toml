@@ -1,4 +1,20 @@
 
+[Gameplay]
+
+	[Gameplay.Fishing]
+		#If TRUE, Fishing will cause exhaustion.
+		"Fishing Exhaustion" = false
+		#This option sets the amount of exhaustion caused by fishing, if enabled.
+		#Range: 0.0 ~ 10.0
+		"Fishing Exhaustion Amount" = 0.125
+
+	[Gameplay.World]
+		#If TRUE, Sapling growth will be slowed by a configurable factor.
+		"Sapling Growth Reduction" = false
+		#This option sets the growth factor for saplings - they will only grow 1 in N times.
+		#Range: > 1
+		"Sapling Growth Reduction Factor" = 4
+
 [Commands]
 	#The required permission level for the '/cofh crafting' command.
 	#Range: 0 ~ 4
@@ -19,20 +35,15 @@
 [Enchantments]
 	#If TRUE, Feather Falling will prevent Farmland from being trampled. This option will work with alternative versions (overrides) of Feather Falling.
 	"Improved Feather Falling" = true
-	#If TRUE, Mending behavior is altered so that XP orbs always repair items if possible, and the most damaged item is prioritized. This option may not work with alternative versions (overrides) of Mending.
+	#If TRUE, Mending behavior is altered so that Experience Orbs always repair items if possible, and the most damaged item is prioritized. This option may not work with alternative versions (overrides) of Mending.
 	"Improved Mending" = true
 
-[Fishing]
-	#If TRUE, Fishing will cause exhaustion.
-	"Fishing Exhaustion" = false
-	#This option sets the amount of exhaustion caused by fishing, if enabled.
-	#Range: 0.0 ~ 10.0
-	"Fishing Exhaustion Amount" = 0.125
-
-[World]
-	#If TRUE, Sapling growth will be slowed by a configurable factor.
-	"Sapling Growth Reduction" = false
-	#This option sets the growth factor for saplings - they will only grow 1 in N times.
-	#Range: > 1
-	"Sapling Growth Reduction Factor" = 4
+	[Enchantments.Holding]
+		#If TRUE, the Holding Enchantment is available for various Storage Items and Blocks.
+		Enable = true
+		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
+		Treasure = false
+		#This option adjusts the maximum allowable level for the Enchantment.
+		#Range: 1 ~ 10
+		"Max Level" = 4
 

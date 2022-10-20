@@ -1,0 +1,127 @@
+
+#PMMO Client Configuration
+[Client]
+
+	#Configuration settings for the guis
+	[Client.GUI]
+		#how far right from the top left corner the skill list should be
+		"Skill List Xoffset" = 0
+		#how far down from the top left corner the skill list should be
+		"Skill List Yoffset" = 0
+		#Should the skill list be displayed
+		"Display Skill List" = false
+		#how far right from the bottom left corner the vein guage sholud be
+		"Vein Gauge Xoffset" = 4
+		#how far up from the bottm left corner the vein guage should be
+		"Vein Gauge Yoffset" = 15
+		#Should the vein charge data be displayed
+		"Display Veing Gauge" = true
+		#how far offset from center the gain list should be
+		"Gain List Xoffset" = 0
+		#how far down from the top left corner the gain list should be
+		"Gain List Yoffset" = 0
+		#Should the Gain list be displayed
+		"Display Gain List" = true
+		#what color should the background be for the section header lines in the glossary
+		"Section Header Color" = 352630048
+		#What color should the background be for the salvage item lines in the glossary
+		"Salage Item Color" = 366125849
+		#how much xp gain hisory should display
+		"Gain List Size" = 3
+		#How long, in ticks, items on the gain list should stay on screen before disappearing
+		"Gain List Linger Duration" = 100
+		#skills that should now show their gains in the gain list.  this can be used to limit spammy skills
+		"Gain Blacklist" = []
+
+	#Generic Tooltip Settings
+	[Client.ToolTip_Settings]
+		#Should met reqs be hidden on the tooltip.
+		"Hide Met Req Tooltips" = true
+
+	#This section covers the various tooltip elements and whether they should be enabled
+	[Client.Tooltip_Visibility]
+
+		[Client.Tooltip_Visibility.Requirement_Tooltips]
+			"WEAR Req  tooltip enabled" = true
+			"USE_ENCHANTMENT Req  tooltip enabled" = true
+			"TOOL Req  tooltip enabled" = true
+			"WEAPON Req  tooltip enabled" = true
+			"USE Req  tooltip enabled" = true
+			"PLACE Req  tooltip enabled" = true
+			"BREAK Req  tooltip enabled" = true
+			"KILL Req  tooltip enabled" = true
+			"TRAVEL Req  tooltip enabled" = true
+			"RIDE Req  tooltip enabled" = true
+			"TAME Req  tooltip enabled" = true
+			"BREED Req  tooltip enabled" = true
+			"INTERACT Req  tooltip enabled" = true
+			"ENTITY_INTERACT Req  tooltip enabled" = true
+
+		[Client.Tooltip_Visibility.Xp_Gain_Tooltips]
+			"ANVIL_REPAIR XP Gain  tooltip enabled" = true
+			"BLOCK_BREAK XP Gain  tooltip enabled" = true
+			"BREAK_SPEED XP Gain  tooltip enabled" = true
+			"BLOCK_PLACE XP Gain  tooltip enabled" = true
+			"BREATH_CHANGE XP Gain  tooltip enabled" = true
+			"BREED XP Gain  tooltip enabled" = true
+			"BREW XP Gain  tooltip enabled" = true
+			"CONSUME XP Gain  tooltip enabled" = true
+			"CRAFT XP Gain  tooltip enabled" = true
+			"RECEIVE_DAMAGE XP Gain  tooltip enabled" = true
+			"FROM_MOBS XP Gain  tooltip enabled" = true
+			"FROM_PLAYERS XP Gain  tooltip enabled" = true
+			"FROM_ANIMALS XP Gain  tooltip enabled" = true
+			"FROM_PROJECTILES XP Gain  tooltip enabled" = true
+			"FROM_MAGIC XP Gain  tooltip enabled" = true
+			"FROM_ENVIRONMENT XP Gain  tooltip enabled" = true
+			"FROM_IMPACT XP Gain  tooltip enabled" = true
+			"DEAL_MELEE_DAMAGE XP Gain  tooltip enabled" = true
+			"MELEE_TO_MOBS XP Gain  tooltip enabled" = true
+			"MELEE_TO_PLAYERS XP Gain  tooltip enabled" = true
+			"MELEE_TO_ANIMALS XP Gain  tooltip enabled" = true
+			"DEAL_RANGED_DAMAGE XP Gain  tooltip enabled" = true
+			"RANGED_TO_MOBS XP Gain  tooltip enabled" = true
+			"RANGED_TO_PLAYERS XP Gain  tooltip enabled" = true
+			"RANGED_TO_ANIMALS XP Gain  tooltip enabled" = true
+			"DEATH XP Gain  tooltip enabled" = true
+			"ENCHANT XP Gain  tooltip enabled" = true
+			"FISH XP Gain  tooltip enabled" = true
+			"SMELT XP Gain  tooltip enabled" = true
+			"GROW XP Gain  tooltip enabled" = true
+			"HEALTH_CHANGE XP Gain  tooltip enabled" = true
+			"JUMP XP Gain  tooltip enabled" = true
+			"SPRINT_JUMP XP Gain  tooltip enabled" = true
+			"CROUCH_JUMP XP Gain  tooltip enabled" = true
+			"WORLD_CONNECT XP Gain  tooltip enabled" = true
+			"WORLD_DISCONNECT XP Gain  tooltip enabled" = true
+			"HIT_BLOCK XP Gain  tooltip enabled" = true
+			"ACTIVATE_BLOCK XP Gain  tooltip enabled" = true
+			"ACTIVATE_ITEM XP Gain  tooltip enabled" = true
+			"ENTITY XP Gain  tooltip enabled" = true
+			"RESPAWN XP Gain  tooltip enabled" = true
+			"RIDING XP Gain  tooltip enabled" = true
+			"SHIELD_BLOCK XP Gain  tooltip enabled" = true
+			"SKILL_UP XP Gain  tooltip enabled" = true
+			"SLEEP XP Gain  tooltip enabled" = true
+			"SPRINTING XP Gain  tooltip enabled" = true
+			"SUBMERGED XP Gain  tooltip enabled" = true
+			"SWIMMING XP Gain  tooltip enabled" = true
+			"DIVING XP Gain  tooltip enabled" = true
+			"SURFACING XP Gain  tooltip enabled" = true
+			"SWIM_SPRINTING XP Gain  tooltip enabled" = true
+			"TAMING XP Gain  tooltip enabled" = true
+			"VEIN_MINE XP Gain  tooltip enabled" = true
+			"DISABLE_PERK XP Gain  tooltip enabled" = true
+
+		[Client.Tooltip_Visibility.Bonus_Tooltips]
+			"BIOME Bonus  tooltip enabled" = true
+			"HELD Bonus  tooltip enabled" = true
+			"WORN Bonus  tooltip enabled" = true
+			"DIMENSION Bonus  tooltip enabled" = true
+
+	#Client Settings Related to the Vein Mining Ability
+	[Client.Vein_Miner]
+		#The max blocks a vein activation should consume regardless of charge
+		#Range: > 0
+		Vein_Limit = 64
+

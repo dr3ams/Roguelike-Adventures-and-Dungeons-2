@@ -24,6 +24,9 @@
 		{ item: "atum:nebu_ingot" }
 		{ item: "twilightforest:ironwood_ingot" }
 		{ item: "tropicraft:shaka_ingot" }
+		{ item: "the_afterlight:lunariteingot" }
+		{ item: "the_afterlight:crystillium_ingot" }
+		{ item: "the_afterlight:livingessenceingot" }
 		{ item: "blue_skies:horizonite_ingot" }
 		{ item: "blue_skies:ventium_ingot" }
 		{ item: "blue_skies:falsite_ingot" }
@@ -31,7 +34,40 @@
 		{ item: "aquaculture:lockbox" }
 		{
 			item: {
+				id: "the_afterlight:livingessenceingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
 				id: "blue_skies:horizonite_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "the_afterlight:crystillium_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "the_afterlight:moonsteel_ingot"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {

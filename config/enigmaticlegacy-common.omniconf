@@ -6,6 +6,15 @@
 # Accessibility Options
 #--------------------------------------------------------------------------------------------------------#
 # You may disable certain items or features from being obtainable/usable here.
+# 
+# A BLASTED WARNING, PLEASE READ CAREFULLY:
+# This WILL NOT "delete" any of the items from the mod. For items, none of the options here do more than
+# just disable default ways of obtaining them. For stuff in dungeon loot - it is removed from dungeon loot, 
+# for starter items - no longer given at the start, for craftables - default recipe is disabled.
+# If you're a modpack developer or whatever, that is your way to add your own ways of obtaining them.
+# Want to disable Enigmatic Amulet/Ring of the Seven Curses from being granted to player when they spawn?
+# HERE IS THE PLACE AND TIME, COME ON AND SLAM!
+# 
 # Please note that as of release 2.6.0 of Enigmatic Legacy, those options are automatically generated
 # for most items in the mod. They may refer to items that do not exist yet or are not obtainable in any
 # case, and may not work for certain items due to non-generic obtaining methods or generic oversight.
@@ -15,6 +24,9 @@
 ##########################################################################################################
 
 "Accessibility Options" {
+    # Whether or not Amulet of Ascension should be enabled. [default: true, synchronized: yes]
+    B:AmuletofAscensionEnabled=true
+
     # Whether or not Angel's Blessing should be enabled. [default: true, synchronized: yes]
     B:AngelsBlessingEnabled=true
 
@@ -23,6 +35,9 @@
 
     # Whether or not Astral Dust should be enabled. [default: true, synchronized: yes]
     B:AstralDustEnabled=true
+
+    # Whether or not Astral Potato should be enabled. [default: true, synchronized: yes]
+    B:AstralPotatoEnabled=true
 
     # Whether or not Axe of Executioner should be enabled. [default: true, synchronized: yes]
     B:AxeofExecutionerEnabled=true
@@ -36,8 +51,20 @@
     # Whether or not bonus recipes for wool dyeing should be enabled. [default: true, synchronized: yes]
     B:BonusWoolRecipesEnabled=true
 
+    # Whether or not Bottle of Ichor should be enabled. [default: true, synchronized: yes]
+    B:BottleofIchorEnabled=true
+
+    # Whether or not Bulwark of Blazing Pride should be enabled. [default: true, synchronized: yes]
+    B:BulwarkofBlazingPrideEnabled=true
+
     # Whether or not Ceaseless Enchantment should be enabled. [default: true, synchronized: yes]
     B:CeaselessEnchantmentEnabled=true
+
+    # Whether or not Celestial Fruit should be enabled. [default: true, synchronized: yes]
+    B:CelestialFruitEnabled=true
+
+    # Whether or not Charming Insignia should be enabled. [default: true, synchronized: yes]
+    B:CharmingInsigniaEnabled=true
 
     # Whether or not Charm of Treasure Hunter should be enabled. [default: true, synchronized: yes]
     B:CharmofTreasureHunterEnabled=true
@@ -48,35 +75,23 @@
     # Whether or not Corrupted Tome should be enabled. [default: true, synchronized: yes]
     B:CorruptedTomeEnabled=true
 
+    # Whether or not Cosmic Scroll should be enabled. [default: true, synchronized: yes]
+    B:CosmicScrollEnabled=true
+
     # Whether or not Enigmatic Legacy should purposefully crash client whenever any mod tries to inject unnamed LootPool into any loot table. If false, stacktraces will be printed to log but game will proceed as normal. [default: true, synchronized: no]
     B:CrashOnUnnamedPool=true
 
-    # Whether or not Crying Netherite Armor should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteArmorEnabled=true
+    # Whether or not Curse of Eternal Binding should be enabled. [default: true, synchronized: yes]
+    B:CurseofEternalBindingEnabled=true
 
-    # Whether or not Crying Netherite Axe should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteAxeEnabled=true
+    # Whether or not Curse of Nemesis should be enabled. [default: true, synchronized: yes]
+    B:CurseofNemesisEnabled=true
 
-    # Whether or not Crying Netherite Hoe should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteHoeEnabled=true
-
-    # Whether or not Crying Netherite Ingot should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteIngotEnabled=true
-
-    # Whether or not Crying Netherite Pickaxe should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheritePickaxeEnabled=true
-
-    # Whether or not Crying Netherite Shovel should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteShovelEnabled=true
-
-    # Whether or not Crying Netherite Sword should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteSwordEnabled=true
+    # Whether or not Curse of Sorrow should be enabled. [default: true, synchronized: yes]
+    B:CurseofSorrowEnabled=true
 
     # Whether or not this mod should add any custom loot to dungeon chests' loot tables. This options is mainly for modpack developers and enables them to re-add that loot on their own terms, since no other ways of modifying what Enigmatic Legacy adds to loot tables currently exist. [default: true, synchronized: yes]
     B:CustomDungeonLootEnabled=true
-
-    # Whether or not Dark Armor should be enabled. [default: true, synchronized: yes]
-    B:DarkArmorEnabled=true
 
     # Whether or not Darkest Scroll should be enabled. [default: true, synchronized: yes]
     B:DarkestScrollEnabled=true
@@ -111,11 +126,17 @@
     # Whether or not Etherium Ingot should be enabled. [default: true, synchronized: yes]
     B:EtheriumIngotEnabled=true
 
+    # Whether or not Etherium Nugget should be enabled. [default: true, synchronized: yes]
+    B:EtheriumNuggetEnabled=true
+
     # Whether or not Etherium Ore should be enabled. [default: true, synchronized: yes]
     B:EtheriumOreEnabled=true
 
     # Whether or not Etherium Pickaxe should be enabled. [default: true, synchronized: yes]
     B:EtheriumPickaxeEnabled=true
+
+    # Whether or not Etherium Scraps should be enabled. [default: true, synchronized: yes]
+    B:EtheriumScrapsEnabled=true
 
     # Whether or not Etherium Scythe should be enabled. [default: true, synchronized: yes]
     B:EtheriumScytheEnabled=true
@@ -138,12 +159,6 @@
     # Whether or not Forbidden Fruit should be enabled. [default: true, synchronized: yes]
     B:ForbiddenFruitEnabled=true
 
-    # Whether or not Fruit of Ascension should be enabled. [default: true, synchronized: yes]
-    B:FruitofAscensionEnabled=true
-
-    # Whether or not Gem of Binding should be enabled. [default: true, synchronized: yes]
-    B:GemofBindingEnabled=true
-
     # Whether or not Gift of the Heaven should be enabled. [default: true, synchronized: yes]
     B:GiftoftheHeavenEnabled=true
 
@@ -156,6 +171,12 @@
     # Whether or not Guite to Animal Companionship should be enabled. [default: true, synchronized: yes]
     B:GuitetoAnimalCompanionshipEnabled=true
 
+    # Whether or not Heart of the Abyss should be enabled. [default: true, synchronized: yes]
+    B:HeartoftheAbyssEnabled=true
+
+    # Whether or not Heart of the Cosmos should be enabled. [default: true, synchronized: yes]
+    B:HeartoftheCosmosEnabled=true
+
     # Whether or not Heart of the Earth should be enabled. [default: true, synchronized: yes]
     B:HeartoftheEarthEnabled=true
 
@@ -164,6 +185,9 @@
 
     # Whether or not Heart of the Guardian should be enabled. [default: true, synchronized: yes]
     B:HeartoftheGuardianEnabled=true
+
+    # Whether or not Inscrutable Eye should be enabled. [default: true, synchronized: yes]
+    B:InscrutableEyeEnabled=true
 
     # Whether or not Iron Ring should be enabled. [default: true, synchronized: yes]
     B:IronRingEnabled=true
@@ -177,6 +201,9 @@
     # Whether or not Magnet Ring should be enabled. [default: true, synchronized: yes]
     B:MagnetRingEnabled=true
 
+    # Whether or not Majestic Elytra should be enabled. [default: true, synchronized: yes]
+    B:MajesticElytraEnabled=true
+
     # Whether or not Megasponge should be enabled. [default: true, synchronized: yes]
     B:MegaspongeEnabled=true
 
@@ -186,8 +213,11 @@
     # Whether or not Nefarious Essence should be enabled. [default: true, synchronized: yes]
     B:NefariousEssenceEnabled=true
 
-    # Whether or not Nemesis Curse should be enabled. [default: true, synchronized: yes]
-    B:NemesisCurseEnabled=true
+    # Whether or not Nefarious Ingot should be enabled. [default: true, synchronized: yes]
+    B:NefariousIngotEnabled=true
+
+    # Whether or not Non-Euclidean Cube should be enabled. [default: true, synchronized: yes]
+    B:NonEuclideanCubeEnabled=true
 
     # Whether or not Pact of Infinite Avarice should be enabled. [default: true, synchronized: yes]
     B:PactofInfiniteAvariceEnabled=true
@@ -197,6 +227,9 @@
 
     # Whether or not Potion of Recall should be enabled. [default: true, synchronized: yes]
     B:PotionofRecallEnabled=true
+
+    # Whether or not Potion of Twisted Mercy should be enabled. [default: true, synchronized: yes]
+    B:PotionofTwistedMercyEnabled=true
 
     # If true, Enigmatic Legacy will cycle through each player's recipe book and trigger 'minecraft:recipe_unlocked' criterion trigger for everything that they have unlocked upon player joining the world. [default: true, synchronized: no]
     B:RetriggerRecipeUnlocks=true
@@ -208,7 +241,7 @@
     B:RingofEnderEnabled=true
 
     # Whether or not Ring of the Seven Curses should be enabled. [default: true, synchronized: yes]
-    B:RingoftheSevenCursesEnabled=false
+    B:RingoftheSevenCursesEnabled=true
 
     # Whether or not Scroll of Ageless Wisdom should be enabled. [default: true, synchronized: yes]
     B:ScrollofAgelessWisdomEnabled=true
@@ -234,8 +267,23 @@
     # Whether or not The Architect's Inkwell should be enabled. [default: true, synchronized: yes]
     B:TheArchitectsInkwellEnabled=true
 
+    # Whether or not The Burden of Desolation should be enabled. [default: true, synchronized: yes]
+    B:TheBurdenofDesolationEnabled=true
+
+    # Whether or not The Ender Slayer should be enabled. [default: true, synchronized: yes]
+    B:TheEnderSlayerEnabled=true
+
+    # Whether or not The Infinitum should be enabled. [default: true, synchronized: yes]
+    B:TheInfinitumEnabled=true
+
+    # Whether or not The Testament of Contempt should be enabled. [default: true, synchronized: yes]
+    B:TheTestamentofContemptEnabled=true
+
     # Whether or not The Twist should be enabled. [default: true, synchronized: yes]
     B:TheTwistEnabled=true
+
+    # Whether or not Tome of Devoured Malignancy should be enabled. [default: true, synchronized: yes]
+    B:TomeofDevouredMalignancyEnabled=true
 
     # Whether or not Tome of Hungering Knowledge should be enabled. [default: true, synchronized: yes]
     B:TomeofHungeringKnowledgeEnabled=true
@@ -258,14 +306,14 @@
     # Whether or not Unholy Stone should be enabled. [default: true, synchronized: yes]
     B:UnholyStoneEnabled=true
 
+    # Whether or not Wayfinder of the Damned should be enabled. [default: true, synchronized: yes]
+    B:WayfinderoftheDamnedEnabled=true
+
     # Whether or not Will of the Ocean should be enabled. [default: true, synchronized: yes]
     B:WilloftheOceanEnabled=true
 
     # Whether or not Withered Tome should be enabled. [default: true, synchronized: yes]
     B:WitheredTomeEnabled=true
-
-    # Whether or not Wormhole Potion should be enabled. [default: true, synchronized: yes]
-    B:WormholePotionEnabled=true
 
     # Whether or not Wrath Enchantment should be enabled. [default: true, synchronized: yes]
     B:WrathEnchantmentEnabled=true
@@ -290,6 +338,10 @@
 
     # Chance to deflect projectile when having Angel's Blessing equipped. Measured in percents. [range: 0 ~ 100, default: 50, synchronized: yes]
     I:AngelBlessingDeflectChance=50
+
+    # List of entities that should count towards the curse-altering effect of Guide to Animal Companionship, and thus remain neutral to players bearing Ring of the Seven Curses if they posses such guide. Examples: minecraft:iron_golem, minecraft:zombified_piglin [default: , synchronized: no]
+    S:AnimalGuideAnimalExclusionList <
+     >
 
     # The depth of Astral Breaker AOE mining. [range: 0 ~ 127, default: 1, synchronized: yes]
     I:AstralBreakerMiningDepth=1
@@ -324,6 +376,18 @@
     # Whether or not crossbows with Ceaseless should be able to shoot basic arrows even if there are none in player's inventory. [default: true, synchronized: yes]
     B:CeaselessEnchantmentAllowNoArrow=true
 
+    # Cooldown of death protection ability of The Architect's Favor. Measured in seconds. [range: 0 ~ 32768, default: 600, synchronized: yes]
+    I:CosmicScrollDeathProtectionCooldown=600
+
+    # Alternative Etherium Shield health requirement for those who bear The Architect's Favor. Defined as percentage. [range: 0 ~ 100, default: 80, synchronized: yes]
+    I:CosmicScrollEtheriumShieldThreshold=80
+
+    # Attack damage bonus of The Architect's Favor against non-chosen players. [range: 0 ~ 32768, default: 100, synchronized: yes]
+    I:CosmicScrollUnchosenDamageBonus=100
+
+    # Knockback bonus of The Architect's Favor against non-chosen players. [range: 0 ~ 32768, default: 100, synchronized: yes]
+    I:CosmicScrollUnchosenKnockbackBonus=100
+
     # Damage increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
     I:CursedScrollDamageBoost=4
 
@@ -332,6 +396,32 @@
 
     # Health regeneration increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
     I:CursedScrollRegenBoost=4
+
+    # Chance that Dimensional Anchor will not spend a charge upon player respawn [range: 0 ~ 32768, default: 35, synchronized: yes]
+    I:EndAnchorChargeSaveChance=35
+
+    # List of specific dimensions in which Dimensional Anchor will not work. If you want it to only work in The End - use EndExclusiveMode instead. Examples: minecraft:overworld, minecraft:the_nether [default: , synchronized: no]
+    S:EndAnchorDimensionBlacklist <
+     >
+
+    # If true, Dimensional Anchor will only work in The End. [default: false, synchronized: yes]
+    B:EndAnchorEndExclusiveMode=false
+
+    # Attack damage of The Ender Slayer, actual damage shown in tooltip will be is 4 + this_value. [range: 0 ~ 32768, default: 4, synchronized: yes]
+    I:EnderSlayerAttackDamage=4
+
+    # Attack speed of The Ender Slayer. [range: -32768.0 ~ 32768.0, default: -2.6, synchronized: yes]
+    D:EnderSlayerAttackSpeed=-2.6
+
+    # Attack damage bonus of The Ender Slayer against dwellers of The End. [range: 0 ~ 32768, default: 150, synchronized: yes]
+    I:EnderSlayerEndDamageBonus=150
+
+    # List of entities that should be considered dwellers of The End by The Ender Slayer. Examples: minecraft:iron_golem, minecraft:zombified_piglin [default: , synchronized: no]
+    S:EnderSlayerEndDwellers <
+     >
+
+    # Knockback bonus of The Ender Slayer against dwellers of The End. [range: 0 ~ 32768, default: 600, synchronized: yes]
+    I:EnderSlayerEndKnockbackBonus=600
 
     # The damage bonus stat provided by red Enigmatic Amulet. [range: -32768.0 ~ 32768.0, default: 1.5, synchronized: yes]
     D:EnigmaticAmuletDamageBonus=1.5
@@ -349,7 +439,7 @@
     B:EnigmaticAmuletSeededColorGen=false
 
     # Whether or not Enigmatic Amulet should be summoning Extradimensional Vessel on owner's death. [default: true, synchronized: yes]
-    B:EnigmaticAmuletVesselEnabled=false
+    B:EnigmaticAmuletVesselEnabled=true
 
     # Active ability cooldown for Heart of Creation. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 3, synchronized: yes]
     I:EnigmaticItemCooldown=3
@@ -381,6 +471,9 @@
     # Cooldown of Etherium Broadsword ability. Measured in ticks. [range: 0 ~ 32768, default: 40, synchronized: yes]
     I:EtheriumSwordCooldown=40
 
+    # Attack damage increase for next attack after using active ability. Defined as percentage. [range: 0 ~ 32768, default: 150, synchronized: yes]
+    I:EyeOfNebulaAttackEmpower=150
+
     # Active ability cooldown for Eye of the Nebula. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 60, synchronized: yes]
     I:EyeOfNebulaCooldown=60
 
@@ -389,6 +482,9 @@
 
     # Range in which Eye of the Nebula searches for a position to teleport it's bearer to when dodging the attack. [range: 1.0 ~ 128.0, default: 16.0, synchronized: yes]
     D:EyeOfNebulaDodgeRange=16.0
+
+    # Magic Damage boost provided by Eye of the Nebula. Defined as percentage. [range: 0 ~ 32768, default: 40, synchronized: yes]
+    I:EyeOfNebulaMagicBoost=40
 
     # Magic Damage resistance provided by Eye of the Nebula. Defined as percentage. [range: 0 ~ 100, default: 65, synchronized: yes]
     I:EyeOfNebulaMagicResistance=65
@@ -402,6 +498,9 @@
     # Bonus percantage to beheading chance from each Looting level applied to Axe of Executioner. [range: 0 ~ 100, default: 5, synchronized: yes]
     I:ForbiddenAxeBeheadingBonus=5
 
+    # Multiplier for duration of debuffs applied upon consumption of The Forbidden Fruit. Setting it to 0 will disable debuffs entirely. [range: 0.0 ~ 32768.0, default: 1.0, synchronized: yes]
+    D:ForbiddenFruitDebuffDurationMultiplier=1.0
+
     # How much should be subtracted from regeneration of player who have consumed The Forbidden Fruit.  [range: 0 ~ 100, default: 80, synchronized: yes]
     I:ForbiddenFruitRegenerationSubtraction=80
 
@@ -410,6 +509,11 @@
 
     # Default amount of armor points provided by Heart of the Golem. [range: 0.0 ~ 256.0, default: 4.0, synchronized: yes]
     D:GolemHeartDefaultArmor=4.0
+
+    # List of items that should not be counted as armor by Heart of the Golem, even when equipped in armor slots. [default: [minecraft:elytra], synchronized: no]
+    S:GolemHeartExcludedArmor <
+        minecraft:elytra
+     >
 
     # Resistance to explosion damage provided by Heart of the Golem. Defined as percentage. [range: 0 ~ 100, default: 40, synchronized: yes]
     I:GolemHeartExplosionResistance=40
@@ -459,6 +563,9 @@
     # Mining speed boost granted by Charm of Treasure Hunter. Defined as percentage. [range: 0 ~ 1000, default: 30, synchronized: yes]
     I:MiningCharmBreakSpeed=30
 
+    # Whether Night Vision ability of Charm of Treasure Hunter should be enabled. [default: true, synchronized: yes]
+    B:MiningCharmEnableNightVision=true
+
     # Additional block reach granted by Charm of Treasure Hunter. [range: 0.0 ~ 16.0, default: 2.15, synchronized: yes]
     D:MiningCharmReachDistance=2.15
 
@@ -500,6 +607,24 @@
 
     # Whether or not Dislocation Ring should play sound effect when teleporting items to player. [default: false, synchronized: yes]
     B:SuperMagnetRingSound=false
+
+    # Attack damage of The Infinitum, actual damage shown in tooltip will be is 1 + this_value. [range: 0.0 ~ 32768.0, default: 15.0, synchronized: yes]
+    D:TheInfinitumAttackDamage=15.0
+
+    # Attack speed of The Infinitum. [range: -32768.0 ~ 32768.0, default: -2.0, synchronized: yes]
+    D:TheInfinitumAttackSpeed=-2.0
+
+    # Attack damage bonus of The Infinitum against players and bosses. [range: 0 ~ 32768, default: 200, synchronized: yes]
+    I:TheInfinitumBossDamageBonus=200
+
+    # Knockback bonus of The Infinitum. For Phantoms, this value is multiplied by 1.5. [range: 0 ~ 32768, default: 200, synchronized: yes]
+    I:TheInfinitumKnockbackPowerBonus=200
+
+    # Lifesteal bonus of The Infinitum. [range: 0 ~ 32768, default: 10, synchronized: yes]
+    I:TheInfinitumLifestealBonus=10
+
+    # Chance of lethal damage prevention when holding The Infinitum. [range: 0 ~ 100, default: 85, synchronized: yes]
+    I:TheInfinitumUndeadProbability=85
 
     # Attack damage of The Twist, actual damage shown in tooltip will be is 1 + this_value. [range: 0.0 ~ 32768.0, default: 8.0, synchronized: yes]
     D:TheTwistAttackDamage=8.0
@@ -546,7 +671,14 @@
 ##########################################################################################################
 
 "Generic Config" {
-    # Maximum amount of Soul Crystals a player can loose before they won't drop anymore. Each crystal lost subtracts 10% of from their maximum possible health value. [range: 1 ~ 10, default: 9, synchronized: no]
+    # List of entities that should be accounted for as bosses by The Twist and The Infinitum. Changing this option requires game restart to take effect. [default: [minecraft:ender_dragon], [minecraft:wither], [minecraft:elder_guardian], synchronized: no]
+    S:CompleteBossList <
+        minecraft:ender_dragon
+        minecraft:wither
+        minecraft:elder_guardian
+     >
+
+    # Maximum amount of Soul Crystals a player can lose before they won't drop anymore. If set to 10 - player can loose all of them, and doing so will result in permadeath. Each crystal lost subtracts 10% of from their maximum possible health value. [range: 1 ~ 10, default: 9, synchronized: no]
     I:MaxSoulCrystalLoss=9
 
     # Soul Crystals mechanic mode. 0 - disabled unless enforced by specific in-game items; 1 - also enabled when keepInventory is true; 2 - always enabled. [range: 0 ~ 2, default: 0, synchronized: no]
@@ -563,7 +695,7 @@
 
 "Save the Bees" {
     # If true, bees will never affected by the Second Curse of Ring of the Seven Curses. [default: false, synchronized: yes]
-    B:CursedRingDontTouchMyBees=true
+    B:CursedRingDontTouchMyBees=false
 }
 
 
@@ -576,6 +708,9 @@
 "The Seven Curses" {
     # How much less effective armor will be for those who bear the ring. Measured as percetage. [range: 0 ~ 100, default: 30, synchronized: yes]
     I:CursedRingArmorDebuff=30
+
+    # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when it enters their inventory. This is different from ultra hardcore option as the way through which ring ends up in player's inventory does not matter. [default: false, synchronized: yes]
+    B:CursedRingAutoEquip=false
 
     # Set to false to disable ALL special drops that can be obtained from vanilla mobs when bearing Ring of the Seven Curses. [default: true, synchronized: yes]
     B:CursedRingEnableSpecialDrops=true

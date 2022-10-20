@@ -1,0 +1,48 @@
+{
+	# Forced modes won't let players change their ally settings
+	# Default: "default"
+	# Valid values: "default", "forced_all", "forced_none"
+	ally_mode: "default"
+	
+	# Allow players to force-load chunks while they are offline. This may not take effect until each player re-logs in server, for immediate effect use 'force_load_mode'
+	# Default: true
+	chunk_load_offline: true
+	
+	# Blacklist for dimensions where chunks can't be claimed. Add "minecraft:the_end" to this list if you want to disable chunk claiming in The End
+	# Default: []
+	claim_dimension_blacklist: [ ]
+	
+	# Disables all land protection. Useful for private servers where everyone is trusted and claims are only used for forceloading
+	# Default: false
+	disable_protection: false
+	
+	# Override to disable/enable fake players like miners and auto-clickers globally. Default will check this setting for each team
+	# Default: "check"
+	# Valid values: "check", "deny", "allow"
+	fake_players: "check"
+	
+	# Minimap for clients connecting to this server will be disabled
+	# Default: false
+	force_disable_minimap: false
+	
+	# Control how force-loaded chunks work
+	# Default: "default"
+	# Valid values: "default", "always", "never"
+	force_load_mode: "default"
+	
+	# Max claimed chunks.
+	# You can override this with FTB Ranks 'ftbchunks.max_claimed' permission
+	# Default: 500
+	# Range: -∞ ~ +∞
+	max_claimed_chunks: 500
+	
+	# Max force loaded chunks.
+	# You can override this with FTB Ranks 'ftbchunks.max_force_loaded' permission
+	# Default: 25
+	# Range: -∞ ~ +∞
+	max_force_loaded_chunks: 25
+	
+	# Requires you to claim chunks in order to edit and interact with blocks
+	# Default: false
+	no_wilderness: false
+}

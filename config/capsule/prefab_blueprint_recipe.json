@@ -1,5 +1,5 @@
 {
-  "__comment": "recipe template used to generate all prefab recipes. You can change ingredients and move around 1, 2, and 3. If a mod is required and might be missing, put your template nbt file under a folder named with the mod required, the recipe won't be load if the mod is missing.",
+  "__comment": "recipe template used to generate all prefab recipes. You can change ingredients and move around 1, 2, and 3. Don't add 1,2,3 keys, they are handled by capsule automatically. If a mod is required and might be missing, put your template nbt file under a folder named with the mod required, the recipe won't be load if the mod is missing.",
   "type": "capsule:blueprint_prefabs",
   "conditions": [],
   "result": {
@@ -29,15 +29,6 @@
     },
     "l": {
       "item": "minecraft:blue_dye"
-    },
-    "1": {
-      "item": "minecraft:air"
-    },
-    "2": {
-      "item": "minecraft:air"
-    },
-    "3": {
-      "item": "minecraft:air"
     }
   }
 }

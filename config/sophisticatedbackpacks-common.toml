@@ -1,14 +1,16 @@
 
 #Common Settings
 [common]
-	#Disable / enable any items here (disables their recipes)
-	enabledItems = ["void_upgrade:true", "compacting_upgrade:true", "advanced_restock_upgrade:true", "advanced_tool_swapper_upgrade:true", "diamond_backpack:true", "tank_upgrade:true", "smelting_upgrade:true", "battery_upgrade:true", "filter_upgrade:true", "magnet_upgrade:true", "advanced_magnet_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "stonecutter_upgrade:true", "advanced_compacting_upgrade:true", "backpack:true", "tool_swapper_upgrade:true", "feeding_upgrade:true", "advanced_pickup_upgrade:true", "jukebox_upgrade:true", "everlasting_upgrade:true", "advanced_filter_upgrade:true", "advanced_feeding_upgrade:true", "inception_upgrade:true", "crafting_upgrade:true", "xp_pump_upgrade:true", "auto_smelting_upgrade:true", "pickup_upgrade:true", "stack_upgrade_tier_4:true", "stack_upgrade_tier_2:true", "stack_upgrade_tier_3:true", "stack_upgrade_tier_1:true", "advanced_pump_upgrade:true", "upgrade_base:true", "refill_upgrade:true", "gold_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true", "pump_upgrade:true", "netherite_backpack:true", "auto_smoking_upgrade:true", "auto_blasting_upgrade:true", "smoking_upgrade:true", "blasting_upgrade:true"]
 	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
 	disallowedItems = []
 	#Turns on/off loot added to various vanilla chest loot tables
 	chestLootEnabled = true
 	#Turns on/off item fluid handler of backpack in its item form. There are some dupe bugs caused by default fluid handling implementation that manifest when backpack is drained / filled in its item form in another mod's tank and the only way to prevent them is disallowing drain/fill in item form altogether
 	itemFluidHandlerEnabled = true
+	#Determines whether player can right click on backpack that another player is wearing to open it. If off will turn off that capability for everyone and remove related settings from backpack.
+	allowOpeningOtherPlayerBackpacks = true
+	#Allows disabling item display settings. Primarily in cases where custom backpack model doesn't support showing the item. (Requires game restart to take effect)
+	itemDisplayDisabled = false
 
 	#Leather Backpack Settings
 	[common.leatherBackpack]
@@ -135,7 +137,7 @@
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 3
-		#Range around backpack in blocks at which magnet will pickup items
+		#Range around storage in blocks at which magnet will pickup items
 		#Range: 1 ~ 20
 		magnetRange = 3
 
@@ -147,7 +149,7 @@
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 4
-		#Range around backpack in blocks at which magnet will pickup items
+		#Range around storage in blocks at which magnet will pickup items
 		#Range: 1 ~ 20
 		magnetRange = 5
 
@@ -204,6 +206,8 @@
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 3
+		#Determines whether void upgrade allows voiding anything or it only has overflow option
+		voidAnythingEnabled = true
 
 	#Advanced Void Upgrade Settings
 	[common.advancedVoidUpgrade]
@@ -213,10 +217,12 @@
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 4
+		#Determines whether void upgrade allows voiding anything or it only has overflow option
+		voidAnythingEnabled = true
 
 	#Stack Upgrade Settings
 	[common.stackUpgrade]
-		#List of items that are not supposed to stack in backpack even when stack upgrade is inserted. Item registry names are expected here.
+		#List of items that are not supposed to stack in storage even when stack upgrade is inserted. Item registry names are expected here.
 		nonStackableItems = []
 
 	#Smelting Upgrade Settings
@@ -318,13 +324,16 @@
 
 	#Tool Swapper Upgrade Settings
 	[common.toolSwapperUpgrade]
-		#Number of tool filter slots displayed in a row
+		#Number of Tool Swapper Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 8
+		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 4
 
 	#Tank Upgrade Settings
 	[common.tankUpgrade]
-		#Capacity in mB the tank upgrade will have per row of backpack slots
+		#Capacity in mB the tank upgrade will have per row of storage slots
 		#Range: 500 ~ 20000
 		capacityPerSlotRow = 4000
 		#Ratio that gets applied (multiplies) to inventory stack multiplier before this is applied to max energy of the battery and max in/out. Value lower than 1 makes stack multiplier affect the max energy less, higher makes it affect the max energy more. 0 turns off stack multiplier affecting battery upgrade
@@ -333,10 +342,10 @@
 		#Cooldown between fill/drain actions done on fluid containers in tank slots. Only fills/drains one bucket worth to/from container after this cooldown and then waits again.
 		#Range: 1 ~ 100
 		autoFillDrainContainerCooldown = 20
-		#How much FE can be transfered in / out per operation. This is a base transfer rate and same as max storage gets multiplied by number of rows in backpack and stack multiplier.
+		#How much FE can be transfered in / out per operation. This is a base transfer rate and same as max capacity gets multiplied by number of rows in storage and stack multiplier.
 		#Range: 1 ~ 1000
 		maxInputOutput = 20
-		#Energy in FE the battery upgrade will have per row of backpack slots
+		#Energy in FE the battery upgrade will have per row of storage slots
 		#Range: 500 ~ 50000
 		energyPerSlotRow = 10000
 
@@ -345,7 +354,7 @@
 		#Number of fluid filter slots
 		#Range: 1 ~ 20
 		filterSlots = 4
-		#How much mB can be transfered in / out per operation. This is a base transfer rate that gets multiplied by number of rows in backpack and stack multiplier.
+		#How much mB can be transfered in / out per operation. This is a base transfer rate that gets multiplied by number of rows in storage and stack multiplier.
 		#Range: 1 ~ 1000
 		maxInputOutput = 20
 		#Ratio that gets applied (multiplies) to inventory stack multiplier before this is applied to max input/output value. Value lower than 1 makes stack multiplier affect the capacity less, higher makes it affect the capacity more. 0 turns off stack multiplier affecting input/output
@@ -379,6 +388,8 @@
 		discBlockList = ["botania:record_gaia_1", "botania:record_gaia_2"]
 		#Turns on/off a chance that the entity that wears backpack gets jukebox upgrade and plays a music disc.
 		playJukebox = true
+		#Determines whether backpack drops to fake players if killed by them in addition to real ones that it always drops to
+		dropToFakePlayers = false
 		#Chance of mob dropping backpack when killed by player
 		#Range: 0.0 ~ 1.0
 		backpackDropChance = 0.085
@@ -395,4 +406,6 @@
 		#Ratio of slowness levels per every backpack above the maximum number allowed. (number of backpacks above the max gets multiplied by this number and ceiled)
 		#Range: 0.1 ~ 5.0
 		slownessLevelsPerAdditionalBackpack = 1.0
+		#Determines if active upgrades will only work in the backpack that's worn by the player. Active upgrades are for example magnet, pickup, cooking, feeding upgrades.
+		onlyWornBackpackTriggersUpgrades = false
 

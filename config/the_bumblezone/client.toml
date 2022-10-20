@@ -1,15 +1,28 @@
 # 
 #-----------------------------------------------------
 #
-# Rate for how often a bee will have an LGBT+ coat!
+# Rate for how often a bee will have an LGBT+ pajama!
 #
 #Range: 0.0 ~ 1.0
-"lgbt+ bee rates" = 0.02
+"lgbt+ bee rates" = 0.015
 # 
 #-----------------------------------------------------
 #
-# Enable replacing the bee renderer for LGBT+ skins.
+# Rate for how often a bee will have an Ukraine pajama!
+#
+#Range: 0.0 ~ 1.0
+"ukraine bee rates" = 0.01
+# 
+#-----------------------------------------------------
+#
+# Enable replacing the bee renderer for alternative skins.
 # Set this to false if the render is messing with other mod's bee renderers.
 #
 "Enable lgbt+ bee renderer" = true
+# 
+#-----------------------------------------------------
+#
+# If on, Flight of the Bumblebee by Rimsky Korsakov will play when you have Wrath of the Hive effect on.
+#
+playWrathOfHiveEffectMusic = true
 

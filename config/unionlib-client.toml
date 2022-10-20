@@ -1,0 +1,30 @@
+
+[General]
+	#
+	############################################
+	#Enable this to show the unionlib config button in the main menu
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Show Config Button" = true
+
+[Menus]
+	#
+	############################################
+	#This determines how fast text scrolls if there is an overflow
+	#Measured in ticks
+	#-------------------------------------------
+	#Default: 20
+	#-------------------------------------------
+	#Range: 1 ~ 100
+	"Integer: Text Overflow Scroll Speed" = 20
+	#
+	############################################
+	#This determines how long text will stay in an overflow before it resets
+	#Measured in ticks
+	#-------------------------------------------
+	#Default: 40
+	#-------------------------------------------
+	#Range: 1 ~ 100
+	"Integer: Text Overflow Reset Time" = 40
+

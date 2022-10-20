@@ -1,17 +1,13 @@
 {
 	id: "0954925BF18F6751"
 	group: "241F1DC7B6D6E9D6"
-	order_index: 3
+	order_index: 2
 	filename: "specialization"
 	title: "Specialization"
 	icon: {
-		id: "kubejs:mark_miner"
+		id: "kubejs:armour"
 		Count: 1b
-		ForgeCaps: {
-			"dungeons_libraries:built_in_enchantments": {
-				BuiltInEnchantments: [ ]
-			}
-		}
+		tag: { }
 	}
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
@@ -137,6 +133,22 @@
 					}
 				}
 				{
+					id: "45DFB17F551EA7DF"
+					type: "item"
+					item: {
+						id: "iceandfire:silver_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
 					id: "17D88E16E1B75A99"
 					type: "item"
 					item: {
@@ -188,38 +200,6 @@
 						Count: 1b
 						tag: {
 							Potion: "goblintraders:extended_night_vision"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "47C43E748C6F80E3"
-					type: "item"
-					item: {
-						id: "minecraft:stone_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "0C1A99952778BD3F"
-					type: "item"
-					item: {
-						id: "minecraft:stone_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -2501,30 +2481,6 @@
 						}
 					}
 				}
-				{
-					id: "34E5259813340736"
-					type: "item"
-					item: {
-						id: "dungeons_gear:rapid_crossbow"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [{
-									data: [ ]
-									source: "dungeons_libraries:gear_config"
-								}]
-							}
-							"dungeons_gear:bow": {
-								lastFiredTime: 0L
-								fuseShotCounter: 0
-								crossbowChargeTime: 0
-							}
-						}
-					}
-				}
 			]
 		}
 		{
@@ -2575,6 +2531,28 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "02BB40692AE0B9A9"
+					type: "item"
+					item: {
+						id: "dungeons_gear:battlestaff_of_terror"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "dungeons_gear:exploding"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2650,25 +2628,6 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "4F07EAAC5CD576EB"
-					type: "item"
-					item: {
-						id: "dungeons_gear:battlestaff"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [{
-									data: [ ]
-									source: "dungeons_libraries:gear_config"
-								}]
 							}
 						}
 					}
@@ -3504,9 +3463,7 @@
 				}
 				{
 					id: "089F032A95C285FB"
-					type: "pmmo:skill"
-					skill: "mining"
-					requiredLevel: 10.0d
+					type: "custom"
 				}
 			]
 			rewards: [{
@@ -3547,9 +3504,7 @@
 				}
 				{
 					id: "4497B54F088DE11C"
-					type: "pmmo:skill"
-					skill: "farming"
-					requiredLevel: 10.0d
+					type: "custom"
 				}
 			]
 			rewards: [{
@@ -3590,9 +3545,7 @@
 				}
 				{
 					id: "005883E24AB68676"
-					type: "pmmo:skill"
-					skill: "combat"
-					requiredLevel: 10.0d
+					type: "custom"
 				}
 			]
 			rewards: [{
@@ -3633,9 +3586,7 @@
 				}
 				{
 					id: "302A5435C2F27E30"
-					type: "pmmo:skill"
-					skill: "archery"
-					requiredLevel: 8.0d
+					type: "custom"
 				}
 			]
 			rewards: [{
@@ -3676,9 +3627,7 @@
 				}
 				{
 					id: "08FC0F8FDFD28AEF"
-					type: "pmmo:skill"
-					skill: "magic"
-					requiredLevel: 8.0d
+					type: "custom"
 				}
 			]
 			rewards: [{
@@ -3719,9 +3668,7 @@
 				}
 				{
 					id: "7CE1A03F16CA9315"
-					type: "pmmo:skill"
-					skill: "agility"
-					requiredLevel: 10.0d
+					type: "custom"
 				}
 			]
 			rewards: [{
@@ -3762,9 +3709,7 @@
 				}
 				{
 					id: "276A7B3A575E91B4"
-					type: "pmmo:skill"
-					skill: "agility"
-					requiredLevel: 10.0d
+					type: "custom"
 				}
 			]
 			rewards: [{
@@ -3805,15 +3750,11 @@
 				}
 				{
 					id: "5B4CD8014C2F7954"
-					type: "pmmo:skill"
-					skill: "archery"
-					requiredLevel: 5.0d
+					type: "custom"
 				}
 				{
 					id: "442B199E9F8843BA"
-					type: "pmmo:skill"
-					skill: "agility"
-					requiredLevel: 3.0d
+					type: "custom"
 				}
 			]
 			rewards: [{
@@ -3854,15 +3795,7 @@
 				}
 				{
 					id: "46F8F7F20944FAF5"
-					type: "pmmo:skill"
-					skill: "magic"
-					requiredLevel: 5.0d
-				}
-				{
-					id: "61C9E0BCC41AE42E"
-					type: "pmmo:skill"
-					skill: "alchemy"
-					requiredLevel: 2.0d
+					type: "custom"
 				}
 			]
 			rewards: [{
@@ -3903,9 +3836,7 @@
 				}
 				{
 					id: "0C9772BF5E90AFD1"
-					type: "pmmo:skill"
-					skill: "agility"
-					requiredLevel: 15.0d
+					type: "custom"
 				}
 			]
 			rewards: [{
@@ -3946,15 +3877,11 @@
 				}
 				{
 					id: "12573D4516BEC57E"
-					type: "pmmo:skill"
-					skill: "agility"
-					requiredLevel: 10.0d
+					type: "custom"
 				}
 				{
 					id: "068C6F9FD33E0519"
-					type: "pmmo:skill"
-					skill: "magic"
-					requiredLevel: 8.0d
+					type: "custom"
 				}
 			]
 			rewards: [{
@@ -3996,6 +3923,7 @@
 				{
 					id: "05920564F20B0AB0"
 					type: "questsadditions:break"
+					block_type: 0
 					block: "minecraft:stone"
 					value: 640L
 					checkItem: false
@@ -4030,34 +3958,12 @@
 			shape: "diamond"
 			dependencies: ["2D76206095D119CB"]
 			id: "1B5540BBC981B856"
-			tasks: [
-				{
-					id: "3D11696445AC1C8C"
-					type: "xp"
-					value: 60L
-					points: false
-				}
-				{
-					id: "22B8D638784F3995"
-					type: "item"
-					title: "Any #forge:hay_bales"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:hay_bales"
-						}
-					}
-					count: 64L
-					consume_items: true
-				}
-				{
-					id: "73C1FA0904D96C4C"
-					type: "pmmo:skill"
-					skill: "farming"
-					requiredLevel: 20.0d
-				}
-			]
+			tasks: [{
+				id: "3D11696445AC1C8C"
+				type: "xp"
+				value: 60L
+				points: false
+			}]
 			rewards: [{
 				id: "4A8ED173A60DA932"
 				type: "item"
@@ -4087,20 +3993,12 @@
 			shape: "diamond"
 			dependencies: ["0B619314C9EEA318"]
 			id: "24E0FADA45D0B349"
-			tasks: [
-				{
-					id: "2CBE4D1232694FDF"
-					type: "xp"
-					value: 60L
-					points: false
-				}
-				{
-					id: "638732A7E0CC3684"
-					type: "kill"
-					entity: "minecraft:zombie"
-					value: 100L
-				}
-			]
+			tasks: [{
+				id: "2CBE4D1232694FDF"
+				type: "xp"
+				value: 60L
+				points: false
+			}]
 			rewards: [{
 				id: "1F9EE21CCBA9C717"
 				type: "item"
@@ -4130,20 +4028,12 @@
 			shape: "diamond"
 			dependencies: ["457B4C8DB54B2C78"]
 			id: "69C134B9D4820F57"
-			tasks: [
-				{
-					id: "567F146124153071"
-					type: "xp"
-					value: 60L
-					points: false
-				}
-				{
-					id: "3E041C2CB59EB877"
-					type: "pmmo:skill"
-					skill: "archery"
-					requiredLevel: 25.0d
-				}
-			]
+			tasks: [{
+				id: "567F146124153071"
+				type: "xp"
+				value: 60L
+				points: false
+			}]
 			rewards: [{
 				id: "5E7468DE9B5BE63B"
 				type: "item"
@@ -4173,26 +4063,12 @@
 			shape: "diamond"
 			dependencies: ["150C2D107C30D787"]
 			id: "55400766E27D2AF3"
-			tasks: [
-				{
-					id: "6C3DAAA1CF84BCD5"
-					type: "xp"
-					value: 60L
-					points: false
-				}
-				{
-					id: "3BE3C2402FC551CE"
-					type: "pmmo:skill"
-					skill: "magic"
-					requiredLevel: 15.0d
-				}
-				{
-					id: "600E92D69E789EAB"
-					type: "pmmo:skill"
-					skill: "alchemy"
-					requiredLevel: 5.0d
-				}
-			]
+			tasks: [{
+				id: "6C3DAAA1CF84BCD5"
+				type: "xp"
+				value: 60L
+				points: false
+			}]
 			rewards: [{
 				id: "238E2278DD38F6D9"
 				type: "item"
@@ -4222,26 +4098,12 @@
 			shape: "diamond"
 			dependencies: ["7FE110B6FD08031B"]
 			id: "1AFB43991CE7ED02"
-			tasks: [
-				{
-					id: "7FB5F0ACFF8E6304"
-					type: "xp"
-					value: 60L
-					points: false
-				}
-				{
-					id: "0E44C1188C4D6D36"
-					type: "pmmo:skill"
-					skill: "agility"
-					requiredLevel: 20.0d
-				}
-				{
-					id: "2BCA45D12B46D35E"
-					type: "pmmo:skill"
-					skill: "endurance"
-					requiredLevel: 25.0d
-				}
-			]
+			tasks: [{
+				id: "7FB5F0ACFF8E6304"
+				type: "xp"
+				value: 60L
+				points: false
+			}]
 			rewards: [{
 				id: "6862D61417E24A17"
 				type: "item"
@@ -4271,34 +4133,12 @@
 			shape: "diamond"
 			dependencies: ["75803607F74E0EA9"]
 			id: "23E282F224289272"
-			tasks: [
-				{
-					id: "21FA3B2DCFD48FCC"
-					type: "xp"
-					value: 60L
-					points: false
-				}
-				{
-					id: "08EB567D71BBA480"
-					type: "ftbmoney:money"
-					value: 100L
-				}
-				{
-					id: "2BF35822B163D794"
-					type: "item"
-					item: {
-						id: "minecraft:gold_block"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 16L
-					consume_items: true
-				}
-			]
+			tasks: [{
+				id: "21FA3B2DCFD48FCC"
+				type: "xp"
+				value: 60L
+				points: false
+			}]
 			rewards: [{
 				id: "4C7BC07D959EE848"
 				type: "item"
@@ -4328,34 +4168,12 @@
 			shape: "diamond"
 			dependencies: ["46B016B40B360CEF"]
 			id: "11FE4B3D6390417B"
-			tasks: [
-				{
-					id: "09EBE9B30A5EFF46"
-					type: "xp"
-					value: 60L
-					points: false
-				}
-				{
-					id: "7390D66193828F8D"
-					type: "pmmo:skill"
-					skill: "archery"
-					requiredLevel: 15.0d
-				}
-				{
-					id: "55874204B23C9F23"
-					type: "item"
-					title: "Any #forge:leather"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:leather"
-						}
-					}
-					count: 64L
-					consume_items: true
-				}
-			]
+			tasks: [{
+				id: "09EBE9B30A5EFF46"
+				type: "xp"
+				value: 60L
+				points: false
+			}]
 			rewards: [{
 				id: "0F8528924A2B0C15"
 				type: "item"
@@ -4385,20 +4203,12 @@
 			shape: "diamond"
 			dependencies: ["50DB09954A68BDF3"]
 			id: "00E8654931C503B8"
-			tasks: [
-				{
-					id: "7F02BC7E25B3412F"
-					type: "xp"
-					value: 60L
-					points: false
-				}
-				{
-					id: "3B01554C9821362A"
-					type: "pmmo:skill"
-					skill: "alchemy"
-					requiredLevel: 15.0d
-				}
-			]
+			tasks: [{
+				id: "7F02BC7E25B3412F"
+				type: "xp"
+				value: 60L
+				points: false
+			}]
 			rewards: [{
 				id: "7BE8523371C6D587"
 				type: "item"
@@ -4428,26 +4238,12 @@
 			shape: "diamond"
 			dependencies: ["42CC938BE615A4AF"]
 			id: "5445B697B5A9FF87"
-			tasks: [
-				{
-					id: "172EBA377314275E"
-					type: "xp"
-					value: 60L
-					points: false
-				}
-				{
-					id: "578509D667810789"
-					type: "pmmo:skill"
-					skill: "endurance"
-					requiredLevel: 15.0d
-				}
-				{
-					id: "46DBB17CB1BF5BB5"
-					type: "pmmo:skill"
-					skill: "combat"
-					requiredLevel: 20.0d
-				}
-			]
+			tasks: [{
+				id: "172EBA377314275E"
+				type: "xp"
+				value: 60L
+				points: false
+			}]
 			rewards: [{
 				id: "48F3135651DB9E70"
 				type: "item"
@@ -4477,26 +4273,12 @@
 			shape: "diamond"
 			dependencies: ["18156A17C2B04B79"]
 			id: "4ED61B005E3495D6"
-			tasks: [
-				{
-					id: "70CAA20677E6CF5E"
-					type: "xp"
-					value: 60L
-					points: false
-				}
-				{
-					id: "71B35DE99B89257B"
-					type: "pmmo:skill"
-					skill: "magic"
-					requiredLevel: 15.0d
-				}
-				{
-					id: "50F240381CB061EB"
-					type: "pmmo:skill"
-					skill: "agility"
-					requiredLevel: 15.0d
-				}
-			]
+			tasks: [{
+				id: "70CAA20677E6CF5E"
+				type: "xp"
+				value: 60L
+				points: false
+			}]
 			rewards: [{
 				id: "60058493B39410CE"
 				type: "item"

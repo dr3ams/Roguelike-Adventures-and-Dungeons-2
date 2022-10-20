@@ -14,12 +14,6 @@ secondChanceSound = true
 secondChanceExplosions = true
 #Determines if the 'Second Chance' feature will be activated by mobs.
 secondChanceMobs = true
-#Determines how much health the player must start with for 'Second Chance' to activate.
-#Range: 0.5 ~ 1.7976931348623157E308
-secondChanceActivationHealth = 13.5
-#Determines how much health the player should be left with after 'Second Chance' activates.
-#Range: 0.5 ~ 1.7976931348623157E308
-secondChanceHealthRemainder = 1.0
 #Determines if the 'Second Chance' feature will be activated by fall damage.
 secondChanceFalls = false
 #Determines if the 'Second Chance' feature will be activated by falling anvils.
@@ -42,8 +36,18 @@ secondChanceArrows = false
 secondChanceFireworks = false
 #Determines if the 'Second Chance' feature will be activated by wither skulls.
 secondChanceWitherSkulls = false
+#Determines if the 'Second Chance' feature will be activated by a falling stalactite.
+secondChanceStalactite = false
+#Determines if the 'Second Chance' feature will be activated by falling on a stalagmite.
+secondChanceStalagmite = false
 #Determines if the 'percentage of health' config values will be used instead of exact values.
 usePercentConfig = false
+#Determines how much health the player must start with for 'Second Chance' to activate.
+#Range: 0.5 ~ 1.7976931348623157E308
+secondChanceActivationHealth = 13.5
+#Determines how much health the player should be left with after 'Second Chance' activates.
+#Range: 1.0 ~ 1.7976931348623157E308
+secondChanceHealthRemainder = 1.0
 #Determines what percent of health the player must start with for 'Second Chance' to activate.
 #Range: 0.01 ~ 1.7976931348623157E308
 secondChanceActivationPercent = 65.0

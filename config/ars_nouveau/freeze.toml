@@ -13,7 +13,7 @@
 	per_spell_limit = 2147483647
 	#Limits the number of times a given augment may be applied to a given effect
 	#Example entry: "amplify=5"
-	augment_limits = []
+	augment_limits = ["sensitive=1"]
 	#Potion duration, in seconds
 	#Range: > 0
 	potion_time = 10

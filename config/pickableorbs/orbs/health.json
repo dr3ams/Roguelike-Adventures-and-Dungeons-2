@@ -1,11 +1,11 @@
 {
   "OrbData": {
-    "type": "healing",
-    "effectMultiplier": 2,
+    "type": "pickableorbs:percentage_healing",
+    "effectMultiplier": 25,
     "color": "#FF0046",
     "blockList": ["minecraft:spawner"],
     "blockListType": "whitelist",
-    "blockDropChance": 30.0,
+    "blockDropChance": 100.0,
     "entityList": ["minecraft:pig", "minecraft:sheep", "minecraft:rabbit", "minecraft:villager", "minecraft:cow", "minecraft:fox", "minecraft:chicken", "minecraft:horse", "minecraft:donkey"],
     "entityListType": "blacklist",
     "entityDropChance": 15.5

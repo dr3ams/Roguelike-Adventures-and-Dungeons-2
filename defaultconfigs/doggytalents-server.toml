@@ -8,4 +8,11 @@
 	enable_gender = true
 	#When enabled, puppies get some levels from parents. When disabled, puppies start at 0 points.
 	enable_pup_get_parent_levels = false
+	#The time in ticks it takes for a baby dog to become an adult, default 48000 (2 Minecraft days) and minimum 0
+	#Range: > 0
+	time_to_mature = 48000
+	#Determines if dogs should whine when hunger reaches below 20 DP.
+	whine_when_hungry = true
+	#When enabled dogs will path and eat editable items in the world.
+	eat_food_on_floor = true
 

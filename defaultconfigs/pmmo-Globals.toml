@@ -1,0 +1,14 @@
+
+#Configuration for commonly used NBT global variables
+[Globals]
+
+	[Globals.paths]
+		tmat1 = "tic_materials[1]"
+		tmat0 = "tic_materials[0]"
+		tmat3 = "tic_materials[3]"
+		tmat2 = "tic_materials[2]"
+		sgmats = "SGear_Data{}.Construction{}.Parts[].Item{}.tag{}.Materials[].ID"
+
+	[Globals.constants]
+		example = "value"
+

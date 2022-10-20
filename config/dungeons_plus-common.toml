@@ -1,124 +1,225 @@
 
-[tower]
-	#The average distance between structures of this type, measured in chunks.
-	#Range: > 1
-	spacing = 45
-	#A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
-	#Range: > 0
-	offset = 6
-	#How the biomes list should be used. true = whitelist, false = blacklist.
-	is_whitelist = true
-	#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
-	biomes = "!structure_gel:plains, #structure_gel:oak_forest, #structure_gel:dark_forest, #structure_gel:birch_forest, #structure_gel:mountain"
-	#Percent chance of generating in an allowed chunk.
-	#Range: 0.0 ~ 1.0
-	probability = 0.0
-	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+[Structures]
 
-[leviathan]
-	#The average distance between structures of this type, measured in chunks.
-	#Range: > 1
-	spacing = 56
-	#A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
-	#Range: > 0
-	offset = 8
-	#How the biomes list should be used. true = whitelist, false = blacklist.
-	is_whitelist = true
-	#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
-	biomes = "#structure_gel:desert"
-	#Percent chance of generating in an allowed chunk.
-	#Range: 0.0 ~ 1.0
-	probability = 1.0
-	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+	[Structures.tower]
 
-[snowy_temple]
-	#The average distance between structures of this type, measured in chunks.
-	#Range: > 1
-	spacing = 36
-	#A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
-	#Range: > 0
-	offset = 8
-	#How the biomes list should be used. true = whitelist, false = blacklist.
-	is_whitelist = true
-	#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
-	biomes = "#structure_gel:snowy_plains, #structure_gel:snowy_spruce_forest"
-	#Percent chance of generating in an allowed chunk.
-	#Range: 0.0 ~ 1.0
-	probability = 1.0
-	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+		[Structures.tower.placement]
+			#
+			# Percent chance of generating in an allowed chunk.
+			# Default: 75
+			#Range: 0 ~ 100
+			probability = 75
 
-[bigger_dungeon]
-	#The average distance between structures of this type, measured in chunks.
-	#Range: > 1
-	spacing = 12
-	#A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
-	#Range: > 0
-	offset = 5
-	#How the biomes list should be used. true = whitelist, false = blacklist.
-	is_whitelist = true
-	#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
-	biomes = "#structure_gel:overworld, !mushroom_fields, !mushroom_field_shore"
-	#Percent chance of generating in an allowed chunk.
-	#Range: 0.0 ~ 1.0
-	probability = 0.6
-	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+		[Structures.tower.configured_structures]
 
-[end_ruins]
-	#The average distance between structures of this type, measured in chunks.
-	#Range: > 1
-	spacing = 24
-	#A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
-	#Range: > 0
-	offset = 8
-	#How the biomes list should be used. true = whitelist, false = blacklist.
-	is_whitelist = true
-	#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
-	biomes = "#structure_gel:outer_end_island"
-	#Percent chance of generating in an allowed chunk.
-	#Range: 0.0 ~ 1.0
-	probability = 0.8
-	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:the_end"
+			[Structures.tower.configured_structures.configured]
 
-[warped_garden]
-	#The average distance between structures of this type, measured in chunks.
-	#Range: > 1
-	spacing = 36
-	#A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
-	#Range: > 0
-	offset = 8
-	#How the biomes list should be used. true = whitelist, false = blacklist.
-	is_whitelist = true
-	#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
-	biomes = "#structure_gel:ocean, !#structure_gel:frozen"
-	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:overworld"
+				[Structures.tower.configured_structures.configured.biomes]
+					#
+					# A filter for which biomes this structure should generate in. Entries are formatted as follows:
+					# - Biome: "minecraft:plains"
+					# - Biome Dictionary Entry: "##structure_gel:birch_forest"
+					# - Add ! to the start of an entry to exclude it: "!##structure_gel:frozen_ocean"
+					# - Biome Tag: "#minecraft:is_ocean". If using a biome tag, only one can be used and it must be by itself. This does not support "!"
+					# Example: ["##structure_gel:wooded", "!minecraft:flower_forest"] This will include all wooded biomes except for flower forests.
+					# Default: ["#dungeons_plus:has_structure/has_tower"]
+					biomes = ["#dungeons_plus:has_structure/has_tower"]
 
-[soul_prison]
-	#The average distance between structures of this type, measured in chunks.
-	#Range: > 1
-	spacing = 25
-	#A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
-	#Range: > 0
-	offset = 6
-	#How the biomes list should be used. true = whitelist, false = blacklist.
-	is_whitelist = true
-	#A filter for which biomes this structure should generate in. Works with the biome dictionary (#overworld) and "not" statements (!plains). These can be combined (!#nether). Operates in the order presented. So "#forest, !flower_forest" will add all forests and then remove the flower forest.
-	biomes = "minecraft:soul_sand_valley"
-	#What dimensions should this structure be placed in. Type "all" to allow all dimensions
-	valid_dimensions = "minecraft:the_nether"
+	[Structures.leviathan]
 
-["quark compat"]
-	#Percent chance for monster boxes from Quark to generate in the buried dungeon
+		[Structures.leviathan.placement]
+			#
+			# Percent chance of generating in an allowed chunk.
+			# Default: 75
+			#Range: 0 ~ 100
+			probability = 75
+
+		[Structures.leviathan.configured_structures]
+
+			[Structures.leviathan.configured_structures.configured]
+
+				[Structures.leviathan.configured_structures.configured.biomes]
+					#
+					# A filter for which biomes this structure should generate in. Entries are formatted as follows:
+					# - Biome: "minecraft:plains"
+					# - Biome Dictionary Entry: "##structure_gel:birch_forest"
+					# - Add ! to the start of an entry to exclude it: "!##structure_gel:frozen_ocean"
+					# - Biome Tag: "#minecraft:is_ocean". If using a biome tag, only one can be used and it must be by itself. This does not support "!"
+					# Example: ["##structure_gel:wooded", "!minecraft:flower_forest"] This will include all wooded biomes except for flower forests.
+					# Default: ["#dungeons_plus:has_structure/has_leviathan"]
+					biomes = ["#dungeons_plus:has_structure/has_leviathan"]
+
+	[Structures.snowy_temple]
+
+		[Structures.snowy_temple.placement]
+			#
+			# Percent chance of generating in an allowed chunk.
+			# Default: 75
+			#Range: 0 ~ 100
+			probability = 75
+
+		[Structures.snowy_temple.configured_structures]
+
+			[Structures.snowy_temple.configured_structures.configured]
+
+				[Structures.snowy_temple.configured_structures.configured.biomes]
+					#
+					# A filter for which biomes this structure should generate in. Entries are formatted as follows:
+					# - Biome: "minecraft:plains"
+					# - Biome Dictionary Entry: "##structure_gel:birch_forest"
+					# - Add ! to the start of an entry to exclude it: "!##structure_gel:frozen_ocean"
+					# - Biome Tag: "#minecraft:is_ocean". If using a biome tag, only one can be used and it must be by itself. This does not support "!"
+					# Example: ["##structure_gel:wooded", "!minecraft:flower_forest"] This will include all wooded biomes except for flower forests.
+					# Default: ["#dungeons_plus:has_structure/has_snowy_temple"]
+					biomes = ["#dungeons_plus:has_structure/has_snowy_temple"]
+
+	[Structures.reanimated_ruins]
+
+		[Structures.reanimated_ruins.placement]
+			#
+			# Percent chance of generating in an allowed chunk.
+			# Default: 75
+			#Range: 0 ~ 100
+			probability = 75
+
+		[Structures.reanimated_ruins.configured_structures]
+
+			[Structures.reanimated_ruins.configured_structures.mossy]
+
+				[Structures.reanimated_ruins.configured_structures.mossy.biomes]
+					#
+					# A filter for which biomes this structure should generate in. Entries are formatted as follows:
+					# - Biome: "minecraft:plains"
+					# - Biome Dictionary Entry: "##structure_gel:birch_forest"
+					# - Add ! to the start of an entry to exclude it: "!##structure_gel:frozen_ocean"
+					# - Biome Tag: "#minecraft:is_ocean". If using a biome tag, only one can be used and it must be by itself. This does not support "!"
+					# Example: ["##structure_gel:wooded", "!minecraft:flower_forest"] This will include all wooded biomes except for flower forests.
+					# Default: ["#dungeons_plus:has_structure/has_reanimated_ruins_mossy"]
+					biomes = ["#dungeons_plus:has_structure/has_reanimated_ruins_mossy"]
+
+			[Structures.reanimated_ruins.configured_structures.mesa]
+
+				[Structures.reanimated_ruins.configured_structures.mesa.biomes]
+					#
+					# A filter for which biomes this structure should generate in. Entries are formatted as follows:
+					# - Biome: "minecraft:plains"
+					# - Biome Dictionary Entry: "##structure_gel:birch_forest"
+					# - Add ! to the start of an entry to exclude it: "!##structure_gel:frozen_ocean"
+					# - Biome Tag: "#minecraft:is_ocean". If using a biome tag, only one can be used and it must be by itself. This does not support "!"
+					# Example: ["##structure_gel:wooded", "!minecraft:flower_forest"] This will include all wooded biomes except for flower forests.
+					# Default: ["#dungeons_plus:has_structure/has_reanimated_ruins_mesa"]
+					biomes = ["#dungeons_plus:has_structure/has_reanimated_ruins_mesa"]
+
+			[Structures.reanimated_ruins.configured_structures.frozen]
+
+				[Structures.reanimated_ruins.configured_structures.frozen.biomes]
+					#
+					# A filter for which biomes this structure should generate in. Entries are formatted as follows:
+					# - Biome: "minecraft:plains"
+					# - Biome Dictionary Entry: "##structure_gel:birch_forest"
+					# - Add ! to the start of an entry to exclude it: "!##structure_gel:frozen_ocean"
+					# - Biome Tag: "#minecraft:is_ocean". If using a biome tag, only one can be used and it must be by itself. This does not support "!"
+					# Example: ["##structure_gel:wooded", "!minecraft:flower_forest"] This will include all wooded biomes except for flower forests.
+					# Default: ["#dungeons_plus:has_structure/has_reanimated_ruins_frozen"]
+					biomes = ["#dungeons_plus:has_structure/has_reanimated_ruins_frozen"]
+
+	[Structures.warped_garden]
+
+		[Structures.warped_garden.placement]
+			#
+			# Percent chance of generating in an allowed chunk.
+			# Default: 75
+			#Range: 0 ~ 100
+			probability = 75
+
+		[Structures.warped_garden.configured_structures]
+
+			[Structures.warped_garden.configured_structures.configured]
+
+				[Structures.warped_garden.configured_structures.configured.biomes]
+					#
+					# A filter for which biomes this structure should generate in. Entries are formatted as follows:
+					# - Biome: "minecraft:plains"
+					# - Biome Dictionary Entry: "##structure_gel:birch_forest"
+					# - Add ! to the start of an entry to exclude it: "!##structure_gel:frozen_ocean"
+					# - Biome Tag: "#minecraft:is_ocean". If using a biome tag, only one can be used and it must be by itself. This does not support "!"
+					# Example: ["##structure_gel:wooded", "!minecraft:flower_forest"] This will include all wooded biomes except for flower forests.
+					# Default: ["#dungeons_plus:has_structure/has_warped_garden"]
+					biomes = ["#dungeons_plus:has_structure/has_warped_garden"]
+
+	[Structures.soul_prison]
+
+		[Structures.soul_prison.placement]
+			#
+			# Percent chance of generating in an allowed chunk.
+			# Default: 75
+			#Range: 0 ~ 100
+			probability = 75
+
+		[Structures.soul_prison.configured_structures]
+
+			[Structures.soul_prison.configured_structures.configured]
+
+				[Structures.soul_prison.configured_structures.configured.biomes]
+					#
+					# A filter for which biomes this structure should generate in. Entries are formatted as follows:
+					# - Biome: "minecraft:plains"
+					# - Biome Dictionary Entry: "##structure_gel:birch_forest"
+					# - Add ! to the start of an entry to exclude it: "!##structure_gel:frozen_ocean"
+					# - Biome Tag: "#minecraft:is_ocean". If using a biome tag, only one can be used and it must be by itself. This does not support "!"
+					# Example: ["##structure_gel:wooded", "!minecraft:flower_forest"] This will include all wooded biomes except for flower forests.
+					# Default: ["#dungeons_plus:has_structure/has_soul_prison"]
+					biomes = ["#dungeons_plus:has_structure/has_soul_prison"]
+
+	[Structures.end_ruins]
+
+		[Structures.end_ruins.placement]
+			#
+			# Percent chance of generating in an allowed chunk.
+			# Default: 75
+			#Range: 0 ~ 100
+			probability = 75
+
+		[Structures.end_ruins.configured_structures]
+
+			[Structures.end_ruins.configured_structures.configured]
+
+				[Structures.end_ruins.configured_structures.configured.biomes]
+					#
+					# A filter for which biomes this structure should generate in. Entries are formatted as follows:
+					# - Biome: "minecraft:plains"
+					# - Biome Dictionary Entry: "##structure_gel:birch_forest"
+					# - Add ! to the start of an entry to exclude it: "!##structure_gel:frozen_ocean"
+					# - Biome Tag: "#minecraft:is_ocean". If using a biome tag, only one can be used and it must be by itself. This does not support "!"
+					# Example: ["##structure_gel:wooded", "!minecraft:flower_forest"] This will include all wooded biomes except for flower forests.
+					# Default: ["#dungeons_plus:has_structure/has_end_ruins"]
+					biomes = ["#dungeons_plus:has_structure/has_end_ruins"]
+
+[Mobs]
+	#Percent chance that a Husk will wield a Leviathan Blade in the Leviathan.
 	#Range: 0 ~ 100
-	bigger_dungeon_monster_box_chance = 35
-
-["waystones compat"]
-	#Percent chance for a waystone from Waystones to generate on top of the tower
+	husk_leviathan_blade_chance = 5
+	#Determines if Husks will drop sand when spawned in the Leviathan.
+	husks_drop_sand = true
+	#Percent chance that a Stray will wear a Frosted Cowl in the Snowy Temple.
 	#Range: 0 ~ 100
-	tower_waystone_chance = 80
+	stray_frosted_cowl_chance = 5
+	#Determines if Strays will drop ice when spawned in the Snowy Temple.
+	strays_drop_ice = true
+	#Percent chance that a Drowned will wear a Warped Axe in the Warped Garden.
+	#Range: 0 ~ 100
+	drowned_warped_axe_chance = 5
+	#Percent chance that a Drowned will hold coral in the Warped Garden.
+	#Range: 0 ~ 100
+	drowned_coral_chance = 30
+	#Percent chance that a Skeleton will wield a Soul Cannon in the Soul Prison.
+	#Range: 0 ~ 100
+	skeleton_soul_cannon_chance = 5
+
+["Mod Compat"]
+
+	["Mod Compat".Waystones]
+		#Percent chance for a waystone from Waystones to generate on top of the tower
+		#Range: 0 ~ 100
+		tower_waystone_chance = 100
 

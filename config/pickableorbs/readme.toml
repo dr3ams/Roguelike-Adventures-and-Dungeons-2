@@ -39,7 +39,8 @@
 	### Orbs Data - what do they mean????
 	#Well let's start with the **OrbData** field first, there we can have:
 	#>     "name": "<name>" -> The default name that an orb receives is the name of the file, but you can change that by adding this parameter
-	#>     "type": "<type>" -> The Resource Location of the effect you'll want the player to receive from this orb, there's also "pickableorbs:percentage_healing"
+	#>     "type": "<type>" -> At the moment there are 8 types of orbs, **healing**, **poisonous**, **damaging**, **jumping**, **speedster**, 
+	#**confusion**, **levitation** and **fire_resistance**.
 	#>     "effectMultiplier": "<number value>", -> Sets the multiplier of the effect
 	#>     "effectDuration": "<number value>", -> Sets the duration of the effect, unavailable for the **healing** and **damaging** types.
 	#>     "color": "<color hex code>", -> Sets the color that should be applied over the plain texture of an orb, just use any color picker you can find on google that also offers you an hex code.

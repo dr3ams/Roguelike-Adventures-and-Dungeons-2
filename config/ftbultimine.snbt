@@ -12,9 +12,7 @@
 	# Range: 0 ~ 100
 	prevent_tool_break: 0
 	
-	# (This only works if the mod 'Lost Trinkets' is installed!)
-	# Adds a custom 'Ultiminer' trinket players will need to activate to be able to use Ultimine.
-	# Make sure you disable the 'Octopick' trinket if this is enabled!
+	# Require damageable tools or items added to ftbultimine:tools tag to ultimine.
 	# Default: false
-	use_trinket: false
+	require_tool: false
 }

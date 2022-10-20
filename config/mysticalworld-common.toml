@@ -2,37 +2,20 @@
 #Ore Generation
 [oregen]
 
-	#Copper ore generation.
-	[oregen.Copper_oregen]
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		oreChances = 6
-		#Max size of the vein.
-		#Range: 1 ~ 256
-		veinSize = 6
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		minY = 30
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		maxY = 116
-		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
-
 	#Tin ore generation.
 	[oregen.Tin_oregen]
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
-		oreChances = 4
+		oreChances = 7
 		#Max size of the vein.
 		#Range: 1 ~ 256
-		veinSize = 3
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		minY = 24
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		maxY = 58
+		veinSize = 8
+		#Minimum Y spawn
+		#Range: -64 ~ 256
+		minY = 40
+		#Maximum Y spawn
+		#Range: -64 ~ 256
+		maxY = 180
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
 		dimensions = ["minecraft:overworld"]
 
@@ -43,13 +26,13 @@
 		oreChances = 4
 		#Max size of the vein.
 		#Range: 1 ~ 256
-		veinSize = 3
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		minY = 0
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		maxY = 24
+		veinSize = 8
+		#Minimum Y spawn
+		#Range: -64 ~ 256
+		minY = -64
+		#Maximum Y spawn
+		#Range: -64 ~ 256
+		maxY = 64
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
 		dimensions = ["minecraft:overworld"]
 
@@ -60,30 +43,13 @@
 		oreChances = 4
 		#Max size of the vein.
 		#Range: 1 ~ 256
-		veinSize = 3
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		minY = 16
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		maxY = 48
-		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
-
-	#Quicksilver ore generation.
-	[oregen.Quicksilver_oregen]
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		oreChances = 0
-		#Max size of the vein.
-		#Range: 1 ~ 256
-		veinSize = 2
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		minY = 0
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		maxY = 16
+		veinSize = 8
+		#Minimum Y spawn
+		#Range: -64 ~ 256
+		minY = -32
+		#Maximum Y spawn
+		#Range: -64 ~ 256
+		maxY = 50
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
 		dimensions = ["minecraft:overworld"]
 
@@ -95,12 +61,12 @@
 		#Max size of the vein.
 		#Range: 1 ~ 256
 		veinSize = 3
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		minY = 0
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		maxY = 24
+		#Minimum Y spawn
+		#Range: -64 ~ 256
+		minY = -64
+		#Maximum Y spawn
+		#Range: -64 ~ 256
+		maxY = 50
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
 		dimensions = ["minecraft:overworld"]
 
@@ -108,16 +74,16 @@
 	[oregen.Quartz_oregen]
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
-		oreChances = 13
+		oreChances = 90
 		#Max size of the vein.
 		#Range: 1 ~ 256
-		veinSize = 4
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		minY = 24
-		#Number of veins per chunk (set to 0 to disable).
-		#Range: 0 ~ 256
-		maxY = 76
+		veinSize = 5
+		#Minimum Y spawn
+		#Range: -64 ~ 256
+		minY = -64
+		#Maximum Y spawn
+		#Range: -64 ~ 256
+		maxY = 256
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
 		dimensions = ["minecraft:overworld"]
 
@@ -131,15 +97,15 @@
 		spawnChance = 6
 		#Min to spawn in a group.
 		#Range: 0 ~ 256
-		min = 1
+		min = 2
 		#Max to spawn in a group.
 		#Range: 0 ~ 256
-		max = 2
+		max = 4
 		#List of biome types to spawn.
 		biomes = "forest,icy,taiga,plains,"
 
-	#Sprout spawn config.
-	[mob_spawns.Sprout_spawn]
+	#Green Sprout spawn config.
+	[mob_spawns."Green Sprout_spawn"]
 		#Chance to spawn (set to 0 to disable).
 		#Range: 0 ~ 256
 		spawnChance = 2
@@ -148,7 +114,49 @@
 		min = 1
 		#Max to spawn in a group.
 		#Range: 0 ~ 256
-		max = 3
+		max = 2
+		#List of biome types to spawn.
+		biomes = "jungle,river,forest,beach,"
+
+	#Tan Sprout spawn config.
+	[mob_spawns."Tan Sprout_spawn"]
+		#Chance to spawn (set to 0 to disable).
+		#Range: 0 ~ 256
+		spawnChance = 2
+		#Min to spawn in a group.
+		#Range: 0 ~ 256
+		min = 1
+		#Max to spawn in a group.
+		#Range: 0 ~ 256
+		max = 2
+		#List of biome types to spawn.
+		biomes = "jungle,river,forest,beach,"
+
+	#Purple Sprout spawn config.
+	[mob_spawns."Purple Sprout_spawn"]
+		#Chance to spawn (set to 0 to disable).
+		#Range: 0 ~ 256
+		spawnChance = 2
+		#Min to spawn in a group.
+		#Range: 0 ~ 256
+		min = 1
+		#Max to spawn in a group.
+		#Range: 0 ~ 256
+		max = 2
+		#List of biome types to spawn.
+		biomes = "jungle,river,forest,beach,"
+
+	#Red Sprout spawn config.
+	[mob_spawns."Red Sprout_spawn"]
+		#Chance to spawn (set to 0 to disable).
+		#Range: 0 ~ 256
+		spawnChance = 2
+		#Min to spawn in a group.
+		#Range: 0 ~ 256
+		min = 1
+		#Max to spawn in a group.
+		#Range: 0 ~ 256
+		max = 2
 		#List of biome types to spawn.
 		biomes = "jungle,river,forest,beach,"
 
@@ -162,15 +170,15 @@
 		min = 1
 		#Max to spawn in a group.
 		#Range: 0 ~ 256
-		max = 1
+		max = 2
 		#List of biome types to spawn.
 		biomes = "nether,"
 		#how often a hell sprout should attempt to plant nether wart (1 in X, 0 for never)
 		#Range: > 0
 		chance = 100
 
-	#Silver Fox spawn config.
-	[mob_spawns."Silver Fox_spawn"]
+	#Fennec spawn config.
+	[mob_spawns.Fennec_spawn]
 		#Chance to spawn (set to 0 to disable).
 		#Range: 0 ~ 256
 		spawnChance = 4
@@ -181,7 +189,7 @@
 		#Range: 0 ~ 256
 		max = 3
 		#List of biome types to spawn.
-		biomes = "forest,icy,taiga,"
+		biomes = "sandy,hot,mesa,savanna,"
 
 	#Beetle spawn config.
 	[mob_spawns.Beetle_spawn]
@@ -201,7 +209,7 @@
 	[mob_spawns.Frog_spawn]
 		#Chance to spawn (set to 0 to disable).
 		#Range: 0 ~ 256
-		spawnChance = 0
+		spawnChance = 6
 		#Min to spawn in a group.
 		#Range: 0 ~ 256
 		min = 2
@@ -215,7 +223,7 @@
 	[mob_spawns.Endermini_spawn]
 		#Chance to spawn (set to 0 to disable).
 		#Range: 0 ~ 256
-		spawnChance = 1
+		spawnChance = 2
 		#Min to spawn in a group.
 		#Range: 0 ~ 256
 		min = 1
@@ -229,7 +237,7 @@
 	[mob_spawns.Owl_spawn]
 		#Chance to spawn (set to 0 to disable).
 		#Range: 0 ~ 256
-		spawnChance = 7
+		spawnChance = 9
 		#Min to spawn in a group.
 		#Range: 0 ~ 256
 		min = 1
@@ -282,13 +290,13 @@
 	[mob_spawns.Clam_spawn]
 		#Chance to spawn (set to 0 to disable).
 		#Range: 0 ~ 256
-		spawnChance = 5
+		spawnChance = 2
 		#Min to spawn in a group.
 		#Range: 0 ~ 256
 		min = 1
 		#Max to spawn in a group.
 		#Range: 0 ~ 256
-		max = 3
+		max = 1
 		#List of biome types to spawn.
 		biomes = "ocean,river,beach,swamp,wet,"
 		#the chance of a clam spawning as an ender clam [0 to disable ender clams]
@@ -324,21 +332,30 @@
 	#How much damage to the antler hat spawning a spirit deer causes (-1 for no damage)
 	#Range: > -1
 	antler_damage = 1
-	#How frequency (1 in X per melee hit) Spirit Beetles should be spawned (-1 for not at all)
-	#Range: > -1
-	mask_chance = 4
-	#How much damage Spirit Beetles should do
-	#Range: > 1
-	mask_damage = 1
-	#How much durability damage should be done (-1 for none) per beetle spawned
-	#Range: > -1
-	mask_durability = 1
 	#How much of a damage to bonus should be provided by the mask (-1 for none)
 	#Range: -1.0 ~ 1.7976931348623157E308
 	mask_bonus_damage = 0.3
 
 #Armor Configuration
 [armor_config]
+
+	#Configuration for orichalcum armor
+	[armor_config.orichalcum_armor]
+		#Armor value for chest piece
+		#Range: > 0
+		chest_armor = 5
+		#Armor value for feet piece
+		#Range: > 0
+		feet_armor = 1
+		#Armor value for head piece
+		#Range: > 0
+		head_armor = 2
+		#Armor value for legs piece
+		#Range: > 0
+		legs_armor = 3
+		#Toughness for armor made of this material
+		#Range: 0.0 ~ 1.7976931348623157E308
+		toughness = 0.0
 
 	#Configuration for carapace armor
 	[armor_config.carapace_armor]
@@ -354,24 +371,6 @@
 		#Armor value for legs piece
 		#Range: > 0
 		legs_armor = 5
-		#Toughness for armor made of this material
-		#Range: 0.0 ~ 1.7976931348623157E308
-		toughness = 0.0
-
-	#Configuration for quicksilver armor
-	[armor_config.quicksilver_armor]
-		#Armor value for chest piece
-		#Range: > 0
-		chest_armor = 5
-		#Armor value for feet piece
-		#Range: > 0
-		feet_armor = 1
-		#Armor value for head piece
-		#Range: > 0
-		head_armor = 2
-		#Armor value for legs piece
-		#Range: > 0
-		legs_armor = 3
 		#Toughness for armor made of this material
 		#Range: 0.0 ~ 1.7976931348623157E308
 		toughness = 0.0
@@ -486,14 +485,16 @@
 
 #Feature Spawn Configuration
 [feature_spawns]
-	#Whether or not the aubergine loot table is injected into the grass seed table
-	seed_injection = true
+	#Whether or not the aubergine loot table is injected into the grass seed table (default: false in favor of wild aubergine)
+	seed_injection = false
+	#Whether or not loot should be injected to Vanilla tables
+	loot_injection = true
 
 	#Charred Tree Generation
 	[feature_spawns.charred_tree]
 		#Number of charred trees per chunk (set to 0 to disable).
 		#Range: 0.0 ~ 256.0
-		chance = 0
+		chance = 0.02
 		#List of biome types to spawn (default [SAVANNA,DEAD,FOREST,SANDY,WASTELAND], pass empty list for every biome
 		biomes = "SAVANNA,DEAD,FOREST,SANDY,WASTELAND"
 		#Which biome types this tree shouldn't spawn in (default END, NETHER)
@@ -516,24 +517,18 @@
 		#The dimensions that this feature should spawn in as a list (default ["minecraft:overworld"])
 		dimensions = ["minecraft:overworld"]
 
-	#Structure Generation
-	[feature_spawns.hut]
-		#List of biome types to spawn (default [SAVANNA,PLAINS], pass empty list for every biome
-		biomes = "SAVANNA,PLAINS"
-		#Which biome types this structure shouldn't spawn in (default END, NETHER)
+	#Wild Aubergine Generation
+	[feature_spawns.wild_aubergine]
+		#Number of tries per chunk to try placing wild aubergine (set to 0 to disable).
+		#Range: 0 ~ 256
+		tries = 20
+		#Number of times per chunk to repeat trying to placing wild aubergine
+		#Range: 1 ~ 256
+		repeats = 1
+		#List of biome types to spawn (default [PLAINS,FOREST,LUSH,HILLS,JUNGLE], pass empty list for every biome
+		biomes = "PLAINS,FOREST,LUSH,HILLS,JUNGLE"
+		#Which biome types this feature shouldn't spawn in (default END, NETHER)
 		biomeRestrictions = "NETHER,END"
-
-	#Structure Generation
-	[feature_spawns.barrow]
-		#List of biome types to spawn (default [SAVANNA,PLAINS], pass empty list for every biome
-		biomes = "SAVANNA,PLAINS"
-		#Which biome types this structure shouldn't spawn in (default END, NETHER)
-		biomeRestrictions = "NETHER,END"
-
-	#Structure Generation
-	[feature_spawns.sand_house]
-		#List of biome types to spawn (default [SANDY], pass empty list for every biome
-		biomes = "SANDY"
-		#Which biome types this structure shouldn't spawn in (default END, NETHER)
-		biomeRestrictions = "NETHER,END"
+		#The dimensions that this feature should spawn in as a list (default ["minecraft:overworld"])
+		dimensions = ["minecraft:overworld"]
 

@@ -12,3 +12,21 @@
 	#Should More Villagers houses generate in desert biome villages?
 	generateDesertHouses = true
 
+	#House weights (spawn frequency)
+	[houses.weights]
+		#Woodworker house spawn chance
+		#Range: > 0
+		woodworkerHouseWeight = 10
+		#Oceanographer house spawn chance
+		#Range: > 0
+		oceanographerHouseWeight = 10
+		#Florist house spawn chance
+		#Range: > 0
+		floristHouseWeight = 10
+		#Hunter house spawn chance
+		#Range: > 0
+		hunterHouseWeight = 10
+		#Engineer house spawn chance
+		#Range: > 0
+		engineerHouseWeight = 10
+

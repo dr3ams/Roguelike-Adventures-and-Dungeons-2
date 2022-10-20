@@ -8,11 +8,11 @@
 #Generation settings
 [Generation]
 	#Generate Iron Bushes [Default: true]
-	generateIronBush = false
+	generateIronBush = true
 	#Generate Gold Bushes [Default: true]
-	generateGoldBush = false
-	#Generate Copper Bushes [Default: false]
-	generateCopperBush = false
+	generateGoldBush = true
+	#Generate Copper Bushes [Default: true]
+	generateCopperBush = true
 	#Generate Tin Bushes [Default: false]
 	generateTinBush = false
 	#Generate Aluminum Bushes [Default: false]
@@ -30,7 +30,7 @@
 	#Generate Silver Bushes [Default: false]
 	generateSilverBush = false
 	#Generate Essence Bushes [Default: true]
-	generateEssenceBush = false
+	generateEssenceBush = true
 
 #Placement settings
 [Placement]
@@ -139,76 +139,76 @@
 
 #Location settings
 [Location]
-	#Iron Bush Min Y [Default: 0]
-	#Range: 0 ~ 255
-	ironBushMinY = 0
+	#Iron Bush Min Y [Default: -64]
+	#Range: > -2147483648
+	ironBushMinY = -64
 	#Iron Bush Max Y [Default: 62]
-	#Range: 0 ~ 255
+	#Range: > -2147483648
 	ironBushMaxY = 64
-	#Gold Bush Min Y [Default: 0]
-	#Range: 0 ~ 255
-	goldBushMinY = 0
+	#Gold Bush Min Y [Default: -64]
+	#Range: > -2147483648
+	goldBushMinY = -64
 	#Gold Bush Max Y [Default: 32]
-	#Range: 0 ~ 255
+	#Range: > -2147483648
 	goldBushMaxY = 32
-	#Copper Bush Min Y [Default: 20]
-	#Range: 0 ~ 255
-	copperBushMinY = 20
+	#Copper Bush Min Y [Default: -44]
+	#Range: > -2147483648
+	copperBushMinY = -44
 	#Copper Bush Max Y [Default: 60]
-	#Range: 0 ~ 255
+	#Range: > -2147483648
 	copperBushMaxY = 60
-	#Tin Bush Min Y [Default: 20]
-	#Range: 0 ~ 255
-	tinBushMinY = 20
+	#Tin Bush Min Y [Default: -44]
+	#Range: > -2147483648
+	tinBushMinY = -44
 	#Tin Bush Max Y [Default: 60]
-	#Range: 0 ~ 255
+	#Range: > -2147483648
 	tinBushMaxY = 60
-	#Aluminum Bush Min Y [Default: 20]
-	#Range: 0 ~ 255
-	aluminumBushMinY = 20
+	#Aluminum Bush Min Y [Default: -44]
+	#Range: > -2147483648
+	aluminumBushMinY = -44
 	#Aluminum Bush Max Y [Default: 60]
-	#Range: 0 ~ 255
+	#Range: > -2147483648
 	aluminumBushMaxY = 60
-	#Lead Bush Min Y [Default: 0]
-	#Range: 0 ~ 255
-	leadBushMinY = 0
+	#Lead Bush Min Y [Default: -64]
+	#Range: > -2147483648
+	leadBushMinY = -64
 	#Lead Bush Max Y [Default: 40]
-	#Range: 0 ~ 255
+	#Range: > -2147483648
 	leadBushMaxY = 40
-	#Nickel Bush Min Y [Default: 0]
-	#Range: 0 ~ 255
-	nickelBushMinY = 0
+	#Nickel Bush Min Y [Default: -64]
+	#Range: > -2147483648
+	nickelBushMinY = -64
 	#Nickel Bush Max Y [Default: 120]
-	#Range: 0 ~ 255
+	#Range: > -2147483648
 	nickelBushMaxY = 120
-	#Uranium Bush Min Y [Default: 0]
-	#Range: 0 ~ 255
-	uraniumBushMinY = 0
+	#Uranium Bush Min Y [Default: -64]
+	#Range: > -2147483648
+	uraniumBushMinY = -64
 	#Uranium Bush Max Y [Default: 60]
-	#Range: 0 ~ 255
+	#Range: > -2147483648
 	uraniumBushMaxY = 60
-	#Osmium Bush Min Y [Default: 0]
-	#Range: 0 ~ 255
-	osmiumBushMinY = 0
+	#Osmium Bush Min Y [Default: -64]
+	#Range: > -2147483648
+	osmiumBushMinY = -64
 	#Osmium Bush Max Y [Default: 60]
-	#Range: 0 ~ 255
+	#Range: > -2147483648
 	osmiumBushMaxY = 60
-	#Zinc Bush Min Y [Default: 0]
-	#Range: 0 ~ 255
-	zincBushMinY = 0
+	#Zinc Bush Min Y [Default: -64]
+	#Range: > -2147483648
+	zincBushMinY = -64
 	#Zinc Bush Max Y [Default: 70]
-	#Range: 0 ~ 255
+	#Range: > -2147483648
 	zincBushMaxY = 70
-	#Silver Bush Min Y [Default: 0]
-	#Range: 0 ~ 255
-	silverBushMinY = 0
+	#Silver Bush Min Y [Default: -64]
+	#Range: > -2147483648
+	silverBushMinY = -64
 	#Silver Bush Max Y [Default: 40]
-	#Range: 0 ~ 255
+	#Range: > -2147483648
 	silverBushMaxY = 40
-	#Essence Bush Min Y [Default: 0]
-	#Range: 0 ~ 255
-	essenceBushMinY = 0
+	#Essence Bush Min Y [Default: -64]
+	#Range: > -2147483648
+	essenceBushMinY = -64
 	#Essence Bush Max Y [Default: 32]
-	#Range: 0 ~ 255
+	#Range: > -2147483648
 	essenceBushMaxY = 32
 

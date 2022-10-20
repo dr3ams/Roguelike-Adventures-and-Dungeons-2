@@ -34,7 +34,7 @@
 		#Registry names of items that Loot Beams should render on. Example: "minecraft:stone", "minecraft:iron_ingot", You can also specify modids for a whole mod's items.
 		whitelist = []
 		#Registry names of items that Loot Beams should NOT render on. This has priority over everything. You can also specify modids for a whole mod's items.
-		blacklist = ["minecraft:air", "bountiful:bounty", "minecraft:stone", "minecraft:netherrack", "minecraft:dirt", "minecraft:cobblestone", "minecraft:andesite", "minecraft:bamboo", "minecraft:basalt", "minecraft:birch_sapling", "minecraft:acacia_sapling", "minecraft:clay_ball", "minecraft:coal", "minecraft:dark_oak_sapling", "minecraft:diorite", "minecraft:egg", "minecraft:ender_pearl", "minecraft:glowstone_dust", "minecraft:glowstone", "minecraft:granite", "minecraft:gravel", "minecraft:jungle_sapling", "minecraft:kelp", "minecraft:mycelium", "minecraft:oak_sapling", "minecraft:podzol", "minecraft:spruce_sapling", "minecraft:wheat_seeds"]
+		blacklist = []
 
 	#Item nametags
 	["Loot Beams".Nametags]

@@ -1,0 +1,301 @@
+
+#Auto Values estimate values based on item/block/entity properties
+#and apply when no other defined requirement or xp value is present
+[Auto_Values]
+	#set this to false to disable the auto values system.
+	"Auto Values Enabled" = true
+
+	#These settings turn auto-values on/off for the specific requirement type.  These are global settings
+	[Auto_Values.Req_Toggles]
+		"WEAR Req Values Generate" = true
+		"USE_ENCHANTMENT Req Values Generate" = true
+		"TOOL Req Values Generate" = true
+		"WEAPON Req Values Generate" = true
+		"USE Req Values Generate" = true
+		"PLACE Req Values Generate" = true
+		"BREAK Req Values Generate" = true
+		"KILL Req Values Generate" = true
+		"TRAVEL Req Values Generate" = true
+		"RIDE Req Values Generate" = true
+		"TAME Req Values Generate" = true
+		"BREED Req Values Generate" = true
+		"INTERACT Req Values Generate" = true
+		"ENTITY_INTERACT Req Values Generate" = true
+
+	#These settings turn auto-values xp awards on/off for the specific event type.  These are global settings
+	[Auto_Values.XpGain_Toggles]
+		"ANVIL_REPAIR Xp Award Values Generate" = true
+		"BLOCK_BREAK Xp Award Values Generate" = true
+		"BREAK_SPEED Xp Award Values Generate" = true
+		"BLOCK_PLACE Xp Award Values Generate" = true
+		"BREATH_CHANGE Xp Award Values Generate" = true
+		"BREED Xp Award Values Generate" = true
+		"BREW Xp Award Values Generate" = true
+		"CONSUME Xp Award Values Generate" = true
+		"CRAFT Xp Award Values Generate" = true
+		"RECEIVE_DAMAGE Xp Award Values Generate" = true
+		"FROM_MOBS Xp Award Values Generate" = true
+		"FROM_PLAYERS Xp Award Values Generate" = true
+		"FROM_ANIMALS Xp Award Values Generate" = true
+		"FROM_PROJECTILES Xp Award Values Generate" = true
+		"FROM_MAGIC Xp Award Values Generate" = true
+		"FROM_ENVIRONMENT Xp Award Values Generate" = true
+		"FROM_IMPACT Xp Award Values Generate" = true
+		"DEAL_MELEE_DAMAGE Xp Award Values Generate" = true
+		"MELEE_TO_MOBS Xp Award Values Generate" = true
+		"MELEE_TO_PLAYERS Xp Award Values Generate" = true
+		"MELEE_TO_ANIMALS Xp Award Values Generate" = true
+		"DEAL_RANGED_DAMAGE Xp Award Values Generate" = true
+		"RANGED_TO_MOBS Xp Award Values Generate" = true
+		"RANGED_TO_PLAYERS Xp Award Values Generate" = true
+		"RANGED_TO_ANIMALS Xp Award Values Generate" = true
+		"DEATH Xp Award Values Generate" = true
+		"ENCHANT Xp Award Values Generate" = true
+		"FISH Xp Award Values Generate" = true
+		"SMELT Xp Award Values Generate" = true
+		"GROW Xp Award Values Generate" = true
+		"HEALTH_CHANGE Xp Award Values Generate" = true
+		"JUMP Xp Award Values Generate" = true
+		"SPRINT_JUMP Xp Award Values Generate" = true
+		"CROUCH_JUMP Xp Award Values Generate" = true
+		"WORLD_CONNECT Xp Award Values Generate" = true
+		"WORLD_DISCONNECT Xp Award Values Generate" = true
+		"HIT_BLOCK Xp Award Values Generate" = true
+		"ACTIVATE_BLOCK Xp Award Values Generate" = true
+		"ACTIVATE_ITEM Xp Award Values Generate" = true
+		"ENTITY Xp Award Values Generate" = true
+		"RESPAWN Xp Award Values Generate" = true
+		"RIDING Xp Award Values Generate" = true
+		"SHIELD_BLOCK Xp Award Values Generate" = true
+		"SKILL_UP Xp Award Values Generate" = true
+		"SLEEP Xp Award Values Generate" = true
+		"SPRINTING Xp Award Values Generate" = true
+		"SUBMERGED Xp Award Values Generate" = true
+		"SWIMMING Xp Award Values Generate" = true
+		"DIVING Xp Award Values Generate" = true
+		"SURFACING Xp Award Values Generate" = true
+		"SWIM_SPRINTING Xp Award Values Generate" = true
+		"TAMING Xp Award Values Generate" = true
+		"VEIN_MINE Xp Award Values Generate" = true
+		"DISABLE_PERK Xp Award Values Generate" = true
+
+	#what skills and xp amount should applicable objects be granted
+	[Auto_Values.Xp_Awards]
+
+		[Auto_Values.Xp_Awards.Items]
+
+			[Auto_Values.Xp_Awards.Items."ANVIL_REPAIR Default Xp Award"]
+				smithing = 10
+
+			[Auto_Values.Xp_Awards.Items."BLOCK_PLACE Default Xp Award"]
+				building = 10
+
+			[Auto_Values.Xp_Awards.Items."CRAFT Default Xp Award"]
+				crafting = 10
+
+			[Auto_Values.Xp_Awards.Items."CONSUME Default Xp Award"]
+				cooking = 10
+
+			[Auto_Values.Xp_Awards.Items."ENCHANT Default Xp Award"]
+				magic = 10
+
+			[Auto_Values.Xp_Awards.Items."FISH Default Xp Award"]
+				fishing = 10
+
+			[Auto_Values.Xp_Awards.Items."SMELT Default Xp Award"]
+				smithing = 100
+
+			[Auto_Values.Xp_Awards.Items."BREW Default Xp Award"]
+				alchemy = 100
+
+		[Auto_Values.Xp_Awards.Blocks]
+			#How much should xp for rare blocks like ores be multiplied by.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			"Rarities Mulitplier" = 10.0
+
+			[Auto_Values.Xp_Awards.Blocks."BLOCK_BREAK Default Xp Award"]
+				mining = 1
+
+			[Auto_Values.Xp_Awards.Blocks."BLOCK_PLACE Default Xp Award"]
+				building = 1
+
+			[Auto_Values.Xp_Awards.Blocks."GROW Default Xp Award"]
+				farming = 1
+
+			#Special override for BLOCK_BREAK and BLOCK_PLACE events when breaking
+			#blocks in the minecraft:mineable/axe tag.
+			[Auto_Values.Xp_Awards.Blocks."Axe Breakable Block Action Override"]
+				woodcutting = 10
+
+			#Special override for BLOCK_BREAK and BLOCK_PLACE events when breaking
+			#blocks in the minecraft:mineable/hoe tag.
+			[Auto_Values.Xp_Awards.Blocks."Hoe Breakable Block Action Override"]
+				farming = 10
+
+			#Special override for BLOCK_BREAK and BLOCK_PLACE events when breaking
+			#blocks in the minecraft:mineable/shovel tag.
+			[Auto_Values.Xp_Awards.Blocks."Shovel Breakable Block Action Override"]
+				excavation = 10
+
+		[Auto_Values.Xp_Awards.Entities]
+
+			[Auto_Values.Xp_Awards.Entities."BREED Default Xp Award"]
+				taming = 1
+
+			[Auto_Values.Xp_Awards.Entities."FROM_MOBS Default Xp Award"]
+				endurance = 1
+
+			[Auto_Values.Xp_Awards.Entities."FROM_PLAYERS Default Xp Award"]
+				endurance = 1
+
+			[Auto_Values.Xp_Awards.Entities."FROM_ANIMALS Default Xp Award"]
+				endurance = 1
+
+			[Auto_Values.Xp_Awards.Entities."MELEE_TO_MOBS Default Xp Award"]
+				combat = 1
+
+			[Auto_Values.Xp_Awards.Entities."MELEE_TO_PLAYERS Default Xp Award"]
+				combat = 1
+
+			[Auto_Values.Xp_Awards.Entities."MELEE_TO_ANIMALS Default Xp Award"]
+				combat = 1
+
+			[Auto_Values.Xp_Awards.Entities."RANGED_TO_MOBS Default Xp Award"]
+				archery = 1
+
+			[Auto_Values.Xp_Awards.Entities."RANGED_TO_PLAYERS Default Xp Award"]
+				archery = 1
+
+			[Auto_Values.Xp_Awards.Entities."RANGED_TO_ANIMALS Default Xp Award"]
+				archery = 1
+
+			[Auto_Values.Xp_Awards.Entities."DEATH Default Xp Award"]
+				endurance = 1
+
+			[Auto_Values.Xp_Awards.Entities."ENTITY Default Xp Award"]
+				charisma = 1
+
+			[Auto_Values.Xp_Awards.Entities."RIDING Default Xp Award"]
+				taming = 1
+
+			[Auto_Values.Xp_Awards.Entities."SHIELD_BLOCK Default Xp Award"]
+				combat = 1
+
+			[Auto_Values.Xp_Awards.Entities."TAMING Default Xp Award"]
+				taming = 1
+
+	#what skills and level should be required to perform the specified action
+	[Auto_Values.Requirements]
+
+		[Auto_Values.Requirements.Items]
+
+			[Auto_Values.Requirements.Items."WEAR Default Req"]
+				endurance = 1
+
+			[Auto_Values.Requirements.Items."USE_ENCHANTMENT Default Req"]
+				magic = 1
+
+			[Auto_Values.Requirements.Items."TOOL Default Req"]
+				mining = 1
+
+			[Auto_Values.Requirements.Items."WEAPON Default Req"]
+				combat = 1
+
+		[Auto_Values.Requirements.BLocks]
+
+			[Auto_Values.Requirements.BLocks."BREAK Default Req"]
+				mining = 1
+
+			[Auto_Values.Requirements.BLocks."PLACE Default Req"]
+				building = 1
+
+	#Configuration tweaks specific to items.
+	#'Durability' determines how much item durability affects auto value calculations
+	#Default: 0.01 is equal to 1 per hundred durability
+	#'Damage' determines how much item damage affects auto value calculations
+	#'Attack_Speed' determines how much item attack speed affects auto value calculations
+	#'Tier' multiplies the default req by this per teir.
+	#'Dig_Speed' Determines how much item block break speed affects auto value calculations
+	#'Armor' Determines how much item armor amount affects auto value calculations
+	#'Knockback_Resistance' Determines how much item knockback resistance affects auto value calculations
+	#'Toughness' Determines how much item armor toughness affects auto value calculations
+	[Auto_Values.Item_Tweaks]
+		#how much should block hardness contribute to value calculations
+		"Block Hardness Modifier" = 10.0
+
+		[Auto_Values.Item_Tweaks.SWORD_Attributes]
+			Tier = 10.0
+			Dig_Speed = 10.0
+			Durability = 0.01
+			Attack_Speed = 10.0
+			Damage = 1.5
+
+		[Auto_Values.Item_Tweaks.PICKAXE_Attributes]
+			Tier = 10.0
+			Dig_Speed = 10.0
+			Durability = 0.01
+			Attack_Speed = 10.0
+			Damage = 1.5
+
+		[Auto_Values.Item_Tweaks.AXE_Attributes]
+			Tier = 10.0
+			Dig_Speed = 10.0
+			Durability = 0.01
+			Attack_Speed = 10.0
+			Damage = 1.5
+
+		[Auto_Values.Item_Tweaks.SHOVEL_Attributes]
+			Tier = 10.0
+			Dig_Speed = 10.0
+			Durability = 0.01
+			Attack_Speed = 10.0
+			Damage = 1.5
+
+		[Auto_Values.Item_Tweaks.HOE_Attributes]
+			Tier = 10.0
+			Dig_Speed = 10.0
+			Durability = 0.01
+			Attack_Speed = 10.0
+			Damage = 1.5
+
+		[Auto_Values.Item_Tweaks.HEAD_Attributes]
+			Toughness = 10.0
+			Durability = 0.01
+			Armor = 10.0
+			Knockback_Resistance = 10.0
+
+		[Auto_Values.Item_Tweaks.CHEST_Attributes]
+			Toughness = 10.0
+			Durability = 0.01
+			Armor = 10.0
+			Knockback_Resistance = 10.0
+
+		[Auto_Values.Item_Tweaks.LEGS_Attributes]
+			Toughness = 10.0
+			Durability = 0.01
+			Armor = 10.0
+			Knockback_Resistance = 10.0
+
+		[Auto_Values.Item_Tweaks.BOOTS_Attributes]
+			Toughness = 10.0
+			Durability = 0.01
+			Armor = 10.0
+			Knockback_Resistance = 10.0
+
+		[Auto_Values.Item_Tweaks.WINGS_Attributes]
+			Toughness = 10.0
+			Durability = 0.01
+			Armor = 10.0
+			Knockback_Resistance = 10.0
+
+	#Configuration tweaks specific to entities.
+	#'Health' Determines how much entity health affects auto value calculations
+	#'Move_Speed' Determines how much entity speed affects auto value calculations
+	#'Damage' Determines how much entity damage affects auto value calculations
+	[Auto_Values.Entity_Tweaks]
+
+		[Auto_Values.Entity_Tweaks.Entity_Attributes]
+			Move_Speed = 0.15
+			Health = 0.5
+			Damage = 1.5
+

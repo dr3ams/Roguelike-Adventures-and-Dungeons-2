@@ -1,0 +1,187 @@
+
+#===========================================================
+#
+# All skills in pmmo are defined when they are used anywhere
+# in PMMO.  You do not need to define a skill here to use it.
+# However, defining a skills attributes here will give you a
+# more rounded skill list and a cleaner looking mod.  Note 
+# that all the defaults here can be replaced if you wish.
+#
+#===========================================================
+[Skills]
+
+	[Skills.Entry]
+
+		[Skills.Entry.magic]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 255
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.slayer]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 16777215
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.fishing]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 52479
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.fightgroup]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 16777215
+			noAfkPenalty = false
+			displayGroupName = false
+
+			[Skills.Entry.fightgroup.groupFor]
+				combat = 0.5
+				archery = 0.2
+				endurance = 0.3
+
+		[Skills.Entry.combat]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 16724736
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.alchemy]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 15112448
+			noAfkPenalty = true
+			displayGroupName = false
+
+		[Skills.Entry.mining]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 65535
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.engineering]
+			useTotalLevels = false
+			maxLevel = 100
+			color = 16777215
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.endurance]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 13369344
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.building]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 65535
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.smithing]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 15790320
+			noAfkPenalty = true
+			displayGroupName = false
+
+		[Skills.Entry.swimming]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 3368703
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.woodcutting]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 16753434
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.gunslinging]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 13877667
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.crafting]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 16750848
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.excavation]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 15112448
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.farming]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 58880
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.flying]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 13421823
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.cooking]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 15112448
+			noAfkPenalty = true
+			displayGroupName = false
+
+		[Skills.Entry.agility]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 6736998
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.sailing]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 10073087
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.hunter]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 13596693
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.archery]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 16776960
+			noAfkPenalty = false
+			displayGroupName = false
+
+		[Skills.Entry.taming]
+			useTotalLevels = false
+			maxLevel = 2147483647
+			color = 16777215
+			noAfkPenalty = false
+			displayGroupName = false
+

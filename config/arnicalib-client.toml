@@ -1,0 +1,23 @@
+
+[advanced_item_tooltip]
+	enabled = true
+	only_on_debug = true
+	only_on_shift = false
+
+[debug_information]
+
+	[debug_information.addons]
+		enabled = true
+
+		[debug_information.addons.speedmeter]
+			enabled = true
+			#Allowed Values: METRES_PER_TICK, METRES_PER_SECOND, KILOMETRES_PER_HOUR
+			unit = "METRES_PER_SECOND"
+			show_unit_symbol = true
+
+	[debug_information.tweaks]
+		enabled = false
+		hide_left_side = false
+		hide_right_side = false
+		hide_system_information = false
+

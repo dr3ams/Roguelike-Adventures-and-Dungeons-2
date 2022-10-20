@@ -7,9 +7,54 @@
         "value": "overworld"
       },
       {
-        "type": "BIOME_CATEGORY",
+        "type": "BIOME_DICT",
         "negate": false,
-        "value": "desert"
+        "value": "hot"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "dry"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "sandy"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:ancient_sands"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:desert_canyon"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:desert_spires"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:ashen_savanna"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "terralith:cave/desert_caves"
       }
     ]
   ]

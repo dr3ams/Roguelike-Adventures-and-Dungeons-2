@@ -13,7 +13,7 @@
 	per_spell_limit = 2147483647
 	#Limits the number of times a given augment may be applied to a given effect
 	#Example entry: "amplify=5"
-	augment_limits = []
+	augment_limits = ["sensitive=2"]
 	#Base range in blocks
 	#Range: 0.0 ~ 1.7976931348623157E308
 	base_range = 16.0

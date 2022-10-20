@@ -1,0 +1,25 @@
+
+["general configs"]
+	#Enable or disable magic flag on spell damage, for interaction with magic reduction or proficiency
+	"turn spells magic" = true
+
+#Pmmo scaling
+[PMMO]
+	#XP gained per Mana spent
+	ars_mana = 0.05
+	#% Bonus to Max Mana per level
+	ars_max_bonus = 0.01
+	#% Bonus to Mana Regen per level
+	ars_regen_bonus = 0.00666
+	#% Bonus to Spell Damage per level
+	ars_damage_bonus = 0.0
+	#% Bonus to Spell Resistance per level
+	ars_defense_bonus = 0.0
+	#Switch between legacy configs or pmmo perk system. (true) Legacy multiplies the regen/maxmana by the values below. (false) Perk adds flat regen/max mana defined in the serverconfigs following pmmo guide.
+	legacy = true
+
+#Scaling Health scaling
+["SCALING HEALTH"]
+	#Spell Damage bonus per crystal
+	scaling_ars_damage = 0.0
+

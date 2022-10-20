@@ -1,0 +1,62 @@
+
+#Client Configuration
+[client]
+
+	[client.visual_options]
+		# If markers should be visible through walls and other obstructions.
+		show_through_walls = true
+		# If markers should include an arrow under the profession-specific icon.
+		show_arrow = true
+		# If icons should show on minimaps. (Currently supports Xaero's Minimap, FTB Chunks, and JourneyMap).
+		show_on_minimap = true
+		# Which overlay graphic to use (0 = backpack, 1 = emerald, 2 = coin stack, 3 = bag, 4 = profession level, -1 = none).
+		#Range: -1 ~ 4
+		overlay_icon = 3
+		# The opacity of displayed markers and arrows.
+		#Range: 0.1 ~ 1.0
+		opacity = 1.0
+		# The maximum distance, in blocks, at which markers are visible.
+		#Range: 16.0 ~ 256.0
+		max_distance = 64.0
+		# The percent of the maximum distance at which markers will begin to fade out.
+		#Range: 0.0 ~ 100.0
+		fade_percent = 25.0
+		# How large in-world markers should appear.
+		#Range: 0.5 ~ 2.0
+		icon_scale = 1.0
+		# How large markers should appear on minimaps. (Only applicable for maps without a built-in icon scale option.)
+		#Range: 0.5 ~ 2.0
+		minimap_icon_scale = 0.75
+		# How high above villagers markers should appear.  The default position (0) is right above name plates.
+		#Range: -128 ~ 128
+		vertical_offset = 0
+		# The types of markers to show above villagers.  Can be one of either "items", "jobs", "generic", or "custom".  These options mean:
+		#    "items" - Shows items from the associated item list below.
+		#    "jobs" - Shows the texture from the villager's job site block (like the brewing stand for clerics, and so on).
+		#    "generic" - Shows a generic icon that is the same for all villagers.
+		#    "custom" - Shows custom icons for each villager profession (these can be replaced with a resource pack).
+		marker_type = "custom"
+		# A list of professions to ignore when displaying markers. Use "none" for villagers with no profession.
+		profession_blacklist = ["none", "nitwit"]
+
+		# The items associated with each villager profession.  Only used when marker type is set to "items".
+		[client.visual_options.associated_items]
+			armorer = "minecraft:iron_chestplate"
+			butcher = "minecraft:beef"
+			cartographer = "minecraft:compass"
+			cleric = "minecraft:rotten_flesh"
+			farmer = "minecraft:wheat"
+			fisherman = "minecraft:cod"
+			fletcher = "minecraft:bow"
+			leatherworker = "minecraft:leather"
+			librarian = "minecraft:bookshelf"
+			mason = "minecraft:brick"
+			shepherd = "minecraft:shears"
+			toolsmith = "minecraft:iron_pickaxe"
+			weaponsmith = "minecraft:iron_sword"
+			wandering_trader = "minecraft:emerald"
+
+	[client.compatibility_options]
+		# If enabled, will force fast render on when using shaders with Optifine (due to a bug in Optifine, this is required for markers to render properly with some shaders).
+		optifine_workaround = true
+

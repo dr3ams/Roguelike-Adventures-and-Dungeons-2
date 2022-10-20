@@ -1,0 +1,122 @@
+
+[acupuncture]
+	enabled = true
+	minTier = 1
+	maxTier = -1
+	mobList = ["minecraft:creeper"]
+	mobPermission = "BLACKLIST"
+
+	[acupuncture.extra]
+		attackDamageMultiplier = 0.75
+
+[dispel]
+	enabled = true
+	minTier = 1
+	maxTier = -1
+	mobList = ["minecraft:creeper"]
+	mobPermission = "BLACKLIST"
+
+[reality]
+	enabled = true
+	minTier = 1
+	maxTier = -1
+	mobList = []
+	mobPermission = "BLACKLIST"
+
+	[reality.extra]
+		nonMagicDamageMultiplier = 1.25
+
+[hurricane]
+	enabled = true
+	minTier = 1
+	maxTier = -1
+	mobList = []
+	mobPermission = "BLACKLIST"
+
+	[hurricane.extra]
+		effectDuration = 300
+		teleportRadius = 48
+		teleportMaxTries = 16
+
+[fireeater]
+	enabled = true
+	minTier = 1
+	maxTier = -1
+	mobList = []
+	mobPermission = "BLACKLIST"
+
+	[fireeater.extra]
+		healthHealedPreSecond = 10.0
+
+[assassin]
+	enabled = true
+	minTier = 1
+	maxTier = -1
+	mobList = []
+	mobPermission = "BLACKLIST"
+
+[necromancer]
+	enabled = true
+	minTier = 3
+	maxTier = -1
+	mobList = []
+	mobPermission = "BLACKLIST"
+
+	[necromancer.extra]
+		searchRadiusOfTeammate = 10
+
+[leader]
+	enabled = true
+	minTier = 3
+	maxTier = -1
+	mobList = []
+	mobPermission = "BLACKLIST"
+
+	[leader.extra]
+		searchRadiusOfTeammate = 10
+
+[shadow]
+	enabled = true
+	minTier = 1
+	maxTier = -1
+	mobList = []
+	mobPermission = "BLACKLIST"
+
+[sticky]
+	enabled = false
+	minTier = 2
+	maxTier = -1
+	mobList = []
+	mobPermission = "BLACKLIST"
+
+	[sticky.extra]
+		blacklist = []
+
+[disarmoring]
+	enabled = false
+	minTier = 2
+	maxTier = -1
+	mobList = ["minecraft:creeper"]
+	mobPermission = "BLACKLIST"
+
+[fury]
+	enabled = true
+	minTier = 1
+	maxTier = -1
+	mobList = ["minecraft:creeper"]
+	mobPermission = "BLACKLIST"
+
+	[fury.extra]
+		ratioOfHealth = 0.2
+		attackDamageMultiplier = 2.0
+
+[thief]
+	enabled = false
+	minTier = 2
+	maxTier = -1
+	mobList = ["minecraft:creeper"]
+	mobPermission = "BLACKLIST"
+
+	[thief.extra]
+		stealableItems = ["minecraft:amethyst_shard", "minecraft:beacon", "minecraft:creeper_head", "minecraft:diamond", "minecraft:dragon_egg", "minecraft:dragon_head", "minecraft:elytra", "minecraft:emerald", "minecraft:enchanted_golden_apple", "minecraft:filled_map", "minecraft:gold_ingot", "minecraft:golden_apple", "minecraft:heart_of_the_sea", "minecraft:iron_ingot", "minecraft:lapis_lazuli", "minecraft:nether_star", "minecraft:netherite_ingot", "minecraft:player_head", "minecraft:potion", "minecraft:skeleton_skull", "minecraft:totem_of_undying", "minecraft:wither_skeleton_skull", "minecraft:zombie_head"]
+

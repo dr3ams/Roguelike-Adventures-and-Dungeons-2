@@ -1,15 +1,43 @@
 
-[features]
-	#Adds more vanilla structures to the list of structures that lakes cannot generate inside of. Only villages when set to false. Requires reload.
-	extra_lake_proofing = true
-
 [biome_dictionary]
-	#A list of mod IDs that will be ignored when the biome dictionary attempts to register unregistered biomes. Mod IDs must be comma separated ("biomesoplenty, byg, blue_skies").
-	ignored_mods = ""
-	#Determines if the biome dictionary make assumptions for unregistered biomes. Setting this to false can fix issues where a structure generates in the wrong dimension.
+	#
+	# A list of mod IDs that will be ignored when the biome dictionary attempts to register unregistered biomes.
+	# Example: ["biomesoplenty", "byg", "autumnity"]
+	# Default: []
+	ignored_mods = []
+	#
+	# Determines if the biome dictionary should make assumptions for unregistered biomes. Setting this to false can fix issues where a structure generates weird biomes.
+	# Default: true
 	make_best_guess = true
 
-[commands]
-	#When true, removes the size limit from the fill and clone commands.
-	exceed_fill_clone_limit = true
+[building_tool]
+	#
+	# The required permission level of a player needed to use the Building Tool.
+	# Default: 4
+	#Range: 0 ~ 4
+	required_permission = 4
+	#
+	# The amount of undo operations saved by the Building Tool.
+	# Default: 32
+	#Range: 8 ~ 256
+	max_undos = 32
+
+[vanilla_enhancements]
+	#
+	# When true, removes the size limit from the fill and clone commands.
+	# Default: true
+	exceed_fill_and_clone_limit = true
+
+[debug]
+	#
+	# When true, allows extra debug logging to be printed to the console.
+	# Default: false
+	console_debug = false
+	#
+	# When true:
+	# - Gel blocks can be clicked through like air when holding items that don't interact with them.
+	# - Gel blocks can be replaced like air when not holding gel or crouching.
+	# - Gel blocks automatically replace destroyed neighboring blocks.
+	# Default: true
+	advanced_gel_behavior = true
 

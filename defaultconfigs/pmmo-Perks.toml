@@ -1,0 +1,210 @@
+
+#These settings define which perks are used and the settings which govern them.
+[Perks]
+
+	[Perks.For_Event]
+
+		[Perks.For_Event.SKILL_UP]
+
+			[[Perks.For_Event.SKILL_UP.magic]]
+				skill = "magic"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.slayer]]
+				skill = "slayer"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.fishing]]
+				skill = "fishing"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.combat]]
+				perk = "pmmo:damage"
+
+			[[Perks.For_Event.SKILL_UP.combat]]
+				skill = "combat"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.alchemy]]
+				skill = "alchemy"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.mining]]
+				skill = "mining"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.endurance]]
+				perk = "pmmo:health"
+
+			[[Perks.For_Event.SKILL_UP.endurance]]
+				skill = "endurance"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.building]]
+				perk = "pmmo:reach"
+
+			[[Perks.For_Event.SKILL_UP.building]]
+				skill = "building"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.smithing]]
+				skill = "smithing"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.swimming]]
+				skill = "swimming"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.woodcutting]]
+				skill = "woodcutting"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.gunslinging]]
+				skill = "gunslinging"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.crafting]]
+				skill = "crafting"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.crafting]]
+				per_level = 3.0
+				perk = "ars_scalaes:mana_boost"
+				max_boost = 3000.0
+
+			[[Perks.For_Event.SKILL_UP.crafting]]
+				per_level = 0.06
+				perk = "ars_scalaes:mana_regen"
+				max_boost = 100.0
+
+			[[Perks.For_Event.SKILL_UP.excavation]]
+				skill = "excavation"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.farming]]
+				skill = "farming"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.flying]]
+				skill = "flying"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.cooking]]
+				skill = "cooking"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.agility]]
+				perk = "pmmo:speed"
+
+			[[Perks.For_Event.SKILL_UP.agility]]
+				skill = "agility"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.sailing]]
+				skill = "sailing"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.hunter]]
+				skill = "hunter"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.archery]]
+				skill = "archery"
+				perk = "pmmo:fireworks"
+
+			[[Perks.For_Event.SKILL_UP.taming]]
+				skill = "taming"
+				perk = "pmmo:fireworks"
+
+		[Perks.For_Event.SPRINT_JUMP]
+
+			[[Perks.For_Event.SPRINT_JUMP.agility]]
+				per_level = 0.001
+				perk = "pmmo:jump_boost"
+
+		[Perks.For_Event.JUMP]
+
+			[[Perks.For_Event.JUMP.agility]]
+				per_level = 5.0E-4
+				perk = "pmmo:jump_boost"
+
+		[Perks.For_Event.CROUCH_JUMP]
+
+			[[Perks.For_Event.CROUCH_JUMP.agility]]
+				per_level = 0.0015
+				perk = "pmmo:jump_boost"
+
+		[Perks.For_Event.RANGED_TO_MOBS]
+
+			[[Perks.For_Event.RANGED_TO_MOBS.magic]]
+				applies_to = ["ars_nouveau:spell_bow"]
+				perk = "pmmo:damage_boost"
+
+			[[Perks.For_Event.RANGED_TO_MOBS.gunslinging]]
+				applies_to = ["cgm:pistol", "cgm:shotgun", "cgm:rifle"]
+				perk = "pmmo:damage_boost"
+
+			[[Perks.For_Event.RANGED_TO_MOBS.archery]]
+				applies_to = ["minecraft:bow", "mineraft:crossbow", "minecraft:trident"]
+				perk = "pmmo:damage_boost"
+
+		[Perks.For_Event.BREAK_SPEED]
+
+			[[Perks.For_Event.BREAK_SPEED.woodcutting]]
+				modifier = 1000
+				perk = "pmmo:break_speed"
+				axe_dig = 0.005
+
+			[[Perks.For_Event.BREAK_SPEED.excavation]]
+				shovel_dig = 0.005
+				modifier = 1000
+				perk = "pmmo:break_speed"
+
+			[[Perks.For_Event.BREAK_SPEED.farming]]
+				shears_dig = 0.005
+				modifier = 1000
+				perk = "pmmo:break_speed"
+				hoe_dig = 0.005
+
+			[[Perks.For_Event.BREAK_SPEED.combat]]
+				sword_dig = 0.005
+				modifier = 1000
+				perk = "pmmo:break_speed"
+
+			[[Perks.For_Event.BREAK_SPEED.mining]]
+				pickaxe_dig = 0.005
+				modifier = 1000
+				perk = "pmmo:break_speed"
+
+		[Perks.For_Event.SUBMERGED]
+
+			[[Perks.For_Event.SUBMERGED.swimming]]
+				perk = "pmmo:breath"
+
+			[[Perks.For_Event.SUBMERGED.swimming]]
+				perk = "pmmo:night_vision"
+
+		[Perks.For_Event.FROM_IMPACT]
+
+			[[Perks.For_Event.FROM_IMPACT.agility]]
+				per_level = 0.005
+				perk = "pmmo:fall_save"
+
+			[[Perks.For_Event.FROM_IMPACT.endurance]]
+				per_level = 0.025
+				perk = "pmmo:fall_save"
+
+		[Perks.For_Event.DEAL_RANGED_DAMAGE]
+
+			[[Perks.For_Event.DEAL_RANGED_DAMAGE.magic]]
+				applies_to = ["ars_nouveau:spell_bow"]
+				perk = "pmmo:damage_boost"
+
+			[[Perks.For_Event.DEAL_RANGED_DAMAGE.gunslinging]]
+				applies_to = ["cgm:pistol", "cgm:shotgun", "cgm:rifle"]
+				perk = "pmmo:damage_boost"
+
+			[[Perks.For_Event.DEAL_RANGED_DAMAGE.archery]]
+				applies_to = ["minecraft:bow", "mineraft:crossbow", "minecraft:trident"]
+				perk = "pmmo:damage_boost"
+

@@ -30,54 +30,6 @@
 		# If enabled, tooltips with custom borders will always be at least wide enough to display all border decorations.
 		enforce_minimum_width = false
 
-	# The colors used for each tooltip, in this order: top border color, bottom border color, top background color, bottom background color.
-	# None of these colors are required, though any colors not specified will be replaced with the default tooltip colors.
-	#
-	# VALID COLOR FORMATS
-	#   Hex color code - A hex color code is preceded by # or 0x and must be quoted.  Supports 3, 4, 6, or 8 digit codes in the formats RGB, ARGB, RRGGBB, AARRGGBB.
-	#     Examples: "#F4C", "0xFEE0", "#40FF2E", "#CC00E2EE"
-	#
-	#   Decimal color code - A decimal color code, which is just a hex color code converted to decimal.  May or may not be quoted.
-	#     Examples: 15614720, "4278251143"
-	#
-	#   Minecraft color name - One of the standard 16 Minecraft color names.  Must be quoted.
-	#     Examples: "red", "dark_purple", "gold"
-	#
-	#   Web color name - One of the standard 140 web/HTML color names or "transparent".  Must be quoted.
-	#     Examples: "chartreuse", "darkorange", "deeppink", "deepskyblue"
-	#
-	#   Modifiers - Colors specified in any of the above formats can be modified by using modifiers.
-	#         Modifiers are specified after any color in the format "<+, -, or =><h, s, v, r, g, b, or a><amount>".
-	#         The letters represent h - hue, s - saturation, v - value, r - red, g - green, b - blue, a - alpha.
-	#         Valid amounts are 0 to 255 for all types except hue, which accepts 0 to 359.
-	#     Examples: "red+h15", "#saddlebrown-v20+s5", "10_aqua_aqua+v15-h5", "#F4C-r15-v10=a40"
-	#
-	#   Animated color - An animated color that fades from one to another in sequence.
-	#         A string in the format "<duration in seconds>_<list of color definitions separated by underscores>".  Must be quoted.
-	#     Examples: "10_black_#7FFF00", "5.5_gold_orange_orangered", "20_red_orange_yellow_green_blue_purple"
-	[client.colors]
-		level0_colors = ["#FF996922", "#FF5A3A1D", "auto", "auto"]
-		level1_colors = ["auto", "auto", "auto", "auto"]
-		level2_colors = ["auto", "auto", "auto", "auto"]
-		level3_colors = ["auto", "auto", "auto", "auto"]
-		level4_colors = ["auto", "auto", "auto", "auto"]
-		level5_colors = ["auto", "auto", "auto", "auto"]
-		level6_colors = ["auto", "auto", "auto", "auto"]
-		level7_colors = ["auto", "auto", "auto", "auto"]
-		level8_colors = ["auto", "auto", "auto", "auto"]
-		level9_colors = ["auto", "auto", "auto", "auto"]
-		level10_colors = ["auto", "auto", "auto", "auto"]
-		level11_colors = ["auto", "auto", "auto", "auto"]
-		level12_colors = ["auto", "auto", "auto", "auto"]
-		level13_colors = ["auto", "auto", "auto", "auto"]
-		level14_colors = ["auto", "auto", "auto", "auto"]
-		level15_colors = ["auto", "auto", "auto", "auto"]
-
-	# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.
-	# Optionally, -1 can be inserted to indicate relative priority of data and api-defined borders.  If you don't know what that means, you don't need to worry about it.
-	[client.priorities]
-		priorities = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-
 	# Entry types:
 	#    Item name - Use item name for vanilla items or include mod name for modded items.  Examples: "minecraft:stick", "iron_ore"
 	#    Tag - $ followed by tag name.  Examples: "$forge:stone", "$planks"
@@ -106,4 +58,52 @@
 		level15_entries = []
 		# Enter blacklist selectors here using the same format as above. Any items that match these selectors will NOT show a border.
 		blacklist = []
+
+	# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.
+	# Optionally, -1 can be inserted to indicate relative priority of data and api-defined borders.  If you don't know what that means, you don't need to worry about it.
+	[client.priorities]
+		priorities = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+	# The colors used for each tooltip, in this order: top border color, bottom border color, top background color, bottom background color.
+	# None of these colors are required, though any colors not specified will be replaced with the default tooltip colors.
+	#
+	# VALID COLOR FORMATS
+	#   Hex color code - A hex color code is preceded by # or 0x and must be quoted.  Supports 3, 4, 6, or 8 digit codes in the formats RGB, ARGB, RRGGBB, AARRGGBB.
+	#     Examples: "#F4C", "0xFEE0", "#40FF2E", "#CC00E2EE"
+	#
+	#   Decimal color code - A decimal color code, which is just a hex color code converted to decimal.  May or may not be quoted.
+	#     Examples: 15614720, "4278251143"
+	#
+	#   Minecraft color name - One of the standard 16 Minecraft color names.  Must be quoted.
+	#     Examples: "red", "dark_purple", "gold"
+	#
+	#   Web color name - One of the standard 140 web/HTML color names or "transparent".  Must be quoted.
+	#     Examples: "chartreuse", "darkorange", "deeppink", "deepskyblue"
+	#
+	#   Modifiers - Colors specified in any of the above formats can be modified by using modifiers.
+	#         Modifiers are specified after any color in the format "<+, -, or =><h, s, v, r, g, b, or a><amount>".
+	#         The letters represent h - hue, s - saturation, v - value, r - red, g - green, b - blue, a - alpha.
+	#         Valid amounts are 0 to 255 for all types except hue, which accepts 0 to 359.
+	#     Examples: "red+h15", "#saddlebrown-v20+s5", "10_aqua_aqua+v15-h5", "#F4C-r15-v10=a40"
+	#
+	#   Animated color - An animated color that fades from one to another in sequence.
+	#         A string in the format "<duration in seconds>_<list of color definitions separated by underscores>".  Must be quoted.
+	#     Examples: "10_black_#7FFF00", "5.5_gold_orange_orangered", "20_red_orange_yellow_green_blue_purple"
+	[client.colors]
+		level0_colors = [-6723294, -10864099, -266991104, -401208832]
+		level1_colors = ["auto", "auto", "auto", "auto"]
+		level2_colors = ["auto", "auto", "auto", "auto"]
+		level3_colors = ["auto", "auto", "auto", "auto"]
+		level4_colors = ["auto", "auto", "auto", "auto"]
+		level5_colors = ["auto", "auto", "auto", "auto"]
+		level6_colors = ["auto", "auto", "auto", "auto"]
+		level7_colors = ["auto", "auto", "auto", "auto"]
+		level8_colors = ["auto", "auto", "auto", "auto"]
+		level9_colors = ["auto", "auto", "auto", "auto"]
+		level10_colors = ["auto", "auto", "auto", "auto"]
+		level11_colors = ["auto", "auto", "auto", "auto"]
+		level12_colors = ["auto", "auto", "auto", "auto"]
+		level13_colors = ["auto", "auto", "auto", "auto"]
+		level14_colors = ["auto", "auto", "auto", "auto"]
+		level15_colors = ["auto", "auto", "auto", "auto"]
 

@@ -56,7 +56,6 @@ hideWorldNames:1
 openSlimeSettings:true
 alwaysShowDistance:false
 showLightLevel:0
-renderLayerIndex:1
 crossDimensionalTp:true
 showTime:0
 biomeColorsVanillaMode:false
@@ -103,8 +102,10 @@ chunkGridLineWidth:1
 temporaryWaypointsGlobal:true
 keepUnlockedWhenEnlarged:false
 enlargedMinimapAToggle:false
-displayStainedGlass:true
-waypointOnMapScale:0
+displayPacPlayers:true
+displayClaims:true
+displayCurrentClaim:true
+claimsOpacity:80
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false

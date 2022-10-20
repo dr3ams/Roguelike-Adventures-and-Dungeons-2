@@ -1,0 +1,21 @@
+
+#Common Configurations for Habitat
+[common]
+	#
+	#== MISC ==
+	#
+	#Fairy Ring Mushroom Stew Effects
+	#Enter them in the format effectid:duration (duration in seconds) and separate them with a single ,
+	suspicious_stew_effects = "1:12,5:8,8:16,10:10,11:8,2:8,15:12,17:16,18:8,19:10"
+	#
+	#== MOBS ==
+	#
+	#= POOKA =
+	#Minimum cooldown duration after Pooka gives the player it is following an effect. (duration in seconds)
+	#Actual cooldown duration can be upto 20% more than the specified value.
+	pooka_aid_cooldown = 30
+	#Pooka Effects
+	#Enter them in the format effectid:duration (duration in seconds) and separate them with a single ,
+	pooka_positive_effects = "1:6,5:4,8:8,10:5,11:4"
+	pooka_negative_effects = "2:4,15:6,17:8,18:4,19:5"
+

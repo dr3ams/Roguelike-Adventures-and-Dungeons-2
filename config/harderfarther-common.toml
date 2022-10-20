@@ -1,43 +1,109 @@
 
 ["Harder Farther Control Values"]
-	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
-	#Range: 0 ~ 2
-	debugLevel = 0
-	#Limit Mob Farm XP and Drops (0 == no limit).  5 ticks (quarter second) is enough. 
-	#Range: 0 ~ 120
-	limitMobFarmsTimer = 5
-	#Modify Max Hit Points (true) 
-	makeMonstersHarderFarther = true
-	#modifierMaxDistance: Distance til Maximum ModifierValue Applied
-	#Range: 2000 ~ 100000
-	modifierMaxDistance = 40000
-	#modifierValue: Increase Mob Values by 1% to 999%
-	#Range: 1 ~ 999
-	modifierValue = 1
-	#Worldspawn Safe Distance: No Mobs Will Spawn In this Range
-	#Range: 64 ~ 160
-	safeDistance = 64
-	#minimumSafeAltitude: Mobs are 6% tougher below this altitude. 
-	#Range: 1 ~ 48
-	minimumSafeAltitude = 20
-	#maximumSafeAltitude: Mobs are 9% tougher above this altitude.
-	#Range: 76 ~ 160
-	maximumSafeAltitude = 160
-	#oddsDropExperienceBottle: Chance to drop 1 experience bottle.
-	#Range: 0 ~ 100
-	oddsDropExperienceBottle = 15
-	#Common Loot Item: 
-	itemCommon = "minecraft:emerald"
-	#Uncommon Loot Item
-	itemUncommon = "minecraft:diamond"
-	#Rare Loot Item
-	itemRare = "minecraft:netherite_scrap"
-	#Modify Max Hit Points (true) 
-	hpMaxMod = true
-	#Modify Movement Speed (true) 
-	speedMod = false
-	#Modify Max Hit Points (true)
-	atkDmgMod = false
-	#Modify Knockback Resistance (true) 
-	knockbackMod = false
+
+	["Harder Farther Control Values"."Debug Settings"]
+		#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
+		#Range: 0 ~ 2
+		debugLevel = 0
+
+	["Harder Farther Control Values"."Farm Limiter Settings"]
+		#Limit Mob Farm XP and Drops (0 == disabled).  5 ticks (quarter second) is enough. 
+		#Range: 0 ~ 600
+		limitMobFarmsTimer = 5
+
+	["Harder Farther Control Values"."HarderFarther Settings"]
+		#Only in minecraft Overworld (true) 
+		onlyOverworld = true
+		#Dimension Omit List
+		dimensionOmitList = ["minecraft:the_nether", "minecraft:the_end"]
+		#Make Monsters Harder Farther From Spawn (true) 
+		makeMonstersHarderFarther = true
+		#boostMaxDistance: Distance til Maximum Boost Values Applied
+		#Range: 1000 ~ 6000000
+		boostMaxDistance = 30000
+		#boostMinDistance: Distance til Boost Values Start.  Should be less than boostMaxDistance
+		#Range: 64 ~ 1000000
+		boostMinDistance = 1000
+		#Worldspawn Safe Distance: No Mobs Will Spawn In this Range
+		#Range: 1 ~ 1000
+		safeDistance = 8
+		#minimumSafeAltitude: Mobs are 6% tougher below this altitude. 
+		#Range: -32 ~ 64
+		minimumSafeAltitude = 32
+		#maximumSafeAltitude: Mobs are 9% tougher above this altitude.
+		#Range: 65 ~ 256
+		maximumSafeAltitude = 99
+
+	["Harder Farther Control Values"."Loot Settings"]
+		#Use enhanced harder farther loot?
+		useLootDrops = true
+		#oddsDropExperienceBottle: Chance to drop 1 experience bottle.
+		#Range: 0 ~ 100
+		oddsDropExperienceBottle = 20
+		#Loot Items List
+		lootItemsList = ["r,23,minecraft:netherite_scrap,1,1", "r,1,minecraft:nether_wart,1,2", "r,1,minecraft:music_disc_far,1,1", "u,2,minecraft:nether_wart,1,1", "u,3,minecraft:golden_carrot,1,1", "u,12,minecraft:diamond,1,1", "u,5,minecraft:emerald,1,3", "u,3,minecraft:oak_planks,1,5", "u,1,minecraft:book,1,1", "u,1,minecraft:gold_ingot,1,1", "u,2,minecraft:chicken,1,2", "u,5,minecraft:glowstone_dust,1,2", "u,1,minecraft:lead,1,1", "u,5,minecraft:stone_axe,1,2", "u,3,minecraft:stone_pickaxe,1,1", "u,1,minecraft:iron_axe,1,1", "u,1,minecraft:beetroot_seeds,1,1", "c,3,minecraft:leather_boots,1,1", "c,2,minecraft:gold_nugget,1,3", "c,2,minecraft:candle,1,2", "c,5,minecraft:baked_potato,1,2", "c,2,minecraft:fishing_rod,1,1", "c,5,minecraft:cooked_cod,1,3", "c,3,minecraft:string,1,2", "c,3,minecraft:iron_nugget,1,3", "c,3,minecraft:honey_bottle,1,2", "c,3,minecraft:stick,1,3", "c,1,minecraft:emerald,1,1", "c,1,minecraft:paper,1,2"]
+
+	["Harder Farther Control Values"."Boost Settings"]
+		#Boost Max Hit Points (Percent) 
+		#Range: 0 ~ 30000000
+		hpMaxBoost = 200
+		#Boost Movement Speed (Percent). Very sensative setting. Over 50 kinda ridiculous 
+		#Range: 0 ~ 999
+		speedBoost = 20
+		#Boost Attack Damage (percent).  Mobs base damage is about 3 points + 2 for hard mode.
+		#Range: 0 ~ 30000000
+		atkDmgBoost = 100
+		#Boost Knockback Resistance (Percent) over 100 has no additional effect.
+		#Range: 0 ~ 999
+		knockbackBoost = 95
+
+	["Harder Farther Control Values"."Harder Over Time Settings"]
+		#use Harder Over Time (false) 
+		makeHarderOverTime = false
+		#How many minutes before area hits maximum difficulty.
+		#Range: 20 ~ 28800
+		maxHarderTimeMinutes = 720
+
+	["Harder Farther Control Values"."Grim Citadel Settings"]
+		#Use Grim Citadels (true) 
+		useGrimCitadels = false
+		#Grim Citadels List
+		grimCitadelsList = ["3600,3500", "3500,-100", "3500,-3550", "0,3596", "128,-3500", "-2970,3516", "-3517,80", "-3528,-3756"]
+		#grimCitadelsCount : number of grim Citadels kept in the game (if 0 will count down til none left)
+		#Range: 0 ~ 16
+		grimCitadelsCount = 5
+		#grimCitadelsRadius: Sug.  4-5 for one player, 5-7 for multiplayer.  Higher may slow server briefly while building.
+		#Range: 4 ~ 11
+		grimCitadelsRadius = 5
+		#grimCitadelBonusDistance : Mobs get increasing bonuses when closer to grim citadel
+		#Range: 500 ~ 6000
+		grimCitadelBonusDistance = 1750
+		#grimCitadelPlayerCurseDistance : Players get penalties this far from a grim citadel
+		#Range: 255 ~ 6000
+		grimCitadelPlayerCurseDistance = 1250
+		#grimCitadelMaxBoostPercent : max Boost a grim citadel can give
+		#Range: 0 ~ 100
+		grimCitadelMaxBoostPercent = 96
+
+	["Harder Farther Control Values"."Grim Effects Settings"]
+		#grimEffectAnimals : Master Switch Animals suffer grim effects. 
+		grimEffectAnimals = true
+		#grimEffectPig : Pigs in grim area become Piglins, Zombified Piglins, or Hoglins over time. 
+		grimEffectPigs = true
+		#grimEffectVillagers : Villagers in grim area become witches. 
+		grimEffectVillagers = true
+		#grimLifeheartPulseSeconds : number of grim Citadels kept in the game (if 0 will count down til none left)
+		#Range: 60 ~ 600
+		grimLifeheartPulseSeconds = 120
+
+		["Harder Farther Control Values"."Grim Effects Settings"."Grim Fog Color Settings"]
+			#grimFogRedPercent : Grim Fog Red Component Multiplier
+			#Range: 0.0 ~ 1.0
+			grimFogRedPercent = 0.95
+			#grimFogBluePercent : Grim Fog Blue Component Multiplier
+			#Range: 0.0 ~ 1.0
+			grimFogBluePercent = 0.05
+			#grimFogGreenPercent : Grim Fog Green Component Multiplier
+			#Range: 0.0 ~ 1.0
+			grimFogGreenPercent = 0.05
 
