@@ -1375,6 +1375,23 @@
 					type: "item"
 					item: "majruszs_difficulty:bandage"
 				}
+				{
+					id: "416049D8311C4081"
+					type: "item"
+					item: {
+						id: "apotheosis:potion_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Potion: "minecraft:long_regeneration"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -3987,6 +4004,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7ED1D9EF85BDCCEE"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 5.0d
@@ -4394,6 +4416,23 @@
 					id: "3FF523B3DDA79B5C"
 					type: "ftbmoney:money"
 					ftb_money: 10L
+				}
+				{
+					id: "67CD75DDAC175311"
+					type: "item"
+					item: {
+						id: "apotheosis:potion_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Potion: "minecraft:long_regeneration"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}

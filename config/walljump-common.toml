@@ -1,0 +1,35 @@
+
+#Common configuration settings
+[common]
+	#Allows you to climb up without alternating walls
+	allowReClinging = false
+	#Automatically turn the player when wall clinging
+	autoRotation = false
+	#Elytra speed boost; set to 0.0 to disable
+	#Range: 0.0 ~ 3.0
+	elytraSpeedBoost = 0.0
+	#Enable Wall-Jump enchantments in the enchanting table
+	enableEnchantments = true
+	#Exhaustion gained per wall jump
+	#Range: 0.0 ~ 3.0
+	exhaustionWallJump = 0.8
+	#Minimum distance for fall damage; set to 3.0 to disable
+	#Range: 3.0 ~ 256.0
+	minFallDistance = 7.5
+	#Play a rush of wind as you fall to your doom
+	playFallSound = true
+	#Sprint speed boost; set to 0.0 to disable
+	#Range: 0.0 ~ 3.0
+	sprintSpeedBoost = 0.0
+	#Walk up steps even while airborne, also jump over fences
+	stepAssist = true
+	#Allows you to jump in mid-air
+	useDoubleJump = false
+	#Allows you to wall cling and wall jump
+	useWallJump = true
+	#Range: 0.0 ~ 1.0
+	wallJumpHeight = 0.55
+	#Ticks wall clinged before starting wall slide
+	#Range: > 0
+	wallSlideDelay = 15
+
