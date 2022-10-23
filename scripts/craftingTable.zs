@@ -81,6 +81,11 @@ craftingTable.addShaped("backpack_crafting_upgrade", <item:sophisticatedbackpack
     [<item:minecraft:air>, <tag:items:forge:chests>, <item:minecraft:air>]
 ]);
 
+craftingTable.addShaped("cursed_ring", <item:enigmaticlegacy:cursed_ring>,[
+    [<item:minecraft:air>, <item:twilightforest:charm_of_life_1>, <item:minecraft:experience_bottle>],
+    [<item:upgradednetherite:wither_upgraded_netherite_ingot>, <item:enigmaticlegacy:ender_ring>, <item:upgradednetherite:wither_upgraded_netherite_ingot>],
+    [<item:iceandfire:fire_dragon_blood>, <item:twilightforest:charm_of_life_1>, <item:minecraft:air>]
+]);
 
 
 //Silver Ingot conversion and Copper Ingot conversion
