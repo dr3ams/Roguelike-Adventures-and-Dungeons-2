@@ -73,7 +73,7 @@
 				}
 			}
 			x: 7.5d
-			y: 0.0d
+			y: 3.0d
 			description: [
 				"Lost Trinkets adds more than 70+ unlockable trinkets with different abilities and rarities."
 				""
@@ -2766,8 +2766,8 @@
 			]
 		}
 		{
-			x: 9.5d
-			y: 0.0d
+			x: 10.0d
+			y: 0.5d
 			dependencies: ["7FC81AF332294769"]
 			id: "5510D7BD9710D3E1"
 			tasks: [{
@@ -2794,7 +2794,7 @@
 			]
 		}
 		{
-			x: 11.5d
+			x: 12.0d
 			y: 0.5d
 			dependencies: ["7FC81AF332294769"]
 			id: "5F5F8F6B0B5A2718"
@@ -3106,8 +3106,8 @@
 			]
 		}
 		{
-			x: 8.5d
-			y: 1.0d
+			x: 7.5d
+			y: 0.0d
 			dependencies: ["5F7DCF112F9F6C1C"]
 			id: "3D96F603D819128E"
 			tasks: [
@@ -3555,8 +3555,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 0.5d
+			x: 11.0d
+			y: 1.0d
 			dependencies: ["7FC81AF332294769"]
 			id: "5CD3C0B70F668A36"
 			tasks: [{
@@ -5404,6 +5404,36 @@
 				id: "3EF5B45E046B2310"
 				type: "random"
 				table_id: 8545390299491237994L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.5d
+			description: [
+				"The Paraglider can be crafted by using some leathers and sticks. While you're holding Paraglider midair, you fall more slowly, gliding over the land."
+				""
+				"Also there's and Stamina Vessels which you can use it to expand your stamina wheel. Obtaining these will involve talking to a peculiar statue of some foreign goddess. Keep an eye on when you visit a village."
+			]
+			dependencies: ["5F7DCF112F9F6C1C"]
+			id: "628200F12D42D0E8"
+			tasks: [{
+				id: "6024102BEA72FD26"
+				type: "item"
+				item: {
+					id: "paraglider:paraglider"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7FEA0D6362F0045D"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]
