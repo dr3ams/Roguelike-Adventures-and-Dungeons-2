@@ -899,5 +899,26 @@
 				xp: 100
 			}]
 		}
+		{
+			icon: {
+				id: "kubejs:arrow_left"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -4.5d
+			y: 1.0d
+			subtitle: "Move your mouse to the left side to open quest menu!"
+			size: 1.5d
+			id: "7FF57EE6F8F6FC1C"
+			tasks: [{
+				id: "1A4B7F6D74AF92E1"
+				type: "checkmark"
+				title: "MORE QUESTS ARE WAITING!"
+			}]
+		}
 	]
 }

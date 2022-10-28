@@ -372,7 +372,7 @@
 		}
 		{
 			title: "Now entering: Master Mode!"
-			x: 26.5d
+			x: 28.5d
 			y: -4.5d
 			shape: "octagon"
 			subtitle: "New mechanics for Master Mode:"
@@ -408,9 +408,10 @@
 			size: 1.5d
 			id: "1486101A3CE0CAAA"
 			tasks: [{
-				id: "35BB96A947136BF6"
-				type: "dimension"
-				dimension: "minecraft:the_end"
+				id: "61895C1AED0E6B10"
+				type: "advancement"
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
 			}]
 			rewards: [{
 				id: "06A7EB4B149700A9"
@@ -1697,7 +1698,7 @@
 			]
 		}
 		{
-			x: 25.0d
+			x: 27.0d
 			y: -4.5d
 			dependencies: ["641181016BC6E8FA"]
 			id: "216F05F4361A6D0F"
@@ -1733,9 +1734,9 @@
 			]
 		}
 		{
-			x: 24.0d
+			x: 26.0d
 			y: -3.5d
-			dependencies: ["3D007BCE6C843D07"]
+			dependencies: ["4DFF53E47185A474"]
 			id: "641181016BC6E8FA"
 			tasks: [{
 				id: "644ED2DE7E420084"
@@ -1750,7 +1751,7 @@
 		}
 		{
 			x: 25.0d
-			y: -2.5d
+			y: -4.5d
 			dependencies: ["641181016BC6E8FA"]
 			id: "1C6B53E307B94F2B"
 			tasks: [{
@@ -1784,7 +1785,7 @@
 			]
 		}
 		{
-			x: 30.5d
+			x: 32.5d
 			y: -5.5d
 			dependencies: ["211D755718A5FF50"]
 			id: "7C7472461D312440"
@@ -1824,7 +1825,7 @@
 			]
 		}
 		{
-			x: 30.5d
+			x: 32.5d
 			y: -3.5d
 			dependencies: ["211D755718A5FF50"]
 			id: "29B78E51C4BF86F1"
@@ -1859,7 +1860,7 @@
 			]
 		}
 		{
-			x: 29.5d
+			x: 31.5d
 			y: -4.5d
 			dependencies: ["359F39A14EC630B9"]
 			id: "211D755718A5FF50"
@@ -1889,7 +1890,7 @@
 		}
 		{
 			title: "Now entering: Expert Mode!"
-			x: 24.0d
+			x: 28.5d
 			y: -1.0d
 			shape: "octagon"
 			subtitle: "New mechanics for Expert Mode:"
@@ -1924,33 +1925,40 @@
 				""
 				"- whenever you die from Bleeding or are killed by a Zombie there spawns a special Zombie with your head"
 			]
-			dependencies: ["1C7D1D2C57D866A2"]
+			dependencies: ["2DF36A4C59310AB7"]
 			size: 1.5d
 			id: "3D007BCE6C843D07"
 			tasks: [{
-				id: "6AEDA35361B2F44D"
-				type: "dimension"
-				dimension: "minecraft:the_nether"
+				id: "259EE186B9E4E3F1"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 1L
 			}]
 			rewards: [
 				{
-					id: "5F10C486898BD42B"
-					type: "item"
-					item: "majruszs_difficulty:golden_bandage"
+					id: "06092ABE1EF3BA78"
+					type: "ftbmoney:money"
+					ftb_money: 50L
 				}
 				{
-					id: "22C644694C74EFFD"
+					id: "3CCC16EA6E4A8D58"
 					type: "item"
-					item: "minecraft:gold_nugget"
-					count: 5
-					random_bonus: 100
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
 		{
-			x: 26.0d
+			x: 26.5d
 			y: -1.0d
-			dependencies: ["3D007BCE6C843D07"]
+			dependencies: ["4DFF53E47185A474"]
 			id: "2DF36A4C59310AB7"
 			tasks: [{
 				id: "69EB4E8A2CBECC28"
@@ -1980,33 +1988,9 @@
 			]
 		}
 		{
-			x: 27.5d
+			x: 30.5d
 			y: -1.0d
-			dependencies: ["2DF36A4C59310AB7"]
-			id: "190D0E2A58A0B7B8"
-			tasks: [{
-				id: "1B15DC8942224261"
-				type: "kill"
-				entity: "minecraft:wither"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "28723B434C9C1776"
-					type: "ftbmoney:money"
-					ftb_money: 50L
-				}
-				{
-					id: "0FDCB8630EAB54B4"
-					type: "item"
-					item: "aquaculture:treasure_chest"
-				}
-			]
-		}
-		{
-			x: 29.0d
-			y: -1.0d
-			dependencies: ["190D0E2A58A0B7B8"]
+			dependencies: ["3D007BCE6C843D07"]
 			id: "5A302A15FA9774B4"
 			tasks: [{
 				id: "1580B2B8188C3FA0"
@@ -2038,7 +2022,7 @@
 			]
 		}
 		{
-			x: 30.5d
+			x: 32.5d
 			y: -1.0d
 			dependencies: ["5A302A15FA9774B4"]
 			id: "30D48209ECED6B8B"
@@ -2078,7 +2062,7 @@
 		{
 			x: 24.0d
 			y: 1.0d
-			dependencies: ["3D007BCE6C843D07"]
+			dependencies: ["4DFF53E47185A474"]
 			id: "38E3B9FEC8AA6D51"
 			tasks: [{
 				id: "298525A9BE1B7322"
@@ -2727,7 +2711,7 @@
 		{
 			x: 26.0d
 			y: 1.0d
-			dependencies: ["3D007BCE6C843D07"]
+			dependencies: ["4DFF53E47185A474"]
 			id: "192679B4B812DFED"
 			tasks: [{
 				id: "47FB7EC89D3B860B"
@@ -3333,7 +3317,7 @@
 			}]
 		}
 		{
-			x: 23.0d
+			x: 27.0d
 			y: -2.5d
 			dependencies: ["641181016BC6E8FA"]
 			id: "06EBA7A32121915D"
@@ -3362,7 +3346,7 @@
 			]
 		}
 		{
-			x: 28.0d
+			x: 30.0d
 			y: -4.5d
 			shape: "gear"
 			subtitle: "Next chapter: End!"
@@ -3388,8 +3372,8 @@
 			}]
 		}
 		{
-			x: 26.5d
-			y: -3.0d
+			x: 25.0d
+			y: -5.5d
 			dependencies: ["1C6B53E307B94F2B"]
 			id: "3F35EA02A0EF5661"
 			tasks: [{
@@ -3435,18 +3419,23 @@
 			]
 		}
 		{
-			x: 26.5d
-			y: -2.0d
+			x: 24.0d
+			y: -4.5d
 			dependencies: ["1C6B53E307B94F2B"]
 			id: "6377DE05A43630F4"
 			tasks: [{
-				id: "3AB291302179DE1A"
+				id: "0A89EC67324895BF"
 				type: "item"
 				item: {
 					id: "minecraft:potion"
 					Count: 1b
 					tag: {
-						Potion: "environmental:vitality"
+						Potion: "vanillafoodpantry:long_undying"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
 					}
 				}
 			}]
@@ -5435,6 +5424,56 @@
 				type: "xp"
 				xp: 100
 			}]
+		}
+		{
+			x: 24.0d
+			y: -1.0d
+			shape: "octagon"
+			subtitle: "Enter the Nether!"
+			description: ["To get back from the Nether, you'll have to search for a Monolith. These are new, semi-rare structures that can be easily spotted from far away thanks to the beams they shoot into the sky."]
+			dependencies: ["1C7D1D2C57D866A2"]
+			size: 1.5d
+			id: "4DFF53E47185A474"
+			tasks: [{
+				id: "3F511FABA46A9D5C"
+				type: "advancement"
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0F03878AFDFB2A1F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6B611EBEBFAB9C6E"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:golden_bandage"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "199F1524A6C50813"
+					type: "item"
+					item: {
+						id: "minecraft:gold_nugget"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					random_bonus: 101
+				}
+			]
 		}
 	]
 }

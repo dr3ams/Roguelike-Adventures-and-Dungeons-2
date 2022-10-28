@@ -44,6 +44,7 @@ event.create('mark_beastmaster').displayName('III. Mark of the Beastmaster').glo
 event.create('arrow_down').displayName('Green Arrow Down Icon')
 event.create('arrow_down_yellow').displayName('Yellow Arrow Down Icon')
 event.create('arrow_up').displayName('Arrow Up Icon')
+event.create('arrow_left').displayName('Arrow Left Icon')
 
 event.create('copper_coin').displayName('Copper Coin').tooltip('Acquired through quests')
 event.create('iron_coin').displayName('Iron Coin').tooltip('Acquired through quests')
