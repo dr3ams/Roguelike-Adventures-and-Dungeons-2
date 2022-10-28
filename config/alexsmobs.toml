@@ -70,10 +70,10 @@
 	leafcutterAntRepopulateFeedings = 25
 	#Max number of ant entities allowed inside a leafcutter anthill.
 	#Range: 2 ~ 100000
-	leafcutterAntColonySize = 20
+	leafcutterAntColonySize = 10
 	#Percent chance for leafcutter ants to break leaves blocks when harvesting. Set to zero so that they can not break any blocks.
 	#Range: 0.0 ~ 1.0
-	leafcutterAntBreakLeavesChance = 0.2
+	leafcutterAntBreakLeavesChance = 0.0
 	#Relative volume of cachalot whales compared to other animals. Note that irl they are the loudest animal. Turn this down if you find their clicks annoying.
 	#Range: 0.0 ~ 10.0
 	cachalotVolume = 3.0
@@ -423,5 +423,5 @@
 			beachedCachalotWhaleSpawnDelay = 24000
 			#Percent chance for leafcutter anthills to spawn as world gen in each chunk. Set to zero to disable spawning.
 			#Range: 0.0 ~ 1.0
-			leafcutterAnthillSpawnChance = 0.004999999888241291
+			leafcutterAnthillSpawnChance = 0
 
