@@ -34,11 +34,11 @@
 	#These options define restrictions when managing waystones.
 	[server.restrictions]
 		#If enabled, only creative players can place, edit or break waystones. This does NOT disable the crafting recipe.
-		restrictToCreative = false
+		restrictToCreative = true
 		#If enabled, waystones generated in worldgen are unbreakable.
-		generatedWaystonesUnbreakable = false
+		generatedWaystonesUnbreakable = true
 		#If enabled, only the owner of a waystone (the one who placed it) can rename it.
-		restrictRenameToOwner = false
+		restrictRenameToOwner = true
 
 	#Note: Base XP cost is based on the distance travelled.
 	[server.baseXpCost]

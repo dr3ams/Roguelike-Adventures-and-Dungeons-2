@@ -47,6 +47,18 @@
 		{ item: "aquaculture:box" }
 		{ item: "kubejs:diamond_nugget" }
 		{ item: "kubejs:emerald_nugget" }
+		{
+			item: {
+				id: "minecraft:leather"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 5
+		}
 	]
 	loot_crate: {
 		drops: {

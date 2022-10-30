@@ -191,7 +191,7 @@
 	maxLevel = 200
 	#Every how many levels should a level up broadcast be sent to all players? (10 = every 10 levels)
 	#Range: 1 ~ 1000000
-	levelsPerMilestone = 10
+	levelsPerMilestone = 100
 	#Should fireworks appear on Milestone level up, to other players?
 	milestoneLevelUpFirework = true
 	#What is the x in: x * (exponentialBase^(exponentialRate * level))
@@ -418,10 +418,10 @@
 	hpRegenPerMinuteBase = 1.0
 	#Addition per level to hpRegenPerMinuteBase (if set to 0.01, every 100 Endurance levels, you regen 1 more half heart per 60 seconds, 0 means no extra regeneration)
 	#Range: 0.0 ~ 1000.0
-	hpRegenPerMinuteBoostPerLevel = 0.01
+	hpRegenPerMinuteBoostPerLevel = 0.0
 	#Multiplier for xp gained in endurance from Regeneration
 	#Range: 0.0 ~ 1000000.0
-	hpRegenXpMultiplier = 15.23
+	hpRegenXpMultiplier = 0.0
 
 [Combat]
 	#How much percentage bonus damage do you get per Combat level in Melee?

@@ -20,7 +20,7 @@
 	pvp_stolen_xp = 30
 	#Knowledge of Death loss on death [0..500|default:0]
 	#Range: 0 ~ 500
-	knowledge_loss = 0
+	knowledge_loss = 1
 	#Only abandoned graves can have losses of items (based on the decay_time) [false/true|default:true]
 	loss_on_death_only_for_abandoned_grave = true
 	#Only stackable items can be lost on death [false/true|default:true]
@@ -87,13 +87,13 @@
 	allow_beyond_the_grave_damage = true
 	#Cooldown in minutes to use the command tbrequestteleport [-1..1440|default:-1]
 	#Range: -1 ~ 1440
-	cooldown_request_teleport = -1
+	cooldown_request_teleport = 10
 	#Cooldown in minutes to use the command tbteleportdeath [-1..1440|default:-1]
 	#Range: -1 ~ 1440
-	cooldown_teleport_death = -1
+	cooldown_teleport_death = 10
 	#Cooldown in minutes to use the command tbbind [-1..1440|default:-1]
 	#Range: -1 ~ 1440
-	cooldown_teleport_bind = -1
+	cooldown_teleport_bind = 10
 
 #Allows to define the conditions for a village siege to begin
 [village_siege]

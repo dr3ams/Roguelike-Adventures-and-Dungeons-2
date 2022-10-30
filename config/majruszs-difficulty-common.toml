@@ -36,7 +36,7 @@
 		regeneration_amplifier = 1
 		#Duration in seconds of Bleeding Immunity effect.
 		#Range: 1.0 ~ 600.0
-		immunity_duration = 90.0
+		immunity_duration = 20.0
 
 	#Configuration for treasure bags.
 	[Features.TreasureBag]
@@ -65,13 +65,13 @@
 	[Features.Bleeding]
 		#Damage dealt by bleeding every tick.
 		#Range: 0.0 ~ 20.0
-		damage = 1.0
+		damage = 1.5
 		#Cooldown between attacking entity.
 		#Range: 0.0 ~ 20.0
 		cooldown = 4.0
 		#Bleeding chance reduction per armor piece.
 		#Range: 0.0 ~ 0.25
-		armor_reduction = 0.2
+		armor_reduction = 0.1
 		#List of entities that are immune to Bleeding effect. (only human-like mobs and animals)
 		black_list = ["minecraft:skeleton_horse"]
 
@@ -82,10 +82,10 @@
 			normal = 0
 			#Expert Mode
 			#Range: 0 ~ 10
-			expert = 1
+			expert = 1.5
 			#Master Mode
 			#Range: 0 ~ 10
-			master = 1.5
+			master = 2
 
 	#Spider inflicts poison.
 	[Features.SpiderPoison]
@@ -142,10 +142,10 @@
 		is_enabled = true
 		#Chance of this feature to happen. 
 		#Range: 0.0 ~ 1.0
-		chance = 0.8
+		chance = 1.0
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
-		duration = 24.0
+		duration = 12.0
 
 	#All sharp items inflict bleeding. (tools, weapons, shears etc.)
 	[Features.SharpItemBleeding]
@@ -156,7 +156,7 @@
 		chance = 0.2
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
-		duration = 24.0
+		duration = 10.0
 
 	#Arrow inflicts bleeding.
 	[Features.ArrowBleeding]
@@ -178,7 +178,7 @@
 		chance = 0.5
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
-		duration = 30.0
+		duration = 25.0
 
 	#Animals, zombies and spiders inflict bleeding.
 	[Features.BiteBleeding]
@@ -189,7 +189,7 @@
 		chance = 0.2
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
-		duration = 24.0
+		duration = 15.0
 
 	#Enderman attack teleports the player somewhere nearby.
 	[Features.EndermanTeleport]
