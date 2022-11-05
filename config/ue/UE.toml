@@ -363,7 +363,7 @@
 			min_level = 1
 			#Maximum Enchantment Level
 			#Range: > 0
-			max_level = 3
+			max_level = 1
 			#Rarity of the Enchantment
 			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
 			rarity = "VERY_RARE"
@@ -1299,15 +1299,15 @@
 
 		[general.base.ender_marksmen]
 			#If the Enchantment is Obtainable
-			enabled = true
+			enabled = false
 			#If the Enchantment has any effect
-			activated = true
+			activated = false
 			#Minimum Enchantment Level
 			#Range: > 0
 			min_level = 1
 			#Maximum Enchantment Level
 			#Range: > 0
-			max_level = 5
+			max_level = 1
 			#Rarity of the Enchantment
 			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
 			rarity = "VERY_RARE"

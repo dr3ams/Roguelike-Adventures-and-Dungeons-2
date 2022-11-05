@@ -87,6 +87,7 @@ craftingTable.addShaped("cursed_ring", <item:enigmaticlegacy:cursed_ring>,[
     [<item:iceandfire:fire_dragon_blood>, <item:twilightforest:charm_of_life_1>, <item:minecraft:air>]
 ]);
 
+craftingTable.removeByName("tombstone:enchanted_grave_key");
 
 //Silver Ingot conversion and Copper Ingot conversion
 for allItems in game.items {
