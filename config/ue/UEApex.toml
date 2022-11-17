@@ -165,3 +165,77 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			ticks = 1.0
 
+		[general.apex.pickaxe404]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 100
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "VERY_RARE"
+			#If the Enchantment is a Treasure
+			treasure = false
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = false
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 0
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 0
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 0
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+
+		[general.apex.gaias_fragment]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 100
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "VERY_RARE"
+			#If the Enchantment is a Treasure
+			treasure = false
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = false
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 0
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 0
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 0
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+

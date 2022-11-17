@@ -50,6 +50,15 @@
 	"Cycle Time" = 40
 	#override that decides which items are used to decide to show in the tooltip display. If Empty all items are used
 	overrideIcons = []
+	#Decide how agressive the icon filter is
+	#Limited => tries to limit the amount of icons visible drastically
+	#Normal => is a reduced amount but everything important is still shown
+	#Everything => is for the crazy people out there and shows everything
+	#Allowed Values: LIMITED, NORMAL, EVERYTHING
+	"Enchantment Icon Mode" = "NORMAL"
+	#Icon Limit defines how many icons of each extra category are shown at once
+	#Range: 0 ~ 25
+	"Icon Limit" = 4
 
 #Useful tool can be found here https://hugabor.github.io/color-picker/ for help with colors. Name uses RGB hex, Tooltip uses RGBA hex
 [Coloring]

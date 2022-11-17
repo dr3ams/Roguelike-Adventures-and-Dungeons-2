@@ -1257,6 +1257,8 @@
 			bonus_per_level = 1.0
 			#Range: > 0
 			transcended_mercy_hits = 1
+			#changes damage formual to exponential instead of logarithmic
+			exponential_scaling = false
 
 		[general.base.warriors_grace]
 			#If the Enchantment is Obtainable
@@ -1555,4 +1557,47 @@
 			healing_level = 0.2
 			#Range: > 0
 			delay = 240
+
+		[general.base.combo_star]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 2
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "VERY_RARE"
+			#If the Enchantment is a Treasure
+			treasure = false
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = false
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 20
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 10
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 25
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 600
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			damage_loss = 0.95
+			#Range: 0.0 ~ 1.7976931348623157E308
+			crit_bonus = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			counter_multiplier = 1.0
 

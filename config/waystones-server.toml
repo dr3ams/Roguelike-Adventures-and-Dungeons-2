@@ -29,12 +29,12 @@
 		warpStoneUseTime = 32
 		#The multiplier applied to the base xp cost when teleporting using a Warp Stone item (not the Waystone block, John)
 		#Range: 0.0 ~ Infinity
-		warpStoneXpCostMultiplier = 0.0
+		warpStoneXpCostMultiplier = 2.0
 
 	#These options define restrictions when managing waystones.
 	[server.restrictions]
 		#If enabled, only creative players can place, edit or break waystones. This does NOT disable the crafting recipe.
-		restrictToCreative = true
+		restrictToCreative = false
 		#If enabled, waystones generated in worldgen are unbreakable.
 		generatedWaystonesUnbreakable = true
 		#If enabled, only the owner of a waystone (the one who placed it) can rename it.
@@ -44,13 +44,13 @@
 	[server.baseXpCost]
 		#The minimum base xp cost
 		#Range: 0.0 ~ Infinity
-		minimumXpCost = 0.0
+		minimumXpCost = 2.0
 		#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all distance-based XP costs
 		#Range: 0.0 ~ Infinity
 		maximumXpCost = 0.0
 		#The amount of blocks per xp level requirement. If set to 500, the base xp cost for travelling 1000 blocks will be 2 levels.
 		#Range: > 1
-		blocksPerXPLevel = 1000
+		blocksPerXPLevel = 1500
 		#Set to true if experience cost should be inverted, meaning the shorter the distance, the more expensive. Can be used to encourage other methods for short-distance travel.
 		inverseXpCost = false
 
@@ -58,10 +58,10 @@
 	[server.dimensionalWarp]
 		#The base xp level cost when travelling between dimensions. Ignores block distance.
 		#Range: > 0
-		dimensionalWarpXpCost = 3
+		dimensionalWarpXpCost = 5
 		#Set to 'ALLOW' to allow dimensional warp in general. Set to 'GLOBAL_ONLY' to restrict dimensional warp to global waystones. Set to 'DENY' to disallow all dimensional warps.
 		#Allowed Values: ALLOW, GLOBAL_ONLY, DENY
-		dimensionalWarp = "ALLOW"
+		dimensionalWarp = "GLOBAL_ONLY"
 
 	#These options apply to teleporting from one waystone to another by right-clicking it.
 	[server.waystoneToWaystone]

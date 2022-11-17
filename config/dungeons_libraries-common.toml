@@ -13,3 +13,19 @@
 	#Enables keeping of souls upon death, disabled by default. [true / false]
 	enableKeepSoulsOnDeath = false
 
+#Artifact Configuration
+[artifact_configuration]
+	#Set the durability for artifacts. [0-1024, default: 64
+	#Range: 0 ~ 1024
+	artifactDurability = 64
+
+#Elite Mob Configuration
+[elite_mob_configuration]
+	#Enables elite mobs, enabled by default. [true / false]
+	enableEliteMobs = false
+	#Base chance of an elite mob spawning. [0.0 - 1.0] 
+	#Calculation: chance * difficulty.getSpecialMultiplier() 
+	#Base chance for vanilla armor spawning is 0.15. Default is 0.15
+	#Range: 0.0 ~ 1.0
+	eliteMobsBaseChance = 0.0
+

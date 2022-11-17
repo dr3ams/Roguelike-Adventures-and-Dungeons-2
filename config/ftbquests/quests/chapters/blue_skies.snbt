@@ -283,15 +283,16 @@
 			x: 1.5d
 			y: -2.5d
 			shape: "octagon"
-			subtitle: "Everbright"
+			subtitle: "Find an Everbright portal and enter it"
 			description: ["The Everbright is a realm of eternal day and frigid cold. Home to large beasts and ethereal mobs, you’ll need to keep an eye on your back as you traverse through this world. Be sure to watch out for snow storms that bring thick fog and more enemies than usual. As you explore, you’ll encounter the Summoner’s Blinding Dungeon and the new Nature Dungeon, home of the Starlit Crusher."]
 			dependencies: ["2B1333F88EBD6BA9"]
 			size: 1.5d
 			id: "72F9931405BEFE11"
 			tasks: [{
-				id: "6B833149C862D1C5"
-				type: "dimension"
-				dimension: "blue_skies:everbright"
+				id: "5BDFF2D507551BCB"
+				type: "advancement"
+				advancement: "blue_skies:everbright/enter"
+				criterion: ""
 			}]
 			rewards: [
 				{
@@ -311,15 +312,16 @@
 			x: 1.5d
 			y: 3.5d
 			shape: "octagon"
-			subtitle: "Everdawn"
+			subtitle: "Find an Everdawn portal and enter it"
 			description: ["The Everdawn has its sun forever rising. With this being a much more humid and warm world, insects and reptiles flourish. Before entering, it’s worth preparing for poison and fire as many parts of this world may inflict those on you. Venture across this diverse landscape to uncover the Alchemist’s Blinding Dungeon and then the new Poison Dungeon, lair of the Arachnarch."]
 			dependencies: ["2B1333F88EBD6BA9"]
 			size: 1.5d
 			id: "26A94FF0B70C2076"
 			tasks: [{
-				id: "73036471AB5E4466"
-				type: "dimension"
-				dimension: "blue_skies:everdawn"
+				id: "6940934934ACFA1C"
+				type: "advancement"
+				advancement: "blue_skies:everdawn/enter"
+				criterion: ""
 			}]
 			rewards: [
 				{

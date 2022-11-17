@@ -244,10 +244,10 @@
 	#Makes all Creepers take less damage from other Creepers.
 	[Features.CreeperExplosionReduction]
 		#Is this feature enabled?
-		is_enabled = false
+		is_enabled = true
 		#Damage multiplier when Creepers attack Creeper.
 		#Range: 0.0 ~ 1.0
-		damage_multiplier = 0.1
+		damage_multiplier = 0.2
 
 	#Makes all Creepers ignite every nearby Creeper when exploding.
 	[Features.CreeperIgnite]

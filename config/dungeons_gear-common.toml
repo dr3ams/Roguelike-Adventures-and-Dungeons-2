@@ -4,9 +4,6 @@
 	#Set the durability for melee weapons. [0-1024, default: 250
 	#Range: 0 ~ 1024
 	meleeWeaponDurability = 250
-	#Set the durability for artifacts. [0-1024, default: 64
-	#Range: 0 ~ 1024
-	artifactDurability = 64
 
 #General Mod Configuration
 [general_mod_configuration]
@@ -77,6 +74,9 @@
 	#Enables the experimental features.
 	#If you like living on the edge with broken items, enable this feature. [true / false]
 	enableExperimental = false
+	#Enable the addition of Dungeons Gear items to the Minecraft Spawn Bonus chest. 
+	#Theoretically, this can be controlled through the loot tables, this option is added for additional control. [true / false]
+	enableDungeonsGearLootOnBonusChest = true
 
 #Compatibility Configuration
 [compatibility_configuration]
@@ -98,18 +98,55 @@
 	#To do so, enter their registry names.
 	effectTargetBlacklist = ["minecraft:chicken", "minecraft:cow", "minecraft:pig", "minecraft:sheep", "minecraft:bee", "minecraft:wolf", "minecraft:fox", "minecraft:villager", "minecraft:horse", "minecraft:donkey", "minecraft:mooshroom", "minecraft:parrot", "minecraft:ocelot", "minecraft:rabbit", "minecraft:squid", "minecraft:strider", "minecraft:turtle", "minecraft:salmon", "minecraft:cod", "minecraft:pufferfish", "minecraft:tropical_fish", "minecraft:dolphin", "minecraft:panda", "minecraft:polar_bear", "minecraft:bat", "minecraft:trader_llama"]
 
-#Common Loot Table Configuration
-[common_loot_table_configuration]
-	#Add gear from this mod to loot tables considered common. 
-	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-	commonLootTables = ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/shipwreck", "minecraft:chests/desert_pyramid"]
-	#Use this list to prevent specific loot tables from getting common loot. 
-	#To do so, enter the full path of the specific loot table.
-	commonLootTablesBlacklist = []
+#Effect Specific Configuration
+[effect_specific_configuration]
+	#The damage caused by Party Starter. [0-10000, default: 4]
+	#Range: 0 ~ 10000
+	partyStarterDamage = 4
+
+#Artifact Specific Configuration
+[artifact_specific_configuration]
+	#Entities that can not be converted by Love Medallion.
+	loveMedallionBlacklist = ["minecraft:ender_dragon", "minecraft:elder_guardian", "minecraft:wither"]
+
+#Rarity Loot Table Configuration
+[rarity_loot_table_configuration]
+	#This section determines the quality of gear found in loot tables.
+	#The whitelist allows gear in, the blacklist bans it from getting gear. Blacklist trumps whitelist.
+	#Enter the path of the specific loot table, or the path of the folder containing the loot tables.
+	#You can write an incomplete path, and the mod will add to loot tables containing that incomplete path. 
+	#Make sure to always include a complete namespace (like minecraft) and at least a partial path.
+	commonLootTables = ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/ruined_portal", "minecraft:chests/shipwreck", "minecraft:chests/village/village_armorer", "minecraft:chests/village/village_tannery", "minecraft:chests/village/village_temple", "minecraft:chests/village/village_weaponsmith", "repurposed_structures:chests/mineshaft/birch", "repurposed_structures:chests/mineshaft/crimson", "repurposed_structures:chests/mineshaft/desert", "repurposed_structures:chests/mineshaft/end", "repurposed_structures:chests/mineshaft/icy", "repurposed_structures:chests/mineshaft/jungle", "repurposed_structures:chests/mineshaft/nether", "repurposed_structures:chests/mineshaft/ocean", "repurposed_structures:chests/mineshaft/savanna", "repurposed_structures:chests/mineshaft/stone", "repurposed_structures:chests/mineshaft/dark_forest", "repurposed_structures:chests/mineshaft/swamp", "repurposed_structures:chests/mineshaft/taiga", "repurposed_structures:chests/mineshaft/warped", "repurposed_structures:chests/cities/nether", "repurposed_structures:chests/igloos/grassy_chest", "repurposed_structures:chests/igloos/stone_chest", "repurposed_structures:chests/ruin/nether", "repurposed_structures:chests/ruin/land_hot/large", "repurposed_structures:chests/ruin/land_hot/small", "repurposed_structures:chests/ruin/land_warm/large", "repurposed_structures:chests/ruin/land_warm/small", "repurposed_structures:chests/ruined_portal/large_portal_chest", "repurposed_structures:chests/ruined_portal/small_portal_chest", "repurposed_structures:chests/village/village_crimson_tanner", "repurposed_structures:chests/village/village_crimson_weaponsmith", "repurposed_structures:chests/village/village_warped_tanner", "repurposed_structures:chests/village/village_warped_weaponsmith", "betterdungeons:small_dungeon/chests/loot_piles", "dungeoncrawl:chests/stage_1", "dungeoncrawl:chests/stage_2", "iceandfire:chest/lightning_dragon_roost", "iceandfire:chest/fire_dragon_female_cave", "iceandfire:chest/ice_dragon_male_cave", "iceandfire:chest/ice_dragon_roost", "iceandfire:chest/lightning_dragon_female_cave", "iceandfire:chest/fire_dragon_male_cave", "iceandfire:chest/myrmex_loot_chest", "iceandfire:chest/ice_dragon_female_cave", "iceandfire:chest/fire_dragon_roost", "iceandfire:chest/lightning_dragon_male_cave", "iceandfire:chest/cyclops_cave", "iceandfire:chest/graveyard", "iceandfire:chest/hydra_cave", "totw_reworked:ocean_tower_chest", "totw_reworked:tower_chest", "towers_of_the_wild:chests/tower/ocean/ocean_tower_chest", "towers_of_the_wild:chests/tower/regular/tower_chest", "valhelsia_structures:chests/castle", "valhelsia_structures:chests/castle_ruin", "valhelsia_structures:chests/player_house", "valhelsia_structures:chests/treasure", "valhelsia_structures:chests/witch_hut", "dungeons_plus:chests/bigger_dungeon/husk", "dungeons_plus:chests/bigger_dungeon/stray", "dungeons_plus:chests/leviathan/common", "dungeons_plus:chests/snowy_temple/common", "dungeons_plus:chests/vanilla_dungeon", "dungeons_plus:chests/warped_garden/common"]
+	commonLootTablesBlacklist = ["dungeonsplus:_map"]
+	fancyLootTables = ["minecraft:chests/desert_pyramid", "minecraft:chests/igloo_chest", "minecraft:chests/jungle_temple", "minecraft:chests/nether_bridge", "minecraft:chests/pillager_outpost", "minecraft:chests/simple_dungeon", "minecraft:chests/underwater_ruin", "repurposed_structures:chests/dungeon/badlands", "repurposed_structures:chests/dungeon/dark_forest", "repurposed_structures:chests/dungeon/desert", "repurposed_structures:chests/dungeon/end", "repurposed_structures:chests/dungeon/jungle", "repurposed_structures:chests/dungeon/mushroom", "repurposed_structures:chests/dungeon/nether", "repurposed_structures:chests/dungeon/ocean", "repurposed_structures:chests/dungeon/snow", "repurposed_structures:chests/dungeon/swamp", "repurposed_structures:chests/fortress/jungle", "repurposed_structures:chests/fortress/jungle", "repurposed_structures:chests/fortress/jungle", "repurposed_structures:chests/outpost/badlands_chest", "repurposed_structures:chests/outpost/birch_chest", "repurposed_structures:chests/outpost/crimson_chest", "repurposed_structures:chests/outpost/desert_chest", "repurposed_structures:chests/outpost/giant_tree_taiga_chest", "repurposed_structures:chests/outpost/icy_chest", "repurposed_structures:chests/outpost/jungle_chest", "repurposed_structures:chests/outpost/nether_brick_chest", "repurposed_structures:chests/outpost/oak_chest", "repurposed_structures:chests/outpost/snowy_chest", "repurposed_structures:chests/outpost/taiga_chest", "repurposed_structures:chests/outpost/warped_chest", "repurposed_structures:chests/outpost/end_shulker_box", "repurposed_structures:chests/pyramid/badlands_chest", "repurposed_structures:chests/pyramid/nether_chest", "repurposed_structures:chests/pyramid/snowy_chest", "repurposed_structures:chests/pyramid/icy_chest", "repurposed_structures:chests/pyramid/jungle_chest", "repurposed_structures:chests/pyramid/mushroom_chest", "repurposed_structures:chests/pyramid/ocean_chest", "repurposed_structures:chests/pyramid/giant_tree_taiga_chest", "repurposed_structures:chests/pyramid/flower_forest_chest", "repurposed_structures:chests/pyramid/end_chest", "repurposed_structures:chests/shipwreck/crimson/", "repurposed_structures:chests/shipwreck/crimson/", "repurposed_structures:chests/shipwreck/crimson/", "repurposed_structures:chests/shipwreck/end/map_chest", "repurposed_structures:chests/shipwreck/end/supply_chest", "repurposed_structures:chests/shipwreck/end/treasure_chest", "repurposed_structures:chests/shipwreck/warped/map_chest", "repurposed_structures:chests/shipwreck/warped/supply_chest", "repurposed_structures:chests/shipwreck/warped/treasure_chest", "repurposed_structures:chests/shipwreck/nether_bricks/treasure_chest", "repurposed_structures:chests/temple/nether_basalt_chest", "repurposed_structures:chests/temple/nether_crimson_chest", "repurposed_structures:chests/temple/nether_soul_chest", "repurposed_structures:chests/temple/nether_warped_chest", "repurposed_structures:chests/temple/nether_warped_trapped_chest", "repurposed_structures:chests/temple/nether_wasteland_chest", "betterstrongholds:chests/common", "betterstrongholds:chests/end/common", "betterstrongholds:chests/nether/common", "betterdungeons:skeleton_dungeon/chests/common", "betterdungeons:skeleton_dungeon/chests/middle", "betterdungeons:skeleton_dungeon/chests/common", "betterdungeons:spider_dungeon/chests/egg_room", "betterdungeons:zombie_dungeon/chests/common", "betterdungeons:zombie_dungeon/chests/special", "betterdungeons:zombie_dungeon/chests/tombstone", "dungeoncrawl:chests/stage_3", "dungeoncrawl:chests/stage_4", "dungeoncrawl:chests/forge", "valhelsia_structures:chests/desert_house", "valhelsia_structures:chests/forge", "valhelsia_structures:chests/spawner_dungeon", "dungeons_plus:chests/soul_prison/common", "dungeons_plus:chests/tower/vex"]
+	fancyLootTablesBlacklist = ["minecraft:chests/_dispenser", "repurposed_structures:_dispenser", "repurposed_structures:_dispenser", "repurposed_structures:_dispenser", "repurposed_structures:_dispenser", "repurposed_structures:_dispenser", "dungeonsplus:_map"]
+	obsidianLootTables = ["minecraft:chests/bastion", "minecraft:chests/buried_treasure", "minecraft:chests/end_city_treasure", "minecraft:chests/stronghold", "minecraft:chests/woodland_mansion", "repurposed_structures:chests/bastions", "repurposed_structures:chests/mansion/birch", "repurposed_structures:chests/mansion/desert", "repurposed_structures:chests/mansion/jungle", "repurposed_structures:chests/mansion/oak", "repurposed_structures:chests/mansion/savanna", "repurposed_structures:chests/mansion/snowy", "repurposed_structures:chests/mansion/taiga", "repurposed_structures:shulker_boxes/stronghold/end_storage_room", "repurposed_structures:shulker_boxes/stronghold/end_hallway", "repurposed_structures:shulker_boxes/stronghold/end_library", "repurposed_structures:chests/stronghold/nether_storage_room", "repurposed_structures:chests/stronghold/nether_hallway", "repurposed_structures:chests/stronghold/nether_library", "betterstrongholds:chests/armoury", "betterstrongholds:chests/crypt", "betterstrongholds:chests/mess", "betterstrongholds:chests/prison_lg", "betterstrongholds:chests/trap", "betterstrongholds:chests/treasure", "betterstrongholds:chests/end/armoury", "betterstrongholds:chests/end/crypt", "betterstrongholds:chests/end/mess", "betterstrongholds:chests/end/prison_lg", "betterstrongholds:chests/end/trap", "betterstrongholds:chests/end/treasure", "betterstrongholds:chests/nether/mess", "betterstrongholds:chests/nether/armoury", "betterstrongholds:chests/nether/crypt", "betterstrongholds:chests/nether/prison_lg", "betterstrongholds:chests/nether/trap", "betterstrongholds:chests/nether/treasure", "dungeoncrawl:chests/stage_5", "dungeoncrawl:chests/treasure", "iceandfire:chest/mausoleum_chest"]
+	obsidianLootTableBlacklist = ["dungeonsplus:_map"]
+
+#Type Loot Table Configuration
+[type_loot_table_configuration]
+	#This section determines the type of gear found in loot tables, generally based on biomes and dimensions.
+	#The whitelist allows gear in, the blacklist bans it from getting gear. Blacklist trumps whitelist.
+	#Enter the path of the specific loot table, or the path of the folder containing the loot tables.
+	#You can write an incomplete path, and the mod will add to loot tables containing that incomplete path. 
+	#Make sure to always include a complete namespace (like minecraft) and at least a partial path.
+	basicLootTables = ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/pillager_outpost", "minecraft:chests/simple_dungeon", "minecraft:chests/stronghold", "minecraft:chests/woodland_mansion", "minecraft:chests/village/village_armorer", "minecraft:chests/village/village_tannery", "minecraft:chests/village/village_temple", "minecraft:chests/village/village_weaponsmith", "repurposed_structures:chests/mineshaft/birch", "repurposed_structures:chests/mineshaft/crimson", "repurposed_structures:chests/mineshaft/savanna", "repurposed_structures:chests/mineshaft/stone", "repurposed_structures:chests/mineshaft/dark_forest", "repurposed_structures:chests/mineshaft/swamp", "repurposed_structures:chests/mineshaft/taiga", "repurposed_structures:chests/bastions", "repurposed_structures:chests/dungeon/badlands", "repurposed_structures:chests/dungeon/dark_forest", "repurposed_structures:chests/dungeon/mushroom", "repurposed_structures:chests/dungeon/swamp", "repurposed_structures:chests/igloos/grassy_chest", "repurposed_structures:chests/igloos/stone_chest", "repurposed_structures:chests/mansion/birch", "repurposed_structures:chests/mansion/oak", "repurposed_structures:chests/mansion/savanna", "repurposed_structures:chests/mansion/taiga", "repurposed_structures:chests/outpost/birch_chest", "repurposed_structures:chests/outpost/oak_chest", "repurposed_structures:chests/pyramid/mushroom_chest", "repurposed_structures:chests/pyramid/flower_forest_chest", "repurposed_structures:chests/ruin/land_hot/large", "repurposed_structures:chests/ruin/land_hot/small", "repurposed_structures:chests/ruin/land_warm/large", "repurposed_structures:chests/ruin/land_warm/small", "betterstrongholds:chests/armoury", "betterstrongholds:chests/common", "betterstrongholds:chests/crypt", "betterstrongholds:chests/mess", "betterstrongholds:chests/prison_lg", "betterstrongholds:chests/trap", "betterstrongholds:chests/treasure", "betterdungeons:skeleton_dungeon/chests/common", "betterdungeons:skeleton_dungeon/chests/middle", "betterdungeons:small_dungeon/chests/loot_piles", "betterdungeons:spider_dungeon/chests/egg_room", "betterdungeons:zombie_dungeon/chests/common", "betterdungeons:zombie_dungeon/chests/special", "betterdungeons:zombie_dungeon/chests/tombstone", "dungeoncrawl:chests/stage_1", "dungeoncrawl:chests/stage_2", "dungeoncrawl:chests/stage_3", "dungeoncrawl:chests/stage_4", "dungeoncrawl:chests/stage_5", "dungeoncrawl:chests/treasure", "dungeoncrawl:chests/forge", "iceandfire:chest/lightning_dragon_roost", "iceandfire:chest/fire_dragon_female_cave", "iceandfire:chest/ice_dragon_male_cave", "iceandfire:chest/ice_dragon_roost", "iceandfire:chest/lightning_dragon_female_cave", "iceandfire:chest/fire_dragon_male_cave", "iceandfire:chest/myrmex_loot_chest", "iceandfire:chest/ice_dragon_female_cave", "iceandfire:chest/fire_dragon_roost", "iceandfire:chest/lightning_dragon_male_cave", "iceandfire:chest/mausoleum_chest", "iceandfire:chest/cyclops_cave", "iceandfire:chest/graveyard", "iceandfire:chest/hydra_cave", "totw_reworked:ocean_tower_chest", "totw_reworked:tower_chest", "towers_of_the_wild:chests/tower/ocean/ocean_tower_chest", "towers_of_the_wild:chests/tower/regular/tower_chest", "valhelsia_structures:chests/castle", "valhelsia_structures:chests/castle_ruin", "valhelsia_structures:chests/forge", "valhelsia_structures:chests/player_house", "valhelsia_structures:chests/spawner_dungeon", "valhelsia_structures:chests/treasure", "valhelsia_structures:chests/witch_hut", "dungeons_plus:chests/soul_prison/common", "dungeons_plus:chests/tower/vex", "dungeons_plus:chests/vanilla_dungeon"]
+	basicLootTablesBlacklist = []
+	desertLootTables = ["minecraft:chests/desert_pyramid", "repurposed_structures:chests/mineshaft/desert", "repurposed_structures:chests/dungeon/desert", "repurposed_structures:chests/mansion/desert", "repurposed_structures:chests/outpost/badlands_chest", "repurposed_structures:chests/outpost/desert_chest", "repurposed_structures:chests/pyramid/badlands_chest", "valhelsia_structures:chests/desert_house", "dungeons_plus:chests/bigger_dungeon/husk", "dungeons_plus:chests/leviathan/common"]
+	desertLootTablesBlacklist = []
+	oceanLootTables = ["minecraft:chests/buried_treasure", "minecraft:chests/shipwreck", "minecraft:chests/underwater_ruin", "repurposed_structures:chests/mineshaft/ocean", "repurposed_structures:chests/dungeon/ocean", "repurposed_structures:chests/pyramid/ocean_chest"]
+	oceanLootTablesBlacklist = ["minecraft:chests/buried_treasure"]
+	coldLootTables = ["minecraft:chests/igloo_chest", "repurposed_structures:chests/mineshaft/icy", "repurposed_structures:chests/dungeon/snow", "repurposed_structures:chests/mansion/snowy", "repurposed_structures:chests/outpost/giant_tree_taiga_chest", "repurposed_structures:chests/outpost/icy_chest", "repurposed_structures:chests/outpost/snowy_chest", "repurposed_structures:chests/outpost/taiga_chest", "repurposed_structures:chests/pyramid/snowy_chest", "repurposed_structures:chests/pyramid/icy_chest", "repurposed_structures:chests/pyramid/giant_tree_taiga_chest", "dungeons_plus:chests/bigger_dungeon/stray", "dungeons_plus:chests/snowy_temple/common"]
+	coldLootTablesBlacklist = []
+	jungleLootTables = ["minecraft:chests/jungle_temple", "repurposed_structures:chests/mineshaft/jungle", "repurposed_structures:chests/dungeon/jungle", "repurposed_structures:chests/fortress/jungle", "repurposed_structures:chests/fortress/jungle", "repurposed_structures:chests/fortress/jungle", "repurposed_structures:chests/mansion/jungle", "repurposed_structures:chests/outpost/jungle_chest", "repurposed_structures:chests/pyramid/jungle_chest"]
+	jungleLootTablesBlacklist = []
+	netherLootTables = ["minecraft:chests/bastion", "minecraft:chests/nether_bridge", "minecraft:chests/ruined_portal", "repurposed_structures:chests/mineshaft/nether", "repurposed_structures:chests/mineshaft/warped", "repurposed_structures:chests/cities/nether", "repurposed_structures:chests/dungeon/nether", "repurposed_structures:chests/outpost/crimson_chest", "repurposed_structures:chests/outpost/nether_brick_chest", "repurposed_structures:chests/outpost/warped_chest", "repurposed_structures:chests/pyramid/nether_chest", "repurposed_structures:chests/ruin/nether", "repurposed_structures:chests/ruined_portal/large_portal_chest", "repurposed_structures:chests/ruined_portal/small_portal_chest", "repurposed_structures:chests/shipwreck/crimson/", "repurposed_structures:chests/shipwreck/crimson/", "repurposed_structures:chests/shipwreck/crimson/", "repurposed_structures:chests/shipwreck/warped/map_chest", "repurposed_structures:chests/shipwreck/warped/supply_chest", "repurposed_structures:chests/shipwreck/warped/treasure_chest", "repurposed_structures:chests/shipwreck/nether_bricks/treasure_chest", "repurposed_structures:chests/stronghold/nether_storage_room", "repurposed_structures:chests/stronghold/nether_hallway", "repurposed_structures:chests/stronghold/nether_library", "repurposed_structures:chests/temple/nether_basalt_chest", "repurposed_structures:chests/temple/nether_crimson_chest", "repurposed_structures:chests/temple/nether_soul_chest", "repurposed_structures:chests/temple/nether_warped_chest", "repurposed_structures:chests/temple/nether_warped_trapped_chest", "repurposed_structures:chests/temple/nether_wasteland_chest", "repurposed_structures:chests/village/village_crimson_tanner", "repurposed_structures:chests/village/village_crimson_weaponsmith", "repurposed_structures:chests/village/village_warped_tanner", "repurposed_structures:chests/village/village_warped_weaponsmith", "betterstrongholds:chests/nether/common", "betterstrongholds:chests/nether/mess", "betterstrongholds:chests/nether/armoury", "betterstrongholds:chests/nether/crypt", "betterstrongholds:chests/nether/prison_lg", "betterstrongholds:chests/nether/trap", "betterstrongholds:chests/nether/treasure", "betterdungeons:skeleton_dungeon/chests/common", "dungeons_plus:chests/warped_garden/common"]
+	netherLootTablesBlacklist = []
+	endLootTables = ["minecraft:chests/end_city_treasure", "repurposed_structures:chests/mineshaft/end", "repurposed_structures:chests/dungeon/end", "repurposed_structures:chests/outpost/end_shulker_box", "repurposed_structures:chests/pyramid/end_chest", "repurposed_structures:chests/shipwreck/end/map_chest", "repurposed_structures:chests/shipwreck/end/supply_chest", "repurposed_structures:chests/shipwreck/end/treasure_chest", "repurposed_structures:shulker_boxes/stronghold/end_storage_room", "repurposed_structures:shulker_boxes/stronghold/end_hallway", "repurposed_structures:shulker_boxes/stronghold/end_library", "betterstrongholds:chests/end/armoury", "betterstrongholds:chests/end/common", "betterstrongholds:chests/end/crypt", "betterstrongholds:chests/end/mess", "betterstrongholds:chests/end/prison_lg", "betterstrongholds:chests/end/trap", "betterstrongholds:chests/end/treasure"]
+	endLootTablesBlacklist = []
 
 #Enchantment Specific Configuration
-[enchantment_specific_configuration]
+["enchantment_specific_configur<ation"]
 	#The decimal base chance for a busy bee to spawn [0.0-1.0, default: 0.1]
 	#Range: 0.0 ~ 1.0
 	busyBeeBaseChance = 0.1
@@ -230,87 +267,16 @@
 	#The chance for Poison Cloud to trigger [-5.0-5.0, default: 0.3]
 	#Range: -5.0 ~ 5.0
 	prospectorChancePerLevel = 0.0
-
-#Fancy Loot Table Configuration
-[fancy_loot_table_configuration]
-	#Add gear from this mod to loot tables considered uncommon. 
-	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-	fancyLootTables = ["minecraft:chests/jungle_temple", "minecraft:chests/nether_bridge", "minecraft:chests/simple_dungeon"]
-	#Use this list to prevent specific loot tables from getting uncommon loot. 
-	#To do so, enter the full path of the specific loot table.
-	fancyLootTablesBlacklist = ["minecraft:chests/jungle_temple_dispenser"]
-
-#Obsidian Loot Table Configuration
-[obsidian_loot_table_configuration]
-	#Add gear from this mod to loot tables considered rare. 
-	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-	obsidianLootTables = ["minecraft:chests/stronghold", "minecraft:chests/underwater_ruin", "minecraft:chests/pillager_outpost", "minecraft:chests/end_city_treasure", "minecraft:chests/igloo_chest", "minecraft:chests/woodland_mansion", "minecraft:chests/buried_treasure", "minecraft:chests/bastion"]
-	#Use this list to prevent specific loot tables from getting rare loot. 
-	#To do so, enter the full path of the specific loot table.
-	obsidianLootTableBlacklist = []
-
-#Loot Table Configuration
-[loot_table_configuration]
-	#Add gear from this mod to loot tables considered to belong to no actual environment. 
-	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-	basicLootTables = ["minecraft:chests/abandoned_mineshaft", "minecraft:chests/stronghold", "minecraft:chests/simple_dungeon", "minecraft:chests/pillager_outpost", "minecraft:chests/woodland_mansion", "minecraft:village/village_armorer", "minecraft:village/village_tannery", "minecraft:village/village_temple", "minecraft:village/village_weaponsmith", "minecraft:village/village_plains_house", "minecraft:village/village_savanna_house"]
-	#Use this list to prevent specific loot tables from getting loot. 
-	#To do so, enter the full path of the specific loot table.
-	basicLootTablesBlacklist = []
-	#Add gear from this mod to loot tables considered to belong to the desert environment. 
-	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-	desertLootTables = ["minecraft:chests/desert_pyramid", "minecraft:village/village_desert_house"]
-	#Use this list to prevent specific loot tables from getting loot. 
-	#To do so, enter the full path of the specific loot table.
-	desertLootTablesBlacklist = []
-	#Add gear from this mod to loot tables considered to belong to the ocean environment. 
-	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-	oceanLootTables = ["minecraft:chests/shipwreck", "minecraft:chests/underwater_ruin"]
-	#Use this list to prevent specific loot tables from getting loot. 
-	#To do so, enter the full path of the specific loot table.
-	oceanLootTablesBlacklist = ["minecraft:chests/buried_treasure"]
-	#Add gear from this mod to loot tables considered to belong to cold environment chests. 
-	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-	coldLootTables = ["minecraft:chests/igloo_chest", "minecraft:village/village_snowy_house", "minecraft:village/village_taiga_house"]
-	#Use this list to prevent specific loot tables from getting loot. 
-	#To do so, enter the full path of the specific loot table.
-	coldLootTablesBlacklist = []
-	#Add gear from this mod to loot tables considered to belong to the jungle environment. 
-	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-	jungleLootTables = ["minecraft:chests/jungle_temple"]
-	#Use this list to prevent specific loot tables from getting loot. 
-	#To do so, enter the full path of the specific loot table.
-	jungleLootTablesBlacklist = []
-	#Add gear from this mod to loot tables considered to belong to the nether environment. 
-	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-	netherLootTables = ["minecraft:chests/nether_bridge", "minecraft:chests/bastion", "minecraft:chests/ruined_portal"]
-	#Use this list to prevent specific loot tables from getting loot. 
-	#To do so, enter the full path of the specific loot table.
-	netherLootTablesBlacklist = []
-	#Add gear from this mod to loot tables considered to belong to the end environment. 
-	#To do so, enter the full path of the specific loot table, or the path of the folder containing the loot tables.
-	#You can also write an incomplete path, and the mod will add to loot tables containing that incomplete path.
-	endLootTables = ["minecraft:chests/end_city_treasure"]
-	#Use this list to prevent specific loot tables from getting loot. 
-	#To do so, enter the full path of the specific loot table.
-	endLootTablesBlacklist = []
-
-#Effect Specific Configuration
-[effect_specific_configuration]
-	#The damage caused by Party Starter. [0-10000, default: 4]
-	#Range: 0 ~ 10000
-	partyStarterDamage = 4
-
-#Artifact Specific Configuration
-[artifact_specific_configuration]
-	#Entities that can not be converted by Love Medallion.
-	loveMedallionBlacklist = ["minecraft:ender_dragon", "minecraft:elder_guardian", "minecraft:wither"]
+	#The chance per level for dodge to trigger [-5.0-5.0, default: 0.25]
+	#Range: -5.0 ~ 5.0
+	dodgeChancePerLevel = 0.01
+	#The chance per level for void dodge to trigger [-5.0-5.0, default: 0.25]
+	#Range: -5.0 ~ 5.0
+	voidDodgeChancePerLevel = 0.05
+	#The chance per level for beehive to trigger [-5.0-5.0, default: 0.25]
+	#Range: -5.0 ~ 5.0
+	beehiveChancePerLevel = 0.1
+	#The chance per level for Stunning to trigger [-5.0-5.0, default: 0.25]
+	#Range: -5.0 ~ 5.0
+	stunningChancePerLevel = 0.1
 
