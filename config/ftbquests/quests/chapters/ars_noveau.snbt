@@ -425,19 +425,26 @@
 				type: "item"
 				item: "ars_nouveau:magic_clay"
 			}]
-			rewards: [{
-				id: "16D0DC6B2E7199B2"
-				type: "item"
-				item: {
-					id: "randomite:randomite_ore"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			rewards: [
+				{
+					id: "16D0DC6B2E7199B2"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "6F0926680B18B151"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
 		}
 		{
 			x: 2.25d
@@ -574,6 +581,11 @@
 						}
 					}
 				}
+				{
+					id: "14E06F591A6C575C"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
 			]
 		}
 		{
@@ -621,6 +633,11 @@
 					type: "xp_levels"
 					xp_levels: 3
 				}
+				{
+					id: "60E68E86A0B397B9"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
 			]
 		}
 		{
@@ -633,19 +650,26 @@
 				type: "item"
 				item: "ars_nouveau:blank_parchment"
 			}]
-			rewards: [{
-				id: "0DD617DB90F4CB17"
-				type: "item"
-				item: {
-					id: "aquaculture:lockbox"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			rewards: [
+				{
+					id: "0DD617DB90F4CB17"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "229242C39645ACED"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
 		}
 		{
 			title: "Novice Mage"
@@ -873,6 +897,11 @@
 						}
 					}
 				}
+				{
+					id: "4E75E33AEDD66B59"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
 			]
 		}
 		{
@@ -993,6 +1022,11 @@
 					id: "2E08F0EE5989AF96"
 					type: "choice"
 					table_id: 768393147870328736L
+				}
+				{
+					id: "7025603C66FF5631"
+					type: "ftbmoney:money"
+					ftb_money: 20L
 				}
 			]
 		}
@@ -1119,6 +1153,11 @@
 						}
 					}
 				}
+				{
+					id: "5608B6AE028633D2"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
 			]
 		}
 		{
@@ -1157,6 +1196,11 @@
 							}
 						}
 					}
+				}
+				{
+					id: "5E4079A3561797F1"
+					type: "ftbmoney:money"
+					ftb_money: 10L
 				}
 			]
 		}
@@ -1202,6 +1246,11 @@
 							}
 						}
 					}
+				}
+				{
+					id: "6A4D3B228DB35AF0"
+					type: "ftbmoney:money"
+					ftb_money: 10L
 				}
 			]
 		}
@@ -1378,6 +1427,11 @@
 					type: "xp_levels"
 					xp_levels: 2
 				}
+				{
+					id: "44C849EAE301F15F"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
 			]
 		}
 		{
@@ -1432,6 +1486,11 @@
 					id: "0C6636199F2F1FA3"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					id: "58FD53F13D5C5CC3"
+					type: "ftbmoney:money"
+					ftb_money: 20L
 				}
 			]
 		}
@@ -1488,6 +1547,11 @@
 					type: "xp_levels"
 					xp_levels: 2
 				}
+				{
+					id: "78F8CD31BEDF1BA4"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
 			]
 		}
 		{
@@ -1542,6 +1606,11 @@
 					id: "6B45317F2ED82696"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					id: "295DF09A947758F6"
+					type: "ftbmoney:money"
+					ftb_money: 20L
 				}
 			]
 		}
@@ -1598,6 +1667,11 @@
 					type: "xp_levels"
 					xp_levels: 2
 				}
+				{
+					id: "165F74A7A3C969BA"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
 			]
 		}
 		{
@@ -1644,6 +1718,11 @@
 							}
 						}
 					}
+				}
+				{
+					id: "55E2D6517337CC3B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
 				}
 			]
 		}
@@ -2105,6 +2184,11 @@
 						}
 					}
 				}
+				{
+					id: "32E627396D212981"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
 			]
 		}
 		{
@@ -2297,6 +2381,11 @@
 					type: "xp_levels"
 					xp_levels: 2
 				}
+				{
+					id: "33A27EC952B838DC"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
 			]
 		}
 		{
@@ -2337,6 +2426,11 @@
 					id: "119033851949EA2D"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					id: "03BC4280F3D3587D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
 				}
 			]
 		}
@@ -2392,6 +2486,11 @@
 					type: "xp_levels"
 					xp_levels: 2
 				}
+				{
+					id: "7174353EC5BFDC39"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
 			]
 		}
 		{
@@ -2443,6 +2542,11 @@
 					type: "xp_levels"
 					xp_levels: 2
 				}
+				{
+					id: "366D79F2D09E7CC7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
 			]
 		}
 		{
@@ -2483,6 +2587,11 @@
 					id: "2376B502F27D98EB"
 					type: "xp_levels"
 					xp_levels: 2
+				}
+				{
+					id: "67CCCE1D0EFF01D7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
 				}
 			]
 		}
@@ -2638,6 +2747,11 @@
 						}
 					}
 				}
+				{
+					id: "13CE1331B4A3BE3C"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
 			]
 		}
 		{
@@ -2694,6 +2808,11 @@
 						}
 					}
 				}
+				{
+					id: "33CE081A62EBCA37"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
 			]
 		}
 		{
@@ -2735,6 +2854,11 @@
 					id: "30C1AB6B321574D0"
 					type: "xp_levels"
 					xp_levels: 3
+				}
+				{
+					id: "0814A5CBCD04EAFA"
+					type: "ftbmoney:money"
+					ftb_money: 20L
 				}
 			]
 		}
@@ -2791,6 +2915,11 @@
 					type: "xp_levels"
 					xp_levels: 3
 				}
+				{
+					id: "04677E77F84721DD"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
 			]
 		}
 		{
@@ -2843,6 +2972,11 @@
 							}
 						}
 					}
+				}
+				{
+					id: "743C639CBE412DD2"
+					type: "ftbmoney:money"
+					ftb_money: 20L
 				}
 			]
 		}

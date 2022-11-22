@@ -344,7 +344,7 @@
 		{
 			title: "Exchange Charcoal"
 			x: -6.0d
-			y: 1.5d
+			y: 1.0d
 			subtitle: "For any type of wood (repeatable)"
 			id: "308D3B4CF9E12F88"
 			tasks: [
@@ -2093,6 +2093,126 @@
 				id: "032267BC606C7F3D"
 				type: "questsadditions:repeat_choice"
 				table_id: 652336651965154404L
+			}]
+		}
+		{
+			title: "Gold Coin -> Dungeon's Mobs Gear"
+			icon: {
+				id: "dungeons_mobs:drowned_necromancer_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [ ]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
+			}
+			disable_toast: true
+			x: 2.0d
+			y: 1.5d
+			id: "58EA4AC53C08ADEE"
+			tasks: [{
+				id: "336F0B6E9D85A9AF"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6B35A137798BD60C"
+				type: "questsadditions:repeat_random"
+				table_id: 6428149481638189910L
+			}]
+		}
+		{
+			title: "Gold Coin -> Dungeon's Gear"
+			icon: {
+				id: "dungeons_gear:full_metal_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [ ]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
+			}
+			disable_toast: true
+			x: 2.0d
+			y: 0.5d
+			id: "3E3B2EBE83D1F239"
+			tasks: [{
+				id: "19A895F9E4113D81"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0117728DD2B9D1DB"
+				type: "questsadditions:repeat_random"
+				table_id: 6869005870291592175L
+			}]
+		}
+		{
+			title: "Copper coin -> Money"
+			icon: {
+				id: "kubejs:coin_q_1"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			disable_toast: true
+			x: -6.0d
+			y: 2.0d
+			id: "3459460308668951"
+			tasks: [{
+				id: "251D20F3E1232F71"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0F407E367C6CDD4E"
+				type: "questsadditions:repeat"
+				table_id: 5400957200627923109L
 			}]
 		}
 	]

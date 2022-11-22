@@ -42,29 +42,11 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  seconds = 2.0
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 0.8
-  action = hidebuttonfor
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = bottom-right
   x = -22
   action = movebutton
   y = -22
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  seconds = 4.0
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 1.0
-  action = hidebuttonfor
 }
 
 customization {
@@ -98,15 +80,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  seconds = 2.5
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 0.8
-  action = hidebuttonfor
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-left
   x = 138
@@ -137,29 +110,11 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  seconds = 2.5
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 0.8
-  action = hidebuttonfor
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = bottom-right
   x = -45
   action = movebutton
   y = -22
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  seconds = 4.0
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 1.0
-  action = hidebuttonfor
 }
 
 customization {
@@ -183,15 +138,6 @@ customization {
   action = setbuttontexture
   backgroundhovered = config\fancymenu\buttons\singleplayer_h.png
   backgroundnormal = config\fancymenu\buttons\singleplayer.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  seconds = 1.5
-  onlyfirsttime = true
-  fadein = true
-  fadeinspeed = 0.8
-  action = hidebuttonfor
 }
 
 customization {
@@ -244,12 +190,12 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
-  x = 423
+  hidden = true
+  x = 410
   width = 13
   action = deep_customization_element:title_screen_realms_notification
   actionid = 33ef078e-c5ad-4701-bf09-fc51d24da1361660113347312
-  y = 184
+  y = 188
   height = 13
 }
 
@@ -288,16 +234,16 @@ customization {
   hoverlabel = 
   fadein = true
   fadeinspeed = 0.6
-  x = -74
+  x = -57
   width = 169
   actionid = 2f45a1c7-8ada-4e88-9673-49ec21a8df131636882984680
   action = addbutton
-  y = -12
+  y = -13
   delayappearance = true
   backgroundnormal = config\fancymenu\buttons\rent.png
   value = https://bisecthosting.com/xdreamz
   delayappearanceeverytime = false
-  height = 9
+  height = 10
 }
 
 customization {
@@ -312,41 +258,25 @@ customization {
   fadein = true
   fadeinspeed = 0.6
   x = 1
-  width = 125
+  width = 150
   actionid = 9594869d-5a9d-461e-96cc-8789ce0827ca1636882984694
   action = addbutton
-  y = -12
+  y = -13
   delayappearance = true
   backgroundnormal = config\fancymenu\buttons\patreon.png
   value = https://www.patreon.com/Dreams01
   delayappearanceeverytime = false
-  height = 9
+  height = 10
 }
 
 customization {
-  orientation = top-left
-  delayappearanceseconds = 0.5
   path = config/fancymenu/buttons/rad.png
-  fadein = true
-  fadeinspeed = 0.5
+  orientation = top-left
   x = 1
   width = 393
   action = addtexture
   actionid = 8638351a-3b4e-48c9-885d-ce05bb73d7961617450957456
   y = 18
-  delayappearance = true
-  delayappearanceeverytime = false
   height = 76
-}
-
-customization {
-  path = config/fancymenu/buttons/bili.png
-  orientation = top-left
-  x = 284
-  width = 77
-  action = addtexture
-  actionid = c6b465aa-832b-4112-b046-63251a5aa30a1650621616051
-  y = 46
-  height = 25
 }
 

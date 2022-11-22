@@ -1,0 +1,19 @@
+{
+	id: "4AF40DF55E83F8A5"
+	order_index: 46
+	title: "Money"
+	icon: {
+		id: "kubejs:coin_q_1"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	loot_size: 1
+	rewards: [{
+		ftb_money: 10L
+		type: "ftbmoney:money"
+	}]
+}

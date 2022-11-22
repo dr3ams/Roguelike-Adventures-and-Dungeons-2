@@ -155,17 +155,24 @@
 				type: "item"
 				item: "meetyourfight:phantoplasm"
 			}]
-			rewards: [{
-				id: "1ADCD9F237A2088D"
-				type: "item"
-				item: {
-					id: "roughtweaks:bandage"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "1ADCD9F237A2088D"
+					type: "item"
+					item: {
+						id: "roughtweaks:bandage"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "43DD1491F7812A8F"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -177,17 +184,24 @@
 				type: "item"
 				item: "meetyourfight:mossy_tooth"
 			}]
-			rewards: [{
-				id: "495B533D45D5ADBB"
-				type: "item"
-				item: {
-					id: "roughtweaks:bandage"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "495B533D45D5ADBB"
+					type: "item"
+					item: {
+						id: "roughtweaks:bandage"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "2C5C91DF0C956BDE"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -199,17 +213,24 @@
 				type: "item"
 				item: "meetyourfight:fortunes_favor"
 			}]
-			rewards: [{
-				id: "556D62595703A413"
-				type: "item"
-				item: {
-					id: "roughtweaks:bandage"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "556D62595703A413"
+					type: "item"
+					item: {
+						id: "roughtweaks:bandage"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "7ACDD0BA914DF8F0"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -2543,11 +2564,18 @@
 				entity: "illagers_plus:illager_general"
 				value: 1L
 			}]
-			rewards: [{
-				id: "557B85DE2B6CB6E2"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "557B85DE2B6CB6E2"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "44F12B161A0F4DF9"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
 		}
 		{
 			x: 8.5d
@@ -2559,11 +2587,18 @@
 				entity: "illagers_plus:illager_king"
 				value: 1L
 			}]
-			rewards: [{
-				id: "5C8B265DB65EB55F"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "5C8B265DB65EB55F"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "485F4F83D01476AA"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
 		}
 		{
 			x: 8.5d

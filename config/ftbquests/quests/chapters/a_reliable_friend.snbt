@@ -111,6 +111,11 @@
 					type: "item"
 					item: "aquaculture:lockbox"
 				}
+				{
+					id: "0CD953CFE28C78FA"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
 			]
 		}
 		{
@@ -139,6 +144,11 @@
 					id: "0000000000000678"
 					type: "item"
 					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "2E43F958185DC440"
+					type: "ftbmoney:money"
+					ftb_money: 10L
 				}
 			]
 		}
@@ -196,11 +206,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "000000000000065E"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "000000000000065E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "07175F90925E7751"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -267,6 +284,11 @@
 					type: "item"
 					item: "minecraft:bone"
 					count: 5
+				}
+				{
+					id: "68A0B456AA1AA7BF"
+					type: "ftbmoney:money"
+					ftb_money: 10L
 				}
 			]
 		}
@@ -493,6 +515,11 @@
 					type: "item"
 					item: "minecraft:porkchop"
 					count: 2
+				}
+				{
+					id: "066E4B851BAD0BB4"
+					type: "ftbmoney:money"
+					ftb_money: 10L
 				}
 			]
 		}

@@ -2457,14 +2457,20 @@
 					id: "16B644B52EAAF98C"
 					type: "item"
 					item: {
-						id: "dungeons_gear:archers_hood"
+						id: "dungeons_gear:archers_chestplate"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "dungeons_gear:arrow_hoarder"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2473,14 +2479,17 @@
 					id: "6EB8798AF933DA9A"
 					type: "item"
 					item: {
-						id: "dungeons_gear:archers_vest"
+						id: "dungeons_gear:archers_helmet"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2551,14 +2560,17 @@
 					id: "487024FECB5AF48E"
 					type: "item"
 					item: {
-						id: "dungeons_gear:ember_hat"
+						id: "dungeons_gear:ember_robes_helmet"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2567,14 +2579,17 @@
 					id: "4E3DFC889F29DD7C"
 					type: "item"
 					item: {
-						id: "dungeons_gear:ember_robe"
+						id: "dungeons_gear:ember_robes_chestplate"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2826,14 +2841,17 @@
 					id: "23EA3ED03D3ED93B"
 					type: "item"
 					item: {
-						id: "dungeons_gear:shadow_walker_vest"
+						id: "dungeons_gear:shadow_walker_chestplate"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2842,14 +2860,17 @@
 					id: "4546540FBA62D44D"
 					type: "item"
 					item: {
-						id: "dungeons_gear:shadow_walker_hood"
+						id: "dungeons_gear:shadow_walker_helmet"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -3067,14 +3088,20 @@
 					id: "64D904E7242989A0"
 					type: "item"
 					item: {
-						id: "dungeons_gear:hunters_vest"
+						id: "dungeons_gear:hunters_chestplate"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "dungeons_gear:arrow_hoarder"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -3121,14 +3148,17 @@
 					id: "2AA7BB9217F42FCB"
 					type: "item"
 					item: {
-						id: "dungeons_gear:fox_vest"
+						id: "dungeons_gear:fox_chestplate"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -3137,14 +3167,17 @@
 					id: "10D4454FFD025ADF"
 					type: "item"
 					item: {
-						id: "dungeons_gear:fox_hood"
+						id: "dungeons_gear:fox_helmet"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -3335,14 +3368,17 @@
 					id: "1EBDD4F682EFC962"
 					type: "item"
 					item: {
-						id: "dungeons_gear:shadow_walker_hood"
+						id: "dungeons_gear:shadow_walker_helmet"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -3351,14 +3387,17 @@
 					id: "5CC0CB65B818DDAF"
 					type: "item"
 					item: {
-						id: "dungeons_gear:shadow_walker_vest"
+						id: "dungeons_gear:shadow_walker_chestplate"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -5087,14 +5126,17 @@
 					id: "74C8BEC0E95C74BE"
 					type: "item"
 					item: {
-						id: "dungeons_gear:spider_hood"
+						id: "dungeons_gear:spider_helmet"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -5103,14 +5145,17 @@
 					id: "06B54CEB98FF11F9"
 					type: "item"
 					item: {
-						id: "dungeons_gear:spider_vest"
+						id: "dungeons_gear:spider_chestplate"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
