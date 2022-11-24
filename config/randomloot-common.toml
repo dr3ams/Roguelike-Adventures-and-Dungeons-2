@@ -18,13 +18,13 @@
 	sword_weight = 20
 	#Weight for a pick to drop from case
 	#Range: 0 ~ 100
-	pick_weight = 15
+	pick_weight = 5
 	#Weight for a shovel to drop from case
 	#Range: 0 ~ 100
-	spade_weight = 8
+	spade_weight = 5
 	#Weight for and axe to drop from case
 	#Range: 0 ~ 100
-	axe_weight = 10
+	axe_weight = 5
 	#Weight for a bow to drop from case
 	#Range: 0 ~ 100
 	bow_weight = 8
@@ -41,7 +41,7 @@
 	#Range: 0 ~ 1000
 	boss_drops = 1000
 	#Allow anonymous data collection?
-	data = true
+	data = false
 	#Enable certain traits to be craftable.
 	crafting_traits = true
 
@@ -152,7 +152,7 @@
 	#Speedy Enabled?
 	speedy_enabled = true
 	#Bouncy Enabled?
-	bouncy_enabled = true
+	bouncy_enabled = false
 	#Resistant Enabled?
 	resistant_enabled = true
 	#Fire Resistant Enabled?
@@ -188,9 +188,9 @@
 	#Explosive Enabled?
 	explosive_enabled = true
 	#Filling Enabled?
-	filling_enabled = true
+	filling_enabled = false
 	#Phasing Enabled?
-	phasing_enabled = true
+	phasing_enabled = false
 	#Soul Searching Enabled?
 	soul_searching_enabled = true
 	#Cloud Walker Enabled?
@@ -204,11 +204,11 @@
 	#Taming Enabled?
 	taming_enabled = true
 	#Fortified Enabled?
-	fortified_enabled = true
+	fortified_enabled = false
 	#Auto Smelt Enabled?
 	auto_smelt_enabled = false
 	#Excavating Enabled?
-	excavating_enabled = true
+	excavating_enabled = false
 	#Sun Bathing Enabled?
 	sun_bathing_enabled = true
 	#Rained Out Enabled?
@@ -232,15 +232,15 @@
 	#Fire Storm Enabled?
 	fire_storm_enabled = true
 	#Twin Shooter Enabled?
-	twin_shooter_enabled = true
+	twin_shooter_enabled = false
 	#End Arrows Enabled?
 	end_arrows_enabled = true
 	#Illuminated Enabled?
-	illuminated_enabled = true
+	illuminated_enabled = false
 	#Locked Enabled?
 	locked_enabled = true
 	#Egg Hunt Enabled?
 	egg_hunt_enabled = true
 	#Glowing Enabled?
-	glowing_enabled = true
+	glowing_enabled = false
 
