@@ -1,0 +1,36 @@
+{
+	id: "6A93A345CDF7C226"
+	order_index: 1
+	title: "Random Dyes"
+	loot_size: 2
+	use_title: true
+	rewards: [
+		{ item: "minecraft:white_dye" }
+		{ item: "minecraft:orange_dye" }
+		{ item: "minecraft:magenta_dye" }
+		{ item: "minecraft:light_blue_dye" }
+		{ item: "minecraft:yellow_dye" }
+		{ item: "minecraft:lime_dye" }
+		{ item: "minecraft:pink_dye" }
+		{ item: "minecraft:gray_dye" }
+		{ item: "minecraft:black_dye" }
+		{ item: "minecraft:red_dye" }
+		{ item: "minecraft:green_dye" }
+		{ item: "minecraft:brown_dye" }
+		{ item: "minecraft:brown_dye" }
+		{ item: "minecraft:blue_dye" }
+		{ item: "minecraft:purple_dye" }
+		{ item: "minecraft:light_gray_dye" }
+		{ item: "minecraft:cyan_dye" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		glow: 1b
+		string_id: "random_dyes"
+	}
+}

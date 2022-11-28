@@ -136,6 +136,47 @@
 			speed_level = 1.25
 			items = ["minecraft:diamond;5"]
 
+		[general.utils.rocket_man]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 3
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "VERY_RARE"
+			#If the Enchantment is a Treasure
+			treasure = true
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = true
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 25
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 4
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 20
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			duration_base = 0.05
+			#Range: 0.0 ~ 1.7976931348623157E308
+			duration_level = 0.15
+
 		[general.utils.climber]
 			#If the Enchantment is Obtainable
 			enabled = true
@@ -167,7 +208,7 @@
 			#Range: > 0
 			hard_cap = 100
 			#Enchantments that are not compatible with this Enchantment
-			incompats = ["uniquee:swift"]
+			incompats = []
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
@@ -529,9 +570,9 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			repair_multiplier = 1.0
 			#Range: > 0
-			base_duration = 4800
+			base_duration = 6000
 			#Range: 0.0 ~ 1.7976931348623157E308
-			base_reduction = 0.95
+			base_reduction = 0.1
 
 		[general.utils.resonance]
 			#If the Enchantment is Obtainable
@@ -612,7 +653,7 @@
 			#Range: > 0
 			hard_cap = 100
 			#Enchantments that are not compatible with this Enchantment
-			incompats = ["uniquee:ender_mending", "minecraft:sharpness", "minecraft:efficiency", "minecraft:protection", "minecraft:mending"]
+			incompats = ["uniquee:all", "uniquee:spartanweapon", "uniquee:berserk", "uniquee:alchemistsgrace", "uniquee:ender_mending", "minecraft:sharpness", "minecraft:efficiency", "minecraft:protection", "minecraft:mending"]
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
@@ -672,47 +713,6 @@
 			compatible_items = []
 			#Range: 0.0 ~ 1.7976931348623157E308
 			"speed buff" = 0.01
-
-		[general.utils.rocket_man]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 3
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "VERY_RARE"
-			#If the Enchantment is a Treasure
-			treasure = true
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = true
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 25
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 4
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 20
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = []
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			duration_base = 0.05
-			#Range: 0.0 ~ 1.7976931348623157E308
-			duration_level = 0.15
 
 	[general.base]
 
@@ -790,7 +790,7 @@
 			#Range: > 0
 			hard_cap = 100
 			#Enchantments that are not compatible with this Enchantment
-			incompats = ["minecraft:mending", "uniquee:ender_mending"]
+			incompats = ["minecraft:mending", "uniquee:alchemistsgrace", "uniquee:ender_mending"]
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
