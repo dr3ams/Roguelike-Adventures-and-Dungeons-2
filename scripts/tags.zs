@@ -1,7 +1,5 @@
 #priority 11
 
-<tag:items:curios:charm>.remove(<item:storagenetwork:inventory_remote>, <item:storagenetwork:crafting_remote>, <item:storagenetwork:collector_remote>);
-
 <tag:items:forge:chef_upgrade_items>.add(
     <item:farmersdelight:vegetable_soup>,
     <item:farmersdelight:baked_cod_stew>,
