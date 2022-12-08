@@ -17,10 +17,10 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 1.0d
-			y: -4.0d
-			width: 7.0d
-			height: 1.5d
+			x: -1.0d
+			y: -6.5d
+			width: 13.0d
+			height: 2.5d
 			rotation: 0.0d
 			image: "rad2:textures/misc/rad.png"
 			hover: [ ]
@@ -29,10 +29,10 @@
 			corner: false
 		}
 		{
-			x: 1.0d
-			y: 1.0d
+			x: 0.5d
+			y: 3.0d
 			width: 10.0d
-			height: 17.0d
+			height: 19.0d
 			rotation: 0.0d
 			image: "rad2:textures/misc/rad_frame_white.png"
 			hover: [ ]
@@ -41,12 +41,48 @@
 			corner: false
 		}
 		{
-			x: 4.5d
-			y: 7.0d
+			x: 5.0d
+			y: 10.5d
 			width: 6.0d
 			height: 6.0d
 			rotation: 0.0d
 			image: "rad2:textures/misc/rad_dice.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			width: 5.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/qb_dif_mech.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			width: 4.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/qb_player.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			width: 3.8d
+			height: 1.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/qb_world.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -133,8 +169,8 @@
 					}
 				}
 			}
-			x: -2.0d
-			y: 1.0d
+			x: 0.0d
+			y: 2.5d
 			description: [
 				"Nether portals now come in the form of Dimensional Rifts, which you'll find scattered deep underground. You'll have to find one of these Rifts in order to get to the Nether - but be careful, because it's now a one-way trip!"
 				""
@@ -240,7 +276,7 @@
 		}
 		{
 			icon: "ars_nouveau:glyph_haste"
-			x: -0.5d
+			x: -1.0d
 			y: -2.0d
 			subtitle: "In-Depth, Well Balanced and Seamlessly Integrated Dodging"
 			description: [
@@ -286,8 +322,8 @@
 					}]
 				}
 			}
-			x: 1.0d
-			y: 1.0d
+			x: 3.0d
+			y: 9.0d
 			description: [
 				"There is now a new system for enchanting that uses three stats, instead of the original single stat system."
 				""
@@ -302,7 +338,6 @@
 				"The Enchantment Library"
 				"The Enchantment Library is a block focused on storing enchantments.  Simply insert an enchanted book, and every enchantment on that book will be stored in the library internally.  Each enchantment on a deposited book will be stored as points.  A point is simply equivalent to a level 1 enchantment, and as such an enchantment is worth the amount of points it would take to combine it from level one books (2^(level -1) points per level).  The library also records the max level it has ever seen for a given enchantment, and you may only extract enchantments up to that level.  Meaning if you want to be able to extract a higher level of an enchantment, the library will need to have had that level deposited at least one time.To extract enchantments from the library, simply click the tile of the enchantment you want to extract, and it will be extracted to the output slot.  If the output slot is empty, a new enchanted book will be generated.  If it is not empty, it will apply the next level of that enchantment to the book (if you have enough points).  Shift-clicking on a tile will attempt to extract the max level available (if you have enough points).  The point cost for extracting is shown in the tooltip.  If that tooltip is red, you do not have enough points for that operation."
 			]
-			dependencies: ["56127AAF761DC8DA"]
 			id: "6FCA404FDB2D82CC"
 			tasks: [{
 				id: "07F42EA7E8CC38A5"
@@ -318,8 +353,8 @@
 		{
 			title: "New and overhauled structures!"
 			icon: "ars_nouveau:familiar_wixie"
-			x: -0.5d
-			y: 1.0d
+			x: 1.0d
+			y: 2.5d
 			description: [
 				"- underground and flying villages"
 				"- overhauled mineshaft, strongholds, dungeons, caves"
@@ -346,7 +381,7 @@
 		}
 		{
 			icon: "archers_paradox:redstone_arrow"
-			x: 1.0d
+			x: 0.0d
 			y: -2.0d
 			description: [
 				"Each animal and human being can now bleed. This is an effect that deals damage similar to poison and can be removed using a new item: Bandages. The chance of bleeding is lower the more pieces of armor you have."
@@ -379,7 +414,7 @@
 					}
 				}
 			}
-			x: 1.0d
+			x: 1.5d
 			y: -0.5d
 			description: [
 				"A difficulty value is tracked for each player."
@@ -412,7 +447,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 1.5d
 			y: -2.0d
 			description: [
 				"Each Wither killed and Ender Dragon (re)spawned will count towards a point of Difficulty, making them harder the next time they're spawned.Each point of difficulty increases the Bosses stats and unlocks abilities."
@@ -487,7 +522,7 @@
 		{
 			title: "Normal mode changes"
 			icon: "minecraft:skeleton_skull"
-			x: 4.0d
+			x: 3.5d
 			y: -1.5d
 			subtitle: "Some of the new difficulty mechanics:"
 			description: [
@@ -532,8 +567,8 @@
 		}
 		{
 			icon: "farmersdelight:cake_slice"
-			x: -0.5d
-			y: 2.5d
+			x: 3.0d
+			y: 6.0d
 			description: [
 				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods."
 				""
@@ -565,7 +600,7 @@
 		}
 		{
 			icon: "fins:spindly_emerald"
-			x: 1.0d
+			x: -1.0d
 			y: 2.5d
 			description: [
 				"There are multiple new villager jobs, all with unique trades, workstations, and advancements!"
@@ -608,8 +643,8 @@
 					Damage: 0
 				}
 			}
-			x: 2.5d
-			y: 2.5d
+			x: 3.0d
+			y: 7.0d
 			description: [
 				"Lost Trinkets mod adds more than 70+ unlockable trinkets with different abilities and rarities."
 				""
@@ -643,7 +678,7 @@
 		}
 		{
 			icon: "ars_nouveau:glyph_wither"
-			x: 4.0d
+			x: 3.5d
 			y: -0.5d
 			subtitle: "- Expert Mode starts when the first player kills the Wither"
 			description: [
@@ -727,7 +762,7 @@
 					}
 				}
 			}
-			x: 4.0d
+			x: 3.5d
 			y: 0.5d
 			subtitle: "- Master Mode starts when you defeat the Ender Dragon."
 			description: [
@@ -799,8 +834,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 1.0d
+			x: 3.0d
+			y: 8.0d
 			subtitle: "Keeps safe your inventory items on death with many features for better survivability and exploration"
 			description: [
 				"Corail Tombstone handles your death in Minecraft by providing tons of configuration options, many features to encourage to discover the world and several compatibilities between mods."
@@ -837,70 +872,6 @@
 		}
 		{
 			icon: {
-				id: "productivebees:upgrade_productivity"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: -2.0d
-			y: 4.0d
-			subtitle: "(brief explanation about stats)"
-			description: [
-				"Project MMO allows players to advance through the game in their own unique method. Compared to traditional Minecraft gameplay where players have to craft powerful armors and weapons and later rely entirely on them for damage and protection, Project MMO introduces a more “RPG-styled” method of progressing through the game."
-				""
-				"Starting the game you will not be able to use armor, decent tools and specific artifacts/relics/baubles, because this requires a certain level of the player associated with a specific item. In addition to the restrictions - leveling gives a variety of bonuses - passive(like improving your damage) or active(like the ability to salvage item for another one), thereby engaging in certain activities, you will improve your character."
-				""
-				"As players perform a certain action, they would get better at doing so. For example, if a player wants to become the best warrior, they can train themselves by swinging their swords all day to earn more points in strength."
-				""
-				"You will be able to see the settings of the mod when you press the P button"
-			]
-			id: "21051AB7F9354B98"
-			tasks: [{
-				id: "2C149B5C78D7807A"
-				type: "checkmark"
-				title: "Experience, skills and character progression. "
-			}]
-			rewards: [{
-				id: "1AD53B7061225B84"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			icon: {
-				id: "minecraft:damaged_anvil"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: -2.0d
-			y: 5.5d
-			description: [
-				"With higher Smithing level you will be able to Salvage items into other"
-				""
-				"Put the item in Off-hand, crouch and right-click the Smithing table"
-			]
-			dependencies: ["21051AB7F9354B98"]
-			id: "39830998CAEB8FEF"
-			tasks: [{
-				id: "2AE1CA33A9DEC417"
-				type: "checkmark"
-				title: "Salvaging"
-			}]
-			rewards: [{
-				id: "23DCB2570A8B73FF"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			icon: {
 				id: "kubejs:arrow_left"
 				Count: 1b
 				ForgeCaps: {
@@ -918,6 +889,569 @@
 				id: "1A4B7F6D74AF92E1"
 				type: "checkmark"
 				title: "MORE QUESTS ARE WAITING!"
+			}]
+		}
+		{
+			title: "Character progression and skills"
+			icon: "itemfilters:item_group"
+			x: -0.30000000000000004d
+			y: 7.6d
+			subtitle: "(brief explanation about stats)"
+			description: [
+				"Menu access key: P (for more info and stats)"
+				""
+				"Project MMO adds an array of new stats that you level up while doing usual things. Leveling these stats unlocks the ability to use more items in game."
+				""
+				"Starting the game you will not be able to use armor, decent tools and specific artifacts/relics/baubles, because this requires a certain level of the player associated with a specific item. In addition to the restrictions - leveling gives a variety of bonuses - passive(like improving your damage) or active(like the ability to salvage item for another one), thereby engaging in certain activities, you will improve your character."
+				""
+				"As you level up different abilities you will unlock different bonuses associated with that abilities, some of them are:"
+				"- Mining: increasing mining speed with each level;"
+				"- Excavation: chance to find treasures while digging;"
+				"- Combat: more damage dealt with weapons;"
+				""
+				"There also different Xp Modifiers for different skill based on your current biome. As an example: you will get less farming experience in desert biome; or more swimming and fishing in ocean biome."
+				""
+				"You can also create or join party with using /pmmo party create/accept/invite/leave command."
+				""
+				"If your stat list on the left is disappeared - simply re-enter the game and it should reappear."
+			]
+			size: 1.55d
+			id: "000000000000009D"
+			tasks: [{
+				id: "000000000000009E"
+				type: "checkmark"
+				title: "Project MMO"
+			}]
+			rewards: [{
+				id: "000000000000035B"
+				type: "item"
+				item: "minecraft:golden_carrot"
+			}]
+		}
+		{
+			icon: "minecraft:brewing_stand"
+			x: -0.7250000000000001d
+			y: 9.4d
+			description: [
+				"Alchemy skill is gained by brewing potions in the Brewing Stand."
+				""
+				"Higher levels of this skill allow for the possibility of extra potions being brewed when brewing a potion."
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "64F9EE8910E19872"
+			tasks: [{
+				id: "3FE9F9324A9A75ED"
+				type: "checkmark"
+				title: "Alchemy"
+			}]
+			rewards: [{
+				id: "42EF83110DC99AC4"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.4d
+			y: 8.55d
+			description: [
+				"Agility skill is gained in a number of ways:"
+				"-Sprinting: the faster you are going, the more xp you will gain (Potions can boost this)."
+				"-Jumping: the higher you jump the more xp you gain (Potions can boost this)."
+				"-Saving fall damage (a chance probability of occuring when taking fall damage)."
+				""
+				"Higher levels of agility will grant a number of advantages:"
+				"-Faster sprinting"
+				"-Higher sprint and crouch jumps"
+				"-A higher chance to save fall damage"
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "63F8E2CB45B9803D"
+			tasks: [{
+				id: "3C321FB0BBBB71CF"
+				type: "checkmark"
+				title: "Agility"
+			}]
+			rewards: [{
+				id: "213C8DF50385C565"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:tropical_fish"
+			x: -2.0d
+			y: 6.85d
+			description: [
+				"Swimming skill is gained by going swimming in the lakes, rivers, and oceans."
+				""
+				"Higher levels of swimming will grant two advantages, underwater nightvision and the ability to stay underwater longer."
+				"Underwater Nightvision will unlock at level 25."
+				"Swimming, and to a lesser extent Endurance, will work together to extend your ability to stay underwater."
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "214CDC923D179E56"
+			tasks: [{
+				id: "5FFBB579483535DF"
+				type: "checkmark"
+				title: "Swimming"
+			}]
+			rewards: [{
+				id: "27A876A72644EE4A"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:elytra"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.125d
+			y: 9.4d
+			description: [
+				"Flying skill is gained by flying around with an Elytra."
+				""
+				"There is no bonus for higher levels of this skill."
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "0A0E3A6CA17F84F9"
+			tasks: [{
+				id: "6AA18B31884A0323"
+				type: "checkmark"
+				title: "Flying"
+			}]
+			rewards: [{
+				id: "1F9CC79DD8FA4F59"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.4d
+			y: 6.85d
+			description: [
+				"Endurance skill is gained by taking damage from any source (falling, getting hit by mobs, etc.)."
+				""
+				"Higher levels of endurance will decrease the amount of damage taken from hits and increases the amount of extra hearts you have. It also contributes to how long you can stay underwater."
+				""
+				"Endurance will also contribute a healing effect across time, with higher levels healing more hearts for every passive time frame."
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "78DB7D7B18894DA4"
+			tasks: [{
+				id: "329A1625CD6214D1"
+				type: "checkmark"
+				title: "Endurance"
+			}]
+			rewards: [{
+				id: "2042E69D2F7D8D6A"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.4d
+			y: 7.699999999999999d
+			description: [
+				"Combat skill is gained by hitting mobs to deal damage. You will get less xp if the mob is passive, dies, or is one-shot from full health."
+				""
+				"Higher levels of combat increase the amount of damage you can do with melee weapons."
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "71C94DF46703BB3F"
+			tasks: [{
+				id: "4E7CAB038758BA54"
+				type: "checkmark"
+				title: "Combat"
+			}]
+			rewards: [{
+				id: "7FA838BD50290BEE"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.9749999999999996d
+			y: 9.4d
+			description: [
+				"Archery skill is gained by shooting mobs with a bow."
+				"You will get less xp if the mob is passive, but more if the mob is killed, is one-shot, or if the arrow flies over 16 blocks."
+				""
+				"Higher levels of archery allows you to do extra damage with bows."
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "261FF95C675A0E98"
+			tasks: [{
+				id: "5CB7A94DEE4ADAD5"
+				type: "checkmark"
+				title: "Archery"
+			}]
+			rewards: [{
+				id: "4CF3274B22645B32"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.9749999999999996d
+			y: 6.0d
+			description: [
+				"Excavation skill is gained by breaking dirt or dirt-based blocks."
+				""
+				"Higher levels of excavation give you the ability to dig faster and to find treasure in blocks when digging."
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "5AC9081752E85D51"
+			tasks: [{
+				id: "1E0BD10C0AEDDA2C"
+				type: "checkmark"
+				title: "Excavation"
+			}]
+			rewards: [{
+				id: "747ABF4AEDD1C134"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.125d
+			y: 6.0d
+			description: [
+				"Mining Skill is gained by breaking rock or rock-based blocks."
+				""
+				"Higher levels of mining allow you to mine faster and to drop extra items when mining."
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "5562C277365DF050"
+			tasks: [{
+				id: "27065C11D7892632"
+				type: "checkmark"
+				title: "Mining"
+			}]
+			rewards: [{
+				id: "0A6359E4B13C16B9"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.7250000000000001d
+			y: 6.0d
+			description: [
+				"Woodcutting skill is gained by breaking wood blocks (logs, planks, etc.)."
+				""
+				"Higher levels of woodcutting allow you to cut wood faster and have the possiblity of dropping extra wood blocks."
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "416E81CE76446066"
+			tasks: [{
+				id: "53F6058FA66F0D87"
+				type: "checkmark"
+				title: "Woodcutting"
+			}]
+			rewards: [{
+				id: "27B553667632567D"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.575d
+			y: 6.0d
+			description: [
+				"Farming skill is gained by harvesting plants and by breeding animals."
+				""
+				"Higher levels of farming will allow you to harvest more crops from a single plant and to harvest them faster,"
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "128C6C5B6273C0F3"
+			tasks: [{
+				id: "11AA91F96D236C7E"
+				type: "checkmark"
+				title: "Farming"
+			}]
+			rewards: [{
+				id: "537A67485463EC65"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.0d
+			y: 8.55d
+			description: [
+				"Fishing skill is gained by going out and ... you will never guess ... fishing."
+				""
+				"While fishing you will be able to catch special items that have the possibility of being enchanted."
+				"Higher levels of fishing increase the probability of catching better items with better enchantments."
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "4C18DC09C5FFB372"
+			tasks: [{
+				id: "26DAF84205172A75"
+				type: "checkmark"
+				title: "Fishing"
+			}]
+			rewards: [{
+				id: "1C1A31BE2C5DDBD2"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "cookingforblockheads:oven"
+			x: -2.0d
+			y: 7.699999999999999d
+			description: [
+				"Cooking skill is gained by cooking food items."
+				""
+				"Higher levels of this skill allow for the possibility of extra food being made when cooking food."
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "777FFBDE3AD629F9"
+			tasks: [{
+				id: "15EB7D2E5444C8BB"
+				type: "checkmark"
+				title: "Cooking"
+			}]
+			rewards: [{
+				id: "702B9A930E3A1BA7"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:smithing_table"
+			x: -1.575d
+			y: 9.4d
+			description: [
+				"Smithing skill is gained by a number of different methods:"
+				"-Smelting items"
+				"-Repairing items"
+				"-Salvaging items (place the item in your off-hand, then crouch and right click on a smithing table)"
+				""
+				"Higher levels of smithing give a number of good benefits:"
+				"-While smelting ore there is a possibility of getting extra products."
+				"-When salvaging items, a higher level increases the success rate of salvaging and increases the number of possible salvaging products."
+				"-Increases the amount repaired when using the anvil and anvils are less likely to break."
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "41F4A32BEA5C4295"
+			tasks: [{
+				id: "3B673FE9BA9A3CC0"
+				type: "checkmark"
+				title: "Smithing"
+			}]
+			rewards: [{
+				id: "54F73585773748D8"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 	]
