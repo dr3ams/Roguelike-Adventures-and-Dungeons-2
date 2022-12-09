@@ -1,0 +1,306 @@
+{
+	id: "409837DC5DB00439"
+	group: "6CD0EEB0E5E5955C"
+	order_index: 1
+	filename: "titles"
+	title: "Titles"
+	icon: {
+		id: "titles:title_scroll_rare"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "kubejs:scroll_01c"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Press 'J' (you will most likely have to change this if it conflicts with something) to open the Titles gui."
+				""
+				"Understand that you may not have any titles to choose from at first."
+				"Simply complete advancements  to start growing your selection."
+			]
+			id: "4B93CE8715CACD5A"
+			tasks: [{
+				id: "5392A0BFA52D6B1C"
+				type: "checkmark"
+				title: "Titles"
+			}]
+			rewards: [{
+				id: "3D3AC225061A725D"
+				type: "item"
+				item: {
+					id: "minecraft:golden_carrot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "the §6§lC§6§lo§6§ln§6§lt§6§lr§6§li§6§lb§6§lu§6§lt§6§lo§6§lr"
+			x: -1.5d
+			y: 3.0d
+			shape: "hexagon"
+			subtitle: "Earned by completing the Feedback Form during beta."
+			description: [
+				"Link to form: bit.ly/RAD2FeedbackTEST"
+				""
+				"If you provide your username if the form, you will be added to a list of users who will receive this title in the next update."
+			]
+			optional: true
+			id: "555DE2027606D5B7"
+			tasks: [{
+				id: "5D6983FD863F51B3"
+				type: "custom"
+				title: "Provide Feedback"
+				icon: {
+					id: "itemfilters:tag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "11C10744446F9668"
+				type: "command"
+				title: "the §6§lC§6§lo§6§ln§6§lt§6§lr§6§li§6§lb§6§lu§6§lt§6§lo§6§lr"
+				icon: {
+					id: "titles:title_scroll_rare"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				team_reward: false
+				command: "/titles add @p titles:feedbacker"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"Title Fragments can be found in loot, and are used to trade for Title Scrolls with villagers."
+				""
+				"There is a limited amount of titles you can unlock with each scroll."
+			]
+			dependencies: ["4B93CE8715CACD5A"]
+			id: "13BF5C3D53C0B1F5"
+			tasks: [{
+				id: "017B57A2699363CC"
+				type: "item"
+				item: {
+					id: "titles:title_fragment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A45A0266C2853D7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			shape: "hexagon"
+			subtitle: "Granted to users who helped develop the pack."
+			optional: true
+			id: "70E5ACFA41387822"
+			tasks: [{
+				id: "6237C8565A36FFF9"
+				type: "custom"
+				title: "the §c§lD§6§le§e§lv§a§le§d§ll§b§lo§d§lp§c§le§6§lr"
+				icon: {
+					id: "kubejs:ruby"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CEEC0584CF0E4D4"
+				type: "command"
+				title: "the §c§lD§6§le§e§lv§a§le§d§ll§b§lo§d§lp§c§le§6§lr"
+				icon: {
+					id: "titles:title_scroll_rare"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				team_reward: false
+				command: "/titles add @p titles:developer"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["4B93CE8715CACD5A"]
+			id: "0F9346DF7CD6A468"
+			tasks: [{
+				id: "148F8B1BB36109F0"
+				type: "item"
+				item: {
+					id: "titles:title_scroll_common"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2EB99B9EB1797D28"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "374036F978BD3094"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["4B93CE8715CACD5A"]
+			id: "264F6C7AD7012C95"
+			tasks: [{
+				id: "1C9C14229F56A712"
+				type: "item"
+				item: {
+					id: "titles:title_scroll_uncommon"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "003DF8D2870BCBAE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3CEBB97B1324EB08"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["4B93CE8715CACD5A"]
+			id: "0696C455FFFED2FA"
+			tasks: [{
+				id: "25032BB0085AAEF0"
+				type: "item"
+				item: {
+					id: "titles:title_scroll_rare"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5D172E211F662DDB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "61B8204CEA1F1458"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "the §6§lP§f§la§6§lt§f§lr§6§lo§f§ln"
+			x: -3.0d
+			y: 3.0d
+			shape: "hexagon"
+			subtitle: "Granted to users who subscribe to dreams01 on Patreon."
+			description: [
+				""
+				"https://www.patreon.com/Dreams01"
+			]
+			id: "746A3F9BEE5F8477"
+			tasks: [{
+				id: "035217898B130AB7"
+				type: "custom"
+				icon: {
+					id: "kubejs:heart"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "11E518256C81330E"
+				type: "command"
+				title: "the §6§lP§f§la§6§lt§f§lr§6§lo§f§ln"
+				icon: {
+					id: "titles:title_scroll_rare"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				team_reward: false
+				command: "/titles add @p titles:patreon"
+				player_command: false
+			}]
+		}
+	]
+}

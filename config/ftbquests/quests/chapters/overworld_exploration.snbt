@@ -285,29 +285,6 @@
 			]
 		}
 		{
-			icon: "titles:title_scroll_common"
-			x: 2.0d
-			y: -2.5d
-			description: [
-				"Press 'J' (you will most likely have to change this if it conflicts with something) to open the Titles gui."
-				""
-				"Understand that you may not have any titles to choose from at first."
-				"Simply complete advancements  to start growing your selection."
-			]
-			dependencies: ["18FF6DA5335C0711"]
-			id: "4B93CE8715CACD5A"
-			tasks: [{
-				id: "5392A0BFA52D6B1C"
-				type: "checkmark"
-				title: "Titles"
-			}]
-			rewards: [{
-				id: "0A699ECD95D9583E"
-				type: "item"
-				item: "titles:title_scroll_common"
-			}]
-		}
-		{
 			x: 3.0d
 			y: -1.0d
 			shape: "octagon"
