@@ -935,7 +935,14 @@
 				{
 					id: "761E68267A9E38B3"
 					type: "item"
-					item: "iceandfire:silver_ingot"
+					title: "Any #forge:ingots/silver"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/silver"
+						}
+					}
 				}
 				{
 					id: "1B92D6D386949AD9"
