@@ -6,7 +6,7 @@ import crafttweaker.api.world.MCWorld;
 
 
 public class contributors_constants {
-	public static val devUsers as string[] = ["Doctor_Mage", "Bizzoula", "TheFlame52", "Mihawkeyez", "Zarchyar", "recyclebee"];
+	public static val devUsers as string[] = ["Doctor_Mage", "Bizzoula", "TheFlame52", "Mihawkeyez", "Xaikii", "Zarchyar", "recyclebee"];
 	public static val feedbackUsers as string[] = ["recyclebee"];
 	public static val patreonUsers as string[] = [];
 }
