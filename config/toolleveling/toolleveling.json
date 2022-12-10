@@ -1,14 +1,14 @@
 {
   "_commentSyntax": "to check if your config-file has the correct syntax, test your configuration on this website: https://jsonlint.com/",
   "_comment": "explanation to the config structure can be found here: https://github.com/tristankechlo/Tool-Leveling/wiki/",
-  "upgradeCostMultiplier": 5.0,
+  "upgradeCostMultiplier": 1.0,
   "minUpgradeCost": 1000,
-  "allowIncompatibleEnchantments": false,
-  "allowWrongEnchantments": false,
-  "defaultItemWorth": 5,
-  "allowLevelingOfUselessEnchantments": false,
-  "allowLevelingOfBreakingEnchanments": false,
-  "globalEnchantmentCap": 10,
+  "allowIncompatibleEnchantments": true,
+  "allowWrongEnchantments": true,
+  "defaultItemWorth": 10,
+  "allowLevelingOfUselessEnchantments": true,
+  "allowLevelingOfBreakingEnchanments": true,
+  "globalEnchantmentCap": 0,
   "enchantmentWhitelist": [],
   "enchantmentBlacklist": [
     "minecraft:mending",
@@ -21,9 +21,15 @@
     "minecraft:multishot",
     "minecraft:silk_touch",
     "dungeons_gear:prospector",
-    "dungeons_gear:lucky_explorer"
+    "dungeons_gear:lucky_explorer",
+    "uniqueapex:absolute_protection",
+    "uniqueapex:aeons_fragment",
+    "uniqueapex:blessed_blade",
+    "uniqueapex:gaias_fragment",
+    "uniqueapex:pickaxe404",
+    "uniqueapex:second_life"
   ],
   "enchantmentCaps": {
-    "minecraft:fire_protection": 10
+    "minecraft:fire_protection": 100
   }
 }
