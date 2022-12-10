@@ -5,10 +5,10 @@
   "minUpgradeCost": 1000,
   "allowIncompatibleEnchantments": true,
   "allowWrongEnchantments": true,
-  "defaultItemWorth": 10,
+  "defaultItemWorth": 5,
   "allowLevelingOfUselessEnchantments": true,
   "allowLevelingOfBreakingEnchanments": true,
-  "globalEnchantmentCap": 0,
+  "globalEnchantmentCap": 10,
   "enchantmentWhitelist": [],
   "enchantmentBlacklist": [
     "minecraft:mending",
@@ -30,6 +30,6 @@
     "uniqueapex:second_life"
   ],
   "enchantmentCaps": {
-    "minecraft:fire_protection": 100
+    "minecraft:fire_protection": 10
   }
 }
