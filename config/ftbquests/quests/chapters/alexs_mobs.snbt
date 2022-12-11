@@ -1197,7 +1197,11 @@
 			rewards: [{
 				id: "14A50E2C25011DB8"
 				type: "item"
-				item: "pamhc2foodcore:toastitem"
+				item: {
+					id: "minecraft:bread"
+					Count: 1b
+				}
+				count: 2
 			}]
 		}
 		{
