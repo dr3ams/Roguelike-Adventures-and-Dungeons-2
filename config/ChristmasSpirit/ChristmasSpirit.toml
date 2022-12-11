@@ -1,0 +1,32 @@
+
+[WorldGen]
+	#Freeze World
+	#(Only needed on servers)
+	#Causes all biomes to snow. (excluding oceans)
+	freezeWorld = false
+	#Freeze Oceans
+	#(Only needed on servers)
+	#Causes all oceans to freeze as well.
+	#Only works if freezeWorld set to true
+	freezeOceans = false
+
+[Misc]
+	#Mob Armor Rarity
+	#(Only needed on servers)
+	#1 in x chance when a zombie or skeleton spawns to give them clothing and a present.
+	#Range: 0 ~ 256
+	mobArmorRarity = 50
+	#Naughty Items
+	#(Only needed on servers)
+	#When false, any Naughty Item in a player's inventory will be deleted.
+	naughtyItems = true
+	#Reindeer Flying
+	#(Only needed on servers)
+	#When false, can't fly.
+	reindeerFlying = true
+	#Reindeer Spawn Weight
+	#(Only needed on servers)
+	#The higher the value is, the more frequent it spawns.
+	#Range: 1 ~ 256
+	reindeerSpawnWeight = 1
+

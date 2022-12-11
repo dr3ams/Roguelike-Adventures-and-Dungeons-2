@@ -655,9 +655,20 @@
 				}
 			]
 			rewards: [{
-				id: "7718CBAA3CCA7060"
+				id: "40DDDC8AADD0C66A"
 				type: "item"
-				item: "randomloot:basic_case"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "rare_loot_crate"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -1791,11 +1802,6 @@
 					ftb_money: 50L
 				}
 				{
-					id: "5E896A9262BB2157"
-					type: "item"
-					item: "randomloot:golden_case"
-				}
-				{
 					id: "0D2174C9CCF41B0B"
 					type: "item"
 					item: {
@@ -1803,6 +1809,22 @@
 						Count: 1b
 						tag: {
 							type: "ingots_valuable"
+						}
+					}
+				}
+				{
+					id: "6CD601C4C272FB3C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
@@ -1832,14 +1854,20 @@
 					item: "aquaculture:treasure_chest"
 				}
 				{
-					id: "010ACF9A81E528FA"
+					id: "609B8BB275488030"
 					type: "item"
-					item: "randomloot:random_shard"
-				}
-				{
-					id: "0DB435821FF50EE2"
-					type: "item"
-					item: "randomloot:random_shard"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
@@ -2022,24 +2050,25 @@
 					ftb_money: 50L
 				}
 				{
-					id: "6B48987BA07D4980"
-					type: "item"
-					item: "randomloot:golden_case"
-				}
-				{
-					id: "647D7EE6B009063A"
-					type: "item"
-					item: "randomloot:random_shard"
-				}
-				{
-					id: "33240DC36C94AE2A"
-					type: "item"
-					item: "randomloot:random_shard"
-				}
-				{
 					id: "07A4F05DD0A244C1"
 					type: "choice"
 					table_id: 768393147870328736L
+				}
+				{
+					id: "51DB0DDED8AB2D7F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
@@ -2745,11 +2774,6 @@
 			}]
 			rewards: [
 				{
-					id: "6D33F052E57D6D06"
-					type: "item"
-					item: "randomloot:basic_case"
-				}
-				{
 					id: "3420CE78E0AFAD33"
 					type: "ftbmoney:money"
 					ftb_money: 20L
@@ -2935,18 +2959,11 @@
 					tag: { }
 				}
 			}]
-			rewards: [
-				{
-					id: "12BF27AD7713D975"
-					type: "item"
-					item: "randomloot:basic_case"
-				}
-				{
-					id: "7C320F66009D8B3F"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-			]
+			rewards: [{
+				id: "7C320F66009D8B3F"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
 		}
 		{
 			x: 13.5d
@@ -4723,20 +4740,6 @@
 					ftb_money: 6000000L
 				}
 				{
-					id: "767985A8EA83E04C"
-					type: "item"
-					item: {
-						id: "randomloot:titan_case"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 100
-				}
-				{
 					id: "3782D208352ADA5B"
 					type: "item"
 					item: {
@@ -5058,298 +5061,6 @@
 				}
 				random_bonus: 2
 			}]
-		}
-		{
-			title: "test quest please ignore"
-			x: 13.0d
-			y: -13.0d
-			size: 3.0d
-			id: "6CDA8EDF5D8B158D"
-			tasks: [{
-				id: "0DB86C04755292EF"
-				type: "item"
-				item: {
-					id: "minecraft:bedrock"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "4E86A45261F6DCE7"
-					type: "item"
-					item: {
-						id: "ars_nouveau:greater_experience_gem"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "2140642E3E07BEB1"
-					type: "item"
-					item: {
-						id: "roughtweaks:medkit"
-						Count: 1b
-						tag: {
-							Damage: 0
-							rpgloot.randomize: 0b
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "1D43A713AC6C5EEA"
-					type: "item"
-					item: {
-						id: "roughtweaks:plaster"
-						Count: 1b
-						tag: {
-							Damage: 0
-							rpgloot.randomize: 0b
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "42EC7A2426693D44"
-					type: "item"
-					item: {
-						id: "byg:raw_pendorite"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "6C27A83BA79F4D24"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "ingots_basic"
-							rpgloot.randomize: 0b
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "0D2AA099D12A74A3"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_monsters"
-							rpgloot.randomize: 0b
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "0D7A67BCC8CB2BBA"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_random"
-							rpgloot.randomize: 0b
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "6079C827DC85BA7F"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_dusts"
-							rpgloot.randomize: 0b
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "2ECEA31F9368D390"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "ingots_valuable"
-							rpgloot.randomize: 0b
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "3B548263E58E5A77"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "potions"
-							rpgloot.randomize: 0b
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "4B4470D65965852C"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_magic"
-							rpgloot.randomize: 0b
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "45586F4DBF75786F"
-					type: "item"
-					item: {
-						id: "randomloot:basic_case"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "0EA53129FDEF92EC"
-					type: "item"
-					item: {
-						id: "randomloot:golden_case"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "25C6C055582DA0EF"
-					type: "item"
-					item: {
-						id: "randomite:randomite_ore"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "337DB15CCD5CDA47"
-					type: "item"
-					item: {
-						id: "aquaculture:box"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "32E30E8EA80A8F82"
-					type: "item"
-					item: {
-						id: "aquaculture:lockbox"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "4483D6182AE1E2EB"
-					type: "item"
-					item: {
-						id: "aquaculture:treasure_chest"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "32D312025DD15F1F"
-					type: "item"
-					item: {
-						id: "byg:ametrine_gems"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
 		}
 		{
 			title: "Experience, skills and character progression."

@@ -1,0 +1,231 @@
+{
+  "pools": [
+    {
+      "name": "tier#1",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this"
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#2",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 2
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#3",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 3
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#4",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 4
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "enchant_randomly"
+            }
+          ]
+        }
+      ]
+    },
+	    {
+      "name": "coppercoin",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:copper_coin",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this"
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "name": "monstercoin",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:monster_coin",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this"
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ironcoin#2",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:iron_coin",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 2
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },	
+	{
+      "name": "goldcoin#3",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:gold_coin",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 3
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "name": "goldcoin#4",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:gold_coin",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 4
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },	
+	{
+      "name": "diamond#5",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:diamond_coin",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 5
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

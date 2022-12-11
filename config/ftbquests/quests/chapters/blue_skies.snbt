@@ -895,11 +895,6 @@
 			}]
 			rewards: [
 				{
-					id: "6121EFBB7C557D31"
-					type: "item"
-					item: "randomloot:basic_case"
-				}
-				{
 					id: "63D12F869B6EFAF4"
 					type: "item"
 					item: "randomite:randomite_ore"
@@ -923,11 +918,6 @@
 				value: 1L
 			}]
 			rewards: [
-				{
-					id: "6884F70A8C51445E"
-					type: "item"
-					item: "randomloot:basic_case"
-				}
 				{
 					id: "0C9086D279F6FAD6"
 					type: "item"
@@ -1630,11 +1620,14 @@
 					}
 				}
 				{
-					id: "76A179D8705DB290"
+					id: "11242C2B0736D6AF"
 					type: "item"
 					item: {
-						id: "randomloot:golden_case"
+						id: "ftbquests:lootcrate"
 						Count: 1b
+						tag: {
+							type: "dungeon_s_gear_crate"
+						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1647,7 +1640,7 @@
 		{
 			x: 14.5d
 			y: 3.5d
-			subtitle: "Enter a Posion dungeon"
+			subtitle: "Enter a Poison dungeon"
 			dependencies: ["00A6F781F98D8F25"]
 			id: "1A14F33889B103A2"
 			tasks: [{
@@ -1658,11 +1651,14 @@
 			}]
 			rewards: [
 				{
-					id: "4214E2462C22145B"
+					id: "00A8C0E1B19AC2B7"
 					type: "item"
 					item: {
-						id: "randomloot:golden_case"
+						id: "roughtweaks:bandage"
 						Count: 1b
+						tag: {
+							Damage: 0
+						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1671,13 +1667,13 @@
 					}
 				}
 				{
-					id: "00A8C0E1B19AC2B7"
+					id: "2882D008682F90D8"
 					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
+						id: "ftbquests:lootcrate"
 						Count: 1b
 						tag: {
-							Damage: 0
+							type: "dungeon_s_gear_crate"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {

@@ -37,38 +37,23 @@
 					criterion: ""
 				}
 			]
-			rewards: [
-				{
-					id: "059FF7B9993C4FC0"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_monsters"
-							rpgloot.randomize: 0b
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				id: "059FF7B9993C4FC0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "materials_monsters"
+						rpgloot.randomize: 0b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
 				}
-				{
-					id: "35E9473F8C7A9CBE"
-					type: "item"
-					item: {
-						id: "randomloot:basic_case"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: -5.5d

@@ -1454,5 +1454,36 @@
 				}
 			}]
 		}
+		{
+			title: "Waystones"
+			x: 2.0d
+			y: 2.5d
+			description: [
+				"Waystones allows players to return to them once they've been activated, either through a Warp Scroll, a rechargeable Warp Stone, or by using an existing waystone to hop from one to the other."
+				""
+				"You can find some in the wild and in the villages."
+				""
+				"You can also buy a personal one in the shop and put it whenever you need."
+			]
+			id: "6AA5B436C67A93FF"
+			tasks: [{
+				id: "6AA055C5A9696592"
+				type: "item"
+				item: {
+					id: "waystones:waystone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0BE7676AB6C019ED"
+				type: "xp"
+				xp: 100
+			}]
+		}
 	]
 }

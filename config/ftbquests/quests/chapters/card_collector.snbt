@@ -1367,11 +1367,14 @@
 					ftb_money: 5L
 				}
 				{
-					id: "531668B2158DD25B"
+					id: "1E103AA770DB163E"
 					type: "item"
 					item: {
-						id: "randomloot:basic_case"
+						id: "ftbquests:lootcrate"
 						Count: 1b
+						tag: {
+							type: "crate_crate"
+						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1455,11 +1458,14 @@
 					ftb_money: 5L
 				}
 				{
-					id: "03B90B1995860A5D"
+					id: "73056CF93501D7CC"
 					type: "item"
 					item: {
-						id: "randomloot:basic_case"
+						id: "ftbquests:lootcrate"
 						Count: 1b
+						tag: {
+							type: "crate_crate"
+						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]

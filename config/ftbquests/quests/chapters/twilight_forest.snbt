@@ -188,19 +188,6 @@
 			}]
 			rewards: [
 				{
-					id: "4286F9B154CCE477"
-					type: "item"
-					item: {
-						id: "randomloot:basic_case"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "5DE91D6A59288CD1"
 					type: "item"
 					item: {
@@ -217,6 +204,22 @@
 					id: "3217392E0E0EA597"
 					type: "ftbmoney:money"
 					ftb_money: 10L
+				}
+				{
+					id: "0C0A8B9D53A30302"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "crate_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
@@ -326,6 +329,22 @@
 					type: "ftbmoney:money"
 					ftb_money: 10L
 				}
+				{
+					id: "539C836771DA37E0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -361,22 +380,25 @@
 					}
 				}
 				{
-					id: "70103962D316BB4C"
+					id: "0CD2B4E7BB634B1F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "15C27ACEB2CB4FFE"
 					type: "item"
 					item: {
-						id: "randomloot:basic_case"
+						id: "ftbquests:lootcrate"
 						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
 					}
-				}
-				{
-					id: "0CD2B4E7BB634B1F"
-					type: "ftbmoney:money"
-					ftb_money: 10L
 				}
 			]
 		}
@@ -427,19 +449,6 @@
 					}
 				}
 				{
-					id: "2A06549689FD9B3C"
-					type: "item"
-					item: {
-						id: "randomloot:basic_case"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "5E323D9505A89A4D"
 					type: "xp_levels"
 					xp_levels: 3
@@ -472,19 +481,6 @@
 			}]
 			rewards: [
 				{
-					id: "00ED6BA8B6210BF7"
-					type: "item"
-					item: {
-						id: "randomloot:basic_case"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "05D6A6A544B40C0D"
 					type: "item"
 					item: {
@@ -507,6 +503,22 @@
 					type: "ftbmoney:money"
 					ftb_money: 10L
 				}
+				{
+					id: "44482FFE07AA7C9F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -525,19 +537,6 @@
 				value: 1L
 			}]
 			rewards: [
-				{
-					id: "2A45D88A3F1BA831"
-					type: "item"
-					item: {
-						id: "randomloot:basic_case"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
 				{
 					id: "028D3D0A4F2C971C"
 					type: "item"
@@ -560,6 +559,22 @@
 					id: "7966A62B59BAF6AD"
 					type: "ftbmoney:money"
 					ftb_money: 10L
+				}
+				{
+					id: "7CCADBF7ABA3DB1C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
@@ -650,19 +665,6 @@
 			}]
 			rewards: [
 				{
-					id: "4882BF8B31070412"
-					type: "item"
-					item: {
-						id: "randomloot:basic_case"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "1370BEF9E9E03BA0"
 					type: "item"
 					item: {
@@ -697,6 +699,22 @@
 					id: "5553F2945EABA3F9"
 					type: "ftbmoney:money"
 					ftb_money: 10L
+				}
+				{
+					id: "7201DF779C591DEB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
@@ -853,19 +871,6 @@
 			}]
 			rewards: [
 				{
-					id: "0E9A9D0630EC8EA9"
-					type: "item"
-					item: {
-						id: "randomloot:golden_case"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "03324B41C3FE9DC0"
 					type: "item"
 					item: {
@@ -887,6 +892,22 @@
 					id: "564CAABEF28C0FD9"
 					type: "ftbmoney:money"
 					ftb_money: 20L
+				}
+				{
+					id: "5C714786A2FD9BDF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
@@ -1512,22 +1533,25 @@
 			}]
 			rewards: [
 				{
-					id: "1514160929CA9BFA"
+					id: "5251B871B59F437E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "4F5C167930A60716"
 					type: "item"
 					item: {
-						id: "randomloot:basic_case"
+						id: "ftbquests:lootcrate"
 						Count: 1b
+						tag: {
+							type: "crate_crate"
+						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
 					}
-				}
-				{
-					id: "5251B871B59F437E"
-					type: "ftbmoney:money"
-					ftb_money: 10L
 				}
 			]
 		}
@@ -2842,11 +2866,14 @@
 				}
 			}]
 			rewards: [{
-				id: "408AF34B167E39BD"
+				id: "4B23898A5989AFB1"
 				type: "item"
 				item: {
-					id: "randomloot:basic_case"
+					id: "ftbquests:lootcrate"
 					Count: 1b
+					tag: {
+						type: "uncommon_loot_crate"
+					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2882,22 +2909,25 @@
 			}]
 			rewards: [
 				{
-					id: "770DDE2C2385D466"
+					id: "371D1D58C09BFBCC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3AFF3C091A26025A"
 					type: "item"
 					item: {
-						id: "randomloot:basic_case"
+						id: "ftbquests:lootcrate"
 						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
 					}
-				}
-				{
-					id: "371D1D58C09BFBCC"
-					type: "xp_levels"
-					xp_levels: 1
 				}
 			]
 		}
@@ -3158,10 +3188,10 @@
 					}
 				}
 				{
-					id: "6C52B911382AEE10"
+					id: "2117895550104B67"
 					type: "item"
 					item: {
-						id: "randomloot:golden_case"
+						id: "losttrinkets:treasure_bag"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -3171,11 +3201,14 @@
 					}
 				}
 				{
-					id: "2117895550104B67"
+					id: "1119C674E51EF6F1"
 					type: "item"
 					item: {
-						id: "losttrinkets:treasure_bag"
+						id: "ftbquests:lootcrate"
 						Count: 1b
+						tag: {
+							type: "crate_crate"
+						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]

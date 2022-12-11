@@ -7,6 +7,15 @@
 	#Add entities that will never be targeted by aggressive Dungeons effects. 
 	#To do so, enter their registry names.
 	effectTargetBlacklist = ["guardvillagers:guard", "minecraft:bat", "minecraft:bee", "minecraft:chicken", "minecraft:cod", "minecraft:cow", "minecraft:dolphin", "minecraft:donkey", "minecraft:fox", "minecraft:horse", "minecraft:iron_golem", "minecraft:mooshroom", "minecraft:ocelot", "minecraft:panda", "minecraft:parrot", "minecraft:pig", "minecraft:polar_bear", "minecraft:pufferfish", "minecraft:rabbit", "minecraft:salmon", "minecraft:sheep", "minecraft:squid", "minecraft:strider", "minecraft:trader_llama", "minecraft:tropical_fish", "minecraft:turtle", "minecraft:villager", "minecraft:wandering_trader", "minecraft:wolf"]
+	#Add entities that should be targetted, but aren't by aggressive Dungeons effects. 
+	#To do so, enter their registry names.
+	effectTargetWhitelist = []
+	#Enable dual wielding. 
+	#If you do not want dual wielding, disable this feature. [true / false]
+	enableDualWielding = true
+	#Enable two handed weapon. 
+	#If you do not want two handed weapon, disable this feature. [true / false]
+	enableTwoHandedWeapon = true
 
 #Souls Configuration
 [souls_configuration]

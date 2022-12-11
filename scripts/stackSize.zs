@@ -5,9 +5,6 @@
 <item:minecraft:lingering_potion>.setMaxStackSize(16);
 <item:productivebees:sturdy_bee_cage>.setMaxStackSize(64);
 <item:titles:title_fragment>.setMaxStackSize(64);
-<item:randomloot:basic_case>.setMaxStackSize(64);
-<item:randomloot:golden_case>.setMaxStackSize(64);
-<item:randomloot:titan_case>.setMaxStackSize(64);
 
 for allItems in game.items {
     if ("_boat" in (allItems.registryName as string)){

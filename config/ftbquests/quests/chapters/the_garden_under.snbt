@@ -254,9 +254,20 @@
 				}
 			]
 			rewards: [{
-				id: "1B7401D9516E1FE5"
+				id: "6FC3E08DF38DE78D"
 				type: "item"
-				item: "randomloot:basic_case"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "uncommon_loot_crate"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -815,24 +826,17 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "7B53BBF3D81E21AF"
-					type: "item"
-					item: {
-						id: "roughtweaks:bandage"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "7B53BBF3D81E21AF"
+				type: "item"
+				item: {
+					id: "roughtweaks:bandage"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-				{
-					id: "34EE107409F3B19A"
-					type: "item"
-					item: "randomloot:basic_case"
-				}
-			]
+			}]
 		}
 		{
 			x: 12.0d
@@ -1037,9 +1041,20 @@
 				}
 			]
 			rewards: [{
-				id: "194F42A4A9BF05A5"
+				id: "2A22AEFFD89D0A72"
 				type: "item"
-				item: "randomloot:basic_case"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "uncommon_loot_crate"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -1094,9 +1109,20 @@
 				}
 			]
 			rewards: [{
-				id: "507ED7EF5D26F71A"
+				id: "50F2155D0A65868C"
 				type: "item"
-				item: "randomloot:basic_case"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "crate_crate"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 		{
