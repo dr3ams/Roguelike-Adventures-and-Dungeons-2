@@ -201,6 +201,7 @@ event.hide('prefab:item_swift_blade_bronze')
 event.hide('prefab:item_swift_blade_steel')
 event.hide('prefab:item_swift_blade_obsidian')
 event.hide('prefab:item_swift_blade_netherite')
+event.hide('prefab:item_advanced_farm')
 
 event.hide('greekfantasy:wooden_spear')
 event.hide('greekfantasy:stone_spear')
