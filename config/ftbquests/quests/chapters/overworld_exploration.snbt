@@ -1056,7 +1056,14 @@
 				{
 					id: "116BFD5CD970A68F"
 					type: "item"
-					item: "mysticalworld:lead_ingot"
+					title: "Any #forge:ingots/lead"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/lead"
+						}
+					}
 				}
 				{
 					id: "43AB9FF884D2FB15"
