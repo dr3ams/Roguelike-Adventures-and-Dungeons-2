@@ -1,5 +1,8 @@
 #priority 11
 
+<tag:blocks:twilightforest:portal/edge>.add(<block:byg:meadow_grass_block>);
+
+
 <tag:items:forge:chef_upgrade_items>.add(
     <item:farmersdelight:vegetable_soup>,
     <item:farmersdelight:baked_cod_stew>,
