@@ -1385,13 +1385,21 @@
 			}]
 		}
 		{
-			icon: "cookingforblockheads:oven"
+			icon: {
+				id: "ars_nouveau:wand"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: -2.0d
 			y: 7.699999999999999d
 			description: [
-				"Cooking skill is gained by cooking food items."
+				"Magic skill is gained by mining magical ores, reading tomes, and casting spells."
 				""
-				"Higher levels of this skill allow for the possibility of extra food being made when cooking food."
+				"Higher levels of this skill grant increased maximum mana, mana regeneration, and magic damage."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1400,17 +1408,20 @@
 			tasks: [{
 				id: "15EB7D2E5444C8BB"
 				type: "checkmark"
-				title: "Cooking"
+				title: "Magic"
 			}]
 			rewards: [{
-				id: "702B9A930E3A1BA7"
+				id: "7487E97E1F0700C7"
 				type: "item"
 				item: {
-					id: "minecraft:cookie"
+					id: "enigmaticlegacy:tattered_tome"
 					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+					tag: {
+						id: "enigmaticlegacy:tattered_tome"
+						Count: 1b
+						tag: {
+							xpPoints: 50
+							revelationPoints: 2
 						}
 					}
 				}
