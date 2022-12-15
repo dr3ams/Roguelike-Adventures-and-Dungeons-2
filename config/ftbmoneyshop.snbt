@@ -208,7 +208,7 @@
 		}
 		{
 			title: "Cases"
-			icon: "randomloot:golden_case"
+			icon: "kubejs:chest2"
 			entries: [
 				{
 					item: "aquaculture:lockbox"
@@ -217,14 +217,6 @@
 				{
 					item: "aquaculture:box"
 					buy: 10L
-				}
-				{
-					item: "randomloot:basic_case"
-					buy: 200L
-				}
-				{
-					item: "randomloot:golden_case"
-					buy: 500L
 				}
 				{
 					item: "aquaculture:treasure_chest"
@@ -244,6 +236,19 @@
 						}
 					}
 					buy: 50L
+				}
+				{
+					item: {
+						id: "blue_skies:loot_bag"
+						Count: 1b
+						tag: {
+							LootTable: "minecraft:chests/spawn_bonus_chest"
+							display: {
+								Name: "[{\"text\":\"Spawn Chest Loot Bag\",\"color\":\"yellow\",\"italic\":\"false\"}]"
+							}
+						}
+					}
+					buy: 330L
 				}
 				{
 					item: {
