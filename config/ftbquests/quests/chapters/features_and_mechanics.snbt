@@ -1397,7 +1397,7 @@
 			x: -2.0d
 			y: 7.699999999999999d
 			description: [
-				"Magic skill is gained by mining magical ores, reading tomes, and casting spells."
+				"Magic skill is gained by mining magical ores, reading tomes from Enigmatic Legacy, and casting spells."
 				""
 				"Higher levels of this skill grant increased maximum mana, mana regeneration, and magic damage."
 			]
@@ -1414,16 +1414,8 @@
 				id: "7487E97E1F0700C7"
 				type: "item"
 				item: {
-					id: "enigmaticlegacy:tattered_tome"
+					id: "ars_nouveau:mana_gem"
 					Count: 1b
-					tag: {
-						id: "enigmaticlegacy:tattered_tome"
-						Count: 1b
-						tag: {
-							xpPoints: 50
-							revelationPoints: 2
-						}
-					}
 				}
 			}]
 		}
