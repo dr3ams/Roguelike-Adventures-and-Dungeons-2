@@ -74,6 +74,34 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
+        "item": "mysticalworld:lead_ingot",
+        "count": 3
+      },
+      "payment_item": {
+        "item": "mysticalworld:lead_ore",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 30,
+      "experience": 6
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "mysticalworld:tin_ingot",
+        "count": 3
+      },
+      "payment_item": {
+        "item": "mysticalworld:tin_ore",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 30,
+      "experience": 6
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
         "item": "minecraft:coal",
         "count": 1
       },
