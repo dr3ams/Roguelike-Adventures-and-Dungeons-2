@@ -976,10 +976,7 @@
 				"-Jumping: the higher you jump the more xp you gain (Potions can boost this)."
 				"-Saving fall damage (a chance probability of occuring when taking fall damage)."
 				""
-				"Higher levels of agility will grant a number of advantages:"
-				"-Faster sprinting"
-				"-Higher sprint and crouch jumps"
-				"-A higher chance to save fall damage"
+				"Higher levels of agility will grant a higher chance to save fall damage"
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1425,7 +1422,6 @@
 			y: 9.4d
 			description: [
 				"Smithing skill is gained by a number of different methods:"
-				"-Smelting items"
 				"-Repairing items"
 				"-Salvaging items (place the item in your off-hand, then crouch and right click on a smithing table)"
 				""
