@@ -1,12 +1,23 @@
 {
-	id: "50D45947A8F2A414"
-	order_index: 19
-	title: "Relic crate"
+	id: "23975E9E3CE53B6A"
+	order_index: 50
+	title: "Dungeon's Artifacts Crate"
 	loot_size: 1
 	rewards: [
 		{
 			item: {
-				id: "relics:amphibian_boot"
+				id: "dungeons_gear:boots_of_swiftness"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{ item: "dungeons_gear:arrow_bundle", weight: 40 }
+		{
+			item: {
+				id: "dungeons_gear:corrupted_beacon"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -16,7 +27,7 @@
 		}
 		{
 			item: {
-				id: "relics:arrow_quiver"
+				id: "dungeons_gear:corrupted_pumpkin"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -26,7 +37,7 @@
 		}
 		{
 			item: {
-				id: "relics:bastion_ring"
+				id: "dungeons_gear:corrupted_seeds"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -36,7 +47,7 @@
 		}
 		{
 			item: {
-				id: "relics:blazing_flask"
+				id: "dungeons_gear:death_cap_mushroom"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -46,7 +57,7 @@
 		}
 		{
 			item: {
-				id: "relics:camouflage_ring"
+				id: "dungeons_gear:enchanted_grass"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -56,7 +67,7 @@
 		}
 		{
 			item: {
-				id: "relics:chorus_inhibitor"
+				id: "dungeons_gear:eye_of_the_guardian"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -66,19 +77,7 @@
 		}
 		{
 			item: {
-				id: "relics:chrysolite"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "relics:delay_ring"
+				id: "dungeons_gear:fireworks_display"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -88,7 +87,7 @@
 		}
 		{
 			item: {
-				id: "relics:drowned_belt"
+				id: "dungeons_gear:flaming_quiver"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -98,7 +97,7 @@
 		}
 		{
 			item: {
-				id: "relics:elytra_booster"
+				id: "dungeons_gear:ghost_cloak"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -108,7 +107,7 @@
 		}
 		{
 			item: {
-				id: "relics:enders_hand"
+				id: "dungeons_gear:golem_kit"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -118,7 +117,7 @@
 		}
 		{
 			item: {
-				id: "relics:fragrant_flower"
+				id: "dungeons_gear:gong_of_weakening"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -128,7 +127,7 @@
 		}
 		{
 			item: {
-				id: "relics:ghost_skin_talisman"
+				id: "dungeons_gear:harpoon_quiver"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -138,7 +137,7 @@
 		}
 		{
 			item: {
-				id: "relics:holy_locket"
+				id: "dungeons_gear:harvester"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -148,7 +147,7 @@
 		}
 		{
 			item: {
-				id: "relics:horse_flute"
+				id: "dungeons_gear:iron_hide_amulet"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -158,7 +157,7 @@
 		}
 		{
 			item: {
-				id: "relics:hunter_belt"
+				id: "dungeons_gear:light_feather"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -168,7 +167,7 @@
 		}
 		{
 			item: {
-				id: "relics:ice_breaker"
+				id: "dungeons_gear:lightning_rod"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -178,7 +177,7 @@
 		}
 		{
 			item: {
-				id: "relics:ice_skates"
+				id: "dungeons_gear:love_medallion"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -188,7 +187,7 @@
 		}
 		{
 			item: {
-				id: "relics:infinity_ham"
+				id: "dungeons_gear:satchel_of_elements"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -198,7 +197,7 @@
 		}
 		{
 			item: {
-				id: "relics:jellyfish_necklace"
+				id: "dungeons_gear:satchel_of_elixirs"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -208,7 +207,7 @@
 		}
 		{
 			item: {
-				id: "relics:leather_belt"
+				id: "dungeons_gear:satchel_of_snacks"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -218,7 +217,7 @@
 		}
 		{
 			item: {
-				id: "relics:lucky_horseshoe"
+				id: "dungeons_gear:shock_powder"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -228,7 +227,7 @@
 		}
 		{
 			item: {
-				id: "relics:magic_mirror"
+				id: "dungeons_gear:soul_healer"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -238,7 +237,7 @@
 		}
 		{
 			item: {
-				id: "relics:magma_walker"
+				id: "dungeons_gear:soul_lantern"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -248,7 +247,7 @@
 		}
 		{
 			item: {
-				id: "relics:midnight_robe"
+				id: "dungeons_gear:tasty_bone"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -258,7 +257,7 @@
 		}
 		{
 			item: {
-				id: "relics:old_boot"
+				id: "dungeons_gear:thundering_quiver"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -268,7 +267,7 @@
 		}
 		{
 			item: {
-				id: "relics:out_runner"
+				id: "dungeons_gear:torment_quiver"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -278,7 +277,7 @@
 		}
 		{
 			item: {
-				id: "relics:rage_glove"
+				id: "dungeons_gear:totem_of_regeneration"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -288,7 +287,7 @@
 		}
 		{
 			item: {
-				id: "relics:reflection_necklace"
+				id: "dungeons_gear:totem_of_shielding"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -298,7 +297,7 @@
 		}
 		{
 			item: {
-				id: "relics:runic_hammer"
+				id: "dungeons_gear:totem_of_soul_protection"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -308,7 +307,7 @@
 		}
 		{
 			item: {
-				id: "relics:scarab_talisman"
+				id: "dungeons_gear:updraft_tome"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -318,37 +317,7 @@
 		}
 		{
 			item: {
-				id: "relics:shadow_glaive"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "relics:slime_heart"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "relics:soul_devourer"
+				id: "dungeons_gear:wind_horn"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -358,72 +327,7 @@
 		}
 		{
 			item: {
-				id: "relics:space_dissector"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "relics:spatial_sign"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "relics:spider_necklace"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "relics:spore_sack"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "relics:squire_bag"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "relics:stellar_catalyst"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "relics:wool_mitten"
+				id: "dungeons_gear:wonderful_wheat"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -438,7 +342,7 @@
 			passive: 0
 			monster: 0
 		}
-		color: 16711913
-		string_id: "relic_crate"
+		color: 14399273
+		string_id: "dungeon_s_artifacts_crate"
 	}
 }

@@ -107,7 +107,6 @@
 			}
 			weight: 40
 		}
-		{ item: "relics:aquasteel_ingot", weight: 40 }
 		{
 			item: {
 				id: "relics:arrow_quiver"
@@ -140,20 +139,9 @@
 			weight: 40
 		}
 		{ item: "relics:bloody_feather", weight: 40 }
-		{ item: "relics:bloody_lectern", weight: 40 }
 		{
 			item: {
 				id: "relics:camouflage_ring"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "relics:chalk"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -168,12 +156,14 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
 			weight: 40
 		}
-		{ item: "relics:chrysolite", weight: 40 }
-		{ item: "relics:coal_parchment", weight: 40 }
-		{ item: "relics:common_scrap", weight: 40 }
 		{
 			item: {
 				id: "relics:delay_ring"
@@ -214,9 +204,6 @@
 			}
 			weight: 40
 		}
-		{ item: "relics:epic_scrap", weight: 40 }
-		{ item: "relics:firesteel_ingot", weight: 40 }
-		{ item: "relics:flaming_amber_dust", weight: 40 }
 		{ item: "relics:flaming_amber_geode", weight: 40 }
 		{
 			item: {
@@ -290,16 +277,6 @@
 		}
 		{
 			item: {
-				id: "relics:infinity_ham"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
 				id: "relics:jellyfish_necklace"
 				Count: 1b
 				tag: {
@@ -358,8 +335,6 @@
 			}
 			weight: 40
 		}
-		{ item: "relics:mithril_ingot", weight: 40 }
-		{ item: "relics:obsidian_ingot", weight: 40 }
 		{
 			item: {
 				id: "relics:old_boot"
@@ -380,7 +355,6 @@
 			}
 			weight: 40
 		}
-		{ item: "relics:pedestal", weight: 40 }
 		{
 			item: {
 				id: "relics:rage_glove"
@@ -395,31 +369,6 @@
 		{
 			item: {
 				id: "relics:reflection_necklace"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
-		}
-		{ item: "relics:relic_contract", weight: 40 }
-		{ item: "relics:rune_of_air", weight: 40 }
-		{ item: "relics:rune_of_cold", weight: 40 }
-		{ item: "relics:rune_of_earth", weight: 40 }
-		{ item: "relics:rune_of_explosion", weight: 40 }
-		{ item: "relics:rune_of_fire", weight: 40 }
-		{ item: "relics:rune_of_lightning", weight: 40 }
-		{ item: "relics:rune_of_love", weight: 40 }
-		{ item: "relics:rune_of_luck", weight: 40 }
-		{ item: "relics:rune_of_moon", weight: 40 }
-		{ item: "relics:rune_of_redstone", weight: 40 }
-		{ item: "relics:rune_of_sun", weight: 40 }
-		{ item: "relics:rune_of_water", weight: 40 }
-		{ item: "relics:runic_altar", weight: 40 }
-		{ item: "relics:runic_anvil", weight: 40 }
-		{
-			item: {
-				id: "relics:runic_hammer"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -504,6 +453,11 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
 			weight: 40
 		}
@@ -514,10 +468,14 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
 			weight: 40
 		}
-		{ item: "relics:steel_ingot", weight: 40 }
 		{
 			item: {
 				id: "relics:stellar_catalyst"
@@ -525,11 +483,14 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
 			weight: 40
 		}
-		{ item: "relics:terrasteel_ingot", weight: 40 }
-		{ item: "relics:uncommon_scrap", weight: 40 }
 		{
 			item: {
 				id: "relics:wool_mitten"
@@ -547,7 +508,7 @@
 			passive: 0
 			monster: 0
 		}
-		color: 16777215
+		color: 16762624
 		string_id: "artefact_crate"
 	}
 }
