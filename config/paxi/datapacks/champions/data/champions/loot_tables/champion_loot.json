@@ -19,7 +19,9 @@
           ],
           "functions": [
             {
-              "function": "enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 5,
+              "treasure": false
             }
           ]
         }
