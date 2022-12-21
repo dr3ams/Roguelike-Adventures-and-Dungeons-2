@@ -136,7 +136,8 @@
           "conditions": [
             {
               "condition": "champions:entity_champion",
-              "entity": "this"
+              "entity": "this",
+              "minTier": 2
             },
             {
               "condition": "killed_by_player"
