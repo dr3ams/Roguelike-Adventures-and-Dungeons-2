@@ -35,12 +35,6 @@
 	#Enable Mossy Skeletons  80% of Skeleton spawns in JUNGLE biomes. 
 	#If you prefer to not have them do this, disable this feature. [true / false]
 	enableMossySkeletonReplacesSkeleton = true
-	#Enable Armored Drowned replacing 10% of Drowned spawns in the locations they can spawn in. 
-	#If you prefer to not have them do this, disable this feature. [true / false]
-	enabledArmoredDrownedReplacesDrowned = true
-	#Enable Armored Sunken Skeletons replacing 10% of Sunken Skeleton spawns in the locations they can spawn in. 
-	#If you prefer to not have them do this, disable this feature. [true / false]
-	enableArmoredSunkenSkeletonReplacesSunkenSkeleton = true
 	#Add biome types that the Iceologer can spawn in. 
 	#Put a "!" before the type to prevent spawning in that biome type. 
 	#Leave this blank if you don't want them to spawn at all.
@@ -380,19 +374,6 @@
 	#Maximum spawn group size of Wildfires in the locations they can spawn in. [default:1]
 	#Range: 0 ~ 128
 	wildfireMaxGroupSize = 1
-	#Enable Pillagers wearing armor. 
-	#If you prefer to not have them do this, disable this feature. [true / false]
-	enablePillagersWearingArmor = true
-	#Enable Vindicators wearing armor. 
-	#If you prefer to not have them do this, disable this feature. [true / false]
-	enableVindicatorsWearingArmor = true
-	#Enable Evokers wearing armor. 
-	#If you prefer to not have them do this, disable this feature. [true / false]
-	enableEvokersWearingArmor = true
-	#Enable 3D sleeves on the various Illagers. 
-	#Can be combined with the  resource pack to 
-	#If you prefer a more vanilla look, disable this feature. [true / false]
-	enable3DSleeves = true
 
 #Raid Configuration
 [raid_configuration]
@@ -467,4 +448,20 @@
 	#Enable armors appearing in their own tab in the creative menu. 
 	#Disabling this feature will hide them from creative tab. [true / false]
 	enableItemTab = true
+
+#Vanilla Illager Configuration
+[vanilla_illager_configuration]
+	#Enable Pillagers wearing armor. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enablePillagersWearingArmor = true
+	#Enable Vindicators wearing armor. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableVindicatorsWearingArmor = true
+	#Enable Evokers wearing armor. 
+	#If you prefer to not have them do this, disable this feature. [true / false]
+	enableEvokersWearingArmor = true
+	#Enable 3D sleeves on the various Illagers. 
+	#Can be combined with the  resource pack to 
+	#If you prefer a more vanilla look, disable this feature. [true / false]
+	enable3DSleeves = true
 

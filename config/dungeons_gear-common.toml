@@ -89,15 +89,6 @@
 	#Does nothing if Project: War Dance is not installed. [true / false]
 	enableProjectWarDanceCompat = true
 
-#Combat Configuration
-[combat_configuration]
-	#Enable area of effects also being applied to players. 
-	#If you do not want area of effects being applied to other players, disable this feature. [true / false]
-	enableAreaOfEffectOnPlayers = false
-	#Add entities that will never be targeted by aggressive Dungeons Gear effects. 
-	#To do so, enter their registry names.
-	effectTargetBlacklist = ["minecraft:chicken", "minecraft:cow", "minecraft:pig", "minecraft:sheep", "minecraft:bee", "minecraft:wolf", "minecraft:fox", "minecraft:villager", "minecraft:horse", "minecraft:donkey", "minecraft:mooshroom", "minecraft:parrot", "minecraft:ocelot", "minecraft:rabbit", "minecraft:squid", "minecraft:strider", "minecraft:turtle", "minecraft:salmon", "minecraft:cod", "minecraft:pufferfish", "minecraft:tropical_fish", "minecraft:dolphin", "minecraft:panda", "minecraft:polar_bear", "minecraft:bat", "minecraft:trader_llama"]
-
 #Effect Specific Configuration
 [effect_specific_configuration]
 	#The damage caused by Party Starter. [0-10000, default: 4]

@@ -197,11 +197,34 @@
 					}
 					buy: 1L
 				}
+				{
+					item: {
+						id: "minecraft:slime_ball"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 50L
+				}
 			]
 		}
 		{
 			title: "Cases"
-			icon: "kubejs:chest2"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "materials_magic"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			entries: [
 				{
 					item: "aquaculture:lockbox"
@@ -232,19 +255,6 @@
 				}
 				{
 					item: {
-						id: "blue_skies:loot_bag"
-						Count: 1b
-						tag: {
-							LootTable: "minecraft:chests/spawn_bonus_chest"
-							display: {
-								Name: "[{\"text\":\"Spawn Chest Loot Bag\",\"color\":\"yellow\",\"italic\":\"false\"}]"
-							}
-						}
-					}
-					buy: 330L
-				}
-				{
-					item: {
 						id: "ftbquests:lootcrate"
 						Count: 1b
 						tag: {
@@ -271,7 +281,7 @@
 							}
 						}
 					}
-					buy: 600L
+					buy: 400L
 				}
 				{
 					item: {
@@ -286,7 +296,7 @@
 							}
 						}
 					}
-					buy: 600L
+					buy: 300L
 				}
 				{
 					item: {
@@ -361,7 +371,7 @@
 							}
 						}
 					}
-					buy: 550L
+					buy: 150L
 				}
 				{
 					item: {
@@ -392,6 +402,51 @@
 						}
 					}
 					buy: 256L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_s_weapons_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 150L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_s_artifacts_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 250L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "relics_materials_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 200L
 				}
 			]
 		}

@@ -185,7 +185,7 @@
 		#Range: 0 ~ 1000
 		chance = 5
 		whitelist = false
-		biome_types = ["NETHER", "END", "WATER", "COLD", "SNOWY", "MUSHROOM"]
+		biome_types = ["NETHER", "END", "WATER", "SNOWY", "MUSHROOM"]
 
 	[mob_spawns.centaur_spawn]
 		#Range: 0 ~ 1000
@@ -303,13 +303,13 @@
 
 	[mob_spawns.satyr_spawn]
 		#Range: 0 ~ 1000
-		chance = 22
+		chance = 12
 		whitelist = true
 		biome_types = ["FOREST", "CONIFEROUS", "JUNGLE"]
 
 	[mob_spawns.shade_spawn]
 		#Range: 0 ~ 1000
-		chance = 10
+		chance = 7
 		whitelist = false
 		biome_types = []
 

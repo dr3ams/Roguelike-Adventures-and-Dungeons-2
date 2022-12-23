@@ -270,4 +270,3 @@ onEvent('item.tags', event => {
 	event.add('curios:emblem', 'kubejs:mark_underdog')
 	event.add('curios:emblem', 'kubejs:mark_beastmaster')
 })
-
