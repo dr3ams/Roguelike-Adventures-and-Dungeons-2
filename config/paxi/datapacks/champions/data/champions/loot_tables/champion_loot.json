@@ -114,9 +114,14 @@
           "name": "kubejs:copper_coin",
           "weight": 1,
           "conditions": [
+			{
+              "condition": "minecraft:random_chance",
+              "chance": 0.4
+            },
             {
               "condition": "champions:entity_champion",
-              "entity": "this"
+              "entity": "this",
+              "maxTier": 2
             },
             {
               "condition": "killed_by_player"
@@ -134,6 +139,10 @@
           "name": "kubejs:monster_coin",
           "weight": 1,
           "conditions": [
+			{
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            },
             {
               "condition": "champions:entity_champion",
               "entity": "this",
@@ -147,7 +156,7 @@
       ]
     },
     {
-      "name": "ironcoin#2",
+      "name": "ironcoin",
       "rolls": 1,
       "entries": [
         {
@@ -155,10 +164,15 @@
           "name": "kubejs:iron_coin",
           "weight": 1,
           "conditions": [
+			{
+              "condition": "minecraft:random_chance",
+              "chance": 0.25
+            },
             {
               "condition": "champions:entity_champion",
               "entity": "this",
-              "minTier": 2
+              "minTier": 2,
+              "maxTier": 3
             },
             {
               "condition": "killed_by_player"
@@ -168,7 +182,7 @@
       ]
     },	
 	{
-      "name": "goldcoin#3",
+      "name": "goldcoin",
       "rolls": 1,
       "entries": [
         {
@@ -176,27 +190,10 @@
           "name": "kubejs:gold_coin",
           "weight": 1,
           "conditions": [
-            {
-              "condition": "champions:entity_champion",
-              "entity": "this",
-              "minTier": 3
+			{
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
             },
-            {
-              "condition": "killed_by_player"
-            }
-          ]
-        }
-      ]
-    },
-	{
-      "name": "goldcoin#4",
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "kubejs:gold_coin",
-          "weight": 1,
-          "conditions": [
             {
               "condition": "champions:entity_champion",
               "entity": "this",
@@ -208,27 +205,6 @@
           ]
         }
       ]
-    },	
-	{
-      "name": "diamond#5",
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "item",
-          "name": "kubejs:diamond_coin",
-          "weight": 1,
-          "conditions": [
-            {
-              "condition": "champions:entity_champion",
-              "entity": "this",
-              "minTier": 5
-            },
-            {
-              "condition": "killed_by_player"
-            }
-          ]
-        }
-      ]
-    }
+    }	
   ]
 }

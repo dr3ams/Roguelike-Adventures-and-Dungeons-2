@@ -2588,16 +2588,8 @@
 			}]
 		}
 		{
-			title: "Monster Coin -> Random Dungeon's Artifacts Crate"
-			icon: {
-				id: "artifacts:shock_pendant"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			title: "Monster Coin -> Random Artifacts Crate"
+			icon: { id: "artifacts:shock_pendant", Count: 5b }
 			disable_toast: true
 			x: 11.0d
 			y: 5.5d
@@ -2615,20 +2607,20 @@
 						}
 					}
 				}
+				count: 5L
 				consume_items: true
 			}]
 			rewards: [{
-				id: "2F6259EFCB518524"
+				id: "60D0776BF6A0E4DD"
 				type: "questsadditions:repeat_random"
-				team_reward: false
-				table_id: 2564622546530286442L
+				table_id: 2742965285575870096L
 			}]
 		}
 		{
 			title: "Monster Coin -> Random Dungeon's Mobs Gear"
 			icon: {
 				id: "dungeons_gear:gilded_glory_chestplate"
-				Count: 1b
+				Count: 5b
 				tag: {
 					Damage: 0
 				}
@@ -2661,6 +2653,7 @@
 						}
 					}
 				}
+				count: 5L
 				consume_items: true
 			}]
 			rewards: [{
@@ -2674,7 +2667,7 @@
 			title: "Monster Coin -> Random Dungeon's Weapons Crate"
 			icon: {
 				id: "dungeons_gear:firebrand"
-				Count: 1b
+				Count: 5b
 				tag: {
 					Damage: 0
 				}
@@ -2707,6 +2700,7 @@
 						}
 					}
 				}
+				count: 3L
 				consume_items: true
 			}]
 			rewards: [{
