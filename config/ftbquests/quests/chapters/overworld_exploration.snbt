@@ -2120,8 +2120,8 @@
 			]
 		}
 		{
-			x: 20.0d
-			y: -3.0d
+			x: 19.5d
+			y: -3.5d
 			description: ["The Altar of the Sea is a block with allows you to recycle worthless enchanted items.  To begin, you need four enchanted items and a fair amount of experience.  Then, you place one enchanted item on each pillar (target the pillar and right click it while holding the item).  Once all four pillars hold an item, the Altar will begin to drain experience from nearby players.  The amount of experience required is based on the levels an rarities of the provided enchantments.  Once the experience has been drained, all four items will be consumed, and a newly created enchanted book will be created.  The new enchantments are random, but better enchantments will be obtained with higher levels and rarities of provided enchantments.  The Altar of the Sea can generate treasure enchantments."]
 			dependencies: ["43509530CAD67EE9"]
 			id: "1A15D385F7DDF6E4"
@@ -4323,45 +4323,6 @@
 				id: "18CF93133502C49C"
 				type: "choice"
 				table_id: 768393147870328736L
-			}]
-		}
-		{
-			x: 20.0d
-			y: -4.0d
-			description: [
-				"You can level up enchantments on your gear with valuable loot."
-				""
-				"Higher enchantment levels will require more items / items with higher worth"
-				""
-				"Multiple items are allowed as payment items"
-			]
-			dependencies: ["43509530CAD67EE9"]
-			id: "64631AC63945B3B6"
-			tasks: [{
-				id: "7354F81578F59F1F"
-				type: "item"
-				item: {
-					id: "toolleveling:tool_leveling_table"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "7E6959CB366B7674"
-				type: "item"
-				item: {
-					id: "byg:ametrine_gems"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
 			}]
 		}
 		{
