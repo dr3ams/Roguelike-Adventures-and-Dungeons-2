@@ -2312,12 +2312,14 @@
 					Damage: 0
 				}
 			}
+			disable_toast: true
 			x: 2.5d
 			y: 2.5d
 			id: "2699B3C8C2085097"
 			tasks: [{
 				id: "6DE7233A9AAFAE48"
 				type: "item"
+				disable_toast: true
 				item: {
 					id: "kubejs:gold_coin"
 					Count: 1b
@@ -2327,10 +2329,12 @@
 						}
 					}
 				}
+				consume_items: true
 			}]
 			rewards: [{
 				id: "0A1A04672A3633B6"
 				type: "questsadditions:repeat_choice"
+				team_reward: false
 				table_id: 6789086203719600389L
 			}]
 		}
@@ -2343,12 +2347,14 @@
 					Damage: 0
 				}
 			}
+			disable_toast: true
 			x: 1.5d
 			y: 2.5d
 			id: "6CA383590D6216C3"
 			tasks: [{
 				id: "10972A5696072450"
 				type: "item"
+				disable_toast: true
 				item: {
 					id: "kubejs:gold_coin"
 					Count: 1b
@@ -2358,10 +2364,12 @@
 						}
 					}
 				}
+				consume_items: true
 			}]
 			rewards: [{
 				id: "50BCBFD8E438B984"
 				type: "questsadditions:repeat_choice"
+				team_reward: false
 				table_id: 2564622546530286442L
 			}]
 		}
@@ -2396,9 +2404,9 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "3073A4E439FB0CA3"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "0DE7D508B0149942"
+				type: "questsadditions:repeat_random"
+				table_id: 748146749013531178L
 			}]
 		}
 		{
@@ -2508,9 +2516,9 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "422DA8AF7C7C2024"
-				type: "xp_levels"
-				xp_levels: 10
+				id: "790056BC266C9E64"
+				type: "questsadditions:repeat_random"
+				table_id: 1115475731524830700L
 			}]
 		}
 		{
