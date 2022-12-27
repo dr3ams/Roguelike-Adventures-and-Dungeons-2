@@ -1173,18 +1173,11 @@
 		}
 		{
 			title: "Kruscle"
-			icon: {
-				id: "kubejs:medal"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "kubejs:kruscle"
 			x: 5.0d
 			y: 5.5d
 			subtitle: "Kruscle"
+			description: ["{image:kubejs:textures/item/kruscle.png width:100 height:100 align:1}"]
 			id: "285590EB3BB13B8D"
 			tasks: [{
 				id: "7C504A53699D49A8"
@@ -1949,6 +1942,39 @@
 				id: "039F3C5B8DE2E5AA"
 				type: "checkmark"
 				title: "Custom?"
+			}]
+		}
+		{
+			icon: "minecraft:emerald"
+			x: 9.0d
+			y: 3.5d
+			subtitle: "Void contains free donuts!"
+			description: ["{image:minecraft:textures/item/emerald.png width:100 height:100 align:1}"]
+			id: "5A1E90887BE1659F"
+			tasks: [{
+				id: "23DE3624A3745F48"
+				type: "checkmark"
+				title: "Emsiron"
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -3.0d
+			y: 3.5d
+			subtitle: "Gryphon"
+			id: "51F7B2C0734345C4"
+			tasks: [{
+				id: "340BF5B25D8287FF"
+				type: "checkmark"
+				title: "Gryphon"
 			}]
 		}
 	]

@@ -118,6 +118,9 @@ event.create('rucksack').displayName('Rucksack')
 event.create('bomb').displayName('Bomb')
 event.create('dodge').displayName('Dodge')
 event.create('scaling').displayName('Scaling')
+
+
+event.create('kruscle').displayName('Kruscle Patreon Supporter Icon')
 })
 onEvent('block.registry', event => {
 	// Register new blocks here
