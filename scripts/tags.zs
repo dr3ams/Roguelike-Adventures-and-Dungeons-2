@@ -2,6 +2,7 @@
 
 <tag:blocks:twilightforest:portal/edge>.add(<block:byg:meadow_grass_block>);
 
+<tag:items:curios:charm>.remove(<item:storagenetwork:collector_remote>);
 
 <tag:items:forge:chef_upgrade_items>.add(
     <item:farmersdelight:vegetable_soup>,
