@@ -20,3 +20,10 @@ import crafttweaker.api.item.IItemStack;
 <item:tombstone:christmas_hat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.luck>, "e6f5182f-39e8-4f5d-9998-fc9ddf7c969e", "Christmas hat luck bonus", -47, ADDITION, [<equipmentslottype:head>]);
 <item:tombstone:christmas_hat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "07c7291f-d909-4411-88c0-3841125b7414", "Christmas hat speed boost", -0.03, ADDITION, [<equipmentslottype:head>]);
 <item:tombstone:christmas_hat>.addTooltip("Grants +3 luck, +0.02 speed");
+
+//minecraft dungeons tooltips for consistency
+<item:minecraft:bow>.addTooltip("A simple but well-rounded piece of weaponry. The hunters of the Pumpkin Pastures say that a bow doesn't let you down, unlike other trinkets.");
+<item:minecraft:crossbow>.addTooltip("The crossbow is the ranged weapon of the Illagers and is a common sight among Pillager warriors.");
+
+//uncrafting table tooltip
+<item:twilightforest:uncrafting_table>.addTooltip("The uncrafting function of the uncrafting table is disabled.");
