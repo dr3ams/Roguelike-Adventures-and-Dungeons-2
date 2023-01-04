@@ -1196,7 +1196,7 @@
 					Damage: 0
 				}
 			}
-			x: 0.9749999999999996d
+			x: 0.55d
 			y: 6.0d
 			description: [
 				"Excavation skill is gained by breaking dirt or dirt-based blocks."
@@ -1234,7 +1234,7 @@
 					Damage: 0
 				}
 			}
-			x: 0.125d
+			x: -0.3d
 			y: 6.0d
 			description: [
 				"Mining Skill is gained by breaking rock or rock-based blocks."
@@ -1272,7 +1272,7 @@
 					Damage: 0
 				}
 			}
-			x: -0.7250000000000001d
+			x: -1.15d
 			y: 6.0d
 			description: [
 				"Woodcutting skill is gained by breaking wood blocks (logs, planks, etc.)."
@@ -1310,7 +1310,7 @@
 					Damage: 0
 				}
 			}
-			x: -1.575d
+			x: -2.0d
 			y: 6.0d
 			description: [
 				"Farming skill is gained by harvesting plants and by breeding animals."
@@ -1477,6 +1477,48 @@
 				id: "0BE7676AB6C019ED"
 				type: "xp"
 				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "bountifulbaubles:gloves_digging_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.4d
+			y: 6.0d
+			description: [
+				"Excavation skill is gained while mining, excavating or woodcutting."
+				""
+				"Higher levels of gathering allow you to equip and use higher quality items."
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			id: "6754527124EA8B6B"
+			tasks: [{
+				id: "75B1CF2CFE5E288F"
+				type: "checkmark"
+				title: "Gathering"
+			}]
+			rewards: [{
+				id: "16655502056D1B37"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 	]

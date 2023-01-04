@@ -1,85 +1,105 @@
 {
 	"#forge:ores/aluminum":
 	{
-		"mining": 14
+		"mining": 14,
+		"gathering": 14
 	},
 	"quark:monster_box":
 	{
 		"mining": 30,
 		"combat": 30,
-		"endurance": 30
+		"endurance": 30,
+		"gathering": 30
 	},
 	"randomite:randomite_ore":
 	{
-		"mining": 20
+		"mining": 20,
+		"gathering": 20
 	},
 	"minecraft:ancient_debris":
 	{
-		"mining": 20
+		"mining": 20,
+		"gathering": 20
 	},
 	"#forge:ores/coal":
 	{
-		"mining": 1
+		"mining": 1,
+		"gathering": 1
 	},
 	"#forge:ores/copper":
 	{
-		"mining": 1
+		"mining": 1,
+		"gathering": 1
 	},
 	"#forge:ores/diamond":
 	{
-		"mining": 10
+		"mining": 10,
+		"gathering": 10
 	},
 	"#forge:ores/emerald":
 	{
-		"mining": 10
+		"mining": 10,
+		"gathering": 10
 	},
 	"#forge:ores/sapphire":
 	{
-		"mining": 10
+		"mining": 10,
+		"gathering": 10
 	},
 	"#forge:ores/gold":
 	{
-		"mining": 10
+		"mining": 10,
+		"gathering": 10
 	},
 	"#forge:ores/iron":
 	{
-		"mining": 3
+		"mining": 3,
+		"gathering": 3
 	},
 	"#forge:ores/lapis":
 	{
-		"mining": 5
+		"mining": 5,
+		"gathering": 5
 	},
 	"#forge:ores/nickel":
 	{
-		"mining": 5
+		"mining": 5,
+		"gathering": 5
 	},
 	"#forge:ores/lead":
 	{
-		"mining": 4
+		"mining": 4,
+		"gathering": 4
 	},
 	"#forge:ores/quartz":
 	{
-		"mining": 1.5
+		"mining": 1.5,
+		"gathering": 1.5
 	},
 	"#forge:ores/redstone":
 	{
-		"mining": 1.5
+		"mining": 1.5,
+		"gathering": 1.5
 	},
 	"#forge:ores/silver":
 	{
-		"mining": 3
+		"mining": 3,
+		"gathering": 3
 	},
 	"#forge:ores/tin":
 	{
-		"mining": 3
+		"mining": 3,
+		"gathering": 3
 	},
 	"#forge:ores/zinc":
 	{
-		"mining": 3
+		"mining": 3,
+		"gathering": 3
 	},
 	"#minecraft:logs":
 	{
-		"woodcutting": 2
+		"woodcutting": 2,
+		"gathering": 2
 	},
 	"appliedenergistics2:charged_quartz_ore":
 	{
@@ -87,28 +107,34 @@
 	},
 	"appliedenergistics2:quartz_ore":
 	{
-		"mining": 3
+		"mining": 3,
+		"gathering": 3
 	},
 	"ars_nouveau:arcane_ore":
 	{
 		"mining": 3,
-		"magic": 2
+		"magic": 2,
+		"gathering": 3
 	},
 	"ars_nouveau:blue_archwood_log":
 	{
-		"woodcutting": 7.5
+		"woodcutting": 7.5,
+		"gathering": 7.5
 	},
 	"ars_nouveau:blue_archwood_wood":
 	{
-		"woodcutting": 7.5
+		"woodcutting": 7.5,
+		"gathering": 7.5
 	},
 	"ars_nouveau:green_archwood_log":
 	{
-		"woodcutting": 7.25
+		"woodcutting": 7.25,
+		"gathering": 7.25
 	},
 	"ars_nouveau:green_archwood_wood":
 	{
-		"woodcutting": 7.25
+		"woodcutting": 7.25,
+		"gathering": 7.25
 	},
 	"ars_nouveau:mana_bloom_crop":
 	{
@@ -116,19 +142,23 @@
 	},
 	"ars_nouveau:purple_archwood_log":
 	{
-		"woodcutting": 7.615
+		"woodcutting": 7.615,
+		"gathering": 7.615
 	},
 	"ars_nouveau:purple_archwood_wood":
 	{
-		"woodcutting": 7.615
+		"woodcutting": 7.615,
+		"gathering": 7.615
 	},
 	"ars_nouveau:red_archwood_log":
 	{
-		"woodcutting": 7.35
+		"woodcutting": 7.35,
+		"gathering": 7.35
 	},
 	"ars_nouveau:red_archwood_wood":
 	{
-		"woodcutting": 7.35
+		"woodcutting": 7.35,
+		"gathering": 7.35
 	},
 	"astralsorcery:aquamarine_sand_ore":
 	{
@@ -265,15 +295,18 @@
 	},
 	"biomesoplenty:willow_wood":
 	{
-		"woodcutting": 14
+		"woodcutting": 14,
+		"gathering": 14
 	},
 	"byg:holly_log":
 	{
-		"woodcutting": 8
+		"woodcutting": 8,
+		"gathering": 8
 	},
 	"byg:zelkova_log":
 	{
-		"woodcutting": 9
+		"woodcutting": 9,
+		"gathering": 9
 	},
 	"charm:nether_gold_deposit":
 	{
@@ -378,7 +411,8 @@
 	},
 	"enigmaticlegacy:etherium_ore":
 	{
-		"mining": 5
+		"mining": 5,
+		"gathering": 5
 	},
 	"forbidden_arcanus:arcane_crystal_ore":
 	{
@@ -388,86 +422,105 @@
 	"good_nights_sleep:necrum_ore":
 	{
 		"mining": 16,
-		"magic": 4
+		"magic": 4,
+		"gathering": 16
 	},
 	"good_nights_sleep:negatite_ore":
 	{
 		"mining": 22,
-		"magic": 8
+		"magic": 8,
+		"gathering": 22
 	},
 	"good_nights_sleep:positite_ore":
 	{
 		"mining": 22,
-		"magic": 8
+		"magic": 8,
+		"gathering": 22
 	},
 	"good_nights_sleep:rainbow_ore":
 	{
 		"mining": 16,
-		"magic": 4
+		"magic": 4,
+		"gathering": 16
 	},
 	"good_nights_sleep:zitrite_ore":
 	{
 		"mining": 12,
-		"magic": 2
+		"magic": 2,
+		"gathering": 12
 	},
 	"good_nights_sleep:candy_ore":
 	{
 		"mining": 7,
-		"magic": 1
+		"magic": 1,
+		"gathering": 7
 	},
 	"iceandfire:amythest_ore":
 	{
-		"mining": 5
+		"mining": 5,
+		"gathering": 5
 	},
 	"iceandfire:copper_ore":
 	{
-		"mining": 3
+		"mining": 3,
+		"gathering": 3
 	},
 	"iceandfire:sapphire_ore":
 	{
-		"mining": 3
+		"mining": 3,
+		"gathering": 3
 	},
 	"iceandfire:silver_ore":
 	{
-		"mining": 3
+		"mining": 3,
+		"gathering": 3
 	},
 	"mekanism:fluorite_ore":
 	{
-		"mining": 10
+		"mining": 10,
+		"gathering": 10
 	},
 	"mekanism:osmium_ore":
 	{
-		"mining": 16
+		"mining": 16,
+		"gathering": 16
 	},
 	"minecraft:acacia_leaves":
 	{
-		"woodcutting": 1.1
+		"woodcutting": 1.1,
+		"gathering": 1.1
 	},
 	"minecraft:acacia_log":
 	{
-		"woodcutting": 14
+		"woodcutting": 14,
+		"gathering": 14
 	},
 	"minecraft:acacia_planks":
 	{
-		"woodcutting": 5
+		"woodcutting": 5,
+		"gathering": 5
 	},
 	"minecraft:acacia_wood":
 	{
-		"woodcutting": 14
+		"woodcutting": 14,
+		"gathering": 14
 	},
 	"minecraft:andesite":
 	{
-		"mining": 0.05
+		"mining": 0.05,
+		"gathering": 0.05
 	},
 	"minecraft:bamboo":
 	{
 		"farming": 0.2,
-		"woodcutting": 0.4
+		"woodcutting": 0.4,
+		"gathering": 0.4
 	},
 	"minecraft:bamboo_sapling":
 	{
 		"farming": 0.2,
-		"woodcutting": 0.4
+		"woodcutting": 0.4,
+		"gathering": 0.4
 	},
 	"minecraft:bedrock":
 	{
@@ -483,19 +536,23 @@
 	},
 	"minecraft:birch_log":
 	{
-		"woodcutting": 12
+		"woodcutting": 12,
+		"gathering": 12
 	},
 	"minecraft:birch_planks":
 	{
-		"woodcutting": 5
+		"woodcutting": 5,
+		"gathering": 5
 	},
 	"minecraft:birch_wood":
 	{
-		"woodcutting": 12
+		"woodcutting": 12,
+		"gathering": 12
 	},
 	"#forge:bookshelves":
 	{
-		"woodcutting": 5
+		"woodcutting": 5,
+		"gathering": 5
 	},
 	"minecraft:brown_mushroom_block":
 	{
@@ -523,15 +580,18 @@
 	},
 	"minecraft:clay":
 	{
-		"excavation": 2
+		"excavation": 2,
+		"gathering": 2
 	},
 	"minecraft:clay_ball":
 	{
-		"excavation": 2
+		"excavation": 2,
+		"gathering": 2
 	},
 	"minecraft:coarse_dirt":
 	{
-		"excavation": 1.7
+		"excavation": 1.7,
+		"gathering": 1.7
 	},
 	"minecraft:cobblestone":
 	{
@@ -543,85 +603,104 @@
 	},
 	"minecraft:dark_oak_log":
 	{
-		"woodcutting": 7
+		"woodcutting": 7,
+		"gathering": 7
 	},
 	"minecraft:dark_oak_planks":
 	{
-		"woodcutting": 5
+		"woodcutting": 5,
+		"gathering": 5
 	},
 	"minecraft:dark_oak_wood":
 	{
-		"woodcutting": 7
+		"woodcutting": 7,
+		"gathering": 7
 	},
 	"minecraft:dark_prismarine":
 	{
-		"mining": 1
+		"mining": 1,
+		"gathering": 1
 	},
 	"minecraft:diorite":
 	{
-		"mining": 0.05
+		"mining": 0.05,
+		"gathering": 0.05
 	},
 	"minecraft:dirt":
 	{
-		"excavation": 1
+		"excavation": 1,
+		"gathering": 1
 	},
 	"minecraft:granite":
 	{
-		"mining": 0.05
+		"mining": 0.05,
+		"gathering": 0.05
 	},
 	"minecraft:grass_block":
 	{
-		"excavation": 1
+		"excavation": 1,
+		"gathering": 1
 	},
 	"#forge:gravel":
 	{
-		"excavation": 1
+		"excavation": 1,
+		"gathering": 1
 	},
 	"minecraft:ice":
 	{
-		"mining": 0.1
+		"mining": 0.1,
+		"gathering": 0.1
 	},
 	"minecraft:infested_chiseled_stone_bricks":
 	{
 		"mining": 2,
-		"dungeoneering": 10
+		"dungeoneering": 10,
+		"gathering": 2
 	},
 	"minecraft:infested_cobblestone":
 	{
 		"mining": 1,
-		"dungeoneering": 10
+		"dungeoneering": 10,
+		"gathering": 1
 	},
 	"minecraft:infested_cracked_stone_bricks":
 	{
 		"mining": 2,
-		"dungeoneering": 10
+		"dungeoneering": 10,
+		"gathering": 2
 	},
 	"minecraft:infested_mossy_stone_bricks":
 	{
 		"mining": 2,
-		"dungeoneering": 10
+		"dungeoneering": 10,
+		"gathering": 2
 	},
 	"minecraft:infested_stone":
 	{
 		"mining": 2,
-		"dungeoneering": 10
+		"dungeoneering": 10,
+		"gathering": 2
 	},
 	"minecraft:infested_stone_bricks":
 	{
 		"mining": 2,
-		"dungeoneering": 10
+		"dungeoneering": 10,
+		"gathering": 2
 	},
 	"minecraft:jungle_log":
 	{
-		"woodcutting": 4.5
+		"woodcutting": 4.5,
+		"gathering": 4.5
 	},
 	"minecraft:jungle_planks":
 	{
-		"woodcutting": 5
+		"woodcutting": 5,
+		"gathering": 5
 	},
 	"minecraft:jungle_wood":
 	{
-		"woodcutting": 4.5
+		"woodcutting": 4.5,
+		"gathering": 4.5
 	},
 	"minecraft:kelp":
 	{
@@ -633,7 +712,8 @@
 	},
 	"minecraft:log":
 	{
-		"woodcutting": 2
+		"woodcutting": 2,
+		"gathering": 2
 	},
 	"minecraft:melon":
 	{
@@ -649,34 +729,41 @@
 	},
 	"minecraft:mossy_cobblestone":
 	{
-		"mining": 1
+		"mining": 1,
+		"gathering": 1
 	},
 	"minecraft:chiseled_stone_bricks":
 	{
 		"mining": 2,
-		"dungeoneering": 3
+		"dungeoneering": 3,
+		"gathering": 2
 	},
 	"minecraft:cracked_stone_bricks":
 	{
 		"mining": 2,
-		"dungeoneering": 3
+		"dungeoneering": 3,
+		"gathering": 2
 	},
 	"minecraft:mossy_stone_bricks":
 	{
 		"mining": 2,
-		"dungeoneering": 3
+		"dungeoneering": 3,
+		"gathering": 2
 	},
 	"minecraft:mycelium":
 	{
-		"excavation": 3
+		"excavation": 3,
+		"gathering": 3
 	},
 	"minecraft:nether_bricks":
 	{
-		"mining": 0.2
+		"mining": 0.2,
+		"gathering": 0.2
 	},
 	"minecraft:nether_quartz":
 	{
-		"mining": 1.5
+		"mining": 1.5,
+		"gathering": 1.5
 	},
 	"minecraft:nether_wart":
 	{
@@ -688,35 +775,43 @@
 	},
 	"minecraft:oak_log":
 	{
-		"woodcutting": 2
+		"woodcutting": 2,
+		"gathering": 2
 	},
 	"minecraft:oak_planks":
 	{
-		"woodcutting": 1
+		"woodcutting": 1,
+		"gathering": 1
 	},
 	"minecraft:oak_sapling":
 	{
-		"woodcutting": 2
+		"woodcutting": 2,
+		"gathering": 2
 	},
 	"minecraft:oak_wood":
 	{
-		"woodcutting": 2
+		"woodcutting": 2,
+		"gathering": 2
 	},
 	"minecraft:podzol":
 	{
-		"excavation": 3
+		"excavation": 3,
+		"gathering": 3
 	},
 	"minecraft:polished_andesite":
 	{
-		"mining": 0.05
+		"mining": 0.05,
+		"gathering": 0.05
 	},
 	"minecraft:polished_diorite":
 	{
-		"mining": 0.03
+		"mining": 0.03,
+		"gathering": 0.03
 	},
 	"minecraft:polished_granite":
 	{
-		"mining": 0.04
+		"mining": 0.04,
+		"gathering": 0.04
 	},
 	"minecraft:potato":
 	{
@@ -728,11 +823,13 @@
 	},
 	"minecraft:prismarine":
 	{
-		"mining": 2.5
+		"mining": 2.5,
+		"gathering": 2.5
 	},
 	"minecraft:prismarine_bricks":
 	{
-		"mining": 4
+		"mining": 4,
+		"gathering": 4
 	},
 	"minecraft:pumpkin":
 	{
@@ -744,15 +841,18 @@
 	},
 	"minecraft:purpur_block":
 	{
-		"mining": 2
+		"mining": 2,
+		"gathering": 2
 	},
 	"minecraft:purpur_pillar":
 	{
-		"mining": 2.5
+		"mining": 2.5,
+		"gathering": 2.5
 	},
 	"minecraft:rail":
 	{
-		"mining": 0.1
+		"mining": 0.1,
+		"gathering": 0.1
 	},
 	"minecraft:red_mushroom_block":
 	{
@@ -760,42 +860,51 @@
 	},
 	"minecraft:red_sand":
 	{
-		"excavation": 1.2
+		"excavation": 1.2,
+		"gathering": 1.2
 	},
 	"#forge:sand":
 	{
-		"excavation": 1
+		"excavation": 1,
+		"gathering": 1
 	},
 	"#tropicraft:sand":
 	{
 		"excavation": 1,
-		"wayfaring": 1
+		"wayfaring": 1,
+		"gathering": 1
 	},
 	"minecraft:snow_block":
 	{
-		"excavation": 3.5
+		"excavation": 3.5,
+		"gathering": 3.5
 	},
 	"minecraft:soul_sand":
 	{
-		"excavation": 2
+		"excavation": 2,
+		"gathering": 2
 	},
 	"minecraft:spawner":
 	{
 		"mining": 30,
 		"combat": 30,
-		"endurance": 30
+		"endurance": 30,
+		"gathering": 30
 	},
 	"minecraft:spruce_log":
 	{
-		"woodcutting": 5
+		"woodcutting": 5,
+		"gathering": 5
 	},
 	"minecraft:spruce_planks":
 	{
-		"woodcutting": 2
+		"woodcutting": 2,
+		"gathering": 2
 	},
 	"minecraft:spruce_wood":
 	{
-		"woodcutting": 5
+		"woodcutting": 5,
+		"gathering": 5
 	},
 	"minecraft:stone":
 	{
@@ -948,183 +1057,227 @@
 	},
 	"undergarden:cloggrum_ore":
 	{
-		"mining": 7
+		"mining": 7,
+		"gathering": 7
 	},
 	"undergarden:coal_ore":
 	{
-		"mining": 4
+		"mining": 4,
+		"gathering": 4
 	},
 	"undergarden:diamond_ore":
 	{
-		"mining": 15
+		"mining": 15,
+		"gathering": 15
 	},
 	"undergarden:froststeel_ore":
 	{
-		"mining": 7
+		"mining": 7,
+		"gathering": 7
 	},
 	"undergarden:gold_ore":
 	{
-		"mining": 7
+		"mining": 7,
+		"gathering": 7
 	},
 	"undergarden:iron_ore":
 	{
-		"mining": 5
+		"mining": 5,
+		"gathering": 5
 	},
 	"undergarden:regalium_ore":
 	{
-		"mining": 7
+		"mining": 7,
+		"gathering": 7
 	},
 	"undergarden:utherium_ore":
 	{
-		"mining": 7
+		"mining": 7,
+		"gathering": 7
 	},
 	"undergarden:otherside_utherium_ore":
 	{
-		"mining": 7
+		"mining": 7,
+		"gathering": 7
 	},
 	"upgrade_aquatic:embedded_ammonite":
 	{
-		"mining": 1
+		"mining": 1,
+		"gathering": 1
 	},
 	"atum:bone_ore":
 	{
-		"mining": 1
+		"mining": 1,
+		"gathering": 1
 	},
 	"atum:relic_ore":
 	{
-		"mining": 7
+		"mining": 7,
+		"gathering": 7
 	},
 	"atum:nebu_ore":
 	{
-		"mining": 15
+		"mining": 15,
+		"gathering": 15
 	},
 	"betterendforge:ender_ore":
 	{
-		"mining": 5
+		"mining": 5,
+		"gathering": 5
 	},
 	"betterendforge:amber_ore":
 	{
-		"mining": 5
+		"mining": 5,
+		"gathering": 5
 	},
 	"betterendforge:thallasium_ore":
 	{
-		"mining": 3
+		"mining": 3,
+		"gathering": 3
 	},
 	"#blue_skies:ores/diopside":
 	{
-		"mining": 10
+		"mining": 10,
+		"gathering": 10
 	},
 	"#blue_skies:ores/pyrope":
 	{
-		"mining": 3
+		"mining": 3,
+		"gathering": 3
 	},
 	"#blue_skies:ores/aquite":
 	{
-		"mining": 4
+		"mining": 4,
+		"gathering": 4
 	},
 	"#blue_skies:ores/charoite":
 	{
-		"mining": 10
+		"mining": 10,
+		"gathering": 10
 	},
 	"#blue_skies:ores/moonstone":
 	{
-		"mining": 2
+		"mining": 2,
+		"gathering": 2
 	},
 	"blue_skies:falsite_ore":
 	{
-		"mining": 6
+		"mining": 6,
+		"gathering": 6
 	},
 	"blue_skies:ventium_ore":
 	{
-		"mining": 3
+		"mining": 3,
+		"gathering": 3
 	},
 	"blue_skies:horizonite_ore":
 	{
-		"mining": 2
+		"mining": 2,
+		"gathering": 2
 	},
 	"buddycards:luminis_ore":
 	{
-		"mining": 1.5
+		"mining": 1.5,
+		"gathering": 1.5
 	},
 	"majruszs_difficulty:end_shard_ore":
 	{
-		"mining": 20
+		"mining": 20,
+		"gathering": 20
 	},
 	"byg:anthracite_ore":
 	{
-		"mining": 1.5
+		"mining": 1.5,
+		"gathering": 1.5
 	},
 	"byg:lignite_ore":
 	{
-		"mining": 1.5
+		"mining": 1.5,
+		"gathering": 1.5
 	},
 	"quark:biotite_ore":
 	{
-		"mining": 1
+		"mining": 1,
+		"gathering": 1
 	},
 	"stalwart_dungeons:tungsten_ore":
 	{
 		"mining": 15,
-		"dungeoneering": 15
+		"dungeoneering": 15,
+		"gathering": 15
 	},
 	"stalwart_dungeons:chorundum_ore":
 	{
 		"mining": 15,
-		"dungeoneering": 15
+		"dungeoneering": 15,
+		"gathering": 15
 	},
 	"the_afterlight:slate_moon_crystal_ore":
 	{
 		"mining": 9,
-		"wayfaring": 5
+		"wayfaring": 5,
+		"gathering": 9
 	},
 	"the_afterlight:overworld_moon_crystal_ore":
 	{
 		"mining": 9,
-		"wayfaring": 5
+		"wayfaring": 5,
+		"gathering": 9
 	},
 	"the_afterlight:moon_shard_ore":
 	{
-		"mining": 1
+		"mining": 1,
+		"gathering": 1
 	},
 	"the_afterlight:slate_moon_shard_ore":
 	{
-		"mining": 1
+		"mining": 1,
+		"gathering": 1
 	},
 	"the_afterlight:moonsteel_ore":
 	{
-		"mining": 6
+		"mining": 6,
+		"gathering": 6
 	},
 	"the_afterlight:crystillium_ore":
 	{
-		"mining": 3
+		"mining": 3,
+		"gathering": 3
 	},
 	"the_afterlight:slate_crystillium":
 	{
-		"mining": 3
+		"mining": 3,
+		"gathering": 3
 	},
 	"the_afterlight:bloodstone_ore":
 	{
-		"mining": 8
+		"mining": 8,
+		"gathering": 8
 	},
 	"the_afterlight:aquastone_ore":
 	{
-		"mining": 8
+		"mining": 8,
+		"gathering": 8
 	},
 	"the_afterlight:verdant_ore":
 	{
-		"mining": 8
+		"mining": 8,
+		"gathering": 8
 	},
 	"the_afterlight:eclipse_shard_ore":
 	{
-		"mining": 10
+		"mining": 10,
+		"gathering": 10
 	},
 	"the_afterlight:pearl_shard_ore":
 	{
-		"mining": 2
+		"mining": 2,
+		"gathering": 2
 	},
 	"the_afterlight:lunarite_scrap_block":
 	{
-		"mining": 20
+		"mining": 20,
+		"gathering": 20
 	},
 	"infernalexp:glowsilk_cocoon":
 	{
