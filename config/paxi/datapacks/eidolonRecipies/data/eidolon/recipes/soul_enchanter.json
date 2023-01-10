@@ -1,45 +1,27 @@
 {
-    "type": "eidolon:worktable",
-    "core": [
-      "EBE",
-      "GTG",
-      "ONO"
-    ],
-    "extras": [
-      "U",
-      "II",
-      "D"
-    ],
-    "key": {
-      "B": {
-        "item": "minecraft:totem_of_undying"
-      },
-      "I": {
-        "item": "betterendforge:smaragdant_crystal_shard"
-      },
-      "G": {
-        "tag": "forge:storage_blocks/arcane_gold"
-      },
-      "O": {
-        "item": "tombstone:dark_marble"
-      },
-      "D": {
-        "item": "eidolon:shadow_gem"
-      },
-      "U": {
-        "item": "eidolon:unholy_symbol"
-      },
-      "T": {
-        "item": "minecraft:enchanting_table"
-      },
-      "N": {
-        "tag": "forge:ingots/netherite"
-      },
-      "E": {
-        "item": "tombstone:essence_of_undeath"
-      }
+  "type": "eidolon:worktable",
+  "core": [
+    "BBB",
+    "BRB",
+    "BBB"
+  ],
+  "extras": [
+    "C",
+    "CC",
+    "C"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bedrock"
     },
-    "result": {
-      "item": "eidolon:soul_enchanter"
+    "C": {
+      "item": "minecraft:command_block"
+    },
+    "R": {
+      "item": "minecraft:repeating_command_block"
     }
+  },
+  "result": {
+    "item": "eidolon:soul_enchanter"
   }
+}
