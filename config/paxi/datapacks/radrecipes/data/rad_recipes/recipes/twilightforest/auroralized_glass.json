@@ -1,15 +1,10 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "tag": "forge:glass"
-    },
-    {
-      "item": "twilightforest:aurora_block"
-    }
-  ],
-  "result": {
-    "item": "twilightforest:auroralized_glass",
-    "count": 2
-  }
+  "type": "minecraft:smelting",
+  "group": "aurora_glass",
+  "ingredient": {
+    "item": "twilightforest:aurora_block"
+  },
+  "result": "twilightforest:auroralized_glass",
+  "experience": 0.15,
+  "cookingtime": 200
 }
