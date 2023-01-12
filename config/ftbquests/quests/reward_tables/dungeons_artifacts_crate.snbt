@@ -14,7 +14,16 @@
 			}
 			weight: 40
 		}
-		{ item: "dungeons_gear:arrow_bundle", weight: 40 }
+		{
+			item: {
+				id: "dungeons_gear:buzzy_nest"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
 		{
 			item: {
 				id: "dungeons_gear:corrupted_beacon"
@@ -147,6 +156,16 @@
 		}
 		{
 			item: {
+				id: "dungeons_gear:ice_wand"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
 				id: "dungeons_gear:iron_hide_amulet"
 				Count: 1b
 				tag: {
@@ -178,6 +197,16 @@
 		{
 			item: {
 				id: "dungeons_gear:love_medallion"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "dungeons_gear:powershaker"
 				Count: 1b
 				tag: {
 					Damage: 0
