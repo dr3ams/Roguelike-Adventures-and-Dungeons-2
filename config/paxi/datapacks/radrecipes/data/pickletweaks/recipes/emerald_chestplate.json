@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "cucumber:enabled",
+      "item": "pickletweaks:emerald_chestplate"
+    }
+  ],
+  "pattern": [
+    "F F",
+    "FFF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "byg:emeraldite_shards"
+    }
+  },
+  "result": {
+    "item": "pickletweaks:emerald_chestplate"
+  }
+}

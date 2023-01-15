@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "cucumber:enabled",
+      "item": "pickletweaks:emerald_apple"
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "EAE",
+    "EEE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "E": {
+      "item": "byg:emeraldite_shards"
+    }
+  },
+  "result": {
+    "item": "pickletweaks:emerald_apple"
+  }
+}
