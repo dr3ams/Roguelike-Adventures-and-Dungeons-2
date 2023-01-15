@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "cucumber:enabled",
+      "item": "pickletweaks:emerald_scythe"
+    }
+  ],
+  "pattern": [
+    "IIS",
+    " S ",
+    "S  "
+  ],
+  "key": {
+    "I": {
+      "item": "byg:emeraldite_shards"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "pickletweaks:emerald_scythe"
+  }
+}

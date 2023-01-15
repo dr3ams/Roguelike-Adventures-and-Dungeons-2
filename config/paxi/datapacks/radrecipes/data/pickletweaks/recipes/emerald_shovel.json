@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "cucumber:enabled",
+      "item": "pickletweaks:emerald_shovel"
+    }
+  ],
+  "pattern": [
+    "F",
+    "S",
+    "S"
+  ],
+  "key": {
+    "F": {
+      "item": "byg:emeraldite_shards"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "pickletweaks:emerald_shovel"
+  }
+}
