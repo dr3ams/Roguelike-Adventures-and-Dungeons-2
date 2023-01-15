@@ -1,7 +1,7 @@
 #Range: > 1
 DURABILITY_DOUBLE_UPGRADE = 400
 #Range: > 1
-DURABILITY_TRIPLE_UPGRADE = 400
+DURABILITY_TRIPLE_UPGRADE = 300
 #Range: > 1
 DURABILITY_ARROW_COST_UPGRADE = 400
 #Range: > 1
@@ -43,7 +43,7 @@ DURABILITY_ENERGY_UPGRADE = 400
 [IRON_BOW]
 	durability = 534
 	#Range: 0.0 ~ 1.7976931348623157E308
-	velocityMultiplier = 3.5
+	velocityMultiplier = 3.25
 	#Range: 0.0 ~ 1.7976931348623157E308
 	inaccuracy = 1.0
 	#Range: 0.0 ~ 1.7976931348623157E308
@@ -65,24 +65,24 @@ DURABILITY_ENERGY_UPGRADE = 400
 [DIAMOND_BOW]
 	durability = 750
 	#Range: 0.0 ~ 1.7976931348623157E308
+	velocityMultiplier = 3.5
+	#Range: 0.0 ~ 1.7976931348623157E308
+	inaccuracy = 1.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	time = 15.0
+	#Range: 0.0 ~ 1.7976931348623157E308
+	damage = 3.0
+
+[EMERALD_BOW]
+	durability = 1245
+	#Range: 0.0 ~ 1.7976931348623157E308
 	velocityMultiplier = 3.75
 	#Range: 0.0 ~ 1.7976931348623157E308
 	inaccuracy = 1.0
 	#Range: 0.0 ~ 1.7976931348623157E308
 	time = 15.0
 	#Range: 0.0 ~ 1.7976931348623157E308
-	damage = 5.0
-
-[EMERALD_BOW]
-	durability = 1500
-	#Range: 0.0 ~ 1.7976931348623157E308
-	velocityMultiplier = 4.0
-	#Range: 0.0 ~ 1.7976931348623157E308
-	inaccuracy = 1.0
-	#Range: 0.0 ~ 1.7976931348623157E308
-	time = 15.0
-	#Range: 0.0 ~ 1.7976931348623157E308
-	damage = 8.0
+	damage = 3.5
 
 [ELECTRIC_BOW]
 	durability = 534
