@@ -221,10 +221,8 @@ event.hide('eidolon:lead_ore')
 
 event.hide('byg:ametrine_ore')
 event.hide('byg:budding_ametrine_ore')
-event.hide('byg:emeraldite_ore')
 event.hide('byg:pendorite_ore')
 	
-event.hide('byg:emeraldite_shards')
 event.hide('byg:raw_pendorite')
 event.hide('byg:pendorite_ingot')
 event.hide('byg:pendorite_scraps')
