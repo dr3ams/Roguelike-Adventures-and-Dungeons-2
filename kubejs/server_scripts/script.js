@@ -201,10 +201,8 @@ event.remove({output: 'eidolon:lead_ore'})
 
 event.remove({output: 'byg:ametrine_ore'})
 event.remove({output: 'byg:budding_ametrine_ore'})
-event.remove({output: 'byg:emeraldite_ore'})
 event.remove({output: 'byg:pendorite_ore'})
 	
-event.remove({output: 'byg:emeraldite_shards'})
 event.remove({output: 'byg:raw_pendorite'})
 event.remove({output: 'byg:pendorite_ingot'})
 event.remove({output: 'byg:pendorite_scraps'})
