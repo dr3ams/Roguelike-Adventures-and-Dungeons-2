@@ -27,3 +27,6 @@ import crafttweaker.api.item.IItemStack;
 
 //uncrafting table tooltip
 <item:twilightforest:uncrafting_table>.addTooltip("The uncrafting function of the uncrafting table is disabled.");
+
+//dual wield tutorial
+<item:dungeons_gear:dagger>.addTooltip("This is a Dual Wield weapon. It swaps to your offhand when attacking. Try using one in both your mainhand and offhand!");
