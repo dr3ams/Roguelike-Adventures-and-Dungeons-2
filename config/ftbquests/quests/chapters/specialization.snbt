@@ -1230,29 +1230,17 @@
 					type: "item"
 					team_reward: false
 					item: {
-						id: "dungeons_gear:moon_dagger"
-						Count: 1b
+						id: "dungeons_gear:dagger"
+						Count: 2b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
-							"dungeons_gear:dualwield": {
-								fake: 0b
-								wrapped: {
-									ForgeCaps: {
-										"dungeons_libraries:built_in_enchantments": {
-											BuiltInEnchantments: [ ]
-										}
-									}
-									id: "minecraft:air"
-									Count: 0b
-								}
-							}
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [{
 									data: [{
 										lvl: 1s
-										id: "dungeons_gear:enigma_resonator"
+										id: "farmersdelight:backstabbing"
 									}]
 									source: "dungeons_libraries:gear_config"
 								}]
