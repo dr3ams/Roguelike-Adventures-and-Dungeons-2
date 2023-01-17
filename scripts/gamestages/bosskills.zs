@@ -31,5 +31,7 @@ CTEventManager.register<GameStageAdded>((event) => {
 mods.champions.ChampionStages.addTierStage("Wither_Wiper", 3);
 mods.champions.ChampionStages.addTierStage("Wither_Wiper", 4);
 
-//locks demonic champions behind killing edragon
+//locks demonic champions behind killing edragon (and incase anyone tries to cheese it includes legendary and ultimate champions)
+mods.champions.ChampionStages.addTierStage("Ender_Ender", 3);
+mods.champions.ChampionStages.addTierStage("Ender_Ender", 4);
 mods.champions.ChampionStages.addTierStage("Ender_Ender", 5);
