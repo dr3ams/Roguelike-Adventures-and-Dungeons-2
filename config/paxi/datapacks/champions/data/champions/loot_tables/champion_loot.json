@@ -130,6 +130,35 @@
         }
       ]
     },
+	    {
+      "name": "nethercoin",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:nether_coin",
+          "weight": 1,
+          "conditions": [
+			{
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            },
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "dimension": "minecraft:the_nether"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
 	{
       "name": "monstercoin",
       "rolls": 1,
