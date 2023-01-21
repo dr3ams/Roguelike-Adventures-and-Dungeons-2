@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "tropicraft:pineapple"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "tropicraft:pineapple_cubes",
+              "count": 2
+    },
+    {
+      "item": "tropicraft:pineapple_cubes",
+              "count": 1,
+              "chance": 0.5
+    }
+  ]
+}
