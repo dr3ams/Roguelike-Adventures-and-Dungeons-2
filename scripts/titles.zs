@@ -8,7 +8,7 @@ import crafttweaker.api.world.MCWorld;
 public class contributors_constants {
 	public static val devUsers as string[] = ["Doctor_Mage", "Bizzoula", "TheFlame52", "Mihawkeyez", "Xaikii", "Zarchyar", "recyclebee"];
 	public static val feedbackUsers as string[] = ["Asparagusus", "recyclebee", "Blapzapp", "Clank", "ManyullynShovel", "DiscordKitten63", "impostersunshine", "Alexluvu18", "HellsHound98", "KeyNapper", "ZeroReaper11", "airhaldeman", "Bizzoula", "polyorchid", "JamCatPlexer", "AliNebraska", "Crysi102", "Weakcheesysauce", "ThorbenP", "Lawyermood", "Rombus", "AhtiPlays", "Tylerrq", "SlimD", "CrimsonNectar", "EninTheReaper", "Fall3nFlame5", "Cesiya", "Vengenc3God", "ooglopboy", "Reindawn", "ColorlessKing", "BrowserCookiez", "CryoMaelstrom", "MrVenkam", "BlueRayser", "Shelmet67", "Rozerov", "tonicsense", "seejhae", "funkimunki123", "Izrul", "RegularInsanity", "enderbot65", "AyaDrevisOwO", "Gh0stdr4g0n17", "CrabRangooon", "aaronguner3", "Crayolavirus", "DerplingDev", "Rafael200pro", "Sir_Avocato", "Sirandrew123", "shatterwing", "Mekurushi", "Mankario", "t0srn", "M7MD_4e", "sleepyheadTM", "Nexe0nn", "Mandingduck", "DuoDuel84", "A_person42", "Menolakit", "Shaderius", "ad4mst", "FinnW", "xxAero", "Fireball5559", "WoodsyBread", "JBONA", "_Yazid_"];
-	public static val patreonUsers as string[] = ["Kruscle", "Emsiron"];
+	public static val patreonUsers as string[] = ["Kruscle", "Emsiron", "Shadow_Demon_Fox"];
 }
 
 CTEventManager.register<MCPlayerLoggedInEvent>((event) => {

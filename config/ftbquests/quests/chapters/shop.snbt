@@ -405,150 +405,6 @@
 			}]
 		}
 		{
-			icon: "minecraft:emerald_block"
-			disable_toast: true
-			x: -1.5d
-			y: 4.0d
-			subtitle: "Exchange resources for coins"
-			id: "43B06F2F3D6CDA23"
-			tasks: [
-				{
-					id: "64ED1C348774A692"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:emerald_block"
-					count: 2L
-					consume_items: true
-				}
-				{
-					id: "75E69DF91972CDE8"
-					type: "xp"
-					value: 10L
-					points: false
-				}
-			]
-			rewards: [{
-				id: "5E8D6B27166D43AB"
-				type: "questsadditions:repeat_choice"
-				table_id: 8328805356612065572L
-			}]
-		}
-		{
-			icon: "minecraft:diamond_block"
-			disable_toast: true
-			x: 1.5d
-			y: 4.0d
-			subtitle: "Exchange resources for coins"
-			id: "71377794D49477FE"
-			tasks: [
-				{
-					id: "6C9A0788313F9468"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:diamond_block"
-					consume_items: true
-				}
-				{
-					id: "54B2A2A686503311"
-					type: "xp"
-					value: 10L
-					points: false
-				}
-			]
-			rewards: [{
-				id: "24FF3CFB9ED90596"
-				type: "questsadditions:repeat_choice"
-				table_id: 4173479592353618945L
-			}]
-		}
-		{
-			icon: "minecraft:gold_block"
-			disable_toast: true
-			x: -2.5d
-			y: 4.0d
-			subtitle: "Exchange resources for coins"
-			id: "7C6A42B20111F81A"
-			tasks: [
-				{
-					id: "51B4D6508AF34018"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:gold_block"
-					count: 5L
-					consume_items: true
-				}
-				{
-					id: "04AEA60A754EC1C3"
-					type: "xp"
-					value: 10L
-					points: false
-				}
-			]
-			rewards: [{
-				id: "25FFA9FDD65048B0"
-				type: "questsadditions:repeat_choice"
-				table_id: 5362484379163422117L
-			}]
-		}
-		{
-			icon: "minecraft:lapis_block"
-			disable_toast: true
-			x: -8.0d
-			y: 5.0d
-			subtitle: "Exchange resources for coins"
-			id: "0B5A2317489F888F"
-			tasks: [
-				{
-					id: "1343A8009F0690C0"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:lapis_block"
-					count: 5L
-					consume_items: true
-				}
-				{
-					id: "57485A426484D5C3"
-					type: "xp"
-					value: 3L
-					points: false
-				}
-			]
-			rewards: [{
-				id: "7D0FEB2D0E2D2C6F"
-				type: "questsadditions:repeat_choice"
-				table_id: 5718826963610781607L
-			}]
-		}
-		{
-			icon: "minecraft:redstone_block"
-			disable_toast: true
-			x: -8.0d
-			y: 4.0d
-			subtitle: "Exchange resources for coins"
-			id: "1079D5E9E631D409"
-			tasks: [
-				{
-					id: "25FFD8D0D64BC518"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:redstone_block"
-					count: 5L
-					consume_items: true
-				}
-				{
-					id: "4AEDA27D6B8428EE"
-					type: "xp"
-					value: 3L
-					points: false
-				}
-			]
-			rewards: [{
-				id: "6AA532EC9744950C"
-				type: "questsadditions:repeat_choice"
-				table_id: 5718826963610781607L
-			}]
-		}
-		{
 			icon: {
 				id: "minecraft:nether_star"
 				Count: 1b
@@ -614,7 +470,7 @@
 			icon: "buddycards:buddysteel_block"
 			disable_toast: true
 			x: -2.5d
-			y: 5.0d
+			y: 4.0d
 			id: "665A83F8FD6E2A4E"
 			tasks: [
 				{
@@ -636,33 +492,6 @@
 				id: "46A0D9F444C5CEE9"
 				type: "questsadditions:repeat_choice"
 				table_id: 5362484379163422117L
-			}]
-		}
-		{
-			icon: "aquaculture:neptunium_block"
-			disable_toast: true
-			x: 2.5d
-			y: 4.0d
-			id: "2C5561209FB23B2D"
-			tasks: [
-				{
-					id: "74B8901259061BAB"
-					type: "item"
-					disable_toast: true
-					item: "aquaculture:neptunium_block"
-					consume_items: true
-				}
-				{
-					id: "3A5F191A454BBEB7"
-					type: "xp"
-					value: 10L
-					points: false
-				}
-			]
-			rewards: [{
-				id: "42DA5BCF2A82F413"
-				type: "questsadditions:repeat_choice"
-				table_id: 4173479592353618945L
 			}]
 		}
 		{
@@ -795,7 +624,7 @@
 			}
 			disable_toast: true
 			x: -8.0d
-			y: 6.0d
+			y: 4.0d
 			id: "71800296DBFE3A6C"
 			tasks: [
 				{
@@ -880,7 +709,7 @@
 			}
 			disable_toast: true
 			x: -1.5d
-			y: 7.0d
+			y: 6.0d
 			id: "5BB337B17577E875"
 			tasks: [
 				{
@@ -922,7 +751,7 @@
 			}
 			disable_toast: true
 			x: -1.5d
-			y: 5.0d
+			y: 4.0d
 			id: "30E490B7F82D7CEB"
 			tasks: [
 				{
@@ -964,7 +793,7 @@
 			}
 			disable_toast: true
 			x: -1.5d
-			y: 6.0d
+			y: 5.0d
 			id: "735BAB1C9E00DD56"
 			tasks: [
 				{
@@ -1005,7 +834,7 @@
 				}
 			}
 			x: 1.5d
-			y: 5.5d
+			y: 4.0d
 			id: "047CDF996476E120"
 			tasks: [
 				{
@@ -1258,7 +1087,7 @@
 			}
 			disable_toast: true
 			x: -8.0d
-			y: 7.0d
+			y: 5.0d
 			id: "2230EF3DB7AC7ECA"
 			tasks: [
 				{
@@ -1469,7 +1298,7 @@
 			}
 			disable_toast: true
 			x: -2.5d
-			y: 7.0d
+			y: 6.0d
 			id: "125B7746F8C58CF4"
 			tasks: [
 				{
@@ -1511,7 +1340,7 @@
 			}
 			disable_toast: true
 			x: -2.5d
-			y: 6.0d
+			y: 5.0d
 			id: "54E41164D998A205"
 			tasks: [
 				{
@@ -1721,7 +1550,7 @@
 			}
 			disable_toast: true
 			x: -8.0d
-			y: 8.0d
+			y: 6.0d
 			id: "708C375E99C61E6B"
 			tasks: [
 				{
@@ -2015,7 +1844,7 @@
 			}
 			disable_toast: true
 			x: 2.5d
-			y: 5.5d
+			y: 4.0d
 			id: "00C8C2D90BE93914"
 			tasks: [
 				{
@@ -2058,7 +1887,7 @@
 			}
 			disable_toast: true
 			x: 2.0d
-			y: 6.5d
+			y: 5.0d
 			id: "42101E2E807462D7"
 			tasks: [
 				{

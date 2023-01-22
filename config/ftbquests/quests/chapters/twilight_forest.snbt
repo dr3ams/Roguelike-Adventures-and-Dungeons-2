@@ -33,8 +33,8 @@
 			corner: false
 		}
 		{
-			x: 11.5d
-			y: 8.0d
+			x: 10.5d
+			y: 5.0d
 			width: 12.0d
 			height: 12.0d
 			rotation: 0.0d
@@ -239,7 +239,7 @@
 			title: "Twilight Lich Trophy"
 			icon: "twilightforest:lich_trophy"
 			x: 17.25d
-			y: -7.5d
+			y: -8.0d
 			subtitle: "Slay the Twilight Lich at top of his tower and retrieve a Scepter to clear poisonous mosquitoes from the Swamp, see through blinding darkness of the Dark Forest's curse, and resist the Snowy Forest's chill."
 			description: [
 				"The Twilight Lich can be found in the Lich Tower. Killing it and getting a scepter will allow the player to enter the Swamp, Dark Forest, and Snowy Forest as well as the dungeons in each area."
@@ -334,8 +334,8 @@
 		{
 			title: "Minoshroom Trophy"
 			icon: "twilightforest:minoshroom_trophy"
-			x: 9.75d
-			y: -1.5d
+			x: 11.25d
+			y: -0.75d
 			subtitle: "The meat and mushroom stew pleasantly warms you, enough so you feel you're acclimatised enough to venture into the Fire Swamp."
 			description: ["The Minoshroom can be found in Labyrinths, which are found in the Twilight Swamp biome. Natural entrances can be found through caves or the small hills found in the surface that lead directly to the center. The goal of this dungeon is to kill the Minoshroom. Killing it and eating one of the dropped Meef Stroganoff will allow the player to enter the Fire Swamp."]
 			dependencies: ["392FE0691197DA9F"]
@@ -397,8 +397,8 @@
 			]
 		}
 		{
-			x: 9.75d
-			y: 5.25d
+			x: 11.25d
+			y: 6.75d
 			subtitle: "Defeat the mighty Hydra and empower yourself."
 			description: [
 				"The Hydra can be found in the Hydra Lair in the middle of a Fire Swamp. Killing it and obtaining Fiery Blood from it will complete one step to unlocking the Highlands."
@@ -465,7 +465,7 @@
 		}
 		{
 			icon: "twilightforest:knight_phantom_trophy"
-			x: 2.25d
+			x: 3.75d
 			y: -0.75d
 			subtitle: "Settle the restless phantoms in the Knight's Tomb and the carminite tower's devices will obey you."
 			description: ["The Knight Phantom can be found in the Goblin Knight Stronghold underneath Dark Forests. Before being able to enter the stronghold, the player must find a room with a Trophy Pedestal. On the pedestal, they must place any trophy. When placed down the shield around the stronghold will be removed.The player then needs to go through the stronghold until the Knight Phantom is found. When killed it will allow access to the Dark Tower."]
@@ -535,8 +535,8 @@
 		}
 		{
 			icon: "twilightforest:ur_ghast_trophy"
-			x: 2.25d
-			y: 6.0d
+			x: 3.75d
+			y: 6.75d
 			subtitle: "Touch the fiery red tears of the Ur-Ghast."
 			description: [
 				"The Ur-Ghast can be found in the Dark Tower found in the middle of the Dark Forest. It is found at the top of the tower, along with many other monsters, such as Carminite Ghastlings, Towerwood Borers, and Carminite Golems. Killing it and taking the Fiery Tears will complete one step to unlocking the Highlands."
@@ -595,8 +595,8 @@
 		}
 		{
 			icon: "twilightforest:yeti_trophy"
-			x: 18.0d
-			y: 6.0d
+			x: 17.25d
+			y: 6.75d
 			subtitle: "Line your garments with the soft fur from the Alpha Yeti, keeping you safe from the Glacier's cold."
 			description: ["The Alpha Yeti is found in the Yeti Lair, in the center of Snowy Forest biomes. There are four natural entrances. Inside the lair are many Yeti packs. Killing the Alpha Yeti and obtaining the Alpha Yeti Fur will unlock the Glacier biome."]
 			dependencies: ["392FE0691197DA9F"]
@@ -1101,8 +1101,8 @@
 			]
 		}
 		{
-			x: 15.0d
-			y: -10.0d
+			x: 17.5d
+			y: -10.5d
 			dependencies: ["392FE0691197DA9F"]
 			id: "27A065BD26842CD3"
 			tasks: [{
@@ -1159,8 +1159,8 @@
 			]
 		}
 		{
-			x: 16.0d
-			y: -10.0d
+			x: 18.5d
+			y: -9.5d
 			dependencies: ["392FE0691197DA9F"]
 			id: "48672320EA3BBE52"
 			tasks: [{
@@ -1201,7 +1201,7 @@
 			]
 		}
 		{
-			x: 10.5d
+			x: 11.25d
 			y: 1.5d
 			description: ["You need to eat this to advance to the fire swamps."]
 			dependencies: ["2D5BBCD3F940BE54"]
@@ -1235,8 +1235,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -3.0d
+			x: 13.0d
+			y: 0.5d
 			dependencies: ["2D5BBCD3F940BE54"]
 			id: "2CA0B2EC7C8E1F8A"
 			tasks: [{
@@ -1289,8 +1289,8 @@
 			]
 		}
 		{
-			x: 9.5d
-			y: 4.0d
+			x: 12.5d
+			y: 9.0d
 			dependencies: ["5349542EAF609696"]
 			id: "60850D22B87DAF3D"
 			tasks: [{
@@ -1340,8 +1340,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 5.5d
+			x: 7.5d
+			y: 8.0d
 			description: [""]
 			dependencies: [
 				"5349542EAF609696"
@@ -1392,8 +1392,8 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: 6.5d
+			x: 8.0d
+			y: 9.0d
 			dependencies: ["5B4FCB841C143C8C"]
 			id: "452F897D00F27CD1"
 			tasks: [{
@@ -1431,8 +1431,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 6.5d
+			x: 7.0d
+			y: 9.0d
 			dependencies: ["5B4FCB841C143C8C"]
 			id: "55DEDAE298ABD5E1"
 			tasks: [
@@ -1521,7 +1521,7 @@
 		}
 		{
 			x: 3.0d
-			y: -3.5d
+			y: -2.5d
 			dependencies: ["2E603FCB82DC886B"]
 			id: "236B3A5578BB02A2"
 			tasks: [{
@@ -1559,8 +1559,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -3.5d
+			x: 4.5d
+			y: -2.5d
 			dependencies: ["2E603FCB82DC886B"]
 			id: "7B6BDA10E18D81E1"
 			tasks: [{
@@ -1668,8 +1668,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 4.5d
+			x: 2.0d
+			y: 6.0d
 			dependencies: ["43FF6B04F1048E09"]
 			id: "0054F0E9BAE7842E"
 			tasks: [{
@@ -1747,8 +1747,8 @@
 			]
 		}
 		{
-			x: 19.0d
-			y: 7.5d
+			x: 18.5d
+			y: 5.5d
 			dependencies: ["78493192F7A18FD2"]
 			id: "5EA6F61A0ACC5A78"
 			tasks: [{
@@ -1783,8 +1783,8 @@
 			}]
 		}
 		{
-			x: 19.0d
-			y: 8.5d
+			x: 18.5d
+			y: 4.5d
 			dependencies: ["5EA6F61A0ACC5A78"]
 			id: "0A7717B4ABB3CAAF"
 			tasks: [{
@@ -2002,7 +2002,8 @@
 		}
 		{
 			x: 16.0d
-			y: 11.0d
+			y: 12.0d
+			dependencies: ["680FD59F7ACC7E21"]
 			id: "06B73D35B0EC71B6"
 			tasks: [{
 				id: "37F5544DB436BABF"
@@ -2042,7 +2043,7 @@
 		}
 		{
 			x: 9.5d
-			y: 0.0d
+			y: -2.0d
 			dependencies: ["2D5BBCD3F940BE54"]
 			id: "68B82F7514264D71"
 			tasks: [{
@@ -2431,8 +2432,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 4.5d
+			x: 2.0d
+			y: 7.5d
 			dependencies: ["43FF6B04F1048E09"]
 			id: "49A6F814FDCD73FA"
 			tasks: [{
@@ -2463,8 +2464,8 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: 7.5d
+			x: 18.5d
+			y: 8.0d
 			dependencies: ["78493192F7A18FD2"]
 			id: "7CFDC9D05792B0F7"
 			tasks: [{
@@ -2623,8 +2624,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.0d
+			x: 2.0d
+			y: 1.5d
 			dependencies: ["2E603FCB82DC886B"]
 			id: "1CA63912FEC9F2F1"
 			tasks: [{
@@ -3154,8 +3155,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 2.5d
+			x: 2.0d
+			y: 3.0d
 			dependencies: [
 				"1CA63912FEC9F2F1"
 				"43FF6B04F1048E09"
@@ -3212,8 +3213,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 1.0d
+			x: 0.5d
+			y: 1.5d
 			dependencies: ["1CA63912FEC9F2F1"]
 			id: "6DAE4853C05E792B"
 			tasks: [{
@@ -3361,8 +3362,8 @@
 			]
 		}
 		{
-			x: 14.0d
-			y: -8.5d
+			x: 15.5d
+			y: -9.5d
 			dependencies: ["392FE0691197DA9F"]
 			id: "61F55BE1C9DDD0C0"
 			tasks: [{
@@ -3403,8 +3404,8 @@
 			]
 		}
 		{
-			x: 14.0d
-			y: -9.5d
+			x: 16.5d
+			y: -10.5d
 			dependencies: ["392FE0691197DA9F"]
 			id: "712532F1E0AA23FA"
 			tasks: [{
@@ -3501,8 +3502,8 @@
 			]
 		}
 		{
-			x: 8.5d
-			y: -1.5d
+			x: 9.5d
+			y: 0.5d
 			dependencies: ["2D5BBCD3F940BE54"]
 			id: "0E00CD1D83C809F6"
 			tasks: [{
@@ -3581,8 +3582,8 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: 8.5d
+			x: 18.5d
+			y: 9.0d
 			dependencies: ["7CFDC9D05792B0F7"]
 			id: "34EED3AC43E7EE38"
 			tasks: [
