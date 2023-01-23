@@ -113,7 +113,7 @@
 	},
 "greekfantasy:artemis_bow":
 	{
-		"archery": 20
+		"archery": 50
 	},
 "mysticalworld:lead_knife":
 	{
@@ -231,7 +231,7 @@
 	},
 	"dungeons_gear:dagger":
 	{
-		"combat": 0
+		"combat": 5
 	},
 	"dungeons_gear:dancers_sword":
 	{
@@ -408,7 +408,7 @@
 	},
 	"dungeons_gear:moon_dagger":
 	{
-		"combat": 5
+		"combat": 0
 	},
 	"dungeons_gear:nameless_blade":
 	{
@@ -896,23 +896,23 @@
 	},
 	"extrabows:diamond_bow":
 	{
-		"archery": 18
+		"archery": 85
 	},
 	"extrabows:electric_bow":
 	{
-		"archery": 15
+		"archery": 75
 	},
 	"extrabows:emerald_bow":
 	{
-		"archery": 45
+		"archery": 100
 	},
 	"extrabows:golden_bow":
 	{
-		"archery": 10
+		"archery":  65
 	},
 	"extrabows:iron_bow":
 	{
-		"archery": 10
+		"archery": 70
 	},
 	"extrabows:stone_bow":
 	{
@@ -1993,12 +1993,12 @@
 	},
 	"spartanweaponry:quarterstaff_copper":
 	{
-		"combat": 4,
+		"combat": 8,
 		"agility": 4
 	},
 	"spartanweaponry:quarterstaff_diamond":
 	{
-		"combat": 22,
+		"combat": 45,
 		"agility": 22
 	},
 	"spartanweaponry:quarterstaff_electrum":
@@ -2008,7 +2008,7 @@
 	},
 	"spartanweaponry:quarterstaff_gold":
 	{
-		"combat": 9,
+		"combat": 20,
 		"agility": 9
 	},
 	"spartanweaponry:quarterstaff_invar":
@@ -2018,17 +2018,17 @@
 	},
 	"spartanweaponry:quarterstaff_iron":
 	{
-		"combat": 12,
+		"combat": 25,
 		"agility": 12
 	},
 	"spartanweaponry:quarterstaff_lead":
 	{
-		"combat": 10,
+		"combat": 25,
 		"agility": 10
 	},
 	"spartanweaponry:quarterstaff_netherite":
 	{
-		"combat": 33,
+		"combat": 65,
 		"agility": 33
 	},
 	"spartanweaponry:quarterstaff_nickel":
@@ -2043,7 +2043,7 @@
 	},
 	"spartanweaponry:quarterstaff_silver":
 	{
-		"combat": 9,
+		"combat": 17,
 		"agility": 9
 	},
 	"spartanweaponry:quarterstaff_steel":
@@ -2053,12 +2053,12 @@
 	},
 	"spartanweaponry:quarterstaff_stone":
 	{
-		"combat": 7,
+		"combat": 15,
 		"agility": 7
 	},
 	"spartanweaponry:quarterstaff_tin":
 	{
-		"combat": 8,
+		"combat": 15,
 		"agility": 8
 	},
 	"spartanweaponry:quarterstaff_wood":
@@ -2451,9 +2451,81 @@
 		"combat": 5
 	},
 	"spartanweaponry:scythe_lead":
-	{
-		"combat": 15
-	},
+    {
+        "combat": 20
+    },
+    "spartanweaponry:scythe_wood":
+    {
+        "combat": 5
+    },
+    "spartanweaponry:scythe_stone":
+    {
+        "combat": 15
+    },
+    "spartanweaponry:scythe_iron":
+    {
+        "combat": 25
+    },
+    "spartanweaponry:scythe_gold":
+    {
+        "combat": 20
+    },
+    "spartanweaponry:scythe_diamond":
+    {
+        "combat": 45
+    },
+   "spartanweaponry:scythe_copper":
+    {
+        "combat": 8
+    },
+    "spartanweaponry:scythe_tin":
+    {
+        "combat": 15
+    },
+    "spartanweaponry:scythe_silver":
+    {
+        "combat": 17
+    },
+    "spartanweaponry:scythe_netherite":
+    {
+        "combat": 65
+    },
+"spartanweaponry:parrying_dagger_wood":
+    {
+        "combat": 1
+    },
+"spartanweaponry:parrying_dagger_lead":
+    {
+        "combat": 20
+    },
+"spartanweaponry:parrying_dagger_iron":
+    {
+        "combat": 25
+    },
+"spartanweaponry:parrying_dagger_gold":
+    {
+        "combat": 20
+    },
+"spartanweaponry:parrying_dagger_diamond":
+    {
+        "combat": 45
+    },
+"spartanweaponry:parrying_dagger_copper":
+    {
+        "combat": 8
+    },
+"spartanweaponry:parrying_dagger_tin":
+    {
+        "combat": 15
+    },
+"spartanweaponry:parrying_dagger_silver":
+    {
+        "combat": 17
+    },
+"spartanweaponry:parrying_dagger_netherite":
+    {
+        "combat": 65
+    },
 "switchbow:switchbow":
 	{
 		"archery": 20
@@ -2571,6 +2643,10 @@
 		"archery": 70
 	},	
 "upgradednetherite:corrupt_upgraded_netherite_bow":
+	{
+		"archery": 70
+	},
+"upgradednetherite:poison_upgraded_netherite_bow":
 	{
 		"archery": 70
 	},

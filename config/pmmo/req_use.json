@@ -46,12 +46,16 @@
 	"ars_nouveau:glyph_exchange":
 	{
 		"magic": 30,
-		"gathering": 30
+		"mining": 30,
+		"excavation": 30,
+		"woodcutting": 30
 	},
 	"ars_nouveau:glyph_break":
 	{
 		"magic": 20,
-		"gathering": 30
+		"mining": 30,
+		"excavation": 30,
+		"woodcutting": 30
 	},
 	"bountifulbaubles:magic_mirror":
 	{
@@ -750,23 +754,23 @@
 	},
 "extrabows:diamond_bow":
 	{
-		"archery": 18
+		"archery": 85
 	},
 "extrabows:electric_bow":
 	{
-		"archery": 15
+		"archery": 75
 	},
 "extrabows:emerald_bow":
 	{
-		"archery": 45
+		"archery": 100
 	},
 "extrabows:golden_bow":
 	{
-		"archery": 10
+		"archery": 65
 	},
 "extrabows:iron_bow":
 	{
-		"archery": 10
+		"archery": 70
 	},
 "extrabows:stone_bow":
 	{
@@ -837,6 +841,10 @@
 		"archery": 70
 	},	
 "upgradednetherite:corrupt_upgraded_netherite_bow":
+	{
+		"archery": 70
+	},
+"upgradednetherite:poison_upgraded_netherite_bow":
 	{
 		"archery": 70
 	},
