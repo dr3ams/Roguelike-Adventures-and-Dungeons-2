@@ -1,0 +1,52 @@
+{
+    "type": "uniqueapex:fusion",
+    "ingredients": [
+        {
+            "input": { "item": "spartanweaponry:arrow_diamond" },
+            "amount": 256
+        },
+        {
+            "input": { "item": "spartanweaponry:quiver_arrow_huge" },
+            "amount": 1
+        },
+        {
+            "input": { "item": "relics:arrow_quiver" },
+            "amount": 1
+        },
+        {
+            "input": { "item": "dungeons_gear:flaming_quiver" },
+            "amount": 1
+        },
+        {
+            "input": { "item": "dungeons_gear:torment_quiver" },
+            "amount": 1
+        },
+        {
+            "input": { "item": "dungeons_gear:thundering_quiver" },
+            "amount": 1
+        },
+        {
+            "input": { "item": "dungeons_gear:harpoon_quiver" },
+            "amount": 1
+        },
+        {
+            "input": { "item": "minecraft:skeleton_skull" },
+            "amount": 16
+        },
+        {
+            "input": { "item": "spartanweaponry:illager_head" },
+            "amount": 16
+        }
+    ],
+    "enchantments": [
+        { "type": "minecraft:infinity", "level": 1 },
+        { "type": "uniquee:ender_marksmen", "level": 1 },
+        { "type": "dungeons_gear:arrow_hoarder", "level": 3 },
+        { "type": "dungeons_gear:replenish", "level": 3 }
+        
+    ],
+	"lock": true,
+	"max": 4,
+    "output": "apotheosis:true_infinity",
+    "output_mode": "average" 
+}
