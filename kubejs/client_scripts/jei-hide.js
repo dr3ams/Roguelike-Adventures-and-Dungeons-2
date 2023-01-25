@@ -3,6 +3,12 @@
 console.info('> JEI-Hide scripts starting...')
 
 onEvent('jei.hide.items', event => {
+	
+event.hide('arsarsenal:air_hood')
+event.hide('arsarsenal:aqua_hood')
+event.hide('arsarsenal:fire_hood')
+event.hide('arsarsenal:earth_hood')
+	
 event.hide('productivebees:honeycomb_enderium')
 event.hide('productivebees:honeycomb_electrum')
 event.hide('productivebees:honeycomb_constantan')
