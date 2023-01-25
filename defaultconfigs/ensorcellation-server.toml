@@ -169,25 +169,25 @@
 		#If TRUE, the Vorpal Enchantment is available for various Weapons.
 		Enable = true
 		#This sets whether or not the Enchantment is considered a 'treasure' enchantment.
-		Treasure = false
+		Treasure = true
 		#This option adjusts the maximum allowable level for the Enchantment.
 		#Range: 1 ~ 10
 		"Max Level" = 3
 		#Adjust this value to set the base critical hit chance of the Enchantment (in percentage).
 		#Range: 1 ~ 100
-		"Base Critical Chance" = 5
+		"Base Critical Chance" = 10
 		#Adjust this value to set the additional critical hit chance per level of the Enchantment (in percentage).
 		#Range: 1 ~ 100
 		"Critical Chance / Level" = 5
 		#Adjust this value to set the critical hit damage multiplier.
 		#Range: 2 ~ 1000
-		"Critical Damage Multiplier" = 5
+		"Critical Damage Multiplier" = 2.5
 		#Adjust this value to set the base critical hit chance for the Enchantment (in percentage).
 		#Range: 1 ~ 100
-		"Base Head Drop Chance" = 10
+		"Base Head Drop Chance" = 20
 		#Adjust this value to set the critical hit chance per level of the Enchantment (in percentage).
 		#Range: 1 ~ 100
-		"Head Drop Chance / Level" = 10
+		"Head Drop Chance / Level" = 5
 
 	[Enchantments.Excavating]
 		#If TRUE, the Excavating Enchantment is available for various Tools.
