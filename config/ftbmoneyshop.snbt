@@ -593,21 +593,80 @@
 					}
 				}
 			}
-			entries: [{
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:swiftness"
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			entries: [
+				{
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
+					buy: 15L
 				}
-				buy: 15L
-			}]
+				{
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strength"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 15L
+				}
+				{
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "quark:resistance"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 20L
+				}
+				{
+					item: {
+						id: "enigmaticlegacy:recall_potion"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 100L
+				}
+				{
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:haste"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 15L
+				}
+			]
 		}
 		{
 			title: "Equipment"
@@ -752,11 +811,6 @@
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
 					buy: 50L
 				}
@@ -767,11 +821,6 @@
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
 					buy: 250L
 				}
@@ -779,11 +828,6 @@
 					item: {
 						id: "bountifulbaubles:potion_wormhole"
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
 					buy: 100L
 				}
@@ -791,11 +835,6 @@
 					item: {
 						id: "bountifulbaubles:potion_recall"
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
 					buy: 100L
 				}
@@ -806,22 +845,12 @@
 			icon: {
 				id: "minecraft:enchanted_golden_apple"
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			entries: [
 				{
 					item: {
 						id: "berry_nice:goldensweetberry"
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
 					buy: 20L
 				}
@@ -829,13 +858,29 @@
 					item: {
 						id: "brewevolution:full_dried_bread"
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 					}
 					buy: 10L
+				}
+				{
+					item: {
+						id: "atum:quail_cooked"
+						Count: 1b
+					}
+					buy: 30L
+				}
+				{
+					item: {
+						id: "farmersdelight:bacon_sandwich"
+						Count: 1b
+					}
+					buy: 40L
+				}
+				{
+					item: {
+						id: "quark:golden_frog_leg"
+						Count: 1b
+					}
+					buy: 50L
 				}
 			]
 		}
