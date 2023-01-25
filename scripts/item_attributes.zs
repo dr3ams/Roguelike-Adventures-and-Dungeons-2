@@ -30,3 +30,4 @@ import crafttweaker.api.item.IItemStack;
 
 //dual wield tutorial
 <item:dungeons_gear:dagger>.addTooltip("This is a Dual Wield weapon. It swaps to your offhand when attacking. Try using one in both your mainhand and offhand!");
+<item:dungeons_gear:gauntlet>.addTooltip("This is a Dual Wield weapon. It swaps to your offhand when attacking. Try using one in both your mainhand and offhand!");
