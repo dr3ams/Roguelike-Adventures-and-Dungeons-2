@@ -3,859 +3,6 @@
 
 	[general.base]
 
-		[general.base.vitae]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 5
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "RARE"
-			#If the Enchantment is a Treasure
-			treasure = false
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = false
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 18
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 8
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 5
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = []
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			base_boost = 5
-			#Range: 0.0 ~ 1.7976931348623157E308
-			scale_boost = 1.0
-
-		[general.base.swift]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 2
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "UNCOMMON"
-			#If the Enchantment is a Treasure
-			treasure = false
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = false
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 14
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 12
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 10
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = []
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			speed_bonus_base = 0.07
-			#Range: 0.0 ~ 1.7976931348623157E308
-			speed_bonus_level = 0.04
-
-		[general.base.sages_blessing]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 5
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "COMMON"
-			#If the Enchantment is a Treasure
-			treasure = false
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = false
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 5
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 5
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 20
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = ["minecraft:silk_touch"]
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			xp_boost = 0.2
-			#Defines the Required XP level to trigger the Trancendence Effect
-			#Range: > 1
-			trancendence = 500
-			#Range: 0.0 ~ 1.7976931348623157E308
-			transcended_exponent = 2.0
-
-		[general.base.ender_eyes]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 1
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "UNCOMMON"
-			#If the Enchantment is a Treasure
-			treasure = false
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = false
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 10
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 2
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 5
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = ["uniquee:treasurers_eyes"]
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Defines the Required XP level to trigger the Trancendence Effect
-			#Range: > 1
-			trancendence = 200
-			#Range: 0.0 ~ 1.7976931348623157E308
-			transcended_chance = 0.6
-			affected_entities = ["minecraft:enderman"]
-
-		[general.base.bone_crusher]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 4
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "VERY_RARE"
-			#If the Enchantment is a Treasure
-			treasure = true
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = true
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 2
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 8
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 20
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = []
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			bonus_damage = 0.15
-			#Defines the Required XP level to trigger the Trancendence Effect
-			#Range: > 1
-			trancendence = 500
-			#Range: 0.0 ~ 1.7976931348623157E308
-			transcended_loot_chance = 0.4
-
-		[general.base.treasurers_eyes]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 3
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "RARE"
-			#If the Enchantment is a Treasure
-			treasure = true
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = true
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 22
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 6
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 75
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = []
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			range_base = 5.0
-			#Range: 0.0 ~ 1.7976931348623157E308
-			range_level = 5.5
-
-		[general.base.climate_tranquility]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 3
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "RARE"
-			#If the Enchantment is a Treasure
-			treasure = true
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = true
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 20
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 7
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 30
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = []
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			speed_bonus_base = 0.1
-			#Range: 0.0 ~ 1.7976931348623157E308
-			speed_bonus_level = 0.03
-			#Range: > 0
-			slow_duration = 30
-			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_bonus_base = 0.1
-			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_bonus_level = 0.03
-			#Range: > 0
-			burn_time = 1
-
-		[general.base.momentum]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 3
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "RARE"
-			#If the Enchantment is a Treasure
-			treasure = true
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = true
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 10
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 5
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 75
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = []
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			mining_speed_flat = 2.0
-			#Range: 0.0 ~ 1.7976931348623157E308
-			mining_speed_multiplier = 0.003
-			#Range: > 0
-			block_cap = 41
-			#Range: 0.0 ~ 1.7976931348623157E308
-			block_cap_multiplier = 1.0
-			#Range: > 0
-			max_delay = 200
-
-		[general.base.ender_mending]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 1
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "VERY_RARE"
-			#If the Enchantment is a Treasure
-			treasure = true
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = false
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 20
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 10
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 5
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = ["minecraft:mending", "uniquee:ecological"]
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			threshold = 1.0
-			#Range: > 0
-			storage_limit = 250
-			#Range: 0.0 ~ 1.7976931348623157E308
-			storage_limit_multiplier = 1.72
-			repaireable_enchantments = ["minecraft:mending", "uniquee:ender_mending", "uniquee:grimoire"]
-
-		[general.base.smart_ass]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 3
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "RARE"
-			#If the Enchantment is a Treasure
-			treasure = false
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = true
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 28
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 6
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 40
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = []
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: > 0
-			range_base = 2
-			#Range: > 0
-			range_level = 3
-
-		[general.base.ecological]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 3
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "RARE"
-			#If the Enchantment is a Treasure
-			treasure = true
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = true
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 4
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 8
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 10
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = ["minecraft:mending", "minecraft:infinity"]
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: > 0
-			baseDuration = 220
-			#Range: 0.0 ~ 1.7976931348623157E308
-			scalingReduction = 16.0
-
-		[general.base.phoenixs_blessing]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 2
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "RARE"
-			#If the Enchantment is a Treasure
-			treasure = true
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = true
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 26
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 2
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 2
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = []
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			range_base = 3.0
-			#Range: 0.0 ~ 1.7976931348623157E308
-			range_level = 0.25
-			#Range: 0.0 ~ 1.7976931348623157E308
-			transcended_duration = 600.0
-
-		[general.base.midas_blessing]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 3
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "VERY_RARE"
-			#If the Enchantment is a Treasure
-			treasure = true
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = false
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 14
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 6
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 75
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = ["minecraft:fortune", "minecraft:silk_touch"]
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			gold_cost_base = 1.0
-			#Range: 0.0 ~ 1.7976931348623157E308
-			gold_cost_level = 1.0
-
-		[general.base.ifrits_grace]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 3
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "RARE"
-			#If the Enchantment is a Treasure
-			treasure = true
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = true
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 14
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 4
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 40
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = ["minecraft:fortune", "minecraft:silk_touch"]
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			base_consumtion = 8.0
-			lava_items = ["minecraft:lava_bucket;250", "minecraft:magma_cream;20"]
-
-		[general.base.icarus_aegis]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 3
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "VERY_RARE"
-			#If the Enchantment is a Treasure
-			treasure = true
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = false
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 16
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 4
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 10
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = []
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			base_consumtion = 24.0
-
-		[general.base.ender_librarian]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 1
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "VERY_RARE"
-			#If the Enchantment is a Treasure
-			treasure = true
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = true
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 24
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 3
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 10
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = []
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-
-		[general.base.endest_reap]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 4
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "VERY_RARE"
-			#If the Enchantment is a Treasure
-			treasure = true
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = false
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 30
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 15
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 20
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = ["minecraft:sharpness", "minecraft:mending", "uniquee:ender_mending", "uniquee:sages_blessing"]
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			bonus_damage_level = 0.5
-			#Range: 0.0 ~ 1.7976931348623157E308
-			reap_multiplier = 0.01
-			validMobs = ["minecraft:ender_dragon;8", "minecraft:wither;3", "minecraft:shulker;1", "minecraft:elder_guardian;5", "minecraft:ravager;2", "minecraft:evoker;1"]
-			#Defines the Required XP level to trigger the Trancendence Effect
-			#Range: > 1
-			trancendence = 1000
-			#Range: 0.0 ~ 1.7976931348623157E308
-			transcended_chance = 0.25
-
-		[general.base.grimoire]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 5
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "VERY_RARE"
-			#If the Enchantment is a Treasure
-			treasure = true
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = false
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 70
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 36
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 20
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = ["minecraft:mending", "uniquee:ender_mending"]
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			level_scaling = 0.9
-			#Range: 0.0 ~ 1.7976931348623157E308
-			step_skip = 5.0
-			ignored_enchantments = ["minecraft:fortune", "minecraft:efficiency", "minecraft:looting", "uniquee:midas_blessing", "uniquee:endest_reap", "minecraft:mending", "minecraft:silk_touch"]
-			#Range: > 0
-			start_level = 50
-
-		[general.base.pestilences_odium]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 2
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "RARE"
-			#If the Enchantment is a Treasure
-			treasure = false
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = true
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 10
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 4
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 40
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = []
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: 0.0 ~ 1.7976931348623157E308
-			radius = 7.0
-			#Range: > 0
-			delay = 300
-			#Range: 0.0 ~ 1.7976931348623157E308
-			damage_per_tick = 0.25
-
-		[general.base.deaths_odium]
-			#If the Enchantment is Obtainable
-			enabled = true
-			#If the Enchantment has any effect
-			activated = true
-			#Minimum Enchantment Level
-			#Range: > 0
-			min_level = 1
-			#Maximum Enchantment Level
-			#Range: > 0
-			max_level = 2
-			#Rarity of the Enchantment
-			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
-			rarity = "UNCOMMON"
-			#If the Enchantment is a Treasure
-			treasure = false
-			#If the Enchantment is Tradeable by Villagers
-			tradeable = true
-			#Minimum Level for Enchanting
-			#Range: > 0
-			base_cost = 10
-			#Increase of levels per Enchantment Level
-			#Range: > 0
-			per_level_cost = 4
-			#The Additional Upper Range of Required Levels
-			#Range: > 0
-			cost_limit = 40
-			#Hard Limit of where the Enchantment will be capped even if the level is higher
-			#Range: > 0
-			hard_cap = 100
-			#Enchantments that are not compatible with this Enchantment
-			incompats = []
-			#Allows to add custom incompatible Items
-			incompatible_items = []
-			#Allows to add custom compatible Items
-			compatible_items = []
-			#Range: > 0
-			collector_time = 200
-			#Range: > 0
-			damage_factor = 30
-			#Range: 0.0 ~ 1.7976931348623157E308
-			base_loss = 1.0
-
 		[general.base.berserker]
 			#If the Enchantment is Obtainable
 			enabled = true
@@ -1038,6 +185,175 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			transcended_damage_exponent = 0.25
 
+		[general.base.vitae]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 5
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "RARE"
+			#If the Enchantment is a Treasure
+			treasure = false
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = false
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 5
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 5
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 5
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			base_boost = 29.482631
+			#Range: 0.0 ~ 1.7976931348623157E308
+			scale_boost = 1.0
+
+		[general.base.swift]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 2
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "UNCOMMON"
+			#If the Enchantment is a Treasure
+			treasure = false
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = false
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 14
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 12
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 10
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			speed_bonus_base = 0.07
+			#Range: 0.0 ~ 1.7976931348623157E308
+			speed_bonus_level = 0.04
+
+		[general.base.sages_blessing]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 5
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "UNCOMMON"
+			#If the Enchantment is a Treasure
+			treasure = false
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = false
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 15
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 5
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 20
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Defines the Required XP level to trigger the Trancendence Effect
+			#Range: > 1
+			trancendence = 500
+			#Enchantments that are not compatible with this Enchantment
+			incompats = ["uniquee:fast_food", "minecraft:silk_touch"]
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			xp_boost = 0.1
+			#Range: 0.0 ~ 1.7976931348623157E308
+			transcended_exponent = 2.0
+
+		[general.base.ender_eyes]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 1
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "UNCOMMON"
+			#If the Enchantment is a Treasure
+			treasure = false
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = false
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 10
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 2
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 5
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Defines the Required XP level to trigger the Trancendence Effect
+			#Range: > 1
+			trancendence = 200
+			#Enchantments that are not compatible with this Enchantment
+			incompats = ["uniquee:treasurers_eyes"]
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			transcended_chance = 0.6
+			affected_entities = ["minecraft:enderman"]
+
 		[general.base.focused_impact]
 			#If the Enchantment is Obtainable
 			enabled = true
@@ -1081,6 +397,50 @@
 			attack_speed_comparison = 1.05
 			#Range: 0.0 ~ 1.7976931348623157E308
 			transcended_attack_speed_mulitiplier = 0.5
+
+		[general.base.bone_crusher]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 4
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "VERY_RARE"
+			#If the Enchantment is a Treasure
+			treasure = true
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = true
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 2
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 8
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 20
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Defines the Required XP level to trigger the Trancendence Effect
+			#Range: > 1
+			trancendence = 500
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			bonus_damage = 0.15
+			#Range: 0.0 ~ 1.7976931348623157E308
+			transcended_loot_chance = 0.4
 
 		[general.base.range]
 			#If the Enchantment is Obtainable
@@ -1127,6 +487,47 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			reduction_level = 2.0
 
+		[general.base.treasurers_eyes]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 3
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "RARE"
+			#If the Enchantment is a Treasure
+			treasure = true
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = true
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 22
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 6
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 75
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			range_base = 5.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			range_level = 5.5
+
 		[general.base.swift_blade]
 			#If the Enchantment is Obtainable
 			enabled = true
@@ -1150,7 +551,7 @@
 			base_cost = 30
 			#Increase of levels per Enchantment Level
 			#Range: > 0
-			per_level_cost = 85
+			per_level_cost = 75
 			#The Additional Upper Range of Required Levels
 			#Range: > 0
 			cost_limit = 5
@@ -1252,13 +653,194 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			bonus_per_hit = 0.1
 			#Range: 0.0 ~ 1.7976931348623157E308
-			damage_multiplier = 1.83
+			damage_multiplier = 1.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			bonus_per_level = 1.0
 			#Range: > 0
 			transcended_mercy_hits = 1
 			#changes damage formual to exponential instead of logarithmic
 			exponential_scaling = false
+
+		[general.base.climate_tranquility]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 3
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "RARE"
+			#If the Enchantment is a Treasure
+			treasure = true
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = true
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 20
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 7
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 30
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			speed_bonus_base = 0.1
+			#Range: 0.0 ~ 1.7976931348623157E308
+			speed_bonus_level = 0.03
+			#Range: > 0
+			slow_duration = 30
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_bonus_base = 0.1
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_bonus_level = 0.03
+			#Range: > 0
+			burn_time = 1
+
+		[general.base.momentum]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 3
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "RARE"
+			#If the Enchantment is a Treasure
+			treasure = true
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = true
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 10
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 5
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 75
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			mining_speed_flat = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			mining_speed_multiplier = 1.0
+			#Range: > 0
+			block_cap = 41
+			#Range: 0.0 ~ 1.7976931348623157E308
+			block_cap_multiplier = 1.0
+			#Range: > 0
+			max_delay = 200
+
+		[general.base.ender_mending]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 3
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "VERY_RARE"
+			#If the Enchantment is a Treasure
+			treasure = true
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = false
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 20
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 10
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 5
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = ["minecraft:mending", "uniquee:ender_marksmen", "uniquee:warriors_grace", "uniquee:ecological"]
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			threshold = 1.0
+			#Range: > 0
+			storage_limit = 250
+			#Range: 0.0 ~ 1.7976931348623157E308
+			storage_limit_multiplier = 1.72
+			repaireable_enchantments = ["minecraft:mending", "uniquee:ender_mending", "uniquee:grimoire", "apotheosis:life_mending"]
+
+		[general.base.smart_ass]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 3
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "RARE"
+			#If the Enchantment is a Treasure
+			treasure = false
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = true
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 28
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 6
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 40
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: > 0
+			range_base = 2
+			#Range: > 0
+			range_level = 3
 
 		[general.base.warriors_grace]
 			#If the Enchantment is Obtainable
@@ -1301,15 +883,15 @@
 
 		[general.base.ender_marksmen]
 			#If the Enchantment is Obtainable
-			enabled = false
+			enabled = true
 			#If the Enchantment has any effect
-			activated = false
+			activated = true
 			#Minimum Enchantment Level
 			#Range: > 0
 			min_level = 1
 			#Maximum Enchantment Level
 			#Range: > 0
-			max_level = 1
+			max_level = 5
 			#Rarity of the Enchantment
 			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
 			rarity = "VERY_RARE"
@@ -1557,6 +1139,424 @@
 			healing_level = 0.2
 			#Range: > 0
 			delay = 240
+
+		[general.base.ecological]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 3
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "RARE"
+			#If the Enchantment is a Treasure
+			treasure = false
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = true
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 20
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 8
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 10
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = ["uniquee:warriors_grace", "uniquee:ender_marksmen", "minecraft:mending", "minecraft:infinity"]
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: > 0
+			baseDuration = 330
+			#Range: 0.0 ~ 1.7976931348623157E308
+			scalingReduction = 16.0
+
+		[general.base.phoenixs_blessing]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 2
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "RARE"
+			#If the Enchantment is a Treasure
+			treasure = true
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = true
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 26
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 2
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 2
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			range_base = 3.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			range_level = 0.25
+			#Range: 0.0 ~ 1.7976931348623157E308
+			transcended_duration = 600.0
+
+		[general.base.midas_blessing]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 3
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "VERY_RARE"
+			#If the Enchantment is a Treasure
+			treasure = true
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = false
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 14
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 6
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 75
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = ["minecraft:fortune", "minecraft:silk_touch"]
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			gold_cost_base = 1.0
+			#Range: 0.0 ~ 1.7976931348623157E308
+			gold_cost_level = 1.0
+
+		[general.base.ifrits_grace]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 3
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "RARE"
+			#If the Enchantment is a Treasure
+			treasure = true
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = true
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 14
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 4
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 40
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = ["minecraft:fortune", "minecraft:silk_touch"]
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			base_consumtion = 8.0
+			lava_items = ["minecraft:lava_bucket;250", "minecraft:magma_cream;20"]
+
+		[general.base.icarus_aegis]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 3
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "VERY_RARE"
+			#If the Enchantment is a Treasure
+			treasure = true
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = false
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 16
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 4
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 10
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			base_consumtion = 24.0
+
+		[general.base.ender_librarian]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 1
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "VERY_RARE"
+			#If the Enchantment is a Treasure
+			treasure = true
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = true
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 24
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 3
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 10
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+
+		[general.base.endest_reap]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 4
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "VERY_RARE"
+			#If the Enchantment is a Treasure
+			treasure = true
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = false
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 30
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 10
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 30
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Defines the Required XP level to trigger the Trancendence Effect
+			#Range: > 1
+			trancendence = 1000
+			#Enchantments that are not compatible with this Enchantment
+			incompats = ["minecraft:sharpness", "minecraft:mending", "uniquee:ameliorated_sharpness", "uniquee:ender_mending", "uniquee:spartan_weapon", "uniquee:sages_blessing"]
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			bonus_damage_level = 0.5
+			#Range: 0.0 ~ 1.7976931348623157E308
+			reap_multiplier = 0.01
+			#Range: 0.0 ~ 1.7976931348623157E308
+			transcended_chance = 0.25
+			validMobs = ["minecraft:ender_dragon;8", "minecraft:wither;3", "minecraft:shulker;1", "minecraft:elder_guardian;5", "minecraft:ravager;2", "minecraft:evoker;1"]
+
+		[general.base.grimoire]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 5
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "VERY_RARE"
+			#If the Enchantment is a Treasure
+			treasure = true
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = false
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 70
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 36
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 20
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = ["minecraft:mending", "uniquee:ender_mending", "apotheosis:life_mending"]
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			level_scaling = 0.9
+			#Range: 0.0 ~ 1.7976931348623157E308
+			step_skip = 5.0
+			ignored_enchantments = ["minecraft:fortune", "minecraft:efficiency", "minecraft:looting", "uniquee:midas_blessing", "uniquee:endest_reap", "minecraft:mending", "minecraft:silk_touch"]
+			#Range: > 0
+			start_level = 50
+
+		[general.base.pestilences_odium]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 2
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "RARE"
+			#If the Enchantment is a Treasure
+			treasure = false
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = true
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 10
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 4
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 40
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: 0.0 ~ 1.7976931348623157E308
+			radius = 7.0
+			#Range: > 0
+			delay = 300
+			#Range: 0.0 ~ 1.7976931348623157E308
+			damage_per_tick = 0.25
+
+		[general.base.deaths_odium]
+			#If the Enchantment is Obtainable
+			enabled = true
+			#If the Enchantment has any effect
+			activated = true
+			#Minimum Enchantment Level
+			#Range: > 0
+			min_level = 1
+			#Maximum Enchantment Level
+			#Range: > 0
+			max_level = 2
+			#Rarity of the Enchantment
+			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
+			rarity = "UNCOMMON"
+			#If the Enchantment is a Treasure
+			treasure = false
+			#If the Enchantment is Tradeable by Villagers
+			tradeable = true
+			#Minimum Level for Enchanting
+			#Range: > 0
+			base_cost = 10
+			#Increase of levels per Enchantment Level
+			#Range: > 0
+			per_level_cost = 4
+			#The Additional Upper Range of Required Levels
+			#Range: > 0
+			cost_limit = 40
+			#Hard Limit of where the Enchantment will be capped even if the level is higher
+			#Range: > 0
+			hard_cap = 100
+			#Enchantments that are not compatible with this Enchantment
+			incompats = []
+			#Allows to add custom incompatible Items
+			incompatible_items = []
+			#Allows to add custom compatible Items
+			compatible_items = []
+			#Range: > 0
+			collector_time = 200
+			#Range: > 0
+			damage_factor = 30
+			#Range: 0.0 ~ 1.7976931348623157E308
+			base_loss = 1.0
 
 		[general.base.combo_star]
 			#If the Enchantment is Obtainable
