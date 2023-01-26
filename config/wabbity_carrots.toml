@@ -29,7 +29,7 @@ version = 1
 	food_to_fuel = "*DEFAULT*"
 	#Set to the max block distance a recipient entity for a far-reaching shared effect can be from the source. Primarily used for food-related buffs but can also apply to (de)buffs, campfires, and similar items. Set to 0 to disable sharing of all effects for library and dependent mods.
 	#Range: 0 ~ 32
-	shared_effects_max_reach = 8
+	shared_effects_max_reach = 0
 	#Set false to prevent library from enabling Forge's builtin 'milk' fluid. Be warned that turning this off can impact builtin recipes.
 	forge_milkfluid = true
 
