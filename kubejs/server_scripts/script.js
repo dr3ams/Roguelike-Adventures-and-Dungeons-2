@@ -72,10 +72,6 @@ onEvent('recipes', event => {
 	})
 	event.shapeless('9x kubejs:coin_05', ['kubejs:coin_06'])	
 
-event.remove({output: 'arsarsenal:air_hood'})
-event.remove({output: 'arsarsenal:aqua_hood'})
-event.remove({output: 'arsarsenal:fire_hood'})
-event.remove({output: 'arsarsenal:earth_hood'})
 	
 event.remove({output: 'quark:magnet'})
 event.remove({output: 'quark:backpack'})
@@ -225,6 +221,7 @@ event.remove({output: 'vanillafoodpantry:rock_salt_ore_nether'})
 event.remove({output: 'vanillafoodpantry:natron_ore'})
 event.remove({output: 'vanillafoodpantry:trona_ore'})
 	
+event.remove({output: 'archers_paradox:phantasmal_arrow'})
 })
 	
 

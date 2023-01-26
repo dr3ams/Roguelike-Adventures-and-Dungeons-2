@@ -52,16 +52,16 @@
 	enableArtifactLoot = true
 	#Enable melee weapons appearing in their own tab in the creative menu. 
 	#Disabling this feature puts them in the COMBAT tab. [true / false]
-	enableMeleeWeaponTab = true
+	enableMeleeWeaponTab = false
 	#Enable ranged weapons appearing in their own tab in the creative menu. 
 	#Disabling this feature puts them in the COMBAT tab. [true / false]
-	enableRangedWeaponTab = true
+	enableRangedWeaponTab = false
 	#Enable armors appearing in their own tab in the creative menu. 
 	#Disabling this feature puts them in the COMBAT tab. [true / false]
-	enableArmorTab = true
+	enableArmorTab = false
 	#Enable artifacts appearing in their own tab in the creative menu. 
 	#Disabling this feature puts them in the COMBAT tab. [true / false]
-	enableArtifactTab = true
+	enableArtifactTab = false
 	#Enable Librarian Villagers trading books enchanted with this mod's enchantments. 
 	#Disable this feature if you want to prevent this. [true / false]
 	enableEnchantmentTrades = true
@@ -87,7 +87,7 @@
 	#Dual wield weapon offhand functions are suppressed in favor of using War Dance's offhand attacks. 
 	#Block reach attributes are added to spears so they benefit from skills. 
 	#Does nothing if Project: War Dance is not installed. [true / false]
-	enableProjectWarDanceCompat = true
+	enableProjectWarDanceCompat = false
 
 #Effect Specific Configuration
 [effect_specific_configuration]
