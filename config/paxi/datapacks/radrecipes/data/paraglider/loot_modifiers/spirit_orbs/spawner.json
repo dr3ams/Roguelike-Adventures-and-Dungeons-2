@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:spawner"
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.5
+    }
+  ],
+  "count": 1,
+  "type": "paraglider:spirit_orb"
+}
