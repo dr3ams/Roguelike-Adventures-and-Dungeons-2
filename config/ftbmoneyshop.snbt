@@ -641,18 +641,6 @@
 				}
 				{
 					item: {
-						id: "enigmaticlegacy:recall_potion"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					buy: 100L
-				}
-				{
-					item: {
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
@@ -665,6 +653,32 @@
 						}
 					}
 					buy: 15L
+				}
+				{
+					item: {
+						id: "enigmaticlegacy:recall_potion"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 100L
+				}
+				{
+					item: {
+						id: "bountifulbaubles:potion_recall"
+						Count: 1b
+					}
+					buy: 100L
+				}
+				{
+					item: {
+						id: "bountifulbaubles:potion_wormhole"
+						Count: 1b
+					}
+					buy: 100L
 				}
 			]
 		}
@@ -823,20 +837,6 @@
 						}
 					}
 					buy: 250L
-				}
-				{
-					item: {
-						id: "bountifulbaubles:potion_wormhole"
-						Count: 1b
-					}
-					buy: 100L
-				}
-				{
-					item: {
-						id: "bountifulbaubles:potion_recall"
-						Count: 1b
-					}
-					buy: 100L
 				}
 			]
 		}
