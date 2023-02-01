@@ -16,6 +16,9 @@ import crafttweaker.api.item.IItemStack;
 //buff to ore magnet durability because 12 is just awful and outclassed by the minewood tree.
 <item:twilightforest:ore_magnet>.maxDamage = 50;
 
+//nerf bulldozer durability to 3
+<item:prefab:item_bulldozer>.maxDamage = 3;
+
 //christmas hat luck nerfed from 50 to 3, speed from +0.05 to +0.02 (+20% speed)
 <item:tombstone:christmas_hat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.luck>, "e6f5182f-39e8-4f5d-9998-fc9ddf7c969e", "Christmas hat luck bonus", -47, ADDITION, [<equipmentslottype:head>]);
 <item:tombstone:christmas_hat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "07c7291f-d909-4411-88c0-3841125b7414", "Christmas hat speed boost", -0.03, ADDITION, [<equipmentslottype:head>]);
