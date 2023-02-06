@@ -22,6 +22,11 @@ craftingTable.removeRecipe(<item:waystones:warp_plate>);
 craftingTable.removeRecipe(<item:greekfantasy:golden_apple_sapling>);
 craftingTable.removeRecipe(<item:minecraft:enchanted_golden_apple>);
 
+craftingTable.addShaped("white_chair", <item:tropicraft:white_chair>, 
+[[<item:tropicraft:bamboo_stick>, <item:tropicraft:bamboo_bundle>, <item:tropicraft:bamboo_stick>],
+ [<item:tropicraft:bamboo_stick>, <item:tropicraft:bamboo_bundle>, <item:tropicraft:bamboo_stick>], 
+ [<item:tropicraft:bamboo_stick>, <item:tropicraft:bamboo_bundle>, <item:tropicraft:bamboo_stick>]]);
+
 craftingTable.removeRecipe(<item:apotheosis:hellshelf>);
 craftingTable.addShaped("hellshelf", <item:apotheosis:hellshelf>, 
 [[<item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>, <item:minecraft:nether_bricks>],
