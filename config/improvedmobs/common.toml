@@ -114,7 +114,7 @@
 	"Neutral Aggressive Chance" = 0.0
 	#List for of pairs containing which mobs auto target others. Syntax is [mob id]-[mob id] where second value is the target.
 	# e.g. minecraft:zombie-minecraft:skeleton makes all zombies target skeletons
-	"Auto Target List" = []
+	"Auto Target List" = ["dungeons_mobs:iceologer-upgrade_aquatic:glow_squid"]
 	#Delay for the coroutil repair block. Coroutil integration needs to be enabled
 	"Repair Ticks" = 500
 	#Difficulty at which mobs are able to break blocks
@@ -122,7 +122,7 @@
 	#Difficulty at which mobs are able to steal items
 	"Difficulty Steal AI" = 0.0
 	#Chance for mobs to be able to ride a parrot
-	"Fly Chance" = 0.0
+	"Fly Chance" = 0.00001
 	#Chance for mobs to be able to ride a guardian
 	#Range: 0.0 ~ 1.0
 	"Guardian Chance" = 1.0
