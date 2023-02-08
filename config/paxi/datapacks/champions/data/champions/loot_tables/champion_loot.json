@@ -11,7 +11,13 @@
           "conditions": [
             {
               "condition": "champions:entity_champion",
-              "entity": "this"
+              "entity": "this",
+	      "maxTier": 3
+            },
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.25,
+              "looting_multiplier": 0.01
             },
             {
               "condition": "killed_by_player"
@@ -41,13 +47,20 @@
               "entity": "this",
               "minTier": 2
             },
+	    {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.75,
+              "looting_multiplier": 0.01
+            },
             {
               "condition": "killed_by_player"
             }
           ],
           "functions": [
             {
-              "function": "enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 10,
+              "treasure": true
             }
           ]
         }
@@ -66,6 +79,11 @@
               "condition": "champions:entity_champion",
               "entity": "this",
               "minTier": 3
+            },
+	    {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.9,
+              "looting_multiplier": 0.01
             },
             {
               "condition": "killed_by_player"
