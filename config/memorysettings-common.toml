@@ -1,0 +1,19 @@
+
+["Config category"]
+	#Set the client minimum memory warning threshold in MB. Choose the lowest value possible which keeps the pack playable.
+	#Range: 2500 ~ 25000
+	minimumClient = 4480
+	#Set the client maximum memory warning threshold in MB. Choose a generous maximum with some additional over the required, e.g.recommended is 6000mb then set this to ~8000mb
+	#Range: 2500 ~ 600000
+	maximumClient = 13440
+	#Set the server minimum memory warning threshold in MB. Choose the lowest value possible which keeps the pack playable.
+	#Range: 2500 ~ 25000
+	minimumServer = 4480
+	#Set the server maximum memory warning threshold in MB. Choose a generous maximum with some additional over the required, e.g.recommended is 6000mb then set this to ~8000mb
+	#Range: 2500 ~ 600000
+	maximumServer = 13440
+	#Disable the memory warnings, default = false
+	disableWarnings = false
+	#Set the help message for changing ram allocation
+	helpfullinkmessage = "See <a href='https://minecrafthelp.co.uk/how-to-add-more-ram-to-minecraft/'>https://minecrafthelp.co.uk/how-to-add-more-ram-to-minecraft/</a> on how to change your memory settings. Visit our <a href='https://discord.gg/CG6HjQjW5c'>Discord server</a> if you have any issues."
+
