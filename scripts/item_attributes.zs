@@ -37,3 +37,12 @@ import crafttweaker.api.item.IItemStack;
 
 //apex enchanting
 <item:minecraft:beacon>.addTooltip("Right-Click in JEI to see Apex Enchanting Recipes");
+
+//crystalite armor tooltip
+<item:betterendforge:crystalite_chestplate>.addTooltip("Haste I");
+<item:betterendforge:crystalite_boots>.addTooltip("Speed I");
+
+<item:betterendforge:crystalite_helmet>.addTooltip("Full set grants Regeneration I");
+<item:betterendforge:crystalite_chestplate>.addTooltip("Full set grants Regeneration I");
+<item:betterendforge:crystalite_leggings>.addTooltip("Full set grants Regeneration I");
+<item:betterendforge:crystalite_boots>.addTooltip("Full set grants Regeneration I");
