@@ -7,45 +7,170 @@
 	icon: "tropicraft:pina_colada"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.5d
-		y: -0.5d
-		shape: "octagon"
-		subtitle: "Why bother with quests? Just chill..."
-		size: 2.0d
-		id: "0559FD160CFF6C2A"
-		tasks: [{
-			id: "7CFF4B6C5213D5EE"
-			type: "dimension"
-			dimension: "tropicraft:tropics"
-		}]
-		rewards: [
-			{
-				id: "121F76ECE13674D6"
-				type: "item"
-				item: {
-					id: "abnormals_delight:pickerelweed_juice"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+	quests: [
+		{
+			x: 0.5d
+			y: -0.5d
+			shape: "octagon"
+			subtitle: "Why bother with quests? Just chill..."
+			dependencies: ["59140870FC7DE344"]
+			size: 2.0d
+			id: "0559FD160CFF6C2A"
+			tasks: [{
+				id: "7CFF4B6C5213D5EE"
+				type: "dimension"
+				dimension: "tropicraft:tropics"
+			}]
+			rewards: [
+				{
+					id: "121F76ECE13674D6"
+					type: "item"
+					item: {
+						id: "abnormals_delight:pickerelweed_juice"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-			}
-			{
-				id: "7B3A03488BD094D8"
-				type: "item"
-				item: {
-					id: "simplefarming:ice_cream_sundae"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+				{
+					id: "7B3A03488BD094D8"
+					type: "item"
+					item: {
+						id: "simplefarming:ice_cream_sundae"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
+			]
+		}
+		{
+			title: "Take a break"
+			x: -2.0d
+			y: -0.5d
+			subtitle: "Don't get caught in the rain"
+			description: [
+				"Make yourself a drink, Get a chair sit down and watch the sunset"
+				""
+				"You've earned it."
+			]
+			dependencies: ["26B3F0D3178BE1CD"]
+			id: "59140870FC7DE344"
+			tasks: [
+				{
+					id: "37F5A22FF7AEEF0E"
+					type: "item"
+					item: {
+						id: "tropicraft:pina_colada"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "57AF02B50C6CA611"
+					type: "item"
+					title: "White Chair"
+					icon: {
+						id: "tropicraft:white_chair"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					item: {
+						id: "tropicraft:white_chair"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Island Delights"
+			icon: {
+				id: "tropicraft:pineapple"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
-		]
-	}]
+			x: -4.0d
+			y: -0.5d
+			description: [
+				"Sometimes you can find pineapples and coconuts growing on beaches."
+				""
+				"Chop them up with your sword and get yourself some lovely snacks."
+				""
+				"Maybe you can even make something to drink?"
+			]
+			id: "26B3F0D3178BE1CD"
+			tasks: [
+				{
+					id: "0CA862264571CD0F"
+					type: "observation"
+					title: "Coconut"
+					icon: {
+						id: "tropicraft:coconut"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 30L
+					observe_type: 0
+					to_observe: "tropicraft:coconut"
+				}
+				{
+					id: "2C6BFA84F470D4AE"
+					type: "observation"
+					title: "Pineapple"
+					icon: {
+						id: "tropicraft:pineapple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 30L
+					observe_type: 0
+					to_observe: "tropicraft:pineapple"
+				}
+				{
+					id: "3B452B85D2A0378A"
+					type: "item"
+					item: {
+						id: "tropicraft:bamboo_mug"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+	]
 }
