@@ -1,0 +1,258 @@
+{
+	id: "67FB3A412A928375"
+	group: "241F1DC7B6D6E9D6"
+	order_index: 13
+	filename: "sweet_dreams"
+	title: "Sweet Dreams"
+	icon: {
+		id: "good_nights_sleep:lolipop_bush"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Sweet Dreams"
+			icon: {
+				id: "good_nights_sleep:strange_bed"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.0d
+			y: 1.0d
+			shape: "rsquare"
+			subtitle: "Listen to the sandman's lullaby"
+			description: [
+				"Tired of those boring old beds at your base."
+				""
+				"Upgrade to a strange bed by finding some speical mushrooms."
+				""
+				"The best place to find them is within the nether."
+			]
+			id: "7CD8E2889CDD0041"
+			tasks: [
+				{
+					id: "628CD35051E299FE"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:hope_mushroom"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1BA28EC018A3C124"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:despair_mushroom"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "05AF7860271D5069"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:strange_bed"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Sweetest Dreams"
+			icon: {
+				id: "good_nights_sleep:luxurious_bed"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.5d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Don't let the bed bugs bite"
+			description: [
+				"Are you dreaming or is this reality who knows."
+				""
+				"Why don't you explore this wonderful dream before you wake up."
+			]
+			dependencies: ["7CD8E2889CDD0041"]
+			hide: false
+			secret: true
+			id: "7708C151E2F0FAA4"
+			tasks: [{
+				id: "77B1F2A00BE4D9C9"
+				type: "dimension"
+				dimension: "good_nights_sleep:nightmare"
+			}]
+		}
+		{
+			title: "Bad Dreams"
+			icon: {
+				id: "good_nights_sleep:wretched_bed"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.5d
+			y: 2.0d
+			shape: "rsquare"
+			subtitle: "This is going to be a terrible night"
+			description: [
+				"Looks like someone slept on the wrong side of the bed"
+				""
+				"What a terrible nightmare to be in on the bright side maybe you can find something useful."
+			]
+			dependencies: ["7CD8E2889CDD0041"]
+			hide: false
+			secret: true
+			id: "337E0BFFABCBEFA1"
+			tasks: [{
+				id: "5960A1FB331BB9F0"
+				type: "dimension"
+				dimension: "good_nights_sleep:good_dream"
+			}]
+		}
+		{
+			icon: {
+				id: "good_nights_sleep:positite_gem"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.0d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["7708C151E2F0FAA4"]
+			secret: true
+			id: "40AA71B8B95FAC98"
+			tasks: [
+				{
+					id: "3812033EFD87E81B"
+					type: "questsadditions:break"
+					icon: {
+						id: "good_nights_sleep:positite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					block: "good_nights_sleep:positite_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "246A7B997B47660A"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:positite_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "15BC0CA6088B4207"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:luxurious_bed"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "good_nights_sleep:negatite_gem"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.0d
+			y: 2.0d
+			shape: "rsquare"
+			dependencies: ["337E0BFFABCBEFA1"]
+			secret: true
+			id: "3820F4EF979E7256"
+			tasks: [
+				{
+					id: "456D8A5A58264C1E"
+					type: "questsadditions:break"
+					block: "good_nights_sleep:negatite_ore"
+					value: 1L
+					checkItem: false
+				}
+				{
+					id: "6EC0AD8727E4549C"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:negatite_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "519DF3034F2CD10C"
+					type: "item"
+					item: {
+						id: "good_nights_sleep:wretched_bed"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}
