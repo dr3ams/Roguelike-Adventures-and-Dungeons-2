@@ -3,7 +3,7 @@
 	group: "67B03B24E53297B4"
 	order_index: 1
 	filename: "culinary_engineering"
-	title: "Culinary Expedition"
+	title: "{chapter.17.title}"
 	icon: "cookingforblockheads:cooking_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,8 +12,8 @@
 			x: -10.0d
 			y: 13.0d
 			shape: "gear"
-			subtitle: "(Connection from \"Farmer's Delight\" chapter)"
-			description: ["With this book you will be able to make food specifically from in your inventory."]
+			subtitle: "{chapter.17.quest.1.subtitle}"
+			description: ["{chapter.17.quest.1.description.1}"]
 			size: 1.5d
 			id: "0000000000000FF0"
 			tasks: [{
@@ -26,7 +26,7 @@
 			x: -6.0d
 			y: 13.0d
 			shape: "rsquare"
-			description: ["This cooking table is the first step in having a entire functioning and linked kitchen. It will be where you craft your food. "]
+			description: ["{chapter.17.quest.2.description.1}"]
 			dependencies: ["0000000000000FF0"]
 			id: "0000000000000FF2"
 			tasks: [{
@@ -52,7 +52,7 @@
 			x: -4.0d
 			y: 13.0d
 			shape: "rsquare"
-			description: ["By having a sink linked into your kitchen (touching other counter blocks and equipment) you will have water supplied freely to all your recipes."]
+			description: ["{chapter.17.quest.3.description.1}"]
 			id: "0000000000000FF4"
 			tasks: [{
 				id: "0000000000000FF5"
@@ -69,7 +69,7 @@
 			x: -3.0d
 			y: 12.0d
 			shape: "rsquare"
-			description: ["The oven will allow you to cook any food needed in your recipes, when connected in your kitchen. Without upgrades the oven will require a fuel source to cook food."]
+			description: ["{chapter.17.quest.4.description.1}"]
 			id: "0000000000000FF6"
 			tasks: [{
 				id: "0000000000000FF7"
@@ -85,7 +85,7 @@
 		{
 			x: -5.0d
 			y: 12.0d
-			description: ["The toaster will convert bread to toast for any recipe needing it."]
+			description: ["{chapter.17.quest.5.description.1}"]
 			id: "0000000000000FF8"
 			tasks: [{
 				id: "0000000000000FF9"
@@ -109,11 +109,7 @@
 		{
 			x: -1.0d
 			y: 14.0d
-			description: [
-				"Provides a constant supply of milk for recipes without manually having to be filled. "
-				""
-				"May want to drop an anvil on a cow over a milk jar to see if one actually fits."
-			]
+			description: ["{chapter.17.quest.6.description.1}"]
 			dependencies: ["0000000000000FFC"]
 			id: "0000000000000FFA"
 			tasks: [{
@@ -137,7 +133,7 @@
 		{
 			x: -1.0d
 			y: 12.0d
-			description: ["Holds milk to be used in recipes. Must be filled with milk manually."]
+			description: ["{chapter.17.quest.7.description.1}"]
 			id: "0000000000000FFC"
 			tasks: [{
 				id: "0000000000000FFD"
@@ -160,10 +156,7 @@
 		{
 			x: -7.0d
 			y: 12.0d
-			description: [
-				"The fridge is a decorative storage block that will allow you to store ingredients for recipes."
-				"Can be double stacked to expand storage space."
-			]
+			description: ["{chapter.17.quest.8.description.1}"]
 			id: "0000000000000FFE"
 			tasks: [{
 				id: "0000000000000FFF"
@@ -179,7 +172,7 @@
 		{
 			x: -5.0d
 			y: 14.0d
-			description: ["Holds tools that will be able to be used in recipes in attached kitchens."]
+			description: ["{chapter.17.quest.9.description.1}"]
 			id: "0000000000001000"
 			tasks: [{
 				id: "0000000000001001"
@@ -201,7 +194,7 @@
 		{
 			x: -7.0d
 			y: 14.0d
-			description: ["Holds and displays spices to be used in the kitchen."]
+			description: ["{chapter.17.quest.10.description.1}"]
 			id: "0000000000001002"
 			tasks: [{
 				id: "0000000000001003"
@@ -217,7 +210,7 @@
 		{
 			x: -3.0d
 			y: 14.0d
-			description: ["Stores and displays fruit for recipes that can be used by the kitchen."]
+			description: ["{chapter.17.quest.11.description.1}"]
 			id: "0000000000001004"
 			tasks: [{
 				id: "0000000000001005"
@@ -247,7 +240,7 @@
 		{
 			x: -7.5d
 			y: 11.0d
-			description: ["A fridge upgrade that will provide all the snow and ice you need for recipes. "]
+			description: ["{chapter.17.quest.12.description.1}"]
 			dependencies: ["0000000000000FFE"]
 			id: "0000000000001006"
 			tasks: [{
@@ -271,7 +264,7 @@
 		{
 			x: -6.5d
 			y: 11.0d
-			description: ["A fridge upgrade that saves the last item in a slot so that item spaces are saved from being replaced."]
+			description: ["{chapter.17.quest.13.description.1}"]
 			dependencies: ["0000000000000FFE"]
 			id: "0000000000001008"
 			tasks: [{
@@ -295,7 +288,7 @@
 		{
 			x: -3.0d
 			y: 11.0d
-			description: ["By applying this upgrade to your oven it will be able to accept RF to cook food, no longer requiring fuel."]
+			description: ["{chapter.17.quest.14.description.1}"]
 			dependencies: ["0000000000000FF6"]
 			id: "000000000000100A"
 			tasks: [{
@@ -319,11 +312,7 @@
 		{
 			x: 2.5d
 			y: 12.5d
-			description: [
-				"A hanging kitchen cabinet to decorate your kitchen and provide some extra storage."
-				""
-				"Can be dyed to change their color."
-			]
+			description: ["{chapter.17.quest.15.description.1}"]
 			id: "000000000000100C"
 			tasks: [{
 				id: "000000000000100D"
@@ -339,11 +328,7 @@
 		{
 			x: 4.0d
 			y: 12.5d
-			description: [
-				"A simple hanging cabinet corner to help around bends while maintaining connection."
-				""
-				"Can be dyed to change their color."
-			]
+			description: ["{chapter.17.quest.16.description.1}"]
 			id: "000000000000100E"
 			tasks: [{
 				id: "000000000000100F"
@@ -359,11 +344,7 @@
 		{
 			x: 2.5d
 			y: 14.0d
-			description: [
-				"Kitchen counter allows you to connect multiple pieces of kitchen equipment together as well as provide some storage for ingredients."
-				""
-				"Can be dyed to change their color."
-			]
+			description: ["{chapter.17.quest.17.description.1}"]
 			id: "0000000000001010"
 			tasks: [{
 				id: "0000000000001011"
@@ -379,11 +360,7 @@
 		{
 			x: 4.0d
 			y: 14.0d
-			description: [
-				"A simple corner to help counters around bends, maintaining their connection."
-				""
-				"Can be dyed to change their color."
-			]
+			description: ["{chapter.17.quest.18.description.1}"]
 			id: "0000000000001012"
 			tasks: [{
 				id: "0000000000001013"
@@ -399,7 +376,7 @@
 		{
 			x: 3.285714285714292d
 			y: 13.267857142857153d
-			description: ["The \"classic\" kitchen flooring. Can be converted to a number of other colors, check the recipes in JEI. "]
+			description: ["{chapter.17.quest.19.description.1}"]
 			id: "0000000000001014"
 			tasks: [{
 				id: "0000000000001015"
@@ -428,20 +405,13 @@
 			x: -3.75d
 			y: 16.25d
 			shape: "octagon"
-			description: [
-				"Surrounding the above Kitchen item quests are a number of recipes that you can try to make. These may be complex but their benefits and boost may be appealing if you give them a try. Trying out a good number of these food will help you get benefits from SOL: Potato Edition."
-				"*You may need to zoom out quite a bit to see all the quests*"
-				""
-				"Feel no need to complete a lot of these quests as they do not provide rewards, but are here to give you ideas on what to cook to keep your diet diverse."
-				""
-				"May this be your veritable recipe book."
-			]
+			description: ["{chapter.17.quest.20.description.1}"]
 			size: 2.5d
 			id: "000000000000107A"
 			tasks: [{
 				id: "000000000000107B"
 				type: "checkmark"
-				title: "Recipe Time"
+				title: "{chapter.17.quest.20.task.1.title}"
 			}]
 		}
 		{
@@ -3092,12 +3062,12 @@
 			}]
 		}
 		{
-			title: "Nugget Life"
+			title: "{chapter.17.quest.171.title}"
 			icon: "vanillafoodpantry:nuggets_chicken_fried"
 			x: 10.0d
 			y: 10.0d
 			shape: "diamond"
-			description: ["Frying chunks of anything improves them greatly! "]
+			description: ["{chapter.17.quest.171.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0000000000001489"
@@ -3116,7 +3086,7 @@
 			id: "0B878A4ECF50D27A"
 		}
 		{
-			title: "Sandwich Delight"
+			title: "{chapter.17.quest.172.title}"
 			icon: {
 				id: "vanillafoodpantry:decker_chicken"
 				Count: 1b
@@ -3134,7 +3104,7 @@
 			x: 9.0d
 			y: 17.0d
 			shape: "diamond"
-			description: ["These are some big wacky sandwiches!"]
+			description: ["{chapter.17.quest.172.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"000000000000145D"
@@ -3155,12 +3125,12 @@
 			id: "5E6C47157E196F54"
 		}
 		{
-			title: "Stew Dipper"
+			title: "{chapter.17.quest.173.title}"
 			icon: "vanillafoodpantry:beetroot_soup_combo"
 			x: -17.0d
 			y: 17.0d
 			shape: "diamond"
-			description: ["Some nice stuffed meals with some nice stew on the side!"]
+			description: ["{chapter.17.quest.173.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0000000000001479"
@@ -3181,12 +3151,12 @@
 			id: "7E935433AB750D06"
 		}
 		{
-			title: "Potato Buffet"
+			title: "{chapter.17.quest.174.title}"
 			icon: "minecraft:baked_potato"
 			x: -17.5d
 			y: 10.0d
 			shape: "diamond"
-			description: ["You could stuff just about anything into a potato, and you have done all of it!"]
+			description: ["{chapter.17.quest.174.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0000000000001463"
@@ -3206,7 +3176,7 @@
 			id: "35FF942B58777250"
 		}
 		{
-			title: "Just Like Gram Made"
+			title: "{chapter.17.quest.175.title}"
 			icon: {
 				id: "vanillafoodpantry:fish_pie_salmon"
 				Count: 1b
@@ -3221,7 +3191,7 @@
 			x: -4.0d
 			y: 26.0d
 			shape: "diamond"
-			description: ["Pies just like they used to make."]
+			description: ["{chapter.17.quest.175.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"00000000000013B5"
@@ -3240,12 +3210,12 @@
 			id: "2FEBBB3C1BA1959D"
 		}
 		{
-			title: "Baker's Basics"
+			title: "{chapter.17.quest.176.title}"
 			icon: "minecraft:bread"
 			x: -13.0d
 			y: 28.0d
 			shape: "diamond"
-			description: ["Time to open a bakery!"]
+			description: ["{chapter.17.quest.176.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0000000000001409"
@@ -3266,12 +3236,12 @@
 			id: "5346C66B4B8BE004"
 		}
 		{
-			title: "Wacky Lunch and Salad Combo"
+			title: "{chapter.17.quest.177.title}"
 			icon: "simplefarming:olive_tomato_salad"
 			x: -7.0d
 			y: 28.0d
 			shape: "diamond"
-			description: ["This is some wacky stuff with greens!"]
+			description: ["{chapter.17.quest.177.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"0000000000001431"
@@ -3292,7 +3262,7 @@
 			id: "0057D8CFA014B6F4"
 		}
 		{
-			title: "Soda Bar"
+			title: "{chapter.17.quest.178.title}"
 			icon: {
 				id: "farmersdelight:melon_juice"
 				Count: 1b
@@ -3305,7 +3275,7 @@
 			x: 2.0d
 			y: 28.0d
 			shape: "diamond"
-			description: ["Liquids that don't power machines, but they sure put pep in your step!"]
+			description: ["{chapter.17.quest.178.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"00000000000014D5"
@@ -3341,12 +3311,12 @@
 			id: "3C4163BBEFFFDEC3"
 		}
 		{
-			title: "Soup, Salad, and Casserole"
+			title: "{chapter.17.quest.179.title}"
 			icon: "simplefarming:spinach_quinoa_quiche"
 			x: 3.0d
 			y: 19.0d
 			shape: "diamond"
-			description: ["You have a straight up cafe menu with these things!"]
+			description: ["{chapter.17.quest.179.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"00000000000013F3"
@@ -3369,12 +3339,12 @@
 			id: "22A371ED8FFC7FFF"
 		}
 		{
-			title: "Two Slices of Bread and Anything"
+			title: "{chapter.17.quest.180.title}"
 			icon: "fins:crab_sandwich"
 			x: -4.0d
 			y: 19.0d
 			shape: "diamond"
-			description: ["Is a hotdog a sandwich?"]
+			description: ["{chapter.17.quest.180.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"00000000000013D5"
@@ -3399,12 +3369,12 @@
 			id: "64725ADDE2ACEA50"
 		}
 		{
-			title: "All Around the World"
+			title: "{chapter.17.quest.181.title}"
 			icon: "simplefarming:chicken_curry"
 			x: -11.0d
 			y: 19.0d
 			shape: "diamond"
-			description: ["Some meals from all over the world!"]
+			description: ["{chapter.17.quest.181.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"00000000000013E1"

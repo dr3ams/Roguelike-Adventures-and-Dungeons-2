@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 12
 	filename: "highway_to_the_bumblezone"
-	title: "To the Bumblezone"
+	title: "{chapter.15.title}"
 	icon: "rats:rat_upgrade_bee"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,7 +21,7 @@
 	}]
 	quests: [
 		{
-			title: "♪ Highway to the Bumble Zone ♫"
+			title: "{chapter.15.quest.1.title}"
 			icon: {
 				id: "feywild:honeycomb"
 				Count: 1b
@@ -34,14 +34,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "octagon"
-			description: [
-				"  The Bumblezone is a dimension filled with Honeycomb Blocks, Honey Blocks, Honey Crystals, Sugar Water, and few new bee-related Blocks! There's even a structure with unique bee armor you can obtain!"
-				""
-				""
-				" Entering the dimension is super easy! Just throw an Enderpearl at any Bee Nest or Beehive (even modded ones works!) to enter inside it and spawn into the dimension. You can also make yourself (riding a mob or vehicle) or any mob enter the dimension by using a piston to push the player or mob into a Beehive or Bee Nest block!"
-				""
-				"To teleport out of the dimension, you can either dig down and fall below Y = 0 or climb your way to above Y = 256."
-			]
+			description: ["{chapter.15.quest.1.description.1}"]
 			size: 2.0d
 			id: "17777CD49B8B6F41"
 			tasks: [
@@ -292,7 +285,7 @@
 		{
 			x: 1.5d
 			y: 3.5d
-			subtitle: "Tame a Behemoth with buckets of honey"
+			subtitle: "{chapter.15.quest.8.subtitle}"
 			dependencies: ["17777CD49B8B6F41"]
 			id: "5C0AEAAA45EB107A"
 			tasks: [{
@@ -322,7 +315,7 @@
 		{
 			x: 3.5d
 			y: 1.5d
-			subtitle: "Infused a Slime with honey"
+			subtitle: "{chapter.15.quest.9.subtitle}"
 			dependencies: ["17777CD49B8B6F41"]
 			id: "1AE3D1728F1CC7A6"
 			tasks: [{

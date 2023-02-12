@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 0
 	filename: "overworld_exploration"
-	title: "World Exploration"
+	title: "{chapter.3.title}"
 	icon: "minecraft:grass_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -38,23 +38,13 @@
 			icon: "minecraft:potato"
 			x: 3.0d
 			y: 0.5d
-			description: [
-				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods."
-				""
-				"You will receive variable benefits depending on how diverse your current diet is, and has been in the recent past."
-				""
-				"You will have to maintain that level of diversity to keep those benefits. This should encourage automation of a variety of foods, rather than just encouraging you to eat each food once (SoL: Carrot Edition)."
-				""
-				"*Note: This means your diversity score is constantly and dynamically changing depending on what your current and past diet. "
-				"Thus, you can have many benefits after eating a diverse set of foods for a time, but falling back to eating only bread will gradually result in a loss/weakening of gained benefits."
-				"To get a higher diversity score, you need to keep including more and more diverse types of foods in your diet."
-			]
+			description: ["{chapter.3.quest.1.description.1}"]
 			dependencies: ["45367EFC307FBA67"]
 			id: "006F7F9BE37E4FA7"
 			tasks: [{
 				id: "43036004E3C8DE83"
 				type: "checkmark"
-				title: "Food Variety and Bonuses"
+				title: "{chapter.3.quest.1.task.1.title}"
 			}]
 			rewards: [{
 				id: "5592572112E7815D"
@@ -74,21 +64,13 @@
 			}
 			x: 7.5d
 			y: 3.0d
-			description: [
-				"Lost Trinkets adds more than 70+ unlockable trinkets with different abilities and rarities."
-				""
-				"Trinkets are randomly unlocked when you doing some activities like fighting enemies and bosses, trading, mining ores, cutting trees, and farming.Each activity has a rarity of unlocking trinkets eg: killing bosses has a better chance than normal enemies"
-				""
-				"You can access the trinket GUI by pressing the R key on your keyboard. "
-				"========================"
-				"There are also countless amount of curious(baubles) which have their own slot in your inventory. Each with unique different ability or property. "
-			]
+			description: ["{chapter.3.quest.2.description.1}"]
 			dependencies: ["5F7DCF112F9F6C1C"]
 			id: "46999E88BCF5B1BD"
 			tasks: [{
 				id: "62A65DFCEE9F4AA5"
 				type: "checkmark"
-				title: "Trinkets"
+				title: "{chapter.3.quest.2.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -107,27 +89,14 @@
 			icon: "itemfilters:not"
 			x: 7.0d
 			y: 2.0d
-			subtitle: "Veinminer/OreExcavation alternative"
-			description: [
-				"- Renders white lines around blocks that will be mined."
-				"- You can also use hoe on grass in similar way to till multiple blocks at once."
-				"- Harvest crops by right-clicking on them"
-				""
-				"Select a shape by holding shift and the grave key while scrolling the mouse scroll wheel."
-				"- Shapeless: No shape applied."
-				"- Small Tunnel: A 1x1 deep tunnel."
-				"- Small Square: A 3x3x1. (Depth of one. If you want a long 3x3 tunnel, you are probably better off digging 9 separate small tunnels.)"
-				"- Mining Tunnel: A 1x1 tunnel angled down. (You will need at least 3 of these to form stairs you can walk down.)"
-				"- Escape Tunnel: Same as the mining tunnel, but upward."
-				""
-				"Tip: Just remember to reset your shape to shapeless for clearing ore deposits or you will only mine the ores in the selected shape."
-			]
+			subtitle: "{chapter.3.quest.3.subtitle}"
+			description: ["{chapter.3.quest.3.description.1}"]
 			dependencies: ["518DF4A178673014"]
 			id: "143E7EB383FC8A60"
 			tasks: [{
 				id: "0EEDD89EE27ED37B"
 				type: "checkmark"
-				title: "Ultimine"
+				title: "{chapter.3.quest.3.task.1.title}"
 			}]
 			rewards: [{
 				id: "65B246D328EEEA52"
@@ -145,20 +114,13 @@
 			icon: "itemfilters:not"
 			x: 1.0d
 			y: 0.0d
-			description: [
-				"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that item\\s recipe."
-				"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids."
-				"• To search by mod name use the \"@\" key before search in search box. (e.g. @Quark)"
-				"• To select the search box without clicking on it, the player can press Ctrl + F."
-				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A."
-				""
-			]
+			description: ["{chapter.3.quest.4.description.1}"]
 			dependencies: ["2DDD649416AA95EC"]
 			id: "7B1C0892C86A4177"
 			tasks: [{
 				id: "4665A7B467B41395"
 				type: "checkmark"
-				title: "JEI(recipe browser)"
+				title: "{chapter.3.quest.4.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -178,23 +140,13 @@
 			icon: "itemfilters:id_regex"
 			x: 1.0d
 			y: -2.0d
-			description: [
-				"Quests come in a number of different types in this pack."
-				""
-				"You can have quests for simply traveling to a destination or by traveling a certain number of blocks."
-				""
-				"A majority of the quests in this pack will be completed by gaining the required item in your inventory. You will automatically get a pop up message in the top corner when this happens."
-				""
-				"The final quest type, such as this one, simply requires you to click the checkbox in the Tasks box to complete the quest (as a confirmation of reading :])."
-				""
-				"Finally to collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
-			]
+			description: ["{chapter.3.quest.5.description.1}"]
 			dependencies: ["2DDD649416AA95EC"]
 			id: "5AD3CAD77014FECC"
 			tasks: [{
 				id: "6BF0D787CC57A597"
 				type: "checkmark"
-				title: "Quest Types and Rewards"
+				title: "{chapter.3.quest.5.task.1.title}"
 			}]
 			rewards: [{
 				id: "2C9FAD1B34763B10"
@@ -205,16 +157,7 @@
 		{
 			x: 2.0d
 			y: 4.0d
-			description: [
-				"The Food Book gives you information about your diet diversity score."
-				""
-				"-Lists all the foods that you have eaten in the past that are currently contributing to your diversity."
-				"-Gives your current diversity score."
-				"-Describes the benefits you are currently experiencing."
-				""
-				"Can be bound to a key in keybinds so you do not need to carry the book."
-				""
-			]
+			description: ["{chapter.3.quest.6.description.1}"]
 			dependencies: ["53854D9D9E2AB2E3"]
 			id: "6A4218F548A74647"
 			tasks: [{
@@ -243,13 +186,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
-			description: [
-				"The lunchbag allows you to store food to be fed on while maxing diversity gain."
-				""
-				"Shift-right click to open its inventory, allowing you to load it with food. Then, when you are hungry, right clicking with the lunchbag in your hand will feed you with the best food to maximize your diversity."
-				""
-				""
-			]
+			description: ["{chapter.3.quest.7.description.1}"]
 			dependencies: ["45367EFC307FBA67"]
 			id: "7FBB7ED4218AD723"
 			tasks: [{
@@ -294,7 +231,7 @@
 			tasks: [{
 				id: "01EA018DC5205DBA"
 				type: "item"
-				title: "Any #forge:workbench"
+				title: "{chapter.3.quest.8.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -324,7 +261,7 @@
 			tasks: [{
 				id: "4A2AD7B3B078CCFD"
 				type: "item"
-				title: "Any #minecraft:logs"
+				title: "{chapter.3.quest.9.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -348,39 +285,12 @@
 			]
 		}
 		{
-			title: "Now entering: Master Mode!"
+			title: "{chapter.3.quest.10.title}"
 			x: 28.5d
 			y: -4.5d
 			shape: "octagon"
-			subtitle: "New mechanics for Master Mode:"
-			description: [
-				"- loot has a 75% chance to be doubled"
-				""
-				"- experience from all sources is increased by 50%"
-				""
-				"- all monsters have their health and damage increased by 40% (instead of 20% chance)(at night the bonus is doubled to 80%)"
-				""
-				"- Phantom and new End Keeper spawn naturally near new structures"
-				""
-				"- Elite Skeleton may spawn in a group"
-				""
-				"- Enderman may teleport target on hit"
-				""
-				"- Shulker may inflict Blindness effect"
-				""
-				"- Creepers on explosion may spawn more Creeperlings"
-				""
-				"- Undead Army now has 5 waves"
-				""
-				"- undead spawned during the Undead Army are quadruple as likely to have enchanted items"
-				""
-				"- undead spawned during the Undead Army are thrice as likely to have armor pieces"
-				""
-				"- Undead Army now rewards with 2 Treasure Bags (instead of 1)"
-				""
-				"- Undead Army gives 200% more experience for completing it (instead of 100%)"
-				""
-			]
+			subtitle: "{chapter.3.quest.10.subtitle}"
+			description: ["{chapter.3.quest.10.description.1}"]
 			dependencies: ["216F05F4361A6D0F"]
 			size: 1.5d
 			id: "1486101A3CE0CAAA"
@@ -397,7 +307,7 @@
 			}]
 		}
 		{
-			title: "Iron Armor"
+			title: "{chapter.3.quest.11.title}"
 			x: 9.5d
 			y: -2.0d
 			dependencies: ["7FC81AF332294769"]
@@ -478,10 +388,10 @@
 			]
 		}
 		{
-			title: "So much room for activities now!"
+			title: "{chapter.3.quest.12.title}"
 			x: 6.0d
 			y: 1.0d
-			description: ["Below you can find tools in order of mining skill requirement. There are a lot more tools available and these are just basic ones."]
+			description: ["{chapter.3.quest.12.description.1}"]
 			dependencies: ["01ECE22274DDE487"]
 			id: "518DF4A178673014"
 			tasks: [{
@@ -603,7 +513,7 @@
 			]
 		}
 		{
-			title: "Cover me in diamonds"
+			title: "{chapter.3.quest.15.title}"
 			x: 19.0d
 			y: 5.0d
 			dependencies: ["544027B606EEA00D"]
@@ -778,16 +688,10 @@
 			]
 		}
 		{
-			title: "Utility tools"
+			title: "{chapter.3.quest.19.title}"
 			x: 8.0d
 			y: -2.0d
-			description: [
-				"- Paxels: A combination of Axe, Pickaxe, and Shovel. Can be used to create Path blocks as well as Stripped Logs."
-				""
-				"- Scythes: A tool for harvesting + replanting crops in an AOE. Also works as a weapon with an attack AOE."
-				""
-				"- Sickles: A tool for mining plant material blocks in an AOE."
-			]
+			description: ["{chapter.3.quest.19.description.1}"]
 			dependencies: ["01ECE22274DDE487"]
 			id: "6EC9F2BFD2FC1809"
 			tasks: [
@@ -910,7 +814,7 @@
 				{
 					id: "3CD99AD47F5C8882"
 					type: "item"
-					title: "Any #forge:ingots/copper"
+					title: "{chapter.3.quest.21.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -946,7 +850,7 @@
 				{
 					id: "761E68267A9E38B3"
 					type: "item"
-					title: "Any #forge:ingots/silver"
+					title: "{chapter.3.quest.22.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1056,7 +960,7 @@
 				{
 					id: "116BFD5CD970A68F"
 					type: "item"
-					title: "Any #forge:ingots/lead"
+					title: "{chapter.3.quest.24.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1108,7 +1012,7 @@
 			tasks: [{
 				id: "1CE86177C64AD58B"
 				type: "item"
-				title: "Any #minecraft:beds"
+				title: "{chapter.3.quest.26.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1177,7 +1081,7 @@
 			tasks: [{
 				id: "0995187A5468E252"
 				type: "item"
-				title: "Any #forge:obsidian"
+				title: "{chapter.3.quest.28.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1218,7 +1122,7 @@
 			tasks: [{
 				id: "26CFFADD8427EB7A"
 				type: "item"
-				title: "Any #forge:bookshelves"
+				title: "{chapter.3.quest.29.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1299,7 +1203,7 @@
 			x: 24.0d
 			y: 3.75d
 			shape: "gear"
-			subtitle: "Next chapter: Nether!"
+			subtitle: "{chapter.3.quest.32.subtitle}"
 			dependencies: ["38E3B9FEC8AA6D51"]
 			size: 1.5d
 			id: "55D40E52C19424EA"
@@ -1322,7 +1226,7 @@
 			tasks: [{
 				id: "5455CD298723186E"
 				type: "item"
-				title: "Any #storagedrawers:drawers"
+				title: "{chapter.3.quest.33.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1591,7 +1495,7 @@
 			]
 		}
 		{
-			title: "Go full nomad!"
+			title: "{chapter.3.quest.39.title}"
 			x: 5.5d
 			y: -3.5d
 			dependencies: ["17FC433734DE388E"]
@@ -1599,7 +1503,7 @@
 			tasks: [{
 				id: "092A1CD36EC4FE13"
 				type: "item"
-				title: "Any #questtag:sleepingbag"
+				title: "{chapter.3.quest.39.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1678,7 +1582,7 @@
 		{
 			x: 18.0d
 			y: -3.5d
-			description: ["You can also disenchant enchanted books and any equipment on Grindstone and get some levels back"]
+			description: ["{chapter.3.quest.41.description.1}"]
 			dependencies: ["4D4CE785FDA4EFB9"]
 			id: "43509530CAD67EE9"
 			tasks: [{
@@ -1845,7 +1749,7 @@
 			tasks: [{
 				id: "41D775B7EEAA6AEF"
 				type: "item"
-				title: "Any #forge:shulker_boxes"
+				title: "{chapter.3.quest.46.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1908,42 +1812,12 @@
 			]
 		}
 		{
-			title: "Now entering: Expert Mode!"
+			title: "{chapter.3.quest.48.title}"
 			x: 28.5d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "New mechanics for Expert Mode:"
-			description: [
-				"- loot has a 25% chance to be doubled"
-				""
-				"- experience from all sources is increased by 20%"
-				""
-				"- all monsters have their health and damage increased by 20%(at night the bonus is doubled to 40%)"
-				""
-				"- Illusioner spawn naturally during the night"
-				""
-				"- new Elite Skeleton spawn naturally during the night(shoots arrows extremely precisely)"
-				""
-				"- Piglins may spawn in a group"
-				""
-				"- Pillagers may spawn in a group"
-				""
-				"- Creepers on explosion may spawn more Creeperlings"
-				""
-				"- Slimes have a chance to inflict Slowness effect"
-				""
-				"- Wither Skeletons may spawn with the Wither Sword instead of the Stone Sword"
-				""
-				"- Undead Army now has 4 waves"
-				""
-				"- undead spawned during the Undead Army are twice as likely to have enchanted items"
-				""
-				"- undead spawned during the Undead Army are twice as likely to have armor pieces"
-				""
-				"- Undead Army gives 100% more experience for completing it"
-				""
-				"- whenever you die from Bleeding or are killed by a Zombie there spawns a special Zombie with your head"
-			]
+			subtitle: "{chapter.3.quest.48.subtitle}"
+			description: ["{chapter.3.quest.48.description.1}"]
 			dependencies: ["2DF36A4C59310AB7"]
 			size: 1.5d
 			id: "3D007BCE6C843D07"
@@ -2122,7 +1996,7 @@
 		{
 			x: 19.5d
 			y: -3.5d
-			description: ["The Altar of the Sea is a block with allows you to recycle worthless enchanted items.  To begin, you need four enchanted items and a fair amount of experience.  Then, you place one enchanted item on each pillar (target the pillar and right click it while holding the item).  Once all four pillars hold an item, the Altar will begin to drain experience from nearby players.  The amount of experience required is based on the levels an rarities of the provided enchantments.  Once the experience has been drained, all four items will be consumed, and a newly created enchanted book will be created.  The new enchantments are random, but better enchantments will be obtained with higher levels and rarities of provided enchantments.  The Altar of the Sea can generate treasure enchantments."]
+			description: ["{chapter.3.quest.53.description.1}"]
 			dependencies: ["43509530CAD67EE9"]
 			id: "1A15D385F7DDF6E4"
 			tasks: [{
@@ -2659,11 +2533,8 @@
 		{
 			x: 13.5d
 			y: 0.0d
-			subtitle: "More villages!"
-			description: [
-				"There are multiple new villager jobs, all with unique trades, workstations, and advancements!"
-				"OCEANOGRAPHER, NETHEROLOGIST, FORESTER, ENDEROLOGIST, ENGINEER, FLORIST, HUNTER, MINER, "
-			]
+			subtitle: "{chapter.3.quest.65.subtitle}"
+			description: ["{chapter.3.quest.65.description.1}"]
 			dependencies: ["7FC81AF332294769"]
 			id: "4EAD123C4CC0E5CA"
 			tasks: [{
@@ -3294,11 +3165,8 @@
 			x: 7.0d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "Knives are scavenging tools: they allow you to obtain a few more resources from both fauna and flora."
-			description: [
-				""
-				"Head over to the \"Farmer's Delight\" quest chapter to learn more!"
-			]
+			subtitle: "{chapter.3.quest.82.subtitle}"
+			description: ["{chapter.3.quest.82.description.1}"]
 			dependencies: ["02ED7F720C5EBABD"]
 			id: "01F975837F68C5EC"
 			tasks: [{
@@ -3357,8 +3225,8 @@
 			x: 30.0d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "Next chapter: End!"
-			description: ["You can find more quests for End dimension in 'End Exploration' chapter!"]
+			subtitle: "{chapter.3.quest.84.subtitle}"
+			description: ["{chapter.3.quest.84.description.1}"]
 			dependencies: ["1486101A3CE0CAAA"]
 			size: 1.5d
 			id: "359F39A14EC630B9"
@@ -3490,18 +3358,10 @@
 			}]
 		}
 		{
-			title: "Preparing for the nether!"
+			title: "{chapter.3.quest.88.title}"
 			x: 21.0d
 			y: -1.0d
-			description: [
-				"Nether portals now come in the form of Dimensional Rifts, which you'll find scattered deep underground. You'll have to find one of these Rifts in order to get to the Nether - but be careful, because it's now a one-way trip!"
-				""
-				"To get back from the Nether, you'll have to search for a Monolith. These are new, semi-rare structures that can be easily spotted from far away thanks to the beams they shoot into the sky."
-				""
-				"The block at the center of each Monolith that shoots this beam is called a Reclaimer, and it's the key to returning to the Overworld. However, the Reclaimer won't do much without a little power. In order to power it, you'll have to place a gold block on each of its four sides - something that shouldn't be too difficult to pull off in the Nether. "
-				""
-				"Once powered, the Reclaimer has the ability to lift you back into the Overworld."
-			]
+			description: ["{chapter.3.quest.88.description.1}"]
 			dependencies: ["446936F80D06B8A4"]
 			id: "1C7D1D2C57D866A2"
 			tasks: [{
@@ -3530,15 +3390,11 @@
 			]
 		}
 		{
-			title: "Thinking portals"
+			title: "{chapter.3.quest.89.title}"
 			icon: "itemfilters:not"
 			x: 22.0d
 			y: 0.0d
-			description: [
-				" You can bucket the Dimensional Plasma from a Dimensional Rift to bring it closer to your base, and you can mine the Reclaimer from a Monolith and place it right by where your Plasma teleports you to in the Nether."
-				""
-				"So, it's pretty close to a two-way portal, the only real difference being you'll have to find a Dimensional Rift and a Monolith first."
-			]
+			description: ["{chapter.3.quest.89.description.1}"]
 			dependencies: ["1C7D1D2C57D866A2"]
 			id: "0ECAA8F766B80A62"
 			tasks: [{
@@ -3733,14 +3589,10 @@
 			]
 		}
 		{
-			title: "Nomadic dreams"
+			title: "{chapter.3.quest.97.title}"
 			x: 5.5d
 			y: -4.5d
-			description: [
-				"Modpack encourages many different playstyles including nomadic exploring!"
-				""
-				"These items will help you with that. Though it may take time to gather them all..."
-			]
+			description: ["{chapter.3.quest.97.description.1}"]
 			dependencies: ["221A3D2E31B74520"]
 			id: "21D9206B88C5DE16"
 			tasks: [
@@ -3943,7 +3795,7 @@
 		{
 			x: 16.5d
 			y: -3.5d
-			description: ["The Enchantment Library is a block focused on storing enchantments.  Simply insert an enchanted book, and every enchantment on that book will be stored in the library internally.  Each enchantment on a deposited book will be stored as points.  A point is simply equivalent to a level 1 enchantment, and as such an enchantment is worth the amount of points it would take to combine it from level one books (2^(level -1) points per level).  The library also records the max level it has ever seen for a given enchantment, and you may only extract enchantments up to that level.  Meaning if you want to be able to extract a higher level of an enchantment, the library will need to have had that level deposited at least one time.To extract enchantments from the library, simply click the tile of the enchantment you want to extract, and it will be extracted to the output slot.  If the output slot is empty, a new enchanted book will be generated.  If it is not empty, it will apply the next level of that enchantment to the book (if you have enough points).  Shift-clicking on a tile will attempt to extract the max level available (if you have enough points).  The point cost for extracting is shown in the tooltip.  If that tooltip is red, you do not have enough points for that operation."]
+			description: ["{chapter.3.quest.99.description.1}"]
 			dependencies: ["43509530CAD67EE9"]
 			id: "0E3EAF4D21A7FE1E"
 			tasks: [{
@@ -3985,7 +3837,7 @@
 		{
 			x: 13.5d
 			y: -2.0d
-			description: ["Anvils have significantly more utility than previously.  Anvils have no level limit, and are enchantable.  Anvils can receive Unbreaking, Splitting, and Obliteration.  Splitting is a new enchantment that allows you to drop an anvil on an enchanted book with multiple enchantments, and receive an individual book for each level.  However, this process only has a 20% success chance per level of splitting, and will always cause damage to the anvil (but can be prevented by unbreaking).  Obliteration is similar, it has the same success rules, but it works on books with a single enchantment above level one.  It will create two books, each a level lower than the original.  Think of it as the inverse of combining two books in an anvil."]
+			description: ["{chapter.3.quest.100.description.1}"]
 			dependencies: ["7FC81AF332294769"]
 			id: "2AA12D542527B597"
 			tasks: [{
@@ -4010,7 +3862,7 @@
 		{
 			x: 5.0d
 			y: 2.0d
-			description: ["Campfire will provide Regeneration Effect"]
+			description: ["{chapter.3.quest.101.description.1}"]
 			dependencies: ["518DF4A178673014"]
 			id: "3BEED9F6C8434FF5"
 			tasks: [{
@@ -4056,7 +3908,7 @@
 			]
 		}
 		{
-			title: "Humble accommodation "
+			title: "{chapter.3.quest.102.title}"
 			x: 8.0d
 			y: -3.0d
 			dependencies: ["766E4FEA8148AEDA"]
@@ -4228,15 +4080,10 @@
 			]
 		}
 		{
-			title: "Let's make a Mesh!"
+			title: "{chapter.3.quest.103.title}"
 			x: 5.0d
 			y: 3.5d
-			description: [
-				"You can aquire Flint more effectively with Fiber Mesh."
-				"Craft Flint shears and cut some grass to make Mesh. Then you can sift Gravel and get Flint."
-				""
-				"NOTE: You need to cut MINECRAFT grass, modded will not work."
-			]
+			description: ["{chapter.3.quest.103.description.1}"]
 			dependencies: ["02ED7F720C5EBABD"]
 			id: "0D53B0136F089B1F"
 			tasks: [
@@ -4686,10 +4533,10 @@
 			}]
 		}
 		{
-			title: "You asked for this, Mage"
+			title: "{chapter.3.quest.117.title}"
 			x: 20.0d
 			y: 7.0d
-			description: ["Blame @Doctor Mage#5234"]
+			description: ["{chapter.3.quest.117.description.1}"]
 			hide_dependency_lines: false
 			dependencies: ["76CDF977DD44821E"]
 			hide: true
@@ -4760,7 +4607,7 @@
 			}]
 		}
 		{
-			title: "Knowledge of Death"
+			title: "{chapter.3.quest.120.title}"
 			icon: {
 				id: "tombstone:decorative_grave_cross"
 				Count: 1b
@@ -4775,7 +4622,7 @@
 			}
 			x: 0.0d
 			y: 6.0d
-			subtitle: "Die at least 1 time"
+			subtitle: "{chapter.3.quest.120.subtitle}"
 			id: "68365C63EFD23F2E"
 			tasks: [{
 				id: "3300C171DE09AC24"
@@ -4792,14 +4639,8 @@
 		{
 			x: 1.5d
 			y: 6.0d
-			subtitle: "Chose your first knowledge of death"
-			description: [
-				"Players earns knowledge points each time they use a grave's soul to enchant an item, when they free a soul from a receptacle, by praying near a decorative grave with a special item called Ankh of Pray (with a cooldown of 6 in-game hours), or by accomplishing the tombstone advancements."
-				""
-				"Theses points allow you to unlock some perks in a special gui \"Knowledge of Death\" (the keybind in \"misc\" is not defined by default)."
-				""
-				"The perks are small bonus related to all the features of tombstone, instead of providing them by default."
-			]
+			subtitle: "{chapter.3.quest.121.subtitle}"
+			description: ["{chapter.3.quest.121.description.1}"]
 			dependencies: ["68365C63EFD23F2E"]
 			id: "5FD02944DC20453B"
 			tasks: [{
@@ -4817,16 +4658,8 @@
 		{
 			x: 1.5d
 			y: 7.0d
-			subtitle: "Decorative graves"
-			description: [
-				"The decorative graves are special blocks with a fog particle only during the night."
-				""
-				"The decorative graves can be haunted by a soul. The soul stays until used and allows some enchants like magic scroll/tablet, or upgrade the grave's key."
-				""
-				"To build a decorative grave, you will need to collect Grave's Dust (the common way to obtain them is by killing undeads or with Cat Morning Gift), and one Essence of Undeath being an ingredient obtainable through the advancements (the first one is by finding how to select your favorite grave in the config in game) and rarely foundable on undeads, Cat Morning Gift and by fishing in deep water (but don't hope to find them by theses ways except by luck)."
-				""
-				"Rarely, a Grave Guardian can appear near a decorative grave. This guardian will protect the surroundings from hostile creatures and will offer to trade with the players. This is one way to obtain Grave's Dust and Essence of Undeath. During special events, the trades may differ."
-			]
+			subtitle: "{chapter.3.quest.122.subtitle}"
+			description: ["{chapter.3.quest.122.description.1}"]
 			dependencies: ["5FD02944DC20453B"]
 			id: "2D09120BC5B9A53D"
 			tasks: [
@@ -4859,7 +4692,7 @@
 				{
 					id: "476032839F26BC6D"
 					type: "item"
-					title: "Any #tombstone:decorative_graves"
+					title: "{chapter.3.quest.122.task.3.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -5031,19 +4864,11 @@
 			}]
 		}
 		{
-			title: "Experience, skills and character progression."
+			title: "{chapter.3.quest.126.title}"
 			x: 4.0d
 			y: 0.0d
-			subtitle: "(brief explanation about stats)"
-			description: [
-				"Project MMO allows players to advance through the game in their own unique method. Compared to traditional Minecraft gameplay where players have to craft powerful armors and weapons and later rely entirely on them for damage and protection, Project MMO introduces a more “RPG-styled” method of progressing through the game."
-				""
-				"Starting the game you will not be able to use armor, decent tools and specific artifacts/relics/baubles, because this requires a certain level of the player associated with a specific item. In addition to the restrictions - leveling gives a variety of bonuses - passive(like improving your damage) or active(like the ability to salvage item for another one), thereby engaging in certain activities, you will improve your character."
-				""
-				"As players perform a certain action, they would get better at doing so. For example, if a player wants to become the best warrior, they can train themselves by swinging their swords all day to earn more points in strength."
-				""
-				"You will be able to see the settings of the mod when you press the P button"
-			]
+			subtitle: "{chapter.3.quest.126.subtitle}"
+			description: ["{chapter.3.quest.126.description.1}"]
 			dependencies: ["18FF6DA5335C0711"]
 			id: "79F271A2D7FA06A1"
 			tasks: [{
@@ -5061,11 +4886,7 @@
 		{
 			x: 8.5d
 			y: 0.5d
-			description: [
-				"The Paraglider can be crafted by using some leathers and sticks. While you're holding Paraglider midair, you fall more slowly, gliding over the land."
-				""
-				"Also there's and Stamina Vessels which you can use it to expand your stamina wheel. Obtaining these will involve talking to a peculiar statue of some foreign goddess. Keep an eye on when you visit a village."
-			]
+			description: ["{chapter.3.quest.127.description.1}"]
 			dependencies: ["5F7DCF112F9F6C1C"]
 			id: "628200F12D42D0E8"
 			tasks: [{
@@ -5092,8 +4913,8 @@
 			x: 24.0d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "Enter the Nether!"
-			description: ["To get back from the Nether, you'll have to search for a Monolith. These are new, semi-rare structures that can be easily spotted from far away thanks to the beams they shoot into the sky."]
+			subtitle: "{chapter.3.quest.128.subtitle}"
+			description: ["{chapter.3.quest.128.description.1}"]
 			dependencies: ["1C7D1D2C57D866A2"]
 			size: 1.5d
 			id: "4DFF53E47185A474"
@@ -5135,114 +4956,6 @@
 						}
 					}
 					random_bonus: 101
-				}
-			]
-		}
-		{
-			title: "Leap Of Faith"
-			x: 0.0d
-			y: 8.0d
-			subtitle: "Falling with style"
-			description: [
-				"Gliders can be used to glide across long distances."
-				""
-				"The distance they glide is limited to a unique stamina mechanic"
-			]
-			id: "1E51B8E76910275C"
-			tasks: [{
-				id: "614490657F783439"
-				type: "item"
-				item: {
-					id: "paraglider:paraglider"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "054B39A2DAD1BB84"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "57F236719A0A8ACC"
-					type: "ftbmoney:money"
-					ftb_money: 15L
-				}
-			]
-		}
-		{
-			title: "Praise Hylia"
-			x: 1.0d
-			y: 8.0d
-			description: [
-				"A lonely momenument to an ancient goddess."
-				""
-				"They can be found around all over the world but are not uncommon in villages."
-				""
-				"Offer them spirit orbs to increase your stamina."
-			]
-			dependencies: ["1E51B8E76910275C"]
-			id: "533B104DB3063EAB"
-			tasks: [
-				{
-					id: "7E4A6E7946CE1407"
-					type: "questsadditions:use"
-					title: "Praise Hylia"
-					block: "paraglider:goddess_statue"
-					value: 1L
-					checkItem: false
-					isItemInteraction: false
-				}
-				{
-					id: "34FC4DC0E7EBDC16"
-					type: "item"
-					item: {
-						id: "paraglider:spirit_orb"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 4L
-				}
-			]
-			rewards: [
-				{
-					id: "10852A9B88E26302"
-					type: "item"
-					item: {
-						id: "paraglider:deku_leaf"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "35FBAD29A89BAD45"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					id: "1EDF9EF24B575AA4"
-					type: "ftbmoney:money"
-					ftb_money: 30L
-				}
-				{
-					id: "552E1499A4866C9A"
-					type: "pmmo:levelreward"
-					auto: "invisible"
-					skill: "flying"
-					amount: 1.0d
 				}
 			]
 		}

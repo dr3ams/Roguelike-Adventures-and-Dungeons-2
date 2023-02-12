@@ -3,7 +3,7 @@
 	group: "0FF98225FE921275"
 	order_index: 4
 	filename: "meet_your_fight"
-	title: "Meet Your Fight!"
+	title: "{chapter.29.title}"
 	icon: "meetyourfight:haunted_bell"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,15 +12,7 @@
 			x: -3.5d
 			y: 3.0d
 			shape: "hexagon"
-			description: [
-				"Bellringer is a boss added by Meet Your Fight. It can be summoned by using a Haunted Bell. When killed, it drops 1 Phantoplasm and 3-4 Gold Ingots."
-				""
-				"Bellringer floats above the ground and can pass through walls, similarly to a Vex. When targeting a player, it tries to constantly stay a few blocks in front and above its target."
-				""
-				"All of its attacks consists of sending waves of projectiles that travel in a straight line after a short delay. Each projectile deals 8 damage on contact and can pass through walls. Bellringer randomly alternates between the following two attacks during the fight:"
-				""
-				"After falling below 50%, it rings its bell to apply Slowness II for 15 seconds to all nearby entities, then quickly fire 20 lines of projectiles at ground level that go toward its current target. After this attack is finished, Bellringer resumes its normal attacks, but each will fire 4 waves of projectiles instead of 3 for the rest of the fight."
-			]
+			description: ["{chapter.29.quest.1.description.1}"]
 			size: 1.5d
 			id: "01586496C0B6EB67"
 			tasks: [{
@@ -61,14 +53,7 @@
 			x: 0.0d
 			y: 2.25d
 			shape: "hexagon"
-			description: [
-				"Swampjaw is a boss added by Meet Your Fight. It can be summoned by using a Fossil Bait. When killed, it drops 1 Mossy Tooth, 3-6 Bones, 2-4 Vines, and 1-3 Dirt."
-				""
-				"Swampjaw usually flies above its current target and moves like a Phantom, except it can see and fly through walls. When attacking it repeats the following pattern in the same order:"
-				"Orbit a few seconds around and above its target."
-				"Rapidly move above its target to drop 3 mines, these explode when touching the ground with half the strength of TNT and do not destroy blocks or hurt Swampjaw."
-				"Swoop down to charge its target, dealing 7 damage on contact. Damaging Swampjaw prematurely cancels this attack."
-			]
+			description: ["{chapter.29.quest.2.description.1}"]
 			size: 1.5d
 			id: "6A51E5206B5F75D4"
 			tasks: [{
@@ -1127,21 +1112,11 @@
 			]
 		}
 		{
-			title: "Gateways"
+			title: "{chapter.29.quest.28.title}"
 			x: 0.0d
 			y: 0.0d
 			shape: "hexagon"
-			description: [
-				"Every gate opened contains a link to a world full of a certain type of mob.  Waves and waves of those mobs will progressively pour forth, and each wave completed will spawn additional loot from that mob at that portal."
-				""
-				"Completion of an entire portal will cause a massive amount of loot and experience to pour forth from the portal, and the portal will close."
-				""
-				"To open a gateway, you must first craft a Gate Opener.  A gate opener will be able to open a specific portal size, attuned to a specific mob.  Simply craft the gate opener you want, and use it on the nearest block."
-				""
-				"Once you've opened a gateway, your next goal is to close it.  You can close a gateway by completing each wave.  But be warned, failure to complete a wave on time will trigger a destabilization event, which will annihilate the gateway and may damage nearby things!"
-				""
-				"A gateway's max number of stages is indicated by its boss bar.  Every section on the bar represents a wave, and each section will tick down once it begins.  Clearing a wave will immediately end that wave's timer, and start the sequence for the next wave.  Every time a wave is completed, additional loot (as if more of the spawned mob had died) will spawn from the portal.  The more waves you clear, the more loot spawns at the center, but the stronger the spawned monsters become.  Each wave, the mobs that come forth will be exponentially stronger than their predecessors.  Upon completion of every wave, you will receive a large burst of experience and loot, and the portal will close with no adverse effects."
-			]
+			description: ["{chapter.29.quest.28.description.1}"]
 			size: 2.0d
 			id: "2859B5A6AAB94D7E"
 			tasks: [{
@@ -2229,7 +2204,6 @@
 			}
 			x: 6.5d
 			y: 7.5d
-			description: [""]
 			dependencies: ["3E4FABF49DF8A4A0"]
 			id: "4C0A01CEE6B9573F"
 			tasks: [{
@@ -3819,7 +3793,7 @@
 			]
 		}
 		{
-			title: "Bad Reputation I"
+			title: "{chapter.29.quest.107.title}"
 			x: 9.5d
 			y: 10.5d
 			id: "40F5EEC0C7474750"
@@ -3851,7 +3825,7 @@
 			]
 		}
 		{
-			title: "Bad Reputation II"
+			title: "{chapter.29.quest.108.title}"
 			x: 9.5d
 			y: 11.5d
 			dependencies: ["40F5EEC0C7474750"]
@@ -3884,7 +3858,7 @@
 			]
 		}
 		{
-			title: "Bad Reputation III"
+			title: "{chapter.29.quest.109.title}"
 			x: 9.5d
 			y: 12.5d
 			dependencies: ["234394677552B368"]

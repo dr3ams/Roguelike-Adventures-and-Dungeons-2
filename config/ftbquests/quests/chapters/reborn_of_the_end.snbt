@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 2
 	filename: "reborn_of_the_end"
-	title: "End Exploration"
+	title: "{chapter.5.title}"
 	icon: "betterendforge:chorus_nylium"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -425,7 +425,7 @@
 			tasks: [{
 				id: "0CE7A1C2DE63B1EB"
 				type: "checkmark"
-				title: "Ender Explorer"
+				title: "{chapter.5.quest.14.task.1.title}"
 			}]
 			rewards: [{
 				id: "4C81EAC2B111AE2B"
@@ -437,13 +437,13 @@
 			icon: "betterendforge:end_lily_leaf"
 			x: -3.0d
 			y: -1.5d
-			description: ["Deep lakes in the nether filled with End Lotus flowers."]
+			description: ["{chapter.5.quest.15.description.1}"]
 			dependencies: ["3697C11949A0A907"]
 			id: "783082B8C8FB9061"
 			tasks: [{
 				id: "28BD9EBD8925D2CE"
 				type: "biome"
-				title: "Megalake"
+				title: "{chapter.5.quest.15.task.1.title}"
 				icon: "betterendforge:end_lily_leaf"
 				biome: "betterendforge:megalake"
 			}]
@@ -463,13 +463,13 @@
 		{
 			x: -2.0d
 			y: -3.0d
-			description: ["Megalakes but with Lacugrove trees and various flowers. May seem to be a more like a grassland than a lake."]
+			description: ["{chapter.5.quest.16.description.1}"]
 			dependencies: ["3697C11949A0A907"]
 			id: "1ECA6B89B6D233FE"
 			tasks: [{
 				id: "419C5234C87CB873"
 				type: "biome"
-				title: "Megalake Grove"
+				title: "{chapter.5.quest.16.task.1.title}"
 				icon: "betterendforge:umbrella_moss_tall"
 				biome: "betterendforge:megalake_grove"
 			}]
@@ -489,13 +489,13 @@
 		{
 			x: -1.0d
 			y: -3.5d
-			description: ["Flower-filled land covered with giant bioluminescent glowshroom trees."]
+			description: ["{chapter.5.quest.17.description.1}"]
 			dependencies: ["3697C11949A0A907"]
 			id: "72621E64C7433420"
 			tasks: [{
 				id: "568F3788FDCDA03E"
 				type: "biome"
-				title: "Foggy Mushroomland"
+				title: "{chapter.5.quest.17.task.1.title}"
 				icon: "betterendforge:mossy_glowshroom_fur"
 				biome: "betterendforge:foggy_mushroomland"
 			}]
@@ -515,13 +515,13 @@
 		{
 			x: 0.0d
 			y: -4.0d
-			description: ["Thick forest of hanging vines, Umbrella trees, and jellyshrooms."]
+			description: ["{chapter.5.quest.18.description.1}"]
 			dependencies: ["3697C11949A0A907"]
 			id: "3F33F2304E5E7667"
 			tasks: [{
 				id: "7F1464E45E6DD2CF"
 				type: "biome"
-				title: "Umbrella Jungle"
+				title: "{chapter.5.quest.18.task.1.title}"
 				icon: "betterendforge:twisted_umbrella_moss_tall"
 				biome: "betterendforge:umbrella_jungle"
 			}]
@@ -534,13 +534,13 @@
 		{
 			x: 1.0d
 			y: -3.5d
-			description: ["Large stars of ice and snow that exist between ender islands."]
+			description: ["{chapter.5.quest.19.description.1}"]
 			dependencies: ["3697C11949A0A907"]
 			id: "5D80B3968D2593F6"
 			tasks: [{
 				id: "7BCB30C57D340AE2"
 				type: "biome"
-				title: "Ice Starfield"
+				title: "{chapter.5.quest.19.task.1.title}"
 				icon: "betterendforge:ancient_emerald_ice"
 				biome: "betterendforge:ice_starfield"
 			}]
@@ -560,13 +560,13 @@
 		{
 			x: -2.0d
 			y: 1.0d
-			description: ["End stone spires covered in pink Tenanea trees and vines."]
+			description: ["{chapter.5.quest.20.description.1}"]
 			dependencies: ["3697C11949A0A907"]
 			id: "6BE71A977A31E41B"
 			tasks: [{
 				id: "059A1A00A55A3E1C"
 				type: "biome"
-				title: "Blossoming Spires"
+				title: "{chapter.5.quest.20.task.1.title}"
 				icon: "betterendforge:tenanea_sapling"
 				biome: "betterendforge:blossoming_spires"
 			}]
@@ -586,13 +586,13 @@
 		{
 			x: 2.0d
 			y: -2.0d
-			description: ["A flat grassland that is extremely grassy and has lumecorn sprouts."]
+			description: ["{chapter.5.quest.21.description.1}"]
 			dependencies: ["3697C11949A0A907"]
 			id: "13EAD10EE57FCCBC"
 			tasks: [{
 				id: "63BFFF5B0CA5798D"
 				type: "biome"
-				title: "Glowing Grasslands"
+				title: "{chapter.5.quest.21.task.1.title}"
 				icon: "betterendforge:blooming_cooksonia"
 				biome: "betterendforge:glowing_grasslands"
 			}]
@@ -612,13 +612,13 @@
 		{
 			x: 3.0d
 			y: -1.5d
-			description: ["A vibrant orange land with thick ground cover and large Helix trees."]
+			description: ["{chapter.5.quest.22.description.1}"]
 			dependencies: ["3697C11949A0A907"]
 			id: "60862E8751A2AB9D"
 			tasks: [{
 				id: "37BD9C1B9C1A2962"
 				type: "biome"
-				title: "Amber Land"
+				title: "{chapter.5.quest.22.task.1.title}"
 				icon: "betterendforge:amber_grass"
 				biome: "betterendforge:amber_land"
 			}]
@@ -638,13 +638,13 @@
 		{
 			x: 2.0d
 			y: 1.0d
-			description: ["A land filled with various stacks of sulfur vents that contain their own water based ecosystems. Are worth a dive into."]
+			description: ["{chapter.5.quest.23.description.1}"]
 			dependencies: ["3697C11949A0A907"]
 			id: "0D771167B0378700"
 			tasks: [{
 				id: "26155791932AF541"
 				type: "biome"
-				title: "Sulphur Springs"
+				title: "{chapter.5.quest.23.task.1.title}"
 				icon: "betterendforge:hydrothermal_vent"
 				biome: "betterendforge:sulphur_springs"
 			}]
@@ -664,13 +664,13 @@
 		{
 			x: 2.0d
 			y: -3.0d
-			description: ["A forest of Chorus plants and Pythadendron trees."]
+			description: ["{chapter.5.quest.24.description.1}"]
 			dependencies: ["3697C11949A0A907"]
 			id: "580BDDDD0ED68F5A"
 			tasks: [{
 				id: "1E1E2436F090A050"
 				type: "biome"
-				title: "Chorus Forest"
+				title: "{chapter.5.quest.24.task.1.title}"
 				icon: "betterendforge:chorus_nylium"
 				biome: "betterendforge:chorus_forest"
 			}]
@@ -690,13 +690,13 @@
 		{
 			x: -3.0d
 			y: 0.5d
-			description: ["A desolate, dusty region with not much significance beyond a large Enderman population."]
+			description: ["{chapter.5.quest.25.description.1}"]
 			dependencies: ["3697C11949A0A907"]
 			id: "5660A78B0AE862C7"
 			tasks: [{
 				id: "6C9A3C8AFE33C2A9"
 				type: "biome"
-				title: "Dust Wasteland"
+				title: "{chapter.5.quest.25.task.1.title}"
 				icon: "minecraft:end_stone"
 				biome: "betterendforge:dust_wasteland"
 			}]
@@ -716,13 +716,13 @@
 		{
 			x: -3.5d
 			y: -0.5d
-			description: ["A layered mountainous land of various ender rocks."]
+			description: ["{chapter.5.quest.26.description.1}"]
 			dependencies: ["3697C11949A0A907"]
 			id: "4FD8DB6A4B137B73"
 			tasks: [{
 				id: "509D3A508AD6D23E"
 				type: "biome"
-				title: "Painted Mountains"
+				title: "{chapter.5.quest.26.task.1.title}"
 				icon: "betterendforge:violecite"
 				biome: "betterendforge:painted_mountains"
 			}]
@@ -742,13 +742,13 @@
 		{
 			x: -2.0d
 			y: -2.0d
-			description: ["Dark forest of Dragon trees and shadow plants."]
+			description: ["{chapter.5.quest.27.description.1}"]
 			dependencies: ["3697C11949A0A907"]
 			id: "6D798E6430C4C1C5"
 			tasks: [{
 				id: "2BF57FC30148AB9E"
 				type: "biome"
-				title: "Shadow Forest"
+				title: "{chapter.5.quest.27.task.1.title}"
 				icon: "betterendforge:shadow_grass"
 				biome: "betterendforge:shadow_forest"
 			}]
@@ -768,13 +768,13 @@
 		{
 			x: 3.0d
 			y: 0.5d
-			description: ["Mountainous islands that have large rainbow Aurora Crystal formations."]
+			description: ["{chapter.5.quest.28.description.1}"]
 			dependencies: ["3697C11949A0A907"]
 			id: "742FA17F32B5562D"
 			tasks: [{
 				id: "371FA0013EB104B6"
 				type: "biome"
-				title: "Crystal Mountains"
+				title: "{chapter.5.quest.28.task.1.title}"
 				icon: "betterendforge:aurora_crystal"
 				biome: "betterendforge:crystal_mountains"
 			}]
@@ -794,7 +794,7 @@
 		{
 			x: 3.5d
 			y: -0.5d
-			description: ["Mining Aurora Crystal will give you shards that are infused with a mythical energy that pulses through the End."]
+			description: ["{chapter.5.quest.29.description.1}"]
 			dependencies: ["742FA17F32B5562D"]
 			id: "5E2DFA9A653F3619"
 			tasks: [{
@@ -811,7 +811,7 @@
 		{
 			x: 4.5d
 			y: -0.5d
-			description: ["The End for Dummies explains portal restart rituals and infusions."]
+			description: ["{chapter.5.quest.30.description.1}"]
 			dependencies: [
 				"5E2DFA9A653F3619"
 				"0B56F802933E9AB7"
@@ -831,7 +831,7 @@
 		{
 			x: 10.0d
 			y: -2.5d
-			description: ["Infusion rituals and pedestal setup are described in The End for Dummies."]
+			description: ["{chapter.5.quest.31.description.1}"]
 			dependencies: ["5FE08145513FF66D"]
 			id: "55DCE2FA47D4C837"
 			tasks: [{
@@ -846,10 +846,10 @@
 			}]
 		}
 		{
-			title: "Amber"
+			title: "{chapter.5.quest.32.title}"
 			x: 9.0d
 			y: -5.0d
-			description: ["Comes from Amber ore. Gives raw amber, placing 2x2 in a crafting table to make a gem."]
+			description: ["{chapter.5.quest.32.description.1}"]
 			dependencies: ["55DCE2FA47D4C837"]
 			id: "5E4164741B56B1BC"
 			tasks: [
@@ -886,7 +886,7 @@
 		{
 			x: 11.0d
 			y: -6.0d
-			description: ["Infused Terminite Armor"]
+			description: ["{chapter.5.quest.33.description.1}"]
 			dependencies: ["5E4164741B56B1BC"]
 			id: "254E533B919E0141"
 			tasks: [
@@ -962,7 +962,7 @@
 		{
 			x: 12.5d
 			y: -3.0d
-			description: ["Comes from Ender Ore, rare ore deep in ender islands."]
+			description: ["{chapter.5.quest.34.description.1}"]
 			dependencies: ["55DCE2FA47D4C837"]
 			id: "6E047390333830E1"
 			tasks: [{
@@ -992,7 +992,7 @@
 		{
 			x: 12.5d
 			y: -5.0d
-			description: ["Used to re-activate portals, in infusions, and to make a respawn obelisk."]
+			description: ["{chapter.5.quest.35.description.1}"]
 			dependencies: ["6E047390333830E1"]
 			id: "16BC2746E4DD50B9"
 			tasks: [{
@@ -1016,7 +1016,7 @@
 		{
 			x: 4.5d
 			y: 2.5d
-			description: ["Can be made by a number of methods on an anvil, check JEI for specifics."]
+			description: ["{chapter.5.quest.36.description.1}"]
 			id: "0B56F802933E9AB7"
 			tasks: [{
 				id: "78DBEF6A0D0A5E13"
@@ -1032,7 +1032,7 @@
 		{
 			x: 8.0d
 			y: 2.5d
-			description: ["Alloy of Iron and Ender Dust made in a End Stone Smelter."]
+			description: ["{chapter.5.quest.37.description.1}"]
 			dependencies: [
 				"0B56F802933E9AB7"
 				"46966AA1DDAD75DC"
@@ -1070,7 +1070,7 @@
 		{
 			x: 10.5d
 			y: 1.5d
-			description: ["Alloy of Netherite and Terminite made in a End Stone Smelter."]
+			description: ["{chapter.5.quest.38.description.1}"]
 			dependencies: ["2F65B1126A72219F"]
 			id: "0BD7D528F30810EC"
 			tasks: [{
@@ -1105,7 +1105,7 @@
 		{
 			x: 8.0d
 			y: 1.5d
-			description: ["Able to create unique alloys."]
+			description: ["{chapter.5.quest.39.description.1}"]
 			dependencies: ["32C3FF52CD5AB5E7"]
 			id: "46966AA1DDAD75DC"
 			tasks: [{
@@ -1133,10 +1133,10 @@
 			]
 		}
 		{
-			title: "Terminite Tools"
+			title: "{chapter.5.quest.40.title}"
 			x: 7.0d
 			y: 4.0d
-			description: ["A handy Terminite tool set."]
+			description: ["{chapter.5.quest.40.description.1}"]
 			dependencies: ["2F65B1126A72219F"]
 			id: "692AFCEA58029429"
 			tasks: [
@@ -1214,10 +1214,10 @@
 			}]
 		}
 		{
-			title: "Terminite Armor"
+			title: "{chapter.5.quest.41.title}"
 			x: 9.0d
 			y: 4.0d
-			description: ["A whole set of End-alloy armor."]
+			description: ["{chapter.5.quest.41.description.1}"]
 			dependencies: ["2F65B1126A72219F"]
 			id: "3A8254A2C4CDE79E"
 			tasks: [
@@ -1280,14 +1280,10 @@
 			]
 		}
 		{
-			title: "Aeternium Armor"
+			title: "{chapter.5.quest.42.title}"
 			x: 10.5d
 			y: 4.0d
-			description: [
-				"From combining Terminite Armor with Aeternium ingots in a Smithing Table."
-				""
-				"One of the highest tiers of armor."
-			]
+			description: ["{chapter.5.quest.42.description.1}"]
 			dependencies: [
 				"0BD7D528F30810EC"
 				"3A8254A2C4CDE79E"
@@ -1353,10 +1349,10 @@
 			]
 		}
 		{
-			title: "Aeternium Tools"
+			title: "{chapter.5.quest.43.title}"
 			x: 12.0d
 			y: 4.0d
-			description: ["A set of some of the most durable tools in the game."]
+			description: ["{chapter.5.quest.43.description.1}"]
 			dependencies: ["6FF5FFEE7F672F05"]
 			id: "36543B4BFF59FC05"
 			tasks: [
@@ -1447,10 +1443,10 @@
 			]
 		}
 		{
-			title: "Aeternium Tool Parts"
+			title: "{chapter.5.quest.44.title}"
 			x: 13.0d
 			y: 2.5d
-			description: ["Smithed in an anvil with a Smith Hammer and Aeternium ingots."]
+			description: ["{chapter.5.quest.44.description.1}"]
 			dependencies: ["0BD7D528F30810EC"]
 			id: "6FF5FFEE7F672F05"
 			tasks: [
@@ -2535,12 +2531,12 @@
 		{
 			x: 4.5d
 			y: 8.0d
-			description: ["End dimension was improved!"]
+			description: ["{chapter.5.quest.71.description.1}"]
 			id: "63A64571BBB85FE5"
 			tasks: [{
 				id: "300A3AC891D5B4A2"
 				type: "checkmark"
-				title: "New end stones!"
+				title: "{chapter.5.quest.71.task.1.title}"
 			}]
 			rewards: [{
 				id: "70E46E17B747F69C"

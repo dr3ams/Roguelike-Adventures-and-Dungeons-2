@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 7
 	filename: "blue_skies"
-	title: "Blue Skies"
+	title: "{chapter.10.title}"
 	icon: "blue_skies:star_flare"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
@@ -253,11 +253,7 @@
 		{
 			x: 0.0d
 			y: 0.5d
-			description: [
-				"Find the Gatekeeper and trade a book in exchange for his journal. You can find the houses spawning in either plains, mountains, and most snowy biomes."
-				""
-				"The Blue Journal, a book written by the Gatekeeper that’s filled with information discovered from his experiences in these dimensions. The more you progress through Blue Skies, the more pages you will unlock in the journal. You only need to obtain the blue journal item once. Afterwards, you can always find access to it by opening your inventory and clicking the tab on the right with the blue journal icon."
-			]
+			description: ["{chapter.10.quest.1.description.1}"]
 			size: 1.5d
 			id: "2B1333F88EBD6BA9"
 			tasks: [{
@@ -279,12 +275,12 @@
 			]
 		}
 		{
-			title: "Visit Dimension: Everbright"
+			title: "{chapter.10.quest.2.title}"
 			x: 1.5d
 			y: -2.5d
 			shape: "octagon"
-			subtitle: "Find an Everbright portal and enter it"
-			description: ["The Everbright is a realm of eternal day and frigid cold. Home to large beasts and ethereal mobs, you’ll need to keep an eye on your back as you traverse through this world. Be sure to watch out for snow storms that bring thick fog and more enemies than usual. As you explore, you’ll encounter the Summoner’s Blinding Dungeon and the new Nature Dungeon, home of the Starlit Crusher."]
+			subtitle: "{chapter.10.quest.2.subtitle}"
+			description: ["{chapter.10.quest.2.description.1}"]
 			dependencies: ["2B1333F88EBD6BA9"]
 			size: 1.5d
 			id: "72F9931405BEFE11"
@@ -308,12 +304,12 @@
 			]
 		}
 		{
-			title: "Visit Dimension: Everdawn"
+			title: "{chapter.10.quest.3.title}"
 			x: 1.5d
 			y: 3.5d
 			shape: "octagon"
-			subtitle: "Find an Everdawn portal and enter it"
-			description: ["The Everdawn has its sun forever rising. With this being a much more humid and warm world, insects and reptiles flourish. Before entering, it’s worth preparing for poison and fire as many parts of this world may inflict those on you. Venture across this diverse landscape to uncover the Alchemist’s Blinding Dungeon and then the new Poison Dungeon, lair of the Arachnarch."]
+			subtitle: "{chapter.10.quest.3.subtitle}"
+			description: ["{chapter.10.quest.3.description.1}"]
 			dependencies: ["2B1333F88EBD6BA9"]
 			size: 1.5d
 			id: "26A94FF0B70C2076"
@@ -1619,7 +1615,7 @@
 		{
 			x: 14.5d
 			y: -2.5d
-			subtitle: "Enter a Nature dungeon"
+			subtitle: "{chapter.10.quest.41.subtitle}"
 			dependencies: ["3EBFB973D7E9DF7D"]
 			id: "0DF7112340FB8A00"
 			tasks: [{
@@ -1666,7 +1662,7 @@
 		{
 			x: 14.5d
 			y: 3.5d
-			subtitle: "Enter a Poison dungeon"
+			subtitle: "{chapter.10.quest.42.subtitle}"
 			dependencies: ["00A6F781F98D8F25"]
 			id: "1A14F33889B103A2"
 			tasks: [{
@@ -1713,7 +1709,7 @@
 		{
 			x: 12.0d
 			y: 5.5d
-			subtitle: "Use an Alchemy table"
+			subtitle: "{chapter.10.quest.43.subtitle}"
 			dependencies: ["00A6F781F98D8F25"]
 			id: "0F57C6A3764FAEA3"
 			tasks: [{
@@ -1778,7 +1774,7 @@
 		{
 			x: 12.0d
 			y: -5.0d
-			subtitle: "Use a summoning table to summon artificial golem"
+			subtitle: "{chapter.10.quest.45.subtitle}"
 			dependencies: ["3EBFB973D7E9DF7D"]
 			id: "4AC62C9E31D53CFA"
 			tasks: [{

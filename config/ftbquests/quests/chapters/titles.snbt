@@ -3,7 +3,7 @@
 	group: "6CD0EEB0E5E5955C"
 	order_index: 1
 	filename: "titles"
-	title: "Titles"
+	title: "{chapter.32.title}"
 	icon: {
 		id: "titles:title_scroll_rare"
 		Count: 1b
@@ -28,17 +28,12 @@
 			}
 			x: 0.0d
 			y: 0.0d
-			description: [
-				"Press 'J' (you will most likely have to change this if it conflicts with something) to open the Titles gui."
-				""
-				"Understand that you may not have any titles to choose from at first."
-				"Simply complete advancements  to start growing your selection."
-			]
+			description: ["{chapter.32.quest.1.description.1}"]
 			id: "4B93CE8715CACD5A"
 			tasks: [{
 				id: "5392A0BFA52D6B1C"
 				type: "checkmark"
-				title: "Titles"
+				title: "{chapter.32.quest.1.task.1.title}"
 			}]
 			rewards: [{
 				id: "3D3AC225061A725D"
@@ -55,22 +50,18 @@
 			}]
 		}
 		{
-			title: "the §6§lC§6§lo§6§ln§6§lt§6§lr§6§li§6§lb§6§lu§6§lt§6§lo§6§lr"
+			title: "{chapter.32.quest.2.title}"
 			x: -1.5d
 			y: 3.0d
 			shape: "hexagon"
-			subtitle: "Earned by completing the Feedback Form during beta."
-			description: [
-				"Link to form: bit.ly/RAD2FeedbackTEST"
-				""
-				"If you provide your username if the form, you will be added to a list of users who will receive this title in the next update."
-			]
+			subtitle: "{chapter.32.quest.2.subtitle}"
+			description: ["{chapter.32.quest.2.description.1}"]
 			optional: true
 			id: "555DE2027606D5B7"
 			tasks: [{
 				id: "5D6983FD863F51B3"
 				type: "custom"
-				title: "Provide Feedback"
+				title: "{chapter.32.quest.2.task.1.title}"
 				icon: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -84,7 +75,7 @@
 			rewards: [{
 				id: "11C10744446F9668"
 				type: "command"
-				title: "the §6§lC§6§lo§6§ln§6§lt§6§lr§6§li§6§lb§6§lu§6§lt§6§lo§6§lr"
+				title: "{chapter.32.quest.2.reward.1.title}"
 				icon: {
 					id: "titles:title_scroll_rare"
 					Count: 1b
@@ -102,11 +93,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: [
-				"Title Fragments can be found in loot, and are used to trade for Title Scrolls with villagers."
-				""
-				"There is a limited amount of titles you can unlock with each scroll."
-			]
+			description: ["{chapter.32.quest.3.description.1}"]
 			dependencies: ["4B93CE8715CACD5A"]
 			id: "13BF5C3D53C0B1F5"
 			tasks: [{
@@ -132,13 +119,13 @@
 			x: -4.5d
 			y: 3.0d
 			shape: "hexagon"
-			subtitle: "Granted to users who helped develop the pack. Please do not impersonate developers by giving yourself this title."
+			subtitle: "{chapter.32.quest.4.subtitle}"
 			optional: true
 			id: "70E5ACFA41387822"
 			tasks: [{
 				id: "6237C8565A36FFF9"
 				type: "custom"
-				title: "the §c§lD§6§le§e§lv§a§le§d§ll§b§lo§d§lp§c§le§6§lr"
+				title: "{chapter.32.quest.4.task.1.title}"
 				icon: {
 					id: "kubejs:ruby"
 					Count: 1b
@@ -152,7 +139,7 @@
 			rewards: [{
 				id: "7CEEC0584CF0E4D4"
 				type: "command"
-				title: "the §c§lD§6§le§e§lv§a§le§d§ll§b§lo§d§lp§c§le§6§lr"
+				title: "{chapter.32.quest.4.reward.1.title}"
 				icon: {
 					id: "titles:title_scroll_rare"
 					Count: 1b
@@ -261,17 +248,12 @@
 			]
 		}
 		{
-			title: "the §6§lP§f§la§6§lt§f§lr§6§lo§f§ln"
+			title: "{chapter.32.quest.8.title}"
 			x: -3.0d
 			y: 3.0d
 			shape: "hexagon"
-			subtitle: "Granted to users who subscribe to dreams01 on Patreon."
-			description: [
-				""
-				"https://www.patreon.com/Dreams01"
-				""
-				"Please msg me your Minecraft username in Patreon messages, Discord messages(dreams#0285), or Discord Hall-Of-Heroes channel."
-			]
+			subtitle: "{chapter.32.quest.8.subtitle}"
+			description: ["{chapter.32.quest.8.description.1}"]
 			optional: true
 			id: "746A3F9BEE5F8477"
 			tasks: [{
@@ -290,7 +272,7 @@
 			rewards: [{
 				id: "11E518256C81330E"
 				type: "command"
-				title: "the §6§lP§f§la§6§lt§f§lr§6§lo§f§ln"
+				title: "{chapter.32.quest.8.reward.1.title}"
 				icon: {
 					id: "titles:title_scroll_rare"
 					Count: 1b

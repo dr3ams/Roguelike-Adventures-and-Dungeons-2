@@ -3,7 +3,7 @@
 	group: "67B03B24E53297B4"
 	order_index: 3
 	filename: "cheesy_business"
-	title: "Cheesy Business"
+	title: "{chapter.19.title}"
 	icon: "rats:rat_trap"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -37,11 +37,7 @@
 		{
 			x: -2.5d
 			y: 0.0d
-			description: [
-				"In order to protect one's lively hood from rat attacks and infestations, they can craft a rat trap"
-				""
-				"These and traditional defenses against rats, like stone houses and Ocelots can help protect against rodent infestations."
-			]
+			description: ["{chapter.19.quest.1.description.1}"]
 			dependencies: ["60A98B1357B81D11"]
 			id: "03A59DE3E3891061"
 			tasks: [{
@@ -58,13 +54,7 @@
 		{
 			x: -1.5d
 			y: -1.0d
-			description: [
-				"Important aspect of Rats is cheese. Cheese is made by pouring milk into a cauldron"
-				""
-				"Asides from being a good food source, cheese is also used to tame wild rats, and for a plethora of rat-related crafting recipes."
-				""
-				""
-			]
+			description: ["{chapter.19.quest.2.description.1}"]
 			dependencies: ["60A98B1357B81D11"]
 			id: "5287FD38B69C71B9"
 			tasks: [{
@@ -103,7 +93,7 @@
 		{
 			x: -3.5d
 			y: -1.0d
-			description: ["Rats are small creatures that spawn at night in the overworld, just like monsters. They are usually afraid of players and will run from them on sight. They can become quite a nuisance as rats are able to dig through wooden walls, steal food and seeds from chests, and destroy crops. Additionally, rats can sneak through fences and navigate through doors."]
+			description: ["{chapter.19.quest.4.description.1}"]
 			id: "60A98B1357B81D11"
 			tasks: [{
 				id: "3F6B4DE3B6DF35E5"
@@ -141,15 +131,7 @@
 		{
 			x: 2.5d
 			y: -1.0d
-			description: [
-				"Rat Cages are blocks crafted with iron bars, iron ingots, and wheat. They are used to contain and breed rats. Any rats that are riding the player's shoulders or head can be deposited in the cage by interacting with it. Rats in cages can be released by clicking on the cage again. There is no set limit to how many rats can be in a cage, but vanilla's entity cramming rules still apply. Rat cages can be decorated through the use of several items known as Rat Cage Decorations. Rat Tubes can also be connected to cages. Rat Cages connect to adjacent cage blocks to form one large cage."
-				""
-				"Rats of opposing genders in the same cage will breed as long as a Rat Breeding Lantern is placed in the cage. Their pups have a chance of having new color mutations not present in their parents."
-				""
-				"Tamed Rats can be made to do a variety of things, but one of the most important of these is auto-crafting."
-				""
-				"One can start the autocrafting process by giving a tamed rat the Crafting Upgrade, and placing the rat on top of a Rat Crafting Table"
-			]
+			description: ["{chapter.19.quest.6.description.1}"]
 			dependencies: ["0FBC75A8226C78D8"]
 			id: "356CFEE6C2861E73"
 			tasks: [{
@@ -166,7 +148,7 @@
 		{
 			x: 3.5d
 			y: -1.0d
-			description: ["There are over 30 unique decorations for rat cages including rat hammocks and rat igloos. These can be applied to a rat cage by clicking on the cage with the respective item. They can be removed by trying to replace the decoration or by breaking the Rat Cage Block."]
+			description: ["{chapter.19.quest.7.description.1}"]
 			dependencies: ["356CFEE6C2861E73"]
 			dependency_requirement: "one_completed"
 			id: "57D050BC4C4F0844"
@@ -191,7 +173,7 @@
 		{
 			x: 2.5d
 			y: 0.0d
-			description: ["Rat tubes are plastic tubes that can be attached to cages and blocks. Right clicking a rat tube will create an opening for rats to enter."]
+			description: ["{chapter.19.quest.8.description.1}"]
 			dependencies: ["356CFEE6C2861E73"]
 			id: "586CD4AFCDAAB1BE"
 			tasks: [{
@@ -226,13 +208,7 @@
 		{
 			x: 2.5d
 			y: 2.0d
-			description: [
-				"In order to use the Cheese Staff, it must be \"bound\" to a rat. This is done by Right-Clicking the rat with the cheese staff in hand. Once bound to a rat, the cheese staff can then be clicked on any block."
-				""
-				"Click on a chest or container block with the bound staff in hand to open up the Cheese Staff Menu. Here the player can mark the container as either a pick-up or drop off a container for the rat's various commands."
-				""
-				"The Staff can also be used to set a home point for the rat. The home point is the block that the rat will wander around when set to \"Wander\" command."
-			]
+			description: ["{chapter.19.quest.9.description.1}"]
 			dependencies: ["50C9FF36FEDAC1F0"]
 			id: "2A06481BD57E5A8E"
 			tasks: [{
@@ -253,7 +229,7 @@
 		{
 			x: 3.5d
 			y: 2.0d
-			description: ["Rat Upgrade: Platter will allow a rat to transfer an entire stack of an items at a time. Typically, a rat without this upgrade will only transfer a single item at a time."]
+			description: ["{chapter.19.quest.10.description.1}"]
 			dependencies: ["2A06481BD57E5A8E"]
 			id: "4067608F0749CF58"
 			tasks: [{
@@ -280,14 +256,10 @@
 			]
 		}
 		{
-			title: "Specialization"
+			title: "{chapter.19.quest.11.title}"
 			x: 0.5d
 			y: -4.0d
-			description: [
-				"There are a multitude of upgrades that can be crafted for rats, ranging from simple health and speed boosts, to massive strength and armor gains, along with new abilities, like cooking food and carrying entire stacks of items."
-				""
-				"Most specialization of rats comes from Rat Upgrades. These give rats specific stats or abilities, and there are currently 50 rat upgrades available."
-			]
+			description: ["{chapter.19.quest.11.description.1}"]
 			dependencies: ["5287FD38B69C71B9"]
 			id: "32DD2DCE063BFE76"
 			tasks: [{
@@ -348,16 +320,13 @@
 		{
 			x: 0.5d
 			y: -1.0d
-			description: [
-				"Taming a rat is considered difficult as they actively try and avoid players. It is impossible to tame a Plague Rat, but a normal Rat is tamed using Cheese. Like other food items, rats will eat cheese items that are thrown on the floor. However, wild rats have a trust variable that increases with each feeding of cheese. As the rat slowly trusts the player it will not flee as fast or far, and by the time it has had 10 cheese, it will trust the player enough not to flee. Once the rat has been fed cheese 10 times, each additional feeding will have a 33% chance of taming the rat. It can take up to 15 times to tame a rat. Rats are tamed when they make heart particles and can be interacted with."
-				""
-			]
+			description: ["{chapter.19.quest.14.description.1}"]
 			dependencies: ["5287FD38B69C71B9"]
 			id: "0FBC75A8226C78D8"
 			tasks: [{
 				id: "38EF53E23CD9D0E4"
 				type: "checkmark"
-				title: "Taming"
+				title: "{chapter.19.quest.14.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -375,17 +344,13 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: [
-				"Tamed rats have a menu that can be accessed by interacting on them with most items or an empty hand."
-				""
-				"In this menu, the player can change the helmet and banner the rat is wearing, change the rat's 3 equipped upgrades, and the item held in the rat's hands or mouth. More importantly, the player can cycle through rat commands by pressing the arrows to the right. The current status of the rat and its gender are also displayed."
-			]
+			description: ["{chapter.19.quest.15.description.1}"]
 			dependencies: ["0FBC75A8226C78D8"]
 			id: "317360572C8BEEA6"
 			tasks: [{
 				id: "12B75969C53BE39C"
 				type: "checkmark"
-				title: "Rat Menu"
+				title: "{chapter.19.quest.15.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -403,24 +368,13 @@
 		{
 			x: 0.5d
 			y: 2.0d
-			description: [
-				"Rats have a variety of commands that can be changed in their menu, or through the use of a Rat Flute. They are as follows:"
-				"- Wander - The rat will mill around aimlessly like most vanilla creatures. Note that the rat will still defend its owner while under this command."
-				"- Stay Here - The rat will slouch upwards and sit, not moving at all and not following any other tasks."
-				"- Follow Me - The rat will follow the owner like a Wolf, and defend the owner from attacks."
-				"- Hunt Prey - The rat will target any animals and monsters in the area and attack them. Rats will not attack baby mobs."
-				"- Gather Items - The rat will pick up any items on the floor."
-				"- Harvest - The rat will break grass blocks and crops and pick up the drops. Some upgrades, like the Rat Upgrade: Miner, Rat Upgrade: Planter and Rat Upgrade: Fisherman override this command."
-				"- Transport Items - The rat will carry items from a pickup container (like a chest) and move them to a deposit container."
-				""
-				"Note: For the Hunt Prey, Gather Items, Harvest and Transport Items commands, players can use a Cheese Staff on containers to designate them as pick up and drop off locations."
-			]
+			description: ["{chapter.19.quest.16.description.1}"]
 			dependencies: ["5287FD38B69C71B9"]
 			id: "50C9FF36FEDAC1F0"
 			tasks: [{
 				id: "734AB6500F825E78"
 				type: "checkmark"
-				title: "Rat Commands"
+				title: "{chapter.19.quest.16.task.1.title}"
 			}]
 		}
 		{
@@ -502,7 +456,7 @@
 		{
 			x: 0.5d
 			y: 4.0d
-			description: ["Clicking with the Rat flute will make a flute noise and command all rats within the local area. Sneak+Clicking will cycle through and change the command the flute gives."]
+			description: ["{chapter.19.quest.19.description.1}"]
 			dependencies: ["50C9FF36FEDAC1F0"]
 			id: "4799C026D3216A0F"
 			tasks: [{

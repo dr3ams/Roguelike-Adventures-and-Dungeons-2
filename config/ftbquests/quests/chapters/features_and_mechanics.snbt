@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "features_and_mechanics"
-	title: "Features | mechanics"
+	title: "{chapter.1.title}"
 	icon: {
 		id: "losttrinkets:book_o_enchanting"
 		Count: 1b
@@ -94,22 +94,12 @@
 			icon: "itemfilters:weak_nbt"
 			x: -0.5d
 			y: -0.5d
-			description: [
-				"There are couple of new mechanics that this pack employs, descriptions of which you will find following this quest."
-				"You can always come back here to read them again."
-				""
-				"- Gain variable benefits for eating a greater variety of foods."
-				"- Harvest groups of blocks at time to speed up mining, harvesting, and tilling."
-				"- more Piglins behaviors"
-				"- progressive difficulty(including bosses)"
-				"- bleeding"
-				"- new nether portal mechanics"
-			]
+			description: ["{chapter.1.quest.1.description.1}"]
 			id: "56127AAF761DC8DA"
 			tasks: [{
 				id: "6FCE6B669DDF6914"
 				type: "checkmark"
-				title: "New mechanics and features"
+				title: "{chapter.1.quest.1.task.1.title}"
 			}]
 			rewards: [{
 				id: "53256419445952A3"
@@ -129,29 +119,13 @@
 			}
 			x: -2.0d
 			y: -0.5d
-			description: [
-				"- Piglins now have a reputation system that works similarly to Villagers. Doing things like fighting alongside them against Wither mobs, giving them gifts and bartering with them increases your reputation. Doing things like hurting or killing Piglin mobs and engaging in unauthorized mining/chest opening around them decreases your reputation."
-				""
-				"- At +50 reputation with a Piglin, you will no longer be required to wear gold armor around them. At +100 reputation, you will be authorized to open chests and mine gold around them."
-				""
-				"- At -50 reputation with a Piglin, you will no longer receive items from bartering. At -100 reputation, you will be attacked on sight regardless of whether or not you are wearing gold armor."
-				""
-				"- Piglins seek out and pick up food items (by default, porkchops and cooked porkchops) and consume them, complete with an eating animation. Players can also right-click them with their food items if the Piglin has not already recently eaten and they will accept it. Eating food will also restore a Piglin's health in an amount identical to the food item's hunger value."
-				""
-				"- Piglins can now barter with gold nuggets and gold blocks. Gold nuggets make you far more likely to receive common barter items, with all item stack sizes halved. Gold blocks make you far more likely to receive rare barter items, with all item stack sizes doubled."
-				""
-				"- Piglins now shake their heads like Villagers when declining an offered item."
-				""
-				" Piglins now emit particles/make sounds when accepting an item from you or declining it."
-				""
-				""
-			]
+			description: ["{chapter.1.quest.2.description.1}"]
 			dependencies: ["56127AAF761DC8DA"]
 			id: "0DA780E82198E59C"
 			tasks: [{
 				id: "4C371DDFD42B66C2"
 				type: "checkmark"
-				title: "New Piglins Behavior"
+				title: "{chapter.1.quest.2.task.1.title}"
 			}]
 			rewards: [{
 				id: "665866DA9908B914"
@@ -171,24 +145,12 @@
 			}
 			x: 0.0d
 			y: 2.5d
-			description: [
-				"Nether portals now come in the form of Dimensional Rifts, which you'll find scattered deep underground. You'll have to find one of these Rifts in order to get to the Nether - but be careful, because it's now a one-way trip!"
-				""
-				"To get back from the Nether, you'll have to search for a Monolith. These are new, semi-rare structures that can be easily spotted from far away thanks to the beams they shoot into the sky."
-				""
-				"The block at the center of each Monolith that shoots this beam is called a Reclaimer, and it's the key to returning to the Overworld. However, the Reclaimer won't do much without a little power. In order to power it, you'll have to place a gold block on each of its four sides - something that shouldn't be too difficult to pull off in the Nether. "
-				""
-				"Once powered, the Reclaimer has the ability to lift you back into the Overworld."
-				"================================="
-				" You can bucket the Dimensional Plasma from a Dimensional Rift to bring it closer to your base, and you can mine the Reclaimer from a Monolith and place it right by where your Plasma teleports you to in the Nether."
-				""
-				"So, it's pretty close to a two-way portal, the only real difference being you'll have to find a Dimensional Rift and a Monolith first."
-			]
+			description: ["{chapter.1.quest.3.description.1}"]
 			id: "25045A0059F4E280"
 			tasks: [{
 				id: "7C18E741D1CA3145"
 				type: "checkmark"
-				title: "New nether portal mechanics"
+				title: "{chapter.1.quest.3.task.1.title}"
 			}]
 			rewards: [{
 				id: "079877221EB51759"
@@ -208,22 +170,13 @@
 			icon: "ars_nouveau:ritual_moonfall"
 			x: -2.0d
 			y: -2.0d
-			description: [
-				"Blood Moon:"
-				"Blood Moons are a lunar event that cranks up the monster spawn cap as well as preventing the player from sleeping! The mechanics of the blood moon are inspired by the spawn rate increase that occurs in Terraria's Blood Moon."
-				""
-				"Harvest Moon:"
-				"The harvest moon is a lunar which cranks up both the crop growth rate and crop drop rate!"
-				""
-				"Blue Moon:"
-				"The blue moon is a lunar event that gives you the luck effect and increases the quality of loot in vanilla loot tables!"
-			]
+			description: ["{chapter.1.quest.4.description.1}"]
 			dependencies: ["56127AAF761DC8DA"]
 			id: "1D7B582F298ADFDF"
 			tasks: [{
 				id: "2166672F8EECC3D0"
 				type: "checkmark"
-				title: "New Lunar events"
+				title: "{chapter.1.quest.4.task.1.title}"
 			}]
 			rewards: [{
 				id: "07AA1991ADA77735"
@@ -236,27 +189,13 @@
 			x: -2.0d
 			y: 2.5d
 			shape: "square"
-			subtitle: "Current dimensions count: 10"
-			description: [
-				"• Atum 2 - a new and unique desert dimension full of sand, temples, as well as many new enemies! Traveling through the dimension you can discover new artifacts, making your way to them through mountains of sand and enemies."
-				""
-				"• Blue skies: Everbright and Everdawn - two new dimensions, one lighter and colder, and the other darker and warmer. In each of them you will find new blocks, mobs, tools, weapons and bosses."
-				""
-				"• Dimensional Dungeons - limitless procedurally generated dungeons dimension."
-				""
-				"• The Bumblezone - an unBEElievable dimension full of bees that become REALLY angry if you take their honey!"
-				""
-				"• Tropicraft - dimension adding tropical world"
-				""
-				"• Twilight forest - a realm basked in mystery and eerie twilight."
-				""
-				"• Undergarden - a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."
-			]
+			subtitle: "{chapter.1.quest.5.subtitle}"
+			description: ["{chapter.1.quest.5.description.1}"]
 			id: "6EAF4C02AC262FC0"
 			tasks: [{
 				id: "1A3AEEE0A82E3188"
 				type: "checkmark"
-				title: "New dimensions!"
+				title: "{chapter.1.quest.5.task.1.title}"
 			}]
 			rewards: [{
 				id: "59B1B5BF66E28F2F"
@@ -276,18 +215,14 @@
 			icon: "ars_nouveau:glyph_haste"
 			x: -1.0d
 			y: -2.0d
-			subtitle: "In-Depth, Well Balanced and Seamlessly Integrated Dodging"
-			description: [
-				"- Armor Weights. Dodging is impacted directly by the heaviness of your armor; you have to think twice about what you equip!"
-				""
-				"- You can adjust the Dodge Key button from its default value of Left-Alt in Minecraft's controls menu!"
-			]
+			subtitle: "{chapter.1.quest.6.subtitle}"
+			description: ["{chapter.1.quest.6.description.1}"]
 			dependencies: ["56127AAF761DC8DA"]
 			id: "55DE8B3522A4F8A6"
 			tasks: [{
 				id: "36478D84CB178449"
 				type: "checkmark"
-				title: "Dodge"
+				title: "{chapter.1.quest.6.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -309,7 +244,7 @@
 			]
 		}
 		{
-			title: "New Enchantment system by Apotheosis"
+			title: "{chapter.1.quest.7.title}"
 			icon: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
@@ -322,18 +257,12 @@
 			}
 			x: 3.0d
 			y: 9.0d
-			description: [
-				"There is now a new system for enchanting that uses three stats, instead of the original single stat system."
-				""
-				"To support the new enchantment stat system, Apotheosis adds 11 new bookshelves, each with their own unique enchanting stat combinations.  Shown here are the Endshelves, Seashelves, Hellshelves, the Beeshelf and the Melonshelf.  Combinations of these shelves can allow for any stat values you could dream of, however, reaching significantly high Eterna levels requires Endshelves."
-				""
-				"To support the new enchantment stat system, Apotheosis adds 11 new bookshelves, each with their own unique enchanting stat combinations.  Shown here are the Endshelves, Seashelves, Hellshelves, the Beeshelf and the Melonshelf.  Combinations of these shelves can allow for any stat values you could dream of, however, reaching significantly high Eterna levels requires Endshelves."
-			]
+			description: ["{chapter.1.quest.7.description.1}"]
 			id: "6FCA404FDB2D82CC"
 			tasks: [{
 				id: "07F42EA7E8CC38A5"
 				type: "checkmark"
-				title: "New Enchanting mechanics"
+				title: "{chapter.1.quest.7.task.1.title}"
 			}]
 			rewards: [{
 				id: "25FD19220EA221C0"
@@ -342,19 +271,16 @@
 			}]
 		}
 		{
-			title: "New and overhauled structures!"
+			title: "{chapter.1.quest.8.title}"
 			icon: "ars_nouveau:familiar_wixie"
 			x: 1.0d
 			y: 2.5d
-			description: [
-				"- underground and flying villages"
-				"- overhauled mineshaft, strongholds, dungeons, caves"
-			]
+			description: ["{chapter.1.quest.8.description.1}"]
 			id: "6560CFA3F7737BBB"
 			tasks: [{
 				id: "3E8E9CE8F8302CF2"
 				type: "checkmark"
-				title: "New structures!"
+				title: "{chapter.1.quest.8.task.1.title}"
 			}]
 			rewards: [{
 				id: "1387A24745731B2C"
@@ -374,19 +300,13 @@
 			icon: "archers_paradox:redstone_arrow"
 			x: 0.0d
 			y: -2.0d
-			description: [
-				"Each animal and human being can now bleed. This is an effect that deals damage similar to poison and can be removed using a new item: Bandages. The chance of bleeding is lower the more pieces of armor you have."
-				""
-				"Bleeding is caused by many different sources such as receiving sword damage, being bitten by a spider, or by touching a cactus..."
-				""
-				"It is important to keep bandages with you at all times because bleeding becomes more deadly as the game progresses!"
-			]
+			description: ["{chapter.1.quest.9.description.1}"]
 			dependencies: ["56127AAF761DC8DA"]
 			id: "04CC7C1C1BFE864D"
 			tasks: [{
 				id: "344ADACFCEB0D8A7"
 				type: "checkmark"
-				title: "Bleeding"
+				title: "{chapter.1.quest.9.task.1.title}"
 			}]
 			rewards: [{
 				id: "0721D0DFC9A4BC06"
@@ -407,20 +327,13 @@
 			}
 			x: 1.5d
 			y: -0.5d
-			description: [
-				"A difficulty value is tracked for each player."
-				"As difficulty increases, mobs become stronger."
-				""
-				""
-				"The difficulty value will determine how much extra health mobs can have. Mobs will also gain bonus attack damage and potion effects."
-				""
-			]
+			description: ["{chapter.1.quest.10.description.1}"]
 			dependencies: ["56127AAF761DC8DA"]
 			id: "0F19628AC9F04F38"
 			tasks: [{
 				id: "7006A7CF76CC94F9"
 				type: "checkmark"
-				title: "Scaling Difficulty"
+				title: "{chapter.1.quest.10.task.1.title}"
 				icon: "scalinghealth:heart_crystal"
 			}]
 			rewards: [{
@@ -440,30 +353,13 @@
 		{
 			x: 1.5d
 			y: -2.0d
-			description: [
-				"Each Wither killed and Ender Dragon (re)spawned will count towards a point of Difficulty, making them harder the next time they're spawned.Each point of difficulty increases the Bosses stats and unlocks abilities."
-				""
-				"Wither "
-				"Wither Health increases by 10 for each point of difficulty."
-				"Regenerates 0.05 HP per second for each point of difficulty (up to 1 HP per second). This is summed to the base regeneration of 1 HP per second the Wither already has."
-				"After the first Wither Spawned the second Wither will spawn Wither Minions (Wither Skeletons)."
-				"Has 2% chance per point of difficulty (up to 50%) to drop a Nether Star Shard."
-				""
-				"Ender Dragon"
-				"The Ender Dragon deals 10% more damage per point of difficulty for both attacking and the Acid Pool."
-				"Has 10 more HP per point of Difficulty"
-				"Can spit an acid fireball more frequently, given by the Difficulty and the remaining Ender Crystals."
-				"As the difficulty goes up, more cages will spawn around Crystals on the towers."
-				"After the first Dragon Killed the second one will spawn Larvae (Endermites) at the center of the island."
-				"From the third Dragon she will start spawning Minions (Purple Shulkers) around the island."
-				""
-			]
+			description: ["{chapter.1.quest.11.description.1}"]
 			dependencies: ["0F19628AC9F04F38"]
 			id: "68203BBBB58B26EA"
 			tasks: [{
 				id: "6C079A785E1D9855"
 				type: "checkmark"
-				title: "Progressive Bosses"
+				title: "{chapter.1.quest.11.task.1.title}"
 				icon: "productivebees:upgrade_productivity"
 			}]
 			rewards: [{
@@ -482,21 +378,13 @@
 			icon: "majruszs_difficulty:undead_battle_standard"
 			x: 2.5d
 			y: -0.5d
-			description: [
-				"The game progress is divided into three parts: Normal Mode, Expert Mode, and Master Mode."
-				""
-				"- Normal Mode starts at the beginning of the game."
-				""
-				"- Expert Mode starts when the first player kills the Wither. (or enters the End)"
-				""
-				"- Master Mode starts when you defeat the Ender Dragon."
-			]
+			description: ["{chapter.1.quest.12.description.1}"]
 			dependencies: ["0F19628AC9F04F38"]
 			id: "577182F7C0C5B85B"
 			tasks: [{
 				id: "654635E50ADA3AD9"
 				type: "checkmark"
-				title: "Progressive Difficulty"
+				title: "{chapter.1.quest.12.task.1.title}"
 			}]
 			rewards: [{
 				id: "203EF8DF6395F7A6"
@@ -511,36 +399,18 @@
 			}]
 		}
 		{
-			title: "Normal mode changes"
+			title: "{chapter.1.quest.13.title}"
 			icon: "minecraft:skeleton_skull"
 			x: 3.5d
 			y: -1.5d
-			subtitle: "Some of the new difficulty mechanics:"
-			description: [
-				"- Groups of enemies"
-				"Enemies appear in groups with one leader and followers who attack the same target as the leader. Followers are more likely to have weapons and leaders to have armors."
-				""
-				"- Undead Army (new Raid)"
-				"The new raid starts after killing a certain amount of undead enemies. It has 3-5 waves, scales difficulty over time, and rewards the player with a treasure bag after finishing it. Also scales difficulty with each player participating in!"
-				""
-				"- fall damage can causes Slowness and Nausea"
-				""
-				"- drowning damage can causes Nausea and Weakness"
-				""
-				"- Creepers may spawn with a negative effect"
-				""
-				"- animals (like Wolves), Zombies, and Spiders can bite you causing Bleeding"
-				""
-				"- arrows and direct damage from sharp items (tools, weapons, shears) also can cause Bleeding"
-				""
-				"- touching a cactus also may cause Bleeding"
-			]
+			subtitle: "{chapter.1.quest.13.subtitle}"
+			description: ["{chapter.1.quest.13.description.1}"]
 			dependencies: ["577182F7C0C5B85B"]
 			id: "6E509EA1B20B6476"
 			tasks: [{
 				id: "413AD55DBDF6F7A1"
 				type: "checkmark"
-				title: "New difficulty mechanics"
+				title: "{chapter.1.quest.13.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -560,20 +430,12 @@
 			icon: "farmersdelight:cake_slice"
 			x: 3.0d
 			y: 6.0d
-			description: [
-				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods."
-				""
-				"You will receive variable benefits depending on how diverse your current diet is, and has been in the recent past."
-				""
-				"You will have to maintain that level of diversity to keep those benefits. This should encourage automation of a variety of foods, rather than just encouraging you to eat each food once (SoL: Carrot Edition)."
-				""
-				"*Note: This means your diversity score is constantly and dynamically changing depending on what your current and past diet. Thus, you can have many benefits after eating a diverse set of foods for a time, but falling back to eating only bread will gradually result in a loss/weakening of gained benefits.To get a higher diversity score, you need to keep including more and more diverse types of foods in your diet."
-			]
+			description: ["{chapter.1.quest.14.description.1}"]
 			id: "35190DA84895073D"
 			tasks: [{
 				id: "6331E4029462A823"
 				type: "checkmark"
-				title: "Benefits for eating variety of foods"
+				title: "{chapter.1.quest.14.task.1.title}"
 			}]
 			rewards: [{
 				id: "4A593D39CE5A8B79"
@@ -593,24 +455,12 @@
 			icon: "fins:spindly_emerald"
 			x: -1.0d
 			y: 2.5d
-			description: [
-				"There are multiple new villager jobs, all with unique trades, workstations, and advancements!"
-				"- OCEANOGRAPHER"
-				"- NETHEROLOGIST"
-				"- FORESTER"
-				"- ENDEROLOGIST"
-				"- ENGINEER"
-				"- FLORIST"
-				"- HUNTER"
-				"- MINER"
-				""
-				"There are also some villager tools that you should check. @villagertools"
-			]
+			description: ["{chapter.1.quest.15.description.1}"]
 			id: "2574DDCEFF8FE519"
 			tasks: [{
 				id: "62AD44FDD001C367"
 				type: "checkmark"
-				title: "Improved villagers"
+				title: "{chapter.1.quest.15.task.1.title}"
 			}]
 			rewards: [{
 				id: "1A3E8B8ABF4D5B26"
@@ -636,22 +486,12 @@
 			}
 			x: 3.0d
 			y: 7.0d
-			description: [
-				"Lost Trinkets mod adds more than 70+ unlockable trinkets with different abilities and rarities."
-				""
-				"Trinkets are randomly unlocked when you doing some activities like fighting enemies and bosses, trading, mining ores, cutting trees, and farming.Each activity has a rarity of unlocking trinkets eg: killing bosses has a better chance than normal enemies"
-				""
-				"You can access the trinket GUI by pressing the R key on your keyboard."
-				"========================"
-				"There are also countless amount of curious(baubles) which have their own slot in your inventory. Each with unique different ability or property. "
-				""
-				"You can access curio slots from your inventory near your character model.(G button)"
-			]
+			description: ["{chapter.1.quest.16.description.1}"]
 			id: "0E5AE2A43020AFC3"
 			tasks: [{
 				id: "0904DC2D17454C24"
 				type: "checkmark"
-				title: "Trinkets and curious"
+				title: "{chapter.1.quest.16.task.1.title}"
 			}]
 			rewards: [{
 				id: "70CB36DD6DEEB01C"
@@ -671,38 +511,8 @@
 			icon: "ars_nouveau:glyph_wither"
 			x: 3.5d
 			y: -0.5d
-			subtitle: "- Expert Mode starts when the first player kills the Wither"
-			description: [
-				"- loot has a 25% chance to be doubled"
-				""
-				"- experience from all sources is increased by 20%"
-				""
-				"- all monsters have their health and damage increased by 20%(at night the bonus is doubled to 40%)"
-				""
-				"- Illusioner spawn naturally during the night"
-				""
-				"- new Elite Skeleton spawn naturally during the night(shoots arrows extremely precisely)"
-				""
-				"- Piglins may spawn in a group"
-				""
-				"- Pillagers may spawn in a group"
-				""
-				"- Creepers on explosion may spawn more Creeperlings"
-				""
-				"- Slimes have a chance to inflict Slowness effect"
-				""
-				"- Wither Skeletons may spawn with the Wither Sword instead of the Stone Sword"
-				""
-				"- Undead Army now has 4 waves"
-				""
-				"- undead spawned during the Undead Army are twice as likely to have enchanted items"
-				""
-				"- undead spawned during the Undead Army are twice as likely to have armor pieces"
-				""
-				"- Undead Army gives 100% more experience for completing it"
-				""
-				"- whenever you die from Bleeding or are killed by a Zombie there spawns a special Zombie with your head"
-			]
+			subtitle: "{chapter.1.quest.17.subtitle}"
+			description: ["{chapter.1.quest.17.description.1}"]
 			dependencies: ["577182F7C0C5B85B"]
 			id: "78655B49D92DA1AB"
 			tasks: [{
@@ -755,35 +565,8 @@
 			}
 			x: 3.5d
 			y: 0.5d
-			subtitle: "- Master Mode starts when you defeat the Ender Dragon."
-			description: [
-				"- loot has a 75% chance to be doubled"
-				""
-				"- experience from all sources is increased by 50%"
-				""
-				"- all monsters have their health and damage increased by 40% (instead of 20% chance)(at night the bonus is doubled to 80%)"
-				""
-				"- Phantom and new End Keeper spawn naturally near new structures"
-				""
-				"- Elite Skeleton may spawn in a group"
-				""
-				"- Enderman may teleport target on hit"
-				""
-				"- Shulker may inflict Blindness effect"
-				""
-				"- Creepers on explosion may spawn more Creeperlings"
-				""
-				"- Undead Army now has 5 waves"
-				""
-				"- undead spawned during the Undead Army are quadruple as likely to have enchanted items"
-				""
-				"- undead spawned during the Undead Army are thrice as likely to have armor pieces"
-				""
-				"- Undead Army now rewards with 2 Treasure Bags (instead of 1)"
-				""
-				"- Undead Army gives 200% more experience for completing it (instead of 100%)"
-				""
-			]
+			subtitle: "{chapter.1.quest.18.subtitle}"
+			description: ["{chapter.1.quest.18.description.1}"]
 			dependencies: ["577182F7C0C5B85B"]
 			id: "13FD3ACE5C674BD1"
 			tasks: [{
@@ -827,12 +610,8 @@
 		{
 			x: 3.0d
 			y: 8.0d
-			subtitle: "Keeps safe your inventory items on death with many features for better survivability and exploration"
-			description: [
-				"Corail Tombstone handles your death in Minecraft by providing tons of configuration options, many features to encourage to discover the world and several compatibilities between mods."
-				""
-				"It also introduces a perk system : the Knowledge of Death, and a magic system based on some enchantable items with the help of the Souls haunting the Decorative Graves and waiting for a way to be freed for their eternal sentence.A screen in game allows to configure player preferences, access a Compendium of infos and the selection of the perks."
-			]
+			subtitle: "{chapter.1.quest.19.subtitle}"
+			description: ["{chapter.1.quest.19.description.1}"]
 			id: "00EEAE0FACC02300"
 			tasks: [{
 				id: "6121BA739D1C7316"
@@ -862,48 +641,39 @@
 			]
 		}
 		{
-			icon: "kubejs:arrow_left"
+			icon: {
+				id: "kubejs:arrow_left"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: -4.5d
 			y: 1.0d
-			subtitle: "Move your mouse to the left side to open quest menu!"
+			subtitle: "{chapter.1.quest.20.subtitle}"
 			size: 1.5d
 			id: "7FF57EE6F8F6FC1C"
 			tasks: [{
 				id: "1A4B7F6D74AF92E1"
 				type: "checkmark"
-				title: "MORE QUESTS ARE WAITING!"
+				title: "{chapter.1.quest.20.task.1.title}"
 			}]
 		}
 		{
-			title: "Character progression and skills"
+			title: "{chapter.1.quest.21.title}"
 			icon: "itemfilters:item_group"
 			x: -0.30000000000000004d
 			y: 7.6d
-			subtitle: "(brief explanation about stats)"
-			description: [
-				"Menu access key: P (for more info and stats)"
-				""
-				"Project MMO adds an array of new stats that you level up while doing usual things. Leveling these stats unlocks the ability to use more items in game."
-				""
-				"Starting the game you will not be able to use armor, decent tools and specific artifacts/relics/baubles, because this requires a certain level of the player associated with a specific item. In addition to the restrictions - leveling gives a variety of bonuses - passive(like improving your damage) or active(like the ability to salvage item for another one), thereby engaging in certain activities, you will improve your character."
-				""
-				"As you level up different abilities you will unlock different bonuses associated with that abilities, some of them are:"
-				"- Mining: increasing mining speed with each level;"
-				"- Excavation: chance to find treasures while digging;"
-				"- Combat: more damage dealt with weapons;"
-				""
-				"There also different Xp Modifiers for different skill based on your current biome. As an example: you will get less farming experience in desert biome; or more swimming and fishing in ocean biome."
-				""
-				"You can also create or join party with using /pmmo party create/accept/invite/leave command."
-				""
-				"If your stat list on the left is disappeared - simply re-enter the game and it should reappear."
-			]
+			subtitle: "{chapter.1.quest.21.subtitle}"
+			description: ["{chapter.1.quest.21.description.1}"]
 			size: 1.55d
 			id: "000000000000009D"
 			tasks: [{
 				id: "000000000000009E"
 				type: "checkmark"
-				title: "Project MMO"
+				title: "{chapter.1.quest.21.task.1.title}"
 			}]
 			rewards: [{
 				id: "000000000000035B"
@@ -915,11 +685,7 @@
 			icon: "minecraft:brewing_stand"
 			x: -0.7250000000000001d
 			y: 9.4d
-			description: [
-				"Alchemy skill is gained by brewing potions in the Brewing Stand."
-				""
-				"Higher levels of this skill allow for the possibility of extra potions being brewed when brewing a potion."
-			]
+			description: ["{chapter.1.quest.22.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -927,7 +693,7 @@
 			tasks: [{
 				id: "3FE9F9324A9A75ED"
 				type: "checkmark"
-				title: "Alchemy"
+				title: "{chapter.1.quest.22.task.1.title}"
 			}]
 			rewards: [{
 				id: "42EF83110DC99AC4"
@@ -953,14 +719,7 @@
 			}
 			x: 1.4d
 			y: 8.55d
-			description: [
-				"Agility skill is gained in a number of ways:"
-				"-Sprinting: the faster you are going, the more xp you will gain (Potions can boost this)."
-				"-Jumping: the higher you jump the more xp you gain (Potions can boost this)."
-				"-Saving fall damage (a chance probability of occuring when taking fall damage)."
-				""
-				"Higher levels of agility will grant a higher chance to save fall damage"
-			]
+			description: ["{chapter.1.quest.23.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -968,7 +727,7 @@
 			tasks: [{
 				id: "3C321FB0BBBB71CF"
 				type: "checkmark"
-				title: "Agility"
+				title: "{chapter.1.quest.23.task.1.title}"
 			}]
 			rewards: [{
 				id: "213C8DF50385C565"
@@ -988,13 +747,7 @@
 			icon: "minecraft:tropical_fish"
 			x: -2.0d
 			y: 6.85d
-			description: [
-				"Swimming skill is gained by going swimming in the lakes, rivers, and oceans."
-				""
-				"Higher levels of swimming will grant two advantages, underwater nightvision and the ability to stay underwater longer."
-				"Underwater Nightvision will unlock at level 25."
-				"Swimming, and to a lesser extent Endurance, will work together to extend your ability to stay underwater."
-			]
+			description: ["{chapter.1.quest.24.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -1002,7 +755,7 @@
 			tasks: [{
 				id: "5FFBB579483535DF"
 				type: "checkmark"
-				title: "Swimming"
+				title: "{chapter.1.quest.24.task.1.title}"
 			}]
 			rewards: [{
 				id: "27A876A72644EE4A"
@@ -1028,11 +781,7 @@
 			}
 			x: 0.125d
 			y: 9.4d
-			description: [
-				"Flying skill is gained by flying around with an Elytra."
-				""
-				"There is no bonus for higher levels of this skill."
-			]
+			description: ["{chapter.1.quest.25.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -1040,7 +789,7 @@
 			tasks: [{
 				id: "6AA18B31884A0323"
 				type: "checkmark"
-				title: "Flying"
+				title: "{chapter.1.quest.25.task.1.title}"
 			}]
 			rewards: [{
 				id: "1F9CC79DD8FA4F59"
@@ -1066,13 +815,7 @@
 			}
 			x: 1.4d
 			y: 6.85d
-			description: [
-				"Endurance skill is gained by taking damage from any source (falling, getting hit by mobs, etc.)."
-				""
-				"Higher levels of endurance will decrease the amount of damage taken from hits and increases the amount of extra hearts you have. It also contributes to how long you can stay underwater."
-				""
-				"Endurance will also contribute a healing effect across time, with higher levels healing more hearts for every passive time frame."
-			]
+			description: ["{chapter.1.quest.26.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -1080,7 +823,7 @@
 			tasks: [{
 				id: "329A1625CD6214D1"
 				type: "checkmark"
-				title: "Endurance"
+				title: "{chapter.1.quest.26.task.1.title}"
 			}]
 			rewards: [{
 				id: "2042E69D2F7D8D6A"
@@ -1106,11 +849,7 @@
 			}
 			x: 1.4d
 			y: 7.699999999999999d
-			description: [
-				"Combat skill is gained by hitting mobs to deal damage. You will get less xp if the mob is passive, dies, or is one-shot from full health."
-				""
-				"Higher levels of combat increase the amount of damage you can do with melee weapons."
-			]
+			description: ["{chapter.1.quest.27.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -1118,7 +857,7 @@
 			tasks: [{
 				id: "4E7CAB038758BA54"
 				type: "checkmark"
-				title: "Combat"
+				title: "{chapter.1.quest.27.task.1.title}"
 			}]
 			rewards: [{
 				id: "7FA838BD50290BEE"
@@ -1144,12 +883,7 @@
 			}
 			x: 0.9749999999999996d
 			y: 9.4d
-			description: [
-				"Archery skill is gained by shooting mobs with a bow."
-				"You will get less xp if the mob is passive, but more if the mob is killed, is one-shot, or if the arrow flies over 16 blocks."
-				""
-				"Higher levels of archery allows you to do extra damage with bows."
-			]
+			description: ["{chapter.1.quest.28.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -1157,7 +891,7 @@
 			tasks: [{
 				id: "5CB7A94DEE4ADAD5"
 				type: "checkmark"
-				title: "Archery"
+				title: "{chapter.1.quest.28.task.1.title}"
 			}]
 			rewards: [{
 				id: "4CF3274B22645B32"
@@ -1183,11 +917,7 @@
 			}
 			x: 0.55d
 			y: 6.0d
-			description: [
-				"Excavation skill is gained by breaking dirt or dirt-based blocks."
-				""
-				"Higher levels of excavation give you the ability to dig faster and to find treasure in blocks when digging."
-			]
+			description: ["{chapter.1.quest.29.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -1195,7 +925,7 @@
 			tasks: [{
 				id: "1E0BD10C0AEDDA2C"
 				type: "checkmark"
-				title: "Excavation"
+				title: "{chapter.1.quest.29.task.1.title}"
 			}]
 			rewards: [{
 				id: "747ABF4AEDD1C134"
@@ -1221,11 +951,7 @@
 			}
 			x: -0.3d
 			y: 6.0d
-			description: [
-				"Mining Skill is gained by breaking rock or rock-based blocks."
-				""
-				"Higher levels of mining allow you to mine faster and to drop extra items when mining."
-			]
+			description: ["{chapter.1.quest.30.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -1233,7 +959,7 @@
 			tasks: [{
 				id: "27065C11D7892632"
 				type: "checkmark"
-				title: "Mining"
+				title: "{chapter.1.quest.30.task.1.title}"
 			}]
 			rewards: [{
 				id: "0A6359E4B13C16B9"
@@ -1259,11 +985,7 @@
 			}
 			x: -1.15d
 			y: 6.0d
-			description: [
-				"Woodcutting skill is gained by breaking wood blocks (logs, planks, etc.)."
-				""
-				"Higher levels of woodcutting allow you to cut wood faster and have the possiblity of dropping extra wood blocks."
-			]
+			description: ["{chapter.1.quest.31.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -1271,7 +993,7 @@
 			tasks: [{
 				id: "53F6058FA66F0D87"
 				type: "checkmark"
-				title: "Woodcutting"
+				title: "{chapter.1.quest.31.task.1.title}"
 			}]
 			rewards: [{
 				id: "27B553667632567D"
@@ -1297,11 +1019,7 @@
 			}
 			x: -2.0d
 			y: 6.0d
-			description: [
-				"Farming skill is gained by harvesting plants and by breeding animals."
-				""
-				"Higher levels of farming will allow you to harvest more crops from a single plant and to harvest them faster,"
-			]
+			description: ["{chapter.1.quest.32.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -1309,7 +1027,7 @@
 			tasks: [{
 				id: "11AA91F96D236C7E"
 				type: "checkmark"
-				title: "Farming"
+				title: "{chapter.1.quest.32.task.1.title}"
 			}]
 			rewards: [{
 				id: "537A67485463EC65"
@@ -1335,12 +1053,7 @@
 			}
 			x: -2.0d
 			y: 8.55d
-			description: [
-				"Fishing skill is gained by going out and ... you will never guess ... fishing."
-				""
-				"While fishing you will be able to catch special items that have the possibility of being enchanted."
-				"Higher levels of fishing increase the probability of catching better items with better enchantments."
-			]
+			description: ["{chapter.1.quest.33.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -1348,7 +1061,7 @@
 			tasks: [{
 				id: "26DAF84205172A75"
 				type: "checkmark"
-				title: "Fishing"
+				title: "{chapter.1.quest.33.task.1.title}"
 			}]
 			rewards: [{
 				id: "1C1A31BE2C5DDBD2"
@@ -1376,11 +1089,7 @@
 			}
 			x: -2.0d
 			y: 7.699999999999999d
-			description: [
-				"Magic skill is gained by mining magical ores, reading tomes from Enigmatic Legacy, and casting spells."
-				""
-				"Higher levels of this skill grant increased maximum mana, mana regeneration, and magic damage."
-			]
+			description: ["{chapter.1.quest.34.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -1388,7 +1097,7 @@
 			tasks: [{
 				id: "15EB7D2E5444C8BB"
 				type: "checkmark"
-				title: "Magic"
+				title: "{chapter.1.quest.34.task.1.title}"
 			}]
 			rewards: [{
 				id: "7487E97E1F0700C7"
@@ -1400,16 +1109,7 @@
 			icon: "minecraft:smithing_table"
 			x: -1.575d
 			y: 9.4d
-			description: [
-				"Smithing skill is gained by a number of different methods:"
-				"-Repairing items"
-				"-Salvaging items (place the item in your off-hand, then crouch and right click on a smithing table)"
-				""
-				"Higher levels of smithing give a number of good benefits:"
-				"-While smelting ore there is a possibility of getting extra products."
-				"-When salvaging items, a higher level increases the success rate of salvaging and increases the number of possible salvaging products."
-				"-Increases the amount repaired when using the anvil and anvils are less likely to break."
-			]
+			description: ["{chapter.1.quest.35.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			optional: true
@@ -1417,7 +1117,7 @@
 			tasks: [{
 				id: "3B673FE9BA9A3CC0"
 				type: "checkmark"
-				title: "Smithing"
+				title: "{chapter.1.quest.35.task.1.title}"
 			}]
 			rewards: [{
 				id: "54F73585773748D8"
@@ -1434,16 +1134,10 @@
 			}]
 		}
 		{
-			title: "Waystones"
+			title: "{chapter.1.quest.36.title}"
 			x: 2.0d
 			y: 2.5d
-			description: [
-				"Waystones allows players to return to them once they've been activated, either through a Warp Scroll, a rechargeable Warp Stone, or by using an existing waystone to hop from one to the other."
-				""
-				"You can find some in the wild and in the villages."
-				""
-				"You can also buy a personal one in the shop and put it whenever you need."
-			]
+			description: ["{chapter.1.quest.36.description.1}"]
 			id: "6AA5B436C67A93FF"
 			tasks: [{
 				id: "6AA055C5A9696592"
@@ -1479,18 +1173,14 @@
 			}
 			x: 1.4d
 			y: 6.0d
-			description: [
-				"Gathering skill is gained while mining, excavating or woodcutting."
-				""
-				"Higher levels of gathering allow you to equip and use higher quality items."
-			]
+			description: ["{chapter.1.quest.37.description.1}"]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
 			id: "6754527124EA8B6B"
 			tasks: [{
 				id: "75B1CF2CFE5E288F"
 				type: "checkmark"
-				title: "Gathering"
+				title: "{chapter.1.quest.37.task.1.title}"
 			}]
 			rewards: [{
 				id: "16655502056D1B37"
@@ -1504,156 +1194,6 @@
 						}
 					}
 				}
-			}]
-		}
-		{
-			title: "Eterna"
-			x: 5.5d
-			y: 11.5d
-			description: ["Eterna is the stat that controls what level your enchanting table is at.  Certain types of bookshelves are only capable of providing certain max levels of Eterna, so be sure to check the max on the block."]
-			dependencies: ["6FCA404FDB2D82CC"]
-			id: "0A7911EB233F4FD6"
-			tasks: [{
-				id: "15DC3E6F6598D84C"
-				type: "checkmark"
-				title: "Eterna"
-				icon: {
-					id: "buzzier_bees:lime_candle"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 6.0d
-			y: 10.0d
-			description: [
-				"Quanta determines how much flux is in your enchanting process.  When you begin an enchantment process, after spending your experience, your Quanta level will work behind the scenes to change your enchantment level."
-				""
-				"This is not always beneficial, as Quanta is capable of both increasing and decreasing the actual enchanting level."
-				""
-				"With a lot of Quanta, and a little luck, you could technically receive an enchantment equal to spending 200 levels!"
-			]
-			dependencies: ["6FCA404FDB2D82CC"]
-			id: "09F74D0C27C859A1"
-			tasks: [{
-				id: "28FEC88005A016BF"
-				type: "checkmark"
-				title: "Quanta"
-				icon: {
-					id: "buzzier_bees:orange_candle"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
-			title: "Arcana"
-			icon: {
-				id: "buzzier_bees:purple_candle"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 3.5d
-			y: 11.0d
-			description: [
-				"Arcana determines how hard it is to get rare enchantments.  At 0%, the base rules for enchantment rarity apply, but as your Arcana increases, rare enchantments will become more common, and common enchantments will become quite rare."
-				""
-				"At 100% Arcana, the rarities are flipped on their heads entirely, and Very Rare enchantments will show up at the rate of common enchantments, while Common enchantments will be hard to find!  Finally, at 25% and 75% Arcana, every time you enchant, you are guaranteed an extra enchantment."
-			]
-			dependencies: ["6FCA404FDB2D82CC"]
-			id: "0054E85C9D29551B"
-			tasks: [{
-				id: "6BE566D5A9954337"
-				type: "checkmark"
-				title: "Arcana"
-				icon: {
-					id: "buzzier_bees:purple_candle"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
-			icon: {
-				id: "apotheosis:enchantment_library"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 6.5d
-			y: 13.5d
-			description: [
-				"The Enchantment Library is a block focused on storing enchantments.  Simply insert an enchanted book, and every enchantment on that book will be stored in the library internally.  "
-				""
-				"Each enchantment on a deposited book will be stored as points.  A point is simply equivalent to a level 1 enchantment, and as such an enchantment is worth the amount of points it would take to combine it from level one books (2^(level -1) points per level)."
-				""
-				"The library also records the max level it has ever seen for a given enchantment, and you may only extract enchantments up to that level. Meaning if you want to be able to extract a higher level of an enchantment, the library will need to have had that level deposited at least one time."
-				""
-				"To extract enchantments from the library, simply click the tile of the enchantment you want to extract, and it will be extracted to the output slot.  If the output slot is empty, a new enchanted book will be generated.  If it is not empty, it will apply the next level of that enchantment to the book (if you have enough points).  "
-				""
-				"Shift-clicking on a tile will attempt to extract the max level available (if you have enough points).  The point cost for extracting is shown in the tooltip.  If that tooltip is red, you do not have enough points for that operation."
-			]
-			dependencies: [
-				"0A7911EB233F4FD6"
-				"09F74D0C27C859A1"
-				"0054E85C9D29551B"
-			]
-			id: "094A8038AC83777E"
-			tasks: [{
-				id: "70DDB00D88744A9C"
-				type: "item"
-				item: {
-					id: "apotheosis:enchantment_library"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
-			icon: {
-				id: "rats:farmer_hat"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 3.0d
-			y: 5.0d
-			description: ["If you need some starting equipment go to the specilization section."]
-			id: "0A8694E6D7E5B93E"
-			tasks: [{
-				id: "2371A22BE0EE5213"
-				type: "checkmark"
-				title: "Specilization"
 			}]
 		}
 	]

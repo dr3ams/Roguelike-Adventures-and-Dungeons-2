@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "shop"
-	title: "$ - COIN SHOP - $"
+	title: "{chapter.2.title}"
 	icon: "kubejs:gold_coin"
 	disable_toast: true
 	default_quest_shape: ""
@@ -120,7 +120,7 @@
 	]
 	quests: [
 		{
-			title: "Common loot crate random reward"
+			title: "{chapter.2.quest.1.title}"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -132,7 +132,7 @@
 			x: -8.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "For Copper coin (repeatable)"
+			subtitle: "{chapter.2.quest.1.subtitle}"
 			size: 2.0d
 			id: "64AE92F598464E3E"
 			tasks: [{
@@ -148,7 +148,7 @@
 			}]
 		}
 		{
-			title: "Uncommon loot crate random reward"
+			title: "{chapter.2.quest.2.title}"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -160,7 +160,7 @@
 			x: -4.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "For Iron coin (repeatable)"
+			subtitle: "{chapter.2.quest.2.subtitle}"
 			size: 2.0d
 			id: "071F9F757CCADA93"
 			tasks: [{
@@ -176,7 +176,7 @@
 			}]
 		}
 		{
-			title: "Rare loot crate random reward"
+			title: "{chapter.2.quest.3.title}"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -188,7 +188,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "For Gold coin (repeatable)"
+			subtitle: "{chapter.2.quest.3.subtitle}"
 			size: 2.0d
 			id: "62356B57A7D667A6"
 			tasks: [{
@@ -204,7 +204,7 @@
 			}]
 		}
 		{
-			title: "Epic loot crate random reward"
+			title: "{chapter.2.quest.4.title}"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -216,7 +216,7 @@
 			x: 4.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "For Diamond coin (repeatable)"
+			subtitle: "{chapter.2.quest.4.subtitle}"
 			size: 2.0d
 			id: "2EB2758D16E8BAE2"
 			tasks: [{
@@ -232,7 +232,7 @@
 			}]
 		}
 		{
-			title: "Legendary loot crate random reward"
+			title: "{chapter.2.quest.5.title}"
 			icon: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
@@ -244,7 +244,7 @@
 			x: 8.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "For Netherite coin (repeatable)"
+			subtitle: "{chapter.2.quest.5.subtitle}"
 			size: 2.0d
 			id: "15645F279C638145"
 			tasks: [{
@@ -260,10 +260,10 @@
 			}]
 		}
 		{
-			title: "Exchange Stone"
+			title: "{chapter.2.quest.6.title}"
 			x: -6.0d
 			y: 0.0d
-			subtitle: "For Granite/Diorite/Andesite (repeatable)"
+			subtitle: "{chapter.2.quest.6.subtitle}"
 			id: "7525A4AAA54D2F0F"
 			tasks: [{
 				id: "6CCAEDACC1C14C99"
@@ -283,7 +283,7 @@
 			x: -8.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
+			subtitle: "{chapter.2.quest.7.subtitle}"
 			size: 2.0d
 			id: "12AA5A2ECF315050"
 			tasks: [{
@@ -302,7 +302,7 @@
 			x: -4.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
+			subtitle: "{chapter.2.quest.8.subtitle}"
 			size: 2.0d
 			id: "4CA69F473539E565"
 			tasks: [{
@@ -322,7 +322,7 @@
 			x: 0.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
+			subtitle: "{chapter.2.quest.9.subtitle}"
 			size: 2.0d
 			id: "2146186B43D64F53"
 			tasks: [{
@@ -342,7 +342,7 @@
 			x: 4.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
+			subtitle: "{chapter.2.quest.10.subtitle}"
 			size: 2.0d
 			id: "0802FC6EE2B78153"
 			tasks: [{
@@ -362,7 +362,7 @@
 			x: 8.0d
 			y: 2.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
+			subtitle: "{chapter.2.quest.11.subtitle}"
 			size: 2.0d
 			id: "4BD23FFF77631DA0"
 			tasks: [{
@@ -378,10 +378,10 @@
 			}]
 		}
 		{
-			title: "Exchange Charcoal"
+			title: "{chapter.2.quest.12.title}"
 			x: -6.0d
 			y: 1.0d
-			subtitle: "For any type of wood (repeatable)"
+			subtitle: "{chapter.2.quest.12.subtitle}"
 			id: "308D3B4CF9E12F88"
 			tasks: [
 				{
@@ -499,7 +499,7 @@
 			x: 8.0d
 			y: 6.0d
 			shape: "octagon"
-			subtitle: "Choice repeatable reward"
+			subtitle: "{chapter.2.quest.16.subtitle}"
 			size: 2.0d
 			id: "637B4E0CF8EE27A0"
 			tasks: [{
@@ -524,7 +524,7 @@
 				{
 					id: "63354904326B25E3"
 					type: "item"
-					title: "Any #forge:storage_blocks/fire_dragon_scale"
+					title: "{chapter.2.quest.17.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -557,7 +557,7 @@
 				{
 					id: "3ECAC917B23BE9D7"
 					type: "item"
-					title: "Any #forge:storage_blocks/lightning_dragon_scale"
+					title: "{chapter.2.quest.18.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -589,7 +589,7 @@
 				{
 					id: "75010189665CDA70"
 					type: "item"
-					title: "Any #forge:storage_blocks/ice_dragon_scale"
+					title: "{chapter.2.quest.19.task.1.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1919,7 +1919,7 @@
 			}]
 		}
 		{
-			title: "Gold Coin -> Dungeon's Mobs Gear"
+			title: "{chapter.2.quest.51.title}"
 			icon: {
 				id: "dungeons_mobs:drowned_necromancer_chestplate"
 				Count: 1b
@@ -1953,7 +1953,7 @@
 			}]
 		}
 		{
-			title: "Gold Coin -> Dungeon's Gear Crate"
+			title: "{chapter.2.quest.52.title}"
 			icon: {
 				id: "dungeons_gear:full_metal_chestplate"
 				Count: 1b
@@ -1987,7 +1987,7 @@
 			}]
 		}
 		{
-			title: "Copper coin -> Money"
+			title: "{chapter.2.quest.53.title}"
 			icon: {
 				id: "kubejs:coin_q_1"
 				Count: 1b
@@ -2023,7 +2023,7 @@
 			}]
 		}
 		{
-			title: "Diamond Coin -> Relics Crate"
+			title: "{chapter.2.quest.54.title}"
 			icon: {
 				id: "relics:magma_walker"
 				Count: 1b
@@ -2062,7 +2062,7 @@
 			}]
 		}
 		{
-			title: "Gold Coind -> Relics Materials Crate"
+			title: "{chapter.2.quest.55.title}"
 			icon: {
 				id: "relics:uncommon_scrap"
 				Count: 1b
@@ -2098,7 +2098,7 @@
 			}]
 		}
 		{
-			title: "Diamond Coin -> Artifacts Crate"
+			title: "{chapter.2.quest.56.title}"
 			icon: {
 				id: "artifacts:fire_gauntlet"
 				Count: 1b
@@ -2133,7 +2133,7 @@
 			}]
 		}
 		{
-			title: "Gold Coin -> Dungeon's Weapons Crate"
+			title: "{chapter.2.quest.57.title}"
 			icon: {
 				id: "dungeons_gear:frost_scythe"
 				Count: 1b
@@ -2168,7 +2168,7 @@
 			}]
 		}
 		{
-			title: "Gold Coin -> Dungeon's Artifacts Crate"
+			title: "{chapter.2.quest.58.title}"
 			icon: {
 				id: "dungeons_gear:iron_hide_amulet"
 				Count: 1b
@@ -2203,7 +2203,7 @@
 			}]
 		}
 		{
-			title: "Monster Coin -> Experience Levels"
+			title: "{chapter.2.quest.59.title}"
 			icon: {
 				id: "minecraft:experience_bottle"
 				Count: 1b
@@ -2239,7 +2239,7 @@
 			}]
 		}
 		{
-			title: "Monster Coin -> Stats Experience"
+			title: "{chapter.2.quest.60.title}"
 			icon: {
 				id: "kubejs:levelup"
 				Count: 1b
@@ -2276,7 +2276,7 @@
 			}]
 		}
 		{
-			title: "10xMonster Coin -> Stats Experience x10"
+			title: "{chapter.2.quest.61.title}"
 			icon: {
 				id: "kubejs:levelup"
 				Count: 1b
@@ -2314,7 +2314,7 @@
 			}]
 		}
 		{
-			title: "10xMonster Coin -> Experience Levels"
+			title: "{chapter.2.quest.62.title}"
 			icon: {
 				id: "minecraft:experience_bottle"
 				Count: 1b
@@ -2351,7 +2351,7 @@
 			}]
 		}
 		{
-			title: "Monster Coin -> Random Monster Material"
+			title: "{chapter.2.quest.63.title}"
 			icon: {
 				id: "minecraft:bone"
 				Count: 1b
@@ -2388,7 +2388,7 @@
 			}]
 		}
 		{
-			title: "Monster Coin -> Random Dust"
+			title: "{chapter.2.quest.64.title}"
 			icon: {
 				id: "iceandfire:pixie_dust"
 				Count: 1b
@@ -2425,7 +2425,7 @@
 			}]
 		}
 		{
-			title: "Monster Coin -> Random Artifacts Crate"
+			title: "{chapter.2.quest.65.title}"
 			icon: { id: "artifacts:shock_pendant", Count: 5b }
 			disable_toast: true
 			x: 11.0d
@@ -2454,7 +2454,7 @@
 			}]
 		}
 		{
-			title: "Monster Coin -> Random Dungeon's Mobs Gear"
+			title: "{chapter.2.quest.66.title}"
 			icon: {
 				id: "dungeons_gear:gilded_glory_chestplate"
 				Count: 5b
@@ -2501,7 +2501,7 @@
 			}]
 		}
 		{
-			title: "Monster Coin -> Random Dungeon's Weapons Crate"
+			title: "{chapter.2.quest.67.title}"
 			icon: {
 				id: "dungeons_gear:firebrand"
 				Count: 5b

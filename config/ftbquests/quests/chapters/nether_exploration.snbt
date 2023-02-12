@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 1
 	filename: "nether_exploration"
-	title: "Nether Exploration"
+	title: "{chapter.4.title}"
 	icon: "minecraft:crimson_nylium"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -24,7 +24,7 @@
 			x: 0.0d
 			y: -0.75d
 			shape: "octagon"
-			description: ["For information on how to enter and exit the Nether, refer to the \"New nether portal mechanics\" quest in the \"Features | Mechanics\" chapter."]
+			description: ["{chapter.4.quest.1.description.1}"]
 			size: 1.5d
 			id: "4ABA0AF14F4830E5"
 			tasks: [{
@@ -1257,7 +1257,7 @@
 			}]
 		}
 		{
-			title: "Golderite Armor"
+			title: "{chapter.4.quest.53.title}"
 			x: 4.5d
 			y: 0.0d
 			dependencies: ["3B5966CE0415E109"]
@@ -1327,7 +1327,7 @@
 			]
 		}
 		{
-			title: "Prismarite Armor"
+			title: "{chapter.4.quest.54.title}"
 			x: 11.5d
 			y: -1.0d
 			dependencies: ["56ADA502CFC3807D"]
@@ -1397,7 +1397,7 @@
 			]
 		}
 		{
-			title: "Enderite Armor"
+			title: "{chapter.4.quest.55.title}"
 			x: 8.5d
 			y: 3.0d
 			dependencies: ["42D44EE61E2CEF2E"]
@@ -1467,7 +1467,7 @@
 			]
 		}
 		{
-			title: "Blazerite Armor"
+			title: "{chapter.4.quest.56.title}"
 			x: 6.0d
 			y: 2.5d
 			dependencies: ["22AD943138F5C856"]
@@ -1537,7 +1537,7 @@
 			]
 		}
 		{
-			title: "Featherite Armor"
+			title: "{chapter.4.quest.57.title}"
 			x: 10.5d
 			y: -3.5d
 			dependencies: ["4FC103EC12228BBB"]
@@ -1607,7 +1607,7 @@
 			]
 		}
 		{
-			title: "Phanterite Armor"
+			title: "{chapter.4.quest.58.title}"
 			x: 7.5d
 			y: -4.0d
 			dependencies: ["6D57242610098E42"]
@@ -1677,7 +1677,7 @@
 			]
 		}
 		{
-			title: "Spiderite Armor"
+			title: "{chapter.4.quest.59.title}"
 			x: 11.0d
 			y: 2.0d
 			dependencies: ["363BD95AA810F14F"]
@@ -1747,7 +1747,7 @@
 			]
 		}
 		{
-			title: "Witherite Armor"
+			title: "{chapter.4.quest.60.title}"
 			x: 5.0d
 			y: -2.5d
 			dependencies: ["1F32E351FBF052A2"]
@@ -1817,7 +1817,7 @@
 			]
 		}
 		{
-			title: "Golderite Arms"
+			title: "{chapter.4.quest.61.title}"
 			x: 4.5d
 			y: -1.0d
 			dependencies: ["3B5966CE0415E109"]
@@ -1871,7 +1871,7 @@
 			]
 		}
 		{
-			title: "Blazerite Arms"
+			title: "{chapter.4.quest.62.title}"
 			x: 5.0d
 			y: 1.5d
 			dependencies: ["22AD943138F5C856"]
@@ -1925,7 +1925,7 @@
 			]
 		}
 		{
-			title: "Enderite Arms"
+			title: "{chapter.4.quest.63.title}"
 			x: 7.5d
 			y: 3.0d
 			dependencies: ["42D44EE61E2CEF2E"]
@@ -1979,7 +1979,7 @@
 			]
 		}
 		{
-			title: "Spiderite Arms"
+			title: "{chapter.4.quest.64.title}"
 			x: 10.0d
 			y: 2.5d
 			dependencies: ["363BD95AA810F14F"]
@@ -2022,7 +2022,7 @@
 			]
 		}
 		{
-			title: "Prismarite Arms"
+			title: "{chapter.4.quest.65.title}"
 			x: 11.5d
 			y: 0.0d
 			dependencies: ["56ADA502CFC3807D"]
@@ -2076,7 +2076,7 @@
 			]
 		}
 		{
-			title: "Featherite Arms"
+			title: "{chapter.4.quest.66.title}"
 			x: 11.0d
 			y: -2.5d
 			dependencies: ["4FC103EC12228BBB"]
@@ -2130,7 +2130,7 @@
 			]
 		}
 		{
-			title: "Phanterite Arms"
+			title: "{chapter.4.quest.67.title}"
 			x: 8.5d
 			y: -4.0d
 			dependencies: ["6D57242610098E42"]
@@ -2184,7 +2184,7 @@
 			]
 		}
 		{
-			title: "Witherite Arms"
+			title: "{chapter.4.quest.68.title}"
 			x: 5.5d
 			y: -3.5d
 			dependencies: ["1F32E351FBF052A2"]

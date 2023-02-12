@@ -3,7 +3,7 @@
 	group: "67B03B24E53297B4"
 	order_index: 2
 	filename: "bee_productive"
-	title: "Bee Productive"
+	title: "{chapter.18.title}"
 	icon: "minecraft:honeycomb"
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
@@ -23,7 +23,7 @@
 		{
 			x: -4.0d
 			y: 2.0d
-			description: ["Will help you with all the info about the Productive Bees mod."]
+			description: ["{chapter.18.quest.1.description.1}"]
 			dependencies: ["000000000000078F"]
 			id: "0000000000000779"
 			tasks: [{
@@ -53,7 +53,7 @@
 		{
 			x: 3.5d
 			y: -4.5d
-			description: ["Your own fresh bottled honey!"]
+			description: ["{chapter.18.quest.2.description.1}"]
 			dependencies: ["0000000000000781"]
 			id: "000000000000077B"
 			tasks: [{
@@ -70,7 +70,7 @@
 		{
 			x: 2.0d
 			y: -4.0d
-			description: ["Catches bees that fly over it. Load it with cages to load the bees into. Can have a flower placed on top to attract bees to it (if they like that kind of thing)."]
+			description: ["{chapter.18.quest.3.description.1}"]
 			dependencies: ["0000000000000795"]
 			id: "000000000000077D"
 			tasks: [{
@@ -94,7 +94,7 @@
 		{
 			x: 0.5d
 			y: -4.5d
-			description: ["Incubates BaBees (in a cage) until they are adults by using honey treats. Can also incubate new bees from genes and eggs."]
+			description: ["{chapter.18.quest.4.description.1}"]
 			dependencies: ["0000000000000795"]
 			id: "000000000000077F"
 			tasks: [{
@@ -118,7 +118,7 @@
 		{
 			x: 2.5d
 			y: -2.5d
-			description: ["Will bottle honey into glass bottles when honey is pumped into into the machine."]
+			description: ["{chapter.18.quest.5.description.1}"]
 			dependencies: ["0000000000000795"]
 			id: "0000000000000781"
 			tasks: [{
@@ -135,7 +135,7 @@
 		{
 			x: -1.0d
 			y: -4.0d
-			description: ["Processes combs from hives into honey and resources. Is powered by FE."]
+			description: ["{chapter.18.quest.6.description.1}"]
 			dependencies: ["0000000000000795"]
 			id: "0000000000000783"
 			tasks: [{
@@ -170,11 +170,7 @@
 		{
 			x: -4.0d
 			y: -2.0d
-			description: [
-				"Allows you to locate a nest of the block type you right click on."
-				""
-				"i.e. Right click on a oak log block to locate a oak nest."
-			]
+			description: ["{chapter.18.quest.7.description.1}"]
 			dependencies: ["000000000000078F"]
 			id: "0000000000000785"
 			tasks: [{
@@ -202,16 +198,13 @@
 		{
 			x: 2.5d
 			y: 0.0d
-			description: [
-				"A more advanced bee hive that will keep your bees happier, allows them to be moved peacefully, and allows expansion hives."
-				"The best part is though that you wont need a campfire under the hive to harvest it peacefully."
-			]
+			description: ["{chapter.18.quest.8.description.1}"]
 			dependencies: ["0000000000000791"]
 			id: "0000000000000787"
 			tasks: [{
 				id: "3D43AED01828F90C"
 				type: "item"
-				title: "Advanced Beehive"
+				title: "{chapter.18.quest.8.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -242,13 +235,13 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			description: ["Can be attached to the top of Advanced Bee Hives to expand their housing from 3 to 5 bees."]
+			description: ["{chapter.18.quest.9.description.1}"]
 			dependencies: ["0000000000000787"]
 			id: "0000000000000789"
 			tasks: [{
 				id: "63D31D44E13AD23F"
 				type: "item"
-				title: "Expansion Box"
+				title: "{chapter.18.quest.9.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -273,7 +266,7 @@
 		{
 			x: -3.0d
 			y: -2.5d
-			description: ["A decorative container to show off a bee."]
+			description: ["{chapter.18.quest.10.description.1}"]
 			dependencies: ["000000000000078F"]
 			id: "000000000000078B"
 			tasks: [{
@@ -294,7 +287,7 @@
 		{
 			x: 0.5d
 			y: 2.5d
-			description: ["Can hold up to 3 items which can be used for feeding your bees."]
+			description: ["{chapter.18.quest.11.description.1}"]
 			dependencies: ["0000000000000791"]
 			id: "000000000000078D"
 			tasks: [{
@@ -320,12 +313,7 @@
 			x: -2.0d
 			y: 0.0d
 			shape: "gear"
-			description: [
-				"Will allow you to capture/release bees with a right click of the cage. "
-				""
-				"*One time use per cage*"
-				""
-			]
+			description: ["{chapter.18.quest.12.description.1}"]
 			size: 2.0d
 			id: "000000000000078F"
 			tasks: [{
@@ -353,7 +341,7 @@
 		{
 			x: 0.5d
 			y: 0.0d
-			description: ["A custom made home for your bees to keep them closer to your base."]
+			description: ["{chapter.18.quest.13.description.1}"]
 			dependencies: ["000000000000078F"]
 			id: "0000000000000791"
 			tasks: [{
@@ -371,7 +359,7 @@
 		{
 			x: 4.5d
 			y: 2.5d
-			description: ["A home for Draconic Bees."]
+			description: ["{chapter.18.quest.14.description.1}"]
 			dependencies: ["0000000000000789"]
 			id: "0000000000000793"
 			tasks: [{
@@ -407,11 +395,7 @@
 			x: 0.5d
 			y: -2.5d
 			shape: "hexagon"
-			description: [
-				"The first harvest from your bees!"
-				""
-				"Use a pair of shears on a level 5 honey beehive to harvest honeycomb."
-			]
+			description: ["{chapter.18.quest.15.description.1}"]
 			dependencies: ["0000000000000791"]
 			id: "0000000000000795"
 			tasks: [{
@@ -421,10 +405,10 @@
 			}]
 		}
 		{
-			title: "Hive Upgrades"
+			title: "{chapter.18.quest.16.title}"
 			x: 2.5d
 			y: 2.5d
-			description: ["A variety of upgrades to your hives and bee focused machines."]
+			description: ["{chapter.18.quest.16.description.1}"]
 			dependencies: ["0000000000000787"]
 			id: "0000000000000797"
 			tasks: [
@@ -475,7 +459,7 @@
 		{
 			x: -1.5d
 			y: -2.5d
-			description: ["This generator will generate FE when fed with honey. For example, a single bottle of honey will generate 1500 FE."]
+			description: ["{chapter.18.quest.17.description.1}"]
 			dependencies: ["0000000000000795"]
 			id: "00000000000007A0"
 			tasks: [{
@@ -499,11 +483,7 @@
 		{
 			x: 5.5d
 			y: -4.5d
-			description: [
-				"A nice combo of liquid honey and some honey comb."
-				""
-				"Will calm angry bees and make baby bees grow faster."
-			]
+			description: ["{chapter.18.quest.18.description.1}"]
 			dependencies: ["000000000000077B"]
 			id: "00000000000007A2"
 			tasks: [{
@@ -527,7 +507,7 @@
 		{
 			x: 7.0d
 			y: -5.5d
-			description: ["A nice and tasty treat for yourself after all that bee work."]
+			description: ["{chapter.18.quest.19.description.1}"]
 			dependencies: ["00000000000007A2"]
 			id: "1EF6661253EDAE23"
 			tasks: [{
@@ -556,20 +536,16 @@
 			]
 		}
 		{
-			title: "BumbleBee Rodeo"
+			title: "{chapter.18.quest.20.title}"
 			x: 7.0d
 			y: -3.5d
-			description: [
-				"The optimal form of transportation."
-				""
-				"Works like riding a pig or strider and lust be lead with a Treat on a Stick (which so kindly has been provided to you)."
-			]
+			description: ["{chapter.18.quest.20.description.1}"]
 			dependencies: ["00000000000007A2"]
 			id: "3F2196582D1EF27A"
 			tasks: [{
 				id: "49AF7B7240A3C205"
 				type: "advancement"
-				title: "BumbleBee Rodeo"
+				title: "{chapter.18.quest.20.task.1.title}"
 				icon: "minecraft:saddle"
 				advancement: "productivebees:husbandry/bee_cage/overworld_nest/treat_on_nest/bumblebee_rider"
 				criterion: ""
@@ -589,7 +565,7 @@
 		{
 			x: -3.0d
 			y: 2.5d
-			description: ["Sturdy bee cages are unlimited use versions of the bee cage. You aren't specialized enough in the art of bees to make one though, so these must be found in villages."]
+			description: ["{chapter.18.quest.21.description.1}"]
 			dependencies: ["000000000000078F"]
 			id: "199CBDA1EBA33D57"
 			tasks: [{
@@ -613,12 +589,7 @@
 		{
 			x: 4.5d
 			y: -2.5d
-			description: [
-				"Squashed bee material is gained by crushing bees into bottler loaded with empty glass bottles. This bee material can then be put into a centrifuge to get vials of gene samples."
-				""
-				"Gene samples can be combined to raise their viability then can be crafted with a honey treat to give bees that specific trait."
-				"A honey treat infused with a specific bee type gene can be used to infuse a egg (chicken egg) with that gene to get a spawn egg for the bee type."
-			]
+			description: ["{chapter.18.quest.22.description.1}"]
 			dependencies: ["0000000000000781"]
 			id: "5CD554DBDB7A9C6D"
 			tasks: [{
