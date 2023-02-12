@@ -15,12 +15,11 @@
 			y: 0.0d
 			subtitle: "Enter Atum dimension"
 			description: [
-				"A brand new dimension to explore made of 9 biomes"
-				"Dungeons, ruins, and more to search"
-				"11 new mobs to encounter and fight"
-				"5 new animals to tame and hunt"
-				"35+ artifacts with special inbuilt abilities to collect"
-				"A powerful pharaoh boss with variants to defeat"
+				"To create the Atum Portal, build a 5x5 floor layer, then add another layer, clear out a 3x3 area on the top layer and fill each with a water source block."
+				""
+				"Each corner must have a 2 high pillar."
+				""
+				"The throw a Scarab into the water to activate the portal."
 			]
 			size: 1.5d
 			id: "4352370BD2C34188"
@@ -35,6 +34,20 @@
 					type: "advancement"
 					advancement: "atum:core/journeyintothesands"
 					criterion: ""
+				}
+				{
+					id: "44D99C348EBBBB30"
+					type: "item"
+					item: {
+						id: "minecraft:sandstone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 49L
 				}
 			]
 			rewards: [{
