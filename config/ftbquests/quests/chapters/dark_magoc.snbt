@@ -3,7 +3,7 @@
 	group: "2C344CA71B9F0CFD"
 	order_index: 2
 	filename: "dark_magoc"
-	title: "Dark Magic"
+	title: "{chapter.23.title}"
 	icon: "eidolon:unholy_symbol"
 	default_quest_shape: "pentagon"
 	default_hide_dependency_lines: false
@@ -23,7 +23,7 @@
 		{
 			x: -2.5d
 			y: -1.0d
-			description: ["Eidolon is a magic mod that draws on a lot of different inspirations, with aspects of alchemy and theurgy. It takes a bit of a dark perspective, also featuring mechanics themed around necromancy and soul manipulation. If you have ever wanted to play as a dark mage, performing strange rituals and communing with dark gods, this is the mod for you."]
+			description: ["{chapter.23.quest.1.description.1}"]
 			size: 1.5d
 			id: "33CDFA7BEC28AAE4"
 			tasks: [{
@@ -311,16 +311,13 @@
 			icon: "eidolon:soul_shard"
 			x: -1.0d
 			y: -3.5d
-			description: [
-				"Using shards of pure soul energy, activate powerful rituals at the brazier. Create new items, summon monsters, and ward huge areas from hostile creatures."
-				""
-			]
+			description: ["{chapter.23.quest.10.description.1}"]
 			dependencies: ["33CDFA7BEC28AAE4"]
 			id: "23C32890BF4AD849"
 			tasks: [{
 				id: "222902CD47873BDA"
 				type: "checkmark"
-				title: "Rituals"
+				title: "{chapter.23.quest.10.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -339,13 +336,13 @@
 			icon: "eidolon:candle"
 			x: -0.5d
 			y: -1.0d
-			description: ["Build an altar and pray to the dark lord. Perform sacrifices, upgrade your altar, improve your reputation with them, and they might reveal to you new knowledge or grant you new abilities..."]
+			description: ["{chapter.23.quest.11.description.1}"]
 			dependencies: ["33CDFA7BEC28AAE4"]
 			id: "13C7EDEC0BC8386F"
 			tasks: [{
 				id: "2F86602B29D35F4E"
 				type: "checkmark"
-				title: "Theurgy"
+				title: "{chapter.23.quest.11.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -364,13 +361,13 @@
 			icon: "eidolon:zombie_heart"
 			x: -2.0d
 			y: 3.0d
-			description: ["Perform alchemy at the crucible, and tinker with magic items at a new workbench. Using soul shards and a huge variety of other ingredients, take your pick of a large selection of magical weapons, tools, armor, and curios."]
+			description: ["{chapter.23.quest.12.description.1}"]
 			dependencies: ["33CDFA7BEC28AAE4"]
 			id: "1781BF73A9B88972"
 			tasks: [{
 				id: "2087C57547373840"
 				type: "checkmark"
-				title: "Artifice"
+				title: "{chapter.23.quest.12.task.1.title}"
 			}]
 			rewards: [
 				{

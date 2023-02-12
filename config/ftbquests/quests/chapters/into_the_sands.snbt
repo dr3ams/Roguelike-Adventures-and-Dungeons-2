@@ -3,25 +3,18 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 6
 	filename: "into_the_sands"
-	title: "Into the sands"
+	title: "{chapter.9.title}"
 	icon: "atum:scarab"
-	subtitle: ["Atum 2"]
+	subtitle: ["{chapter.9.subtitle}"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Atum 2: Return to the Sands"
+			title: "{chapter.9.quest.1.title}"
 			x: -0.25d
 			y: 0.0d
-			subtitle: "Enter Atum dimension"
-			description: [
-				"A brand new dimension to explore made of 9 biomes"
-				"Dungeons, ruins, and more to search"
-				"11 new mobs to encounter and fight"
-				"5 new animals to tame and hunt"
-				"35+ artifacts with special inbuilt abilities to collect"
-				"A powerful pharaoh boss with variants to defeat"
-			]
+			subtitle: "{chapter.9.quest.1.subtitle}"
+			description: ["{chapter.9.quest.1.description.1}"]
 			size: 1.5d
 			id: "4352370BD2C34188"
 			tasks: [

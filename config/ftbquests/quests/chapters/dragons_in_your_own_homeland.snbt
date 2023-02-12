@@ -3,7 +3,7 @@
 	group: "0FF98225FE921275"
 	order_index: 2
 	filename: "dragons_in_your_own_homeland"
-	title: "Dragons!"
+	title: "{chapter.27.title}"
 	icon: {
 		id: "iceandfire:dragon_skull_fire"
 		Count: 1b
@@ -13,7 +13,7 @@
 			}
 		}
 	}
-	subtitle: ["In your own homeland! Can you believe it?"]
+	subtitle: ["{chapter.27.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
@@ -71,13 +71,13 @@
 		{
 			x: -2.5d
 			y: -1.0d
-			subtitle: "Click on the scale to learn more!"
+			subtitle: "{chapter.27.quest.2.subtitle}"
 			dependencies: ["0289B5163EDBE735"]
 			id: "43CB9B3DAD77683A"
 			tasks: [{
 				id: "4ADC46F4B9A68D7C"
 				type: "item"
-				title: "Slay any Fire dragon!"
+				title: "{chapter.27.quest.2.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -105,13 +105,13 @@
 		{
 			x: 2.5d
 			y: -1.0d
-			subtitle: "Click on the scale to learn more!"
+			subtitle: "{chapter.27.quest.3.subtitle}"
 			dependencies: ["0289B5163EDBE735"]
 			id: "35557AE2D124F340"
 			tasks: [{
 				id: "2C38EDA94738B25A"
 				type: "item"
-				title: "Slay any Ice dragon!"
+				title: "{chapter.27.quest.3.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -139,13 +139,13 @@
 		{
 			x: 1.5d
 			y: -2.5d
-			subtitle: "Click on the scale to learn more!"
+			subtitle: "{chapter.27.quest.4.subtitle}"
 			dependencies: ["0289B5163EDBE735"]
 			id: "605894F90D1565D9"
 			tasks: [{
 				id: "1BC7DBCE2CFB50A0"
 				type: "item"
-				title: "Slay any Lightning dragon!"
+				title: "{chapter.27.quest.4.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1064,7 +1064,7 @@
 			tasks: [{
 				id: "702F12FBB62E3915"
 				type: "item"
-				title: "Any #iceandfire:dragon_skulls"
+				title: "{chapter.27.quest.30.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1918,7 +1918,7 @@
 			x: -5.0d
 			y: 1.5d
 			shape: "octagon"
-			subtitle: "Obtain a dragon egg"
+			subtitle: "{chapter.27.quest.51.subtitle}"
 			size: 2.0d
 			id: "5C42AD1E351785EA"
 			tasks: [{

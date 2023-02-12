@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 10
 	filename: "card_collector"
-	title: "Card Collector"
+	title: "{chapter.13.title}"
 	icon: "buddycards:mystery_pack"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -29,7 +29,7 @@
 			tasks: [{
 				id: "7812EF8C47EC8A5F"
 				type: "item"
-				title: "Any #buddycards:cards"
+				title: "{chapter.13.quest.1.task.1.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

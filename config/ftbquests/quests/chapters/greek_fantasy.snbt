@@ -3,7 +3,7 @@
 	group: "0FF98225FE921275"
 	order_index: 3
 	filename: "greek_fantasy"
-	title: "Greek Fantasy"
+	title: "{chapter.28.title}"
 	icon: "greekfantasy:wooden_lyre"
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
@@ -11,11 +11,8 @@
 		{
 			x: 4.5d
 			y: 0.0d
-			subtitle: "ancient relic used to summon skeleton warriors"
-			description: [
-				"How to get: 8% chance they will drop when breaking a bone block"
-				"How to use: throw them on the ground to \"sow\" an army of Sparti"
-			]
+			subtitle: "{chapter.28.quest.1.subtitle}"
+			description: ["{chapter.28.quest.1.description.1}"]
 			id: "19CA7A84F0C29142"
 			tasks: [{
 				id: "665441988D971B88"
@@ -31,7 +28,7 @@
 		{
 			x: 6.0d
 			y: -5.5d
-			subtitle: " purifies the user by removing all negative effects"
+			subtitle: "{chapter.28.quest.2.subtitle}"
 			dependencies: ["7D78E6607E3F20FD"]
 			id: "7CC541B0654F5EEB"
 			tasks: [{
@@ -74,8 +71,8 @@
 		{
 			x: 7.5d
 			y: 0.0d
-			subtitle: "a small drop of the blood of the gods"
-			description: ["How to get: open a mysterious box and give a diamond to the Elpis that (sometimes) comes out. Also dropped by the Talos and Bronze Bull."]
+			subtitle: "{chapter.28.quest.3.subtitle}"
+			description: ["{chapter.28.quest.3.description.1}"]
 			id: "23C599B70D1149FD"
 			tasks: [{
 				id: "363009CE9045AF4B"
@@ -91,7 +88,7 @@
 		{
 			x: 7.5d
 			y: 1.5d
-			subtitle: "magical nectar with the same power as an enchanted golden apple"
+			subtitle: "{chapter.28.quest.4.subtitle}"
 			dependencies: [
 				"3C4FAF5EBED427B9"
 				"23C599B70D1149FD"
@@ -111,11 +108,8 @@
 		{
 			x: 9.5d
 			y: -4.0d
-			subtitle: "dropped by Charybdis"
-			description: [
-				"use to place water, sneak+use to pick up water"
-				""
-			]
+			subtitle: "{chapter.28.quest.5.subtitle}"
+			description: ["{chapter.28.quest.5.description.1}"]
 			dependencies: ["2942F2856A444B23"]
 			id: "3BC38BFA654397E1"
 			tasks: [{
@@ -138,7 +132,7 @@
 		{
 			x: 6.0d
 			y: -4.5d
-			subtitle: "required to catch and tame a Unicorn"
+			subtitle: "{chapter.28.quest.6.subtitle}"
 			dependencies: ["12D4145017567B15"]
 			id: "7D78E6607E3F20FD"
 			tasks: [{
@@ -175,7 +169,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			subtitle: "musical instrument used by the Satyrs"
+			subtitle: "{chapter.28.quest.7.subtitle}"
 			id: "3B01A39BFA4E9ADF"
 			tasks: [{
 				id: "73E9134302BEA81D"
@@ -238,8 +232,8 @@
 		{
 			x: 1.5d
 			y: 3.0d
-			subtitle: "small bundle of web that may contain items... or spider eggs"
-			description: ["How to get: 10% chance they will drop when breaking a cobweb"]
+			subtitle: "{chapter.28.quest.9.subtitle}"
+			description: ["{chapter.28.quest.9.description.1}"]
 			id: "1F268C3D4CA22927"
 			tasks: [{
 				id: "29EBCC956FB53D54"
@@ -275,7 +269,7 @@
 		{
 			x: 8.5d
 			y: -4.5d
-			subtitle: "use to get a brief speed boost"
+			subtitle: "{chapter.28.quest.10.subtitle}"
 			dependencies: [
 				"3BC38BFA654397E1"
 				"57E398C88EA451BB"
@@ -321,7 +315,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			subtitle: "may be useful to avoid the gaze of the gorgons..."
+			subtitle: "{chapter.28.quest.11.subtitle}"
 			id: "78FE81EEEBEAAAC0"
 			tasks: [{
 				id: "4BA71DF6513A7B5B"
@@ -337,7 +331,7 @@
 		{
 			x: 7.5d
 			y: 3.0d
-			subtitle: "overflowing with food"
+			subtitle: "{chapter.28.quest.12.subtitle}"
 			dependencies: ["5369168883EF7185"]
 			id: "2ACE22D2DDF10DDF"
 			tasks: [{
@@ -396,7 +390,7 @@
 		{
 			x: 7.5d
 			y: -4.0d
-			subtitle: "dropped by Harpies (or found in their nests);"
+			subtitle: "{chapter.28.quest.14.subtitle}"
 			dependencies: ["217D61A0D07A5213"]
 			id: "57E398C88EA451BB"
 			tasks: [{
@@ -421,8 +415,7 @@
 		{
 			x: 2.0d
 			y: -4.0d
-			subtitle: "dropped by Cerberus"
-			description: [""]
+			subtitle: "{chapter.28.quest.15.subtitle}"
 			dependencies: ["5D12D90A59FADF6A"]
 			id: "3ADA97A9D953D1A5"
 			tasks: [{
@@ -447,7 +440,7 @@
 		{
 			x: 1.0d
 			y: -4.5d
-			subtitle: "legendary helmet that turns the wearer and their items invisible"
+			subtitle: "{chapter.28.quest.16.subtitle}"
 			dependencies: [
 				"69C46C39116E3319"
 				"3ADA97A9D953D1A5"
@@ -493,7 +486,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			subtitle: "musical instrument"
+			subtitle: "{chapter.28.quest.17.subtitle}"
 			dependencies: ["3B01A39BFA4E9ADF"]
 			id: "29E5E1ED32144AFB"
 			tasks: [{
@@ -510,7 +503,7 @@
 		{
 			x: 13.5d
 			y: 1.5d
-			subtitle: "dropped by Talos"
+			subtitle: "{chapter.28.quest.18.subtitle}"
 			dependencies: ["5F907B1936D811FC"]
 			id: "5700E253FAF1F246"
 			tasks: [{
@@ -535,8 +528,8 @@
 		{
 			x: 9.0d
 			y: 0.0d
-			subtitle: "Hoglin on steroids"
-			description: ["Giant Boars are created when feeding a Hoglin a poisonous potato outside of the Nether."]
+			subtitle: "{chapter.28.quest.19.subtitle}"
+			description: ["{chapter.28.quest.19.description.1}"]
 			id: "6472AEC58B19441A"
 			tasks: [{
 				id: "463582D4B6894981"
@@ -554,7 +547,7 @@
 		{
 			x: 0.0d
 			y: -4.0d
-			subtitle: "dropped by Fury;"
+			subtitle: "{chapter.28.quest.20.subtitle}"
 			dependencies: ["09DAAA0F8D72C26A"]
 			id: "69C46C39116E3319"
 			tasks: [{
@@ -579,7 +572,7 @@
 		{
 			x: 12.0d
 			y: -4.0d
-			subtitle: "dropped by Gorgons;"
+			subtitle: "{chapter.28.quest.21.subtitle}"
 			dependencies: ["6658984462929AD2"]
 			id: "702924383722D949"
 			tasks: [{
@@ -596,7 +589,7 @@
 		{
 			x: 5.0d
 			y: -4.0d
-			subtitle: "dropped by Empusa"
+			subtitle: "{chapter.28.quest.22.subtitle}"
 			dependencies: ["6FD8087235582413"]
 			id: "12D4145017567B15"
 			tasks: [{
@@ -621,8 +614,8 @@
 		{
 			x: 3.5d
 			y: -4.0d
-			subtitle: "dropped by Empusa and Fury"
-			description: ["used to tame Orthus."]
+			subtitle: "{chapter.28.quest.23.subtitle}"
+			description: ["{chapter.28.quest.23.description.1}"]
 			id: "54A13E036C358D72"
 			tasks: [{
 				id: "6C7B34059BD97227"
@@ -662,7 +655,7 @@
 		{
 			x: 15.0d
 			y: 1.5d
-			subtitle: "dropped by Nemean Lion"
+			subtitle: "{chapter.28.quest.25.subtitle}"
 			dependencies: ["6E808001354311DC"]
 			id: "04BC0CD08BA2C081"
 			tasks: [{
@@ -685,7 +678,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			subtitle: "shoots double fire arrows"
+			subtitle: "{chapter.28.quest.26.subtitle}"
 			id: "69E90228ED8AF4DF"
 			tasks: [{
 				id: "4E72F4FCA6E5931E"
@@ -711,7 +704,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			subtitle: "shoots triple arrows at high speeds"
+			subtitle: "{chapter.28.quest.27.subtitle}"
 			id: "47BF1A05F4B44434"
 			tasks: [{
 				id: "0D75F329485F678C"
@@ -737,7 +730,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			subtitle: "dropped by horned creatures (Minotaur, Cerastes, Cyprian);"
+			subtitle: "{chapter.28.quest.28.subtitle}"
 			id: "3C4FAF5EBED427B9"
 			tasks: [{
 				id: "6F1D96C2880415F6"
@@ -754,8 +747,8 @@
 			icon: "kubejs:skull2"
 			x: 7.5d
 			y: -3.0d
-			subtitle: "Half-bird, half-women who want to eat your entrails."
-			description: ["Found in nests that appear in most biomes, and rarely in the desert."]
+			subtitle: "{chapter.28.quest.29.subtitle}"
+			description: ["{chapter.28.quest.29.description.1}"]
 			id: "217D61A0D07A5213"
 			tasks: [{
 				id: "6308710103479FA6"
@@ -773,12 +766,8 @@
 			icon: "kubejs:skull2"
 			x: 11.5d
 			y: -3.0d
-			subtitle: "Cursed snake-women so terrifying that anyone who looks upon their face will freeze in place, unable to move or even use items."
-			description: [
-				"Looking a gorgon in the face will paralyze the player. When paralyzed, players are unable to move, jump, or use items"
-				""
-				"Gorgons have a 0.8% chance to spawn as a Medusa, or 95% chance to become a Medusa when struck by lightning"
-			]
+			subtitle: "{chapter.28.quest.30.subtitle}"
+			description: ["{chapter.28.quest.30.description.1}"]
 			id: "6658984462929AD2"
 			tasks: [{
 				id: "26BDC5B486AD9454"
@@ -795,7 +784,7 @@
 		{
 			x: 13.5d
 			y: -4.0d
-			subtitle: "dropped by Pythons and Medusa"
+			subtitle: "{chapter.28.quest.31.subtitle}"
 			dependencies: ["1061E2C83B33D8F3"]
 			id: "7E5C67CE9EBF4325"
 			tasks: [{
@@ -813,7 +802,7 @@
 			icon: "kubejs:skull2"
 			x: 13.5d
 			y: -3.0d
-			subtitle: "Huge, venomous snake found in abandoned pits in jungles."
+			subtitle: "{chapter.28.quest.32.subtitle}"
 			id: "1061E2C83B33D8F3"
 			tasks: [{
 				id: "420C18BD3A325E61"
@@ -831,7 +820,7 @@
 			icon: "kubejs:skull2"
 			x: 0.0d
 			y: -3.0d
-			subtitle: "Harbringers of death found in the Nether"
+			subtitle: "{chapter.28.quest.33.subtitle}"
 			id: "09DAAA0F8D72C26A"
 			tasks: [{
 				id: "65E3E8AFDE38E8AB"
@@ -848,12 +837,8 @@
 		{
 			x: 16.5d
 			y: 1.5d
-			subtitle: "dropped by Satyrs"
-			description: [
-				"when placed, gives Absorption effect;"
-				""
-				"can be crafted with a book to get a Hunting enchantment. Items with Hunting have a chance to instantly kill most animals."
-			]
+			subtitle: "{chapter.28.quest.34.subtitle}"
+			description: ["{chapter.28.quest.34.description.1}"]
 			dependencies: ["41357C5DA244DC7E"]
 			id: "6561014214B83306"
 			tasks: [{
@@ -871,8 +856,8 @@
 			icon: "kubejs:skull2"
 			x: 16.5d
 			y: 0.0d
-			subtitle: " Fun-loving, pipe-playing, fire-dancing goatmen;"
-			description: ["Satyr shamans will summon wolves when they are attacked."]
+			subtitle: "{chapter.28.quest.35.subtitle}"
+			description: ["{chapter.28.quest.35.description.1}"]
 			id: "41357C5DA244DC7E"
 			tasks: [{
 				id: "2C011BC0E23DDD44"
@@ -890,8 +875,8 @@
 			icon: "kubejs:skull"
 			x: 2.0d
 			y: -3.0d
-			subtitle: "The three-headed hound of the underworld"
-			description: ["To summon this fiend, you must build a 4x4 hollow frame of blackstone blocks, with a 2x2 of lava in the middle. Then sacrifice the head of an Orthus by tossing it into the lava. The lava will turn to magma and the Cerberus will appear."]
+			subtitle: "{chapter.28.quest.36.subtitle}"
+			description: ["{chapter.28.quest.36.description.1}"]
 			id: "5D12D90A59FADF6A"
 			tasks: [{
 				id: "7315402A54DA531C"
@@ -909,8 +894,8 @@
 			icon: "kubejs:skull"
 			x: 9.5d
 			y: -3.0d
-			subtitle: "Dangerous whirlpool monster."
-			description: ["Summoned by feeding a Heart of the Sea to a Whirl (by dropping the item nearby)."]
+			subtitle: "{chapter.28.quest.37.subtitle}"
+			description: ["{chapter.28.quest.37.description.1}"]
 			id: "2942F2856A444B23"
 			tasks: [{
 				id: "4F3B1B39421BC996"
@@ -927,7 +912,7 @@
 		{
 			x: 5.0d
 			y: -3.0d
-			subtitle: "Vampiric demons who thirst for the lifeblood of unwary players. Dies during the day, even when not exposed to the sun."
+			subtitle: "{chapter.28.quest.38.subtitle}"
 			id: "6FD8087235582413"
 			tasks: [{
 				id: "64DC9FCADCCBB673"
@@ -991,8 +976,8 @@
 		{
 			x: 12.0d
 			y: 0.0d
-			subtitle: "Three-headed gigante whose only passion is a herd of Mad Cows."
-			description: ["Summon by placing three Gigante heads and killing a cow in close proximity."]
+			subtitle: "{chapter.28.quest.40.subtitle}"
+			description: ["{chapter.28.quest.40.description.1}"]
 			id: "11E83F17835E8E8B"
 			tasks: [{
 				id: "4E77812F402976D6"
@@ -1010,8 +995,8 @@
 		{
 			x: 16.5d
 			y: -3.0d
-			subtitle: "Fierce, fire-breathing, clockwork bull"
-			description: ["To summon the Bronze Bull, you must build a 2x2 of copper blocks with 2 bronze blocks on the sides"]
+			subtitle: "{chapter.28.quest.41.subtitle}"
+			description: ["{chapter.28.quest.41.description.1}"]
 			id: "595F31F04D5EE832"
 			tasks: [{
 				id: "7211EAAF81ABC351"
@@ -1029,8 +1014,8 @@
 		{
 			x: 13.5d
 			y: 0.0d
-			subtitle: "Brass automaton that will devastate any player foolish enough to build it."
-			description: ["To summon the Talos, place 3x2 copper blocks and place a bronze block on top. Watch out! That dispenser on his arm isn't just for looks..."]
+			subtitle: "{chapter.28.quest.42.subtitle}"
+			description: ["{chapter.28.quest.42.description.1}"]
 			id: "5F907B1936D811FC"
 			tasks: [{
 				id: "2A089EBCE8C7D10E"
@@ -1048,8 +1033,8 @@
 		{
 			x: -1.5d
 			y: -1.5d
-			subtitle: "(Neutral until attacked) Women cursed to have their hearts turn to flint"
-			description: ["Spawns: in Ara Tents made of grey and white wool. These tents sometimes have a chest."]
+			subtitle: "{chapter.28.quest.43.subtitle}"
+			description: ["{chapter.28.quest.43.description.1}"]
 			id: "3E46643D4C7C360C"
 			tasks: [{
 				id: "4B64545CB1510FE5"
@@ -1067,8 +1052,8 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			subtitle: "(Neutral until attacked) Half-men, half-horse"
-			description: ["Spawns: in plains and taiga areas"]
+			subtitle: "{chapter.28.quest.44.subtitle}"
+			description: ["{chapter.28.quest.44.description.1}"]
 			id: "57F033F7F0C22F1B"
 			tasks: [{
 				id: "50B922B67C4E41BC"
@@ -1086,8 +1071,8 @@
 		{
 			x: 1.5d
 			y: -1.5d
-			subtitle: "(Hostile) Horned vipers"
-			description: ["Spawns: in the desert and other sandy areas"]
+			subtitle: "{chapter.28.quest.45.subtitle}"
+			description: ["{chapter.28.quest.45.description.1}"]
 			id: "512F6C9E10C753BE"
 			tasks: [{
 				id: "6BD68EA596CEFF6B"
@@ -1105,10 +1090,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
-			description: [
-				"Sorcerer who spawns wherever witches spawn. Her wand can turn people to pigs!"
-				"Spawns: 2% chance to replace a witch that is spawned"
-			]
+			description: ["{chapter.28.quest.46.description.1}"]
 			id: "1474FFA8B7F6835B"
 			tasks: [{
 				id: "392D1CB88C744D2F"
@@ -1126,8 +1108,8 @@
 		{
 			x: 4.5d
 			y: -1.5d
-			subtitle: "(Hostile) One-eyed monsters that are slightly bigger than the player"
-			description: ["Spawns: in mountain areas"]
+			subtitle: "{chapter.28.quest.47.subtitle}"
+			description: ["{chapter.28.quest.47.description.1}"]
 			id: "66CF5A82A071E2B0"
 			tasks: [{
 				id: "6B1DA199E150221E"
@@ -1145,11 +1127,8 @@
 		{
 			x: 6.0d
 			y: -1.5d
-			subtitle: "(Hostile) Bull-headed centaurs"
-			description: [
-				"Spawns: plains and taiga areas"
-				"Only spawns at night"
-			]
+			subtitle: "{chapter.28.quest.48.subtitle}"
+			description: ["{chapter.28.quest.48.description.1}"]
 			id: "66F4479CFC54D971"
 			tasks: [{
 				id: "098EBB70F2232C40"
@@ -1167,11 +1146,8 @@
 		{
 			x: 7.5d
 			y: -1.5d
-			subtitle: "(Hostile) Snake monster"
-			description: [
-				"Spawns: in most overworld biomes and the nether"
-				"Only spawns at night"
-			]
+			subtitle: "{chapter.28.quest.49.subtitle}"
+			description: ["{chapter.28.quest.49.description.1}"]
 			id: "354015E58AE4BA7C"
 			tasks: [{
 				id: "6ED1ED82F9F3624E"
@@ -1189,8 +1165,8 @@
 		{
 			x: 9.0d
 			y: -1.5d
-			subtitle: "(Neutral) Spirits of the trees and protectors of nature"
-			description: ["Spawns: in most overworld biomes"]
+			subtitle: "{chapter.28.quest.50.subtitle}"
+			description: ["{chapter.28.quest.50.description.1}"]
 			id: "54AEC0D74732C8D8"
 			tasks: [{
 				id: "5B85049EBBD0DD58"
@@ -1208,8 +1184,8 @@
 		{
 			x: 10.5d
 			y: -1.5d
-			subtitle: "(Neutral until attacked) the original giants"
-			description: ["Spawns: in mountain areas and snowy plains"]
+			subtitle: "{chapter.28.quest.51.subtitle}"
+			description: ["{chapter.28.quest.51.description.1}"]
 			id: "594026DA1FB53C1E"
 			tasks: [{
 				id: "29ACD8FE1FEDDE28"
@@ -1227,8 +1203,8 @@
 		{
 			x: 12.0d
 			y: -1.5d
-			subtitle: "(Neutral) Spirits of the trees and protectors of nature in the Nether"
-			description: ["Spawns: in crimson and warped forest biomes"]
+			subtitle: "{chapter.28.quest.52.subtitle}"
+			description: ["{chapter.28.quest.52.description.1}"]
 			id: "45934F8FADD563D5"
 			tasks: [{
 				id: "3D4B6871104BFC97"
@@ -1246,8 +1222,8 @@
 		{
 			x: 13.5d
 			y: -1.5d
-			subtitle: "(Hostile) identical to a regular cow except for the part where it tries to eat you"
-			description: ["Spawns: in most overworld biomes, and when summoned by the Geryon"]
+			subtitle: "{chapter.28.quest.53.subtitle}"
+			description: ["{chapter.28.quest.53.description.1}"]
 			id: "164E59F7E5633025"
 			tasks: [{
 				id: "059B3007B3C3EB9E"
@@ -1265,8 +1241,8 @@
 		{
 			x: 15.0d
 			y: -1.5d
-			subtitle: "(Hostile) Half-men, half bull creatures that charge on sight"
-			description: ["Spawns: in most overworld biomes"]
+			subtitle: "{chapter.28.quest.54.subtitle}"
+			description: ["{chapter.28.quest.54.description.1}"]
 			id: "67D113EDDEEDED53"
 			tasks: [{
 				id: "093453BFE1F89674"
@@ -1284,7 +1260,7 @@
 		{
 			x: 16.5d
 			y: -1.5d
-			subtitle: "(Neutral until attacked) Gentle protectors of the rivers and oceans"
+			subtitle: "{chapter.28.quest.55.subtitle}"
 			id: "24BF78C57EA29893"
 			tasks: [{
 				id: "43ABA2E327E2E7E6"
@@ -1302,8 +1278,8 @@
 		{
 			x: 15.0d
 			y: 0.0d
-			subtitle: "(Miniboss) Giant lion with arrow-proof hide."
-			description: ["Spawns: in deserts in Lion Dens. Can also spawn when an Ocelot with the Strength potion effect is hit by lightning."]
+			subtitle: "{chapter.28.quest.56.subtitle}"
+			description: ["{chapter.28.quest.56.description.1}"]
 			id: "6E808001354311DC"
 			tasks: [{
 				id: "24761931679D0C7E"
@@ -1321,8 +1297,8 @@
 		{
 			x: 15.0d
 			y: -3.0d
-			subtitle: "(Hostile) Two-headed dog from the underworld"
-			description: ["Spawns: in the nether"]
+			subtitle: "{chapter.28.quest.57.subtitle}"
+			description: ["{chapter.28.quest.57.description.1}"]
 			id: "20A32D27FE82D9FD"
 			tasks: [{
 				id: "6DE2ECCDF5438DAC"
@@ -1340,8 +1316,8 @@
 		{
 			x: 18.0d
 			y: -1.5d
-			subtitle: "(Miniboss) Huge, venomous snake of lore"
-			description: ["Spawns: in pyramid-shaped pits found half-buried in the jungle"]
+			subtitle: "{chapter.28.quest.58.subtitle}"
+			description: ["{chapter.28.quest.58.description.1}"]
 			id: "7064F7A89BD915B1"
 			tasks: [{
 				id: "049181154A5209AD"
@@ -1359,8 +1335,8 @@
 		{
 			x: 19.5d
 			y: -1.5d
-			subtitle: "(Hostile) Spirit of the deceased"
-			description: ["Spawns:Any time a player dies, with about half of the player's experience"]
+			subtitle: "{chapter.28.quest.59.subtitle}"
+			description: ["{chapter.28.quest.59.description.1}"]
 			id: "630DD6121E8705F4"
 			tasks: [{
 				id: "77C26FDFF71CA67F"
@@ -1378,8 +1354,8 @@
 		{
 			x: 21.0d
 			y: -1.5d
-			subtitle: "(Hostile) half-fish, half-woman who lures players in to eat them"
-			description: ["Spawns: in ocean areas"]
+			subtitle: "{chapter.28.quest.60.subtitle}"
+			description: ["{chapter.28.quest.60.description.1}"]
 			id: "57508D8847C50F31"
 			tasks: [{
 				id: "63530ED9DB7CF06A"
@@ -1738,7 +1714,7 @@
 		{
 			x: 10.5d
 			y: 0.0d
-			subtitle: "Vicious birds with razor-sharp feathers, found in swamps."
+			subtitle: "{chapter.28.quest.69.subtitle}"
 			id: "1A47CEA398D2FBD3"
 			tasks: [{
 				id: "1D85FC1B3799EBD1"

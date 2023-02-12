@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 3
 	filename: "specialization"
-	title: "Specialization"
+	title: "{chapter.6.title}"
 	icon: {
 		id: "kubejs:mark_miner"
 		Count: 1b
@@ -19,23 +19,13 @@
 		{
 			x: 0.0d
 			y: -1.0d
-			subtitle: "Specialization(Starterkit/kits/item sets)"
-			description: [
-				""
-				"Kits are sets of items that are designed to help you at the start and throughout your gameplay."
-				""
-				"You can see them as classes or professions but they mostly do not affect your gameplay(doesn't add new skills or stats) and served purely for roleplaying purpose."
-				"Some of them are aquired from quests and some are buyable for coins in shop."
-				""
-				"First tiers of kits will offer simple general items and starting from second tier you will get Artifacts associated with the name of the kit."
-				""
-				"Choosing your first Specialization is free and to aquire tier 2 and 3 Specialization you will need to do some tasks."
-			]
+			subtitle: "{chapter.6.quest.1.subtitle}"
+			description: ["{chapter.6.quest.1.description.1}"]
 			id: "7D7A71EA9FCC15E2"
 			tasks: [{
 				id: "0358255126AF5F51"
 				type: "checkmark"
-				title: "Choose your Specialization"
+				title: "{chapter.6.quest.1.task.1.title}"
 			}]
 			rewards: [{
 				id: "2FF8A00EB9982608"
@@ -1231,7 +1221,7 @@
 					team_reward: false
 					item: {
 						id: "dungeons_gear:dagger"
-						Count: 2b
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
@@ -1247,6 +1237,7 @@
 							}
 						}
 					}
+					count: 2
 				}
 				{
 					id: "5580874D20FBC880"
@@ -1865,7 +1856,7 @@
 					team_reward: false
 					item: {
 						id: "dungeons_gear:gauntlet"
-						Count: 2b
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
@@ -1890,6 +1881,7 @@
 							}
 						}
 					}
+					count: 2
 				}
 			]
 		}
@@ -4108,7 +4100,7 @@
 				{
 					id: "22B8D638784F3995"
 					type: "item"
-					title: "Any #forge:hay_bales"
+					title: "{chapter.6.quest.36.task.2.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -4412,7 +4404,7 @@
 				{
 					id: "55874204B23C9F23"
 					type: "item"
-					title: "Any #forge:leather"
+					title: "{chapter.6.quest.42.task.3.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
