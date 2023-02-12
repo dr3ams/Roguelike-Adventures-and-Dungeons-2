@@ -5057,5 +5057,31 @@
 				}
 			]
 		}
+		{
+			icon: "greekfantasy:golden_bridle"
+			x: 3.0d
+			y: 8.0d
+			subtitle: "{chapter.3.quest.131.subtitle}"
+			description: ["{chapter.3.quest.131.description.1}"]
+			secret: true
+			id: "6F0078EAF65B7C08"
+			tasks: [{
+				id: "47153DEB3D921447"
+				type: "observation"
+				title: "{chapter.3.quest.131.task.1.title}"
+				icon: {
+					id: "greekfantasy:golden_bridle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 40L
+				observe_type: 5
+				to_observe: "greekfantasy:pegasus"
+			}]
+		}
 	]
 }
