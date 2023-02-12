@@ -3,7 +3,7 @@
 	group: "2C344CA71B9F0CFD"
 	order_index: 2
 	filename: "dark_magoc"
-	title: "{chapter.23.title}"
+	title: "{chapter.24.title}"
 	icon: "eidolon:unholy_symbol"
 	default_quest_shape: "pentagon"
 	default_hide_dependency_lines: false
@@ -23,7 +23,7 @@
 		{
 			x: -2.5d
 			y: -1.0d
-			description: ["{chapter.23.quest.1.description.1}"]
+			description: ["{chapter.24.quest.1.description.1}"]
 			size: 1.5d
 			id: "33CDFA7BEC28AAE4"
 			tasks: [{
@@ -311,13 +311,13 @@
 			icon: "eidolon:soul_shard"
 			x: -1.0d
 			y: -3.5d
-			description: ["{chapter.23.quest.10.description.1}"]
+			description: ["{chapter.24.quest.10.description.1}"]
 			dependencies: ["33CDFA7BEC28AAE4"]
 			id: "23C32890BF4AD849"
 			tasks: [{
 				id: "222902CD47873BDA"
 				type: "checkmark"
-				title: "{chapter.23.quest.10.task.1.title}"
+				title: "{chapter.24.quest.10.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -336,13 +336,13 @@
 			icon: "eidolon:candle"
 			x: -0.5d
 			y: -1.0d
-			description: ["{chapter.23.quest.11.description.1}"]
+			description: ["{chapter.24.quest.11.description.1}"]
 			dependencies: ["33CDFA7BEC28AAE4"]
 			id: "13C7EDEC0BC8386F"
 			tasks: [{
 				id: "2F86602B29D35F4E"
 				type: "checkmark"
-				title: "{chapter.23.quest.11.task.1.title}"
+				title: "{chapter.24.quest.11.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -361,13 +361,13 @@
 			icon: "eidolon:zombie_heart"
 			x: -2.0d
 			y: 3.0d
-			description: ["{chapter.23.quest.12.description.1}"]
+			description: ["{chapter.24.quest.12.description.1}"]
 			dependencies: ["33CDFA7BEC28AAE4"]
 			id: "1781BF73A9B88972"
 			tasks: [{
 				id: "2087C57547373840"
 				type: "checkmark"
-				title: "{chapter.23.quest.12.task.1.title}"
+				title: "{chapter.24.quest.12.task.1.title}"
 			}]
 			rewards: [
 				{

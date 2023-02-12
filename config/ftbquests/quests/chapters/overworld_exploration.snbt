@@ -4959,5 +4959,103 @@
 				}
 			]
 		}
+		{
+			title: "{chapter.3.quest.129.title}"
+			x: 0.0d
+			y: 8.0d
+			subtitle: "{chapter.3.quest.129.subtitle}"
+			description: ["{chapter.3.quest.129.description.1}"]
+			id: "1E51B8E76910275C"
+			tasks: [{
+				id: "614490657F783439"
+				type: "item"
+				item: {
+					id: "paraglider:paraglider"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "054B39A2DAD1BB84"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "57F236719A0A8ACC"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			title: "{chapter.3.quest.130.title}"
+			x: 1.0d
+			y: 8.0d
+			description: ["{chapter.3.quest.130.description.1}"]
+			dependencies: ["1E51B8E76910275C"]
+			id: "533B104DB3063EAB"
+			tasks: [
+				{
+					id: "7E4A6E7946CE1407"
+					type: "questsadditions:use"
+					title: "{chapter.3.quest.130.task.1.title}"
+					block: "paraglider:goddess_statue"
+					value: 1L
+					checkItem: false
+					isItemInteraction: false
+				}
+				{
+					id: "34FC4DC0E7EBDC16"
+					type: "item"
+					item: {
+						id: "paraglider:spirit_orb"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "10852A9B88E26302"
+					type: "item"
+					item: {
+						id: "paraglider:deku_leaf"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "35FBAD29A89BAD45"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1EDF9EF24B575AA4"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "552E1499A4866C9A"
+					type: "pmmo:levelreward"
+					auto: "invisible"
+					skill: "flying"
+					amount: 1.0d
+				}
+			]
+		}
 	]
 }

@@ -3,17 +3,17 @@
 	group: "0FF98225FE921275"
 	order_index: 0
 	filename: "a_reliable_friend"
-	title: "{chapter.25.title}"
+	title: "{chapter.26.title}"
 	icon: "doggytalents:doggy_charm"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{chapter.25.quest.1.title}"
+			title: "{chapter.26.quest.1.title}"
 			x: -3.0d
 			y: -2.5d
 			shape: "gear"
-			description: ["{chapter.25.quest.1.description.1}"]
+			description: ["{chapter.26.quest.1.description.1}"]
 			size: 1.5d
 			id: "000000000000062D"
 			tasks: [{
@@ -44,7 +44,7 @@
 		{
 			x: -0.5d
 			y: -2.5d
-			description: ["{chapter.25.quest.2.description.1}"]
+			description: ["{chapter.26.quest.2.description.1}"]
 			dependencies: ["000000000000062D"]
 			id: "000000000000062F"
 			tasks: [{
@@ -61,7 +61,7 @@
 		{
 			x: -0.5d
 			y: -0.5d
-			description: ["{chapter.25.quest.3.description.1}"]
+			description: ["{chapter.26.quest.3.description.1}"]
 			dependencies: ["000000000000062F"]
 			id: "0000000000000631"
 			tasks: [{
@@ -78,7 +78,7 @@
 		{
 			x: 1.5d
 			y: -4.5d
-			description: ["{chapter.25.quest.4.description.1}"]
+			description: ["{chapter.26.quest.4.description.1}"]
 			dependencies: ["000000000000062F"]
 			id: "0000000000000633"
 			tasks: [{
@@ -107,7 +107,7 @@
 		{
 			x: 3.5d
 			y: -4.5d
-			description: ["{chapter.25.quest.5.description.1}"]
+			description: ["{chapter.26.quest.5.description.1}"]
 			dependencies: ["0000000000000633"]
 			id: "0000000000000635"
 			tasks: [{
@@ -141,7 +141,7 @@
 		{
 			x: 5.5d
 			y: -4.5d
-			description: ["{chapter.25.quest.6.description.1}"]
+			description: ["{chapter.26.quest.6.description.1}"]
 			dependencies: ["0000000000000635"]
 			id: "0000000000000637"
 			tasks: [{
@@ -205,7 +205,7 @@
 		{
 			x: 5.0d
 			y: -1.5d
-			description: ["{chapter.25.quest.8.description.1}"]
+			description: ["{chapter.26.quest.8.description.1}"]
 			dependencies: ["0000000000000639"]
 			id: "000000000000063B"
 			tasks: [
@@ -242,7 +242,7 @@
 		{
 			x: -2.0d
 			y: -0.5d
-			description: ["{chapter.25.quest.9.description.1}"]
+			description: ["{chapter.26.quest.9.description.1}"]
 			dependencies: ["0000000000000631"]
 			id: "000000000000063D"
 			tasks: [{
@@ -270,7 +270,7 @@
 			]
 		}
 		{
-			title: "{chapter.25.quest.10.title}"
+			title: "{chapter.26.quest.10.title}"
 			x: 2.0d
 			y: -1.5d
 			dependencies: ["0000000000000639"]
@@ -329,7 +329,7 @@
 		{
 			x: 3.0d
 			y: -0.5d
-			description: ["{chapter.25.quest.11.description.1}"]
+			description: ["{chapter.26.quest.11.description.1}"]
 			dependencies: ["0000000000000639"]
 			id: "0000000000000644"
 			tasks: [
@@ -377,7 +377,7 @@
 		{
 			x: 0.5d
 			y: 1.0d
-			description: ["{chapter.25.quest.12.description.1}"]
+			description: ["{chapter.26.quest.12.description.1}"]
 			dependencies: ["0000000000000631"]
 			id: "0000000000000649"
 			tasks: [{
@@ -402,7 +402,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
-			description: ["{chapter.25.quest.13.description.1}"]
+			description: ["{chapter.26.quest.13.description.1}"]
 			dependencies: ["0000000000000649"]
 			id: "000000000000064B"
 			tasks: [{
@@ -432,7 +432,7 @@
 		{
 			x: 1.0d
 			y: 2.5d
-			description: ["{chapter.25.quest.14.description.1}"]
+			description: ["{chapter.26.quest.14.description.1}"]
 			dependencies: ["0000000000000649"]
 			id: "000000000000064D"
 			tasks: [{
@@ -467,7 +467,7 @@
 		{
 			x: -3.0d
 			y: 1.0d
-			description: ["{chapter.25.quest.15.description.1}"]
+			description: ["{chapter.26.quest.15.description.1}"]
 			dependencies: ["0000000000000651"]
 			id: "000000000000064F"
 			tasks: [{
@@ -599,7 +599,7 @@
 		{
 			x: 4.0d
 			y: -0.5d
-			description: ["{chapter.25.quest.19.description.1}"]
+			description: ["{chapter.26.quest.19.description.1}"]
 			dependencies: ["0000000000000639"]
 			id: "0000000000000658"
 			tasks: [{
@@ -634,13 +634,13 @@
 		{
 			x: -0.5d
 			y: -4.5d
-			description: ["{chapter.25.quest.20.description.1}"]
+			description: ["{chapter.26.quest.20.description.1}"]
 			dependencies: ["000000000000062F"]
 			id: "000000000000065A"
 			tasks: [{
 				id: "000000000000065B"
 				type: "checkmark"
-				title: "{chapter.25.quest.20.task.1.title}"
+				title: "{chapter.26.quest.20.task.1.title}"
 				icon: "itemfilters:tag"
 			}]
 			rewards: [{

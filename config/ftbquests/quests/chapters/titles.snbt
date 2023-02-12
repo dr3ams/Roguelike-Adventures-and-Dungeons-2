@@ -3,7 +3,7 @@
 	group: "6CD0EEB0E5E5955C"
 	order_index: 1
 	filename: "titles"
-	title: "{chapter.32.title}"
+	title: "{chapter.33.title}"
 	icon: {
 		id: "titles:title_scroll_rare"
 		Count: 1b
@@ -28,12 +28,12 @@
 			}
 			x: 0.0d
 			y: 0.0d
-			description: ["{chapter.32.quest.1.description.1}"]
+			description: ["{chapter.33.quest.1.description.1}"]
 			id: "4B93CE8715CACD5A"
 			tasks: [{
 				id: "5392A0BFA52D6B1C"
 				type: "checkmark"
-				title: "{chapter.32.quest.1.task.1.title}"
+				title: "{chapter.33.quest.1.task.1.title}"
 			}]
 			rewards: [{
 				id: "3D3AC225061A725D"
@@ -50,18 +50,18 @@
 			}]
 		}
 		{
-			title: "{chapter.32.quest.2.title}"
+			title: "{chapter.33.quest.2.title}"
 			x: -1.5d
 			y: 3.0d
 			shape: "hexagon"
-			subtitle: "{chapter.32.quest.2.subtitle}"
-			description: ["{chapter.32.quest.2.description.1}"]
+			subtitle: "{chapter.33.quest.2.subtitle}"
+			description: ["{chapter.33.quest.2.description.1}"]
 			optional: true
 			id: "555DE2027606D5B7"
 			tasks: [{
 				id: "5D6983FD863F51B3"
 				type: "custom"
-				title: "{chapter.32.quest.2.task.1.title}"
+				title: "{chapter.33.quest.2.task.1.title}"
 				icon: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -75,7 +75,7 @@
 			rewards: [{
 				id: "11C10744446F9668"
 				type: "command"
-				title: "{chapter.32.quest.2.reward.1.title}"
+				title: "{chapter.33.quest.2.reward.1.title}"
 				icon: {
 					id: "titles:title_scroll_rare"
 					Count: 1b
@@ -93,7 +93,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			description: ["{chapter.32.quest.3.description.1}"]
+			description: ["{chapter.33.quest.3.description.1}"]
 			dependencies: ["4B93CE8715CACD5A"]
 			id: "13BF5C3D53C0B1F5"
 			tasks: [{
@@ -119,13 +119,13 @@
 			x: -4.5d
 			y: 3.0d
 			shape: "hexagon"
-			subtitle: "{chapter.32.quest.4.subtitle}"
+			subtitle: "{chapter.33.quest.4.subtitle}"
 			optional: true
 			id: "70E5ACFA41387822"
 			tasks: [{
 				id: "6237C8565A36FFF9"
 				type: "custom"
-				title: "{chapter.32.quest.4.task.1.title}"
+				title: "{chapter.33.quest.4.task.1.title}"
 				icon: {
 					id: "kubejs:ruby"
 					Count: 1b
@@ -139,7 +139,7 @@
 			rewards: [{
 				id: "7CEEC0584CF0E4D4"
 				type: "command"
-				title: "{chapter.32.quest.4.reward.1.title}"
+				title: "{chapter.33.quest.4.reward.1.title}"
 				icon: {
 					id: "titles:title_scroll_rare"
 					Count: 1b
@@ -248,12 +248,12 @@
 			]
 		}
 		{
-			title: "{chapter.32.quest.8.title}"
+			title: "{chapter.33.quest.8.title}"
 			x: -3.0d
 			y: 3.0d
 			shape: "hexagon"
-			subtitle: "{chapter.32.quest.8.subtitle}"
-			description: ["{chapter.32.quest.8.description.1}"]
+			subtitle: "{chapter.33.quest.8.subtitle}"
+			description: ["{chapter.33.quest.8.description.1}"]
 			optional: true
 			id: "746A3F9BEE5F8477"
 			tasks: [{
@@ -272,7 +272,7 @@
 			rewards: [{
 				id: "11E518256C81330E"
 				type: "command"
-				title: "{chapter.32.quest.8.reward.1.title}"
+				title: "{chapter.33.quest.8.reward.1.title}"
 				icon: {
 					id: "titles:title_scroll_rare"
 					Count: 1b

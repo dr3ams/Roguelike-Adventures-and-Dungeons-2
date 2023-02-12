@@ -3,7 +3,7 @@
 	group: "67B03B24E53297B4"
 	order_index: 0
 	filename: "farmers_delight"
-	title: "{chapter.16.title}"
+	title: "{chapter.17.title}"
 	icon: "simplefarming:grapes"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -4.0d
 			y: -5.5d
-			description: ["{chapter.16.quest.1.description.1}"]
+			description: ["{chapter.17.quest.1.description.1}"]
 			id: "00000000000001B9"
 			tasks: [{
 				id: "00000000000001BA"
@@ -335,7 +335,7 @@
 			]
 		}
 		{
-			title: "{chapter.16.quest.15.title}"
+			title: "{chapter.17.quest.15.title}"
 			x: -1.0d
 			y: -7.0d
 			dependencies: ["00000000000001B9"]
@@ -382,11 +382,11 @@
 			]
 		}
 		{
-			title: "{chapter.16.quest.17.title}"
+			title: "{chapter.17.quest.17.title}"
 			icon: "simplefarming:grape_seeds"
 			x: -1.0d
 			y: -5.5d
-			description: ["{chapter.16.quest.17.description.1}"]
+			description: ["{chapter.17.quest.17.description.1}"]
 			id: "00000000000001DB"
 			tasks: [
 				{
@@ -397,7 +397,7 @@
 				{
 					id: "00000000000001DD"
 					type: "item"
-					title: "{chapter.16.quest.17.task.2.title}"
+					title: "{chapter.17.quest.17.task.2.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -424,7 +424,7 @@
 		{
 			x: -4.0d
 			y: -2.5d
-			description: ["{chapter.16.quest.18.description.1}"]
+			description: ["{chapter.17.quest.18.description.1}"]
 			id: "000000000000035D"
 			tasks: [{
 				id: "000000000000035E"
@@ -1195,10 +1195,10 @@
 			]
 		}
 		{
-			title: "{chapter.16.quest.53.title}"
+			title: "{chapter.17.quest.53.title}"
 			x: -9.5d
 			y: 0.5d
-			description: ["{chapter.16.quest.53.description.1}"]
+			description: ["{chapter.17.quest.53.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "00000000000000CD"
 			tasks: [{
@@ -1223,7 +1223,7 @@
 		{
 			x: -10.5d
 			y: -2.5d
-			description: ["{chapter.16.quest.54.description.1}"]
+			description: ["{chapter.17.quest.54.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "00000000000000C5"
 			tasks: [{
@@ -1245,10 +1245,10 @@
 			]
 		}
 		{
-			title: "{chapter.16.quest.55.title}"
+			title: "{chapter.17.quest.55.title}"
 			x: -12.0d
 			y: -2.5d
-			description: ["{chapter.16.quest.55.description.1}"]
+			description: ["{chapter.17.quest.55.description.1}"]
 			dependencies: ["00000000000000C5"]
 			id: "00000000000000C9"
 			tasks: [{
@@ -1302,7 +1302,7 @@
 		{
 			x: -12.0d
 			y: -0.5d
-			description: ["{chapter.16.quest.56.description.1}"]
+			description: ["{chapter.17.quest.56.description.1}"]
 			dependencies: ["0000000000000FC2"]
 			id: "00000000000000D1"
 			tasks: [{
@@ -1332,7 +1332,7 @@
 		{
 			x: -13.5d
 			y: -0.5d
-			description: ["{chapter.16.quest.57.description.1}"]
+			description: ["{chapter.17.quest.57.description.1}"]
 			dependencies: ["00000000000000D1"]
 			id: "00000000000000D3"
 			tasks: [{
@@ -1356,7 +1356,7 @@
 		{
 			x: -15.5d
 			y: -8.5d
-			description: ["{chapter.16.quest.58.description.1}"]
+			description: ["{chapter.17.quest.58.description.1}"]
 			dependencies: ["0000000000000730"]
 			id: "0000000000000732"
 			tasks: [{
@@ -1373,7 +1373,7 @@
 		{
 			x: -14.0d
 			y: -8.5d
-			description: ["{chapter.16.quest.59.description.1}"]
+			description: ["{chapter.17.quest.59.description.1}"]
 			dependencies: ["0000000000000FE4"]
 			id: "0000000000000730"
 			tasks: [{
@@ -1388,10 +1388,10 @@
 			}]
 		}
 		{
-			title: "{chapter.16.quest.60.title}"
+			title: "{chapter.17.quest.60.title}"
 			x: -9.5d
 			y: -5.5d
-			description: ["{chapter.16.quest.60.description.1}"]
+			description: ["{chapter.17.quest.60.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "000000000000072E"
 			tasks: [{
@@ -1415,11 +1415,11 @@
 			]
 		}
 		{
-			title: "{chapter.16.quest.61.title}"
+			title: "{chapter.17.quest.61.title}"
 			icon: "minecraft:farmland"
 			x: -7.0d
 			y: -2.5d
-			description: ["{chapter.16.quest.61.description.1}"]
+			description: ["{chapter.17.quest.61.description.1}"]
 			id: "0000000000000FC0"
 			tasks: [{
 				id: "0000000000000FC1"
@@ -1432,10 +1432,10 @@
 			}]
 		}
 		{
-			title: "{chapter.16.quest.62.title}"
+			title: "{chapter.17.quest.62.title}"
 			x: -10.0d
 			y: -0.5d
-			description: ["{chapter.16.quest.62.description.1}"]
+			description: ["{chapter.17.quest.62.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "0000000000000FC2"
 			tasks: [{
@@ -1451,7 +1451,7 @@
 			}]
 		}
 		{
-			title: "{chapter.16.quest.63.title}"
+			title: "{chapter.17.quest.63.title}"
 			x: -12.0d
 			y: -5.5d
 			dependencies: ["000000000000072E"]
@@ -1478,7 +1478,7 @@
 		{
 			x: -10.5d
 			y: -1.5d
-			description: ["{chapter.16.quest.64.description.1}"]
+			description: ["{chapter.17.quest.64.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "0000000000000FC6"
 			tasks: [{
@@ -1519,7 +1519,7 @@
 		{
 			x: -12.0d
 			y: -6.5d
-			description: ["{chapter.16.quest.66.description.1}"]
+			description: ["{chapter.17.quest.66.description.1}"]
 			dependencies: ["000000000000072E"]
 			id: "0000000000000FCE"
 			tasks: [{
@@ -1542,10 +1542,10 @@
 			]
 		}
 		{
-			title: "{chapter.16.quest.67.title}"
+			title: "{chapter.17.quest.67.title}"
 			x: -9.0d
 			y: 1.5d
-			description: ["{chapter.16.quest.67.description.1}"]
+			description: ["{chapter.17.quest.67.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "0000000000000FD0"
 			tasks: [{
@@ -1563,7 +1563,7 @@
 		{
 			x: -10.5d
 			y: -3.5d
-			description: ["{chapter.16.quest.68.description.1}"]
+			description: ["{chapter.17.quest.68.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "0000000000000FD2"
 			tasks: [{
@@ -1580,7 +1580,7 @@
 		{
 			x: -10.0d
 			y: -4.5d
-			description: ["{chapter.16.quest.69.description.1}"]
+			description: ["{chapter.17.quest.69.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "0000000000000FD4"
 			tasks: [{
@@ -1595,10 +1595,10 @@
 			}]
 		}
 		{
-			title: "{chapter.16.quest.70.title}"
+			title: "{chapter.17.quest.70.title}"
 			x: -9.0d
 			y: -6.5d
-			description: ["{chapter.16.quest.70.description.1}"]
+			description: ["{chapter.17.quest.70.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "0000000000000FD6"
 			tasks: [{
@@ -1614,10 +1614,10 @@
 			}]
 		}
 		{
-			title: "{chapter.16.quest.71.title}"
+			title: "{chapter.17.quest.71.title}"
 			x: -8.5d
 			y: -7.5d
-			description: ["{chapter.16.quest.71.description.1}"]
+			description: ["{chapter.17.quest.71.description.1}"]
 			dependencies: ["0000000000000FC0"]
 			id: "0000000000000FD8"
 			tasks: [{
@@ -1706,7 +1706,7 @@
 		{
 			x: -12.0d
 			y: -7.5d
-			description: ["{chapter.16.quest.75.description.1}"]
+			description: ["{chapter.17.quest.75.description.1}"]
 			id: "0000000000000FE2"
 			tasks: [{
 				id: "0000000000000FE3"
@@ -1729,7 +1729,7 @@
 		{
 			x: -14.0d
 			y: -7.5d
-			description: ["{chapter.16.quest.76.description.1}"]
+			description: ["{chapter.17.quest.76.description.1}"]
 			dependencies: [
 				"0000000000000FCE"
 				"0000000000000FE2"
@@ -1818,7 +1818,7 @@
 			]
 		}
 		{
-			title: "{chapter.16.quest.80.title}"
+			title: "{chapter.17.quest.80.title}"
 			x: -15.75d
 			y: -6.0d
 			shape: "gear"
@@ -1855,7 +1855,7 @@
 		{
 			x: -12.0d
 			y: -8.5d
-			description: ["{chapter.16.quest.82.description.1}"]
+			description: ["{chapter.17.quest.82.description.1}"]
 			id: "000000000000132B"
 			tasks: [{
 				id: "000000000000132C"
@@ -1879,7 +1879,7 @@
 		{
 			x: -4.0d
 			y: 0.5d
-			description: ["{chapter.16.quest.83.description.1}"]
+			description: ["{chapter.17.quest.83.description.1}"]
 			id: "00000000000015DB"
 			tasks: [{
 				id: "00000000000015DC"
@@ -1908,7 +1908,7 @@
 		{
 			x: -3.5d
 			y: 2.5d
-			description: ["{chapter.16.quest.84.description.1}"]
+			description: ["{chapter.17.quest.84.description.1}"]
 			dependencies: ["00000000000015DB"]
 			id: "00000000000015DD"
 			tasks: [{
@@ -1944,7 +1944,7 @@
 		{
 			x: -2.0d
 			y: 2.5d
-			description: ["{chapter.16.quest.85.description.1}"]
+			description: ["{chapter.17.quest.85.description.1}"]
 			dependencies: ["00000000000015DD"]
 			id: "00000000000015DF"
 			tasks: [{
@@ -1967,7 +1967,7 @@
 		{
 			x: -0.5d
 			y: 2.5d
-			description: ["{chapter.16.quest.86.description.1}"]
+			description: ["{chapter.17.quest.86.description.1}"]
 			dependencies: ["00000000000015DF"]
 			id: "00000000000015E1"
 			tasks: [{
@@ -2009,7 +2009,7 @@
 		{
 			x: 1.0d
 			y: 2.5d
-			description: ["{chapter.16.quest.87.description.1}"]
+			description: ["{chapter.17.quest.87.description.1}"]
 			dependencies: ["00000000000015E1"]
 			id: "00000000000015E3"
 			tasks: [{
@@ -2044,7 +2044,7 @@
 		{
 			x: -2.0d
 			y: 5.5d
-			description: ["{chapter.16.quest.88.description.1}"]
+			description: ["{chapter.17.quest.88.description.1}"]
 			dependencies: ["00000000000015DD"]
 			id: "00000000000015E5"
 			tasks: [{
@@ -2061,7 +2061,7 @@
 		{
 			x: -3.5d
 			y: 5.0d
-			description: ["{chapter.16.quest.89.description.1}"]
+			description: ["{chapter.17.quest.89.description.1}"]
 			dependencies: ["00000000000015DD"]
 			id: "00000000000015E7"
 			tasks: [{
@@ -2077,10 +2077,10 @@
 			}]
 		}
 		{
-			title: "{chapter.16.quest.90.title}"
+			title: "{chapter.17.quest.90.title}"
 			x: -3.5d
 			y: 6.0d
-			description: ["{chapter.16.quest.90.description.1}"]
+			description: ["{chapter.17.quest.90.description.1}"]
 			dependencies: ["00000000000015E7"]
 			id: "00000000000015E9"
 			tasks: [{
@@ -2123,7 +2123,7 @@
 			x: -1.25d
 			y: 4.0d
 			shape: "gear"
-			description: ["{chapter.16.quest.91.description.1}"]
+			description: ["{chapter.17.quest.91.description.1}"]
 			dependencies: ["00000000000015DD"]
 			size: 1.5d
 			id: "00000000000015EB"
@@ -2159,7 +2159,7 @@
 		{
 			x: 0.0d
 			y: 5.5d
-			description: ["{chapter.16.quest.92.description.1}"]
+			description: ["{chapter.17.quest.92.description.1}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015F0"
 			tasks: [{
@@ -2182,7 +2182,7 @@
 		{
 			x: 0.0d
 			y: 6.5d
-			description: ["{chapter.16.quest.93.description.1}"]
+			description: ["{chapter.17.quest.93.description.1}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015F2"
 			tasks: [{
@@ -2205,7 +2205,7 @@
 		{
 			x: 0.0d
 			y: 7.5d
-			description: ["{chapter.16.quest.94.description.1}"]
+			description: ["{chapter.17.quest.94.description.1}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015F4"
 			tasks: [{
@@ -2228,7 +2228,7 @@
 		{
 			x: 0.0d
 			y: 8.5d
-			description: ["{chapter.16.quest.95.description.1}"]
+			description: ["{chapter.17.quest.95.description.1}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015F6"
 			tasks: [{
@@ -2245,7 +2245,7 @@
 		{
 			x: 0.0d
 			y: 9.5d
-			description: ["{chapter.16.quest.96.description.1}"]
+			description: ["{chapter.17.quest.96.description.1}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015F8"
 			tasks: [{
@@ -2275,7 +2275,7 @@
 		{
 			x: -1.0d
 			y: 10.0d
-			description: ["{chapter.16.quest.97.description.1}"]
+			description: ["{chapter.17.quest.97.description.1}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015FA"
 			tasks: [{
@@ -2298,7 +2298,7 @@
 		{
 			x: -2.0d
 			y: 10.0d
-			description: ["{chapter.16.quest.98.description.1}"]
+			description: ["{chapter.17.quest.98.description.1}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015FC"
 			tasks: [{
@@ -2321,7 +2321,7 @@
 		{
 			x: -3.0d
 			y: 9.5d
-			description: ["{chapter.16.quest.99.description.1}"]
+			description: ["{chapter.17.quest.99.description.1}"]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015FE"
 			tasks: [{
@@ -2344,7 +2344,7 @@
 		{
 			x: -3.5d
 			y: 8.5d
-			description: ["{chapter.16.quest.100.description.1}"]
+			description: ["{chapter.17.quest.100.description.1}"]
 			dependencies: ["00000000000015E5"]
 			id: "0000000000001600"
 			tasks: [{
@@ -2367,7 +2367,7 @@
 		{
 			x: -3.5d
 			y: 7.5d
-			description: ["{chapter.16.quest.101.description.1}"]
+			description: ["{chapter.17.quest.101.description.1}"]
 			dependencies: ["00000000000015E5"]
 			id: "0000000000001602"
 			tasks: [{
@@ -2390,7 +2390,7 @@
 		{
 			x: -5.5d
 			y: 2.5d
-			description: ["{chapter.16.quest.102.description.1}"]
+			description: ["{chapter.17.quest.102.description.1}"]
 			dependencies: ["00000000000015DB"]
 			id: "000000000000161A"
 			tasks: [{
@@ -2421,7 +2421,7 @@
 		{
 			x: -5.5d
 			y: 4.0d
-			description: ["{chapter.16.quest.103.description.1}"]
+			description: ["{chapter.17.quest.103.description.1}"]
 			dependencies: ["000000000000161A"]
 			id: "000000000000161C"
 			tasks: [{
@@ -2451,7 +2451,7 @@
 		{
 			x: -5.5d
 			y: 5.5d
-			description: ["{chapter.16.quest.104.description.1}"]
+			description: ["{chapter.17.quest.104.description.1}"]
 			dependencies: ["000000000000161C"]
 			id: "000000000000161E"
 			tasks: [{
@@ -2480,7 +2480,7 @@
 		{
 			x: -5.5d
 			y: 7.0d
-			description: ["{chapter.16.quest.105.description.1}"]
+			description: ["{chapter.17.quest.105.description.1}"]
 			dependencies: ["000000000000161E"]
 			id: "0000000000001620"
 			tasks: [{
@@ -2503,7 +2503,7 @@
 		{
 			x: -5.5d
 			y: 8.5d
-			description: ["{chapter.16.quest.106.description.1}"]
+			description: ["{chapter.17.quest.106.description.1}"]
 			dependencies: ["0000000000001620"]
 			id: "0000000000001622"
 			tasks: [{
@@ -2538,7 +2538,7 @@
 		{
 			x: -5.5d
 			y: 10.0d
-			description: ["{chapter.16.quest.107.description.1}"]
+			description: ["{chapter.17.quest.107.description.1}"]
 			dependencies: ["0000000000001622"]
 			id: "0000000000001624"
 			tasks: [{
@@ -2568,8 +2568,8 @@
 			x: -1.0d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "{chapter.16.quest.108.subtitle}"
-			description: ["{chapter.16.quest.108.description.1}"]
+			subtitle: "{chapter.17.quest.108.subtitle}"
+			description: ["{chapter.17.quest.108.description.1}"]
 			size: 1.5d
 			id: "06FCFD49B9DC5C59"
 			tasks: [{
@@ -2615,7 +2615,7 @@
 		{
 			x: 3.0d
 			y: -8.5d
-			description: ["{chapter.16.quest.110.description.1}"]
+			description: ["{chapter.17.quest.110.description.1}"]
 			dependencies: ["32D6083223BDCD90"]
 			id: "19A4385584636C45"
 			tasks: [{
@@ -2639,7 +2639,7 @@
 		{
 			x: 4.5d
 			y: -6.0d
-			description: ["{chapter.16.quest.111.description.1}"]
+			description: ["{chapter.17.quest.111.description.1}"]
 			dependencies: ["32D6083223BDCD90"]
 			id: "18F8DADD01FEC9C2"
 			tasks: [{
@@ -2663,8 +2663,8 @@
 		{
 			x: 4.5d
 			y: -8.5d
-			subtitle: "{chapter.16.quest.112.subtitle}"
-			description: ["{chapter.16.quest.112.description.1}"]
+			subtitle: "{chapter.17.quest.112.subtitle}"
+			description: ["{chapter.17.quest.112.description.1}"]
 			dependencies: ["19A4385584636C45"]
 			id: "2FEC85DD348C7C1C"
 			tasks: [{
@@ -2688,7 +2688,7 @@
 		{
 			x: 4.0d
 			y: -7.0d
-			description: ["{chapter.16.quest.113.description.1}"]
+			description: ["{chapter.17.quest.113.description.1}"]
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "55AF1779E7AE28A7"
 			tasks: [{
@@ -2712,7 +2712,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["{chapter.16.quest.114.description.1}"]
+			description: ["{chapter.17.quest.114.description.1}"]
 			dependencies: ["06FCFD49B9DC5C59"]
 			id: "447D1005B0881D70"
 			tasks: [{
@@ -2736,7 +2736,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
-			description: ["{chapter.16.quest.115.description.1}"]
+			description: ["{chapter.17.quest.115.description.1}"]
 			dependencies: ["447D1005B0881D70"]
 			id: "27E4CBB51DBD27CD"
 			tasks: [{
@@ -2760,7 +2760,7 @@
 		{
 			x: 5.0d
 			y: 1.5d
-			description: ["{chapter.16.quest.116.description.1}"]
+			description: ["{chapter.17.quest.116.description.1}"]
 			dependencies: ["27E4CBB51DBD27CD"]
 			id: "22E1A465FAF7EAA2"
 			tasks: [{
@@ -2898,7 +2898,7 @@
 		{
 			x: 3.5d
 			y: 0.0d
-			description: ["{chapter.16.quest.121.description.1}"]
+			description: ["{chapter.17.quest.121.description.1}"]
 			dependencies: ["447D1005B0881D70"]
 			id: "56D3BC7D09F900CA"
 			tasks: [{
@@ -2922,7 +2922,7 @@
 		{
 			x: 5.5d
 			y: 0.0d
-			description: ["{chapter.16.quest.122.description.1}"]
+			description: ["{chapter.17.quest.122.description.1}"]
 			dependencies: ["56D3BC7D09F900CA"]
 			id: "1729A82B2351DE53"
 			tasks: [{
@@ -2946,14 +2946,14 @@
 		{
 			x: 7.0d
 			y: -6.0d
-			subtitle: "{chapter.16.quest.123.subtitle}"
-			description: ["{chapter.16.quest.123.description.1}"]
+			subtitle: "{chapter.17.quest.123.subtitle}"
+			description: ["{chapter.17.quest.123.description.1}"]
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "619A52669514E850"
 			tasks: [{
 				id: "251874AE085FBC47"
 				type: "checkmark"
-				title: "{chapter.16.quest.123.task.1.title}"
+				title: "{chapter.17.quest.123.task.1.title}"
 			}]
 			rewards: [{
 				id: "4D3E45D3809A8E8A"
@@ -2969,7 +2969,7 @@
 			tasks: [{
 				id: "567B754D8FE1DD06"
 				type: "checkmark"
-				title: "{chapter.16.quest.124.task.1.title}"
+				title: "{chapter.17.quest.124.task.1.title}"
 			}]
 			rewards: [{
 				id: "09498BF35D65A18A"
@@ -3056,7 +3056,7 @@
 		{
 			x: 6.0d
 			y: -8.5d
-			description: ["{chapter.16.quest.129.description.1}"]
+			description: ["{chapter.17.quest.129.description.1}"]
 			dependencies: ["604569BC4764E258"]
 			id: "31E7C56ABBA6A7B2"
 			tasks: [{
@@ -3080,7 +3080,7 @@
 		{
 			x: 6.5d
 			y: -7.5d
-			description: ["{chapter.16.quest.130.description.1}"]
+			description: ["{chapter.17.quest.130.description.1}"]
 			dependencies: ["604569BC4764E258"]
 			id: "3693C3F67BD59401"
 			tasks: [{

@@ -3,7 +3,7 @@
 	group: "241F1DC7B6D6E9D6"
 	order_index: 13
 	filename: "sweet_dreams"
-	title: "Sweet Dreams"
+	title: "{chapter.16.title}"
 	icon: {
 		id: "good_nights_sleep:lolipop_bush"
 		Count: 1b
@@ -17,7 +17,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Sweet Dreams"
+			title: "{chapter.16.quest.1.title}"
 			icon: {
 				id: "good_nights_sleep:strange_bed"
 				Count: 1b
@@ -30,14 +30,8 @@
 			x: -1.0d
 			y: 1.0d
 			shape: "rsquare"
-			subtitle: "Listen to the sandman's lullaby"
-			description: [
-				"Tired of those boring old beds at your base."
-				""
-				"Upgrade to a strange bed by finding some speical mushrooms."
-				""
-				"The best place to find them is within the nether."
-			]
+			subtitle: "{chapter.16.quest.1.subtitle}"
+			description: ["{chapter.16.quest.1.description.1}"]
 			id: "7CD8E2889CDD0041"
 			tasks: [
 				{
@@ -82,7 +76,7 @@
 			]
 		}
 		{
-			title: "Sweetest Dreams"
+			title: "{chapter.16.quest.2.title}"
 			icon: {
 				id: "good_nights_sleep:luxurious_bed"
 				Count: 1b
@@ -95,12 +89,8 @@
 			x: 0.5d
 			y: 0.0d
 			shape: "rsquare"
-			subtitle: "Don't let the bed bugs bite"
-			description: [
-				"Are you dreaming or is this reality who knows."
-				""
-				"Why don't you explore this wonderful dream before you wake up."
-			]
+			subtitle: "{chapter.16.quest.2.subtitle}"
+			description: ["{chapter.16.quest.2.description.1}"]
 			dependencies: ["7CD8E2889CDD0041"]
 			hide: false
 			secret: true
@@ -112,7 +102,7 @@
 			}]
 		}
 		{
-			title: "Bad Dreams"
+			title: "{chapter.16.quest.3.title}"
 			icon: {
 				id: "good_nights_sleep:wretched_bed"
 				Count: 1b
@@ -125,12 +115,8 @@
 			x: 0.5d
 			y: 2.0d
 			shape: "rsquare"
-			subtitle: "This is going to be a terrible night"
-			description: [
-				"Looks like someone slept on the wrong side of the bed"
-				""
-				"What a terrible nightmare to be in on the bright side maybe you can find something useful."
-			]
+			subtitle: "{chapter.16.quest.3.subtitle}"
+			description: ["{chapter.16.quest.3.description.1}"]
 			dependencies: ["7CD8E2889CDD0041"]
 			hide: false
 			secret: true

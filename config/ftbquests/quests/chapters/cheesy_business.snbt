@@ -3,7 +3,7 @@
 	group: "67B03B24E53297B4"
 	order_index: 3
 	filename: "cheesy_business"
-	title: "{chapter.19.title}"
+	title: "{chapter.20.title}"
 	icon: "rats:rat_trap"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -37,7 +37,7 @@
 		{
 			x: -2.5d
 			y: 0.0d
-			description: ["{chapter.19.quest.1.description.1}"]
+			description: ["{chapter.20.quest.1.description.1}"]
 			dependencies: ["60A98B1357B81D11"]
 			id: "03A59DE3E3891061"
 			tasks: [{
@@ -54,7 +54,7 @@
 		{
 			x: -1.5d
 			y: -1.0d
-			description: ["{chapter.19.quest.2.description.1}"]
+			description: ["{chapter.20.quest.2.description.1}"]
 			dependencies: ["60A98B1357B81D11"]
 			id: "5287FD38B69C71B9"
 			tasks: [{
@@ -93,7 +93,7 @@
 		{
 			x: -3.5d
 			y: -1.0d
-			description: ["{chapter.19.quest.4.description.1}"]
+			description: ["{chapter.20.quest.4.description.1}"]
 			id: "60A98B1357B81D11"
 			tasks: [{
 				id: "3F6B4DE3B6DF35E5"
@@ -131,7 +131,7 @@
 		{
 			x: 2.5d
 			y: -1.0d
-			description: ["{chapter.19.quest.6.description.1}"]
+			description: ["{chapter.20.quest.6.description.1}"]
 			dependencies: ["0FBC75A8226C78D8"]
 			id: "356CFEE6C2861E73"
 			tasks: [{
@@ -148,7 +148,7 @@
 		{
 			x: 3.5d
 			y: -1.0d
-			description: ["{chapter.19.quest.7.description.1}"]
+			description: ["{chapter.20.quest.7.description.1}"]
 			dependencies: ["356CFEE6C2861E73"]
 			dependency_requirement: "one_completed"
 			id: "57D050BC4C4F0844"
@@ -173,7 +173,7 @@
 		{
 			x: 2.5d
 			y: 0.0d
-			description: ["{chapter.19.quest.8.description.1}"]
+			description: ["{chapter.20.quest.8.description.1}"]
 			dependencies: ["356CFEE6C2861E73"]
 			id: "586CD4AFCDAAB1BE"
 			tasks: [{
@@ -208,7 +208,7 @@
 		{
 			x: 2.5d
 			y: 2.0d
-			description: ["{chapter.19.quest.9.description.1}"]
+			description: ["{chapter.20.quest.9.description.1}"]
 			dependencies: ["50C9FF36FEDAC1F0"]
 			id: "2A06481BD57E5A8E"
 			tasks: [{
@@ -229,7 +229,7 @@
 		{
 			x: 3.5d
 			y: 2.0d
-			description: ["{chapter.19.quest.10.description.1}"]
+			description: ["{chapter.20.quest.10.description.1}"]
 			dependencies: ["2A06481BD57E5A8E"]
 			id: "4067608F0749CF58"
 			tasks: [{
@@ -256,10 +256,10 @@
 			]
 		}
 		{
-			title: "{chapter.19.quest.11.title}"
+			title: "{chapter.20.quest.11.title}"
 			x: 0.5d
 			y: -4.0d
-			description: ["{chapter.19.quest.11.description.1}"]
+			description: ["{chapter.20.quest.11.description.1}"]
 			dependencies: ["5287FD38B69C71B9"]
 			id: "32DD2DCE063BFE76"
 			tasks: [{
@@ -320,13 +320,13 @@
 		{
 			x: 0.5d
 			y: -1.0d
-			description: ["{chapter.19.quest.14.description.1}"]
+			description: ["{chapter.20.quest.14.description.1}"]
 			dependencies: ["5287FD38B69C71B9"]
 			id: "0FBC75A8226C78D8"
 			tasks: [{
 				id: "38EF53E23CD9D0E4"
 				type: "checkmark"
-				title: "{chapter.19.quest.14.task.1.title}"
+				title: "{chapter.20.quest.14.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -344,13 +344,13 @@
 		{
 			x: 1.5d
 			y: 0.0d
-			description: ["{chapter.19.quest.15.description.1}"]
+			description: ["{chapter.20.quest.15.description.1}"]
 			dependencies: ["0FBC75A8226C78D8"]
 			id: "317360572C8BEEA6"
 			tasks: [{
 				id: "12B75969C53BE39C"
 				type: "checkmark"
-				title: "{chapter.19.quest.15.task.1.title}"
+				title: "{chapter.20.quest.15.task.1.title}"
 			}]
 			rewards: [
 				{
@@ -368,13 +368,13 @@
 		{
 			x: 0.5d
 			y: 2.0d
-			description: ["{chapter.19.quest.16.description.1}"]
+			description: ["{chapter.20.quest.16.description.1}"]
 			dependencies: ["5287FD38B69C71B9"]
 			id: "50C9FF36FEDAC1F0"
 			tasks: [{
 				id: "734AB6500F825E78"
 				type: "checkmark"
-				title: "{chapter.19.quest.16.task.1.title}"
+				title: "{chapter.20.quest.16.task.1.title}"
 			}]
 		}
 		{
@@ -456,7 +456,7 @@
 		{
 			x: 0.5d
 			y: 4.0d
-			description: ["{chapter.19.quest.19.description.1}"]
+			description: ["{chapter.20.quest.19.description.1}"]
 			dependencies: ["50C9FF36FEDAC1F0"]
 			id: "4799C026D3216A0F"
 			tasks: [{

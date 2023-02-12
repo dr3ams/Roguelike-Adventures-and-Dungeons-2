@@ -641,15 +641,7 @@
 			]
 		}
 		{
-			icon: {
-				id: "kubejs:arrow_left"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "kubejs:arrow_left"
 			x: -4.5d
 			y: 1.0d
 			subtitle: "{chapter.1.quest.20.subtitle}"
@@ -1194,6 +1186,131 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			title: "{chapter.1.quest.38.title}"
+			x: 5.5d
+			y: 11.5d
+			description: ["{chapter.1.quest.38.description.1}"]
+			dependencies: ["6FCA404FDB2D82CC"]
+			id: "0A7911EB233F4FD6"
+			tasks: [{
+				id: "15DC3E6F6598D84C"
+				type: "checkmark"
+				title: "{chapter.1.quest.38.task.1.title}"
+				icon: {
+					id: "buzzier_bees:lime_candle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 10.0d
+			description: ["{chapter.1.quest.39.description.1}"]
+			dependencies: ["6FCA404FDB2D82CC"]
+			id: "09F74D0C27C859A1"
+			tasks: [{
+				id: "28FEC88005A016BF"
+				type: "checkmark"
+				title: "{chapter.1.quest.39.task.1.title}"
+				icon: {
+					id: "buzzier_bees:orange_candle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{chapter.1.quest.40.title}"
+			icon: {
+				id: "buzzier_bees:purple_candle"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.5d
+			y: 11.0d
+			description: ["{chapter.1.quest.40.description.1}"]
+			dependencies: ["6FCA404FDB2D82CC"]
+			id: "0054E85C9D29551B"
+			tasks: [{
+				id: "6BE566D5A9954337"
+				type: "checkmark"
+				title: "{chapter.1.quest.40.task.1.title}"
+				icon: {
+					id: "buzzier_bees:purple_candle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "apotheosis:enchantment_library"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.5d
+			y: 13.5d
+			description: ["{chapter.1.quest.41.description.1}"]
+			dependencies: [
+				"0A7911EB233F4FD6"
+				"09F74D0C27C859A1"
+				"0054E85C9D29551B"
+			]
+			id: "094A8038AC83777E"
+			tasks: [{
+				id: "70DDB00D88744A9C"
+				type: "item"
+				item: {
+					id: "apotheosis:enchantment_library"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "rats:farmer_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 5.0d
+			description: ["{chapter.1.quest.42.description.1}"]
+			id: "0A8694E6D7E5B93E"
+			tasks: [{
+				id: "2371A22BE0EE5213"
+				type: "checkmark"
+				title: "{chapter.1.quest.42.task.1.title}"
 			}]
 		}
 	]
