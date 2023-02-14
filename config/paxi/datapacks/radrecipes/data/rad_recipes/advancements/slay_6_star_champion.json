@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "bountifulbaubles:obsidian_skull"
+    },
+    "title": {
+      "text": "Devourer of Harbingers"
+    },
+    "description": {
+      "text": "Wait I thought you said they were Hamburgers (Unlocks a special title!)"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "rad_recipes:slay_5_star_champion",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{ForgeCaps:{\"champions:champion\":{tier:6}}}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
