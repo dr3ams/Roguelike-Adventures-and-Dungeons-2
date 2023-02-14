@@ -132,9 +132,10 @@
           "name": "kubejs:copper_coin",
           "weight": 1,
           "conditions": [
-			{
-              "condition": "minecraft:random_chance",
-              "chance": 0.4
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.4,
+              "looting_multiplier": 0.01
             },
             {
               "condition": "champions:entity_champion",
@@ -157,9 +158,10 @@
           "name": "kubejs:nether_coin",
           "weight": 1,
           "conditions": [
-			{
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.2,
+              "looting_multiplier": 0.005
             },
             {
               "condition": "killed_by_player"
@@ -186,9 +188,10 @@
           "name": "kubejs:monster_coin",
           "weight": 1,
           "conditions": [
-			{
-              "condition": "minecraft:random_chance",
-              "chance": 0.15
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.15,
+              "looting_multiplier": 0.005
             },
             {
               "condition": "champions:entity_champion",
@@ -211,9 +214,10 @@
           "name": "kubejs:iron_coin",
           "weight": 1,
           "conditions": [
-			{
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.2,
+              "looting_multiplier": 0.0075
             },
             {
               "condition": "champions:entity_champion",
@@ -237,9 +241,10 @@
           "name": "kubejs:gold_coin",
           "weight": 1,
           "conditions": [
-			{
-              "condition": "minecraft:random_chance",
-              "chance": 0.1
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.1,
+              "looting_multiplier": 0.005
             },
             {
               "condition": "champions:entity_champion",
