@@ -46,3 +46,7 @@ import crafttweaker.api.item.IItemStack;
 <item:betterendforge:crystalite_chestplate>.addTooltip("Full set grants Regeneration I");
 <item:betterendforge:crystalite_leggings>.addTooltip("Full set grants Regeneration I");
 <item:betterendforge:crystalite_boots>.addTooltip("Full set grants Regeneration I");
+
+//soul weapons
+<item:atum:anubis_wrath>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
+<item:eidolon:reaper_scythe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
