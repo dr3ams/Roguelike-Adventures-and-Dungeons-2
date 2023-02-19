@@ -1,16 +1,15 @@
+#priority 11
 import crafttweaker.api.events.CTEventManager;
 import mods.gamestages.StageHelper;
 import mods.gamestages.events.GameStageAdded;
 
 
 //need to add localization for them so that underscore is not shown in game nitpick but can be left for full release
-StageHelper.grantStageOnAdvancement("majruszs_difficulty:progressive_difficulty/master_mode", "Ender_Ender");
-StageHelper.grantStageOnAdvancement("majruszs_difficulty:progressive_difficulty/master_mode", "Wither_Wiper");
-StageHelper.grantStageOnAdvancement("majruszs_difficulty:progressive_difficulty/expert_mode", "Wither_Wiper");
+StageHelper.grantStageOnAdvancement("minecraft:end/kill_dragon", "Ender_Ender");
 StageHelper.grantStageOnKill(<entitytype:minecraft:ender_dragon>, "Ender_Ender");
 StageHelper.grantStageOnDimension("minecraft:the_end", "Wither_Wiper");
 StageHelper.grantStageOnKill(<entitytype:minecraft:wither>, "Wither_Wiper");
-
+StageHelper.grantStageOnJoinWithCondition(player => player.hasGameStage("Ender_Ender"), "Wither_Wiper");
 
 CTEventManager.register<GameStageAdded>((event) => {
 
@@ -36,4 +35,3 @@ mods.champions.ChampionStages.addTierStage("Wither_Wiper", 3);
 
 //locks demonic champions behind killing edragon
 mods.champions.ChampionStages.addTierStage("Ender_Ender", 5);
-
