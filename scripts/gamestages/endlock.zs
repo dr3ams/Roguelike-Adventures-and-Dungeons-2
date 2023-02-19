@@ -39,7 +39,7 @@ CTEventManager.register<MCPlayerTickEvent>((event) => {
             return;
         }
         if (player.getPersistentData().contains("leftEndThrice")) {
-            player.sendMessage("§l§oYou know what fine I'll tell you strait up GO KILL AN ENDER DRAGON!!");
+            player.sendMessage("§l§oYou know what fine I'll tell you straight up GO KILL AN ENDER DRAGON!!");
             return;
         }
         }
