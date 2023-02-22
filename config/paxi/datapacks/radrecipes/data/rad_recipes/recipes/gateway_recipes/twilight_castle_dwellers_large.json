@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "#S#",
+    "BAB",
+    "#P#"
+  ],
+  "key": {
+    "#": {
+      "item": "twilightforest:magic_beans"
+    },
+    "B": {
+      "item": "twilightforest:torchberries"
+    },
+    "S": {
+      "item": "twilightforest:giant_sword"
+    },
+    "P": {
+      "item": "twilightforest:giant_pickaxe"
+    },
+	"A": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "rad_recipes:twilight_castle_dwellers_large"
+}
