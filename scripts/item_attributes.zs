@@ -1,5 +1,8 @@
 import crafttweaker.api.item.MCIngredientConditioned;
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.registries.IRecipeManager;
+import crafttweaker.api.recipe.Replacer;
+
 
 //fallback in case a mob spawns with it
 <item:blue_skies:debug_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "5dea655f-2321-4af0-8f17-a66e8ce6f0f4", "damage nerf", -1, MULTIPLY_TOTAL, [<equipmentslottype:mainhand>]);
@@ -50,3 +53,12 @@ import crafttweaker.api.item.IItemStack;
 //soul weapons
 <item:atum:anubis_wrath>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
 <item:eidolon:reaper_scythe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
+
+//replace ender pearls with spirit orbs in gateway recipes excluding enderman gateways
+Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate_large>).excluding(<resource:gateways:enderman_gate>).excluding(<resource:gateways:enderman_gate_small>).replace(<item:minecraft:ender_pearl>, <item:paraglider:spirit_orb>).execute();
+Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate>).replace(<item:minecraft:ender_eye>, <item:cofh_core:ectoplasm>).execute();
+
+//custom replacement for enderman gateways found in rad_recipes
+craftingTable.removeByName(<resource:gateways:enderman_gate>);
+craftingTable.removeByName(<resource:gateways:enderman_gate_small>);
+
