@@ -1,0 +1,299 @@
+{
+    "size": "medium",
+    "color": "#C2D3AC",
+    "waves": [{
+            "entities": [{
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:helmet_crab",
+					"nbt": "{\"Passengers\":[{id:\"twilightforest:blockchain_goblin\"}]}"
+                },
+                {
+                    "entity": "twilightforest:goblin_knight_lower"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "twilightforest:helmet_crab",
+                "rolls": 2
+            },{
+                "type": "entity_loot",
+                "entity": "twilightforest:goblin_knight_lower",
+                "rolls": 1
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:goblin_knight_lower"
+                },
+                {
+                    "entity": "twilightforest:goblin_knight_lower"
+                },
+                {
+                    "entity": "twilightforest:goblin_knight_lower"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 1
+                },
+                {
+                    "attribute": "generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "value": 1
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "twilightforest:helmet_crab",
+                "rolls": 3
+            },{
+                "type": "entity_loot",
+                "entity": "twilightforest:goblin_knight_lower",
+                "rolls": 3
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:goblin_knight_lower"
+                },
+                {
+                    "entity": "twilightforest:goblin_knight_lower"
+                },
+                {
+                    "entity": "twilightforest:goblin_knight_lower"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2
+                },
+                {
+                    "attribute": "generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "value": 2
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "twilightforest:helmet_crab",
+                "rolls": 4
+            },{
+                "type": "entity_loot",
+                "entity": "twilightforest:goblin_knight_lower",
+                "rolls": 4
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:goblin_knight_lower"
+                },
+                {
+                    "entity": "twilightforest:goblin_knight_lower"
+                },
+                {
+                    "entity": "twilightforest:goblin_knight_lower"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.85
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "twilightforest:helmet_crab",
+                "rolls": 5
+            },{
+                "type": "entity_loot",
+                "entity": "twilightforest:goblin_knight_lower",
+                "rolls": 3
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:helmet_crab"
+                },
+                {
+                    "entity": "twilightforest:goblin_knight_lower"
+                },
+                {
+                    "entity": "twilightforest:goblin_knight_lower"
+                },
+                {
+                    "entity": "twilightforest:goblin_knight_lower"
+                },
+                {
+                    "entity": "twilightforest:goblin_knight_lower"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 1.25
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 3
+                },
+                {
+                    "attribute": "generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "value": 3
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.85
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.25
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "twilightforest:helmet_crab",
+                "rolls": 7
+            },{
+                "type": "entity_loot",
+                "entity": "twilightforest:goblin_knight_lower",
+                "rolls": 7
+            }],
+            "max_wave_time": 750,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [{
+                "type": "entity_loot",
+                "entity": "twilightforest:helmet_crab",
+                "rolls": 10
+            },{
+                "type": "entity_loot",
+                "entity": "twilightforest:goblin_knight_lower",
+                "rolls": 6
+            }],
+    "completion_xp": 450,
+	"spawn_range": 6
+}

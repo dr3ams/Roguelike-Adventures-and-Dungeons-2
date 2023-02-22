@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    " C ",
+    "#A#",
+    " C "
+  ],
+  "key": {
+    "#": {
+      "item": "atum:mandibles"
+    },
+    "C": {
+      "item": "atum:crunchy_scarab"
+    },
+	"A": {
+      "item": "paraglider:spirit_orb"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "rad_recipes:atum_arthropod_gate_small"
+}

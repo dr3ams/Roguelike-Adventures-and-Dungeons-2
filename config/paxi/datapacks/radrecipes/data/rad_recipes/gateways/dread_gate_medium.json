@@ -1,0 +1,258 @@
+{
+    "size": "medium",
+    "color": "#03272E",
+    "waves": [{
+            "entities": [{
+                    "entity": "iceandfire:dread_ghoul"
+                },
+                {
+                    "entity": "iceandfire:dread_thrall"
+                },
+                {
+                    "entity": "iceandfire:dread_ghoul"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "iceandfire:dread_knight",
+                "rolls": 2
+            }],
+            "max_wave_time": 800,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "iceandfire:dread_knight"
+                },
+                {
+                    "entity": "iceandfire:dread_horse"
+                },
+                {
+                    "entity": "iceandfire:dread_beast"
+                },
+                {
+                    "entity": "iceandfire:dread_scuttler"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "iceandfire:dread_knight",
+                "rolls": 5
+            }],
+            "max_wave_time": 800,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "iceandfire:dread_beast"
+                },
+                {
+                    "entity": "iceandfire:dread_beast"
+                },
+                {
+                    "entity": "iceandfire:dread_ghoul"
+                },
+                {
+                    "entity": "iceandfire:dread_thrall"
+                },
+                {
+                    "entity": "iceandfire:dread_thrall"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.4
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.3
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "iceandfire:dread_knight",
+                "rolls": 8
+            }],
+            "max_wave_time": 800,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "iceandfire:dread_beast"
+                },
+                {
+                    "entity": "iceandfire:dread_ghoul"
+                },
+                {
+                    "entity": "iceandfire:dread_horse"
+                },
+				{
+                    "entity": "iceandfire:dread_knight"
+                },
+                {
+                    "entity": "iceandfire:dread_scuttler"
+                },
+                {
+                    "entity": "iceandfire:dread_thrall"
+                },
+			 {
+                    "entity": "iceandfire:dread_lich"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.6
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 4
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "iceandfire:dread_knight",
+                "rolls": 10
+            }],
+            "max_wave_time": 800,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "iceandfire:dread_beast"
+                },
+                {
+                    "entity": "iceandfire:dread_ghoul"
+                },
+                {
+                    "entity": "iceandfire:dread_horse"
+                },
+				{
+                    "entity": "iceandfire:dread_knight"
+                },
+                {
+                    "entity": "iceandfire:dread_horse"
+                },
+				{
+                    "entity": "iceandfire:dread_knight"
+                },
+                {
+                    "entity": "iceandfire:dread_scuttler"
+                },
+                {
+                    "entity": "iceandfire:dread_thrall"
+                },   
+			 {
+                    "entity": "iceandfire:dread_lich"
+                },
+			 {
+                    "entity": "iceandfire:dread_lich"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.8
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 5
+                },
+                {
+                    "attribute": "generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "value": 5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.7
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "iceandfire:dread_knight",
+                "rolls": 12
+            }],
+            "max_wave_time": 800,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [{
+        "type": "entity_loot",
+        "entity": "iceandfire:dread_knight",
+        "rolls": 30
+    }],
+    "completion_xp": 500,
+	"spawn_range": 10
+}

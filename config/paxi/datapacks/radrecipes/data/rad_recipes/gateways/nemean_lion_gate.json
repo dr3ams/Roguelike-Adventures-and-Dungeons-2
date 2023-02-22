@@ -1,0 +1,270 @@
+{
+    "size": "large",
+    "color": "#F2BF0D",
+    "waves": [{
+            "entities": [{
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "greekfantasy:nemean_lion",
+                "rolls": 1
+            }],
+            "max_wave_time": 2400,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.01
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.01
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "greekfantasy:nemean_lion",
+                "rolls": 2
+            }],
+            "max_wave_time": 2400,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.015
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.015
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "greekfantasy:nemean_lion",
+                "rolls": 2
+            }],
+            "max_wave_time": 2400,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.02
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.02
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "greekfantasy:nemean_lion",
+                "rolls": 3
+            }],
+            "max_wave_time": 2600,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                },
+                {
+                    "entity": "greekfantasy:nemean_lion"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.3
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 3
+                },
+                {
+                    "attribute": "generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "value": 3
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.3
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+		      {
+                    "attribute": "forge:swim_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 1.0
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "greekfantasy:nemean_lion",
+                "rolls": 3
+            }],
+            "max_wave_time": 2800,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [{
+        "type": "entity_loot",
+        "entity": "greekfantasy:nemean_lion",
+        "rolls": 5
+    },
+	{
+		"type": "stack",
+		"stack": {
+			"item": "minecraft:nether_star",
+		     "count": 2
+		}
+	}],
+    "completion_xp": 3500,
+	"spawn_range": 11
+}

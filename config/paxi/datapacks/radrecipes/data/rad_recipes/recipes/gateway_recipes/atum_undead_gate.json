@@ -1,0 +1,27 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "#CB",
+    "CAC",
+    "BC#"
+  ],
+  "key": {
+    "#": {
+      "item": "atum:cloth_scrap"
+    },
+    "C": {
+      "item": "atum:dusty_bone"
+    },
+    "B": {
+      "item": "atum:ectoplasm"
+    },
+	"A": {
+      "item": "cofh_core:ectoplasm"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "rad_recipes:atum_undead_gate"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "greekfantasy:nemean_lion_hide"
+    },
+    "A": {
+      "tag": "forge:nether_stars"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "rad_recipes:nemean_lion_gate"
+}
