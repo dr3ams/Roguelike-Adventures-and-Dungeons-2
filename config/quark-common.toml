@@ -255,7 +255,7 @@
 	"Pathfinder Maps" = true
 	"Bottled Cloud" = true
 	"Color Runes" = true
-	"Ancient Tomes" = false
+	"Ancient Tomes" = true
 	"Slime In A Bucket" = true
 	Camera = true
 	Trowel = true
@@ -276,16 +276,16 @@
 	[tools.ancient_tomes]
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
 		#Set to 0 to not generate in Dungeons
-		"Dungeon Weight" = 20
+		"Dungeon Weight" = 0
 		"Item Quality" = 2
 		#Set to 0 to not generate in Stronghold Libraries
-		"Library Weight" = 30
+		"Library Weight" = 0
 		#Set to 0 to not generate in Monster Boxes
-		"Monster Box Weight" = 5
+		"Monster Box Weight" = 0
 		#Set to 0 to not generate in Bastions
-		"Bastion Weight" = 25
+		"Bastion Weight" = 0
 		#Set to 0 to not generate in Woodland Mansions
-		"Woodland Mansion Weight" = 15
+		"Woodland Mansion Weight" = 0
 		#Set to 0 to not generate in Nether Fortresses
 		"Nether Fortress Weight" = 0
 		#Set to 0 to not generate in Underwater Ruins
@@ -1469,7 +1469,7 @@
 				"Biome Types" = ["forest"]
 
 			[world.overgrown_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld","twilightforest:twilightforest"]
+				Dimensions = ["minecraft:overworld", "twilightforest:twilightforest"]
 				"Is Blacklist" = false
 
 	[world.permafrost_underground_biome]
