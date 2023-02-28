@@ -1,6 +1,9 @@
 import crafttweaker.api.villagers.VillagerTrades;
 
 villagerTrades.removeEnchantedBookForEmeraldsTrade(<profession:minecraft:librarian>, 1);
+villagerTrades.removeEnchantedBookForEmeraldsTrade(<profession:minecraft:librarian>, 2);
+villagerTrades.removeEnchantedBookForEmeraldsTrade(<profession:minecraft:librarian>, 3);
+villagerTrades.removeEnchantedBookForEmeraldsTrade(<profession:minecraft:librarian>, 4);
 
 villagerTrades.addTrade(<profession:minecraft:librarian>, 2, <item:minecraft:emerald> * 1, <item:supplementaries:brass_lantern>, 12, 5, 0.05);
 villagerTrades.removeItemsForEmeraldsTrade(<profession:minecraft:librarian>, 2, <item:minecraft:lantern>);
