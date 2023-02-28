@@ -158,6 +158,10 @@
           "name": "kubejs:nether_coin",
           "weight": 1,
           "conditions": [
+	    {
+              "condition": "champions:entity_champion",
+              "entity": "this"
+            },
             {
               "condition": "minecraft:random_chance_with_looting",
               "chance": 0.2,
