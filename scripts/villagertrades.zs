@@ -11,7 +11,7 @@ villagerTrades.removeItemsForEmeraldsTrade(<profession:minecraft:librarian>, 2, 
 villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:minecraft:emerald> * 20, <item:minecraft:book> * 1, <item:tombstone:book_of_disenchantment>, 3, 10, 0.05);
 
 villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:fletcher>, 1, <item:minecraft:stick>.definition);
-villagerTrades.addTrade(<profession:minecraft:fletcher>, 1, 4, <item:minecraft:oak_log> * 8, 16, 2, 0.05);
+villagerTrades.addTrade(<profession:minecraft:fletcher>, 1, 1, <item:spartanweaponry:arrow_wood> * 32, 16, 2, 0.05);
 
 villagerTrades.addTrade(<profession:minecraft:nitwit>, 1, <item:minecraft:emerald> * 1, <item:minecraft:dirt> * 4, 16, 2, 0.05);
 villagerTrades.addTrade(<profession:minecraft:nitwit>, 1, <item:minecraft:emerald> * 1, <item:minecraft:gravel> * 4, 16, 2, 0.05);
