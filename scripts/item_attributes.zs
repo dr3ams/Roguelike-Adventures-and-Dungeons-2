@@ -17,7 +17,7 @@ import crafttweaker.api.recipe.Replacer;
 <item:iceandfire:armor_silver_metal_boots>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "e1c53dc8-1188-4621-902f-f9de8f33ded6", "silver armor bless", 1, ADDITION, [<equipmentslottype:feet>]);
 
 //buff to ore magnet durability because 12 is just awful and outclassed by the minewood tree.
-<item:twilightforest:ore_magnet>.maxDamage = 50;
+<item:twilightforest:ore_magnet>.maxDamage = 64;
 
 //nerf bulldozer durability to 3
 <item:prefab:item_bulldozer>.maxDamage = 3;
@@ -62,3 +62,5 @@ Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate>).replac
 craftingTable.removeByName(<resource:gateways:enderman_gate>);
 craftingTable.removeByName(<resource:gateways:enderman_gate_small>);
 
+//charm of flight disabled tooltip and durability set to 1
+<item:apotheosis:potion_charm>.withTag({Potion: "bountifulbaubles:flight" as string}).mutable().anyDamage().addTooltip("§4This charm seems fragile... Crafting it might not be a good idea.");
