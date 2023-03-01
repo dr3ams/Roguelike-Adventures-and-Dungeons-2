@@ -62,5 +62,5 @@ Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate>).replac
 craftingTable.removeByName(<resource:gateways:enderman_gate>);
 craftingTable.removeByName(<resource:gateways:enderman_gate_small>);
 
-//charm of flight disabled tooltip and durability set to 1
-<item:apotheosis:potion_charm>.withTag({Potion: "bountifulbaubles:flight" as string}).mutable().anyDamage().addTooltip("§4This charm seems fragile... Crafting it might not be a good idea.");
+//charm of flight disabled tooltip
+<item:apotheosis:potion_charm>.withTag({Potion: "bountifulbaubles:flight" as string}).mutable().anyDamage().addTooltip("§7This charm seems fragile...");
