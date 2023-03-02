@@ -95,7 +95,7 @@
 		}
 		{
 			x: 12.0d
-			y: -0.5d
+			y: 0.5d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -107,7 +107,7 @@
 		}
 		{
 			x: 11.0d
-			y: -0.5d
+			y: 0.5d
 			width: 1.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -284,6 +284,7 @@
 			y: 2.0d
 			shape: "octagon"
 			subtitle: "Choice repeatable reward"
+			description: ["Acquired by exchanging items, completing quests, and defeating Tier 1 \\& 2 Champions."]
 			size: 2.0d
 			id: "12AA5A2ECF315050"
 			tasks: [{
@@ -303,6 +304,7 @@
 			y: 2.0d
 			shape: "octagon"
 			subtitle: "Choice repeatable reward"
+			description: ["Acquired by exchanging items, completing quests, and defeating Tier 2 \\& 3 Champions."]
 			size: 2.0d
 			id: "4CA69F473539E565"
 			tasks: [{
@@ -323,6 +325,7 @@
 			y: 2.0d
 			shape: "octagon"
 			subtitle: "Choice repeatable reward"
+			description: ["Acquired by exchanging items, completing quests, and defeating Tier 4 \\& 5 Champions. Drops rarely from any mobs far from spawn."]
 			size: 2.0d
 			id: "2146186B43D64F53"
 			tasks: [{
@@ -343,6 +346,7 @@
 			y: 2.0d
 			shape: "octagon"
 			subtitle: "Choice repeatable reward"
+			description: ["Acquired by exchanging items and completing quests."]
 			size: 2.0d
 			id: "0802FC6EE2B78153"
 			tasks: [{
@@ -363,6 +367,7 @@
 			y: 2.0d
 			shape: "octagon"
 			subtitle: "Choice repeatable reward"
+			description: ["Acquired by completing quests."]
 			size: 2.0d
 			id: "4BD23FFF77631DA0"
 			tasks: [{
@@ -500,6 +505,7 @@
 			y: 6.0d
 			shape: "octagon"
 			subtitle: "Choice repeatable reward"
+			description: ["Acquired by defeating any Tier Champions in the Nether."]
 			size: 2.0d
 			id: "637B4E0CF8EE27A0"
 			tasks: [{
@@ -2215,7 +2221,7 @@
 			}
 			disable_toast: true
 			x: 11.0d
-			y: 0.5d
+			y: 1.5d
 			id: "5D0015C3AD22FE14"
 			tasks: [{
 				id: "6C626048FA76E683"
@@ -2251,7 +2257,7 @@
 			}
 			disable_toast: true
 			x: 12.0d
-			y: 0.5d
+			y: 1.5d
 			id: "010CFB15EC0B128C"
 			tasks: [{
 				id: "7E4C5948A18859EE"
@@ -2288,7 +2294,7 @@
 			}
 			disable_toast: true
 			x: 12.0d
-			y: 1.5d
+			y: 2.5d
 			id: "12A37D7C55316769"
 			tasks: [{
 				id: "2237EBE3DC20B80E"
@@ -2326,7 +2332,7 @@
 			}
 			disable_toast: true
 			x: 11.0d
-			y: 1.5d
+			y: 2.5d
 			id: "35439ABCBB75E096"
 			tasks: [{
 				id: "0FCD692ABB48823A"
@@ -2363,7 +2369,7 @@
 			}
 			disable_toast: true
 			x: 11.0d
-			y: 3.0d
+			y: 4.0d
 			id: "2BF225A3266C70D9"
 			tasks: [{
 				id: "4445DD2E276F6F57"
@@ -2400,7 +2406,7 @@
 			}
 			disable_toast: true
 			x: 12.0d
-			y: 3.0d
+			y: 4.0d
 			id: "59BCBB462EE8E2D9"
 			tasks: [{
 				id: "6B3001EB2AA853BF"
@@ -2429,7 +2435,7 @@
 			icon: { id: "artifacts:shock_pendant", Count: 5b }
 			disable_toast: true
 			x: 11.0d
-			y: 5.5d
+			y: 6.5d
 			id: "20EB4B6DD6683080"
 			tasks: [{
 				id: "1D4BC152A79421E3"
@@ -2475,7 +2481,7 @@
 			}
 			disable_toast: true
 			x: 12.0d
-			y: 5.5d
+			y: 6.5d
 			id: "49A2BBB41EA56759"
 			tasks: [{
 				id: "2439075D2600223D"
@@ -2522,7 +2528,7 @@
 			}
 			disable_toast: true
 			x: 11.5d
-			y: 4.5d
+			y: 5.5d
 			id: "17E3076A186D4F5B"
 			tasks: [{
 				id: "4AD1E938D0F8A3C7"
@@ -2545,6 +2551,22 @@
 				type: "questsadditions:repeat_random"
 				team_reward: false
 				table_id: 6789086203719600389L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			description: ["Acquired by defeating Tier 2, 3, 4 \\& 5 Champions."]
+			id: "5C1A50659E2CFD3D"
+			tasks: [{
+				id: "78DE5FA61E809FDB"
+				type: "checkmark"
+				title: "Monster Coin"
+			}]
+			rewards: [{
+				id: "0350975A5D205039"
+				type: "xp"
+				xp: 50
 			}]
 		}
 	]
