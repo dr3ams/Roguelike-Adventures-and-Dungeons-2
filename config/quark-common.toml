@@ -532,14 +532,14 @@
 		"Chance Per Chunk" = 0.222
 		"Min Mob Count" = 5
 		"Min Y" = 5
-		"Max Y" = 30
+		"Max Y" = 35
 		"Max Mob Count" = 8
 		"Enable Extra Loot Table" = false
 		#How many blocks to search vertically from a position before trying to place a block. Higher means you'll get more boxes in open spaces.
 		"Search Range" = 8
 
 		[world.monster_box.dimensions]
-			Dimensions = ["minecraft:overworld","minecraft:the_nether","twilightforest:twilightforest","atum:atum","mining_dimension:mining"]
+			Dimensions = ["minecraft:overworld","minecraft:the_nether","twilightforest:twilightforest","atum:atum","undergarden:undergarden","blue_skies:everbright","blue_skies:everdawn","good_nights_sleep:nightmare","mining_dimension:mining"]
 			"Is Blacklist" = false
 
 	[world.cave_crystal_underground_biome]
@@ -583,7 +583,7 @@
 				"Biome Types" = ["ocean"]
 
 			[world.cave_crystal_underground_biome.biome_settings.dimensions]
-				Dimensions = ["minecraft:overworld"]
+				Dimensions = ["minecraft:overworld","mining_dimension:mining"]
 				"Is Blacklist" = false
 
 	[world.speleothems]
