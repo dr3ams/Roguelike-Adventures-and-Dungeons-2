@@ -101,6 +101,13 @@
 			x: 5.0d
 			y: 7.5d
 			shape: "octagon"
+			description: [
+				"Infuse Runes into a Relic to create a new one."
+				""
+				"Insert the needed runes into the four slots on the sides of the altar."
+				""
+				"The altar will then ask for items to be dropped onto it to complete the process."
+			]
 			size: 2.0d
 			id: "6C45CE02A03DCEE9"
 			tasks: [{
@@ -133,6 +140,15 @@
 			x: 5.0d
 			y: 3.5d
 			shape: "diamond"
+			description: [
+				"Used to repair Relics."
+				""
+				"Place a relic onto the Anvil by Right-Clicking the top surface of the anvil."
+				""
+				"Equip your Runic Hammer and use it on the placed item to restore durability."
+				""
+				"This process costs experience points and may take some time"
+			]
 			hide_dependency_lines: true
 			dependencies: ["6C45CE02A03DCEE9"]
 			id: "3BFC6AA60A53EBEF"
@@ -166,18 +182,22 @@
 			x: 3.0d
 			y: 4.0d
 			shape: "diamond"
+			description: [
+				"Used to repair Relics."
+				""
+				"For usage, see the Runic Anvil."
+			]
 			hide_dependency_lines: true
 			dependencies: ["6C45CE02A03DCEE9"]
 			id: "056C737A9F7067AC"
 			tasks: [{
-				id: "595EEACA48CE2333"
+				id: "4F9A4C91F34BB7CD"
 				type: "item"
 				item: {
 					id: "relics:runic_hammer"
 					Count: 1b
 					tag: {
 						Damage: 0
-						itemModifier: "modifiers:damaged"
 					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
