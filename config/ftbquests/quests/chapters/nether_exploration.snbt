@@ -7,23 +7,12 @@
 	icon: "minecraft:crimson_nylium"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: -6.0d
-		y: -4.5d
-		width: 3.0d
-		height: 3.0d
-		rotation: 0.0d
-		image: "nethers_delight:textures/block/crimson_fungus_colony_stage3.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
-			x: 0.0d
+			x: 1.5d
 			y: -0.75d
 			shape: "octagon"
+			subtitle: "Has nothing to do with flint and steel"
 			description: ["For information on how to enter and exit the Nether, refer to the \"New nether portal mechanics\" quest in the \"Features | Mechanics\" chapter."]
 			size: 1.5d
 			id: "4ABA0AF14F4830E5"
@@ -37,1023 +26,46 @@
 				{
 					id: "753897D7E79A3329"
 					type: "item"
-					item: "aquaculture:lockbox"
-				}
-				{
-					id: "706DE69EA80B301C"
-					type: "item"
-					item: "minecraft:cake"
-				}
-				{
-					id: "23EAEB5BF0046E19"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-			]
-		}
-		{
-			x: 1.5d
-			y: -2.0d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "2E1252F4A5FC2ED0"
-			tasks: [{
-				id: "2B928F292B685E1F"
-				type: "item"
-				item: "minecraft:lodestone"
-			}]
-			rewards: [
-				{
-					id: "7FF320272CCBC76C"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "013F464F232332FF"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-			]
-		}
-		{
-			x: -1.0d
-			y: -3.5d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "46986285004F8604"
-			tasks: [{
-				id: "3DE0DFF246102EAC"
-				type: "item"
-				item: "minecraft:basalt"
-			}]
-			rewards: [
-				{
-					id: "4B7E5C8736523516"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "6BB95B4CAACB68A3"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-			]
-		}
-		{
-			x: -1.5d
-			y: -4.5d
-			dependencies: ["46986285004F8604"]
-			id: "0BC837BAE9BF5D1D"
-			tasks: [{
-				id: "53D9BE3D344F0B59"
-				type: "item"
-				item: "minecraft:polished_basalt"
-			}]
-			rewards: [
-				{
-					id: "4BD734E66B5B5949"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "2725679FB19F83B0"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-			]
-		}
-		{
-			x: 1.5d
-			y: -3.0d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "5924C8AA2148FC68"
-			tasks: [{
-				id: "0523357F29E2E5FD"
-				type: "item"
-				item: "minecraft:blackstone"
-			}]
-			rewards: [
-				{
-					id: "290185B21B1A4BFC"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "42AA588530A43F82"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-			]
-		}
-		{
-			x: 3.5d
-			y: -4.5d
-			dependencies: ["5924C8AA2148FC68"]
-			id: "09D61D5FA721A63F"
-			tasks: [{
-				id: "46B34FF518F8D7F3"
-				type: "item"
-				item: "minecraft:polished_blackstone"
-			}]
-			rewards: [
-				{
-					id: "56C6ABA6E2A51CD6"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "73274FAEE5D9F37A"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: -3.0d
-			dependencies: ["5924C8AA2148FC68"]
-			id: "5D3072BDDCF2CCDA"
-			tasks: [{
-				id: "38C22498B35BA7C8"
-				type: "item"
-				item: "minecraft:gilded_blackstone"
-			}]
-			rewards: [
-				{
-					id: "27377B1B8BCCF8F0"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "08CFFE9163063EDD"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: -3.5d
-			dependencies: ["5924C8AA2148FC68"]
-			id: "1F4D4B7F7BFFE905"
-			tasks: [{
-				id: "7319C5B794C2989E"
-				type: "item"
-				item: "betterendforge:blackstone_lantern"
-			}]
-			rewards: [
-				{
-					id: "3A7D2BF21A310A97"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "14988FCA9C5454A0"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "55DBF9AB804E499E"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 1.0d
-			y: -4.5d
-			dependencies: ["5924C8AA2148FC68"]
-			id: "0EC9F28874B977ED"
-			tasks: [{
-				id: "5AAB10220CF3BA00"
-				type: "item"
-				item: "quark:twisted_blackstone_bricks"
-			}]
-			rewards: [
-				{
-					id: "5791C218A41E32AE"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "65FDA5A3C84B95BF"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-			]
-		}
-		{
-			x: 2.0d
-			y: -5.0d
-			dependencies: ["5924C8AA2148FC68"]
-			id: "783B50DE91433AEE"
-			tasks: [{
-				id: "22D494B970AA76EB"
-				type: "item"
-				item: "quark:weeping_blackstone_bricks"
-			}]
-			rewards: [
-				{
-					id: "5ACF132C0B17E231"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "4789B7BF20131B20"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "342DF0DC66D3FC75"
-					type: "item"
 					item: {
-						id: "ftbquests:lootcrate"
+						id: "losttrinkets:treasure_bag"
 						Count: 1b
-						tag: {
-							type: "materials_monsters"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: -2.5d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "67A339531A61A13F"
-			tasks: [{
-				id: "68AD8A8F335EF91F"
-				type: "item"
-				item: "minecraft:nether_gold_ore"
-			}]
-			rewards: [
-				{
-					id: "5DCD112866E8B619"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "18C5751A138E87B7"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-			]
-		}
-		{
-			x: -2.5d
-			y: -2.0d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "63E4DEAD58EA1044"
-			tasks: [{
-				id: "3034171437DF36AD"
-				type: "item"
-				item: {
-					id: "upgradednetherite_items:netherite_apple"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "71AB21640D8CB173"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "049F4F81204488DB"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-			]
-		}
-		{
-			x: -4.0d
-			y: -3.0d
-			dependencies: ["63E4DEAD58EA1044"]
-			id: "21F1BF0DE36BC880"
-			tasks: [{
-				id: "1BD52709596F3D83"
-				type: "item"
-				item: {
-					id: "upgradednetherite_items:enchanted_netherite_apple"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "1E8197541B888420"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_monsters"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
 				{
-					id: "328C93F967ACA4AD"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_random"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 3.5d
-			y: 0.0d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "40609C59E4FA4972"
-			tasks: [{
-				id: "039546A5A8CD96B7"
-				type: "item"
-				item: "minecraft:shroomlight"
-			}]
-			rewards: [
-				{
-					id: "5086AD5FC25B34B3"
+					id: "4C8426307D11B16F"
 					type: "item"
 					item: {
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Potion: "minecraft:long_regeneration"
+							Potion: "minecraft:fire_resistance"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
 				{
-					id: "63D77BB5509ADFF5"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "18201286EAFF10E1"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "73121D8C1E6CD319"
+					id: "796D9951FD1A16A8"
 					type: "item"
 					item: {
-						id: "ftbquests:lootcrate"
+						id: "kubejs:nether_coin"
 						Count: 1b
-						tag: {
-							type: "materials_monsters"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
 			]
-		}
-		{
-			x: 2.5d
-			y: 1.5d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "0D02D42CC2FE1569"
-			tasks: [{
-				id: "79564CBC68B5670B"
-				type: "item"
-				item: "minecraft:warped_nylium"
-			}]
-			rewards: [{
-				id: "3B44E17FF5FC683A"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:healing"
-					}
-				}
-			}]
-		}
-		{
-			x: 0.0d
-			y: 1.5d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "3974D350BB9DAE3A"
-			tasks: [{
-				id: "5D6A645089BC6306"
-				type: "item"
-				item: "minecraft:crimson_nylium"
-			}]
-			rewards: [{
-				id: "009FBBDEBAFECCC2"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -1.5d
-			y: 3.0d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "4111908B09AAFE7D"
-			tasks: [{
-				id: "6378CFAE315823D3"
-				type: "item"
-				item: "minecraft:crimson_stem"
-			}]
-			rewards: [{
-				id: "2CF7A1A187C8AD39"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: 0.0d
-			y: 3.5d
-			dependencies: ["4111908B09AAFE7D"]
-			id: "18DCBB7814DAF929"
-			tasks: [{
-				id: "7CC1B0852FA2DB7B"
-				type: "item"
-				item: "supplementaries:crimson_lantern"
-			}]
-			rewards: [{
-				id: "7A0E6416286C9851"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -0.5d
-			y: 2.5d
-			dependencies: ["3974D350BB9DAE3A"]
-			id: "3547528CA228CD35"
-			tasks: [{
-				id: "60F479E513B5144D"
-				type: "item"
-				item: "minecraft:crimson_fungus"
-			}]
-			rewards: [{
-				id: "7B31AD95B24EF082"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -2.5d
-			y: 4.0d
-			dependencies: ["4111908B09AAFE7D"]
-			id: "5F0EB14CE3831AE9"
-			tasks: [{
-				id: "0A3BAD56B238BA49"
-				type: "item"
-				item: "floormats:connected/nether/connected_gilded_crimson_stem"
-			}]
-			rewards: [{
-				id: "11BF22A7EE7EDD98"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -1.0d
-			y: 4.5d
-			dependencies: ["4111908B09AAFE7D"]
-			id: "3A9F44F58CBB1632"
-			tasks: [{
-				id: "07517DC6DA222C63"
-				type: "item"
-				item: "floormats:connected/nether/connected_crimson_stem"
-			}]
-			rewards: [{
-				id: "150B4073413E12DB"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -3.0d
-			y: 2.0d
-			dependencies: ["4111908B09AAFE7D"]
-			id: "29490C6065BD6AAC"
-			tasks: [{
-				id: "546574C5FCB24D40"
-				type: "item"
-				item: "quark:crimson_chest"
-			}]
-			rewards: [
-				{
-					id: "386EE48756D87B73"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:healing"
-						}
-					}
-				}
-				{
-					id: "077F7E12A3361B6F"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 1.0d
-			y: 4.0d
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "3A0EF46E832AB5E4"
-			tasks: [{
-				id: "3DBB1C9ECAB1C116"
-				type: "item"
-				item: "floormats:connected/nether/connected_warped_stem"
-			}]
-			rewards: [
-				{
-					id: "2DE6F23F35670218"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "0BF69E955C71CF52"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_monsters"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 2.0d
-			y: 5.0d
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "34C353266CF4D229"
-			tasks: [{
-				id: "7CD040E160309DD7"
-				type: "item"
-				item: "floormats:connected/nether/connected_gilded_warped_stem"
-			}]
-			rewards: [{
-				id: "68F9BDF6A8C5DF02"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: 1.0d
-			y: 2.5d
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "43A18A19D4D9D8E2"
-			tasks: [{
-				id: "516723368B3D9747"
-				type: "item"
-				item: "quark:warped_chest"
-			}]
-		}
-		{
-			x: 4.0d
-			y: 3.5d
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "04013B081700E4A9"
-			tasks: [{
-				id: "60A827DB82BEB6E9"
-				type: "item"
-				item: "valhelsia_structures:warped_post"
-			}]
-			rewards: [{
-				id: "7F2986E56E2264DF"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: 2.0d
-			y: 2.5d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "0F0AA12E6E9A4350"
-			tasks: [{
-				id: "6D690E6928BE634E"
-				type: "item"
-				item: "minecraft:warped_stem"
-			}]
-			rewards: [{
-				id: "5273057D3607AB4A"
-				type: "item"
-				item: "supplementaries:candy"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 4.0d
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "39B4598D10583635"
-			tasks: [{
-				id: "43E060F4CBD7350E"
-				type: "item"
-				item: "minecraft:warped_door"
-			}]
-			rewards: [{
-				id: "2B7FAC4F31780F71"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: 4.0d
-			y: 1.0d
-			dependencies: ["0D02D42CC2FE1569"]
-			id: "6F71C255CDF5A4D9"
-			tasks: [{
-				id: "434C39CDB41DEB44"
-				type: "item"
-				item: "eidolon:warped_sprouts"
-			}]
-			rewards: [
-				{
-					id: "5C63479985C68918"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "7F9D9DCC997C087A"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "6D925AD6D9275970"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 3.5d
-			y: 2.5d
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "70BC62E7AF939546"
-			tasks: [{
-				id: "6233D945FF30CB8B"
-				type: "item"
-				item: "quark:warped_post"
-			}]
-			rewards: [
-				{
-					id: "3348A8D7D4B5F8A7"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "3B4049A1C71A3B32"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_monsters"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -3.5d
-			y: -1.0d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "1FF5E2CC96EA1264"
-			tasks: [{
-				id: "03BFDC95874E8D43"
-				type: "item"
-				item: "minecraft:soul_torch"
-			}]
-			rewards: [
-				{
-					id: "620230C3CD465B73"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "2753F32E2BC5AF02"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-			]
-		}
-		{
-			x: -5.0d
-			y: -2.5d
-			dependencies: ["1FF5E2CC96EA1264"]
-			id: "09EBBFAC3E896F55"
-			tasks: [{
-				id: "21246CBACECE1231"
-				type: "item"
-				item: "minecraft:soul_lantern"
-			}]
-			rewards: [
-				{
-					id: "62080E69141A4A87"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "7215A20D4E41C35A"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "2A5E4E82A40DBFCC"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: -2.0d
-			y: 1.5d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "63871B96A2A11F52"
-			tasks: [{
-				id: "3DE176441FA028F7"
-				type: "item"
-				item: "decorative_blocks:soul_brazier"
-			}]
-			rewards: [{
-				id: "22A3270247FD2C99"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:healing"
-					}
-				}
-			}]
-		}
-		{
-			x: -2.5d
-			y: -3.5d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "60EE45363E31B08B"
-			tasks: [{
-				id: "31104495250E3539"
-				type: "item"
-				item: "minecraft:soul_campfire"
-			}]
-			rewards: [
-				{
-					id: "33BA4FC62E58B08B"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "3A8B818AF34A8042"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-			]
-		}
-		{
-			x: -4.0d
-			y: 1.5d
-			dependencies: ["7137B3D4835692E8"]
-			id: "4A163C73BCFE6474"
-			tasks: [{
-				id: "0BD2721107AED2B4"
-				type: "item"
-				item: "minecraft:respawn_anchor"
-			}]
-			rewards: [
-				{
-					id: "049C63E7861E4DEA"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "15EEEAE6CEAA853B"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "4FDB69572109C47D"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "6DB3D917A8F87B71"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_monsters"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -4.5d
-			y: 0.0d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "7137B3D4835692E8"
-			tasks: [{
-				id: "1ED4462D359C783F"
-				type: "item"
-				item: "minecraft:crying_obsidian"
-			}]
-			rewards: [
-				{
-					id: "6F527B6D48A00F53"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:healing"
-						}
-					}
-				}
-				{
-					id: "57A8B2FE62FEA9CC"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "732A9F26810E2099"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-			]
-		}
-		{
-			x: 2.0d
-			y: -1.0d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "52232EA3F724096F"
-			tasks: [{
-				id: "09387DD6B6597986"
-				type: "kill"
-				entity: "minecraft:hoglin"
-				value: 10L
-			}]
-			rewards: [
-				{
-					id: "2084A63822FD30D0"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_strength"
-						}
-					}
-				}
-				{
-					id: "15851C13041B70E6"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "3AED4BDFD3E2F5CE"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "7CE3256CA69C8130"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 2.5d
-			y: 0.5d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "5DCD88F5D69C1D8D"
-			tasks: [{
-				id: "3D58332C56BAF488"
-				type: "kill"
-				entity: "minecraft:zoglin"
-				value: 10L
-			}]
-			rewards: [
-				{
-					id: "4B66AE25FBE028EE"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "7FB704B102DA2830"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "67AC4A9E200188C1"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: -2.5d
-			y: 5.0d
-			dependencies: ["5F0EB14CE3831AE9"]
-			id: "7B2D427CAF90540B"
-			tasks: [{
-				id: "2BD352363122F8A0"
-				type: "item"
-				item: "floormats:nether/crimson_stem/gilded_crimson_stem_floormat_item"
-			}]
-			rewards: [{
-				id: "172A81EE1762714C"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -0.5d
-			y: 5.5d
-			dependencies: ["3A9F44F58CBB1632"]
-			id: "10591673E1C1B10F"
-			tasks: [{
-				id: "16C1E34D147314C4"
-				type: "item"
-				item: "floormats:nether/crimson_stem/crimson_stem_floormat_item"
-			}]
-			rewards: [
-				{
-					id: "2810F1BECD402F74"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "39A35A728AFD13A3"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_monsters"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: 5.5d
-			dependencies: ["34C353266CF4D229"]
-			id: "4F3F64911B9A47E4"
-			tasks: [{
-				id: "5FC14B204FBABAD9"
-				type: "item"
-				item: "floormats:nether/warped_stem/gilded_warped_stem_floormat_item"
-			}]
-			rewards: [{
-				id: "1000F8C6E3DE03D8"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: 0.5d
-			y: 5.0d
-			dependencies: ["3A0EF46E832AB5E4"]
-			id: "1C41CF5FCC54E352"
-			tasks: [{
-				id: "5E817E7015907CF9"
-				type: "item"
-				item: "floormats:nether/warped_stem/warped_stem_floormat_item"
-			}]
-			rewards: [{
-				id: "67D99C447E344317"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -3.5d
-			y: 3.0d
-			dependencies: ["4111908B09AAFE7D"]
-			id: "17EE68968A44657A"
-			tasks: [{
-				id: "7A826A100E53D9C8"
-				type: "item"
-				item: "minecraft:crimson_door"
-			}]
-			rewards: [{
-				id: "29C76C6BFCC88DD0"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
 		}
 		{
 			x: 6.0d
@@ -1243,6 +255,9 @@
 			x: 8.0d
 			y: -0.5d
 			shape: "gear"
+			subtitle: "A lot of work for a little ingot"
+			description: ["Netherite tools, weapons, and armor aren't the best things in this pack, but they are still quite good. They can be upgraded down many different paths, depending on your preference. Netherite is also used for quite a few things besides just gear."]
+			dependencies: ["43796FAF36C4C69C"]
 			size: 1.5d
 			id: "65760A3965C0610B"
 			tasks: [{
@@ -1250,11 +265,35 @@
 				type: "item"
 				item: "minecraft:netherite_ingot"
 			}]
-			rewards: [{
-				id: "4F87250F366A0B40"
-				type: "item"
-				item: "aquaculture:lockbox"
-			}]
+			rewards: [
+				{
+					id: "06840FBF72A4CD3A"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "65585D190D842A34"
+					type: "item"
+					item: {
+						id: "losttrinkets:treasure_bag"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Golderite Armor"
@@ -1468,7 +507,7 @@
 		}
 		{
 			title: "Blazerite Armor"
-			x: 6.0d
+			x: 5.5d
 			y: 2.5d
 			dependencies: ["22AD943138F5C856"]
 			id: "3EF22104C917962E"
@@ -2227,161 +1266,224 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -1.0d
-			dependencies: ["40609C59E4FA4972"]
-			id: "214E89C00242A696"
-			tasks: [{
-				id: "02D5E45B9EB2B352"
-				type: "item"
-				item: "infernalexp:chiseled_glowstone_bricks"
-			}]
-			rewards: [
-				{
-					id: "31B02BE5C55C9799"
-					type: "item"
-					item: "aquaculture:box"
-				}
-				{
-					id: "2F304DBD8B20FFC6"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "1122E0D9CE8352D2"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			x: -2.5d
-			y: -5.0d
-			dependencies: ["60EE45363E31B08B"]
-			id: "14873B1D32953A2B"
-			tasks: [{
-				id: "5C6A0082559AC281"
-				type: "item"
-				item: "infernalexp:glow_campfire"
-			}]
-			rewards: [
-				{
-					id: "1D68018529B421B1"
-					type: "item"
-					item: "aquaculture:box"
-				}
-				{
-					id: "4FED94CDA21B2EBE"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "49E74A8C18825E26"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			x: -5.5d
-			y: -1.5d
-			dependencies: ["09EBBFAC3E896F55"]
-			id: "71C6E5460F00AAA8"
-			tasks: [{
-				id: "3C956F3B57CC2011"
-				type: "item"
-				item: "infernalexp:glow_lantern"
-			}]
-			rewards: [
-				{
-					id: "09FBA31E24DD1B48"
-					type: "item"
-					item: "aquaculture:box"
-				}
-				{
-					id: "08BB9C8E2DCA87D0"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "26087375E4EADD6E"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			x: -2.5d
-			y: 0.5d
+			x: 1.5d
+			y: 2.0d
+			subtitle: "Bling"
+			description: ["Gold is very important here. Piglins want it, and so do you, if you plan on leaving."]
 			dependencies: ["4ABA0AF14F4830E5"]
-			id: "26273B48330D94FC"
+			id: "73EB5ADA3E2B4A50"
 			tasks: [{
-				id: "0853E4ACFD0F7D23"
+				id: "3F21FC6E8578877B"
 				type: "item"
-				item: "infernalexp:infernal_painting"
+				item: {
+					id: "minecraft:gold_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 			rewards: [
 				{
-					id: "4D0126547FD505CE"
-					type: "item"
-					item: "aquaculture:box"
-				}
-				{
-					id: "522D5FEE3FEB8B65"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "78C7C47EE81B2358"
+					id: "09EBB1F8AFC7ECC3"
 					type: "xp_levels"
 					xp_levels: 1
 				}
-			]
-		}
-		{
-			x: 2.5d
-			y: -2.0d
-			dependencies: ["52232EA3F724096F"]
-			id: "74F8054E3C58876B"
-			tasks: [{
-				id: "7FE4FB352CBA4E67"
-				type: "item"
-				item: "infernalexp:cooked_hogchop"
-			}]
-			rewards: [
 				{
-					id: "0D9C4DBAE88E7CAA"
-					type: "item"
-					item: "aquaculture:box"
-				}
-				{
-					id: "00CE620C2D47C3EE"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "1AE3D365639DA278"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			x: -0.5d
-			y: -5.5d
-			dependencies: ["357B034F06F47129"]
-			id: "1C246B7933ACF8FA"
-			tasks: [
-				{
-					id: "18375501281BBACA"
-					type: "item"
-					item: "infernalexp:charged_chiseled_soul_slate_bricks"
-				}
-				{
-					id: "6C6E1333CFDAB164"
+					id: "410C4A544BE508A1"
 					type: "item"
 					item: {
-						id: "infernalexp:charged_chiseled_soul_stone_bricks"
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			subtitle: "Bad Neighborhood"
+			description: ["If you didn't come here for this, why did you come here?"]
+			dependencies: ["73EB5ADA3E2B4A50"]
+			id: "682681EF1F0C9987"
+			tasks: [{
+				id: "5E95E4F4F165AE31"
+				type: "advancement"
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "10DE4DA6C0DAAF91"
+					type: "item"
+					item: {
+						id: "minecraft:snowball"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "41F9371A7A4BD435"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "657DE629C3D1924D"
+					type: "item"
+					item: {
+						id: "minecraft:nether_bricks"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			subtitle: "Hottest Minecraft mob, hands down"
+			description: ["I hope you brought a shield."]
+			dependencies: ["682681EF1F0C9987"]
+			id: "13FD0079FE01079E"
+			tasks: [{
+				id: "013BC688B0C0087C"
+				type: "kill"
+				entity: "minecraft:blaze"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "33B20E019A5C0D83"
+					type: "item"
+					item: {
+						id: "minecraft:blaze_powder"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "7903535C6BB0C104"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			icon: {
+				id: "betterportals:reclaimer"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -4.5d
+			y: 3.5d
+			shape: "pentagon"
+			subtitle: "Let's get outta here"
+			description: ["Find a reclaimer and surround it with 4 gold blocks to activate it. After finding one, you can move it wherever you want."]
+			dependencies: ["13FD0079FE01079E"]
+			size: 1.5d
+			id: "33E71559170DB32A"
+			tasks: [
+				{
+					id: "081C2A1F75A85AB6"
+					type: "item"
+					item: {
+						id: "betterportals:reclaimer"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7A23E376B85C4D6B"
+					type: "item"
+					item: {
+						id: "minecraft:gold_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "1CB7A1E21A730B3B"
+				type: "item"
+				item: {
+					id: "kubejs:nether_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 16
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			subtitle: "Back for more"
+			description: ["Dimensional rifts can be moved and still used, as long as the fluid is below y=15."]
+			dependencies: ["33E71559170DB32A"]
+			id: "07951B460EADBB6F"
+			tasks: [{
+				id: "3AC40FFE49A228F1"
+				type: "item"
+				item: {
+					id: "betterportals:portal_fluid_bucket"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "22FACEEA6D8C4561"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "20606FCD2DAC9162"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -2391,90 +1493,986 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "55FCF6B30CF4861B"
-					type: "item"
-					item: "aquaculture:box"
-				}
-				{
-					id: "13F2BC52777948FF"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "3C7E01AF2E530D97"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
 		}
 		{
-			x: 4.0d
-			y: -2.0d
-			dependencies: ["214E89C00242A696"]
-			id: "2A31BA8A10957C75"
+			title: "Let's go exploring"
+			icon: {
+				id: "minecraft:golden_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -6.0d
+			y: -1.5d
+			subtitle: "These boots were made for walkin'"
+			description: ["There are many biomes to explore in the nether, both old and new."]
+			dependencies: ["07951B460EADBB6F"]
+			id: "3E18C4A8A4353E50"
 			tasks: [{
-				id: "0A22A87326510F66"
-				type: "item"
-				item: "infernalexp:smooth_glowstone"
+				id: "36F3D531AD18D2DF"
+				type: "observation"
+				icon: {
+					id: "minecraft:netherrack"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:netherrack"
 			}]
-			rewards: [
-				{
-					id: "06FC5EE9503321A5"
-					type: "item"
-					item: "aquaculture:box"
-				}
-				{
-					id: "3340FB26402FFF64"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "11BEE253B27AE9D1"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: -4.5d
-			dependencies: ["46986285004F8604"]
-			id: "357B034F06F47129"
-			tasks: [{
-				id: "5D8DDA737DE45C45"
-				type: "item"
-				item: "infernalexp:magmatic_chiseled_basalt_bricks"
-			}]
-			rewards: [
-				{
-					id: "6164FBAF43507A0F"
-					type: "item"
-					item: "aquaculture:box"
-				}
-				{
-					id: "06A7A46FD55ACF20"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "02F8440BC3699794"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			x: -1.5d
-			y: -5.5d
-			dependencies: ["0BC837BAE9BF5D1D"]
-			id: "29EAFB7C2D441011"
-			tasks: [{
-				id: "679ACD5819DAE913"
+			rewards: [{
+				id: "02E61C52D0AC417D"
 				type: "item"
 				item: {
-					id: "infernalexp:polished_basalt_tiles"
+					id: "apotheosis:potion_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Potion: "minecraft:strong_leaping"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Nether Wastes"
+			icon: {
+				id: "minecraft:netherrack"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -10.5d
+			y: -4.0d
+			subtitle: "Crunchy"
+			description: ["Anyone else getting nostalgic for 1.12 nether? No? Me neither."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "02FC95F7BB887327"
+			tasks: [{
+				id: "7536CC526365BFF7"
+				type: "biome"
+				icon: {
+					id: "minecraft:netherrack"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				biome: "minecraft:nether_wastes"
+			}]
+			rewards: [
+				{
+					id: "47A0783C6667985E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "05BD5034EAAED2E9"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Crimson Forest"
+			icon: {
+				id: "minecraft:crimson_nylium"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -9.5d
+			y: -4.0d
+			subtitle: "Watch out for mosquitoes!"
+			description: ["All sorts of horrible things now spawn in crimson forests, including giant mosquitoes! However, friendly lampads and sometimes-friendly piglins spawn here, too."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "77AFC76820AFDE0E"
+			tasks: [{
+				id: "2A66CCA510C25D4A"
+				type: "biome"
+				biome: "minecraft:crimson_forest"
+			}]
+			rewards: [
+				{
+					id: "0154DFB8B83FA639"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "05DDC1721B0B8C0B"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Warped Forest"
+			icon: {
+				id: "minecraft:warped_nylium"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -8.5d
+			y: -4.0d
+			subtitle: "Where did the endermen go?"
+			description: ["Warped forests are now home to lots of warpbeetles, warped toads, shroomloins, and friendly lampads. Pomegranate trees also grow here. It's not good food, but it's food. It's about as safe here as a nether biome can be."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "5279A5BE2C19F5F0"
+			tasks: [{
+				id: "78E409B8041E2976"
+				type: "biome"
+				biome: "minecraft:warped_forest"
+			}]
+			rewards: [
+				{
+					id: "01CF3B16BBA06EE3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "258881188B9F1EC4"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "43E1ADD53FF2ED3D"
+					type: "item"
+					item: {
+						id: "minecraft:ender_pearl"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Basalt Deltas"
+			icon: {
+				id: "minecraft:basalt"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -10.5d
+			y: -3.0d
+			subtitle: "I always seem to land here"
+			description: ["Basalt deltas are even more dangerous than before. Basalt giants and straddlers make this place a tough challenge to navigate and survive."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "4A4393C7A4C558A9"
+			tasks: [{
+				id: "391692A22E605B01"
+				type: "biome"
+				biome: "minecraft:basalt_deltas"
+			}]
+			rewards: [
+				{
+					id: "664DAAD30B10F278"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "40241A775EBD4548"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Soul Sand Valley"
+			icon: {
+				id: "minecraft:soul_soil"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -9.5d
+			y: -3.0d
+			subtitle: "Undead party"
+			description: ["Wither skeletons, embodies, drakaina, wraiths, and soul vultures now spawn here. It's an exposed and dangerous place. The wraiths found here drop soul beads, which are used instead of netherite ingots to craft lodestones. The embodies drop soul salt, which can be ground into Vanilla Food Pantry salt with a millstone from Atum. Hooray, mod interactions!"]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "4707CCDDE6E8D8E3"
+			tasks: [{
+				id: "6A8A1E2A963378C3"
+				type: "biome"
+				biome: "minecraft:soul_sand_valley"
+			}]
+			rewards: [
+				{
+					id: "5ADD25D659CCB608"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1D88460A08F4B25B"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Glowstone Canyon"
+			icon: {
+				id: "infernalexp:dimstone"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -8.5d
+			y: -3.0d
+			subtitle: "Golden Glory"
+			description: ["This beautiful, glowing golden biome is nevertheless still dangerous. Glowsquitoes and blindsight spawn here in large numbers. Glimmer gravel covers deep pitfalls. Deep below, you can find the buried cocoons of glowsilk moths. These cocoons can be harvested with a diamond or better hoe and used to create the powerful glowsilk bow."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "2A6EECCD16FD7CBA"
+			tasks: [{
+				id: "2B8B2EEDF8350DDA"
+				type: "biome"
+				biome: "infernalexp:glowstone_canyon"
+			}]
+			rewards: [
+				{
+					id: "22EC334157CCA035"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "10FE337D7D154E67"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Embur Bog"
+			icon: {
+				id: "byg:embur_nylium"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -10.5d
+			y: -2.0d
+			subtitle: "That's a lot of lava"
+			description: ["Embur bogs are dangerous places full of lava pools. The netherrack is blue here for some reason. Embur trees grow here, despite the lava. Blazes spawn here."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "4E26C89279B3EDE0"
+			tasks: [{
+				id: "438337E7F568B2B8"
+				type: "biome"
+				biome: "byg:embur_bog"
+			}]
+			rewards: [
+				{
+					id: "27DD09783D1E7520"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2B3C01BE7E9C9BD9"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Glowstone Gardens"
+			icon: {
+				id: "byg:soul_shroom_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -9.5d
+			y: -2.0d
+			subtitle: "Not safe for human consumption"
+			description: ["Death caps and soulshrooms grow here in abundance. Just because you can eat them doesn't mean you should. Not much lives here besides zombie piglins."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "252D843CB76AFF3C"
+			tasks: [{
+				id: "325B0FE75A1519D8"
+				type: "biome"
+				biome: "byg:glowstone_gardens"
+			}]
+			rewards: [
+				{
+					id: "69139E47CB1B1248"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "10B7A6A90BB04BA0"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Brimstone Caverns"
+			icon: {
+				id: "byg:brimstone"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -8.5d
+			y: -2.0d
+			subtitle: "Green with envy"
+			description: ["There isn't much here besides a lot of gross brown stone and green fire. Anthracite can be found here, which is like coal, but not."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "12AB0816B50B76A3"
+			tasks: [{
+				id: "11A66B5DB86B9E2A"
+				type: "biome"
+				biome: "byg:brimstone_caverns"
+			}]
+			rewards: [
+				{
+					id: "6493DB732CFB696C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3AF016080AE4587D"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Crimson Gardens"
+			icon: {
+				id: "minecraft:shroomlight"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -10.5d
+			y: -1.0d
+			subtitle: "Edgelord colors"
+			description: ["The ground in crimson gardens is made of blackstone. Huge crimson and warped fungi grow here, covered in shroomlights. Piglins, hoglins, and zombie piglins can be found here without the threat of crimson mosquitoes."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "10636292FD8A4C74"
+			tasks: [{
+				id: "185520B2C9452F71"
+				type: "biome"
+				biome: "byg:crimson_gardens"
+			}]
+			rewards: [
+				{
+					id: "2EDFE54270380E2F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6FB34D9D83BA75BF"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Magma Wastes"
+			icon: {
+				id: "byg:magmatic_stone"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -9.5d
+			y: -1.0d
+			subtitle: "Watch your step"
+			description: ["Magma wastes are a dangerous biome, full of fire hazards. Magma cubes spawn here in great numbers."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "2D622DD876C8590F"
+			tasks: [{
+				id: "39F0316EECE2AFBE"
+				type: "biome"
+				biome: "byg:magma_wastes"
+			}]
+			rewards: [
+				{
+					id: "1BED10CDFAC829B7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "76032729CD8A5021"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Quartz Desert"
+			icon: {
+				id: "byg:raw_quartz_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -8.5d
+			y: -1.0d
+			subtitle: "oof ouch my bones"
+			description: ["Quartz deserts are filled with spiky quartz crystals and many other types of quartz. The bones of ancient creatures hang from the ceiling. Not much lives here besides the occasional zombie piglin."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "53189BCF077D774E"
+			tasks: [{
+				id: "291FF55A791389F8"
+				type: "biome"
+				biome: "byg:quartz_desert"
+			}]
+			rewards: [
+				{
+					id: "35C12E6535CA1208"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "14857E69D0CF4241"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Subzero Hypogeal"
+			icon: {
+				id: "byg:subzero_crystal_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -10.5d
+			y: 0.0d
+			subtitle: "I should have brought my winter coat"
+			description: ["The subzero hypogeal is a rare, frozen biome filled with icy ash and frost magma. The ground is made of a white stone called travertine. Rarely, clusters of subzero crystals can be found. These crystals can be used to create and power a device called the Hypogeal Imperium. This device creates a frozen area around it. You know, just in case you wanted it to snow in the desert."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "086EA0A8A73810FC"
+			tasks: [{
+				id: "74A2DC316B72E971"
+				type: "biome"
+				biome: "byg:subzero_hypogeal"
+			}]
+			rewards: [
+				{
+					id: "099E0D1FD69D56EC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "18BFFCB4DFFCC4B4"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Sythian Torrids"
+			icon: {
+				id: "byg:sythian_stem"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -9.5d
+			y: 0.0d
+			subtitle: "What a lovely color"
+			description: ["The overgrown scythian torrids are a sort of... nether jungle. Unless you like the puke green color, there isn't much here for you. Hey, they can't all be winners."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "308E88071DDDF779"
+			tasks: [{
+				id: "1E254179A1CB7A8D"
+				type: "biome"
+				biome: "byg:sythian_torrids"
+			}]
+			rewards: [
+				{
+					id: "44EB891156C597AB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "48FCE18707BB9084"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Wailing Garth"
+			icon: {
+				id: "byg:wailing_nylium"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -8.5d
+			y: 0.0d
+			subtitle: "Purple stuff"
+			description: ["Chains big and small hang from the roof; strange circular structures rise from the ground. What is this place? The ground is not netherrack, but instead, scoria stone. Emeraldite can only be found here. Embodies spawn here in great numbers."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "0E5528CA5C90CD59"
+			tasks: [{
+				id: "797B87608208F87C"
+				type: "biome"
+				biome: "byg:wailing_garth"
+			}]
+			rewards: [
+				{
+					id: "4C361D7EBA16706D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6DA7AD2D81D0688D"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Warped Desert"
+			icon: {
+				id: "byg:nylium_soul_soil"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -10.5d
+			y: 1.0d
+			subtitle: "If I didn't like it in yellow, I certainly don't like it in cyan!"
+			description: ["Warped deserts are halfway between a soul sand valley and a warped forest. Huge numbers of warpbeetles spawn here, as well as zombie piglins and embodies."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "663B14128AEB0671"
+			tasks: [{
+				id: "68393CC96D8DD982"
+				type: "biome"
+				biome: "byg:warped_desert"
+			}]
+			rewards: [
+				{
+					id: "1C9CA3505F75D286"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4E7E6EB26C2E4C51"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Weeping Mire"
+			icon: {
+				id: "byg:lament_log"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -9.5d
+			y: 1.0d
+			subtitle: "I'm being dripped on"
+			description: [
+				""
+				"Weeping mires are overgrown with lament trees and lament vines, all constantly dripping purple fluid. There isn't much else here."
+			]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "6B5A589855B57799"
+			tasks: [{
+				id: "767B78306E4651B3"
+				type: "biome"
+				biome: "byg:weeping_mire"
+			}]
+			rewards: [
+				{
+					id: "2DC0F03684DDFD30"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6B10C27C96D827BD"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Withering Woods"
+			icon: {
+				id: "byg:withering_oak_log"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -8.5d
+			y: 1.0d
+			subtitle: "Forest of night"
+			description: ["Withering woods are dark forests of black withering oak trees, black magma, and black undergrowth. Embodies and magma cubes spawn here. Aside from the withering oaks, there isn't much of note here."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "65B56AB17F4202E0"
+			tasks: [{
+				id: "2BB3C0B2272E79A1"
+				type: "biome"
+				biome: "byg:withering_woods"
+			}]
+			rewards: [
+				{
+					id: "4AA85D94CB2C8F02"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "11DD78CC843B90F2"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -1.5d
+			shape: "octagon"
+			subtitle: "Dad, my feet hurt"
+			description: ["This is your reward for visiting every single nether biome! How long did that take?"]
+			dependencies: [
+				"02FC95F7BB887327"
+				"77AFC76820AFDE0E"
+				"5279A5BE2C19F5F0"
+				"4707CCDDE6E8D8E3"
+				"4A4393C7A4C558A9"
+				"2A6EECCD16FD7CBA"
+				"252D843CB76AFF3C"
+				"10636292FD8A4C74"
+				"65B56AB17F4202E0"
+				"4E26C89279B3EDE0"
+				"12AB0816B50B76A3"
+				"2D622DD876C8590F"
+				"086EA0A8A73810FC"
+				"53189BCF077D774E"
+				"308E88071DDDF779"
+				"6B5A589855B57799"
+				"663B14128AEB0671"
+				"0E5528CA5C90CD59"
+			]
+			id: "367B43E6207EB174"
+			tasks: [{
+				id: "198909C8E02C8FA8"
+				type: "advancement"
+				title: "Even Hotter Tourist Destinations"
+				icon: {
+					id: "upgradednetherite:fire_upgraded_netherite_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "317248A8F61A7E60"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0C863EF9BC2D7FBC"
+					type: "item"
+					item: {
+						id: "kubejs:netherite_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "5FACFD9F6742A4C8"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "35209E0BCA1D74D0"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -4.0d
+			subtitle: "No crying in baseball"
+			description: ["I'm sorry dad"]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "2C4F35635FBA70A2"
+			tasks: [{
+				id: "137DDD5F23D68561"
+				type: "item"
+				item: {
+					id: "minecraft:crying_obsidian"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 6L
+			}]
+			rewards: [{
+				id: "120DAE07245A067F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.5d
+			subtitle: "We're about to do a lot of dying"
+			description: ["You might also want to set up some graves around your respawn anchor, for fast returns"]
+			dependencies: ["2C4F35635FBA70A2"]
+			id: "6A2936058099B393"
+			tasks: [{
+				id: "34E4D92A9DD3A239"
+				type: "item"
+				item: {
+					id: "minecraft:respawn_anchor"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
@@ -2484,10 +2482,1033 @@
 				}
 			}]
 			rewards: [{
-				id: "531D19E0418DD589"
-				type: "ftbmoney:money"
-				ftb_money: 10L
+				id: "05FA36A8C215C94E"
+				type: "item"
+				item: {
+					id: "minecraft:glowstone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32
 			}]
+		}
+		{
+			title: "Dungeon diving"
+			icon: {
+				id: "infernalexp:charged_chiseled_soul_stone_bricks"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.5d
+			y: -8.5d
+			subtitle: "There are many structures to be found in the nether!"
+			dependencies: ["3012DE6CAB789E9B"]
+			id: "5EEDBD59FB59A00D"
+			tasks: [{
+				id: "14D71236534F7E78"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "2C38D05EC35D6CEC"
+				type: "item"
+				item: {
+					id: "apotheosis:potion_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Potion: "minecraft:strong_strength"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Guess what, it's boss time"
+			icon: {
+				id: "minecraft:nether_star"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.5d
+			y: -8.0d
+			subtitle: "Prepare for an epic battle!"
+			description: ["There are five bosses to fight in the Nether."]
+			dependencies: ["6A2936058099B393"]
+			id: "3012DE6CAB789E9B"
+			tasks: [{
+				id: "60F939C105EF6E0E"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "7365995076B18886"
+				type: "item"
+				item: {
+					id: "apotheosis:potion_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Potion: "minecraft:long_regeneration"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "majruszs_difficulty:wither_treasure_bag"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			disable_toast: true
+			x: -2.5d
+			y: -10.5d
+			subtitle: "You get nothing, good day sir! I said good day!"
+			description: ["You're in Expert Mode now. Go read the Wither quest in the Overworld chapter."]
+			dependencies: ["3012DE6CAB789E9B"]
+			id: "34F53A26B8A1AE5C"
+			tasks: [{
+				id: "5FA7A4929777E1F9"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3BC6A1078F706A5F"
+				type: "ftbmoney:money"
+				ftb_money: 1L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -11.0d
+			subtitle: "Hey, I've seen this before!"
+			description: [
+				"What do you mean, it's brand new!"
+				""
+				"Use a nether star to activate the Awful Ghast altar in the center of the Awful Dungeon."
+			]
+			dependencies: ["3012DE6CAB789E9B"]
+			id: "0609D52F68482C9C"
+			tasks: [{
+				id: "4DB9502CA100F91A"
+				type: "kill"
+				icon: {
+					id: "stalwart_dungeons:awful_ghast_altar"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "stalwart_dungeons:awful_ghast"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7C12D35B31923560"
+					type: "item"
+					team_reward: false
+					item: {
+						id: "minecraft:nether_star"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					only_one: true
+				}
+				{
+					id: "65CAF6C531271AC7"
+					type: "item"
+					item: {
+						id: "kubejs:netherite_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "003BB0A4CAD63240"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "04E9B6DBE0ABF17E"
+					type: "item"
+					item: {
+						id: "minecraft:gunpowder"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 64
+				}
+				{
+					id: "44CAEFEBB90949ED"
+					type: "item"
+					item: {
+						id: "minecraft:ghast_tear"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -10.0d
+			dependencies: ["3012DE6CAB789E9B"]
+			id: "25728F7125BB2887"
+			tasks: [{
+				id: "018F759111823070"
+				type: "kill"
+				icon: {
+					id: "stalwart_dungeons:nether_keeper_altar"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "stalwart_dungeons:nether_keeper"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "547E0BE7F93BCDFF"
+					type: "item"
+					team_reward: false
+					item: {
+						id: "minecraft:nether_star"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					only_one: true
+				}
+				{
+					id: "505CFB90D60B6E91"
+					type: "item"
+					item: {
+						id: "kubejs:netherite_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2AFBFC7B575600DD"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "06DB065A66092C06"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "stalwart_dungeons:thunder_strike"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0E60B5DB7E29B294"
+					type: "item"
+					item: {
+						id: "minecraft:nether_bricks"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 64
+				}
+				{
+					id: "369B22C914C2216B"
+					type: "item"
+					item: {
+						id: "minecraft:nether_wart"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -7.0d
+			subtitle: "Digging tunnels"
+			description: ["Find some ancient debris, whether it's from a structure or dug from deep below"]
+			dependencies: ["5EEDBD59FB59A00D"]
+			id: "54B0CEBC4F73DDB9"
+			tasks: [{
+				id: "24C4B6CCB070CF11"
+				type: "item"
+				item: {
+					id: "minecraft:ancient_debris"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0450598BD38B53E2"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "20D6D68BA5266CAF"
+					type: "item"
+					item: {
+						id: "apotheosis:potion_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Potion: "apotheosis:strong_haste"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Vein Goblin Trader"
+			x: 6.5d
+			y: -4.5d
+			subtitle: "Better than villagers"
+			description: ["Meet a vein goblin trader in the nether. He offers a trade of 5 netherite scrap for only 4 ancient debris!"]
+			dependencies: ["54B0CEBC4F73DDB9"]
+			id: "43796FAF36C4C69C"
+			tasks: [{
+				id: "698607DCC9D0DC2E"
+				type: "observation"
+				icon: {
+					id: "goblintraders:vein_goblin_trader_spawn_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "goblintraders:vein_goblin_trader"
+			}]
+			rewards: [
+				{
+					id: "703CBD22544AB950"
+					type: "item"
+					item: {
+						id: "minecraft:carrot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 10
+				}
+				{
+					id: "5EAB868B9B4F5190"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "alexsmobs:warped_mixture"
+			x: -4.0d
+			y: -11.0d
+			subtitle: "Gee I wonder what inspired this creature"
+			description: ["Get a crimson mosquito to drink the blood of a mungus with 5 warped fungi growing from it. Mungi spawn on mushroom islands, so you'll have to get one through a dimensional rift somehow. Perhaps you can sneak up on one and put it in a cage? For more information, check the Alex's Mobs guidebook."]
+			dependencies: ["3012DE6CAB789E9B"]
+			id: "3EA66B0015BA21CC"
+			tasks: [{
+				id: "17033EE65AB96516"
+				type: "kill"
+				entity: "alexsmobs:warped_mosco"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1860BF7CF00C61BF"
+					type: "item"
+					item: {
+						id: "kubejs:netherite_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "21F85D3F95D50822"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "693BC420F555A531"
+					type: "item"
+					item: {
+						id: "alexsmobs:mimicream"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -12.0d
+			subtitle: "Bad dog"
+			description: ["Create a 2x2 pool of lava framed by blackstone, then throw in an Orthus head as a sacrifice."]
+			dependencies: ["3012DE6CAB789E9B"]
+			id: "234A8C908A691348"
+			tasks: [{
+				id: "6EE943EDB5914B8B"
+				type: "kill"
+				icon: {
+					id: "greekfantasy:cerberus_head"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "greekfantasy:cerberus"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "557C83EA91DC6726"
+					type: "item"
+					item: {
+						id: "kubejs:netherite_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0DDC273CCE69154A"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "43C75CD21966EA42"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:fire_protection"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Bastion Remnant"
+			icon: {
+				id: "minecraft:gilded_blackstone"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.5d
+			y: -12.5d
+			subtitle: "Find a bastion remnant, full of gold and savage piglin brutes."
+			dependencies: ["5EEDBD59FB59A00D"]
+			id: "54B885448A183DB1"
+			tasks: [
+				{
+					id: "15384D88E268D973"
+					type: "structure"
+					structure: "minecraft:bastion_remnant"
+				}
+				{
+					id: "501F0AD825A9A170"
+					type: "kill"
+					entity: "minecraft:piglin_brute"
+					value: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "72D58F3794AB7BA5"
+					type: "item"
+					item: {
+						id: "vanillafoodpantry:golden_fruit_pie"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6F0BC69726C863EE"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:ghast_tear"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.5d
+			y: -12.5d
+			subtitle: "Find a soul prison, and suffer the storm of fireballs!"
+			dependencies: ["5EEDBD59FB59A00D"]
+			id: "196D2D7DC813D144"
+			tasks: [
+				{
+					id: "4A24696C736B6F78"
+					type: "structure"
+					structure: "dungeons_plus:soul_prison"
+				}
+				{
+					id: "3D15825F58BFCC38"
+					type: "advancement"
+					advancement: "minecraft:nether/return_to_sender"
+					criterion: ""
+				}
+			]
+		}
+		{
+			title: "Bastion Outpost"
+			icon: {
+				id: "infernalexp:rubble"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.5d
+			y: -13.5d
+			subtitle: "Find a Bastion Outpost and kill the Blackstone Dwarf guarding its treasures."
+			dependencies: ["5EEDBD59FB59A00D"]
+			id: "276871F9B8BDE57C"
+			tasks: [
+				{
+					id: "4F305B79D0FE751A"
+					type: "structure"
+					structure: "infernalexp:bastion_outpost"
+				}
+				{
+					id: "348596C20A996907"
+					type: "kill"
+					entity: "infernalexp:blackstone_dwarf"
+					value: 1L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -13.5d
+			subtitle: "Find a blaze-filled and loot-filled Nether City."
+			dependencies: ["5EEDBD59FB59A00D"]
+			id: "1B5AA2A9952CED55"
+			tasks: [{
+				id: "3CDE950D2CFCF0CB"
+				type: "structure"
+				structure: "repurposed_structures:city_nether"
+			}]
+		}
+		{
+			title: "Nether Stronghold"
+			icon: "minecraft:end_portal_frame"
+			x: 2.5d
+			y: -13.5d
+			subtitle: "What happens if you throw an eye of ender in the Nether?"
+			dependencies: ["5EEDBD59FB59A00D"]
+			id: "68E3891C15EFAB22"
+			tasks: [
+				{
+					id: "28947E8502EAEB25"
+					type: "observation"
+					title: "End Portal Frame"
+					icon: {
+						id: "minecraft:end_portal_frame"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "minecraft:end_portal_frame"
+				}
+				{
+					id: "2B9F1AD55E5162F9"
+					type: "dimension"
+					dimension: "minecraft:the_nether"
+				}
+			]
+		}
+		{
+			title: "Awful Dungeon"
+			icon: {
+				id: "stalwart_dungeons:awful_dungeon_spawner"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.5d
+			y: -11.5d
+			subtitle: "Find an awful dungeon, a great place to gather wither skulls."
+			dependencies: ["5EEDBD59FB59A00D"]
+			id: "38E519E51B4BC3B5"
+			tasks: [
+				{
+					id: "18E4DD0577F3C8AE"
+					type: "observation"
+					icon: {
+						id: "stalwart_dungeons:soul_magma_bricks"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "stalwart_dungeons:soul_magma_bricks"
+				}
+				{
+					id: "3F28E6BC53FAE55D"
+					type: "kill"
+					entity: "stalwart_dungeons:incomplete_wither"
+					value: 10L
+				}
+				{
+					id: "7FC0DA6E2A74B2E1"
+					type: "kill"
+					entity: "stalwart_dungeons:reinforced_blaze"
+					value: 10L
+				}
+			]
+		}
+		{
+			title: "Keeping Castle"
+			icon: {
+				id: "stalwart_dungeons:keeping_castle_spawner"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.5d
+			y: -11.5d
+			subtitle: "Find a Keeping Castle, full of strange blazes and infectious fungus."
+			dependencies: ["5EEDBD59FB59A00D"]
+			id: "5082DABD6BF7FD7E"
+			tasks: [
+				{
+					id: "756A1C11EAD2F65F"
+					type: "observation"
+					title: "Transient Block"
+					icon: {
+						id: "stalwart_dungeons:transient_block_close"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "stalwart_dungeons:transient_block_close"
+				}
+				{
+					id: "47E8D580AF100FC1"
+					type: "kill"
+					entity: "stalwart_dungeons:giddy_blaze"
+					value: 10L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			subtitle: "Never get lost!"
+			description: ["Or, you know, just use the map. These are kinda worthless in modded. At least they don't cost netherite any more."]
+			dependencies: ["3E18C4A8A4353E50"]
+			id: "6A711B3128AF6604"
+			tasks: [{
+				id: "7266D08B6F644410"
+				type: "item"
+				item: {
+					id: "minecraft:lodestone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F36A776D7149AD1"
+				type: "item"
+				item: {
+					id: "kubejs:nether_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			subtitle: "Start super enchanting"
+			description: ["Craft hellshelves to raise the maximum level of your enchanting table up to 45. More info in the enchanting section of the Overworld chapter."]
+			dependencies: ["682681EF1F0C9987"]
+			id: "30A917F962D7E40A"
+			tasks: [{
+				id: "14FE8533A894283F"
+				type: "item"
+				item: {
+					id: "apotheosis:hellshelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5537059D3EC4CA91"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "630517491DB2D2FD"
+					type: "item"
+					item: {
+						id: "minecraft:ghast_tear"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "What is this?"
+			x: -0.5d
+			y: -13.5d
+			subtitle: "Find a strange obsidian square. What could it have been for?"
+			dependencies: ["5EEDBD59FB59A00D"]
+			id: "1E5F26CAE9F71A8D"
+			tasks: [{
+				id: "7D6EFD86C4EB7587"
+				type: "structure"
+				icon: {
+					id: "minecraft:obsidian"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				structure: "minecraft:ruined_portal"
+			}]
+			rewards: [
+				{
+					id: "36A3C76D3E9CF937"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7F3A7C2C408AB323"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "What is this!?!"
+			x: 3.5d
+			y: -13.5d
+			subtitle: "Find a strange glowstone square in the glowstone valley. What could it have been for?"
+			dependencies: ["5EEDBD59FB59A00D"]
+			id: "754491B4A386FBBB"
+			tasks: [{
+				id: "17716DAAE3921CCF"
+				type: "structure"
+				icon: {
+					id: "minecraft:glowstone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				structure: "infernalexp:glowstone_canyon_ruin"
+			}]
+			rewards: [
+				{
+					id: "4F30E2C4713E765E"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "60CE7A9481734568"
+					type: "item"
+					item: {
+						id: "minecraft:water_bucket"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Meet a piglin"
+			x: 3.5d
+			y: 2.5d
+			subtitle: "Take this for next time"
+			dependencies: ["73EB5ADA3E2B4A50"]
+			id: "23C1E2D224A118A2"
+			tasks: [{
+				id: "217001A925C449D8"
+				type: "observation"
+				icon: {
+					id: "spartanweaponry:piglin_head"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:piglin"
+			}]
+			rewards: [
+				{
+					id: "529EF94A4487DE0E"
+					type: "item"
+					item: {
+						id: "minecraft:golden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "60D207D0D60D8CCA"
+					type: "item"
+					item: {
+						id: "minecraft:cooked_porkchop"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+			]
 		}
 	]
 }
