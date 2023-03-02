@@ -2528,9 +2528,21 @@
 			description: ["The seal is a cute, if not loud, creature frequently found on beaches or icebergs. Usually they are found sleeping but are very good swimmers. Giving a seal three fish with \"trade\" with the seal and they will dive into the water and bring back a sea related item (some are valuable). Can be bred with lobster tails."]
 			id: "5A0A76BD018B4C93"
 			tasks: [{
-				id: "197A98242A90B910"
-				type: "checkmark"
-				title: "Seal Encountered"
+				id: "2CC93480B5927DA9"
+				type: "observation"
+				title: "Seal"
+				icon: {
+					id: "alexsmobs:spawn_egg_seal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:seal"
 			}]
 			rewards: [{
 				id: "621DD7E6E8D3606C"
@@ -2551,9 +2563,21 @@
 			description: ["Shoebills are strange birds that inhabit swamps and will flee if attacked. They are more of solitary fishmen and won't keep all of their catch which can be picked up. They can be fed Crocodile eggs to increase the lure of their catches and Blobfish to increase the luck of their catch. They cannot be bred."]
 			id: "249C1132B4C26334"
 			tasks: [{
-				id: "03E5690E11AA0C47"
-				type: "checkmark"
-				title: "Shoebill Encountered"
+				id: "1C1987E5C7055D6B"
+				type: "observation"
+				title: "Shoebill"
+				icon: {
+					id: "alexsmobs:spawn_egg_shoebill"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:shoebill"
 			}]
 			rewards: [{
 				id: "78754F8B4C96B3FE"
@@ -2574,9 +2598,21 @@
 			description: ["The Snow Leopard is a big cat found in snowy mountain area where they live in solitude. They won't be aggressive to players but love hunting and will protect themselves. While hunting they often create extra drops due to their skill (like high luck). They cannot be tamed but can be bred with Moose Ribs. "]
 			id: "782985747FDE09EA"
 			tasks: [{
-				id: "2B166C07821F73AF"
-				type: "checkmark"
-				title: "Snow Leopard Encountered"
+				id: "3674C17F4A219029"
+				type: "observation"
+				title: "Snow Leopard"
+				icon: {
+					id: "alexsmobs:spawn_egg_snow_leopard"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:snow_leopard"
 			}]
 			rewards: [{
 				id: "4B5390A324FFA24A"
@@ -2600,9 +2636,21 @@
 			]
 			id: "0AE3D19B46EFA9D1"
 			tasks: [{
-				id: "3734C4A298D233E4"
-				type: "checkmark"
-				title: "Crow Encountered"
+				id: "617A316883CEFD16"
+				type: "observation"
+				title: "Crow"
+				icon: {
+					id: "alexsmobs:spawn_egg_crow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:crow"
 			}]
 			rewards: [{
 				id: "1282C934E5B760F1"
@@ -2623,9 +2671,21 @@
 			description: ["Mungi are mushroom creatures found in different Mushroom biomes. They are completely passive. They have mushroomson them that on them that they will grow more of depending on the biome. They have a chance of creating giant mushrooms. If killed with 5 mushrooms on it, it will explode and spread their mushroom covering them. They can be bred with Mushroom Stew."]
 			id: "365AD0B3FADC70B1"
 			tasks: [{
-				id: "3F02A31D66A19AAE"
-				type: "checkmark"
-				title: "Mungus Encountered"
+				id: "4A654648C41C79D9"
+				type: "observation"
+				title: "Mungus"
+				icon: {
+					id: "alexsmobs:spawn_egg_mungus"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:mungus"
 			}]
 			rewards: [
 				{
@@ -2656,9 +2716,21 @@
 			]
 			id: "36086B5B081E1FE7"
 			tasks: [{
-				id: "2A3E156CC6B9B96B"
-				type: "checkmark"
-				title: "Platypus Encountered"
+				id: "7A86119EE7CA0E32"
+				type: "observation"
+				title: "Platypus"
+				icon: {
+					id: "alexsmobs:spawn_egg_platypus"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:platypus"
 			}]
 			rewards: [{
 				id: "7BCA9F8F78AB1428"
@@ -2679,9 +2751,21 @@
 			description: ["The Tasmanian Devil is a small creature found in temperate forests. They can be found in groups making growling noises. They will also heartily defend themselves if attacked. Can be fed rotten flesh to release a howl to scare away all monsters for a time. They cannot be tamed but can be bred with meat."]
 			id: "44E83C7E2B80B35F"
 			tasks: [{
-				id: "1B4280C7AA14546E"
-				type: "checkmark"
-				title: "Tasmanian Devil Encountered"
+				id: "7718FF131B0BF706"
+				type: "observation"
+				title: "Tasmanian Devil"
+				icon: {
+					id: "alexsmobs:spawn_egg_tasmanian_devil"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:tasmanian_devil"
 			}]
 			rewards: [{
 				id: "61721ACBF1603562"
@@ -2702,9 +2786,21 @@
 			description: ["Raccoons are natives of plains and forests where they can be seen foraging for food. They will come up to players to beg if food is being held but they will also steal food from chests. Will wash food when near water. Can be tamed when given an egg near water and can be bred with bread."]
 			id: "5AF05B20BB414210"
 			tasks: [{
-				id: "3A7584CFC76C55E5"
-				type: "checkmark"
-				title: "Raccoon Encountered"
+				id: "49FC758D86668539"
+				type: "observation"
+				title: "Raccoon"
+				icon: {
+					id: "alexsmobs:spawn_egg_raccoon"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:raccoon"
 			}]
 			rewards: [{
 				id: "5C0FF384D71A826C"
@@ -2725,9 +2821,21 @@
 			description: ["The Gazelle is a small creature of the savannas is very timid and prefers its large groups which will flee at the first sign of danger."]
 			id: "617FBFA90048602D"
 			tasks: [{
-				id: "7B953C134B4B9D34"
-				type: "checkmark"
-				title: "Gazelle Encountered"
+				id: "40DBF5969ABB4E8F"
+				type: "observation"
+				title: "Gazelle"
+				icon: {
+					id: "alexsmobs:spawn_egg_gazelle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:gazelle"
 			}]
 			rewards: [{
 				id: "535B1936F6BCB6D6"
@@ -2792,9 +2900,21 @@
 			]
 			id: "3705153037F1DDEE"
 			tasks: [{
-				id: "6E10393222B9B3FB"
-				type: "checkmark"
-				title: "Moose Encountered"
+				id: "6033D9052F201CE6"
+				type: "observation"
+				title: "Moose"
+				icon: {
+					id: "alexsmobs:spawn_egg_moose"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:moose"
 			}]
 			rewards: [
 				{
@@ -2825,9 +2945,21 @@
 			]
 			id: "6BC74F4BAEA808FF"
 			tasks: [{
-				id: "41F14FF24FEB6C4E"
-				type: "checkmark"
-				title: "Komodo Dragon Encountered"
+				id: "4B357D8812F881B3"
+				type: "observation"
+				title: "Komodo Dragon"
+				icon: {
+					id: "alexsmobs:spawn_egg_komodo_dragon"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:komodo_dragon"
 			}]
 			rewards: [{
 				id: "2F797E77AFEA73A8"
@@ -2848,9 +2980,21 @@
 			description: ["The Roadrunner is a quick ground bird that can be found in deserts and badlands. They are predator of Rattlesnakes. Can be bred with maggots."]
 			id: "32F7D28F7B29709C"
 			tasks: [{
-				id: "2F70AE2127CF9BD6"
-				type: "checkmark"
-				title: "Roadrunner Encountered"
+				id: "04AD791F15719F0C"
+				type: "observation"
+				title: "Roadrunner"
+				icon: {
+					id: "alexsmobs:spawn_egg_roadrunner"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:roadrunner"
 			}]
 			rewards: [{
 				id: "751F3F802322873E"
@@ -2871,9 +3015,21 @@
 			description: ["A rare underground bug that can be found deep down. It slowly moves but it has a powerful bite and is poisonous."]
 			id: "3231E98238491AF0"
 			tasks: [{
-				id: "1B833EB81F91BAA8"
-				type: "checkmark"
-				title: "Cave Centipede Encountered"
+				id: "1CBFA39AB4589B71"
+				type: "observation"
+				title: "Cave Centipede"
+				icon: {
+					id: "alexsmobs:spawn_egg_centipede"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:centipede_head"
 			}]
 			rewards: [
 				{
@@ -2915,9 +3071,21 @@
 			]
 			id: "3B5935EFBF9C27D7"
 			tasks: [{
-				id: "08E6F1F0A7B5A54E"
-				type: "checkmark"
-				title: "Cockroach Encountered"
+				id: "47F5DCA1294B0DEB"
+				type: "observation"
+				title: "Cockroach"
+				icon: {
+					id: "alexsmobs:spawn_egg_cockroach"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:cockroach"
 			}]
 			rewards: [{
 				id: "061AD01051C06419"
@@ -2938,9 +3106,21 @@
 			description: ["A Lobster is a small sea creature found in the water right off the beach. They will pinch anything aggresive to them but usually won't chase. Can come in a number of colors."]
 			id: "493146EF96766BF4"
 			tasks: [{
-				id: "02C48EBD34FB1A3C"
-				type: "checkmark"
-				title: "Lobster Encountered"
+				id: "04232F2D49033D32"
+				type: "observation"
+				title: "Lobster"
+				icon: {
+					id: "alexsmobs:spawn_egg_lobster"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:lobster"
 			}]
 			rewards: [{
 				id: "0D3AE27787779FE9"
@@ -2961,9 +3141,21 @@
 			description: ["This..... squishy fish is usually found deep in oceans. When a slimeball is used on a blobfish will allow it to survive on land."]
 			id: "2142DDB9A0AF6B94"
 			tasks: [{
-				id: "6A2D1EB640ED231C"
-				type: "checkmark"
-				title: "Blobfish Encountered"
+				id: "3ED5AAA8C71CB733"
+				type: "observation"
+				title: "Blobfish"
+				icon: {
+					id: "alexsmobs:spawn_egg_blobfish"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:blobfish"
 			}]
 			rewards: [{
 				id: "2E6F7297801F88E0"
@@ -2984,9 +3176,21 @@
 			description: ["A Hammerhead Shark are a large creature native in warmer oceans. It is a predator of any creature below half health."]
 			id: "2C2D57D238A96C47"
 			tasks: [{
-				id: "53C361BF979CBC5C"
-				type: "checkmark"
-				title: "Hammerhead Shark Encountered"
+				id: "32CBFE9471A8B5D5"
+				type: "observation"
+				title: "Hammerhead Shark"
+				icon: {
+					id: "alexsmobs:spawn_egg_hammerhead_shark"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:hammerhead_shark"
 			}]
 			rewards: [{
 				id: "20ECCF756CC54EDE"
@@ -3007,9 +3211,21 @@
 			description: ["This large animal of the End is a peaceful floating creature that is happy spending its days just floating around Chorus Forests eating chorus fruits. You can lure a Endergrade over to you by holding a Chorus fruit which you can also use to breed them."]
 			id: "3CD714A755372F99"
 			tasks: [{
-				id: "4CC884AF1B78D455"
-				type: "checkmark"
-				title: "Endergrade Encountered"
+				id: "4D0FF467DC7E8FF7"
+				type: "observation"
+				title: "Endergrade"
+				icon: {
+					id: "alexsmobs:spawn_egg_endergrade"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:endergrade"
 			}]
 			rewards: [{
 				id: "453DF25531B70071"
@@ -3030,9 +3246,21 @@
 			description: ["A slime relative of the End found typically in End Cities. Have very powerful magical abilities of mimicing an attackers weapons and armor."]
 			id: "54A887A01A32BB84"
 			tasks: [{
-				id: "1B2BDECD58C9963B"
-				type: "checkmark"
-				title: "Mimicube Encountered"
+				id: "76E60071ABEBB37D"
+				type: "observation"
+				title: "Mimicube"
+				icon: {
+					id: "alexsmobs:spawn_egg_mimicube"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:mimicube"
 			}]
 			rewards: [{
 				id: "52D6521BBC52700F"
@@ -3053,9 +3281,21 @@
 			description: ["The Bone Serpent is a native of the lava lakes of the Nether where it preys on almost everything, especially Wither Skeletons."]
 			id: "6C2B0968097E6A03"
 			tasks: [{
-				id: "2F90E30454A80EFC"
-				type: "checkmark"
-				title: "Bone Serpent Encountered"
+				id: "20A07548BED44AD5"
+				type: "observation"
+				title: "Bone Serpent"
+				icon: {
+					id: "alexsmobs:spawn_egg_bone_serpent"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:bone_serpent"
 			}]
 			rewards: [{
 				id: "0370ACA924ABCEFF"
@@ -3075,11 +3315,30 @@
 			y: 9.5d
 			description: ["The Dropbear is an evil creature native to the Nether Wastes. It hangs from the ceiling where it waits for things to walk beneath it to drop down upon and attack."]
 			id: "0544039A394BA4C5"
-			tasks: [{
-				id: "3904F121483CB9A9"
-				type: "checkmark"
-				title: "Dropbear Encountered"
-			}]
+			tasks: [
+				{
+					id: "3904F121483CB9A9"
+					type: "checkmark"
+					title: "Dropbear Encountered"
+				}
+				{
+					id: "02FCD11BA9A44382"
+					type: "observation"
+					title: "Dropbear"
+					icon: {
+						id: "alexsmobs:spawn_egg_dropbear"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 0L
+					observe_type: 5
+					to_observe: "alexsmobs:dropbear"
+				}
+			]
 			rewards: [{
 				id: "2B0A0D2830DC0523"
 				type: "xp"
