@@ -529,17 +529,17 @@
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk, , 0 is 0%
-		"Chance Per Chunk" = 0.2
+		"Chance Per Chunk" = 0.222
 		"Min Mob Count" = 5
 		"Min Y" = 5
 		"Max Y" = 30
 		"Max Mob Count" = 8
-		"Enable Extra Loot Table" = true
+		"Enable Extra Loot Table" = false
 		#How many blocks to search vertically from a position before trying to place a block. Higher means you'll get more boxes in open spaces.
-		"Search Range" = 6
+		"Search Range" = 8
 
 		[world.monster_box.dimensions]
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = ["minecraft:overworld","minecraft:the_nether","twilightforest:twilightforest","atum:atum","mining_dimension:mining"]
 			"Is Blacklist" = false
 
 	[world.cave_crystal_underground_biome]
