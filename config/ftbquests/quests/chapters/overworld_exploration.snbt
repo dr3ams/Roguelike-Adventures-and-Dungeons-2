@@ -1592,7 +1592,7 @@
 		}
 		{
 			title: "Go full nomad!"
-			x: 5.5d
+			x: 4.5d
 			y: -3.5d
 			dependencies: ["17FC433734DE388E"]
 			id: "221A3D2E31B74520"
@@ -1647,7 +1647,14 @@
 			tasks: [{
 				id: "101265A52585691D"
 				type: "item"
-				item: "minecraft:dark_oak_boat"
+				title: "Any #minecraft:boats"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:boats"
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -3735,13 +3742,16 @@
 		{
 			title: "Nomadic dreams"
 			x: 5.5d
-			y: -4.5d
+			y: -4.0d
 			description: [
 				"Modpack encourages many different playstyles including nomadic exploring!"
 				""
 				"These items will help you with that. Though it may take time to gather them all..."
 			]
-			dependencies: ["221A3D2E31B74520"]
+			dependencies: [
+				"6564CCC871E811E4"
+				"221A3D2E31B74520"
+			]
 			id: "21D9206B88C5DE16"
 			tasks: [
 				{
@@ -3919,6 +3929,19 @@
 		{
 			x: 5.0d
 			y: -2.0d
+			description: [
+				"You can wear backpacks in your Back curio slot or on your Chest."
+				""
+				"The Open Backpack keybind can be used to open the backpack from your curios, or chest, hotbar, or inventory in that order."
+				""
+				"The keybind also works by hovering over the backpack you want to open, while not having a backpack already open."
+				""
+				"You can also place backpacks on the ground by sneak-using them. This allows them to be connected to a Simple Storage Network via cables."
+				""
+				""
+				""
+				"NOTICE: There is currently a bug with items not stacking when using a magnet. We cannot fix this on our end. Please use the Sort Container button (or Sort Backpack keybind) as a workaround."
+			]
 			dependencies: ["18FF6DA5335C0711"]
 			id: "6564CCC871E811E4"
 			tasks: [{
@@ -4693,6 +4716,7 @@
 			hide_dependency_lines: false
 			dependencies: ["76CDF977DD44821E"]
 			hide: true
+			optional: true
 			id: "2ED6AA00DF16FDBC"
 			tasks: [{
 				id: "6FEA670A38266F94"
@@ -5302,15 +5326,7 @@
 				id: "73E91283ED684744"
 				type: "observation"
 				title: "Reforging?"
-				icon: {
-					id: "minecraft:smithing_table"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				icon: "minecraft:smithing_table"
 				timer: 80L
 				observe_type: 0
 				to_observe: "minecraft:smithing_table"
