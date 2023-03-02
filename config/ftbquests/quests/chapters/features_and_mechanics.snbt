@@ -92,7 +92,7 @@
 	quests: [
 		{
 			icon: "itemfilters:weak_nbt"
-			x: -0.5d
+			x: -1.0d
 			y: -0.5d
 			description: [
 				"There are couple of new mechanics that this pack employs, descriptions of which you will find following this quest."
@@ -127,7 +127,7 @@
 					}
 				}
 			}
-			x: -2.0d
+			x: -2.5d
 			y: -0.5d
 			description: [
 				"- Piglins now have a reputation system that works similarly to Villagers. Doing things like fighting alongside them against Wither mobs, giving them gifts and bartering with them increases your reputation. Doing things like hurting or killing Piglin mobs and engaging in unauthorized mining/chest opening around them decreases your reputation."
@@ -206,7 +206,7 @@
 		}
 		{
 			icon: "ars_nouveau:ritual_moonfall"
-			x: -2.0d
+			x: -2.5d
 			y: -2.0d
 			description: [
 				"Blood Moon:"
@@ -274,7 +274,7 @@
 		}
 		{
 			icon: "ars_nouveau:glyph_haste"
-			x: -1.0d
+			x: -1.5d
 			y: -2.0d
 			subtitle: "In-Depth, Well Balanced and Seamlessly Integrated Dodging"
 			description: [
@@ -372,7 +372,7 @@
 		}
 		{
 			icon: "archers_paradox:redstone_arrow"
-			x: 0.0d
+			x: 0.5d
 			y: -2.0d
 			description: [
 				"Each animal and human being can now bleed. This is an effect that deals damage similar to poison and can be removed using a new item: Bandages. The chance of bleeding is lower the more pieces of armor you have."
@@ -1635,11 +1635,8 @@
 		}
 		{
 			icon: {
-				id: "rats:farmer_hat"
+				id: "kubejs:mark_miner"
 				Count: 1b
-				tag: {
-					Damage: 0
-				}
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -1648,12 +1645,56 @@
 			}
 			x: 3.0d
 			y: 5.0d
-			description: ["If you need some starting equipment go to the specilization section."]
+			description: ["If you need some starting equipment go to the specialization section."]
 			id: "0A8694E6D7E5B93E"
 			tasks: [{
 				id: "2371A22BE0EE5213"
 				type: "checkmark"
-				title: "Specilization"
+				title: "Specialization"
+			}]
+		}
+		{
+			icon: {
+				id: "ars_nouveau:glyph_leap"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -0.5d
+			y: -2.0d
+			subtitle: "Even more new movement features!"
+			description: [
+				"Wall Cling: Jump towards a wall and hold the wall jump key"
+				""
+				"Wall Jump: While wall clinging, keep holding W and let go of the wall jump key to wall jump"
+				""
+				"You can chain together wall jumps to go as high as you want!"
+			]
+			dependencies: ["56127AAF761DC8DA"]
+			id: "0617314E10C6AEF9"
+			tasks: [{
+				id: "5E69C9DEC9B3F925"
+				type: "checkmark"
+				title: "Wall-Jump!"
+			}]
+			rewards: [{
+				id: "19A9DBC835F1A160"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:leaping"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 	]
