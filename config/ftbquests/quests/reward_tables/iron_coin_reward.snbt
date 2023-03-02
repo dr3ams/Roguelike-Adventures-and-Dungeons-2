@@ -14,7 +14,6 @@
 				}
 			}
 		}
-		{ item: "kubejs:copper_coin", count: 3 }
 		{ item: "minecraft:iron_ore", random_bonus: 5 }
 		{
 			item: {
@@ -48,16 +47,19 @@
 		{ item: "minecraft:wolf_spawn_egg" }
 		{ item: "minecraft:sand", count: 64 }
 		{ item: "randomite:randomite_ore", count: 3 }
-		{
-			item: {
-				id: "ftbquests:lootcrate"
-				Count: 1b
-				tag: {
-					type: "hat_crate"
-				}
-			}
-		}
 		{ item: "kubejs:diamond_nugget", count: 3 }
 		{ item: "kubejs:emerald_nugget", count: 3 }
+		{
+			item: {
+				id: "byg:therium_crystal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+		}
 	]
 }

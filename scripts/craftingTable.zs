@@ -60,8 +60,8 @@ craftingTable.removeByName("vanillafoodpantry:optional/magma_cream_from_lava_san
 
 
 
-craftingTable.removeRecipe(<item:prefab:block_glass_slab>);
-craftingTable.addShaped("slabs_glass", <item:prefab:block_glass_slab> * 4, [[<tag:items:forge:glass>], [<tag:items:forge:glass>]]);
+//craftingTable.removeRecipe(<item:prefab:block_glass_slab>);
+//craftingTable.addShaped("slabs_glass", <item:prefab:block_glass_slab> * 4, [[<tag:items:forge:glass>], [<tag:items:forge:glass>]]);
 
 craftingTable.addShapeless("stringball", <item:minecraft:string> * 2, [<item:greekfantasy:web_ball>]);
 

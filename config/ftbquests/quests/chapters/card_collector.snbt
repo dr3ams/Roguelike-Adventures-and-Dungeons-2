@@ -56,7 +56,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -6.5d
 			y: -1.0d
 			dependencies: ["1DE4A35D25A72E39"]
 			id: "312DF6CA3EF88EEC"
@@ -72,7 +72,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -4.5d
 			y: -1.0d
 			dependencies: ["5723524002CB3506"]
 			id: "4A125BB4E286F66F"
@@ -88,7 +88,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -3.5d
 			y: -1.0d
 			dependencies: ["15678BF1DFB96A0D"]
 			id: "1E93779244208DE7"
@@ -104,7 +104,7 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -9.0d
 			y: -1.0d
 			dependencies: ["755E2CFEEE714CDF"]
 			id: "0F0D5540DEA4991C"
@@ -120,7 +120,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -2.5d
 			y: -1.5d
 			dependencies: ["1E93779244208DE7"]
 			id: "1309A15EBDCE9CC0"
@@ -143,7 +143,7 @@
 			]
 		}
 		{
-			x: -5.0d
+			x: -4.5d
 			y: 0.5d
 			shape: "hexagon"
 			dependencies: ["2D701990943C8711"]
@@ -168,7 +168,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -3.5d
 			y: 0.5d
 			shape: "hexagon"
 			dependencies: ["2D701990943C8711"]
@@ -193,7 +193,7 @@
 			}]
 		}
 		{
-			x: -8.0d
+			x: -8.5d
 			y: 0.5d
 			shape: "hexagon"
 			dependencies: ["28F93FBC71FE32C9"]
@@ -243,7 +243,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: 0.5d
 			y: 0.5d
 			shape: "hexagon"
 			dependencies: ["13A1FDF318A13944"]
@@ -268,7 +268,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -5.5d
 			y: -2.5d
 			dependencies: ["4A125BB4E286F66F"]
 			id: "1AAEF899244D93A1"
@@ -299,9 +299,9 @@
 			]
 		}
 		{
-			x: -5.0d
+			x: -4.5d
 			y: -4.0d
-			dependencies: ["1AAEF899244D93A1"]
+			dependencies: ["4A125BB4E286F66F"]
 			id: "37357B90A50B5CB2"
 			tasks: [{
 				id: "29B59D8385EF4CED"
@@ -330,7 +330,7 @@
 			]
 		}
 		{
-			x: -3.0d
+			x: -2.5d
 			y: -2.5d
 			dependencies: ["1E93779244208DE7"]
 			id: "562715F94F8C6A28"
@@ -361,9 +361,9 @@
 			]
 		}
 		{
-			x: -3.0d
+			x: -3.5d
 			y: -4.0d
-			dependencies: ["562715F94F8C6A28"]
+			dependencies: ["1E93779244208DE7"]
 			id: "7E5D0BB6092D9F9F"
 			tasks: [{
 				id: "088FB2F189769E3A"
@@ -445,8 +445,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -2.5d
+			x: -8.0d
+			y: -1.5d
 			dependencies: ["0F0D5540DEA4991C"]
 			id: "0A46CC49E9D7A01C"
 			tasks: [{
@@ -476,9 +476,9 @@
 			]
 		}
 		{
-			x: -8.5d
+			x: -9.0d
 			y: -4.0d
-			dependencies: ["0A46CC49E9D7A01C"]
+			dependencies: ["0F0D5540DEA4991C"]
 			id: "0AEB98BB01E9A5B4"
 			tasks: [{
 				id: "2C0D76542D86FC50"
@@ -531,8 +531,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -2.0d
+			x: -1.5d
+			y: -2.5d
 			dependencies: ["02CA31AE2A00751F"]
 			id: "480CC6B3F35E646A"
 			tasks: [{
@@ -562,7 +562,7 @@
 			]
 		}
 		{
-			x: 0.5d
+			x: 1.0d
 			y: -1.0d
 			dependencies: ["3D628FBE675C6335"]
 			id: "27E7C67A70F4297F"
@@ -586,8 +586,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -2.5d
+			x: 0.0d
+			y: -1.5d
 			dependencies: ["27E7C67A70F4297F"]
 			id: "673036E413A49C1D"
 			tasks: [{
@@ -652,9 +652,9 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 1.0d
 			y: -4.0d
-			dependencies: ["673036E413A49C1D"]
+			dependencies: ["27E7C67A70F4297F"]
 			id: "4A67FB1795C648A9"
 			tasks: [{
 				id: "12A4CCD02AA7CBB9"
@@ -960,7 +960,7 @@
 		{
 			x: -1.0d
 			y: -4.0d
-			dependencies: ["480CC6B3F35E646A"]
+			dependencies: ["02CA31AE2A00751F"]
 			id: "30EEE82311D7C52C"
 			tasks: [{
 				id: "1796C12CDA5E8AB6"
@@ -989,9 +989,9 @@
 			]
 		}
 		{
-			x: -7.0d
+			x: -6.5d
 			y: -4.0d
-			dependencies: ["1F8B09792F9726B7"]
+			dependencies: ["312DF6CA3EF88EEC"]
 			id: "2B3DC3711BD1D8B4"
 			tasks: [{
 				id: "55B56B6D3C2FE5A3"
@@ -1051,7 +1051,7 @@
 			]
 		}
 		{
-			x: -6.5d
+			x: -6.0d
 			y: 0.5d
 			shape: "hexagon"
 			dependencies: ["2D701990943C8711"]
@@ -1170,7 +1170,6 @@
 		{
 			x: -1.0d
 			y: 8.0d
-			description: ["Acquired from trading with Enderlings."]
 			id: "67217E4BABFC629B"
 			tasks: [{
 				id: "5551EEC1EA31F0FD"

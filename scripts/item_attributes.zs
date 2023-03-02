@@ -20,7 +20,7 @@ import crafttweaker.api.recipe.Replacer;
 <item:twilightforest:ore_magnet>.maxDamage = 64;
 
 //nerf bulldozer durability to 3
-<item:prefab:item_bulldozer>.maxDamage = 3;
+//<item:prefab:item_bulldozer>.maxDamage = 3;
 
 //christmas hat luck nerfed from 50 to 3, speed from +0.05 to +0.02 (+20% speed)
 <item:tombstone:christmas_hat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.luck>, "e6f5182f-39e8-4f5d-9998-fc9ddf7c969e", "Christmas hat luck bonus", -47, ADDITION, [<equipmentslottype:head>]);

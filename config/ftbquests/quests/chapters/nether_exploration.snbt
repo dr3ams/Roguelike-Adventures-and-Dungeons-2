@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 1.5d
-			y: -0.75d
+			x: 0.5d
+			y: -1.5d
 			shape: "octagon"
 			subtitle: "Has nothing to do with flint and steel"
 			description: ["For information on how to enter and exit the Nether, refer to the \"New nether portal mechanics\" quest in the \"Features | Mechanics\" chapter."]
@@ -68,8 +68,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 1.5d
+			x: 5.5d
+			y: 0.5d
 			dependencies: ["65760A3965C0610B"]
 			id: "22AD943138F5C856"
 			tasks: [{
@@ -91,8 +91,8 @@
 			]
 		}
 		{
-			x: 5.5d
-			y: -0.5d
+			x: 5.0d
+			y: -1.5d
 			dependencies: ["65760A3965C0610B"]
 			id: "3B5966CE0415E109"
 			tasks: [{
@@ -114,8 +114,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: -2.5d
+			x: 5.5d
+			y: -3.5d
 			dependencies: ["65760A3965C0610B"]
 			id: "1F32E351FBF052A2"
 			tasks: [{
@@ -137,8 +137,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: 1.5d
+			x: 9.5d
+			y: 0.5d
 			dependencies: ["65760A3965C0610B"]
 			id: "363BD95AA810F14F"
 			tasks: [{
@@ -160,8 +160,8 @@
 			]
 		}
 		{
-			x: 10.5d
-			y: -0.5d
+			x: 10.0d
+			y: -1.5d
 			dependencies: ["65760A3965C0610B"]
 			id: "56ADA502CFC3807D"
 			tasks: [{
@@ -183,8 +183,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: -2.5d
+			x: 9.5d
+			y: -3.5d
 			dependencies: ["65760A3965C0610B"]
 			id: "4FC103EC12228BBB"
 			tasks: [{
@@ -206,8 +206,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -3.0d
+			x: 7.5d
+			y: -4.0d
 			dependencies: ["65760A3965C0610B"]
 			id: "6D57242610098E42"
 			tasks: [{
@@ -229,8 +229,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 2.0d
+			x: 7.5d
+			y: 1.0d
 			dependencies: ["65760A3965C0610B"]
 			id: "42D44EE61E2CEF2E"
 			tasks: [{
@@ -252,8 +252,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -0.5d
+			x: 7.5d
+			y: -1.5d
 			shape: "gear"
 			subtitle: "A lot of work for a little ingot"
 			description: ["Netherite tools, weapons, and armor aren't the best things in this pack, but they are still quite good. They can be upgraded down many different paths, depending on your preference. Netherite is also used for quite a few things besides just gear."]
@@ -297,8 +297,8 @@
 		}
 		{
 			title: "Golderite Armor"
-			x: 4.5d
-			y: 0.0d
+			x: 4.0d
+			y: -1.0d
 			dependencies: ["3B5966CE0415E109"]
 			id: "6727E197F4283EAD"
 			tasks: [
@@ -367,8 +367,8 @@
 		}
 		{
 			title: "Prismarite Armor"
-			x: 11.5d
-			y: -1.0d
+			x: 11.0d
+			y: -2.0d
 			dependencies: ["56ADA502CFC3807D"]
 			id: "602F6BB604D64DDA"
 			tasks: [
@@ -437,8 +437,8 @@
 		}
 		{
 			title: "Enderite Armor"
-			x: 8.5d
-			y: 3.0d
+			x: 8.0d
+			y: 2.0d
 			dependencies: ["42D44EE61E2CEF2E"]
 			id: "179CE2F43D189547"
 			tasks: [
@@ -507,8 +507,8 @@
 		}
 		{
 			title: "Blazerite Armor"
-			x: 5.5d
-			y: 2.5d
+			x: 5.0d
+			y: 1.5d
 			dependencies: ["22AD943138F5C856"]
 			id: "3EF22104C917962E"
 			tasks: [
@@ -577,8 +577,8 @@
 		}
 		{
 			title: "Featherite Armor"
-			x: 10.5d
-			y: -3.5d
+			x: 10.0d
+			y: -4.5d
 			dependencies: ["4FC103EC12228BBB"]
 			id: "2B235A1B58499000"
 			tasks: [
@@ -647,8 +647,8 @@
 		}
 		{
 			title: "Phanterite Armor"
-			x: 7.5d
-			y: -4.0d
+			x: 7.0d
+			y: -5.0d
 			dependencies: ["6D57242610098E42"]
 			id: "1D0C9364745C4EDE"
 			tasks: [
@@ -717,8 +717,8 @@
 		}
 		{
 			title: "Spiderite Armor"
-			x: 11.0d
-			y: 2.0d
+			x: 10.5d
+			y: 1.0d
 			dependencies: ["363BD95AA810F14F"]
 			id: "74D61CFA5A3395DB"
 			tasks: [
@@ -787,8 +787,8 @@
 		}
 		{
 			title: "Witherite Armor"
-			x: 5.0d
-			y: -2.5d
+			x: 4.5d
+			y: -3.5d
 			dependencies: ["1F32E351FBF052A2"]
 			id: "004D06A98BA5D542"
 			tasks: [
@@ -857,8 +857,8 @@
 		}
 		{
 			title: "Golderite Arms"
-			x: 4.5d
-			y: -1.0d
+			x: 4.0d
+			y: -2.0d
 			dependencies: ["3B5966CE0415E109"]
 			id: "2DF44D23C354CDC6"
 			tasks: [
@@ -911,8 +911,8 @@
 		}
 		{
 			title: "Blazerite Arms"
-			x: 5.0d
-			y: 1.5d
+			x: 4.5d
+			y: 0.5d
 			dependencies: ["22AD943138F5C856"]
 			id: "791FB402D5A1BFA4"
 			tasks: [
@@ -965,8 +965,8 @@
 		}
 		{
 			title: "Enderite Arms"
-			x: 7.5d
-			y: 3.0d
+			x: 7.0d
+			y: 2.0d
 			dependencies: ["42D44EE61E2CEF2E"]
 			id: "581E9E45E5ED4FB2"
 			tasks: [
@@ -1019,8 +1019,8 @@
 		}
 		{
 			title: "Spiderite Arms"
-			x: 10.0d
-			y: 2.5d
+			x: 9.5d
+			y: 1.5d
 			dependencies: ["363BD95AA810F14F"]
 			id: "2835561D267FAFDD"
 			tasks: [
@@ -1062,8 +1062,8 @@
 		}
 		{
 			title: "Prismarite Arms"
-			x: 11.5d
-			y: 0.0d
+			x: 11.0d
+			y: -1.0d
 			dependencies: ["56ADA502CFC3807D"]
 			id: "4A450C79CCDB7840"
 			tasks: [
@@ -1116,8 +1116,8 @@
 		}
 		{
 			title: "Featherite Arms"
-			x: 11.0d
-			y: -2.5d
+			x: 10.5d
+			y: -3.5d
 			dependencies: ["4FC103EC12228BBB"]
 			id: "222CFF53D6C06F91"
 			tasks: [
@@ -1170,8 +1170,8 @@
 		}
 		{
 			title: "Phanterite Arms"
-			x: 8.5d
-			y: -4.0d
+			x: 8.0d
+			y: -5.0d
 			dependencies: ["6D57242610098E42"]
 			id: "4E8D67A9761ACBC1"
 			tasks: [
@@ -1224,8 +1224,8 @@
 		}
 		{
 			title: "Witherite Arms"
-			x: 5.5d
-			y: -3.5d
+			x: 5.0d
+			y: -4.5d
 			dependencies: ["1F32E351FBF052A2"]
 			id: "77A8AD4D89E56A1F"
 			tasks: [
@@ -1266,8 +1266,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 2.0d
+			x: 0.5d
+			y: 1.0d
 			subtitle: "Bling"
 			description: ["Gold is very important here. Piglins want it, and so do you, if you plan on leaving."]
 			dependencies: ["4ABA0AF14F4830E5"]
@@ -1309,7 +1309,7 @@
 		}
 		{
 			x: 0.5d
-			y: 4.0d
+			y: 3.5d
 			subtitle: "Bad Neighborhood"
 			description: ["If you didn't come here for this, why did you come here?"]
 			dependencies: ["73EB5ADA3E2B4A50"]
@@ -1357,7 +1357,7 @@
 			]
 		}
 		{
-			x: -2.0d
+			x: -1.5d
 			y: 4.5d
 			subtitle: "Hottest Minecraft mob, hands down"
 			description: ["I hope you brought a shield."]
@@ -1401,7 +1401,7 @@
 					}
 				}
 			}
-			x: -4.5d
+			x: -4.0d
 			y: 3.5d
 			shape: "pentagon"
 			subtitle: "Let's get outta here"
@@ -1454,7 +1454,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -5.5d
 			y: 1.0d
 			subtitle: "Back for more"
 			description: ["Dimensional rifts can be moved and still used, as long as the fluid is below y=15."]
@@ -2507,8 +2507,8 @@
 					}
 				}
 			}
-			x: 1.5d
-			y: -8.5d
+			x: 2.5d
+			y: -8.0d
 			subtitle: "There are many structures to be found in the nether!"
 			dependencies: ["3012DE6CAB789E9B"]
 			id: "5EEDBD59FB59A00D"
@@ -2605,7 +2605,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -1.0d
 			y: -11.0d
 			subtitle: "Hey, I've seen this before!"
 			description: [
@@ -2695,8 +2695,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: -10.0d
+			x: -4.0d
+			y: -9.5d
 			dependencies: ["3012DE6CAB789E9B"]
 			id: "25728F7125BB2887"
 			tasks: [{
@@ -2799,7 +2799,7 @@
 		}
 		{
 			x: 5.0d
-			y: -7.0d
+			y: -6.5d
 			subtitle: "Digging tunnels"
 			description: ["Find some ancient debris, whether it's from a structure or dug from deep below"]
 			dependencies: ["5EEDBD59FB59A00D"]
@@ -2853,7 +2853,7 @@
 		{
 			title: "Vein Goblin Trader"
 			x: 6.5d
-			y: -4.5d
+			y: -4.0d
 			subtitle: "Better than villagers"
 			description: ["Meet a vein goblin trader in the nether. He offers a trade of 5 netherite scrap for only 4 ancient debris!"]
 			dependencies: ["54B0CEBC4F73DDB9"]
@@ -3026,8 +3026,8 @@
 					}
 				}
 			}
-			x: 0.5d
-			y: -12.5d
+			x: 1.0d
+			y: -11.0d
 			subtitle: "Find a bastion remnant, full of gold and savage piglin brutes."
 			dependencies: ["5EEDBD59FB59A00D"]
 			id: "54B885448A183DB1"
@@ -3084,8 +3084,8 @@
 					}
 				}
 			}
-			x: 2.5d
-			y: -12.5d
+			x: 4.0d
+			y: -11.0d
 			subtitle: "Find a soul prison, and suffer the storm of fireballs!"
 			dependencies: ["5EEDBD59FB59A00D"]
 			id: "196D2D7DC813D144"
@@ -3114,8 +3114,8 @@
 					}
 				}
 			}
-			x: 0.5d
-			y: -13.5d
+			x: 1.5d
+			y: -12.0d
 			subtitle: "Find a Bastion Outpost and kill the Blackstone Dwarf guarding its treasures."
 			dependencies: ["5EEDBD59FB59A00D"]
 			id: "276871F9B8BDE57C"
@@ -3134,8 +3134,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -13.5d
+			x: 2.5d
+			y: -12.0d
 			subtitle: "Find a blaze-filled and loot-filled Nether City."
 			dependencies: ["5EEDBD59FB59A00D"]
 			id: "1B5AA2A9952CED55"
@@ -3148,8 +3148,8 @@
 		{
 			title: "Nether Stronghold"
 			icon: "minecraft:end_portal_frame"
-			x: 2.5d
-			y: -13.5d
+			x: 3.5d
+			y: -12.0d
 			subtitle: "What happens if you throw an eye of ender in the Nether?"
 			dependencies: ["5EEDBD59FB59A00D"]
 			id: "68E3891C15EFAB22"
@@ -3189,8 +3189,8 @@
 					}
 				}
 			}
-			x: 0.5d
-			y: -11.5d
+			x: 1.0d
+			y: -10.0d
 			subtitle: "Find an awful dungeon, a great place to gather wither skulls."
 			dependencies: ["5EEDBD59FB59A00D"]
 			id: "38E519E51B4BC3B5"
@@ -3236,8 +3236,8 @@
 					}
 				}
 			}
-			x: 2.5d
-			y: -11.5d
+			x: 4.0d
+			y: -10.0d
 			subtitle: "Find a Keeping Castle, full of strange blazes and infectious fungus."
 			dependencies: ["5EEDBD59FB59A00D"]
 			id: "5082DABD6BF7FD7E"
@@ -3268,7 +3268,7 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -3.5d
 			y: -1.5d
 			subtitle: "Never get lost!"
 			description: ["Or, you know, just use the map. These are kinda worthless in modded. At least they don't cost netherite any more."]
@@ -3302,8 +3302,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.5d
+			x: 1.5d
+			y: 4.0d
 			subtitle: "Start super enchanting"
 			description: ["Craft hellshelves to raise the maximum level of your enchanting table up to 45. More info in the enchanting section of the Overworld chapter."]
 			dependencies: ["682681EF1F0C9987"]
@@ -3353,8 +3353,8 @@
 		}
 		{
 			title: "What is this?"
-			x: -0.5d
-			y: -13.5d
+			x: 0.5d
+			y: -9.0d
 			subtitle: "Find a strange obsidian square. What could it have been for?"
 			dependencies: ["5EEDBD59FB59A00D"]
 			id: "1E5F26CAE9F71A8D"
@@ -3406,8 +3406,8 @@
 		}
 		{
 			title: "What is this!?!"
-			x: 3.5d
-			y: -13.5d
+			x: 4.5d
+			y: -9.0d
 			subtitle: "Find a strange glowstone square in the glowstone valley. What could it have been for?"
 			dependencies: ["5EEDBD59FB59A00D"]
 			id: "754491B4A386FBBB"
@@ -3456,8 +3456,8 @@
 		}
 		{
 			title: "Meet a piglin"
-			x: 3.5d
-			y: 2.5d
+			x: 2.0d
+			y: 1.5d
 			subtitle: "Take this for next time"
 			dependencies: ["73EB5ADA3E2B4A50"]
 			id: "23C1E2D224A118A2"

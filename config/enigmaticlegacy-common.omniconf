@@ -196,7 +196,7 @@
     B:PearloftheVoidEnabled=true
 
     # Whether or not Potion of Recall should be enabled. [default: true, synchronized: yes]
-    B:PotionofRecallEnabled=true
+    B:PotionofRecallEnabled=false
 
     # If true, Enigmatic Legacy will cycle through each player's recipe book and trigger 'minecraft:recipe_unlocked' criterion trigger for everything that they have unlocked upon player joining the world. [default: true, synchronized: no]
     B:RetriggerRecipeUnlocks=true
@@ -606,7 +606,7 @@
 
     # List of entities that should never be affected by the Second Curse of Ring of the Seven Curses. Examples: minecraft:iron_golem, minecraft:zombified_piglin. Changing this option required game restart to take effect. [default: , synchronized: no]
     S:CursedRingNeutralAngerBlacklist <
-       minecraft:wolf
+        minecraft:wolf
      >
 
     # Range in which neutral creatures are angered against bearers of the ring. [range: 4.0 ~ 32768.0, default: 24.0, synchronized: yes]
