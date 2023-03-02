@@ -217,7 +217,7 @@
 	#Stack Upgrade Settings
 	[common.stackUpgrade]
 		#List of items that are not supposed to stack in backpack even when stack upgrade is inserted. Item registry names are expected here.
-		nonStackableItems = []
+		nonStackableItems = ["sophisticatedbackpacks:backpack", "sophisticatedbackpacks:iron_backpack", "sophisticatedbackpacks:gold_backpack", "sophisticatedbackpacks:diamond_backpack", "sophisticatedbackpacks:netherite_backpack"]
 
 	#Smelting Upgrade Settings
 	[common.smeltingUpgrade]
