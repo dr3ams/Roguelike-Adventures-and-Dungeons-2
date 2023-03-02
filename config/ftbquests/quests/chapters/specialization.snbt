@@ -25,11 +25,11 @@
 				"Kits are sets of items that are designed to help you at the start and throughout your gameplay."
 				""
 				"You can see them as classes or professions but they mostly do not affect your gameplay(doesn't add new skills or stats) and served purely for roleplaying purpose."
-				"Some of them are aquired from quests and some are buyable for coins in shop."
+				"Some of them are acquired from quests and some are buyable for coins in shop."
 				""
 				"First tiers of kits will offer simple general items and starting from second tier you will get Artifacts associated with the name of the kit."
 				""
-				"Choosing your first Specialization is free and to aquire tier 2 and 3 Specialization you will need to do some tasks."
+				"Choosing your Specialization is free and to acquire tier 2 and 3 of your Specialization you will need to do some tasks."
 			]
 			id: "7D7A71EA9FCC15E2"
 			tasks: [{
@@ -1231,7 +1231,7 @@
 					team_reward: false
 					item: {
 						id: "dungeons_gear:dagger"
-						Count: 2b
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
@@ -1247,6 +1247,7 @@
 							}
 						}
 					}
+					count: 2
 				}
 				{
 					id: "5580874D20FBC880"
@@ -1865,7 +1866,7 @@
 					team_reward: false
 					item: {
 						id: "dungeons_gear:gauntlet"
-						Count: 2b
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
@@ -1890,6 +1891,7 @@
 							}
 						}
 					}
+					count: 2
 				}
 			]
 		}
