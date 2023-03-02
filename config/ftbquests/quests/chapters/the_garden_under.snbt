@@ -167,11 +167,20 @@
 			dependencies: ["499F09164370C639"]
 			size: 1.5d
 			id: "6EC6F2C9D32D1B8E"
-			tasks: [{
-				id: "4247547D29BB8384"
-				type: "item"
-				item: "undergarden:diamond_ore"
-			}]
+			tasks: [
+				{
+					id: "4247547D29BB8384"
+					type: "item"
+					item: "undergarden:diamond_ore"
+				}
+				{
+					id: "60B99E9DC3244676"
+					type: "questsadditions:break"
+					block: "undergarden:diamond_ore"
+					value: 1L
+					checkItem: false
+				}
+			]
 			rewards: [
 				{
 					id: "5CC1DF1AACE7B542"
@@ -278,9 +287,11 @@
 			size: 1.5d
 			id: "274C8CD10763851C"
 			tasks: [{
-				id: "6F42A4395A8D25A1"
-				type: "item"
-				item: "undergarden:iron_ore"
+				id: "4D2F686A002F2596"
+				type: "questsadditions:break"
+				block: "undergarden:iron_ore"
+				value: 1L
+				checkItem: false
 			}]
 			rewards: [
 				{
@@ -309,9 +320,11 @@
 			size: 1.5d
 			id: "499F09164370C639"
 			tasks: [{
-				id: "4F54BBC5EE37EBF7"
-				type: "item"
-				item: "undergarden:gold_ore"
+				id: "345C2B9B4FEEB70E"
+				type: "questsadditions:break"
+				block: "undergarden:gold_ore"
+				value: 1L
+				checkItem: false
 			}]
 			rewards: [
 				{
@@ -932,9 +945,11 @@
 			dependencies: ["499F09164370C639"]
 			id: "55A4EF2BD2B47F6F"
 			tasks: [{
-				id: "1D3B49894931E2F1"
-				type: "item"
-				item: "undergarden:utherium_ore"
+				id: "60D8D27E687DE9B6"
+				type: "questsadditions:break"
+				block: "undergarden:utherium_ore"
+				value: 1L
+				checkItem: false
 			}]
 			rewards: [
 				{
