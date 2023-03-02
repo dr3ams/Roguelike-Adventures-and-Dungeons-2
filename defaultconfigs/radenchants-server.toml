@@ -1,0 +1,1385 @@
+
+[Enchantments]
+
+	[Enchantments."Life Leech"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Caps at 100% of damage dealt
+		#Range: 0.0 ~ 1.0
+		"Percent Stolen per Level" = 0.25
+
+	[Enchantments."Magical Blade"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = ["radenchants:void_bane"]
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Caps at 100% of damage dealt
+		#Range: 0.0 ~ 1.0
+		"Percent Converted per Level" = 0.25
+
+	[Enchantments."Soul Mending"]
+		Enabled = false
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = ["minecraft:mending", "apotheosis:life_mending", "uniquee:ender_mending"]
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 1
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0 ~ 100
+		"Max Repair Amount per Level" = 2
+
+	[Enchantments."Dual Edge"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		"Incompatible Enchants" = ["minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods"]
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 1
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "VERY_RARE"
+		#Range: 1 ~ 100
+		"Max Stacks per Level" = 100
+		#Range: 0.0 ~ 100.0
+		"Damage Taken Bonus per Stack" = 0.01
+		#Range: 0.0 ~ 100.0
+		"Damage Dealt Bonus per Stack" = 0.01
+
+	[Enchantments.Barbs]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 5
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "UNCOMMON"
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Damage per Level" = 2.0
+		"Cause Durability Loss" = true
+
+	[Enchantments."Void Bane"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = ["radenchants:magicalblade"]
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 5
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "VERY_RARE"
+		#Range: 0.0 ~ 1.0
+		"Damage per Level" = 0.15
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Self Harm Amount" = 0.1
+		"Self Harm is Percent of Health" = true
+		"Self Harm is affected by Enchant Level" = true
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Weapon Harm Amount" = 0.1
+		"Weapon Harm is Percent of Durability" = true
+		"Weapon Harm is affected by Enchant Level" = true
+
+	[Enchantments.Safeguard]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = ["minecraft:protection", "minecraft:fire_protection", "minecraft:blast_protection", "minecraft:projectile_protection"]
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "VERY_RARE"
+		#Range: 20 ~ 72000
+		"Shield Recovery Rate (Base, ticks)" = 1200
+		#Range: 20 ~ 72000
+		"Shield Recovery Rate (Per Level, ticks)" = 200
+		#Range: 0.0 ~ 1.0
+		"Chance for Shield Recharge (Base)" = 0.5
+		#Range: 0.0 ~ 1.0
+		"Chance for Shield Recharge (Per Level)" = 0.125
+		"Attempt Recharging Only One Shield per Try" = true
+		#Range: 0 ~ 10
+		"Max Shields Per Item (Per Level)" = 1
+		#Range: 0 ~ 10
+		"Max Shields Per Item (Base)" = 1
+
+	[Enchantments."Night Mask"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 2
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "UNCOMMON"
+		#Range: 0.0 ~ 1.0
+		"Health Restored per Level" = 0.5
+		"Restored Amount is Percent" = true
+		"Blind while Wearing" = true
+
+	[Enchantments.Gluttony]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 4
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Set to 0 to disable
+		#Range: 0 ~ 10
+		"Level Required for Instant Consumption" = 4
+		#Set to 0 to disable
+		#Range: 0 ~ 10
+		"Level Required for No Penalty" = 0
+		#foodSaturation * exhaustionPenalty * EnchantLevel
+		#Range: 0.0 ~ 1.0
+		"Exhaustion per Level" = 0.1
+		#Range: 1 ~ 100
+		"Tick Boosts per Level" = 2
+
+	[Enchantments.Backstab]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = ["farmersdelight:backstabbing"]
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 5
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Percent Damage Bonus per Level" = 0.25
+		#Caps at 90
+		#Range: 0 ~ 90
+		"Base Max Angle Difference" = 15
+		#Range: 0 ~ 90
+		"Max Angle Difference per Level" = 5
+
+	[Enchantments.Sheathed]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "UNCOMMON"
+		"Forces player to look at attacker" = true
+		#Only activate when player has actually taken damage, not just when attacked
+		"Require Actual Damage to Activate" = true
+
+	[Enchantments.Breaching]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "UNCOMMON"
+		#Range: 0.0 ~ 1.0
+		"Chance per Level" = 0.25
+
+	[Enchantments.Mobile]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = ["ensorcellation:phalanx"]
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 2
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0.0 ~ 1.0
+		"Speed per Level" = 0.2
+		#Speed Bonus is a Percent instead of Flat
+		"Bonus is Percent" = false
+
+	[Enchantments.Impenetrable]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		"Max Level Breaching Bypasses Impenetable" = true
+
+	[Enchantments.Recoil]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 2
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "UNCOMMON"
+		#Range: 0.0 ~ 1.0
+		"Force per Level" = 0.15
+
+	[Enchantments."Auto Block"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0 ~ 10
+		"Charges per Level" = 1
+		#Range: 0 ~ 72000
+		"Charge Rate (Base, ticks)" = 400
+		#Range: 0 ~ 72000
+		"Charge Rate (Per Level, ticks)" = 100
+		"Forces player to look at attacker" = true
+
+	[Enchantments."Evasive Fire"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0.0 ~ 10.0
+		"Force per Level" = 0.25
+		#Range: 0 ~ 10
+		"Range (Base)" = 3
+		#Range: 0 ~ 10
+		"Range (Per Level)" = 1
+		"Forces player to look at attacker" = true
+		"Sneaking prevents activation" = true
+
+	[Enchantments."Focus Fire"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0.0 ~ 10.0
+		"Percent Damage Bonus per Level" = 0.25
+		#Range: 3 ~ 16
+		"Range (Base)" = 3
+		#Range: 0 ~ 16
+		"Range (Per Level)" = 1
+
+	[Enchantments.Ruthless]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0.0 ~ 10.0
+		"Percent Damage Bonus per Level" = 0.25
+		#Current Health <= (Max Health * (PercentRequirement * EnchantLevel))
+		#Range: 0.0 ~ 1.0
+		"Heatlh Percent Requirement" = 0.25
+
+	[Enchantments."One Man Army"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0.0 ~ 10.0
+		"Percent Damage Bonus per Mob, per Level" = 0.125
+		#Range: 0.0 ~ 1.0
+		"Max Damage Bonus per Level" = 0.5
+		#Range: 3 ~ 32
+		"Range (Base)" = 10
+		#Range: 0 ~ 32
+		"Range (Per Level)" = 3
+
+	[Enchantments."Deep Pockets"]
+		#Does not function with Twilight Forest's Charm of Keeping
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 2
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0 ~ 10
+		"Required Level to Keep Pants" = 2
+		#Range: 0 ~ 10
+		"Required Level to Keep Curios" = 2
+		"List of Curios to Keep" = ["ring", "charm", "pocket"]
+
+	[Enchantments."Pocket Protector"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+
+	[Enchantments.Yield]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "VERY_RARE"
+		#Range: 0 ~ 32
+		"Range per Level" = 8
+		#Range: 0 ~ 10
+		"Weakness Cost Per Effect Level" = 1
+		"Weakness Amplifier at Level" = [1, 1, 1]
+		"Vulnerable Amplifier at Level" = [1, 2, 3]
+		"Slowness Amplifier at Level" = [1, 2, 2]
+		#Range: 0 ~ 100
+		"Base Durability Cost per Level" = 1
+
+	[Enchantments."Moon Boots"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = ["radenchants:rabbitsfeet"]
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		"Max Fall Speed per Level" = [0.5, 0.25, 0.125]
+		"Jump Boost at Level" = [1, 2, 3]
+		"Jump Boost costs Durability (25% Chance)" = true
+
+	[Enchantments."Rabbits Feet"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = ["radenchants:moonboots"]
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		"Min Fall Speed per Level" = [0.5, 1.0, 1.5]
+		"Jump Boost at Level" = [1, 2, 3]
+		"Speed Boost at Level" = [1, 2, 3]
+		"Effects costs Durability (25% Chance)" = true
+
+	[Enchantments."Welding Apron"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0.0 ~ 1.0
+		"Anvil Break Chance (Break Chance *= 1 - (Level * This))" = 0.25
+
+	[Enchantments.Rejuvenate]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 5
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0.0 ~ 1.0
+		"Bonus Heal Multiplier per Level" = 0.02
+
+	[Enchantments.Illuminate]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 2 ~ 64
+		"Range per Level" = 4
+		"Illuminate non-invisible Entities" = false
+		"Line of Sight Required" = true
+
+	[Enchantments."Curse of Appetite"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+
+	[Enchantments.Seventh]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		"Multipliers for one 7, two 7s, three 7s" = [2.0, 4.0, 7.77]
+		#Range: 1 ~ 3
+		"How many 7s the counter goes up to" = 3
+
+	[Enchantments."Curse of Dreams"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0 ~ 72000
+		"Insomnia Duration" = 72000
+		"10% chance to spawn aggro'd buff Enderman" = true
+		"Good Dream Effects" = ["minecraft:health_boost", "minecraft:absorption", "minecraft:haste", "minecraft:strength", "minecraft:regeneration", "minecraft:resistance", "minecraft:fire_resistance", "minecraft:luck"]
+		"Bad Dream Effects" = ["minecraft:slowness", "minecraft:weakness", "minecraft:mining_fatigue", "minecraft:hunger", "minecraft:blindness", "minecraft:unluck", "minecraft:nausea"]
+
+	[Enchantments.ShadowGlide]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = ["minecraft:soul_speed"]
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 5
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0.0 ~ 1.0
+		"Speed Bonus per Level" = 0.05
+
+	[Enchantments.ShadowMeld]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0 ~ 15
+		"Light Level Requirement (<=)" = 7
+		"Require Sneak" = false
+		"Require Stationary" = true
+		"Light Dispels" = true
+		"Sneak Boost" = true
+		"Speed Effect at Level (Remove entries to disable)" = [1, 2, 3]
+		#Range: 0 ~ 72000
+		"Speed Duration per Level (ticks)" = 60
+		#Range: 0 ~ 72000
+		"Invis Duration per Level (ticks)" = 600
+		"Hide Duration per Level (ticks)" = [300, 200, 100]
+
+	[Enchantments.Gunner]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = ["ensorcellation:quick_draw"]
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		"Draw Bonus at Level (ticks)" = [1, 1, 2]
+		"Chance at Level (1 in x)" = [4, 3, 2]
+
+	[Enchantments.Paladin]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 1 ~ 16
+		Range = 16
+		#Range: 0.0 ~ 1.0
+		"Percent per Level" = 0.1
+
+	[Enchantments.OneWithTheBlade]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0.0 ~ 1.0
+		"Percent per Level" = 0.5
+		"Require No Armor" = true
+		"Require No Curios" = true
+
+	[Enchantments.Gallop]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = ["uniquebattle:granis_soul"]
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0.0 ~ 1.0
+		"Percent Speed per Level" = 0.25
+		#Range: 1 ~ 72000
+		"Base Duration (ticks)" = 40
+		#Range: 0 ~ 72000
+		"Duration per Level (ticks)" = 20
+		#Range: 0 ~ 72000
+		"Base Cooldown (ticks)" = 300
+		#Range: 0 ~ 72000
+		"Cooldown Reduction per Level (ticks)" = 20
+
+	[Enchantments.Haven]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "VERY_RARE"
+		#Your Chunk + x Away
+		"Chunk Radius at Level" = [1, 2, 4]
+		"Prevents Spawner Spawns" = false
+		"Enable for Armor Stands" = true
+
+	[Enchantments.Glare]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "VERY_RARE"
+		#Must be in 45 degree cone of front of target
+		"Require Eye Contact" = true
+		"Glare Ignites Target" = true
+		"Glare Slows Target" = true
+		"Glare Weakens Target" = true
+		#Range: 10 ~ 72000
+		"Frequency Base (ticks)" = 100
+		#Range: 0 ~ 72000
+		"Frequency Increase per Level (ticks)" = 20
+		#Range: 0 ~ 16
+		"Range Base" = 8
+		#Range: 0 ~ 16
+		"Range Increase per Level" = 2
+		#Range: 0.0 ~ 1000.0
+		"Damage Base" = 2.0
+		#Range: 0.0 ~ 1000.0
+		"Damage Increase per Level" = 2.0
+
+		[Enchantments.Glare."Jack o'Lantern"]
+			"Special Jack o'Lantern Effects" = true
+			"(Jack) Undead Ignore User" = true
+			"(Jack) Fire Immunity" = true
+			#Range: 0 ~ 10
+			"(Jack) Glare Damage Multiplier" = 2
+			#Range: 0 ~ 10
+			"(Jack) Fire Duration Multiplier" = 2
+			"(Jack) Pumpkin Blur Fix" = true
+			"(Jack) Place Prevention (visual desync for client inventory slot)" = true
+			"(Jack) Can equip Jack o'Lantern (does not require Glare), and blow out Jack o'Lanterns" = true
+			#Range: 0.0 ~ 0.99
+			"(Jack) Percent Max Health Locked per Level" = 0.25
+
+	[Enchantments.Snitch]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 20 ~ 72000
+		"Cooldown (ticks)" = 20
+		"Snitch can only be used on yourself" = false
+		"Snitch info is given to all players" = false
+		"Target is notified of being snitched" = false
+		"Receivers of snitch info don't see the snitch's name" = false
+		"Target receives Glowing" = true
+		#Range: 20 ~ 72000
+		"Glow Duration (ticks)" = 12000
+		#Range: 0 ~ 10
+		"Enchant Level required for Dimension to be revealed (0 to disable)" = 1
+		"Snitch and Target must be in same DImension" = false
+		#Range: 16 ~ 100000
+		"If 'sameDimension' enabled, block limit for revealling (0 for no limit)" = 1000
+		#Range: 0 ~ 10
+		"Enchant Level required for Distance to be revealed (0 to disable)" = 1
+		#Range: 0 ~ 10
+		"Enchant Level required for Coordinates to be revealed (0 to disable)" = 2
+		#Range: 0 ~ 10
+		"Enchant Level required for Coordinates to be never be Scrambled (0 to disable)" = 3
+		"If dimension is in list, coordinates are obfuscated ('/forge dimensions' for list)" = ["minecraft:the_nether", "minecraft:the_end"]
+		#Range: 0 ~ 10
+		"Enchant Level required for Health to be revealed (0 to disable)" = 1
+		#Range: 0 ~ 10
+		"Enchant Level required for Equipment to be revealed (0 to disable)" = 3
+		#Range: 0 ~ 10
+		"Enchant Level required for Snitch to be Anonymous (0 to disable)" = 3
+		"Equipment slots to reveal (head/chest/feet/legs/mainhand/offhand/curios)" = ["head", "chest", "feet", "legs", "mainhand", "offhand", "curios"]
+		"If true, uses Quark's Item Linking if enabled" = true
+
+	[Enchantments.Socketed]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "VERY_RARE"
+		#Rolls once per Tier available
+		#Range: 0.0 ~ 1.0
+		"Chance for Socket Tier to increase per Level" = 0.25
+		#Range: 0.0 ~ 1.0
+		"Base Chance for Sockets to Generate" = 0.5
+		#Range: 0.0 ~ 1.0
+		"Bonus Socket Chance per Level" = 0.15
+		"Removes stored sockets when Enchant is removed from item" = true
+		"Whitelist for Socketable items (ItemClass or modid:itemid)" = ["ArmorItem", "ToolItem", "HoeItem", "SwordItem", "ElytraItem", "SkullItem", "ShieldItem", "BowItem", "minecraft:carved_pumpkin", "minecraft:jack_o_lantern", "minecraft:totem_of_undying", "CrossbowItem", "FishingRodItem", "TridentItem", "ThrowingWeaponItem"]
+		"Main Hand Whitelist" = ["ToolItem", "HoeItem", "SwordItem", "BowItem", "CrossbowItem", "FishingRodItem", "TridentItem", "ThrowingWeaponItem"]
+		"Off Hand Whitelist" = ["ToolItem", "HoeItem", "SwordItem", "ShieldItem", "minecraft:totem_of_undying"]
+		#flat_damage, percent_damage, percent_attackspeed, flat_health, percent_health, percent_movespeed, flat_armor, percent_armor, flat_tough, percent_tough, flat_reach, flat_luck, percent_resistance, percent_projectiledamage, percent_magicshielding, percent_magicdamage
+		"Curios Blacklisted Sockets" = []
+
+		[Enchantments.Socketed."Socket Types"]
+
+			[Enchantments.Socketed."Socket Types"."Flat Damage"]
+				Enabled = true
+				"Minimum Roll at Tier" = [0.01, 0.02, 0.03, 0.04, 0.05]
+				"Maximum Roll at Tier" = [0.03, 0.06, 0.09, 1.2, 1.5]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 2
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["SwordItem", "AxeItem", "HoeItem", "TridentItem"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = []
+				"Incompatible Sockets" = ["percent_damage"]
+
+			[Enchantments.Socketed."Socket Types"."Percent Damage"]
+				Enabled = true
+				"Minimum Roll at Tier" = [0.5, 1.0, 1.5, 2.0, 2.5]
+				"Maximum Roll at Tier" = [1.0, 1.5, 2.0, 2.5, 3.0]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 10
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["SwordItem", "AxeItem", "HoeItem", "TridentItem"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = []
+				"Incompatible Sockets" = ["flat_damage"]
+
+			[Enchantments.Socketed."Socket Types"."Percent Attack Speed"]
+				Enabled = true
+				"Minimum Roll at Tier" = [0.5, 0.5, 1.0, 1.0, 1.5]
+				"Maximum Roll at Tier" = [1.0, 1.5, 2.0, 2.5, 3.0]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 10
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["SwordItem", "AxeItem", "HoeItem", "TridentItem"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = []
+				"Incompatible Sockets" = []
+
+			[Enchantments.Socketed."Socket Types"."Flat Health"]
+				Enabled = true
+				"Minimum Roll at Tier" = [0.1, 0.2, 0.3, 0.4, 0.5]
+				"Maximum Roll at Tier" = [0.3, 0.6, 0.9, 1.2, 1.5]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 10
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["ArmorItem", "minecraft:elytra", "minecraft:carved_pumpkin", "minecraft:jack_o_lantern", "minecraft:zombie_head", "minecraft:skeleton_skull", "minecraft:creeper_head", "minecraft:wither_skeleton_skull", "minecraft:dragon_head", "minecraft:totem_of_undying", "ShieldItem"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = ["head", "chest", "legs", "feet", "curio"]
+				"Incompatible Sockets" = ["percent_health"]
+
+			[Enchantments.Socketed."Socket Types"."Percent Health"]
+				Enabled = true
+				"Minimum Roll at Tier" = [1.0, 1.0, 2.0, 2.0, 3.0]
+				"Maximum Roll at Tier" = [2.0, 3.0, 4.0, 5.0, 5.0]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 10
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["ArmorItem", "minecraft:elytra", "minecraft:carved_pumpkin", "minecraft:jack_o_lantern", "minecraft:zombie_head", "minecraft:skeleton_skull", "minecraft:creeper_head", "minecraft:wither_skeleton_skull", "minecraft:dragon_head", "minecraft:totem_of_undying", "ShieldItem"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = ["head", "chest", "legs", "feet", "curio"]
+				"Incompatible Sockets" = ["flat_health"]
+
+			[Enchantments.Socketed."Socket Types"."Percent Movement Speed"]
+				Enabled = true
+				"Minimum Roll at Tier" = [1.0, 1.0, 2.0, 2.0, 3.0]
+				"Maximum Roll at Tier" = [2.0, 3.0, 4.0, 5.0, 5.0]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 10
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["BowItem", "CrossbowItem"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = ["feet", "curio"]
+				"Incompatible Sockets" = []
+
+			[Enchantments.Socketed."Socket Types"."Flat Armor"]
+				Enabled = true
+				"Minimum Roll at Tier" = [0.1, 0.2, 0.3, 0.4, 0.5]
+				"Maximum Roll at Tier" = [0.3, 0.6, 0.9, 1.2, 1.5]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 10
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["ShieldItem"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = ["head", "chest", "legs", "feet", "curio"]
+				"Incompatible Sockets" = ["percent_armor"]
+
+			[Enchantments.Socketed."Socket Types"."Percent Armor"]
+				Enabled = true
+				"Minimum Roll at Tier" = [0.5, 0.5, 1.0, 1.5, 1.5]
+				"Maximum Roll at Tier" = [1.0, 1.5, 2.0, 2.0, 2.5]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 10
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["ShieldItem"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = ["head", "chest", "legs", "feet", "curio"]
+				"Incompatible Sockets" = ["flat_armor"]
+
+			[Enchantments.Socketed."Socket Types"."Flat Armor Toughness"]
+				Enabled = true
+				"Minimum Roll at Tier" = [0.1, 0.2, 0.3, 0.4, 0.5]
+				"Maximum Roll at Tier" = [0.3, 0.6, 0.9, 1.2, 1.5]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 10
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["ShieldItem"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = ["head", "chest", "legs", "feet", "curio"]
+				"Incompatible Sockets" = ["percent_tough"]
+
+			[Enchantments.Socketed."Socket Types"."Percent Armor Toughness"]
+				Enabled = true
+				"Minimum Roll at Tier" = [1.0, 1.0, 2.0, 2.0, 3.0]
+				"Maximum Roll at Tier" = [2.0, 3.0, 4.0, 5.0, 5.0]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 10
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["ShieldItem"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = ["head", "chest", "legs", "feet", "curio"]
+				"Incompatible Sockets" = ["flat_tough"]
+
+			[Enchantments.Socketed."Socket Types"."Flat Reach"]
+				Enabled = true
+				"Minimum Roll at Tier" = [0.05, 0.05, 0.08, 0.08, 0.1]
+				"Maximum Roll at Tier" = [0.1, 0.12, 0.12, 0.15, 0.15]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 1
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["SwordItem", "AxeItem", "HoeItem", "TridentItem", "minecraft:totem_of_undying"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = ["curio"]
+				"Incompatible Sockets" = []
+
+			[Enchantments.Socketed."Socket Types"."Flat Luck"]
+				Enabled = true
+				"Minimum Roll at Tier" = [0.01, 0.02, 0.03, 0.04, 0.05]
+				"Maximum Roll at Tier" = [0.03, 0.06, 0.09, 0.12, 0.15]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 1
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["FishingRodItem", "minecraft:totem_of_undying"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = ["curio"]
+				"Incompatible Sockets" = []
+
+			[Enchantments.Socketed."Socket Types"."Percent Resistance"]
+				Enabled = true
+				"Minimum Roll at Tier" = [0.1, 0.2, 0.3, 0.4, 0.5]
+				"Maximum Roll at Tier" = [0.2, 0.4, 0.6, 0.8, 1.0]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 1
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["ShieldItem", "minecraft:totem_of_undying"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = ["curio"]
+				"Incompatible Sockets" = []
+
+			[Enchantments.Socketed."Socket Types"."Percent Projectile Damage"]
+				Enabled = true
+				"Minimum Roll at Tier" = [0.5, 1.0, 1.5, 2.0, 2.5]
+				"Maximum Roll at Tier" = [1.0, 1.5, 2.0, 2.5, 3.0]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 10
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["BowItem", "CrossbowItem", "QuiverBaseItem", "ThrowingWeaponItem"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = []
+				"Incompatible Sockets" = []
+
+			[Enchantments.Socketed."Socket Types"."Percent Magic Shielding"]
+				Enabled = true
+				"Minimum Roll at Tier" = [0.1, 0.2, 0.3, 0.4, 0.5]
+				"Maximum Roll at Tier" = [0.2, 0.4, 0.6, 0.8, 1.0]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 2
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = []
+				"Blacklist is Whitelist" = false
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = ["head", "chest", "legs", "feet", "curio"]
+				"Incompatible Sockets" = []
+
+			[Enchantments.Socketed."Socket Types"."Percent Magic Damage"]
+				Enabled = true
+				"Minimum Roll at Tier" = [0.5, 1.0, 1.5, 2.0, 2.5]
+				"Maximum Roll at Tier" = [1.0, 1.5, 2.0, 2.5, 3.0]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 2
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = []
+				"Blacklist is Whitelist" = false
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = ["curio"]
+				"Incompatible Sockets" = []
+
+			[Enchantments.Socketed."Socket Types"."Percent Swim Speed"]
+				Enabled = true
+				"Minimum Roll at Tier" = [1.0, 1.0, 2.0, 2.0, 3.0]
+				"Maximum Roll at Tier" = [2.0, 3.0, 4.0, 5.0, 5.0]
+				#Range: 1 ~ 10
+				"Weight Value (Chance to appear, higher is more common" = 10
+				#List is Strict with no Slot entries set, Class or 'modid:itemid'
+				"Blacklisted Items/Classes" = ["FishingRodItem"]
+				"Blacklist is Whitelist" = true
+				#head, chest, legs, feet, curio
+				"Slot Whitelist (empty to disable)" = ["feet", "curio"]
+				"Incompatible Sockets" = []
+
+		[Enchantments.Socketed.Upgrading]
+			#flat_damage, percent_damage, percent_attackspeed, flat_health, percent_health, percent_movespeed, flat_armor, percent_armor, flat_tough, percent_tough, flat_reach, flat_luck, percent_resistance, percent_projectiledamage, percent_magicshielding, percent_magicdamage
+			"Socket Attributes that cannot be Upgraded" = []
+			#One time use of Upgrading Rolls on a Socketed Item. 'modid:itemid' or 'tag:itemtag', blank to disable.
+			"Upgrade Item" = "tag:forge:gems/emerald"
+			#Range: 1 ~ 64
+			"How many of the Upgrade Item are needed" = 5
+			#Range: 1 ~ 100
+			"How many XP Levels are needed" = 10
+			#Range: -1 ~ 3
+			"Sockets Upgraded (-1 for all)" = 1
+			"Can upgrade a stat past max roll" = true
+			#Range: 0.0 ~ 1.0
+			"Max Percent of Upgrade (Max Roll - Min Roll = Range)" = 0.5
+			#Range: 0.0 ~ 1.0
+			"Minimum Percent of Upgrade" = 0.1
+
+		[Enchantments.Socketed.Wiping]
+			#Combine at Anvil to remove all current sockets. 'modid:itemid' or 'tag:itemtag', blank to disable.
+			"Wiping Item" = "tag:forge:gems/quartz"
+			#Range: 1 ~ 64
+			"How many of the Wiping Item are needed" = 5
+			#Range: 1 ~ 100
+			"How many XP Levels are needed" = 10
+
+		[Enchantments.Socketed.Etching]
+			#Combine at Anvil to add a missing socket. 'modid:itemid' or 'tag:itemtag', blank to disable.
+			"Etching Item" = "tag:forge:gems/diamond"
+			#Range: 1 ~ 64
+			"How many of the Etching Item are needed" = 1
+			#Range: 1 ~ 100
+			"How many XP Levels are needed" = 10
+
+		[Enchantments.Socketed.Enhance]
+			#Combine at Anvil to upgrade the tier of a socket. 'modid:itemid' or 'tag:itemtag', blank to disable.
+			"Enhancing Item" = "tag:forge:gems/lapis"
+			#Range: 1 ~ 64
+			"How many of the Enhancing Item are needed" = 64
+			#Range: 1 ~ 100
+			"How many XP Levels are needed" = 10
+
+	[Enchantments."Lucky Strike"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = ["dungeons_gear:critical_hit", "ensorcellation:vorpal", "uniquee:combo_star"]
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 3
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "VERY_RARE"
+		#Lucky Strike skips these Vanilla Crit checks: Falling, Airborne, Not on Ladder, Not in Water, Not Blind, Not Riding
+		#Range: 0.01 ~ 1.0
+		"Base Chance" = 0.15
+		#Range: 0.01 ~ 1.0
+		"Chance per Level past 1" = 0.05
+		#Range: 0.0 ~ 10.0
+		"Base Multiplier Bonus" = 2.0
+		#Range: 0.0 ~ 10.0
+		"Multiplier Bonus per Level past 2" = 1.0
+
+	[Enchantments.Sacrifice]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 5
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0.0 ~ 1.0
+		"Percent Health Stolen per Level" = 0.1
+		#Range: 20 ~ 72000
+		"Effect Duration per Level (ticks)" = 1200
+		#'modid:mobid/modid:effectid*lvl'
+		"Sacrifice Targets" = ["minecraft:cat/minecraft:speed*2,minecraft:haste*1,minecraft:night_vision*1", "minecraft:ocelot/minecraft:speed*3,minecraft:haste*2,minecraft:night_vision*1", "minecraft:horse/minecraft:speed*2,minecraft:jump_boost*2", "minecraft:donkey/minecraft:speed*1,minecraft:resistance*1", "minecraft:mule/minecraft:speed*1,minecraft:resistance*1", "minecraft:skeleton_horse/minecraft:speed*3,radenchants:vulnerable*2,minecraft:resistance*1,minecraft:night_vision*1,minecraft:hunger*2,minecraft:regeneration*1", "minecraft:parrot/minecraft:slow_falling*2,minecraft:speed*1,minecraft:jump_boost*1", "minecraft:llama/minecraft:speed*1,radenchants:archery*2", "minecraft:trader_llama/minecraft:speed*2,radenchants:archery*5", "minecraft:wolf/minecraft:speed*1,minecraft:strength*2", "minecraft:fox/minecraft:speed*2,minecraft:jump_boost*2,minecraft:haste*2", "quark:foxhound/minecraft:speed*1,minecraft:jump_boost*2,minecraft:haste*1,minecraft:fire_resistance*1", "quark:shiba/minecraft:speed*1,minecraft:strength*2"]
+
+	[Enchantments.Earplugs]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "UNCOMMON"
+		#Original Volume * This
+		#Range: 0.0 ~ 1.0
+		"Muffle Amount" = 0.05
+
+	[Enchantments.Boosted]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = ["uniquee:sages_blessing",
+"ensorcellation:exp_boost"]
+		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
+		#Range: 1 ~ 10
+		"Max Level" = 4
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "VERY_RARE"
+		#Range: 0.0 ~ 1.0
+		"Chance per Level" = 0.1
+		#Range: 1.0 ~ 10.0
+		"Base Multiplier" = 1.5
+		#Range: 0.0 ~ 10.0
+		"Multiplier per Level past 1" = 0.5
+		"Affect Project MMO Experience" = false
+
+	[Enchantments."Climbing Gear"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = false
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = true
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = ["uniqueutil:climber"]
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "UNCOMMON"
+
+	[Enchantments."Self Preservation"]
+		Enabled = true
+		#Treasure enchantments cannot be obtained through the enchanting table
+		Treasure = true
+		#Can generate as loot
+		Loot = true
+		#Can be enchanted onto a Book at an Enchanting Table
+		"Enchant on Books" = false
+		#Can appear in Villager Trades
+		Trading = true
+		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
+		Incompatibilities = []
+		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
+		Rarity = "RARE"
+		#Range: 0.0 ~ 1.0
+		"Activation Amount (percent)" = 0.1
+		#Range: 0.0 ~ 1.0
+		"Restore Amount (percent)" = 1.0
+		#Takes from Highest Level enchants first
+		#Range: 1 ~ 10
+		"Amount of Levels Siphoned" = 3
+		#Removes itself and activates
+		"Activate with no other Enchants" = true
+		"Can Remove Curses" = false
+
