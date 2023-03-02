@@ -17,22 +17,15 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			icon: {
-				id: "kubejs:scroll_01c"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "kubejs:scroll_01c"
 			x: 0.0d
 			y: 0.0d
 			description: [
-				"Press 'J' (you will most likely have to change this if it conflicts with something) to open the Titles gui."
+				"Press 't' (you will most likely have to change this if it conflicts with something) to open the Titles gui."
 				""
 				"Understand that you may not have any titles to choose from at first."
-				"Simply complete advancements  to start growing your selection."
+				""
+				"Simply complete advancements to start growing your selection."
 			]
 			id: "4B93CE8715CACD5A"
 			tasks: [{
@@ -56,8 +49,8 @@
 		}
 		{
 			title: "the §6§lC§6§lo§6§ln§6§lt§6§lr§6§li§6§lb§6§lu§6§lt§6§lo§6§lr"
-			x: -1.5d
-			y: 3.0d
+			x: -4.5d
+			y: 5.0d
 			shape: "hexagon"
 			subtitle: "Earned by completing the Feedback Form during beta."
 			description: [
@@ -262,8 +255,8 @@
 		}
 		{
 			title: "the §6§lP§f§la§6§lt§f§lr§6§lo§f§ln"
-			x: -3.0d
-			y: 3.0d
+			x: -4.5d
+			y: 4.0d
 			shape: "hexagon"
 			subtitle: "Granted to users who subscribe to dreams01 on Patreon."
 			description: [
@@ -303,6 +296,72 @@
 				team_reward: false
 				command: "/titles add @p titles:patreon"
 				player_command: false
+			}]
+		}
+		{
+			title: "§4§kDO§r§4CURSED§kOM"
+			x: -3.0d
+			y: 3.0d
+			subtitle: "Wear the Ring of Seven the Curses"
+			optional: true
+			id: "7B90BE75C03FC842"
+			tasks: [{
+				id: "755C3F13B67C9364"
+				type: "advancement"
+				advancement: "rad_recipes:has_ring_of_seven_curses"
+				criterion: ""
+			}]
+		}
+		{
+			title: "§1the Champion"
+			x: -1.5d
+			y: 3.0d
+			subtitle: "Defeat a Demonic Champion (Tier 5)"
+			id: "5E09DAF586A91C01"
+			tasks: [{
+				id: "09483474EDBB26C7"
+				type: "advancement"
+				advancement: "rad_recipes:slay_5_star_champion"
+				criterion: ""
+			}]
+		}
+		{
+			title: "§7Defier of Death"
+			x: -1.5d
+			y: 4.0d
+			subtitle: "Defeat a Blasphemous Harbinger (Tier 6)"
+			id: "0F86D8591149BD11"
+			tasks: [{
+				id: "3A7EC45CDBEF987B"
+				type: "advancement"
+				advancement: "rad_recipes:slay_6_star_champion"
+				criterion: ""
+			}]
+		}
+		{
+			title: "§5the §kDreaded"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Complete a set of dreadsteel armor"
+			id: "3D080F094832612B"
+			tasks: [{
+				id: "39363838F22031BC"
+				type: "advancement"
+				advancement: "rad_recipes:dreadsteel_set"
+				criterion: ""
+			}]
+		}
+		{
+			title: "the Gambler"
+			x: 1.5d
+			y: 3.0d
+			subtitle: "Defeat Dame Fortuna to get a Fortune's Favor"
+			id: "756D91C669861D90"
+			tasks: [{
+				id: "1F7A456E6C11FDC8"
+				type: "advancement"
+				advancement: "meetyourfight:main/dame_fortuna_kill"
+				criterion: ""
 			}]
 		}
 	]
