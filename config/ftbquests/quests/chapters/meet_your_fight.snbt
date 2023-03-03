@@ -1128,6 +1128,18 @@
 		}
 		{
 			title: "Gateways"
+			icon: {
+				id: "gateways:gate_pearl"
+				Count: 1b
+				tag: {
+					gateway: "gateways:ghast_gate"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 0.0d
 			y: -2.0d
 			shape: "hexagon"
