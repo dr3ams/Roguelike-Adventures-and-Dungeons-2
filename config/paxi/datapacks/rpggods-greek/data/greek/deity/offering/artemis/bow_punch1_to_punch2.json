@@ -1,28 +1,14 @@
 {
   "item": {
     "id": "minecraft:bow",
-    "Count": 1,
-    "tag": {
-      "Enchantments": [
-        {
-          "id": "minecraft:punch",
-          "lvl": 1
-        }
-      ]
-    }
+    "Count": 1
   },
+  "item_tag": "{ Enchantments: [{ id: \"minecraft:punch\", lvl: 1 }] }",
   "trade": {
     "id": "minecraft:bow",
-    "Count": 1,
-    "tag": {
-      "Enchantments": [
-        {
-          "id": "minecraft:punch",
-          "lvl": 2
-        }
-      ]
-    }
+    "Count": 1
   },
+  "trade_tag": "{ Enchantments: [{ id: \"minecraft:punch\", lvl: 2 }] }",
   "minlevel": 4,
   "maxuses": 1
 }

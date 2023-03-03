@@ -5,16 +5,9 @@
   },
   "trade": {
     "id": "minecraft:iron_axe",
-    "Count": 1,
-    "tag": {
-      "Enchantments": [
-        {
-          "id": "minecraft:sharpness",
-          "lvl": 2
-        }
-      ]
-    }
+    "Count": 1
   },
+  "trade_tag": "{ Enchantments: [{ id: \"minecraft:sharpness\", lvl: 2 }] }",
   "minlevel": 6,
   "maxuses": 1
 }

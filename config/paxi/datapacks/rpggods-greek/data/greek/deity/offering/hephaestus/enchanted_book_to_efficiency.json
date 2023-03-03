@@ -3,18 +3,12 @@
     "id": "minecraft:enchanted_book",
     "Count": 1
   },
+  "item_tag": "{ StoredEnchantments: [{ id: \"minecraft:efficiency\", lvl: 1 }] }",
   "trade": {
     "id": "minecraft:enchanted_book",
-    "Count": 1,
-    "tag": {
-      "StoredEnchantments": [
-        {
-          "id": "minecraft:efficiency",
-          "lvl": 2
-        }
-      ]
-    }
+    "Count": 1
   },
+  "trade_tag": "{ StoredEnchantments: [{ id: \"minecraft:efficiency\", lvl: 2 }] }",
   "minlevel": 5,
   "maxuses": 1
 }
