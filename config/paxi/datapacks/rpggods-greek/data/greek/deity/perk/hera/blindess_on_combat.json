@@ -1,0 +1,31 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:fermented_spider_eye",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:hera",
+        "minlevel": -5,
+        "maxlevel": -10
+    },
+    "condition": [
+        {
+            "type": "enter_combat"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:blindness",
+                "Amplifier": 0,
+                "Duration": 750
+            }
+        }
+    ],
+    "cooldown": 4600,
+    "chance": 0.08
+}

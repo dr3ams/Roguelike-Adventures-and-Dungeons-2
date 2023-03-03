@@ -1,0 +1,32 @@
+{
+    "icon": {
+        "item": "minecraft:rabbit_foot",
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:poseidon",
+        "minlevel": 3,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        },
+        {
+            "biome": "WATER"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:luck",
+                "Amplifier": 0,
+                "Duration": 1400
+            }
+        }
+    ],
+    "cooldown": 4600,
+    "cooldown_category": "poseidon:potion",
+    "chance": 0.025
+}

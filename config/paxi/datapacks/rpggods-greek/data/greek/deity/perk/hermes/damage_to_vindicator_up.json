@@ -1,0 +1,29 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:iron_sword",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:hermes",
+        "minlevel": 6,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "player_hurt_entity",
+            "data": "minecraft:vindicator"
+        }
+    ],
+    "action": [
+        {
+            "type": "damage",
+            "multiplier": 1.25
+        }
+    ],
+    "cooldown": 400,
+    "cooldown_category": "hermes:damage_up",
+    "chance": 0.2
+}

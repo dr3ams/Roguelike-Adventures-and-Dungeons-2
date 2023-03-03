@@ -1,0 +1,20 @@
+{
+    "icon": {
+        "item": "minecraft:kelp",
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:poseidon",
+        "minlevel": -5,
+        "maxlevel": -10
+    },
+    "action": [
+        {
+            "type": "affinity",
+            "affinity": {
+                "type": "hostile",
+                "entity": "minecraft:dolphin"
+            }
+        }
+    ]
+}

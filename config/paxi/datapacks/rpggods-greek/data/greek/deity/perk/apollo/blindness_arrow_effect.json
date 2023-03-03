@@ -1,0 +1,29 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:tipped_arrow",
+            "Count": 1,
+            "tag": {
+                "Potion": "minecraft:blindness"
+            }
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:apollo",
+        "minlevel": 4,
+        "maxlevel": 10
+    },
+    "action": [
+        {
+            "type": "arrow_effect",
+            "tag": {
+                "Potion": "minecraft:blindness",
+                "Amplifier": 0,
+                "Duration": 225
+            }
+        }
+    ],
+    "cooldown": 160,
+    "chance": 0.7
+}

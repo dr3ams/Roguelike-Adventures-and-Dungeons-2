@@ -1,0 +1,30 @@
+{
+    "icon": {
+        "item": "minecraft:pufferfish",
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:hecate",
+        "minlevel": -2,
+        "maxlevel": -10
+    },
+    "condition": [
+        {
+            "type": "entity_hurt_player",
+            "data": "minecraft:wolf"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:poison",
+                "Amplifier": 0,
+                "Duration": 220
+            }
+        }
+    ],
+    "cooldown": 2100,
+    "cooldown_category": "hecate:potion",
+    "chance": 0.25
+}

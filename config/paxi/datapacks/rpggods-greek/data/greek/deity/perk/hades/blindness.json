@@ -1,0 +1,33 @@
+{
+    "icon": {
+        "item": "minecraft:fermented_spider_eye",
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:hades",
+        "minlevel": -5,
+        "maxlevel": -10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        },
+        {
+            "type": "dimension",
+            "data": "minecraft:the_nether"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:blindness",
+                "Amplifier": 0,
+                "Duration": 800
+            }
+        }
+    ],
+    "cooldown": 3600,
+    "cooldown_category": "hades:potion",
+    "chance": 0.02
+}

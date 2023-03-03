@@ -1,0 +1,42 @@
+{
+    "icon": {
+        "item": "minecraft:rotten_flesh",
+        "color": 65535
+    },
+    "range": {
+        "deity": "greek:poseidon",
+        "minlevel": -4,
+        "maxlevel": -10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        },
+        {
+            "type": "biome",
+            "data": "WATER"
+        }
+    ],
+    "action": [
+        {
+            "type": "summon",
+            "tag": {
+                "id": "minecraft:drowned"
+            }
+        },
+        {
+            "type": "summon",
+            "tag": {
+                "id": "minecraft:drowned"
+            }
+        },
+        {
+            "type": "summon",
+            "tag": {
+                "id": "minecraft:drowned"
+            }
+        }
+    ],
+    "chance": 0.1,
+    "cooldown": 12000
+}

@@ -1,0 +1,39 @@
+{
+    "icon": {
+        "item": "minecraft:saddle",
+        "color": 65535
+    },
+    "range": {
+        "deity": "greek:poseidon",
+        "minlevel": -2,
+        "maxlevel": -10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        },
+        {
+            "type": "player_ride_entity",
+            "data": "minecraft:horse"
+        }
+    ],
+    "action": [
+        {
+            "type": "summon",
+            "tag": {
+                "id": "minecraft:potion",
+                "Item": {
+                    "id": "minecraft:splash_potion",
+                    "Count": 1,
+                    "tag": {
+                        "Potion": "minecraft:slowness"
+                    }
+                }
+            },
+            "multiplier": 0
+        }
+    ],
+    "chance": 0.04,
+    "cooldown_category": "riding_horse",
+    "cooldown": 4000
+}

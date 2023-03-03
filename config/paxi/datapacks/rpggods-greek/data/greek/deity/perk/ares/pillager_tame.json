@@ -1,0 +1,53 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:white_banner",
+            "Count": 1,
+            "tag": {
+                "BlockEntityTag": {
+                    "Patterns": [
+                        {"Pattern":"mr","Color":9},
+                        {"Pattern":"bs","Color":8},
+                        {"Pattern":"cs","Color":7},
+                        {"Pattern":"bo","Color":8},
+                        {"Pattern":"ms","Color":15},
+                        {"Pattern":"hh","Color":8},
+                        {"Pattern":"mc","Color":8},
+                        {"Pattern":"bo","Color":15}
+                    ]
+                }
+            }
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:ares",
+        "minlevel": 9,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "player_interact_entity",
+            "data": "minecraft:pillager"
+        },
+        {
+            "type": "mainhand_item",
+            "data": "minecraft:totem_of_undying"
+        }
+    ],
+    "action": [
+        {
+            "type": "affinity",
+            "affinity": {
+                "type": "tame",
+                "entity": "minecraft:pillager"
+            }
+        },
+        {
+            "type": "favor",
+            "favor": -100
+        }
+    ],
+    "cooldown_category": "tame",
+    "cooldown": 12000
+}

@@ -1,0 +1,29 @@
+{
+    "icon": {
+        "item": "minecraft:feather",
+        "fancy": true,
+        "color": 16073455
+    },
+    "range": {
+        "deity": "greek:hermes",
+        "minlevel": 10,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "ritual",
+            "data": "minecraft:feather"
+        }
+    ],
+    "action": [
+        {
+            "type": "patron",
+            "patron": {
+                "deity": "greek:hermes",
+                "penalty": -1000,
+                "decay": -0.5,
+                "perk_chance": 0.15
+            }
+        }
+    ]
+}

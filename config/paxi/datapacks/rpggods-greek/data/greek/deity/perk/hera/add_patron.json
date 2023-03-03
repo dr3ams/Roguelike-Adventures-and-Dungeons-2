@@ -1,0 +1,29 @@
+{
+    "icon": {
+        "item": "minecraft:gold_ingot",
+        "fancy": true,
+        "color": 16073455
+    },
+    "range": {
+        "deity": "greek:hera",
+        "minlevel": 10,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "ritual",
+            "data": "minecraft:gold_ingot"
+        }
+    ],
+    "action": [
+        {
+            "type": "patron",
+            "patron": {
+                "deity": "greek:hera",
+                "penalty": -1000,
+                "decay": -0.5,
+                "perk_chance": 0.15
+            }
+        }
+    ]
+}

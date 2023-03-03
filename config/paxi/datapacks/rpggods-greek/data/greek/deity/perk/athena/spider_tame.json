@@ -1,0 +1,39 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:name_tag",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:athena",
+        "minlevel": -8,
+        "maxlevel": -10
+    },
+    "condition": [
+        {
+            "type": "player_interact_entity",
+            "data": "minecraft:spider"
+        },
+        {
+            "type": "mainhand_item",
+            "data": "minecraft:cobweb"
+        }
+    ],
+    "action": [
+        {
+            "type": "affinity",
+            "affinity": {
+                "type": "tame",
+                "entity": "minecraft:spider"
+            }
+        },
+        {
+            "type": "favor",
+            "favor": -100
+        }
+    ],
+    "cooldown_category": "tame",
+    "cooldown": 12000
+}

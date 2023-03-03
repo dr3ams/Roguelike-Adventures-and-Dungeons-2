@@ -1,0 +1,20 @@
+{
+    "icon": {
+        "item": "minecraft:mushroom_stew",
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:apollo",
+        "minlevel": -2,
+        "maxlevel": -6
+    },
+    "action": [
+        {
+            "type": "affinity",
+            "affinity": {
+                "type": "flee",
+                "entity": "minecraft:mooshroom"
+            }
+        }
+    ]
+}

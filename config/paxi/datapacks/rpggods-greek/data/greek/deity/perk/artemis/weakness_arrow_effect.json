@@ -1,0 +1,29 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:tipped_arrow",
+            "Count": 1,
+            "tag": {
+                "Potion": "minecraft:weakness"
+            }
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:artemis",
+        "minlevel": 6,
+        "maxlevel": 10
+    },
+    "action": [
+        {
+            "type": "arrow_effect",
+            "tag": {
+                "Potion": "minecraft:weakness",
+                "Amplifier": 0,
+                "Duration": 225
+            }
+        }
+    ],
+    "cooldown": 390,
+    "chance": 0.6
+}

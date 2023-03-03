@@ -1,0 +1,29 @@
+{
+    "icon": {
+        "item": "minecraft:poppy",
+        "fancy": true,
+        "color": 16073455
+    },
+    "range": {
+        "deity": "greek:aphrodite",
+        "minlevel": 10,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "ritual",
+            "data": "minecraft:poppy"
+        }
+    ],
+    "action": [
+        {
+            "type": "patron",
+            "patron": {
+                "deity": "greek:aphrodite",
+                "penalty": -1000,
+                "decay": -0.5,
+                "perk_chance": 0.15
+            }
+        }
+    ]
+}

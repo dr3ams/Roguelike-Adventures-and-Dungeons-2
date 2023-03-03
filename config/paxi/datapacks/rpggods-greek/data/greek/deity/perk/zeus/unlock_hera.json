@@ -1,0 +1,23 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:golden_helmet",
+            "Count": 1
+        },
+        "fancy": true,
+        "color": 65535
+    },
+    "range": {
+        "deity": "greek:zeus",
+        "minlevel": 4,
+        "maxlevel": 10
+    },
+    "action": [
+        {
+            "type": "unlock",
+            "id": "greek:hera"
+        }
+    ],
+    "cooldown": 12000,
+    "cooldown_category": "unlock_hera"
+}

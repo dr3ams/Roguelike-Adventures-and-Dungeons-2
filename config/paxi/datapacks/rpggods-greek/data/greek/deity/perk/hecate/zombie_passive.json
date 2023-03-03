@@ -1,0 +1,23 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:rotten_flesh",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:hecate",
+        "minlevel": -6,
+        "maxlevel": -10
+    },
+    "action": [
+        {
+            "type": "affinity",
+            "affinity": {
+                "type": "passive",
+                "entity": "minecraft:zombie"
+            }
+        }
+    ]
+}

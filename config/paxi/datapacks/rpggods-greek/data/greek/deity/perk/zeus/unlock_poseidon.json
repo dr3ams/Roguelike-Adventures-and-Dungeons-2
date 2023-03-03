@@ -1,0 +1,23 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:trident",
+            "Count": 1
+        },
+        "fancy": true,
+        "color": 65535
+    },
+    "range": {
+        "deity": "greek:zeus",
+        "minlevel": 5,
+        "maxlevel": 10
+    },
+    "action": [
+        {
+            "type": "unlock",
+            "id": "greek:poseidon"
+        }
+    ],
+    "cooldown": 12000,
+    "cooldown_category": "unlock_poseidon"
+}

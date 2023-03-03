@@ -1,0 +1,32 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:apple",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:athena",
+        "minlevel": 4,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "effect_start",
+            "data": "minecraft:poison"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:regeneration",
+                "Amplifier": 0,
+                "Duration": 200
+            }
+        }
+    ],
+    "cooldown": 4400,
+    "chance": 0.06
+}

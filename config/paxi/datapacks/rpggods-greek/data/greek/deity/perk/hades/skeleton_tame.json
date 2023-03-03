@@ -1,0 +1,36 @@
+{
+    "icon": {
+        "item": "minecraft:name_tag",
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:hades",
+        "minlevel": 9,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "player_interact_entity",
+            "data": "minecraft:skeleton"
+        },
+        {
+            "type": "mainhand_item",
+            "data": "minecraft:bone"
+        }
+    ],
+    "action": [
+        {
+            "type": "affinity",
+            "affinity": {
+                "type": "tame",
+                "entity": "minecraft:skeleton"
+            }
+        },
+        {
+            "type": "favor",
+            "favor": -100
+        }
+    ],
+    "cooldown_category": "tame",
+    "cooldown": 12000
+}

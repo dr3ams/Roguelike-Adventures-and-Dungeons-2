@@ -1,0 +1,35 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:rotten_flesh",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:poseidon",
+        "minlevel": -1,
+        "maxlevel": -10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        },
+        {
+            "biome": "WATER"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:unluck",
+                "Amplifier": 0,
+                "Duration": 1100
+            }
+        }
+    ],
+    "cooldown": 4100,
+    "cooldown_category": "poseidon:potion",
+    "chance": 0.015
+}

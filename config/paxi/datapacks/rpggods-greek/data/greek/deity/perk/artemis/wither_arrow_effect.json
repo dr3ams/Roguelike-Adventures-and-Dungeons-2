@@ -1,0 +1,29 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:tipped_arrow",
+            "Count": 1,
+            "tag": {
+                "Potion": "minecraft:wither"
+            }
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:artemis",
+        "minlevel": 8,
+        "maxlevel": 10
+    },
+    "action": [
+        {
+            "type": "arrow_effect",
+            "tag": {
+                "Potion": "minecraft:wither",
+                "Amplifier": 0,
+                "Duration": 112
+            }
+        }
+    ],
+    "cooldown": 300,
+    "chance": 0.30
+}

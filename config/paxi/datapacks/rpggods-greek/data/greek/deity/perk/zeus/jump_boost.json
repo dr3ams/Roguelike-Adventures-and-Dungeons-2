@@ -1,0 +1,32 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:rabbit_foot",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:zeus",
+        "minlevel": 4,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:jump_boost",
+                "Amplifier": 1,
+                "Duration": 700
+            }
+        }
+    ],
+    "cooldown": 5200,
+    "cooldown_category": "zeus:potion",
+    "chance": 0.011
+}

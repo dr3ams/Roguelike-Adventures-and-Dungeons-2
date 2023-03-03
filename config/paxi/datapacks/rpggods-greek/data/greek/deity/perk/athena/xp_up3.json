@@ -1,0 +1,23 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:experience_bottle",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:athena",
+        "minlevel": 8,
+        "maxlevel": 10
+    },
+    "action": [
+        {
+            "type": "xp",
+            "multiplier": 1.75
+        }
+    ],
+    "cooldown": 200,
+    "cooldown_category": "xp_up",
+    "chance": 0.4
+}

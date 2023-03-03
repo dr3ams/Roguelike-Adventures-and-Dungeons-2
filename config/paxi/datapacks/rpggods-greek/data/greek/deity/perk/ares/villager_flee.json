@@ -1,0 +1,23 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:wheat",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:ares",
+        "minlevel": 7,
+        "maxlevel": 10
+    },
+    "action": [
+        {
+            "type": "affinity",
+            "affinity": {
+                "type": "flee",
+                "entity": "minecraft:villager"
+            }
+        }
+    ]
+}

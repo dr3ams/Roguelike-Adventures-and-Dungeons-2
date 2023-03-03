@@ -1,0 +1,47 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:white_banner",
+            "Count": 1,
+            "tag": {
+                "BlockEntityTag": {
+                    "Patterns": [
+                        {"Pattern":"mr","Color":9},
+                        {"Pattern":"bs","Color":8},
+                        {"Pattern":"cs","Color":7},
+                        {"Pattern":"bo","Color":8},
+                        {"Pattern":"ms","Color":15},
+                        {"Pattern":"hh","Color":8},
+                        {"Pattern":"mc","Color":8},
+                        {"Pattern":"bo","Color":15}
+                    ]
+                }
+            }
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:hades",
+        "minlevel": -2,
+        "maxlevel": -10
+    },
+    "condition": [
+        {
+            "type": "player_killed_entity",
+            "data": "minecraft:piglin"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:bad_omen",
+                "Amplifier": 0,
+                "Duration": 12000
+            }
+        }
+    ],
+    "cooldown": 11500,
+    "cooldown_category": "hades:bad_omen",
+    "chance": 0.15
+}

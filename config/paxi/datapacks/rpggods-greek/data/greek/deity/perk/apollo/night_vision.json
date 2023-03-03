@@ -1,0 +1,38 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:golden_carrot",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:apollo",
+        "minlevel": 4,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        },
+        {
+            "type": "dimension",
+            "data": "minecraft:overworld"
+        },
+        {
+            "type": "night"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:night_vision",
+                "Amplifier": 1,
+                "Duration": 1350
+            }
+        }
+    ],
+    "cooldown": 3400,
+    "chance": 0.03
+}

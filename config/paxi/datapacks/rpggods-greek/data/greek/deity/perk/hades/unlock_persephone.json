@@ -1,0 +1,23 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:wheat",
+            "Count": 1
+        },
+        "fancy": true,
+        "color": 65535
+    },
+    "range": {
+        "deity": "greek:hades",
+        "minlevel": 5,
+        "maxlevel": 10
+    },
+    "action": [
+        {
+            "type": "unlock",
+            "id": "greek:persephone"
+        }
+    ],
+    "cooldown": 12000,
+    "cooldown_category": "unlock_persephone"
+}

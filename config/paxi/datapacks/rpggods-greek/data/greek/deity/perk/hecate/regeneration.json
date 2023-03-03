@@ -1,0 +1,29 @@
+{
+    "icon": {
+        "item": "minecraft:golden_apple",
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:hecate",
+        "minlevel": 4,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:regeneration",
+                "Amplifier": 0,
+                "Duration": 260
+            }
+        }
+    ],
+    "cooldown": 3600,
+    "cooldown_category": "hecate:potion",
+    "chance": 0.023
+}

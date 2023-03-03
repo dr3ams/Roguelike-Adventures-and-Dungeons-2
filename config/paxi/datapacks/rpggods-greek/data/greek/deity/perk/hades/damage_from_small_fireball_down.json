@@ -1,0 +1,29 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:shield",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:hades",
+        "minlevel": 5,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "entity_hurt_player",
+            "data": "minecraft:small_fireball"
+        }
+    ],
+    "action": [
+        {
+            "type": "damage",
+            "multiplier": 0.75
+        }
+    ],
+    "cooldown": 350,
+    "cooldown_category": "hades:damage_to_player_down",
+    "chance": 0.4
+}

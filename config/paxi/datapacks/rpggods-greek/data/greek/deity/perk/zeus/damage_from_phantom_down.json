@@ -1,0 +1,29 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:shield",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:zeus",
+        "minlevel": 3,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "entity_hurt_player",
+            "data": "minecraft:phantom"
+        }
+    ],
+    "action": [
+        {
+            "type": "damage",
+            "multiplier": 0.9
+        }
+    ],
+    "cooldown": 350,
+    "cooldown_category": "zeus:damage_down",
+    "chance": 0.2
+}

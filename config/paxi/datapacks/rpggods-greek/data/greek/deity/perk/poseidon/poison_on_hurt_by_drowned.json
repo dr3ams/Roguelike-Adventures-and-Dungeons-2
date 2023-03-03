@@ -1,0 +1,30 @@
+{
+    "icon": {
+        "item": "minecraft:rotten_flesh",
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:poseidon",
+        "minlevel": -2,
+        "maxlevel": -10
+    },
+    "condition": [
+        {
+            "type": "entity_hurt_player",
+            "data": "minecraft:drowned"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:poison",
+                "Amplifier": 0,
+                "Duration": 450
+            }
+        }
+    ],
+    "cooldown": 2400,
+    "cooldown_category": "poseidon:potion",
+    "chance": 0.4
+}

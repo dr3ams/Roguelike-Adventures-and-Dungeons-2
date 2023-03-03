@@ -1,0 +1,31 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:wheat",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:persephone",
+        "minlevel": 2,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        },
+        {
+            "type": "dimension",
+            "data": "minecraft:overworld"
+        }
+    ],
+    "action": [
+        {
+            "type": "crop_growth",
+            "multiplier": 1.0
+        }
+    ],
+    "cooldown": 300,
+    "chance": 0.04
+}

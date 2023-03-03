@@ -1,0 +1,31 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:soul_sand",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:hermes",
+        "minlevel": -2,
+        "maxlevel": -10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:slowness",
+                "Amplifier": 1,
+                "Duration": 600
+            }
+        }
+    ],
+    "cooldown": 4600,
+    "chance": 0.03
+}

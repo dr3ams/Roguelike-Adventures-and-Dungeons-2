@@ -1,0 +1,31 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:rabbit_foot",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:hermes",
+        "minlevel": 3,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:luck",
+                "Amplifier": 0,
+                "Duration": 900
+            }
+        }
+    ],
+    "cooldown": 4600,
+    "chance": 0.055
+}

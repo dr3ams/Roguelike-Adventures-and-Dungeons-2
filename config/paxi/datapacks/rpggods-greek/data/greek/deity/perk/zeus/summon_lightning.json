@@ -1,0 +1,27 @@
+{
+    "icon": {
+        "item": "minecraft:end_rod",
+        "color": 65535
+    },
+    "range": {
+        "deity": "greek:zeus",
+        "minlevel": -5,
+        "maxlevel": -10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        }
+    ],
+    "action": [
+        {
+            "type": "summon",
+            "tag": {
+                "id": "minecraft:lightning_bolt"
+            },
+            "multiplier": 0
+        }
+    ],
+    "chance": 0.02,
+    "cooldown": 14500
+}

@@ -1,0 +1,33 @@
+{
+    "icon": {
+        "item": "minecraft:spider_eye",
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:hades",
+        "minlevel": 5,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        },
+        {
+            "type": "dimension",
+            "data": "minecraft:the_nether"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:invisibility",
+                "Amplifier": 0,
+                "Duration": 1600
+            }
+        }
+    ],
+    "cooldown": 4500,
+    "cooldown_category": "hades:potion",
+    "chance": 0.015
+}

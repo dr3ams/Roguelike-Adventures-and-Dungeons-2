@@ -1,0 +1,30 @@
+{
+    "icon": {
+        "item": "minecraft:bow",
+        "color": 65535
+    },
+    "range": {
+        "deity": "greek:hades",
+        "minlevel": -5,
+        "maxlevel": -10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        },
+        {
+            "type": "night"
+        }
+    ],
+    "action": [
+        {
+            "type": "summon",
+            "tag": {
+                "id": "minecraft:skeleton"
+            },
+            "multiplier": 0
+        }
+    ],
+    "chance": 0.09,
+    "cooldown": 9000
+}

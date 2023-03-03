@@ -1,0 +1,28 @@
+{
+    "icon": {
+        "item": "minecraft:tnt",
+        "color": 65535
+    },
+    "range": {
+        "deity": "greek:zeus",
+        "minlevel": -8,
+        "maxlevel": -10
+    },
+    "condition": [
+        {
+            "type": "random_tick"
+        }
+    ],
+    "action": [
+        {
+            "type": "summon",
+            "tag": {
+                "id": "minecraft:creeper",
+                "powered": true,
+                "CustomName": "\"Wrath of Zeus\""
+            }
+        }
+    ],
+    "chance": 0.05,
+    "cooldown": 22000
+}

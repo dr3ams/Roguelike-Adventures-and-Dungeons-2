@@ -1,0 +1,32 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:diamond_sword",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:ares",
+        "minlevel": 6,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "enter_combat"
+        }
+    ],
+    "action": [
+        {
+            "type": "potion",
+            "tag": {
+                "Potion": "minecraft:strength",
+                "Amplifier": 0,
+                "Duration": 1800
+            }
+        }
+    ],
+    "cooldown": 4400,
+    "cooldown_category": "ares:potion",
+    "chance": 0.45
+}

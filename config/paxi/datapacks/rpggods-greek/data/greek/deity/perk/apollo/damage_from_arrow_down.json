@@ -1,0 +1,29 @@
+{
+    "icon": {
+        "item": {
+            "id": "minecraft:shield",
+            "Count": 1
+        },
+        "color": 14277081
+    },
+    "range": {
+        "deity": "greek:apollo",
+        "minlevel": 5,
+        "maxlevel": 10
+    },
+    "condition": [
+        {
+            "type": "entity_hurt_player",
+            "data": "minecraft:arrow"
+        }
+    ],
+    "action": [
+        {
+            "type": "damage",
+            "multiplier": 0.9
+        }
+    ],
+    "cooldown": 450,
+    "cooldown_category": "apollo:damage_from_arrow_down",
+    "chance": 0.5
+}
