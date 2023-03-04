@@ -2464,7 +2464,7 @@
 		}
 		{
 			x: 9.5d
-			y: 2.5d
+			y: 2.0d
 			dependencies: ["5F7DCF112F9F6C1C"]
 			id: "5DFB8E394E15D588"
 			tasks: [
@@ -2518,8 +2518,8 @@
 			]
 		}
 		{
-			x: 9.5d
-			y: 1.5d
+			x: 9.0d
+			y: 1.0d
 			dependencies: ["5F7DCF112F9F6C1C"]
 			id: "6B4F1F9F0C7DBF65"
 			tasks: [{
@@ -2777,29 +2777,6 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: 0.5d
-			dependencies: ["7FC81AF332294769"]
-			id: "5510D7BD9710D3E1"
-			tasks: [{
-				id: "59731D035985E46A"
-				type: "item"
-				item: "vanillafoodpantry:iron_stomach"
-			}]
-			rewards: [
-				{
-					id: "3420CE78E0AFAD33"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-				{
-					id: "2F88AB52D9F1ADFE"
-					type: "choice"
-					table_id: 768393147870328736L
-				}
-			]
-		}
-		{
 			x: 12.0d
 			y: 0.5d
 			dependencies: ["7FC81AF332294769"]
@@ -2829,53 +2806,6 @@
 						Count: 1b
 						tag: {
 							Potion: "minecraft:long_regeneration"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 16.0d
-			y: -2.0d
-			dependencies: ["446936F80D06B8A4"]
-			id: "24F24DAA6BE34BA0"
-			tasks: [
-				{
-					id: "1AAD0394A4846BF3"
-					type: "item"
-					item: "iceandfire:summoning_crystal_fire"
-				}
-				{
-					id: "1536F47E5056110A"
-					type: "item"
-					item: "iceandfire:summoning_crystal_ice"
-				}
-				{
-					id: "16362F335B2FA500"
-					type: "item"
-					item: "iceandfire:summoning_crystal_lightning"
-				}
-			]
-			rewards: [
-				{
-					id: "72514FE94E4F89AC"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "quark:danger_sight"
-						}
-					}
-				}
-				{
-					id: "3ED997B34ED06A7C"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_monsters"
 						}
 					}
 				}
@@ -2927,35 +2857,6 @@
 					id: "44A6C38714EC90FD"
 					type: "xp_levels"
 					xp_levels: 2
-				}
-			]
-		}
-		{
-			x: 16.0d
-			y: 0.0d
-			dependencies: ["446936F80D06B8A4"]
-			id: "17F5C641D1AED41C"
-			tasks: [{
-				id: "442F4BD2C7CD0CDE"
-				type: "item"
-				item: "mysticalworld:epic_squid"
-			}]
-			rewards: [
-				{
-					id: "4DF88B21ABA59E05"
-					type: "item"
-					item: "minecraft:cake"
-				}
-				{
-					id: "4CD77FFA158423F3"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:bearspirit"
-						}
-					}
 				}
 			]
 		}
@@ -3016,10 +2917,7 @@
 		{
 			x: 14.5d
 			y: 3.5d
-			dependencies: [
-				"4A04F53F13D9B38E"
-				"01A65FF2D46381DB"
-			]
+			dependencies: ["4A04F53F13D9B38E"]
 			id: "3BF9B2CDF08346BE"
 			tasks: [{
 				id: "3ACB3D03AB546A2B"
@@ -3105,8 +3003,8 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: 0.0d
+			x: 8.0d
+			y: 0.5d
 			dependencies: ["5F7DCF112F9F6C1C"]
 			id: "3D96F603D819128E"
 			tasks: [
@@ -3220,9 +3118,9 @@
 			]
 		}
 		{
-			x: 16.0d
-			y: 3.5d
-			dependencies: ["446936F80D06B8A4"]
+			x: 11.5d
+			y: 2.5d
+			dependencies: ["61C3073337692CB0"]
 			id: "01A65FF2D46381DB"
 			tasks: [{
 				id: "63EC16F351C31659"
@@ -5050,36 +4948,6 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 0.5d
-			description: [
-				"The Paraglider can be crafted by using some leathers and sticks. While you're holding Paraglider midair, you fall more slowly, gliding over the land."
-				""
-				"Also there's and Stamina Vessels which you can use it to expand your stamina wheel. Obtaining these will involve talking to a peculiar statue of some foreign goddess. Keep an eye on when you visit a village."
-			]
-			dependencies: ["5F7DCF112F9F6C1C"]
-			id: "628200F12D42D0E8"
-			tasks: [{
-				id: "6024102BEA72FD26"
-				type: "item"
-				item: {
-					id: "paraglider:paraglider"
-					Count: 1b
-					tag: { }
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "7FEA0D6362F0045D"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
 			x: 24.0d
 			y: -1.0d
 			shape: "octagon"
@@ -5137,7 +5005,7 @@
 			description: [
 				"Gliders can be used to glide across long distances."
 				""
-				"The distance they glide is limited to a unique stamina mechanic"
+				"The distance they glide is limited to a unique stamina mechanic."
 			]
 			id: "1E51B8E76910275C"
 			tasks: [{
@@ -5179,45 +5047,13 @@
 			]
 			dependencies: ["1E51B8E76910275C"]
 			id: "533B104DB3063EAB"
-			tasks: [
-				{
-					id: "7E4A6E7946CE1407"
-					type: "questsadditions:use"
-					title: "Praise Hylia"
-					block: "paraglider:goddess_statue"
-					value: 1L
-					checkItem: false
-					isItemInteraction: false
-				}
-				{
-					id: "34FC4DC0E7EBDC16"
-					type: "item"
-					item: {
-						id: "paraglider:spirit_orb"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 4L
-				}
-			]
+			tasks: [{
+				id: "0E995F3C5F9299DE"
+				type: "advancement"
+				advancement: "paraglider:pray_to_the_goddess"
+				criterion: ""
+			}]
 			rewards: [
-				{
-					id: "10852A9B88E26302"
-					type: "item"
-					item: {
-						id: "paraglider:deku_leaf"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
 				{
 					id: "35FBAD29A89BAD45"
 					type: "xp_levels"
@@ -5236,36 +5072,6 @@
 					amount: 1.0d
 				}
 			]
-		}
-		{
-			icon: "greekfantasy:golden_bridle"
-			x: 3.0d
-			y: 8.0d
-			subtitle: "My horse is amazing"
-			description: [
-				"To tame a pegasus craft a golden briddle."
-				""
-				"While holding the golden briddle attempt to mount it."
-			]
-			secret: true
-			id: "6F0078EAF65B7C08"
-			tasks: [{
-				id: "47153DEB3D921447"
-				type: "observation"
-				title: "Look At My Horse"
-				icon: {
-					id: "greekfantasy:golden_bridle"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				timer: 40L
-				observe_type: 5
-				to_observe: "greekfantasy:pegasus"
-			}]
 		}
 		{
 			title: "Reforging?"
@@ -5320,6 +5126,184 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Stylish Statues"
+			x: 2.0d
+			y: 8.0d
+			dependencies: ["533B104DB3063EAB"]
+			id: "23BE4F851A51A152"
+			tasks: [
+				{
+					id: "4477E5EA56589832"
+					type: "observation"
+					title: "Goddess Statue"
+					icon: {
+						id: "paraglider:goddess_statue"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "paraglider:goddess_statue"
+				}
+				{
+					id: "24CE3F5213E3C792"
+					type: "observation"
+					title: "Rito Statue"
+					icon: {
+						id: "paraglider:rito_goddess_statue"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "paraglider:rito_goddess_statue"
+				}
+				{
+					id: "6F8180B65567342A"
+					type: "observation"
+					title: "Kakariko Style"
+					icon: {
+						id: "paraglider:kakariko_goddess_statue"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "paraglider:kakariko_goddess_statue"
+				}
+				{
+					id: "64B7DDFB122C5183"
+					type: "observation"
+					title: "Goron Style"
+					icon: {
+						id: "paraglider:goron_goddess_statue"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "paraglider:goron_goddess_statue"
+				}
+				{
+					id: "1B068B439909DD28"
+					type: "observation"
+					title: "Horned Statue"
+					icon: {
+						id: "paraglider:horned_statue"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 0L
+					observe_type: 0
+					to_observe: "paraglider:horned_statue"
+				}
+			]
+			rewards: [
+				{
+					id: "6B74552629F8E775"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "307C2FECE0858EEF"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "02A1EFD547496AA1"
+					type: "item"
+					item: {
+						id: "paraglider:spirit_orb"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "654107D9604321F0"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			dependencies: ["7FC81AF332294769"]
+			id: "329013243101B08C"
+			tasks: [{
+				id: "58F2E3554C7C2C33"
+				type: "item"
+				item: {
+					id: "spartanweaponry:saber_iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "06E24C75642F40B6"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "74E220DE990FEF5A"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strength"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
