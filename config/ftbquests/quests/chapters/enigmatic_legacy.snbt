@@ -987,5 +987,87 @@
 				}
 			]
 		}
+		{
+			x: -1.0d
+			y: -4.0d
+			subtitle: "You should really read what it is you're eating..."
+			id: "2449B651FD8C81FF"
+			tasks: [{
+				id: "4F69236765509831"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:forbidden_fruit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "640B243055D8B976"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:antiforbidden_potion"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Potion of Redemption"
+			icon: {
+				id: "enigmaticlegacy:antiforbidden_potion"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: -4.0d
+			subtitle: "Cures the Forbidden Fruit"
+			description: [
+				"Only the first is free."
+				""
+				"You only have yourself to blame."
+			]
+			dependencies: ["2449B651FD8C81FF"]
+			optional: true
+			id: "76D5BCEFC1A1C523"
+			tasks: [{
+				id: "68C7157AB0A54C7E"
+				type: "item"
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0ACB8C497DFDF33B"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:antiforbidden_potion"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
 	]
 }
