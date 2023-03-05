@@ -1,0 +1,12 @@
+{
+  "parent": "spartanweaponry:item/base/pike",
+  "textures": {
+    "layer0": "spartanweaponry:item/pike_wood"
+  },
+	"overrides": [{
+		"predicate": {
+			"custom_model_data": 1
+		},
+		"model": "rad2:item/big_stick"
+	}]
+}
