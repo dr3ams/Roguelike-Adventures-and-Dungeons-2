@@ -686,6 +686,34 @@
 				}
 			}
 			entries: [
+			{
+				item: {
+					id: "spartanweaponry:pike_wood"
+					Count: 1b
+					tag: {
+						CustomModelData: 1
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Big Stick\",\"bold\":\"true\",\"italic\":\"false\"}"
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [{
+								data: [{
+									lvl: 1s
+									id: "uniquee:combo_star"
+								},{
+									lvl: 1s
+									id: "uniquee:ecological"
+								}]
+								source: "dungeons_libraries:gear_config"
+							}]
+						}
+					}
+				}
+				buy: 75L
+			}
 				{
 					item: {
 						id: "usefulhats:lucky_hat"
