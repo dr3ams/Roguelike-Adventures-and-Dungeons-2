@@ -128,7 +128,7 @@
 				}
 			}
 			x: -2.5d
-			y: -0.5d
+			y: 0.0d
 			description: [
 				"- Piglins now have a reputation system that works similarly to Villagers. Doing things like fighting alongside them against Wither mobs, giving them gifts and bartering with them increases your reputation. Doing things like hurting or killing Piglin mobs and engaging in unauthorized mining/chest opening around them decreases your reputation."
 				""
@@ -210,13 +210,15 @@
 			y: -2.0d
 			description: [
 				"Blood Moon:"
-				"Blood Moons are a lunar event that cranks up the monster spawn cap as well as preventing the player from sleeping! The mechanics of the blood moon are inspired by the spawn rate increase that occurs in Terraria's Blood Moon."
+				"- Increases monster spawn cap and prevents sleeping."
 				""
 				"Harvest Moon:"
-				"The harvest moon is a lunar which cranks up both the crop growth rate and crop drop rate!"
+				"Increases crop growth rate and drop rate."
 				""
 				"Blue Moon:"
-				"The blue moon is a lunar event that gives you the luck effect and increases the quality of loot in vanilla loot tables!"
+				"Gives players the Luck effect, increasing some loot quality and fishing loot."
+				""
+				"Sometimes a super version of lunar events occurs that has an amplified effect."
 			]
 			dependencies: ["56127AAF761DC8DA"]
 			id: "1D7B582F298ADFDF"
@@ -278,9 +280,13 @@
 			y: -2.0d
 			subtitle: "In-Depth, Well Balanced and Seamlessly Integrated Dodging"
 			description: [
-				"- Armor Weights. Dodging is impacted directly by the heaviness of your armor; you have to think twice about what you equip!"
+				"The blue/gray feather icons above your hunger indicate your Dodge Meter."
 				""
-				"- You can adjust the Dodge Key button from its default value of Left-Alt in Minecraft's controls menu!"
+				"Every armor has a weight that affects your maximum dodges. Gray feathers indicate armor weight."
+				""
+				"The Lightweight enchantment can decrease armor weight, granting you feathers back."
+				""
+				"You can dash by holding any direction and pressing the Dodge keybind (Default: Left Alt)."
 			]
 			dependencies: ["56127AAF761DC8DA"]
 			id: "55DE8B3522A4F8A6"
@@ -375,11 +381,13 @@
 			x: 0.5d
 			y: -2.0d
 			description: [
-				"Each animal and human being can now bleed. This is an effect that deals damage similar to poison and can be removed using a new item: Bandages. The chance of bleeding is lower the more pieces of armor you have."
+				"Damage from sharp objects, bites, and cactuses will cause entities to bleed."
 				""
-				"Bleeding is caused by many different sources such as receiving sword damage, being bitten by a spider, or by touching a cactus..."
+				"Bleeding causes damage over time, like poison, and is lethal. Bandages can cure bleedign and provide regeneration."
 				""
-				"It is important to keep bandages with you at all times because bleeding becomes more deadly as the game progresses!"
+				"Each piece of armor equipped reduces bleed chance by 10%."
+				""
+				"In Expert and Master Mode, the level of Bleeding is increased."
 			]
 			dependencies: ["56127AAF761DC8DA"]
 			id: "04CC7C1C1BFE864D"
@@ -408,12 +416,11 @@
 			x: 1.5d
 			y: -0.5d
 			description: [
-				"A difficulty value is tracked for each player."
-				"As difficulty increases, mobs become stronger."
+				"Difficulty will increase over time per-player, after 3 in-game days."
 				""
+				"As the difficulty increases mobs gain increased stats (damage, speed, health, knockback, magic resistance) and will spawn with more equipment that can be enchanted."
 				""
-				"The difficulty value will determine how much extra health mobs can have. Mobs will also gain bonus attack damage and potion effects."
-				""
+				"The strength of mobs is determined by the average difficlty of nearby players."
 			]
 			dependencies: ["56127AAF761DC8DA"]
 			id: "0F19628AC9F04F38"
@@ -441,22 +448,16 @@
 			x: 1.5d
 			y: -2.0d
 			description: [
-				"Each Wither killed and Ender Dragon (re)spawned will count towards a point of Difficulty, making them harder the next time they're spawned.Each point of difficulty increases the Bosses stats and unlocks abilities."
+				"Each time you kill the Wither, Elder Guardian or Ender Dragon, the difficulty of the fight increases, giving them stronger stats and abilities, while also giving increased rewards and experience."
 				""
-				"Wither "
-				"Wither Health increases by 10 for each point of difficulty."
-				"Regenerates 0.05 HP per second for each point of difficulty (up to 1 HP per second). This is summed to the base regeneration of 1 HP per second the Wither already has."
-				"After the first Wither Spawned the second Wither will spawn Wither Minions (Wither Skeletons)."
-				"Has 2% chance per point of difficulty (up to 50%) to drop a Nether Star Shard."
+				"Wither"
+				"- Summons Wither Skeletons. Drops Nether Star Shards."
 				""
 				"Ender Dragon"
-				"The Ender Dragon deals 10% more damage per point of difficulty for both attacking and the Acid Pool."
-				"Has 10 more HP per point of Difficulty"
-				"Can spit an acid fireball more frequently, given by the Difficulty and the remaining Ender Crystals."
-				"As the difficulty goes up, more cages will spawn around Crystals on the towers."
-				"After the first Dragon Killed the second one will spawn Larvae (Endermites) at the center of the island."
-				"From the third Dragon she will start spawning Minions (Purple Shulkers) around the island."
+				"- Summons Shulkers and Endermite."
 				""
+				"Elder Guardian"
+				"- Summons Guardians. Drops Sponges and Elder Guardian Spikes."
 			]
 			dependencies: ["0F19628AC9F04F38"]
 			id: "68203BBBB58B26EA"
@@ -483,7 +484,7 @@
 			x: 2.5d
 			y: -0.5d
 			description: [
-				"The game progress is divided into three parts: Normal Mode, Expert Mode, and Master Mode."
+				"The game progress is divided into three parts: Normal Mode, Expert Mode, and Master Mode. These are not per-player, and affect the whole world."
 				""
 				"- Normal Mode starts at the beginning of the game."
 				""
@@ -560,6 +561,7 @@
 			icon: "farmersdelight:cake_slice"
 			x: 3.0d
 			y: 6.0d
+			subtitle: "Benefits for eating variety of foods"
 			description: [
 				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods."
 				""
@@ -573,7 +575,7 @@
 			tasks: [{
 				id: "6331E4029462A823"
 				type: "checkmark"
-				title: "Benefits for eating variety of foods"
+				title: "Dietary Diversity"
 			}]
 			rewards: [{
 				id: "4A593D39CE5A8B79"
@@ -594,17 +596,25 @@
 			x: -1.0d
 			y: 2.5d
 			description: [
-				"There are multiple new villager jobs, all with unique trades, workstations, and advancements!"
-				"- OCEANOGRAPHER"
-				"- NETHEROLOGIST"
-				"- FORESTER"
-				"- ENDEROLOGIST"
-				"- ENGINEER"
-				"- FLORIST"
-				"- HUNTER"
-				"- MINER"
+				"There are new villager jobs, trades, workstations, and advancements!"
 				""
-				"There are also some villager tools that you should check. @villagertools"
+				"- Oceanographer (Oceanography Table)"
+				""
+				"- Forester (Forestry Bench)"
+				""
+				"- Engineer (Blueprint Table)"
+				""
+				"- Florist (Gardening Table)"
+				""
+				"- Hunter (Hunting Post)"
+				""
+				"- Netherologist (Decayed Workbench)"
+				""
+				"- Enderologist (Purpur Altar)"
+				""
+				"- Apiarist (Honey Pot)"
+				""
+				"There are also various tools to use with Villagers from the Villager Tools mod! (@villagertools in JEI)"
 			]
 			id: "2574DDCEFF8FE519"
 			tasks: [{
@@ -637,21 +647,21 @@
 			x: 3.0d
 			y: 7.0d
 			description: [
-				"Lost Trinkets mod adds more than 70+ unlockable trinkets with different abilities and rarities."
+				"Lost Trinkets adds more than 50 unlockable trinkets with different abilities and rarities."
 				""
-				"Trinkets are randomly unlocked when you doing some activities like fighting enemies and bosses, trading, mining ores, cutting trees, and farming.Each activity has a rarity of unlocking trinkets eg: killing bosses has a better chance than normal enemies"
+				"Trinkets are randomly unlocked during some activities like killing enemies and bosses, trading, mining ores, cutting trees, and farming. Each activity has a different chance of unlocking a trinket."
 				""
-				"You can access the trinket GUI by pressing the R key on your keyboard."
+				"You can access the Trinkets GUI with its keybind (Default: R). Here you can equip them and unlock more slots."
+				""
 				"========================"
-				"There are also countless amount of curious(baubles) which have their own slot in your inventory. Each with unique different ability or property. "
 				""
-				"You can access curio slots from your inventory near your character model.(G button)"
+				"There are also countless curios which have their own slot in your Curio Inventory which you can open with the icon in your inventory, or with a keybind (Default: G)."
 			]
 			id: "0E5AE2A43020AFC3"
 			tasks: [{
 				id: "0904DC2D17454C24"
 				type: "checkmark"
-				title: "Trinkets and curious"
+				title: "Trinkets and Curios"
 			}]
 			rewards: [{
 				id: "70CB36DD6DEEB01C"
@@ -881,22 +891,17 @@
 			y: 7.6d
 			subtitle: "(brief explanation about stats)"
 			description: [
-				"Menu access key: P (for more info and stats)"
+				"Project MMO adds stats that level up while doing certain activities."
 				""
-				"Project MMO adds an array of new stats that you level up while doing usual things. Leveling these stats unlocks the ability to use more items in game."
+				"You can access the Project MMO menu with the Open Menu key (Default: P). Here you can see stats, skills and their benefits, how to get experience, and much more."
 				""
-				"Starting the game you will not be able to use armor, decent tools and specific artifacts/relics/baubles, because this requires a certain level of the player associated with a specific item. In addition to the restrictions - leveling gives a variety of bonuses - passive(like improving your damage) or active(like the ability to salvage item for another one), thereby engaging in certain activities, you will improve your character."
+				"Higher skill levels gives you bonuses related to the skill, and allows you to use more items."
 				""
-				"As you level up different abilities you will unlock different bonuses associated with that abilities, some of them are:"
-				"- Mining: increasing mining speed with each level;"
-				"- Excavation: chance to find treasures while digging;"
-				"- Combat: more damage dealt with weapons;"
+				"Certain items will grant a boost to Skill XP gain, when either held in your hands or worn."
 				""
-				"There also different Xp Modifiers for different skill based on your current biome. As an example: you will get less farming experience in desert biome; or more swimming and fishing in ocean biome."
+				"Some biomes and dimensions also adjust Skill XP gain, information like this can be found in the Glossary as well."
 				""
-				"You can also create or join party with using /pmmo party create/accept/invite/leave command."
-				""
-				"If your stat list on the left is disappeared - simply re-enter the game and it should reappear."
+				"You can create a party with the \"/pmmo party\" command, which gives increased XP gain, reduced friendly fire, and minor Skill XP sharing."
 			]
 			size: 1.55d
 			id: "000000000000009D"
@@ -913,12 +918,12 @@
 		}
 		{
 			icon: "minecraft:brewing_stand"
-			x: -0.7250000000000001d
+			x: -1.15d
 			y: 9.4d
 			description: [
-				"Alchemy skill is gained by brewing potions in the Brewing Stand."
+				"Alchemy experience is gained by crafting brewing ingredients and brewing potions in a brewing stand."
 				""
-				"Higher levels of this skill allow for the possibility of extra potions being brewed when brewing a potion."
+				"Higher levels increase the chance for extra potions to be brewed."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -952,14 +957,17 @@
 				}
 			}
 			x: 1.4d
-			y: 8.55d
+			y: 7.69d
 			description: [
-				"Agility skill is gained in a number of ways:"
-				"-Sprinting: the faster you are going, the more xp you will gain (Potions can boost this)."
-				"-Jumping: the higher you jump the more xp you gain (Potions can boost this)."
-				"-Saving fall damage (a chance probability of occuring when taking fall damage)."
+				"Agility experience is gained from multiple sources related to movement."
 				""
-				"Higher levels of agility will grant a higher chance to save fall damage"
+				"- Sprinting: the faster you are going, the more experience you gain."
+				""
+				"- Jumping: the higher you jump the more experience you gain."
+				""
+				"- Being saved from fall damage by this skill"
+				""
+				"Higher levels will increase the chance to prevent fall damage."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -986,14 +994,12 @@
 		}
 		{
 			icon: "minecraft:tropical_fish"
-			x: -2.0d
-			y: 6.85d
+			x: 0.55d
+			y: 9.4d
 			description: [
-				"Swimming skill is gained by going swimming in the lakes, rivers, and oceans."
+				"Swimming experience. Yep."
 				""
-				"Higher levels of swimming will grant two advantages, underwater nightvision and the ability to stay underwater longer."
-				"Underwater Nightvision will unlock at level 25."
-				"Swimming, and to a lesser extent Endurance, will work together to extend your ability to stay underwater."
+				"Reaching level 25 will unlock underwater night vision."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1026,12 +1032,12 @@
 					Damage: 0
 				}
 			}
-			x: 0.125d
-			y: 9.4d
+			x: 1.4d
+			y: 8.55d
 			description: [
-				"Flying skill is gained by flying around with an Elytra."
+				"Flying experience is gained during Elytra flight."
 				""
-				"There is no bonus for higher levels of this skill."
+				"Higher levels do not give any bonuses."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1067,11 +1073,9 @@
 			x: 1.4d
 			y: 6.85d
 			description: [
-				"Endurance skill is gained by taking damage from any source (falling, getting hit by mobs, etc.)."
+				"Endurance experience is gained by taking damage."
 				""
-				"Higher levels of endurance will decrease the amount of damage taken from hits and increases the amount of extra hearts you have. It also contributes to how long you can stay underwater."
-				""
-				"Endurance will also contribute a healing effect across time, with higher levels healing more hearts for every passive time frame."
+				"Higher levels will increase damage reduction and max health."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1104,12 +1108,14 @@
 					Damage: 0
 				}
 			}
-			x: 1.4d
-			y: 7.699999999999999d
+			x: -2.0d
+			y: 6.85d
 			description: [
-				"Combat skill is gained by hitting mobs to deal damage. You will get less xp if the mob is passive, dies, or is one-shot from full health."
+				"Combat experience is gained by attacking mobs."
 				""
-				"Higher levels of combat increase the amount of damage you can do with melee weapons."
+				"Less experience is gained if the mob dies, or is one-shot from full health."
+				""
+				"Higher levels increase melee damage."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1142,13 +1148,16 @@
 					Damage: 0
 				}
 			}
-			x: 0.9749999999999996d
-			y: 9.4d
+			x: -2.0d
+			y: 7.69d
 			description: [
-				"Archery skill is gained by shooting mobs with a bow."
-				"You will get less xp if the mob is passive, but more if the mob is killed, is one-shot, or if the arrow flies over 16 blocks."
+				"Archery experience is gained by attacking mobs with ranged weapons."
 				""
-				"Higher levels of archery allows you to do extra damage with bows."
+				"More experience is gained if the mob dies, is one-shot from full health, and if the distance was more than 16 blocks."
+				""
+				"Higher levels increase ranged damage."
+				""
+				"NOTICE: Experience gain has issues, and we can't fix it on our end."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1184,9 +1193,9 @@
 			x: 0.55d
 			y: 6.0d
 			description: [
-				"Excavation skill is gained by breaking dirt or dirt-based blocks."
+				"Excavation experience is gained by digging blocks like dirt, sand and snow."
 				""
-				"Higher levels of excavation give you the ability to dig faster and to find treasure in blocks when digging."
+				"Higher levels allow you to dig faster and to find treasure when digging."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1222,9 +1231,9 @@
 			x: -0.3d
 			y: 6.0d
 			description: [
-				"Mining Skill is gained by breaking rock or rock-based blocks."
+				"Mining experience is gained by breaking stone-based blocks."
 				""
-				"Higher levels of mining allow you to mine faster and to drop extra items when mining."
+				"Higher levels allow you to mine faster and mine extra ore."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1260,9 +1269,9 @@
 			x: -1.15d
 			y: 6.0d
 			description: [
-				"Woodcutting skill is gained by breaking wood blocks (logs, planks, etc.)."
+				"Woodcutting experience is gained by breaking wood blocks (logs, planks, etc.)."
 				""
-				"Higher levels of woodcutting allow you to cut wood faster and have the possiblity of dropping extra wood blocks."
+				"Higher levels allow you to chop faster and sometimes chop extra wood."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1298,9 +1307,9 @@
 			x: -2.0d
 			y: 6.0d
 			description: [
-				"Farming skill is gained by harvesting plants and by breeding animals."
+				"Farming experience is gained from crops maturing, harvesting certain crops, and breeding animals."
 				""
-				"Higher levels of farming will allow you to harvest more crops from a single plant and to harvest them faster,"
+				"Higher levels increase harvest size and growth speed."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1333,13 +1342,14 @@
 					Damage: 0
 				}
 			}
-			x: -2.0d
-			y: 8.55d
+			x: -0.3d
+			y: 9.4d
 			description: [
-				"Fishing skill is gained by going out and ... you will never guess ... fishing."
+				"You'll never guess what Fishing experience is gained from. That's right, fishing. Craziest thing."
 				""
-				"While fishing you will be able to catch special items that have the possibility of being enchanted."
-				"Higher levels of fishing increase the probability of catching better items with better enchantments."
+				"Higher levels increase the chance of catching better items and enchantments."
+				""
+				"You can see detailed info on this in the Glossary."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1365,21 +1375,15 @@
 			}]
 		}
 		{
-			icon: {
-				id: "ars_nouveau:wand"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "ars_nouveau:wand"
 			x: -2.0d
-			y: 7.699999999999999d
+			y: 8.55d
 			description: [
-				"Magic skill is gained by mining magical ores, reading tomes from Enigmatic Legacy, and casting spells."
+				"Magic experience is gained by mining magical ores, reading tomes, and casting spells."
 				""
-				"Higher levels of this skill grant increased maximum mana, mana regeneration, and magic damage."
+				"Higher levels grant increased maximum mana, mana regeneration, and magic damage."
+				""
+				"NOTICE: Experience gain has issues, and we can't fix it on our end."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1398,17 +1402,17 @@
 		}
 		{
 			icon: "minecraft:smithing_table"
-			x: -1.575d
+			x: -2.0d
 			y: 9.4d
 			description: [
-				"Smithing skill is gained by a number of different methods:"
-				"-Repairing items"
-				"-Salvaging items (place the item in your off-hand, then crouch and right click on a smithing table)"
+				"Smithing experience is gained from repairing items in an anvil and salvaging items at a smithing table (sneak-use)."
 				""
-				"Higher levels of smithing give a number of good benefits:"
-				"-While smelting ore there is a possibility of getting extra products."
-				"-When salvaging items, a higher level increases the success rate of salvaging and increases the number of possible salvaging products."
-				"-Increases the amount repaired when using the anvil and anvils are less likely to break."
+				"Higher levels give multiple benefits."
+				""
+				"- Bonus ores smelted"
+				"- Increased salvage success rate"
+				"- Increased durability restoration in anvil"
+				"- Reduced chance of anvils being damaged when used"
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1438,11 +1442,11 @@
 			x: 2.0d
 			y: 2.5d
 			description: [
-				"Waystones allows players to return to them once they've been activated, either through a Warp Scroll, a rechargeable Warp Stone, or by using an existing waystone to hop from one to the other."
+				"Waystones allows players to return to them once they've been activated, either through a Warp Scroll, a Warp Stone, or another waystone."
 				""
-				"You can find some in the wild and in the villages."
+				"You can find some in the wild, in towers, and in villages."
 				""
-				"You can also buy a personal one in the shop and put it whenever you need."
+				"You can also buy one in the shop and put it wherever you want."
 			]
 			id: "6AA5B436C67A93FF"
 			tasks: [{
@@ -1471,18 +1475,13 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			x: 1.4d
 			y: 6.0d
 			description: [
-				"Gathering skill is gained while mining, excavating or woodcutting."
+				"Gathering skill is the sum of your Mining, Woodcutting and Excavating experience."
 				""
-				"Higher levels of gathering allow you to equip and use higher quality items."
+				"Higher levels allow you to equip and use higher quality items."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1645,7 +1644,11 @@
 			}
 			x: 3.0d
 			y: 5.0d
-			description: ["If you need some starting equipment go to the specialization section."]
+			description: [
+				"You can choose starter gear in the Specialization chapter. These are just items, there are no other benefits."
+				""
+				"You only get to choose one path, and get three sets of rewards total."
+			]
 			id: "0A8694E6D7E5B93E"
 			tasks: [{
 				id: "2371A22BE0EE5213"
@@ -1654,22 +1657,14 @@
 			}]
 		}
 		{
-			icon: {
-				id: "ars_nouveau:glyph_leap"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "ars_nouveau:glyph_leap"
 			x: -0.5d
 			y: -2.0d
 			subtitle: "Even more new movement features!"
 			description: [
-				"Wall Cling: Jump towards a wall and hold the wall jump key"
+				"Wall Cling: Jump towards a wall and hold the Wall Jump / Cling keybind (Default: Left Shift)."
 				""
-				"Wall Jump: While wall clinging, keep holding W and let go of the wall jump key to wall jump"
+				"Wall Jump: While wall clinging, keep holding W and let go of the keybind to wall jump"
 				""
 				"You can chain together wall jumps to go as high as you want!"
 			]
@@ -1688,6 +1683,104 @@
 					Count: 1b
 					tag: {
 						Potion: "minecraft:leaping"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "bountifulbaubles:broken_black_dragon_scale"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.4d
+			y: 9.4d
+			subtitle: "Dragonslayer, Shadow, Light, Wayfaring, Dungeoneering"
+			description: [
+				"These skills do not have bonuses like the others, but are used solely for item requirements."
+				""
+				"Dragonslayer is gained from... slaying dragons."
+				""
+				"Shadow is gained from killing certain mobs (see Glossary's Mobs Info section) and crafting Eidolon items."
+				""
+				"Light is gained from killing certain mobs (see Glossary's Mobs Info section)."
+				""
+				"Wayfaring is gained from exploring new structures and areas."
+				""
+				"Dungeoneering is gained from crafting and mining dungeon related items and blocks."
+			]
+			dependencies: ["000000000000009D"]
+			size: 0.85d
+			optional: true
+			id: "22CB70395C58370B"
+			tasks: [{
+				id: "4544ECA11FB881CE"
+				type: "checkmark"
+				title: "Other Skills"
+			}]
+			rewards: [{
+				id: "528630BD504D98F0"
+				type: "item"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			subtitle: "Elite Mobs"
+			description: [
+				"Mobs now have a chance to spawn as Champions, elite mobs with enhanced stats, extra abilities, and extra loot (Enchanted Books and Coins)."
+				""
+				"Champions have affixes that grant them powers, with higher tiers having more affixes."
+				""
+				"There are currently 6 tiers of Champions, locked behind game stages."
+				""
+				"- Tier 1 and 2: Always Spawn"
+				"- Tier 3, 4, 5 and 6: Master Mode"
+				""
+				"For information on what coins which tiers drop, check out the Coin Shop!"
+			]
+			dependencies: ["56127AAF761DC8DA"]
+			id: "38049609F73B874B"
+			tasks: [{
+				id: "72DE9AD07435F340"
+				type: "checkmark"
+				title: "Champions"
+				icon: {
+					id: "kubejs:skull"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B1856CC55FD4B38"
+				type: "item"
+				item: {
+					id: "roughtweaks:salve"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
