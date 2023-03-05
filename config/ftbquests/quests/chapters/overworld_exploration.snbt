@@ -348,55 +348,6 @@
 			]
 		}
 		{
-			title: "Now entering: Master Mode!"
-			x: 28.5d
-			y: -4.5d
-			shape: "octagon"
-			subtitle: "New mechanics for Master Mode:"
-			description: [
-				"- loot has a 75% chance to be doubled"
-				""
-				"- experience from all sources is increased by 50%"
-				""
-				"- all monsters have their health and damage increased by 40% (instead of 20% chance)(at night the bonus is doubled to 80%)"
-				""
-				"- Phantom and new End Keeper spawn naturally near new structures"
-				""
-				"- Elite Skeleton may spawn in a group"
-				""
-				"- Enderman may teleport target on hit"
-				""
-				"- Shulker may inflict Blindness effect"
-				""
-				"- Creepers on explosion may spawn more Creeperlings"
-				""
-				"- Undead Army now has 5 waves"
-				""
-				"- undead spawned during the Undead Army are quadruple as likely to have enchanted items"
-				""
-				"- undead spawned during the Undead Army are thrice as likely to have armor pieces"
-				""
-				"- Undead Army now rewards with 2 Treasure Bags (instead of 1)"
-				""
-				"- Undead Army gives 200% more experience for completing it (instead of 100%)"
-				""
-			]
-			dependencies: ["216F05F4361A6D0F"]
-			size: 1.5d
-			id: "1486101A3CE0CAAA"
-			tasks: [{
-				id: "61895C1AED0E6B10"
-				type: "advancement"
-				advancement: "minecraft:story/enter_the_end"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "06A7EB4B149700A9"
-				type: "item"
-				item: "majruszs_difficulty:golden_bandage"
-			}]
-		}
-		{
 			title: "Iron Armor"
 			x: 9.5d
 			y: -2.0d
@@ -1296,25 +1247,6 @@
 			}]
 		}
 		{
-			x: 24.0d
-			y: 3.75d
-			shape: "gear"
-			subtitle: "Next chapter: Nether!"
-			dependencies: ["38E3B9FEC8AA6D51"]
-			size: 1.5d
-			id: "55D40E52C19424EA"
-			tasks: [{
-				id: "6838F7AD9225523D"
-				type: "item"
-				item: "minecraft:netherite_ingot"
-			}]
-			rewards: [{
-				id: "471278F457FF10A5"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
 			x: 3.0d
 			y: -3.5d
 			dependencies: ["18FF6DA5335C0711"]
@@ -1707,426 +1639,6 @@
 			]
 		}
 		{
-			x: 27.0d
-			y: -4.5d
-			dependencies: ["641181016BC6E8FA"]
-			id: "216F05F4361A6D0F"
-			tasks: [
-				{
-					id: "78A7178A8C763044"
-					type: "item"
-					item: "minecraft:ender_eye"
-				}
-				{
-					id: "6695E73DCC21B3CF"
-					type: "item"
-					item: "minecraft:blaze_powder"
-				}
-			]
-			rewards: [
-				{
-					id: "29A3AC25E7CA7733"
-					type: "item"
-					item: "randomite:randomite_ore"
-				}
-				{
-					id: "62082B80C8BAD229"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "44EF56DC7470E1F7"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					random_bonus: 5
-				}
-			]
-		}
-		{
-			x: 26.0d
-			y: -3.5d
-			dependencies: ["4DFF53E47185A474"]
-			id: "641181016BC6E8FA"
-			tasks: [{
-				id: "644ED2DE7E420084"
-				type: "item"
-				item: "minecraft:blaze_rod"
-			}]
-			rewards: [{
-				id: "06BA05200F48099C"
-				type: "item"
-				item: "minecraft:cake"
-			}]
-		}
-		{
-			x: 25.0d
-			y: -4.5d
-			dependencies: ["641181016BC6E8FA"]
-			id: "1C6B53E307B94F2B"
-			tasks: [{
-				id: "271191E07F9E2EAD"
-				type: "item"
-				item: "minecraft:brewing_stand"
-			}]
-			rewards: [
-				{
-					id: "3A6CF24705B51DD8"
-					type: "item"
-					item: "minecraft:cake"
-				}
-				{
-					id: "211B5BA8F42C9C49"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					random_bonus: 2
-				}
-				{
-					id: "76545626A1EB4AAF"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "potions"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 32.5d
-			y: -5.5d
-			dependencies: ["211D755718A5FF50"]
-			id: "7C7472461D312440"
-			tasks: [{
-				id: "4C1977736306CD57"
-				type: "item"
-				item: {
-					id: "minecraft:elytra"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "6ED1B49C3E688B55"
-					type: "ftbmoney:money"
-					ftb_money: 50L
-				}
-				{
-					id: "0D2174C9CCF41B0B"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "ingots_valuable"
-						}
-					}
-				}
-				{
-					id: "6CD601C4C272FB3C"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "rare_loot_crate"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 32.5d
-			y: -3.5d
-			dependencies: ["211D755718A5FF50"]
-			id: "29B78E51C4BF86F1"
-			tasks: [{
-				id: "41D775B7EEAA6AEF"
-				type: "item"
-				title: "Any #forge:shulker_boxes"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:shulker_boxes"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "09102FACDD138BD5"
-					type: "item"
-					item: "aquaculture:treasure_chest"
-				}
-				{
-					id: "609B8BB275488030"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "rare_loot_crate"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 31.5d
-			y: -4.5d
-			dependencies: ["359F39A14EC630B9"]
-			id: "211D755718A5FF50"
-			tasks: [{
-				id: "18960A1A3B8316E7"
-				type: "kill"
-				entity: "minecraft:ender_dragon"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "5F4407734EE8580B"
-					type: "ftbmoney:money"
-					ftb_money: 100L
-				}
-				{
-					id: "30926186E9402B7E"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "1CCE04329D3158CD"
-					type: "choice"
-					table_id: 768393147870328736L
-				}
-			]
-		}
-		{
-			title: "Now entering: Expert Mode!"
-			x: 28.5d
-			y: -1.0d
-			shape: "octagon"
-			subtitle: "New mechanics for Expert Mode:"
-			description: [
-				"- loot has a 25% chance to be doubled"
-				""
-				"- experience from all sources is increased by 20%"
-				""
-				"- all monsters have their health and damage increased by 20%(at night the bonus is doubled to 40%)"
-				""
-				"- Illusioner spawn naturally during the night"
-				""
-				"- new Elite Skeleton spawn naturally during the night(shoots arrows extremely precisely)"
-				""
-				"- Piglins may spawn in a group"
-				""
-				"- Pillagers may spawn in a group"
-				""
-				"- Creepers on explosion may spawn more Creeperlings"
-				""
-				"- Slimes have a chance to inflict Slowness effect"
-				""
-				"- Wither Skeletons may spawn with the Wither Sword instead of the Stone Sword"
-				""
-				"- Undead Army now has 4 waves"
-				""
-				"- undead spawned during the Undead Army are twice as likely to have enchanted items"
-				""
-				"- undead spawned during the Undead Army are twice as likely to have armor pieces"
-				""
-				"- Undead Army gives 100% more experience for completing it"
-				""
-				"- whenever you die from Bleeding or are killed by a Zombie there spawns a special Zombie with your head"
-			]
-			dependencies: ["2DF36A4C59310AB7"]
-			size: 1.5d
-			id: "3D007BCE6C843D07"
-			tasks: [{
-				id: "259EE186B9E4E3F1"
-				type: "kill"
-				entity: "minecraft:wither"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "06092ABE1EF3BA78"
-					type: "ftbmoney:money"
-					ftb_money: 50L
-				}
-				{
-					id: "3CCC16EA6E4A8D58"
-					type: "item"
-					item: {
-						id: "aquaculture:treasure_chest"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 26.5d
-			y: -1.0d
-			dependencies: ["4DFF53E47185A474"]
-			id: "2DF36A4C59310AB7"
-			tasks: [{
-				id: "69EB4E8A2CBECC28"
-				type: "item"
-				item: "minecraft:wither_skeleton_skull"
-				count: 3L
-			}]
-			rewards: [
-				{
-					id: "03E127BCF758580F"
-					type: "item"
-					item: {
-						id: "roughtweaks:medkit"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "48B51F823188CDD2"
-					type: "item"
-					item: "minecraft:gold_nugget"
-					count: 5
-					random_bonus: 50
-				}
-			]
-		}
-		{
-			x: 30.5d
-			y: -1.0d
-			dependencies: ["3D007BCE6C843D07"]
-			id: "5A302A15FA9774B4"
-			tasks: [{
-				id: "1580B2B8188C3FA0"
-				type: "item"
-				item: "minecraft:nether_star"
-			}]
-			rewards: [
-				{
-					id: "250CA97F2AE1EE09"
-					type: "ftbmoney:money"
-					ftb_money: 100L
-				}
-				{
-					id: "48A781EDE9A8944A"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "7BEA39B220898A14"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "ingots_valuable"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 32.5d
-			y: -1.0d
-			dependencies: ["5A302A15FA9774B4"]
-			id: "30D48209ECED6B8B"
-			tasks: [{
-				id: "6A6D74F8242D99D0"
-				type: "item"
-				item: "minecraft:beacon"
-			}]
-			rewards: [
-				{
-					id: "01D492C65998D18B"
-					type: "ftbmoney:money"
-					ftb_money: 50L
-				}
-				{
-					id: "07A4F05DD0A244C1"
-					type: "choice"
-					table_id: 768393147870328736L
-				}
-				{
-					id: "51DB0DDED8AB2D7F"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "rare_loot_crate"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 24.0d
-			y: 1.0d
-			dependencies: ["4DFF53E47185A474"]
-			id: "38E3B9FEC8AA6D51"
-			tasks: [{
-				id: "298525A9BE1B7322"
-				type: "item"
-				item: "minecraft:ancient_debris"
-			}]
-			rewards: [
-				{
-					id: "38831E9812B7C615"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "ingots_basic"
-						}
-					}
-				}
-				{
-					id: "6920CFC5557DF331"
-					type: "item"
-					item: "randomite:randomite_ore"
-				}
-				{
-					id: "19AFFE72D84D7030"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "7F980359995C6522"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					random_bonus: 5
-				}
-			]
-		}
-		{
 			x: 19.5d
 			y: -3.5d
 			description: ["The Altar of the Sea is a block with allows you to recycle worthless enchanted items.  To begin, you need four enchanted items and a fair amount of experience.  Then, you place one enchanted item on each pillar (target the pillar and right click it while holding the item).  Once all four pillars hold an item, the Altar will begin to drain experience from nearby players.  The amount of experience required is based on the levels an rarities of the provided enchantments.  Once the experience has been drained, all four items will be consumed, and a newly created enchanted book will be created.  The new enchantments are random, but better enchantments will be obtained with higher levels and rarities of provided enchantments.  The Altar of the Sea can generate treasure enchantments."]
@@ -2441,28 +1953,6 @@
 			]
 		}
 		{
-			x: 26.0d
-			y: 2.0d
-			dependencies: ["192679B4B812DFED"]
-			id: "27DAA8AF156AFCCB"
-			tasks: [{
-				id: "66C89E9E6EAAB6D3"
-				type: "item"
-				item: "mining_dimension:teleporter"
-			}]
-			rewards: [{
-				id: "7742F23A540C97F9"
-				type: "item"
-				item: {
-					id: "ftbquests:lootcrate"
-					Count: 1b
-					tag: {
-						type: "ingots_basic"
-					}
-				}
-			}]
-		}
-		{
 			x: 9.5d
 			y: 2.0d
 			dependencies: ["5F7DCF112F9F6C1C"]
@@ -2736,47 +2226,6 @@
 			]
 		}
 		{
-			x: 26.0d
-			y: 1.0d
-			dependencies: ["4DFF53E47185A474"]
-			id: "192679B4B812DFED"
-			tasks: [{
-				id: "47FB7EC89D3B860B"
-				type: "item"
-				item: "minecraft:quartz"
-			}]
-			rewards: [
-				{
-					id: "7F81777E298E3B2A"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "109D1976CA7A846F"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "3E28231E224DCEBE"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "infernalexp:luminous"
-						}
-					}
-				}
-				{
-					id: "3B2ABB752B6471F1"
-					type: "item"
-					item: "minecraft:gold_nugget"
-					count: 5
-					random_bonus: 64
-				}
-			]
-		}
-		{
 			x: 12.0d
 			y: 0.5d
 			dependencies: ["7FC81AF332294769"]
@@ -2861,8 +2310,8 @@
 			]
 		}
 		{
-			x: 20.0d
-			y: 0.0d
+			x: 19.5d
+			y: -2.0d
 			dependencies: ["446936F80D06B8A4"]
 			id: "4CC0C281BCE93043"
 			tasks: [{
@@ -3197,143 +2646,6 @@
 			}]
 		}
 		{
-			x: 27.0d
-			y: -2.5d
-			dependencies: ["641181016BC6E8FA"]
-			id: "06EBA7A32121915D"
-			tasks: [{
-				id: "5E094556AF7847FE"
-				type: "item"
-				item: "bountifulbaubles:obsidian_skull"
-			}]
-			rewards: [
-				{
-					id: "0C56B7D3660E10A2"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-				{
-					id: "089499B5917A373A"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					random_bonus: 5
-				}
-				{
-					id: "4174638CD5300516"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-			]
-		}
-		{
-			x: 30.0d
-			y: -4.5d
-			shape: "gear"
-			subtitle: "Next chapter: End!"
-			description: ["You can find more quests for End dimension in 'End Exploration' chapter!"]
-			dependencies: ["1486101A3CE0CAAA"]
-			size: 1.5d
-			id: "359F39A14EC630B9"
-			tasks: [{
-				id: "79B043C1ABDE5A24"
-				type: "item"
-				item: "minecraft:end_stone"
-			}]
-			rewards: [{
-				id: "3F29E09F7659682A"
-				type: "item"
-				item: {
-					id: "roughtweaks:medkit"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 25.0d
-			y: -5.5d
-			dependencies: ["1C6B53E307B94F2B"]
-			id: "3F35EA02A0EF5661"
-			tasks: [{
-				id: "5E8BEFDC8AAD6BD5"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "quark:strong_resistance"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "0E370D5369AC2CCB"
-					type: "item"
-					item: {
-						id: "roughtweaks:medkit"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "395F76150F6CFE2C"
-					type: "item"
-					item: "minecraft:gold_nugget"
-					count: 5
-				}
-				{
-					id: "59091C2A1D9017D2"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "potions"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 24.0d
-			y: -4.5d
-			dependencies: ["1C6B53E307B94F2B"]
-			id: "6377DE05A43630F4"
-			tasks: [{
-				id: "0A89EC67324895BF"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "vanillafoodpantry:long_undying"
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "507827E3D8B577A6"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-				{
-					id: "2B6031A8262B098C"
-					type: "item"
-					item: "minecraft:gold_nugget"
-					count: 5
-				}
-			]
-		}
-		{
 			x: 8.0d
 			y: 4.5d
 			dependencies: ["7B627325BF285247"]
@@ -3363,16 +2675,12 @@
 		}
 		{
 			title: "Preparing for the nether!"
-			x: 21.0d
+			x: 21.5d
 			y: -1.0d
 			description: [
-				"Nether portals now come in the form of Dimensional Rifts, which you'll find scattered deep underground. You'll have to find one of these Rifts in order to get to the Nether - but be careful, because it's now a one-way trip!"
+				"Nether portals now come in the form of Dimensional Rifts, which you'll find scattered deep underground. You'll have to find one of these Rifts in order to get to the Nether."
 				""
-				"To get back from the Nether, you'll have to search for a Monolith. These are new, semi-rare structures that can be easily spotted from far away thanks to the beams they shoot into the sky."
-				""
-				"The block at the center of each Monolith that shoots this beam is called a Reclaimer, and it's the key to returning to the Overworld. However, the Reclaimer won't do much without a little power. In order to power it, you'll have to place a gold block on each of its four sides - something that shouldn't be too difficult to pull off in the Nether. "
-				""
-				"Once powered, the Reclaimer has the ability to lift you back into the Overworld."
+				"For information on how to enter and exit the Nether, refer to the \"New nether portal mechanics\" quest in the \"Features | Mechanics\" chapter."
 			]
 			dependencies: ["446936F80D06B8A4"]
 			id: "1C7D1D2C57D866A2"
@@ -3400,28 +2708,6 @@
 					}
 				}
 			]
-		}
-		{
-			title: "Thinking portals"
-			icon: "itemfilters:not"
-			x: 22.0d
-			y: 0.0d
-			description: [
-				" You can bucket the Dimensional Plasma from a Dimensional Rift to bring it closer to your base, and you can mine the Reclaimer from a Monolith and place it right by where your Plasma teleports you to in the Nether."
-				""
-				"So, it's pretty close to a two-way portal, the only real difference being you'll have to find a Dimensional Rift and a Monolith first."
-			]
-			dependencies: ["1C7D1D2C57D866A2"]
-			id: "0ECAA8F766B80A62"
-			tasks: [{
-				id: "0F1434263EBC691B"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "20BB84F709ECACAC"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
 		}
 		{
 			x: 11.0d
@@ -4185,10 +3471,7 @@
 		{
 			x: 24.0d
 			y: 6.0d
-			dependencies: [
-				"55D40E52C19424EA"
-				"75173BE046C1EC0C"
-			]
+			dependencies: ["75173BE046C1EC0C"]
 			dependency_requirement: "one_completed"
 			id: "34A486DE919CD96C"
 			tasks: [{
@@ -4436,7 +3719,7 @@
 		}
 		{
 			x: 19.5d
-			y: 1.0d
+			y: 0.0d
 			dependencies: ["446936F80D06B8A4"]
 			id: "7CD3436C8DD7B7F9"
 			tasks: [{
@@ -4457,8 +3740,8 @@
 			}]
 		}
 		{
-			x: 20.5d
-			y: 1.5d
+			x: 19.5d
+			y: 1.0d
 			dependencies: ["7CD3436C8DD7B7F9"]
 			id: "6FF6BF31AB27E3B5"
 			tasks: [{
@@ -4952,7 +4235,11 @@
 			y: -1.0d
 			shape: "octagon"
 			subtitle: "Enter the Nether!"
-			description: ["To get back from the Nether, you'll have to search for a Monolith. These are new, semi-rare structures that can be easily spotted from far away thanks to the beams they shoot into the sky."]
+			description: [
+				"For information on how to enter and exit the Nether, refer to the \"New nether portal mechanics\" quest in the \"Features | Mechanics\" chapter."
+				""
+				"For more nether related quest go to \"Nether Exploration\" chapter."
+			]
 			dependencies: ["1C7D1D2C57D866A2"]
 			size: 1.5d
 			id: "4DFF53E47185A474"
@@ -4962,40 +4249,11 @@
 				advancement: "minecraft:story/enter_the_nether"
 				criterion: ""
 			}]
-			rewards: [
-				{
-					id: "0F03878AFDFB2A1F"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "6B611EBEBFAB9C6E"
-					type: "item"
-					item: {
-						id: "majruszs_difficulty:golden_bandage"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "199F1524A6C50813"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					random_bonus: 101
-				}
-			]
+			rewards: [{
+				id: "0F03878AFDFB2A1F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
 		}
 		{
 			title: "Leap Of Faith"
@@ -5313,6 +4571,122 @@
 					}
 				}
 			]
+		}
+		{
+			icon: {
+				id: "minecraft:end_crystal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 29.0d
+			y: -1.0d
+			subtitle: "Next chapter: End!"
+			description: ["You can find more quests for End dimension in 'End Exploration' chapter!"]
+			dependencies: ["008B0C537B24A89F"]
+			id: "359F39A14EC630B9"
+			tasks: [{
+				id: "46670F28D9622188"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3F29E09F7659682A"
+				type: "item"
+				item: {
+					id: "roughtweaks:medkit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 28.0d
+			y: -1.0d
+			description: [
+				"Gather needed materials in Nether and prepare yourself to enter The End dimension!"
+				""
+				"To access the End, you must go through the process of finding a stronghold using eyes of ender, finding the portal room, and activating the end portal in the end portal room by filling the 12 end portal frames each with an eye of ender. Each frame block has a 10% chance of generating with an eye in it already, meaning you may not necessarily use 12 eyes to activate it."
+				""
+			]
+			dependencies: ["07CCE1397519FEDA"]
+			id: "008B0C537B24A89F"
+			tasks: [{
+				id: "35201FBC45860505"
+				type: "item"
+				item: {
+					id: "minecraft:ender_eye"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1114A58D5C1C7725"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Expert mode"
+			icon: {
+				id: "kubejs:skull2"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 26.0d
+			y: -1.0d
+			subtitle: "Expert Mode starts when the first player kills the Wither"
+			description: ["For detailed explanation of new mechanics for Expert Mode visit \"Features | Mechanics\" chapter."]
+			dependencies: ["4DFF53E47185A474"]
+			id: "07CCE1397519FEDA"
+			tasks: [{
+				id: "658E392E488348C7"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7D8824F7F11C404F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:skull2"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 31.0d
+			y: -1.0d
+			subtitle: "Master Mode starts when the first player kills the Ender Dragon."
+			description: ["For detailed explanation of new mechanics for Master Mode visit \"Features | Mechanics\" chapter."]
+			dependencies: ["359F39A14EC630B9"]
+			id: "094D987502D8F928"
+			tasks: [{
+				id: "43224396FE9DF54F"
+				type: "checkmark"
+				title: "Master mode"
+			}]
+			rewards: [{
+				id: "710AAA393FBC476E"
+				type: "xp"
+				xp: 100
+			}]
 		}
 	]
 }

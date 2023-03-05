@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 2.5d
-			y: -0.5d
+			x: -0.5d
+			y: 1.0d
 			width: 15.0d
 			height: 8.0d
 			rotation: 0.0d
@@ -21,8 +21,8 @@
 			corner: false
 		}
 		{
-			x: -5.5d
-			y: -2.5d
+			x: 1.5d
+			y: -6.5d
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
@@ -33,8 +33,8 @@
 			corner: false
 		}
 		{
-			x: 9.5d
-			y: 3.5d
+			x: 11.0d
+			y: 4.5d
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
@@ -46,7 +46,7 @@
 		}
 		{
 			x: 11.5d
-			y: -3.5d
+			y: -4.0d
 			width: 5.0d
 			height: 5.0d
 			rotation: 0.0d
@@ -119,6 +119,7 @@
 		{
 			x: -1.5d
 			y: 2.5d
+			dependencies: ["3D208B95463DFD24"]
 			id: "00000000000005D0"
 			tasks: [{
 				id: "00000000000005D1"
@@ -164,6 +165,7 @@
 		{
 			x: -1.5d
 			y: 5.0d
+			dependencies: ["3D208B95463DFD24"]
 			id: "00000000000005D4"
 			tasks: [{
 				id: "00000000000005D5"
@@ -255,6 +257,7 @@
 		{
 			x: -4.5d
 			y: 3.5d
+			dependencies: ["3D208B95463DFD24"]
 			id: "00000000000005E9"
 			tasks: [{
 				id: "00000000000005EA"
@@ -418,25 +421,60 @@
 				}
 			}
 			x: 0.0d
-			y: -0.5d
+			y: -3.5d
 			shape: "hexagon"
-			size: 2.0d
+			dependencies: ["1486101A3CE0CAAA"]
+			size: 1.5d
 			id: "3697C11949A0A907"
 			tasks: [{
-				id: "0CE7A1C2DE63B1EB"
-				type: "checkmark"
-				title: "Ender Explorer"
+				id: "18A82A96E377DD30"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
-			rewards: [{
-				id: "4C81EAC2B111AE2B"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4C81EAC2B111AE2B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "29A45113BA584AF1"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "20F7D8E12C82A3B2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			icon: "betterendforge:end_lily_leaf"
 			x: -3.0d
-			y: -1.5d
+			y: -4.5d
 			description: ["Deep lakes in the nether filled with End Lotus flowers."]
 			dependencies: ["3697C11949A0A907"]
 			id: "783082B8C8FB9061"
@@ -462,7 +500,7 @@
 		}
 		{
 			x: -2.0d
-			y: -3.0d
+			y: -6.0d
 			description: ["Megalakes but with Lacugrove trees and various flowers. May seem to be a more like a grassland than a lake."]
 			dependencies: ["3697C11949A0A907"]
 			id: "1ECA6B89B6D233FE"
@@ -488,7 +526,7 @@
 		}
 		{
 			x: -1.0d
-			y: -3.5d
+			y: -6.5d
 			description: ["Flower-filled land covered with giant bioluminescent glowshroom trees."]
 			dependencies: ["3697C11949A0A907"]
 			id: "72621E64C7433420"
@@ -514,7 +552,7 @@
 		}
 		{
 			x: 0.0d
-			y: -4.0d
+			y: -7.0d
 			description: ["Thick forest of hanging vines, Umbrella trees, and jellyshrooms."]
 			dependencies: ["3697C11949A0A907"]
 			id: "3F33F2304E5E7667"
@@ -533,7 +571,7 @@
 		}
 		{
 			x: 1.0d
-			y: -3.5d
+			y: -6.5d
 			description: ["Large stars of ice and snow that exist between ender islands."]
 			dependencies: ["3697C11949A0A907"]
 			id: "5D80B3968D2593F6"
@@ -559,7 +597,7 @@
 		}
 		{
 			x: -2.0d
-			y: 1.0d
+			y: -2.0d
 			description: ["End stone spires covered in pink Tenanea trees and vines."]
 			dependencies: ["3697C11949A0A907"]
 			id: "6BE71A977A31E41B"
@@ -585,7 +623,7 @@
 		}
 		{
 			x: 2.0d
-			y: -2.0d
+			y: -5.0d
 			description: ["A flat grassland that is extremely grassy and has lumecorn sprouts."]
 			dependencies: ["3697C11949A0A907"]
 			id: "13EAD10EE57FCCBC"
@@ -611,7 +649,7 @@
 		}
 		{
 			x: 3.0d
-			y: -1.5d
+			y: -4.5d
 			description: ["A vibrant orange land with thick ground cover and large Helix trees."]
 			dependencies: ["3697C11949A0A907"]
 			id: "60862E8751A2AB9D"
@@ -637,7 +675,7 @@
 		}
 		{
 			x: 2.0d
-			y: 1.0d
+			y: -2.0d
 			description: ["A land filled with various stacks of sulfur vents that contain their own water based ecosystems. Are worth a dive into."]
 			dependencies: ["3697C11949A0A907"]
 			id: "0D771167B0378700"
@@ -663,7 +701,7 @@
 		}
 		{
 			x: 2.0d
-			y: -3.0d
+			y: -6.0d
 			description: ["A forest of Chorus plants and Pythadendron trees."]
 			dependencies: ["3697C11949A0A907"]
 			id: "580BDDDD0ED68F5A"
@@ -689,7 +727,7 @@
 		}
 		{
 			x: -3.0d
-			y: 0.5d
+			y: -2.5d
 			description: ["A desolate, dusty region with not much significance beyond a large Enderman population."]
 			dependencies: ["3697C11949A0A907"]
 			id: "5660A78B0AE862C7"
@@ -715,7 +753,7 @@
 		}
 		{
 			x: -3.5d
-			y: -0.5d
+			y: -3.5d
 			description: ["A layered mountainous land of various ender rocks."]
 			dependencies: ["3697C11949A0A907"]
 			id: "4FD8DB6A4B137B73"
@@ -741,7 +779,7 @@
 		}
 		{
 			x: -2.0d
-			y: -2.0d
+			y: -5.0d
 			description: ["Dark forest of Dragon trees and shadow plants."]
 			dependencies: ["3697C11949A0A907"]
 			id: "6D798E6430C4C1C5"
@@ -766,8 +804,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 0.5d
+			x: 3.5d
+			y: -3.5d
 			description: ["Mountainous islands that have large rainbow Aurora Crystal formations."]
 			dependencies: ["3697C11949A0A907"]
 			id: "742FA17F32B5562D"
@@ -792,8 +830,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -0.5d
+			x: 4.0d
+			y: -2.5d
 			description: ["Mining Aurora Crystal will give you shards that are infused with a mythical energy that pulses through the End."]
 			dependencies: ["742FA17F32B5562D"]
 			id: "5E2DFA9A653F3619"
@@ -809,8 +847,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -0.5d
+			x: 5.5d
+			y: -2.5d
 			description: ["The End for Dummies explains portal restart rituals and infusions."]
 			dependencies: [
 				"5E2DFA9A653F3619"
@@ -884,7 +922,7 @@
 			]
 		}
 		{
-			x: 11.0d
+			x: 10.5d
 			y: -6.0d
 			description: ["Infused Terminite Armor"]
 			dependencies: ["5E4164741B56B1BC"]
@@ -961,7 +999,7 @@
 		}
 		{
 			x: 12.5d
-			y: -3.0d
+			y: -3.5d
 			description: ["Comes from Ender Ore, rare ore deep in ender islands."]
 			dependencies: ["55DCE2FA47D4C837"]
 			id: "6E047390333830E1"
@@ -1014,9 +1052,10 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 2.5d
+			x: 5.5d
+			y: 3.5d
 			description: ["Can be made by a number of methods on an anvil, check JEI for specifics."]
+			dependencies: ["3D208B95463DFD24"]
 			id: "0B56F802933E9AB7"
 			tasks: [{
 				id: "78DBEF6A0D0A5E13"
@@ -1030,8 +1069,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 2.5d
+			x: 8.5d
+			y: 3.5d
 			description: ["Alloy of Iron and Ender Dust made in a End Stone Smelter."]
 			dependencies: [
 				"0B56F802933E9AB7"
@@ -1068,8 +1107,8 @@
 			]
 		}
 		{
-			x: 10.5d
-			y: 1.5d
+			x: 12.0d
+			y: 3.5d
 			description: ["Alloy of Netherite and Terminite made in a End Stone Smelter."]
 			dependencies: ["2F65B1126A72219F"]
 			id: "0BD7D528F30810EC"
@@ -1103,8 +1142,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 1.5d
+			x: 8.5d
+			y: 0.5d
 			description: ["Able to create unique alloys."]
 			dependencies: ["32C3FF52CD5AB5E7"]
 			id: "46966AA1DDAD75DC"
@@ -1134,8 +1173,8 @@
 		}
 		{
 			title: "Terminite Tools"
-			x: 7.0d
-			y: 4.0d
+			x: 7.5d
+			y: 5.5d
 			description: ["A handy Terminite tool set."]
 			dependencies: ["2F65B1126A72219F"]
 			id: "692AFCEA58029429"
@@ -1215,8 +1254,8 @@
 		}
 		{
 			title: "Terminite Armor"
-			x: 9.0d
-			y: 4.0d
+			x: 9.5d
+			y: 5.5d
 			description: ["A whole set of End-alloy armor."]
 			dependencies: ["2F65B1126A72219F"]
 			id: "3A8254A2C4CDE79E"
@@ -1281,8 +1320,8 @@
 		}
 		{
 			title: "Aeternium Armor"
-			x: 10.5d
-			y: 4.0d
+			x: 12.5d
+			y: 5.5d
 			description: [
 				"From combining Terminite Armor with Aeternium ingots in a Smithing Table."
 				""
@@ -1354,8 +1393,8 @@
 		}
 		{
 			title: "Aeternium Tools"
-			x: 12.0d
-			y: 4.0d
+			x: 13.5d
+			y: 5.5d
 			description: ["A set of some of the most durable tools in the game."]
 			dependencies: ["6FF5FFEE7F672F05"]
 			id: "36543B4BFF59FC05"
@@ -1448,8 +1487,8 @@
 		}
 		{
 			title: "Aeternium Tool Parts"
-			x: 13.0d
-			y: 2.5d
+			x: 14.0d
+			y: 3.5d
 			description: ["Smithed in an anvil with a Smith Hammer and Aeternium ingots."]
 			dependencies: ["0BD7D528F30810EC"]
 			id: "6FF5FFEE7F672F05"
@@ -2536,6 +2575,7 @@
 			x: 4.5d
 			y: 8.0d
 			description: ["End dimension was improved!"]
+			dependencies: ["3D208B95463DFD24"]
 			id: "63A64571BBB85FE5"
 			tasks: [{
 				id: "300A3AC891D5B4A2"
@@ -2557,8 +2597,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 3.5d
+			x: 7.0d
+			y: 4.5d
 			dependencies: ["2F65B1126A72219F"]
 			id: "553BC4807C727F26"
 			tasks: [{
@@ -2589,8 +2629,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 0.0d
+			x: 8.5d
+			y: -1.0d
 			dependencies: ["32C3FF52CD5AB5E7"]
 			id: "201F0A93BEF6E77B"
 			tasks: [{
@@ -2640,8 +2680,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 1.5d
+			x: 7.0d
+			y: 0.5d
 			dependencies: ["32C3FF52CD5AB5E7"]
 			id: "40E26311C46FC8C2"
 			tasks: [{
@@ -2692,8 +2732,8 @@
 			]
 		}
 		{
-			x: 9.5d
-			y: 3.0d
+			x: 10.0d
+			y: 4.5d
 			dependencies: ["2F65B1126A72219F"]
 			id: "526D35099BFBF1DC"
 			tasks: [{
@@ -2724,8 +2764,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -1.5d
+			x: 3.0d
+			y: -2.5d
 			dependencies: ["5E2DFA9A653F3619"]
 			id: "44246B5F76798F22"
 			tasks: [{
@@ -2761,7 +2801,8 @@
 		}
 		{
 			x: 1.5d
-			y: 3.0d
+			y: 2.5d
+			dependencies: ["3D208B95463DFD24"]
 			id: "3435DF9BFA69769A"
 			tasks: [{
 				id: "65990C5B2574D905"
@@ -2793,6 +2834,7 @@
 		{
 			x: 0.0d
 			y: 5.0d
+			dependencies: ["3D208B95463DFD24"]
 			id: "34B1E3ABB56E4376"
 			tasks: [{
 				id: "15BDEB8056206E20"
@@ -2826,8 +2868,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 4.0d
+			x: 8.5d
+			y: 5.5d
 			dependencies: ["2F65B1126A72219F"]
 			id: "18772A5144A8AC07"
 			tasks: [{
@@ -2878,8 +2920,9 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 0.5d
+			x: 7.0d
+			y: -1.0d
+			dependencies: ["5FE08145513FF66D"]
 			id: "32C3FF52CD5AB5E7"
 			tasks: [{
 				id: "615635188CC43DB6"
@@ -3236,6 +3279,86 @@
 					ftb_money: 10L
 				}
 			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			shape: "octagon"
+			dependencies: ["3D208B95463DFD24"]
+			size: 2.0d
+			id: "211D755718A5FF50"
+			tasks: [{
+				id: "18960A1A3B8316E7"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5F4407734EE8580B"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "30926186E9402B7E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1CCE04329D3158CD"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+			]
+		}
+		{
+			title: "Now entering: Master Mode!"
+			x: 0.0d
+			y: -1.5d
+			shape: "octagon"
+			subtitle: "New mechanics for Master Mode:"
+			description: [
+				"- loot has a 75% chance to be doubled"
+				""
+				"- experience from all sources is increased by 50%"
+				""
+				"- all monsters have their health and damage increased by 40% (instead of 20% chance)(at night the bonus is doubled to 80%)"
+				""
+				"- Phantom and new End Keeper spawn naturally near new structures"
+				""
+				"- Elite Skeleton may spawn in a group"
+				""
+				"- Enderman may teleport target on hit"
+				""
+				"- Shulker may inflict Blindness effect"
+				""
+				"- Creepers on explosion may spawn more Creeperlings"
+				""
+				"- Undead Army now has 5 waves"
+				""
+				"- undead spawned during the Undead Army are quadruple as likely to have enchanted items"
+				""
+				"- undead spawned during the Undead Army are thrice as likely to have armor pieces"
+				""
+				"- Undead Army now rewards with 2 Treasure Bags (instead of 1)"
+				""
+				"- Undead Army gives 200% more experience for completing it (instead of 100%)"
+				""
+			]
+			dependencies: ["211D755718A5FF50"]
+			size: 1.5d
+			id: "1486101A3CE0CAAA"
+			tasks: [{
+				id: "61895C1AED0E6B10"
+				type: "advancement"
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "06A7EB4B149700A9"
+				type: "item"
+				item: "majruszs_difficulty:golden_bandage"
+			}]
 		}
 	]
 }
