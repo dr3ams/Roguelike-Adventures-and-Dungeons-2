@@ -62,6 +62,7 @@
 		{
 			x: 1.0d
 			y: 0.0d
+			description: ["Grants experience, Magic Skill experience, and knowledge points (which do nothing)."]
 			dependencies: ["22FCDA94D8D63817"]
 			id: "636B692EB80B1FBE"
 			tasks: [{
@@ -236,6 +237,7 @@
 		{
 			x: 1.0d
 			y: -1.5d
+			description: ["Found in Nether loot."]
 			dependencies: ["636B692EB80B1FBE"]
 			id: "26B76E1B29624570"
 			tasks: [{
@@ -263,6 +265,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
+			description: ["Found in End loot."]
 			dependencies: ["636B692EB80B1FBE"]
 			id: "195BD8D38C6EEC28"
 			tasks: [{
@@ -459,7 +462,7 @@
 		}
 		{
 			x: 5.0d
-			y: -0.5d
+			y: 0.0d
 			dependencies: ["1E7C7440246D020E"]
 			id: "30BDCA8C21DF074F"
 			tasks: [{
@@ -526,8 +529,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 1.5d
+			x: 4.0d
+			y: 2.5d
 			dependencies: ["4BDC83576A6FAB97"]
 			id: "35C994E8314DDE5F"
 			tasks: [{
@@ -752,7 +755,7 @@
 		}
 		{
 			x: 6.5d
-			y: -0.5d
+			y: 0.0d
 			dependencies: ["30BDCA8C21DF074F"]
 			id: "7A0650ABB1F35FDE"
 			tasks: [{
@@ -786,7 +789,7 @@
 		}
 		{
 			x: 5.0d
-			y: 0.5d
+			y: -1.0d
 			dependencies: ["1E7C7440246D020E"]
 			id: "03AA9DE0CE382658"
 			tasks: [{
@@ -1068,6 +1071,171 @@
 					}
 				}
 			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			id: "7003E615AB84F8EB"
+			tasks: [{
+				id: "3FD7E4F8661191CB"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:extradimensional_eye"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "429D1FD88E8BDC7F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "2ADD4AA5097D5240"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			subtitle: "My cup of tea."
+			description: [
+				"No mystery to be had. There isn't anything special."
+				""
+				"Enjoy melting your insides with this. Mithridatism, right? Yeah, that's not going to work here."
+			]
+			id: "2C000F9A46E923FC"
+			tasks: [{
+				id: "66981DF47E0382E9"
+				type: "advancement"
+				advancement: "enigmaticlegacy:main/unholy_grail"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "67AEE2B6FA9AF93E"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "endurance"
+					amount: 200.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "59FDF40C9D17E1DC"
+					type: "item"
+					item: {
+						id: "minecraft:milk_bucket"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["1E7C7440246D020E"]
+			id: "7DAFA6B7703B909D"
+			tasks: [{
+				id: "0320A71BF3184B69"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:gem_ring"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0F71ED5AAFD23617"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "762442948B9BB563"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "42AD43C4B853B8C0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["35C994E8314DDE5F"]
+			id: "3D14810754D1FA65"
+			tasks: [{
+				id: "7DB6A521FB74CFE7"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_breaker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "41F70E5884AD794F"
+					type: "item"
+					item: {
+						id: "kubejs:diamond_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4322A70A265047C0"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "1122F1CEB8D944AB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 		}
 	]
 }
