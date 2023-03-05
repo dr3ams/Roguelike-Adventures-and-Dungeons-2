@@ -4009,7 +4009,7 @@
 			]
 		}
 		{
-			x: 1.5d
+			x: -1.5d
 			y: -1.5d
 			description: ["Upgraded version of spirit orb used to make bigger gateways."]
 			dependencies: ["636C994CC9BDE02A"]
@@ -4058,7 +4058,7 @@
 		}
 		{
 			title: "Break 25 Spawners"
-			x: -1.5d
+			x: 1.5d
 			y: -1.5d
 			description: ["Spawners are the easiest way to get spirit orbs"]
 			dependencies: ["636C994CC9BDE02A"]
@@ -4073,10 +4073,25 @@
 			}]
 			rewards: [
 				{
-					id: "2EA81AEDE743459B"
+					id: "66636CCA5BFC19AA"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "23CB584988852B7A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5D5F100FE489C1E3"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "5657ECEB9F1241AD"
 					type: "item"
 					item: {
-						id: "paraglider:spirit_orb"
+						id: "kubejs:monster_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -4084,12 +4099,19 @@
 							}
 						}
 					}
-					count: 5
 				}
 				{
-					id: "66636CCA5BFC19AA"
-					type: "choice"
-					table_id: 8545390299491237994L
+					id: "3AEA869766421A85"
+					type: "item"
+					item: {
+						id: "tombstone:grave_dust"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
@@ -4489,6 +4511,493 @@
 					id: "76DC9C61DC21B1DD"
 					type: "ftbmoney:money"
 					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "Break 50 Spawners"
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["203172A2D2865B49"]
+			id: "3AEDA39629AAEB5D"
+			tasks: [{
+				id: "35B71F3D14A7D57B"
+				type: "questsadditions:break"
+				block: "minecraft:spawner"
+				value: 50L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "35BAFE024DA2CA14"
+					type: "choice"
+					table_id: 7685042081442074286L
+				}
+				{
+					id: "388E850A22DBCB25"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "1070CAA6DADCF804"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "548A3B21B9B58C73"
+					type: "item"
+					item: {
+						id: "kubejs:monster_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "20348D52C7F3E788"
+					type: "loot"
+					table_id: 5655352712931457870L
+				}
+				{
+					id: "04AAD0460AB5AFCA"
+					type: "pmmo:xpreward"
+					title: "Dungeoneering XP"
+					icon: {
+						id: "kubejs:chest2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					skill: "dungeoneering"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			description: ["Monster Boxes also drop orbs when mined. Just don't get too close!"]
+			dependencies: ["636C994CC9BDE02A"]
+			id: "58C1C68226071763"
+			tasks: [{
+				id: "4B19FD7770FDC807"
+				type: "questsadditions:break"
+				block: "quark:monster_box"
+				value: 25L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "1D685E2E26A3250F"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "2BCF22D308180355"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "225AE9E41A7E3635"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "077D51E5EEE7CC16"
+					type: "item"
+					item: {
+						id: "kubejs:monster_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3469CB92A79A99BA"
+					type: "item"
+					item: {
+						id: "tombstone:grave_dust"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["58C1C68226071763"]
+			id: "7CA0166C29898F7A"
+			tasks: [{
+				id: "10D71FBED6C96A34"
+				type: "questsadditions:break"
+				block: "quark:monster_box"
+				value: 50L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "222871C1D0D4F730"
+					type: "choice"
+					table_id: 7685042081442074286L
+				}
+				{
+					id: "05D3B437A9EF549E"
+					type: "xp"
+					xp: 333
+				}
+				{
+					id: "46697283396B7452"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "0DC47115B061AF30"
+					type: "item"
+					item: {
+						id: "kubejs:monster_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "5525313DA550020D"
+					type: "loot"
+					table_id: 5655352712931457870L
+				}
+				{
+					id: "2383888442AA197C"
+					type: "pmmo:xpreward"
+					title: "Dungeoneering XP"
+					icon: {
+						id: "kubejs:chest2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					skill: "dungeoneering"
+					amount: 100.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["3AEDA39629AAEB5D"]
+			id: "5A3FA8B6A53D834D"
+			tasks: [{
+				id: "5DA228070189B1B1"
+				type: "questsadditions:break"
+				title: "Break 100 Spawners"
+				block: "minecraft:spawner"
+				value: 100L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "6E4DD9937167816E"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "63DF3BB1E662ED2A"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "31ED6F442C598E4B"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "0F4E825F03714863"
+					type: "item"
+					item: {
+						id: "kubejs:monster_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "331912857847F6A3"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "65B4A1466D232AF5"
+					type: "item"
+					item: {
+						id: "tombstone:grave_dust"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["7CA0166C29898F7A"]
+			id: "7FC5E3377BF8195C"
+			tasks: [{
+				id: "72B4F1BE542409E1"
+				type: "questsadditions:break"
+				block: "quark:monster_box"
+				value: 100L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "1EC1DDBF30CF5DC5"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "740D27ABA1EFBAC7"
+					type: "xp"
+					xp: 750
+				}
+				{
+					id: "5F70817CED2B7F09"
+					type: "ftbmoney:money"
+					ftb_money: 75L
+				}
+				{
+					id: "20D7AC1DA22A436B"
+					type: "item"
+					item: {
+						id: "kubejs:monster_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "51E22FEF384B18B6"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2B8D073998D0DA70"
+					type: "item"
+					item: {
+						id: "tombstone:grave_dust"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Break 500 Spawners"
+			dependencies: ["5A3FA8B6A53D834D"]
+			id: "40FF66BE65AF171D"
+			tasks: [{
+				id: "0BA38C8135DBD375"
+				type: "questsadditions:break"
+				title: "Spawner Smasher"
+				block: "minecraft:spawner"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "4FACAC916D9610C3"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "2FFAD71E1DBE55D8"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "35CB99F7BA276C77"
+					type: "ftbmoney:money"
+					ftb_money: 130L
+				}
+				{
+					id: "7F8BC65C013D4AEB"
+					type: "item"
+					item: {
+						id: "kubejs:monster_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "153C8C7D45877D2D"
+					type: "item"
+					item: {
+						id: "kubejs:diamond_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "75A20CDEB1600DA8"
+					type: "pmmo:xpreward"
+					title: "Dungeoneering XP"
+					icon: {
+						id: "kubejs:chest2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					skill: "dungeoneering"
+					amount: 500.0d
+					ignoreBonuses: false
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "Break 500 Monster Box"
+			dependencies: ["7FC5E3377BF8195C"]
+			id: "03B12F1965ADB68A"
+			tasks: [{
+				id: "144956EFB7B19305"
+				type: "questsadditions:break"
+				title: "Box Buster"
+				block: "quark:monster_box"
+				value: 500L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "2B41C567E2A21A7F"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "4EA6AF700E2BC93F"
+					type: "xp"
+					xp: 1111
+				}
+				{
+					id: "2B48AAEC3AC68022"
+					type: "ftbmoney:money"
+					ftb_money: 130L
+				}
+				{
+					id: "381213364F8A807E"
+					type: "item"
+					item: {
+						id: "kubejs:monster_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "3449A6A113241569"
+					type: "item"
+					item: {
+						id: "kubejs:diamond_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0D1976BBC5B3A26F"
+					type: "pmmo:xpreward"
+					title: "Dungeoneering XP"
+					icon: {
+						id: "kubejs:chest2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					skill: "dungeoneering"
+					amount: 500.0d
+					ignoreBonuses: false
 				}
 			]
 		}
