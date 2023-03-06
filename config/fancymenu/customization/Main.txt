@@ -50,6 +50,33 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/a.png
+  backgroundnormal = config/fancymenu/buttons/a.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttondescription
+  description = Accessibility
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-left
   x = 1
@@ -112,9 +139,30 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = bottom-right
-  x = -45
+  x = -43
   action = movebutton
   y = -22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/l.png
+  backgroundnormal = config/fancymenu/buttons/l.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttondescription
+  description = Language
 }
 
 customization {
@@ -143,7 +191,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = bottom-right
-  x = -67
+  x = -66
   action = movebutton
   y = -22
 }
@@ -153,6 +201,27 @@ customization {
   width = 20
   action = resizebutton
   height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/buttons/m.png
+  backgroundnormal = config/fancymenu/buttons/m.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttondescription
+  description = Modlist
 }
 
 customization {
@@ -245,15 +314,15 @@ customization {
   fadein = true
   fadeinspeed = 0.6
   x = -57
-  width = 169
+  width = 190
   actionid = 2f45a1c7-8ada-4e88-9673-49ec21a8df131636882984680
   action = addbutton
-  y = -13
+  y = -14
   delayappearance = true
   backgroundnormal = config\fancymenu\buttons\rent.png
   value = https://bisecthosting.com/xdreamz
   delayappearanceeverytime = false
-  height = 10
+  height = 11
 }
 
 customization {
@@ -271,12 +340,12 @@ customization {
   width = 150
   actionid = 9594869d-5a9d-461e-96cc-8789ce0827ca1636882984694
   action = addbutton
-  y = -13
+  y = -14
   delayappearance = true
   backgroundnormal = config\fancymenu\buttons\patreon.png
   value = https://www.patreon.com/Dreams01
   delayappearanceeverytime = false
-  height = 10
+  height = 11
 }
 
 customization {
