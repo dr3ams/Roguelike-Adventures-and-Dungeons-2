@@ -8,9 +8,8 @@ villagerTrades.removeEnchantedBookForEmeraldsTrade(<profession:minecraft:librari
 villagerTrades.addTrade(<profession:minecraft:librarian>, 2, <item:minecraft:emerald> * 1, <item:supplementaries:brass_lantern>, 12, 5, 0.05);
 villagerTrades.removeItemsForEmeraldsTrade(<profession:minecraft:librarian>, 2, <item:minecraft:lantern>);
 
-villagerTrades.addTrade(<profession:minecraft:librarian>, 3, <item:minecraft:emerald> * 10, <item:minecraft:book> * 1, <item:apotheosis:scrap_tome>, 5, 8, 0.05);
-villagerTrades.addTrade(<profession:minecraft:librarian>, 4, <item:minecraft:emerald> * 24, <item:minecraft:book> * 1, <item:tombstone:book_of_disenchantment>, 4, 10, 0.05);
-villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:minecraft:emerald> * 32, <item:minecraft:book> * 1, <item:enigmaticlegacy:enchantment_transposer>, 3, 12, 0.05);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 4, <item:minecraft:emerald> * 12, <item:minecraft:book> * 1, <item:apotheosis:scrap_tome>, 4, 8, 0.05);
+villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:minecraft:emerald> * 26, <item:minecraft:book> * 1, <item:tombstone:book_of_disenchantment>, 3, 10, 0.05);
 
 villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:fletcher>, 1, <item:minecraft:stick>.definition);
 villagerTrades.addTrade(<profession:minecraft:fletcher>, 1, 1, <item:spartanweaponry:arrow_wood> * 32, 16, 2, 0.05);
