@@ -48,11 +48,11 @@
 		#Treasure enchantments cannot be obtained through the enchanting table
 		Treasure = true
 		#Can generate as loot
-		Loot = true
+		Loot = false
 		#Can be enchanted onto a Book at an Enchanting Table
 		"Enchant on Books" = false
 		#Can appear in Villager Trades
-		Trading = true
+		Trading = false
 		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
 		Incompatibilities = ["minecraft:mending", "apotheosis:life_mending", "uniquee:ender_mending"]
 		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
@@ -1276,15 +1276,15 @@
 		"Multiplier Bonus per Level past 2" = 1.0
 
 	[Enchantments.Sacrifice]
-		Enabled = true
+		Enabled = false
 		#Treasure enchantments cannot be obtained through the enchanting table
 		Treasure = true
 		#Can generate as loot
-		Loot = true
+		Loot = false
 		#Can be enchanted onto a Book at an Enchanting Table
 		"Enchant on Books" = false
 		#Can appear in Villager Trades
-		Trading = true
+		Trading = false
 		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
 		Incompatibilities = []
 		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
