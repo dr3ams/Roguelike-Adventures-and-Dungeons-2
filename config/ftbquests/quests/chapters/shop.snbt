@@ -133,7 +133,6 @@
 			y: 0.0d
 			shape: "octagon"
 			subtitle: "For Copper coin (repeatable)"
-			description: ["This quest will give you the item as soon as the coin is submitted."]
 			size: 2.0d
 			id: "64AE92F598464E3E"
 			tasks: [{
@@ -145,7 +144,6 @@
 			rewards: [{
 				id: "314181AFAC5E20D3"
 				type: "questsadditions:repeat_random"
-				auto: "enabled"
 				table_id: 4734148794142699034L
 			}]
 		}
@@ -1996,11 +1994,18 @@
 		}
 		{
 			title: "Copper coin -> Money"
-			icon: "kubejs:coin_q_1"
+			icon: {
+				id: "kubejs:coin_q_1"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			disable_toast: true
 			x: -6.0d
 			y: 2.0d
-			description: ["This quest will give you the money as soon as the coin is submitted."]
 			id: "3459460308668951"
 			tasks: [{
 				id: "251D20F3E1232F71"
@@ -2020,7 +2025,6 @@
 			rewards: [{
 				id: "0F407E367C6CDD4E"
 				type: "questsadditions:repeat"
-				auto: "enabled"
 				table_id: 5400957200627923109L
 			}]
 		}

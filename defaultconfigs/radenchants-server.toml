@@ -48,11 +48,11 @@
 		#Treasure enchantments cannot be obtained through the enchanting table
 		Treasure = true
 		#Can generate as loot
-		Loot = false
+		Loot = true
 		#Can be enchanted onto a Book at an Enchanting Table
 		"Enchant on Books" = false
 		#Can appear in Villager Trades
-		Trading = false
+		Trading = true
 		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
 		Incompatibilities = ["minecraft:mending", "apotheosis:life_mending", "uniquee:ender_mending"]
 		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
@@ -548,7 +548,7 @@
 		Rarity = "RARE"
 		"Max Fall Speed per Level" = [0.5, 0.25, 0.125]
 		"Jump Boost at Level" = [1, 2, 3]
-		"Jump Boost costs Durability (25% Chance)" = false
+		"Jump Boost costs Durability (25% Chance)" = true
 
 	[Enchantments."Rabbits Feet"]
 		Enabled = true
@@ -570,7 +570,7 @@
 		"Min Fall Speed per Level" = [0.5, 1.0, 1.5]
 		"Jump Boost at Level" = [1, 2, 3]
 		"Speed Boost at Level" = [1, 2, 3]
-		"Effects costs Durability (25% Chance)" = false
+		"Effects costs Durability (25% Chance)" = true
 
 	[Enchantments."Welding Apron"]
 		Enabled = true
@@ -1276,15 +1276,15 @@
 		"Multiplier Bonus per Level past 2" = 1.0
 
 	[Enchantments.Sacrifice]
-		Enabled = false
+		Enabled = true
 		#Treasure enchantments cannot be obtained through the enchanting table
 		Treasure = true
 		#Can generate as loot
-		Loot = false
+		Loot = true
 		#Can be enchanted onto a Book at an Enchanting Table
 		"Enchant on Books" = false
 		#Can appear in Villager Trades
-		Trading = false
+		Trading = true
 		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
 		Incompatibilities = []
 		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
