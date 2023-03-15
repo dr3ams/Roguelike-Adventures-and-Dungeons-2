@@ -354,7 +354,7 @@
 			y: -0.5d
 			description: [
 				"This gives your dog a collar! To equip the collar, right click on your dog with the collar in your main hand. You can customize the color of the collars in a similar fashion as in the Wearable Backpacks mod!"
-				"To do so, just add it and dyes in a crafting table or applying it directly to your dog. You can take them off by using the Collar Sheers"
+				"To do so, just add it and dyes in a crafting table or applying it directly to your dog. You can take them off by using the Collar Shears"
 			]
 			dependencies: ["0000000000000639"]
 			id: "0000000000000644"
@@ -526,6 +526,7 @@
 		{
 			x: -1.5d
 			y: 1.0d
+			description: ["This acts as a respawn point for your dogs. Click the bed to respawn your dog or to see which dog owns it."]
 			dependencies: ["0000000000000631"]
 			id: "0000000000000651"
 			tasks: [{
@@ -559,6 +560,7 @@
 		{
 			x: -1.0d
 			y: 2.5d
+			description: ["The bath is useful with the fisher dog trait as the constant shaking will allow them to catch more fish."]
 			dependencies: ["0000000000000651"]
 			id: "0000000000000653"
 			tasks: [{
@@ -588,6 +590,7 @@
 		{
 			x: -2.0d
 			y: 2.5d
+			description: ["The food bowl can automatically feed your dogs when you're not around"]
 			dependencies: ["0000000000000651"]
 			id: "0000000000000655"
 			tasks: [{
@@ -628,7 +631,7 @@
 		{
 			x: 4.0d
 			y: -0.5d
-			description: ["These special sheers can cut off the wool collars off your dog. Also, the sheers can untame your dog."]
+			description: ["These special shears can cut off the wool collars off your dog. Also, the shears can untame your dog."]
 			dependencies: ["0000000000000639"]
 			id: "0000000000000658"
 			tasks: [{
@@ -700,6 +703,57 @@
 				id: "000000000000065D"
 				type: "xp_levels"
 				xp_levels: 3
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.0d
+			y: -4.5d
+			description: [
+				"Pets won't survive against the champions without a good defense."
+				"You can equip armor to your pets by sneaking and right-clicking on them."
+				"You can also swap their armor just by equipping another one to them and you'll get the other one back."
+				"Try equipping armors with aura effects; they can turn your pets into powerful supports!"
+			]
+			dependencies: ["000000000000062F"]
+			id: "6C2E2AA49378EE39"
+			tasks: [{
+				id: "7FA3E78C24A8B216"
+				type: "checkmark"
+				title: "Pet Armoring"
+			}]
+			rewards: [{
+				id: "3F4AC90160ACC917"
+				type: "item"
+				item: {
+					id: "dungeons_gear:hunters_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [{
+								data: [{
+									lvl: 1s
+									id: "dungeons_gear:speed_aura"
+								}]
+								source: "dungeons_libraries:gear_config"
+							}]
+						}
+					}
+				}
 			}]
 		}
 	]
