@@ -1,0 +1,28 @@
+{
+    "type": "uniqueapex:fusion",
+    "ingredients": [
+        {
+            "input": { "item": "minecraft:experience_bottle" },
+            "amount": 128
+        },
+        {
+            "input": { "item": "ars_nouveau:greater_experience_gem" },
+            "amount": 64
+        },
+        {
+            "input": { "item": "minecraft:brain_coral_block" },
+            "amount": 64
+        }
+    ],
+    "enchantments": [
+        { "type": "radenchants:boosted", "level": 4 },
+        { "type": "ensorcellation:exp_boost", "level": 3 },
+        { "type": "uniquee:sages_blessing", "level": 5 },
+        { "type": "fins:crabs_favor", "level": 3 }
+        
+    ],
+	"lock": true,
+	"max": 4,
+    "output": "apotheosis:knowledge",
+    "output_mode": "average" 
+}
