@@ -15,12 +15,12 @@
 		Incompatibilities = ["dungeons_gear:leeching", "ensorcellation:leech"]
 		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
 		#Range: 1 ~ 10
-		"Max Level" = 3
+		"Max Level" = 5
 		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
 		Rarity = "RARE"
 		#Caps at 100% of damage dealt
 		#Range: 0.0 ~ 1.0
-		"Percent Stolen per Level" = 0.25
+		"Percent Stolen per Level" = 0.02
 
 	[Enchantments."Magical Blade"]
 		Enabled = true
@@ -610,7 +610,7 @@
 		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
 		Rarity = "RARE"
 		#Range: 0.0 ~ 1.0
-		"Bonus Heal Multiplier per Level" = 0.02
+		"Bonus Heal Multiplier per Level" = 0.05
 
 	[Enchantments.Illuminate]
 		Enabled = true
@@ -804,8 +804,8 @@
 		Rarity = "RARE"
 		#Range: 0.0 ~ 1.0
 		"Percent per Level" = 0.5
-		"Require No Armor" = true
-		"Require No Curios" = true
+		"Require No Armor" = false
+		"Require No Curios" = false
 
 	[Enchantments.Gallop]
 		Enabled = true
@@ -904,7 +904,7 @@
 			"(Jack) Place Prevention (visual desync for client inventory slot)" = true
 			"(Jack) Can equip Jack o'Lantern (does not require Glare), and blow out Jack o'Lanterns" = true
 			#Range: 0.0 ~ 0.99
-			"(Jack) Percent Max Health Locked per Level" = 0.25
+			"(Jack) Percent Max Health Locked per Level" = 0.05
 
 	[Enchantments.Snitch]
 		Enabled = true
@@ -1058,7 +1058,7 @@
 				#Range: 1 ~ 10
 				"Weight Value (Chance to appear, higher is more common" = 10
 				#List is Strict with no Slot entries set, Class or 'modid:itemid'
-				"Blacklisted Items/Classes" = ["BowItem", "CrossbowItem"]
+				"Blacklisted Items/Classes" = ["PickaxeItem", "BowItem", "CrossbowItem"]
 				"Blacklist is Whitelist" = true
 				#head, chest, legs, feet, curio
 				"Slot Whitelist (empty to disable)" = ["feet", "curio"]
@@ -1123,7 +1123,7 @@
 				#Range: 1 ~ 10
 				"Weight Value (Chance to appear, higher is more common" = 1
 				#List is Strict with no Slot entries set, Class or 'modid:itemid'
-				"Blacklisted Items/Classes" = ["SwordItem", "AxeItem", "HoeItem", "TridentItem", "minecraft:totem_of_undying"]
+				"Blacklisted Items/Classes" = ["PickaxeItem", "SwordItem", "AxeItem", "HoeItem", "TridentItem", "minecraft:totem_of_undying"]
 				"Blacklist is Whitelist" = true
 				#head, chest, legs, feet, curio
 				"Slot Whitelist (empty to disable)" = ["curio"]
@@ -1136,7 +1136,7 @@
 				#Range: 1 ~ 10
 				"Weight Value (Chance to appear, higher is more common" = 1
 				#List is Strict with no Slot entries set, Class or 'modid:itemid'
-				"Blacklisted Items/Classes" = ["FishingRodItem", "minecraft:totem_of_undying"]
+				"Blacklisted Items/Classes" = ["PickaxeItem", "FishingRodItem", "minecraft:totem_of_undying"]
 				"Blacklist is Whitelist" = true
 				#head, chest, legs, feet, curio
 				"Slot Whitelist (empty to disable)" = ["curio"]
