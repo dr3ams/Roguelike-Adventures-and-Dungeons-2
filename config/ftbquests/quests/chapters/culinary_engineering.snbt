@@ -9,10 +9,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -10.0d
-			y: 13.0d
+			x: -9.0d
+			y: 11.5d
 			shape: "gear"
-			subtitle: "(Connection from \"Farmer's Delight\" chapter)"
 			description: ["With this book you will be able to make food specifically from in your inventory."]
 			size: 1.5d
 			id: "0000000000000FF0"
@@ -23,8 +22,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 13.0d
+			x: -5.0d
+			y: 11.5d
 			shape: "rsquare"
 			description: ["This cooking table is the first step in having a entire functioning and linked kitchen. It will be where you craft your food. "]
 			dependencies: ["0000000000000FF0"]
@@ -49,10 +48,11 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: 13.0d
+			x: -3.0d
+			y: 11.5d
 			shape: "rsquare"
 			description: ["By having a sink linked into your kitchen (touching other counter blocks and equipment) you will have water supplied freely to all your recipes."]
+			dependencies: ["0000000000000FF2"]
 			id: "0000000000000FF4"
 			tasks: [{
 				id: "0000000000000FF5"
@@ -66,10 +66,11 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 12.0d
+			x: -2.0d
+			y: 10.5d
 			shape: "rsquare"
 			description: ["The oven will allow you to cook any food needed in your recipes, when connected in your kitchen. Without upgrades the oven will require a fuel source to cook food."]
+			dependencies: ["0000000000000FF4"]
 			id: "0000000000000FF6"
 			tasks: [{
 				id: "0000000000000FF7"
@@ -83,9 +84,10 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 12.0d
+			x: -4.0d
+			y: 10.5d
 			description: ["The toaster will convert bread to toast for any recipe needing it."]
+			dependencies: ["0000000000000FF2"]
 			id: "0000000000000FF8"
 			tasks: [{
 				id: "0000000000000FF9"
@@ -107,8 +109,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 14.0d
+			x: 0.0d
+			y: 12.5d
 			description: [
 				"Provides a constant supply of milk for recipes without manually having to be filled. "
 				""
@@ -135,8 +137,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 12.0d
+			x: 0.0d
+			y: 10.5d
 			description: ["Holds milk to be used in recipes. Must be filled with milk manually."]
 			id: "0000000000000FFC"
 			tasks: [{
@@ -158,12 +160,13 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: 12.0d
+			x: -6.0d
+			y: 10.5d
 			description: [
 				"The fridge is a decorative storage block that will allow you to store ingredients for recipes."
 				"Can be double stacked to expand storage space."
 			]
+			dependencies: ["0000000000000FF2"]
 			id: "0000000000000FFE"
 			tasks: [{
 				id: "0000000000000FFF"
@@ -177,31 +180,27 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 14.0d
+			x: -4.0d
+			y: 12.5d
 			description: ["Holds tools that will be able to be used in recipes in attached kitchens."]
+			dependencies: ["0000000000000FF2"]
 			id: "0000000000001000"
 			tasks: [{
 				id: "0000000000001001"
 				type: "item"
 				item: "cookingforblockheads:tool_rack"
 			}]
-			rewards: [
-				{
-					id: "00000000000012F6"
-					type: "random"
-				}
-				{
-					id: "7631441200DA19FC"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
+			rewards: [{
+				id: "7631441200DA19FC"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
 		}
 		{
-			x: -7.0d
-			y: 14.0d
+			x: -6.0d
+			y: 12.5d
 			description: ["Holds and displays spices to be used in the kitchen."]
+			dependencies: ["0000000000000FF2"]
 			id: "0000000000001002"
 			tasks: [{
 				id: "0000000000001003"
@@ -215,9 +214,10 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 14.0d
+			x: -2.0d
+			y: 12.5d
 			description: ["Stores and displays fruit for recipes that can be used by the kitchen."]
+			dependencies: ["0000000000000FF4"]
 			id: "0000000000001004"
 			tasks: [{
 				id: "0000000000001005"
@@ -245,8 +245,8 @@
 			]
 		}
 		{
-			x: -7.5d
-			y: 11.0d
+			x: -6.5d
+			y: 9.5d
 			description: ["A fridge upgrade that will provide all the snow and ice you need for recipes. "]
 			dependencies: ["0000000000000FFE"]
 			id: "0000000000001006"
@@ -269,8 +269,8 @@
 			]
 		}
 		{
-			x: -6.5d
-			y: 11.0d
+			x: -5.5d
+			y: 9.5d
 			description: ["A fridge upgrade that saves the last item in a slot so that item spaces are saved from being replaced."]
 			dependencies: ["0000000000000FFE"]
 			id: "0000000000001008"
@@ -293,8 +293,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: 11.0d
+			x: -2.0d
+			y: 9.5d
 			description: ["By applying this upgrade to your oven it will be able to accept RF to cook food, no longer requiring fuel."]
 			dependencies: ["0000000000000FF6"]
 			id: "000000000000100A"
@@ -317,8 +317,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 12.5d
+			x: 2.0d
+			y: 10.5d
 			description: [
 				"A hanging kitchen cabinet to decorate your kitchen and provide some extra storage."
 				""
@@ -338,7 +338,7 @@
 		}
 		{
 			x: 4.0d
-			y: 12.5d
+			y: 10.5d
 			description: [
 				"A simple hanging cabinet corner to help around bends while maintaining connection."
 				""
@@ -357,8 +357,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 14.0d
+			x: 2.0d
+			y: 12.5d
 			description: [
 				"Kitchen counter allows you to connect multiple pieces of kitchen equipment together as well as provide some storage for ingredients."
 				""
@@ -378,7 +378,7 @@
 		}
 		{
 			x: 4.0d
-			y: 14.0d
+			y: 12.5d
 			description: [
 				"A simple corner to help counters around bends, maintaining their connection."
 				""
@@ -397,8 +397,8 @@
 			}]
 		}
 		{
-			x: 3.285714285714292d
-			y: 13.267857142857153d
+			x: 3.0d
+			y: 11.5d
 			description: ["The \"classic\" kitchen flooring. Can be converted to a number of other colors, check the recipes in JEI. "]
 			id: "0000000000001014"
 			tasks: [{
@@ -419,20 +419,13 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			x: -3.75d
-			y: 16.25d
+			x: -2.5d
+			y: 15.0d
 			shape: "octagon"
+			subtitle: "*You may need to zoom out quite a bit to see all the quests*"
 			description: [
-				"Surrounding the above Kitchen item quests are a number of recipes that you can try to make. These may be complex but their benefits and boost may be appealing if you give them a try. Trying out a good number of these food will help you get benefits from SOL: Potato Edition."
-				"*You may need to zoom out quite a bit to see all the quests*"
-				""
-				"Feel no need to complete a lot of these quests as they do not provide rewards, but are here to give you ideas on what to cook to keep your diet diverse."
+				"Feel no need to complete a lot of these quests as they do not provide useful rewards, but are here to give you ideas on what to cook to keep your diet diverse."
 				""
 				"May this be your veritable recipe book."
 			]
@@ -445,238 +438,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 26.0d
-			id: "00000000000013A3"
-			tasks: [{
-				id: "00000000000013A4"
-				type: "item"
-				item: "vanillafoodpantry:apple_pie"
-			}]
-			rewards: [{
-				id: "692963FE49EE2D41"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 0.0d
-			y: 26.0d
-			id: "00000000000013A5"
-			tasks: [{
-				id: "00000000000013A6"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:mixed_berry_pie"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 8
-							FoodTotal: 26
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "64A675311D90FDBB"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 1.5d
-			y: 26.0d
-			id: "00000000000013A7"
-			tasks: [{
-				id: "00000000000013A8"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:enriched_pumpkin_pie"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 8
-							FoodTotal: 32
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "6739B3645A43F1DF"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 3.0d
-			y: 26.0d
-			id: "00000000000013A9"
-			tasks: [{
-				id: "00000000000013AA"
-				type: "item"
-				item: "vanillafoodpantry:golden_fruit_pie"
-			}]
-			rewards: [{
-				id: "4EA5201D3B84AB27"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -6.5d
-			y: 26.0d
-			id: "00000000000013AB"
-			tasks: [{
-				id: "00000000000013AC"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:egg_pie"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 5
-							FoodTotal: 26
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "63C935F6E36BF886"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -9.5d
-			y: 26.0d
-			id: "00000000000013AD"
-			tasks: [{
-				id: "00000000000013AE"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:egg_pie_mushroom"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 5
-							FoodTotal: 26
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "4F6ADC7847A940D6"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -8.0d
-			y: 26.0d
-			id: "00000000000013AF"
-			tasks: [{
-				id: "00000000000013B0"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:egg_pie_chicken"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 5
-							FoodTotal: 30
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "29AB35B6924B787B"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -11.0d
-			y: 26.0d
-			id: "00000000000013B1"
-			tasks: [{
-				id: "00000000000013B2"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:egg_pie_ham"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 5
-							FoodTotal: 30
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "3EF47307B1C8762A"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 4.5d
-			y: 26.0d
-			id: "00000000000013B3"
-			tasks: [{
-				id: "00000000000013B4"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:egg_pie_allium"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 5
-							FoodTotal: 26
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "63B87ABA6958507F"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -12.5d
-			y: 26.0d
-			id: "00000000000013B5"
-			tasks: [{
-				id: "00000000000013B6"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:fish_pie_salmon"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 5
-							FoodTotal: 30
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "301EAD15F61BC0C5"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -7.0d
-			y: 23.5d
+			x: -16.5d
+			y: 26.5d
 			id: "00000000000013B7"
 			tasks: [{
 				id: "00000000000013B8"
@@ -690,38 +453,68 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 22.0d
+			x: -16.5d
+			y: 14.0d
 			id: "00000000000013B9"
 			tasks: [{
 				id: "00000000000013BA"
 				type: "item"
 				item: "simplefarming:beef_curry"
 			}]
-			rewards: [{
-				id: "5AD75CEDBD559B21"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "5AD75CEDBD559B21"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "381F60EDBF423086"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -4.0d
-			y: 23.5d
+			x: -13.5d
+			y: 26.5d
 			id: "00000000000013BB"
 			tasks: [{
 				id: "00000000000013BC"
 				type: "item"
 				item: "simplefarming:italian_beef"
 			}]
-			rewards: [{
-				id: "0385832286C5E60A"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "0385832286C5E60A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7236CB579E417426"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: 1.5d
-			y: 20.5d
+			x: 8.5d
+			y: 12.5d
 			id: "00000000000013BD"
 			tasks: [{
 				id: "00000000000013BE"
@@ -735,8 +528,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 23.5d
+			x: 8.5d
+			y: 15.5d
 			id: "00000000000013BF"
 			tasks: [{
 				id: "00000000000013C0"
@@ -750,23 +543,38 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 22.0d
+			x: 8.5d
+			y: 14.0d
 			id: "00000000000013C1"
 			tasks: [{
 				id: "00000000000013C2"
 				type: "item"
 				item: "simplefarming:caesar_salad"
 			}]
-			rewards: [{
-				id: "04A3A5706E202916"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "04A3A5706E202916"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "569EBF91F9D16325"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -2.5d
-			y: 19.0d
+			x: -16.5d
+			y: 28.0d
 			id: "00000000000013C3"
 			tasks: [{
 				id: "00000000000013C4"
@@ -780,38 +588,68 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 20.5d
+			x: 10.0d
+			y: 12.5d
 			id: "00000000000013C5"
 			tasks: [{
 				id: "00000000000013C6"
 				type: "item"
 				item: "simplefarming:chicken_noodle_soup"
 			}]
-			rewards: [{
-				id: "6D669E583D9A423B"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "6D669E583D9A423B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "495CF47C8BF8163A"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -9.5d
-			y: 19.0d
+			x: -13.5d
+			y: 11.0d
 			id: "00000000000013C7"
 			tasks: [{
 				id: "00000000000013C8"
 				type: "item"
 				item: "simplefarming:chicken_curry"
 			}]
-			rewards: [{
-				id: "0CD40D1FC0443001"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "0CD40D1FC0443001"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "57926365B656F124"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -11.0d
-			y: 23.5d
+			x: -15.0d
+			y: 15.5d
 			id: "00000000000013C9"
 			tasks: [{
 				id: "00000000000013CA"
@@ -825,8 +663,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 20.5d
+			x: -16.5d
+			y: 23.5d
 			id: "00000000000013CB"
 			tasks: [{
 				id: "00000000000013CC"
@@ -840,8 +678,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 20.5d
+			x: 11.5d
+			y: 12.5d
 			id: "00000000000013CD"
 			tasks: [{
 				id: "00000000000013CE"
@@ -855,38 +693,68 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 23.5d
+			x: -15.0d
+			y: 26.5d
 			id: "00000000000013CF"
 			tasks: [{
 				id: "00000000000013D0"
 				type: "item"
 				item: "simplefarming:egg_sandwich"
 			}]
-			rewards: [{
-				id: "180A7C2E08E5142F"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "180A7C2E08E5142F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "60A09E23AF0DFD88"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -11.0d
-			y: 20.5d
+			x: -15.0d
+			y: 12.5d
 			id: "00000000000013D1"
 			tasks: [{
 				id: "00000000000013D2"
 				type: "item"
 				item: "simplefarming:eggplant_parmesan"
 			}]
-			rewards: [{
-				id: "53B22AFE809ED528"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "53B22AFE809ED528"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "318010845F7766F5"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: 4.5d
-			y: 22.0d
+			x: 11.5d
+			y: 14.0d
 			id: "00000000000013D3"
 			tasks: [{
 				id: "00000000000013D4"
@@ -900,38 +768,68 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 19.0d
+			x: -18.0d
+			y: 22.0d
 			id: "00000000000013D5"
 			tasks: [{
 				id: "00000000000013D6"
 				type: "item"
 				item: "simplefarming:fish_sandwich"
 			}]
-			rewards: [{
-				id: "3B2D8A59EAD751F9"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "3B2D8A59EAD751F9"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "739A5C7D14DF0E5E"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -7.0d
-			y: 22.0d
+			x: -16.5d
+			y: 25.0d
 			id: "00000000000013D7"
 			tasks: [{
 				id: "00000000000013D8"
 				type: "item"
 				item: "simplefarming:fried_rice"
 			}]
-			rewards: [{
-				id: "335D779F224E0CFC"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "335D779F224E0CFC"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "276343A77FB47B29"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -2.5d
-			y: 22.0d
+			x: -18.0d
+			y: 26.5d
 			id: "00000000000013D9"
 			tasks: [{
 				id: "00000000000013DA"
@@ -945,8 +843,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 22.0d
+			x: -13.5d
+			y: 25.0d
 			id: "00000000000013DB"
 			tasks: [{
 				id: "00000000000013DC"
@@ -960,8 +858,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 22.0d
+			x: -15.0d
+			y: 14.0d
 			id: "00000000000013DD"
 			tasks: [{
 				id: "00000000000013DE"
@@ -975,23 +873,38 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 23.5d
+			x: -16.5d
+			y: 15.5d
 			id: "00000000000013DF"
 			tasks: [{
 				id: "00000000000013E0"
 				type: "item"
 				item: "simplefarming:mutton_curry"
 			}]
-			rewards: [{
-				id: "521598DD5A9243C9"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "521598DD5A9243C9"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2CE348FB9358990A"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -7.0d
-			y: 20.5d
+			x: -18.0d
+			y: 23.5d
 			id: "00000000000013E1"
 			tasks: [{
 				id: "00000000000013E2"
@@ -1005,8 +918,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 20.5d
+			x: -13.5d
+			y: 12.5d
 			id: "00000000000013E3"
 			tasks: [{
 				id: "00000000000013E4"
@@ -1020,38 +933,68 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 22.0d
+			x: -13.5d
+			y: 14.0d
 			id: "00000000000013E5"
 			tasks: [{
 				id: "00000000000013E6"
 				type: "item"
 				item: "simplefarming:squid_ink_pasta"
 			}]
-			rewards: [{
-				id: "1A7355B7010DE01F"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "1A7355B7010DE01F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "794BF05096536C93"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -12.5d
-			y: 19.0d
+			x: -15.0d
+			y: 9.5d
 			id: "00000000000013E7"
 			tasks: [{
 				id: "00000000000013E8"
 				type: "item"
 				item: "simplefarming:pork_curry"
 			}]
-			rewards: [{
-				id: "13347C88B4F0FBBA"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "13347C88B4F0FBBA"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4F8B26B9E8C58FB0"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -5.5d
-			y: 22.0d
+			x: -15.0d
+			y: 25.0d
 			id: "00000000000013E9"
 			tasks: [{
 				id: "00000000000013EA"
@@ -1065,23 +1008,38 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 20.5d
+			x: -15.0d
+			y: 23.5d
 			id: "00000000000013EB"
 			tasks: [{
 				id: "00000000000013EC"
 				type: "item"
 				item: "simplefarming:sandwich"
 			}]
-			rewards: [{
-				id: "295BDDFB56187D2C"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "295BDDFB56187D2C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1A60C1F7327A1E11"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: 3.0d
-			y: 22.0d
+			x: 10.0d
+			y: 14.0d
 			id: "00000000000013ED"
 			tasks: [{
 				id: "00000000000013EE"
@@ -1095,23 +1053,38 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 23.5d
+			x: -13.5d
+			y: 15.5d
 			id: "00000000000013EF"
 			tasks: [{
 				id: "00000000000013F0"
 				type: "item"
 				item: "simplefarming:spaghetti"
 			}]
-			rewards: [{
-				id: "732A5F7CF5354776"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "732A5F7CF5354776"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4C27DB3885CAF0F6"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -1.0d
-			y: 22.0d
+			x: -13.5d
+			y: 23.5d
 			id: "00000000000013F1"
 			tasks: [{
 				id: "00000000000013F2"
@@ -1125,8 +1098,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 20.5d
+			x: -13.5d
+			y: 22.0d
 			id: "00000000000013F3"
 			tasks: [{
 				id: "00000000000013F4"
@@ -1140,23 +1113,38 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 19.0d
+			x: 8.5d
+			y: 11.0d
 			id: "00000000000013F5"
 			tasks: [{
 				id: "00000000000013F6"
 				type: "item"
 				item: "simplefarming:squash_casserole"
 			}]
-			rewards: [{
-				id: "08A5CB86FB514730"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "08A5CB86FB514730"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3C2C1DC33049592C"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: 3.0d
-			y: 23.5d
+			x: 10.0d
+			y: 15.5d
 			id: "00000000000013F7"
 			tasks: [{
 				id: "00000000000013F8"
@@ -1170,23 +1158,38 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 23.5d
+			x: 11.5d
+			y: 15.5d
 			id: "00000000000013F9"
 			tasks: [{
 				id: "00000000000013FA"
 				type: "item"
 				item: "simplefarming:stuffed_corn_zucchini"
 			}]
-			rewards: [{
-				id: "16F721F36FDAF841"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "16F721F36FDAF841"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "22C3D814E01E9672"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -1.0d
-			y: 23.5d
+			x: 8.5d
+			y: 24.0d
 			id: "00000000000013FB"
 			tasks: [{
 				id: "00000000000013FC"
@@ -1200,8 +1203,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 19.0d
+			x: 9.5d
+			y: 9.5d
 			id: "00000000000013FD"
 			tasks: [{
 				id: "00000000000013FE"
@@ -1215,8 +1218,8 @@
 			}]
 		}
 		{
-			x: -12.5d
-			y: 20.5d
+			x: -16.5d
+			y: 12.5d
 			id: "00000000000013FF"
 			tasks: [{
 				id: "0000000000001400"
@@ -1230,2121 +1233,40 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 20.5d
+			x: -15.0d
+			y: 28.0d
 			id: "0000000000001401"
 			tasks: [{
 				id: "0000000000001402"
 				type: "item"
 				item: "simplefarming:veggie_burger"
 			}]
-			rewards: [{
-				id: "73E279C4B3703EFF"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -14.5d
-			y: 31.0d
-			id: "0000000000001403"
-			tasks: [{
-				id: "0000000000001404"
-				type: "item"
-				item: "vanillafoodpantry:enriched_bread"
-			}]
-			rewards: [{
-				id: "06E479889E36659B"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -14.5d
-			y: 32.5d
-			id: "0000000000001405"
-			tasks: [{
-				id: "0000000000001406"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:molasses_bread"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 5
-							FoodTotal: 14
-							XFood: 1b
+			rewards: [
+				{
+					id: "73E279C4B3703EFF"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "663AAC343A3108A8"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "4763C2ADE536A416"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -14.5d
-			y: 34.0d
-			id: "0000000000001407"
-			tasks: [{
-				id: "0000000000001408"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:egg_bread"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 5
-							FoodTotal: 18
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "6D72A4C6335F43DE"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -14.5d
-			y: 29.5d
-			id: "0000000000001409"
-			tasks: [{
-				id: "000000000000140A"
-				type: "item"
-				item: "vanillafoodpantry:honey_bread"
-			}]
-			rewards: [{
-				id: "64E31FC56278A831"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -13.0d
-			y: 34.0d
-			id: "000000000000140B"
-			tasks: [{
-				id: "000000000000140C"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:apple_bread"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 5
-							FoodTotal: 14
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "32766B52F92F886F"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -13.0d
-			y: 31.0d
-			id: "000000000000140D"
-			tasks: [{
-				id: "000000000000140E"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:pumpkin_bread"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 5
-							FoodTotal: 14
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "45F6EF0C7E45EE4B"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -13.0d
-			y: 32.5d
-			id: "000000000000140F"
-			tasks: [{
-				id: "0000000000001410"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:potato_bread"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 5
-							FoodTotal: 18
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "5BB59AF53BD517F1"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -11.5d
-			y: 32.5d
-			id: "0000000000001411"
-			tasks: [{
-				id: "0000000000001412"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:muscle_bread"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 5
-							FoodTotal: 20
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "1447BC33E2AF90CA"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -11.5d
-			y: 34.0d
-			id: "0000000000001413"
-			tasks: [{
-				id: "0000000000001414"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:klingon_bread"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 5
-							FoodTotal: 18
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "01801A6CCB10B7A4"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -11.5d
-			y: 31.0d
-			id: "0000000000001415"
-			tasks: [{
-				id: "0000000000001416"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:beets_bread"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 5
-							FoodTotal: 14
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "602774C0E4274169"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -13.0d
-			y: 29.5d
-			id: "0000000000001417"
-			tasks: [{
-				id: "0000000000001418"
-				type: "item"
-				item: "vanillafoodpantry:allium_bread"
-			}]
-			rewards: [{
-				id: "259D8352A2129DA0"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -11.5d
-			y: 29.5d
-			id: "0000000000001419"
-			tasks: [{
-				id: "000000000000141A"
-				type: "item"
-				item: "vanillafoodpantry:french_bread"
-			}]
-			rewards: [{
-				id: "443ADB52CEA4474E"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -7.0d
-			y: 29.5d
-			id: "000000000000141B"
-			tasks: [{
-				id: "000000000000141C"
-				type: "item"
-				item: "vanillafoodpantry:nomads_snack_bar"
-			}]
-			rewards: [{
-				id: "699BF76B92E5D0D0"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -7.0d
-			y: 31.0d
-			id: "000000000000141D"
-			tasks: [{
-				id: "000000000000141E"
-				type: "item"
-				item: "vanillafoodpantry:nomads_meal_bar"
-			}]
-			rewards: [{
-				id: "7EDAECD20FB572F4"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -7.0d
-			y: 32.5d
-			id: "000000000000141F"
-			tasks: [{
-				id: "0000000000001420"
-				type: "item"
-				item: "vanillafoodpantry:roasted_vegetables"
-			}]
-			rewards: [{
-				id: "00D311C1D6E11AB2"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -7.0d
-			y: 34.0d
-			id: "0000000000001421"
-			tasks: [{
-				id: "0000000000001422"
-				type: "item"
-				item: "vanillafoodpantry:desert_salad"
-			}]
-			rewards: [{
-				id: "5BF94B316BA4103F"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -8.5d
-			y: 29.5d
-			id: "0000000000001423"
-			tasks: [{
-				id: "0000000000001424"
-				type: "item"
-				item: "vanillafoodpantry:bat_burger"
-			}]
-			rewards: [{
-				id: "03E366D3FB20DCCD"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -8.5d
-			y: 31.0d
-			id: "0000000000001425"
-			tasks: [{
-				id: "0000000000001426"
-				type: "item"
-				item: "vanillafoodpantry:bat_cheeseburger"
-			}]
-			rewards: [{
-				id: "5DA7544A6C60C892"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -8.5d
-			y: 32.5d
-			id: "0000000000001427"
-			tasks: [{
-				id: "0000000000001428"
-				type: "item"
-				item: "vanillafoodpantry:carrot_burger"
-			}]
-			rewards: [{
-				id: "641E5C6D8F4CEDDA"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -5.5d
-			y: 29.5d
-			id: "0000000000001429"
-			tasks: [{
-				id: "000000000000142A"
-				type: "item"
-				item: "vanillafoodpantry:mysterious_fruit_salad"
-			}]
-			rewards: [{
-				id: "09C9294E7518FB55"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -5.5d
-			y: 31.0d
-			id: "000000000000142B"
-			tasks: [{
-				id: "000000000000142C"
-				type: "item"
-				item: "vanillafoodpantry:fruit_salad"
-			}]
-			rewards: [{
-				id: "76B247E722737A07"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -5.5d
-			y: 32.5d
-			id: "000000000000142D"
-			tasks: [{
-				id: "000000000000142E"
-				type: "item"
-				item: "vanillafoodpantry:berries_and_cream"
-			}]
-			rewards: [{
-				id: "3581FAB76BA6FBC1"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -5.5d
-			y: 34.0d
-			id: "000000000000142F"
-			tasks: [{
-				id: "0000000000001430"
-				type: "item"
-				item: "vanillafoodpantry:honey_glazed_melon_bites"
-			}]
-			rewards: [{
-				id: "466CEB09BA8BC673"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -8.5d
-			y: 34.0d
-			id: "0000000000001431"
-			tasks: [{
-				id: "0000000000001432"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:special_salad"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 6
-							FoodTotal: 25
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "73360DC5A0106F28"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -18.5d
-			y: 19.0d
-			id: "0000000000001433"
-			tasks: [{
-				id: "0000000000001434"
-				type: "item"
-				item: "vanillafoodpantry:bread_pocket_egg_mushroom"
-			}]
-			rewards: [{
-				id: "3F5A72346D9BCCEC"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -17.0d
-			y: 19.0d
-			id: "0000000000001435"
-			tasks: [{
-				id: "0000000000001436"
-				type: "item"
-				item: "vanillafoodpantry:bread_pocket_egg_steak"
-			}]
-			rewards: [{
-				id: "55E4A0B2DBF4204F"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -15.5d
-			y: 19.0d
-			id: "0000000000001437"
-			tasks: [{
-				id: "0000000000001438"
-				type: "item"
-				item: "vanillafoodpantry:bread_pocket_egg_ham"
-			}]
-			rewards: [{
-				id: "211A4D98BC3EB1F9"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -18.5d
-			y: 20.5d
-			id: "0000000000001439"
-			tasks: [{
-				id: "000000000000143A"
-				type: "item"
-				item: "vanillafoodpantry:bread_pocket_egg_spam"
-			}]
-			rewards: [{
-				id: "1E40E71C00A6728F"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -17.0d
-			y: 20.5d
-			id: "000000000000143B"
-			tasks: [{
-				id: "000000000000143C"
-				type: "item"
-				item: "vanillafoodpantry:bread_pocket_roast_veg"
-			}]
-			rewards: [{
-				id: "0D1B33BF999E3B5F"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -15.5d
-			y: 20.5d
-			id: "000000000000143D"
-			tasks: [{
-				id: "000000000000143E"
-				type: "item"
-				item: "vanillafoodpantry:bread_pocket_fish_salad"
-			}]
-			rewards: [{
-				id: "2E4158679B7E59A3"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 10.5d
-			y: 17.0d
-			id: "000000000000143F"
-			tasks: [{
-				id: "0000000000001440"
-				type: "item"
-				item: "vanillafoodpantry:double_fried_egg_sandwich"
-			}]
-			rewards: [{
-				id: "72787AADAFBBBEAD"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 12.0d
-			y: 17.0d
-			id: "0000000000001441"
-			tasks: [{
-				id: "0000000000001442"
-				type: "item"
-				item: "vanillafoodpantry:ham_egg_sandwich"
-			}]
-			rewards: [{
-				id: "54D7CC655C94772E"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 13.5d
-			y: 17.0d
-			id: "0000000000001443"
-			tasks: [{
-				id: "0000000000001444"
-				type: "item"
-				item: "vanillafoodpantry:spam_egg_sandwich"
-			}]
-			rewards: [{
-				id: "2F8D967DA24A1C9E"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 9.0d
-			y: 19.0d
-			id: "0000000000001445"
-			tasks: [{
-				id: "0000000000001446"
-				type: "item"
-				item: "vanillafoodpantry:cyclops_sandwich"
-			}]
-			rewards: [{
-				id: "3C71933DA3ECA48E"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 4.5d
-			y: 17.0d
-			id: "0000000000001447"
-			tasks: [{
-				id: "0000000000001448"
-				type: "item"
-				item: "vanillafoodpantry:sunbutter_appleslices_sandwich"
-			}]
-			rewards: [{
-				id: "02BFF9CE40F7B7A7"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 6.0d
-			y: 17.0d
-			id: "0000000000001449"
-			tasks: [{
-				id: "000000000000144A"
-				type: "item"
-				item: "vanillafoodpantry:crafty_preserves_sunbutter_sandwich"
-			}]
-			rewards: [{
-				id: "4B6C05AFBE6A9CC1"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 7.5d
-			y: 17.0d
-			id: "000000000000144D"
-			tasks: [{
-				id: "000000000000144E"
-				type: "item"
-				item: "vanillafoodpantry:honey_sunbutter_sandwich"
-			}]
-			rewards: [{
-				id: "03E5205A67D31CC0"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 7.5d
-			y: 19.0d
-			id: "000000000000144F"
-			tasks: [{
-				id: "0000000000001450"
-				type: "item"
-				item: "vanillafoodpantry:fish_sausage_mashwrap"
-			}]
-			rewards: [{
-				id: "0D4B518F64C85085"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 10.5d
-			y: 19.0d
-			id: "0000000000001451"
-			tasks: [{
-				id: "0000000000001452"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:decker_generic"
-					Count: 1b
-					tag: {
-						SAMPLE: 1b
-						"carrots:root": {
-							UiTip: "{\"translate\":\"item.vfp.caramelized_alliums\"}_||_{\"translate\":\"item.vfp.cheese_ball\"}_||_{\"translate\":\"item.vfp.potato_bread\"}_||_{\"translate\":\"item.vfp.roasted_seeds_sunflower\"}_||_{\"translate\":\"item.vfp.roasted_vegetables\"}_||_{\"translate\":\"item.vfp.decker.bonus\"}"
-							FoodPortion: 5
-							FoodTotal: 39
-							FoodSaturation: 0.898718f
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "7595C4A242C0B00F"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 10.5d
-			y: 20.5d
-			id: "0000000000001453"
-			tasks: [{
-				id: "0000000000001454"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:decker_kinged"
-					Count: 1b
-					tag: {
-						SAMPLE: 1b
-						"carrots:root": {
-							UiTip: "{\"translate\":\"item.vfp.bat_cheeseburger\"}_||_{\"translate\":\"item.vfp.cheese_sandwich\"}_||_{\"translate\":\"item.vfp.egg_minibread\"}"
-							FoodPortion: 5
-							FoodTotal: 23
-							FoodSaturation: 0.71304345f
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "442E473C301F9077"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 9.0d
-			y: 20.5d
-			id: "0000000000001455"
-			tasks: [{
-				id: "0000000000001456"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:decker_cuban"
-					Count: 1b
-					tag: {
-						SAMPLE: 1b
-						"carrots:root": {
-							UiTip: "{\"translate\":\"item.minecraft.cooked_porkchop\"}_||_{\"translate\":\"item.vfp.caramelized_alliums\"}_||_{\"translate\":\"item.vfp.cheese_ball\"}_||_{\"translate\":\"item.vfp.cooked_salt_pork\"}_||_{\"translate\":\"item.vfp.french_bread\"}_||_{\"translate\":\"item.vfp.decker.bonus\"}"
-							FoodPortion: 5
-							FoodTotal: 30
-							FoodSaturation: 0.9f
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "70BB16244349BFBF"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 7.5d
-			y: 22.0d
-			id: "0000000000001457"
-			tasks: [{
-				id: "0000000000001458"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:decker_chicken"
-					Count: 1b
-					tag: {
-						SAMPLE: 1b
-						"carrots:root": {
-							UiTip: "{\"translate\":\"item.minecraft.cooked_chicken\"}_||_{\"translate\":\"item.vfp.french_bread\"}_||_{\"translate\":\"item.vfp.portion_roasted_veg\"}"
-							FoodPortion: 5
-							FoodTotal: 23
-							FoodSaturation: 0.6f
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "5FA77F5CFD59F6D4"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 9.0d
-			y: 22.0d
-			id: "0000000000001459"
-			tasks: [{
-				id: "000000000000145A"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:decker_steak"
-					Count: 1b
-					tag: {
-						SAMPLE: 1b
-						"carrots:root": {
-							UiTip: "{\"translate\":\"item.minecraft.cooked_beef\"}_||_{\"translate\":\"item.vfp.caramelized_alliums\"}_||_{\"translate\":\"item.vfp.french_bread\"}"
-							FoodPortion: 5
-							FoodTotal: 20
-							FoodSaturation: 0.66562504f
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "3AD737C82B38D15F"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 10.5d
-			y: 22.0d
-			id: "000000000000145B"
-			tasks: [{
-				id: "000000000000145C"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:decker_cheesesteak"
-					Count: 1b
-					tag: {
-						SAMPLE: 1b
-						"carrots:root": {
-							UiTip: "{\"translate\":\"item.minecraft.cooked_beef\"}_||_{\"translate\":\"item.vfp.cheese_ball\"}_||_{\"translate\":\"item.vfp.french_bread\"}_||_{\"translate\":\"item.vfp.sauteed_alliums_mushrooms\"}"
-							FoodPortion: 5
-							FoodTotal: 25
-							FoodSaturation: 0.6571429f
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "53392676480ACB64"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 7.5d
-			y: 23.5d
-			id: "000000000000145D"
-			tasks: [{
-				id: "000000000000145E"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:decker_mutton"
-					Count: 1b
-					tag: {
-						SAMPLE: 1b
-						"carrots:root": {
-							UiTip: "{\"translate\":\"item.minecraft.cooked_mutton\"}_||_{\"translate\":\"item.vfp.caramelized_alliums\"}_||_{\"translate\":\"item.vfp.french_bread\"}"
-							FoodPortion: 5
-							FoodTotal: 18
-							FoodSaturation: 0.6464286f
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "0176A02A8A8D77D0"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 9.0d
-			y: 23.5d
-			id: "000000000000145F"
-			tasks: [{
-				id: "0000000000001460"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:decker_fish"
-					Count: 1b
-					tag: {
-						SAMPLE: 1b
-						"carrots:root": {
-							UiTip: "{\"translate\":\"item.minecraft.cooked_salmon\"}_||_{\"translate\":\"item.vfp.french_bread\"}_||_{\"translate\":\"item.vfp.portion_roasted_veg\"}"
-							FoodPortion: 5
-							FoodTotal: 23
-							FoodSaturation: 0.67058825f
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "18995CE7BCE9517F"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 10.5d
-			y: 23.5d
-			id: "0000000000001461"
-			tasks: [{
-				id: "0000000000001462"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:decker_veggie"
-					Count: 1b
-					tag: {
-						SAMPLE: 1b
-						"carrots:root": {
-							UiTip: "{\"translate\":\"item.vfp.caramelized_alliums\"}_||_{\"translate\":\"item.vfp.french_bread\"}_||_{\"translate\":\"item.vfp.roasted_vegetables\"}"
-							FoodPortion: 5
-							FoodTotal: 25
-							FoodSaturation: 0.6f
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "3D06ED814ECA9ACD"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -19.0d
-			y: 11.5d
-			id: "0000000000001463"
-			tasks: [{
-				id: "0000000000001464"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:stuffed_potato"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 6
-							FoodTotal: 12
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "78C0F5B22286C478"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -17.5d
-			y: 11.5d
-			id: "0000000000001465"
-			tasks: [{
-				id: "0000000000001466"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:stuffed_potato_egg"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 6
-							FoodTotal: 18
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "638BDA6A973D6A7A"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -16.0d
-			y: 11.5d
-			id: "0000000000001467"
-			tasks: [{
-				id: "0000000000001468"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:stuffed_potato_shroom"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 6
-							FoodTotal: 18
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "12E705100C247F28"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -19.0d
-			y: 13.0d
-			id: "0000000000001469"
-			tasks: [{
-				id: "000000000000146A"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:stuffed_potato_redmeat"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 6
-							FoodTotal: 18
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "72EACC0F2B0904A9"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -17.5d
-			y: 13.0d
-			id: "000000000000146B"
-			tasks: [{
-				id: "000000000000146C"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:stuffed_potato_poultry"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 6
-							FoodTotal: 18
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "5B9F1B4E691C9A11"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -16.0d
-			y: 13.0d
-			id: "000000000000146D"
-			tasks: [{
-				id: "000000000000146E"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:stuffed_potato_spam"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 6
-							FoodTotal: 18
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "6404325807F84563"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -19.0d
-			y: 14.5d
-			id: "000000000000146F"
-			tasks: [{
-				id: "0000000000001470"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:stuffed_potato_pork"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 6
-							FoodTotal: 18
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "54F77B886F4865B3"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -17.5d
-			y: 14.5d
-			id: "0000000000001471"
-			tasks: [{
-				id: "0000000000001472"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:stuffed_potato_fish"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 6
-							FoodTotal: 18
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "41B9402E9824CCBF"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -16.0d
-			y: 14.5d
-			id: "0000000000001473"
-			tasks: [{
-				id: "0000000000001474"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:stuffed_potato_cheese"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 6
-							FoodTotal: 18
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "7C382B86030805C1"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -19.0d
-			y: 10.0d
-			id: "0000000000001475"
-			tasks: [{
-				id: "0000000000001476"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:stuffed_potato_veggie"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 6
-							FoodTotal: 18
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "1CA0A79AE1F9A437"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -16.0d
-			y: 10.0d
-			id: "0000000000001477"
-			tasks: [{
-				id: "0000000000001478"
-				type: "item"
-				item: {
-					id: "vanillafoodpantry:stuffed_potato_muscle_egg"
-					Count: 1b
-					tag: {
-						"carrots:root": {
-							FoodPortion: 6
-							FoodTotal: 21
-							XFood: 1b
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "2BE558C907ADD039"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -18.5d
-			y: 23.5d
-			id: "0000000000001479"
-			tasks: [{
-				id: "000000000000147A"
-				type: "item"
-				item: "vanillafoodpantry:friedegg_sop_combo"
-			}]
-			rewards: [{
-				id: "18024C0B83003AEC"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -18.5d
-			y: 22.0d
-			id: "000000000000147B"
-			tasks: [{
-				id: "000000000000147C"
-				type: "item"
-				item: "vanillafoodpantry:fish_sop"
-			}]
-			rewards: [{
-				id: "0C4928B88E6D105B"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -17.0d
-			y: 23.5d
-			id: "000000000000147D"
-			tasks: [{
-				id: "000000000000147E"
-				type: "item"
-				item: "vanillafoodpantry:veggie_stew_combo"
-			}]
-			rewards: [{
-				id: "1E720B0F3F149491"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -15.5d
-			y: 23.5d
-			id: "000000000000147F"
-			tasks: [{
-				id: "0000000000001480"
-				type: "item"
-				item: "vanillafoodpantry:cave_stew"
-			}]
-			rewards: [{
-				id: "4C2996C06AB15608"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -17.0d
-			y: 22.0d
-			id: "0000000000001481"
-			tasks: [{
-				id: "0000000000001482"
-				type: "item"
-				item: "vanillafoodpantry:ham_hocks_stew"
-			}]
-			rewards: [{
-				id: "368479BDC613DD8C"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -15.5d
-			y: 22.0d
-			id: "0000000000001483"
-			tasks: [{
-				id: "0000000000001484"
-				type: "item"
-				item: "vanillafoodpantry:polar_bear_stew"
-			}]
-			rewards: [{
-				id: "675530A58BBCF992"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 7.5d
-			y: 20.5d
-			id: "0000000000001487"
-			tasks: [{
-				id: "0000000000001488"
-				type: "item"
-				item: "vanillafoodpantry:kebab_flatbread_combo"
-			}]
-			rewards: [{
-				id: "3504A01DA9C3A927"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 8.5d
-			y: 11.5d
-			id: "0000000000001489"
-			tasks: [{
-				id: "000000000000148A"
-				type: "item"
-				item: "vanillafoodpantry:nuggets_chicken_combo"
-			}]
-			rewards: [{
-				id: "0E894FDF2F8319BA"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 10.0d
-			y: 11.5d
-			id: "000000000000148B"
-			tasks: [{
-				id: "000000000000148C"
-				type: "item"
-				item: "vanillafoodpantry:nuggets_beef_combo"
-			}]
-			rewards: [{
-				id: "2066519A7844E291"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 11.5d
-			y: 11.5d
-			id: "000000000000148D"
-			tasks: [{
-				id: "000000000000148E"
-				type: "item"
-				item: "vanillafoodpantry:nuggets_mutton_combo"
-			}]
-			rewards: [{
-				id: "004F576161C0772D"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 8.5d
-			y: 13.0d
-			id: "000000000000148F"
-			tasks: [{
-				id: "0000000000001490"
-				type: "item"
-				item: "vanillafoodpantry:nuggets_pork_combo"
-			}]
-			rewards: [{
-				id: "2544045ACA1CE614"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 10.0d
-			y: 13.0d
-			id: "0000000000001491"
-			tasks: [{
-				id: "0000000000001492"
-				type: "item"
-				item: "vanillafoodpantry:nuggets_fish_combo"
-			}]
-			rewards: [{
-				id: "21F71045C0DF982D"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 11.5d
-			y: 13.0d
-			id: "0000000000001493"
-			tasks: [{
-				id: "0000000000001494"
-				type: "item"
-				item: "vanillafoodpantry:nuggets_mushrooms_combo"
-			}]
-			rewards: [{
-				id: "14C5229FDA1B34DB"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 8.5d
-			y: 14.5d
-			id: "0000000000001495"
-			tasks: [{
-				id: "0000000000001496"
-				type: "item"
-				item: "vanillafoodpantry:nuggets_veggies_combo"
-			}]
-			rewards: [{
-				id: "60579DD56B5BA7EA"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 10.0d
-			y: 14.5d
-			id: "0000000000001497"
-			tasks: [{
-				id: "0000000000001498"
-				type: "item"
-				item: "vanillafoodpantry:nuggets_squid_combo"
-			}]
-			rewards: [{
-				id: "05AF1454F790DF11"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 11.5d
-			y: 14.5d
-			id: "0000000000001499"
-			tasks: [{
-				id: "000000000000149A"
-				type: "item"
-				item: "vanillafoodpantry:nuggets_carrots_combo"
-			}]
-			rewards: [{
-				id: "6F1E8D729459CF02"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 11.5d
-			y: 10.0d
-			id: "000000000000149B"
-			tasks: [{
-				id: "000000000000149C"
-				type: "item"
-				item: "vanillafoodpantry:nuggets_newyorker"
-			}]
-			rewards: [{
-				id: "5397AF376CA76782"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 3.5d
-			y: 34.0d
-			id: "000000000000149D"
-			tasks: [{
-				id: "000000000000149E"
-				type: "item"
-				item: "vanillafoodpantry:fizzydrink_klingon"
-			}]
-			rewards: [{
-				id: "2D09C9DD5B784BE4"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 5.0d
-			y: 32.5d
-			id: "000000000000149F"
-			tasks: [{
-				id: "00000000000014A0"
-				type: "item"
-				item: "vanillafoodpantry:fizzydrink_milk"
-			}]
-			rewards: [{
-				id: "18EB4D408DFC7282"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 5.0d
-			y: 31.0d
-			id: "00000000000014A1"
-			tasks: [{
-				id: "00000000000014A2"
-				type: "item"
-				item: "vanillafoodpantry:fizzydrink_berry_mix"
-			}]
-			rewards: [{
-				id: "70E58549232147B1"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 5.0d
-			y: 29.5d
-			id: "00000000000014A3"
-			tasks: [{
-				id: "00000000000014A4"
-				type: "item"
-				item: "vanillafoodpantry:fizzydrink_poppy"
-			}]
-			rewards: [{
-				id: "55AB99332F7FEE90"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 3.5d
-			y: 29.5d
-			id: "00000000000014A5"
-			tasks: [{
-				id: "00000000000014A6"
-				type: "item"
-				item: "vanillafoodpantry:fizzydrink_apple"
-			}]
-			rewards: [{
-				id: "775FA5B4E562B4DE"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 3.5d
-			y: 31.0d
-			id: "00000000000014A7"
-			tasks: [{
-				id: "00000000000014A8"
-				type: "item"
-				item: "vanillafoodpantry:fizzydrink_orange"
-			}]
-			rewards: [{
-				id: "2CC8DA08393A3FBF"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 3.5d
-			y: 32.5d
-			id: "00000000000014A9"
-			tasks: [{
-				id: "00000000000014AA"
-				type: "item"
-				item: "vanillafoodpantry:fizzydrink_dandy"
-			}]
-			rewards: [{
-				id: "1A6CB0E0FF8F9892"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 6.5d
-			y: 29.5d
-			id: "00000000000014AB"
-			tasks: [{
-				id: "00000000000014AC"
-				type: "item"
-				item: "vanillafoodpantry:fizzydrink_cocoa"
-			}]
-			rewards: [{
-				id: "3B963C0B6F93FE9F"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 6.5d
-			y: 31.0d
-			id: "00000000000014AD"
-			tasks: [{
-				id: "00000000000014AE"
-				type: "item"
-				item: "vanillafoodpantry:fizzydrink_ink"
-			}]
-			rewards: [{
-				id: "163806AECECEFFAA"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 6.5d
-			y: 32.5d
-			id: "00000000000014AF"
-			tasks: [{
-				id: "00000000000014B0"
-				type: "item"
-				item: "vanillafoodpantry:fizzydrink_melon"
-			}]
-			rewards: [{
-				id: "3F4C1DA1863E5CA4"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -2.5d
-			y: 29.5d
-			id: "00000000000014B1"
-			tasks: [{
-				id: "00000000000014B2"
-				type: "item"
-				item: "vanillafoodpantry:fizzydrink_chorusfruit"
-			}]
-			rewards: [{
-				id: "1545829686A8CA66"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 5.0d
-			y: 34.0d
-			id: "00000000000014B3"
-			tasks: [{
-				id: "00000000000014B4"
-				type: "item"
-				item: "vanillafoodpantry:fizzydrink_syrup"
-			}]
-			rewards: [{
-				id: "6C8D9042C7618DB5"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 0.5d
-			y: 29.5d
-			id: "00000000000014B5"
-			tasks: [{
-				id: "00000000000014B6"
-				type: "item"
-				item: "vanillafoodpantry:juice_carrot"
-			}]
-			rewards: [{
-				id: "4EB37EE40E3469D2"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 2.0d
-			y: 29.5d
-			id: "00000000000014B7"
-			tasks: [{
-				id: "00000000000014B8"
-				type: "item"
-				item: "vanillafoodpantry:juice_cane"
-			}]
-			rewards: [{
-				id: "20235BC69533D896"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 0.5d
-			y: 31.0d
-			id: "00000000000014B9"
-			tasks: [{
-				id: "00000000000014BA"
-				type: "item"
-				item: "vanillafoodpantry:juice_cactus"
-			}]
-			rewards: [{
-				id: "540B657469D5B56D"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 0.5d
-			y: 32.5d
-			id: "00000000000014BB"
-			tasks: [{
-				id: "00000000000014BC"
-				type: "item"
-				item: "vanillafoodpantry:juice_potato"
-			}]
-			rewards: [{
-				id: "68F0E802DB7E1A4B"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 2.0d
-			y: 32.5d
-			id: "00000000000014BD"
-			tasks: [{
-				id: "00000000000014BE"
-				type: "item"
-				item: "vanillafoodpantry:juice_berries"
-			}]
-			rewards: [{
-				id: "207A47C5E5678DA4"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 2.0d
-			y: 31.0d
-			id: "00000000000014BF"
-			tasks: [{
-				id: "00000000000014C0"
-				type: "item"
-				item: "vanillafoodpantry:juice_melon"
-			}]
-			rewards: [{
-				id: "2AC76341E52C1659"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 0.5d
-			y: 34.0d
-			id: "00000000000014C1"
-			tasks: [{
-				id: "00000000000014C2"
-				type: "item"
-				item: "vanillafoodpantry:juice_kelp"
-			}]
-			rewards: [{
-				id: "37A81A9B4859659A"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -1.0d
-			y: 29.5d
-			id: "00000000000014C5"
-			tasks: [{
-				id: "00000000000014C6"
-				type: "item"
-				item: "vanillafoodpantry:milkdrink_cocoa"
-			}]
-			rewards: [{
-				id: "468734366610F5AB"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -1.0d
-			y: 32.5d
-			id: "00000000000014C7"
-			tasks: [{
-				id: "00000000000014C8"
-				type: "item"
-				item: "vanillafoodpantry:milkdrink_sweet"
-			}]
-			rewards: [{
-				id: "0576E6983EE65577"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -1.0d
-			y: 34.0d
-			id: "00000000000014C9"
-			tasks: [{
-				id: "00000000000014CA"
-				type: "item"
-				item: "vanillafoodpantry:milkdrink_pumpkin"
-			}]
-			rewards: [{
-				id: "6D3A87A5129245CA"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -2.5d
-			y: 32.5d
-			id: "00000000000014CB"
-			tasks: [{
-				id: "00000000000014CC"
-				type: "item"
-				item: "vanillafoodpantry:milkdrink_klingon"
-			}]
-			rewards: [{
-				id: "32A54D1B2DF55892"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -2.5d
-			y: 34.0d
-			id: "00000000000014CD"
-			tasks: [{
-				id: "00000000000014CE"
-				type: "item"
-				item: "vanillafoodpantry:milkdrink_apple"
-			}]
-			rewards: [{
-				id: "228A03CDC4D4B2BC"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -1.0d
-			y: 31.0d
-			id: "00000000000014CF"
-			tasks: [{
-				id: "00000000000014D0"
-				type: "item"
-				item: "vanillafoodpantry:milkdrink_berry_mix"
-			}]
-			rewards: [{
-				id: "74D36890550F9903"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 2.0d
-			y: 34.0d
-			id: "00000000000014D3"
-			tasks: [{
-				id: "00000000000014D4"
-				type: "item"
-				item: "vanillafoodpantry:juice_raftugli"
-			}]
-			rewards: [{
-				id: "232B6821EC928697"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -2.5d
-			y: 31.0d
-			id: "00000000000014D5"
-			tasks: [{
-				id: "00000000000014D6"
-				type: "item"
-				item: "vanillafoodpantry:milkdrink_muscle_mix"
-			}]
-			rewards: [{
-				id: "59CB3E2B2660EEF3"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			title: "Nugget Life"
-			icon: "vanillafoodpantry:nuggets_chicken_fried"
-			x: 10.0d
-			y: 10.0d
-			shape: "diamond"
-			description: ["Frying chunks of anything improves them greatly! "]
-			hide_dependency_lines: true
-			dependencies: [
-				"0000000000001489"
-				"000000000000148B"
-				"000000000000148D"
-				"0000000000001493"
-				"0000000000001491"
-				"000000000000148F"
-				"0000000000001495"
-				"0000000000001497"
-				"0000000000001499"
-				"000000000000149B"
 			]
-			hide: true
-			size: 2.0d
-			id: "0B878A4ECF50D27A"
-		}
-		{
-			title: "Sandwich Delight"
-			icon: {
-				id: "vanillafoodpantry:decker_chicken"
-				Count: 1b
-				tag: {
-					SAMPLE: 1b
-					"carrots:root": {
-						UiTip: "{\"translate\":\"item.minecraft.cooked_chicken\"}_||_{\"translate\":\"item.vfp.french_bread\"}_||_{\"translate\":\"item.vfp.portion_roasted_veg\"}"
-						FoodPortion: 9
-						FoodTotal: 23
-						FoodSaturation: 0.6f
-						XFood: 1b
-					}
-				}
-			}
-			x: 9.0d
-			y: 17.0d
-			shape: "diamond"
-			description: ["These are some big wacky sandwiches!"]
-			hide_dependency_lines: true
-			dependencies: [
-				"000000000000145D"
-				"000000000000145F"
-				"0000000000001461"
-				"000000000000145B"
-				"0000000000001459"
-				"0000000000001457"
-				"0000000000001487"
-				"0000000000001455"
-				"0000000000001453"
-				"0000000000001451"
-				"0000000000001445"
-				"000000000000144F"
-			]
-			hide: true
-			size: 2.0d
-			id: "5E6C47157E196F54"
-		}
-		{
-			title: "Stew Dipper"
-			icon: "vanillafoodpantry:beetroot_soup_combo"
-			x: -17.0d
-			y: 17.0d
-			shape: "diamond"
-			description: ["Some nice stuffed meals with some nice stew on the side!"]
-			hide_dependency_lines: true
-			dependencies: [
-				"0000000000001479"
-				"000000000000147D"
-				"000000000000147F"
-				"0000000000001483"
-				"0000000000001481"
-				"000000000000147B"
-				"0000000000001439"
-				"000000000000143B"
-				"000000000000143D"
-				"0000000000001437"
-				"0000000000001435"
-				"0000000000001433"
-			]
-			hide: true
-			size: 2.0d
-			id: "7E935433AB750D06"
-		}
-		{
-			title: "Potato Buffet"
-			icon: "minecraft:baked_potato"
-			x: -17.5d
-			y: 10.0d
-			shape: "diamond"
-			description: ["You could stuff just about anything into a potato, and you have done all of it!"]
-			hide_dependency_lines: true
-			dependencies: [
-				"0000000000001463"
-				"0000000000001469"
-				"000000000000146F"
-				"0000000000001475"
-				"0000000000001477"
-				"0000000000001473"
-				"0000000000001471"
-				"000000000000146B"
-				"000000000000146D"
-				"0000000000001467"
-				"0000000000001465"
-			]
-			hide: true
-			size: 2.0d
-			id: "35FF942B58777250"
-		}
-		{
-			title: "Just Like Gram Made"
-			icon: {
-				id: "vanillafoodpantry:fish_pie_salmon"
-				Count: 1b
-				tag: {
-					"carrots:root": {
-						FoodPortion: 5
-						FoodTotal: 30
-						XFood: 1b
-					}
-				}
-			}
-			x: -4.0d
-			y: 26.0d
-			shape: "diamond"
-			description: ["Pies just like they used to make."]
-			hide_dependency_lines: true
-			dependencies: [
-				"00000000000013B5"
-				"00000000000013B1"
-				"00000000000013AD"
-				"00000000000013AF"
-				"00000000000013AB"
-				"00000000000013A3"
-				"00000000000013A5"
-				"00000000000013A7"
-				"00000000000013A9"
-				"00000000000013B3"
-			]
-			hide: true
-			size: 2.0d
-			id: "2FEBBB3C1BA1959D"
-		}
-		{
-			title: "Baker's Basics"
-			icon: "minecraft:bread"
-			x: -13.0d
-			y: 28.0d
-			shape: "diamond"
-			description: ["Time to open a bakery!"]
-			hide_dependency_lines: true
-			dependencies: [
-				"0000000000001409"
-				"0000000000001417"
-				"0000000000001419"
-				"0000000000001415"
-				"000000000000140D"
-				"0000000000001403"
-				"0000000000001405"
-				"000000000000140F"
-				"0000000000001411"
-				"0000000000001413"
-				"000000000000140B"
-				"0000000000001407"
-			]
-			hide: true
-			size: 2.0d
-			id: "5346C66B4B8BE004"
-		}
-		{
-			title: "Wacky Lunch and Salad Combo"
-			icon: "simplefarming:olive_tomato_salad"
-			x: -7.0d
-			y: 28.0d
-			shape: "diamond"
-			description: ["This is some wacky stuff with greens!"]
-			hide_dependency_lines: true
-			dependencies: [
-				"0000000000001431"
-				"0000000000001427"
-				"0000000000001425"
-				"0000000000001423"
-				"000000000000141B"
-				"0000000000001429"
-				"000000000000142B"
-				"000000000000141D"
-				"000000000000141F"
-				"000000000000142D"
-				"000000000000142F"
-				"0000000000001421"
-			]
-			hide: true
-			size: 2.0d
-			id: "0057D8CFA014B6F4"
-		}
-		{
-			title: "Soda Bar"
-			icon: {
-				id: "farmersdelight:melon_juice"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 2.0d
-			y: 28.0d
-			shape: "diamond"
-			description: ["Liquids that don't power machines, but they sure put pep in your step!"]
-			hide_dependency_lines: true
-			dependencies: [
-				"00000000000014D5"
-				"00000000000014CB"
-				"00000000000014CD"
-				"00000000000014C9"
-				"00000000000014C7"
-				"00000000000014CF"
-				"00000000000014C5"
-				"00000000000014B5"
-				"00000000000014B9"
-				"00000000000014BB"
-				"00000000000014C1"
-				"00000000000014D3"
-				"00000000000014BD"
-				"00000000000014BF"
-				"00000000000014B7"
-				"00000000000014A5"
-				"00000000000014A7"
-				"00000000000014A9"
-				"000000000000149D"
-				"00000000000014B3"
-				"000000000000149F"
-				"00000000000014A1"
-				"00000000000014A3"
-				"00000000000014AB"
-				"00000000000014AD"
-				"00000000000014AF"
-				"00000000000014B1"
-			]
-			hide: true
-			size: 2.0d
-			id: "3C4163BBEFFFDEC3"
 		}
 		{
 			title: "Soup, Salad, and Casserole"
 			icon: "simplefarming:spinach_quinoa_quiche"
-			x: 3.0d
-			y: 19.0d
+			x: 10.75d
+			y: 11.0d
 			shape: "diamond"
 			description: ["You have a straight up cafe menu with these things!"]
 			hide_dependency_lines: true
@@ -3371,8 +1293,8 @@
 		{
 			title: "Two Slices of Bread and Anything"
 			icon: "fins:crab_sandwich"
-			x: -4.0d
-			y: 19.0d
+			x: -15.75d
+			y: 20.5d
 			shape: "diamond"
 			description: ["Is a hotdog a sandwich?"]
 			hide_dependency_lines: true
@@ -3387,12 +1309,6 @@
 				"00000000000013CB"
 				"00000000000013EB"
 				"0000000000001401"
-				"000000000000144D"
-				"0000000000001449"
-				"0000000000001447"
-				"000000000000143F"
-				"0000000000001441"
-				"0000000000001443"
 			]
 			hide: true
 			size: 2.0d
@@ -3401,8 +1317,8 @@
 		{
 			title: "All Around the World"
 			icon: "simplefarming:chicken_curry"
-			x: -11.0d
-			y: 19.0d
+			x: -15.75d
+			y: 11.0d
 			shape: "diamond"
 			description: ["Some meals from all over the world!"]
 			hide_dependency_lines: true
@@ -3427,18 +1343,4578 @@
 			id: "2B31C2CFA31CBE7F"
 		}
 		{
-			x: -2.5d
-			y: 23.5d
+			x: -13.5d
+			y: 20.5d
 			id: "7B6256D75067AB36"
 			tasks: [{
 				id: "591E25A496BB6C23"
 				type: "item"
 				item: "fins:crab_sandwich"
 			}]
+			rewards: [
+				{
+					id: "2D20D954F62DE528"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "19E6B3A7876C9BE4"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3F417A62B289116E"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tea time!"
+			x: -7.25d
+			y: 26.0d
+			shape: "hexagon"
+			description: ["Each type of drink will provide useful benefit"]
+			dependencies: ["19A4385584636C45"]
+			size: 1.5d
+			id: "0960AD8BA5C09440"
+			tasks: [{
+				id: "50D9091CB3744BA2"
+				type: "item"
+				item: "farmersrespite:kettle"
+			}]
+			rewards: [
+				{
+					id: "5967B39F483EEE49"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5A48CD35022E76BA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "519D620D2E5D0FF5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 27.0d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "2F0545EAD838C471"
+			tasks: [{
+				id: "3EB7731A52CE54FC"
+				type: "item"
+				item: "minecraft:dandelion"
+			}]
+			rewards: [
+				{
+					id: "55CC37B00C819FFB"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2BD8154A25176F67"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 27.0d
+			shape: "hexagon"
+			dependencies: ["2F0545EAD838C471"]
+			id: "16371A1ABC7EDFEA"
+			tasks: [{
+				id: "2E6238D6CF976114"
+				type: "item"
+				item: "farmersrespite:dandelion_tea"
+			}]
+			rewards: [
+				{
+					id: "020FE5240944C916"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6F138EE456FAFEE3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 26.0d
+			shape: "hexagon"
+			dependencies: ["648BAB58990F8D8D"]
+			id: "1DB53B94CE26EC1F"
+			tasks: [{
+				id: "3E659ACCBBADA69C"
+				type: "item"
+				item: "farmersrespite:coffee"
+			}]
+			rewards: [
+				{
+					id: "765DC1016E48CFA6"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "678CD24F339DA825"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 26.0d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "648BAB58990F8D8D"
+			tasks: [{
+				id: "7EA689C816A1D777"
+				type: "item"
+				item: "farmersrespite:coffee_beans"
+			}]
+			rewards: [
+				{
+					id: "5EDBB3EB559DA391"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "083CC03DD10CCBA4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 25.0d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "6F7BFBA1ED098E26"
+			tasks: [{
+				id: "7123D9467555B8C5"
+				type: "item"
+				item: "farmersrespite:rose_hips"
+			}]
+			rewards: [
+				{
+					id: "604DAA1065469A0A"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "73D794BD014AD5A7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 25.0d
+			shape: "hexagon"
+			dependencies: ["6F7BFBA1ED098E26"]
+			id: "254EEEE83C8C2627"
+			tasks: [{
+				id: "6BE15097F46EA6F1"
+				type: "item"
+				item: "farmersrespite:rose_hip_tea"
+			}]
+			rewards: [
+				{
+					id: "517A7D86467C6382"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4D0D2974E2CE7F70"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 28.0d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "51DF5016D3B2B89A"
+			tasks: [{
+				id: "219B121B727AAD03"
+				type: "item"
+				item: "farmersrespite:green_tea_leaves"
+			}]
+			rewards: [
+				{
+					id: "05E0D8FEB504C313"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "618FA908F3BA2B3C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 28.0d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "4D9C56A8C025C187"
+			tasks: [{
+				id: "38125E4987DDB934"
+				type: "item"
+				item: "farmersrespite:yellow_tea_leaves"
+			}]
+			rewards: [
+				{
+					id: "20360452C1A299F8"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "7911F1F7AA4DE8A3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 29.5d
+			shape: "hexagon"
+			dependencies: ["4D9C56A8C025C187"]
+			id: "75E87C071232E880"
+			tasks: [{
+				id: "034EDFD628CE924F"
+				type: "item"
+				item: "farmersrespite:yellow_tea"
+			}]
+			rewards: [
+				{
+					id: "52BE19B6EB7F856B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4B3A4F5C9C9B2C56"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 29.5d
+			shape: "hexagon"
+			dependencies: ["51DF5016D3B2B89A"]
+			id: "1801CABEB4546A91"
+			tasks: [{
+				id: "614B7A3AFC24BDB3"
+				type: "item"
+				item: "farmersrespite:green_tea"
+			}]
+			rewards: [
+				{
+					id: "4C1756C0F3E688B1"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "729D0346C2B1A66A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 29.5d
+			shape: "hexagon"
+			dependencies: ["04CDF780E05C5C2D"]
+			id: "2DE60B5902EB6E77"
+			tasks: [{
+				id: "1E93E2F8E8763D04"
+				type: "item"
+				item: "farmersrespite:black_tea"
+			}]
+			rewards: [
+				{
+					id: "0EA9F484550BEAFD"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "14EBE219335BB49B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 28.0d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "04CDF780E05C5C2D"
+			tasks: [{
+				id: "55BC8F7744D082A2"
+				type: "item"
+				item: "farmersrespite:black_tea_leaves"
+			}]
+			rewards: [
+				{
+					id: "4226AFCB98055854"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "11E3B8B3A7FEA0C2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 29.5d
+			size: 1.5d
+			id: "32D6083223BDCD90"
+			tasks: [{
+				id: "2F29C6C3020F6B0A"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			rewards: [
+				{
+					id: "39474A18862183A9"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "549EF9529551BCFD"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "5036299CEDA9E672"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 22.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "29DA0B063A256624"
+			tasks: [{
+				id: "7125366AE483933C"
+				type: "item"
+				item: {
+					id: "nethers_delight:grilled_strider"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "140454D1C00E33BB"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "6A1341A09163EFC9"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 28.0d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "14D298CB7608D220"
+			tasks: [{
+				id: "7F4FE210B8C6E262"
+				type: "item"
+				item: {
+					id: "nethers_delight:strider_moss_stew"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1378DF7B84FC6E05"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "1317577DF96299DA"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 19.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "0ABFF67C8B76BE22"
+			tasks: [{
+				id: "33983829F5397FF6"
+				type: "item"
+				item: "farmersdelight:vegetable_noodles"
+			}]
+			rewards: [
+				{
+					id: "49ADE529FAB689F7"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "2B6BD02B1D94F6B1"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "496CB4B56D9D1A70"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 22.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "52E3B3D4F0915EEE"
+			tasks: [{
+				id: "0F6E9F9670CC0CEF"
+				type: "item"
+				item: "farmersdelight:ratatouille"
+			}]
+			rewards: [
+				{
+					id: "13C0B2E68E8C5156"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_mob_drops"
+						}
+					}
+				}
+				{
+					id: "3A9333DB329714CA"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "2E5C6BB9DEE36778"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 17.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "107EBB12815A4B23"
+			tasks: [{
+				id: "2BFC8F0FA8F7EECD"
+				type: "item"
+				item: "farmersdelight:squid_ink_pasta"
+			}]
+			rewards: [
+				{
+					id: "5BB5D95CE99B6B49"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_enchant"
+						}
+					}
+				}
+				{
+					id: "690F07AF99D39004"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "05AB6F24901B6A81"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 26.0d
+			shape: "hexagon"
+			description: [
+				"The Stove is a direct upgrade to the Campfire's cooking features, and a suitable heat source for the Cooking Pot."
+				""
+				"To add items to its grill, simply right-click the Stove when it has no objects blocking its top face. Stoves detect campfire recipes to cook, meaning they usually also take 30 seconds to fully prepare items. Stoves cannot be automated through item transferring blocks (e.g. Hoppers), but require no fuel to cook items, much like a Campfire."
+				""
+				"Stoves can hold six (6) items on its grill, and will gently pop cooked outputs above its surface, instead of throwing them around."
+				""
+				"Stoves can be put out using shovels or buckets of water, and reignited with Flint and Steel."
+			]
+			dependencies: ["32D6083223BDCD90"]
+			size: 1.5d
+			id: "19A4385584636C45"
+			tasks: [{
+				id: "6424A97C1667029E"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+			rewards: [
+				{
+					id: "389A061ADDDAF0F0"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "5BCBAE559000B7D9"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "352401029288CE2F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 17.5d
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "0F72242F67FB23EA"
+			tasks: [{
+				id: "63166586FF2EB727"
+				type: "item"
+				item: "farmersdelight:cabbage_rolls"
+			}]
 			rewards: [{
-				id: "2D20D954F62DE528"
+				id: "77F67130A5E9031C"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: -2.5d
+			y: 20.0d
+			shape: "hexagon"
+			description: [
+				"The Cooking Pot is a workstation where you can both prepare and store a large amount of meals. When placed above any suitable heat source (campfire, open flames, lava, a stove etc.), it will start bubbling, indicating it's ready to cook."
+				""
+				"You can put up to six ingredients inside a pot. If they match, the pot will start cooking them up into a meal. Most meals need a container to be served on, such as Bowls; the result slot will tell you which one to use. Simply add the container on the corresponding slot, or right-click the pot with it, to take a serving!"
+				""
+				"Meals tend to be quite large, so they don't stack up as high in your inventory. If you're not going to eat them all right away, you can just mine the whole pot and take it with you! Cooking Pots can hold 64 servings of any meal with a container, regardless of their maximum stack limit."
+			]
+			dependencies: ["19A4385584636C45"]
+			size: 2.0d
+			id: "18F8DADD01FEC9C2"
+			tasks: [{
+				id: "0023DC50F9911E64"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+			rewards: [
+				{
+					id: "503D2311941E6AB1"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "68FD5D4C45E8615D"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "488DA4E392176250"
+					type: "item"
+					item: "minecraft:slime_ball"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 20.5d
+			dependencies: ["619A52669514E850"]
+			id: "0D2CCDC7E72BE396"
+			tasks: [{
+				id: "0E1904B128889DB2"
+				type: "item"
+				item: "farmersdelight:shepherds_pie_block"
+			}]
+			rewards: [{
+				id: "2538FF1A0AAE6B7A"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 17.5d
+			description: ["When consumed, it will remove a single random negative effect from the player, keeping positive ones untouched. This provides a simple use for Cocoa Beans in difficult, risky trips."]
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "55AF1779E7AE28A7"
+			tasks: [{
+				id: "1AD4A3D0C7E69859"
+				type: "item"
+				item: "farmersdelight:hot_cocoa"
+			}]
+			rewards: [{
+				id: "2C0256ECBCC24E69"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 22.0d
+			dependencies: ["619A52669514E850"]
+			id: "54890B0F03CB39E0"
+			tasks: [{
+				id: "3236BFC947711D07"
+				type: "item"
+				item: {
+					id: "nethers_delight:stuffed_hoglin_item"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3A0A32B8A0447098"
+				type: "item"
+				item: "kubejs:iron_coin"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 23.5d
+			description: ["This combination allows your mount to be a lot more agile during travels. Since mounts eat a large volume of feed, the item does not need to be contained in a Bowl, saving some inventory space."]
+			dependencies: ["604569BC4764E258"]
+			id: "31E7C56ABBA6A7B2"
+			tasks: [{
+				id: "234786C946748E53"
+				type: "item"
+				item: "farmersdelight:horse_feed"
+			}]
+			rewards: [{
+				id: "715FB4A935E84804"
+				type: "item"
+				item: "aquaculture:lockbox"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 26.0d
+			shape: "hexagon"
+			subtitle: "The Cutting Board is a workstation where players can break down one item into many outputs, by using a valid tool on it."
+			description: [
+				"Items can be placed on the Cutting Board by using them on it. It always prefers receiving items from the off-hand, allowing players to hold their ingredients there while holding the tool in their main hand, processing the stack simply by holding the use button."
+				""
+				"When the correct tool is used on a valid item, it will be broken down into 1-4 different outputs, which are swiped sideways. Outputs always fly to the direction opposite to the Cutting Board's handle, allowing them to be collected by an item-capturing block, such as a Hopper or Basket. The tool receives 1 point of damage for each processed item."
+			]
+			dependencies: ["19A4385584636C45"]
+			size: 1.5d
+			id: "2FEC85DD348C7C1C"
+			tasks: [
+				{
+					id: "298229CF438BC9F7"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+				{
+					id: "372026CF74458EAB"
+					type: "item"
+					title: "Any #farmersdelight:tools/knives"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3459E88F5003EC26"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "5184C3629734A578"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "0C68AEE65E2BDBAE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 24.0d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "42E37B71FCF59BAD"
+			tasks: [{
+				id: "0D901A641F7D3407"
+				type: "item"
+				item: "farmersdelight:cake_slice"
+			}]
+			rewards: [
+				{
+					id: "1F91A0C59B4B0124"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "59ED475682CD395F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_monsters"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 28.0d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "2DA15FAD0E755A26"
+			tasks: [{
+				id: "5B012B73CE682726"
+				type: "item"
+				item: "farmersdelight:chocolate_pie_slice"
+			}]
+			rewards: [
+				{
+					id: "4359813A1EE6935E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_materials"
+						}
+					}
+				}
+				{
+					id: "20A34E28986CDBA9"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 23.5d
+			description: ["This combination allows wolves to catch up a lot more easily with you or nimble opponents, as well as last longer in battle."]
+			dependencies: ["604569BC4764E258"]
+			id: "3693C3F67BD59401"
+			tasks: [{
+				id: "7C797806CAA4F4F8"
+				type: "item"
+				item: "farmersdelight:dog_food"
+			}]
+			rewards: [{
+				id: "3DA70B6B3EF25A10"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 22.0d
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "604569BC4764E258"
+			tasks: [{
+				id: "567B754D8FE1DD06"
+				type: "checkmark"
+				title: "Pet Foods"
+			}]
+			rewards: [{
+				id: "09498BF35D65A18A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 22.0d
+			subtitle: "Feasts are very large meals, which can be placed as a block to provide multiple servings to players."
+			description: [
+				"Feasts are not edible directly as an item; they must be placed down as a block first. When placed, players can use (right-click) them with Bowls to serve themselves with a consumable portion."
+				""
+				"The existing feasts in Farmer's Delight provide 4 servings in total. Plated feasts will also leave behind leftovers in the form of a dirty plate; right-clicking or mining it will retrieve the original Bowl, and any bones or food scraps left behind."
+			]
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "619A52669514E850"
+			tasks: [{
+				id: "251874AE085FBC47"
+				type: "checkmark"
+				title: "Feasts"
+			}]
+			rewards: [{
+				id: "4D3E45D3809A8E8A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 23.5d
+			dependencies: ["619A52669514E850"]
+			id: "7B635770381DDE91"
+			tasks: [{
+				id: "7327769944FE4209"
+				type: "item"
+				item: "farmersdelight:stuffed_pumpkin_block"
+			}]
+			rewards: [{
+				id: "1E98EA5E0DB56007"
+				type: "item"
+				item: "kubejs:iron_coin"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 20.5d
+			dependencies: ["619A52669514E850"]
+			id: "41751B25A229932D"
+			tasks: [{
+				id: "5F9316E69617978D"
+				type: "item"
+				item: "farmersdelight:honey_glazed_ham_block"
+			}]
+			rewards: [{
+				id: "3F642B4DB4F12F1C"
+				type: "item"
+				item: "kubejs:iron_coin"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 23.5d
+			dependencies: ["619A52669514E850"]
+			id: "0F27533115C5827C"
+			tasks: [{
+				id: "380E7230888F381C"
+				type: "item"
+				item: "farmersdelight:roast_chicken_block"
+			}]
+			rewards: [{
+				id: "0F6AAD95E2FA0B82"
+				type: "item"
+				item: "kubejs:iron_coin"
+			}]
+		}
+		{
+			x: -15.0d
+			y: 31.0d
+			id: "54B41A4C99E43EA8"
+			tasks: [{
+				id: "77A0F22C56AB0F52"
+				type: "item"
+				item: {
+					id: "simplefarming:apple_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F7CB70EF4856CB0"
 				type: "ftbmoney:money"
 				ftb_money: 5L
+			}]
+		}
+		{
+			x: -16.5d
+			y: 32.5d
+			id: "79409352388AE94F"
+			tasks: [{
+				id: "4322757A80E56345"
+				type: "item"
+				item: {
+					id: "simplefarming:apricot_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A11DDF029894613"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "50AE1D5E73D5D938"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 18.5d
+			id: "072B5E664C5AD2C4"
+			tasks: [{
+				id: "7753BE4DD47F702B"
+				type: "item"
+				item: {
+					id: "simplefarming:baked_sweet_potato"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "62E07B9BE1565AC9"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 18.5d
+			id: "39F32347B584D4B5"
+			tasks: [{
+				id: "0F0236DA340963EB"
+				type: "item"
+				item: {
+					id: "simplefarming:carrot_soup"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C1C37DE2EAD3177"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 24.0d
+			id: "01C957BCE6E793AD"
+			tasks: [{
+				id: "72FABF1EF8B65BAF"
+				type: "item"
+				item: {
+					id: "simplefarming:candy_cane"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4729451F440581C4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 18.5d
+			id: "0D99CAA135DB8470"
+			tasks: [{
+				id: "4111C4C7A2E6A8E7"
+				type: "item"
+				item: {
+					id: "simplefarming:baked_yam"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "365FFF39B6F67E4A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "540D5A1B9E7E860F"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 20.5d
+			id: "050F040D0A3F9990"
+			tasks: [{
+				id: "6CA00291CAF97956"
+				type: "item"
+				item: {
+					id: "simplefarming:barley_bread"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "16D39F43EF83CFE4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -18.0d
+			y: 25.0d
+			id: "3F26A8C19B7718B5"
+			tasks: [{
+				id: "645D609C25274421"
+				type: "item"
+				item: {
+					id: "simplefarming:banana_bread"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "10534B0A13E98EAC"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "586989A0F1CBDE46"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 24.0d
+			id: "4F609B748D56F091"
+			tasks: [{
+				id: "382EBF225C96E0B1"
+				type: "item"
+				item: {
+					id: "simplefarming:candy"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "172311936361F9B8"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 17.0d
+			id: "31A57F82F70289F3"
+			tasks: [{
+				id: "598E3CC1106C02D1"
+				type: "item"
+				item: {
+					id: "simplefarming:broccoli_cheese_soup"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "615E0518E48CA9B9"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -18.0d
+			y: 31.0d
+			id: "2541357FE56BE410"
+			tasks: [{
+				id: "36D28EBAC388064A"
+				type: "item"
+				item: {
+					id: "simplefarming:blueberry_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "037F0922AB35BA74"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5947D38F84CF3F45"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 31.0d
+			id: "6F687C34400A863B"
+			tasks: [{
+				id: "0E4F1246F4FC975E"
+				type: "item"
+				item: {
+					id: "simplefarming:blackberry_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "00F136565D91FF36"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 18.5d
+			id: "18CEF921E4E8140F"
+			tasks: [{
+				id: "3775FA7A043084FE"
+				type: "item"
+				item: {
+					id: "simplefarming:borscht"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2637FFAE5A2E8067"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 9.5d
+			id: "34A821260D527065"
+			tasks: [{
+				id: "5B3C556CF92C5E56"
+				type: "item"
+				item: {
+					id: "simplefarming:cooked_horse_meat"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2FF2DA7A8CF9078C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "12DCE6D59EBA61D8"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 25.5d
+			id: "5EB023AE339F29EA"
+			tasks: [{
+				id: "3E5A689E62EADACF"
+				type: "item"
+				item: {
+					id: "simplefarming:chocolate"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "309B0F27865343C4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -18.0d
+			y: 29.5d
+			id: "7731D6DE42EA50F3"
+			tasks: [{
+				id: "7383BA7B34FF616D"
+				type: "item"
+				item: {
+					id: "simplefarming:cherry_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "35DB6E2FFB331590"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 27.0d
+			id: "48FCDE7EE87CD5E0"
+			tasks: [{
+				id: "6E44C5C0DE5C6B89"
+				type: "item"
+				item: {
+					id: "simplefarming:jaffa_cake"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3FDF6784D93109AA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 27.0d
+			id: "243BA83A15C681F7"
+			tasks: [{
+				id: "3838567EE0976ABE"
+				type: "item"
+				item: {
+					id: "simplefarming:ice_cream_sundae"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CCF89A6AD9E7E45"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 18.5d
+			id: "349CAADF477023AB"
+			tasks: [{
+				id: "5008DDA0599E264A"
+				type: "item"
+				item: {
+					id: "simplefarming:golden_habanero"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "55CC8D67068CC447"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 25.5d
+			id: "4427C8DD4E3B7E3B"
+			tasks: [{
+				id: "1A9E871DA8D4745B"
+				type: "item"
+				item: {
+					id: "simplefarming:fruit_salad"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1EC5F55F724CED43"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3F48DBF55F6A0F6A"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 9.5d
+			id: "2C5FED59168CE890"
+			tasks: [{
+				id: "60691051DEA91E40"
+				type: "item"
+				item: {
+					id: "simplefarming:fried_calamari"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6CBBBFDE365C4113"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "33C023C1A9E73A75"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 17.0d
+			id: "7C9BEB415E9E0C04"
+			tasks: [{
+				id: "4912EDA35FE50459"
+				type: "item"
+				item: {
+					id: "simplefarming:cucumber_soup"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1DAD01518BD65C2E"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4D5F6F0DFCC54FF1"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 22.0d
+			id: "5987E4780A16B113"
+			tasks: [{
+				id: "14017BCAB392CD39"
+				type: "item"
+				item: {
+					id: "simplefarming:cornbread"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "32858CE887158F5F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -16.5d
+			y: 34.0d
+			id: "050E141673D73CB9"
+			tasks: [{
+				id: "0DDF815F1C7DA6CE"
+				type: "item"
+				item: {
+					id: "simplefarming:strawberry_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "26F58EAF68AEC29D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2B108B8075634C14"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 28.5d
+			id: "2C941B16B7591F67"
+			tasks: [{
+				id: "26EF634FD9E210EB"
+				type: "item"
+				item: {
+					id: "simplefarming:pancakes"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "318CB3EECBC41D70"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 17.0d
+			id: "21CB8D4B957F8ABE"
+			tasks: [{
+				id: "4475E903C0040DF2"
+				type: "item"
+				item: {
+					id: "simplefarming:onion_soup"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0511B1D32A8DBFF7"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 17.0d
+			id: "395B356BA9B8D5FD"
+			tasks: [{
+				id: "6C76527C9E3C4A60"
+				type: "item"
+				item: {
+					id: "simplefarming:olive_tomato_salad"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A3A68EB15BF1047"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -16.5d
+			y: 22.0d
+			id: "6D83714307A806DE"
+			tasks: [{
+				id: "4F78BE580A0998E9"
+				type: "item"
+				item: {
+					id: "simplefarming:oat_bread"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1D16F97277996A42"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0068DF4FB9AABCD7"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 20.0d
+			id: "24281696D537B387"
+			tasks: [{
+				id: "5CE00815B5A1FF6D"
+				type: "item"
+				item: {
+					id: "simplefarming:mushroom_barley"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "46C80EB24126CEEB"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 25.5d
+			id: "1E10C0D99E06B5C8"
+			tasks: [{
+				id: "2638E590488A64E1"
+				type: "item"
+				item: {
+					id: "simplefarming:marshmallow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "55585B39B4A6BE9A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "127EC03ACB457BA7"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 17.0d
+			id: "0658A88B7D736F19"
+			tasks: [{
+				id: "698AA6D3EDB34C34"
+				type: "item"
+				item: {
+					id: "simplefarming:mac_and_cheese"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "51C12AADDF4B1F8B"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 17.0d
+			id: "6D2DE14EB2051FB7"
+			tasks: [{
+				id: "18C98E73F1FE3CC3"
+				type: "item"
+				item: {
+					id: "simplefarming:pizza"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0C29FCB0C4E3DEC3"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "60E37C8BA8B31755"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 34.0d
+			id: "27E2ECE5E9D6658D"
+			tasks: [{
+				id: "3FE26364578746CA"
+				type: "item"
+				item: {
+					id: "simplefarming:pear_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "68090CC174B19A49"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -15.0d
+			y: 32.5d
+			id: "51CA3856F871D1B0"
+			tasks: [{
+				id: "57A7B95282D97C25"
+				type: "item"
+				item: {
+					id: "simplefarming:peanut_butter_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2159EC318DB11F0D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0488D68DB1D1CBA7"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 27.0d
+			id: "0F870DD425DFF7ED"
+			tasks: [{
+				id: "342C2C0895C85B24"
+				type: "item"
+				item: {
+					id: "simplefarming:peanut_butter_cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0214AB8D5828F5A0"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4DA25E6DD9368695"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 28.5d
+			id: "146DAEBC4D8AD86D"
+			tasks: [{
+				id: "153A30FA9AE71EC1"
+				type: "item"
+				item: {
+					id: "simplefarming:pbj"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "204156FF46C37725"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -18.0d
+			y: 34.0d
+			id: "678CD4793D2BA3EF"
+			tasks: [{
+				id: "18A2D7226D7FD472"
+				type: "item"
+				item: {
+					id: "simplefarming:plum_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "76A4E70FC887AD7B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "11B297A750997402"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 28.5d
+			id: "4483EE27938460A1"
+			tasks: [{
+				id: "15E1C33F4FF2803A"
+				type: "item"
+				item: {
+					id: "simplefarming:popcorn"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2747B03E727EC1A3"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "62B0683EA4D3BE75"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 17.0d
+			id: "6B04024711D4D83F"
+			tasks: [{
+				id: "57C438B6774241DF"
+				type: "item"
+				item: {
+					id: "simplefarming:sushi"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3958A374049BD58A"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 18.5d
+			id: "51FB4E213418A620"
+			tasks: [{
+				id: "04CC7D88FDE1411C"
+				type: "item"
+				item: {
+					id: "simplefarming:vegetable_medley"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5E5585E4D597388B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "448D9334FB0D96B2"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 34.0d
+			id: "5C7BFEDA139EEE2A"
+			tasks: [{
+				id: "28486A230862AD23"
+				type: "item"
+				item: {
+					id: "simplefarming:raspberry_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "09A8E04952937D20"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 27.0d
+			id: "4B6F5583F2A8D75A"
+			tasks: [{
+				id: "12A288CD367ACD33"
+				type: "item"
+				item: {
+					id: "simplefarming:raisins"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5703B16E028C8FF8"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 18.5d
+			id: "58A3F1C12109C2CD"
+			tasks: [{
+				id: "5CC716F60AEC6DC3"
+				type: "item"
+				item: {
+					id: "simplefarming:radish_soup"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6C169010E42D147E"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "116D2AFF6B3BD5F0"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 9.5d
+			id: "258012F596A22703"
+			tasks: [{
+				id: "158DC43996DAFDCD"
+				type: "item"
+				item: {
+					id: "simplefarming:quinoa_salad"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3AC8CC020A373BAE"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 20.0d
+			id: "60CB2DC710998BD1"
+			tasks: [{
+				id: "6F1A524D91500B5E"
+				type: "item"
+				item: {
+					id: "simplefarming:pumpkin_soup"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2C20F7F48EE85BB0"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2AD7D2D6D4FB8046"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 9.5d
+			id: "222B435FEAC0455B"
+			tasks: [{
+				id: "763D7412F053EF81"
+				type: "item"
+				item: {
+					id: "simplefarming:potato_knish"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "609CCB3ACA9CBA5F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -18.0d
+			y: 18.5d
+			id: "7036F5D047A24BE6"
+			tasks: [{
+				id: "1D1F2547E77974DB"
+				type: "item"
+				item: {
+					id: "simplefarming:tofu"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "14333E473F39A8D2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2D8A5EEF04E19DCA"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Cakes and Pies"
+			icon: {
+				id: "simplefarming:strawberry_pie"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -15.75d
+			y: 29.5d
+			shape: "diamond"
+			size: 2.0d
+			id: "7B4567B19E7932E0"
+		}
+		{
+			x: -13.5d
+			y: 29.5d
+			id: "0CB5AC1CB0CC5D85"
+			tasks: [{
+				id: "3BB6067A53AA89C4"
+				type: "item"
+				item: {
+					id: "farmersrespite:rose_hip_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E5FA750E65AB70F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 31.0d
+			id: "51966AB793757903"
+			tasks: [{
+				id: "38F73D477240FF5D"
+				type: "item"
+				item: {
+					id: "farmersdelight:chocolate_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3F305BE38512AC0B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3F518BACBE07C899"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 32.5d
+			id: "3DDAFFAABDD6DC30"
+			tasks: [{
+				id: "53D1B049BBCCC59C"
+				type: "item"
+				item: {
+					id: "farmersdelight:apple_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "48B907CB16D53DCB"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -18.0d
+			y: 32.5d
+			id: "6BB3218F026F4636"
+			tasks: [{
+				id: "0362B560D5543C00"
+				type: "item"
+				item: {
+					id: "ars_nouveau:source_berry_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CEBE0CA710C835C"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			title: "Sweets n` Snacks"
+			icon: {
+				id: "supplementaries:candy"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 10.75d
+			y: 22.5d
+			shape: "diamond"
+			size: 2.0d
+			id: "48E60CAF8132889F"
+		}
+		{
+			x: 13.0d
+			y: 28.5d
+			id: "214B03EEEAD54072"
+			tasks: [{
+				id: "5DD5C5A2DA143697"
+				type: "item"
+				item: {
+					id: "largemeals:chocolate_popsicle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B09C24217E9CAC1"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 25.5d
+			id: "54318415D20D737C"
+			tasks: [{
+				id: "3D0BFFCF88FE4507"
+				type: "item"
+				item: {
+					id: "largemeals:chocolate_pudding"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "14D9319E7135519F"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 30.0d
+			id: "78FC545957A65507"
+			tasks: [{
+				id: "345EB5DB89F14C3A"
+				type: "item"
+				item: {
+					id: "largemeals:chorus_fruit_popsicle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "47AE9D96A33C05CE"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 19.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "650D31A3982255CD"
+			tasks: [{
+				id: "012E4757E1ABB5DD"
+				type: "item"
+				item: {
+					id: "largemeals:cod_deluxe"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6F4B000CBD299325"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "79273EA89EEB7811"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 19.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "5386C2B2AA07B16F"
+			tasks: [{
+				id: "69B7F53E32D2F152"
+				type: "item"
+				item: {
+					id: "largemeals:cod_surprise"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "17B666711991D5EC"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "65B391547A39882D"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 19.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "52B46477A45BA080"
+			tasks: [{
+				id: "451CADDE061A4369"
+				type: "item"
+				item: {
+					id: "largemeals:hearty_lunch"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "323207B66A992EFE"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "699A6DFA633C1302"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 22.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "663AD475C9745103"
+			tasks: [{
+				id: "1ABA502C61DA5E07"
+				type: "item"
+				item: {
+					id: "largemeals:milk_chicken"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1AA94574FCC12F65"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3AEC0B052E8AB0BF"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 17.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "37C208F6DAEC3BAB"
+			tasks: [{
+				id: "6E36DA581D6CEFC5"
+				type: "item"
+				item: {
+					id: "largemeals:red_plate"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "60EFC68734840694"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "64CA03DC3F8B365D"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 20.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "67B1591C2285D247"
+			tasks: [{
+				id: "0749F0F2C11283ED"
+				type: "item"
+				item: {
+					id: "largemeals:pufferfish_broth"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "11CFA2CA5477129B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1CBE2488E8C6F6AC"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 19.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "20845AED3B1CE297"
+			tasks: [{
+				id: "1500EE0626EA428E"
+				type: "item"
+				item: {
+					id: "largemeals:omurice_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "573609FA8B430603"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4E1059FF3BDE09C9"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 20.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "339303086D793402"
+			tasks: [{
+				id: "3E67632C1CF855DA"
+				type: "item"
+				item: {
+					id: "largemeals:rice_pudding"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A5C51EE80AB287A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3BB102FAECABD653"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 31.5d
+			id: "311D1335E7C0B783"
+			tasks: [{
+				id: "2DA4B13125574791"
+				type: "item"
+				item: {
+					id: "twilightdelight:torchberry_cookie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "77B34F03B56CA323"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "393CBDF4C65A475E"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 30.0d
+			id: "23AC942268A6CF37"
+			tasks: [{
+				id: "7D61D157A2291A8F"
+				type: "item"
+				item: {
+					id: "simpledelights:mango_sorbet"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7705CA20196463FE"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 30.0d
+			id: "237B2FE78EF904FE"
+			tasks: [{
+				id: "7E149AAE23152CCB"
+				type: "item"
+				item: {
+					id: "simpledelights:summer_salad"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "69ACB8A2D59FCA9B"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 14.0d
+			id: "227F219EAB147CA1"
+			tasks: [{
+				id: "437997F16A45CF2C"
+				type: "item"
+				item: {
+					id: "twilightdelight:thousand_plant_stew"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2BEE70313F9F0635"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 30.0d
+			id: "2D33778A644A0F89"
+			tasks: [{
+				id: "39C7D6E2F1562010"
+				type: "item"
+				item: {
+					id: "twilightdelight:aurora_ice_cream"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "35E6F44B0CCB698C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7051CDD0E06DF7A0"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 20.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "48C15A3176DCB7C1"
+			tasks: [{
+				id: "7419EE28CD84655F"
+				type: "item"
+				item: {
+					id: "twilightdelight:grilled_ghast"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5B580FC92B12F1BF"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "47E31FC748463660"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 19.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "4DADC773E68B9FF1"
+			tasks: [{
+				id: "26390289B2188C24"
+				type: "item"
+				item: {
+					id: "simpledelights:sweet_potato_casserole"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4D54BB209ED73DD8"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6571525FCBD802B7"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 17.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "58249ACFBE99C6C9"
+			tasks: [{
+				id: "0D76F417E33D4842"
+				type: "item"
+				item: {
+					id: "simpledelights:stir_fry"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5124DAC0FA1ABB26"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "61794F32601A954E"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 19.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "29A08D9D4F6389D1"
+			tasks: [{
+				id: "674068B0EAB9B27F"
+				type: "item"
+				item: {
+					id: "simpledelights:dubu_jjigae"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "333B4065793CA27E"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7932A32C3DCE8E62"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 22.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "4E08AB0930BAD5E9"
+			tasks: [{
+				id: "18060E05EAA2FE0D"
+				type: "item"
+				item: {
+					id: "simpledelights:mapo_tofu"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "55224318F341F72A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "12E3D3185E7BD93A"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 20.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "505A720813076ABB"
+			tasks: [{
+				id: "0E2799FD7067BB65"
+				type: "item"
+				item: {
+					id: "simpledelights:cholent"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7193F4404F6944B2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3BBD1FC83046BE25"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 20.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "19DF1A17F2193B07"
+			tasks: [{
+				id: "36DF228E63296F3A"
+				type: "item"
+				item: {
+					id: "simpledelights:berry_kompot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5D76FD7FF3E14B79"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6C8D0272E87A0EF5"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 20.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "22DC7E78A4D96239"
+			tasks: [{
+				id: "209EF67D13BF67A9"
+				type: "item"
+				item: {
+					id: "twilightdelight:thorn_rose_tea"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4F77429F13DA01BB"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "46B4690E488BA45B"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 17.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "6B54711A2195764A"
+			tasks: [{
+				id: "1C54164648190719"
+				type: "item"
+				item: {
+					id: "twilightdelight:glow_venison_rib_with_pasta"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "586B17401A77714B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1F8C9C39B9BFF609"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 20.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "50349536A63FCF65"
+			tasks: [{
+				id: "2932E0AA31358B8C"
+				type: "item"
+				item: {
+					id: "twilightdelight:fried_insect"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "68F41706D7BD8624"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1511994E48771A5C"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 15.5d
+			id: "4D068D12E4D249A2"
+			tasks: [{
+				id: "63B9CA0BAAC66B22"
+				type: "item"
+				item: {
+					id: "twilightdelight:glowstew"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "39B48D1D509207F1"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 24.0d
+			id: "0A8E36C715B185AD"
+			tasks: [{
+				id: "27ABCA67D5B4759B"
+				type: "item"
+				item: {
+					id: "simpledelights:orange_sorbet"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "600FB215E34910BA"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0FC01D66608F4EA9"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 17.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "5D8DA988F95AD6B9"
+			tasks: [{
+				id: "5254FF6650724BE7"
+				type: "item"
+				item: {
+					id: "simpledelights:orange_chicken"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "16916660F5503D1B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7F16345CEEAB95ED"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 17.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "10754330D22E9BB3"
+			tasks: [{
+				id: "1F4636B075E50E13"
+				type: "item"
+				item: {
+					id: "simpledelights:pear_bisque"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1FC2DC3519FCBC2E"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2223CDF4C28B289E"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 31.5d
+			id: "4BC889F892EA77BB"
+			tasks: [{
+				id: "6587466B817D1126"
+				type: "item"
+				item: {
+					id: "farmersdelight:melon_popsicle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5E3A11294C95467E"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 11.0d
+			id: "487C85DE86835C37"
+			tasks: [{
+				id: "13C7900C408ECEA6"
+				type: "item"
+				item: {
+					id: "farmersdelight:mixed_salad"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0AE04C364D1D6560"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 12.5d
+			id: "1D6F954F8B07908B"
+			tasks: [{
+				id: "5249746DF274DE99"
+				type: "item"
+				item: {
+					id: "farmersdelight:nether_salad"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5194D2117FCEA228"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "64AF36CA16169045"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 19.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "3B606D7BE16FE689"
+			tasks: [{
+				id: "619FF57A9A931A30"
+				type: "item"
+				item: {
+					id: "farmersdelight:dumplings"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "037F793B670F2022"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "689565DB2C620BA2"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 12.5d
+			id: "22D1F316494B26B1"
+			tasks: [{
+				id: "2030D03E9D171B15"
+				type: "item"
+				item: {
+					id: "farmersdelight:egg_sandwich"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C9D0DC9371751DC"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -18.0d
+			y: 14.0d
+			id: "653C52D47ECB8DF0"
+			tasks: [{
+				id: "728420445B586C64"
+				type: "item"
+				item: {
+					id: "farmersdelight:chicken_sandwich"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "021B0E858E6A0D32"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -18.0d
+			y: 11.0d
+			id: "66F1A8DD67EEF04D"
+			tasks: [{
+				id: "28E300ED87960229"
+				type: "item"
+				item: {
+					id: "farmersdelight:hamburger"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1FDAF70C8B571252"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1FDC94A1E84AC920"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 15.5d
+			id: "256D2A71D4843973"
+			tasks: [{
+				id: "17A4F61901B11897"
+				type: "item"
+				item: {
+					id: "farmersdelight:bacon_sandwich"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1B9CE4033AF40B0B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "192EAC3EE02CF30E"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 17.0d
+			id: "7307DFD39B47ED9E"
+			tasks: [{
+				id: "0658C5A9C59E6485"
+				type: "item"
+				item: {
+					id: "farmersdelight:mutton_wrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "356E8D8D7B97B0E5"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 22.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "6DB1449D13DC57A8"
+			tasks: [{
+				id: "77A418CF6CF310E1"
+				type: "item"
+				item: {
+					id: "farmersdelight:noodle_soup"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4C00D240F19F9B53"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6566662EE83297CA"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 22.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "1DC25494C555FB0E"
+			tasks: [{
+				id: "3AD777222689FD7A"
+				type: "item"
+				item: {
+					id: "farmersdelight:beef_stew"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A2E2D056A1506F4"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1DD5DBD2074AF6EE"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 20.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "4C77D6544A5EBFBE"
+			tasks: [{
+				id: "7472676B4AB71200"
+				type: "item"
+				item: {
+					id: "farmersdelight:chicken_soup"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2435B15D70B3EDDE"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "542C94DBB50E3B95"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 19.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "7173698E4CE426AB"
+			tasks: [{
+				id: "60B495F7684C5C51"
+				type: "item"
+				item: {
+					id: "farmersdelight:vegetable_soup"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "63D75972EA033EAE"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6D93D86B79097413"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 19.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "1ED1C240CC210408"
+			tasks: [{
+				id: "5565583163A9339D"
+				type: "item"
+				item: {
+					id: "farmersdelight:fish_stew"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0BA90C78308ADE2D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3549FF187E34A6D7"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 17.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "14F51B259CC408A7"
+			tasks: [{
+				id: "0EA853F7A7C7EDCA"
+				type: "item"
+				item: {
+					id: "farmersdelight:fried_rice"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "460A00390657F86A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "419D7EC174DB3C62"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 17.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "4D3AC909C682604C"
+			tasks: [{
+				id: "5CAD063A123F2DA0"
+				type: "item"
+				item: {
+					id: "farmersdelight:pumpkin_soup"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57A930973C68E287"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3740C8C84624F255"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 17.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "0FD7F97C8F8F0842"
+			tasks: [{
+				id: "0300531A08154C6B"
+				type: "item"
+				item: {
+					id: "farmersdelight:baked_cod_stew"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3633D429F35BA280"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "35AA00C561A5B060"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 17.5d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "433ECD17C3BBF31B"
+			tasks: [{
+				id: "7DCB04C40CB259FD"
+				type: "item"
+				item: {
+					id: "farmersdelight:pasta_with_mutton_chop"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "71C407E61862BC65"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "465F0AC9ECE22828"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 22.0d
+			hide_dependency_lines: true
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "652363EEE2F4B147"
+			tasks: [{
+				id: "026532AB9C563D3A"
+				type: "item"
+				item: {
+					id: "farmersdelight:pasta_with_meatballs"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5B4E0DFEB76C1F97"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6C76ADDDFFD6A94B"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 25.0d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "0FCA2F0D2706C0A2"
+			tasks: [{
+				id: "14F1DAE3BE3F55E9"
+				type: "item"
+				item: {
+					id: "abnormals_delight:cooked_pike_slice"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4409CB5EEFD1DC60"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 26.0d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "7B6E4B6A6891C672"
+			tasks: [{
+				id: "7F5F2DC2DCDFF631"
+				type: "item"
+				item: {
+					id: "abnormals_delight:cooked_perch_slice"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A0DE67F5B8FD4F0"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 27.0d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "072006B3051E7B94"
+			tasks: [{
+				id: "779EBB14110AA07F"
+				type: "item"
+				item: {
+					id: "twilightdelight:cooked_meef_slice"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "25155155675311E4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 24.0d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "0BD65BC691CD367A"
+			tasks: [{
+				id: "09FD10D68527BF2A"
+				type: "item"
+				item: {
+					id: "simplefarming:cheese_slice"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1CCF14A9443F9D40"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 33.0d
+			id: "51D9D454F477F99B"
+			tasks: [{
+				id: "67111EF7493423C6"
+				type: "item"
+				item: {
+					id: "simplefarming:birthday_cake"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7108F4E05014A4A4"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0E0E933A5211D16E"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 33.0d
+			id: "10CD2EE5AA1AD048"
+			tasks: [{
+				id: "076D2DA2CFDCD750"
+				type: "item"
+				item: {
+					id: "simpledelights:creamcicle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4154B9B55D6AC3E6"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 31.5d
+			id: "0F5F43B33129C77D"
+			tasks: [{
+				id: "4BCCB5377EE0455A"
+				type: "item"
+				item: {
+					id: "simpledelights:chocolate_strawberries"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "489F229DDA7FAAC0"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 31.5d
+			id: "507D57BE334A2CC5"
+			tasks: [{
+				id: "4A4828E27529859B"
+				type: "item"
+				item: {
+					id: "simpledelights:strawberry_shortcake"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "54948E1E026CB811"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 33.0d
+			id: "35C62C86C0900DB5"
+			tasks: [{
+				id: "7E4278C759195DED"
+				type: "item"
+				item: {
+					id: "simpledelights:plum_pudding"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "035346D27AEB3C10"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3F25EF0AD7F680E2"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 33.0d
+			id: "2DF5BF280D3577A7"
+			tasks: [{
+				id: "1C4DE6CC1853E8E0"
+				type: "item"
+				item: {
+					id: "simplefarming:chocolate_cake"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6867FFD6163A5B44"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "09577D21DF70CED5"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			id: "06332CC6B943F3D1"
+			tasks: [{
+				id: "323C880739DF373F"
+				type: "item"
+				item: {
+					id: "supplementaries:jar"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 	]
