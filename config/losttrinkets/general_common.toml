@@ -40,7 +40,7 @@ nonRandom = []
 
 [Farming_Unlocks]
 	#Set to false to disable unlocking trinkets from farming.
-	farmingUnlockEnabled = true
+	farmingUnlockEnabled = false
 	#Rarity of unlocking a trinket from farming. (Greater number = more rare)
 	#Range: 2 ~ 100000
 	farming = 340
@@ -48,7 +48,7 @@ nonRandom = []
 [Ores_Mining_Unlocks]
 	#Rarity of unlocking a trinket from mining ores. (Greater number = more rare)
 	#Range: 2 ~ 100000
-	oresMining = 220
+	oresMining = 370
 	#Set to false to disable unlocking trinkets from mining ores.
 	oresMiningUnlockEnabled = true
 
@@ -57,7 +57,7 @@ nonRandom = []
 	#Range: 2 ~ 100000
 	trading = 80
 	#Set to false to disable unlocking trinkets from trading.
-	tradingUnlockEnabled = true
+	tradingUnlockEnabled = false
 
 [Wood_Cutting_Unlocks]
 	#Rarity of unlocking a trinket from cutting trees. (Greater number = more rare)
