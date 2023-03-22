@@ -19,11 +19,11 @@
 	#+--------------------------------------------------------------------------------------------------+
 	#Fort: Minimum spread dist
 	#Range: 1 ~ 256
-	fortMinDist = 110
+	fortMinDist = 255
 	#+--------------------------------------------------------------------------------------------------+
 	#Fort: Maximum spread dist
 	#Range: 1 ~ 256
-	fortMaxDist = 170
+	fortMaxDist = 256
 	#+--------------------------------------------------------------------------------------------------+
 	#Mine: Minimum spread dist
 	#Range: 1 ~ 256
@@ -35,11 +35,11 @@
 	#+--------------------------------------------------------------------------------------------------+
 	#Tower: Minimum spread dist
 	#Range: 1 ~ 256
-	towerMinDist = 115
+	towerMinDist = 255
 	#+--------------------------------------------------------------------------------------------------+
 	#Tower: Maximum spread dist
 	#Range: 1 ~ 256
-	towerMaxDist = 195
+	towerMaxDist = 256
 	#+--------------------------------------------------------------------------------------------------+
 	#Castle: Minimum spread dist
 	#Range: 1 ~ 256
@@ -58,13 +58,13 @@
 	centre_categories = ["desert", "extreme_hills", "jungle", "mesa", "mushroom", "none", "savanna", "swamp", "taiga"]
 	#+--------------------------------------------------------------------------------------------------+
 	#Biome Categories for Illager Fort to spawn in
-	fort_categories = ["desert", "forest", "jungle", "mesa", "mushroom", "none", "plains", "savanna"]
+	fort_categories = ["mushroom"]
 	#+--------------------------------------------------------------------------------------------------+
 	#Biome Categories for Illager Mine to spawn in
 	mine_categories = ["desert", "mesa", "mushroom", "none", "savanna"]
 	#+--------------------------------------------------------------------------------------------------+
 	#Biome Categories for Illager Tower to spawn in
-	tower_categories = ["forest", "none", "plains", "swamp"]
+	tower_categories = ["mushroom"]
 	#+--------------------------------------------------------------------------------------------------+
 	#Biome Categories for Ice Castle to spawn in
 	ice_castle_categories = ["icy", "taiga"]

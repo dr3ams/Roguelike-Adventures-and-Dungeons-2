@@ -1,0 +1,48 @@
+
+#Common settings
+[common]
+	#The maximum number of blocks that can be excavated at once
+	#Range: > 1
+	Limit = 64
+	#How many blocks per tick can be excavated
+	#Range: > 1
+	Speed = 64
+	#How far from the origin an excavation can travel
+	#Range: > 1
+	Range = 16
+	#Amount of exhaustion per block excavated
+	#Range: 0.0 ~ 1.7976931348623157E308
+	Ehxaustion = 0.10000000149011612
+	#Experience cost per block excavated
+	#Range: > 0
+	Experience = 0
+	#Allow excavation with an open hand
+	"Open Hand" = false
+	#Inverts the tool blacklist to function as a whitelist
+	"Invert Tool Blacklist" = false
+	#Inverts the block blacklist to function as a whitelist
+	"Invert Block Blacklist" = true
+	#Ignores whether or not the held tool is valid
+	"Ignore Tool" = false
+	#Use alternate check for tool validity (e.g. swords on webs)
+	"Alt Tools" = false
+	#Limit excavation to standard tool types (Picks, Shoves, Axes & Shears)
+	"Only Standard Types" = true
+	#Temporarily reduces excavation speed if TPS begins to slow down
+	"TPS Guard" = true
+	#Skips spawning drops in world adding them directly to your inventory
+	"Auto Pickup" = false
+	#Allow players to use shape mining
+	"Allow Shapes" = true
+	#How many excavations should be kept in undo history (may lead to exploits or instability)
+	#Range: > 0
+	"Max Undos" = 0
+	#Allows excavation undo function to work through liquids and other replaceable blocks
+	"Undo Replaceables " = false
+	#The default game stage required to unlock excavations (requires gamestages to be installed)
+	"Game Stage" = ""
+	#Tools blacklisted from excavating
+	"Tool Blacklist" = []
+	#Blocks blacklisted from being excavated
+	"Block Blacklist" = ["tag:forge:ores", "tag:minecraft:logs"]
+
