@@ -3,7 +3,6 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.registries.IRecipeManager;
 import crafttweaker.api.recipe.Replacer;
 
-
 //fallback in case a mob spawns with it
 <item:blue_skies:debug_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "5dea655f-2321-4af0-8f17-a66e8ce6f0f4", "damage nerf", -1, MULTIPLY_TOTAL, [<equipmentslottype:mainhand>]);
 
@@ -62,5 +61,30 @@ Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate>).replac
 craftingTable.removeByName(<resource:gateways:enderman_gate>);
 craftingTable.removeByName(<resource:gateways:enderman_gate_small>);
 
-//charm of flight disabled tooltip
-<item:apotheosis:potion_charm>.withTag({Potion: "bountifulbaubles:flight" as string}).mutable().anyDamage().addTooltip("§7This charm seems fragile...");
+for allItems in game.items {
+
+	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:greatswords>) ) {
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "a1780227-963c-4ada-bf81-14aa59b9fc30", "ReachFix", 1, ADDITION, [<equipmentslottype:mainhand>]);
+	    }
+
+	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:spears>) ) {
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "a1780227-963c-4ada-bf81-14aa59b9fc30", "ReachFix", 1, ADDITION, [<equipmentslottype:mainhand>]);
+	    }
+
+	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:halberds>) ) {
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "a1780227-963c-4ada-bf81-14aa59b9fc30", "ReachFix", 1, ADDITION, [<equipmentslottype:mainhand>]);
+	    }
+
+	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:pikes>) ) {
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "a1780227-963c-4ada-bf81-14aa59b9fc30", "ReachFix", 2, ADDITION, [<equipmentslottype:mainhand>]);
+	    }
+
+	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:lances>) ) {
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "a1780227-963c-4ada-bf81-14aa59b9fc30", "ReachFix", 1, ADDITION, [<equipmentslottype:mainhand>]);
+	    }
+
+	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:glaives>) ) {
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "a1780227-963c-4ada-bf81-14aa59b9fc30", "ReachFix", 1, ADDITION, [<equipmentslottype:mainhand>]);
+	    }
+
+}
