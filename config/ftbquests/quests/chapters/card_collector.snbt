@@ -26,27 +26,42 @@
 			shape: "octagon"
 			size: 2.0d
 			id: "2D701990943C8711"
-			tasks: [{
-				id: "7812EF8C47EC8A5F"
-				type: "item"
-				title: "Any #buddycards:cards"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "buddycards:cards"
+			tasks: [
+				{
+					id: "62B4033C5409DF11"
+					type: "item"
+					title: "Any #buddycards:packs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "buddycards:packs"
+						}
 					}
 				}
-			}]
+				{
+					id: "7C8E3B1F27FCD8B2"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "buddycards:buddycard_guidebook"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "5859A3B988E3E69B"
+				id: "6145220EA511ABEC"
 				type: "item"
 				item: {
-					id: "patchouli:guide_book"
+					id: "buddycards:pack.1"
 					Count: 1b
-					tag: {
-						"patchouli:book": "buddycards:buddycard_guidebook"
-					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]

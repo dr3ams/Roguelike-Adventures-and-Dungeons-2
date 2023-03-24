@@ -1373,25 +1373,6 @@
 			}]
 		}
 		{
-			x: 19.5d
-			y: -1.5d
-			subtitle: "(Hostile) half-fish, half-woman who lures players in to eat them"
-			description: ["Spawns: in ocean areas"]
-			id: "57508D8847C50F31"
-			tasks: [{
-				id: "63530ED9DB7CF06A"
-				type: "kill"
-				icon: "kubejs:skull2"
-				entity: "greekfantasy:siren"
-				value: 1L
-			}]
-			rewards: [{
-				id: "78293679D337FA35"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
 			x: 5.0d
 			y: -6.0d
 			dependencies: ["12D4145017567B15"]

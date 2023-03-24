@@ -11,6 +11,7 @@
 		{
 			x: -1.0d
 			y: 0.0d
+			description: ["To create an Undergarden portal, create a Nether Portal structure using Stone Bricks and light it with the Catalyst."]
 			id: "4C6F949FFA715364"
 			tasks: [{
 				id: "2DE60313C6484CEE"
@@ -167,20 +168,13 @@
 			dependencies: ["499F09164370C639"]
 			size: 1.5d
 			id: "6EC6F2C9D32D1B8E"
-			tasks: [
-				{
-					id: "4247547D29BB8384"
-					type: "item"
-					item: "undergarden:diamond_ore"
-				}
-				{
-					id: "60B99E9DC3244676"
-					type: "questsadditions:break"
-					block: "undergarden:diamond_ore"
-					value: 1L
-					checkItem: false
-				}
-			]
+			tasks: [{
+				id: "60B99E9DC3244676"
+				type: "questsadditions:break"
+				block: "undergarden:diamond_ore"
+				value: 1L
+				checkItem: false
+			}]
 			rewards: [
 				{
 					id: "5CC1DF1AACE7B542"
