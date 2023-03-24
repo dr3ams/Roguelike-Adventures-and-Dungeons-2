@@ -2699,43 +2699,8 @@
 			]
 		}
 		{
-			x: 5.5d
+			x: 6.0d
 			y: -4.0d
-			dependencies: ["1C6B53E307B94F2B"]
-			id: "6377DE05A43630F4"
-			tasks: [{
-				id: "0A89EC67324895BF"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "vanillafoodpantry:long_undying"
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "507827E3D8B577A6"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-				{
-					id: "2B6031A8262B098C"
-					type: "item"
-					item: "minecraft:gold_nugget"
-					count: 5
-				}
-			]
-		}
-		{
-			x: 6.5d
-			y: -3.5d
 			dependencies: ["1C6B53E307B94F2B"]
 			id: "3F35EA02A0EF5661"
 			tasks: [{

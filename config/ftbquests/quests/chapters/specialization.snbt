@@ -137,22 +137,6 @@
 					}
 				}
 				{
-					id: "17D88E16E1B75A99"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:long_sugar_bombed"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "25EDE524C9C12BCE"
 					type: "item"
 					item: {
@@ -165,20 +149,6 @@
 						}
 					}
 					count: 32
-				}
-				{
-					id: "2560454088D95031"
-					type: "item"
-					item: {
-						id: "vanillafoodpantry:cave_stew"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 24
 				}
 				{
 					id: "0376597CF5125159"
@@ -221,6 +191,19 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "75DA9014C6CA7BCC"
+					type: "item"
+					item: {
+						id: "nethers_delight:strider_moss_stew"
+						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -737,23 +720,6 @@
 					}
 				}
 				{
-					id: "04BD984E5E522D90"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:wolfspirit"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "4570C66E864BA161"
 					type: "item"
 					item: {
@@ -778,6 +744,22 @@
 						Count: 1b
 						tag: {
 							Potion: "minecraft:long_slow_falling"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6C48ECB082579727"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "undergarden:glowing"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1614,23 +1596,6 @@
 					}
 				}
 				{
-					id: "478DE72F50BB3EEB"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:super_bearspirit"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "6F6ABB58D6B308E9"
 					type: "item"
 					team_reward: false
@@ -2101,22 +2066,6 @@
 			}]
 			rewards: [
 				{
-					id: "51E89D1867F5F92C"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:long_sugar_bombed"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "573D84C16AA560D8"
 					type: "item"
 					item: {
@@ -2187,6 +2136,19 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4E3F3DCEE0D2E09A"
+					type: "item"
+					item: {
+						id: "enhanced_mushrooms:beef_stew"
+						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2356,22 +2318,6 @@
 						Count: 1b
 						tag: {
 							Potion: "apotheosis:long_resistance"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "27EA0A6DD7F286BE"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:super_bearspirit"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -2768,38 +2714,6 @@
 					}
 				}
 				{
-					id: "374B520369273861"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:wolfspirit"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "6C63358A2FF0A53A"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:super_good_juju"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "0DD01C63326A0F94"
 					type: "item"
 					item: {
@@ -2821,6 +2735,22 @@
 					item: {
 						id: "artifacts:charm_of_sinking"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "15659C4116190829"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "goblintraders:dolphins_grace"
+						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2957,23 +2887,6 @@
 							}
 						}
 					}
-				}
-				{
-					id: "69370AA3A371588A"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:bearspirit"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 3
 				}
 				{
 					id: "7F166A7387D74150"
@@ -3364,23 +3277,6 @@
 					}
 				}
 				{
-					id: "686FC022D771B77D"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:super_wolfspirit"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "3293C946E5DD15C3"
 					type: "item"
 					team_reward: false
@@ -3517,13 +3413,13 @@
 					}
 				}
 				{
-					id: "77CC104B0C829516"
+					id: "6A5B78292F7D2C8C"
 					type: "item"
 					item: {
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Potion: "vanillafoodpantry:wolfspirit"
+							Potion: "undergarden:long_glowing"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -3533,13 +3429,13 @@
 					}
 				}
 				{
-					id: "06E7BE5E494A832A"
+					id: "4FB0DC2EE9DCDAD6"
 					type: "item"
 					item: {
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Potion: "vanillafoodpantry:super_wolfspirit"
+							Potion: "minecraft:strength"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -5190,23 +5086,6 @@
 			}]
 			rewards: [
 				{
-					id: "7AA51E356CD2EFD4"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:super_bearspirit"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 2
-				}
-				{
 					id: "74C8BEC0E95C74BE"
 					type: "item"
 					team_reward: false
@@ -5324,23 +5203,6 @@
 						Count: 1b
 						tag: {
 							Potion: "minecraft:long_swiftness"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "46B6E0597B3EA77E"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:super_bearspirit"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -5571,23 +5433,6 @@
 					}
 				}
 				{
-					id: "0B064FC3CA630341"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:super_bearspirit"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "425E9DCE53FC03AA"
 					type: "item"
 					team_reward: false
@@ -5700,40 +5545,6 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "7BCFBD3B3D7ACD55"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:bearspirit"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "06DF35CAFDACFB01"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:super_bearspirit"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {

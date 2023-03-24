@@ -3329,35 +3329,19 @@
 					}
 				}
 				{
-					id: "737E6D5DA0C73D2B"
-					type: "item"
-					item: {
-						id: "vanillafoodpantry:decker_lumberjack"
-						Count: 1b
-						tag: {
-							SAMPLE: 1b
-							"carrots:root": {
-								UiTip: "{\"translate\":\"item.minecraft.cooked_beef\"}_||_{\"translate\":\"item.vfp.cactus_pad_roasted\"}_||_{\"translate\":\"item.vfp.french_bread\"}_||_{\"translate\":\"item.vfp.fried_egg\"}_||_{\"translate\":\"item.vfp.fried_egg\"}_||_{\"translate\":\"item.vfp.mashed_tatoes\"}_||_{\"translate\":\"item.vfp.decker.bonus\"}"
-								FoodPortion: 9
-								FoodTotal: 44
-								FoodSaturation: 1.2f
-								XFood: 1b
-							}
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "60A992E82A6D970E"
 					type: "pmmo:xpreward"
 					auto: "invisible"
 					skill: "woodcutting"
 					amount: 200.0d
 					ignoreBonuses: false
+				}
+				{
+					id: "5CD773C6581E54AE"
+					type: "pmmo:levelreward"
+					auto: "invisible"
+					skill: "gathering"
+					amount: 10.0d
 				}
 			]
 		}

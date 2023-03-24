@@ -36,18 +36,22 @@
 	quests: [
 		{
 			icon: "minecraft:potato"
-			x: 3.0d
-			y: 0.5d
+			x: 3.5d
+			y: 1.5d
 			description: [
-				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods."
+				"Eating a variety of nutrients with right balance will make you stronger and faster. Ignoring your nutritional balance can slow you down and weaken you."
+				"Hover over a food to see which nutrients it provides along with the total number of Nutritional Units (NUs)."
 				""
-				"You will receive variable benefits depending on how diverse your current diet is, and has been in the recent past."
+				"To see Nutritional Balance, press the 'n' key (configurable) or click nutrient button in your inventory."
+				"- blue areas show your current level of each nutrient."
+				"- green lines show the boundaries of the \"target\" area."
+				"- red lines at the left show the \"malnourishment\" boundaries."
+				"- red lines at the right show the \"engorgement\" boundaries."
 				""
-				"You will have to maintain that level of diversity to keep those benefits. This should encourage automation of a variety of foods, rather than just encouraging you to eat each food once (SoL: Carrot Edition)."
+				"Get all of your nutrients in the target areas to achieve a balanced diet and get a few buffs."
 				""
-				"*Note: This means your diversity score is constantly and dynamically changing depending on what your current and past diet. "
-				"Thus, you can have many benefits after eating a diverse set of foods for a time, but falling back to eating only bread will gradually result in a loss/weakening of gained benefits."
-				"To get a higher diversity score, you need to keep including more and more diverse types of foods in your diet."
+				"Avoid letting your nutrient levels cross the red boundaries or you will get some debuffs."
+				""
 			]
 			dependencies: ["45367EFC307FBA67"]
 			id: "006F7F9BE37E4FA7"
@@ -201,88 +205,6 @@
 				type: "item"
 				item: "minecraft:apple"
 			}]
-		}
-		{
-			x: 2.0d
-			y: 4.0d
-			description: [
-				"The Food Book gives you information about your diet diversity score."
-				""
-				"-Lists all the foods that you have eaten in the past that are currently contributing to your diversity."
-				"-Gives your current diversity score."
-				"-Describes the benefits you are currently experiencing."
-				""
-				"Can be bound to a key in keybinds so you do not need to carry the book."
-				""
-			]
-			dependencies: ["53854D9D9E2AB2E3"]
-			id: "6A4218F548A74647"
-			tasks: [{
-				id: "3845A35E9E3E93D2"
-				type: "item"
-				item: "solpotato:food_book"
-			}]
-			rewards: [
-				{
-					id: "2F8494A78B80565E"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "1D0B4483F9FB150D"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "43F2C21DC990A53D"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: 1.5d
-			description: [
-				"The lunchbag allows you to store food to be fed on while maxing diversity gain."
-				""
-				"Shift-right click to open its inventory, allowing you to load it with food. Then, when you are hungry, right clicking with the lunchbag in your hand will feed you with the best food to maximize your diversity."
-				""
-				""
-			]
-			dependencies: ["45367EFC307FBA67"]
-			id: "7FBB7ED4218AD723"
-			tasks: [{
-				id: "6D6CFD28BB6BDA06"
-				type: "item"
-				item: {
-					id: "solpotato:lunchbag"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Size: 5
-							Items: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "558B6E1AFC924A38"
-					type: "item"
-					item: "minecraft:cake"
-				}
-				{
-					id: "6F2CDF4B392A45C9"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "41A95DD230A3D40B"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
 		}
 		{
 			x: 3.0d
@@ -531,17 +453,6 @@
 			}]
 			rewards: [
 				{
-					id: "2939A3764ED2F40A"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:bearspirit"
-						}
-					}
-				}
-				{
 					id: "0DDE4550FE92C2C5"
 					type: "item"
 					item: "minecraft:cake"
@@ -550,6 +461,22 @@
 					id: "73BA3FB9A10AAA40"
 					type: "item"
 					item: "randomite:randomite_ore"
+				}
+				{
+					id: "1609963DBCDEF6E1"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "undergarden:glowing"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
@@ -1178,49 +1105,27 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "6F9D09629D526A5E"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "vanillafoodpantry:bearspirit"
-					}
-				}
-			}]
-		}
-		{
-			x: 2.0d
-			y: 3.0d
-			dependencies: ["65BD12FA37C96EA4"]
-			id: "53854D9D9E2AB2E3"
-			tasks: [{
-				id: "494F985B741406A1"
-				type: "item"
-				item: "minecraft:book"
-			}]
 			rewards: [
 				{
-					id: "10EEDE97FA8FC45C"
+					id: "079786AF5E380390"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "48448ABFA2EAB806"
 					type: "item"
 					item: {
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Potion: "minecraft:healing"
+							Potion: "apotheosis:knowledge"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
-				}
-				{
-					id: "5FDD413710F7A240"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "7F3027D542DE80D4"
-					type: "ftbmoney:money"
-					ftb_money: 10L
 				}
 			]
 		}
@@ -1557,10 +1462,10 @@
 					ftb_money: 20L
 				}
 				{
-					id: "5E0EC31DE4896FD5"
+					id: "39403A66EB07512F"
 					type: "item"
 					item: {
-						id: "vanillafoodpantry:nomads_snack_bar"
+						id: "farmersdelight:barbecue_stick"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1736,24 +1641,11 @@
 				type: "item"
 				item: "apotheosis:endshelf"
 			}]
-			rewards: [
-				{
-					id: "78421189A70BB778"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:sugar_bombed"
-						}
-					}
-				}
-				{
-					id: "2CE1ED88B296FC7B"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
+			rewards: [{
+				id: "2CE1ED88B296FC7B"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
 		}
 		{
 			x: 6.0d
@@ -2583,35 +2475,6 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 2.5d
-			dependencies: ["45367EFC307FBA67"]
-			id: "65BD12FA37C96EA4"
-			tasks: [{
-				id: "5C2D43326FF0B31F"
-				type: "item"
-				item: "minecraft:sugar_cane"
-			}]
-			rewards: [
-				{
-					id: "18CF5032F3C689C7"
-					type: "item"
-					item: "minecraft:clay_ball"
-					count: 5
-				}
-				{
-					id: "3E3D570902F4B214"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "68B01D899718C888"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-			]
-		}
-		{
 			x: 7.0d
 			y: 4.0d
 			shape: "gear"
@@ -2762,51 +2625,6 @@
 			]
 		}
 		{
-			x: 14.5d
-			y: 0.0d
-			dependencies: ["4EAD123C4CC0E5CA"]
-			id: "3989DED93AAA1623"
-			tasks: [{
-				id: "0273F6B6D2A6BF01"
-				type: "item"
-				item: "villagertools:restock"
-			}]
-			rewards: [
-				{
-					id: "52027ADB8F65B142"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "5B1E9422B66D70AB"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_random"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 14.5d
-			y: 1.0d
-			dependencies: ["3989DED93AAA1623"]
-			id: "067563D96116BD48"
-			tasks: [{
-				id: "03C65E56275B3D8A"
-				type: "item"
-				item: "villagertools:gears"
-			}]
-			rewards: [{
-				id: "12B640D814BCB5EF"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
 			x: 6.5d
 			y: -4.0d
 			dependencies: ["766E4FEA8148AEDA"]
@@ -2919,23 +2737,6 @@
 					}
 				}
 				{
-					id: "2A9BA1F8ABA5EAE1"
-					type: "item"
-					item: {
-						id: "solpotato:lunchbox"
-						Count: 1b
-						ForgeCaps: {
-							Parent: {
-								Size: 9
-								Items: [ ]
-							}
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "6DF21BE94E066BD3"
 					type: "item"
 					item: {
@@ -3005,22 +2806,6 @@
 			]
 			rewards: [
 				{
-					id: "0A8998A9C5E49BD9"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "vanillafoodpantry:super_wolfspirit"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "3BD4EAE4E7CC4827"
 					type: "item"
 					item: {
@@ -3067,6 +2852,19 @@
 					type: "item"
 					item: {
 						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3954433FE39E9014"
+					type: "item"
+					item: {
+						id: "upgrade_aquatic:mulberry_jam_bottle"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -4686,6 +4484,168 @@
 				id: "710AAA393FBC476E"
 				type: "xp"
 				xp: 100
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.0d
+			subtitle: "Find a village"
+			dependencies: ["4EAD123C4CC0E5CA"]
+			id: "79A9E6D98A50387F"
+			tasks: [{
+				id: "0B1D2246F4F92F80"
+				type: "advancement"
+				advancement: "morevillagers:first_village"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4606A7DA52DBF896"
+				type: "random"
+				table_id: 4734148794142699034L
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			subtitle: "Make your first villager trade"
+			dependencies: ["79A9E6D98A50387F"]
+			id: "4355236339BC275F"
+			tasks: [{
+				id: "6460214BA827D31F"
+				type: "advancement"
+				advancement: "morevillagers:first_trade"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "45949F3E39B52354"
+				type: "random"
+				table_id: 4734148794142699034L
+			}]
+		}
+		{
+			x: 17.0d
+			y: 1.0d
+			subtitle: "Find or craft villager workstations(20)"
+			dependencies: ["4355236339BC275F"]
+			id: "04A6238F09D204C6"
+			tasks: [{
+				id: "4335BEE2CBD3AFA2"
+				type: "advancement"
+				advancement: "morevillagers:first_workstation_get"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5D1E3B574C5278E6"
+					type: "random"
+					table_id: 5735513140715080140L
+				}
+				{
+					id: "2D0982CA6FC0C565"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 2.0d
+			subtitle: "Trade with the Netherologist in the Nether dimension"
+			dependencies: ["4355236339BC275F"]
+			id: "710A05F9B0FEBDDD"
+			tasks: [{
+				id: "2889874B283A31A0"
+				type: "advancement"
+				advancement: "morevillagers:nether_trade"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7C5D55F47104ACC0"
+					type: "random"
+					table_id: 4734148794142699034L
+				}
+				{
+					id: "4402EA861FA5ABB3"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 17.0d
+			y: 2.0d
+			subtitle: "Trade with the Enderologist in the End dimension"
+			dependencies: ["710A05F9B0FEBDDD"]
+			id: "723B381395B12DC0"
+			tasks: [{
+				id: "125747390E80143F"
+				type: "advancement"
+				advancement: "morevillagers:end_trade"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "76E900EF2F954E12"
+					type: "random"
+					table_id: 4734148794142699034L
+				}
+				{
+					id: "0EACBB14E211BB08"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 17.0d
+			y: 3.5d
+			subtitle: "Trade with every villager profession"
+			dependencies: ["723B381395B12DC0"]
+			id: "3798A245BFA80027"
+			tasks: [{
+				id: "4C43586C6F409DCD"
+				type: "advancement"
+				advancement: "morevillagers:all_professions_traded"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2299DD6C4A2351EB"
+					type: "random"
+					table_id: 5735513140715080140L
+				}
+				{
+					id: "6B50E1D2CAC3907F"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 2.0d
+			subtitle: "Locate a Pillager camp"
+			dependencies: ["79A9E6D98A50387F"]
+			id: "308F2C3D797D33A2"
+			tasks: [{
+				id: "14CC3C6F7FE9E1B7"
+				type: "advancement"
+				advancement: "takesapillage:pillager_camp"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "02F7C1C79B296FC8"
+				type: "item"
+				item: {
+					id: "kubejs:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 	]

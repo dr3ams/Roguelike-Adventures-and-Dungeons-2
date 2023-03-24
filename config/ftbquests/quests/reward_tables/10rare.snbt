@@ -1,0 +1,21 @@
+{
+	id: "5C4A4F8FDF520798"
+	order_index: 63
+	title: "10rare"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate"
+			Count: 1b
+			tag: {
+				type: "rare_loot_crate"
+			}
+			ForgeCaps: {
+				"dungeons_libraries:built_in_enchantments": {
+					BuiltInEnchantments: [ ]
+				}
+			}
+		}
+		count: 10
+	}]
+}

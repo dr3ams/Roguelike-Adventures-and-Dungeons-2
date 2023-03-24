@@ -1,0 +1,21 @@
+{
+	id: "01932079859AE12B"
+	order_index: 59
+	title: "32common"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate"
+			Count: 1b
+			tag: {
+				type: "common_loot_crate"
+			}
+			ForgeCaps: {
+				"dungeons_libraries:built_in_enchantments": {
+					BuiltInEnchantments: [ ]
+				}
+			}
+		}
+		count: 32
+	}]
+}

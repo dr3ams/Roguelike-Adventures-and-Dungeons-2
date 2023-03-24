@@ -228,9 +228,9 @@
 				title: "New Lunar events"
 			}]
 			rewards: [{
-				id: "07AA1991ADA77735"
-				type: "item"
-				item: "vanillafoodpantry:fizzydrink_blueberry"
+				id: "3BD45027CC335B19"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -563,13 +563,15 @@
 			y: 5.5d
 			subtitle: "Benefits for eating variety of foods"
 			description: [
-				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods."
+				"Eating a variety of nutrients, with the right balance, will grant you buffs, while having a bad diet will give you debuffs."
 				""
-				"You will receive variable benefits depending on how diverse your current diet is, and has been in the recent past."
+				"Food now has tooltips that show which nutrients they provide, along with the total number of Nutritional Units (NUs)."
 				""
-				"You will have to maintain that level of diversity to keep those benefits. This should encourage automation of a variety of foods, rather than just encouraging you to eat each food once (SoL: Carrot Edition)."
+				"To see Nutritional Balance, press the Nutrient Gui keybind (Default: N) or click the bread icon in your inventory."
 				""
-				"*Note: This means your diversity score is constantly and dynamically changing depending on what your current and past diet. Thus, you can have many benefits after eating a diverse set of foods for a time, but falling back to eating only bread will gradually result in a loss/weakening of gained benefits.To get a higher diversity score, you need to keep including more and more diverse types of foods in your diet."
+				"- Blue indicates your current NUs for each category"
+				"- Green lines show the range for buffs"
+				"- Red lines indicate malnourishment and engorgement, which gives you debuffs"
 			]
 			id: "35190DA84895073D"
 			tasks: [{
@@ -614,7 +616,6 @@
 				""
 				"- Apiarist (Honey Pot)"
 				""
-				"There are also various tools to use with Villagers from the Villager Tools mod! (@villagertools in JEI)"
 			]
 			id: "2574DDCEFF8FE519"
 			tasks: [{

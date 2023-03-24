@@ -430,9 +430,9 @@
 				item: "alexsmobs:cooked_lobster_tail"
 			}]
 			rewards: [{
-				id: "326CBA13D89ABD10"
-				type: "item"
-				item: "vanillafoodpantry:homemade_butter"
+				id: "29C76AC5528B9264"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -2146,9 +2146,9 @@
 				criterion: ""
 			}]
 			rewards: [{
-				id: "6B8D81E6C595D982"
-				type: "item"
-				item: "vanillafoodpantry:bowl_milk"
+				id: "73969BE85978D41D"
+				type: "ftbmoney:money"
+				ftb_money: 50L
 			}]
 		}
 		{
@@ -2307,10 +2307,17 @@
 				criterion: ""
 			}]
 			rewards: [{
-				id: "1E64A18FE68C2A56"
+				id: "1BF2101C96709AB5"
 				type: "item"
-				item: "vanillafoodpantry:gelo_chorusfruit"
-				count: 4
+				item: {
+					id: "largemeals:chorus_fruit_popsicle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 		{
