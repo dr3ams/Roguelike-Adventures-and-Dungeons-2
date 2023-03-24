@@ -1,0 +1,125 @@
+
+#General Settings
+[general]
+
+	#Nutrient Levels
+	[general.nutrient_levels]
+		#Malnourishment value, below which bad effects can occur. (default:1.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_level_malnourished = 1.0
+		#Initial nutrient level for new player. (default:50.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_initial = 70.0
+		#Boundary between low and target, above which good affects can occur. (default:100.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_level_low_target = 100.0
+		#Boundary between target and high, below which good affects can occur. (default:120.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_level_target_high = 150.0
+		#Engorgement value, above which bad affects can occur.(default:170.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_level_engorged = 190.0
+		#Maximum nutrient level. nutrients will cap out at this value no matter how much you eat. (default:180.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_level_max = 200.0
+		#Nutrient Increment Rate - rate of nutrient increase relative to food saturation and points. (default:1.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_increment_rate = 1.5
+		#Nutrient Decay Rate - base rate of nutrient reduction over time relative to player saturation and food level decay. (default:1.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_decay_rate = 1.0
+		#Nutrient Loss On Death - number of nutrition point lost from each nutrient on death (bottoms out at initial value). (default:10.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_death_loss = 5.0
+		#Max NUs of each nutrient a food can contain. Helps prevent OP food mods from making it impossible to keep nutrients balanced. (default:20.0)
+		#Range: 1.0 ~ 1.7976931348623157E308
+		nutrient_max_food_value = 20.0
+
+	#Effects
+	[general.nutrition_affects]
+		#List of nutrients which only give bad effects when engorged, are not required for a balanced diet and do not cause malnourishment when low (default:sugar).
+		effect_bad_nutrients = ["sugars"]
+		#List of nutrients which only give good effects and do not cause engorgement. You can eat as much as you want (default:vegetables).
+		effect_good_nutrients = ["vegetables"]
+
+		#Nourished Effects - effects to apply when the player reaches all nutrient targets.
+		[general.nutrition_affects.nourished_affects]
+			#Max Health - number of health points (1/2 hearts) to add or subtract. (default: 10.0)
+			#Range: -40.0 ~ 40.0
+			nourished_max_health = 10.0
+			#Knockback Resistance - knockback resistance to add. 1.0 is 100%. (default: 0.0)
+			#Range: 0.0 ~ 1.0
+			nourished_knockback_resistance = 0.1
+			#Movement Speed - increase or reduce player movement speed. Speed I is 0.2. Slowness I is -0.15. (default: 0.2)
+			#Range: -0.7 ~ 2.0
+			nourished_movement_speed = 0.2
+			#Attack Damage - increase or reduce attack damage caused by player. Strength I is 0.2. Weakness I is -0.15. (default: 0.2)
+			#Range: -2.0 ~ 4.0
+			nourished_attack_damage = 0.2
+			#Attack Knockback - increase the amount of knockback caused by the player. (default: 0.0)
+			#Range: 0.0 ~ 4.0
+			nourished_knockback = 0.0
+			#Mining Speed - increase or decrease mining speed of the player. Haste I is 0.1. Mining Fatique I is -0.1. (default: 0.1)
+			#Range: -4.0 ~ 4.0
+			nourished_mining_speed = 0.1
+
+		#Malnourished Effects
+		[general.nutrition_affects.malnourished_affects]
+			#Max Health - number of health points (1/2 hearts) to add or subtract. (default: -4.0)
+			#Range: -40.0 ~ 40.0
+			malnourished_max_health = 0.0
+			#Knockback Resistance - knockback resistance to add. 1.0 is 100%. (default: 0.0)
+			#Range: 0.0 ~ 1.0
+			malnourished_knockback_resistance = 0.0
+			#Movement Speed - increase or reduce player movement speed. Speed I is 0.2. Slowness I is -0.15. (default: -0.15)
+			#Range: -0.7 ~ 2.0
+			malnourished_movement_speed = -0.1
+			#Attack Damage - increase or reduce attack damage caused by player. Strength I is 0.2. Weakness I is -0.15. (default: -0.15)
+			#Range: -2.0 ~ 4.0
+			malnourished_attack_damage = -0.2
+			#Attack Knockback - increase the amount of knockback caused by the player. (default: 0.0)
+			#Range: 0.0 ~ 4.0
+			malnourished_knockback = 0.0
+			#Mining Speed - increase or decrease mining speed of the player. Haste I is 0.1. Mining Fatique I is -0.1. (default: 0.0)
+			#Range: -4.0 ~ 4.0
+			malnourished_mining_speed = -0.1
+
+		#Engorged Effects
+		[general.nutrition_affects.engorged_affects]
+			#Max Health - number of health points (1/2 hearts) to add or subtract. (default: 0.0)
+			#Range: -40.0 ~ 40.0
+			engorged_max_health = 0.0
+			#Knockback Resistance - knockback resistance to add. 1.0 is 100%. (default: 0.0)
+			#Range: 0.0 ~ 1.0
+			engorged_knockback_resistance = 0.0
+			#Movement Speed - increase or reduce player movement speed. Speed I is 0.2. Slowness I is -0.15. (default: -0.15)
+			#Range: -0.7 ~ 2.0
+			engorged_movement_speed = -0.15
+			#Attack Damage - increase or reduce attack damage caused by player. Strength I is 0.2. Weakness I is -0.15. (default: 0.0)
+			#Range: -2.0 ~ 4.0
+			engorged_attack_damage = 0.0
+			#Attack Knockback - increase the amount of knockback caused by the player. (default: 0.0)
+			#Range: 0.0 ~ 4.0
+			engorged_knockback = 0.0
+			#Mining Speed - increase or decrease mining speed of the player. Haste I is 0.1. Mining Fatique I is -0.1. (default: -0.1)
+			#Range: -4.0 ~ 4.0
+			engorged_mining_speed = -0.15
+
+	#Nutrient for modded foods: Add foods or tags here to add nutrients to the foods.
+	#This is usually only needed for raw ingredients. Crafted and cooked foods will get nutrients from recipe ingredients.
+	#This can be done with data packs by adding foods to item tags under forge:nutrient/<nutrientName>, but this config is here for convenience.
+	#Data packs are required to define new nutrient categories.
+	#These configs are additive on top of data packs.
+	#Run the command /nutritionalbalance get_unassigned_foods to find any foods that do not have nutrients.
+	[general.nutrient_foods]
+		#List of vegetables.
+		vegetables_item_list = ["#minecraft:flowers", "#forge:vegetables", "#nourish:vegetables"]
+		#List of carbohydrates.
+		carbs_item_list = ["#forge:carbs", "#forge:grain", "#nourish:carbohydrates"]
+		#List of simple sugars.
+		sugars_item_list = ["#nourish:sweets"]
+		#List of proteins.
+		protein_item_list = ["#forge:protein", "#forge:milk", "#forge:yogurt", "#forge:nuts", "#nourish:protein"]
+		#List of proteins.
+		fruits_item_list = ["#forge:fruits", "#nourish:fruit"]
+
