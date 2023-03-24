@@ -1,1 +1,0 @@
-craftingTable.removeByRegex("buddycards:.*_card_display");

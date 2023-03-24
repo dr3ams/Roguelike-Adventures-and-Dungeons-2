@@ -104,7 +104,7 @@ for allItems in game.items {
     }
 }
 
-
+craftingTable.removeByRegex("buddycards:.*_card_display");
 
 
 
