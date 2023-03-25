@@ -53,6 +53,43 @@ import crafttweaker.api.recipe.Replacer;
 <item:atum:anubis_wrath>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
 <item:eidolon:reaper_scythe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
 
+//buddycards gear improvements
+//buddysteel Serendipity Boost (fortune)
+<item:buddycards:buddysteel_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "309220a7-861a-48f8-b601-4b85c503c890", "buddy luck", 0.25, ADDITION, [<equipmentslottype:head>]);
+<item:buddycards:buddysteel_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "buddy luck", 0.25, ADDITION, [<equipmentslottype:chest>]);
+<item:buddycards:buddysteel_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "d0bb4c83-92f3-415d-b7e0-be56feb74fae", "buddy luck", 0.25, ADDITION, [<equipmentslottype:legs>]);
+<item:buddycards:buddysteel_boots>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "e1c53dc8-1188-4621-902f-f9de8f33ded6", "buddy luck", 0.25, ADDITION, [<equipmentslottype:feet>]);
+
+<item:buddycards:buddysteel_sword>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.25, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_pickaxe>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.25, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_axe>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.25, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_shovel>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.25, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.25, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_food_knife>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.25, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_fillet_knife>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.25, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_fishing_rod>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.luck>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 2, ADDITION, [<equipmentslottype:mainhand>]);
+
+<item:buddycards:buddysteel_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon Modifier", 6, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_sword>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.02, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_pickaxe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.02, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_axe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.02, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_shovel>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.02, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.02, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_food_knife>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.02, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_fillet_knife>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.02, ADDITION, [<equipmentslottype:mainhand>]);
+
+<item:buddycards:perfect_buddysteel_sword>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.5, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:perfect_buddysteel_pickaxe>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.5, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:perfect_buddysteel_axe>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.5, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:perfect_buddysteel_shovel>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.5, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:perfect_buddysteel_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.5, ADDITION, [<equipmentslottype:mainhand>]);
+
+<item:buddycards:perfect_buddysteel_sword>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.05, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:perfect_buddysteel_pickaxe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.05, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:perfect_buddysteel_axe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.05, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:perfect_buddysteel_shovel>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.05, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:perfect_buddysteel_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.05, ADDITION, [<equipmentslottype:mainhand>]);
+
 //replace ender pearls with spirit orbs in gateway recipes excluding enderman gateways
 Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate_large>).excluding(<resource:gateways:enderman_gate>).excluding(<resource:gateways:enderman_gate_small>).replace(<item:minecraft:ender_pearl>, <item:paraglider:spirit_orb>).execute();
 Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate>).replace(<item:minecraft:ender_eye>, <item:cofh_core:ectoplasm>).execute();
