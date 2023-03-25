@@ -33,6 +33,17 @@ import crafttweaker.api.recipe.Replacer;
 //uncrafting table tooltip
 <item:twilightforest:uncrafting_table>.addTooltip("The uncrafting function of the uncrafting table is disabled.");
 
+//emeraldite shards
+<item:byg:emeraldite_shards>.addTooltip("Found in the Wailing Garth in the Nether");
+//quark backpack
+<item:quark:backpack>.addTooltip("Please use the Backpack from Sophisticated Backpacks instead.");
+//soul enchanter
+<item:eidolon:soul_enchanter>.addTooltip("This item is purposely disabled due to being insanely powerful. If you found it in the book, the recipe above will not work.");
+//golden bridle
+<item:greekfantasy:golden_bridle>.addTooltip("Used to tame Pegasus");
+//flint and steel
+<item:minecraft:flint_and_steel>.addTooltip("Check the quest book on how to enter and exit the nether");
+
 //dual wield tutorial
 <item:dungeons_gear:dagger>.addTooltip("This is a Dual Wield weapon. It swaps to your offhand when attacking. Try using one in both your mainhand and offhand!");
 <item:dungeons_gear:gauntlet>.addTooltip("This is a Dual Wield weapon. It swaps to your offhand when attacking. Try using one in both your mainhand and offhand!");
