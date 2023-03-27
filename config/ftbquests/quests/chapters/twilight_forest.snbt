@@ -3430,7 +3430,7 @@
 			]
 		}
 		{
-			title: "Final Boss?"
+			title: "The Unfinished Forest"
 			x: 1.0d
 			y: 13.5d
 			subtitle: "\"Final Boss When?\" -literally every new twilight forest user"
@@ -3456,15 +3456,15 @@
 			}]
 			rewards: [
 				{
-					id: "4DEA0A042A372B82"
-					type: "xp"
-					xp: 300
+					id: "369EA4DA5A258B2D"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 				{
-					id: "54D7A3386D3219E5"
+					id: "7EF41FDABFF1077A"
 					type: "item"
 					item: {
-						id: "kubejs:netherite_coin"
+						id: "kubejs:diamond_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -3474,14 +3474,14 @@
 					}
 				}
 				{
-					id: "38B3B4E3D513ECB6"
+					id: "1185888CA2840427"
 					type: "choice"
-					table_id: 8545390299491237994L
+					table_id: 768393147870328736L
 				}
 				{
-					id: "536AB510FDFEDEAA"
-					type: "choice"
-					table_id: 8545390299491237994L
+					id: "28DB0FE2329AB272"
+					type: "random"
+					table_id: 768393147870328736L
 				}
 			]
 		}
