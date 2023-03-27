@@ -6,38 +6,136 @@
 	hide_tooltip: true
 	use_title: true
 	rewards: [
-		{ item: "minecraft:iron_ingot" }
-		{ item: "minecraft:flint", count: 6 }
-		{ item: "minecraft:stick", count: 8 }
 		{
 			item: {
-				id: "minecraft:potion"
+				id: "minecraft:iron_ingot"
 				Count: 1b
-				tag: {
-					Potion: "minecraft:long_regeneration"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 4
+		}
+		{ item: "minecraft:flint", count: 6, weight: 4 }
+		{ item: "minecraft:stick", count: 8, weight: 4 }
+		{
+			item: {
+				id: "randomite:randomite_ore"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "atum:coin_dirty"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 4
+		}
+		{ item: "minecraft:gunpowder", weight: 4 }
+		{
+			item: {
+				id: "minecraft:diamond"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "minecraft:paper"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 3
+			weight: 4
+		}
+		{ item: "minecraft:clay_ball", count: 19, weight: 4 }
+		{ item: "minecraft:sugar", count: 5, weight: 4 }
+		{
+			item: {
+				id: "aquaculture:box"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "aquaculture:lockbox"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 4
+		}
+		{ item: "minecraft:ender_pearl", count: 2, weight: 2 }
+		{
+			item: {
+				id: "minecraft:gold_nugget"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+			weight: 4
+		}
+		{ item: "minecraft:coal", count: 3, weight: 4 }
+		{ item: "minecraft:brick", count: 15, weight: 4 }
+		{
+			item: {
+				id: "aquaculture:treasure_chest"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
 				}
 			}
 		}
-		{ item: "randomite:randomite_ore" }
-		{ item: "atum:coin_dirty" }
-		{ item: "atum:coin_gold" }
-		{ item: "minecraft:gunpowder" }
-		{ item: "minecraft:diamond" }
-		{ item: "minecraft:water_bucket" }
-		{ item: "minecraft:paper", count: 3 }
-		{ item: "minecraft:clay_ball", count: 19 }
-		{ item: "minecraft:sugar", count: 5 }
-		{ item: "aquaculture:box" }
-		{ item: "aquaculture:lockbox" }
-		{ item: "minecraft:ender_pearl", count: 2 }
-		{ item: "minecraft:gold_nugget", count: 16 }
-		{ item: "twilightforest:ironwood_raw" }
-		{ item: "minecraft:coal", count: 3 }
-		{ item: "minecraft:netherite_scrap" }
-		{ item: "minecraft:brick", count: 15 }
-		{ item: "aquaculture:treasure_chest" }
-		{ item: "ars_nouveau:magic_clay" }
-		{ item: "ars_nouveau:mana_gem", count: 4 }
+		{
+			item: {
+				id: "ars_nouveau:mana_gem"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+			weight: 4
+		}
 	]
 	loot_crate: {
 		drops: {
