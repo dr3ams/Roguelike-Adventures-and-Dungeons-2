@@ -7,5 +7,26 @@
 		{ item: "minecraft:granite", count: 64 }
 		{ item: "minecraft:diorite", count: 64 }
 		{ item: "minecraft:andesite", count: 64 }
+		{
+			item: {
+				id: "minecraft:stone"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 64
+		}
 	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "stone"
+	}
 }
