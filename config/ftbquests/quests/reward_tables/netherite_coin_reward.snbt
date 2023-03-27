@@ -3,18 +3,5 @@
 	order_index: 30
 	title: "Netherite coin reward"
 	loot_size: 1
-	rewards: [
-		{
-			item: {
-				id: "ftbquests:lootcrate"
-				Count: 1b
-				tag: {
-					type: "legendary_loot_crate"
-				}
-			}
-		}
-		{ item: "minecraft:netherite_ingot" }
-		{ item: "randomite:randomite_ore", count: 30 }
-		{ item: "minecraft:totem_of_undying", count: 3 }
-	]
+	rewards: [{ item: "minecraft:totem_of_undying", count: 3 }]
 }

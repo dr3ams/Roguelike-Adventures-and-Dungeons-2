@@ -3,32 +3,19 @@
 	order_index: 14
 	title: "Legendary loot crate"
 	loot_size: 1
-	rewards: [
-		{ item: "minecraft:nether_star" }
-		{ item: "randomite:randomite_ore", count: 64 }
-		{
-			item: {
-				id: "upgradednetherite_items:netherite_apple"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
+	use_title: true
+	rewards: [{
+		item: {
+			id: "minecraft:totem_of_undying"
+			Count: 1b
+			ForgeCaps: {
+				"dungeons_libraries:built_in_enchantments": {
+					BuiltInEnchantments: [ ]
 				}
 			}
 		}
-		{
-			item: {
-				id: "upgradednetherite_items:netherite_apple"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-		}
-	]
+		count: 3
+	}]
 	loot_crate: {
 		drops: {
 			boss: 0
