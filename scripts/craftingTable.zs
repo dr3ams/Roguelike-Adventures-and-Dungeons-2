@@ -54,9 +54,9 @@ craftingTable.addShaped("enigmatic_gold_ring", <item:enigmaticlegacy:gem_ring>, 
     [<item:eidolon:arcane_gold_nugget>, <item:upgradednetherite:gold_upgraded_netherite_ingot>, <item:eidolon:arcane_gold_nugget>]
 ]);
 
-craftingTable.removeByName("vanillafoodpantry:optional/blazerod_from_lava_sand");
-craftingTable.removeByName("vanillafoodpantry:optional/ender_eye_from_lava_sand");
-craftingTable.removeByName("vanillafoodpantry:optional/magma_cream_from_lava_sand");
+//craftingTable.removeByName("vanillafoodpantry:optional/blazerod_from_lava_sand");
+//craftingTable.removeByName("vanillafoodpantry:optional/ender_eye_from_lava_sand");
+//craftingTable.removeByName("vanillafoodpantry:optional/magma_cream_from_lava_sand");
 
 
 
