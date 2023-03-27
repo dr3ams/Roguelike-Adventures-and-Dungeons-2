@@ -25,7 +25,7 @@
 	#Ignores whether or not the held tool is valid
 	"Ignore Tool" = false
 	#Use alternate check for tool validity (e.g. swords on webs)
-	"Alt Tools" = false
+	"Alt Tools" = true
 	#Limit excavation to standard tool types (Picks, Shoves, Axes & Shears)
 	"Only Standard Types" = true
 	#Temporarily reduces excavation speed if TPS begins to slow down
@@ -33,7 +33,7 @@
 	#Skips spawning drops in world adding them directly to your inventory
 	"Auto Pickup" = false
 	#Allow players to use shape mining
-	"Allow Shapes" = true
+	"Allow Shapes" = false
 	#How many excavations should be kept in undo history (may lead to exploits or instability)
 	#Range: > 0
 	"Max Undos" = 0
