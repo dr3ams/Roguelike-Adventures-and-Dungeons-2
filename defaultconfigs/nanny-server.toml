@@ -1,0 +1,10 @@
+
+["Server Config for NaNny"]
+	#Enable setting the health of an entity when NaN is dealt or healed to them (Default true)
+	doHeal = true
+	#Percentage of max health to set the entity to when NaN dealt or healed to them (Default 1.0)
+	#Range: 0.0 ~ 1.0
+	health = 1.0
+	#Whether or not to log events that set entitys' health to NaN (Default true)
+	log = true
+
