@@ -1,16 +1,60 @@
 {
 	id: "06D97134E53F8B2D"
-	order_index: 44
+	order_index: 43
 	title: "Nether loot crate"
 	loot_size: 1
 	rewards: [
 		{ item: "minecraft:golden_apple" }
 		{ item: "minecraft:obsidian", count: 2 }
 		{ item: "minecraft:experience_bottle", count: 16 }
-		{ item: "minecraft:netherrack", count: 64 }
-		{ item: "minecraft:nether_bricks", count: 32 }
-		{ item: "minecraft:quartz", count: 16 }
-		{ item: "minecraft:soul_sand", count: 32 }
+		{
+			item: {
+				id: "minecraft:netherrack"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 64
+		}
+		{
+			item: {
+				id: "minecraft:nether_bricks"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 32
+		}
+		{
+			item: {
+				id: "minecraft:quartz"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "minecraft:soul_sand"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 32
+		}
 		{ item: "iceandfire:witherbone", count: 2 }
 		{ item: "minecraft:nether_wart" }
 		{ item: "quark:blue_nether_bricks", count: 32 }
@@ -26,35 +70,18 @@
 		{ item: "minecraft:blaze_rod", count: 2 }
 		{ item: "minecraft:magma_cream", count: 4 }
 		{ item: "minecraft:ghast_tear", count: 2 }
-		{ item: "minecraft:magma_block" }
+		{
+			item: {
+				id: "minecraft:magma_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 32
+		}
 		{ item: "minecraft:basalt", count: 32 }
-		{ item: "kubejs:copper_coin" }
-		{
-			item: {
-				id: "ftbquests:lootcrate"
-				Count: 1b
-				tag: {
-					type: "common_loot_crate"
-				}
-			}
-		}
-		{
-			item: {
-				id: "ftbquests:lootcrate"
-				Count: 1b
-				tag: {
-					type: "random_dyes"
-				}
-			}
-		}
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 13713467
-		string_id: "nether_loot_crate"
-	}
 }
