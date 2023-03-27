@@ -307,10 +307,10 @@
     D:BerserkEmblemDamageBoost=1.0
 
     # Damage resistance provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
-    D:BerserkEmblemResistanceBoost=0.5
+    D:BerserkEmblemResistanceBoost=0.25
 
     # Movement speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
-    D:BerserkEmblemSpeedBoost=0.5
+    D:BerserkEmblemSpeedBoost=0.25
 
     # Active ability cooldown for Blazing Core. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 0, synchronized: yes]
     I:BlazingCoreCooldown=0
@@ -325,13 +325,13 @@
     B:CeaselessEnchantmentAllowNoArrow=true
 
     # Damage increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
-    I:CursedScrollDamageBoost=4
+    I:CursedScrollDamageBoost=3
 
     # Mining speed increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 7, synchronized: yes]
-    I:CursedScrollMiningBoost=7
+    I:CursedScrollMiningBoost=6
 
     # Health regeneration increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
-    I:CursedScrollRegenBoost=4
+    I:CursedScrollRegenBoost=3
 
     # The damage bonus stat provided by red Enigmatic Amulet. [range: -32768.0 ~ 32768.0, default: 1.5, synchronized: yes]
     D:EnigmaticAmuletDamageBonus=1.5
@@ -397,10 +397,10 @@
     D:EyeOfNebulaPhaseRange=32.0
 
     # Default chance to behead an enemy with Axe of Executioner. Defined as percentage. [range: 0 ~ 100, default: 10, synchronized: yes]
-    I:ForbiddenAxeBeheadingBase=10
+    I:ForbiddenAxeBeheadingBase=30
 
     # Bonus percantage to beheading chance from each Looting level applied to Axe of Executioner. [range: 0 ~ 100, default: 5, synchronized: yes]
-    I:ForbiddenAxeBeheadingBonus=5
+    I:ForbiddenAxeBeheadingBonus=10
 
     # How much should be subtracted from regeneration of player who have consumed The Forbidden Fruit.  [range: 0 ~ 100, default: 80, synchronized: yes]
     I:ForbiddenFruitRegenerationSubtraction=80
@@ -502,7 +502,7 @@
     B:SuperMagnetRingSound=false
 
     # Attack damage of The Twist, actual damage shown in tooltip will be is 1 + this_value. [range: 0.0 ~ 32768.0, default: 8.0, synchronized: yes]
-    D:TheTwistAttackDamage=8.0
+    D:TheTwistAttackDamage=9.0
 
     # Attack speed of The Twist. [range: -32768.0 ~ 32768.0, default: -1.8, synchronized: yes]
     D:TheTwistAttackSpeed=-1.8
