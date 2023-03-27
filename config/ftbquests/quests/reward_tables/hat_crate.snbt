@@ -47,16 +47,6 @@
 		}
 		{
 			item: {
-				id: "usefulhats:halo"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
 				id: "usefulhats:lucky_hat"
 				Count: 1b
 				tag: {
@@ -686,6 +676,14 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [ ]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
 			}
 			weight: 40
 		}
@@ -706,6 +704,11 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
 			weight: 4
 		}
@@ -715,6 +718,11 @@
 				Count: 1b
 				tag: {
 					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
 				}
 			}
 			weight: 40
@@ -737,6 +745,11 @@
 					Damage: 0
 					display: {
 						Name: "[{\"text\":\"Strange \",\"color\":\"gold\",\"italic\":\"false\"},{\"translate\":\"item.quark.forgotten_hat\"}]"
+					}
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
 					}
 				}
 			}
