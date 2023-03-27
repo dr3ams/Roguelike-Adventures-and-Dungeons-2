@@ -7,48 +7,29 @@
 		{ item: "aquaculture:lockbox", count: 4 }
 		{
 			item: {
-				id: "ftbquests:lootcrate"
+				id: "minecraft:gunpowder"
 				Count: 1b
-				tag: {
-					type: "uncommon_loot_crate"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
 				}
 			}
+			count: 8
 		}
-		{ item: "minecraft:iron_ore", random_bonus: 5 }
+		{ item: "minecraft:book", count: 4 }
 		{
 			item: {
-				id: "ftbquests:lootcrate"
+				id: "minecraft:slime_ball"
 				Count: 1b
-				tag: {
-					type: "common_loot_crate"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
 				}
 			}
+			count: 8
 		}
-		{
-			item: {
-				id: "ftbquests:lootcrate"
-				Count: 1b
-				tag: {
-					type: "materials_random"
-				}
-			}
-		}
-		{ item: "minecraft:gunpowder", count: 16 }
-		{ item: "minecraft:clay_ball", count: 32 }
-		{ item: "minecraft:ink_sac", count: 16 }
-		{ item: "minecraft:book", count: 16 }
-		{ item: "minecraft:slime_ball", count: 16 }
-		{ item: "minecraft:llama_spawn_egg" }
-		{ item: "minecraft:donkey_spawn_egg" }
-		{ item: "minecraft:cow_spawn_egg" }
-		{ item: "minecraft:chicken_spawn_egg" }
-		{ item: "minecraft:bee_spawn_egg" }
-		{ item: "minecraft:sheep_spawn_egg" }
-		{ item: "minecraft:wolf_spawn_egg" }
-		{ item: "minecraft:sand", count: 64 }
-		{ item: "randomite:randomite_ore", count: 3 }
-		{ item: "kubejs:diamond_nugget", count: 3 }
-		{ item: "kubejs:emerald_nugget", count: 3 }
 		{
 			item: {
 				id: "byg:therium_crystal"
@@ -59,7 +40,69 @@
 					}
 				}
 			}
-			count: 16
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:snow_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:feather"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:cactus"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:water_bucket"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			title: "Blossom Saplings"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "blossom_saplings"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 		}
 	]
 }

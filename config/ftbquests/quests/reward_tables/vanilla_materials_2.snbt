@@ -1,0 +1,123 @@
+{
+	id: "55D384A98A6F5F98"
+	order_index: 66
+	title: "Vanilla Materials 2"
+	icon: "minecraft:ender_pearl"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "minecraft:leather"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+			weight: 4
+		}
+		{
+			item: {
+				id: "minecraft:slime_ball"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+			weight: 2
+		}
+		{
+			item: {
+				id: "minecraft:ink_sac"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 32
+			weight: 4
+		}
+		{
+			item: {
+				id: "minecraft:bone"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 32
+			weight: 4
+		}
+		{
+			item: {
+				id: "minecraft:ender_pearl"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 2
+		}
+		{
+			item: {
+				id: "minecraft:prismarine_crystals"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+			weight: 2
+		}
+		{
+			item: {
+				id: "minecraft:prismarine_shard"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+			weight: 4
+		}
+		{
+			item: {
+				id: "minecraft:bamboo"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 4
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "vanilla_materials_2"
+	}
+}

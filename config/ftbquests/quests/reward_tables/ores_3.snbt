@@ -1,0 +1,113 @@
+{
+	id: "1ED299D9AC59B876"
+	order_index: 73
+	title: "Ores 3"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:gold_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 64
+			random_bonus: 64
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:emerald"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 64
+			random_bonus: 64
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:redstone"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 64
+			random_bonus: 64
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:lapis_lazuli"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 64
+			random_bonus: 64
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:diamond"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+			random_bonus: 8
+			weight: 3
+		}
+		{
+			item: {
+				id: "minecraft:netherite_scrap"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			random_bonus: 1
+		}
+		{
+			item: {
+				id: "randomite:randomite_ore"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 32
+			random_bonus: 16
+			weight: 5
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "ores_3"
+	}
+}

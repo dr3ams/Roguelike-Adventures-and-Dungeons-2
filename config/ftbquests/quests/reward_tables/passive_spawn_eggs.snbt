@@ -1,0 +1,118 @@
+{
+	id: "35069265E6114489"
+	order_index: 65
+	title: "Spawn Eggs 1"
+	icon: "minecraft:sheep_spawn_egg"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "minecraft:sheep_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:pig_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:cow_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chicken_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:llama_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:donkey_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:bee_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:wolf_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:squid_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "passive_spawn_eggs"
+	}
+}

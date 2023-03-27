@@ -1,0 +1,131 @@
+{
+	id: "3AB88D93F3A690BF"
+	order_index: 64
+	title: "Junk 1"
+	icon: "kubejs:emerald_nugget"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "kubejs:emerald_nugget"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "kubejs:diamond_nugget"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "aquaculture:box"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 10
+		}
+		{
+			title: "Random Dyes"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "random_dyes"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "mysticalworld:copper_nugget"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 10
+		}
+		{
+			item: {
+				id: "mysticalworld:copper_dust"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "quark:clear_shard"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "kubejs:copper_coin"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:coarse_dirt"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 5
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "duds1"
+	}
+}

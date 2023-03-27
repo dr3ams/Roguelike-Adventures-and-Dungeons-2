@@ -1,0 +1,158 @@
+{
+	id: "0B940E9B450494C0"
+	order_index: 81
+	title: "Food 4"
+	icon: {
+		id: "pickletweaks:diamond_apple"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:golden_apple"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+			random_bonus: 16
+			weight: 100
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_golden_apple"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+			random_bonus: 2
+			weight: 90
+		}
+		{
+			item: {
+				id: "pickletweaks:diamond_apple"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 80
+		}
+		{
+			item: {
+				id: "farmersdelight:honey_glazed_ham_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 14
+		}
+		{
+			item: {
+				id: "farmersdelight:shepherds_pie_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 14
+		}
+		{
+			item: {
+				id: "nethers_delight:stuffed_hoglin_item"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 14
+		}
+		{
+			item: {
+				id: "artifacts:eternal_steak"
+				Count: 1b
+				tag: {
+					Enchantments: [{
+						lvl: 4s
+						id: "uniqueutil:ambrosia"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "farmersdelight:roast_chicken_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 14
+		}
+		{
+			item: {
+				id: "farmersdelight:stuffed_pumpkin_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 14
+		}
+		{
+			item: {
+				id: "greekfantasy:ambrosia"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+			weight: 55
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "food_4"
+	}
+}

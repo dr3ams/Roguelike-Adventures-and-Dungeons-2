@@ -4,27 +4,100 @@
 	title: "Copper coin reward"
 	loot_size: 1
 	rewards: [
-		{ item: "aquaculture:box", count: 10 }
 		{
 			item: {
-				id: "ftbquests:lootcrate"
+				id: "minecraft:coal"
 				Count: 1b
-				tag: {
-					type: "common_loot_crate"
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
 				}
 			}
+			count: 4
 		}
-		{ item: "minecraft:coal", count: 16 }
-		{ item: "minecraft:clay_ball", count: 16 }
-		{ item: "minecraft:leather", count: 8 }
-		{ item: "minecraft:paper", count: 8 }
-		{ item: "minecraft:ink_sac", count: 8 }
-		{ item: "minecraft:bone", count: 8 }
-		{ item: "minecraft:sand", count: 32 }
-		{ item: "randomite:randomite_ore" }
+		{ item: "minecraft:clay_ball", count: 4 }
 		{
-			ftb_money: 10L
-			type: "ftbmoney:money"
+			item: {
+				id: "minecraft:leather"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+		}
+		{ item: "minecraft:ink_sac", count: 2 }
+		{
+			item: {
+				id: "minecraft:bone"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "minecraft:sand"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "aquaculture:box"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:flint"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:dirt"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
 		}
 	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "copper_coin_reward"
+	}
 }

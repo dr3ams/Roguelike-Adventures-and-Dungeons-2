@@ -1,0 +1,216 @@
+{
+	id: "3CF1A0860A8FFF87"
+	order_index: 80
+	title: "Enchanted Items"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Unbreaking 3"
+			item: {
+				id: "enigmaticlegacy:iron_ring"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					Enchantments: [{
+						lvl: 3s
+						id: "minecraft:unbreaking"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 40
+		}
+		{
+			title: "Efficiency 5"
+			item: {
+				id: "dungeons_gear:pickaxe"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					Damage: 0
+					Enchantments: [{
+						lvl: 5s
+						id: "minecraft:efficiency"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [ ]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
+			}
+			weight: 40
+		}
+		{
+			title: "Mending"
+			item: {
+				id: "roughtweaks:medkit_enchanted"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					Damage: 0
+					Enchantments: [{
+						lvl: 1s
+						id: "minecraft:mending"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 24
+		}
+		{
+			title: "Fortune 3"
+			item: {
+				id: "buzzier_bees:four_leaf_clover"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					Enchantments: [{
+						lvl: 3s
+						id: "minecraft:fortune"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 40
+		}
+		{
+			title: "Silk Touch"
+			item: {
+				id: "betterendforge:silk_fiber"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					Enchantments: [{
+						lvl: 1s
+						id: "minecraft:silk_touch"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 40
+		}
+		{
+			title: "Life-Mending 3"
+			item: {
+				id: "kubejs:heart-half"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					Enchantments: [{
+						lvl: 3s
+						id: "apotheosis:life_mending"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 14
+		}
+		{
+			title: "Ender Mending 3"
+			item: {
+				id: "minecraft:ender_eye"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					Enchantments: [{
+						lvl: 3s
+						id: "uniquee:ender_mending"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 6
+		}
+		{
+			title: "Socketed 3"
+			item: {
+				id: "kubejs:ring"
+				Count: 1b
+				tag: {
+					RadEnchants: { }
+					RepairCost: 1
+					Enchantments: [{
+						lvl: 3s
+						id: "radenchants:socketed"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 20
+		}
+		{
+			title: "Combo Star 6"
+			item: {
+				id: "kubejs:star"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					Enchantments: [{
+						lvl: 6s
+						id: "uniquee:combo_star"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:enchantment_transposer"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+			weight: 10
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "enchanted_books_4"
+	}
+}

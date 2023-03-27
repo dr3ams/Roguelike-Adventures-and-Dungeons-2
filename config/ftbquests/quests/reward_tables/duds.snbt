@@ -1,0 +1,150 @@
+{
+	id: "5F8A8B397A4985E5"
+	order_index: 63
+	title: "Junk 2"
+	icon: "kubejs:emerald_nugget"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "kubejs:diamond_nugget"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 3
+			weight: 20
+		}
+		{
+			item: {
+				id: "kubejs:emerald_nugget"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 3
+			weight: 20
+		}
+		{
+			item: {
+				id: "tombstone:dust_of_vanishing"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 20
+		}
+		{
+			item: {
+				id: "aquaculture:lockbox"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "minecraft:torch"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+			weight: 20
+		}
+		{
+			item: {
+				id: "minecraft:iron_nugget"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 16
+		}
+		{
+			item: {
+				id: "mysticalworld:iron_dust"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 10
+		}
+		{
+			item: {
+				id: "kubejs:iron_coin"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "quark:blank_rune"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "bountifulbaubles:gloves_digging_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 3s
+						id: "minecraft:unbreaking"
+					}]
+					itemModifier: "modifiers:hard"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "duds2"
+	}
+}

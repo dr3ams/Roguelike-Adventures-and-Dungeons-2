@@ -1,0 +1,130 @@
+{
+	id: "4402BA7FC530C3B1"
+	order_index: 86
+	title: "Spawn Eggs 3"
+	icon: {
+		id: "meetyourfight:bellringer_spawn_egg"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:villager_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+			weight: 100
+		}
+		{
+			item: {
+				id: "buddycards:spawn_egg_enderling"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+			weight: 100
+		}
+		{
+			item: {
+				id: "goblintraders:goblin_trader_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+			random_bonus: 2
+			weight: 30
+		}
+		{
+			item: {
+				id: "minecraft:wandering_trader_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+			random_bonus: 2
+			weight: 90
+		}
+		{
+			item: {
+				id: "greekfantasy:unicorn_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 100
+		}
+		{
+			item: {
+				id: "iceandfire:spawn_egg_lich"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 120
+		}
+		{
+			item: {
+				id: "iceandfire:spawn_egg_pixie"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 40
+		}
+		{
+			item: {
+				id: "goblintraders:vein_goblin_trader_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			random_bonus: 1
+			weight: 60
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "spawn_eggs_3"
+	}
+}

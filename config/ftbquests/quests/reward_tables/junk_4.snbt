@@ -1,0 +1,135 @@
+{
+	id: "667BC3654C37731A"
+	order_index: 79
+	title: "Junk 4"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "kubejs:diamond_nugget"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 256
+			weight: 10
+		}
+		{
+			item: {
+				id: "buddycards:buddysteel_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 20
+		}
+		{
+			item: {
+				id: "quark:blank_rune"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+			random_bonus: 4
+			weight: 20
+		}
+		{
+			item: {
+				id: "kubejs:diamond_coin"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "ars_nouveau:greater_experience_gem"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 64
+			weight: 10
+		}
+		{
+			item: {
+				id: "aquaculture:treasure_chest"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 10
+		}
+		{
+			item: {
+				id: "bountifulbaubles:gloves_digging_diamond"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}
+						{
+							lvl: 5s
+							id: "minecraft:efficiency"
+						}
+						{
+							lvl: 1s
+							id: "minecraft:mending"
+						}
+					]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 5
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "junk_4"
+	}
+}

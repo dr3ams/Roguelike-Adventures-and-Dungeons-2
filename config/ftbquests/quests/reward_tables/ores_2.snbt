@@ -1,0 +1,79 @@
+{
+	id: "61339CF7E948D6A0"
+	order_index: 68
+	title: "Ores 2"
+	icon: "randomite:randomite_ore"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "minecraft:lapis_lazuli"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "minecraft:redstone"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 32
+		}
+		{
+			item: {
+				id: "minecraft:iron_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "minecraft:gold_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "randomite:randomite_ore"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "ores_2"
+	}
+}

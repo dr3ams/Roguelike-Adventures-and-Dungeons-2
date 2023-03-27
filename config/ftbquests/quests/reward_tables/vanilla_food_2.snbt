@@ -1,0 +1,143 @@
+{
+	id: "05C8486A5C4DF2BE"
+	order_index: 67
+	title: "Food 2"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "minecraft:golden_apple"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "minecraft:golden_carrot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "minecraft:cake"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:cooked_chicken"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+			weight: 3
+		}
+		{
+			item: {
+				id: "minecraft:cooked_beef"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+			weight: 2
+		}
+		{
+			item: {
+				id: "minecraft:cod"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:salmon"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 5
+		}
+		{
+			item: {
+				id: "farmersdelight:honey_cookie"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 5
+		}
+		{
+			item: {
+				id: "simplefarming:cornbread"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+			weight: 3
+		}
+		{
+			item: {
+				id: "farmersdelight:fruit_salad"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "vanilla_food_2"
+	}
+}

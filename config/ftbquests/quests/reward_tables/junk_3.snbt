@@ -1,0 +1,145 @@
+{
+	id: "69CFEAD2C3F4F1B6"
+	order_index: 75
+	title: "Junk 3"
+	icon: "kubejs:diamond_nugget"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "kubejs:diamond_nugget"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 3
+		}
+		{
+			item: {
+				id: "kubejs:emerald_nugget"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 3
+		}
+		{
+			item: {
+				id: "buddycards:buddysteel_nugget"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 3
+		}
+		{
+			item: {
+				id: "aquaculture:box"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+			weight: 10
+		}
+		{
+			item: {
+				id: "aquaculture:lockbox"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:torch"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 64
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:cobblestone"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 64
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:gold_nugget"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 10
+		}
+		{
+			item: {
+				id: "mysticalworld:gold_dust"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "kubejs:gold_coin"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "junk_3"
+	}
+}

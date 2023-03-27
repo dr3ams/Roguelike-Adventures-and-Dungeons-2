@@ -3,61 +3,103 @@
 	order_index: 6
 	title: "Common loot crate"
 	loot_size: 1
+	use_title: true
 	rewards: [
-		{ item: "minecraft:spruce_log", count: 64 }
-		{ item: "minecraft:birch_log", count: 64 }
-		{ item: "minecraft:jungle_log", count: 64 }
-		{ item: "minecraft:carrot", count: 64 }
-		{ item: "minecraft:potato", count: 64 }
-		{ item: "minecraft:apple", count: 64 }
-		{ item: "minecraft:beef", count: 64 }
-		{ item: "minecraft:stone", count: 16 }
-		{ item: "minecraft:granite", count: 64 }
-		{ item: "minecraft:diorite", count: 64 }
-		{ item: "minecraft:andesite", count: 64 }
-		{ item: "minecraft:dirt", count: 64 }
-		{ item: "minecraft:grass_block", count: 16 }
 		{
+			title: "Logs"
 			item: {
 				id: "ftbquests:lootcrate"
 				Count: 1b
 				tag: {
-					type: "random_dyes"
+					type: "logs"
 				}
-			}
-		}
-		{ item: "minecraft:red_sand", count: 64 }
-		{ item: "minecraft:dark_oak_planks", count: 32 }
-		{ item: "minecraft:acacia_planks", count: 32 }
-		{ item: "minecraft:jungle_planks", count: 32 }
-		{ item: "minecraft:birch_planks", count: 32 }
-		{ item: "minecraft:spruce_planks", count: 32 }
-		{ item: "minecraft:oak_planks", count: 32 }
-		{ item: "minecraft:sand", count: 64 }
-		{ item: "minecraft:gravel", count: 64 }
-		{ item: "minecraft:flint", count: 32 }
-		{ item: "minecraft:lapis_lazuli", count: 16 }
-		{ item: "minecraft:paper", count: 16 }
-		{ item: "minecraft:clay_ball", count: 64 }
-		{ item: "minecraft:coal", count: 16 }
-		{ item: "minecraft:string", count: 32 }
-		{ item: "minecraft:oak_log", count: 64 }
-		{ item: "minecraft:dark_oak_log", count: 64 }
-		{ item: "minecraft:acacia_log", count: 64 }
-		{ item: "aquaculture:box" }
-		{ item: "kubejs:diamond_nugget" }
-		{ item: "kubejs:emerald_nugget" }
-		{
-			item: {
-				id: "minecraft:leather"
-				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
 			}
-			count: 5
+			weight: 6
+		}
+		{
+			title: "Food"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "vanilla_food"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 4
+		}
+		{
+			title: "Materials"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "vanilla_materials"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 6
+		}
+		{
+			title: "Blocks"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "filler_blocks"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 6
+		}
+		{
+			title: "Planks"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "planks"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 6
+		}
+		{
+			title: "Junk"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "duds1"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 4
 		}
 	]
 	loot_crate: {

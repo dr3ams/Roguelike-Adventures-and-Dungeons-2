@@ -1,0 +1,106 @@
+{
+	id: "45418DA21CE6B071"
+	order_index: 59
+	title: "Food 1"
+	icon: "minecraft:apple"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "minecraft:apple"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 2
+		}
+		{
+			item: {
+				id: "minecraft:carrot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 2
+		}
+		{
+			item: {
+				id: "minecraft:potato"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			weight: 2
+		}
+		{
+			item: {
+				id: "minecraft:beef"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "farmersdelight:cake_slice"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "farmersdelight:bacon"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "farmersdelight:cabbage"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "vanilla_food"
+	}
+}

@@ -1,0 +1,47 @@
+{
+	id: "542E1F952A0F7239"
+	order_index: 82
+	title: "Modifiers"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Modifiers (Armor)"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "modifiers_armor_"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			title: "Modifiers (Tools)"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "modifiers_tools_"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "modifiers"
+	}
+}

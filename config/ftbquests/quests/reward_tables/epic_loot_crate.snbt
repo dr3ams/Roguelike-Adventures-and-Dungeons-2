@@ -3,122 +3,119 @@
 	order_index: 12
 	title: "Epic loot crate"
 	loot_size: 1
+	use_title: true
 	rewards: [
 		{
+			title: "Ores 4"
 			item: {
-				id: "constructionwand:diamond_wand"
+				id: "ftbquests:lootcrate"
 				Count: 1b
 				tag: {
-					wand_options: { }
-					Damage: 0
+					type: "ores_4"
 				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 1s
-						id: "minecraft:mending"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 3s
-						id: "minecraft:fortune"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 3s
-						id: "minecraft:unbreaking"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 1s
-						id: "minecraft:silk_touch"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 5s
-						id: "minecraft:efficiency"
-					}]
-				}
-			}
-		}
-		{ item: "minecraft:emerald", count: 32 }
-		{ item: "minecraft:lapis_lazuli", count: 64 }
-		{ item: "minecraft:gold_ingot", count: 64 }
-		{ item: "minecraft:diamond", count: 16 }
-		{ item: "minecraft:iron_ingot", count: 64 }
-		{ item: "minecraft:netherite_ingot", count: 8 }
-		{ item: "randomite:randomite_ore", count: 8 }
-		{ item: "aquaculture:lockbox", count: 5 }
-		{ item: "minecraft:golden_apple", count: 3 }
-		{ item: "minecraft:glistering_melon_slice", count: 32 }
-		{
-			item: {
-				id: "quark:ancient_tome"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 3s
-						id: "minecraft:fortune"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "quark:ancient_tome"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 5s
-						id: "minecraft:efficiency"
-					}]
-				}
-			}
-		}
-		{ item: "aquaculture:treasure_chest", count: 10 }
-		{
-			item: {
-				id: "minecraft:enchanted_golden_apple"
-				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
 					}
 				}
 			}
+			weight: 50
+		}
+		{
+			title: "Junk 4"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "junk_4"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 10
+		}
+		{
+			title: "Food 4"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "food_4"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 30
+		}
+		{
+			title: "Vanilla Materials 4"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "vanilla_materials_4"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 30
+		}
+		{
+			title: "Enchanted Items"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "enchanted_books_4"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 70
+		}
+		{
+			title: "Modifiers"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "modifiers"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 100
+		}
+		{
+			title: "Spawn Eggs 3"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "spawn_eggs_3"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 80
 		}
 	]
 	loot_crate: {
