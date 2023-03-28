@@ -37,7 +37,7 @@
 		{
 			icon: "minecraft:potato"
 			x: 3.5d
-			y: 1.5d
+			y: 1.0d
 			description: [
 				"Eating a variety of nutrients with right balance will make you stronger and faster. Ignoring your nutritional balance can slow you down and weaken you."
 				"Hover over a food to see which nutrients it provides along with the total number of Nutritional Units (NUs)."
@@ -108,23 +108,15 @@
 			]
 		}
 		{
+			title: "Ore Excavation"
 			icon: "itemfilters:not"
 			x: 7.0d
 			y: 2.0d
-			subtitle: "Veinminer/OreExcavation alternative"
 			description: [
-				"- Renders white lines around blocks that will be mined."
-				"- You can also use hoe on grass in similar way to till multiple blocks at once."
-				"- Harvest crops by right-clicking on them"
+				"This pack has ore Excavation(or veinmining) feature that allows players to mine whole veins of ore or cut down whole trees in one go."
 				""
-				"Select a shape by holding shift and the grave key while scrolling the mouse scroll wheel."
-				"- Shapeless: No shape applied."
-				"- Small Tunnel: A 1x1 deep tunnel."
-				"- Small Square: A 3x3x1. (Depth of one. If you want a long 3x3 tunnel, you are probably better off digging 9 separate small tunnels.)"
-				"- Mining Tunnel: A 1x1 tunnel angled down. (You will need at least 3 of these to form stairs you can walk down.)"
-				"- Escape Tunnel: Same as the mining tunnel, but upward."
-				""
-				"Tip: Just remember to reset your shape to shapeless for clearing ore deposits or you will only mine the ores in the selected shape."
+				"Controls (you will likely need to change that):"
+				"` - (hold) excavate"
 			]
 			dependencies: ["518DF4A178673014"]
 			id: "143E7EB383FC8A60"
@@ -1130,8 +1122,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 1.0d
+			x: 4.0d
+			y: 2.0d
 			dependencies: ["01ECE22274DDE487"]
 			id: "45367EFC307FBA67"
 			tasks: [{
@@ -1369,8 +1361,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 3.0d
+			x: 2.5d
+			y: 3.5d
 			dependencies: ["45367EFC307FBA67"]
 			id: "568C31B3FDBED711"
 			tasks: [{
@@ -4640,6 +4632,53 @@
 				item: {
 					id: "kubejs:copper_coin"
 					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			subtitle: "Tool for mining plant material blocks in an AOE."
+			dependencies: ["45367EFC307FBA67"]
+			id: "1373B7572E3BC9FB"
+			tasks: [{
+				id: "1DECD733E8801CE6"
+				type: "item"
+				item: {
+					id: "pickletweaks:stone_sickle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			subtitle: "Tool for harvesting + replanting crops in an AOE."
+			description: ["Also works as a weapon with an attack AOE."]
+			dependencies: ["45367EFC307FBA67"]
+			id: "11EBCF28748DC535"
+			tasks: [{
+				id: "558AD22D7BA35017"
+				type: "item"
+				item: {
+					id: "pickletweaks:stone_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
