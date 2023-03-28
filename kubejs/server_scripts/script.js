@@ -215,6 +215,11 @@ event.remove({output: 'byg:pendorite_battleaxe'})
 event.remove({output: 'byg:pendorite_shovel'})
 event.remove({output: 'byg:pendorite_hoe'})
 event.remove({output: 'byg:pendorite_horse_armor'})
+
+//event.remove({output: 'vanillafoodpantry:rock_salt_ore'})
+//event.remove({output: 'vanillafoodpantry:rock_salt_ore_nether'})
+//event.remove({output: 'vanillafoodpantry:natron_ore'})
+//event.remove({output: 'vanillafoodpantry:trona_ore'})
 	
 event.remove({output: 'archers_paradox:phantasmal_arrow'})
 	

@@ -32,7 +32,7 @@
 	# Reduce this value to make the dungeons more common, increase it to make them more rare.
 	# Halving it will quadruple the amount of dungeons, doubling it would have the opposite effect.
 	#
-	#Range: 9 ~ 8192
+	#Range: 9 ~ 4096
 	spacing = 50
 	#----------------------------------------------------------------------------------------------------+
 	# The minimum distance between two adjacent dungeons in chunks. Has to be lower than the spacing!
@@ -40,7 +40,7 @@
 	# Generally, bigger values allow for less, and smaller values for more randomness.
 	# !! Has to be lower than the spacing! !!
 	#
-	#Range: 8 ~ 8191
+	#Range: 8 ~ 4095
 	separation = 32
 
 	["Dungeon Placement".Biomes]

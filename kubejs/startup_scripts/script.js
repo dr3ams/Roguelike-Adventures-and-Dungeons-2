@@ -121,6 +121,8 @@ event.create('scaling').displayName('Scaling')
 
 event.create('fox').displayName('ShadowFoxy Patreon Supporter Icon')
 event.create('kruscle').displayName('Kruscle Patreon Supporter Icon')
+event.create('plua').displayName('ShadowFoxy Patreon Supporter Icon')
+event.create('crankonator').displayName('Kruscle Patreon Supporter Icon')
 })
 onEvent('block.registry', event => {
 	// Register new blocks here
