@@ -1939,8 +1939,8 @@
 			]
 		}
 		{
-			x: 8.5d
-			y: 3.5d
+			x: 9.0d
+			y: 3.0d
 			dependencies: ["5F7DCF112F9F6C1C"]
 			id: "7B627325BF285247"
 			tasks: [{
@@ -1985,55 +1985,6 @@
 							}
 						}
 					}
-				}
-			]
-		}
-		{
-			x: 10.0d
-			y: 3.5d
-			dependencies: ["7B627325BF285247"]
-			id: "61C3073337692CB0"
-			tasks: [{
-				id: "595D4D6A61AEE825"
-				type: "item"
-				item: {
-					id: "extrabows:stone_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
-						itemHandlerData: {
-							Size: 4
-							Items: [ ]
-						}
-					}
-					ForgeCaps: {
-						Parent: {
-							handler: {
-								Size: 4
-								Items: [ ]
-							}
-							capacity: 30000
-							energy: 0
-						}
-						"dungeons_gear:bow": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "30727CC6CAB748EB"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-				{
-					id: "22DAB61C3DFAECD0"
-					type: "xp_levels"
-					xp_levels: 2
 				}
 			]
 		}
@@ -2145,55 +2096,6 @@
 			]
 		}
 		{
-			x: 13.0d
-			y: 3.5d
-			dependencies: ["49F006DDF1E894A8"]
-			id: "4A04F53F13D9B38E"
-			tasks: [{
-				id: "27D14A6C7E21C224"
-				type: "item"
-				item: {
-					id: "extrabows:diamond_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
-						itemHandlerData: {
-							Size: 4
-							Items: [ ]
-						}
-					}
-					ForgeCaps: {
-						Parent: {
-							handler: {
-								Size: 4
-								Items: [ ]
-							}
-							capacity: 30000
-							energy: 0
-						}
-						"dungeons_gear:bow": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "17D682BD102781DC"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-				{
-					id: "44A6C38714EC90FD"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-		}
-		{
 			x: 19.5d
 			y: -2.0d
 			dependencies: ["446936F80D06B8A4"]
@@ -2244,66 +2146,6 @@
 					id: "1D078DFDB0FDF5F6"
 					type: "ftbmoney:money"
 					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 14.5d
-			y: 3.5d
-			dependencies: ["4A04F53F13D9B38E"]
-			id: "3BF9B2CDF08346BE"
-			tasks: [{
-				id: "3ACB3D03AB546A2B"
-				type: "item"
-				item: {
-					id: "extrabows:emerald_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
-						itemHandlerData: {
-							Size: 4
-							Items: [ ]
-						}
-					}
-					ForgeCaps: {
-						Parent: {
-							handler: {
-								Size: 4
-								Items: [ ]
-							}
-							capacity: 30000
-							energy: 0
-						}
-						"dungeons_gear:bow": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "001E8DA1BAC84470"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-				{
-					id: "49A194C363EF8554"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "3C5BCFB2B3DD5FF1"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "ingots_basic"
-						}
-					}
 				}
 			]
 		}
@@ -2391,82 +2233,6 @@
 			]
 		}
 		{
-			x: 11.5d
-			y: 3.5d
-			dependencies: ["61C3073337692CB0"]
-			id: "49F006DDF1E894A8"
-			tasks: [{
-				id: "054ACC46704E8CA5"
-				type: "item"
-				item: {
-					id: "extrabows:iron_bow"
-					Count: 1b
-					tag: {
-						Damage: 0
-						itemHandlerData: {
-							Size: 4
-							Items: [ ]
-						}
-					}
-					ForgeCaps: {
-						Parent: {
-							handler: {
-								Size: 4
-								Items: [ ]
-							}
-							capacity: 30000
-							energy: 0
-						}
-						"dungeons_gear:bow": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "5FD5E3124FDD877B"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-				{
-					id: "264AEF44DAB02E6C"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "262B078D46B6E4D2"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_monsters"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 11.5d
-			y: 2.5d
-			dependencies: ["61C3073337692CB0"]
-			id: "01A65FF2D46381DB"
-			tasks: [{
-				id: "63EC16F351C31659"
-				type: "item"
-				item: "extrabows:upgrade_plate"
-			}]
-			rewards: [{
-				id: "69CA742020A0DABC"
-				type: "item"
-				item: "aquaculture:box"
-			}]
-		}
-		{
 			x: 7.0d
 			y: 4.0d
 			shape: "gear"
@@ -2501,8 +2267,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 4.5d
+			x: 10.0d
+			y: 3.5d
 			dependencies: ["7B627325BF285247"]
 			id: "05A4EC5F750582F2"
 			tasks: [{
@@ -2530,7 +2296,7 @@
 		}
 		{
 			title: "Preparing for the nether!"
-			x: 21.5d
+			x: 20.5d
 			y: -1.0d
 			description: [
 				"Nether portals now come in the form of Dimensional Rifts, which you'll find scattered deep underground. You'll have to find one of these Rifts in order to get to the Nether."
@@ -4021,31 +3787,6 @@
 			}]
 		}
 		{
-			x: 24.0d
-			y: -1.0d
-			shape: "octagon"
-			subtitle: "Enter the Nether!"
-			description: [
-				"For information on how to enter and exit the Nether, refer to the \"New nether portal mechanics\" quest in the \"Features | Mechanics\" chapter."
-				""
-				"For more nether related quest go to \"Nether Exploration\" chapter."
-			]
-			dependencies: ["1C7D1D2C57D866A2"]
-			size: 1.5d
-			id: "4DFF53E47185A474"
-			tasks: [{
-				id: "3F511FABA46A9D5C"
-				type: "advancement"
-				advancement: "minecraft:story/enter_the_nether"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "0F03878AFDFB2A1F"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
 			title: "Leap Of Faith"
 			x: 0.0d
 			y: 8.0d
@@ -4372,7 +4113,7 @@
 					}
 				}
 			}
-			x: 29.0d
+			x: 24.5d
 			y: -1.0d
 			subtitle: "Next chapter: End!"
 			description: ["You can find more quests for End dimension in 'End Exploration' chapter!"]
@@ -4395,7 +4136,7 @@
 			}]
 		}
 		{
-			x: 28.0d
+			x: 23.5d
 			y: -1.0d
 			description: [
 				"Gather needed materials in Nether and prepare yourself to enter The End dimension!"
@@ -4425,21 +4166,13 @@
 			}]
 		}
 		{
-			title: "Expert mode"
-			icon: {
-				id: "kubejs:skull2"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 26.0d
+			title: "What's next?"
+			icon: "kubejs:skull2"
+			x: 22.5d
 			y: -1.0d
 			subtitle: "Expert Mode starts when the first player kills the Wither"
 			description: ["For detailed explanation of new mechanics for Expert Mode visit \"Features | Mechanics\" chapter."]
-			dependencies: ["4DFF53E47185A474"]
+			dependencies: ["1C7D1D2C57D866A2"]
 			id: "07CCE1397519FEDA"
 			tasks: [{
 				id: "658E392E488348C7"
@@ -4461,7 +4194,7 @@
 					}
 				}
 			}
-			x: 31.0d
+			x: 25.5d
 			y: -1.0d
 			subtitle: "Master Mode starts when the first player kills the Ender Dragon."
 			description: ["For detailed explanation of new mechanics for Master Mode visit \"Features | Mechanics\" chapter."]
