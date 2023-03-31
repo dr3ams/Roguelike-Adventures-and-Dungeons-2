@@ -3284,14 +3284,15 @@
 			x: 0.0d
 			y: 1.0d
 			shape: "octagon"
+			subtitle: "Kill the Ender Dragon"
 			dependencies: ["3D208B95463DFD24"]
 			size: 2.0d
 			id: "211D755718A5FF50"
 			tasks: [{
-				id: "18960A1A3B8316E7"
-				type: "kill"
-				entity: "minecraft:ender_dragon"
-				value: 1L
+				id: "3AF5A8C3FFBAB64A"
+				type: "advancement"
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
 			}]
 			rewards: [
 				{
@@ -3359,6 +3360,39 @@
 				type: "item"
 				item: "majruszs_difficulty:golden_bandage"
 			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			subtitle: "Respawn the Ender Dragon"
+			dependencies: ["211D755718A5FF50"]
+			id: "1375943627C14039"
+			tasks: [{
+				id: "1FAD06BAB6DB6217"
+				type: "advancement"
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5770C9E7C960032F"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6B774F4F47F6FACD"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
 		}
 	]
 }

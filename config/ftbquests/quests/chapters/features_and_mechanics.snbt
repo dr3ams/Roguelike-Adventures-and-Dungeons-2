@@ -798,10 +798,10 @@
 			dependencies: ["577182F7C0C5B85B"]
 			id: "13FD3ACE5C674BD1"
 			tasks: [{
-				id: "6D379DD2E28FDD77"
-				type: "kill"
-				entity: "minecraft:ender_dragon"
-				value: 1L
+				id: "15A903EF1D063764"
+				type: "advancement"
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
 			}]
 			rewards: [
 				{
