@@ -425,7 +425,7 @@
 		#Can appear in Villager Trades
 		Trading = true
 		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
-		Incompatibilities = []
+		Incompatibilities = ["dungeons_gear:committed"]
 		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
 		#Range: 1 ~ 10
 		"Max Level" = 3
