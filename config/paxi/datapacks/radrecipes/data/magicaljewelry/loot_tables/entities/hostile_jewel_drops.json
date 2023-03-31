@@ -40,7 +40,8 @@
         },
 	  {
               "condition": "champions:entity_champion",
-              "entity": "this"
+              "entity": "this",
+	      "minTier": 3
         },
         {
           "condition": "minecraft:random_chance_with_looting",
