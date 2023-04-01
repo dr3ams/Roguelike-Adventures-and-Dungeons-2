@@ -49,7 +49,7 @@
 		}
 		{
 			title: "the §6§lC§6§lo§6§ln§6§lt§6§lr§6§li§6§lb§6§lu§6§lt§6§lo§6§lr"
-			x: -4.5d
+			x: -6.0d
 			y: 5.0d
 			shape: "hexagon"
 			subtitle: "Earned by completing the Feedback Form during beta."
@@ -122,7 +122,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -6.0d
 			y: 3.0d
 			shape: "hexagon"
 			subtitle: "Granted to users who helped develop the pack. Please do not impersonate developers by giving yourself this title."
@@ -255,7 +255,7 @@
 		}
 		{
 			title: "the §6§lP§f§la§6§lt§f§lr§6§lo§f§ln"
-			x: -4.5d
+			x: -6.0d
 			y: 4.0d
 			shape: "hexagon"
 			subtitle: "Granted to users who subscribe to dreams01 on Patreon."
@@ -302,7 +302,7 @@
 			title: "§4§kDO§r§4CURSED§kOM"
 			x: -3.0d
 			y: 3.0d
-			subtitle: "Wear the Ring of Seven the Curses"
+			subtitle: "Wear the Ring of Seven Curses"
 			optional: true
 			id: "7B90BE75C03FC842"
 			tasks: [{
@@ -361,6 +361,247 @@
 				id: "1F7A456E6C11FDC8"
 				type: "advancement"
 				advancement: "meetyourfight:main/dame_fortuna_kill"
+				criterion: ""
+			}]
+		}
+		{
+			title: "the Chef"
+			icon: {
+				id: "dungeons_mobs:chef_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [ ]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
+			}
+			x: 3.0d
+			y: 3.0d
+			subtitle: "Place a cooking pot and start your chef journey"
+			description: [""]
+			id: "4DA9BF75AA123CCC"
+			tasks: [{
+				id: "5CE16E8AF2837DF9"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_cooking_pot"
+				criterion: ""
+			}]
+		}
+		{
+			title: "the Seagull Magnet"
+			icon: {
+				id: "twilightforest:ore_magnet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.5d
+			y: 3.0d
+			subtitle: "Obtained by feeding a seagull"
+			description: [""]
+			id: "4C23F119C971EE8D"
+			tasks: [{
+				id: "3A44934BFAF90576"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/seagull_steal"
+				criterion: ""
+			}]
+		}
+		{
+			title: "the Chad"
+			x: -4.5d
+			y: 3.0d
+			subtitle: "Defeat the Warped Mosco and claim the title of Chad"
+			description: [""]
+			id: "2A973F38FD6E0B08"
+			tasks: [{
+				id: "7B1D271057BED93A"
+				type: "item"
+				item: {
+					id: "alexsmobs:spawn_egg_warped_mosco"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "the Assassin"
+			x: 6.0d
+			y: 3.0d
+			subtitle: "defeat an Assassin in Atum and gain the title for yourself"
+			description: [""]
+			id: "4803B7176940EDF9"
+			tasks: [{
+				id: "50D37FE907B9E0AC"
+				type: "advancement"
+				advancement: "atum:core/assassinassin"
+				criterion: ""
+			}]
+		}
+		{
+			title: "the Food Critic"
+			icon: {
+				id: "dungeons_mobs:wooden_ladle"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.0d
+			y: 4.0d
+			subtitle: "Give every dish from farmer's delight a taste to become the ultimate Food Critic"
+			description: [""]
+			id: "3F13F86497060869"
+			tasks: [{
+				id: "7D1FE4BDDB938965"
+				type: "advancement"
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+			}]
+		}
+		{
+			title: "the Dreamer"
+			x: -4.5d
+			y: 6.0d
+			subtitle: "Enter the dream dimension and get a RAD title"
+			id: "09908626ADFAD48F"
+			tasks: [{
+				id: "598BF46DB4AE8BF4"
+				type: "advancement"
+				advancement: "good_nights_sleep:dream/dream"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Herobrine's Bane"
+			x: -3.0d
+			y: 6.0d
+			subtitle: "Defeat Herobrine in the Nightmare dimension"
+			description: [""]
+			id: "7ABDB4D872CD85AF"
+			tasks: [{
+				id: "4CCEA9A64A09F393"
+				type: "advancement"
+				advancement: "good_nights_sleep:nightmare/kill_herobrine"
+				criterion: ""
+			}]
+		}
+		{
+			title: "the Dragonslayer"
+			x: -1.5d
+			y: 6.0d
+			subtitle: "Slay a dragon."
+			description: ["Pretty much everyone goes for this for some reason so you should get this one really quick"]
+			id: "4DA0C9352F8BBA87"
+			tasks: [{
+				id: "21537AE7C67D4471"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/kill_if_dragon"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			subtitle: "Relocate a full bee's nest with silk touch and become the keeper of bees"
+			id: "64344C1296F6BA6A"
+			tasks: [{
+				id: "16A5122A2DE6D314"
+				type: "advancement"
+				title: "the Beekeeper"
+				icon: {
+					id: "dungeons_gear:buzzy_nest"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				advancement: "minecraft:husbandry/silk_touch_nest"
+				criterion: ""
+			}]
+		}
+		{
+			title: "the Dendrologist"
+			icon: {
+				id: "twilightforest:minotaur_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.0d
+			y: 6.0d
+			subtitle: "Collect and Craft every type of block made of wood from the \"Unfinished\" Forest and question your life decisions"
+			id: "1628D6C6E5CB1CBB"
+			tasks: [{
+				id: "0BBB182F4D8BDDEC"
+				type: "advancement"
+				advancement: "twilightforest:arborist"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			subtitle: "Defeat the extremely rare Pied Piper and steal his title"
+			id: "7A6B7E410672A9BE"
+			tasks: [{
+				id: "31639C090BD00959"
+				type: "advancement"
+				advancement: "rats:rats/piper"
+				criterion: ""
+			}]
+		}
+		{
+			title: "the Noob"
+			x: 4.5d
+			y: 6.0d
+			subtitle: "Die two times in a row"
+			id: "28F38CEA8870B961"
+			tasks: [{
+				id: "4E17CA73423FFB12"
+				type: "advancement"
+				icon: {
+					id: "kubejs:skull3"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				advancement: "tombstone:adventure/chain_death"
 				criterion: ""
 			}]
 		}
