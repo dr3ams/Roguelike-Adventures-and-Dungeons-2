@@ -329,9 +329,9 @@
 				}
 			}]
 			rewards: [{
-				id: "3FF3B8837474CE11"
-				type: "ftbmoney:money"
-				ftb_money: 1L
+				id: "57675D43FA3C7B14"
+				type: "choice"
+				table_id: 8545390299491237994L
 			}]
 		}
 		{
@@ -1048,6 +1048,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6D6841BCBFD5DFA7"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
 		}
 		{
 			x: 1.0d
@@ -1068,11 +1073,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "1F7F9B10E6A9580D"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "7E14F20DCBEF043E"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "69A2EECF0E672EDF"
+					type: "xp"
+					xp: 250
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -1141,11 +1153,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "0796AC85F1B2CFCD"
-				type: "ftbmoney:money"
-				ftb_money: 1L
-			}]
+			rewards: [
+				{
+					id: "2CF91D7D474C01F1"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "11BE8E680671C822"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -1164,6 +1183,11 @@
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "153D3A065FE6A07B"
+				type: "ftbmoney:money"
+				ftb_money: 1L
 			}]
 		}
 		{
@@ -1188,6 +1212,167 @@
 				id: "1766B6C16B27375B"
 				type: "ftbmoney:money"
 				ftb_money: 1L
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			description: ["The Brass Lantern can only be obtained from Librarian Villagers. You cannot find it anywhere else, not even in JEI!"]
+			id: "60A8B8712FF18A56"
+			tasks: [{
+				id: "52E5BB0E259EFA4A"
+				type: "item"
+				item: {
+					id: "supplementaries:brass_lantern"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D9A082D571C2442"
+				type: "item"
+				title: "Dragonsteel?"
+				item: {
+					id: "citadel:fancy_item"
+					Count: 1b
+					tag: {
+						DisplayItem: "iceandfire:dragonsteel_fire_ingot"
+						display: {
+							Lore: ["{\"text\":\"Get pranked lol this isn't real\",\"color\":\"rainbow\"}"]
+							Name: "[{\"text\":\"Fake \",\"italic\":\"false\"},{\"translate\":\"item.iceandfire.dragonsteel_fire_ingot\"}]"
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "The Rarest Trader"
+			x: -3.0d
+			y: -7.0d
+			description: ["This guy is really hard to find, don't bother looking for him"]
+			optional: true
+			id: "3DC8CBEB83275A0B"
+			tasks: [{
+				id: "38C3277823F3A519"
+				type: "observation"
+				title: "Find the Red Merchant"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "supplementaries:red_merchant"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "supplementaries:red_merchant"
+			}]
+			rewards: [
+				{
+					id: "2EF02A260441E094"
+					type: "item"
+					item: {
+						id: "alexsmobs:fish_oil"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Lamp Oil\",\"italic\":\"false\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "173D306F672D8E1F"
+					type: "item"
+					item: {
+						id: "supplementaries:rope"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1A45B627BF4171A4"
+					type: "item"
+					item: {
+						id: "supplementaries:bomb"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "3D5D6FCEC80F0DA4"
+					type: "item"
+					item: {
+						id: "fins:spindly_ruby"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			description: ["Created with Amethyst in a fletching table, Amethyst arrows deal less damage than their normal counterparts but spread shards where it lands, dealing small area of effect damage."]
+			id: "2C7213DEBCA1DA76"
+			tasks: [{
+				id: "57B2186EBAD9855C"
+				type: "item"
+				item: {
+					id: "supplementaries:amethyst_arrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "218732916DEBA9E7"
+				type: "item"
+				item: {
+					id: "supplementaries:amethyst_arrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
 			}]
 		}
 	]
