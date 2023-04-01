@@ -230,4 +230,7 @@ event.hide('tropicraft:shaka_ore')
 event.hide('tropicraft:zircon_ore')
 
 event.hide('spawnermod:spawner_key')
+
+event.hide('apotheosis:iron_mining_arrow')
+event.hide('apotheosis:diamond_mining_arrow')
 })
