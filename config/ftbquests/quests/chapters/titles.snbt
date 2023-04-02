@@ -78,15 +78,7 @@
 				id: "11C10744446F9668"
 				type: "command"
 				title: "the §6§lC§6§lo§6§ln§6§lt§6§lr§6§li§6§lb§6§lu§6§lt§6§lo§6§lr"
-				icon: {
-					id: "titles:title_scroll_rare"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				icon: "titles:title_scroll_rare"
 				team_reward: false
 				command: "/titles add @p titles:feedbacker"
 				player_command: false
@@ -603,6 +595,49 @@
 				}
 				advancement: "tombstone:adventure/chain_death"
 				criterion: ""
+			}]
+		}
+		{
+			title: "the Tester"
+			icon: {
+				id: "supplementaries:wrench"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.0d
+			y: 6.0d
+			subtitle: "Granted to users who test RAD2 pre-release versions."
+			description: ["Best of us"]
+			optional: true
+			id: "290AB1813B3A9515"
+			tasks: [{
+				id: "1EDA9B202A8A35A2"
+				type: "custom"
+				title: "Test modpack pre-release"
+				icon: {
+					id: "supplementaries:wrench"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F290226068867C5"
+				type: "command"
+				title: "The Tester"
+				icon: "titles:title_scroll_rare"
+				team_reward: false
+				auto: "disabled"
+				command: "/titles add @p titles:tester"
+				player_command: false
 			}]
 		}
 	]
