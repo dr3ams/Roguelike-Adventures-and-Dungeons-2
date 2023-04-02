@@ -1,16 +1,22 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "emeraldite",
-  "pattern": [
-    " # ",
-    "###",
-    " # "
-  ],
-  "key": {
-    "#": {
-      "item": "villagertools:restock"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:gems/emerald"
+    },
+    {
+      "tag": "forge:gems/emerald"
+    },
+    {
+      "tag": "forge:gems/emerald"
+    },
+    {
+      "tag": "forge:gems/emerald"
+    },
+    {
+      "tag": "forge:gems/emerald"
     }
-  },
+  ],
   "result": {
     "item": "byg:emeraldite_shards",
     "count": 1
