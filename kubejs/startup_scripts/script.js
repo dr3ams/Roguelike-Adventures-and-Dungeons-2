@@ -53,9 +53,11 @@ event.create('diamond_coin').displayName('Diamond Coin').tooltip('Acquired from 
 event.create('netherite_coin').displayName('Netherite Coin').tooltip('Not yet implemented.')
 event.create('monster_coin').displayName('Monster Coin').tooltip('Acquired from spawner quests and defeating Tier 2, 3, 4, 5 & 6 Champions')
 event.create('nether_coin').displayName('Nether Coin').tooltip('Acquired from defeating Champions in the Nether')
+//event.create('end_coin').displayName('End Coin').tooltip('Acquired from defeating Champions in the End')
 
 event.create('diamond_nugget').displayName('Diamond Nugget')
 event.create('emerald_nugget').displayName('Emerald Nugget')
+event.create('emerald_ingot').displayName('Emerald Ingot')
   
 event.create('coin_01').displayName('Coin').tooltip('You can get these coins by selling valuable materials')
 event.create('coin_02').displayName('Couple of Coins').tooltip('You can get these coins by selling valuable materials')
