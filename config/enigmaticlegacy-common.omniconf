@@ -307,10 +307,10 @@
     D:BerserkEmblemDamageBoost=1.0
 
     # Damage resistance provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
-    D:BerserkEmblemResistanceBoost=0.25
+    D:BerserkEmblemResistanceBoost=0.3
 
     # Movement speed increase provided by Emblem of Bloodstained Valor for each missing percent of health. Measured as percentage. [range: 0.0 ~ 32768.0, default: 0.5, synchronized: yes]
-    D:BerserkEmblemSpeedBoost=0.25
+    D:BerserkEmblemSpeedBoost=0.3
 
     # Active ability cooldown for Blazing Core. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 0, synchronized: yes]
     I:BlazingCoreCooldown=0
@@ -325,13 +325,13 @@
     B:CeaselessEnchantmentAllowNoArrow=true
 
     # Damage increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
-    I:CursedScrollDamageBoost=3
+    I:CursedScrollDamageBoost=4
 
     # Mining speed increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 7, synchronized: yes]
-    I:CursedScrollMiningBoost=6
+    I:CursedScrollMiningBoost=7
 
     # Health regeneration increase provided by Scroll of a Thousand Curses for each curse, as percentage. [range: 0 ~ 32768, default: 4, synchronized: yes]
-    I:CursedScrollRegenBoost=3
+    I:CursedScrollRegenBoost=4
 
     # The damage bonus stat provided by red Enigmatic Amulet. [range: -32768.0 ~ 32768.0, default: 1.5, synchronized: yes]
     D:EnigmaticAmuletDamageBonus=1.5
@@ -502,7 +502,7 @@
     B:SuperMagnetRingSound=false
 
     # Attack damage of The Twist, actual damage shown in tooltip will be is 1 + this_value. [range: 0.0 ~ 32768.0, default: 8.0, synchronized: yes]
-    D:TheTwistAttackDamage=9.0
+    D:TheTwistAttackDamage=9.5
 
     # Attack speed of The Twist. [range: -32768.0 ~ 32768.0, default: -1.8, synchronized: yes]
     D:TheTwistAttackSpeed=-1.8
