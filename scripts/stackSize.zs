@@ -3,7 +3,6 @@
 <item:minecraft:potion>.setMaxStackSize(16);
 <item:minecraft:splash_potion>.setMaxStackSize(16);
 <item:minecraft:lingering_potion>.setMaxStackSize(16);
-<item:productivebees:sturdy_bee_cage>.setMaxStackSize(64);
 <item:titles:title_fragment>.setMaxStackSize(64);
 
 for allItems in game.items {
