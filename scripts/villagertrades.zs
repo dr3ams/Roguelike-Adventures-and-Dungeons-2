@@ -14,6 +14,12 @@ villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:minecraft:eme
 villagerTrades.removeEmeraldForItemsTrade(<profession:minecraft:fletcher>, 1, <item:minecraft:stick>.definition);
 villagerTrades.addTrade(<profession:minecraft:fletcher>, 1, 1, <item:spartanweaponry:arrow_wood> * 32, 16, 2, 0.05);
 
+villagerTrades.addTrade(<profession:morevillagers:oceanographer>, 1, <item:minecraft:emerald> * 1, <item:minecraft:prismarine_shard> * 2, 2, 5, 0.05);
+villagerTrades.removeItemsForEmeraldsTrade(<profession:morevillagers:oceanographer>, 1, <item:minecraft:sea_lantern>);
+
+villagerTrades.addTrade(<profession:morevillagers:enderian>, 3, <item:minecraft:emerald> * 1, <item:alexsmobs:enderiophage_rocket> * 8, 5, 10, 0.05);
+villagerTrades.removeItemsForEmeraldsTrade(<profession:morevillagers:enderian>, 3, <item:minecraft:firework_rocket>);
+
 villagerTrades.addTrade(<profession:minecraft:nitwit>, 1, <item:minecraft:emerald> * 1, <item:minecraft:dirt> * 4, 16, 2, 0.05);
 villagerTrades.addTrade(<profession:minecraft:nitwit>, 1, <item:minecraft:emerald> * 1, <item:minecraft:gravel> * 4, 16, 2, 0.05);
 villagerTrades.addTrade(<profession:minecraft:nitwit>, 1, <item:minecraft:emerald> * 1, <item:minecraft:wheat_seeds> * 4, 16, 2, 0.05);
