@@ -3,6 +3,17 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.registries.IRecipeManager;
 import crafttweaker.api.recipe.Replacer;
 
+//dungeons gear "why is a bat following me" annoying questions fix
+<item:dungeons_gear:spelunker_helmet>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+<item:dungeons_gear:spelunker_chestplate>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+<item:dungeons_gear:spelunker_leggings>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+<item:dungeons_gear:spelunker_boots>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+
+<item:dungeons_gear:cave_crawler_helmet>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+<item:dungeons_gear:cave_crawler_chestplate>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+<item:dungeons_gear:cave_crawler_leggings>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+<item:dungeons_gear:cave_crawler_boots>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+
 //fallback in case a mob spawns with it
 <item:blue_skies:debug_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "5dea655f-2321-4af0-8f17-a66e8ce6f0f4", "damage nerf", -1, MULTIPLY_TOTAL, [<equipmentslottype:mainhand>]);
 
