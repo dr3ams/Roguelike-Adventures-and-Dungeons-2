@@ -110,6 +110,16 @@ import crafttweaker.api.recipe.Replacer;
 <item:buddycards:perfect_buddysteel_shovel>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.05, ADDITION, [<equipmentslottype:mainhand>]);
 <item:buddycards:perfect_buddysteel_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.05, ADDITION, [<equipmentslottype:mainhand>]);
 
+//perfect buddysteel buff (Magic Damage & fortune)
+<item:buddycards:perfect_buddysteel_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "309220a7-861a-48f8-b601-4b85c503c890", "buddy luck", 0.5, ADDITION, [<equipmentslottype:head>]);
+<item:buddycards:perfect_buddysteel_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "8c68e6d5-5747-48ec-9ddb-d770902b981d", "buddy magic", 0.15, ADDITION, [<equipmentslottype:head>]);
+<item:buddycards:perfect_buddysteel_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "buddy luck", 0.5, ADDITION, [<equipmentslottype:chest>]);
+<item:buddycards:perfect_buddysteel_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "cad250f1-a55a-4170-90ea-7b2284a8d0e7", "buddy magic", 0.15, ADDITION, [<equipmentslottype:chest>]);
+<item:buddycards:perfect_buddysteel_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "d0bb4c83-92f3-415d-b7e0-be56feb74fae", "buddy luck", 0.5, ADDITION, [<equipmentslottype:legs>]);
+<item:buddycards:perfect_buddysteel_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "9e6249f2-0e9d-46b0-a0f1-988d910c048c", "buddy magic", 0.15, ADDITION, [<equipmentslottype:legs>]);
+<item:buddycards:perfect_buddysteel_boots>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "e1c53dc8-1188-4621-902f-f9de8f33ded6", "buddy luck", 0.5, ADDITION, [<equipmentslottype:feet>]);
+<item:buddycards:perfect_buddysteel_boots>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "cba394eb-e251-43f9-b4b8-6439c95bec51", "buddy magic", 0.15, ADDITION, [<equipmentslottype:feet>]);
+
 //forbidden axe buff (Smite damage, Souls, Lifesteal)
 <item:enigmaticlegacy:forbidden_axe>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:smite>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "undead smite bonus", 4, ADDITION, [<equipmentslottype:mainhand>]);
 <item:enigmaticlegacy:forbidden_axe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "execution soul harvest", 2, ADDITION, [<equipmentslottype:mainhand>]);
