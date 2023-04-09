@@ -276,15 +276,7 @@
 				id: "11E518256C81330E"
 				type: "command"
 				title: "the §6§lP§f§la§6§lt§f§lr§6§lo§f§ln"
-				icon: {
-					id: "titles:title_scroll_rare"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				icon: "titles:title_scroll_rare"
 				team_reward: false
 				command: "/titles add @p titles:patreon"
 				player_command: false

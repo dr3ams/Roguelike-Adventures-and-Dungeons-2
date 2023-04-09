@@ -2203,7 +2203,23 @@
 					id: "0D847F4E91F811D8"
 					type: "pmmo:skill"
 					skill: "mining"
-					requiredLevel: 10.0d
+					requiredLevel: 20.0d
+				}
+				{
+					id: "16EF934E7FC8DE9C"
+					type: "questsadditions:break"
+					icon: {
+						id: "minecraft:stone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					block: "minecraft:stone"
+					value: 250L
+					checkItem: false
 				}
 			]
 			rewards: [
@@ -2341,7 +2357,7 @@
 					id: "1D096012501701C9"
 					type: "pmmo:skill"
 					skill: "farming"
-					requiredLevel: 10.0d
+					requiredLevel: 15.0d
 				}
 			]
 			rewards: [
@@ -2501,7 +2517,13 @@
 					id: "2E47700E21977FD0"
 					type: "pmmo:skill"
 					skill: "combat"
-					requiredLevel: 10.0d
+					requiredLevel: 20.0d
+				}
+				{
+					id: "525F564998AE70A0"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 50L
 				}
 			]
 			rewards: [
@@ -2668,7 +2690,7 @@
 					id: "66C3A3A43E3B8631"
 					type: "pmmo:skill"
 					skill: "archery"
-					requiredLevel: 8.0d
+					requiredLevel: 30.0d
 				}
 			]
 			rewards: [
@@ -2831,7 +2853,7 @@
 					id: "76203B53471BF16D"
 					type: "pmmo:skill"
 					skill: "magic"
-					requiredLevel: 8.0d
+					requiredLevel: 16.0d
 				}
 			]
 			rewards: [
@@ -3040,6 +3062,12 @@
 					skill: "agility"
 					requiredLevel: 10.0d
 				}
+				{
+					id: "3DA9DEE22160663F"
+					type: "pmmo:skill"
+					skill: "swimming"
+					requiredLevel: 5.0d
+				}
 			]
 			rewards: [
 				{
@@ -3177,7 +3205,7 @@
 					id: "3573C91BF7CFBFDF"
 					type: "pmmo:skill"
 					skill: "agility"
-					requiredLevel: 10.0d
+					requiredLevel: 15.0d
 				}
 			]
 			rewards: [
@@ -3378,13 +3406,13 @@
 					id: "0EAC1933F7963572"
 					type: "pmmo:skill"
 					skill: "archery"
-					requiredLevel: 5.0d
+					requiredLevel: 15.0d
 				}
 				{
 					id: "38FF42ED78299F8B"
 					type: "pmmo:skill"
 					skill: "agility"
-					requiredLevel: 3.0d
+					requiredLevel: 10.0d
 				}
 			]
 			rewards: [
@@ -3555,13 +3583,13 @@
 					id: "519ABC56C5C924E6"
 					type: "pmmo:skill"
 					skill: "magic"
-					requiredLevel: 5.0d
+					requiredLevel: 10.0d
 				}
 				{
 					id: "302EBC5AC1B04FE9"
 					type: "pmmo:skill"
 					skill: "alchemy"
-					requiredLevel: 2.0d
+					requiredLevel: 5.0d
 				}
 			]
 			rewards: [
@@ -3777,7 +3805,13 @@
 					id: "0052526AEC9AAC84"
 					type: "pmmo:skill"
 					skill: "agility"
-					requiredLevel: 15.0d
+					requiredLevel: 20.0d
+				}
+				{
+					id: "17267B1D3B6F9DA4"
+					type: "pmmo:skill"
+					skill: "combat"
+					requiredLevel: 20.0d
 				}
 			]
 			rewards: [
@@ -3931,13 +3965,13 @@
 					id: "4852577B8B371079"
 					type: "pmmo:skill"
 					skill: "agility"
-					requiredLevel: 10.0d
+					requiredLevel: 20.0d
 				}
 				{
 					id: "04C43C0F33B9F9A9"
 					type: "pmmo:skill"
 					skill: "magic"
-					requiredLevel: 8.0d
+					requiredLevel: 15.0d
 				}
 			]
 			rewards: [
@@ -4086,8 +4120,14 @@
 					id: "285D301B6391A5FF"
 					type: "questsadditions:break"
 					block: "minecraft:stone"
-					value: 640L
+					value: 1280L
 					checkItem: false
+				}
+				{
+					id: "7FCF37CAE16B510C"
+					type: "pmmo:skill"
+					skill: "mining"
+					requiredLevel: 45.0d
 				}
 			]
 			rewards: [
@@ -4236,7 +4276,7 @@
 					id: "7306515762EBA772"
 					type: "pmmo:skill"
 					skill: "farming"
-					requiredLevel: 20.0d
+					requiredLevel: 30.0d
 				}
 			]
 			rewards: [
@@ -4389,7 +4429,13 @@
 					id: "571FC1F8AB3D9335"
 					type: "kill"
 					entity: "minecraft:zombie"
-					value: 100L
+					value: 200L
+				}
+				{
+					id: "48796F8B570BBFC9"
+					type: "kill"
+					entity: "minecraft:skeleton"
+					value: 50L
 				}
 			]
 			rewards: [
@@ -4541,7 +4587,13 @@
 					id: "46E462FC5E954E92"
 					type: "pmmo:skill"
 					skill: "archery"
-					requiredLevel: 25.0d
+					requiredLevel: 55.0d
+				}
+				{
+					id: "6C8A6EDA82F4B21B"
+					type: "advancement"
+					advancement: "minecraft:adventure/sniper_duel"
+					criterion: ""
 				}
 			]
 			rewards: [
@@ -4683,13 +4735,13 @@
 					id: "28ADBA223D9055DD"
 					type: "pmmo:skill"
 					skill: "magic"
-					requiredLevel: 15.0d
+					requiredLevel: 30.0d
 				}
 				{
 					id: "77AB69C81471391D"
 					type: "pmmo:skill"
 					skill: "alchemy"
-					requiredLevel: 5.0d
+					requiredLevel: 10.0d
 				}
 			]
 			rewards: [
@@ -4938,6 +4990,12 @@
 					count: 16L
 					consume_items: true
 				}
+				{
+					id: "04FC480747C20CE8"
+					type: "pmmo:skill"
+					skill: "agility"
+					requiredLevel: 40.0d
+				}
 			]
 			rewards: [
 				{
@@ -5083,7 +5141,7 @@
 					id: "4FFAA05251EF3A60"
 					type: "pmmo:skill"
 					skill: "archery"
-					requiredLevel: 15.0d
+					requiredLevel: 30.0d
 				}
 				{
 					id: "7729F05C84004CA8"
@@ -5097,6 +5155,12 @@
 						}
 					}
 					count: 64L
+				}
+				{
+					id: "36599E4562A8488A"
+					type: "pmmo:skill"
+					skill: "agility"
+					requiredLevel: 15.0d
 				}
 			]
 			rewards: [
@@ -5238,6 +5302,12 @@
 					id: "73171AEABB4D03DF"
 					type: "pmmo:skill"
 					skill: "alchemy"
+					requiredLevel: 20.0d
+				}
+				{
+					id: "7530F623A83D1970"
+					type: "pmmo:skill"
+					skill: "magic"
 					requiredLevel: 15.0d
 				}
 			]
@@ -5396,13 +5466,19 @@
 					id: "7D272BCEB4AB9F5F"
 					type: "pmmo:skill"
 					skill: "endurance"
-					requiredLevel: 15.0d
+					requiredLevel: 30.0d
 				}
 				{
 					id: "3FD172AE8B6F2C3A"
 					type: "pmmo:skill"
 					skill: "combat"
-					requiredLevel: 20.0d
+					requiredLevel: 40.0d
+				}
+				{
+					id: "6FC702D450811FBE"
+					type: "pmmo:skill"
+					skill: "agility"
+					requiredLevel: 40.0d
 				}
 			]
 			rewards: [
@@ -5489,8 +5565,11 @@
 		{
 			title: "Beastmaster"
 			icon: {
-				id: "losttrinkets:dark_egg"
+				id: "spartanweaponry:lance_diamond"
 				Count: 1b
+				tag: {
+					Damage: 0
+				}
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -5527,30 +5606,16 @@
 					id: "5A756A7514668C57"
 					type: "pmmo:skill"
 					skill: "magic"
-					requiredLevel: 15.0d
+					requiredLevel: 25.0d
 				}
 				{
 					id: "41A6163FDD56AA61"
 					type: "pmmo:skill"
 					skill: "agility"
-					requiredLevel: 15.0d
+					requiredLevel: 30.0d
 				}
 			]
 			rewards: [
-				{
-					id: "605C30BD86D729B6"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "losttrinkets:dark_egg"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
 				{
 					id: "7064AE921A7CB508"
 					type: "item"
@@ -5600,6 +5665,36 @@
 							}
 						}
 					}
+				}
+				{
+					id: "38083DDA40547949"
+					type: "item"
+					item: {
+						id: "spartanweaponry:lance_diamond"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6530D68578B7C544"
+					type: "item"
+					item: {
+						id: "doggytalents:super_treat"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 10
 				}
 			]
 		}

@@ -1,0 +1,21 @@
+{
+	id: "049E8481065E0A67"
+	order_index: 95
+	title: "64 Rare Crates"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate"
+			Count: 1b
+			tag: {
+				type: "rare_loot_crate"
+			}
+			ForgeCaps: {
+				"dungeons_libraries:built_in_enchantments": {
+					BuiltInEnchantments: [ ]
+				}
+			}
+		}
+		count: 64
+	}]
+}
