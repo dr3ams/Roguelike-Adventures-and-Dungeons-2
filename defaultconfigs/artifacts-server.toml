@@ -26,7 +26,7 @@
 		#Affects how many times the player can jump with the bunny hoppers before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 10000
 		#Whether Bunny Hoppers should cancel fall damage
 		#Fall damage will still be reduced by the jump boost effect
 		should_cancel_fall_damage = true
@@ -95,7 +95,7 @@
 		#Affects how many times this item can be eaten before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 10000
 		#Cooldown (in ticks) before the item can be eaten again
 		#Range: > 0
 		cooldown = 300
@@ -107,7 +107,7 @@
 		#Affects how many times this item can be eaten before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 10000
 		#Cooldown (in ticks) before the item can be eaten again
 		#Range: > 0
 		cooldown = 300
@@ -158,7 +158,7 @@
 		#Affects how many enemies can be killed using the golden hook
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 10000
 		#Affects the amount of recently killed entities to track
 		#The amount of extra experience gained from using the golden hook depends on the last x amount of entities killed
 		#The fewer entities of the same type recently killed, the more experience is dropped
@@ -186,11 +186,11 @@
 		#Affects how many seconds the player can fly using the helium flamingo before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 10000
 		#The maximum amount of time (in ticks) a player can fly using the helium flamingo
 		#Set to 0 to allow swimming indefinitely
 		#Range: > 0
-		max_flight_time = 150
+		max_flight_time = 100
 		#The amount of time (in ticks) it takes for the helium flamingo to recharge
 		#Range: > 0
 		recharge_time = 300
@@ -205,7 +205,7 @@
 		#Affects how many blocks can be broken using the lucky scarf
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 7777
 		#Fortune bonus applied by the lucky scarf
 		#Range: > 0
 		fortune_bonus = 1
@@ -214,7 +214,7 @@
 		#Affects how many seconds the night vision effect should apply before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 10000
 
 	[items.novelty_drinking_hat]
 		#Affects how many items the player can drink using the drinking hat before breaking
@@ -293,7 +293,7 @@
 		#Affects how many seconds the invisibility effect should apply before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 5000
 
 	[items.shock_pendant]
 		#Affects how many times the pendant's effect can be applied before breaking
@@ -320,7 +320,7 @@
 		#Affects how many enemies can be killed using the superstitious hat
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 10000
 		#Looting bonus applied by the superstitious hat
 		#Range: > 0
 		looting_bonus = 1
