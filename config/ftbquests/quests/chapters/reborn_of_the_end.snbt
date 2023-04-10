@@ -472,33 +472,6 @@
 			]
 		}
 		{
-			icon: "betterendforge:end_lily_leaf"
-			x: -3.0d
-			y: -4.5d
-			description: ["Deep lakes in the nether filled with End Lotus flowers."]
-			dependencies: ["3697C11949A0A907"]
-			id: "783082B8C8FB9061"
-			tasks: [{
-				id: "28BD9EBD8925D2CE"
-				type: "biome"
-				title: "Megalake"
-				icon: "betterendforge:end_lily_leaf"
-				biome: "betterendforge:megalake"
-			}]
-			rewards: [
-				{
-					id: "3848D941F1F185B3"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "4D209F46905C5E0F"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
 			x: -2.0d
 			y: -6.0d
 			description: ["Megalakes but with Lacugrove trees and various flowers. May seem to be a more like a grassland than a lake."]
@@ -648,7 +621,7 @@
 			]
 		}
 		{
-			x: 3.0d
+			x: -3.0d
 			y: -4.5d
 			description: ["A vibrant orange land with thick ground cover and large Helix trees."]
 			dependencies: ["3697C11949A0A907"]
@@ -804,8 +777,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -3.5d
+			x: 3.0d
+			y: -4.5d
 			description: ["Mountainous islands that have large rainbow Aurora Crystal formations."]
 			dependencies: ["3697C11949A0A907"]
 			id: "742FA17F32B5562D"
@@ -830,7 +803,7 @@
 			]
 		}
 		{
-			x: 4.0d
+			x: 3.0d
 			y: -2.5d
 			description: ["Mining Aurora Crystal will give you shards that are infused with a mythical energy that pulses through the End."]
 			dependencies: ["742FA17F32B5562D"]
@@ -2765,7 +2738,7 @@
 		}
 		{
 			x: 3.0d
-			y: -2.5d
+			y: -1.5d
 			dependencies: ["5E2DFA9A653F3619"]
 			id: "44246B5F76798F22"
 			tasks: [{

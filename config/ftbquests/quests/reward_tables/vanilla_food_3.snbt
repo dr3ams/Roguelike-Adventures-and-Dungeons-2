@@ -104,18 +104,6 @@
 		}
 		{
 			item: {
-				id: "berry_nice:goldenberrysack"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			count: 7
-		}
-		{
-			item: {
 				id: "minecraft:melon"
 				Count: 1b
 				ForgeCaps: {
@@ -126,6 +114,18 @@
 			}
 			count: 8
 			weight: 5
+		}
+		{
+			item: {
+				id: "berry_nice:goldensweetberry"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 60
 		}
 	]
 	loot_crate: {
