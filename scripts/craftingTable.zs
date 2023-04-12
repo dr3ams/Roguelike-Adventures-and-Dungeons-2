@@ -103,9 +103,6 @@ for allItems in game.items {
 
 craftingTable.removeByRegex("buddycards:.*_card_display");
 
-
-
-
-
-
-
+craftingTable.addShaped("mush_stem_feywild", <item:minecraft:mushroom_stem> * 4, 
+[[<item:enhanced_mushrooms:red_mushroom_stem>, <item:enhanced_mushrooms:red_mushroom_stem>],
+ [<item:enhanced_mushrooms:red_mushroom_stem>, <item:enhanced_mushrooms:red_mushroom_stem>]]);
