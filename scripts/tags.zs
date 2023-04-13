@@ -1,8 +1,18 @@
 #priority 11
+import crafttweaker.api.food.MCFood;
 
 <tag:blocks:twilightforest:portal/edge>.add(<block:byg:meadow_grass_block>);
 
 <tag:items:curios:charm>.remove(<item:storagenetwork:collector_remote>);
+
+for item in game.items {
+  if item.food != null && !(item in <tag:items:forge:food>)  {
+    var food = item.food as MCFood;
+    if food.healing >= 0 {
+      <tag:items:forge:food>.add(item);
+    }
+  }
+}
 
 <tag:items:forge:chef_upgrade_items>.add(
     <item:farmersdelight:vegetable_soup>,

@@ -2,25 +2,8 @@
   "type": "relics:relic_gen",
   "conditions": [
     {
-      "condition": "minecraft:alternative",
-      "terms": [
-        {
-          "condition": "forge:loot_table_id",
-          "loot_table_id": "minecraft:chests/stronghold_corridor"
-        },
-        {
-          "condition": "forge:loot_table_id",
-          "loot_table_id": "minecraft:chests/stronghold_crossing"
-        },
-        {
-          "condition": "forge:loot_table_id",
-          "loot_table_id": "minecraft:chests/stronghold_library"
-        },
-        {
-          "condition": "forge:loot_table_id",
-          "loot_table_id": "minecraft:chests/abandoned_mineshaft"
-        }
-      ]
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/end_city_treasure"
     },
     {
       "condition": "random_chance",

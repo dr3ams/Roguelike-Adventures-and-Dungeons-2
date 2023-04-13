@@ -9,19 +9,19 @@
 		nutrient_level_malnourished = 1.0
 		#Initial nutrient level for new player. (default:50.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		nutrient_initial = 70.0
+		nutrient_initial = 100.0
 		#Boundary between low and target, above which good affects can occur. (default:100.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		nutrient_level_low_target = 100.0
+		nutrient_level_low_target = 120.0
 		#Boundary between target and high, below which good affects can occur. (default:120.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		nutrient_level_target_high = 150.0
+		nutrient_level_target_high = 220.0
 		#Engorgement value, above which bad affects can occur.(default:170.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		nutrient_level_engorged = 190.0
+		nutrient_level_engorged = 280.0
 		#Maximum nutrient level. nutrients will cap out at this value no matter how much you eat. (default:180.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		nutrient_level_max = 200.0
+		nutrient_level_max = 300.0
 		#Nutrient Increment Rate - rate of nutrient increase relative to food saturation and points. (default:1.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
 		nutrient_increment_rate = 1.5
@@ -30,7 +30,7 @@
 		nutrient_decay_rate = 1.0
 		#Nutrient Loss On Death - number of nutrition point lost from each nutrient on death (bottoms out at initial value). (default:10.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		nutrient_death_loss = 5.0
+		nutrient_death_loss = 10.0
 		#Max NUs of each nutrient a food can contain. Helps prevent OP food mods from making it impossible to keep nutrients balanced. (default:20.0)
 		#Range: 1.0 ~ 1.7976931348623157E308
 		nutrient_max_food_value = 20.0
