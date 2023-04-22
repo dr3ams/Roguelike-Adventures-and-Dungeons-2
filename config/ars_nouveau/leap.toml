@@ -13,7 +13,7 @@
 	per_spell_limit = 2147483647
 	#Limits the number of times a given augment may be applied to a given effect
 	#Example entry: "amplify=5"
-	augment_limits = []
+	augment_limits = ["dampen=2"]
 	#Base knockup amount
 	#Range: 0.0 ~ 1.7976931348623157E308
 	knock_up = 1.5
