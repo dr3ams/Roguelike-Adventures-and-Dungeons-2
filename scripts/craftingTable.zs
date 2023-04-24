@@ -1,7 +1,7 @@
 
 craftingTable.removeRecipe(<item:berry_nice:goldensweetberry>);
 craftingTable.removeRecipe(<item:brewevolution:full_dried_bread>);
-//craftingTable.removeRecipe(<item:farmingforblockheads:market>);
+craftingTable.removeRecipe(<item:capsule:capsule>.withTag({overpowered: 1 as int, state: 0 as int, color: 16777215 as int, size: 1 as int}));
 craftingTable.removeRecipe(<item:usefulhats:wing_helmet>);
 craftingTable.removeRecipe(<item:usefulhats:straw_hat>);
 craftingTable.removeRecipe(<item:usefulhats:shulker_helmet>);
