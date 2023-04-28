@@ -58,30 +58,30 @@
 	updateInterval = 5
 	#Mana Boost value per level
 	#Range: > 0
-	manaBoost = 30
+	manaBoost = 40
 	#Regen bonus per potion level
 	#Range: > 0
 	potionRegen = 10
 	#Max mana bonus per glyph
 	#Range: > 0
-	glyphmax = 15
+	glyphmax = 20
 	#(enchantment) Mana regen per second per level
 	#Range: > 0
-	manaRegenEnchantment = 2
+	manaRegenEnchantment = 3.5
 	#Base max mana
 	#Range: > 0
 	baseMax = 100
 	#Regen bonus per glyph
 	#Range: 0.0 ~ 2.147483647E9
-	glyphRegen = 0.33
+	glyphRegen = 0.4
 
 [drygmy_production]
 	#How much mana drygmys consume per generation
 	#Range: 0 ~ 10000
-	drygmyManaCost = 1000
+	drygmyManaCost = 2500
 	#How many channels must occur before a drygmy produces loot
 	#Range: 0 ~ 300
-	drygmyMaxProgress = 20
+	drygmyMaxProgress = 60
 	#Bonus number of items a drygmy produces per unique mob
 	#Range: 0 ~ 300
 	drygmyUniqueBonus = 2
