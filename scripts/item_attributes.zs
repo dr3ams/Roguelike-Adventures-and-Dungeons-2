@@ -125,6 +125,11 @@ import crafttweaker.api.recipe.Replacer;
 <item:enigmaticlegacy:forbidden_axe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "execution soul harvest", 2, ADDITION, [<equipmentslottype:mainhand>]);
 <item:enigmaticlegacy:forbidden_axe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "execution life steal bonus", 0.05, ADDITION, [<equipmentslottype:mainhand>]);
 
+//unplaceable spawners
+<item:minecraft:spawner>.addGlobalAttributeModifier(<attribute:forge:reach_distance>, "a6f5182f-39e8-4f5d-9998-fc9ddf7c969f", "Unplaceable", -1, MULTIPLY_TOTAL, [<equipmentslottype:mainhand>]);
+<item:minecraft:spawner>.addGlobalAttributeModifier(<attribute:forge:reach_distance>, "b7f5182f-39e8-4f5d-9998-fc9ddf7c969f", "Unplaceable", -1, MULTIPLY_TOTAL, [<equipmentslottype:offhand>]);
+<item:minecraft:spawner>.addTooltip("Cannot be placed");
+
 //replace ender pearls with spirit orbs in gateway recipes excluding enderman gateways
 Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate_large>).excluding(<resource:gateways:enderman_gate>).excluding(<resource:gateways:enderman_gate_small>).replace(<item:minecraft:ender_pearl>, <item:paraglider:spirit_orb>).execute();
 Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate>).replace(<item:minecraft:ender_eye>, <item:cofh_core:ectoplasm>).execute();
