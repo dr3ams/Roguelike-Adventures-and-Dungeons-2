@@ -42,7 +42,7 @@ CTEventManager.register<MCRightClickItemEvent>((event) => {
 	
 	var canUse = true;
 	
-	if (stack.hasTag && stack.tag.contains("formerReaders")) {
+	if (stack.hasTag && (stack.tag as MapData).contains("formerReaders")) {
 		var nbtTag = stack.tag as MapData;
 		var formerReaders = nbtTag.getAt("formerReaders");
 		for reader in formerReaders.asList() {
