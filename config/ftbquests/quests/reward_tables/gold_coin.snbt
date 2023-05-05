@@ -1,0 +1,26 @@
+{
+	id: "291A883C3FD316F0"
+	order_index: 97
+	title: "gold coin"
+	icon: {
+		id: "kubejs:gold_coin"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "kubejs:gold_coin"
+			Count: 1b
+			ForgeCaps: {
+				"dungeons_libraries:built_in_enchantments": {
+					BuiltInEnchantments: [ ]
+				}
+			}
+		}
+	}]
+}

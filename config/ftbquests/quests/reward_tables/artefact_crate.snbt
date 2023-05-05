@@ -6,22 +6,76 @@
 	rewards: [
 		{ item: "artifacts:antidote_vessel", weight: 40 }
 		{ item: "artifacts:aqua_dashers", weight: 40 }
-		{ item: "artifacts:bunny_hoppers", weight: 40 }
+		{
+			item: {
+				id: "artifacts:bunny_hoppers"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
 		{ item: "artifacts:charm_of_sinking", weight: 40 }
 		{ item: "artifacts:cloud_in_a_bottle", weight: 40 }
 		{ item: "artifacts:cross_necklace", weight: 40 }
 		{ item: "artifacts:crystal_heart", weight: 40 }
 		{ item: "artifacts:digging_claws", weight: 40 }
-		{ item: "artifacts:everlasting_beef", weight: 40 }
+		{
+			item: {
+				id: "artifacts:everlasting_beef"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
 		{ item: "artifacts:feral_claws", weight: 40 }
 		{ item: "artifacts:fire_gauntlet", weight: 40 }
 		{ item: "artifacts:flame_pendant", weight: 40 }
 		{ item: "artifacts:flippers", weight: 40 }
-		{ item: "artifacts:golden_hook", weight: 40 }
-		{ item: "artifacts:helium_flamingo", weight: 40 }
+		{
+			item: {
+				id: "artifacts:golden_hook"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "artifacts:helium_flamingo"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
 		{ item: "artifacts:kitty_slippers", weight: 40 }
-		{ item: "artifacts:lucky_scarf", weight: 40 }
-		{ item: "artifacts:night_vision_goggles", weight: 40 }
+		{
+			item: {
+				id: "artifacts:lucky_scarf"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
+		{
+			item: {
+				id: "artifacts:night_vision_goggles"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
 		{ item: "artifacts:novelty_drinking_hat", weight: 40 }
 		{
 			item: {
@@ -51,11 +105,29 @@
 			weight: 40
 		}
 		{ item: "artifacts:running_shoes", weight: 40 }
-		{ item: "artifacts:scarf_of_invisibility", weight: 40 }
+		{
+			item: {
+				id: "artifacts:scarf_of_invisibility"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
 		{ item: "artifacts:shock_pendant", weight: 40 }
 		{ item: "artifacts:snorkel", weight: 40 }
 		{ item: "artifacts:steadfast_spikes", weight: 40 }
-		{ item: "artifacts:superstitious_hat", weight: 40 }
+		{
+			item: {
+				id: "artifacts:superstitious_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
 		{ item: "artifacts:thorn_pendant", weight: 40 }
 		{ item: "artifacts:umbrella", weight: 40 }
 		{ item: "artifacts:universal_attractor", weight: 40 }
