@@ -138,6 +138,17 @@ Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate>).replac
 craftingTable.removeByName(<resource:gateways:enderman_gate>);
 craftingTable.removeByName(<resource:gateways:enderman_gate_small>);
 
+//buffs to horse armors
+<item:minecraft:diamond_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 2, ADDITION, [<equipmentslottype:chest>]);
+
+<item:upgradednetherite:netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 3, ADDITION, [<equipmentslottype:chest>]);
+<item:upgradednetherite:netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, "a4b21eca-d3ca-3ecd-72a7-b2a5dbb53dc7", "Horse Knockback Resistance", 0.1, ADDITION, [<equipmentslottype:chest>]);
+
+<item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 3, ADDITION, [<equipmentslottype:chest>]);
+<item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, "a4b21eca-d3ca-3ecd-72a7-b2a5dbb53dc7", "Horse Knockback Resistance", 0.1, ADDITION, [<equipmentslottype:chest>]);
+<item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, "4108792f-c8be-47c8-b56b-2255269bde53", "Corrupted Horse Armor HP Reduction", -0.1, ADDITION, [<equipmentslottype:chest>]);
+<item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "4453815f-dba0-4554-8a5a-ad7c3c8b76123", "Corrupted Horse Armor Speed Boost", 0.5, MULTIPLY_BASE, [<equipmentslottype:chest>]);
+
 for allItems in game.items {
 
 	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:greatswords>) ) {
@@ -162,6 +173,11 @@ for allItems in game.items {
 
 	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:glaives>) ) {
 		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "a1780227-963c-4ada-bf81-14aa59b9fc30", "ReachFix", 1, ADDITION, [<equipmentslottype:mainhand>]);
+	    }
+
+	    if (allItems.getDefinition().isIn(<tag:items:upgradednetherite:upgraded_netherite_horse_armor>) ) {
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 3, ADDITION, [<equipmentslottype:chest>]);
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, "a4b21eca-d3ca-3ecd-72a7-b2a5dbb53dc7", "Horse Knockback Resistance", 0.1, ADDITION, [<equipmentslottype:chest>]);
 	    }
 
 }
