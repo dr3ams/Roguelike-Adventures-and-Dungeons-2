@@ -4,7 +4,7 @@
         "decorator": {
             "type": "minecraft:count",
             "config": {
-                "count": 100
+                "count": 120
             }
         },
         "feature": {
@@ -29,9 +29,9 @@
                             "type": "minecraft:ore",
                             "config": {
                                 "state": {
-                                    "Name": "minecraft:ancient_debris"
+                                    "Name": "minecraft:nether_gold_ore"
                                 },
-                                "size": 7,
+                                "size": 12,
                                 "target": {
                                     "predicate_type": "minecraft:block_match",
                                     "block": "minecraft:netherrack"
