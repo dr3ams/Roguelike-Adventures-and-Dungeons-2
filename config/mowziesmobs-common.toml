@@ -87,15 +87,15 @@
 	[tools_and_abilities.naga_fang_dagger]
 		#Duration in ticks of the poison effect (20 ticks = 1 second).
 		#Range: > 0
-		poison_duration = 80
+		poison_duration = 100
 		#Damage multiplier when attacking from behind
 		#Range: 0.0 ~ 1.7976931348623157E308
-		backstab_damage_mult = 3.0
+		backstab_damage_mult = 4.0
 
 		[tools_and_abilities.naga_fang_dagger.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_damage = 4.0
+			attack_damage = 4.5
 			#Tool attack speed
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed = 2.0
