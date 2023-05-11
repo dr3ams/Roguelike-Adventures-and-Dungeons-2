@@ -127,7 +127,16 @@
 		}
 		{ item: "artifacts:novelty_drinking_hat", weight: 40 }
 		{ item: "artifacts:plastic_drinking_hat", weight: 40 }
-		{ item: "artifacts:superstitious_hat", weight: 40 }
+		{
+			item: {
+				id: "artifacts:superstitious_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40
+		}
 		{ item: "artifacts:villager_hat", weight: 40 }
 		{
 			item: {

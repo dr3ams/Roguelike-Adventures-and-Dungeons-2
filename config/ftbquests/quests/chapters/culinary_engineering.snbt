@@ -1288,7 +1288,12 @@
 			]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "22A371ED8FFC7FFF"
+			tasks: [{
+				id: "30990B9237EB72DE"
+				type: "checkmark"
+			}]
 		}
 		{
 			title: "Two Slices of Bread and Anything"
@@ -1312,7 +1317,12 @@
 			]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "64725ADDE2ACEA50"
+			tasks: [{
+				id: "3229A5392A2D7686"
+				type: "checkmark"
+			}]
 		}
 		{
 			title: "All Around the World"
@@ -1340,7 +1350,12 @@
 			]
 			hide: true
 			size: 2.0d
+			optional: true
 			id: "2B31C2CFA31CBE7F"
+			tasks: [{
+				id: "584A90EC2B78BE57"
+				type: "checkmark"
+			}]
 		}
 		{
 			x: -13.5d
@@ -3737,20 +3752,17 @@
 		}
 		{
 			title: "Cakes and Pies"
-			icon: {
-				id: "simplefarming:strawberry_pie"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "simplefarming:strawberry_pie"
 			x: -15.75d
 			y: 29.5d
 			shape: "diamond"
 			size: 2.0d
+			optional: true
 			id: "7B4567B19E7932E0"
+			tasks: [{
+				id: "1F4F5FE91F864A05"
+				type: "checkmark"
+			}]
 		}
 		{
 			x: -13.5d
@@ -3861,20 +3873,17 @@
 		}
 		{
 			title: "Sweets n` Snacks"
-			icon: {
-				id: "supplementaries:candy"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "supplementaries:candy"
 			x: 10.75d
 			y: 22.5d
 			shape: "diamond"
 			size: 2.0d
+			optional: true
 			id: "48E60CAF8132889F"
+			tasks: [{
+				id: "0DB6AE2CC4AA6108"
+				type: "checkmark"
+			}]
 		}
 		{
 			x: 13.0d

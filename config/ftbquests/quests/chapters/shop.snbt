@@ -1365,7 +1365,7 @@
 			x: -8.0d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "placeholder quest"
+			subtitle: "Any 2 submissions will get you 1 coin"
 			min_required_tasks: 2
 			id: "13265E15534D4AAA"
 			tasks: [
@@ -1447,18 +1447,9 @@
 				}
 			]
 			rewards: [{
-				id: "77E7458E48FB9AA7"
-				type: "item"
-				auto: "enabled"
-				item: {
-					id: "kubejs:copper_coin"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "5E2631375645C47C"
+				type: "questsadditions:repeat"
+				table_id: 5718826963610781607L
 			}]
 		}
 		{
@@ -1466,7 +1457,7 @@
 			x: -4.0d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "placeholder quest"
+			subtitle: "Any 2 submissions will get you 1 coin"
 			min_required_tasks: 2
 			id: "1CE64EA211F879F0"
 			tasks: [
@@ -1559,17 +1550,9 @@
 				}
 			]
 			rewards: [{
-				id: "627033FE42962A71"
-				type: "item"
-				item: {
-					id: "kubejs:iron_coin"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "3DD49BC9700712F0"
+				type: "questsadditions:repeat"
+				table_id: 1032612325942029560L
 			}]
 		}
 		{
@@ -1577,7 +1560,7 @@
 			x: 0.0d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "placeholder quest"
+			subtitle: "Any 2 submissions will get you 1 coin"
 			min_required_tasks: 2
 			id: "7DC7F5C906814CE3"
 			tasks: [
@@ -1630,17 +1613,9 @@
 				}
 			]
 			rewards: [{
-				id: "7F7354CBFD819BDC"
-				type: "item"
-				item: {
-					id: "kubejs:gold_coin"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "27DCCBD5E65EA48A"
+				type: "questsadditions:repeat"
+				table_id: 2961829497299736304L
 			}]
 		}
 		{
@@ -1648,7 +1623,7 @@
 			x: 4.0d
 			y: 5.0d
 			shape: "rsquare"
-			subtitle: "placeholder quest"
+			subtitle: "Any 2 submissions will get you 1 coin"
 			min_required_tasks: 2
 			id: "5593274DC54B9937"
 			tasks: [
@@ -1745,30 +1720,14 @@
 				}
 			]
 			rewards: [{
-				id: "2257C83C7A4B3223"
-				type: "item"
-				item: {
-					id: "kubejs:diamond_coin"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "4BA2AB069700E839"
+				type: "questsadditions:repeat"
+				table_id: 4590487423188971105L
 			}]
 		}
 		{
-			title: "Diamond Coin -> Artifacts Crate"
-			icon: {
-				id: "artifacts:whoopee_cushion"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			title: "Gold Coin -> Artifacts Crate"
+			icon: "artifacts:whoopee_cushion"
 			x: 2.0d
 			y: 2.5d
 			id: "7A6654B7CF68E559"

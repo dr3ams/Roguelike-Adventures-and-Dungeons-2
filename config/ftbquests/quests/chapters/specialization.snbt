@@ -4824,6 +4824,9 @@
 			icon: {
 				id: "artifacts:golden_hook"
 				Count: 1b
+				tag: {
+					Damage: 0
+				}
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -4912,6 +4915,7 @@
 						id: "artifacts:golden_hook"
 						Count: 1b
 						tag: {
+							Damage: 0
 							itemModifier: "modifiers:fleeting"
 						}
 						ForgeCaps: {
