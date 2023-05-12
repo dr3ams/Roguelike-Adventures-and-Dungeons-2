@@ -70,7 +70,8 @@
 		}
 		{
 			x: -5.5d
-			y: -3.0d
+			y: -3.5d
+			dependencies: ["0B31940CA9D2174C"]
 			id: "44FA7602468F715F"
 			tasks: [{
 				id: "28DCB71CE4F09570"
@@ -85,7 +86,8 @@
 		}
 		{
 			x: 1.5d
-			y: -3.0d
+			y: -3.5d
+			dependencies: ["0B31940CA9D2174C"]
 			id: "5203A1A138F6C52B"
 			tasks: [{
 				id: "44EF93BF1F17E60B"
@@ -100,7 +102,8 @@
 		}
 		{
 			x: -2.0d
-			y: -3.0d
+			y: -3.5d
+			dependencies: ["0B31940CA9D2174C"]
 			id: "354818C177588C52"
 			tasks: [{
 				id: "03AD6BE87589A2D2"
@@ -114,8 +117,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.5d
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["0B31940CA9D2174C"]
 			id: "588B4B156084E534"
 			tasks: [{
 				id: "2EAA7A810A9849DF"
@@ -130,7 +134,8 @@
 		}
 		{
 			x: 8.5d
-			y: -3.0d
+			y: -3.5d
+			dependencies: ["0B31940CA9D2174C"]
 			id: "43CC5882023343EA"
 			tasks: [{
 				id: "730E98CDDACD6C66"
@@ -145,7 +150,8 @@
 		}
 		{
 			x: 5.0d
-			y: -3.0d
+			y: -3.5d
+			dependencies: ["0B31940CA9D2174C"]
 			id: "296ECB07D46243CA"
 			tasks: [{
 				id: "61F6C53C34BDEEDF"
@@ -161,6 +167,7 @@
 		{
 			x: -3.5d
 			y: 0.0d
+			description: ["This block has no GUI. To operate click on it with the input then continue clicking to slowly grind down the item."]
 			id: "0FA8AD42BF6007FD"
 			tasks: [{
 				id: "4F62BA7D685ED2D5"
@@ -184,6 +191,7 @@
 		{
 			x: -5.0d
 			y: 0.0d
+			description: ["This block has no GUI. To operate it click the top with the input ingredients and keep clicking till you see the side texture change. Once the side texture changes you can click the side to get the output."]
 			id: "6CE59E0F65B99584"
 			tasks: [{
 				id: "339F317311EC8EB9"
@@ -222,25 +230,53 @@
 		{
 			x: -6.5d
 			y: 0.0d
+			subtitle: "Forge of the Gods"
+			description: [
+				"With the Godforge and Nebu hammer you can recycle unwanted Godforged items."
+				""
+				"Simply fill the forge with lava and place any Godforged item into the forge and it will melt down to the corresponding shard."
+			]
 			id: "65776DFA812A6986"
-			tasks: [{
-				id: "61D754DCB9FAF09A"
-				type: "item"
-				item: "atum:godforge"
-			}]
-			rewards: [{
-				id: "583A7F35ED8D6085"
-				type: "item"
-				item: {
-					id: "aquaculture:treasure_chest"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "61D754DCB9FAF09A"
+					type: "item"
+					item: "atum:godforge"
+				}
+				{
+					id: "13CA3D6244FBBF5C"
+					type: "item"
+					item: {
+						id: "atum:nebu_hammer"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-			}]
+			]
+			rewards: [
+				{
+					id: "583A7F35ED8D6085"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "70F5CEC3892C0763"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -495,7 +531,7 @@
 		}
 		{
 			x: -6.5d
-			y: -4.0d
+			y: -4.5d
 			id: "01D1C691EC6EAE4C"
 			tasks: [{
 				id: "0F5F3CE12D50785F"
@@ -510,7 +546,7 @@
 		}
 		{
 			x: -4.5d
-			y: -4.0d
+			y: -4.5d
 			id: "0BCEA74C0808FAD8"
 			tasks: [{
 				id: "53E41BD659BF157E"
@@ -545,7 +581,7 @@
 		}
 		{
 			x: -5.0d
-			y: -6.0d
+			y: -6.5d
 			id: "1E2F726CC4ECF724"
 			tasks: [{
 				id: "74E516991A2ECA0A"
@@ -580,7 +616,7 @@
 		}
 		{
 			x: -6.0d
-			y: -6.0d
+			y: -6.5d
 			id: "184A34BF0798E81D"
 			tasks: [{
 				id: "4B689185439F9205"
@@ -615,7 +651,7 @@
 		}
 		{
 			x: -4.5d
-			y: -5.0d
+			y: -5.5d
 			id: "6606E3F1248DC4A5"
 			tasks: [{
 				id: "540D5E0B18D13358"
@@ -650,7 +686,7 @@
 		}
 		{
 			x: -6.5d
-			y: -5.0d
+			y: -5.5d
 			id: "679CB16B5DF3D016"
 			tasks: [{
 				id: "40237594E7990123"
@@ -685,7 +721,7 @@
 		}
 		{
 			x: -3.0d
-			y: -4.0d
+			y: -4.5d
 			id: "7667BFE44F69BFE9"
 			tasks: [{
 				id: "6D7346F1130252F4"
@@ -700,7 +736,7 @@
 		}
 		{
 			x: -1.0d
-			y: -4.0d
+			y: -4.5d
 			id: "16BA3A41907447B8"
 			tasks: [{
 				id: "4B2C62F1FD873AC7"
@@ -735,7 +771,7 @@
 		}
 		{
 			x: -3.0d
-			y: -5.0d
+			y: -5.5d
 			id: "242FF1AFF714FDE0"
 			tasks: [{
 				id: "1F6CE27AEC27C9A8"
@@ -770,7 +806,7 @@
 		}
 		{
 			x: -1.0d
-			y: -5.0d
+			y: -5.5d
 			id: "457BF5A4D78A70FC"
 			tasks: [{
 				id: "4EC8C601CC9AF74F"
@@ -805,7 +841,7 @@
 		}
 		{
 			x: -2.5d
-			y: -6.0d
+			y: -6.5d
 			id: "5A97A41D2C56DA31"
 			tasks: [{
 				id: "4722683C52689E85"
@@ -840,7 +876,7 @@
 		}
 		{
 			x: -1.5d
-			y: -6.0d
+			y: -6.5d
 			id: "3FC975909C4A51F0"
 			tasks: [{
 				id: "6CDB807D1EE8C650"
@@ -874,8 +910,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -2.5d
+			x: -0.5d
+			y: -1.0d
 			dependencies: ["588B4B156084E534"]
 			id: "7A5718AFBC7DE7CC"
 			tasks: [{
@@ -927,7 +963,7 @@
 		}
 		{
 			x: 2.5d
-			y: -4.0d
+			y: -4.5d
 			id: "0F535B520AA86577"
 			tasks: [{
 				id: "08F344C2A22A576E"
@@ -962,7 +998,7 @@
 		}
 		{
 			x: 0.5d
-			y: -4.0d
+			y: -4.5d
 			id: "5E96B592F5F63CBD"
 			tasks: [{
 				id: "5F8F33F00553EBF8"
@@ -977,7 +1013,7 @@
 		}
 		{
 			x: 0.5d
-			y: -5.0d
+			y: -5.5d
 			id: "1882DA1A8C96824C"
 			tasks: [{
 				id: "4E145E2E28EDE59B"
@@ -1012,7 +1048,7 @@
 		}
 		{
 			x: 2.5d
-			y: -5.0d
+			y: -5.5d
 			id: "23567C12FFA51D74"
 			tasks: [{
 				id: "34B8533CC1A35960"
@@ -1047,7 +1083,7 @@
 		}
 		{
 			x: 1.0d
-			y: -6.0d
+			y: -6.5d
 			id: "7EAB895C4146339D"
 			tasks: [{
 				id: "3823AB6B62582B6B"
@@ -1082,7 +1118,7 @@
 		}
 		{
 			x: 2.0d
-			y: -6.0d
+			y: -6.5d
 			id: "70E06E3EA6D6580E"
 			tasks: [{
 				id: "4C8057C4437B8388"
@@ -1117,7 +1153,7 @@
 		}
 		{
 			x: 4.0d
-			y: -4.0d
+			y: -5.5d
 			id: "469D217033B364B1"
 			tasks: [{
 				id: "64267FCA8C4A7E64"
@@ -1132,7 +1168,7 @@
 		}
 		{
 			x: 6.0d
-			y: -4.0d
+			y: -4.5d
 			id: "7034B6C72257E8DB"
 			tasks: [{
 				id: "13A1633439C69FFE"
@@ -1167,7 +1203,7 @@
 		}
 		{
 			x: 4.0d
-			y: -5.0d
+			y: -4.5d
 			id: "4D724A0C4A9435DF"
 			tasks: [{
 				id: "4DA074E1A505CF21"
@@ -1202,7 +1238,7 @@
 		}
 		{
 			x: 6.0d
-			y: -5.0d
+			y: -5.5d
 			id: "60024A6205AE28C9"
 			tasks: [{
 				id: "49DD0B8FED2A2A31"
@@ -1237,7 +1273,7 @@
 		}
 		{
 			x: 4.5d
-			y: -6.0d
+			y: -6.5d
 			id: "45C2FCA151CDF9C2"
 			tasks: [{
 				id: "6D75E8DA87335B26"
@@ -1272,7 +1308,7 @@
 		}
 		{
 			x: 5.5d
-			y: -6.0d
+			y: -6.5d
 			id: "7E13383BA7290593"
 			tasks: [{
 				id: "2D42EB910E8668D2"
@@ -1307,7 +1343,7 @@
 		}
 		{
 			x: 7.5d
-			y: -4.0d
+			y: -4.5d
 			id: "0399563A92B57346"
 			tasks: [{
 				id: "32EACA39AE8714D9"
@@ -1322,7 +1358,7 @@
 		}
 		{
 			x: 7.5d
-			y: -5.0d
+			y: -5.5d
 			id: "340C50F0DC60500B"
 			tasks: [{
 				id: "211D011497BE4397"
@@ -1357,7 +1393,7 @@
 		}
 		{
 			x: 8.0d
-			y: -6.0d
+			y: -6.5d
 			id: "2111C2B69395031A"
 			tasks: [{
 				id: "3D65735AD19F24E5"
@@ -1392,7 +1428,7 @@
 		}
 		{
 			x: 9.0d
-			y: -6.0d
+			y: -6.5d
 			id: "72B8966C744595E7"
 			tasks: [{
 				id: "2EBEC68F53553905"
@@ -1427,7 +1463,7 @@
 		}
 		{
 			x: 9.5d
-			y: -5.0d
+			y: -5.5d
 			id: "47F455DEAB2998CA"
 			tasks: [{
 				id: "25EFC9B41894EF08"
@@ -1462,7 +1498,7 @@
 		}
 		{
 			x: 9.5d
-			y: -4.0d
+			y: -4.5d
 			id: "474E2CC9D6598CE4"
 			tasks: [{
 				id: "0EF848353AAE9E5F"
@@ -3852,6 +3888,911 @@
 					}
 				}
 			}]
+		}
+		{
+			title: "Shard Collector"
+			x: -7.5d
+			y: 0.0d
+			description: ["Collect all the fragments of bygone power."]
+			dependencies: ["65776DFA812A6986"]
+			id: "15CF843E09C1AB15"
+			tasks: [
+				{
+					id: "79C032C0C63DF9A4"
+					type: "item"
+					item: {
+						id: "atum:anput_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "03B2C711314AA1C8"
+					type: "item"
+					item: {
+						id: "atum:anubis_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "61A33A4E3B3A1B6F"
+					type: "item"
+					item: {
+						id: "atum:geb_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5ADD45A2680E87E0"
+					type: "item"
+					item: {
+						id: "atum:horus_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "582A6760CB0D0FDC"
+					type: "item"
+					item: {
+						id: "atum:isis_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "044D9BD1E571E323"
+					type: "item"
+					item: {
+						id: "atum:montu_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "574D4776FF0C2091"
+					type: "item"
+					item: {
+						id: "atum:nepthys_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2243AD0E6F8D252F"
+					type: "item"
+					item: {
+						id: "atum:nuit_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1F816D6BAA99E5B8"
+					type: "item"
+					item: {
+						id: "atum:osiris_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7965BC38D688D833"
+					type: "item"
+					item: {
+						id: "atum:ptah_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7C5B6C0746A940F7"
+					type: "item"
+					item: {
+						id: "atum:ra_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "325835BFEA952B24"
+					type: "item"
+					item: {
+						id: "atum:seth_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0A2BDC3F9CA986F5"
+					type: "item"
+					item: {
+						id: "atum:shu_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "47DE0967B91A09A3"
+					type: "item"
+					item: {
+						id: "atum:tefnut_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7BE23BE6F64CF6B4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "25F95EF7E508A4BE"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "54C1301AD87D5539"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+			]
+		}
+		{
+			title: "Fragments of Godly Power"
+			x: -6.5d
+			y: -1.0d
+			subtitle: "Shatter their influience"
+			description: ["Used to craft a variety of items. The two most interesting being the Godforged blocks and the Torches of the Gods."]
+			dependencies: ["65776DFA812A6986"]
+			id: "6000A5327F9AB578"
+			tasks: [{
+				id: "143873241FA55999"
+				type: "item"
+				title: "Any #atum:godshards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "atum:godshards"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2158EC4A8365DE90"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			subtitle: "Remake that which was Broken"
+			description: [
+				"These blocks allow one to randomly gain a new Godforged item."
+				""
+				"The Deity of the item is determined by the type of block, with the normal Godforged block dropping any of the Godforged items"
+				""
+				"To do this simply place the Godforged block and then break it with the Nebu Hammer. Once broken you will gain a new Godforged item."
+			]
+			dependencies: ["6000A5327F9AB578"]
+			min_required_tasks: 1
+			id: "2C98D97E3EC5A3E5"
+			tasks: [
+				{
+					id: "3C5F2A2DB3B61940"
+					type: "item"
+					item: {
+						id: "atum:godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0EFA222B029A8C06"
+					type: "item"
+					item: {
+						id: "atum:anput_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1179CBA3584B0474"
+					type: "item"
+					item: {
+						id: "atum:anubis_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "70E0A411123CE4BD"
+					type: "item"
+					item: {
+						id: "atum:atem_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "54308F118AE32FDA"
+					type: "item"
+					item: {
+						id: "atum:geb_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1391FC11BED66828"
+					type: "item"
+					item: {
+						id: "atum:horus_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6141F5E1ABEB9128"
+					type: "item"
+					item: {
+						id: "atum:isis_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "59F19659D0606791"
+					type: "item"
+					item: {
+						id: "atum:montu_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5054F5562C434773"
+					type: "item"
+					item: {
+						id: "atum:nepthys_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5962EB97FDBE1D25"
+					type: "item"
+					item: {
+						id: "atum:nuit_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "58D244436AE89C35"
+					type: "item"
+					item: {
+						id: "atum:osiris_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6EA242D3809A565F"
+					type: "item"
+					item: {
+						id: "atum:ptah_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1784B7749D1676DF"
+					type: "item"
+					item: {
+						id: "atum:ra_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5ED2A6D0BE5D6C69"
+					type: "item"
+					item: {
+						id: "atum:seth_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "651F1F9EB2ECB159"
+					type: "item"
+					item: {
+						id: "atum:shu_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "719DDB981712F890"
+					type: "item"
+					item: {
+						id: "atum:tefnut_godforged_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1BA27CC7F99ECFF4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Torches of the Gods"
+			x: -6.5d
+			y: -2.0d
+			subtitle: "Invoke the Gods"
+			description: ["When used in place of the standard Nebu torches these will influence the type of Godforged item dropped by the awakened pharaoh to match that of the torches used."]
+			dependencies: ["6000A5327F9AB578"]
+			min_required_tasks: 1
+			id: "3744033B79896746"
+			tasks: [
+				{
+					id: "328D85E180F1CDF2"
+					type: "item"
+					item: {
+						id: "atum:torch_of_anput"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4872096B13DB1C6B"
+					type: "item"
+					item: {
+						id: "atum:torch_of_anubis"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1F59F6268AA98B84"
+					type: "item"
+					item: {
+						id: "atum:torch_of_atem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4EAD926B8801FB0F"
+					type: "item"
+					item: {
+						id: "atum:torch_of_geb"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "351D73C69485D79A"
+					type: "item"
+					item: {
+						id: "atum:torch_of_horus"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "257D2E8ACC4DA25F"
+					type: "item"
+					item: {
+						id: "atum:torch_of_isis"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1997CA99159EBF1B"
+					type: "item"
+					item: {
+						id: "atum:torch_of_montu"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2012CF1754E808C5"
+					type: "item"
+					item: {
+						id: "atum:torch_of_nepthys"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0888E551E8D16C7C"
+					type: "item"
+					item: {
+						id: "atum:torch_of_nuit"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2C1BC3D1A9C6B987"
+					type: "item"
+					item: {
+						id: "atum:torch_of_osiris"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3CD983D9EAA16B3D"
+					type: "item"
+					item: {
+						id: "atum:torch_of_ptah"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4C5550D8FE8A6EC2"
+					type: "item"
+					item: {
+						id: "atum:torch_of_ra"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "09A6CBB73C648261"
+					type: "item"
+					item: {
+						id: "atum:torch_of_seth"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6710E3EF238E5A86"
+					type: "item"
+					item: {
+						id: "atum:torch_of_shu"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3C38E6CE353EBF0D"
+					type: "item"
+					item: {
+						id: "atum:torch_of_tefnut"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5CECA19C8719F81F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "Desert Secrets"
+			icon: {
+				id: "atum:sarcophagus"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.0d
+			y: -2.0d
+			subtitle: "Long Since Forgotten"
+			description: ["These sealed structures resist all normal attempts at entry. Placing Nebu torches on these Quandary Blocks near the entrance will break the ancient seal."]
+			id: "70912EEE83C41996"
+			tasks: [
+				{
+					id: "7948015CFC088D89"
+					type: "structure"
+					title: "Find a Pyramid"
+					icon: {
+						id: "atum:sarcophagus"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					structure: "atum:pyramid"
+				}
+				{
+					id: "2F714BBBAC7D5C08"
+					type: "item"
+					item: {
+						id: "atum:nebu_torch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "6A1F3324485A5E63"
+					type: "observation"
+					title: "Observer Quandary Block"
+					icon: {
+						id: "atum:quandary_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 20L
+					observe_type: 0
+					to_observe: "atum:quandary_block"
+				}
+			]
+			rewards: [{
+				id: "453A2DF298580008"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			subtitle: "Shut Tight, Something Stirs"
+			description: ["Like entering the pyramid placing Nebu Torches on the Quandary blocks will break the seal and allow you to open the Sarcophagus."]
+			id: "3BFDA57DB43B29F1"
+			tasks: [
+				{
+					id: "0F545833DE64715B"
+					type: "observation"
+					title: "Obsever the Sarcophagus"
+					icon: {
+						id: "atum:sarcophagus"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					timer: 20L
+					observe_type: 0
+					to_observe: "atum:sarcophagus"
+				}
+				{
+					id: "6FBF1F2F8F550B6F"
+					type: "item"
+					item: {
+						id: "atum:nebu_torch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "29DD1366CF1EE8DE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Buried in the Sands"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Ancient Relics with a Glimmer Beneath"
+			description: [
+				"These relics need to be washed. To do so drop them carefully into water. (This also works dropping into a cauldron of water.)"
+				""
+				"Sometimes you may randomly fumble while washing them off and the item will be destroyed."
+			]
+			id: "0B31940CA9D2174C"
+			tasks: [
+				{
+					id: "52257DA5168CCE4F"
+					type: "item"
+					item: {
+						id: "atum:coin_dirty"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2DA4B83AA26892A5"
+					type: "item"
+					item: {
+						id: "atum:relic_dirty_idol"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7B835F4507136376"
+					type: "item"
+					item: {
+						id: "atum:relic_dirty_necklace"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "57678B2742C7A691"
+					type: "item"
+					item: {
+						id: "atum:relic_dirty_ring"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6D7987202786E5E3"
+					type: "item"
+					item: {
+						id: "atum:relic_dirty_brooch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3FBBF5B1722170BE"
+					type: "item"
+					item: {
+						id: "atum:relic_dirty_bracelet"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "28E1B74157FC9F09"
+					type: "item"
+					item: {
+						id: "atum:coin_dirty"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 10
+				}
+				{
+					id: "1755E31270AF469B"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 	]
 }
