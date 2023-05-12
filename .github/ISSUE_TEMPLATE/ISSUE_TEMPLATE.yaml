@@ -35,7 +35,7 @@ body:
   - type: input
     id: modpack-info
     attributes:
-      label: Modpack version
+      label: Modpack version (Do not say latest check curseforge has it on modpacks icon)
       placeholder: ex. 1.3
     validations:
       required: true
