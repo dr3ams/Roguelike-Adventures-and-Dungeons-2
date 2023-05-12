@@ -1924,6 +1924,7 @@
 			}]
 		}
 		{
+			title: "In-game recognition!"
 			icon: {
 				id: "minecraft:enchanted_golden_apple"
 				Count: 1b
@@ -1936,12 +1937,30 @@
 			x: 6.5d
 			y: 8.5d
 			subtitle: "Want custom icon/description/reward?"
-			description: ["Msg me (dreams) anywhere and we will arrange it!"]
+			description: [
+				"This quest chapter dedicated to all my Patreon supporters! They're the best people <3 and I can't thank them enough!"
+				""
+				"If you subbed and want a custom quest here - msg me (dreams) anywhere and we will arrange it!"
+			]
 			id: "5D04D87B47AD5904"
 			tasks: [{
-				id: "039F3C5B8DE2E5AA"
-				type: "checkmark"
-				title: "Custom?"
+				id: "3A2170CA50CDF17C"
+				type: "dimension"
+				title: "In-game recognition!"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "4BE326E74D7815B9"
+				type: "item"
+				item: {
+					id: "minecraft:apple"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -2326,6 +2345,86 @@
 				id: "07B07CFEF433DE44"
 				type: "checkmark"
 				title: "Crankonator"
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 9.0d
+			y: 1.5d
+			subtitle: "Azirium"
+			id: "7A610325B38FBDCE"
+			tasks: [{
+				id: "5B65CA1C06A8EF0D"
+				type: "checkmark"
+				title: "Azirium"
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.5d
+			y: -1.5d
+			subtitle: "Daveyk2004 "
+			id: "3AF1069E54F944B6"
+			tasks: [{
+				id: "2A7F5CA1375FA2FC"
+				type: "checkmark"
+				title: "Daveyk2004 "
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 9.5d
+			y: 4.5d
+			subtitle: "Lexi Lee-Ranson"
+			id: "2D87E1015058C944"
+			tasks: [{
+				id: "639BCE6C6A9156BE"
+				type: "checkmark"
+				title: "Lexi Lee-Ranson"
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 9.5d
+			y: 2.5d
+			subtitle: "Matthew rimmer"
+			id: "52D817A61031B5F0"
+			tasks: [{
+				id: "390ADC8F3A646107"
+				type: "checkmark"
+				title: "Matthew rimmer"
 			}]
 		}
 	]

@@ -57,7 +57,7 @@
 	#Points for zombie villager exorcism [0..50|default:3]
 	#Range: 0 ~ 50
 	points_exorcism_zombie_villager = 3
-	#Points for killing a villager (or minecolonies citizen) [-50..0|default:-3]
+	#Points for killing a villager [-50..0|default:-3]
 	#Range: -50 ~ 0
 	points_kill_villager = -3
 	#Points for killing a raider [0..20|default:1]
@@ -208,6 +208,8 @@
 	preserve_effects_on_return_end_conquered = true
 	#Allows to auto-equip the slots from Curio mod [false/true|default:true]
 	curio_auto_equip = true
+	#Allows to provide a magic book slot in Curio mod used to enchant with a soul [false/true|default:true]
+	curio_magic_book_support = true
 
 #For settings related to magic items
 [magic_item]
