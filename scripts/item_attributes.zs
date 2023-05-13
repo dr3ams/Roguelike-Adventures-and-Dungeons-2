@@ -20,6 +20,17 @@ import crafttweaker.api.recipe.Replacer;
 //bamboo spear damage nerf to 5
 <item:tropicraft:bamboo_spear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "5dea655f-2321-4af0-8f17-a66e8ce6f0f4", "damage nerf", -4, ADDITION, [<equipmentslottype:mainhand>]);
 
+//weighted lead + magic resistance
+<item:mysticalworld:lead_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "309220a7-861a-48f8-b601-4b85c503c890", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:head>]);
+<item:mysticalworld:lead_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:chest>]);
+<item:mysticalworld:lead_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "d0bb4c83-92f3-415d-b7e0-be56feb74fae", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:legs>]);
+<item:mysticalworld:lead_boots>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "e1c53dc8-1188-4621-902f-f9de8f33ded6", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:feet>]);
+
+<item:mysticalworld:lead_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "d42226ab-a863-4460-b4ae-3fb36a41189b", "lead armor magicres", 0.05, MULTIPLY_BASE, [<equipmentslottype:head>]);
+<item:mysticalworld:lead_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "6dceba43-18c8-4b9e-a4b3-fc2042d68e73", "lead armor magicres", 0.05, MULTIPLY_BASE, [<equipmentslottype:chest>]);
+<item:mysticalworld:lead_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "9bc73f25-95a3-4344-8ec3-44bb910b044a", "lead armor magicres", 0.05, MULTIPLY_BASE, [<equipmentslottype:legs>]);
+<item:mysticalworld:lead_boots>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "f6488f1b-af9a-4329-9714-28bdf64af63c", "lead armor magicres", 0.05, MULTIPLY_BASE, [<equipmentslottype:feet>]);
+
 //mystical world blessed attribute on ice and fire silver armor
 <item:iceandfire:armor_silver_metal_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "309220a7-861a-48f8-b601-4b85c503c890", "silver armor bless", 1, ADDITION, [<equipmentslottype:head>]);
 <item:iceandfire:armor_silver_metal_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "silver armor bless", 1, ADDITION, [<equipmentslottype:chest>]);
