@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"doubleslab": "minecraft:block/glass",
+		"particle": "block/glass"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 4, 16],
+			"faces": {
+				"north": {"uv": [0, 12, 16, 16], "texture": "#doubleslab"},
+				"east": {"uv": [0, 12, 16, 16], "texture": "#doubleslab"},
+				"south": {"uv": [0, 12, 16, 16], "texture": "#doubleslab"},
+				"west": {"uv": [0, 12, 16, 16], "texture": "#doubleslab"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#doubleslab"}
+			}
+		},
+		{
+			"from": [0, 4, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#doubleslab"},
+				"east": {"uv": [0, 0, 16, 4], "texture": "#doubleslab"},
+				"south": {"uv": [0, 0, 16, 4], "texture": "#doubleslab"},
+				"west": {"uv": [0, 0, 16, 4], "texture": "#doubleslab"}
+			}
+		},
+		{
+			"from": [0, 8, 0],
+			"to": [16, 12, 16],
+			"faces": {
+				"north": {"uv": [0, 12, 16, 16], "texture": "doubleslab"},
+				"east": {"uv": [0, 12, 16, 16], "texture": "#doubleslab"},
+				"south": {"uv": [0, 12, 16, 16], "texture": "#doubleslab"},
+				"west": {"uv": [0, 12, 16, 16], "texture": "#doubleslab"}
+			}
+		},
+		{
+			"from": [0, 12, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#doubleslab"},
+				"east": {"uv": [0, 0, 16, 4], "texture": "#doubleslab"},
+				"south": {"uv": [0, 0, 16, 4], "texture": "#doubleslab"},
+				"west": {"uv": [0, 0, 16, 4], "texture": "#doubleslab"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#doubleslab"}
+			}
+		}
+	]
+}
