@@ -17,24 +17,24 @@
 		#Range: 0 ~ 256
 		maxY = 116
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
+		dimensions = ["minecraft:overworld","twilightforest:twilightforest"]
 
 	#Tin ore generation.
 	[oregen.Tin_oregen]
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
-		oreChances = 4
+		oreChances = 5
 		#Max size of the vein.
 		#Range: 1 ~ 256
-		veinSize = 3
+		veinSize = 5
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
 		minY = 24
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
-		maxY = 58
+		maxY = 62
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
+		dimensions = ["minecraft:overworld","twilightforest:twilightforest"]
 
 	#Silver ore generation.
 	[oregen.Silver_oregen]
@@ -51,7 +51,7 @@
 		#Range: 0 ~ 256
 		maxY = 24
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
+		dimensions = ["minecraft:overworld","twilightforest:twilightforest"]
 
 	#Lead ore generation.
 	[oregen.Lead_oregen]
@@ -68,7 +68,7 @@
 		#Range: 0 ~ 256
 		maxY = 48
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
+		dimensions = ["minecraft:overworld","twilightforest:twilightforest"]
 
 	#Quicksilver ore generation.
 	[oregen.Quicksilver_oregen]
@@ -102,7 +102,7 @@
 		#Range: 0 ~ 256
 		maxY = 24
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
+		dimensions = ["minecraft:overworld","twilightforest:twilightforest"]
 
 	#Quartz ore generation.
 	[oregen.Quartz_oregen]
@@ -119,7 +119,7 @@
 		#Range: 0 ~ 256
 		maxY = 76
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
-		dimensions = ["minecraft:overworld"]
+		dimensions = ["minecraft:overworld","twilightforest:twilightforest"]
 
 #Mob Spawn Configuration
 [mob_spawns]
