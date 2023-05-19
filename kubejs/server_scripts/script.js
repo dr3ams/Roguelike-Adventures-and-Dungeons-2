@@ -17,6 +17,7 @@ onEvent('recipes', event => {
 	], {
     D: 'kubejs:diamond_nugget'
 	})
+	event.shapeless('9x kubejs:diamond_nugget', ['minecraft:diamond'])
 	
 	event.shaped('minecraft:emerald', [
     'EEE',
@@ -25,6 +26,7 @@ onEvent('recipes', event => {
 	], {
     E: 'kubejs:emerald_nugget'
 	})
+	event.shapeless('9x kubejs:emerald_nugget', ['minecraft:emerald'])
 	
 	event.shaped('kubejs:coin_02', [
     'CCC',
