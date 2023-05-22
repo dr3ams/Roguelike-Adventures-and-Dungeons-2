@@ -40,6 +40,9 @@ import crafttweaker.api.recipe.Replacer;
 //buff to ore magnet durability because 12 is just awful and outclassed by the minewood tree.
 <item:twilightforest:ore_magnet>.maxDamage = 64;
 
+//durability increase from 99 to 512
+<item:twilightforest:block_and_chain>.maxDamage = 512;
+
 //nerf bulldozer durability to 3
 //<item:prefab:item_bulldozer>.maxDamage = 3;
 
