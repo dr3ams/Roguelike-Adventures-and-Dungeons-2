@@ -6479,5 +6479,70 @@
 				}
 			]
 		}
+		{
+			x: 2.5d
+			y: 3.5d
+			subtitle: "Discover the mausoleum lock"
+			id: "1F464E151EBF2088"
+			tasks: [{
+				id: "692B6D5D0FA5B40D"
+				type: "observation"
+				title: "A Peculiar Lock"
+				icon: {
+					id: "iceandfire:dreadwood_planks_lock"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 20L
+				observe_type: 0
+				to_observe: "iceandfire:dreadwood_planks_lock"
+			}]
+		}
+		{
+			title: "A Near Impossible Key"
+			x: 2.5d
+			y: 2.5d
+			subtitle: "The Rarest Key"
+			description: ["Good luck finding this... Dread Liches don't come by very often"]
+			dependencies: ["1F464E151EBF2088"]
+			id: "0215C0DA01B8935B"
+			tasks: [{
+				id: "1075CD3B67FBCC0A"
+				type: "item"
+				item: {
+					id: "iceandfire:dread_key"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "10E98584F5829D59"
+					type: "xp"
+					xp: 69
+				}
+				{
+					id: "6F094B4099A72CBE"
+					type: "item"
+					item: {
+						id: "kubejs:monster_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
 	]
 }
