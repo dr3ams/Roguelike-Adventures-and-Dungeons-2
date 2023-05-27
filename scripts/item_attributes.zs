@@ -152,6 +152,8 @@ Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate>).replac
 craftingTable.removeByName(<resource:gateways:enderman_gate>);
 craftingTable.removeByName(<resource:gateways:enderman_gate_small>);
 
+Replacer.forRecipes(craftingTable.getRecipeByName("alexsmobs:hemolymph_blaster")).replace(<item:alexsmobs:mimicream>, <item:cofh_core:ectoplasm>).execute();
+
 //buffs to horse armors
 <item:minecraft:diamond_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 2, ADDITION, [<equipmentslottype:chest>]);
 
