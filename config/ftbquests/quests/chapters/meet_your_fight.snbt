@@ -4851,6 +4851,10 @@
 			y: -1.5d
 			shape: "square"
 			subtitle: "Break 500 Spawners"
+			description: [
+				"Those who resist the temptation to spawner farm and go out of their way to break 500 spawners in the world will be granted the title of Spawner Smasher!"
+				"(the title can be claimed in the \"Titles\" chapter after completing this)"
+			]
 			dependencies: ["5A3FA8B6A53D834D"]
 			id: "40FF66BE65AF171D"
 			tasks: [{
@@ -4870,12 +4874,12 @@
 				{
 					id: "2FFAD71E1DBE55D8"
 					type: "xp"
-					xp: 1000
+					xp: 2000
 				}
 				{
 					id: "35CB99F7BA276C77"
 					type: "ftbmoney:money"
-					ftb_money: 130L
+					ftb_money: 260L
 				}
 				{
 					id: "7F8BC65C013D4AEB"
@@ -4889,7 +4893,7 @@
 							}
 						}
 					}
-					count: 5
+					count: 10
 				}
 				{
 					id: "153C8C7D45877D2D"
@@ -4903,22 +4907,15 @@
 							}
 						}
 					}
+					count: 2
 				}
 				{
 					id: "75A20CDEB1600DA8"
 					type: "pmmo:xpreward"
-					title: "Dungeoneering XP"
-					icon: {
-						id: "kubejs:chest2"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
+					title: "1337 Dungeoneering XP"
+					icon: "kubejs:chest2"
 					skill: "dungeoneering"
-					amount: 500.0d
+					amount: 1337.0d
 					ignoreBonuses: false
 				}
 			]
@@ -4947,12 +4944,12 @@
 				{
 					id: "4EA6AF700E2BC93F"
 					type: "xp"
-					xp: 1111
+					xp: 2222
 				}
 				{
 					id: "2B48AAEC3AC68022"
 					type: "ftbmoney:money"
-					ftb_money: 130L
+					ftb_money: 260L
 				}
 				{
 					id: "381213364F8A807E"
@@ -4966,7 +4963,7 @@
 							}
 						}
 					}
-					count: 5
+					count: 10
 				}
 				{
 					id: "3449A6A113241569"
@@ -4980,22 +4977,15 @@
 							}
 						}
 					}
+					count: 2
 				}
 				{
 					id: "0D1976BBC5B3A26F"
 					type: "pmmo:xpreward"
-					title: "Dungeoneering XP"
-					icon: {
-						id: "kubejs:chest2"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
+					title: "1337 Dungeoneering XP"
+					icon: "kubejs:chest2"
 					skill: "dungeoneering"
-					amount: 500.0d
+					amount: 1337.0d
 					ignoreBonuses: false
 				}
 			]
