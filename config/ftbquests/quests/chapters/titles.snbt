@@ -138,15 +138,7 @@
 				id: "7CEEC0584CF0E4D4"
 				type: "command"
 				title: "the §c§lD§6§le§e§lv§a§le§d§ll§b§lo§d§lp§c§le§6§lr"
-				icon: {
-					id: "titles:title_scroll_rare"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				icon: "titles:title_scroll_rare"
 				team_reward: false
 				command: "/titles add @p titles:developer"
 				player_command: false
@@ -646,6 +638,62 @@
 				team_reward: false
 				auto: "disabled"
 				command: "/titles add @p titles:tester"
+				player_command: false
+			}]
+		}
+		{
+			title: "Mad Mage"
+			x: 7.0d
+			y: 4.5d
+			subtitle: "Collect all 88 glyphs from Ars Nouveau and then go insane trying to craft the last glyphs."
+			id: "7F643383AC98A054"
+			tasks: [{
+				id: "6E6251E2BE42E90F"
+				type: "advancement"
+				advancement: "rad_recipes:mad_mage"
+				criterion: ""
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:spawner"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: 6.0d
+			description: ["Complete the Break 500 Spawners Quest in the \"Meet your Fight!\" Chapter."]
+			dependencies: ["40FF66BE65AF171D"]
+			id: "4B455D9DA6A65FFC"
+			tasks: [{
+				id: "13D3A43216E49AE5"
+				type: "checkmark"
+				title: "Spawner Smasher"
+			}]
+			rewards: [{
+				id: "74215E966E019CB8"
+				type: "command"
+				title: "Spawner Smasher"
+				icon: {
+					id: "titles:title_scroll_uncommon"
+					Count: 1b
+					tag: {
+						Enchantments: [{
+							lvl: 1
+							id: "minecraft:efficiency"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				command: "/titles add @p rad_recipes:spawner_buster"
 				player_command: false
 			}]
 		}
