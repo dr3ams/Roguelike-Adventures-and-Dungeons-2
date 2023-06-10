@@ -1,3 +1,6 @@
+import crafttweaker.api.registries.IRecipeManager;
+import crafttweaker.api.recipe.Replacer;
+
 
 craftingTable.removeRecipe(<item:berry_nice:goldensweetberry>);
 craftingTable.removeRecipe(<item:brewevolution:full_dried_bread>);
@@ -106,3 +109,13 @@ craftingTable.removeByRegex("buddycards:.*_card_display");
 craftingTable.addShaped("mush_stem_feywild", <item:minecraft:mushroom_stem> * 4, 
 [[<item:enhanced_mushrooms:red_mushroom_stem>, <item:enhanced_mushrooms:red_mushroom_stem>],
  [<item:enhanced_mushrooms:red_mushroom_stem>, <item:enhanced_mushrooms:red_mushroom_stem>]]);
+
+//replace ender pearls with spirit orbs in gateway recipes excluding enderman gateways
+Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate_large>).excluding(<resource:gateways:enderman_gate>).excluding(<resource:gateways:enderman_gate_small>).replace(<item:minecraft:ender_pearl>, <item:paraglider:spirit_orb>).execute();
+Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate>).replace(<item:minecraft:ender_eye>, <item:cofh_core:ectoplasm>).execute();
+
+Replacer.forRecipes(craftingTable.getRecipeByName("alexsmobs:hemolymph_blaster")).replace(<item:alexsmobs:mimicream>, <item:quark:soul_bead>).execute();
+
+//custom replacement for enderman gateways found in rad_recipes
+craftingTable.removeByName(<resource:gateways:enderman_gate>);
+craftingTable.removeByName(<resource:gateways:enderman_gate_small>);
