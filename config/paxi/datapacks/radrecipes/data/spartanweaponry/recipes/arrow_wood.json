@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "|",
+    "F"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "|": {
+      "tag": "forge:rods/wooden"
+    },
+    "F": {
+      "tag": "forge:paper"
+    }
+  },
+  "result": {
+    "item": "spartanweaponry:arrow_wood",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "disabled": [
+        "arrows"
+      ],
+      "type": "spartanweaponry:type_disabled"
+    }
+  ]
+}
