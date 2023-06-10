@@ -1,7 +1,5 @@
 import crafttweaker.api.item.MCIngredientConditioned;
 import crafttweaker.api.item.IItemStack;
-import crafttweaker.api.registries.IRecipeManager;
-import crafttweaker.api.recipe.Replacer;
 
 //dungeons gear "why is a bat following me" annoying questions fix
 <item:dungeons_gear:spelunker_helmet>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
@@ -17,9 +15,6 @@ import crafttweaker.api.recipe.Replacer;
 //fallback in case a mob spawns with it
 <item:blue_skies:debug_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "5dea655f-2321-4af0-8f17-a66e8ce6f0f4", "damage nerf", -1, MULTIPLY_TOTAL, [<equipmentslottype:mainhand>]);
 
-//bamboo spear damage nerf to 5
-<item:tropicraft:bamboo_spear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "5dea655f-2321-4af0-8f17-a66e8ce6f0f4", "damage nerf", -4, ADDITION, [<equipmentslottype:mainhand>]);
-
 //weighted lead + magic resistance
 <item:mysticalworld:lead_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "309220a7-861a-48f8-b601-4b85c503c890", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:head>]);
 <item:mysticalworld:lead_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:chest>]);
@@ -30,6 +25,9 @@ import crafttweaker.api.recipe.Replacer;
 <item:mysticalworld:lead_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "6dceba43-18c8-4b9e-a4b3-fc2042d68e73", "lead armor magicres", 0.05, MULTIPLY_BASE, [<equipmentslottype:chest>]);
 <item:mysticalworld:lead_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "9bc73f25-95a3-4344-8ec3-44bb910b044a", "lead armor magicres", 0.05, MULTIPLY_BASE, [<equipmentslottype:legs>]);
 <item:mysticalworld:lead_boots>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "f6488f1b-af9a-4329-9714-28bdf64af63c", "lead armor magicres", 0.05, MULTIPLY_BASE, [<equipmentslottype:feet>]);
+
+//bamboo spear damage nerf to 5
+<item:tropicraft:bamboo_spear>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "5dea655f-2321-4af0-8f17-a66e8ce6f0f4", "damage nerf", -4, ADDITION, [<equipmentslottype:mainhand>]);
 
 //mystical world blessed attribute on ice and fire silver armor
 <item:iceandfire:armor_silver_metal_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "309220a7-861a-48f8-b601-4b85c503c890", "silver armor bless", 1, ADDITION, [<equipmentslottype:head>]);
@@ -143,16 +141,6 @@ import crafttweaker.api.recipe.Replacer;
 <item:minecraft:spawner>.addGlobalAttributeModifier(<attribute:forge:reach_distance>, "a6f5182f-39e8-4f5d-9998-fc9ddf7c969f", "Unplaceable", -1, MULTIPLY_TOTAL, [<equipmentslottype:mainhand>]);
 <item:minecraft:spawner>.addGlobalAttributeModifier(<attribute:forge:reach_distance>, "b7f5182f-39e8-4f5d-9998-fc9ddf7c969f", "Unplaceable", -1, MULTIPLY_TOTAL, [<equipmentslottype:offhand>]);
 <item:minecraft:spawner>.addTooltip("Cannot be placed");
-
-//replace ender pearls with spirit orbs in gateway recipes excluding enderman gateways
-Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate_large>).excluding(<resource:gateways:enderman_gate>).excluding(<resource:gateways:enderman_gate_small>).replace(<item:minecraft:ender_pearl>, <item:paraglider:spirit_orb>).execute();
-Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate>).replace(<item:minecraft:ender_eye>, <item:cofh_core:ectoplasm>).execute();
-
-//custom replacement for enderman gateways found in rad_recipes
-craftingTable.removeByName(<resource:gateways:enderman_gate>);
-craftingTable.removeByName(<resource:gateways:enderman_gate_small>);
-
-Replacer.forRecipes(craftingTable.getRecipeByName("alexsmobs:hemolymph_blaster")).replace(<item:alexsmobs:mimicream>, <item:cofh_core:ectoplasm>).execute();
 
 //buffs to horse armors
 <item:minecraft:diamond_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 2, ADDITION, [<equipmentslottype:chest>]);
