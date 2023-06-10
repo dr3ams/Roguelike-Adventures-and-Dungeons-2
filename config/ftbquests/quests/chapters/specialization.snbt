@@ -180,22 +180,7 @@
 							}
 						}
 					}
-				}
-				{
-					id: "0C1A99952778BD3F"
-					type: "item"
-					item: {
-						id: "minecraft:stone_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
+					count: 2
 				}
 				{
 					id: "00FF20687BB5740A"
@@ -218,7 +203,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -361,7 +352,6 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							itemModifier: "modifiers:slow"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -459,6 +449,28 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "6AC6060AFC71B4B4"
+					type: "item"
+					item: {
+						id: "rats:farmer_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
@@ -505,7 +517,7 @@
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Potion: "apotheosis:long_resistance"
+							Potion: "apotheosis:resistance"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -615,7 +627,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -727,7 +745,7 @@
 							}
 						}
 					}
-					count: 32
+					count: 33
 				}
 				{
 					id: "3CCDB5D593DE4FA7"
@@ -809,7 +827,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -987,7 +1011,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -1104,9 +1134,7 @@
 					item: {
 						id: "pirate_hat:eyepatch_helmet"
 						Count: 1b
-						tag: {
-							itemModifier: "modifiers:wild"
-						}
+						tag: { }
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1172,7 +1200,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -1253,7 +1287,7 @@
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Potion: "dungeons_gear:shadow_brew"
+							Potion: "minecraft:invisibility"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1374,7 +1408,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -1411,7 +1451,7 @@
 					id: "49BD4B32FA0EA551"
 					type: "item"
 					item: {
-						id: "minecraft:arrow"
+						id: "betterdefaultbiomes:hunter_arrow"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1419,7 +1459,7 @@
 							}
 						}
 					}
-					count: 32
+					count: 28
 				}
 				{
 					id: "4F1C6824581A3A9E"
@@ -1585,7 +1625,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -1657,6 +1703,7 @@
 							}
 						}
 					}
+					count: 3
 				}
 				{
 					id: "24ECBC007E2A0A86"
@@ -1667,23 +1714,6 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "0FA4A1A7227FDA78"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_healing"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1748,7 +1778,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -1959,7 +1995,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2025,7 +2067,7 @@
 					type: "item"
 					team_reward: false
 					item: {
-						id: "minecraft:potion"
+						id: "minecraft:splash_potion"
 						Count: 1b
 						tag: {
 							Potion: "minecraft:long_swiftness"
@@ -2155,7 +2197,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2309,7 +2357,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2319,7 +2373,7 @@
 		{
 			title: "Rancher"
 			icon: {
-				id: "minecraft:nether_wart"
+				id: "losttrinkets:lunch_bag"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
@@ -2443,11 +2497,8 @@
 					id: "62578987D9A682EE"
 					type: "item"
 					item: {
-						id: "minecraft:potion"
+						id: "minecraft:soul_sand"
 						Count: 1b
-						tag: {
-							Potion: "upgrade_aquatic:repellence"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -2460,6 +2511,47 @@
 					type: "item"
 					item: {
 						id: "kubejs:mark_rancher"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "13C9E4603614B6FD"
+					type: "item"
+					item: {
+						id: "dungeons_gear:shear_dagger"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "dungeons_gear:swirling"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "4DB2B21C055129ED"
+					type: "item"
+					item: {
+						id: "losttrinkets:lunch_bag"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -2631,7 +2723,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2698,17 +2796,15 @@
 					id: "3A69DE3AEE152CAF"
 					type: "item"
 					item: {
-						id: "minecraft:potion"
+						id: "spartanweaponry:arrow_iron"
 						Count: 1b
-						tag: {
-							Potion: "dungeons_gear:short_speed"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
 					}
+					count: 16
 				}
 				{
 					id: "16B644B52EAAF98C"
@@ -2802,7 +2898,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -3006,7 +3108,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -3016,7 +3124,7 @@
 		{
 			title: "Corsair"
 			icon: {
-				id: "dungeons_gear:anchor"
+				id: "dungeons_gear:cutlass"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -3024,16 +3132,7 @@
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [{
-							data: [
-								{
-									lvl: 1s
-									id: "dungeons_gear:swirling"
-								}
-								{
-									lvl: 1s
-									id: "dungeons_gear:gravity"
-								}
-							]
+							data: [ ]
 							source: "dungeons_libraries:gear_config"
 						}]
 					}
@@ -3083,7 +3182,7 @@
 					id: "04EC6DB0840DC464"
 					type: "item"
 					item: {
-						id: "dungeons_gear:anchor"
+						id: "dungeons_gear:cutlass"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -3091,16 +3190,7 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [{
-									data: [
-										{
-											lvl: 1s
-											id: "dungeons_gear:swirling"
-										}
-										{
-											lvl: 1s
-											id: "dungeons_gear:gravity"
-										}
-									]
+									data: [ ]
 									source: "dungeons_libraries:gear_config"
 								}]
 							}
@@ -3129,9 +3219,7 @@
 					item: {
 						id: "pirate_hat:sailor_helmet"
 						Count: 1b
-						tag: {
-							itemModifier: "modifiers:fleeting"
-						}
+						tag: { }
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -3160,7 +3248,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -3330,8 +3424,8 @@
 					id: "7F166A7387D74150"
 					type: "item"
 					item: {
-						id: "minecraft:arrow"
-						Count: 1b
+						id: "betterdefaultbiomes:bandit_arrow"
+						Count: 32b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -3364,7 +3458,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -3429,17 +3529,15 @@
 					id: "76EA768B1BD2907B"
 					type: "item"
 					item: {
-						id: "minecraft:potion"
+						id: "betterdefaultbiomes:hunter_arrow"
 						Count: 1b
-						tag: {
-							Potion: "elenaidodge2:long_endurance"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
 					}
+					count: 16
 				}
 				{
 					id: "3734EACFC1FA78DE"
@@ -3541,7 +3639,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -3760,7 +3864,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -3923,7 +4033,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -4045,7 +4161,7 @@
 					id: "77CC104B0C829516"
 					type: "item"
 					item: {
-						id: "minecraft:potion"
+						id: "minecraft:splash_potion"
 						Count: 1b
 						tag: {
 							Potion: "undergarden:glowing"
@@ -4061,7 +4177,7 @@
 					id: "06E7BE5E494A832A"
 					type: "item"
 					item: {
-						id: "minecraft:potion"
+						id: "minecraft:splash_potion"
 						Count: 1b
 						tag: {
 							Potion: "minecraft:strength"
@@ -4081,7 +4197,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -4222,7 +4344,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -4293,11 +4421,8 @@
 					id: "2244D45DA2A15129"
 					type: "item"
 					item: {
-						id: "minecraft:potion"
+						id: "farmersdelight:honey_glazed_ham"
 						Count: 1b
-						tag: {
-							Potion: "abundance:supportive_strong"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -4384,7 +4509,57 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "4500232B846CBA8A"
+					type: "item"
+					item: {
+						id: "dungeons_mobs:chef_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "ensorcellation:gourmand"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "7C25E7AD8A86DAE8"
+					type: "item"
+					item: {
+						id: "dungeons_mobs:chef_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "ensorcellation:vitality"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -4528,7 +4703,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -4696,7 +4877,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -4812,7 +4999,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -4880,9 +5073,7 @@
 					item: {
 						id: "pirate_hat:pirate_helmet"
 						Count: 1b
-						tag: {
-							itemModifier: "modifiers:half_hearted"
-						}
+						tag: { }
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -4933,7 +5124,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -5106,7 +5303,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -5264,7 +5467,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -5431,7 +5640,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -5568,7 +5783,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -5674,7 +5895,13 @@
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
