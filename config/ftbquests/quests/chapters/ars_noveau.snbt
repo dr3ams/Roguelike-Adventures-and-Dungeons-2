@@ -3025,5 +3025,44 @@
 				}
 			]
 		}
+		{
+			title: "Enchanter's Hammer"
+			x: 6.0d
+			y: 7.5d
+			description: ["Custom RAD2 Item. Completely identical to Enchanter's Sword but has higher attack power and reduced attack speed."]
+			dependencies: ["6BC8A28A792C35B2"]
+			id: "190DDF53698C55E1"
+			tasks: [{
+				id: "0605B5EBDCC114EE"
+				type: "item"
+				item: {
+					id: "ars_nouveau:enchanters_sword"
+					Count: 1b
+					tag: {
+						CustomModelData: 1
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				match_nbt: true
+				weak_nbt_match: true
+			}]
+			rewards: [
+				{
+					id: "63B84147387B7E1F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "135C715662BC551B"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
 	]
 }

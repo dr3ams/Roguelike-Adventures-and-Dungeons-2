@@ -1,0 +1,43 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "item_1": [
+    {
+      "item": "ars_nouveau:glyph_amplify"
+    }
+  ],
+  "item_2": [
+    {
+      "tag": "forge:storage_blocks/gold"
+    }
+  ],
+  "item_3": [
+    {
+      "tag": "forge:storage_blocks/gold"
+    }
+  ],
+  "item_4": [
+    {
+      "tag": "forge:storage_blocks/mana"
+    }
+  ],
+  "item_5": [
+    {
+      "tag": "forge:storage_blocks/mana"
+    }
+  ],
+  "item_6": [
+    {
+      "tag": "forge:storage_blocks/mana"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "stalwart_dungeons:diamond_hammer"
+    }
+  ],
+  "output": {
+    "item": "ars_nouveau:enchanters_sword",
+	    "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"Enchanter\\'s Hammer\",\"italic\":false}'},AttributeModifiers:[{Amount: 10.0d, Slot: \"mainhand\", AttributeName: \"minecraft:generic.attack_damage\", UUID: [I;-2074234244,-970700449,-1935712224,-1448768661], Name:\"Hammer Damage\"},{Amount: -2.8d, Slot: \"mainhand\", Operation:0, AttributeName: \"minecraft:generic.attack_speed\", UUID: [I;-2074234244,-970700449,-1935712224,-1448768661], Name:\"Heavy Hammer\"}]}",
+	    "type": "minecraft:item_nbt"
+  }
+}
