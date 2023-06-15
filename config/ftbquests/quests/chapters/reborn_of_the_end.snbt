@@ -21,8 +21,8 @@
 			corner: false
 		}
 		{
-			x: 1.5d
-			y: -6.5d
+			x: 0.0d
+			y: -3.5d
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
@@ -472,34 +472,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -6.0d
-			description: ["Megalakes but with Lacugrove trees and various flowers. May seem to be a more like a grassland than a lake."]
-			dependencies: ["3697C11949A0A907"]
-			id: "1ECA6B89B6D233FE"
-			tasks: [{
-				id: "419C5234C87CB873"
-				type: "biome"
-				title: "Megalake Grove"
-				icon: "betterendforge:umbrella_moss_tall"
-				biome: "betterendforge:megalake_grove"
-			}]
-			rewards: [
-				{
-					id: "1688F47A89BE7CBB"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "270043B3E5A2266A"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: -1.0d
-			y: -6.5d
+			x: -3.0d
+			y: -2.0d
 			description: ["Flower-filled land covered with giant bioluminescent glowshroom trees."]
 			dependencies: ["3697C11949A0A907"]
 			id: "72621E64C7433420"
@@ -524,8 +498,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -7.0d
+			x: -1.5d
+			y: -6.5d
 			description: ["Thick forest of hanging vines, Umbrella trees, and jellyshrooms."]
 			dependencies: ["3697C11949A0A907"]
 			id: "3F33F2304E5E7667"
@@ -543,8 +517,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -6.5d
+			x: -1.0d
+			y: -7.5d
 			description: ["Large stars of ice and snow that exist between ender islands."]
 			dependencies: ["3697C11949A0A907"]
 			id: "5D80B3968D2593F6"
@@ -569,8 +543,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -2.0d
+			x: -3.0d
+			y: -5.0d
 			description: ["End stone spires covered in pink Tenanea trees and vines."]
 			dependencies: ["3697C11949A0A907"]
 			id: "6BE71A977A31E41B"
@@ -595,8 +569,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -5.0d
+			x: -2.0d
+			y: -1.5d
 			description: ["A flat grassland that is extremely grassy and has lumecorn sprouts."]
 			dependencies: ["3697C11949A0A907"]
 			id: "13EAD10EE57FCCBC"
@@ -621,8 +595,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -4.5d
+			x: 1.0d
+			y: -7.5d
 			description: ["A vibrant orange land with thick ground cover and large Helix trees."]
 			dependencies: ["3697C11949A0A907"]
 			id: "60862E8751A2AB9D"
@@ -647,8 +621,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -2.0d
+			x: -2.0d
+			y: -5.5d
 			description: ["A land filled with various stacks of sulfur vents that contain their own water based ecosystems. Are worth a dive into."]
 			dependencies: ["3697C11949A0A907"]
 			id: "0D771167B0378700"
@@ -673,8 +647,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -6.0d
+			x: 0.0d
+			y: -7.0d
 			description: ["A forest of Chorus plants and Pythadendron trees."]
 			dependencies: ["3697C11949A0A907"]
 			id: "580BDDDD0ED68F5A"
@@ -699,7 +673,7 @@
 			]
 		}
 		{
-			x: -3.0d
+			x: -4.0d
 			y: -2.5d
 			description: ["A desolate, dusty region with not much significance beyond a large Enderman population."]
 			dependencies: ["3697C11949A0A907"]
@@ -751,8 +725,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: -5.0d
+			x: -4.0d
+			y: -4.5d
 			description: ["Dark forest of Dragon trees and shadow plants."]
 			dependencies: ["3697C11949A0A907"]
 			id: "6D798E6430C4C1C5"
@@ -778,7 +752,7 @@
 		}
 		{
 			x: 3.0d
-			y: -4.5d
+			y: -3.5d
 			description: ["Mountainous islands that have large rainbow Aurora Crystal formations."]
 			dependencies: ["3697C11949A0A907"]
 			id: "742FA17F32B5562D"
@@ -803,8 +777,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -2.5d
+			x: 4.0d
+			y: -3.5d
 			description: ["Mining Aurora Crystal will give you shards that are infused with a mythical energy that pulses through the End."]
 			dependencies: ["742FA17F32B5562D"]
 			id: "5E2DFA9A653F3619"
@@ -2737,7 +2711,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.0d
 			y: -1.5d
 			dependencies: ["5E2DFA9A653F3619"]
 			id: "44246B5F76798F22"
