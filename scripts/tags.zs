@@ -3,7 +3,7 @@ import crafttweaker.api.food.MCFood;
 
 <tag:blocks:twilightforest:portal/edge>.add(<block:byg:meadow_grass_block>);
 
-<tag:items:curios:charm>.remove(<item:storagenetwork:collector_remote>);
+//<tag:items:curios:charm>.remove(<item:storagenetwork:collector_remote>);
 
 for item in game.items {
   if item.food != null && !(item in <tag:items:forge:food>)  {

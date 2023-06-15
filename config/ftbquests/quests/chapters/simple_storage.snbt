@@ -4,7 +4,15 @@
 	order_index: 3
 	filename: "simple_storage"
 	title: "Storage Solutions"
-	icon: "storagenetwork:master"
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
