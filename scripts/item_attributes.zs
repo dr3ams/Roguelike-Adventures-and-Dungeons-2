@@ -1,5 +1,6 @@
 import crafttweaker.api.item.MCIngredientConditioned;
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.util.text.MCTextComponent;
 
 //dungeons gear "why is a bat following me" annoying questions fix
 <item:dungeons_gear:spelunker_helmet>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
@@ -26,11 +27,23 @@ import crafttweaker.api.item.IItemStack;
 <item:mysticalworld:lead_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "9bc73f25-95a3-4344-8ec3-44bb910b044a", "lead armor magicres", 0.05, MULTIPLY_BASE, [<equipmentslottype:legs>]);
 <item:mysticalworld:lead_boots>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "f6488f1b-af9a-4329-9714-28bdf64af63c", "lead armor magicres", 0.05, MULTIPLY_BASE, [<equipmentslottype:feet>]);
 
+//thallasium paraglider boost
+<item:betterendforge:thallasium_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:paraglider:max_stamina>, "309220a7-861a-48f8-b601-4b85c503c890", "thallasium light weight", 0.5, MULTIPLY_BASE, [<equipmentslottype:head>]);
+<item:betterendforge:thallasium_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:paraglider:max_stamina>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "thallasium light weight", 0.5, MULTIPLY_BASE, [<equipmentslottype:chest>]);
+<item:betterendforge:thallasium_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:paraglider:max_stamina>, "d0bb4c83-92f3-415d-b7e0-be56feb74fae", "thallasium light weight", 0.5, MULTIPLY_BASE, [<equipmentslottype:legs>]);
+<item:betterendforge:thallasium_boots>.anyDamage().addGlobalAttributeModifier(<attribute:paraglider:max_stamina>, "e1c53dc8-1188-4621-902f-f9de8f33ded6", "thallasium light weight", 0.5, MULTIPLY_BASE, [<equipmentslottype:feet>]);
+
+<item:betterendforge:thallasium_helmet>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("End Drift: +50% Paraglider Stamina").setStyle(<formatting:dark_purple>));
+<item:betterendforge:thallasium_chestplate>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("End Drift: +50% Paraglider Stamina").setStyle(<formatting:dark_purple>));
+<item:betterendforge:thallasium_leggings>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("End Drift: +50% Paraglider Stamina").setStyle(<formatting:dark_purple>));
+<item:betterendforge:thallasium_boots>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("End Drift: +50% Paraglider Stamina").setStyle(<formatting:dark_purple>));
+
+
 //mystical world blessed attribute on ice and fire silver armor
-<item:iceandfire:armor_silver_metal_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "309220a7-861a-48f8-b601-4b85c503c890", "silver armor bless", 1, ADDITION, [<equipmentslottype:head>]);
-<item:iceandfire:armor_silver_metal_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "silver armor bless", 1, ADDITION, [<equipmentslottype:chest>]);
-<item:iceandfire:armor_silver_metal_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "d0bb4c83-92f3-415d-b7e0-be56feb74fae", "silver armor bless", 1, ADDITION, [<equipmentslottype:legs>]);
-<item:iceandfire:armor_silver_metal_boots>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "e1c53dc8-1188-4621-902f-f9de8f33ded6", "silver armor bless", 1, ADDITION, [<equipmentslottype:feet>]);
+<item:iceandfire:armor_silver_metal_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "309220a7-861a-48f8-b601-4b85c503c890", "silver armor bless", 2, ADDITION, [<equipmentslottype:head>]);
+<item:iceandfire:armor_silver_metal_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "silver armor bless", 2, ADDITION, [<equipmentslottype:chest>]);
+<item:iceandfire:armor_silver_metal_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "d0bb4c83-92f3-415d-b7e0-be56feb74fae", "silver armor bless", 2, ADDITION, [<equipmentslottype:legs>]);
+<item:iceandfire:armor_silver_metal_boots>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "e1c53dc8-1188-4621-902f-f9de8f33ded6", "silver armor bless", 2, ADDITION, [<equipmentslottype:feet>]);
 
 //buff to ore magnet durability because 12 is just awful and outclassed by the minewood tree.
 <item:twilightforest:ore_magnet>.maxDamage = 64;
@@ -70,13 +83,13 @@ import crafttweaker.api.item.IItemStack;
 <item:minecraft:beacon>.addTooltip("Right-Click in JEI to see Apex Enchanting Recipes");
 
 //crystalite armor tooltip
-<item:betterendforge:crystalite_chestplate>.addTooltip("Haste I");
+<item:betterendforge:crystalite_chestplate>.addTooltip(MCTextComponent.createStringTextComponent("Haste I").setStyle(<formatting:gold>));
 <item:betterendforge:crystalite_boots>.addTooltip("Speed I");
 
-<item:betterendforge:crystalite_helmet>.addTooltip("Full set grants Regeneration I");
-<item:betterendforge:crystalite_chestplate>.addTooltip("Full set grants Regeneration I");
-<item:betterendforge:crystalite_leggings>.addTooltip("Full set grants Regeneration I");
-<item:betterendforge:crystalite_boots>.addTooltip("Full set grants Regeneration I");
+<item:betterendforge:crystalite_helmet>.addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
+<item:betterendforge:crystalite_chestplate>.addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
+<item:betterendforge:crystalite_leggings>.addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
+<item:betterendforge:crystalite_boots>.addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
 
 //soul weapons
 <item:atum:anubis_wrath>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
