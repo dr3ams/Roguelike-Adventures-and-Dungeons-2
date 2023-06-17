@@ -222,8 +222,8 @@
 					}
 				}
 			}
-			x: 5.5d
-			y: 8.5d
+			x: -2.5d
+			y: -1.5d
 			subtitle: "mike"
 			id: "59C4F051008704D6"
 			tasks: [{
@@ -642,8 +642,8 @@
 					}
 				}
 			}
-			x: 8.0d
-			y: 7.5d
+			x: -3.0d
+			y: -0.5d
 			subtitle: "冯鑫达"
 			id: "4904080DDE54E408"
 			tasks: [{
@@ -862,8 +862,8 @@
 					}
 				}
 			}
-			x: 7.5d
-			y: 8.5d
+			x: -1.5d
+			y: -1.5d
 			subtitle: "Girf"
 			id: "01F207AD42413091"
 			tasks: [{
@@ -2389,7 +2389,29 @@
 		}
 		{
 			icon: {
-				id: "kubejs:medal"
+				id: "kubejs:lexileexx"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -3.5d
+			y: 0.5d
+			subtitle: "Trans Rights"
+			description: ["{image:kubejs:textures/item/lexileexx.png width:100 height:100 align:1}"]
+			id: "2D87E1015058C944"
+			tasks: [{
+				id: "639BCE6C6A9156BE"
+				type: "checkmark"
+				title: "Lexi Lee-Ranson"
+			}]
+		}
+		{
+			title: "Matthew rimmer"
+			icon: {
+				id: "artifacts:crystal_heart"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
@@ -2398,13 +2420,13 @@
 				}
 			}
 			x: 9.5d
-			y: 4.5d
-			subtitle: "Lexi Lee-Ranson"
-			id: "2D87E1015058C944"
+			y: 2.5d
+			subtitle: "Nutty Botanist"
+			id: "52D817A61031B5F0"
 			tasks: [{
-				id: "639BCE6C6A9156BE"
+				id: "390ADC8F3A646107"
 				type: "checkmark"
-				title: "Lexi Lee-Ranson"
+				title: "Matthew rimmer"
 			}]
 		}
 		{
@@ -2417,14 +2439,54 @@
 					}
 				}
 			}
-			x: 9.5d
-			y: 2.5d
-			subtitle: "Matthew rimmer"
-			id: "52D817A61031B5F0"
+			x: 7.5d
+			y: 8.5d
+			subtitle: "Eowyn Helvig"
+			id: "141EEC330A3F5028"
 			tasks: [{
-				id: "390ADC8F3A646107"
+				id: "5153094DA06FF7B3"
 				type: "checkmark"
-				title: "Matthew rimmer"
+				title: "Eowyn Helvig"
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.5d
+			y: 8.5d
+			subtitle: "Rich Kaalaas"
+			id: "6B6E69AC2E75E343"
+			tasks: [{
+				id: "2FAA8F967A0B2983"
+				type: "checkmark"
+				title: "Rich Kaalaas"
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 8.0d
+			y: 7.5d
+			subtitle: "Kirk Gilmore"
+			id: "6679BB9E85C0D451"
+			tasks: [{
+				id: "76EB48B03AD9F8E7"
+				type: "checkmark"
+				title: "Kirk Gilmore"
 			}]
 		}
 	]
