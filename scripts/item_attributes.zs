@@ -160,7 +160,7 @@ import crafttweaker.api.util.text.MCTextComponent;
 
 <item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 3, ADDITION, [<equipmentslottype:chest>]);
 <item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, "a4b21eca-d3ca-3ecd-72a7-b2a5dbb53dc7", "Horse Knockback Resistance", 0.1, ADDITION, [<equipmentslottype:chest>]);
-<item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, "4108792f-c8be-47c8-b56b-2255269bde53", "Corrupted Horse Armor HP Reduction", -0.1, ADDITION, [<equipmentslottype:chest>]);
+<item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, "4108792f-c8be-47c8-b56b-2255269bde53", "Corrupted Horse Armor HP Reduction", -0.1, MULTIPLY_TOTAL, [<equipmentslottype:chest>]);
 <item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "4453815f-dba0-4554-8a5a-ad7c3c8b76123", "Corrupted Horse Armor Speed Boost", 0.5, MULTIPLY_BASE, [<equipmentslottype:chest>]);
 
 for allItems in game.items {
