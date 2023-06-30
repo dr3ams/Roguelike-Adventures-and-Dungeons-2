@@ -968,6 +968,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1E4BD0D957DC0F4B"
+				type: "item"
+				item: {
+					id: "supplementaries:bomb_blue"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
 		}
 		{
 			x: -1.0d
@@ -1271,11 +1285,6 @@
 					tag: {
 						DisplayEntityType: "supplementaries:red_merchant"
 					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
 				}
 				timer: 0L
 				observe_type: 5
@@ -1373,6 +1382,48 @@
 					}
 				}
 				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			description: ["Feed a Skeleton Horse a whole stack of rotten flesh to convert them into a Zombie Horse!"]
+			id: "62585DE5A68B21F3"
+			tasks: [{
+				id: "0E983A7CA7BC3E73"
+				type: "observation"
+				title: "Zombie Horse Conversion"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "minecraft:zombie_horse"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:zombie_horse"
+			}]
+			rewards: [{
+				id: "08D5A62CE032C61E"
+				type: "item"
+				item: {
+					id: "minecraft:lingering_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_harming"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 	]
