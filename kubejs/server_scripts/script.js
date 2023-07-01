@@ -272,4 +272,7 @@ onEvent('item.tags', event => {
 	event.add('curios:emblem', 'kubejs:mark_shaman')
 	event.add('curios:emblem', 'kubejs:mark_underdog')
 	event.add('curios:emblem', 'kubejs:mark_beastmaster')
+
+	event.add('curios:curse_ring', 'enigmaticlegacy:cursed_ring')
+	event.remove('curios:ring', 'enigmaticlegacy:cursed_ring')
 })
