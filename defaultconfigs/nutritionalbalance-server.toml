@@ -6,7 +6,7 @@
 	[general.nutrient_levels]
 		#Malnourishment value, below which bad effects can occur. (default:1.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		nutrient_level_malnourished = 1.0
+		nutrient_level_malnourished = 0.0
 		#Initial nutrient level for new player. (default:50.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		nutrient_initial = 100.0
@@ -18,7 +18,7 @@
 		nutrient_level_target_high = 220.0
 		#Engorgement value, above which bad affects can occur.(default:170.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
-		nutrient_level_engorged = 280.0
+		nutrient_level_engorged = 301.0
 		#Maximum nutrient level. nutrients will cap out at this value no matter how much you eat. (default:180.0)
 		#Range: 0.0 ~ 1.7976931348623157E308
 		nutrient_level_max = 300.0
