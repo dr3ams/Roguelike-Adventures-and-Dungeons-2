@@ -7,7 +7,7 @@ import crafttweaker.api.potion.MCPotionEffectInstance;
 import crafttweaker.api.potion.MCPotionEffect;
 import crafttweaker.api.util.text.MCTextComponent;
 
-var bellLevelCost = 5;
+var bellLevelCost = 10;
 var potionTimeTicks = 300;// ticks divided by 20 = seconds
 var potionAmplifier = 3;//this value + 1 = effect level
 var instantDamageAmp = 2; // dose like 24 points of magic damage to the player at amp of 2
