@@ -5,7 +5,7 @@
 	enabled = true
 	#Cost
 	#Range: > -2147483648
-	cost = 100
+	cost = 2000
 	#Is Starter Glyph?
 	starter = false
 	#The maximum number of times this glyph may appear in a single spell
@@ -13,7 +13,7 @@
 	per_spell_limit = 2147483647
 	#Limits the number of times a given augment may be applied to a given effect
 	#Example entry: "amplify=5"
-	augment_limits = ["dampen=0"]
+	augment_limits = ["dampen=0", "extend_time=1", "amplify_three=2", "amplify_two=4", "amplify=8"]
 	#Base heal amount
 	#Range: 0.0 ~ 1.7976931348623157E308
 	base_heal = 3.0

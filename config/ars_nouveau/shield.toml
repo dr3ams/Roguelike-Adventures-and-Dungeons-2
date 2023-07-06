@@ -5,7 +5,7 @@
 	enabled = true
 	#Cost
 	#Range: > -2147483648
-	cost = 45
+	cost = 1000
 	#Is Starter Glyph?
 	starter = false
 	#The maximum number of times this glyph may appear in a single spell
@@ -16,8 +16,8 @@
 	augment_limits = ["dampen=0"]
 	#Potion duration, in seconds
 	#Range: > 0
-	potion_time = 30
+	potion_time = 15
 	#Extend time duration, in seconds
 	#Range: > 0
-	extend_time = 8
+	extend_time = 5
 
