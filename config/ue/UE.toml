@@ -1519,7 +1519,7 @@
 			#If the Enchantment is Obtainable
 			enabled = false
 			#If the Enchantment has any effect
-			activated = true
+			activated = false
 			#Minimum Enchantment Level
 			#Range: > 0
 			min_level = 1
@@ -1530,7 +1530,7 @@
 			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
 			rarity = "UNCOMMON"
 			#If the Enchantment is a Treasure
-			treasure = false
+			treasure = true
 			#If the Enchantment is Tradeable by Villagers
 			tradeable = true
 			#Minimum Level for Enchanting
