@@ -1,28 +1,4 @@
 {
-	"charm:curse_break":
-	{
-		"levelReq": 35,
-		"chancePerLevel": 1,
-		"maxChance": 50
-	},
-	"charm:homing":
-	{
-		"levelReq": 35,
-		"chancePerLevel": 1,
-		"maxChance": 50
-	},
-	"charm:magnetic":
-	{
-		"levelReq": 35,
-		"chancePerLevel": 1,
-		"maxChance": 50
-	},
-	"charm:salvage":
-	{
-		"levelReq": 35,
-		"chancePerLevel": 1,
-		"maxChance": 50
-	},
 	"dungeons_gear:accelerate":
 	{
 		"levelReq": 25,
@@ -451,7 +427,7 @@
 		"levelPerLevel": 25,
 		"chancePerLevel": 1,
 		"maxChance": 75,
-		"maxLevel": 8
+		"maxLevel": 7
 	},
 	"minecraft:punch":
 	{
@@ -459,7 +435,7 @@
 		"levelPerLevel": 20,
 		"chancePerLevel": 1,
 		"maxChance": 90,
-		"maxLevel": 10
+		"maxLevel": 9
 	},
 	"minecraft:quick_charge":
 	{
@@ -513,7 +489,7 @@
 		"levelPerLevel": 20,
 		"chancePerLevel": 1,
 		"maxChance": 85,
-		"maxLevel": 8
+		"maxLevel": 7
 	},
 	"minecraft:unbreaking":
 	{
@@ -522,5 +498,60 @@
 		"chancePerLevel": 1,
 		"maxChance": 75,
 		"maxLevel": 5
+	},
+
+
+	"radenchants:auto_block":
+	{
+		"levelReq": 30,
+		"levelPerLevel": 20,
+		"chancePerLevel": 1,
+		"maxChance": 75,
+		"maxLevel": 5
+	},
+	"radenchants:backstab":
+	{
+		"levelReq": 20,
+		"levelPerLevel": 10,
+		"chancePerLevel": 1,
+		"maxChance": 75,
+		"maxLevel": 10
+	},
+	"radenchants:barbs":
+	{
+		"levelReq": 20,
+		"levelPerLevel": 10,
+		"chancePerLevel": 1,
+		"maxChance": 75,
+		"maxLevel": 10
+	},
+	"radenchants:boosted":
+	{
+		"levelReq": 25,
+		"levelPerLevel": 20,
+		"chancePerLevel": 1,
+		"maxChance": 75,
+		"maxLevel": 6
+	},
+	"radenchants:breaching":
+	{
+		"levelReq": 15,
+		"levelPerLevel": 20,
+		"chancePerLevel": 1,
+		"maxChance": 75,
+		"maxLevel": 5
+	},
+	"radenchants:climbing_gear":
+	{
+		"levelReq": 25,
+		"chancePerLevel": 1,
+		"maxChance": 75
+	},
+	"radenchants:socketed":
+	{
+		"levelReq": 75,
+		"chancePerLevel": 1,
+		"maxChance": 25,
+		"maxLevel": 3
 	}
 }

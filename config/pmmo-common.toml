@@ -426,18 +426,18 @@
 [Combat]
 	#How much percentage bonus damage do you get per Combat level in Melee?
 	#Range: 0.001 ~ 1000.0
-	damageBonusPercentPerLevelMelee = 0.02
+	damageBonusPercentPerLevelMelee = 0.015
 	#How much extra damage can you get from the Combat skill max?
 	#Range: 0.0 ~ 1.0E9
-	maxExtraDamagePercentageBoostMelee = 20.0
+	maxExtraDamagePercentageBoostMelee = 3.0
 
 [Archery]
 	#How much percentage bonus damage do you get per Archery level in Archery?
 	#Range: 0.001 ~ 1000.0
-	damageBonusPercentPerLevelArchery = 0.02
+	damageBonusPercentPerLevelArchery = 0.015
 	#How much extra damage can you get from the Archery skill max?
 	#Range: 0.0 ~ 1.0E9
-	maxExtraDamagePercentageBoostArchery = 70.0
+	maxExtraDamagePercentageBoostArchery = 3.0
 
 [Smithing]
 	#Should PMMO anvil handling be enabled? (xp rewards for repair, and also Enchantment handling) (some mod items break, if you experience lost enchantments, set this to false)
@@ -532,7 +532,7 @@
 	damageBonusPercentPerLevelMagic = 0.015
 	#How much extra damage can you get from the Magic skill max?
 	#Range: 0.0 ~ 1.0E9
-	maxExtraDamagePercentageBoostMagic = 130.0
+	maxExtraDamagePercentageBoostMagic = 3.0
 
 [Slayer]
 	#How much slayer xp is awarded upon killing an aggresive mob by default
