@@ -7,5 +7,7 @@ onEvent("lootjs", (event) => {
         .addLootTypeModifier(LootType.UNKNOWN, LootType.BLOCK, LootType.ENTITY, LootType.CHEST, LootType.FISHING, LootType.GIFT)
         .thenRemove("enigmaticlegacy:enigmatic_item")
         .thenRemove("enigmaticlegacy:loot_generator")
-        .thenRemove("minecraft:spawner");
+        .thenRemove("minecraft:spawner")
+        .thenRemove("simplefarming:rice")
+        .thenRemove("simplefarming:rice_seeds");
 });

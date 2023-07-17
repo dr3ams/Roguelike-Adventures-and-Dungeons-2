@@ -25,6 +25,9 @@ craftingTable.removeRecipe(<item:waystones:warp_plate>);
 craftingTable.removeRecipe(<item:greekfantasy:golden_apple_sapling>);
 craftingTable.removeRecipe(<item:minecraft:enchanted_golden_apple>);
 
+craftingTable.removeRecipe(<item:simplefarming:rice_seeds>);
+craftingTable.addShapeless("kill_bad_rice", <item:farmersdelight:rice>, [<item:simplefarming:rice>]);
+
 craftingTable.addShaped("white_chair", <item:tropicraft:white_chair>, 
 [[<item:tropicraft:bamboo_stick>, <item:tropicraft:bamboo_bundle>, <item:tropicraft:bamboo_stick>],
  [<item:tropicraft:bamboo_stick>, <item:tropicraft:bamboo_bundle>, <item:tropicraft:bamboo_stick>], 
