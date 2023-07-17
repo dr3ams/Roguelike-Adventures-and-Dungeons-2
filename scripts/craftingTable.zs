@@ -120,3 +120,11 @@ Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate>).replac
 //custom replacement for enderman gateways found in rad_recipes
 craftingTable.removeByName(<resource:gateways:enderman_gate>);
 craftingTable.removeByName(<resource:gateways:enderman_gate_small>);
+
+//destruction core way more expensive
+craftingTable.removeRecipe(<item:constructionwand:core_destruction>);
+craftingTable.addShaped("harder_destruction_core", <item:constructionwand:core_destruction>,[
+    [<item:minecraft:netherite_pickaxe>, <item:minecraft:nether_star>, <item:minecraft:netherite_pickaxe>],
+    [<item:minecraft:nether_star>, <item:minecraft:netherite_block>, <item:minecraft:nether_star>],
+    [<item:minecraft:netherite_pickaxe>, <item:minecraft:nether_star>, <item:minecraft:netherite_pickaxe>]
+]);
