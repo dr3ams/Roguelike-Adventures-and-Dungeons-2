@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    " T ",
+    " T "
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:ingots/dragonsteel_lightning"
+
+    },
+    "T": {
+      "tag": "forge:bones/wither"
+
+    }
+  },
+  "result": {
+    "item": "iceandfire:dragonsteel_lightning_pickaxe",
+    "type": "forge:nbt",
+    "nbt": "{Affixes:{\"apotheosis:damage_chain\":1.0f},\"quark:RuneAttached\":1,\"quark:RuneColor\":{id:\"quark:purple_rune\",Count:1b},Enchantments:[{id:\"dungeons_gear:thundering\",lvl:1},{id:\"dungeons_gear:thundering\",lvl:1}]}"
+  }
+}
