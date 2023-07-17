@@ -25,6 +25,9 @@ craftingTable.removeRecipe(<item:waystones:warp_plate>);
 craftingTable.removeRecipe(<item:greekfantasy:golden_apple_sapling>);
 craftingTable.removeRecipe(<item:minecraft:enchanted_golden_apple>);
 
+craftingTable.removeRecipe(<item:simplefarming:rice_seeds>);
+craftingTable.addShapeless("kill_bad_rice", <item:farmersdelight:rice>, [<item:simplefarming:rice>]);
+
 craftingTable.addShaped("white_chair", <item:tropicraft:white_chair>, 
 [[<item:tropicraft:bamboo_stick>, <item:tropicraft:bamboo_bundle>, <item:tropicraft:bamboo_stick>],
  [<item:tropicraft:bamboo_stick>, <item:tropicraft:bamboo_bundle>, <item:tropicraft:bamboo_stick>], 
@@ -117,3 +120,11 @@ Replacer.forMods("gateways").excluding(<resource:gateways:enderman_gate>).replac
 //custom replacement for enderman gateways found in rad_recipes
 craftingTable.removeByName(<resource:gateways:enderman_gate>);
 craftingTable.removeByName(<resource:gateways:enderman_gate_small>);
+
+//destruction core way more expensive
+craftingTable.removeRecipe(<item:constructionwand:core_destruction>);
+craftingTable.addShaped("harder_destruction_core", <item:constructionwand:core_destruction>,[
+    [<item:minecraft:netherite_pickaxe>, <item:minecraft:nether_star>, <item:minecraft:netherite_pickaxe>],
+    [<item:minecraft:nether_star>, <item:minecraft:netherite_block>, <item:minecraft:nether_star>],
+    [<item:minecraft:netherite_pickaxe>, <item:minecraft:nether_star>, <item:minecraft:netherite_pickaxe>]
+]);

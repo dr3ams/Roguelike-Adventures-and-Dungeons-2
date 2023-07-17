@@ -15,6 +15,7 @@ var excludedModsList as string[] = [
 //cheese
 <tag:items:forge:all_cheese>.add(<item:simplefarming:cheese_slice>, <item:brewevolution:cheese>);
 Replacer.forMods(["simplefarming", "simpledelights"]).replace(<item:simplefarming:cheese_slice>, <tag:items:forge:all_cheese>).execute();
+Replacer.forMods(["rats"]).replace(<item:rats:cheese>, <tag:items:forge:all_cheese>).excluding(<resource:rats:block_of_cheese>).execute();
 
 //jam
 <tag:items:forge:jam>.add(<item:bayou_blues:gooseberry_jam>, <item:simplefarming:jam>, <item:upgrade_aquatic:mulberry_jam_bottle>);
