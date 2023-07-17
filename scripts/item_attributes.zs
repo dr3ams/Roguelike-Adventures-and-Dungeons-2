@@ -91,6 +91,12 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:betterendforge:crystalite_leggings>.addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
 <item:betterendforge:crystalite_boots>.addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
 
+//lightning dragonsteel tooltip
+<item:iceandfire:dragonsteel_lightning_sword>.addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
+<item:iceandfire:dragonsteel_lightning_axe>.addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
+<item:iceandfire:dragonsteel_lightning_pickaxe>.addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
+<item:iceandfire:dragonsteel_lightning_shovel>.addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
+<item:iceandfire:dragonsteel_lightning_hoe>.addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
 //soul weapons
 <item:atum:anubis_wrath>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
 <item:eidolon:reaper_scythe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
