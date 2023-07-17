@@ -101,6 +101,10 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:atum:anubis_wrath>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
 <item:eidolon:reaper_scythe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
 
+//dimensional carver tooltip + durability increase
+<item:alexsmobs:dimensional_carver>.maxDamage = 100;
+<item:alexsmobs:dimensional_carver>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Teleports you to spawn, unlike the magic mirror this even works across dimensions! (Stops working at 1 durability, does not break)").setStyle(<formatting:light_purple>));
+
 //buddycards gear improvements
 //buddysteel Serendipity Boost (fortune)
 <item:buddycards:buddysteel_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "309220a7-861a-48f8-b601-4b85c503c890", "buddy luck", 0.25, ADDITION, [<equipmentslottype:head>]);
