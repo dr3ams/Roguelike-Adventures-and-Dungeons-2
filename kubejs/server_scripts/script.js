@@ -276,6 +276,5 @@ onEvent('item.tags', event => {
 	event.add('curios:curse_ring', 'enigmaticlegacy:cursed_ring')
 	event.remove('curios:ring', 'enigmaticlegacy:cursed_ring')
 
-	event.hide('simplefarming:rice_seeds')
-	event.hide('simplefarming:rice')
+
 })
