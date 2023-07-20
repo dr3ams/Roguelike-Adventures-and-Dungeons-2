@@ -1,0 +1,101 @@
+{
+    "type":"minecraft:fishing",
+    "pools":[
+        {
+            "name":"magicaljewelry_jewel_fishing_treasure",
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"minecraft:item",
+                    "weight":1,
+                    "name":"magicaljewelry:the_one_ring",
+                    "conditions":[
+                       {
+                          "condition":"minecraft:random_chance",
+                          "chance":0.001
+                       }
+                    ]
+                },
+                {
+                    "type":"minecraft:group",
+                    "weight": 3,
+                    "quality": 2,
+                    "children":[
+                       {
+                            "type":"minecraft:item",
+                            "weight": 50,
+                            "quality": 25,
+                            "name":"magicaljewelry:gold_amulet",
+                            "functions":[
+                                {
+                                    "function":"magicaljewelry:set_jewel_nbt"
+                                }
+                            ]
+                       },
+                       {
+                            "type":"minecraft:item",
+                            "weight": 100,
+                            "quality": 10,
+                            "name":"magicaljewelry:silver_amulet",
+                            "functions":[
+                                {
+                                    "function":"magicaljewelry:set_jewel_nbt"
+                                }
+                            ]
+                       },
+                       {
+                            "type":"minecraft:item",
+                            "weight": 100,
+                            "quality": 0,
+                            "name":"magicaljewelry:gold_ring",
+                            "functions":[
+                                {
+                                    "function":"magicaljewelry:set_jewel_nbt"
+                                }
+                            ]
+                       },
+                       {
+                            "type":"minecraft:item",
+                            "weight": 200,
+                            "quality": -5,
+                            "name":"magicaljewelry:silver_ring",
+                            "functions":[
+                                {
+                                    "function":"magicaljewelry:set_jewel_nbt"
+                                }
+                            ]
+                       },
+                       {
+                            "type":"minecraft:item",
+                            "weight": 100,
+                            "quality": 0,
+                            "name":"magicaljewelry:gold_bracelet",
+                            "functions":[
+                                {
+                                    "function":"magicaljewelry:set_jewel_nbt"
+                                }
+                            ]
+                       },
+                       {
+                            "type":"minecraft:item",
+                            "weight": 200,
+                            "quality": -5,
+                            "name":"magicaljewelry:silver_bracelet",
+                            "functions":[
+                                {
+                                    "function":"magicaljewelry:set_jewel_nbt"
+                                }
+                            ]
+                       }
+                    ]
+                }
+            ],
+            "conditions":[
+                {
+                    "condition":"minecraft:random_chance",
+                    "chance":0.18
+                }
+            ]
+        }
+    ]
+ }

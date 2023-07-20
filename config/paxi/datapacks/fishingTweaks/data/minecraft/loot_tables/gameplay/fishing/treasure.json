@@ -1,0 +1,285 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "weight": 7,
+            "quality": 3,
+            "children": [
+              {
+                "type": "minecraft:item",
+                "weight": 1,
+                "quality": 2,
+                "name": "kubejs:diamond_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:binomial",
+                      "n": 2,
+                      "p": 0.05
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 10,
+                "quality": 1,
+                "name": "kubejs:gold_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:binomial",
+                      "n": 4,
+                      "p": 0.09
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 25,
+                "name": "kubejs:iron_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:binomial",
+                      "n": 8,
+                      "p": 0.15
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "weight": 100,
+                "quality": -1,
+                "name": "kubejs:copper_coin",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:binomial",
+                      "n": 16,
+                      "p": 0.2
+                    }
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+                {
+                    "condition":"minecraft:table_bonus",
+                    "enchantment": "minecraft:luck_of_the_sea",
+                    "chances": [
+                        0.2,
+                        0.4,
+                        0.9,
+                        1.3,
+                        2.0
+                    ]
+                }
+            ]            
+          },
+          {
+            "type": "minecraft:group",
+            "weight": 1,
+            "children": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 50,
+                    "quality": -1,
+                    "name": "eyeofdragons:eye_of_firedragon"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 50,
+                    "quality": -1,
+                    "name": "eyeofdragons:eye_of_icedragon"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 50,
+                    "quality": -1,
+                    "name": "eyeofdragons:eye_of_lightningdragon"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 100,
+                            "treasure": true
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.02
+                }
+            ]
+          },
+          {
+            "type": "minecraft:alternatives",
+            "weight": 4,
+            "children": [
+                {
+                    "type": "minecraft:item",
+                    "name": "apotheosis:ancient_tome",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.01
+                      }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apotheosis:mythic_tome",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.04
+                      }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apotheosis:epic_tome",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.08
+                      }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apotheosis:rare_tome",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.16
+                      }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apotheosis:uncommon_tome",
+                    "conditions": [
+                      {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.32
+                      }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "apotheosis:common_tome"
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:name_tag"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:saddle"
+          },
+          {
+            "type": "minecraft:alternatives",
+            "weight": 5,
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "enigmaticlegacy:enchantment_transposer",
+                "conditions": [
+                  {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.08
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "enigmaticlegacy:corrupted_tome"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "min": 0.1,
+                  "max": 0.85
+                }
+              },
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30,
+                "treasure": true
+              }
+            ],
+            "name": "minecraft:bow"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "min": 0.1,
+                  "max": 0.85
+                }
+              },
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30,
+                "treasure": true
+              }
+            ],
+            "name": "minecraft:fishing_rod"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 33,
+            "functions": [
+              {
+                "function": "minecraft:enchant_with_levels",
+                "levels": 30,
+                "treasure": true
+              }
+            ],
+            "name": "minecraft:book"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:nautilus_shell"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 4,
+            "name": "magicaljewelry:inject/gameplay/fishing/fishing_jewel_drops"
+          }
+        ]
+      }
+    ]
+  }
