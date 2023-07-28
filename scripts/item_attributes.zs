@@ -157,6 +157,10 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:enigmaticlegacy:forbidden_axe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "execution soul harvest", 2, ADDITION, [<equipmentslottype:mainhand>]);
 <item:enigmaticlegacy:forbidden_axe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "execution life steal bonus", 0.05, ADDITION, [<equipmentslottype:mainhand>]);
 
+//The Twist buff (+100% Magic Damage in Offhand)
+<item:enigmaticlegacy:the_twist>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "db5fd450-851b-45c4-89b8-059bb1df7f62", "twisted spellcasting", 1.0, ADDITION, [<equipmentslottype:offhand>]);
+<item:enigmaticlegacy:the_twist>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Twisted Spellcasting: +100% Magic Damage in the offhand").setStyle(<formatting:dark_purple>));
+
 //unplaceable spawners
 <item:minecraft:spawner>.addGlobalAttributeModifier(<attribute:forge:reach_distance>, "a6f5182f-39e8-4f5d-9998-fc9ddf7c969f", "Unplaceable", -1, MULTIPLY_TOTAL, [<equipmentslottype:mainhand>]);
 <item:minecraft:spawner>.addGlobalAttributeModifier(<attribute:forge:reach_distance>, "b7f5182f-39e8-4f5d-9998-fc9ddf7c969f", "Unplaceable", -1, MULTIPLY_TOTAL, [<equipmentslottype:offhand>]);
