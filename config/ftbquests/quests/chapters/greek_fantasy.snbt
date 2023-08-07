@@ -1002,17 +1002,9 @@
 				id: "33132B019DD8683E"
 				type: "observation"
 				title: "Centaur"
-				icon: {
-					id: "greekfantasy:centaur_spawn_egg"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				icon: "greekfantasy:centaur_spawn_egg"
 				timer: 0L
-				observe_type: 4
+				observe_type: 5
 				to_observe: "greekfantasy:centaur"
 			}]
 			rewards: [{

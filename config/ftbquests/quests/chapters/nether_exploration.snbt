@@ -2141,9 +2141,17 @@
 			dependencies: ["40609C59E4FA4972"]
 			id: "214E89C00242A696"
 			tasks: [{
-				id: "02D5E45B9EB2B352"
+				id: "1A675B88F8FEB881"
 				type: "item"
-				item: "infernalexp:chiseled_glowstone_bricks"
+				item: {
+					id: "infernalexp:smooth_glowstone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -2296,9 +2304,17 @@
 			dependencies: ["214E89C00242A696"]
 			id: "2A31BA8A10957C75"
 			tasks: [{
-				id: "0A22A87326510F66"
+				id: "67B4730D00FD196B"
 				type: "item"
-				item: "infernalexp:smooth_glowstone"
+				item: {
+					id: "infernalexp:chiseled_glowstone_bricks"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 			rewards: [
 				{

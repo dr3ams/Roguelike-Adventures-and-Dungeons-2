@@ -394,42 +394,8 @@
 		}
 		{
 			x: 1.0d
-			y: 1.5d
+			y: 2.0d
 			dependencies: ["636B692EB80B1FBE"]
-			id: "17FEFEDE0A353A3E"
-			tasks: [{
-				id: "45FF60B043E8FC81"
-				type: "item"
-				item: "enigmaticlegacy:recall_potion"
-			}]
-			rewards: [
-				{
-					id: "386FB42B74DFEA5B"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_magic"
-						}
-					}
-				}
-				{
-					id: "19AB5CB1706B637F"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "250FAB7F8ABB2801"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			x: 1.0d
-			y: 3.5d
-			dependencies: ["17FEFEDE0A353A3E"]
 			id: "749E7D2E2FE67602"
 			tasks: [{
 				id: "7DD7C0F0F2AD5120"
@@ -557,41 +523,6 @@
 				}
 				{
 					id: "7E41C432A7608751"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			x: 2.0d
-			y: 2.5d
-			dependencies: ["17FEFEDE0A353A3E"]
-			optional: true
-			id: "3C478DA30D0C9461"
-			tasks: [{
-				id: "367D5F2BF36ED9EB"
-				type: "item"
-				item: "enigmaticlegacy:dark_mirror"
-			}]
-			rewards: [
-				{
-					id: "23BDC311DC9CE499"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_magic"
-						}
-					}
-				}
-				{
-					id: "5A2412CED657763F"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "4BBA5BA459963AFE"
 					type: "xp_levels"
 					xp_levels: 1
 				}
