@@ -22,6 +22,8 @@ craftingTable.removeRecipe(<item:waystones:warp_scroll>);
 craftingTable.removeRecipe(<item:waystones:warp_stone>);
 craftingTable.removeRecipe(<item:waystones:warp_plate>);
 
+craftingTable.removeRecipe(<item:rats:rat_upgrade_voodoo>);
+
 craftingTable.removeRecipe(<item:greekfantasy:golden_apple_sapling>);
 craftingTable.removeRecipe(<item:minecraft:enchanted_golden_apple>);
 
