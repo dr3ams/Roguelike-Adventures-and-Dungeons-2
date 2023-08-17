@@ -22,10 +22,15 @@ craftingTable.removeRecipe(<item:waystones:warp_scroll>);
 craftingTable.removeRecipe(<item:waystones:warp_stone>);
 craftingTable.removeRecipe(<item:waystones:warp_plate>);
 
+craftingTable.removeRecipe(<item:rats:rat_upgrade_voodoo>);
+
+craftingTable.removeByName("byg:endstone_from_end_sand");
+
 craftingTable.removeRecipe(<item:greekfantasy:golden_apple_sapling>);
 craftingTable.removeRecipe(<item:minecraft:enchanted_golden_apple>);
 
-craftingTable.removeByName("byg:endstone_from_end_sand");
+#removal of default akashic tome recipe (replaced with a full one)
+craftingTable.removeByName("akashictome:tome");
 
 craftingTable.removeRecipe(<item:simplefarming:rice_seeds>);
 craftingTable.addShapeless("kill_bad_rice", <item:farmersdelight:rice>, [<item:simplefarming:rice>]);
