@@ -19,6 +19,8 @@ villagerTrades.removeItemsForEmeraldsTrade(<profession:morevillagers:oceanograph
 
 villagerTrades.addTrade(<profession:morevillagers:enderian>, 3, <item:minecraft:emerald> * 1, <item:alexsmobs:enderiophage_rocket> * 8, 5, 10, 0.05);
 villagerTrades.removeItemsForEmeraldsTrade(<profession:morevillagers:enderian>, 3, <item:minecraft:firework_rocket>);
+villagerTrades.addTrade(<profession:morevillagers:enderian>, 5, 64, <item:alexsmobs:mysterious_worm>, 1, 200, 0.0);
+villagerTrades.removeItemsForEmeraldsTrade(<profession:morevillagers:enderian>, 5, <item:minecraft:dragon_head>);
 
 villagerTrades.addTrade(<profession:minecraft:nitwit>, 1, <item:minecraft:emerald> * 1, <item:minecraft:dirt> * 4, 16, 2, 0.05);
 villagerTrades.addTrade(<profession:minecraft:nitwit>, 1, <item:minecraft:emerald> * 1, <item:minecraft:gravel> * 4, 16, 2, 0.05);
