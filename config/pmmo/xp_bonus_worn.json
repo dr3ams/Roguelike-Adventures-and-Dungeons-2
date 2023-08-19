@@ -23,6 +23,20 @@
 		"magic": 20,
 		"shadow": 20
 	},
+	"dungeons_gear:lightning_rod":
+	{
+		"shadow": 10
+	},
+	"dungeons_gear:harvester":
+	{
+		"shadow": 10,
+		"magic": 10
+	},
+	"dungeons_gear:soul_healer":
+	{
+		"magic": 10,
+		"shadow": 10
+	},
 	"dungeons_gear:cave_crawler_helmet": {
 		"combat": 5,
 		"mining": 5,
@@ -521,6 +535,9 @@
 		"swimming": 25,
 		"fishing": 10
 	},
+	"minecraft:totem_of_undying": {
+		"magic": 10
+	},
 	"minecraft:iron_boots": {
 		"smithing": 2.5
 	},
@@ -985,79 +1002,83 @@
 		"gathering": 5
 	},
 	"blue_skies:aquite_helmet": {
-		"swimming": 5,
+		"swimming": 25,
 		"agility": 3
 	},
 	"blue_skies:aquite_chestplate": {
-		"swimming": 5,
+		"swimming": 25,
 		"agility": 3
 	},
 	"blue_skies:aquite_leggings": {
-		"swimming": 3,
+		"swimming": 25,
 		"agility": 3
 	},
 	"blue_skies:aquite_boots": {
-		"swimming": 3,
+		"swimming": 25,
 		"agility": 2
 	},
 	"undergarden:utheric_helmet": {
 		"mining": 5,
 		"excavation": 2,
-		"gathering": 7
+		"gathering": 7,
+		"light": 12.5
 	},
 	"undergarden:utheric_chestplate": {
 		"mining": 8,
 		"excavation": 3,
-		"gathering": 11
+		"gathering": 11,
+		"light": 12.5
 	},
 	"undergarden:utheric_leggings": {
 		"mining": 5,
 		"excavation": 3,
-		"gathering": 8
+		"gathering": 8,
+		"light": 12.5
 	},
 	"undergarden:utheric_boots": {
 		"mining": 5,
 		"excavation": 2,
-		"gathering": 7
+		"gathering": 7,
+		"light": 12.5
 	},
 	"blue_skies:diopside_helmet": {
 		"agility": 4,
-		"excavation": 5,
-		"gathering": 5
+		"alchemy": 15
 	},
 	"blue_skies:diopside_chestplate": {
 		"agility": 4,
 		"endurance": 4,
-		"alchemy": 7
+		"alchemy": 17
 	},
 	"blue_skies:diopside_leggings": {
 		"agility": 3,
 		"endurance": 6,
-		"alchemy": 3
+		"alchemy": 13
 	},
 	"blue_skies:diopside_boots": {
 		"agility": 5,
-		"endurance": 7
+		"endurance": 7,
+		"alchemy": 15
 	},
 	"blue_skies:pyrope_helmet": {
-		"mining": 4,
-		"woodcutting": 3,
-		"gathering": 7
+		"mining": 13,
+		"woodcutting": 16,
+		"gathering": 17
 	},
 	"blue_skies:pyrope_chestplate": {
-		"mining": 4,
-		"woodcutting": 3,
-		"gathering": 7
+		"mining": 14,
+		"woodcutting": 15,
+		"gathering": 18
 	},
 	"blue_skies:pyrope_leggings": {
-		"mining": 4,
-		"woodcutting": 3,
-		"gathering": 7
+		"mining": 13,
+		"woodcutting": 16,
+		"gathering": 18
 	},
 	"blue_skies:pyrope_boots": {
-		"mining": 5,
-		"woodcutting": 3,
-		"gathering": 8
+		"mining": 15,
+		"woodcutting": 13,
+		"gathering": 17
 	},
 	"blue_skies:charoite_helmet": {
 		"mining": 1,
@@ -1168,85 +1189,8 @@
 		"farming": 8,
 		"agility": 3
 	},
-	"arsarsenal:source_steel_helmet": {
-		"magic": 3,
-		"endurance": 3
-	},
-	"arsarsenal:source_steel_chestplate": {
-		"magic": 3,
-		"endurance": 3
-	},
-	"arsarsenal:source_steel_leggings": {
-		"magic": 3,
-		"endurance": 3
-	},
-	"arsarsenal:source_steel_boots": {
-		"magic": 3,
-		"endurance": 3
-	},
-	"arsarsenal:fire_hat": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:fire_robes": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:fire_leggings": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:fire_boots": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:aqua_hat": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:aqua_robes": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:aqua_leggings": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:aqua_boots": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:earth_hat": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:earth_robes": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:earth_leggings": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:earth_boots": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:air_hat": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:air_robes": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:air_leggings": {
-		"magic": 3,
-		"agility": 3
-	},
-	"arsarsenal:air_boots": {
-		"magic": 3,
-		"agility": 3
+	"ars_nouveau:jar_of_light": {
+		"light": 100
 	},
 	"dungeons_gear:mercenary_helmet": {
 		"endurance": 10,
@@ -2066,15 +2010,18 @@
 		"agility": 25
 	},
 	"iceandfire:cyclops_skull": {
-		"building": 50,
-		"cooking": 50
+		"wayfaring": 50,
+		"woodcutting": 50,
+		"gathering": 50
 	},
 	"iceandfire:cockatrice_skull": {
 		"farming": 50,
 		"magic": 25
 	},
 	"iceandfire:stymphalian_skull": {
-		"crafting": 50,
+		"smithing": 50
+	},
+	"iceandfire:stymphalian_bird_dagger": {
 		"smithing": 50
 	},
 	"iceandfire:amphithere_skull": {
@@ -2083,8 +2030,7 @@
 	},
 	"iceandfire:seaserpent_skull": {
 		"swimming": 50,
-		"fishing": 50,
-		"sailing": 50
+		"fishing": 50
 	},
 	"iceandfire:hydra_skull": {
 		"alchemy": 50,
@@ -2095,6 +2041,15 @@
 		"excavation": 50,
 		"gathering": 75
 	},
+	"enigmaticlegacy:cursed_ring": {
+		"combat": 50,
+		"endurance": 50,
+		"light": 50,
+		"shadow": 50
+	},
+	"enigmaticlegacy:enchanter_pearl": {
+		"magic": 50
+	},
 	"enigmaticlegacy:earth_heart": {
 		"mining": 10,
 		"excavation": 10,
@@ -2102,16 +2057,47 @@
 		"farming": 10,
 		"gathering": 30
 	},
+	"enigmaticlegacy:mining_charm": {
+		"mining": 30,
+		"excavation": 30,
+		"woodcutting": 30,
+		"farming": 30,
+		"gathering": 50
+	},
 	"enigmaticlegacy:twisted_core": {
 		"combat": 10,
-		"magic": 10,
 		"endurance": 10,
-		"smithing": 10,
+		"magic": 10,
+		"archery": 10,
 		"shadow": 30
+	},
+	"enigmaticlegacy:berserk_emblem": {
+		"combat": 30,
+		"endurance": 30,
+		"magic": 30,
+		"archery": 30,
+		"shadow": 50
+	},
+	"enigmaticlegacy:monster_charm": {
+		"combat": 10,
+		"endurance": 10,
+		"magic": 10,
+		"archery": 10,
+		"light": 30
 	},
 	"enigmaticlegacy:guardian_heart": {
 		"fishing": 25,
 		"swimming": 10
+	},
+	"enigmaticlegacy:cursed_stone": {
+		"combat": 50,
+		"endurance": 50,
+		"magic": 50,
+		"archery": 50,
+		"shadow": 100
+	},
+	"enigmaticlegacy:evil_essence": {
+		"shadow": 50
 	},
 	"quark:diamond_heart": {
 		"mining": 5,
