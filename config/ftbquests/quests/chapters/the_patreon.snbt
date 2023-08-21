@@ -1,18 +1,11 @@
 {
 	id: "1E11739B02616720"
-	group: "6CD0EEB0E5E5955C"
-	order_index: 0
+	group: ""
+	order_index: 2
 	filename: "the_patreon"
-	title: "The Patreon"
-	icon: {
-		id: "kubejs:heart"
-		Count: 1b
-		ForgeCaps: {
-			"dungeons_libraries:built_in_enchantments": {
-				BuiltInEnchantments: [ ]
-			}
-		}
-	}
+	title: "The Patreon of Gods"
+	icon: "kubejs:heart"
+	subtitle: ["Place of Immortality"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	images: [{
@@ -2487,6 +2480,112 @@
 				id: "76EB48B03AD9F8E7"
 				type: "checkmark"
 				title: "Kirk Gilmore"
+			}]
+		}
+		{
+			icon: {
+				id: "buddycards:perfect_buddysteel_medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 9.0d
+			y: 7.5d
+			subtitle: "Jaidon Lambert"
+			id: "01F57D56C15F22DD"
+			tasks: [{
+				id: "4D21CA7B15F552DF"
+				type: "checkmark"
+				title: "Jaidon Lambert"
+			}]
+		}
+		{
+			icon: {
+				id: "dungeons_mobs:necromancer_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [ ]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
+			}
+			x: 9.5d
+			y: 6.5d
+			subtitle: "Grand-Necrologist Zein"
+			id: "5869D231CF8B44C1"
+			tasks: [{
+				id: "1E8A145593F23C60"
+				type: "checkmark"
+				title: "gNecrOz"
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 9.5d
+			y: 4.5d
+			subtitle: "Beth Anne"
+			id: "1BA4592EB608EC59"
+			tasks: [{
+				id: "7832C0C9256B8421"
+				type: "checkmark"
+				title: "Beth Anne"
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 10.0d
+			y: 5.5d
+			subtitle: "Lukas Stiel"
+			id: "5186B0CD245F5344"
+			tasks: [{
+				id: "4C1D59EE4845C7C5"
+				type: "checkmark"
+				title: "Lukas Stiel"
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 10.0d
+			y: 3.5d
+			subtitle: "Racctify"
+			id: "62C7D703A984F21C"
+			tasks: [{
+				id: "4289EBBE37917AFF"
+				type: "checkmark"
+				title: "Racctify"
 			}]
 		}
 	]

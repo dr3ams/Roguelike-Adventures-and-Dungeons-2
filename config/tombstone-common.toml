@@ -131,7 +131,7 @@
 	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
 	#Range: 0 ~ 1000
 	chance_soul = 80
-	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:40]
+	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:30]
 	#Range: 0 ~ 100
 	chance_pray_reward = 20
 	#Allows to replace a grave plate already set on a grave [false/true|default:true]
@@ -145,8 +145,6 @@
 
 #Allows to customize or disable the enchantments
 [enchantments]
-	#Shadow Step is disabled for 10 seconds by opening a chest [false/true|default:true]
-	nerf_shadow_step_open_chest = true
 	#The wearer is also affected by the effect if his alignment is not bad [false/true|default:true]
 	nerf_plague_bringer = true
 	#Maximum duration of stolen effects in minutes [1..MAX|default:60]
@@ -176,21 +174,6 @@
 
 #Allows to change the chance to drop some items
 [loot]
-	#Chance on 1000 to receive a voodoo poppet on undead boss [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_voodoo_poppet_on_boss = 100
-	#Chance on 1000 to receive a random scroll on undead boss [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_random_scroll_on_boss = 100
-	#Chance on 1000 to receive a familiar receptacle on undead boss [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_familiar_receptacle_on_boss = 100
-	#Chance on 1000 to receive a Soul Receptacle on undead boss [0..1000|default:50]
-	#Range: 0 ~ 1000
-	chance_soul_receptacle_on_boss = 50
-	#Chance on 1000 for undead mobs to drop Grave's Dust [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_grave_dust = 50
 	#Minimum life for an undead to be considered as a boss for drop [200..MAX|default:200]
 	#Range: > 200
 	undead_boss_life_for_drop = 200
