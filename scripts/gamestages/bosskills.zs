@@ -18,7 +18,7 @@ CTEventManager.register<GameStageAdded>((event) => {
 
         //change message to something thats more creative 
         if (event.player.world.dimension == "minecraft:the_end") {
-            event.player.sendMessage("§d§lDisturbing these baren lands enrages the monsters.");
+            event.player.sendMessage("§d§lDisturbing these barren lands enrages the monsters.");
         }  else {
             event.player.sendMessage("§d§lThe monsters grow stronger as one of their overlords fall.");
         } 
