@@ -25,8 +25,8 @@ CTEventManager.register<GameStageAdded>((event) => {
     }
 
     if (event.stage == "Ender_Ender") {
-        //change message to something thats more creative     
-        event.player.sendMessage("§4§lSlaying the end tyrant has unleashed the true power of the monsters. ");
+        //maybe sounds better   
+        event.player.sendMessage("§4§lDeath of the end tyrant has released the seal on the true power of the monsters. ");
     }
 });
 
