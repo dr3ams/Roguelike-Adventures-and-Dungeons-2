@@ -3,12 +3,8 @@ import crafttweaker.api.event.MCAnvilUpdateEvent;
 
 
 CTEventManager.register<MCAnvilUpdateEvent>((event) => {
-	if (<item:minecraft:enchanted_book>.matches(event.left) && <item:minecraft:enchanted_book>.matches(event.right)) {
-		print("both stacks are ench book");
-		if (event.left.amount > 1) {
-			print("left > 1");
+	if (((<item:minecraft:enchanted_book>.matches(event.left)) && (event.left.amount > 1)) || ((<item:minecraft:enchanted_book>.matches(event.right)) && (event.right.amount > 1))) {
 			event.levelCost = 100000;
-			event.output = <item:kubejs:forbid>.withTag({display: {Lore: ["{\"text\":\"Yep. This one's going in my cringe compilation.\",\"color\":\"green\",\"italic\":false}" as string, "{\"text\":\"You cheated not only the game, but yourself\",\"color\":\"light_purple\",\"italic\":false}" as string, "{\"text\":\"You get nothing! You lose! Good day, sir!\",\"color\":\"blue\",\"italic\":false}" as string], Name: "{\"color\":\"yellow\",\"text\":\"Yikes\"}" as string}, Enchantments: [{}]});
-		}
+			event.output = <item:kubejs:forbid>.withTag({display: {Lore: ["[{\"text\":\"Having stacked books can cause loss\",\"italic\":false,\"color\":\"red\"}]" as string, "[{\"text\":\"of the extra books with no extra\",\"italic\":false,\"color\":\"red\"}]" as string, "[{\"text\":\"benefit.\",\"italic\":false,\"color\":\"red\"}]" as string, "[{\"text\":\"\",\"italic\":false,\"color\":\"red\"}]" as string, "[{\"text\":\"Unstack books before attempting to\",\"italic\":false,\"color\":\"red\"}]" as string, "[{\"text\":\"use in an anvil.\",\"italic\":false,\"color\":\"red\"}]" as string], Name: "[{\"text\":\"Stacked Book Bug Warning\",\"italic\":false,\"color\":\"dark_aqua\"}]" as string}});
 	}
 });
