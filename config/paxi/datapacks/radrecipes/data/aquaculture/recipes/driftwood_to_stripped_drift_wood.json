@@ -1,0 +1,22 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "aquaculture:driftwood"
+      }
+    ],
+    "tool": {
+      "type": "farmersdelight:tool",
+      "tool": "axe"
+    },
+    "result": [
+      {
+        "item": "upgrade_aquatic:stripped_river_log"
+      },
+      {
+        "item": "farmersdelight:tree_bark",
+        "chance": 0.25
+      }
+    ],
+    "sound": "minecraft:item.axe.strip"
+}
