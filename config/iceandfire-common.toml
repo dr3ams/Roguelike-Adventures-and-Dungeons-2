@@ -224,10 +224,10 @@
 		"Death Worm Target Search Length" = 64
 		#Default deathworm health, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Health" = 10.0
+		"Death Worm Base Health" = 30.0
 		#Default deathworm attack strength, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
-		"Death Worm Base Attack Strength" = 3.0
+		"Death Worm Base Attack Strength" = 6.0
 		#True if deathworms are allowed to spawn
 		"Spawn Death Worms" = true
 		#True if wild deathworms are allowed to target and attack monsters
@@ -357,10 +357,10 @@
 		"Sea Serpent Griefing" = true
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Health" = 20.0
+		"Sea Serpent Base Health" = 200.0
 		#Default sea serpent attack strength, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Attack Strength" = 4.0
+		"Sea Serpent Base Attack Strength" = 16.0
 
 	[Mobs.Hippocampus]
 		#True if hippocampi are allowed to spawn
@@ -397,7 +397,7 @@
 		"Spawn Liches" = true
 		#Dread Lich spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Lich Spawn Weight" = 10
+		"Lich Spawn Weight" = 15
 		#Maximum hydra health
 		#Range: 1.0 ~ 10000.0
 		"Hydra Max Health" = 250.0
@@ -405,7 +405,7 @@
 		"Generate Hydra Caves" = true
 		#One out of this number chance per chunk to generate a hydra cave.
 		#Range: 1 ~ 10000
-		"Hydra Caves Gen Chance" = 100
+		"Hydra Caves Gen Chance" = 60
 		#Maximum ghost health.
 		#Range: 1.0 ~ 10000.0
 		"Ghost Max Health" = 30.0
@@ -419,7 +419,7 @@
 		"Villager Scribe House Weight" = 10
 		#Dread Lich spawn chance. Lower = higher chance to spawn
 		#Range: 1 ~ 10000
-		"Lich Spawn Chance" = 28
+		"Lich Spawn Chance" = 4
 		#Allows attributes for mobs to be overridden via the config file. One might want to disable this if other mods are enabled that change mob attributes e.g armor, health etc...
 		"Allow Attribute Overriding" = true
 
