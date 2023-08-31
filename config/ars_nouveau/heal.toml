@@ -13,10 +13,10 @@
 	per_spell_limit = 2147483647
 	#Limits the number of times a given augment may be applied to a given effect
 	#Example entry: "amplify=5"
-	augment_limits = ["dampen=0", "extend_time=1", "amplify_three=2", "amplify_two=4", "amplify=8"]
+	augment_limits = ["dampen=0", "extend_time=0", "amplify_three=2", "amplify_two=4", "amplify=8"]
 	#Base heal amount
 	#Range: 0.0 ~ 1.7976931348623157E308
-	base_heal = 3.0
+	base_heal = 6.0
 	#Range: 0.0 ~ 2.147483647E9
 	amplify = 3.0
 
