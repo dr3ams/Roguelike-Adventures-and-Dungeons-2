@@ -1430,7 +1430,7 @@
 
 		[general.base.grimoire]
 			#If the Enchantment is Obtainable
-			enabled = true
+			enabled = false
 			#If the Enchantment has any effect
 			activated = false
 			#Minimum Enchantment Level
@@ -1438,7 +1438,7 @@
 			min_level = 1
 			#Maximum Enchantment Level
 			#Range: > 0
-			max_level = 5
+			max_level = 1
 			#Rarity of the Enchantment
 			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
 			rarity = "VERY_RARE"
@@ -1451,13 +1451,13 @@
 			base_cost = 70
 			#Increase of levels per Enchantment Level
 			#Range: > 0
-			per_level_cost = 36
+			per_level_cost = 10000
 			#The Additional Upper Range of Required Levels
 			#Range: > 0
-			cost_limit = 20
+			cost_limit = 10000
 			#Hard Limit of where the Enchantment will be capped even if the level is higher
 			#Range: > 0
-			hard_cap = 100
+			hard_cap = 1
 			#Enchantments that are not compatible with this Enchantment
 			incompats = ["minecraft:mending", "uniquee:ender_mending", "apotheosis:life_mending"]
 			#Allows to add custom incompatible Items
@@ -1470,7 +1470,7 @@
 			step_skip = 5.0
 			ignored_enchantments = ["minecraft:fortune", "minecraft:efficiency", "minecraft:looting", "uniquee:midas_blessing", "uniquee:endest_reap", "minecraft:mending", "minecraft:silk_touch"]
 			#Range: > 0
-			start_level = 50
+			start_level = 100000000
 
 		[general.base.pestilences_odium]
 			#If the Enchantment is Obtainable
