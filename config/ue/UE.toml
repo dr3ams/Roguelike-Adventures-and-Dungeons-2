@@ -543,7 +543,7 @@
 			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
 			rarity = "VERY_RARE"
 			#If the Enchantment is a Treasure
-			treasure = false
+			treasure = true
 			#If the Enchantment is Tradeable by Villagers
 			tradeable = false
 			#Minimum Level for Enchanting
@@ -560,7 +560,7 @@
 			hard_cap = 100
 			#Defines the Required XP level to trigger the Trancendence Effect
 			#Range: > 1
-			trancendence = 200
+			trancendence = 1000
 			#Enchantments that are not compatible with this Enchantment
 			incompats = ["uniquee:berserker"]
 			#Allows to add custom incompatible Items
