@@ -1,7 +1,7 @@
 
 #Options related to player's death
 [player_death]
-	#Experience loss on death (%) (-1 = disabled) [-1..100|default:50]
+	#Experience loss on death (%) (-1 = disabled) [-1..100|default:80]
 	#Range: -1 ~ 100
 	xp_loss = 80
 	#The time in minutes before a grave is unlocked to anyone (-1 = disabled) [-1..MAX|default:-1]
@@ -44,10 +44,10 @@
 	blessing_enchanting_table = false
 	#Allows Plague Bringer to combine with Magic Siphon [false/true|default:false]
 	plague_bringer_combining_magic_siphon = false
-	#Enables the enchantment Spectral Bite [false/true|default:true]
-	enable_enchantment_spectral_bite = true
-	#Allows Spectral Bite at enchanting table [false/true|default:false]
-	spectral_bite_enchanting_table = false
+	#Enables the enchantment Shadow Step [false/true|default:true]
+	enable_enchantment_shadow_step = true
+	#Allows Shadow Step at enchanting table [false/true|default:false]
+	shadow_step_enchanting_table = false
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]
