@@ -27,7 +27,7 @@
 				id: "000000000000062E"
 				type: "item"
 				item: "minecraft:bone"
-				count: 16L
+				count: 8L
 			}]
 			rewards: [
 				{
@@ -191,8 +191,26 @@
 			]
 		}
 		{
+			title: "Whistle"
 			x: 3.5d
 			y: -2.5d
+			description: [
+				"The Whistle has 7 different modes which command all your nearby dogs."
+				""
+				"Command Stand: Makes your owned dogs stand up"
+				""
+				"Command Heel: Your Standing Dogs teleport to you. Sitting dogs won't teleport so make sure to use the stand command first"
+				""
+				"Command Stay: Makes your dogs sit"
+				""
+				"Command Ok?: Acts same as Stand"
+				""
+				"Shepherd's Whistle: Dogs with the Shepherd upgrade will put nearby animals on their back and come to you."
+				""
+				"Tactical Whistle: The whistle throws a snowball which commands all wolves in Tactical Mode to attack the hit mob."
+				""
+				"Roaring Whistle: Dogs with the Roaring Gale talent will use a powerful growl that pushes back mobs."
+			]
 			dependencies: ["000000000000062F"]
 			id: "0000000000000639"
 			tasks: [{
@@ -327,11 +345,6 @@
 					xp_levels: 3
 				}
 				{
-					id: "0000000000000679"
-					type: "item"
-					item: "doggytalents:tiny_bone"
-				}
-				{
 					id: "000000000000067A"
 					type: "item"
 					item: "minecraft:slime_ball"
@@ -346,6 +359,19 @@
 					id: "7A937262A8B529FE"
 					type: "ftbmoney:money"
 					ftb_money: 10L
+				}
+				{
+					id: "108728DD1C588974"
+					type: "item"
+					item: {
+						id: "farmersdelight:dog_food"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
@@ -403,7 +429,7 @@
 		{
 			x: 0.5d
 			y: 1.0d
-			description: ["This special stick gives your dog the Glowing Level 1 effect for 100 ticks (5 seconds), the Speed Level 6 effect for 200 ticks (10 seconds), and the regeneration Level 1 effect for 100 ticks (5 seconds)."]
+			description: ["This special stick gives your dog the Glowing Effect for 5 seconds, the Speed Level 6 effect for 10 seconds, and the Regeneration Level 1 effect for 5 seconds."]
 			dependencies: ["0000000000000631"]
 			id: "0000000000000649"
 			tasks: [{
@@ -429,7 +455,7 @@
 			x: 0.0d
 			y: 2.5d
 			description: [
-				"You can play with your dog with this item! First, set your dog into docile mode, then right click to throw the bone. The dog to take off after the bone, grab it, and give it back to you as a Drool Throw Bone"
+				"You can play with your dog with this item! First, set your dog into Docile mode, then right click to throw the bone. The dog to take off after the bone, grab it, and give it back to you as a Drool Throw Bone"
 				"To throw the bone again, you must clean the bone off first by right clicking it or adding it to a crafting table in order to get a Throw Bone."
 			]
 			dependencies: ["0000000000000649"]
@@ -526,7 +552,16 @@
 		{
 			x: -1.5d
 			y: 1.0d
-			description: ["This acts as a respawn point for your dogs. Click the bed to respawn your dog or to see which dog owns it."]
+			subtitle: "Dogs can respawn too!"
+			description: [
+				"This acts as a respawn point for your dogs."
+				""
+				"Sneak Click the bed with an empty hand \\& offhand while your dog is on it to set their spawn to that bed. If done correctly the bed when clicked on again without sneaking will show your dog as the owner of the bed."
+				""
+				"If the dog were to ever die clicking their bed will respawn them back where they died."
+				""
+				"Dogs also regenerate health faster when on a bed."
+			]
 			dependencies: ["0000000000000631"]
 			id: "0000000000000651"
 			tasks: [{
@@ -542,6 +577,7 @@
 						}
 					}
 				}
+				match_nbt: false
 			}]
 			rewards: [
 				{
@@ -668,7 +704,6 @@
 			y: -4.5d
 			description: [
 				"Modes"
-				""
 				"These control how the dog reacts to other entities and interacts with you The tips of each mode appear above the dog as in the following image"
 				""
 				"Docile (D)"
@@ -684,12 +719,12 @@
 				"In this mode, your dog will follow you and will attack any mob that draws near. This mode will show up as the tip,\"(B)\" just above the dogs name."
 				""
 				"Tactical (T)"
-				"In this mode, your dog will follow you but will not attack anything unless you use the command beam to attack the entity you right click on (with the item in hand). This mode will show up as the tip,\"(T)\" just above the dogs name."
+				"In this mode, your dog will follow you but will not attack anything unless you use the whistle to attack the entity you right click on (with the item in hand). This mode will show up as the tip,\"(T)\" just above the dogs name."
 				""
-				"Incapacitated (I)"
-				"In this mode, your dog will be covered in blood and it will not attack nor will let you interact with it (except to let you make it sit down). The dog will enter this mode only when its health is 1/2 of a heart (1 HP) and its health will not reach 0,"
-				"preventing the dog from dying. The dog will eventually exit this mode once its health reaches above 1 HP, however, it will not be at full health after exiting this mode. To force the dog to exit the mode at full health, feed it a cake."
-				"This mode can be turned off in the configuration settings. This mode will show up as the tip,\"(I)\" just above the dogs name."
+				""
+				""
+				""
+				""
 			]
 			dependencies: ["000000000000062F"]
 			id: "000000000000065A"
@@ -712,18 +747,16 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			x: -2.0d
 			y: -4.5d
 			description: [
 				"Pets won't survive against the champions without a good defense."
+				""
 				"You can equip armor to your pets by sneaking and right-clicking on them."
+				""
 				"You can also swap their armor just by equipping another one to them and you'll get the other one back."
+				""
 				"Try equipping armors with aura effects; they can turn your pets into powerful supports!"
 			]
 			dependencies: ["000000000000062F"]
@@ -755,6 +788,54 @@
 					}
 				}
 			}]
+		}
+		{
+			title: "Big Dogs \\& Little Dogs"
+			x: 1.0d
+			y: -0.5d
+			description: ["These Bones can be used to resize your dogs."]
+			dependencies: ["000000000000062F"]
+			id: "6C50E14A07952420"
+			tasks: [
+				{
+					id: "21E6231BFE97E6E4"
+					type: "item"
+					item: {
+						id: "doggytalents:tiny_bone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "61E75C1E943A1EF2"
+					type: "item"
+					item: {
+						id: "doggytalents:big_bone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "33B282C4308C68DA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "6AD75E033E5C6D7F"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
 		}
 	]
 }
