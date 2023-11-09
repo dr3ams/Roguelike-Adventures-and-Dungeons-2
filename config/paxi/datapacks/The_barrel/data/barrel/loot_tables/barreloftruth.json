@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1023,
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_loot_table",
+              "name": "barrel:barreloftruth"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Barrel Of Truth",
+                "color": "yellow",
+                "bold": true,
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "barrel:grandprize"
+        }
+      ]
+    }
+  ]
+}

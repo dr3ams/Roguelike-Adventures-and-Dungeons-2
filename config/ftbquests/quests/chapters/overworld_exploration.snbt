@@ -3455,6 +3455,27 @@
 					}
 					count: 100
 				}
+				{
+					id: "060C7DAB524048E6"
+					type: "item"
+					item: {
+						id: "minecraft:barrel"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								LootTable: "barrel:barreloftruth"
+							}
+							display: {
+								Name: "{\"bold\":true,\"italic\":false,\"color\":\"yellow\",\"text\":\"Barrel Of Truth\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{

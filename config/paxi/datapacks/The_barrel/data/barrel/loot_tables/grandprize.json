@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 26,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Barrel Of Truth",
+                "color": "yellow",
+                "bold": true,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_loot_table",
+              "name": "barrel:barreloftruth"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
