@@ -10,7 +10,7 @@ import crafttweaker.api.util.text.MCTextComponent;
 var bellLevelCost = 10;
 var potionTimeTicks = 300;// ticks divided by 20 = seconds
 var potionAmplifier = 3;//this value + 1 = effect level
-var instantDamageAmp = 2; // dose like 24 points of magic damage to the player at amp of 2
+var instantDamageAmp = 2; // does like 24 points of magic damage to the player at amp of 2
 
 CTEventManager.register<MCRightClickBlockEvent>((event) => {
     var player = event.player;
@@ -23,7 +23,7 @@ CTEventManager.register<MCRightClickBlockEvent>((event) => {
 
     if (stack.registryName == <item:meetyourfight:passages_toll>.registryName) { 
         if (player.experienceLevel as float as int < bellLevelCost) { // if the player has less then bellLevelCost xp levels the bell will not work
-            player.sendStatusMessage("You do not have enought xp to use the Passage's Toll.", true);
+            player.sendStatusMessage("You do not have enough xp to use the Passage's Toll.", true);
             event.cancel();
             return;
         }
