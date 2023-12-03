@@ -1,0 +1,3205 @@
+{
+	id: "66690CB79DA211EF"
+	group: "241F1DC7B6D6E9D6"
+	order_index: 11
+	filename: "pathfinder"
+	title: "Pathfinder"
+	icon: "supplementaries:globe"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 5.5d
+		y: 2.0d
+		width: 8.0d
+		height: 8.0d
+		rotation: 0.0d
+		image: "rad2:textures/misc/earth.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: "byg:allium_flower_bush"
+			x: 0.5d
+			y: -4.5d
+			id: "0772B36D2DBE03C6"
+			tasks: [{
+				id: "2C002F8173104C7B"
+				type: "biome"
+				biome: "byg:allium_fields"
+			}]
+			rewards: [
+				{
+					id: "7E515436209FD9A9"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1657D37312D573C2"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			title: "Oh the biomes...."
+			icon: "supplementaries:globe"
+			x: 5.5d
+			y: 2.0d
+			shape: "hexagon"
+			description: [
+				"This modpack contains over 60 new unique biomes to find and explore each with unique atmosphere."
+				""
+			]
+			size: 2.0d
+			id: "26393DF1645B5F2A"
+			tasks: [{
+				id: "2F5C2B2819A0C381"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3BCD356A504755E6"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			icon: "byg:white_anemone"
+			x: -0.5d
+			y: -4.0d
+			id: "20FA0040137DCEBB"
+			tasks: [{
+				id: "4F649369606969B8"
+				type: "biome"
+				biome: "byg:meadow"
+			}]
+			rewards: [
+				{
+					id: "31D48E4699D55F0B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3416BAFD3A807EFF"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:holly_sapling"
+			x: 5.0d
+			y: 6.5d
+			id: "3EF1DDFBE14706A5"
+			tasks: [{
+				id: "7BA60CA1426ADE82"
+				type: "biome"
+				biome: "byg:evergreen_taiga"
+			}]
+			rewards: [
+				{
+					id: "794006F61BB728D5"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "133AE8499D0FA7AF"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "minecraft:sand"
+			x: 8.5d
+			y: -5.0d
+			id: "3600766046ABF8BA"
+			tasks: [{
+				id: "794A0043D0A7CCD9"
+				type: "biome"
+				biome: "byg:dunes"
+			}]
+			rewards: [
+				{
+					id: "314A6139B9E9319D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "63990F8C6A7BECF8"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "betterdefaultbiomes:feather_reed_grass"
+			x: 1.0d
+			y: -1.5d
+			id: "089C7EF4351C89DB"
+			tasks: [{
+				id: "79EA55DA171A9325"
+				type: "biome"
+				biome: "byg:grassland_plateau"
+			}]
+			rewards: [
+				{
+					id: "146C81C357A92F21"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1143814DA505232B"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:overgrown_stone"
+			x: 3.5d
+			y: 7.5d
+			id: "0104A3F31D16A5C4"
+			tasks: [{
+				id: "7FCFF8CA30210889"
+				type: "biome"
+				biome: "byg:bluff_steeps"
+			}]
+			rewards: [
+				{
+					id: "74E4073F0FF95251"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "133C4A5102F4D8EB"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "betterendforge:dense_snow"
+			x: 5.0d
+			y: 9.5d
+			id: "710D97723589A136"
+			tasks: [{
+				id: "68D0E6BE02031864"
+				type: "biome"
+				biome: "byg:alps"
+			}]
+			rewards: [
+				{
+					id: "0DBAD98E5A0FFFFF"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2FAFE632B72BA5DC"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "minecraft:red_sand"
+			x: 4.5d
+			y: -6.0d
+			id: "7F8662BDEEBD8DA5"
+			tasks: [{
+				id: "6306B417A0BDF4AB"
+				type: "biome"
+				biome: "byg:red_desert"
+			}]
+			rewards: [
+				{
+					id: "103C332AA2827297"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7179F6073CF4831D"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:blue_spruce_sapling"
+			x: 7.5d
+			y: 7.5d
+			id: "0E751CEC1EAB4036"
+			tasks: [{
+				id: "2491E382C183D86A"
+				type: "biome"
+				biome: "byg:snowy_blue_taiga"
+			}]
+			rewards: [
+				{
+					id: "765A8507D23DCF04"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0B2CC6AE0DE67176"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:green_mushroom_block"
+			x: 2.5d
+			y: -5.0d
+			id: "3736229FD7A7523B"
+			tasks: [{
+				id: "652B6DF8D51E9C17"
+				type: "biome"
+				biome: "byg:tropical_fungal_forest"
+			}]
+			rewards: [
+				{
+					id: "7567D1E63522D43E"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "479B9E19E0CD68F2"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:overgrown_dacite"
+			x: 6.0d
+			y: 6.5d
+			id: "30AC98E3DC3DF480"
+			tasks: [{
+				id: "0DB25DD66332452D"
+				type: "biome"
+				biome: "byg:dover_mountains"
+			}]
+			rewards: [
+				{
+					id: "4376F86DD511084A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "79562115D55C3B68"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:silver_maple_sapling"
+			x: -2.0d
+			y: 0.5d
+			id: "27B38055DF0CFAC5"
+			tasks: [{
+				id: "7AC8C63B90D36722"
+				type: "biome"
+				biome: "byg:ancient_forest"
+			}]
+			rewards: [
+				{
+					id: "474574458B300888"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "2BAF2BF0489F9B22"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:guzmania"
+			x: 6.5d
+			y: -4.0d
+			id: "0FC67D0F05009C6E"
+			tasks: [{
+				id: "340173D895734262"
+				type: "biome"
+				biome: "byg:guiana_shield"
+			}]
+			rewards: [
+				{
+					id: "21070DCA2EFDF7C4"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "58DB5BD881701AB2"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:witch_hazel_sapling"
+			x: -2.0d
+			y: 1.5d
+			id: "41CE3FC7D793EC13"
+			tasks: [{
+				id: "26FACC552AC25092"
+				type: "biome"
+				biome: "byg:weeping_witch_forest"
+			}]
+			rewards: [
+				{
+					id: "15F7DF5406A74E2E"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4C06CA6800D5BF77"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "projectvibrantjourneys:desert_agave"
+			x: 3.5d
+			y: -5.5d
+			id: "2AC16F650B6548EF"
+			tasks: [{
+				id: "70DD78F2953079B0"
+				type: "biome"
+				biome: "byg:mojave_desert"
+			}]
+			rewards: [
+				{
+					id: "38E02B141CCBE998"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "60D716FDEF983758"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "projectvibrantjourneys:orange_maple_sapling"
+			x: -3.0d
+			y: 4.5d
+			id: "43D21549B8FCAB5F"
+			tasks: [{
+				id: "7A03DA4F9DA7A536"
+				type: "biome"
+				biome: "byg:autumnal_valley"
+			}]
+			rewards: [
+				{
+					id: "77A22302EF7E2681"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "02B1C977ED3189D1"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:mangrove_sapling"
+			x: 4.5d
+			y: -4.0d
+			id: "36CB451804556124"
+			tasks: [{
+				id: "5E765ED790C2CA38"
+				type: "biome"
+				biome: "byg:mangrove_marshes"
+			}]
+			rewards: [
+				{
+					id: "73B308853D76A9A5"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "50F27BD998D476F5"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:brown_oak_sapling"
+			x: -3.5d
+			y: 2.5d
+			id: "27697E313BDE6D4B"
+			tasks: [{
+				id: "0C36ECA0AA1755FC"
+				type: "biome"
+				biome: "byg:seasonal_deciduous_forest"
+			}]
+			rewards: [
+				{
+					id: "6AFD423D7E5D14C5"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "00F4A979766459D7"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:purple_amaranth"
+			x: 0.5d
+			y: -3.0d
+			id: "158CF80DD67BFD6C"
+			tasks: [{
+				id: "02F30EC934EDE8EA"
+				type: "biome"
+				biome: "byg:amaranth_fields"
+			}]
+			rewards: [
+				{
+					id: "2ED389EC71B6A76D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7267F173BDA72F70"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:black_rose"
+			x: -1.5d
+			y: -0.5d
+			id: "78CD8320370AB29E"
+			tasks: [{
+				id: "61AAB251950C829D"
+				type: "biome"
+				biome: "byg:the_black_forest"
+			}]
+			rewards: [
+				{
+					id: "1B01CC0848D29ECC"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5127CCDC3402CE6C"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "projectvibrantjourneys:fir_sapling"
+			x: 4.5d
+			y: 8.0d
+			id: "5D6BC56074265234"
+			tasks: [{
+				id: "6B2A928A99C498DF"
+				type: "biome"
+				biome: "byg:snowy_deciduous_forest"
+			}]
+			rewards: [
+				{
+					id: "02DF364EA7EFB0F2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4D5327442813EABB"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "minecraft:andesite"
+			x: 2.5d
+			y: 5.0d
+			id: "59CDE2D8E2A1DA7A"
+			tasks: [{
+				id: "006D6CA12D6EF97B"
+				type: "biome"
+				biome: "byg:stone_forest"
+			}]
+			rewards: [
+				{
+					id: "3A65D6024929EE7F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6F5F573A7B577728"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:rainbow_eucalyptus_sapling"
+			x: 6.0d
+			y: -2.5d
+			id: "7958C22C789F2136"
+			tasks: [{
+				id: "7022541B79627088"
+				type: "biome"
+				biome: "byg:crag_gardens"
+			}]
+			rewards: [
+				{
+					id: "0FE40F13A4EB82A1"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "54D0853F6F44CDC4"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "projectvibrantjourneys:prairie_grass"
+			x: 2.5d
+			y: -1.0d
+			id: "2024F7B64A0949FC"
+			tasks: [{
+				id: "093943876E75338B"
+				type: "biome"
+				biome: "byg:prairie"
+			}]
+			rewards: [
+				{
+					id: "3E1B63826053110D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "393B810E7BFB8EDF"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "mushroomquest:snowfungus"
+			x: 7.5d
+			y: 9.0d
+			id: "7374BEF0A10FCDC1"
+			tasks: [{
+				id: "2732E0A500EF8FCD"
+				type: "biome"
+				biome: "byg:snowy_coniferous_forest"
+			}]
+			rewards: [
+				{
+					id: "56DA5D9C16CFBBEE"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "51CB4A913A535D14"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "betterdefaultbiomes:swamp_willow_sapling"
+			x: 5.0d
+			y: -2.5d
+			id: "6A45A61B5F91E7AD"
+			tasks: [{
+				id: "669A477C4C54F553"
+				type: "biome"
+				biome: "byg:vibrant_swamplands"
+			}]
+			rewards: [
+				{
+					id: "59D428E310C3C6E2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5AC1CA354FC04C18"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:araucaria_sapling"
+			x: 4.0d
+			y: -2.0d
+			id: "4E212FEC6AEC84CC"
+			tasks: [{
+				id: "56C1771BBFD9ED27"
+				type: "biome"
+				biome: "byg:araucaria_savanna"
+			}]
+			rewards: [
+				{
+					id: "49ED3301FE86F0B8"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "76DB22C17ECF551F"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:baobab_sapling"
+			x: 3.5d
+			y: -3.5d
+			id: "0B190F73D32E3899"
+			tasks: [{
+				id: "7EE811D8A7413835"
+				type: "biome"
+				biome: "byg:baobab_savanna"
+			}]
+			rewards: [
+				{
+					id: "0E1B5580F1D4A90C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0422AF922114968C"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:zelkova_sapling"
+			x: 4.0d
+			y: 6.0d
+			id: "316499A2F5E0847A"
+			tasks: [{
+				id: "784F829F364ADD86"
+				type: "biome"
+				biome: "byg:lush_tundra"
+			}]
+			rewards: [
+				{
+					id: "12FE692F4AB61DD2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "4A836911EC6A33DD"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "minecraft:rose_bush"
+			x: -1.0d
+			y: -3.0d
+			id: "697418346B9500DA"
+			tasks: [{
+				id: "7595AF0ED5364F6D"
+				type: "biome"
+				biome: "byg:rose_fields"
+			}]
+			rewards: [
+				{
+					id: "582AD6A2D7110FCA"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3882536BB33A6AE0"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "simplefarming:blackberry_bush"
+			x: -0.5d
+			y: 2.0d
+			id: "00EA088956E4F23F"
+			tasks: [{
+				id: "316AFFF7E45263E5"
+				type: "biome"
+				biome: "byg:woodlands"
+			}]
+			rewards: [
+				{
+					id: "048A8D1531FA6FD8"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3F6741D3D326B868"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:ebony_log"
+			x: -0.5d
+			y: 1.0d
+			id: "2ECFB29DAD5D29F6"
+			tasks: [{
+				id: "0A539290344B77EF"
+				type: "biome"
+				biome: "byg:ebony_woods"
+			}]
+			rewards: [
+				{
+					id: "73F4EBB05D6531FC"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "08133A9888C59D82"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:mossy_red_rock_bricks"
+			x: 7.5d
+			y: -5.5d
+			id: "3200C98D113F937E"
+			tasks: [{
+				id: "6069FDCC51B5A431"
+				type: "biome"
+				biome: "byg:red_rock_mountains"
+			}]
+			rewards: [
+				{
+					id: "09779D7F94EDE31A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6F482C03E236A8F9"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:red_oak_sapling"
+			x: 1.5d
+			y: 3.5d
+			id: "66100FF7816ED631"
+			tasks: [{
+				id: "6FACE373B391A72F"
+				type: "biome"
+				biome: "byg:red_oak_forest"
+			}]
+			rewards: [
+				{
+					id: "3B10DF1A40A6DF5A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3B77AA06A01E1B65"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:skyris_sapling"
+			x: -2.0d
+			y: 2.5d
+			id: "1389603AEC204653"
+			tasks: [{
+				id: "04FBFD49FDFC1E2E"
+				type: "biome"
+				biome: "byg:skyris_highlands"
+			}]
+			rewards: [
+				{
+					id: "03A3F4A5D357E1F6"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1A53FA6EB65835A3"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "minecraft:water_bucket"
+			x: 0.5d
+			y: 7.0d
+			id: "21B7FFBA2E18150E"
+			tasks: [{
+				id: "1665C95B6F4FDFAE"
+				type: "biome"
+				biome: "byg:great_lakes"
+			}]
+			rewards: [
+				{
+					id: "634CE0481A289F2A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "380702E55459DF1A"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "betterdefaultbiomes:palm_sapling"
+			x: 5.5d
+			y: -4.0d
+			id: "4F5F5EB66ED8F398"
+			tasks: [{
+				id: "57137184C3BB272D"
+				type: "biome"
+				biome: "byg:tropical_rainforest"
+			}]
+			rewards: [
+				{
+					id: "412632821C514233"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5E18C507B7418196"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:peat"
+			x: -0.5d
+			y: -1.0d
+			id: "06D4FF4FA3CEB3C1"
+			tasks: [{
+				id: "6A4F92A518BAC6AB"
+				type: "biome"
+				biome: "byg:boreal_forest"
+			}]
+			rewards: [
+				{
+					id: "797EF59B4712D11B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "290588BC5FC3D969"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "minecraft:oak_leaves"
+			x: -0.5d
+			y: 5.0d
+			id: "55A6FD55EBE6DDF0"
+			tasks: [{
+				id: "093B95AC4EEAE491"
+				type: "biome"
+				biome: "byg:deciduous_forest"
+			}]
+			rewards: [
+				{
+					id: "0F1B4A7AAB5AA1F6"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7E8560A2018877C5"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:cika_sapling"
+			x: 0.0d
+			y: 4.0d
+			id: "0167FB2562164A52"
+			tasks: [{
+				id: "2E5F4DB1BDDF7699"
+				type: "biome"
+				biome: "byg:cika_woods"
+			}]
+			rewards: [
+				{
+					id: "62178A6610072EF2"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "06FD83B4DCECEC53"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:orchard_sapling"
+			x: 1.0d
+			y: 2.5d
+			id: "49B4E0611996B37D"
+			tasks: [{
+				id: "2262AD3EA9F685E8"
+				type: "biome"
+				biome: "byg:orchard"
+			}]
+			rewards: [
+				{
+					id: "08329C3A0B1D1836"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "53D40413DEC735AB"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "projectvibrantjourneys:redwood_sapling"
+			x: 7.0d
+			y: -2.0d
+			id: "58BD2AD745BE2CD6"
+			tasks: [{
+				id: "373574C80A04D6CF"
+				type: "biome"
+				biome: "byg:redwood_tropics"
+			}]
+			rewards: [
+				{
+					id: "73C545E583E12C15"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7B691AF89B557394"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:blue_orchid"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: 9.5d
+			id: "6A7074CB684BD834"
+			tasks: [{
+				id: "7DEEB93097F3721C"
+				type: "biome"
+				biome: "byg:blue_taiga"
+			}]
+			rewards: [
+				{
+					id: "497460BFBE3346BA"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "7A136430A1FF29EC"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "mushroomquest:shrump"
+			x: 6.5d
+			y: -6.0d
+			id: "0B01D4A2A32BB75F"
+			tasks: [{
+				id: "042797862A4E1480"
+				type: "biome"
+				biome: "byg:shrublands"
+			}]
+			rewards: [
+				{
+					id: "349965A3A2334E9C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "773BB1F32B1E4611"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "minecraft:coarse_dirt"
+			x: 0.0d
+			y: 0.0d
+			id: "76D58863E33B501C"
+			tasks: [{
+				id: "3E41D6B49D86DF9B"
+				type: "biome"
+				biome: "byg:coniferous_forest"
+			}]
+			rewards: [
+				{
+					id: "391A8F5DF8F1281E"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3A77933061CB9932"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "projectvibrantjourneys:aspen_sapling"
+			x: -2.0d
+			y: 3.5d
+			id: "32241299F3224416"
+			tasks: [{
+				id: "41871078EAF7DA4E"
+				type: "biome"
+				biome: "projectvibrantjourneys:aspen_grove"
+			}]
+			rewards: [
+				{
+					id: "1B7F4AEF16CAF745"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "548C1DB13852747C"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "projectvibrantjourneys:tamarack_sapling"
+			x: -0.5d
+			y: 3.0d
+			id: "0272C09077110816"
+			tasks: [{
+				id: "46651C43F46BD842"
+				type: "biome"
+				biome: "projectvibrantjourneys:autumnal_coniferous_forest"
+			}]
+			rewards: [
+				{
+					id: "2B4FFF7B73883506"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "48D7C3A191434BEE"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "projectvibrantjourneys:baobab_sapling"
+			x: 7.5d
+			y: -3.5d
+			id: "4CAA6718D055E8CF"
+			tasks: [{
+				id: "587C4D9617C0B7D7"
+				type: "biome"
+				biome: "projectvibrantjourneys:baobab_fields"
+			}]
+			rewards: [
+				{
+					id: "0EE5EBD023E26CFD"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5C74EA1009454CDF"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "projectvibrantjourneys:pink_sakura_sapling"
+			x: -1.5d
+			y: 4.5d
+			id: "1592A8B90B9EBAD8"
+			tasks: [{
+				id: "1ED7724EEFC7DF75"
+				type: "biome"
+				biome: "projectvibrantjourneys:blossoming_fields"
+			}]
+			rewards: [
+				{
+					id: "339EE4A6B2A43BBE"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "621276672C8D4B2C"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "minecraft:mossy_cobblestone"
+			x: 1.0d
+			y: 1.5d
+			id: "5C0D4E8390F7B83A"
+			tasks: [{
+				id: "5D8FD26CB45AB045"
+				type: "biome"
+				biome: "projectvibrantjourneys:boreal_forest"
+			}]
+			rewards: [
+				{
+					id: "04F93F61536ABEBF"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "1E6FA0A6394DF0F4"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "projectvibrantjourneys:fir_leaves"
+			x: 1.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["26393DF1645B5F2A"]
+			id: "5B8088FCE2348BB5"
+			tasks: [{
+				id: "1DA0DE185ED65ADC"
+				type: "biome"
+				biome: "projectvibrantjourneys:boreal_plateau"
+			}]
+			rewards: [
+				{
+					id: "7BD74AD54F5B0376"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "44246487D9898E02"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "atum:cyan_stained_crystal_glass_pane"
+			x: -0.5d
+			y: 8.0d
+			id: "23D60B48FFEC87CF"
+			tasks: [{
+				id: "76F98FA8DFBCCEBB"
+				type: "biome"
+				biome: "projectvibrantjourneys:crystal_lakes"
+			}]
+			rewards: [
+				{
+					id: "3C0B9D0CEADF600C"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0E9E9A1B1CF2EB1A"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "minecraft:jungle_sapling"
+			x: 5.5d
+			y: 8.0d
+			id: "2A5C1D0F092D02B5"
+			tasks: [{
+				id: "602CFE69808C722C"
+				type: "biome"
+				biome: "projectvibrantjourneys:overgrown_spires"
+			}]
+			rewards: [
+				{
+					id: "5647B54A68358D92"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "407C0F9B671575B3"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "projectvibrantjourneys:pinecones"
+			x: 6.5d
+			y: 8.0d
+			id: "23F343CC67F4C11C"
+			tasks: [{
+				id: "334AFA27B0392556"
+				type: "biome"
+				biome: "projectvibrantjourneys:pine_meadows"
+			}]
+			rewards: [
+				{
+					id: "07F1543F074A064D"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "59911D78FC89EC8B"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:prairie_grass"
+			x: 2.0d
+			y: -2.5d
+			id: "095461C457252548"
+			tasks: [{
+				id: "561A72BAD3FA0607"
+				type: "biome"
+				biome: "projectvibrantjourneys:prairie"
+			}]
+			rewards: [
+				{
+					id: "24588D372F9E75E5"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "6BA2D2C5B0A95994"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:redwood_sapling"
+			x: -3.5d
+			y: 1.5d
+			id: "4F7863E921A32542"
+			tasks: [{
+				id: "3B952930BA376F52"
+				type: "biome"
+				biome: "projectvibrantjourneys:redwood_peaks"
+			}]
+			rewards: [
+				{
+					id: "18783F7F4C0FE736"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "5BFEF19AE93696C2"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "projectvibrantjourneys:redwood_log"
+			x: -3.0d
+			y: -0.5d
+			id: "425DE3287BD46C5E"
+			tasks: [{
+				id: "42ED4107EBD2E717"
+				type: "biome"
+				biome: "projectvibrantjourneys:redwoods"
+			}]
+			rewards: [
+				{
+					id: "12950B4F408E7F09"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "142737FBF6E507BB"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:snowball"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.0d
+			y: 6.0d
+			id: "4FB1AB2D08BB9803"
+			tasks: [{
+				id: "4EA5E3DE7010AAAA"
+				type: "biome"
+				biome: "projectvibrantjourneys:snowy_boreal_forest"
+			}]
+			rewards: [
+				{
+					id: "580612875B1F7FD8"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0909D05FA4405717"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "byg:snowdrops"
+			x: 3.5d
+			y: 9.0d
+			id: "1A2526DC2243A6DC"
+			tasks: [{
+				id: "3038A14A7D1A6EC2"
+				type: "biome"
+				biome: "projectvibrantjourneys:snowy_redwoods"
+			}]
+			rewards: [
+				{
+					id: "2B1FA352B07B563F"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "0F2F136CB519982C"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "minecraft:cobblestone"
+			x: 1.5d
+			y: 6.0d
+			id: "24BC016A6A79E018"
+			tasks: [{
+				id: "0C27A1E6CE2DB9D8"
+				type: "biome"
+				biome: "projectvibrantjourneys:windswept_cliffs"
+			}]
+			rewards: [
+				{
+					id: "42FC983B7BDBB3F0"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "48A03CDFE7B9C297"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			icon: "supplementaries:key"
+			x: 11.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "New dungeons and challenges"
+			description: [
+				"There are dozens of new dungeons, some of them are guarded with Bosses."
+				"What are you waiting for? Go conquer them all!"
+			]
+			size: 2.0d
+			id: "2DADDB2315AB67D6"
+			tasks: [{
+				id: "3F1DED87066891FA"
+				type: "checkmark"
+				title: "Dungeon Diving"
+			}]
+			rewards: [{
+				id: "213653105613DC54"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			subtitle: "Discover a Battle Tower"
+			id: "4F20540765A93D77"
+			tasks: [{
+				id: "7B81785A915B6A7F"
+				type: "advancement"
+				advancement: "dungeons_plus:adventure/find_tower"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "67830A77E9C06FE1"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "217C6419541FDBB9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "60A0F8C25178ECDA"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "5A0A74506655CFD4"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "5FD7C5ACC8C740D5"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 1.0d
+			subtitle: "Discover a Abandoned Temple"
+			id: "24975F8795218934"
+			tasks: [{
+				id: "2D54AE47A2678D34"
+				type: "advancement"
+				advancement: "dungeons_arise:find_abandoned_temple"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "574131A23AF83A2B"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "72CC37E960A91B7F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7C6F8A3D7FFDD582"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "2D978FFE16C44F12"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "6C80D302B6B45AB0"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -0.5d
+			subtitle: "Discover a Monastery"
+			id: "58BFD3C77C4D1AC6"
+			tasks: [{
+				id: "1FD6AFD394AEB398"
+				type: "advancement"
+				advancement: "dungeons_arise:find_monasteries"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "30375D92CD45765D"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "53373862F4FB41DC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3CE17F81929A074E"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "34551342738276EF"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "0596A29D04CFB195"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: -1.0d
+			subtitle: "Discover a Spider Cave"
+			id: "5954871D011EA31B"
+			tasks: [{
+				id: "1D501E3BD17DD079"
+				type: "advancement"
+				advancement: "betterdungeons:spider_dungeon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "709F61E58BDAF589"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "2A1742850A3FB63B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "52E9520F3282BD04"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "7504416459CAA73E"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 1.5d
+			subtitle: "Discover a Catacomb"
+			id: "028BAD294AD040AF"
+			tasks: [{
+				id: "35AD77BC9FF9119A"
+				type: "advancement"
+				advancement: "betterdungeons:zombie_dungeon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "51A0C444E9904C11"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "38CDB8A3C2D7C0B8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "09619C3EAE2CA9EC"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "72458ACD3F10AD88"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "3AEC73D3D57FD605"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 2.5d
+			subtitle: "Discover a Fortress of the Undead"
+			id: "2FF97DE5D1B0F727"
+			tasks: [{
+				id: "19375711FD111567"
+				type: "advancement"
+				advancement: "betterdungeons:skeleton_dungeon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "07E16CFFF415CF5E"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "7B721698CF021DF2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "78394B2F48CF5CCE"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "65454F90CBBB4A95"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "4DB354C0F05AF914"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 3.5d
+			subtitle: "Discover a Monster Room"
+			id: "3C6CA584F934B8B9"
+			tasks: [{
+				id: "1F0BFB0430425384"
+				type: "advancement"
+				advancement: "betterdungeons:small_dungeon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2C81A2EB8B3DAD44"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "22C9765AF1C14A31"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "17005445218B4EBA"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "1FDA4583F9607BBE"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "56075207F95E5616"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 0.5d
+			subtitle: "Discover a Buried Dungeon"
+			id: "1C6EB956684D3209"
+			tasks: [{
+				id: "3533A980E4933C2D"
+				type: "advancement"
+				advancement: "dungeons_plus:adventure/find_bigger_dungeon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "795276F67A1929C6"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "7B28C0122611DCBE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "028E13A53ABBF74C"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "1D6C95634F44F2C6"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "625345834DB26CA3"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 5.0d
+			subtitle: "Discover a Bandit Village"
+			id: "40822E5624735C13"
+			tasks: [{
+				id: "68D52A350D5DB36D"
+				type: "advancement"
+				advancement: "dungeons_arise:find_bandit_village"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5E2769134E80D0C6"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "6C9358C5967C30DE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4281AB325407B16E"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "581726C2C3306495"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "62BF7124F4D75F65"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 8.0d
+			subtitle: "Discover a Bandit Towers"
+			id: "4A3AA5FFA243704A"
+			tasks: [{
+				id: "4C91484F9B7963E7"
+				type: "advancement"
+				advancement: "dungeons_arise:find_bandit_towers"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "454DB01B43E01DC6"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "6D97295CBE5C8A05"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3A4F264DB4764764"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "4911CD6F58D4F3EF"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -4.5d
+			subtitle: "Discover a Infested Temple"
+			id: "344F9833FEABA87E"
+			tasks: [{
+				id: "62264F31DA18C312"
+				type: "advancement"
+				advancement: "dungeons_arise:find_infested_temple"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "396904E8AE7B7AE1"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "4C77983F4673D416"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2F1D937F2A181BE5"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "5E6007E5A35F2547"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: -3.0d
+			subtitle: "Discover a Merchant Campsite"
+			id: "5906FA87FDF566D6"
+			tasks: [{
+				id: "5C2E6CE7098CD784"
+				type: "advancement"
+				advancement: "dungeons_arise:find_merchant_campsite"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "73F39E87D9969D4E"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "2BC7F39D46DE520D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0A65236412AE0AF0"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "152DB82DCD97744A"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 0.0d
+			subtitle: "Discover a Illager Campsite"
+			id: "134BE651109B1400"
+			tasks: [{
+				id: "1714231BC1DD7644"
+				type: "advancement"
+				advancement: "dungeons_arise:find_illager_campsite"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "06000B5F82363158"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "1E632A5DD5DBD137"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "503C14E45E22A47D"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "419B8DCABD2A04AD"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "641730367E82AA97"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 7.0d
+			subtitle: "Discover a Small Blimp"
+			id: "2A670AD78403811C"
+			tasks: [{
+				id: "389007D5BE4D3447"
+				type: "advancement"
+				advancement: "dungeons_arise:find_small_blimp"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "295ACA9C4D543662"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "50BF6FD016E2D42C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "039A7C24FF54DD5D"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "20237E21977C4506"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 7.0d
+			subtitle: "Discover a Mining System"
+			id: "5DBEE11FFCE9799C"
+			tasks: [{
+				id: "0EA577261C3A8FFA"
+				type: "advancement"
+				advancement: "dungeons_arise:find_mining_system"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2AC412A4617ACAB2"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "2A58BD5AC09453C2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "58AB961BE8DD6C6A"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "7FFF44C5DE729CCF"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -4.0d
+			subtitle: "Discover a Shiraz Palace"
+			id: "4426873BBA8DDC45"
+			tasks: [{
+				id: "1D53FEB0C8FF1FB6"
+				type: "advancement"
+				advancement: "dungeons_arise:find_shiraz_palace"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7DB5CB9B28E7F605"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "32246609116A8A0D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "599941D8520B047C"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "13D8FE613EF952AD"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -1.0d
+			subtitle: "Discover a Ceryneian Hind"
+			id: "3D91A92E43A1F29F"
+			tasks: [{
+				id: "2809FA5EE73043B7"
+				type: "advancement"
+				advancement: "dungeons_arise:find_ceryneian_hind"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0EFD537FF56F6327"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "4ABA3BE785081317"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4D19C904A2DFE5CD"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "243A4B52674961DE"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 17.0d
+			y: 5.0d
+			subtitle: "Discover a Typhon"
+			id: "290A2645FBD90100"
+			tasks: [{
+				id: "1974F6593F122F0A"
+				type: "advancement"
+				advancement: "dungeons_arise:find_typhon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "38F277F501527155"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "637657F2480AC8AE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "47E6A70779F9F7B3"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "633E781059A3CEB2"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "3DBE3BCEB58BE55E"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: -2.5d
+			subtitle: "Discover a Heavenly Rider"
+			id: "33E5692AD32B0E14"
+			tasks: [{
+				id: "0897C5068E941795"
+				type: "advancement"
+				advancement: "dungeons_arise:find_heavenly_rider"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "466ACB444D39A409"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "3FF1BFD90AEBDF6C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7EC0673C56F5F827"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "4BB559A0E64E8B8C"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "07B8EEEDA5674BDD"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 1.0d
+			subtitle: "Discover a Heavenly Conqueror"
+			id: "61FCBA9A8F1A7A5C"
+			tasks: [{
+				id: "4EDC0626E98B5E73"
+				type: "advancement"
+				advancement: "dungeons_arise:find_heavenly_conqueror"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1E583A2F8EF80346"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "616C38437C1664A9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "68780229CE085FBD"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "7D29BB8DF9CA1561"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "268D7DBD9BF243F2"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 2.0d
+			subtitle: "Discover a Scorched Mines"
+			id: "174122AEDDBE021E"
+			tasks: [{
+				id: "4A068189A168ED81"
+				type: "advancement"
+				advancement: "dungeons_arise:find_scorched_mines"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "50B5051EE34AD5FD"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "3E82695E10FB6BD1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7848D7E4C27A6E1A"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "400747A9FAB6A4D1"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "50CA7565893A82B0"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			subtitle: "Discover a Foundry"
+			id: "6ED59A6312146A9C"
+			tasks: [{
+				id: "5512C4023307F9A0"
+				type: "advancement"
+				advancement: "dungeons_arise:find_foundry"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "12ACAB71591E6FC9"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "7CB82F784EC4B20E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "08133F6CE3CF88D6"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "5D3F13A60C2511C3"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "6EAB33B7F8719FB1"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -3.0d
+			subtitle: "Discover a Plague Asylum"
+			id: "6523AEAB5C36B178"
+			tasks: [{
+				id: "4A7C02F7232558C4"
+				type: "advancement"
+				advancement: "dungeons_arise:find_plague_asylum"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2434EE3E537C312B"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "2B2E585785D32641"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7652D3166A07CD32"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "71F0E4DF4379ABAA"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 3.0d
+			subtitle: "Discover a Small Prairie House"
+			id: "7853F4333CEA424A"
+			tasks: [{
+				id: "37F30C1A60C5BC67"
+				type: "advancement"
+				advancement: "dungeons_arise:find_small_prairie_house"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2649059D3824854F"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "6732B2BE0127F2D5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "11AE0669B1D479B7"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "4093468639AFB7D5"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "352C552330109DF0"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 2.0d
+			subtitle: "Discover a Thornborn Towers"
+			id: "7B1123035B215BED"
+			tasks: [{
+				id: "62C6F6B702B1B5F9"
+				type: "advancement"
+				advancement: "dungeons_arise:find_thornborn_towers"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "415D36A732D1C957"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "39978EEA20528D82"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "51A49C29B655F391"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "7B57BB85A6BFC231"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "0CDA17F45905F7B8"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 5.0d
+			subtitle: "Discover a Fishing House"
+			id: "78843E770921D42B"
+			tasks: [{
+				id: "3D35BF69A35BB333"
+				type: "advancement"
+				advancement: "dungeons_arise:find_fishing_hut"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7CAD57E39E841449"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "4C3955607AB14D87"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "51218F49E90F0445"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "50D6C0FF7BAEE9E4"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 6.5d
+			subtitle: "Discover a Undead Pirate Ship"
+			id: "33D0DE47FEC48EF3"
+			tasks: [{
+				id: "13EA20708EE965B9"
+				type: "advancement"
+				advancement: "dungeons_arise:find_undead_pirate_ship"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "36C91290818D74F5"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "523FA110A0F19F2D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "404D998F5B5EC345"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "7A5948DD375DC606"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 17.0d
+			y: -1.0d
+			subtitle: "Discover a Giant Mushroom"
+			id: "2CD398B43AEFF428"
+			tasks: [{
+				id: "1D4C58E79B9D6404"
+				type: "advancement"
+				advancement: "dungeons_arise:find_giant_mushroom"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "54718E31728E50A5"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "69443C42DDA1FEE2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "120C121434A5F956"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "014A9E033D203687"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "432D846D93BE2930"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 18.0d
+			y: 3.0d
+			subtitle: "Discover a Mushroom Mine"
+			id: "689E731ECC22F152"
+			tasks: [{
+				id: "20768D8E6F19533A"
+				type: "advancement"
+				advancement: "dungeons_arise:find_mushroom_mines"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "2014EFC1C364D484"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "2459F0A2B5AAC13D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6BF641276007601A"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "2F9E461DF293A07D"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "2D5966093A13430B"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 5.5d
+			subtitle: "Discover a Mushroom House"
+			id: "5FB1C1B11EE60A30"
+			tasks: [{
+				id: "0CD6596213E7E826"
+				type: "advancement"
+				advancement: "dungeons_arise:find_mushroom_house"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "439D6EEE1400036F"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "737E3D551E6F5876"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5F891F74F7011A95"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "7D64E6959A286B3E"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 2.0d
+			subtitle: "Discover an Illager Corsair or an Illager Galley"
+			id: "5DD1A32CAD544DCC"
+			tasks: [{
+				id: "4A1BDAEFF8AC3CF8"
+				type: "advancement"
+				advancement: "dungeons_arise:find_illager_corsair_or_illager_galley"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "12319FBF90ACFB87"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "3CBCE1269010266B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3D3B039A617AA946"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "1351B048E1EA95D9"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 8.5d
+			subtitle: "Discover a Lighthouse"
+			id: "571DC9D0A8C23585"
+			tasks: [{
+				id: "420A0AB17D3D027D"
+				type: "advancement"
+				advancement: "dungeons_arise:find_lighthouse"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "5B742E5A3E0DBB37"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "21DB60ABD7717B32"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2786F9136929817B"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "22E11B4BEBBABA2E"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 4.0d
+			subtitle: "Discover a Wishing Well"
+			id: "337BABA052DA1E0E"
+			tasks: [{
+				id: "1EF98D4A90EA9BB5"
+				type: "advancement"
+				advancement: "dungeons_arise:find_wishing_well"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "52AFD713A40C2EA1"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "4705F68BF77C6CBA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2C1387C56B7970A4"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "55BA6200C68FDA89"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "21796C7D754A11FD"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 6.0d
+			subtitle: "Discover a Coliseum"
+			id: "145F74705341F30E"
+			tasks: [{
+				id: "0358569F8DCB2703"
+				type: "advancement"
+				advancement: "dungeons_arise:find_coliseum"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1F3DF771E7EB8D2F"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "5B2F71216B31DAE5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7790CA513008D9E7"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "1DC30CE85071D32F"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "6CD696A1907F80FC"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 4.0d
+			subtitle: "Discover a Nether City"
+			id: "674C4F6C629090C7"
+			tasks: [{
+				id: "5556E908ECF2D79A"
+				type: "advancement"
+				advancement: "repurposed_structures:city_nether"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "521FAAD9A14A13A1"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "75D12F150E85BB3F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "25C31F67C09B14E6"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "70B04501F1398D58"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "2E00407698D1E787"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 4.5d
+			subtitle: "Discover a Jungle Fortress"
+			id: "0E132FABA501393B"
+			tasks: [{
+				id: "3C1E0553A3F0F7C6"
+				type: "advancement"
+				advancement: "repurposed_structures:fortress_jungle"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "20390D949AA2B596"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "6382634AB46B01D0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "66E6B3ADF5E6F0C7"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "2E1D4539E216B3DF"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "0A3632F149B43F4F"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: -2.0d
+			subtitle: "Discover a Underground Bastion"
+			id: "7DE3544787B49D46"
+			tasks: [{
+				id: "0CCE25B115509756"
+				type: "advancement"
+				advancement: "repurposed_structures:bastion_underground"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "089BE7587C9542B1"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "59B486060019D995"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6FCE2E77A7217702"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "000A774F9DC33DA0"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: -4.0d
+			subtitle: "Find an Ice Pit"
+			id: "11B012F060DFF2F3"
+			tasks: [{
+				id: "5BA16AB06E385F21"
+				type: "advancement"
+				advancement: "dungeons_enhanced:chilled_halls"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4A12773C35F77ABE"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "78491A77B1DF6B54"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2EB44305519FF5ED"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "0CD9D93C7D01C1DA"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -4.0d
+			subtitle: "Find a Castle"
+			id: "5CBB111DF657D689"
+			tasks: [{
+				id: "39B08C30E8378D82"
+				type: "advancement"
+				advancement: "dungeons_enhanced:wars_and_kingdoms"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "79D2525DC76D69BF"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "615B3FC3B9DB6F14"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6866C4E14F744CCF"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "28A28A1F5901D185"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 8.0d
+			subtitle: "Find a Desert Temple"
+			id: "059C3889FEEB8688"
+			tasks: [{
+				id: "6DBEACB4B01E6701"
+				type: "advancement"
+				advancement: "dungeons_enhanced:traps_and_curses"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "35A4E5FE6F5541C7"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "1DE4F6DBAD0C7B22"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0F8FC2597F354183"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "2B500120020DBA3F"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -5.0d
+			subtitle: "Find a Monster Maze"
+			id: "7D9B765A3367AA22"
+			tasks: [{
+				id: "0CFDC47AF1C3D9F0"
+				type: "advancement"
+				advancement: "dungeons_enhanced:hidden_under_the_roots"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7C95FB4B40869E43"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "4F3F90CCCFC4BF05"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3F907ACABB1AFE6B"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "1BC6EFD1B8FB6967"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 9.0d
+			subtitle: "Find a Mushroom House"
+			id: "6295F936F893D27B"
+			tasks: [{
+				id: "406C8DCD54A9B285"
+				type: "advancement"
+				advancement: "dungeons_enhanced:rarest_structure"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "286A9EDA74DA1C78"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "2450881DB41C7CB7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5FE0647CEAE70FF4"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "78D49D0E51A3E871"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 8.0d
+			subtitle: "Find a Jungle Monument"
+			id: "39C49F2F329A1CC3"
+			tasks: [{
+				id: "11A8863BB271D3A5"
+				type: "advancement"
+				advancement: "dungeons_enhanced:ancient_civilizations"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "6178CCA7CE70852B"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "40646DF3FC387577"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2551E3665A3FEB7C"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "59AE95585A8D15C7"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 9.5d
+			subtitle: "Find a Large Dungeon"
+			id: "58E0DDDAEB7E6186"
+			tasks: [{
+				id: "2DB5096D969C8F84"
+				type: "advancement"
+				advancement: "dungeons_enhanced:thats_a_dungeon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1382BC58B33B1979"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "4FE2743A32D6CAA9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2AD92C5297F2157A"
+					type: "pmmo:xpreward"
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 20.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "1177740E03DF8366"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+	]
+}

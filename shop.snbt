@@ -1,0 +1,1792 @@
+{
+	id: "0000000000000579"
+	group: ""
+	order_index: 1
+	filename: "shop"
+	title: "$ - COIN SHOP - $"
+	icon: "kubejs:gold_coin"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -8.0d
+			y: -3.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/copper_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/diamond_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/gold_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/iron_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/netherite_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 15.0d
+			y: -3.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/nether_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.5d
+			y: -3.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/item/monster_coin.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "pmmo:textures/gui/star.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/experience_bottle.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Common loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "common_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: -8.0d
+			y: -1.0d
+			shape: "octagon"
+			subtitle: "For Copper coin (repeatable)"
+			description: ["This quest will give you the item as soon as the coin is submitted."]
+			size: 2.0d
+			id: "64AE92F598464E3E"
+			tasks: [{
+				id: "3BB03FCF02073F96"
+				type: "item"
+				item: "kubejs:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "314181AFAC5E20D3"
+				type: "questsadditions:repeat_random"
+				team_reward: false
+				auto: "enabled"
+				table_id: 4734148794142699034L
+			}]
+		}
+		{
+			title: "Uncommon loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "uncommon_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: -4.0d
+			y: -1.0d
+			shape: "octagon"
+			subtitle: "For Iron coin (repeatable)"
+			size: 2.0d
+			id: "071F9F757CCADA93"
+			tasks: [{
+				id: "2262663480ABB5B9"
+				type: "item"
+				item: "kubejs:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0E5F4DD7AFF34BFD"
+				type: "questsadditions:repeat_random"
+				team_reward: false
+				auto: "enabled"
+				table_id: 5735513140715080140L
+			}]
+		}
+		{
+			title: "Rare loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "rare_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: 0.0d
+			y: -1.0d
+			shape: "octagon"
+			subtitle: "For Gold coin (repeatable)"
+			size: 2.0d
+			id: "62356B57A7D667A6"
+			tasks: [{
+				id: "64B6FB6EC391B652"
+				type: "item"
+				item: "kubejs:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4602EE5ADE50C4EA"
+				type: "questsadditions:repeat_random"
+				team_reward: false
+				auto: "enabled"
+				table_id: 1428536202741681313L
+			}]
+		}
+		{
+			title: "Epic loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "epic_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: 4.0d
+			y: -1.0d
+			shape: "octagon"
+			subtitle: "For Diamond coin (repeatable)"
+			size: 2.0d
+			id: "2EB2758D16E8BAE2"
+			tasks: [{
+				id: "6F316CB4B0B62C5B"
+				type: "item"
+				item: "kubejs:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3C25C0FEAF1FD585"
+				type: "questsadditions:repeat_random"
+				team_reward: false
+				table_id: 4179527381065745422L
+			}]
+		}
+		{
+			title: "Legendary loot crate random reward"
+			icon: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "legendary_loot_crate"
+				}
+			}
+			disable_toast: true
+			x: 8.0d
+			y: -1.0d
+			shape: "octagon"
+			subtitle: "For Netherite coin (repeatable)"
+			size: 2.0d
+			id: "15645F279C638145"
+			tasks: [{
+				id: "1AA543BE63FB898A"
+				type: "item"
+				item: "kubejs:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "63435944E644AE08"
+				type: "questsadditions:repeat_random"
+				table_id: 329072492022215216L
+			}]
+		}
+		{
+			disable_toast: true
+			x: -8.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			description: ["Acquired by exchanging items, completing quests, and defeating Tier 1 \\& 2 Champions."]
+			size: 2.0d
+			id: "12AA5A2ECF315050"
+			tasks: [{
+				id: "17B7046770CA5003"
+				type: "item"
+				item: "kubejs:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "58EFBCD9109C82B8"
+				type: "questsadditions:repeat_choice"
+				team_reward: false
+				table_id: 6888013663897817331L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			description: ["Acquired by exchanging items, completing quests, and defeating Tier 2 \\& 3 Champions."]
+			size: 2.0d
+			id: "4CA69F473539E565"
+			tasks: [{
+				id: "0D11EF81DDA0EF14"
+				type: "item"
+				item: "kubejs:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "049A916DF780D3D5"
+				type: "questsadditions:repeat_choice"
+				team_reward: false
+				table_id: 3673153046364661600L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			description: ["Acquired by exchanging items, completing quests, and defeating Tier 4, 5 \\& 6 Champions."]
+			size: 2.0d
+			id: "2146186B43D64F53"
+			tasks: [{
+				id: "7035844CA6BDC17C"
+				type: "item"
+				item: "kubejs:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7079CAB85A9E26D5"
+				type: "questsadditions:repeat_choice"
+				table_id: 6733206692322637508L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 4.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			description: ["Acquired by exchanging items and completing quests."]
+			size: 2.0d
+			id: "0802FC6EE2B78153"
+			tasks: [{
+				id: "266B9F8F0D5CEBDB"
+				type: "item"
+				item: "kubejs:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7B5027AD56FE385B"
+				type: "questsadditions:repeat_choice"
+				table_id: 849472112562879498L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 8.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			description: ["Acquired by completing quests."]
+			size: 2.0d
+			id: "4BD23FFF77631DA0"
+			tasks: [{
+				id: "49D3E72E213678F0"
+				type: "item"
+				item: "kubejs:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5E7303190250E9C8"
+				type: "questsadditions:repeat_choice"
+				table_id: 8649845864696576998L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 15.0d
+			y: -1.0d
+			shape: "octagon"
+			subtitle: "Choice repeatable reward"
+			description: ["Acquired by defeating any Tier Champions in the Nether."]
+			size: 2.0d
+			id: "637B4E0CF8EE27A0"
+			tasks: [{
+				id: "415052283BCDC314"
+				type: "item"
+				disable_toast: true
+				item: "kubejs:nether_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "54144210F25142F5"
+				type: "questsadditions:repeat_choice"
+				table_id: 493550106172164909L
+			}]
+		}
+		{
+			title: "Gold Coin -> Dungeon's Mobs Gear"
+			icon: {
+				id: "dungeons_mobs:drowned_necromancer_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 2.0d
+			y: -1.5d
+			id: "58EA4AC53C08ADEE"
+			tasks: [{
+				id: "336F0B6E9D85A9AF"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6B35A137798BD60C"
+				type: "questsadditions:repeat_random"
+				table_id: 6428149481638189910L
+			}]
+		}
+		{
+			title: "Gold Coin -> Dungeon's Gear Crate"
+			icon: {
+				id: "dungeons_gear:full_metal_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 2.0d
+			y: -0.5d
+			id: "3E3B2EBE83D1F239"
+			tasks: [{
+				id: "19A895F9E4113D81"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0117728DD2B9D1DB"
+				type: "questsadditions:repeat_random"
+				table_id: 6869005870291592175L
+			}]
+		}
+		{
+			title: "Copper coin -> Money"
+			icon: {
+				id: "kubejs:coin_q_1"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			disable_toast: true
+			x: -6.0d
+			y: -1.0d
+			description: ["This quest will give you the money as soon as the coin is submitted."]
+			id: "3459460308668951"
+			tasks: [{
+				id: "251D20F3E1232F71"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0F407E367C6CDD4E"
+				type: "questsadditions:repeat"
+				team_reward: false
+				auto: "enabled"
+				table_id: 5400957200627923109L
+			}]
+		}
+		{
+			title: "Diamond Coin -> Relics Crate"
+			icon: {
+				id: "relics:magma_walker"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			disable_toast: true
+			x: 6.0d
+			y: 0.5d
+			id: "03A1DDD2943E57B1"
+			tasks: [{
+				id: "41CC8E3C3158575B"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "600299CCD3C22A23"
+				type: "questsadditions:repeat_choice"
+				table_id: 5824378382408918036L
+			}]
+		}
+		{
+			title: "Gold Coind -> Relics Materials Crate"
+			icon: {
+				id: "relics:uncommon_scrap"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			disable_toast: true
+			x: 2.0d
+			y: -2.5d
+			id: "2C7A4688A36C8D2F"
+			tasks: [{
+				id: "4F80337BC005F23B"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "65E096992E840977"
+				type: "questsadditions:repeat_choice"
+				table_id: 5636559557933762132L
+			}]
+		}
+		{
+			title: "Diamond Coin -> Artifacts Crate"
+			icon: {
+				id: "artifacts:fire_gauntlet"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: 1.5d
+			id: "079C8AA41B7C34E1"
+			tasks: [{
+				id: "069D5335840F51E0"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1C505F7EDFA105D4"
+				type: "questsadditions:repeat_choice"
+				table_id: 2742965285575870096L
+			}]
+		}
+		{
+			title: "Gold Coin -> Dungeon's Weapons Crate"
+			icon: {
+				id: "dungeons_gear:frost_scythe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 0.5d
+			id: "2699B3C8C2085097"
+			tasks: [{
+				id: "6DE7233A9AAFAE48"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2AE1A7B3596FD345"
+				type: "questsadditions:repeat_random"
+				table_id: 6789086203719600389L
+			}]
+		}
+		{
+			title: "Gold Coin -> Dungeon's Artifacts Crate"
+			icon: {
+				id: "dungeons_gear:iron_hide_amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 2.0d
+			y: 1.5d
+			id: "6CA383590D6216C3"
+			tasks: [{
+				id: "10972A5696072450"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "615D2E163809DBDD"
+				type: "questsadditions:repeat_random"
+				table_id: 2564622546530286442L
+			}]
+		}
+		{
+			title: "Monster Coin -> Experience Levels"
+			icon: {
+				id: "minecraft:experience_bottle"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			disable_toast: true
+			x: 11.0d
+			y: 1.5d
+			id: "5D0015C3AD22FE14"
+			tasks: [{
+				id: "6C626048FA76E683"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0DE7D508B0149942"
+				type: "questsadditions:repeat_random"
+				table_id: 748146749013531178L
+			}]
+		}
+		{
+			title: "Monster Coin -> Stats Experience"
+			icon: {
+				id: "kubejs:levelup"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			disable_toast: true
+			x: 12.0d
+			y: 1.5d
+			id: "010CFB15EC0B128C"
+			tasks: [{
+				id: "7E4C5948A18859EE"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6E376D04631F868B"
+				type: "questsadditions:repeat_choice"
+				team_reward: false
+				table_id: 8545390299491237994L
+			}]
+		}
+		{
+			title: "10xMonster Coin -> Stats Experience x10"
+			icon: {
+				id: "kubejs:levelup"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			disable_toast: true
+			x: 12.0d
+			y: 2.5d
+			id: "12A37D7C55316769"
+			tasks: [{
+				id: "2237EBE3DC20B80E"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "74E87CA4950C741A"
+				type: "questsadditions:repeat_choice"
+				title: "Skill Experience 1000"
+				team_reward: false
+				table_id: 3680913278004027102L
+			}]
+		}
+		{
+			title: "10xMonster Coin -> Experience Levels"
+			icon: {
+				id: "minecraft:experience_bottle"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			disable_toast: true
+			x: 11.0d
+			y: 2.5d
+			id: "35439ABCBB75E096"
+			tasks: [{
+				id: "0FCD692ABB48823A"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "790056BC266C9E64"
+				type: "questsadditions:repeat_random"
+				table_id: 1115475731524830700L
+			}]
+		}
+		{
+			title: "Monster Coin"
+			disable_toast: true
+			x: 11.5d
+			y: -1.0d
+			shape: "octagon"
+			subtitle: "Random Repeatable Reward"
+			description: ["Acquired by defeating Tier 2, 3, 4, 5 \\& 6 Champions."]
+			size: 2.0d
+			id: "2BF225A3266C70D9"
+			tasks: [{
+				id: "4445DD2E276F6F57"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4381ADC4FB601295"
+				type: "questsadditions:repeat_random"
+				team_reward: false
+				table_id: 5655352712931457870L
+			}]
+		}
+		{
+			title: "Monster Coin -> Random Artifacts Crate"
+			icon: { id: "artifacts:shock_pendant", Count: 5b }
+			disable_toast: true
+			x: 11.0d
+			y: 5.0d
+			id: "20EB4B6DD6683080"
+			tasks: [{
+				id: "1D4BC152A79421E3"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "60D0776BF6A0E4DD"
+				type: "questsadditions:repeat_random"
+				table_id: 2742965285575870096L
+			}]
+		}
+		{
+			title: "Monster Coin -> Random Dungeon's Gear Crate"
+			icon: {
+				id: "dungeons_gear:gilded_glory_chestplate"
+				Count: 5b
+				tag: {
+					Damage: 0
+				}
+			}
+			disable_toast: true
+			x: 12.0d
+			y: 5.0d
+			id: "49A2BBB41EA56759"
+			tasks: [{
+				id: "2439075D2600223D"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6A748A2D3CC0B0E4"
+				type: "questsadditions:repeat_random"
+				team_reward: false
+				table_id: 6869005870291592175L
+			}]
+		}
+		{
+			title: "Monster Coin -> Random Dungeon's Weapons Crate"
+			icon: {
+				id: "dungeons_gear:firebrand"
+				Count: 5b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [{
+								lvl: 1s
+								id: "minecraft:fire_aspect"
+							}]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
+			}
+			disable_toast: true
+			x: 11.5d
+			y: 4.0d
+			id: "17E3076A186D4F5B"
+			tasks: [{
+				id: "4AD1E938D0F8A3C7"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:monster_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "10605C904A54FF31"
+				type: "questsadditions:repeat_random"
+				team_reward: false
+				table_id: 6789086203719600389L
+			}]
+		}
+		{
+			title: "10x Copper Coin -> 100 Money"
+			icon: {
+				id: "kubejs:coin_q_1"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			disable_toast: true
+			x: -6.0d
+			y: 0.0d
+			id: "163F2B8157F792CD"
+			tasks: [{
+				id: "5237739A7F698C5D"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5A4CE63707F95802"
+				type: "questsadditions:repeat"
+				icon: "kubejs:coin_q_1"
+				team_reward: false
+				auto: "enabled"
+				table_id: 3779061515415238755L
+			}]
+		}
+		{
+			title: "100x Copper Coin -> 1000 Money"
+			icon: {
+				id: "kubejs:coin_q_1"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			disable_toast: true
+			x: -6.0d
+			y: 1.0d
+			id: "1754278EEEB0F998"
+			tasks: [{
+				id: "0067A3C8489BED39"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7FC7C5EDF727E8DE"
+				type: "questsadditions:repeat"
+				icon: "kubejs:coin_q_1"
+				team_reward: false
+				auto: "enabled"
+				table_id: 4366943727358589850L
+			}]
+		}
+		{
+			title: "32x Copper Coin -> 32x Common Loot Crates"
+			disable_toast: true
+			x: -8.5d
+			y: 0.5d
+			shape: "hexagon"
+			id: "764DA2840C540DB7"
+			tasks: [{
+				id: "45B1F3D17214F77A"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "29314EC2D1173216"
+				type: "questsadditions:repeat"
+				table_id: 113470121919045931L
+			}]
+		}
+		{
+			title: "64x Copper Coin -> 64x Common Loot Crates"
+			disable_toast: true
+			x: -7.5d
+			y: 0.5d
+			shape: "hexagon"
+			id: "2ADD2AF84AE66076"
+			tasks: [{
+				id: "52DCA4D962DE7022"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3E980710E50397B8"
+				type: "questsadditions:repeat"
+				table_id: 4711569547068001809L
+			}]
+		}
+		{
+			title: "32x Iron Coin -> 32x Uncommon Loot Crates"
+			x: -4.5d
+			y: 0.5d
+			shape: "hexagon"
+			id: "4B8756FED44C4905"
+			tasks: [{
+				id: "24A42415D35E1FE6"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:iron_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0DF5FF824DEEB752"
+				type: "questsadditions:repeat"
+				table_id: 5132130607603350503L
+			}]
+		}
+		{
+			title: "64x Iron Coin -> 64x Uncommon Loot Crates"
+			disable_toast: true
+			x: -3.5d
+			y: 0.5d
+			shape: "hexagon"
+			id: "62C4750140158D45"
+			tasks: [{
+				id: "1B7232596C2DF319"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:iron_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "19395B9155004CAC"
+				type: "questsadditions:repeat"
+				table_id: 1638932814491214642L
+			}]
+		}
+		{
+			title: "32x Gold Coin -> 32x Rare Loot Crates"
+			disable_toast: true
+			x: -0.5d
+			y: 0.5d
+			shape: "hexagon"
+			id: "6045CF2CF24FA646"
+			tasks: [{
+				id: "1849FB952330D4C2"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "45AEFC6BB8D88E4C"
+				type: "questsadditions:repeat"
+				icon: {
+					id: "ftbquests:lootcrate"
+					Count: 32b
+					tag: {
+						type: "rare_loot_crate"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				table_id: 4827116343517656381L
+			}]
+		}
+		{
+			title: "32x Copper Coin -> 32x Choice Rewards"
+			x: -8.5d
+			y: 3.5d
+			shape: "hexagon"
+			id: "19B200221A0C486A"
+			tasks: [{
+				id: "754EF9067FB930B2"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0B9011E5CFE93ED0"
+				type: "questsadditions:repeat_choice"
+				auto: "enabled"
+				table_id: 4240587076435250471L
+			}]
+		}
+		{
+			title: "64x Copper Coin -> 64x Choice Rewards"
+			x: -7.5d
+			y: 3.5d
+			shape: "hexagon"
+			id: "37549EDD70F8FC52"
+			tasks: [{
+				id: "1B61B786BFB67541"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "40C2C142853233AB"
+				type: "questsadditions:repeat_choice"
+				table_id: 728551160774451456L
+			}]
+		}
+		{
+			title: "64x Gold Coin -> 64x Rare Loot Crates"
+			x: 0.5d
+			y: 0.5d
+			shape: "hexagon"
+			id: "2CE3CBC7606CA634"
+			tasks: [{
+				id: "0ECDE4F399A4B69B"
+				type: "item"
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6284606FD1AB69E6"
+				type: "questsadditions:repeat"
+				icon: {
+					id: "ftbquests:lootcrate"
+					Count: 32b
+					tag: {
+						type: "rare_loot_crate"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				table_id: 332849112164469351L
+			}]
+		}
+		{
+			title: "32x Iron Coin -> 32x Choice Rewards"
+			x: -4.5d
+			y: 3.5d
+			shape: "hexagon"
+			id: "17EEC9C481525FB4"
+			tasks: [{
+				id: "3400F9FCF011A9CD"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:iron_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "682DF62A1A1BD3FB"
+				type: "questsadditions:repeat_choice"
+				table_id: 5809902578025286915L
+			}]
+		}
+		{
+			title: "64x Iron Coin -> 64x Choice Rewards"
+			x: -3.5d
+			y: 3.5d
+			shape: "hexagon"
+			id: "7429769A5FC49E8D"
+			tasks: [{
+				id: "5587957F432B3724"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "kubejs:iron_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 64L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "73C020D23636B670"
+				type: "questsadditions:repeat_choice"
+				table_id: 3516676733097761999L
+			}]
+		}
+		{
+			title: "Two Submissions > Copper Coin"
+			x: -8.0d
+			y: 5.0d
+			shape: "rsquare"
+			subtitle: "Any 2 submissions will get you 1 coin"
+			min_required_tasks: 2
+			id: "13265E15534D4AAA"
+			tasks: [
+				{
+					id: "5B643B9BCB1C201C"
+					type: "xp"
+					value: 55L
+					points: true
+				}
+				{
+					id: "5EC31A3AE7A52DDD"
+					type: "item"
+					item: {
+						id: "minecraft:iron_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1BF7FADC24FD6647"
+					type: "item"
+					item: {
+						id: "minecraft:gold_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5D3F3B9B62EC591C"
+					type: "item"
+					item: {
+						id: "ars_nouveau:mana_gem_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1EA780D8029D3E09"
+					type: "item"
+					item: {
+						id: "minecraft:emerald_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5B74464BF869B72B"
+					type: "item"
+					item: {
+						id: "mysticalworld:tin_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "5E2631375645C47C"
+				type: "questsadditions:repeat"
+				table_id: 5718826963610781607L
+			}]
+		}
+		{
+			title: "Two Submissions > Iron Coin"
+			x: -4.0d
+			y: 5.0d
+			shape: "rsquare"
+			subtitle: "Any 2 submissions will get you 1 coin"
+			min_required_tasks: 2
+			id: "1CE64EA211F879F0"
+			tasks: [
+				{
+					id: "3D023FBA755268B5"
+					type: "xp"
+					value: 160L
+					points: true
+				}
+				{
+					id: "57AB2FB887D9CFCE"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "255AB278711FBE94"
+					type: "item"
+					title: "Any #forge:storage_blocks/sapphire"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/sapphire"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "54DFD67E7558AE23"
+					type: "item"
+					title: "Any #forge:storage_blocks/lead"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/lead"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4B0FB87CE7902699"
+					type: "item"
+					title: "Any #forge:storage_blocks/amethyst"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/amethyst"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "5559BF4FBBADE705"
+					type: "item"
+					item: {
+						id: "eidolon:arcane_gold_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4B03715C423E0175"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "3DD49BC9700712F0"
+				type: "questsadditions:repeat"
+				table_id: 1032612325942029560L
+			}]
+		}
+		{
+			title: "Two Submissions > Gold Coin"
+			x: 0.0d
+			y: 5.0d
+			shape: "rsquare"
+			subtitle: "Any 2 submissions will get you 1 coin"
+			min_required_tasks: 2
+			id: "7DC7F5C906814CE3"
+			tasks: [
+				{
+					id: "4DC242D6CB32831A"
+					type: "xp"
+					value: 5345L
+					points: true
+				}
+				{
+					id: "4AA4E236235AF7DF"
+					type: "item"
+					title: "Any #forge:storage_blocks/fire_dragon_scale"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:storage_blocks/fire_dragon_scale"
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "0175179271593929"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2F4004A3981CECA0"
+					type: "item"
+					item: {
+						id: "twilightforest:steeleaf_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "27DCCBD5E65EA48A"
+				type: "questsadditions:repeat"
+				table_id: 2961829497299736304L
+			}]
+		}
+		{
+			title: "Two Submissions > Diamond Coin"
+			x: 4.0d
+			y: 5.0d
+			shape: "rsquare"
+			subtitle: "Any 2 submissions will get you 1 coin"
+			min_required_tasks: 2
+			id: "5593274DC54B9937"
+			tasks: [
+				{
+					id: "5672C0F0DEC6AB52"
+					type: "xp"
+					value: 30970L
+					points: true
+				}
+				{
+					id: "4A871336DF5B402D"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "59AC79BD4DFA65C0"
+					type: "item"
+					item: {
+						id: "minecraft:nether_star"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "74977CAB6EB449BA"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3712C46BA7A1ABE6"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "13D70A2110A48A9A"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "0D5DF557715F6DB8"
+					type: "item"
+					item: {
+						id: "buddycards:perfect_buddysteel_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4BA2AB069700E839"
+				type: "questsadditions:repeat"
+				table_id: 4590487423188971105L
+			}]
+		}
+		{
+			title: "Gold Coin -> Artifacts Crate"
+			icon: "artifacts:whoopee_cushion"
+			x: 2.0d
+			y: 2.5d
+			id: "7A6654B7CF68E559"
+			tasks: [{
+				id: "06E6EE5DFB2EFCB6"
+				type: "item"
+				item: {
+					id: "kubejs:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6F788D5944714C9E"
+				type: "questsadditions:repeat_random"
+				table_id: 2742965285575870096L
+			}]
+		}
+		{
+			title: "Diamond Coin -> Modifier Book"
+			icon: {
+				id: "modifiers:modifier_book"
+				Count: 1b
+				tag: {
+					bookModifier: "modifiers:hearty"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: -0.5d
+			id: "46D669DCE3F39305"
+			tasks: [{
+				id: "1A347205F6CED082"
+				type: "item"
+				item: {
+					id: "kubejs:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "793B3A5D0AB27A93"
+				type: "questsadditions:repeat_random"
+				table_id: 6065820473630880313L
+			}]
+		}
+	]
+}
