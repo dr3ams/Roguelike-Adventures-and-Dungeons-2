@@ -126,8 +126,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -4.0d
+			x: 4.5d
+			y: -2.5d
 			shape: "octagon"
 			dependencies: ["737D3D4923742928"]
 			id: "4E14FCCB76F9292F"
@@ -165,43 +165,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -2.0d
-			shape: "octagon"
-			dependencies: ["737D3D4923742928"]
-			id: "4C6ADE6BEDA551A7"
-			tasks: [{
-				id: "36206C0904555356"
-				type: "item"
-				item: "enigmaticlegacy:escape_scroll"
-			}]
-			rewards: [
-				{
-					id: "7671FA25506D4CE3"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_magic"
-						}
-					}
-				}
-				{
-					id: "6FEC16D5D8707B23"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "693344C067008D49"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			x: 2.5d
-			y: -3.0d
+			x: 3.0d
+			y: -4.0d
 			shape: "octagon"
 			dependencies: ["737D3D4923742928"]
 			id: "65E6E33AD2CDD3F2"

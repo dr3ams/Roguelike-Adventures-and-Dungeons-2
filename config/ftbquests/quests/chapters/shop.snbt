@@ -753,16 +753,8 @@
 			}]
 		}
 		{
-			title: "10xMonster Coin -> Stats Experience x10"
-			icon: {
-				id: "kubejs:levelup"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			title: "10x Monster Coin -> Stats Experience x10"
+			icon: "kubejs:levelup"
 			disable_toast: true
 			x: 12.0d
 			y: 2.5d
@@ -792,7 +784,7 @@
 			}]
 		}
 		{
-			title: "10xMonster Coin -> Experience Levels"
+			title: "10x Monster Coin -> Experience Levels"
 			icon: {
 				id: "minecraft:experience_bottle"
 				Count: 1b
