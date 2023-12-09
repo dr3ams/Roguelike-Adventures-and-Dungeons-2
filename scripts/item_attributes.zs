@@ -3,15 +3,15 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.util.text.MCTextComponent;
 
 //dungeons gear "why is a bat following me" annoying questions fix
-<item:dungeons_gear:spelunker_helmet>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
-<item:dungeons_gear:spelunker_chestplate>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
-<item:dungeons_gear:spelunker_leggings>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
-<item:dungeons_gear:spelunker_boots>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+<item:dungeons_gear:spelunker_helmet>.anyDamage().addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+<item:dungeons_gear:spelunker_chestplate>.anyDamage().addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+<item:dungeons_gear:spelunker_leggings>.anyDamage().addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+<item:dungeons_gear:spelunker_boots>.anyDamage().addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
 
-<item:dungeons_gear:cave_crawler_helmet>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
-<item:dungeons_gear:cave_crawler_chestplate>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
-<item:dungeons_gear:cave_crawler_leggings>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
-<item:dungeons_gear:cave_crawler_boots>.addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+<item:dungeons_gear:cave_crawler_helmet>.anyDamage().addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+<item:dungeons_gear:cave_crawler_chestplate>.anyDamage().addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+<item:dungeons_gear:cave_crawler_leggings>.anyDamage().addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
+<item:dungeons_gear:cave_crawler_boots>.anyDamage().addTooltip("Summons a squeaky bat that.. doesn't really do much, but it's there.");
 
 //fallback in case a mob spawns with it
 <item:blue_skies:debug_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "5dea655f-2321-4af0-8f17-a66e8ce6f0f4", "damage nerf", -1, MULTIPLY_TOTAL, [<equipmentslottype:mainhand>]);
@@ -28,15 +28,15 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:mysticalworld:lead_boots>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "f6488f1b-af9a-4329-9714-28bdf64af63c", "lead armor magicres", 0.05, MULTIPLY_BASE, [<equipmentslottype:feet>]);
 
 //thallasium paraglider boost
-<item:betterendforge:thallasium_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:paraglider:max_stamina>, "309220a7-861a-48f8-b601-4b85c503c890", "thallasium light weight", 0.5, MULTIPLY_BASE, [<equipmentslottype:head>]);
-<item:betterendforge:thallasium_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:paraglider:max_stamina>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "thallasium light weight", 0.5, MULTIPLY_BASE, [<equipmentslottype:chest>]);
-<item:betterendforge:thallasium_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:paraglider:max_stamina>, "d0bb4c83-92f3-415d-b7e0-be56feb74fae", "thallasium light weight", 0.5, MULTIPLY_BASE, [<equipmentslottype:legs>]);
-<item:betterendforge:thallasium_boots>.anyDamage().addGlobalAttributeModifier(<attribute:paraglider:max_stamina>, "e1c53dc8-1188-4621-902f-f9de8f33ded6", "thallasium light weight", 0.5, MULTIPLY_BASE, [<equipmentslottype:feet>]);
+<item:betterendforge:thallasium_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:paraglider:max_stamina>, "309220a7-861a-48f8-b601-4b85c503c890", "thallasium light weight", 0.75, MULTIPLY_BASE, [<equipmentslottype:head>]);
+<item:betterendforge:thallasium_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:paraglider:max_stamina>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "thallasium light weight", 0.75, MULTIPLY_BASE, [<equipmentslottype:chest>]);
+<item:betterendforge:thallasium_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:paraglider:max_stamina>, "d0bb4c83-92f3-415d-b7e0-be56feb74fae", "thallasium light weight", 0.75, MULTIPLY_BASE, [<equipmentslottype:legs>]);
+<item:betterendforge:thallasium_boots>.anyDamage().addGlobalAttributeModifier(<attribute:paraglider:max_stamina>, "e1c53dc8-1188-4621-902f-f9de8f33ded6", "thallasium light weight", 0.75, MULTIPLY_BASE, [<equipmentslottype:feet>]);
 
-<item:betterendforge:thallasium_helmet>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("End Drift: +50% Paraglider Stamina").setStyle(<formatting:dark_purple>));
-<item:betterendforge:thallasium_chestplate>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("End Drift: +50% Paraglider Stamina").setStyle(<formatting:dark_purple>));
-<item:betterendforge:thallasium_leggings>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("End Drift: +50% Paraglider Stamina").setStyle(<formatting:dark_purple>));
-<item:betterendforge:thallasium_boots>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("End Drift: +50% Paraglider Stamina").setStyle(<formatting:dark_purple>));
+<item:betterendforge:thallasium_helmet>.anyDamage().anyDamage().addTooltip(MCTextComponent.createStringTextComponent("End Drift: +75% Paraglider Stamina").setStyle(<formatting:dark_purple>));
+<item:betterendforge:thallasium_chestplate>.anyDamage().anyDamage().addTooltip(MCTextComponent.createStringTextComponent("End Drift: +75% Paraglider Stamina").setStyle(<formatting:dark_purple>));
+<item:betterendforge:thallasium_leggings>.anyDamage().anyDamage().addTooltip(MCTextComponent.createStringTextComponent("End Drift: +75% Paraglider Stamina").setStyle(<formatting:dark_purple>));
+<item:betterendforge:thallasium_boots>.anyDamage().anyDamage().addTooltip(MCTextComponent.createStringTextComponent("End Drift: +75% Paraglider Stamina").setStyle(<formatting:dark_purple>));
 
 
 //mystical world blessed attribute on ice and fire silver armor
@@ -57,53 +57,53 @@ import crafttweaker.api.util.text.MCTextComponent;
 //christmas hat luck nerfed from 50 to 3, speed from +0.05 to +0.02 (+20% speed)
 <item:tombstone:christmas_hat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.luck>, "e6f5182f-39e8-4f5d-9998-fc9ddf7c969e", "Christmas hat luck bonus", -47, ADDITION, [<equipmentslottype:head>]);
 <item:tombstone:christmas_hat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "07c7291f-d909-4411-88c0-3841125b7414", "Christmas hat speed boost", -0.03, ADDITION, [<equipmentslottype:head>]);
-<item:tombstone:christmas_hat>.addTooltip("Grants +3 luck, +0.02 speed");
+<item:tombstone:christmas_hat>.anyDamage().addTooltip("Grants +3 luck, +0.02 speed");
 
 //minecraft dungeons tooltips for consistency
-<item:minecraft:bow>.addTooltip("A simple but well-rounded piece of weaponry. The hunters of the Pumpkin Pastures say that a bow doesn't let you down, unlike other trinkets.");
-<item:minecraft:crossbow>.addTooltip("The crossbow is the ranged weapon of the Illagers and is a common sight among Pillager warriors.");
+<item:minecraft:bow>.anyDamage().addTooltip("A simple but well-rounded piece of weaponry. The hunters of the Pumpkin Pastures say that a bow doesn't let you down, unlike other trinkets.");
+<item:minecraft:crossbow>.anyDamage().addTooltip("The crossbow is the ranged weapon of the Illagers and is a common sight among Pillager warriors.");
 
 //uncrafting table tooltip
 <item:twilightforest:uncrafting_table>.addTooltip("The uncrafting function of the uncrafting table is disabled.");
 
 //quark backpack
-<item:quark:backpack>.addTooltip("Please use the Backpack from Sophisticated Backpacks instead.");
+<item:quark:backpack>.anyDamage().addTooltip("Please use the Backpack from Sophisticated Backpacks instead.");
 //soul enchanter
 <item:eidolon:soul_enchanter>.addTooltip("This item is purposely disabled due to being insanely powerful. If you found it in the book, the recipe above will not work.");
 //golden bridle
 <item:greekfantasy:golden_bridle>.addTooltip("Used to tame Pegasus");
 //flint and steel
-<item:minecraft:flint_and_steel>.addTooltip("Check the quest book on how to enter and exit the nether");
+<item:minecraft:flint_and_steel>.anyDamage().addTooltip("Check the quest book on how to enter and exit the nether");
 
 //dual wield tutorial
-<item:dungeons_gear:dagger>.addTooltip("This is a Dual Wield weapon. It swaps to your offhand when attacking. Try using one in both your mainhand and offhand!");
-<item:dungeons_gear:gauntlet>.addTooltip("This is a Dual Wield weapon. It swaps to your offhand when attacking. Try using one in both your mainhand and offhand!");
+<item:dungeons_gear:dagger>.anyDamage().addTooltip("This is a Dual Wield weapon. It swaps to your offhand when attacking. Try using one in both your mainhand and offhand!");
+<item:dungeons_gear:gauntlet>.anyDamage().addTooltip("This is a Dual Wield weapon. It swaps to your offhand when attacking. Try using one in both your mainhand and offhand!");
 
 //apex enchanting
 <item:minecraft:beacon>.addTooltip("Right-Click in JEI to see Apex Enchanting Recipes");
 
 //crystalite armor tooltip
-<item:betterendforge:crystalite_chestplate>.addTooltip(MCTextComponent.createStringTextComponent("Haste I").setStyle(<formatting:gold>));
-<item:betterendforge:crystalite_boots>.addTooltip("Speed I");
+<item:betterendforge:crystalite_chestplate>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Haste I").setStyle(<formatting:gold>));
+<item:betterendforge:crystalite_boots>.anyDamage().addTooltip("Speed I");
 
-<item:betterendforge:crystalite_helmet>.addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
-<item:betterendforge:crystalite_chestplate>.addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
-<item:betterendforge:crystalite_leggings>.addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
-<item:betterendforge:crystalite_boots>.addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
+<item:betterendforge:crystalite_helmet>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
+<item:betterendforge:crystalite_chestplate>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
+<item:betterendforge:crystalite_leggings>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
+<item:betterendforge:crystalite_boots>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
 
 //lightning dragonsteel tooltip
-<item:iceandfire:dragonsteel_lightning_sword>.addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
-<item:iceandfire:dragonsteel_lightning_axe>.addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
-<item:iceandfire:dragonsteel_lightning_pickaxe>.addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
-<item:iceandfire:dragonsteel_lightning_shovel>.addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
-<item:iceandfire:dragonsteel_lightning_hoe>.addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
+<item:iceandfire:dragonsteel_lightning_sword>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
+<item:iceandfire:dragonsteel_lightning_axe>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
+<item:iceandfire:dragonsteel_lightning_pickaxe>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
+<item:iceandfire:dragonsteel_lightning_shovel>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
+<item:iceandfire:dragonsteel_lightning_hoe>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
 //soul weapons
 <item:atum:anubis_wrath>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
 <item:eidolon:reaper_scythe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
 
 //dimensional carver tooltip + durability increase
 <item:alexsmobs:dimensional_carver>.maxDamage = 100;
-<item:alexsmobs:dimensional_carver>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Teleports you to spawn, unlike the magic mirror this even works across dimensions! (Stops working at 1 durability, does not break)").setStyle(<formatting:light_purple>));
+<item:alexsmobs:dimensional_carver>.anyDamage().anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Teleports you to spawn, unlike the magic mirror this even works across dimensions! (Stops working at 1 durability, does not break)").setStyle(<formatting:light_purple>));
 
 //buddycards gear improvements
 //buddysteel Serendipity Boost (fortune)
@@ -144,22 +144,22 @@ import crafttweaker.api.util.text.MCTextComponent;
 
 //perfect buddysteel buff (Magic Damage & fortune)
 <item:buddycards:perfect_buddysteel_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "309220a7-861a-48f8-b601-4b85c503c890", "buddy luck", 0.5, ADDITION, [<equipmentslottype:head>]);
-<item:buddycards:perfect_buddysteel_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "8c68e6d5-5747-48ec-9ddb-d770902b981d", "buddy magic", 0.15, ADDITION, [<equipmentslottype:head>]);
+<item:buddycards:perfect_buddysteel_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "8c68e6d5-5747-48ec-9ddb-d770902b981d", "buddy magic", 0.2, ADDITION, [<equipmentslottype:head>]);
 <item:buddycards:perfect_buddysteel_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "buddy luck", 0.5, ADDITION, [<equipmentslottype:chest>]);
-<item:buddycards:perfect_buddysteel_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "cad250f1-a55a-4170-90ea-7b2284a8d0e7", "buddy magic", 0.15, ADDITION, [<equipmentslottype:chest>]);
+<item:buddycards:perfect_buddysteel_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "cad250f1-a55a-4170-90ea-7b2284a8d0e7", "buddy magic", 0.2, ADDITION, [<equipmentslottype:chest>]);
 <item:buddycards:perfect_buddysteel_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "d0bb4c83-92f3-415d-b7e0-be56feb74fae", "buddy luck", 0.5, ADDITION, [<equipmentslottype:legs>]);
-<item:buddycards:perfect_buddysteel_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "9e6249f2-0e9d-46b0-a0f1-988d910c048c", "buddy magic", 0.15, ADDITION, [<equipmentslottype:legs>]);
+<item:buddycards:perfect_buddysteel_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "9e6249f2-0e9d-46b0-a0f1-988d910c048c", "buddy magic", 0.2, ADDITION, [<equipmentslottype:legs>]);
 <item:buddycards:perfect_buddysteel_boots>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "e1c53dc8-1188-4621-902f-f9de8f33ded6", "buddy luck", 0.5, ADDITION, [<equipmentslottype:feet>]);
-<item:buddycards:perfect_buddysteel_boots>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "cba394eb-e251-43f9-b4b8-6439c95bec51", "buddy magic", 0.15, ADDITION, [<equipmentslottype:feet>]);
+<item:buddycards:perfect_buddysteel_boots>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "cba394eb-e251-43f9-b4b8-6439c95bec51", "buddy magic", 0.2, ADDITION, [<equipmentslottype:feet>]);
 
 //forbidden axe buff (Smite damage, Souls, Lifesteal)
 <item:enigmaticlegacy:forbidden_axe>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:smite>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "undead smite bonus", 4, ADDITION, [<equipmentslottype:mainhand>]);
 <item:enigmaticlegacy:forbidden_axe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "execution soul harvest", 2, ADDITION, [<equipmentslottype:mainhand>]);
 <item:enigmaticlegacy:forbidden_axe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "execution life steal bonus", 0.05, ADDITION, [<equipmentslottype:mainhand>]);
 
-//The Twist buff (+100% Magic Damage in Offhand)
-<item:enigmaticlegacy:the_twist>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "db5fd450-851b-45c4-89b8-059bb1df7f62", "twisted spellcasting", 1.0, ADDITION, [<equipmentslottype:offhand>]);
-<item:enigmaticlegacy:the_twist>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Twisted Spellcasting: +100% Magic Damage in the offhand").setStyle(<formatting:dark_purple>));
+//The Twist buff (+150% Magic Damage in Offhand)
+<item:enigmaticlegacy:the_twist>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "db5fd450-851b-45c4-89b8-059bb1df7f62", "twisted spellcasting", 1.5, ADDITION, [<equipmentslottype:offhand>]);
+<item:enigmaticlegacy:the_twist>.anyDamage().anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Twisted Spellcasting: +150% Magic Damage in the offhand").setStyle(<formatting:dark_purple>));
 
 //unplaceable spawners
 <item:minecraft:spawner>.addGlobalAttributeModifier(<attribute:forge:reach_distance>, "a6f5182f-39e8-4f5d-9998-fc9ddf7c969f", "Unplaceable", -1, MULTIPLY_TOTAL, [<equipmentslottype:mainhand>]);
