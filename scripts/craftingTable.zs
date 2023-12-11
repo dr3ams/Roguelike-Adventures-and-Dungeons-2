@@ -135,3 +135,9 @@ craftingTable.addShaped("harder_destruction_core", <item:constructionwand:core_d
     [<item:minecraft:nether_star>, <item:minecraft:netherite_block>, <item:minecraft:nether_star>],
     [<item:minecraft:netherite_pickaxe>, <item:minecraft:nether_star>, <item:minecraft:netherite_pickaxe>]
 ]);
+
+
+//fix lily chicken and iron lotus being uncraftable
+craftingTable.addShapeless("lily_chicken_fix", <item:twilightdelight:lily_chicken_block>,  [<item:twilightforest:huge_lilypad>, <item:farmersdelight:roast_chicken_block>, <item:twilightforest:huge_waterlily>]);
+
+craftingTable.addShapeless("iron_lotus_fix", <item:twilightdelight:iron_lotus>,  [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/fiery>, <item:twilightforest:huge_waterlily>]);
