@@ -43,10 +43,15 @@ import crafttweaker.api.food.MCFood;
 <item:byg:ether_bulbs>.food = new MCFood(2, 0.1);
 <item:alexsmobs:fish_oil>.food = new MCFood(2, 0.3);
 <item:relics:infinity_ham>.food = new MCFood(5, 0.3);
-<item:upgradednetherite_items:netherite_apple>.food = new MCFood(4, 1.2);
-<item:upgradednetherite_items:enchanted_netherite_apple>.food = new MCFood(4, 1.2);
-<item:upgradednetherite_items:gold_upgraded_netherite_apple>.food = new MCFood(4, 1.2);
-<item:upgradednetherite_items:enchanted_gold_upgraded_netherite_apple>.food = new MCFood(4, 1.2);
+
+<item:upgradednetherite_items:netherite_apple>.food = new MCFood(4, 1.2).addEffect(<effect:minecraft:hunger>.newInstance(900, 1, false, false), 1.0).addEffect(<effect:minecraft:slowness>.newInstance(400, 0, false, false), 1.0).addEffect(<effect:minecraft:fire_resistance>.newInstance(1200, 0, false, false), 1.0).addEffect(<effect:upgradednetherite_items:netherite_strength>.newInstance(900, 0, false, false), 1.0).addEffect(<effect:upgradednetherite_items:netherite_resistance>.newInstance(400, 0, false, false), 1.0).setCanEatWhenFull(true);
+
+<item:upgradednetherite_items:enchanted_netherite_apple>.food = new MCFood(4, 1.2).addEffect(<effect:minecraft:hunger>.newInstance(3600, 3, false, false), 1.0).addEffect(<effect:minecraft:slowness>.newInstance(1600, 1, false, false), 1.0).addEffect(<effect:minecraft:fire_resistance>.newInstance(6000, 0, false, false), 1.0).addEffect(<effect:upgradednetherite_items:netherite_strength>.newInstance(3600, 1, false, false), 1.0).addEffect(<effect:upgradednetherite_items:netherite_resistance>.newInstance(1600, 1, false, false), 1.0).setCanEatWhenFull(true);
+
+<item:upgradednetherite_items:gold_upgraded_netherite_apple>.food = new MCFood(4, 1.2).addEffect(<effect:minecraft:hunger>.newInstance(900, 1, false, false), 1.0).addEffect(<effect:minecraft:slowness>.newInstance(400, 0, false, false), 1.0).addEffect(<effect:minecraft:fire_resistance>.newInstance(1200, 0, false, false), 1.0).addEffect(<effect:upgradednetherite_items:netherite_strength>.newInstance(900, 0, false, false), 1.0).addEffect(<effect:upgradednetherite_items:netherite_resistance>.newInstance(400, 0, false, false), 1.0).addEffect(<effect:upgradednetherite_items:netherite_luck>.newInstance(900, 0, false, false), 1.0).setCanEatWhenFull(true);
+
+<item:upgradednetherite_items:enchanted_gold_upgraded_netherite_apple>.food = new MCFood(4, 1.2).addEffect(<effect:minecraft:hunger>.newInstance(3600, 3, false, false), 1.0).addEffect(<effect:minecraft:slowness>.newInstance(1600, 1, false, false), 1.0).addEffect(<effect:minecraft:fire_resistance>.newInstance(6000, 0, false, false), 1.0).addEffect(<effect:upgradednetherite_items:netherite_strength>.newInstance(3600, 1, false, false), 1.0).addEffect(<effect:upgradednetherite_items:netherite_resistance>.newInstance(1600, 1, false, false), 1.0).addEffect(<effect:upgradednetherite_items:netherite_luck>.newInstance(3600, 1, false, false), 1.0).setCanEatWhenFull(true);
+
 <item:good_nights_sleep:luxurious_soup>.food = new MCFood(12, 0.9);
 <item:good_nights_sleep:wretched_soup>.food = new MCFood(12, -1.9);
 <item:feywild:mandrake_potion>.food = new MCFood(3, 1.2);
