@@ -34,7 +34,7 @@
 		#Registry names of items that Loot Beams should render on. Example: "minecraft:stone", "minecraft:iron_ingot", You can also specify modids for a whole mod's items.
 		whitelist = []
 		#Registry names of items that Loot Beams should NOT render on. This has priority over everything. You can also specify modids for a whole mod's items.
-		blacklist = ["minecraft:air", "bountiful:bounty", "minecraft:stone", "minecraft:netherrack", "minecraft:dirt", "minecraft:cobblestone", "minecraft:andesite", "minecraft:bamboo", "minecraft:basalt", "minecraft:birch_sapling", "minecraft:acacia_sapling", "minecraft:clay_ball", "minecraft:coal", "minecraft:dark_oak_sapling", "minecraft:diorite", "minecraft:egg", "minecraft:ender_pearl", "minecraft:glowstone_dust", "minecraft:glowstone", "minecraft:granite", "minecraft:gravel", "minecraft:jungle_sapling", "minecraft:kelp", "minecraft:mycelium", "minecraft:oak_sapling", "minecraft:podzol", "minecraft:spruce_sapling", "minecraft:wheat_seeds"]
+		blacklist = ["minecraft:air", "bountiful:bounty", "minecraft:stone", "minecraft:netherrack", "minecraft:dirt", "minecraft:cobblestone", "minecraft:andesite", "minecraft:bamboo", "minecraft:basalt", "minecraft:end_stone", "minecraft:birch_sapling", "minecraft:acacia_sapling", "minecraft:clay_ball", "minecraft:coal", "minecraft:dark_oak_sapling", "minecraft:diorite", "minecraft:egg", "minecraft:ender_pearl", "minecraft:glowstone_dust", "minecraft:glowstone", "minecraft:granite", "minecraft:gravel", "minecraft:jungle_sapling", "minecraft:kelp", "minecraft:mycelium", "minecraft:oak_sapling", "minecraft:podzol", "minecraft:spruce_sapling", "minecraft:wheat_seeds","blue_skies:turquoise_dirt","blue_skies:lunar_dirt","blue_skies:turquoise_stone","blue_skies:turquoise_cobblestone","blue_skies:lunar_stone","blue_skies:lunar_cobblestone","atum:limestone_cracked","atum:limestone_gravel","undergarden:depthrock","twilightforest:canopy_sapling","byg:blue_netherrack","byg:brimstone","darkerdepths:grimestone","darkerdepths:shale","darkerdepths:cobbled_sandstone","good_nights_sleep:delusion_cobblestone","byg:cobbled_ether_stone","betterdefaultbiomes:small_rock_cobble","betterdefaultbiomes:small_rock_stone","byg:scoria_cobblestone"]
 
 	#Item nametags
 	["Loot Beams".Nametags]
@@ -67,4 +67,3 @@
 		custom_rarities = []
 		#If rarities should ignore color and render as white (This is really only used for modpacks)
 		white_rarities = false
-
