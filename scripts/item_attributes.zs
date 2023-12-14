@@ -16,6 +16,11 @@ import crafttweaker.api.util.text.MCTextComponent;
 //fallback in case a mob spawns with it
 <item:blue_skies:debug_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "5dea655f-2321-4af0-8f17-a66e8ce6f0f4", "damage nerf", -1, MULTIPLY_TOTAL, [<equipmentslottype:mainhand>]);
 
+//pirate hat swim boosts
+<item:pirate_hat:eyepatch_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:swim_speed>, "309220a7-861a-48f8-b601-4b85c503c890", "pirate swim", 0.2, ADDITION, [<equipmentslottype:head>]);
+<item:pirate_hat:sailor_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:swim_speed>, "309220a7-861a-48f8-b601-4b85c503c890", "pirate swim", 0.4, ADDITION, [<equipmentslottype:head>]);
+<item:pirate_hat:pirate_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:swim_speed>, "309220a7-861a-48f8-b601-4b85c503c890", "pirate swim", 0.6, ADDITION, [<equipmentslottype:head>]);
+
 //weighted lead + magic resistance
 <item:mysticalworld:lead_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "309220a7-861a-48f8-b601-4b85c503c890", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:head>]);
 <item:mysticalworld:lead_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:chest>]);
