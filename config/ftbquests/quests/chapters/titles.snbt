@@ -597,6 +597,44 @@
 				advancement: "tombstone:adventure/chain_death"
 				criterion: ""
 			}]
+			rewards: [
+				{
+					id: "1426261C0B6627E4"
+					type: "command"
+					title: "The Noob"
+					icon: {
+						id: "titles:title_scroll_common"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					team_reward: false
+					auto: "invisible"
+					command: "/execute as @p if entity @s[nbt={ForgeCaps:{\"titles:titles\":{display_title:\"titles:null\"}}}] run titles display tombstone:adventure/chain_death"
+					player_command: false
+				}
+				{
+					id: "6854B6A3D61AB392"
+					type: "command"
+					title: "Noob's Message"
+					icon: {
+						id: "iceandfire:manuscript"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					team_reward: false
+					auto: "invisible"
+					command: "/tellraw @p [{\"text\":\"You got a title! Press \",\"color\":\"yellow\"},{\"keybind\":\"key.titles.openTitleSelection\",\"color\":\"light_purple\",\"bold\":\"true\"},{\"text\":\" to see all your earned titles.\",\"color\":\"yellow\"}]"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "the §aTester"
