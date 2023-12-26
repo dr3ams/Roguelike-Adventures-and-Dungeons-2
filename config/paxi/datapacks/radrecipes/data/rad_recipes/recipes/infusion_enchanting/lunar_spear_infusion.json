@@ -1,0 +1,23 @@
+{
+	"type": "apotheosis:enchanting",
+	"input": {
+		"item": "blue_skies:lunar_spear",
+		"type": "apotheosis:unenchanted"
+	},
+	"requirements": {
+		"eterna": 7,
+		"quanta": 5,
+		"arcana": 5
+	},
+	"max_requirements": {
+		"eterna": 15,
+		"quanta": -1,
+		"arcana": -1
+	},
+	"display_level": 2,
+	"result": {
+		"item": "blue_skies:lunar_spear",
+		"nbt": "{display:{Name:'[{\"text\":\"Infused \",\"italic\":false},{\"translate\":\"item.blue_skies.lunar_spear\",\"italic\":false}]'},\"Enchantments\":[{\"id\":\"enigmaticlegacy:wrath\",\"lvl\":3},{\"id\":\"uniquebattle:hecates_blessing\",\"lvl\":1}]}",
+		"count": 1
+	}
+}

@@ -2736,5 +2736,59 @@
 				count: 3
 			}]
 		}
+		{
+			title: "Spear Enchanting"
+			icon: {
+				id: "blue_skies:lunar_spear"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 1
+						id: "apotheosis:infusion"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.0d
+			y: 1.5d
+			description: [
+				"These Spears can be enchanted with Piercing as well as Loyalty, making them like a trident that's good for dealing with multiple mobs at once."
+				""
+				"To make them more relevant in this modpack there are enchanting table infusion enchanting recipes that allow you to enchant them with damage upgrades like Wrath which cannot be normally put on the spears."
+			]
+			dependencies: ["4115F1E842101C67"]
+			id: "458ABA83F93AD1B5"
+			tasks: [{
+				id: "37207F6CE2224755"
+				type: "checkmark"
+				title: "Spear Enchanting"
+			}]
+			rewards: [
+				{
+					id: "32E7A47863EAC44B"
+					type: "item"
+					item: {
+						id: "minecraft:lapis_lazuli"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "567320281CEECF4F"
+					type: "xp"
+					xp: 150
+				}
+			]
+		}
 	]
 }
