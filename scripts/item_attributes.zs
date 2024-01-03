@@ -64,6 +64,12 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:tombstone:christmas_hat>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "07c7291f-d909-4411-88c0-3841125b7414", "Christmas hat speed boost", -0.03, ADDITION, [<equipmentslottype:head>]);
 <item:tombstone:christmas_hat>.anyDamage().addTooltip("Grants +3 luck, +0.02 speed");
 
+//passages toll warning tooltip
+<item:meetyourfight:passages_toll>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Costs 10 XP Levels to use. It will sting a little...").setStyle(<formatting:red>));
+
+//keepsake casket tooltip
+<item:twilightforest:keepsake_casket>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("If this item is in your inventory, if you die it will appear at your death point and store your stuff. Warning: May cause your spawnpoint to be obstructed.").setStyle(<formatting:yellow>));
+
 //minecraft dungeons tooltips for consistency
 <item:minecraft:bow>.anyDamage().addTooltip("A simple but well-rounded piece of weaponry. The hunters of the Pumpkin Pastures say that a bow doesn't let you down, unlike other trinkets.");
 <item:minecraft:crossbow>.anyDamage().addTooltip("The crossbow is the ranged weapon of the Illagers and is a common sight among Pillager warriors.");
