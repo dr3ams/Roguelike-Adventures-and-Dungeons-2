@@ -79,16 +79,16 @@
 	[affixes.desecrating]
 		#How long (in seconds) between cloud placements
 		#Range: > 1
-		desecratingCloudInterval = 5
+		desecratingCloudInterval = 10
 		#How long (in seconds) it takes for the effect cloud to activate after being placed
 		#Range: > 0
-		desecratingCloudActivationTime = 1
+		desecratingCloudActivationTime = 1.5
 		#The radius of the cloud effect
 		#Range: 1.0 ~ 1.7976931348623157E308
-		desecratingCloudRadius = 2.0
+		desecratingCloudRadius = 1.5
 		#The duration (in seconds) of the cloud effect
 		#Range: > 1
-		desecratingCloudDuration = 3
+		desecratingCloudDuration = 2.5
 
 	[affixes.enkindling]
 		#How often the champion will shoot projectiles (in seconds)
@@ -146,10 +146,10 @@
 	[affixes.plagued]
 		#The effect that will be spread
 		#Format:[effect];[power];[duration(secs)]
-		plaguedEffect = "minecraft:poison;10;1"
+		plaguedEffect = "rats:plague;10;1"
 		#The range of the plagued effect
 		#Range: 1 ~ 100
-		plaguedRange = 5
+		plaguedRange = 3
 
 	[affixes.reflective]
 		#The minimum percent of damage to reflect back
@@ -167,7 +167,7 @@
 	[affixes.magnetic]
 		#Strength of the magnetic pulling effect
 		#Range: 0.0 ~ 100.0
-		magneticStrength = 0.05
+		magneticStrength = 0.025
 
 	[affixes.wounding]
 		#The percent chance that an attack will wound targets

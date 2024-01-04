@@ -510,7 +510,7 @@
 				title: "Dragonslayer's Message"
 				icon: "iceandfire:manuscript"
 				auto: "enabled"
-				command: "/tellraw @p {\"text\":\"Congratulations on defeating your first dragon! Embarking on the dragonsteel journey will be a long and difficult scavenger hunt as the dragons now aware of your presence have went into hiding to escape your grasp. Good Luck finding them.\",\"color\":\"yellow\"}"
+				command: "/tellraw @p {\"text\":\"The fall of a dragon has awakened the power of some weaker bosses previously held under its control.\",\"color\":\"dark_red\",\"bold\":true}"
 				player_command: false
 			}]
 		}
