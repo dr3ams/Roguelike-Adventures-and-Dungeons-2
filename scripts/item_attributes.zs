@@ -21,6 +21,17 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:pirate_hat:sailor_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:swim_speed>, "309220a7-861a-48f8-b601-4b85c503c890", "pirate swim", 0.4, ADDITION, [<equipmentslottype:head>]);
 <item:pirate_hat:pirate_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:swim_speed>, "309220a7-861a-48f8-b601-4b85c503c890", "pirate swim", 0.6, ADDITION, [<equipmentslottype:head>]);
 
+//mystical world weapon rebalanced to be similar to spartan weaponry
+<item:mysticalworld:copper_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Weapon modifier", -0.5, ADDITION, [<equipmentslottype:mainhand>]);
+<item:mysticalworld:tin_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Weapon modifier", -0.25, ADDITION, [<equipmentslottype:mainhand>]);
+<item:mysticalworld:tin_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Weapon modifier", -0.25, ADDITION, [<equipmentslottype:mainhand>]);
+<item:mysticalworld:lead_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Heavy Weapon modifier", -0.25, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
+<item:mysticalworld:lead_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Heavy Weapon modifier", -0.25, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
+<item:mysticalworld:lead_pickaxe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Heavy Weapon modifier", -0.25, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
+<item:mysticalworld:lead_shovel>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Heavy Weapon modifier", -0.25, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
+<item:mysticalworld:lead_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Heavy Weapon modifier", -0.25, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
+
+
 //weighted lead + magic resistance
 <item:mysticalworld:lead_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "309220a7-861a-48f8-b601-4b85c503c890", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:head>]);
 <item:mysticalworld:lead_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:chest>]);

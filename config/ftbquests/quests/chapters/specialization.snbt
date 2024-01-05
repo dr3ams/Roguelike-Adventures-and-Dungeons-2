@@ -1,7 +1,7 @@
 {
 	id: "0954925BF18F6751"
-	group: "241F1DC7B6D6E9D6"
-	order_index: 3
+	group: ""
+	order_index: 4
 	filename: "specialization"
 	title: "Specialization"
 	icon: {
@@ -57,6 +57,8 @@
 			}
 			x: -7.5d
 			y: 1.0d
+			subtitle: "Just Mining my own business"
+			description: ["Ores spawn more often in caves than when strip mining."]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -225,6 +227,8 @@
 			icon: "minecraft:wheat"
 			x: -6.0d
 			y: 1.0d
+			subtitle: "We are farmers dun dun dun dun dun dun dun"
+			description: ["Managing your 5 nutrients well gives you a powerful effect!"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -493,6 +497,8 @@
 			}
 			x: -4.5d
 			y: 1.0d
+			subtitle: "Taking a short-cut through the mobs"
+			description: ["You beat up mobs with your sword not much to say here"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -655,6 +661,8 @@
 			}
 			x: -3.0d
 			y: 1.0d
+			subtitle: "Take a bow"
+			description: ["A quiver will automatically move arrows stored in it to your offhand when you pull out your bow."]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -774,39 +782,6 @@
 					}
 				}
 				{
-					id: "04BD984E5E522D90"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "undergarden:glowing"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "4570C66E864BA161"
-					type: "item"
-					item: {
-						id: "roughtweaks:plaster"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "6C8C09C11F1F9322"
 					type: "item"
 					team_reward: false
@@ -842,6 +817,24 @@
 						}
 					}
 				}
+				{
+					id: "6A641C689D01D067"
+					type: "item"
+					item: {
+						id: "spartanweaponry:quiver_arrow_small"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								Size: 4
+								Items: [ ]
+							}
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -855,6 +848,12 @@
 			}
 			x: -1.5d
 			y: 1.0d
+			subtitle: "You're a hairy wizard"
+			description: [
+				"Tattered tomes grant Magic xp when read. Each player can read from the book once."
+				""
+				"(You should share it after reading it)"
+			]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -903,24 +902,6 @@
 						}
 					}
 					count: 32
-				}
-				{
-					id: "7195A0E2F3B8BE08"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:healing"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 2
 				}
 				{
 					id: "375AD6B0C7D4AD36"
@@ -1026,6 +1007,20 @@
 						}
 					}
 				}
+				{
+					id: "569965C18F065B26"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:tattered_tome"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1033,6 +1028,8 @@
 			icon: "pirate_hat:pirate_helmet"
 			x: 0.0d
 			y: 1.0d
+			subtitle: "Arr"
+			description: ["All the Pirate Hats boost your swimming speed when worn!"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -1215,6 +1212,19 @@
 						}
 					}
 				}
+				{
+					id: "107D813C665FDD53"
+					type: "item"
+					item: {
+						id: "smallships:spruce_rowboat"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1228,6 +1238,8 @@
 			}
 			x: 1.5d
 			y: 1.0d
+			subtitle: "Nerves of Steal"
+			description: ["Mobs in boats can't turn around. This lets you get an easy backstab on tough champions."]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -1430,6 +1442,8 @@
 			icon: "minecraft:leather"
 			x: 3.0d
 			y: 1.0d
+			subtitle: "Oh Deer"
+			description: ["Knowledge Potions increase your experience gain."]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -1653,6 +1667,8 @@
 			}
 			x: 4.5d
 			y: 1.0d
+			subtitle: "The class everyone wants around but hates to play as"
+			description: ["The Danger Sight potion lets you see where monsters will spawn."]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -1806,6 +1822,8 @@
 			}
 			x: 6.0d
 			y: 1.0d
+			subtitle: "I guess you could consider a cave a pit"
+			description: ["The Light Feather can be used as an early game version of the double jump."]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -2017,6 +2035,8 @@
 			icon: "ars_nouveau:glyph_summon_wolves"
 			x: 7.5d
 			y: 1.0d
+			subtitle: "Bark."
+			description: ["Check the A Reliable Friend chapter to see how to use training treats."]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -2065,6 +2085,7 @@
 							}
 						}
 					}
+					count: 3
 				}
 				{
 					id: "5237BDB227D4B4D1"
@@ -2163,23 +2184,6 @@
 					}
 				}
 				{
-					id: "7201E560B31F0E0C"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:healing"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "792E1B74FE8DFA33"
 					type: "item"
 					team_reward: false
@@ -2227,6 +2231,7 @@
 			}
 			x: -7.5d
 			y: 2.5d
+			description: [""]
 			dependencies: ["683225884B0525D7"]
 			optional: true
 			id: "23D32CEF3529DC11"
@@ -2324,15 +2329,17 @@
 					id: "3A7CF81D153AD82A"
 					type: "item"
 					item: {
-						id: "dungeons_gear:spelunker_chestplate"
+						id: "dungeons_gear:spelunker_boots"
 						Count: 1b
 						tag: {
 							Damage: 0
-							itemModifier: "modifiers:wild"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2624,22 +2631,6 @@
 			]
 			rewards: [
 				{
-					id: "3D705C31972DB3B9"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "apotheosis:strong_resistance"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "21EC47315F2AFA81"
 					type: "item"
 					item: {
@@ -2675,14 +2666,17 @@
 					id: "16228D95D65D6CF1"
 					type: "item"
 					item: {
-						id: "dungeons_gear:mercenary_helmet"
+						id: "dungeons_gear:mercenary_leggings"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2691,14 +2685,17 @@
 					id: "4732439AE36C7A4C"
 					type: "item"
 					item: {
-						id: "dungeons_gear:mercenary_chestplate"
+						id: "dungeons_gear:mercenary_boots"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2808,7 +2805,7 @@
 							}
 						}
 					}
-					count: 16
+					count: 20
 				}
 				{
 					id: "16B644B52EAAF98C"
@@ -2918,7 +2915,7 @@
 		{
 			title: "Alchemist"
 			icon: {
-				id: "dungeons_gear:ember_robes_helmet"
+				id: "dungeons_gear:ember_robes_chestplate"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -2926,7 +2923,10 @@
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [{
-							data: [ ]
+							data: [{
+								lvl: 1s
+								id: "ars_nouveau:mana_boost"
+							}]
 							source: "dungeons_libraries:gear_config"
 						}]
 					}
@@ -2970,7 +2970,7 @@
 					id: "487024FECB5AF48E"
 					type: "item"
 					item: {
-						id: "dungeons_gear:ember_robes_helmet"
+						id: "dungeons_gear:ember_robes_leggings"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -2978,10 +2978,20 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [{
-									data: [{
-										lvl: 1s
-										id: "ars_nouveau:mana_boost"
-									}]
+									data: [
+										{
+											lvl: 1s
+											id: "dungeons_gear:speed_aura"
+										}
+										{
+											lvl: 1s
+											id: "dungeons_gear:burning"
+										}
+										{
+											lvl: 1s
+											id: "ars_nouveau:mana_boost"
+										}
+									]
 									source: "dungeons_libraries:gear_config"
 								}]
 							}
@@ -3133,17 +3143,10 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [{
-							data: [ ]
-							source: "dungeons_libraries:gear_config"
-						}]
-					}
-				}
 			}
 			x: 0.0d
 			y: 2.5d
+			description: ["A ship's sails can be raised by pressing the \"toggle sail\" key (default r)"]
 			dependencies: ["5ABCBE93E9B7A41E"]
 			optional: true
 			id: "7FE110B6FD08031B"
@@ -3263,6 +3266,19 @@
 						}
 					}
 				}
+				{
+					id: "27521A0B84069391"
+					type: "item"
+					item: {
+						id: "smallships:dark_oak_cog"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -3273,17 +3289,10 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [{
-							data: [ ]
-							source: "dungeons_libraries:gear_config"
-						}]
-					}
-				}
 			}
 			x: 1.5d
 			y: 2.5d
+			description: [""]
 			dependencies: ["17B7928C5E72DF4A"]
 			optional: true
 			id: "75803607F74E0EA9"
@@ -3483,14 +3492,10 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			x: 3.0d
 			y: 2.5d
+			description: ["Talisman curios require a certain belt in order to wear them, like this Hunter Belt."]
 			dependencies: ["04399280EC946CB6"]
 			optional: true
 			id: "46B016B40B360CEF"
@@ -4058,14 +4063,10 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			x: 7.5d
 			y: 2.5d
+			description: ["Any pet can be given a player's armor by sneak-clicking on them."]
 			dependencies: ["75434610CC4789B4"]
 			optional: true
 			id: "18156A17C2B04B79"
@@ -4162,22 +4163,6 @@
 					}
 				}
 				{
-					id: "77CC104B0C829516"
-					type: "item"
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "undergarden:glowing"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "06E7BE5E494A832A"
 					type: "item"
 					item: {
@@ -4208,6 +4193,19 @@
 									}]
 									source: "dungeons_libraries:gear_config"
 								}]
+							}
+						}
+					}
+				}
+				{
+					id: "7ABA72B9B437CEAF"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:hunter_guide"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
 							}
 						}
 					}
@@ -4723,7 +4721,7 @@
 		{
 			title: "Artillerist"
 			icon: {
-				id: "dungeons_gear:masters_bow"
+				id: "dungeons_gear:corrupted_crossbow"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -4734,11 +4732,11 @@
 							data: [
 								{
 									lvl: 1s
-									id: "dungeons_gear:masters_call"
+									id: "dungeons_gear:dynamo"
 								}
 								{
-									lvl: 1s
-									id: "minecraft:power"
+									lvl: 2s
+									id: "apotheosis:crescendo"
 								}
 							]
 							source: "dungeons_libraries:gear_config"
@@ -4813,7 +4811,7 @@
 					type: "item"
 					team_reward: false
 					item: {
-						id: "dungeons_gear:masters_bow"
+						id: "dungeons_gear:corrupted_crossbow"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -4824,11 +4822,11 @@
 									data: [
 										{
 											lvl: 1s
-											id: "dungeons_gear:masters_call"
+											id: "dungeons_gear:dynamo"
 										}
 										{
-											lvl: 1s
-											id: "minecraft:power"
+											lvl: 2s
+											id: "apotheosis:crescendo"
 										}
 									]
 									source: "dungeons_libraries:gear_config"
@@ -4891,6 +4889,20 @@
 							}
 						}
 					}
+				}
+				{
+					id: "0685052C55D7ABF5"
+					type: "item"
+					item: {
+						id: "apotheosis:explosive_arrow"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 25
 				}
 			]
 		}
@@ -5024,14 +5036,10 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			x: 0.0d
 			y: 4.0d
+			description: ["Sneak-Clicking a ship lets you access its storage."]
 			dependencies: ["7FE110B6FD08031B"]
 			optional: true
 			id: "5835821DED0B50BB"
@@ -5139,27 +5147,38 @@
 						}
 					}
 				}
+				{
+					id: "139AA6497B9CD8A7"
+					type: "item"
+					item: {
+						id: "smallships:oak_war_galley"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
 			title: "Rogue"
 			icon: {
-				id: "dungeons_gear:spider_helmet"
+				id: "atum:dagger_poison"
 				Count: 1b
 				tag: {
 					Damage: 0
 				}
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [{
-							data: [ ]
-							source: "dungeons_libraries:gear_config"
-						}]
+						BuiltInEnchantments: [ ]
 					}
 				}
 			}
 			x: 1.5d
 			y: 4.0d
+			subtitle: "It is ROGUElike after all!"
 			dependencies: ["75803607F74E0EA9"]
 			optional: true
 			id: "086467EF70DFCE43"
@@ -5217,7 +5236,7 @@
 					type: "item"
 					team_reward: false
 					item: {
-						id: "dungeons_gear:spider_helmet"
+						id: "dungeons_gear:spider_leggings"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -5225,7 +5244,10 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [{
-									data: [ ]
+									data: [{
+										lvl: 1s
+										id: "dungeons_gear:life_steal_aura"
+									}]
 									source: "dungeons_libraries:gear_config"
 								}]
 							}
@@ -5237,7 +5259,7 @@
 					type: "item"
 					team_reward: false
 					item: {
-						id: "dungeons_gear:spider_chestplate"
+						id: "dungeons_gear:spider_boots"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -5312,6 +5334,34 @@
 										lvl: 1s
 										id: "tombstone:soulbound"
 									}]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "78B96C391E086AC6"
+					type: "item"
+					item: {
+						id: "atum:dagger_poison"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [
+										{
+											lvl: 3s
+											id: "farmersdelight:backstabbing"
+										}
+										{
+											lvl: 1s
+											id: "apotheosis:scavenger"
+										}
+									]
 									source: "dungeons_libraries:gear_config"
 								}]
 							}
@@ -5808,14 +5858,14 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			x: 7.5d
 			y: 4.0d
+			description: [
+				"The Dog Mount dog upgrade allows you to ride your dog."
+				"This Lance increases the damage you deal while riding something."
+				"Pair them together and you become the Dog Knight!"
+			]
 			dependencies: ["18156A17C2B04B79"]
 			optional: true
 			id: "5E27B6A9814D748F"
@@ -5863,9 +5913,8 @@
 						Count: 1b
 						tag: {
 							Effectiveness: {
-								Value: 0.0d
+								Value: 0.5d
 							}
-							itemModifier: "modifiers:jagged"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {

@@ -4,6 +4,7 @@
 <item:minecraft:splash_potion>.setMaxStackSize(16);
 <item:minecraft:lingering_potion>.setMaxStackSize(16);
 <item:titles:title_fragment>.setMaxStackSize(64);
+<item:tombstone:gift>.setMaxStackSize(64);
 
 for allItems in game.items {
     if ("_boat" in (allItems.registryName as string)){
