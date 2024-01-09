@@ -2,35 +2,47 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.armor.ArmorItem;
 
 
-//use this array to add items not automaticly grabed by the latter scripting
+//use this array to add items not automaticly grabed by the latter scripting. 
+//this will bypass the blacklist and the check to make sure the item is armor.
 var additionalarmorItems = [
+    //<item:minecraft:iron_helmet>
 ] as IItemStack[];
 
-//block items from being auto added to he list of items to be modified
+//block items from being auto added to the list of items to be modified
 var blockDurModItems = [
-    <item:usefulhats:aquanaut_helmet>,
-    <item:usefulhats:bunny_ears>,
-    <item:usefulhats:chopping_hat>,
-    <item:usefulhats:ender_helmet>,
-    <item:usefulhats:halo>,
-    <item:usefulhats:lucky_hat>,
-    <item:usefulhats:mining_hat>,
-    <item:usefulhats:mushroom_hat>,
-    <item:usefulhats:postman_hat>,
-    <item:usefulhats:shulker_helmet>,
-    <item:usefulhats:stocking_cap>,
-    <item:usefulhats:straw_hat>,
-    <item:usefulhats:wing_helmet>
+    //<item:minecraft:iron_helmet>
 ] as IItemStack[];
+
+//block all items from a mod from being auto added to the list of items to be modified
+var modBlacklist = [
+    "dungeons_gear",
+    "dungeons_mobs",
+    "usefulhats"
+] as string[];
+
+var itemBlacklist = new stdlib.List<IItemStack>();
 
 var armorItems = new stdlib.List<IItemStack>();
+
+for mod in modBlacklist {
+    var modItems = loadedMods.getMod(mod).items;
+    for item in modItems {
+        itemBlacklist.add(item);
+    }
+}
+
+for item in blockDurModItems {
+    if !(item in itemBlacklist) {
+        itemBlacklist.add(item);
+    }
+}
 
 for item in additionalarmorItems {
     armorItems.add(item);
 }
 
 for allItems in game.items {
-    if (allItems.definition is ArmorItem) && !(allItems in armorItems) && !(allItems in blockDurModItems) {
+    if (allItems.definition is ArmorItem) && !(allItems in armorItems) && !(allItems in itemBlacklist) {
         armorItems.add(allItems);
     }  
 }
