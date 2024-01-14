@@ -20,6 +20,14 @@ event.add('supplementaries:bellows', ["When powered, will blow entities or items
 event.add('supplementaries:cog_block', ["Transmits redstone power, just like redstone dust, but connects on all sides.","This making vertical redstone easier and looks cooler too."])
 event.add('supplementaries:safe', ["Extremely hard block that functions as a chest. Retains inventory when broken."])
 event.add('supplementaries:hourglass', ["Place sand in it and it will provide a redstone signal until the sand runs out. Flip and repeat."])
+event.add('supplementaries:laser_block', ["Emits a purple beam when powered by redstone. Does not actually do anything."])
+
+event.add('quark:ancient_tome', ["Upgrades enchantments by 1 level. Can increase an enchantment 1 level beyond its max level."])
+event.add('minecraft:feather', ["When brewed with a Speed Potion creates a Potion of Forcefullness. Adding to a slowness potion instead creates a Feeble Potion. (JEI doesn't show these recipes for some reason)"])
+event.add('elenaidodge2:iron_feather', ["When brewed with an Awkward Potion creates a Potion of Endurance. This can be inverted into a Weight potion using fermented spider eyes. (JEI doesn't show these recipes for some reason)"])
+event.add('elenaidodge2:golden_feather', ["When brewed with an Awkward Potion creates a Potion of Feathers. Add to a Regeneration Potion to create a Replenishment Potion. (JEI doesn't show these recipes for some reason)"])
+event.add('undergarden:regalium_ingot', ["Used to trade with Stoneborn."])
+
 
 event.add('waystones:waystone', ["This item can be bought in the shop"])
 event.add('waystones:mossy_waystone', ["This item can be bought in the shop"])

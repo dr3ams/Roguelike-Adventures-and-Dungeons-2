@@ -140,7 +140,6 @@ event.hide('buddycards:willow_card_display')
 event.hide('buddycards:witch_hazel_card_display')
 event.hide('buddycards:zelkova_card_display')
 
-
 event.hide('quark:magnet')
 event.hide('quark:backpack')
 event.hide('quark:ravager_hide')
