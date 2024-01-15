@@ -693,17 +693,10 @@
 			}]
 		}
 		{
-			icon: {
-				id: "minecraft:spawner"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "minecraft:spawner"
 			x: 6.0d
 			y: 6.0d
+			subtitle: "Break 500 Spawners"
 			description: ["Complete the Break 500 Spawners Quest in the \"Meet your Fight!\" Chapter."]
 			dependencies: ["40FF66BE65AF171D"]
 			id: "4B455D9DA6A65FFC"
@@ -733,6 +726,75 @@
 				}
 				command: "/titles add @p rad_recipes:spawner_buster"
 				player_command: false
+			}]
+		}
+		{
+			title: "Final Boss Title"
+			icon: "twilightforest:time_sapling"
+			x: -1.5d
+			y: 7.5d
+			subtitle: "Awarded for completing the Final Castle in the Twilight Forest chapter."
+			description: ["Complete the Last Quest in the Twilight Zone Chapter."]
+			dependencies: ["50408E199382BDCD"]
+			id: "4004EFD371791C82"
+			tasks: [{
+				id: "545571FE4CECB9D2"
+				type: "checkmark"
+				title: "Still Searching for the Final Boss..."
+			}]
+		}
+		{
+			title: "Starlit Lumberjack"
+			icon: {
+				id: "blue_skies:starlit_crusher_trophy"
+				Count: 1b
+				tag: {
+					BlockStateTag: {
+						tier: "bronze"
+					}
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 7.5d
+			description: ["Defeat the Starlit Crusher in the Everbright dimension."]
+			id: "7BC6161ED22064D1"
+			tasks: [{
+				id: "5ED6B8142FB84F6A"
+				type: "advancement"
+				advancement: "blue_skies:everbright/kill_starlit_crusher"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Arachnid Annihilator"
+			icon: {
+				id: "blue_skies:arachnarch_trophy"
+				Count: 1b
+				tag: {
+					BlockStateTag: {
+						tier: "bronze"
+					}
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.5d
+			y: 7.5d
+			description: ["Defeat the Arachnarch in the Everdawn dimension."]
+			id: "1182309200FF1818"
+			tasks: [{
+				id: "469A3603137B4CFE"
+				type: "advancement"
+				advancement: "blue_skies:everdawn/kill_arachnarch"
+				criterion: ""
 			}]
 		}
 	]

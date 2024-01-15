@@ -3458,7 +3458,7 @@
 				{
 					id: "369EA4DA5A258B2D"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 15
 				}
 				{
 					id: "7EF41FDABFF1077A"
@@ -3472,6 +3472,7 @@
 							}
 						}
 					}
+					count: 3
 				}
 				{
 					id: "1185888CA2840427"
@@ -3482,6 +3483,22 @@
 					id: "28DB0FE2329AB272"
 					type: "random"
 					table_id: 768393147870328736L
+				}
+				{
+					id: "2D89088FF5A808D5"
+					type: "command"
+					title: "Final Boss Title"
+					icon: {
+						id: "titles:title_scroll_rare"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					command: "/titles add @p rad_recipes:twilight_final_boss"
+					player_command: false
 				}
 			]
 		}
