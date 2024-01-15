@@ -1,0 +1,13 @@
+
+["Modifiers for tools"]
+	#The name of the modifier
+	NAMES = ["legendary", "deadly", "vicious", "sharp", "broken", "damaged", "agile", "swift", "sluggish", "slow", "light", "heavy"]
+	#The weight of the modifier in the modifiers pool
+	WEIGHTS = ["30", "100", "100", "100", "70", "100", "100", "100", "100", "100", "100", "100"]
+	#The attribute of the modifier has. One modifier can have multiple attributes. Use ';' to split different attributes
+	ATTRIBUTES = ["minecraft:generic.attack_damage;minecraft:generic.attack_speed", "minecraft:generic.attack_damage", "minecraft:generic.attack_damage", "minecraft:generic.attack_damage", "minecraft:generic.attack_damage", "minecraft:generic.attack_damage", "minecraft:generic.attack_speed;minecraft:generic.movement_speed", "minecraft:generic.attack_speed", "minecraft:generic.attack_speed;minecraft:generic.movement_speed", "minecraft:generic.attack_speed", "minecraft:generic.attack_damage;minecraft:generic.attack_speed", "minecraft:generic.attack_damage;minecraft:generic.attack_speed;minecraft:generic.movement_speed"]
+	#The amount used to calculate the attribute effect. Also can be multiple. Use ';' to split
+	AMOUNTS = ["0.15;0.1", "0.15", "0.1", "0.05", "-0.2", "-0.1", "0.05;0.1", "0.1", "-0.05;-0.1", "-0.15", "-0.1;0.15", "0.2;-0.15;-0.05"]
+	#The operation ID of the attribute calculation. Can be three values: 0,1,2. 0 is ADDITION. 1 is MULTIPLY_BASE. 2 is MULTIPLY_TOTAL. you can refer to the calculation of the attributes already in the game
+	OPERATIONS_IDS = ["2;2", "2", "2", "2", "2", "2", "2;2", "2", "2;2", "2", "2;2", "2;2;2"]
+

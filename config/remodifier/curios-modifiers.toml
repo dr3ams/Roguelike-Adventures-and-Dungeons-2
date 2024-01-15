@@ -1,0 +1,15 @@
+
+["Modifiers for shields"]
+	#When enabled, the below configurations will be ignored and your curio items will use armor modifiers.
+	WhetherOrNotCuriosUseArmorModifiers = true
+	#The name of the modifier
+	NAMES = []
+	#The weight of the modifier in the modifiers pool
+	WEIGHTS = []
+	#The attribute of the modifier has. One modifier can have multiple attributes. Use ';' to split different attributes
+	ATTRIBUTES = []
+	#The amount used to calculate the attribute effect. Also can be multiple. Use ';' to split
+	AMOUNTS = []
+	#The operation ID of the attribute calculation. Can be three values: 0,1,2. 0 is ADDITION. 1 is MULTIPLY_BASE. 2 is MULTIPLY_TOTAL. you can refer to the calculation of the attributes already in the game
+	OPERATIONS_IDS = []
+

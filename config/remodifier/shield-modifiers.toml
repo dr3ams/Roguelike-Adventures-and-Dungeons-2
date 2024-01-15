@@ -1,0 +1,13 @@
+
+["Modifiers for shields"]
+	#The name of the modifier
+	NAMES = ["half_hearted", "hearty", "hard", "guarding", "armored", "warding"]
+	#The weight of the modifier in the modifiers pool
+	WEIGHTS = ["300", "100", "300", "200", "100", "200"]
+	#The attribute of the modifier has. One modifier can have multiple attributes. Use ';' to split different attributes
+	ATTRIBUTES = ["minecraft:generic.max_health", "minecraft:generic.max_health", "minecraft:generic.armor", "minecraft:generic.armor", "minecraft:generic.armor", "minecraft:generic.armor_toughness"]
+	#The amount used to calculate the attribute effect. Also can be multiple. Use ';' to split
+	AMOUNTS = ["1.0", "1.0", "1.0", "1.0", "1.0", "1.0"]
+	#The operation ID of the attribute calculation. Can be three values: 0,1,2. 0 is ADDITION. 1 is MULTIPLY_BASE. 2 is MULTIPLY_TOTAL. you can refer to the calculation of the attributes already in the game
+	OPERATIONS_IDS = ["0", "0", "0", "0", "0", "0"]
+
