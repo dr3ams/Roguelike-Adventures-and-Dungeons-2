@@ -4,7 +4,7 @@
 	#Disable/Enables the whole difficulty scaling of this mod. Requires a mc restart
 	"Enable difficulty scaling" = true
 	#Time in ticks for which the difficulty shouldnt increase at the beginning. One full minecraft day is 24000 ticks
-	"Difficulty Delay" = 72000
+	"Difficulty Delay" = 240000
 	#Handles increase in difficulty regarding current difficulty.
 	#Format is <minimum current difficulty>-<increase every 2400 ticks>
 	#Example ["0-0.01","10-0.1","30-0"]
@@ -187,7 +187,7 @@
 	"Speed Increase" = 0.0
 	#Maximum increase in speed
 	#Range: 0.0 ~ 1.0
-	"Max Speed" = 0.1
+	"Max Speed" = 0
 	#Knockback will be increased by difficulty*0.002*x. Set to 0 to disable
 	"Knockback Increase" = 1.0
 	#Maximum increase in knockback
@@ -196,7 +196,7 @@
 	"Magic Resistance Increase" = 0.1
 	#Maximum increase in magic resistance. Magic reduction is percentage
 	#Range: 0.0 ~ 1.0
-	"Max Magic Resistance" = 0.3
+	"Max Magic Resistance" = 0.1
 	#Projectile Damage will be multiplied by 1+difficulty*0.008*x. Set to 0 to disable
 	"Projectile Damage Increase" = 1.0
 	#Projectile damage will be multiplied by maximum of this
