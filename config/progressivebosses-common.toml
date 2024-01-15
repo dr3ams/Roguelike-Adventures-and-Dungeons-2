@@ -102,9 +102,9 @@
 		"Explosion Causes Fire at Difficulty" = 10
 		#How much explosion power (after the invulnerability) will the Wither gain for each difficulty point. Explosion Radius is capped to 13. Base Wither Explosion Power is 7.0. Setting this to 0 will not increase the Wither Explosion Power.
 		#Range: 0.0 ~ 4.0
-		"Explosion Power Bonus" = 0.08
+		"Explosion Power Bonus" = 0.04
 		#The Wither will no longer wait 1 full second before breaking blocks when he's hit, instead just 0.5s
-		"Faster Breaking Blocks" = true
+		"Faster Breaking Blocks" = false
 		#The Wither will break even blocks below him when hit.
 		"Bigger Breaking Blocks" = true
 		#The wither can only be spawned in the Nether.
@@ -139,19 +139,19 @@
 	[Wither."Resistances & Vulnerabilities"]
 		#Bonus magic damage based off missing health. 150 means that every 150 missing health the damage will be amplified by 100%. E.g. The difficulty = 0 Wither (with 300 max health) is at half health (so it's missing 150hp), on magic damage he will receive 'magic_damage * (missing_health / magic_damage_bonus + 1)' = 'magic_damage * (150 / 150 + 1)' = 'magic_damage * 2'.
 		#Range: 0.0 ~ 1024.0
-		"Magic Damage Bonus" = 200.0
+		"Magic Damage Bonus" = 100.0
 		#Percentage Melee Damage Reduction (per difficulty) while the Wither is above half health.
 		#Range: 0.0 ~ 1.0
 		"Melee Damage reduction per Difficulty above half health" = 0.01
 		#Cap for 'Melee Damage reduction per Difficulty above half health'
 		#Range: 0.0 ~ 1.0
-		"Max Melee Damage reduction per Difficulty before half health" = 0.24
+		"Max Melee Damage reduction per Difficulty before half health" = 0.15
 		#Percentage Melee Damage Reduction (per difficulty) as the Wither drops below half health.
 		#Range: 0.0 ~ 1.0
 		"Melee Damage reduction per Difficulty below half health" = 0.02
 		#Cap for 'Melee Damage Reduction per Difficulty below half health'
 		#Range: 0.0 ~ 1.0
-		"Max Melee Damage reduction per Difficulty below half health" = 0.48
+		"Max Melee Damage reduction per Difficulty below half health" = 0.25
 
 	#Makes the Wither smarter (will no longer try to stand on the player's head ...), attack faster and hit harder
 	[Wither.Attack]
@@ -159,7 +159,7 @@
 		"Apply to Vanilla Wither" = true
 		#Percentage bonus damage dealt by the Wither per difficulty.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		"Increased Damage" = 0.02
+		"Increased Damage" = 0.01
 		#Max Chance every time the Wither takes damage to start a charge attack. The actual chance is inversely proportional to Wither's health (100% health = 0% chance, 50% health = 2.5% chance, ...).
 		#Range: 0.0 ~ 1.0
 		"Max Charge Attack Chance" = 0.06
