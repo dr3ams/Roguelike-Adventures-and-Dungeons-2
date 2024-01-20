@@ -166,30 +166,6 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -0.5d
-			description: ["Emits a purple laser when powered by redstone."]
-			id: "2D2CDA641F7DFF3C"
-			tasks: [{
-				id: "176214C69D2317CA"
-				type: "item"
-				item: {
-					id: "supplementaries:laser_block"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "11AB597F813CFF4F"
-				type: "ftbmoney:money"
-				ftb_money: 1L
-			}]
-		}
-		{
 			x: -2.5d
 			y: -3.0d
 			description: ["Bamboo spikes are useful traps to protect you base from mobs. They can be tipped with potion effects!"]
@@ -597,7 +573,7 @@
 		}
 		{
 			title: "How the tables have turned..."
-			x: -1.0d
+			x: -0.5d
 			y: 0.5d
 			description: ["rotates blocks and mobs standing on it"]
 			id: "6C27B8ECBE98B97A"
@@ -622,7 +598,7 @@
 		}
 		{
 			x: 0.0d
-			y: 0.5d
+			y: -0.5d
 			description: ["Launches you into the air when powered, or if you land on it from a high place"]
 			id: "33871879DC31D806"
 			tasks: [{
@@ -736,7 +712,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 0.5d
 			y: 0.5d
 			description: ["Emits light based on its redstone signal."]
 			id: "589AAF1FD992CE82"
@@ -1125,30 +1101,6 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -3.0d
-			description: ["This ladder can be hanging and does not have to be attached to a block if the top ladder is."]
-			id: "60F00B764C6CE1F3"
-			tasks: [{
-				id: "2FEBA351D131FF28"
-				type: "item"
-				item: {
-					id: "quark:iron_ladder"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "7131C7AD76A420EB"
-				type: "ftbmoney:money"
-				ftb_money: 1L
-			}]
-		}
-		{
 			title: "Deepslate"
 			x: 3.5d
 			y: -4.0d
@@ -1205,8 +1157,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -5.0d
+			x: 3.5d
+			y: -3.0d
 			description: ["Can only be activated by players."]
 			id: "4D7997F821600BF2"
 			tasks: [{

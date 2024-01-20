@@ -1,7 +1,7 @@
 {
 	id: "1133B51512D669EC"
 	group: "241F1DC7B6D6E9D6"
-	order_index: 8
+	order_index: 7
 	filename: "twilight_forest"
 	title: "Twilight zone"
 	icon: "twilightforest:twilight_portal_miniature_structure"
@@ -2403,6 +2403,8 @@
 		{
 			x: 2.0d
 			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["539453A048F71094"]
 			id: "12A60ED4122F8DF6"
 			tasks: [{
 				id: "5796908C38F619B3"
@@ -3270,6 +3272,8 @@
 			x: -1.5d
 			y: -5.5d
 			description: ["Get your axes and shears ready! Search every nook and cranny and get anything and everything that comes from trees! Craft, loot, obtain every slab... sapling... leaves... more... everything. ALL OF IT! "]
+			hide_dependency_lines: true
+			dependencies: ["539453A048F71094"]
 			id: "4BA7DC6CA55620AB"
 			tasks: [{
 				id: "1248CDC2A4B7663D"

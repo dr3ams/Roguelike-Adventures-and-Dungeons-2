@@ -1,0 +1,294 @@
+{
+	id: "5D44007E3468E67B"
+	group: "241F1DC7B6D6E9D6"
+	order_index: 13
+	filename: "mining_dimension"
+	title: "Mining Dimension"
+	icon: {
+		id: "mining_dimension:teleporter"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: [
+				"561BE7E54694924C"
+				"00C5B20E68BCBAEC"
+				"6CDA0EECB7587685"
+				"2FA64A93D6567BB1"
+				"00BE5B3A903BD603"
+				"5EBDDE641003355B"
+				"5E1CA1AB7D0835B2"
+				"3BC9AE6D97169490"
+				"306B003B44FCD929"
+			]
+			id: "04FF5402D01E6D93"
+			tasks: [{
+				id: "48B4043EDDB10145"
+				type: "item"
+				item: {
+					id: "mining_dimension:teleporter"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6EBF9F3FA9AA3595"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					id: "76D5E741DAD90A46"
+					type: "item"
+					item: {
+						id: "kubejs:diamond_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3FF4C4C7C865E593"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+				{
+					id: "1C1D613723CA8452"
+					type: "pmmo:levelreward"
+					auto: "invisible"
+					skill: "gathering"
+					amount: 1.0d
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			description: [
+				"This is found in the overworld."
+				""
+				"Easiest way to get this is through ars break + extract or a silk touch pick."
+			]
+			id: "561BE7E54694924C"
+			tasks: [{
+				id: "6A5034B518F66ECB"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_ore"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.6571428571428513d
+			y: -1.7690476190476367d
+			description: [
+				"This is made or found in Tropicraft."
+				""
+				"Made through Tropicraft ores those being Azurite and Zircon which are found in mountains in Tropicraft. It can occasionally be found in the moai structures."
+			]
+			dependency_requirement: "one_started"
+			id: "00C5B20E68BCBAEC"
+			tasks: [{
+				id: "5C3983304BCA75B4"
+				type: "item"
+				item: {
+					id: "tropicraft:zirconium_gem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			description: [
+				"This is found in the Overworld and the Nether."
+				""
+				"Can be obtained through certain chests with nether loot pools, it can also be found in certain dungeons and it can be found on ruined portals."
+			]
+			id: "6CDA0EECB7587685"
+			tasks: [{
+				id: "7413751516CE950B"
+				type: "item"
+				item: {
+					id: "minecraft:crying_obsidian"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			description: [
+				"Found or made in Twilight Forest."
+				""
+				"Can be found in some chests or made through the raw ironwood. (Can also be found in a basic material loot crate)"
+			]
+			id: "2FA64A93D6567BB1"
+			tasks: [{
+				id: "0A03F4E52B408F16"
+				type: "item"
+				item: {
+					id: "twilightforest:ironwood_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: [
+				"Found or made pretty much anywhere."
+				""
+				"Can be found in certain loot tables or crafted."
+				""
+				"It's a diamond pick, what's more to be said?"
+			]
+			id: "00BE5B3A903BD603"
+			tasks: [{
+				id: "5ECD75BC7F3C8C39"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Found in the Undergarden."
+				""
+				"Found in the middle to lower parts of the undergarden."
+			]
+			id: "5EBDDE641003355B"
+			tasks: [{
+				id: "6F2C1F158B17AA67"
+				type: "item"
+				item: {
+					id: "undergarden:cloggrum_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.48571428571428754d
+			y: 1.6880952380952223d
+			description: [
+				"Found in Everbright."
+				""
+				"Found as an ore in low Y levels, can also be rarely found in blue skies villages."
+			]
+			id: "5E1CA1AB7D0835B2"
+			tasks: [{
+				id: "78C45A110E4DF637"
+				type: "item"
+				item: {
+					id: "blue_skies:falsite_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			description: [
+				"Made in the Overworld or the Nether."
+				""
+				"Made from blaze rods and a netherite ingot."
+			]
+			id: "3BC9AE6D97169490"
+			tasks: [{
+				id: "62E08D3E0EE595C6"
+				type: "item"
+				item: {
+					id: "upgradednetherite:fire_upgraded_netherite_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: [
+				"Found in Everdawn."
+				""
+				"Found in Everdawn as an ore in low y levels, can also be rarely found in blueskies villages."
+			]
+			id: "306B003B44FCD929"
+			tasks: [{
+				id: "4028F35EFB8F5198"
+				type: "item"
+				item: {
+					id: "blue_skies:horizonite_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+	]
+}

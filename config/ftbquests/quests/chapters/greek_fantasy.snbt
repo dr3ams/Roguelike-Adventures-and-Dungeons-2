@@ -782,21 +782,10 @@
 			description: ["Satyr shamans will summon wolves when they are attacked."]
 			id: "41357C5DA244DC7E"
 			tasks: [{
-				id: "09C0B40293724923"
-				type: "observation"
-				title: "Satyr"
-				icon: {
-					id: "greekfantasy:satyr_spawn_egg"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				timer: 0L
-				observe_type: 0
-				to_observe: "greekfantasy:satyr"
+				id: "089265F695A0F6AD"
+				type: "kill"
+				entity: "greekfantasy:satyr"
+				value: 1L
 			}]
 			rewards: [{
 				id: "43319A6D052FAE9A"
