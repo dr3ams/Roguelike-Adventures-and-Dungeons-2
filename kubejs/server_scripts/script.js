@@ -226,6 +226,9 @@ event.remove({output: 'byg:pendorite_horse_armor'})
 event.remove({output: 'archers_paradox:phantasmal_arrow'})
 	
 event.remove({output: 'spawnermod:spawner_key'})
+
+event.remove({output: 'twilightdelight:iron_lotus'})
+event.remove({output: 'spawnermod:spawner_key'})
 })
 	
 

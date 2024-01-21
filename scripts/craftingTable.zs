@@ -140,4 +140,5 @@ craftingTable.addShaped("harder_destruction_core", <item:constructionwand:core_d
 //fix lily chicken and iron lotus being uncraftable
 craftingTable.addShapeless("lily_chicken_fix", <item:twilightdelight:lily_chicken_block>,  [<item:twilightforest:huge_lilypad>, <item:farmersdelight:roast_chicken_block>, <item:twilightforest:huge_waterlily>]);
 
-craftingTable.addShapeless("iron_lotus_fix", <item:twilightdelight:iron_lotus>,  [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/fiery>, <item:twilightforest:huge_waterlily>]);
+//craftingTable.addShapeless("iron_lotus_fix", <item:twilightdelight:iron_lotus>,  [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/fiery>, <item:twilightforest:huge_waterlily>]);
+Replacer.forMods("twilightdelight").replace(<item:twilightdelight:iron_lotus>, <item:twilightforest:huge_waterlily>).execute();
