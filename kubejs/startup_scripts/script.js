@@ -156,4 +156,13 @@ onEvent('block.registry', event => {
 	.transparent(true)
 	.defaultTranslucent()
 	.waterlogged()
+
+	event.create('ccc1').displayName('Compressed Copper Coin').material('metal').hardness(1.0).harvestTool('pickaxe', 1)
+	event.create('ccc2').displayName('Double Compressed Copper Coin').material('metal').hardness(1.5).harvestTool('pickaxe', 1)
+	event.create('ccc3').displayName('Triple Compressed Copper Coin').material('metal').hardness(2.0).harvestTool('pickaxe', 1)
+	event.create('ccc4').displayName('Quadruple Compressed Copper Coin').material('metal').hardness(2.5).harvestTool('pickaxe', 1)
+	event.create('ccc5').displayName('Quintuple Compressed Copper Coin').material('metal').hardness(3.0).harvestTool('pickaxe', 1)
+	event.create('ccc6').displayName('Sextuple Compressed Copper Coin').material('metal').hardness(3.5).harvestTool('pickaxe', 1)
+	event.create('ccc7').displayName('Septuple Compressed Copper Coin').material('metal').hardness(4.0).harvestTool('pickaxe', 1)
+	event.create('ccc8').displayName('Octuple Compressed Copper Coin').material('metal').hardness(4.5).harvestTool('pickaxe', 1)
 })
