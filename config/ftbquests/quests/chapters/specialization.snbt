@@ -29,8 +29,6 @@
 				"Most rewards for each kit are obtainable in normal gameplay, except for the Mark, which is an emblem that gives bonuses to stats related to your Specialization."
 				""
 				"§a§lIMPORTANT NOTES BELOW PLEASE READ BEFORE PICKING A SPECIALIZATION"
-				"§e§lYou can only pick one specialization path. Once you have picked one you cannot choose any others. Please make your decision carefully."
-				""
 				"§e§lIf you are on a server, you will want to leave your ftbteam while picking this otherwise all players will end up with the same specialization when you pick one."
 				""
 			]
@@ -5991,6 +5989,86 @@
 					count: 10
 				}
 			]
+		}
+		{
+			title: "The Prestige"
+			icon: {
+				id: "curios:crown"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 6.0d
+			subtitle: "Are you watching closely?"
+			description: ["Completing this quest will reset this entire chapter, and allow you to pick a different specialization"]
+			dependencies: [
+				"25FE6F8D9076C909"
+				"228F0BED78F0BD1F"
+				"79B3B9D8435C6B6C"
+				"27155BAC83580A64"
+				"6E51D4735105419A"
+				"5835821DED0B50BB"
+				"086467EF70DFCE43"
+				"289B1DE30DC52A57"
+				"2541699B18497F4D"
+				"366092E413554761"
+				"5E27B6A9814D748F"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "1F86A43CAC818E8E"
+			tasks: [
+				{
+					id: "62882C8F8EAAC349"
+					type: "checkmark"
+					title: "Prestige"
+				}
+				{
+					id: "2C1E0159342463B1"
+					type: "xp"
+					value: 100L
+					points: false
+				}
+				{
+					id: "532DF361EC58956B"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "778EE847A63807A6"
+				type: "command"
+				title: "Reset Specializations"
+				icon: {
+					id: "rats:party_hat_4"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				command: "/ftbquests change_progress @p reset 0954925BF18F6751"
+				player_command: false
+			}]
 		}
 	]
 }
