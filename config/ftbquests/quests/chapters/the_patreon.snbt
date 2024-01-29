@@ -58,6 +58,22 @@
 				type: "checkmark"
 				title: "THANK YOU FOR YOUR SUPPORT!"
 			}]
+			rewards: [{
+				id: "52692623AE499FAB"
+				type: "command"
+				title: "Complete Chapter"
+				icon: {
+					id: "paraglider:heart_container"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				command: "/ftbquests change_progress @p complete 1E11739B02616720"
+				player_command: false
+			}]
 		}
 		{
 			title: "Rebecca"
