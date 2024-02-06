@@ -20,13 +20,7 @@
 		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "OFF"
 		"Right-align FPS Counter" = false
 		"FPS Counter Distance" = 28
-
-	["Embeddium Extras Settings"."Entity Distance"]
-		"Enable Max Distance Checks" = true
-		"(TileEntity) Max Horizontal Render Distance [Squared, Default 64^2]" = 4096
-		"(TileEntity) Max Vertical Render Distance [Raw, Default 32]" = 32
-		"(Entity) Max Horizontal Render Distance [Squared, Default 64^2]" = 4096
-		"(Entity) Max Vertical Render Distance [Raw, Default 32]" = 32
+		"Show how much GPU used after the rendering fps" = false
 
 	["Embeddium Extras Settings".Zoom]
 		"Lower Zoom Sensitivity" = true
@@ -41,4 +35,14 @@
 		"modid(entities of this mod will always be rendered)" = ["witherstormmod"]
 		"tile entities which should always be rendered" = ["minecraft:beacon"]
 		"modid(tile entities of this mod will always be rendered)" = []
+
+	["Embeddium Extras Settings"."Render Distance"]
+		"Enable Paticle Max Ditance Check" = false
+		#Range: 0 ~ 100
+		"Particle Max Rendering Distance [Default 15]" = 15
+		"Enable (Tile)Entities Max Distance Checks" = true
+		"(TileEntity) Max Horizontal Render Distance [Squared, Default 64^2]" = 4096
+		"(TileEntity) Max Vertical Render Distance [Raw, Default 32]" = 32
+		"(Entity) Max Horizontal Render Distance [Squared, Default 64^2]" = 4096
+		"(Entity) Max Vertical Render Distance [Raw, Default 32]" = 32
 
