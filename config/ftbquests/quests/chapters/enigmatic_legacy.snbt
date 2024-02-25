@@ -28,6 +28,7 @@
 			x: -1.0d
 			y: 0.0d
 			shape: "octagon"
+			description: ["The Guide book for Enigmatic Legacy that doubles as a melee weapon."]
 			size: 1.5d
 			id: "22FCDA94D8D63817"
 			tasks: [{
@@ -105,6 +106,7 @@
 			x: 3.5d
 			y: -3.0d
 			shape: "octagon"
+			description: ["The base ingredient for making scrolls."]
 			dependencies: ["636B692EB80B1FBE"]
 			id: "737D3D4923742928"
 			tasks: [{
@@ -129,6 +131,7 @@
 			x: 4.5d
 			y: -2.5d
 			shape: "octagon"
+			description: ["Stores an endless amount of xp, though transferring large amounts may take some time..."]
 			dependencies: ["737D3D4923742928"]
 			id: "4E14FCCB76F9292F"
 			tasks: [{
@@ -168,6 +171,11 @@
 			x: 3.0d
 			y: -4.0d
 			shape: "octagon"
+			description: [
+				"The flying powers of the Wither will be bestowed upon you when you are near its hearts beam."
+				""
+				"(Grants flight when near a beacon)"
+			]
 			dependencies: ["737D3D4923742928"]
 			id: "65E6E33AD2CDD3F2"
 			tasks: [{
@@ -265,6 +273,12 @@
 			x: 6.5d
 			y: -3.0d
 			shape: "octagon"
+			subtitle: "The Dankest Scroll"
+			description: [
+				"Base for making Cursed Scrolls."
+				""
+				"You can also wear it like other scrolls but no effects are given."
+			]
 			dependencies: ["737D3D4923742928"]
 			id: "2609B9D4BAA8C0FE"
 			tasks: [{
@@ -289,6 +303,7 @@
 			x: 7.0d
 			y: -2.0d
 			shape: "octagon"
+			description: ["Allows you to barter with piglins even with the ring of seven curses, and improves both villager trading and piglin bartering."]
 			dependencies: ["2609B9D4BAA8C0FE"]
 			optional: true
 			id: "1556AA07575E4055"
@@ -325,6 +340,7 @@
 			x: 7.0d
 			y: -4.0d
 			shape: "octagon"
+			description: ["A scroll that becomes more powerful the more curses you wield."]
 			dependencies: ["2609B9D4BAA8C0FE"]
 			optional: true
 			id: "0F9EF9F297B98E0F"
@@ -360,6 +376,7 @@
 		{
 			x: 1.0d
 			y: 2.0d
+			description: ["A single use item that can fully repair any equipment with durability."]
 			dependencies: ["636B692EB80B1FBE"]
 			id: "749E7D2E2FE67602"
 			tasks: [{
@@ -394,6 +411,7 @@
 		{
 			x: 5.0d
 			y: 0.0d
+			description: ["Attracts items to you when worn."]
 			dependencies: ["1E7C7440246D020E"]
 			id: "30BDCA8C21DF074F"
 			tasks: [{
@@ -462,6 +480,7 @@
 		{
 			x: 4.0d
 			y: 2.5d
+			description: ["A powerful ingot found in the end (see Etherium Ore in End Exporation Chapter)"]
 			dependencies: ["4BDC83576A6FAB97"]
 			id: "35C994E8314DDE5F"
 			tasks: [{
@@ -496,6 +515,7 @@
 		{
 			x: -1.0d
 			y: 1.5d
+			description: ["Protect your pets from harm with this book. Pairs well with the Guide to Animal Companionship"]
 			id: "32BC5D23EFCBDAAE"
 			tasks: [{
 				id: "66437D1295AEABB1"
@@ -529,6 +549,12 @@
 		{
 			x: -1.0d
 			y: 2.5d
+			subtitle: "No more accidental bunny murders"
+			description: [
+				"Prevents you from hurting animals."
+				""
+				"Just don't bring it with you when fighting a dragon..."
+			]
 			id: "0C58C5A90207F2DD"
 			tasks: [{
 				id: "3E2591BD8821D91A"
@@ -562,6 +588,11 @@
 		{
 			x: -1.0d
 			y: 3.5d
+			description: [
+				"An upgraded version of the Aknowledgement Guide book that can be used as a weapon."
+				""
+				"But really don't bother making this one unless you want a fancier book. We tried to make it good. Multiple times."
+			]
 			optional: true
 			id: "2D5C31B3C415216C"
 			tasks: [{
@@ -596,6 +627,11 @@
 		{
 			x: -1.0d
 			y: 4.5d
+			description: [
+				"Disenchants an item and stores them all in one enchanted book."
+				""
+				"The disenchanted item still keeps its stacking Repair Cost however."
+			]
 			id: "4A719CFCE68F97D5"
 			tasks: [{
 				id: "6F76753C8B1C5243"
@@ -629,6 +665,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
+			description: ["A simple ring that grants +1 Armor."]
 			dependencies: ["636B692EB80B1FBE"]
 			id: "1E7C7440246D020E"
 			tasks: [{
@@ -652,6 +689,7 @@
 		{
 			x: 6.5d
 			y: 0.0d
+			description: ["A stronger version of the magnetic ring that can pull items from twice as far."]
 			dependencies: ["30BDCA8C21DF074F"]
 			id: "7A0650ABB1F35FDE"
 			tasks: [{
@@ -686,6 +724,7 @@
 		{
 			x: 5.0d
 			y: -1.0d
+			description: ["Allows the player to access their ender chest inventory using a keybind."]
 			dependencies: ["1E7C7440246D020E"]
 			id: "03AA9DE0CE382658"
 			tasks: [{
@@ -819,6 +858,7 @@
 		{
 			x: 6.5d
 			y: 2.5d
+			description: ["Bestows Strength upon those who are wounding."]
 			dependencies: ["6E16203B7577B88A"]
 			optional: true
 			id: "586DFB3794C1B728"
@@ -854,6 +894,7 @@
 		{
 			x: 6.5d
 			y: 3.5d
+			description: ["Can remove the ring of seven curses, but not without a sacrifice."]
 			dependencies: ["6E16203B7577B88A"]
 			optional: true
 			id: "67A6EE38F2FCE4AA"
@@ -971,6 +1012,7 @@
 		{
 			x: -1.0d
 			y: -3.0d
+			description: ["The teleportation powers of an eye of ender contained in a golden casing for convenient mob transportation."]
 			id: "7003E615AB84F8EB"
 			tasks: [{
 				id: "3FD7E4F8661191CB"
@@ -1042,6 +1084,7 @@
 		{
 			x: 5.0d
 			y: 1.0d
+			description: ["Makes piglins neutral without having to wear gold armor."]
 			dependencies: ["1E7C7440246D020E"]
 			id: "7DAFA6B7703B909D"
 			tasks: [{
@@ -1089,6 +1132,7 @@
 		{
 			x: 4.0d
 			y: 3.5d
+			subtitle: "The most powerful paxel"
 			dependencies: ["35C994E8314DDE5F"]
 			id: "3D14810754D1FA65"
 			tasks: [{

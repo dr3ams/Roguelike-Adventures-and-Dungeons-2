@@ -1,7 +1,7 @@
 {
 	id: "5D44007E3468E67B"
 	group: "241F1DC7B6D6E9D6"
-	order_index: 13
+	order_index: 12
 	filename: "mining_dimension"
 	title: "Mining Dimension"
 	icon: {
@@ -71,6 +71,15 @@
 				{
 					id: "1C1D613723CA8452"
 					type: "pmmo:levelreward"
+					icon: {
+						id: "kubejs:mine"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 					auto: "invisible"
 					skill: "gathering"
 					amount: 1.0d
@@ -128,9 +137,11 @@
 			x: 1.5d
 			y: -1.0d
 			description: [
-				"This is found in the Overworld and the Nether."
+				"This is found in the Overworld, the Nether, and the End."
 				""
 				"Can be obtained through certain chests with nether loot pools, it can also be found in certain dungeons and it can be found on ruined portals."
+				""
+				""
 			]
 			id: "6CDA0EECB7587685"
 			tasks: [{

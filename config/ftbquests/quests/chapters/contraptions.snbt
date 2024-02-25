@@ -121,6 +121,11 @@
 		{
 			x: 2.0d
 			y: -1.0d
+			description: [
+				"When powered starts falling upwards."
+				""
+				"When its on a ceiling it starts falling down when powered again."
+			]
 			id: "4E24F97ADF4E366C"
 			tasks: [{
 				id: "442FF74A70064D63"
@@ -962,6 +967,7 @@
 		{
 			x: -1.0d
 			y: -6.5d
+			subtitle: "The Fan of the Modpack"
 			description: ["The \"fan\" of this modpack, bellows blow mobs in the direction they are facing when powered."]
 			id: "5EE6C136B7D19495"
 			tasks: [{
@@ -1079,7 +1085,7 @@
 		{
 			x: 2.5d
 			y: -3.0d
-			description: ["Only drops from Respawned Dragons. Used to create a copy of an elytra"]
+			description: ["Only drops from Respawned Ender Dragons. Used to create a copy of an elytra"]
 			id: "5C054B01A4C3BBE6"
 			tasks: [{
 				id: "4561D807AD64FEF0"
@@ -1104,6 +1110,7 @@
 			title: "Deepslate"
 			x: 3.5d
 			y: -4.0d
+			subtitle: "Rock Bottom"
 			description: ["Only found at the bottom of the Mining Dimension, this tough rock serves as a nice fortification for your bases."]
 			id: "6E5F90AC792B4FE7"
 			tasks: [{
@@ -1183,7 +1190,7 @@
 		{
 			x: -3.0d
 			y: -6.0d
-			description: ["The Brass Lantern can only be obtained from Librarian Villagers. You cannot find it anywhere else, not even in JEI!"]
+			description: ["The Brass Lantern can only be obtained from Librarian Villagers. You cannot find it anywhere else!"]
 			id: "60A8B8712FF18A56"
 			tasks: [{
 				id: "52E5BB0E259EFA4A"
@@ -1376,6 +1383,179 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.5d
+			description: [
+				"A block that is a clock."
+				""
+				"Right clicking it will tell you the exact minecraft time."
+			]
+			id: "71F9A642086E1460"
+			tasks: [{
+				id: "10205C9EFD5714A4"
+				type: "item"
+				item: {
+					id: "supplementaries:clock_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1303F725DD6638F9"
+				type: "ftbmoney:money"
+				ftb_money: 1L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			subtitle: "Looking both ways"
+			description: ["When powered randomly powers the block to either the left or right of it."]
+			id: "044F3ECBB906B711"
+			tasks: [{
+				id: "557DD0C21158ECEC"
+				type: "item"
+				item: {
+					id: "quark:redstone_randomizer"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "795F188BD24E29E0"
+				type: "ftbmoney:money"
+				ftb_money: 1L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			description: ["Works like an inverted comparator; it combines the total of 3 sides (indicated by red triangles) into the 4th side."]
+			id: "1997E229249CB00E"
+			tasks: [{
+				id: "4B20E062FAB6B46B"
+				type: "item"
+				item: {
+					id: "quark:redstone_inductor"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "34AEDD1BE60DDA63"
+				type: "ftbmoney:money"
+				ftb_money: 1L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			description: [
+				"Obtained by using an empty bottle at y-130 in the overworld."
+				""
+				"You can place it like a block, but in mid-air without needing another block."
+			]
+			id: "5E2428F264DE9DA1"
+			tasks: [{
+				id: "3A3438DEFD06D285"
+				type: "item"
+				item: {
+					id: "quark:bottled_cloud"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5ACDF0E43FA26E35"
+				type: "ftbmoney:money"
+				ftb_money: 1L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			subtitle: "Grateness awaits"
+			description: [
+				"The grate lets items fall through it but not mobs."
+				""
+				"Animals will also try to avoid walking on grates."
+			]
+			id: "0283DF2A48C5CBF1"
+			tasks: [{
+				id: "733680764DB3829B"
+				type: "item"
+				item: {
+					id: "quark:grate"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0CDFC78F1F9474CB"
+				type: "item"
+				item: {
+					id: "byg:green_apple"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			description: [
+				"Any rope or chain can be stored inside the block (including from other mods)"
+				""
+				"When the pulley is powered by a turntable going down, it will drop the rope/chain underneath it."
+				""
+				"Clicking the turntable will make the pulley pull the ropes/chains back up, taking the block underneath it up with it."
+			]
+			dependencies: ["6C27B8ECBE98B97A"]
+			id: "0B44F6F68A0BBFD6"
+			tasks: [{
+				id: "17E5551924F15C8C"
+				type: "item"
+				item: {
+					id: "supplementaries:pulley_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "07BE3BDAEE2CB0A4"
+				type: "ftbmoney:money"
+				ftb_money: 1L
 			}]
 		}
 	]

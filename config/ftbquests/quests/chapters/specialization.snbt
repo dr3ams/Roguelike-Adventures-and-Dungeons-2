@@ -34,7 +34,6 @@
 				"§e§lIf you are on a server, you will want to leave your ftbteam while picking this otherwise all players will end up with the same specialization when you pick one."
 				""
 			]
-			optional: true
 			id: "7D7A71EA9FCC15E2"
 			tasks: [{
 				id: "0358255126AF5F51"
@@ -75,14 +74,23 @@
 				"0243EC598DB0583C"
 			]
 			id: "683225884B0525D7"
-			tasks: [{
-				id: "1904783AB1C16D6F"
-				type: "checkmark"
-				title: "Select this Specialization"
-			}]
+			tasks: [
+				{
+					id: "1904783AB1C16D6F"
+					type: "checkmark"
+					title: "Select this Specialization"
+					disable_toast: true
+				}
+				{
+					id: "05B4B2272495CD95"
+					type: "checkmark"
+					title: "Confirm this Specialization (Remember you cannot change this)"
+					disable_toast: true
+				}
+			]
 			rewards: [
 				{
-					id: "5E876B253B2194F6"
+					id: "4B6397593EFCF25A"
 					type: "item"
 					item: {
 						id: "minecraft:water_bucket"
@@ -95,7 +103,7 @@
 					}
 				}
 				{
-					id: "2EF09BD3F96859BA"
+					id: "25DEAF44858C1224"
 					type: "item"
 					item: {
 						id: "minecraft:potion"
@@ -111,53 +119,7 @@
 					}
 				}
 				{
-					id: "4AD1B0AFCD71AB77"
-					type: "item"
-					item: {
-						id: "roughtweaks:bandage"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "12C58ED04C14B30F"
-					type: "item"
-					item: {
-						id: "roughtweaks:plaster"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "25EDE524C9C12BCE"
-					type: "item"
-					item: {
-						id: "minecraft:torch"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 32
-				}
-				{
-					id: "0376597CF5125159"
+					id: "06A0AFA404F3697C"
 					type: "item"
 					item: {
 						id: "minecraft:potion"
@@ -173,7 +135,7 @@
 					}
 				}
 				{
-					id: "47C43E748C6F80E3"
+					id: "163959482B3E57F6"
 					type: "item"
 					item: {
 						id: "minecraft:stone_pickaxe"
@@ -190,7 +152,7 @@
 					count: 2
 				}
 				{
-					id: "00FF20687BB5740A"
+					id: "5B6B413607F032C7"
 					type: "item"
 					item: {
 						id: "nethers_delight:strider_moss_stew"
@@ -201,9 +163,10 @@
 							}
 						}
 					}
+					count: 4
 				}
 				{
-					id: "2EF2313E1DA9758B"
+					id: "471FEC7B1FE9970C"
 					type: "item"
 					item: {
 						id: "kubejs:mark_miner"
@@ -245,11 +208,20 @@
 				"0243EC598DB0583C"
 			]
 			id: "4124F9EEBAA895F0"
-			tasks: [{
-				id: "3DE75C0DFC3A63E3"
-				type: "checkmark"
-				title: "Select this Specialization"
-			}]
+			tasks: [
+				{
+					id: "3DE75C0DFC3A63E3"
+					type: "checkmark"
+					title: "Select this Specialization"
+					disable_toast: true
+				}
+				{
+					id: "1FF3126B435262EF"
+					type: "checkmark"
+					title: "Confirm this Specialization (Remember you cannot change this)"
+					disable_toast: true
+				}
+			]
 			rewards: [
 				{
 					id: "0E6FA5503452F897"
@@ -270,52 +242,6 @@
 					item: {
 						id: "minecraft:pumpkin_seeds"
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "772D192CC4BB9DE6"
-					type: "item"
-					item: {
-						id: "roughtweaks:bandage"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "44AB0A8117B493DF"
-					type: "item"
-					item: {
-						id: "minecraft:torch"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 32
-				}
-				{
-					id: "2CEEECAC7CD2C694"
-					type: "item"
-					item: {
-						id: "roughtweaks:plaster"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -451,6 +377,22 @@
 					count: 32
 				}
 				{
+					id: "6AC6060AFC71B4B4"
+					type: "item"
+					item: {
+						id: "rats:farmer_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
 					id: "2A98BEBCBA69D51D"
 					type: "item"
 					item: {
@@ -465,22 +407,6 @@
 									}]
 									source: "dungeons_libraries:gear_config"
 								}]
-							}
-						}
-					}
-				}
-				{
-					id: "6AC6060AFC71B4B4"
-					type: "item"
-					item: {
-						id: "rats:farmer_hat"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
 							}
 						}
 					}
@@ -515,11 +441,20 @@
 				"0243EC598DB0583C"
 			]
 			id: "2B8432D35FB49159"
-			tasks: [{
-				id: "55608B7B4994E924"
-				type: "checkmark"
-				title: "Select this Specialization"
-			}]
+			tasks: [
+				{
+					id: "55608B7B4994E924"
+					type: "checkmark"
+					title: "Select this Specialization"
+					disable_toast: true
+				}
+				{
+					id: "4DEC4B439C3206B2"
+					type: "checkmark"
+					title: "Confirm this Specialization (Remember you cannot change this)"
+					disable_toast: true
+				}
+			]
 			rewards: [
 				{
 					id: "75BFC8E9C0A4BD00"
@@ -529,52 +464,6 @@
 						Count: 1b
 						tag: {
 							Potion: "apotheosis:resistance"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "3A340075039AF287"
-					type: "item"
-					item: {
-						id: "minecraft:torch"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 32
-				}
-				{
-					id: "1B8B3F0E0D520841"
-					type: "item"
-					item: {
-						id: "roughtweaks:bandage"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "4AB8A7AD0018827A"
-					type: "item"
-					item: {
-						id: "roughtweaks:plaster"
-						Count: 1b
-						tag: {
-							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -631,6 +520,22 @@
 					count: 21
 				}
 				{
+					id: "0E5A90FB16BC2D17"
+					type: "item"
+					item: {
+						id: "spartanshields:shield_basic_wood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
 					id: "390233019279D745"
 					type: "item"
 					item: {
@@ -679,11 +584,20 @@
 				"683225884B0525D7"
 			]
 			id: "3A9272D0C456214D"
-			tasks: [{
-				id: "0FCB5E46587E824B"
-				type: "checkmark"
-				title: "Select this Specialization"
-			}]
+			tasks: [
+				{
+					id: "0FCB5E46587E824B"
+					type: "checkmark"
+					title: "Select this Specialization"
+					disable_toast: true
+				}
+				{
+					id: "32BA9484670E8BAF"
+					type: "checkmark"
+					title: "Confirm this Specialization (Remember you cannot change this)"
+					disable_toast: true
+				}
+			]
 			rewards: [
 				{
 					id: "734BC22EA1BC3108"
@@ -697,37 +611,7 @@
 							}
 						}
 					}
-					count: 32
-				}
-				{
-					id: "6281F8EC73EF1B36"
-					type: "item"
-					item: {
-						id: "roughtweaks:bandage"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "63A1E2D9139C414F"
-					type: "item"
-					item: {
-						id: "minecraft:torch"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 32
+					count: 24
 				}
 				{
 					id: "0490DA710D1DED7C"
@@ -800,6 +684,44 @@
 					}
 				}
 				{
+					id: "186089E32F727DB9"
+					type: "item"
+					item: {
+						id: "spartanweaponry:quiver_arrow_small"
+						Count: 1b
+						tag: {
+							ClientInventory: [{
+								Slot: 0
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "spartanweaponry:arrow_wood"
+								Count: 64b
+							}]
+						}
+						ForgeCaps: {
+							Parent: {
+								Size: 4
+								Items: [{
+									Slot: 0
+									ForgeCaps: {
+										"dungeons_libraries:built_in_enchantments": {
+											BuiltInEnchantments: [ ]
+										}
+									}
+									id: "spartanweaponry:arrow_wood"
+									Count: 64b
+								}]
+							}
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
 					id: "27ACD866A868C969"
 					type: "item"
 					item: {
@@ -814,24 +736,6 @@
 									}]
 									source: "dungeons_libraries:gear_config"
 								}]
-							}
-						}
-					}
-				}
-				{
-					id: "6A641C689D01D067"
-					type: "item"
-					item: {
-						id: "spartanweaponry:quiver_arrow_small"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: {
-								Size: 4
-								Items: [ ]
-							}
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
 							}
 						}
 					}
@@ -870,11 +774,20 @@
 				"683225884B0525D7"
 			]
 			id: "0243EC598DB0583C"
-			tasks: [{
-				id: "450A0C70E038DAAB"
-				type: "checkmark"
-				title: "Select this Specialization"
-			}]
+			tasks: [
+				{
+					id: "450A0C70E038DAAB"
+					type: "checkmark"
+					title: "Select this Specialization"
+					disable_toast: true
+				}
+				{
+					id: "5DAB213C4FD097D2"
+					type: "checkmark"
+					title: "Confirm this Specialization (Remember you cannot change this)"
+					disable_toast: true
+				}
+			]
 			rewards: [
 				{
 					id: "2BEB7368C856AD59"
@@ -889,20 +802,6 @@
 						}
 					}
 					count: 20
-				}
-				{
-					id: "62B83DB7A70FFD85"
-					type: "item"
-					item: {
-						id: "minecraft:torch"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 32
 				}
 				{
 					id: "375AD6B0C7D4AD36"
@@ -990,6 +889,20 @@
 					}
 				}
 				{
+					id: "569965C18F065B26"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:tattered_tome"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
 					id: "7D1E44FB6D46E90D"
 					type: "item"
 					item: {
@@ -1004,20 +917,6 @@
 									}]
 									source: "dungeons_libraries:gear_config"
 								}]
-							}
-						}
-					}
-				}
-				{
-					id: "569965C18F065B26"
-					type: "item"
-					item: {
-						id: "enigmaticlegacy:tattered_tome"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
 							}
 						}
 					}
@@ -1046,11 +945,20 @@
 				"683225884B0525D7"
 			]
 			id: "5ABCBE93E9B7A41E"
-			tasks: [{
-				id: "27BD35DF4CB624CD"
-				type: "checkmark"
-				title: "Select this Specialization"
-			}]
+			tasks: [
+				{
+					id: "27BD35DF4CB624CD"
+					type: "checkmark"
+					title: "Select this Specialization"
+					disable_toast: true
+				}
+				{
+					id: "3BB2EF5668291E68"
+					type: "checkmark"
+					title: "Confirm this Specialization (Remember you cannot change this)"
+					disable_toast: true
+				}
+			]
 			rewards: [
 				{
 					id: "5D438713DAE63B8E"
@@ -1070,40 +978,10 @@
 					}
 				}
 				{
-					id: "023820C1A4F6A589"
-					type: "item"
-					item: {
-						id: "minecraft:torch"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 32
-				}
-				{
-					id: "7320F1564D4D1BB6"
-					type: "item"
-					item: {
-						id: "roughtweaks:plaster"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "346F6F2EDABA2816"
 					type: "item"
 					item: {
-						id: "minecraft:cooked_salmon"
+						id: "minecraft:cooked_cod"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1111,7 +989,7 @@
 							}
 						}
 					}
-					count: 32
+					count: 24
 				}
 				{
 					id: "049808729794354C"
@@ -1162,13 +1040,14 @@
 					}
 				}
 				{
-					id: "485E1F146C7EB45D"
+					id: "38EB2AB1E47E2E0F"
 					type: "item"
+					team_reward: false
 					item: {
-						id: "roughtweaks:bandage"
+						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Damage: 0
+							Potion: "minecraft:water_breathing"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1178,15 +1057,11 @@
 					}
 				}
 				{
-					id: "38EB2AB1E47E2E0F"
+					id: "107D813C665FDD53"
 					type: "item"
-					team_reward: false
 					item: {
-						id: "minecraft:potion"
+						id: "smallships:spruce_rowboat"
 						Count: 1b
-						tag: {
-							Potion: "minecraft:long_slow_falling"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1209,19 +1084,6 @@
 									}]
 									source: "dungeons_libraries:gear_config"
 								}]
-							}
-						}
-					}
-				}
-				{
-					id: "107D813C665FDD53"
-					type: "item"
-					item: {
-						id: "smallships:spruce_rowboat"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
 							}
 						}
 					}
@@ -1256,35 +1118,27 @@
 				"683225884B0525D7"
 			]
 			id: "17B7928C5E72DF4A"
-			tasks: [{
-				id: "1C6FE385255D21A7"
-				type: "checkmark"
-				title: "Select this Specialization"
-			}]
-			rewards: [
+			tasks: [
 				{
-					id: "4D98DEB9B899192D"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_swiftness"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
+					id: "1C6FE385255D21A7"
+					type: "checkmark"
+					title: "Select this Specialization"
+					disable_toast: true
 				}
+				{
+					id: "50294E05D5BD5223"
+					type: "checkmark"
+					title: "Confirm this Specialization (Remember you cannot change this)"
+					disable_toast: true
+				}
+			]
+			rewards: [
 				{
 					id: "2C6AF0FE1CE1F115"
 					type: "item"
 					team_reward: false
 					item: {
-						id: "dungeons_gear:light_feather"
+						id: "dungeons_gear:boots_of_swiftness"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -1321,7 +1175,7 @@
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Potion: "apotheosis:haste"
+							Potion: "minecraft:slow_falling"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1344,7 +1198,7 @@
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [{
 									data: [{
-										lvl: 1s
+										lvl: 2s
 										id: "farmersdelight:backstabbing"
 									}]
 									source: "dungeons_libraries:gear_config"
@@ -1353,52 +1207,6 @@
 						}
 					}
 					count: 2
-				}
-				{
-					id: "5580874D20FBC880"
-					type: "item"
-					item: {
-						id: "roughtweaks:bandage"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "0E33B9B7973774A4"
-					type: "item"
-					item: {
-						id: "roughtweaks:plaster"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "28734B4D32CDAFEF"
-					type: "item"
-					item: {
-						id: "minecraft:torch"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 32
 				}
 				{
 					id: "5EDCB8642A110B03"
@@ -1416,6 +1224,51 @@
 							}
 						}
 					}
+				}
+				{
+					id: "37C150989C11B10E"
+					type: "item"
+					item: {
+						id: "betterendforge:shadow_berry_jelly"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32
+				}
+				{
+					id: "2B632AAC807CC2C5"
+					type: "item"
+					item: {
+						id: "tombstone:dust_of_vanishing"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "14BA37292FBA0D6A"
+					type: "item"
+					item: {
+						id: "tombstone:smoke_ball"
+						Count: 1b
+						tag: {
+							color: 5197133
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
 				}
 				{
 					id: "7D77EEE029683B69"
@@ -1460,11 +1313,20 @@
 				"683225884B0525D7"
 			]
 			id: "04399280EC946CB6"
-			tasks: [{
-				id: "0231924AE59559D9"
-				type: "checkmark"
-				title: "Select this Specialization"
-			}]
+			tasks: [
+				{
+					id: "0231924AE59559D9"
+					type: "checkmark"
+					title: "Select this Specialization"
+					disable_toast: true
+				}
+				{
+					id: "4B5BD2FDE5281B03"
+					type: "checkmark"
+					title: "Confirm this Specialization (Remember you cannot change this)"
+					disable_toast: true
+				}
+			]
 			rewards: [
 				{
 					id: "49BD4B32FA0EA551"
@@ -1479,38 +1341,6 @@
 						}
 					}
 					count: 28
-				}
-				{
-					id: "4F1C6824581A3A9E"
-					type: "item"
-					item: {
-						id: "roughtweaks:bandage"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "23C21EE29A328C1F"
-					type: "item"
-					item: {
-						id: "roughtweaks:plaster"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
 				}
 				{
 					id: "6EAE26D20711EF95"
@@ -1592,25 +1422,11 @@
 					}
 				}
 				{
-					id: "24A52423B4911FE7"
-					type: "item"
-					item: {
-						id: "minecraft:torch"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 32
-				}
-				{
 					id: "199EEACD05F73094"
 					type: "item"
 					team_reward: false
 					item: {
-						id: "dungeons_gear:boots_of_swiftness"
+						id: "dungeons_gear:wind_horn"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -1635,6 +1451,20 @@
 						}
 					}
 					count: 5
+				}
+				{
+					id: "05F634F397209AD3"
+					type: "item"
+					item: {
+						id: "mysticalworld:cooked_venison"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 20
 				}
 				{
 					id: "463C02E9D5AEF5D1"
@@ -1685,11 +1515,20 @@
 				"683225884B0525D7"
 			]
 			id: "591E749ECBF3BF91"
-			tasks: [{
-				id: "575563DEB347D2F6"
-				type: "checkmark"
-				title: "Select this Specialization"
-			}]
+			tasks: [
+				{
+					id: "575563DEB347D2F6"
+					type: "checkmark"
+					title: "Select this Specialization"
+					disable_toast: true
+				}
+				{
+					id: "0DFD7353218E2263"
+					type: "checkmark"
+					title: "Confirm this Specialization (Remember you cannot change this)"
+					disable_toast: true
+				}
+			]
 			rewards: [
 				{
 					id: "1DAE3D1282AD6B70"
@@ -1778,10 +1617,10 @@
 					}
 				}
 				{
-					id: "1FC9133125E03859"
+					id: "09EC31B44C583FC3"
 					type: "item"
 					item: {
-						id: "minecraft:torch"
+						id: "mysticalworld:apple_cordial"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1789,7 +1628,7 @@
 							}
 						}
 					}
-					count: 32
+					count: 24
 				}
 				{
 					id: "1A90159760DEF7E7"
@@ -1815,10 +1654,12 @@
 		{
 			title: "Pitfighter"
 			icon: {
-				id: "dungeons_gear:mauler"
+				id: "artifacts:power_glove"
 				Count: 1b
-				tag: {
-					Damage: 0
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
 				}
 			}
 			x: 6.0d
@@ -1840,11 +1681,20 @@
 				"683225884B0525D7"
 			]
 			id: "064CD4861C2413A8"
-			tasks: [{
-				id: "3306566555B8C564"
-				type: "checkmark"
-				title: "Select this Specialization"
-			}]
+			tasks: [
+				{
+					id: "3306566555B8C564"
+					type: "checkmark"
+					title: "Select this Specialization"
+					disable_toast: true
+				}
+				{
+					id: "42333B2737E9CF77"
+					type: "checkmark"
+					title: "Confirm this Specialization (Remember you cannot change this)"
+					disable_toast: true
+				}
+			]
 			rewards: [
 				{
 					id: "0927300223230674"
@@ -1864,23 +1714,6 @@
 					}
 				}
 				{
-					id: "492BF00FBBFB6341"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "dungeons_gear:light_feather"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "503F2B46D2D7B587"
 					type: "item"
 					team_reward: false
@@ -1888,7 +1721,7 @@
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Potion: "dungeons_gear:shadow_brew"
+							Potion: "alexsmobs:soulsteal"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1896,36 +1729,6 @@
 							}
 						}
 					}
-				}
-				{
-					id: "7774A01BCB41E517"
-					type: "item"
-					item: {
-						id: "roughtweaks:bandage"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "64F6CF717B0901B2"
-					type: "item"
-					item: {
-						id: "minecraft:torch"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 32
 				}
 				{
 					id: "0BB4823987FD6968"
@@ -1953,22 +1756,6 @@
 						Count: 1b
 						tag: {
 							Potion: "elenaidodge2:long_forceful"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "5A4FDD4D84F4CF42"
-					type: "item"
-					item: {
-						id: "roughtweaks:bandage"
-						Count: 1b
-						tag: {
-							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -2011,6 +1798,36 @@
 					count: 2
 				}
 				{
+					id: "0B5E26D4C04B4594"
+					type: "item"
+					item: {
+						id: "dungeons_gear:light_feather"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6FFBEFD4EC58B199"
+					type: "item"
+					item: {
+						id: "alexsmobs:cooked_moose_ribs"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 20
+				}
+				{
 					id: "132290CECB0FC20E"
 					type: "item"
 					item: {
@@ -2037,7 +1854,11 @@
 			x: 7.5d
 			y: 1.0d
 			subtitle: "Bark."
-			description: ["Check the A Reliable Friend chapter to see how to use training treats."]
+			description: [
+				"Check the A Reliable Friend chapter to see how to use training treats."
+				""
+				"The Masters Call enchantment allows all of your pets to attack what you attack, even pets that don't normally attack, like cats."
+			]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -2053,26 +1874,21 @@
 				"683225884B0525D7"
 			]
 			id: "75434610CC4789B4"
-			tasks: [{
-				id: "0DD6278B39D732AE"
-				type: "checkmark"
-				title: "Select this Specialization"
-			}]
-			rewards: [
+			tasks: [
 				{
-					id: "48671746BE486F62"
-					type: "item"
-					item: {
-						id: "minecraft:bone"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 8
+					id: "0DD6278B39D732AE"
+					type: "checkmark"
+					title: "Select this Specialization"
+					disable_toast: true
 				}
+				{
+					id: "189B06A9C951E4C8"
+					type: "checkmark"
+					title: "Confirm this Specialization (Remember you cannot change this)"
+					disable_toast: true
+				}
+			]
+			rewards: [
 				{
 					id: "40152F120884A56A"
 					type: "item"
@@ -2104,20 +1920,6 @@
 							}
 						}
 					}
-				}
-				{
-					id: "19925036C0D50D45"
-					type: "item"
-					item: {
-						id: "minecraft:torch"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 32
 				}
 				{
 					id: "56DCFC66CF34FBE6"
@@ -2179,7 +1981,13 @@
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "dungeons_gear:masters_call"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2197,6 +2005,34 @@
 							}
 						}
 					}
+				}
+				{
+					id: "4D20F5D0777A497D"
+					type: "item"
+					item: {
+						id: "minecraft:bone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "19F2683E05ECCDD3"
+					type: "item"
+					item: {
+						id: "farmersdelight:cooked_chicken_cuts"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32
 				}
 				{
 					id: "3B1D8BF993FAEC19"
@@ -2288,7 +2124,7 @@
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Potion: "infernalexp:long_luminous"
+							Potion: "mysticalworld:serendipity"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -2395,6 +2231,7 @@
 			}
 			x: -6.0d
 			y: 2.5d
+			description: ["The Seed Pouch can hold up to 640 of a single seed!"]
 			dependencies: ["4124F9EEBAA895F0"]
 			optional: true
 			id: "2D76206095D119CB"
@@ -2572,6 +2409,22 @@
 						}
 					}
 				}
+				{
+					id: "73A494112C62FE43"
+					type: "item"
+					item: {
+						id: "quark:seed_pouch"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -2582,17 +2435,11 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [{
-							data: [ ]
-							source: "dungeons_libraries:gear_config"
-						}]
-					}
-				}
 			}
 			x: -4.5d
 			y: 2.5d
+			subtitle: "Soldier for Hire"
+			description: ["You are tankier now."]
 			dependencies: ["2B8432D35FB49159"]
 			optional: true
 			id: "0B619314C9EEA318"
@@ -2736,6 +2583,25 @@
 						}
 					}
 				}
+				{
+					id: "0445D949EBA152B6"
+					type: "item"
+					item: {
+						id: "dungeons_gear:sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -2746,22 +2612,13 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [{
-							data: [ ]
-							source: "dungeons_libraries:gear_config"
-						}]
-					}
-					"dungeons_gear:bow": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
-					}
-				}
 			}
 			x: -3.0d
 			y: 2.5d
+			description: [
+				"The Crescendo of Bolts enchantment lets you shoot multiple times before reloading."
+				""
+			]
 			dependencies: ["3A9272D0C456214D"]
 			optional: true
 			id: "457B4C8DB54B2C78"
@@ -2806,10 +2663,29 @@
 							}
 						}
 					}
-					count: 20
+					count: 33
 				}
 				{
 					id: "16B644B52EAAF98C"
+					type: "item"
+					item: {
+						id: "dungeons_gear:archers_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "6EB8798AF933DA9A"
 					type: "item"
 					item: {
 						id: "dungeons_gear:archers_chestplate"
@@ -2824,25 +2700,6 @@
 										lvl: 1s
 										id: "dungeons_gear:arrow_hoarder"
 									}]
-									source: "dungeons_libraries:gear_config"
-								}]
-							}
-						}
-					}
-				}
-				{
-					id: "6EB8798AF933DA9A"
-					type: "item"
-					item: {
-						id: "dungeons_gear:archers_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [{
-									data: [ ]
 									source: "dungeons_libraries:gear_config"
 								}]
 							}
@@ -2911,6 +2768,19 @@
 						}
 					}
 				}
+				{
+					id: "74CF649783B83410"
+					type: "item"
+					item: {
+						id: "spartanweaponry:quiver_upgrade_kit_medium"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -2921,20 +2791,10 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [{
-							data: [{
-								lvl: 1s
-								id: "ars_nouveau:mana_boost"
-							}]
-							source: "dungeons_libraries:gear_config"
-						}]
-					}
-				}
 			}
 			x: -1.5d
 			y: 2.5d
+			subtitle: "No Alchemy Xp bonus?"
 			dependencies: ["0243EC598DB0583C"]
 			optional: true
 			id: "150C2D107C30D787"
@@ -3293,7 +3153,11 @@
 			}
 			x: 1.5d
 			y: 2.5d
-			description: [""]
+			description: [
+				"The Dodge Ability can be used to dash through mobs without taking damage or avoid skeleton arrows while eating."
+				""
+				"See \"Dodge\" in the features and mechanics tab to figure out how to dodge."
+			]
 			dependencies: ["17B7928C5E72DF4A"]
 			optional: true
 			id: "75803607F74E0EA9"
@@ -3452,10 +3316,10 @@
 					id: "1D4A4B93B2B650B2"
 					type: "item"
 					item: {
-						id: "minecraft:potion"
+						id: "minecraft:splash_potion"
 						Count: 1b
 						tag: {
-							Potion: "elenaidodge2:long_endurance"
+							Potion: "minecraft:poison"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -3463,6 +3327,7 @@
 							}
 						}
 					}
+					count: 3
 				}
 				{
 					id: "1CF6A5FFB31A384B"
@@ -3670,14 +3535,10 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			x: 4.5d
 			y: 2.5d
+			description: ["To use the Secret Ingredient, you have to hold it in your hand not wear it to enhance the potions, unlike other pocket curios."]
 			dependencies: ["591E749ECBF3BF91"]
 			optional: true
 			id: "50DB09954A68BDF3"
@@ -3895,17 +3756,11 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [{
-							data: [ ]
-							source: "dungeons_libraries:gear_config"
-						}]
-					}
-				}
 			}
 			x: 6.0d
 			y: 2.5d
+			subtitle: "Got tired of fighting in pits"
+			description: [""]
 			dependencies: ["064CD4861C2413A8"]
 			optional: true
 			id: "42CC938BE615A4AF"
@@ -4054,6 +3909,35 @@
 						}
 					}
 				}
+				{
+					id: "2CA528D9CD19AFD9"
+					type: "item"
+					item: {
+						id: "dungeons_gear:mauler"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [
+										{
+											lvl: 1s
+											id: "uniquebattle:deep_wounds"
+										}
+										{
+											lvl: 1s
+											id: "radenchants:ruthless"
+										}
+									]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+					count: 2
+				}
 			]
 		}
 		{
@@ -4067,7 +3951,11 @@
 			}
 			x: 7.5d
 			y: 2.5d
-			description: ["Any pet can be given a player's armor by sneak-clicking on them."]
+			description: [
+				"Any pet can be given a player's armor by sneak-clicking on them."
+				""
+				"The Flute can teleport your pets standing up instantly to you. Useful for saving them from hazards like lava in a pinch."
+			]
 			dependencies: ["75434610CC4789B4"]
 			optional: true
 			id: "18156A17C2B04B79"
@@ -4119,7 +4007,10 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [{
-									data: [ ]
+									data: [{
+										lvl: 1s
+										id: "dungeons_gear:beast_boss"
+									}]
 									source: "dungeons_libraries:gear_config"
 								}]
 							}
@@ -4211,6 +4102,36 @@
 						}
 					}
 				}
+				{
+					id: "72659CE68955086E"
+					type: "item"
+					item: {
+						id: "supplementaries:flute"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "69837EF74F7DAB7A"
+					type: "item"
+					item: {
+						id: "farmersdelight:dog_food"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
 			]
 		}
 		{
@@ -4274,7 +4195,7 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							itemModifier: "modifiers:jagged"
+							itemModifier: "modifiers:warding"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -4316,7 +4237,6 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							itemModifier: "modifiers:brisk"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -4577,14 +4497,6 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [{
-							data: [ ]
-							source: "dungeons_libraries:gear_config"
-						}]
-					}
-				}
 			}
 			x: -4.5d
 			y: 4.0d
@@ -4727,31 +4639,11 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [{
-							data: [
-								{
-									lvl: 1s
-									id: "dungeons_gear:dynamo"
-								}
-								{
-									lvl: 2s
-									id: "apotheosis:crescendo"
-								}
-							]
-							source: "dungeons_libraries:gear_config"
-						}]
-					}
-					"dungeons_gear:bow": {
-						lastFiredTime: 0L
-						fuseShotCounter: 0
-						crossbowChargeTime: 0
-					}
-				}
 			}
 			x: -3.0d
 			y: 4.0d
+			subtitle: "Make your enemies Quiver in fear"
+			description: [""]
 			dependencies: ["457B4C8DB54B2C78"]
 			optional: true
 			id: "27155BAC83580A64"
@@ -4790,23 +4682,6 @@
 				}
 			]
 			rewards: [
-				{
-					id: "7CF706DD04BFDC4E"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "dungeons_gear:ghost_cloak"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
 				{
 					id: "1B8C7844E7CF477D"
 					type: "item"
@@ -4903,7 +4778,20 @@
 							}
 						}
 					}
-					count: 25
+					count: 33
+				}
+				{
+					id: "57C81BF235BFC607"
+					type: "item"
+					item: {
+						id: "spartanweaponry:quiver_upgrade_kit_large"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
@@ -4967,7 +4855,6 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							itemModifier: "modifiers:spiked"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -5023,6 +4910,19 @@
 									}]
 									source: "dungeons_libraries:gear_config"
 								}]
+							}
+						}
+					}
+				}
+				{
+					id: "1F97230AD8F7153D"
+					type: "item"
+					item: {
+						id: "ars_nouveau:potion_flask"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
 							}
 						}
 					}
@@ -5120,7 +5020,6 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-							itemModifier: "modifiers:fleeting"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -5279,10 +5178,11 @@
 					id: "0DD1510D48511BFD"
 					type: "item"
 					item: {
-						id: "minecraft:potion"
+						id: "apotheosis:potion_charm"
 						Count: 1b
 						tag: {
-							Potion: "elenaidodge2:strong_replenishment"
+							Damage: 0
+							Potion: "elenaidodge2:replenishment"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -5355,7 +5255,7 @@
 								BuiltInEnchantments: [{
 									data: [
 										{
-											lvl: 3s
+											lvl: 4s
 											id: "farmersdelight:backstabbing"
 										}
 										{
@@ -5365,6 +5265,38 @@
 									]
 									source: "dungeons_libraries:gear_config"
 								}]
+							}
+						}
+					}
+				}
+				{
+					id: "2A6B0CCA5C20A8D4"
+					type: "item"
+					item: {
+						id: "artifacts:scarf_of_invisibility"
+						Count: 1b
+						tag: {
+							Damage: 2500
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3A6E4EAD8BCA89D8"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "tombstone:discretion"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
 							}
 						}
 					}
@@ -5460,7 +5392,7 @@
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Potion: "dungeons_gear:shadow_brew"
+							Potion: "minecraft:invisibility"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -5543,14 +5475,10 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			x: 4.5d
 			y: 4.0d
+			description: ["The Totem of Soul Protection is a soul artifact. It needs Souls to use, indicated by the blue bar on the bottom left of your screen if you have any. To get souls just kill mobs with the artifact equipped."]
 			dependencies: ["50DB09954A68BDF3"]
 			optional: true
 			id: "2541699B18497F4D"
@@ -5589,23 +5517,6 @@
 				}
 			]
 			rewards: [
-				{
-					id: "73FECF9A9B96090B"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "dungeons_gear:wind_horn"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
 				{
 					id: "64EAA4053F1EF29A"
 					type: "item"
@@ -5706,21 +5617,30 @@
 						}
 					}
 				}
+				{
+					id: "54C7C805C443F92D"
+					type: "item"
+					item: {
+						id: "dungeons_mobs:geomancer_staff"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
 			title: "Underdog"
-			icon: {
-				id: "artifacts:vampiric_glove"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "artifacts:vampiric_glove"
 			x: 6.0d
 			y: 4.0d
+			subtitle: "Woof."
 			dependencies: ["42CC938BE615A4AF"]
 			optional: true
 			id: "366092E413554761"
@@ -5773,7 +5693,7 @@
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Potion: "dungeons_gear:shadow_brew"
+							Potion: "quark:long_resilience"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -5914,7 +5834,7 @@
 						Count: 1b
 						tag: {
 							Effectiveness: {
-								Value: 0.5d
+								Value: 1.0d
 							}
 						}
 						ForgeCaps: {

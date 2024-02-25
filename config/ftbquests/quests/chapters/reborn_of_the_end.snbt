@@ -165,6 +165,7 @@
 		{
 			x: -1.5d
 			y: 5.0d
+			description: ["Puff Bugs like to hang around these, creating bolloom fruits."]
 			dependencies: ["3D208B95463DFD24"]
 			id: "00000000000005D4"
 			tasks: [{
@@ -290,6 +291,11 @@
 		{
 			x: -1.5d
 			y: 6.0d
+			description: [
+				"This can be attached to mobs or yourself to make them fall slower."
+				""
+				"Attach enough and they will start floating upward."
+			]
 			dependencies: ["00000000000005D4"]
 			id: "5E58C743EB40697D"
 			tasks: [{
@@ -871,7 +877,11 @@
 		{
 			x: 10.5d
 			y: -6.0d
-			description: ["Infused Terminite Armor"]
+			description: [
+				"Infused Terminite Armor."
+				""
+				"Grants various buffs on the player."
+			]
 			dependencies: ["5E4164741B56B1BC"]
 			id: "254E533B919E0141"
 			tasks: [
@@ -1018,7 +1028,7 @@
 		{
 			x: 8.5d
 			y: 3.5d
-			description: ["Alloy of Iron and Ender Dust made in a End Stone Smelter."]
+			description: ["Alloy of Thallasium and Ender Dust made in a End Stone Smelter."]
 			dependencies: [
 				"0B56F802933E9AB7"
 				"46966AA1DDAD75DC"
@@ -1056,7 +1066,7 @@
 		{
 			x: 12.0d
 			y: 3.5d
-			description: ["Alloy of Netherite and Terminite made in a End Stone Smelter."]
+			description: ["Alloy of an End Shard and Terminite made in a End Stone Smelter."]
 			dependencies: ["2F65B1126A72219F"]
 			id: "0BD7D528F30810EC"
 			tasks: [{
@@ -1091,7 +1101,7 @@
 		{
 			x: 8.5d
 			y: 0.5d
-			description: ["Able to create unique alloys."]
+			description: ["Able to create unique alloys and multiply your ores smelted."]
 			dependencies: ["32C3FF52CD5AB5E7"]
 			id: "46966AA1DDAD75DC"
 			tasks: [{
@@ -1252,18 +1262,11 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "35D47D00B8308630"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-				{
-					id: "5154DD18C4D03BCB"
-					type: "ftbmoney:money"
-					ftb_money: 50L
-				}
-			]
+			rewards: [{
+				id: "5154DD18C4D03BCB"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
 		}
 		{
 			title: "Aeternium Armor"
@@ -1335,6 +1338,11 @@
 					id: "42C08F0DD4945EA1"
 					type: "ftbmoney:money"
 					ftb_money: 50L
+				}
+				{
+					id: "49B45A33029AC41B"
+					type: "loot"
+					table_id: 4179527381065745422L
 				}
 			]
 		}
@@ -1420,15 +1428,32 @@
 					item: "aquaculture:lockbox"
 				}
 				{
-					id: "2FA1BB6A9D1B26D0"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
+					id: "50A87F6EF5165EF2"
+					type: "loot"
+					table_id: 4179527381065745422L
+				}
+				{
+					id: "757927F9BBE65F0F"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "63395C5FF8289465"
+					type: "pmmo:xpreward"
+					title: "1500 Smithing XP"
+					icon: {
+						id: "minecraft:anvil"
 						Count: 1b
-						tag: {
-							type: "materials_monsters"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
+					auto: "invisible"
+					skill: "smithing"
+					amount: 1500.0d
+					ignoreBonuses: false
 				}
 			]
 		}
@@ -1939,7 +1964,7 @@
 			]
 		}
 		{
-			x: 2.5d
+			x: 1.5d
 			y: 7.5d
 			shape: "square"
 			dependencies: ["63A64571BBB85FE5"]
@@ -2122,6 +2147,7 @@
 			x: 6.0d
 			y: 6.5d
 			shape: "square"
+			description: ["Who knew the missing texture could be so fancy"]
 			dependencies: ["269E793268F8802E"]
 			id: "426ACE2EBEBB9FEE"
 			tasks: [{
@@ -2629,6 +2655,7 @@
 		{
 			x: 7.0d
 			y: 0.5d
+			description: ["Needed to create thallasium tool parts."]
 			dependencies: ["32C3FF52CD5AB5E7"]
 			id: "40E26311C46FC8C2"
 			tasks: [{
@@ -2713,6 +2740,7 @@
 		{
 			x: 4.0d
 			y: -1.5d
+			description: ["It emits light and looks cool. Not much to say here"]
 			dependencies: ["5E2DFA9A653F3619"]
 			id: "44246B5F76798F22"
 			tasks: [{
@@ -2869,6 +2897,7 @@
 		{
 			x: 7.0d
 			y: -1.0d
+			description: ["The Copper of the End, it is a light material that is generally not great on its own until alloyed."]
 			dependencies: ["5FE08145513FF66D"]
 			id: "32C3FF52CD5AB5E7"
 			tasks: [{
@@ -2952,6 +2981,7 @@
 			x: -4.0d
 			y: 7.5d
 			shape: "hexagon"
+			description: ["These can be grown on shadow grass."]
 			id: "0CA55C9A2FFEEB26"
 			tasks: [{
 				id: "29E20782B9037CA3"
@@ -3233,6 +3263,7 @@
 			shape: "octagon"
 			subtitle: "Kill the Ender Dragon"
 			dependencies: ["3D208B95463DFD24"]
+			dependency_requirement: "one_started"
 			size: 2.0d
 			id: "211D755718A5FF50"
 			tasks: [{
@@ -3338,6 +3369,990 @@
 					id: "6B774F4F47F6FACD"
 					type: "ftbmoney:money"
 					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			subtitle: "The coal at the end"
+			description: ["Found within ether stone. It only smelts 7 items."]
+			dependencies: ["3697C11949A0A907"]
+			id: "14F6509FCFFD8915"
+			tasks: [{
+				id: "7F87B070E83D73B2"
+				type: "item"
+				item: {
+					id: "byg:lignite"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2B6E29635AA72D30"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "060901A67C26E782"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			shape: "square"
+			dependencies: ["63A64571BBB85FE5"]
+			id: "5D76159D1CCEA89B"
+			tasks: [{
+				id: "47D92489484C33A3"
+				type: "item"
+				item: {
+					id: "byg:cobbled_ether_stone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "50AF1092EEBF13AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "45CA087EA1BCB7AF"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "0C043E8B1AEE238A"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 1.0d
+			dependencies: ["4424404688C4DA49"]
+			id: "4FDAE4EF717B3D17"
+			tasks: [
+				{
+					id: "3C72D0348681D973"
+					type: "item"
+					item: {
+						id: "pickletweaks:emerald_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3B9981D1454EA2B0"
+					type: "item"
+					item: {
+						id: "pickletweaks:emerald_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "36FC54B63DA44979"
+					type: "item"
+					item: {
+						id: "pickletweaks:emerald_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "47639D2E48C04E0A"
+					type: "item"
+					item: {
+						id: "pickletweaks:emerald_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "200FCB27CFA91615"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "ingots_valuable"
+						rpgloot.randomize: 0b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			dependencies: ["4424404688C4DA49"]
+			id: "75173BE046C1EC0C"
+			tasks: [{
+				id: "1EF60119D4609A69"
+				type: "item"
+				item: {
+					id: "pickletweaks:emerald_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2A771FCB581423EE"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "infernalexp:luminous"
+						}
+					}
+				}
+				{
+					id: "6F4AB17B0B74548A"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "53CF0F60967BA2DA"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "41BCE5804FAA988B"
+					type: "item"
+					item: "randomite:randomite_ore"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			description: ["Alloy of Tin and Emeralds in an end stone smelter."]
+			dependencies: ["46966AA1DDAD75DC"]
+			id: "4424404688C4DA49"
+			tasks: [{
+				id: "186FA8D929263C25"
+				type: "item"
+				item: {
+					id: "kubejs:emerald_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "691F95B6F4BECFAB"
+					type: "item"
+					item: {
+						id: "pickletweaks:emerald_apple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5B0C3EF4302887CD"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_nugget"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					random_bonus: 8
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -5.5d
+			subtitle: "Making your home in the end"
+			description: [
+				"You can spend 6 Amber Gems to set your spawnpoint next to the obelisk."
+				""
+				"This can be used to set your spawn in any dimension, not just the end."
+			]
+			dependencies: ["5E4164741B56B1BC"]
+			id: "601C88472CB41587"
+			tasks: [{
+				id: "53146C51116A8DBB"
+				type: "item"
+				item: {
+					id: "betterendforge:respawn_obelisk"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6C7509EB133A9B2E"
+					type: "item"
+					item: {
+						id: "betterendforge:amber_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 6
+				}
+				{
+					id: "2CBB6284C7185F8F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			shape: "diamond"
+			description: ["Station for the Enderologist villager profession."]
+			dependencies: ["3D208B95463DFD24"]
+			id: "79BFE48B969A1C28"
+			tasks: [{
+				id: "6B3B24503C182153"
+				type: "item"
+				item: {
+					id: "morevillagers:purpur_altar"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "04AFC829FA93900E"
+				type: "item"
+				item: {
+					id: "minecraft:end_stone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			description: [
+				"A special shard mined from end shard ore."
+				""
+				"Mining the ore angers all nearby endermen."
+			]
+			dependencies: ["3697C11949A0A907"]
+			id: "328111EAA4D59A8E"
+			tasks: [{
+				id: "25DAC2167D2CBC1C"
+				type: "item"
+				item: {
+					id: "majruszs_difficulty:end_shard"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6137C193B6660997"
+				type: "item"
+				item: {
+					id: "randomite:randomite_ore"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.0d
+			description: ["More durable than Aeternium with reduced knockback resistance."]
+			dependencies: ["328111EAA4D59A8E"]
+			id: "379506F627A084C9"
+			tasks: [
+				{
+					id: "6C9FBC9036A08162"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "689CE26CA1CC0743"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2BB16509439B0436"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							EndLeggingsArmorTag: { }
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6F4E5DF836768F70"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "48465E65D1539929"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "31A77E2F7F713A05"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "End Tools"
+			x: 4.0d
+			y: -7.5d
+			description: ["Less durable than aeternium, but with higher attack strength and grants a special power."]
+			dependencies: ["328111EAA4D59A8E"]
+			id: "47C6889BA9DA6B71"
+			tasks: [
+				{
+					id: "561E9053BCCDBB6E"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "68662CDA9B28DB39"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6DBA73F11CAE25C4"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3E210513E9D750FE"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "243B401C3B8D2C33"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:end_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "26C0AA0DD3BBE89A"
+					type: "random"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "440BA7DF110F77C9"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:mending_mixture"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			description: [
+				"Found as loot in certain end structures. Can be smelted into an etherium ingot."
+				""
+				"Due to its rarity it may be useful to use the end stone smelter to get extra ingots."
+			]
+			dependencies: ["3697C11949A0A907"]
+			id: "7059E391B00B0081"
+			tasks: [{
+				id: "036AE1D5384701CC"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:etherium_ore"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "430C61DB1813538D"
+				type: "item"
+				item: {
+					id: "randomite:randomite_ore"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "Etherium Tools"
+			x: 4.5d
+			y: -6.5d
+			description: ["When it comes to non-magical mining, etherium is the best method there is with its area of effect mining ability."]
+			dependencies: ["7059E391B00B0081"]
+			id: "7F37BC388DA180A2"
+			tasks: [
+				{
+					id: "746BF9331B76A018"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:etherium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "363035E86EEF3F5B"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:etherium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "51EB3F4820931331"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:etherium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7D5E41BC415C342A"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:etherium_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "18781F8E08E447A7"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:etherium_scythe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2398DAC7C2788FE7"
+					type: "pmmo:xpreward"
+					title: "3750 Gathering XP"
+					icon: {
+						id: "kubejs:mine"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "invisible"
+					skill: "gathering"
+					amount: 3750.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "5F21FE249BDD2172"
+					type: "choice"
+					title: "Choice Uncommon Loot Crate"
+					table_id: 5735513140715080140L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -5.5d
+			description: [
+				"This armor is invisible on the player."
+				""
+				"While this ability is mostly useless thanks to the cosmetic armor mod, it still is a very strong armor, its defense only rivaled by dragon-based armors."
+			]
+			dependencies: ["7059E391B00B0081"]
+			id: "4898675B39433EDA"
+			tasks: [
+				{
+					id: "75C6A1EFE22424EA"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:etherium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6CE817C6F89AA371"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:etherium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "429C13C8FC2B3D42"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:etherium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "36681C625D528C75"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:etherium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "32E40A75F30DC43A"
+					type: "pmmo:xpreward"
+					title: "3750 Endurance XP"
+					icon: {
+						id: "kubejs:shield"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "invisible"
+					skill: "mining"
+					amount: 3750.0d
+					ignoreBonuses: false
+				}
+				{
+					id: "169F474CEF6FC639"
+					type: "choice"
+					title: "Choice Uncommon Loot Crate"
+					table_id: 5735513140715080140L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			subtitle: "How many torches are there?!"
+			description: [
+				"Yep, there's a torch for the end too."
+				""
+				"This one's purple."
+			]
+			dependencies: ["3D208B95463DFD24"]
+			id: "311E972978EC5627"
+			tasks: [{
+				id: "18ABD1E2C4FDD9F4"
+				type: "item"
+				item: {
+					id: "endergetic:ender_torch"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1CB5F4F03E797C9E"
+				type: "item"
+				item: {
+					id: "largemeals:chorus_fruit_popsicle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			description: ["The hard protective shell of a Shulker. You can wear them on your head if you want to for some reason..."]
+			dependencies: ["3697C11949A0A907"]
+			id: "1BEA85235B47FA5B"
+			tasks: [{
+				id: "6CE8AEFAFDB76E36"
+				type: "item"
+				item: {
+					id: "minecraft:shulker_shell"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2E45074D008FEBBB"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "021B1235FB756A98"
+					type: "xp"
+					xp: 55
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			subtitle: "Storage Inception"
+			description: [
+				"So you think Shulker Boxes are now useless because backpacks exist?"
+				""
+				"WRONG!"
+				"You can place shulker boxes into backpacks, giving even more storage than ever before!"
+			]
+			dependencies: ["1BEA85235B47FA5B"]
+			id: "2DA5966E41A21CA7"
+			tasks: [{
+				id: "3FEF9E9507BF30A4"
+				type: "item"
+				item: {
+					id: "minecraft:shulker_box"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "662E3E1F68228E1D"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "4E889FB31C0D352C"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "7CC207F14C0B0BA9"
+					type: "item"
+					item: {
+						id: "betterendforge:ender_shard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "15CBAFABBB4E94AA"
+					type: "loot"
+					table_id: 4734148794142699034L
 				}
 			]
 		}

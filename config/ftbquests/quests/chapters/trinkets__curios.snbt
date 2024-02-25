@@ -825,6 +825,7 @@
 		{
 			x: -1.0d
 			y: 5.5d
+			description: ["Corrupted Beacon but blue. This one does not use souls."]
 			id: "2FDF00E7CA12E60D"
 			tasks: [{
 				id: "783EC4F06C271F1D"
@@ -858,6 +859,7 @@
 		{
 			x: -1.5d
 			y: 7.5d
+			description: ["Gives enemies levitation."]
 			id: "5286E78A4DF9A954"
 			tasks: [{
 				id: "4DB7A1C4EBE837C5"
@@ -891,6 +893,7 @@
 		{
 			x: -0.5d
 			y: 4.5d
+			description: ["Grants the Party Starter Effect. Whenever you attack create an explosion that damages mobs."]
 			id: "0337A6E2B165AA9C"
 			tasks: [{
 				id: "3A5D2DBD9B4EEAD0"
@@ -924,6 +927,7 @@
 		{
 			x: 11.5d
 			y: 7.5d
+			description: ["Either sets mobs on fire for 8 seconds, inflicts slowness, or strikes them with lightning."]
 			id: "1A0B0B0C455CD7DD"
 			tasks: [{
 				id: "4E43D455BE42DDCD"
@@ -957,6 +961,7 @@
 		{
 			x: 2.0d
 			y: 2.0d
+			description: ["Gives random foods."]
 			id: "3FCFBEBEB40100CF"
 			tasks: [{
 				id: "7AAD8E6F37E37931"
@@ -990,6 +995,7 @@
 		{
 			x: 5.0d
 			y: 1.0d
+			description: ["Gives random potions."]
 			id: "323BB1B3705C832B"
 			tasks: [{
 				id: "46021BC544DFBE7A"
@@ -1023,6 +1029,7 @@
 		{
 			x: 5.0d
 			y: 14.0d
+			description: ["The next 5 arrows you shoot are unaffected by water."]
 			id: "38C99F434F124A89"
 			tasks: [{
 				id: "7FB54850F13903D4"
@@ -1056,6 +1063,7 @@
 		{
 			x: 8.0d
 			y: 2.0d
+			description: ["Speed III for 2 seconds."]
 			id: "111F7DA351EE9339"
 			tasks: [{
 				id: "52ECF39F8ED147A1"
@@ -1089,6 +1097,13 @@
 		{
 			x: 0.5d
 			y: 12.0d
+			description: [
+				"Summons an iron golem to fight for you."
+				""
+				"And before you ask no the golem does not drop iron on death."
+				""
+				"Due to a bug you may need to unequip then reequip the artifact to summon a new pet."
+			]
 			id: "10C69118C27044C4"
 			tasks: [{
 				id: "5BD4CC2E307160E0"
@@ -1122,6 +1137,13 @@
 		{
 			x: 9.5d
 			y: 12.0d
+			description: [
+				"Summons a free pet wolf for you!"
+				""
+				"You cannot summon another wolf until the first wolf dies or is converted into a doggy talents dog."
+				""
+				"Due to a bug you may need to unequip then reequip the artifact to summon a new pet."
+			]
 			id: "5447EF309A6F6181"
 			tasks: [{
 				id: "4918595049885351"
@@ -1155,6 +1177,13 @@
 		{
 			x: -1.5d
 			y: 8.5d
+			description: [
+				"Summon a llama pet."
+				""
+				"The llama follows you so its useful to carry your stuff if you add a chest."
+				""
+				"Due to a bug you may need to unequip then reequip the artifact to summon a new pet."
+			]
 			id: "7D22D20B86C2D33B"
 			tasks: [{
 				id: "791CDA3C64BFC824"
@@ -1188,6 +1217,11 @@
 		{
 			x: -0.5d
 			y: 10.5d
+			description: [
+				"Gives mobs Resistance Negative 2 and Weakness. (They take more damage)"
+				""
+				"Also dispels the Resistance effect already present on mobs, so its very useful on strong champions."
+			]
 			id: "6A6B392D80E179EE"
 			tasks: [{
 				id: "64846A8B714D0900"
@@ -1221,6 +1255,15 @@
 		{
 			x: 10.5d
 			y: 4.5d
+			description: [
+				"Costs 15 Souls."
+				""
+				"Strike lightning at the mob you are looking at."
+				""
+				"You will waste souls if you are not looking at a mob."
+				""
+				""
+			]
 			id: "514ADDD70D49C805"
 			tasks: [{
 				id: "389921EA9DEC979D"
@@ -1254,6 +1297,7 @@
 		{
 			x: -1.0d
 			y: 9.5d
+			description: ["Give yourself some resistance II for a few seconds."]
 			id: "6A4432085A4EDE7A"
 			tasks: [{
 				id: "2F9223E1832D278C"
@@ -1287,6 +1331,11 @@
 		{
 			x: 2.0d
 			y: 13.0d
+			description: [
+				"Makes up to 3 nearby mobs stop attacking you and attack other mobs."
+				""
+				"However attacking them will cause them to attack you again."
+			]
 			id: "1A7B3032764043F1"
 			tasks: [{
 				id: "3BDDB94A5C23109A"
@@ -1320,6 +1369,7 @@
 		{
 			x: 3.0d
 			y: 13.5d
+			description: ["The next 7 arrows you shoot are on fire. Useful for crossbows or other bows that can't get the flame enchantment."]
 			id: "13B1BAC45C900E70"
 			tasks: [{
 				id: "16ACE4A693B82CD3"
@@ -1353,6 +1403,7 @@
 		{
 			x: 7.0d
 			y: 13.5d
+			description: ["Activate to do a short hop. Useful as a weak double jump"]
 			id: "45BC33FB2B2F14F2"
 			tasks: [{
 				id: "73F506AB86117FE5"
@@ -1386,6 +1437,11 @@
 		{
 			x: 0.5d
 			y: 3.0d
+			description: [
+				"Spends up to 64 Souls to heal up to 6 health."
+				""
+				"Won't be used if you are at full health."
+			]
 			id: "02577FE7B31039C2"
 			tasks: [{
 				id: "07BA315BC269ECFD"
@@ -1419,6 +1475,7 @@
 		{
 			x: 8.0d
 			y: 13.0d
+			description: ["Pushes hostile mobs away."]
 			id: "770842B0FD8C2CDC"
 			tasks: [{
 				id: "2BFAD046ED4494BF"
@@ -1452,6 +1509,7 @@
 		{
 			x: 11.0d
 			y: 9.5d
+			description: ["Summon an ice chunk above mobs that briefly stuns them."]
 			id: "6C7E9C9561EA31F9"
 			tasks: [{
 				id: "334B90A74D177D86"
@@ -1485,6 +1543,7 @@
 		{
 			x: 10.5d
 			y: 10.5d
+			description: ["Poisons and Slows hostile mobs."]
 			id: "6909DCD346596566"
 			tasks: [{
 				id: "63FF1D85CB620519"
@@ -1518,6 +1577,7 @@
 		{
 			x: 4.0d
 			y: 1.0d
+			description: ["Keeps nearby enemies stuck in place for 5 seconds."]
 			id: "3D9299C466992703"
 			tasks: [{
 				id: "1D58D42D98317443"
@@ -1551,6 +1611,7 @@
 		{
 			x: 6.0d
 			y: 1.0d
+			description: ["Spend 40 Souls to create a powerful explosion."]
 			id: "2A98C5C2D27B62C4"
 			tasks: [{
 				id: "4F4A10497ABCBEC4"
@@ -1584,6 +1645,7 @@
 		{
 			x: 7.0d
 			y: 1.5d
+			description: ["Grants Glowing, Speed, Resistance IV and Invisibility for 3 seconds."]
 			id: "2C4C2C5419747E78"
 			tasks: [{
 				id: "1D13FF4BC7D90346"
@@ -1617,6 +1679,11 @@
 		{
 			x: 9.5d
 			y: 3.0d
+			description: [
+				"Costs 10 Souls."
+				""
+				"The next 3 arrows you shoot ignore gravity"
+			]
 			id: "1E10D8E9066FE566"
 			tasks: [{
 				id: "314B192EC70E45FD"
@@ -1650,6 +1717,7 @@
 		{
 			x: 11.5d
 			y: 6.5d
+			description: ["Grants the Shielding effect, which makes you immune to projectiles."]
 			id: "1604341F1BC18F95"
 			tasks: [{
 				id: "0178D6096C9AEA86"
@@ -1683,6 +1751,11 @@
 		{
 			x: 11.5d
 			y: 8.5d
+			description: [
+				"Costs 5 Souls. All non-hostile entities within the totem's aura cannot be killed (stays at 1 hp)"
+				""
+				"Totem lasts around 12 seconds despite what the tooltip says."
+			]
 			id: "569E6F3199D47AB8"
 			tasks: [{
 				id: "423373963A612B80"
@@ -1716,6 +1789,7 @@
 		{
 			x: 4.0d
 			y: 14.0d
+			description: ["Summons bees that fight for you!"]
 			id: "5B652569061DE6F3"
 			tasks: [{
 				id: "63F46F848C42189A"
@@ -1749,6 +1823,11 @@
 		{
 			x: 6.0d
 			y: 14.0d
+			description: [
+				"Rapidly spends souls to shoot a beam that rapidly damages all mobs in front of you."
+				""
+				"The Damage can be boosted by holding a sword with certain enchantments."
+			]
 			id: "199744C8E04EDD39"
 			tasks: [{
 				id: "603FC1769E05259D"
@@ -1782,6 +1861,11 @@
 		{
 			x: -1.5d
 			y: 6.5d
+			description: [
+				"Summons a Sheep."
+				""
+				"Due to a bug this one won't summon unless you have another summoning artifact in your curios slots."
+			]
 			id: "39E2243C32CCADF9"
 			tasks: [{
 				id: "2D3EDDC91E5C6CAA"
@@ -1815,6 +1899,7 @@
 		{
 			x: 11.0d
 			y: 5.5d
+			description: ["Orange version of the Corrupted Beacon."]
 			id: "6D99960BCE7C37E4"
 			tasks: [{
 				id: "4CDE0D394D91671F"
@@ -1848,6 +1933,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
+			description: ["The next 5 arrows strike lightning on foes."]
 			id: "4862D9E14E68B083"
 			tasks: [{
 				id: "0BEBA23473038CC5"

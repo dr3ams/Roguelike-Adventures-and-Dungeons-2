@@ -321,6 +321,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
+			description: ["Has no use."]
 			id: "78FE81EEEBEAAAC0"
 			tasks: [{
 				id: "4BA71DF6513A7B5B"
@@ -1787,6 +1788,62 @@
 					id: "2D090ED42F761C98"
 					type: "xp_levels"
 					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"Chance to either heal or harm you when drank."
+				""
+				"Dropped by the Ice and Fire Gorgons."
+			]
+			id: "4D16B76D4FE5CC8F"
+			tasks: [{
+				id: "7EF6B8ECD9A4A177"
+				type: "item"
+				item: {
+					id: "greekfantasy:gorgon_blood"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "27F8BE0CF06D0140"
+					type: "item"
+					item: {
+						id: "minecraft:poisonous_potato"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					random_bonus: 1
+				}
+				{
+					id: "1583F28B16EA9ADB"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					random_bonus: 1
 				}
 			]
 		}

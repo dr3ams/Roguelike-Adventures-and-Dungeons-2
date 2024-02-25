@@ -254,6 +254,7 @@
 		{
 			x: 0.5d
 			y: -3.0d
+			description: ["Drops gold nuggets when mined. Careful not to anger the locals..."]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "67A339531A61A13F"
 			tasks: [{
@@ -277,6 +278,7 @@
 		{
 			x: -2.5d
 			y: -3.0d
+			description: ["A powerful apple that provides the unique Netherite Strength and Netherite Resistance Effects, stronger variants of the vanilla effects."]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "63E4DEAD58EA1044"
 			tasks: [{
@@ -308,6 +310,7 @@
 		{
 			x: -3.5d
 			y: -3.5d
+			description: ["Same as netherite apple but now it gives level 2 Netherite effects."]
 			dependencies: ["63E4DEAD58EA1044"]
 			id: "21F1BF0DE36BC880"
 			tasks: [{
@@ -704,6 +707,7 @@
 		{
 			x: -3.5d
 			y: -1.5d
+			description: ["A dimmer version of the torch. Piglins prefer to stay away from them."]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "1FF5E2CC96EA1264"
 			tasks: [{
@@ -725,7 +729,7 @@
 			]
 		}
 		{
-			x: -5.0d
+			x: -4.5d
 			y: -2.5d
 			dependencies: ["1FF5E2CC96EA1264"]
 			id: "09EBBFAC3E896F55"
@@ -777,6 +781,11 @@
 		{
 			x: 2.0d
 			y: -2.0d
+			description: [
+				"A dimmer and more painful version of the campfire, piglins are known to try to stay away from this."
+				""
+				"Also needed to salvage affix items into shards."
+			]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "60EE45363E31B08B"
 			tasks: [{
@@ -798,8 +807,10 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 3.0d
+			x: -2.5d
+			y: 3.5d
+			subtitle: "Making a home in the nether"
+			description: ["Set up a place to spawn in the nether with the respawn anchor."]
 			dependencies: ["7137B3D4835692E8"]
 			id: "4A163C73BCFE6474"
 			tasks: [{
@@ -1151,6 +1162,11 @@
 			x: 0.0d
 			y: 8.0d
 			shape: "gear"
+			description: [
+				"The most powerful material in vanilla minecraft."
+				""
+				"Not as great here on its own, but serves as a base for other upgrades."
+			]
 			dependencies: ["38E3B9FEC8AA6D51"]
 			size: 1.5d
 			id: "65760A3965C0610B"
@@ -1169,6 +1185,7 @@
 			title: "Golderite Armor"
 			x: -3.5d
 			y: 9.5d
+			description: ["Increases your Luck stat by 2 and makes piglins not attack you as if wearing golden armor."]
 			dependencies: ["3B5966CE0415E109"]
 			id: "6727E197F4283EAD"
 			tasks: [
@@ -1239,6 +1256,7 @@
 			title: "Prismarite Armor"
 			x: 3.5d
 			y: 8.5d
+			description: ["Increased Swim Speed, Permanant Water breathing and immunity to the Mining Fatigue effect."]
 			dependencies: ["56ADA502CFC3807D"]
 			id: "602F6BB604D64DDA"
 			tasks: [
@@ -1309,6 +1327,13 @@
 			title: "Enderite Armor"
 			x: 2.0d
 			y: 11.0d
+			description: [
+				"Prevents endermen from being angry at you when looked at."
+				""
+				"You already get saved from the void so the second attribute is useless."
+				""
+				"This set is completely useless with the ring of seven curses equipped."
+			]
 			dependencies: ["42D44EE61E2CEF2E"]
 			id: "179CE2F43D189547"
 			tasks: [
@@ -1379,6 +1404,7 @@
 			title: "Blazerite Armor"
 			x: -1.0d
 			y: 11.5d
+			description: ["Grants immunity to fire damage and faster swim speed in lava."]
 			dependencies: ["22AD943138F5C856"]
 			id: "3EF22104C917962E"
 			tasks: [
@@ -1449,6 +1475,11 @@
 			title: "Featherite Armor"
 			x: 1.0d
 			y: 4.5d
+			description: [
+				"Grants the ability to walk on liquids, immunity to fall damage, 2 extra jumps and levitation immunity."
+				""
+				"Extra jumps stack with the double-jump enchantment and cloud in a bottle."
+			]
 			dependencies: ["4FC103EC12228BBB"]
 			id: "2B235A1B58499000"
 			tasks: [
@@ -1519,6 +1550,11 @@
 			title: "Phanterite Armor"
 			x: -2.0d
 			y: 5.0d
+			description: [
+				"Grants fall damage immunity."
+				""
+				"Also grants step height but you already have that anyways."
+			]
 			dependencies: ["6D57242610098E42"]
 			id: "1D0C9364745C4EDE"
 			tasks: [
@@ -1589,6 +1625,7 @@
 			title: "Spiderite Armor"
 			x: 3.5d
 			y: 6.5d
+			description: ["Grants poison immunity and the ability to climb up walls."]
 			dependencies: ["363BD95AA810F14F"]
 			id: "74D61CFA5A3395DB"
 			tasks: [
@@ -1659,6 +1696,7 @@
 			title: "Witherite Armor"
 			x: -3.5d
 			y: 7.0d
+			description: ["Grants the player immunity to the Wither effect."]
 			dependencies: ["1F32E351FBF052A2"]
 			id: "004D06A98BA5D542"
 			tasks: [
@@ -1729,6 +1767,11 @@
 			title: "Golderite Arms"
 			x: -3.5d
 			y: 8.5d
+			description: [
+				"Increased drops from mobs and blocks."
+				""
+				"The sword deals 10% more damage to piglin brutes."
+			]
 			dependencies: ["3B5966CE0415E109"]
 			id: "2DF44D23C354CDC6"
 			tasks: [
@@ -1783,6 +1826,11 @@
 			title: "Blazerite Arms"
 			x: -2.0d
 			y: 11.0d
+			description: [
+				"Increased Damage against enemies on fire."
+				""
+				"Any items dropped from mobs killed or blocks mined with these will be automatically smelted."
+			]
 			dependencies: ["22AD943138F5C856"]
 			id: "791FB402D5A1BFA4"
 			tasks: [
@@ -1837,6 +1885,11 @@
 			title: "Enderite Arms"
 			x: 1.0d
 			y: 11.5d
+			description: [
+				"Increases damage against enderman and prevents them from teleporting for 10 seconds, and causes them to drop more loot."
+				""
+				"Sneak-click a chest to teleport any mob drops you obtain with this sword to it."
+			]
 			dependencies: ["42D44EE61E2CEF2E"]
 			id: "581E9E45E5ED4FB2"
 			tasks: [
@@ -1891,6 +1944,7 @@
 			title: "Spiderite Arms"
 			x: 3.5d
 			y: 7.5d
+			description: ["Poisons enemies and increases damage against poisoned targets."]
 			dependencies: ["363BD95AA810F14F"]
 			id: "2835561D267FAFDD"
 			tasks: [
@@ -1934,6 +1988,7 @@
 			title: "Prismarite Arms"
 			x: 3.5d
 			y: 9.5d
+			description: ["Increases mining speed underwater and bonus damage towards mobs immune to fire and endermen."]
 			dependencies: ["56ADA502CFC3807D"]
 			id: "4A450C79CCDB7840"
 			tasks: [
@@ -1988,6 +2043,7 @@
 			title: "Featherite Arms"
 			x: 2.0d
 			y: 5.0d
+			description: ["Attracts items towards you. The shield pushes enemies away when blocking."]
 			dependencies: ["4FC103EC12228BBB"]
 			id: "222CFF53D6C06F91"
 			tasks: [
@@ -2042,6 +2098,11 @@
 			title: "Phanterite Arms"
 			x: -1.0d
 			y: 4.5d
+			description: [
+				"Increases your reach by 2 blocks and allows you to see nearby enemies."
+				""
+				"10% more damage to phantoms."
+			]
 			dependencies: ["6D57242610098E42"]
 			id: "4E8D67A9761ACBC1"
 			tasks: [
@@ -2096,6 +2157,7 @@
 			title: "Witherite Arms"
 			x: -3.5d
 			y: 6.0d
+			description: ["Applies the Wither effect and increases damage against withered enemies."]
 			dependencies: ["1F32E351FBF052A2"]
 			id: "77A8AD4D89E56A1F"
 			tasks: [
@@ -2200,7 +2262,7 @@
 			]
 		}
 		{
-			x: -6.5d
+			x: -6.0d
 			y: -3.0d
 			dependencies: ["09EBBFAC3E896F55"]
 			id: "71C6E5460F00AAA8"
@@ -2230,6 +2292,7 @@
 		{
 			x: -2.5d
 			y: -2.0d
+			description: ["Has unique painting designs"]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "26273B48330D94FC"
 			tasks: [{
@@ -2300,7 +2363,7 @@
 		}
 		{
 			x: 4.0d
-			y: 2.5d
+			y: 4.0d
 			dependencies: ["214E89C00242A696"]
 			id: "2A31BA8A10957C75"
 			tasks: [{
@@ -2389,6 +2452,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
+			subtitle: "Cinnamon Rolls?"
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "38E3B9FEC8AA6D51"
 			tasks: [{
@@ -2542,35 +2606,68 @@
 			]
 		}
 		{
-			x: 4.5d
+			x: 5.0d
 			y: -0.5d
 			shape: "octagon"
+			description: [
+				"I think you know what to do with these..."
+				"Good Luck!"
+			]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "2DF36A4C59310AB7"
-			tasks: [{
-				id: "69EB4E8A2CBECC28"
-				type: "item"
-				item: "minecraft:wither_skeleton_skull"
-				count: 3L
-			}]
+			tasks: [
+				{
+					id: "69EB4E8A2CBECC28"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 3L
+				}
+				{
+					id: "31A4DDD049C12A83"
+					type: "item"
+					item: {
+						id: "minecraft:soul_sand"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4L
+				}
+			]
 			rewards: [
 				{
 					id: "03E127BCF758580F"
 					type: "item"
 					item: {
-						id: "roughtweaks:medkit"
+						id: "roughtweaks:medkit_enchanted"
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
 				{
 					id: "48B51F823188CDD2"
 					type: "item"
-					item: "minecraft:gold_nugget"
-					count: 5
-					random_bonus: 50
+					item: {
+						id: "minecraft:gold_nugget"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 18
+					random_bonus: 36
 				}
 			]
 		}
@@ -2695,6 +2792,7 @@
 		{
 			x: 6.0d
 			y: -4.0d
+			description: ["A new potion added by Quark that provides damage reduction."]
 			dependencies: ["1C6B53E307B94F2B"]
 			id: "3F35EA02A0EF5661"
 			tasks: [{
@@ -2783,6 +2881,7 @@
 		{
 			x: 4.0d
 			y: -3.5d
+			description: ["Prevents you from being caught on fire, but does not prevent direct lava damage."]
 			dependencies: ["641181016BC6E8FA"]
 			id: "06EBA7A32121915D"
 			tasks: [{
@@ -2806,6 +2905,345 @@
 					id: "4174638CD5300516"
 					type: "ftbmoney:money"
 					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			description: [
+				"Lodestones are much cheaper in this pack, only needing soul beads instead of netherite."
+				""
+				"They are still useless anyways thanks to the minimap though..."
+			]
+			dependencies: ["285ABC6C20EEB458"]
+			id: "7D82A29DF2992C0F"
+			tasks: [{
+				id: "18A81DE357904E84"
+				type: "item"
+				item: {
+					id: "minecraft:lodestone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0B2C2E8894FBF7C5"
+					type: "ftbmoney:money"
+					ftb_money: 33L
+				}
+				{
+					id: "51C52441B9A1198B"
+					type: "item"
+					item: {
+						id: "byg:nightshade_berry_pie"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "27DBE4E831BEAE32"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [
+								{
+									Duration: 3000
+									Id: -112b
+								}
+								{
+									Duration: 3000
+									Id: -116b
+								}
+								{
+									Duration: 3000
+									Id: -114b
+								}
+								{
+									Duration: 3000
+									Id: -118b
+								}
+							]
+							Potion: "minecraft:mundane"
+							display: {
+								Name: "{\"text\":\"Hey, where'd my map go?\",\"italic\":false,\"color\":\"gray\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			description: ["Dropped by wraiths found in the soul sand valleys. When clicked it will summon a spiral that heads towards the nearest nether fortress."]
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "285ABC6C20EEB458"
+			tasks: [{
+				id: "3F5A6221827089C4"
+				type: "item"
+				item: {
+					id: "quark:soul_bead"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1338ED6E69E00498"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			subtitle: "The Nether's Coal"
+			description: [
+				"Found in the Brimstone Caverns or from bartering with piglins."
+				""
+				"Smelts 12 items."
+			]
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "3797A1DDB27CF38E"
+			tasks: [{
+				id: "7CACA31D01048512"
+				type: "item"
+				item: {
+					id: "byg:anthracite"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "69BF2C0D40D4BE1A"
+				type: "item"
+				item: {
+					id: "minecraft:gold_nugget"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 9
+				random_bonus: 27
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			description: ["Needed to craft the Hellshelf."]
+			dependencies: ["1C6B53E307B94F2B"]
+			id: "2AE5CBF6176606CF"
+			tasks: [{
+				id: "3B35468EB64B540C"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:regeneration"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "229096DF45B4AB71"
+					type: "item"
+					item: {
+						id: "supplementaries:amethyst_shard"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "4F4D1F141E9CB077"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							CustomModelData: 1
+							type: "crate_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			description: ["A scythe is useful to obtain wither skulls at a much higher rate."]
+			optional: true
+			id: "6D946460884FA90E"
+			tasks: [{
+				id: "501FC3186E30C604"
+				type: "item"
+				title: "Any #spartanweaponry:scythes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "spartanweaponry:scythes"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "25166846FD461A0E"
+					type: "ftbmoney:money"
+					ftb_money: 2L
+				}
+				{
+					id: "397FAE7A098103C1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5AE5911F5C91B718"
+					type: "item"
+					item: {
+						id: "minecraft:gold_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			shape: "diamond"
+			description: ["Workstation for the Netherologist villager profession."]
+			dependencies: ["0F0AA12E6E9A4350"]
+			id: "02CE728BCDC1E758"
+			tasks: [{
+				id: "7A93E11EAADF36E8"
+				type: "item"
+				item: {
+					id: "morevillagers:decayed_workbench"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5739BF1D92F0D2BB"
+				type: "item"
+				item: {
+					id: "minecraft:basalt"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			title: "We Need to Escape"
+			x: 5.625d
+			y: 0.625d
+			shape: "hexagon"
+			description: ["Placing 4 gold blocks next to this lifts players and mobs up and allows them to exit from the nether."]
+			dependencies: ["4ABA0AF14F4830E5"]
+			size: 1.25d
+			id: "4332965E0DC7395C"
+			tasks: [{
+				id: "7E239711F94E140B"
+				type: "observation"
+				icon: {
+					id: "betterportals:reclaimer"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "betterportals:reclaimer"
+			}]
+			rewards: [
+				{
+					id: "2E6D5A96E72FD00B"
+					type: "item"
+					item: {
+						id: "minecraft:golden_carrot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0D8569F94D1ADB29"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}

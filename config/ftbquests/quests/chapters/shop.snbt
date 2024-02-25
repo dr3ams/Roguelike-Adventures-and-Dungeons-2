@@ -135,6 +135,7 @@
 			subtitle: "For Copper coin (repeatable)"
 			description: ["This quest will give you the item as soon as the coin is submitted."]
 			size: 2.0d
+			optional: true
 			id: "64AE92F598464E3E"
 			tasks: [{
 				id: "3BB03FCF02073F96"
@@ -165,6 +166,7 @@
 			shape: "octagon"
 			subtitle: "For Iron coin (repeatable)"
 			size: 2.0d
+			optional: true
 			id: "071F9F757CCADA93"
 			tasks: [{
 				id: "2262663480ABB5B9"
@@ -195,6 +197,7 @@
 			shape: "octagon"
 			subtitle: "For Gold coin (repeatable)"
 			size: 2.0d
+			optional: true
 			id: "62356B57A7D667A6"
 			tasks: [{
 				id: "64B6FB6EC391B652"
@@ -225,6 +228,7 @@
 			shape: "octagon"
 			subtitle: "For Diamond coin (repeatable)"
 			size: 2.0d
+			optional: true
 			id: "2EB2758D16E8BAE2"
 			tasks: [{
 				id: "6F316CB4B0B62C5B"
@@ -254,6 +258,7 @@
 			shape: "octagon"
 			subtitle: "For Netherite coin (repeatable)"
 			size: 2.0d
+			optional: true
 			id: "15645F279C638145"
 			tasks: [{
 				id: "1AA543BE63FB898A"
@@ -275,6 +280,7 @@
 			subtitle: "Choice repeatable reward"
 			description: ["Acquired by exchanging items, completing quests, and defeating Tier 1 \\& 2 Champions."]
 			size: 2.0d
+			optional: true
 			id: "12AA5A2ECF315050"
 			tasks: [{
 				id: "17B7046770CA5003"
@@ -296,6 +302,7 @@
 			subtitle: "Choice repeatable reward"
 			description: ["Acquired by exchanging items, completing quests, and defeating Tier 2 \\& 3 Champions."]
 			size: 2.0d
+			optional: true
 			id: "4CA69F473539E565"
 			tasks: [{
 				id: "0D11EF81DDA0EF14"
@@ -318,6 +325,7 @@
 			subtitle: "Choice repeatable reward"
 			description: ["Acquired by exchanging items, completing quests, and defeating Tier 4, 5 \\& 6 Champions."]
 			size: 2.0d
+			optional: true
 			id: "2146186B43D64F53"
 			tasks: [{
 				id: "7035844CA6BDC17C"
@@ -339,6 +347,7 @@
 			subtitle: "Choice repeatable reward"
 			description: ["Acquired by exchanging items and completing quests."]
 			size: 2.0d
+			optional: true
 			id: "0802FC6EE2B78153"
 			tasks: [{
 				id: "266B9F8F0D5CEBDB"
@@ -360,6 +369,7 @@
 			subtitle: "Choice repeatable reward"
 			description: ["Acquired by completing quests."]
 			size: 2.0d
+			optional: true
 			id: "4BD23FFF77631DA0"
 			tasks: [{
 				id: "49D3E72E213678F0"
@@ -381,6 +391,7 @@
 			subtitle: "Choice repeatable reward"
 			description: ["Acquired by defeating any Tier Champions in the Nether."]
 			size: 2.0d
+			optional: true
 			id: "637B4E0CF8EE27A0"
 			tasks: [{
 				id: "415052283BCDC314"
@@ -407,6 +418,7 @@
 			disable_toast: true
 			x: 2.0d
 			y: -1.5d
+			optional: true
 			id: "58EA4AC53C08ADEE"
 			tasks: [{
 				id: "336F0B6E9D85A9AF"
@@ -441,6 +453,7 @@
 			disable_toast: true
 			x: 2.0d
 			y: -0.5d
+			optional: true
 			id: "3E3B2EBE83D1F239"
 			tasks: [{
 				id: "19A895F9E4113D81"
@@ -465,19 +478,12 @@
 		}
 		{
 			title: "Copper coin -> Money"
-			icon: {
-				id: "kubejs:coin_q_1"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "kubejs:coin_q_1"
 			disable_toast: true
 			x: -6.0d
 			y: -1.0d
 			description: ["This quest will give you the money as soon as the coin is submitted."]
+			optional: true
 			id: "3459460308668951"
 			tasks: [{
 				id: "251D20F3E1232F71"
@@ -510,15 +516,11 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			disable_toast: true
 			x: 6.0d
 			y: 0.5d
+			optional: true
 			id: "03A1DDD2943E57B1"
 			tasks: [{
 				id: "41CC8E3C3158575B"
@@ -543,18 +545,11 @@
 		}
 		{
 			title: "Gold Coind -> Relics Materials Crate"
-			icon: {
-				id: "relics:uncommon_scrap"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "relics:uncommon_scrap"
 			disable_toast: true
 			x: 2.0d
 			y: -2.5d
+			optional: true
 			id: "2C7A4688A36C8D2F"
 			tasks: [{
 				id: "4F80337BC005F23B"
@@ -579,17 +574,10 @@
 		}
 		{
 			title: "Diamond Coin -> Artifacts Crate"
-			icon: {
-				id: "artifacts:fire_gauntlet"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "artifacts:fire_gauntlet"
 			x: 6.0d
 			y: 1.5d
+			optional: true
 			id: "079C8AA41B7C34E1"
 			tasks: [{
 				id: "069D5335840F51E0"
@@ -623,6 +611,7 @@
 			}
 			x: 2.0d
 			y: 0.5d
+			optional: true
 			id: "2699B3C8C2085097"
 			tasks: [{
 				id: "6DE7233A9AAFAE48"
@@ -657,6 +646,7 @@
 			disable_toast: true
 			x: 2.0d
 			y: 1.5d
+			optional: true
 			id: "6CA383590D6216C3"
 			tasks: [{
 				id: "10972A5696072450"
@@ -693,6 +683,7 @@
 			disable_toast: true
 			x: 11.0d
 			y: 1.5d
+			optional: true
 			id: "5D0015C3AD22FE14"
 			tasks: [{
 				id: "6C626048FA76E683"
@@ -717,18 +708,11 @@
 		}
 		{
 			title: "Monster Coin -> Stats Experience"
-			icon: {
-				id: "kubejs:levelup"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "kubejs:levelup"
 			disable_toast: true
 			x: 12.0d
 			y: 1.5d
+			optional: true
 			id: "010CFB15EC0B128C"
 			tasks: [{
 				id: "7E4C5948A18859EE"
@@ -758,6 +742,7 @@
 			disable_toast: true
 			x: 12.0d
 			y: 2.5d
+			optional: true
 			id: "12A37D7C55316769"
 			tasks: [{
 				id: "2237EBE3DC20B80E"
@@ -797,6 +782,7 @@
 			disable_toast: true
 			x: 11.0d
 			y: 2.5d
+			optional: true
 			id: "35439ABCBB75E096"
 			tasks: [{
 				id: "0FCD692ABB48823A"
@@ -829,6 +815,7 @@
 			subtitle: "Random Repeatable Reward"
 			description: ["Acquired by defeating Tier 2, 3, 4, 5 \\& 6 Champions."]
 			size: 2.0d
+			optional: true
 			id: "2BF225A3266C70D9"
 			tasks: [{
 				id: "4445DD2E276F6F57"
@@ -858,6 +845,7 @@
 			disable_toast: true
 			x: 11.0d
 			y: 5.0d
+			optional: true
 			id: "20EB4B6DD6683080"
 			tasks: [{
 				id: "1D4BC152A79421E3"
@@ -893,6 +881,7 @@
 			disable_toast: true
 			x: 12.0d
 			y: 5.0d
+			optional: true
 			id: "49A2BBB41EA56759"
 			tasks: [{
 				id: "2439075D2600223D"
@@ -925,21 +914,11 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [{
-							data: [{
-								lvl: 1s
-								id: "minecraft:fire_aspect"
-							}]
-							source: "dungeons_libraries:gear_config"
-						}]
-					}
-				}
 			}
 			disable_toast: true
 			x: 11.5d
 			y: 4.0d
+			optional: true
 			id: "17E3076A186D4F5B"
 			tasks: [{
 				id: "4AD1E938D0F8A3C7"
@@ -966,18 +945,11 @@
 		}
 		{
 			title: "10x Copper Coin -> 100 Money"
-			icon: {
-				id: "kubejs:coin_q_1"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "kubejs:coin_q_1"
 			disable_toast: true
 			x: -6.0d
 			y: 0.0d
+			optional: true
 			id: "163F2B8157F792CD"
 			tasks: [{
 				id: "5237739A7F698C5D"
@@ -1006,18 +978,11 @@
 		}
 		{
 			title: "100x Copper Coin -> 1000 Money"
-			icon: {
-				id: "kubejs:coin_q_1"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "kubejs:coin_q_1"
 			disable_toast: true
 			x: -6.0d
 			y: 1.0d
+			optional: true
 			id: "1754278EEEB0F998"
 			tasks: [{
 				id: "0067A3C8489BED39"
@@ -1050,6 +1015,7 @@
 			x: -8.5d
 			y: 0.5d
 			shape: "hexagon"
+			optional: true
 			id: "764DA2840C540DB7"
 			tasks: [{
 				id: "45B1F3D17214F77A"
@@ -1079,6 +1045,7 @@
 			x: -7.5d
 			y: 0.5d
 			shape: "hexagon"
+			optional: true
 			id: "2ADD2AF84AE66076"
 			tasks: [{
 				id: "52DCA4D962DE7022"
@@ -1107,6 +1074,7 @@
 			x: -4.5d
 			y: 0.5d
 			shape: "hexagon"
+			optional: true
 			id: "4B8756FED44C4905"
 			tasks: [{
 				id: "24A42415D35E1FE6"
@@ -1136,6 +1104,7 @@
 			x: -3.5d
 			y: 0.5d
 			shape: "hexagon"
+			optional: true
 			id: "62C4750140158D45"
 			tasks: [{
 				id: "1B7232596C2DF319"
@@ -1165,6 +1134,7 @@
 			x: -0.5d
 			y: 0.5d
 			shape: "hexagon"
+			optional: true
 			id: "6045CF2CF24FA646"
 			tasks: [{
 				id: "1849FB952330D4C2"
@@ -1205,6 +1175,7 @@
 			x: -8.5d
 			y: 3.5d
 			shape: "hexagon"
+			optional: true
 			id: "19B200221A0C486A"
 			tasks: [{
 				id: "754EF9067FB930B2"
@@ -1234,6 +1205,7 @@
 			x: -7.5d
 			y: 3.5d
 			shape: "hexagon"
+			optional: true
 			id: "37549EDD70F8FC52"
 			tasks: [{
 				id: "1B61B786BFB67541"
@@ -1262,6 +1234,7 @@
 			x: 0.5d
 			y: 0.5d
 			shape: "hexagon"
+			optional: true
 			id: "2CE3CBC7606CA634"
 			tasks: [{
 				id: "0ECDE4F399A4B69B"
@@ -1301,6 +1274,7 @@
 			x: -4.5d
 			y: 3.5d
 			shape: "hexagon"
+			optional: true
 			id: "17EEC9C481525FB4"
 			tasks: [{
 				id: "3400F9FCF011A9CD"
@@ -1329,6 +1303,7 @@
 			x: -3.5d
 			y: 3.5d
 			shape: "hexagon"
+			optional: true
 			id: "7429769A5FC49E8D"
 			tasks: [{
 				id: "5587957F432B3724"
@@ -1358,6 +1333,7 @@
 			y: 5.0d
 			shape: "rsquare"
 			subtitle: "Any 2 submissions will get you 1 coin"
+			optional: true
 			min_required_tasks: 2
 			id: "13265E15534D4AAA"
 			tasks: [
@@ -1450,6 +1426,7 @@
 			y: 5.0d
 			shape: "rsquare"
 			subtitle: "Any 2 submissions will get you 1 coin"
+			optional: true
 			min_required_tasks: 2
 			id: "1CE64EA211F879F0"
 			tasks: [
@@ -1553,6 +1530,7 @@
 			y: 5.0d
 			shape: "rsquare"
 			subtitle: "Any 2 submissions will get you 1 coin"
+			optional: true
 			min_required_tasks: 2
 			id: "7DC7F5C906814CE3"
 			tasks: [
@@ -1616,6 +1594,7 @@
 			y: 5.0d
 			shape: "rsquare"
 			subtitle: "Any 2 submissions will get you 1 coin"
+			optional: true
 			min_required_tasks: 2
 			id: "5593274DC54B9937"
 			tasks: [
@@ -1722,6 +1701,7 @@
 			icon: "artifacts:whoopee_cushion"
 			x: 2.0d
 			y: 2.5d
+			optional: true
 			id: "7A6654B7CF68E559"
 			tasks: [{
 				id: "06E6EE5DFB2EFCB6"
@@ -1759,6 +1739,7 @@
 			}
 			x: 6.0d
 			y: -0.5d
+			optional: true
 			id: "46D669DCE3F39305"
 			tasks: [{
 				id: "1A347205F6CED082"

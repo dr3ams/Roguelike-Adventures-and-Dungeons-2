@@ -108,7 +108,13 @@
 		{
 			x: 3.5d
 			y: 3.0d
-			shape: "hexagon"
+			description: [
+				"Dame Fortuna is a boss added by meet your fight that uses red cube projectiles to attack."
+				""
+				"These attacks can come from the side or from above."
+				""
+				"When killed Dame Fortuna will drop a Fortune's Favor, along with some emeralds and 3 random enchanted books."
+			]
 			size: 1.5d
 			id: "4BBEF37E398FA6EA"
 			tasks: [{
@@ -235,6 +241,7 @@
 		{
 			x: 7.0d
 			y: 2.5d
+			description: ["There's a chance to double your damage based on your Luck Attribute."]
 			dependencies: ["2902A2D96332A34A"]
 			id: "2BFC276EEE062A1F"
 			tasks: [{
@@ -268,6 +275,7 @@
 		{
 			x: 6.0d
 			y: 4.0d
+			description: ["Chance to negate all damage based on your Luck Attribute."]
 			dependencies: ["2902A2D96332A34A"]
 			id: "3825DCF170FB6A6A"
 			tasks: [{
@@ -301,6 +309,7 @@
 		{
 			x: 6.0d
 			y: 2.0d
+			description: ["Chance to give you random helpful effects based on your Luck Attribute."]
 			dependencies: ["2902A2D96332A34A"]
 			id: "6B90A18AD9F4B77D"
 			tasks: [{
@@ -340,6 +349,7 @@
 		{
 			x: 7.0d
 			y: 3.5d
+			description: ["Gives 10 minutes of Luck."]
 			dependencies: ["2902A2D96332A34A"]
 			id: "0D656D70646EA87A"
 			tasks: [{
@@ -373,6 +383,7 @@
 		{
 			x: -1.5d
 			y: 4.0d
+			description: ["These strong bone claws grant you an extra 2 melee attack damage."]
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "36FC8D7BB0D670BF"
 			tasks: [{
@@ -406,6 +417,7 @@
 		{
 			x: 1.0d
 			y: 5.0d
+			description: ["Hold Right-Click to charge a small explosion. Aim at a mob's feet to launch them upwards!"]
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "00C8004131AAE6F7"
 			tasks: [{
@@ -445,6 +457,7 @@
 		{
 			x: 1.5d
 			y: 4.0d
+			description: ["This ribcage protects you from powerful hits."]
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "3E12346156015D00"
 			tasks: [{
@@ -511,6 +524,7 @@
 		{
 			x: -7.0d
 			y: 3.5d
+			description: ["Used to phase through walls, at the cost of some xp and your health."]
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "6FB76A93A64BE52D"
 			tasks: [{
@@ -544,6 +558,7 @@
 		{
 			x: -6.0d
 			y: 2.0d
+			description: ["Detects nearby mobs."]
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "0B6A4216C393C695"
 			tasks: [{
@@ -577,6 +592,7 @@
 		{
 			x: -6.0d
 			y: 4.0d
+			description: ["Increases Block Reach distance by 2."]
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "352860E048E56249"
 			tasks: [{
@@ -610,6 +626,7 @@
 		{
 			x: -7.0d
 			y: 2.5d
+			description: ["Gives 5 seconds of levitation when eaten."]
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "2C8425F45507BE14"
 			tasks: [{
@@ -1179,7 +1196,7 @@
 					}
 				}
 			}
-			x: -10.0d
+			x: -11.0d
 			y: 6.5d
 			id: "273BBE58DA6C6B5E"
 			tasks: [{
@@ -1208,7 +1225,7 @@
 		}
 		{
 			icon: "minecraft:zombie_head"
-			x: -10.0d
+			x: -11.0d
 			y: 7.5d
 			dependencies: ["273BBE58DA6C6B5E"]
 			id: "6D6F752283D9311E"
@@ -1238,7 +1255,7 @@
 		}
 		{
 			icon: "minecraft:zombie_head"
-			x: -10.0d
+			x: -11.0d
 			y: 9.5d
 			dependencies: ["0C2F14176C8B6233"]
 			id: "24D7205FF1E55192"
@@ -1263,7 +1280,7 @@
 		}
 		{
 			icon: "minecraft:zombie_head"
-			x: -10.0d
+			x: -11.0d
 			y: 10.5d
 			dependencies: ["24D7205FF1E55192"]
 			id: "36CB6AB1F16744C3"
@@ -1288,7 +1305,7 @@
 		}
 		{
 			icon: "minecraft:zombie_head"
-			x: -10.0d
+			x: -11.0d
 			y: 11.5d
 			dependencies: ["36CB6AB1F16744C3"]
 			id: "42B5C52B1EB2CF21"
@@ -1321,7 +1338,7 @@
 					}
 				}
 			}
-			x: -7.5d
+			x: -8.5d
 			y: 6.5d
 			id: "3E1D08F6D98A914F"
 			tasks: [{
@@ -1358,7 +1375,7 @@
 					}
 				}
 			}
-			x: -7.5d
+			x: -8.5d
 			y: 7.5d
 			dependencies: ["3E1D08F6D98A914F"]
 			id: "708C3073CDD71408"
@@ -1396,7 +1413,7 @@
 					}
 				}
 			}
-			x: -7.5d
+			x: -8.5d
 			y: 8.5d
 			dependencies: ["708C3073CDD71408"]
 			id: "4A070C730B96D131"
@@ -1434,7 +1451,7 @@
 					}
 				}
 			}
-			x: -7.5d
+			x: -8.5d
 			y: 9.5d
 			dependencies: ["4A070C730B96D131"]
 			id: "7C643C8DA7163F80"
@@ -1467,7 +1484,7 @@
 					}
 				}
 			}
-			x: -7.5d
+			x: -8.5d
 			y: 10.5d
 			dependencies: ["7C643C8DA7163F80"]
 			id: "02CA897446FE0C16"
@@ -1500,7 +1517,7 @@
 					}
 				}
 			}
-			x: -10.0d
+			x: -11.0d
 			y: 8.5d
 			dependencies: ["6D6F752283D9311E"]
 			id: "0C2F14176C8B6233"
@@ -1538,7 +1555,7 @@
 					}
 				}
 			}
-			x: -7.5d
+			x: -8.5d
 			y: 11.5d
 			dependencies: ["02CA897446FE0C16"]
 			id: "7AA5044D18A2E23E"
@@ -1571,7 +1588,7 @@
 					}
 				}
 			}
-			x: -6.0d
+			x: -7.0d
 			y: 6.5d
 			id: "36C063A88D708055"
 			tasks: [{
@@ -1608,7 +1625,7 @@
 					}
 				}
 			}
-			x: -6.0d
+			x: -7.0d
 			y: 7.5d
 			dependencies: ["36C063A88D708055"]
 			id: "1D6BCC0FB9627EFB"
@@ -1646,7 +1663,7 @@
 					}
 				}
 			}
-			x: -6.0d
+			x: -7.0d
 			y: 8.5d
 			dependencies: ["1D6BCC0FB9627EFB"]
 			id: "7DD33DBEE207DD46"
@@ -1684,7 +1701,7 @@
 					}
 				}
 			}
-			x: 4.5d
+			x: 4.0d
 			y: 6.5d
 			id: "5C2C1E234FEA1C04"
 			tasks: [{
@@ -1721,7 +1738,7 @@
 					}
 				}
 			}
-			x: 4.5d
+			x: 4.0d
 			y: 7.5d
 			dependencies: ["5C2C1E234FEA1C04"]
 			id: "682B081A32B48DDE"
@@ -1759,7 +1776,7 @@
 					}
 				}
 			}
-			x: 4.5d
+			x: 4.0d
 			y: 8.5d
 			dependencies: ["682B081A32B48DDE"]
 			id: "1041E459F94EE676"
@@ -1785,7 +1802,7 @@
 					}
 				}
 			}
-			x: -3.5d
+			x: -4.5d
 			y: 6.5d
 			id: "1D31E5ABED3743E7"
 			tasks: [{
@@ -1822,7 +1839,7 @@
 					}
 				}
 			}
-			x: -3.5d
+			x: -4.5d
 			y: 7.5d
 			dependencies: ["1D31E5ABED3743E7"]
 			id: "2A1CD461BF2F4A46"
@@ -1860,7 +1877,7 @@
 					}
 				}
 			}
-			x: -3.5d
+			x: -4.5d
 			y: 8.5d
 			dependencies: ["2A1CD461BF2F4A46"]
 			id: "16B7281F7910FF1E"
@@ -1889,7 +1906,7 @@
 			]
 		}
 		{
-			x: -3.5d
+			x: -4.5d
 			y: 10.5d
 			id: "0D9F089E98AADBA5"
 			tasks: [{
@@ -1917,7 +1934,7 @@
 			]
 		}
 		{
-			x: -3.5d
+			x: -4.5d
 			y: 11.5d
 			dependencies: ["0D9F089E98AADBA5"]
 			id: "33B1EEED95230156"
@@ -1946,7 +1963,7 @@
 			]
 		}
 		{
-			x: -3.5d
+			x: -4.5d
 			y: 12.5d
 			dependencies: ["33B1EEED95230156"]
 			id: "051B70EFF9CDE3D2"
@@ -1971,7 +1988,7 @@
 		}
 		{
 			icon: {
-				id: "minecraft:slime_ball"
+				id: "quark:slime_in_a_bucket"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
@@ -1979,7 +1996,7 @@
 					}
 				}
 			}
-			x: -1.5d
+			x: -2.0d
 			y: 6.5d
 			id: "43B77AFB99476020"
 			tasks: [{
@@ -2008,7 +2025,7 @@
 		}
 		{
 			icon: {
-				id: "minecraft:slime_ball"
+				id: "quark:slime_in_a_bucket"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
@@ -2016,7 +2033,7 @@
 					}
 				}
 			}
-			x: -1.5d
+			x: -2.0d
 			y: 7.5d
 			dependencies: ["43B77AFB99476020"]
 			id: "08F70564BCE33B34"
@@ -2046,7 +2063,7 @@
 		}
 		{
 			icon: {
-				id: "minecraft:slime_ball"
+				id: "quark:slime_in_a_bucket"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
@@ -2054,7 +2071,7 @@
 					}
 				}
 			}
-			x: -1.5d
+			x: -2.0d
 			y: 8.5d
 			dependencies: ["08F70564BCE33B34"]
 			id: "0A417DAC88234DED"
@@ -2083,7 +2100,16 @@
 			]
 		}
 		{
-			x: -1.5d
+			icon: {
+				id: "quark:slime_in_a_bucket"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.0d
 			y: 9.5d
 			dependencies: ["0A417DAC88234DED"]
 			id: "5964A60436E9CAC5"
@@ -2108,7 +2134,16 @@
 			]
 		}
 		{
-			x: -1.5d
+			icon: {
+				id: "quark:slime_in_a_bucket"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.0d
 			y: 10.5d
 			dependencies: ["5964A60436E9CAC5"]
 			id: "30CC1CE792CF948C"
@@ -2127,7 +2162,7 @@
 		}
 		{
 			icon: {
-				id: "minecraft:slime_ball"
+				id: "quark:slime_in_a_bucket"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
@@ -2135,7 +2170,7 @@
 					}
 				}
 			}
-			x: -1.5d
+			x: -2.0d
 			y: 11.5d
 			dependencies: ["30CC1CE792CF948C"]
 			id: "3ABE874AEB3190FD"
@@ -2205,7 +2240,7 @@
 					}
 				}
 			}
-			x: 7.5d
+			x: 8.0d
 			y: 6.5d
 			id: "3E4FABF49DF8A4A0"
 			tasks: [{
@@ -2242,7 +2277,7 @@
 					}
 				}
 			}
-			x: 7.5d
+			x: 8.0d
 			y: 7.5d
 			description: [""]
 			dependencies: ["3E4FABF49DF8A4A0"]
@@ -2281,7 +2316,7 @@
 					}
 				}
 			}
-			x: 7.5d
+			x: 8.0d
 			y: 8.5d
 			dependencies: ["4C0A01CEE6B9573F"]
 			id: "657547F95421C44F"
@@ -2298,7 +2333,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 8.0d
 			y: 10.5d
 			id: "6D160C596B6D789D"
 			tasks: [{
@@ -2333,7 +2368,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 8.0d
 			y: 11.5d
 			dependencies: ["6D160C596B6D789D"]
 			id: "18023C5D8E985695"
@@ -2369,7 +2404,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 8.0d
 			y: 12.5d
 			dependencies: ["18023C5D8E985695"]
 			id: "7E06D127A3796ACD"
@@ -2405,7 +2440,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 9.5d
 			y: 6.5d
 			id: "66E4D05FE4EB1B37"
 			tasks: [{
@@ -2440,7 +2475,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 9.5d
 			y: 7.5d
 			dependencies: ["66E4D05FE4EB1B37"]
 			id: "78BCB063DF450FEA"
@@ -2469,7 +2504,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 9.5d
 			y: 8.5d
 			dependencies: ["78BCB063DF450FEA"]
 			id: "3E37363F614DB7CF"
@@ -2498,7 +2533,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 9.5d
 			y: 9.5d
 			dependencies: ["3E37363F614DB7CF"]
 			id: "372F44A7635E5FB8"
@@ -2522,7 +2557,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 9.5d
 			y: 10.5d
 			dependencies: ["372F44A7635E5FB8"]
 			id: "3A90C6BB095363CF"
@@ -2546,7 +2581,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 9.5d
 			y: 11.5d
 			dependencies: ["3A90C6BB095363CF"]
 			id: "386E3605520B9CC4"
@@ -2570,8 +2605,9 @@
 			]
 		}
 		{
-			x: 10.5d
+			x: 11.0d
 			y: 6.5d
+			description: ["General-ly found in illager forts and also in raids."]
 			id: "6B835736FC7C4119"
 			tasks: [{
 				id: "6BC0AA3EFD3F34D8"
@@ -2593,8 +2629,10 @@
 			]
 		}
 		{
-			x: 10.5d
+			x: 11.0d
 			y: 7.5d
+			subtitle: "Too big to escape his own tower"
+			description: ["Usually found in illager towers and raids."]
 			id: "2D8C58A0B2073AC4"
 			tasks: [{
 				id: "247A3AA968C0F3F2"
@@ -2616,8 +2654,9 @@
 			]
 		}
 		{
-			x: 10.5d
+			x: 11.0d
 			y: 8.5d
+			description: ["Found in illager mines and the mining dimension."]
 			id: "3B931FE5DA0EC3CE"
 			tasks: [{
 				id: "0FFCCA545FBFFFA7"
@@ -2653,7 +2692,7 @@
 					}
 				}
 			}
-			x: 4.5d
+			x: 4.0d
 			y: 9.5d
 			id: "3C7112CE44982D6D"
 			tasks: [{
@@ -2690,7 +2729,7 @@
 					}
 				}
 			}
-			x: 4.5d
+			x: 4.0d
 			y: 10.5d
 			dependencies: ["3C7112CE44982D6D"]
 			id: "43A621B14FB554AC"
@@ -2728,7 +2767,7 @@
 					}
 				}
 			}
-			x: 4.5d
+			x: 4.0d
 			y: 11.5d
 			dependencies: ["43A621B14FB554AC"]
 			id: "3F4E0FB2177E7F52"
@@ -2761,7 +2800,7 @@
 					}
 				}
 			}
-			x: 3.0d
+			x: 2.5d
 			y: 6.5d
 			id: "04C9E8009D84B7A1"
 			tasks: [{
@@ -2798,7 +2837,7 @@
 					}
 				}
 			}
-			x: 3.0d
+			x: 2.5d
 			y: 7.5d
 			dependencies: ["04C9E8009D84B7A1"]
 			id: "686519D5266C6F27"
@@ -2822,7 +2861,19 @@
 			]
 		}
 		{
-			x: 3.0d
+			icon: {
+				id: "minecraft:golden_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.5d
 			y: 10.5d
 			id: "11944C68F6D95C77"
 			tasks: [{
@@ -2850,7 +2901,19 @@
 			]
 		}
 		{
-			x: 3.0d
+			icon: {
+				id: "minecraft:golden_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.5d
 			y: 11.5d
 			dependencies: ["11944C68F6D95C77"]
 			id: "307EEF462D4E001C"
@@ -2879,7 +2942,19 @@
 			]
 		}
 		{
-			x: 3.0d
+			icon: {
+				id: "minecraft:golden_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.5d
 			y: 12.5d
 			dependencies: ["307EEF462D4E001C"]
 			id: "005B0AC8724A04CA"
@@ -2925,7 +3000,7 @@
 					}
 				}
 			}
-			x: 1.5d
+			x: 1.0d
 			y: 6.5d
 			id: "4B68EB265B0E1129"
 			tasks: [{
@@ -2962,7 +3037,7 @@
 					}
 				}
 			}
-			x: 0.0d
+			x: -0.5d
 			y: 9.0d
 			id: "61CCF5EFBAC2D198"
 			tasks: [{
@@ -2994,7 +3069,7 @@
 					}
 				}
 			}
-			x: 0.0d
+			x: -0.5d
 			y: 11.5d
 			id: "5927A8C2376D0588"
 			tasks: [{
@@ -3026,7 +3101,7 @@
 					}
 				}
 			}
-			x: 0.0d
+			x: -0.5d
 			y: 6.5d
 			id: "32E4964F2AAA4E25"
 			tasks: [{
@@ -3113,7 +3188,7 @@
 					}
 				}
 			}
-			x: -7.5d
+			x: -8.5d
 			y: 12.5d
 			dependencies: ["7AA5044D18A2E23E"]
 			id: "72ED70613E3B7E52"
@@ -3154,7 +3229,7 @@
 					}
 				}
 			}
-			x: -10.0d
+			x: -11.0d
 			y: 12.5d
 			dependencies: ["42B5C52B1EB2CF21"]
 			id: "733169FE486DB8DD"
@@ -3186,9 +3261,10 @@
 			]
 		}
 		{
-			x: -8.5d
-			y: 9.5d
-			dependencies: ["7C643C8DA7163F80"]
+			x: -9.5d
+			y: 8.5d
+			dependencies: ["4A070C730B96D131"]
+			dependency_requirement: "one_started"
 			id: "2FDED9C5C6011798"
 			tasks: [{
 				id: "3AC5EEC7DC15B805"
@@ -3218,9 +3294,10 @@
 			]
 		}
 		{
-			x: -11.0d
-			y: 9.5d
-			dependencies: ["24D7205FF1E55192"]
+			x: -12.0d
+			y: 8.5d
+			dependencies: ["0C2F14176C8B6233"]
+			dependency_requirement: "one_started"
 			id: "336930A0E23D9E2E"
 			tasks: [{
 				id: "1C83BACB05E772C6"
@@ -3250,9 +3327,10 @@
 			]
 		}
 		{
-			x: -11.0d
-			y: 10.5d
-			dependencies: ["24D7205FF1E55192"]
+			x: -12.0d
+			y: 9.5d
+			dependencies: ["0C2F14176C8B6233"]
+			dependency_requirement: "one_started"
 			id: "4AEA984BA064D20A"
 			tasks: [{
 				id: "15A9DD637AE57E7C"
@@ -3282,9 +3360,10 @@
 			]
 		}
 		{
-			x: -8.5d
-			y: 10.5d
-			dependencies: ["7C643C8DA7163F80"]
+			x: -9.5d
+			y: 9.5d
+			dependencies: ["4A070C730B96D131"]
+			dependency_requirement: "one_started"
 			id: "7CE5BD5932677CA2"
 			tasks: [{
 				id: "3DD556BBB9A7D8B3"
@@ -3314,7 +3393,16 @@
 			]
 		}
 		{
-			x: -6.0d
+			icon: {
+				id: "minecraft:creeper_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -7.0d
 			y: 9.5d
 			dependencies: ["7DD33DBEE207DD46"]
 			id: "0674AD4EEDEEF4E4"
@@ -3346,9 +3434,10 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: 9.5d
-			dependencies: ["0674AD4EEDEEF4E4"]
+			x: -6.0d
+			y: 8.5d
+			dependencies: ["7DD33DBEE207DD46"]
+			dependency_requirement: "one_started"
 			id: "625E8C6D6672AEFA"
 			tasks: [{
 				id: "31C72DE260D4410A"
@@ -3378,7 +3467,16 @@
 			]
 		}
 		{
-			x: -6.0d
+			icon: {
+				id: "minecraft:creeper_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -7.0d
 			y: 10.5d
 			dependencies: ["0674AD4EEDEEF4E4"]
 			id: "781AA84E08C4367A"
@@ -3410,7 +3508,16 @@
 			]
 		}
 		{
-			x: -6.0d
+			icon: {
+				id: "minecraft:creeper_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -7.0d
 			y: 11.5d
 			dependencies: ["781AA84E08C4367A"]
 			id: "552084F86F88D15C"
@@ -3451,7 +3558,7 @@
 					}
 				}
 			}
-			x: 1.5d
+			x: 1.0d
 			y: 7.5d
 			dependencies: ["4B68EB265B0E1129"]
 			id: "67EE916849A729B1"
@@ -3492,7 +3599,7 @@
 					}
 				}
 			}
-			x: 1.5d
+			x: 1.0d
 			y: 8.5d
 			dependencies: ["67EE916849A729B1"]
 			id: "5537F265CE8EBD3E"
@@ -3533,7 +3640,7 @@
 					}
 				}
 			}
-			x: 1.5d
+			x: 1.0d
 			y: 9.5d
 			dependencies: ["5537F265CE8EBD3E"]
 			id: "75244E4C3649BA77"
@@ -3574,7 +3681,7 @@
 					}
 				}
 			}
-			x: 0.0d
+			x: -0.5d
 			y: 7.5d
 			dependencies: ["32E4964F2AAA4E25"]
 			id: "124CDF84B0FC4EF8"
@@ -3615,7 +3722,7 @@
 					}
 				}
 			}
-			x: 0.0d
+			x: -0.5d
 			y: 10.0d
 			dependencies: ["61CCF5EFBAC2D198"]
 			id: "14C32922D8142F37"
@@ -3656,7 +3763,7 @@
 					}
 				}
 			}
-			x: 0.0d
+			x: -0.5d
 			y: 12.5d
 			dependencies: ["5927A8C2376D0588"]
 			id: "2D7D534F253D0806"
@@ -3697,7 +3804,7 @@
 					}
 				}
 			}
-			x: 3.0d
+			x: 2.5d
 			y: 8.5d
 			dependencies: ["686519D5266C6F27"]
 			id: "37A9A6535E7429F0"
@@ -3747,7 +3854,7 @@
 					}
 				}
 			}
-			x: 4.5d
+			x: 4.0d
 			y: 12.5d
 			dependencies: ["3F4E0FB2177E7F52"]
 			id: "34E47A2C5335A2A7"
@@ -3788,7 +3895,7 @@
 					}
 				}
 			}
-			x: 1.5d
+			x: 1.0d
 			y: 11.5d
 			id: "02BF15564572F2BA"
 			tasks: [{
@@ -3819,7 +3926,7 @@
 			]
 		}
 		{
-			x: 1.5d
+			x: 1.0d
 			y: 12.5d
 			dependencies: ["02BF15564572F2BA"]
 			id: "3CCA705BCF4124B9"
@@ -3861,7 +3968,7 @@
 		}
 		{
 			title: "Bad Reputation I"
-			x: 10.5d
+			x: 11.0d
 			y: 10.5d
 			id: "40F5EEC0C7474750"
 			tasks: [{
@@ -3893,7 +4000,7 @@
 		}
 		{
 			title: "Bad Reputation II"
-			x: 10.5d
+			x: 11.0d
 			y: 11.5d
 			dependencies: ["40F5EEC0C7474750"]
 			id: "234394677552B368"
@@ -3926,7 +4033,7 @@
 		}
 		{
 			title: "Bad Reputation III"
-			x: 10.5d
+			x: 11.0d
 			y: 12.5d
 			dependencies: ["234394677552B368"]
 			id: "0F58A03E48624EA5"
@@ -3960,7 +4067,7 @@
 					type: "pmmo:xpreward"
 					auto: "invisible"
 					skill: "shadow"
-					amount: 100.0d
+					amount: 300.0d
 					ignoreBonuses: false
 				}
 			]
@@ -4171,8 +4278,10 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: 10.5d
+			x: -6.0d
+			y: 9.5d
+			dependencies: ["7DD33DBEE207DD46"]
+			dependency_requirement: "one_started"
 			id: "21E7D8572F331C73"
 			tasks: [{
 				id: "7415843D64333573"
@@ -4189,9 +4298,39 @@
 				entity: "dungeons_mobs:icy_creeper"
 				value: 100L
 			}]
+			rewards: [
+				{
+					id: "5463E1F76021BC07"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "52736CA8458E9DF6"
+					type: "item"
+					item: {
+						id: "kubejs:iron_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
 		}
 		{
-			x: -6.0d
+			icon: {
+				id: "minecraft:creeper_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -7.0d
 			y: 12.5d
 			dependencies: ["552084F86F88D15C"]
 			id: "3CF6376C2F15744D"
@@ -4232,7 +4371,7 @@
 					}
 				}
 			}
-			x: 6.0d
+			x: 5.5d
 			y: 6.5d
 			id: "6EE8F9129E0A1D60"
 			tasks: [{
@@ -4269,7 +4408,7 @@
 					}
 				}
 			}
-			x: -2.5d
+			x: -3.5d
 			y: 8.0d
 			id: "189B48C7EE98B1EF"
 			tasks: [{
@@ -4297,7 +4436,7 @@
 			]
 		}
 		{
-			x: 6.0d
+			x: 5.5d
 			y: 7.5d
 			dependencies: ["6EE8F9129E0A1D60"]
 			id: "2B0920822CAF3FEB"
@@ -4335,7 +4474,7 @@
 			]
 		}
 		{
-			x: 6.0d
+			x: 5.5d
 			y: 8.5d
 			dependencies: ["2B0920822CAF3FEB"]
 			id: "0AB325E800C9C5B9"
@@ -4368,7 +4507,7 @@
 			]
 		}
 		{
-			x: 6.0d
+			x: 5.5d
 			y: 9.5d
 			dependencies: ["0AB325E800C9C5B9"]
 			id: "3109A29AC8E8F676"
@@ -4406,7 +4545,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 9.5d
 			y: 12.5d
 			description: ["Illusioners start to spawn naturally in Expert Mode (after wither is defeated), but can also spawn in raids."]
 			id: "4F18B88B2A7608F8"
@@ -4453,7 +4592,7 @@
 			]
 		}
 		{
-			x: -3.5d
+			x: -4.5d
 			y: 9.5d
 			dependencies: ["16B7281F7910FF1E"]
 			id: "7500D3E11DFC4CAA"
@@ -4989,6 +5128,230 @@
 					ignoreBonuses: false
 				}
 			]
+		}
+		{
+			icon: {
+				id: "eyeofdragons:eye_of_lightningdragon"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.5d
+			y: 7.0d
+			id: "03EBEF4821B1CEE2"
+			tasks: [{
+				id: "7B5CDE77F69043BB"
+				type: "kill"
+				icon: {
+					id: "eyeofdragons:eye_of_lightningdragon"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "dungeons_mobs:watchling"
+				value: 50L
+			}]
+			rewards: [
+				{
+					id: "056AAADE230CE301"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "0DF5A8692D14CBAA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3605D8CFFD0236F3"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ars_nouveau:amplify_arrow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.5d
+			y: 8.0d
+			id: "49C3ADEE8EF0A7B7"
+			tasks: [{
+				id: "356346071285C8DB"
+				type: "kill"
+				icon: {
+					id: "ars_nouveau:amplify_arrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "dungeons_mobs:blastling"
+				value: 50L
+			}]
+			rewards: [
+				{
+					id: "4CE1B1380E202EEA"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "6295AF27047D67B0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "08F4328CA57548F7"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "undergarden:goo_ball"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.5d
+			y: 9.0d
+			id: "2C3F71474FA583F9"
+			tasks: [{
+				id: "2EF1123D56D1EA76"
+				type: "kill"
+				icon: {
+					id: "undergarden:goo_ball"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "dungeons_mobs:snareling"
+				value: 50L
+			}]
+			rewards: [
+				{
+					id: "0F752F89D131145B"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "3E0D8ED86646F5C0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0D93855FF5A9FBEA"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 10.0d
+			id: "40600B4E4849BC6F"
+			tasks: [{
+				id: "1616C05863195D03"
+				type: "kill"
+				icon: {
+					id: "dungeons_gear:hammer_of_gravity"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [{
+								data: [
+									{
+										lvl: 1s
+										id: "dungeons_gear:swirling"
+									}
+									{
+										lvl: 1s
+										id: "dungeons_gear:gravity"
+									}
+								]
+								source: "dungeons_libraries:gear_config"
+							}]
+						}
+					}
+				}
+				entity: "dungeons_mobs:endersent"
+				value: 3L
+			}]
+			rewards: [
+				{
+					id: "4528505731FCEBAA"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "7D2BF511F9003EA0"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "23B58C13E0649343"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			icon: {
+				id: "spartanweaponry:witch_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 8.0d
+			y: 9.5d
+			id: "72936547B4597586"
+			tasks: [{
+				id: "5A36C9AEE5100375"
+				type: "kill"
+				entity: "minecraft:witch"
+				value: 15L
+			}]
+			rewards: [{
+				id: "1BAA66D915E510E0"
+				type: "choice"
+				table_id: 768393147870328736L
+			}]
 		}
 	]
 }

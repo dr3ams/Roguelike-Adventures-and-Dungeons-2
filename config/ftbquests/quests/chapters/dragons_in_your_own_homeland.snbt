@@ -713,6 +713,7 @@
 		{
 			x: -4.5d
 			y: -7.0d
+			description: ["Used to teleport a bound fire dragon to you."]
 			dependencies: ["09882BA9CA9D8453"]
 			id: "42178C8AE0F6403F"
 			tasks: [{
@@ -737,6 +738,7 @@
 		{
 			x: 4.5d
 			y: -7.0d
+			description: ["Used to teleport a bound ice dragon to you."]
 			dependencies: ["596E4BBBE5ECB9C5"]
 			id: "44D34FC0F25E3719"
 			tasks: [{
@@ -761,6 +763,7 @@
 		{
 			x: 1.5d
 			y: -8.0d
+			description: ["Used to teleport a bound lightning dragon to you."]
 			dependencies: ["752042A08C0343CE"]
 			id: "2A58AD42BCAFD8E2"
 			tasks: [{
@@ -906,6 +909,7 @@
 		{
 			x: -6.0d
 			y: -7.0d
+			description: ["Deals bonus damage to ice dragons."]
 			dependencies: ["09882BA9CA9D8453"]
 			id: "2D16B44C7D383ED2"
 			tasks: [{
@@ -957,6 +961,7 @@
 		{
 			x: 4.5d
 			y: -8.0d
+			description: ["Deals bonus damage to fire dragons."]
 			dependencies: ["596E4BBBE5ECB9C5"]
 			id: "668B64CA5C7C8280"
 			tasks: [{
@@ -1008,6 +1013,7 @@
 		{
 			x: 0.0d
 			y: -10.5d
+			description: ["Deals bonus damage to both ice and fire dragons."]
 			dependencies: ["752042A08C0343CE"]
 			id: "4374C6812B288DC4"
 			tasks: [{
@@ -1136,6 +1142,7 @@
 		{
 			x: -7.0d
 			y: 0.5d
+			description: ["Calls your dragon back to you, useful if they fly away."]
 			dependencies: ["5C42AD1E351785EA"]
 			id: "313CAD78364A3D66"
 			tasks: [{
@@ -1180,6 +1187,7 @@
 		{
 			x: 0.0d
 			y: -3.0d
+			description: ["A stronger trident that pierces multiple enemies."]
 			dependencies: ["49AD80E916672BBE"]
 			id: "452887E4D3CF63A4"
 			tasks: [{
@@ -1219,6 +1227,7 @@
 		{
 			x: -6.0d
 			y: 0.0d
+			description: ["Stores your dragon in this horn to carry them with you during your adventures."]
 			dependencies: ["5C42AD1E351785EA"]
 			id: "6C82D3C21252DD57"
 			tasks: [{
@@ -1330,6 +1339,11 @@
 		{
 			x: -0.5d
 			y: 5.5d
+			description: [
+				"Shoots projectiles that deal light damage to enemies."
+				""
+				"This weapon does not aggrovate neutral mobs."
+			]
 			dependencies: ["55C1E6BBD60D4586"]
 			id: "325E00CC4C5AB970"
 			tasks: [{
@@ -1425,6 +1439,7 @@
 		{
 			x: -3.5d
 			y: 11.0d
+			description: ["When held applies weakness to nearby hostile mobs."]
 			id: "4576D3B3A1577D84"
 			tasks: [{
 				id: "27630217A1027FC1"
@@ -1551,6 +1566,7 @@
 		{
 			x: -1.0d
 			y: 10.0d
+			description: ["Rarely laid by chickens. Can be thrown like a chicken egg to spawn a tamed cockatrice!"]
 			id: "05A7E9B1299D7219"
 			tasks: [{
 				id: "2C76D7A98BDB4E6E"
@@ -1635,8 +1651,13 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: 0.0d
 			y: 10.0d
+			description: [
+				"A one-time use item that can turn any mob into stone (except the enderdragon)"
+				""
+				"You can break the stone statue by hitting with a pickaxe 10 times, a silk touch pickaxe allows you to obtain the statue itself."
+			]
 			id: "5F9AC0AB15154C7D"
 			tasks: [{
 				id: "2A8CB89E57A1253E"
@@ -1838,6 +1859,7 @@
 		{
 			x: -6.0d
 			y: 3.0d
+			description: ["Speeds up the growth of your dragons."]
 			dependencies: ["5C42AD1E351785EA"]
 			id: "1DCD8CFCE09D656F"
 			tasks: [{
@@ -1869,6 +1891,7 @@
 		{
 			x: -7.0d
 			y: 2.5d
+			description: ["Stops the growth of your dragon. This is a permanant change to your dragon."]
 			dependencies: ["1DCD8CFCE09D656F"]
 			id: "4451F4351231A711"
 			tasks: [{
@@ -1953,8 +1976,13 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 10.0d
+			x: 2.0d
+			y: 10.5d
+			description: [
+				"Dropped by the Stymphalian Birds either from killing them or picking up some of the feathers they shoot out."
+				""
+				"They can be used to make a dagger, arrows, or a bundle of feathers."
+			]
 			id: "0DBDC4BAA4465307"
 			tasks: [{
 				id: "557F6530028246D7"
@@ -2096,6 +2124,7 @@
 		{
 			x: 1.0d
 			y: 7.0d
+			description: ["Flings mobs high into the air like an iron golem's swing!"]
 			dependencies: ["53F95089CB6FF9CF"]
 			id: "0638813A7CD7CB60"
 			tasks: [{
@@ -2528,6 +2557,11 @@
 		{
 			x: 3.0d
 			y: 6.0d
+			description: [
+				"Dropped by ghosts and used to craft cursed chests and graveyard soil."
+				""
+				"It can also be used to make the Ectoplasm Orb, the key component to making stronger gate pearls."
+			]
 			id: "5474A3F78B629DB9"
 			tasks: [{
 				id: "33EAA179E3DA3CBB"
@@ -2571,6 +2605,11 @@
 		{
 			x: 2.5d
 			y: 5.0d
+			description: [
+				"Rarely dropped by naturally spawning ghosts. (not cursed chest spawned ones)."
+				""
+				"It's main use is to craft the Phasmal Blade, but can also be used to upgrade Knightmetal into Phantom Knight Armor."
+			]
 			id: "1E4783908222E61C"
 			tasks: [{
 				id: "0A74D7E989DA4C88"
@@ -2594,6 +2633,7 @@
 		{
 			x: 3.5d
 			y: 5.0d
+			description: ["When attacking from a distance it launches swords that phase through walls."]
 			dependencies: ["1E4783908222E61C"]
 			id: "6E1A96AF0E1B0F18"
 			tasks: [{
@@ -2641,6 +2681,7 @@
 		{
 			x: -6.0d
 			y: -10.5d
+			description: ["Burns enemies and knocks them back further away."]
 			dependencies: ["5F7B4E456CD5AD52"]
 			id: "13F3473F3041F8BE"
 			tasks: [{
@@ -2699,6 +2740,7 @@
 		{
 			x: 1.0d
 			y: -11.5d
+			description: ["Comes with the Thundering enchantment and some area of effect damage."]
 			dependencies: ["2BFCFAF2EF10A54E"]
 			id: "6F46536FE6DBE744"
 			tasks: [{
@@ -2757,6 +2799,7 @@
 		{
 			x: 5.0d
 			y: -12.5d
+			description: ["Heavily slows enemies on hit."]
 			dependencies: ["586BC8112DF3B5FA"]
 			id: "14B446040569CF12"
 			tasks: [{
@@ -3397,6 +3440,7 @@
 		{
 			x: 1.0d
 			y: 5.5d
+			description: ["Gives you Regeneration when in the hotbar."]
 			id: "77444F5105A251CC"
 			tasks: [{
 				id: "49336133B2F9E1AE"
@@ -6221,6 +6265,11 @@
 		{
 			x: -7.0d
 			y: -10.5d
+			description: [
+				"Dragon Armors can be used to protect your dragon from attacks."
+				""
+				"Thanks to the unique enchantments mod they can be enchanted with protection through an anvil."
+			]
 			dependencies: ["5F7B4E456CD5AD52"]
 			id: "79222FD515377830"
 			tasks: [
@@ -6308,6 +6357,11 @@
 		{
 			x: 6.5d
 			y: -11.0d
+			description: [
+				"Dragon Armors can be used to protect your dragon from attacks."
+				""
+				"Thanks to the unique enchantments mod they can be enchanted with protection through an anvil."
+			]
 			dependencies: ["586BC8112DF3B5FA"]
 			id: "47FBF871DC42B9F0"
 			tasks: [
@@ -6395,6 +6449,11 @@
 		{
 			x: 2.5d
 			y: -10.0d
+			description: [
+				"Dragon Armors can be used to protect your dragon from attacks."
+				""
+				"Thanks to the unique enchantments mod they can be enchanted with protection through an anvil."
+			]
 			dependencies: ["2BFCFAF2EF10A54E"]
 			id: "7004E82094588EBB"
 			tasks: [
@@ -6543,6 +6602,163 @@
 					}
 				}
 			]
+		}
+		{
+			x: -1.0d
+			y: 11.0d
+			description: [
+				"A cockatrice can be found in Savanna-like biomes. You can tame them by hatching a rotten egg or starting at one in the wild for 50 seconds."
+				""
+				"However the cockatrice's glare will hurt you with a wither effect."
+				""
+				"Luckily the taming progress stays when you look away so you can recover health between taming attempts."
+			]
+			id: "54761D5F9843BF91"
+			tasks: [{
+				id: "587B9980523F4CA2"
+				type: "observation"
+				title: "Stare at a Cockatrice"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "iceandfire:cockatrice"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 600L
+				observe_type: 5
+				to_observe: "iceandfire:cockatrice"
+			}]
+			rewards: [
+				{
+					id: "173CC5632BF3F26B"
+					type: "xp"
+					xp: 12
+				}
+				{
+					id: "3B9EB6274D962BF2"
+					type: "random"
+					table_id: 7685042081442074286L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 11.0d
+			description: [
+				"Shoots 8 feathers in all directions when used."
+				""
+				"Some of the feathers can be picked back up."
+			]
+			dependencies: ["0DBDC4BAA4465307"]
+			id: "04B14007299FC09B"
+			tasks: [{
+				id: "7B39B712FD1F9D74"
+				type: "item"
+				item: {
+					id: "iceandfire:stymphalian_feather_bundle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C3362D6DF18BA15"
+				type: "item"
+				item: {
+					id: "iceandfire:stymphalian_feather_bundle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.5d
+			description: ["A fast dagger with 3 Attack Speed. Boosts your Smithing Xp when held in the offhand."]
+			dependencies: ["0DBDC4BAA4465307"]
+			id: "5D715FBCE0F2D6DC"
+			tasks: [{
+				id: "4BC5D4685ED6B945"
+				type: "item"
+				item: {
+					id: "iceandfire:stymphalian_bird_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "31D03018670AF36A"
+				type: "pmmo:xpreward"
+				title: "100 Smithing XP"
+				icon: {
+					id: "minecraft:anvil"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				auto: "invisible"
+				skill: "smithing"
+				amount: 100.0d
+				ignoreBonuses: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.0d
+			description: ["Deals 50% more damage than the normal arrow and is less hindered by gravity. Useful for long range attacks, and great for getting the sniper duel and bullseye achievements."]
+			dependencies: ["0DBDC4BAA4465307"]
+			id: "425F7CE940B05FD5"
+			tasks: [{
+				id: "6D865AB19B0DEA16"
+				type: "item"
+				item: {
+					id: "iceandfire:stymphalian_arrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "632A054A7B81F3C3"
+				type: "item"
+				item: {
+					id: "iceandfire:stymphalian_arrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
 		}
 	]
 }

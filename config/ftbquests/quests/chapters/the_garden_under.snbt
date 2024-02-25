@@ -1,7 +1,7 @@
 {
 	id: "4D9749A9C944ECE8"
 	group: "241F1DC7B6D6E9D6"
-	order_index: 4
+	order_index: 3
 	filename: "the_garden_under"
 	title: "The garden Under"
 	icon: "undergarden:deepturf_block"
@@ -277,6 +277,7 @@
 			x: 2.5d
 			y: 1.5d
 			shape: "hexagon"
+			description: ["Vanilla Ores are generally found near the top of the undergarden while its unique ores spawn closer to the bottom."]
 			dependencies: ["29BF84A63E82A63C"]
 			size: 1.5d
 			id: "274C8CD10763851C"
@@ -376,6 +377,7 @@
 		{
 			x: 6.5d
 			y: 4.5d
+			description: ["These are needed to trade with stoneborn."]
 			dependencies: ["3E8D81625369E9E9"]
 			id: "7AB829B116D3495C"
 			tasks: [{

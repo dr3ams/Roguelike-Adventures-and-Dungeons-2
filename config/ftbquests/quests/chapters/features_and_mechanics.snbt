@@ -161,7 +161,7 @@
 		}
 		{
 			icon: {
-				id: "minecraft:nether_star"
+				id: "betterportals:portal_fluid_bucket"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
@@ -845,6 +845,7 @@
 			]
 		}
 		{
+			title: "Corail's Tombstones"
 			x: 2.5d
 			y: 7.5d
 			subtitle: "Keeps safe your inventory items on death with many features for better survivability and exploration"
@@ -1460,9 +1461,10 @@
 			]
 			id: "6AA5B436C67A93FF"
 			tasks: [{
-				id: "6AA055C5A9696592"
-				type: "item"
-				item: {
+				id: "26621448B976E40A"
+				type: "observation"
+				title: "Find a waystone"
+				icon: {
 					id: "waystones:waystone"
 					Count: 1b
 					ForgeCaps: {
@@ -1471,6 +1473,9 @@
 						}
 					}
 				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "waystones:waystone"
 			}]
 			rewards: [{
 				id: "0BE7676AB6C019ED"
@@ -1592,37 +1597,7 @@
 			}]
 		}
 		{
-			icon: "apotheosis:enchantment_library"
-			x: 2.5d
-			y: 9.5d
-			description: [
-				"The Enchantment Library is a block focused on storing enchantments.  Simply insert an enchanted book, and every enchantment on that book will be stored in the library internally.  "
-				""
-				"Each enchantment on a deposited book will be stored as points.  A point is simply equivalent to a level 1 enchantment, and as such an enchantment is worth the amount of points it would take to combine it from level one books (2^(level -1) points per level)."
-				""
-				"The library also records the max level it has ever seen for a given enchantment, and you may only extract enchantments up to that level. Meaning if you want to be able to extract a higher level of an enchantment, the library will need to have had that level deposited at least one time."
-				""
-				"To extract enchantments from the library, simply click the tile of the enchantment you want to extract, and it will be extracted to the output slot.  If the output slot is empty, a new enchanted book will be generated.  If it is not empty, it will apply the next level of that enchantment to the book (if you have enough points).  "
-				""
-				"Shift-clicking on a tile will attempt to extract the max level available (if you have enough points).  The point cost for extracting is shown in the tooltip.  If that tooltip is red, you do not have enough points for that operation."
-			]
-			dependencies: ["0054E85C9D29551B"]
-			id: "094A8038AC83777E"
-			tasks: [{
-				id: "70DDB00D88744A9C"
-				type: "item"
-				item: {
-					id: "apotheosis:enchantment_library"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
+			title: "Specialization"
 			icon: {
 				id: "kubejs:mark_miner"
 				Count: 1b
@@ -1638,11 +1613,22 @@
 				"You can choose starter gear in the Specialization chapter. You can get Marks which can boost pmmo exp, however you cannot change your specialization. If you are in multiplayer you should pick your specialization before joining a team."
 				""
 			]
+			dependencies: ["7D7A71EA9FCC15E2"]
 			id: "0A8694E6D7E5B93E"
 			tasks: [{
-				id: "2371A22BE0EE5213"
-				type: "checkmark"
-				title: "Specialization"
+				id: "5FA8841A3A900FF6"
+				type: "questsadditions:time"
+				title: "Choose a Specialization"
+				icon: {
+					id: "kubejs:mark_huntsman"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				elapsedTime: 1L
 			}]
 		}
 		{
