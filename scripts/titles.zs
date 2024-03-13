@@ -27,11 +27,11 @@ CTEventManager.register<MCPlayerLoggedInEvent>((event) => {
 	}
 	if (username in contributors_constants.feedbackUsers) {
 		world.asServerWorld().server.executeCommand('ftbquests change_progress ' + username + ' complete 5D6983FD863F51B3', true);
-	} //else {
-		//if (player.getPersistentData().contains("feedbackNotified"))
-		//	return;
-		//player.updatePersistentData({feedbackNotified: 1});
-		//world.asServerWorld().server.executeCommand("tellraw " + username + ' [{"text":"Welcome to ","color":"white"},{"text":"RAD 2! ","color":"green"},{"text":"Check the ","color":"white"},{"text":"Specialization","color":"gold"},{"text":" Tab in the ","color":"white"},{"translate":"item.ftbquests.book","color":"white"},{"text":" to pick your starting kit. If you want to help out by providing feedback, you can do so by ","color":"white"},{"text":"clicking here. ","color":"blue","hoverEvent":{"action":"show_text","contents":[{"text":"Feedback Form"}]},"clickEvent":{"action":"open_url","value":"https://bit.ly/RAD2Feedback1"}}]', true);
-	//}
+	} else {
+		if (player.getPersistentData().contains("feedbackNotified"))
+			return;
+		player.updatePersistentData({feedbackNotified: 1});
+		world.asServerWorld().server.executeCommand("tellraw " + username + ' [{"text":"Welcome to ","color":"white"},{"text":"RAD 2! ","color":"green"},{"text":"Check the ","color":"white"},{"text":"Specialization","color":"gold"},{"text":" Tab in the ","color":"white"},{"translate":"item.ftbquests.book","color":"white"},{"text":" to pick your starting kit. It also contains some useful info and a lot of ","color":"white"},{"text":"quests!","color":"green"}]', true);
+	}
 	
 });
