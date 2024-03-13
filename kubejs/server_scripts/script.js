@@ -281,3 +281,23 @@ onEvent('item.tags', event => {
 
 
 })
+
+onEvent('player.logged_in', event => {
+  // Check if player doesn't have "starting_items" stage yet
+  if (!event.player.stages.has('starting_items')) {
+    // Add the stage
+    event.player.stages.add('starting_items')
+    // Give some items to player
+	event.player.give('mysticalworld:cactus_sword')
+	event.player.give('ftbquests:book')
+    event.player.give('10x minecraft:bread')
+	event.player.give('16x minecraft:torch')
+	event.player.give('titles:title_scroll_common')
+	event.player.give('2x roughtweaks:bandage')
+	event.player.give('minecraft:leather_leggings')
+	event.player.give('minecraft:leather_boots')
+	event.player.give('supplementaries:sack')
+	event.player.give(Item.of('akashictome:tome', '{"akashictome:is_morphing":1b,"akashictome:data":{mushroomquest:{id:"mushroomquest:mycopedia",Count:1b},alexsmobs:{id:"alexsmobs:animal_dictionary",Count:1b},apotheosis:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"apotheosis:apoth_chronicle"}},eidolon:{id:"eidolon:codex",Count:1b},iceandfire:{id:"iceandfire:bestiary",Count:1b,tag:{Pages:[I;0]}},feywild:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"feywild:feywild_lexicon"}},ars_nouveau:{id:"ars_nouveau:worn_notebook",Count:1b},mysticalworld:{id:"mysticalworld:encyclopedia",Count:1b},dimdungeons:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"dimdungeons:guide_book"}},buddycards:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"buddycards:buddycard_guidebook"}},twilightforest:{id:"patchouli:guide_book",Count:1b,tag:{"patchouli:book":"twilightforest:guide"}},supplementaries:{id:"patchouli:guide_book",Count:1b,tag:{"akashictome:displayName":{text:"?6Supplemental Manual"},"akashictome:is_morphing":1b,display:{Name:\'{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"?6Supplemental Manual"}]}\'},"patchouli:book":"supplementaries:supplementaries_guide"}},betterendforge:{id:"betterendforge:guidebook",Count:1b},uniquebase:{id:"patchouli:guide_book",Count:1b,tag:{"akashictome:displayName":{text:"Hecate\'s Grimoire"},"akashictome:is_morphing":1b,display:{Name:\'{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Hecate\\\'s Grimoire"}]}\'},"patchouli:book":"uniquebase:grimoire"}},cookingforblockheads:{id:"cookingforblockheads:recipe_book",Count:1b,tag:{"akashictome:displayName":{text:"Cooking for Blockheads I"},"akashictome:is_morphing":1b,display:{Name:\'{"translate":"akashictome.sudo_name","with":[{"color":"green","text":"Cooking for Blockheads I"}]}\'}}}}}'))
+  
+  }
+})
