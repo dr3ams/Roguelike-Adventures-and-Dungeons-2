@@ -280,3 +280,14 @@ event.hide('rats:rat_upgrade_voodoo')
 event.hide('twilightdelight:iron_lotus')
 event.hide('twilightdelight:ego_blade')
 })
+
+onEvent('item.tooltip', tooltip => {
+
+  tooltip.addAdvanced('ftbquests:book', (item, advanced, text) => {
+	text.add(1, Text.gold('May contain answers to some questions'))  
+    text.add(2, Text.of('This book belongs to ').append(Client.player.name))
+  })
+  
+})
+
+
