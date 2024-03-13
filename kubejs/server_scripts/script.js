@@ -288,9 +288,7 @@ onEvent('player.logged_in', event => {
     // Add the stage
     event.player.stages.add('starting_items')
     // Give some items to player
-	event.player.give('mysticalworld:cactus_sword')
 	event.player.give('ftbquests:book')
-    event.player.give('10x minecraft:bread')
 	event.player.give('16x minecraft:torch')
 	event.player.give('titles:title_scroll_common')
 	event.player.give('2x roughtweaks:bandage')
