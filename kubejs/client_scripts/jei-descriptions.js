@@ -27,6 +27,8 @@ event.add('minecraft:feather', ["When brewed with a Speed Potion creates a Potio
 event.add('elenaidodge2:iron_feather', ["When brewed with an Awkward Potion creates a Potion of Endurance. This can be inverted into a Weight potion using fermented spider eyes. (JEI doesn't show these recipes for some reason)"])
 event.add('elenaidodge2:golden_feather', ["When brewed with an Awkward Potion creates a Potion of Feathers. Add to a Regeneration Potion to create a Replenishment Potion. (JEI doesn't show these recipes for some reason)"])
 event.add('undergarden:regalium_ingot', ["Used to trade with Stoneborn."])
+event.add('minecraft:emerald', ["This polished gem is well desired by villagers but is too brittle to be used for crafting equipment."])
+event.add('kubejs:emerald_ingot', ["A Refined Emerald Ore that can be used for crafting equipment. Found from Emerald Ores or Rarely from any loot chest replacing normal emeralds"])
 
 
 event.add('waystones:waystone', ["This item can be bought in the shop"])

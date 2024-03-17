@@ -783,7 +783,7 @@
 			]
 		}
 		{
-			x: 4.0d
+			x: 8.0d
 			y: -3.5d
 			description: ["Mining Aurora Crystal will give you shards that are infused with a mythical energy that pulses through the End."]
 			dependencies: ["742FA17F32B5562D"]
@@ -838,8 +838,8 @@
 		}
 		{
 			title: "Amber"
-			x: 9.0d
-			y: -5.0d
+			x: 12.5d
+			y: -3.5d
 			description: ["Comes from Amber ore. Gives raw amber, placing 2x2 in a crafting table to make a gem."]
 			dependencies: ["55DCE2FA47D4C837"]
 			id: "5E4164741B56B1BC"
@@ -875,8 +875,8 @@
 			]
 		}
 		{
-			x: 10.5d
-			y: -6.0d
+			x: 13.0d
+			y: -5.0d
 			description: [
 				"Infused Terminite Armor."
 				""
@@ -955,10 +955,10 @@
 			]
 		}
 		{
-			x: 12.5d
-			y: -3.5d
+			x: 4.0d
+			y: 3.5d
 			description: ["Comes from Ender Ore, rare ore deep in ender islands."]
-			dependencies: ["55DCE2FA47D4C837"]
+			dependencies: ["3D208B95463DFD24"]
 			id: "6E047390333830E1"
 			tasks: [{
 				id: "35D9D17378CFBBF4"
@@ -985,10 +985,10 @@
 			]
 		}
 		{
-			x: 12.5d
+			x: 9.0d
 			y: -5.0d
 			description: ["Used to re-activate portals, in infusions, and to make a respawn obelisk."]
-			dependencies: ["6E047390333830E1"]
+			dependencies: ["5E2DFA9A653F3619"]
 			id: "16BC2746E4DD50B9"
 			tasks: [{
 				id: "481BAE1D47E8E4C7"
@@ -1011,8 +1011,8 @@
 		{
 			x: 5.5d
 			y: 3.5d
-			description: ["Can be made by a number of methods on an anvil, check JEI for specifics."]
-			dependencies: ["3D208B95463DFD24"]
+			description: ["Ender dust can be first aquired by breaking down ender shards through anvil smithing (see anvil smithing)"]
+			dependencies: ["6E047390333830E1"]
 			id: "0B56F802933E9AB7"
 			tasks: [{
 				id: "78DBEF6A0D0A5E13"
@@ -1066,7 +1066,7 @@
 		{
 			x: 12.0d
 			y: 3.5d
-			description: ["Alloy of an End Shard and Terminite made in a End Stone Smelter."]
+			description: ["Alloy of an Emerald Ingot and Terminite made in a End Stone Smelter."]
 			dependencies: ["2F65B1126A72219F"]
 			id: "0BD7D528F30810EC"
 			tasks: [{
@@ -1350,7 +1350,11 @@
 			title: "Aeternium Tools"
 			x: 13.5d
 			y: 5.5d
-			description: ["A set of some of the most durable tools in the game."]
+			description: [
+				"A set of some of the most durable tools in the game."
+				""
+				"While the sword is not as great in combat as some other weapons, this is the only tool set in the game with the max mining level other than Dragonsteel."
+			]
 			dependencies: ["6FF5FFEE7F672F05"]
 			id: "36543B4BFF59FC05"
 			tasks: [
@@ -2738,8 +2742,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -1.5d
+			x: 7.5d
+			y: -5.0d
 			description: ["It emits light and looks cool. Not much to say here"]
 			dependencies: ["5E2DFA9A653F3619"]
 			id: "44246B5F76798F22"
@@ -2775,9 +2779,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 2.5d
-			dependencies: ["3D208B95463DFD24"]
+			x: 10.5d
+			y: -1.5d
+			dependencies: ["55DCE2FA47D4C837"]
 			id: "3435DF9BFA69769A"
 			tasks: [{
 				id: "65990C5B2574D905"
@@ -3340,7 +3344,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: -1.5d
 			y: 1.0d
 			subtitle: "Respawn the Ender Dragon"
 			dependencies: ["211D755718A5FF50"]
@@ -3451,199 +3455,18 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: 1.0d
-			dependencies: ["4424404688C4DA49"]
-			id: "4FDAE4EF717B3D17"
-			tasks: [
-				{
-					id: "3C72D0348681D973"
-					type: "item"
-					item: {
-						id: "pickletweaks:emerald_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "3B9981D1454EA2B0"
-					type: "item"
-					item: {
-						id: "pickletweaks:emerald_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "36FC54B63DA44979"
-					type: "item"
-					item: {
-						id: "pickletweaks:emerald_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "47639D2E48C04E0A"
-					type: "item"
-					item: {
-						id: "pickletweaks:emerald_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "200FCB27CFA91615"
-				type: "item"
-				item: {
-					id: "ftbquests:lootcrate"
-					Count: 1b
-					tag: {
-						type: "ingots_valuable"
-						rpgloot.randomize: 0b
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				random_bonus: 2
-			}]
-		}
-		{
-			x: 11.0d
-			y: 0.0d
-			dependencies: ["4424404688C4DA49"]
-			id: "75173BE046C1EC0C"
-			tasks: [{
-				id: "1EF60119D4609A69"
-				type: "item"
-				item: {
-					id: "pickletweaks:emerald_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "2A771FCB581423EE"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "infernalexp:luminous"
-						}
-					}
-				}
-				{
-					id: "6F4AB17B0B74548A"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "53CF0F60967BA2DA"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "41BCE5804FAA988B"
-					type: "item"
-					item: "randomite:randomite_ore"
-				}
-			]
-		}
-		{
 			x: 10.0d
-			y: 0.5d
-			description: ["Alloy of Tin and Emeralds in an end stone smelter."]
-			dependencies: ["46966AA1DDAD75DC"]
-			id: "4424404688C4DA49"
-			tasks: [{
-				id: "186FA8D929263C25"
-				type: "item"
-				item: {
-					id: "kubejs:emerald_ingot"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "691F95B6F4BECFAB"
-					type: "item"
-					item: {
-						id: "pickletweaks:emerald_apple"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "5B0C3EF4302887CD"
-					type: "item"
-					item: {
-						id: "betterendforge:terminite_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					random_bonus: 8
-				}
-			]
-		}
-		{
-			x: 7.5d
-			y: -5.5d
+			y: -3.5d
 			subtitle: "Making your home in the end"
 			description: [
 				"You can spend 6 Amber Gems to set your spawnpoint next to the obelisk."
 				""
 				"This can be used to set your spawn in any dimension, not just the end."
 			]
-			dependencies: ["5E4164741B56B1BC"]
+			dependencies: [
+				"5E4164741B56B1BC"
+				"16BC2746E4DD50B9"
+			]
 			id: "601C88472CB41587"
 			tasks: [{
 				id: "53146C51116A8DBB"
@@ -4355,6 +4178,225 @@
 					table_id: 4734148794142699034L
 				}
 			]
+		}
+		{
+			title: "Anvil Smithing"
+			icon: {
+				id: "betterendforge:iron_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.5d
+			y: 2.5d
+			description: [
+				"Anvil Smithing is a new crafting mechanic added by Better End."
+				""
+				"To start forging new items, place a Smithing Hammer on the left slot of an anvil and the ingredient on the right."
+				"This can be the vanilla anvil or any of the 3 better end anvils."
+				""
+				"Some items may need a certain tier of hammer or anvil to craft, like ender pearls to ender dust."
+			]
+			dependencies: ["6E047390333830E1"]
+			id: "28DC4D88F4756D4D"
+			tasks: [{
+				id: "7B8E7F01FE2474A8"
+				type: "item"
+				title: "Any #betterendforge:hammers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "betterendforge:hammers"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2621F2024D2823EF"
+				type: "item"
+				item: {
+					id: "betterendforge:ender_shard"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.0d
+			description: ["Created through infusions, these books can increase the level of a certain enchantment 1 level beyond its max."]
+			dependencies: ["12C88C7765D6E19C"]
+			id: "32D7534501B08A47"
+			tasks: [{
+				id: "191DD1357DB5CE05"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				match_nbt: false
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "1AF39DC0EFEC0682"
+				type: "item"
+				item: {
+					id: "randomite:randomite_ore"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["3D208B95463DFD24"]
+			id: "781AF715393AA4A9"
+			tasks: [{
+				id: "3FFA8BE145571536"
+				type: "item"
+				item: {
+					id: "minecraft:dragon_breath"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "22937DBE001DDCF5"
+				type: "item"
+				item: {
+					id: "randomite:randomite_ore"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: -6.0d
+			description: ["Deep in the waters of the sulfur springs hydralux grows, it's petals can be enchanted for use in infusion."]
+			id: "12C88C7765D6E19C"
+			tasks: [{
+				id: "4E28C0F0674D30EB"
+				type: "item"
+				item: {
+					id: "betterendforge:hydralux_petal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5A24998F25B0580C"
+					type: "item"
+					item: {
+						id: "byg:lignite"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+					random_bonus: 1
+				}
+				{
+					id: "356017B009DCB0DE"
+					type: "item"
+					item: {
+						id: "minecraft:bone_meal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			title: "Surprise Attack!"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "minecraft:endermite"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.5d
+			y: 4.5d
+			subtitle: "The Endermites have learned a few things from the silverfish..."
+			description: [""]
+			dependencies: ["3D208B95463DFD24"]
+			optional: true
+			secret: true
+			id: "164E229368D10620"
+			tasks: [{
+				id: "215116A2D221053C"
+				type: "questsadditions:break"
+				title: "Mine an infested end stone block"
+				block: "majruszs_difficulty:infested_end_stone"
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "4A528530A0842ABE"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_harming"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
 		}
 	]
 }

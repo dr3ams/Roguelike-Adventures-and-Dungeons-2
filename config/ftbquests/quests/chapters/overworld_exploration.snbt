@@ -2042,7 +2042,7 @@
 			subtitle: "More villages!"
 			description: [
 				"There are multiple new villager jobs, all with unique trades, workstations, and advancements!"
-				"OCEANOGRAPHER, NETHEROLOGIST, FORESTER, ENDEROLOGIST, ENGINEER, FLORIST, HUNTER, MINER. "
+				"OCEANOGRAPHER, NETHEROLOGIST, FORESTER, ENDEROLOGIST, ENGINEER, FLORIST, HUNTER."
 				""
 				"Netherologist and Enderologist's station quests can be found in the nether and end chapters."
 			]
@@ -4632,6 +4632,78 @@
 					}
 				}
 			}]
+		}
+		{
+			x: 20.0d
+			y: 6.0d
+			description: ["A refined ingot created by smelting Emerald Ores, and also rarely found in loot chests replacing normal emeralds (except village chests)"]
+			dependencies: ["544027B606EEA00D"]
+			id: "4424404688C4DA49"
+			tasks: [
+				{
+					id: "186FA8D929263C25"
+					type: "item"
+					item: {
+						id: "kubejs:emerald_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7AB8BE5AF75E2E37"
+					type: "item"
+					item: {
+						id: "pickletweaks:emerald_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "691F95B6F4BECFAB"
+					type: "item"
+					item: {
+						id: "pickletweaks:emerald_apple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5B0C3EF4302887CD"
+					type: "item"
+					item: {
+						id: "kubejs:diamond_nugget"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					random_bonus: 8
+				}
+				{
+					id: "678FD6D7F13F3D2A"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+			]
 		}
 	]
 }
