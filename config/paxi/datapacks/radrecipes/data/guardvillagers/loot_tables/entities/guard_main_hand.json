@@ -1,0 +1,133 @@
+{
+    "type": "guardvillagers:slot",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 60,
+                    "name": "dungeons_gear:sword"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 20,
+                    "name": "dungeons_gear:mace"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 20,
+                    "name": "dungeons_gear:glaive"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 17,
+                    "name": "spartanweaponry:saber_silver"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 17,
+                    "name": "spartanweaponry:spear_silver"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 16,
+                    "name": "spartanweaponry:flanged_mace_silver"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 55,
+                    "name": "dungeons_gear:longbow"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 55,
+                    "name": "minecraft:crossbow"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 15,
+                    "name": "spartanweaponry:longbow_leather"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 15,
+                    "name": "dungeons_gear:azure_seeker"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 34,
+                    "name": "dungeons_gear:dagger"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 33,
+                    "name": "dungeons_gear:shortbow"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 33,
+                    "name": "spartanweaponry:dagger_iron"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "dungeons_gear:double_axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "dungeons_gear:great_hammer"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "spartanweaponry:battleaxe_iron"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "spartanweaponry:longsword_iron"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "spartanweaponry:greatsword_iron"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "spartanweaponry:warhammer_iron"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "spartanweaponry:halberd_iron"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 50,
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "minecraft:enchant_randomly",
+            "enchantments": [
+                "minecraft:vanishing_curse"
+            ]
+        },
+        {
+            "function": "minecraft:set_nbt",
+            "tag": "{\"quark:RuneAttached\":1b,\"quark:RuneColor\":{id:\"quark:blank_rune\",Count:1b}}"
+        }
+    ]
+}
