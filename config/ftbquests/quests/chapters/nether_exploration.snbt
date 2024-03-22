@@ -256,11 +256,14 @@
 			y: -3.0d
 			description: ["Drops gold nuggets when mined. Careful not to anger the locals..."]
 			dependencies: ["4ABA0AF14F4830E5"]
+			dependency_requirement: "one_completed"
 			id: "67A339531A61A13F"
 			tasks: [{
-				id: "68AD8A8F335EF91F"
-				type: "item"
-				item: "minecraft:nether_gold_ore"
+				id: "23078648A17A1D85"
+				type: "questsadditions:break"
+				block: "minecraft:nether_gold_ore"
+				value: 1L
+				checkItem: false
 			}]
 			rewards: [
 				{
@@ -3204,18 +3207,10 @@
 			tasks: [{
 				id: "7E239711F94E140B"
 				type: "observation"
-				icon: {
-					id: "betterportals:reclaimer"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				timer: 0L
+				icon: "betterportals:reclaimer"
+				timer: 20L
 				observe_type: 0
-				to_observe: "betterportals:reclaimer"
+				to_observe: "betterportals:reclaimer_block"
 			}]
 			rewards: [
 				{
