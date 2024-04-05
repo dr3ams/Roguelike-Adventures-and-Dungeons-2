@@ -1,0 +1,21 @@
+
+#Settings
+[general]
+	enable_anti_mob_farm = true
+	affect_animals = false
+	affect_vanilla_loot = false
+	affect_age_of_exile_loot = true
+	affect_age_of_exile_exp = true
+	#Range: 0.0 ~ 1.0
+	min_player_dmg_for_loot = 0.5
+	#Range: 0.0 ~ 1.0
+	mob_kill_chunk_penalty = 0.02
+	#Range: 0.0 ~ 1.0
+	penalty_regen_per_minute = 0.05
+	#Range: 0 ~ 1000
+	one_time_free_kills_per_chunk = 15
+	#Range: 0 ~ 1000
+	added_free_kills_on_chest_looted = 5
+	excluded_dimensions = ["mmorpg:dungeon"]
+	excluded_entities = []
+

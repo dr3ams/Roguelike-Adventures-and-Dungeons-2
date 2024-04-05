@@ -10,6 +10,17 @@ console.info('New recipes script is loading...')
 onEvent('recipes', event => {
 	// Change recipes here
 	
+	event.remove({output: 'cc:claim_block'})
+	event.shaped('cc:claim_block', [
+    'SDS',
+    'DED',
+    'SDS'
+	], {
+    D: 'minecraft:diamond',
+    S: 'paraglider:spirit_orb',
+    E: 'minecraft:iron_block'	
+	})
+	
 	event.shaped('minecraft:diamond', [
     'DDD',
     'DDD',

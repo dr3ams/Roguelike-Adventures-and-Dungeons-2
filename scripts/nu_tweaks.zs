@@ -11,7 +11,7 @@ import crafttweaker.api.food.MCFood;
 <item:good_nights_sleep:candy>.food = new MCFood(1, 0.2);
 <item:simplefarming:candy_cane>.food = new MCFood(2, 0.4);
 <item:minecraft:golden_carrot>.food = new MCFood(3, 0.9);
-<item:brewevolution:cheese>.food = new MCFood(3, 0.5);
+//<item:brewevolution:cheese>.food = new MCFood(3, 0.5);
 <item:simplefarming:cheese_slice>.food = new MCFood(2, 0.1);
 <item:simplefarming:cheeseburger>.food = new MCFood(6, 0.5);
 <item:projectvibrantjourneys:clam>.food = new MCFood(3, 0.8);

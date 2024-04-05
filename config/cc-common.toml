@@ -1,0 +1,23 @@
+#Add owner name to some messages
+AddOwner = true
+#Mob explosions can destroy blocks based on mob target
+MobDestroy = true
+#Explosions caused by any player can destroy blocks
+PvpMode = false
+#Report placing fluid from a bucket
+ReportBucket = false
+#Chunks from world spawn
+#Range: -1 ~ 5000
+ChunksFromSpawn = 10
+#Maximum claims per player
+#Range: 0 ~ 250
+ClaimLimit = 4
+#Blocks that bypass claims on right click
+BypassBlocks = ["minecraft:ender_chest"]
+#Entities that bypass claims on right click
+BypassEntities = [""]
+#Include dimensions
+IncludeDims = ["*"]
+#Exclude dimensions
+ExcludeDims = [""]
+
