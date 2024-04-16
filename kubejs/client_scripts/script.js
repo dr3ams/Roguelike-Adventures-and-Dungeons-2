@@ -279,6 +279,10 @@ event.hide('rats:rat_upgrade_voodoo')
 
 event.hide('twilightdelight:iron_lotus')
 event.hide('twilightdelight:ego_blade')
+
+event.hide('buddycards:medal.5')
+event.hide('cookingforblockheads:heating_unit')
+event.hide('sophisticatedbackpacks:battery_upgrade')
 })
 
 onEvent('item.tooltip', tooltip => {

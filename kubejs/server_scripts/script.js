@@ -239,7 +239,11 @@ event.remove({output: 'archers_paradox:phantasmal_arrow'})
 event.remove({output: 'spawnermod:spawner_key'})
 
 event.remove({output: 'twilightdelight:iron_lotus'})
-event.remove({output: 'spawnermod:spawner_key'})
+event.remove({output: 'twilightdelight:ego_blade'})
+
+event.remove({output: 'buddycards:medal.5'})
+event.remove({output: 'cookingforblockheads:heating_unit'})
+event.remove({output: 'sophisticatedbackpacks:battery_upgrade'})
 })
 	
 
@@ -289,7 +293,6 @@ onEvent('item.tags', event => {
 
 	event.add('curios:curse_ring', 'enigmaticlegacy:cursed_ring')
 	event.remove('curios:ring', 'enigmaticlegacy:cursed_ring')
-
 
 })
 
