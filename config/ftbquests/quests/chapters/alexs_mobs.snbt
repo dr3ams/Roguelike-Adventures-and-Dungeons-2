@@ -689,24 +689,6 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 10.0d
-			description: ["A drop from Mimicubes that can be used to duplicate enchanted tools, result is broken but duplicate tool."]
-			dependencies: ["54A887A01A32BB84"]
-			id: "0B0040DAC5D0E2C8"
-			tasks: [{
-				id: "00FAEB55E3A7B2AA"
-				type: "item"
-				item: "alexsmobs:mimicream"
-			}]
-			rewards: [{
-				id: "753E61056FEA34DF"
-				type: "item"
-				item: "alexsmobs:mimicream"
-				count: 3
-			}]
-		}
-		{
 			x: -2.0d
 			y: -7.0d
 			description: ["A drop when a Raccoon is killed."]
@@ -1089,7 +1071,6 @@
 				"323E3518BE41C84D"
 				"1DD27A6265642B96"
 				"2BA62BA8195FC90F"
-				"0B0040DAC5D0E2C8"
 			]
 			id: "7E104C87A3BB6CA4"
 			tasks: [{
@@ -1422,7 +1403,7 @@
 		{
 			x: 13.5d
 			y: 3.5d
-			description: ["The Enderlocator can be used to locate the end portal."]
+			description: ["The Endolocator can be used to locate the end portal."]
 			dependencies: ["456C97EA74811997"]
 			id: "02E95675EB8EF204"
 			tasks: [{
@@ -1473,7 +1454,7 @@
 			}]
 		}
 		{
-			x: 9.0d
+			x: 4.0d
 			y: 12.0d
 			description: ["A drop from Enderiophage, it can hold a stack of items inside which will be transported into whatever block is above them."]
 			dependencies: ["40CFB3D7A3ECB1B9"]
@@ -1490,8 +1471,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 9.5d
+			x: 5.0d
+			y: 10.5d
 			description: ["A special firework with special DNA effect that can be made in the End."]
 			dependencies: ["57D3C1E86A23E5AD"]
 			id: "1A85A5ED5D9EDD86"
@@ -1659,9 +1640,10 @@
 			}]
 		}
 		{
+			title: "Potion of Swiftness III"
 			x: -7.5d
 			y: -6.5d
-			description: ["This potion will allow you to create a uncommon speed potion that will help you get where you are going quicker."]
+			description: ["The horn will allow you to add a third level to speed potions to help you get where you are going quicker."]
 			dependencies: ["1561DE019D318A18"]
 			id: "792DBA9FA8A22FD5"
 			tasks: [{
@@ -1934,7 +1916,7 @@
 			description: [
 				"Tame a tusked elephant as a calf."
 				""
-				"Tusked elelphants can only be tamed as a calf, but they will grow up to be fierce defenders."
+				"Tusked elephants can only be tamed as a calf, but they will grow up to be fierce defenders."
 			]
 			dependencies: ["2FF82B88371F5F07"]
 			id: "24285EBFC92AD6C5"
@@ -2272,8 +2254,8 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: 11.0d
+			x: 6.0d
+			y: 12.0d
 			description: [
 				"Encounter Enderiophage"
 				""
@@ -2294,7 +2276,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 8.0d
 			y: 12.0d
 			description: ["To heal the End Flu Chorus fruit or milk can be eaten/drank."]
 			dependencies: ["40CFB3D7A3ECB1B9"]
@@ -2438,7 +2420,7 @@
 			tasks: [{
 				id: "5E6012AB1B7B64E9"
 				type: "advancement"
-				title: "Cimson Mosquito Encountered"
+				title: "Crimson Mosquito Encountered"
 				advancement: "alexsmobs:alexsmobs/crimson_mosquito"
 				criterion: ""
 			}]
@@ -3245,41 +3227,6 @@
 				id: "alexsmobs:tab_icon"
 				Count: 1b
 				tag: {
-					DisplayEntityType: "alexsmobs:mimicube"
-				}
-			}
-			x: 6.5d
-			y: 8.5d
-			description: ["A slime relative of the End found typically in End Cities. Have very powerful magical abilities of mimicing an attackers weapons and armor."]
-			id: "54A887A01A32BB84"
-			tasks: [{
-				id: "76E60071ABEBB37D"
-				type: "observation"
-				title: "Mimicube"
-				icon: {
-					id: "alexsmobs:spawn_egg_mimicube"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				timer: 0L
-				observe_type: 5
-				to_observe: "alexsmobs:mimicube"
-			}]
-			rewards: [{
-				id: "52D6521BBC52700F"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			icon: {
-				id: "alexsmobs:tab_icon"
-				Count: 1b
-				tag: {
 					DisplayEntityType: "alexsmobs:bone_serpent"
 				}
 			}
@@ -3373,6 +3320,186 @@
 				id: "1F36BF0D45D44C77"
 				type: "xp"
 				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: 19.0d
+			description: [
+				"Placing a crimson mosquito larva into a capsid causes it to transform into a mysterious worm."
+				""
+				"Can also be bought from the Enderologist villager."
+			]
+			dependencies: [
+				"6D5AA599D202F0AF"
+				"57D3C1E86A23E5AD"
+			]
+			id: "0A1A1F6A482BB296"
+			tasks: [{
+				id: "249A2A1868AAD076"
+				type: "item"
+				item: {
+					id: "alexsmobs:mysterious_worm"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "07246D61E2650F95"
+					type: "xp"
+					xp: 101
+				}
+				{
+					id: "5B1B638F98FC6015"
+					type: "item"
+					item: {
+						id: "buddycards:pack.1"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6FED21B7D6A2E607"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [{
+								Duration: 25
+								Id: -125
+								Amplifier: 20
+							}]
+							Potion: "minecraft:mundane"
+							display: {
+								Name: "{\"text\":\"Engineer's Potion\",\"italic\":false,\"color\":\"gold\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:void_worm"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -2.5d
+			y: 17.5d
+			description: ["Tossing the worm into the end void will summon the void worm"]
+			dependencies: ["0A1A1F6A482BB296"]
+			id: "46341B81ACA2EB15"
+			tasks: [{
+				id: "3734CCEE432FFA8D"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/void_worm_kill"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "4487D3DADB1C5410"
+					type: "ftbmoney:money"
+					ftb_money: 125L
+				}
+				{
+					id: "37062AD50D6FA2DE"
+					type: "item"
+					item: {
+						id: "kubejs:monster_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 16.0d
+			description: ["With the drops from the void worm you can craft a dimensional carver, a way to teleport you and other mobs back to spawn, even across dimensions!"]
+			dependencies: ["46341B81ACA2EB15"]
+			id: "5F4CFD972564982A"
+			tasks: [{
+				id: "124D57AA07A6F5D0"
+				type: "item"
+				item: {
+					id: "alexsmobs:dimensional_carver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B6D6C5E0BAA9B16"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:mending_mixture"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: -2.0d
+			y: 16.0d
+			description: ["A block that when powered by redstone deals damage to anyone caught within the jaws"]
+			dependencies: ["46341B81ACA2EB15"]
+			id: "58B16EC56568A6DC"
+			tasks: [{
+				id: "4EB2D2B7F848DDA3"
+				type: "item"
+				item: {
+					id: "alexsmobs:void_worm_beak"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2560594503EDCE97"
+				type: "choice"
+				table_id: 3680913278004027102L
 			}]
 		}
 	]
