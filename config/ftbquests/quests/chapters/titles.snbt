@@ -681,19 +681,6 @@
 			}]
 		}
 		{
-			title: "§5§lMad Mage"
-			x: 7.0d
-			y: 4.5d
-			subtitle: "Collect all 88 glyphs from Ars Nouveau and then go insane trying to craft the last glyphs."
-			id: "7F643383AC98A054"
-			tasks: [{
-				id: "6E6251E2BE42E90F"
-				type: "advancement"
-				advancement: "rad_recipes:mad_mage"
-				criterion: ""
-			}]
-		}
-		{
 			icon: "minecraft:spawner"
 			x: 6.0d
 			y: 6.0d
@@ -796,6 +783,78 @@
 				type: "advancement"
 				advancement: "blue_skies:everdawn/kill_arachnarch"
 				criterion: ""
+			}]
+		}
+		{
+			title: "§5§lMad Mage"
+			icon: {
+				id: "losttrinkets:tha_wizard"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					"quark:RuneAttached": 1b
+					Enchantments: [{
+						lvl: 3s
+						id: "ars_nouveau:reactive"
+					}]
+					"quark:RuneColor": {
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:red_rune"
+						Count: 1b
+					}
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.0d
+			y: 4.5d
+			description: ["Complete the Mad Mage quest in the Ars Nouveau Chapter."]
+			dependencies: ["2FD36B1AF21BF370"]
+			id: "7F643383AC98A054"
+			tasks: [{
+				id: "41376730E7DEBF5E"
+				type: "checkmark"
+				title: "Mad Mage"
+			}]
+			rewards: [{
+				id: "1F01B4A8483A413F"
+				type: "command"
+				title: "Mad Mage"
+				icon: {
+					id: "titles:title_scroll_rare"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						"quark:RuneAttached": 1b
+						Enchantments: [{
+							lvl: 3s
+							id: "ars_nouveau:reactive"
+						}]
+						"quark:RuneColor": {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "quark:pink_rune"
+							Count: 1b
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				command: "/titles add @p rad_recipes:mad_mage"
+				player_command: false
 			}]
 		}
 	]
