@@ -206,7 +206,7 @@
 [[entities]]
 	entity = "mowziesmobs:ferrous_wroughtnaut"
 	minTier = 1
-	maxTier = 6
+	maxTier = 5
 	presetAffixes = []
 	affixList = ["lively","adaptable","dampening"]
 	affixPermission = "BLACKLIST"
@@ -235,7 +235,7 @@
 	entity = "alexsmobs:warped_mosco"
 	minTier = 1
 	maxTier = 6
-	presetAffixes = []
+	presetAffixes = ["plagued"]
 	affixList = []
 	affixPermission = "BLACKLIST"
 [[entities]]
@@ -277,7 +277,7 @@
 	entity = "twilightforest:hydra"
 	minTier = 1
 	maxTier = 6
-	presetAffixes = ["molten"]
+	presetAffixes = ["enkindling"]
 	affixList = ["arctic"]
 	affixPermission = "BLACKLIST"
 [[entities]]
@@ -325,7 +325,7 @@
 [[entities]]
 	entity = "blue_skies:starlit_crusher"
 	minTier = 1
-	maxTier = 6
+	maxTier = 5
 	presetAffixes = []
 	affixList = ["lively"]
 	affixPermission = "BLACKLIST"
@@ -353,7 +353,7 @@
 [[entities]]
 	entity = "stalwart_dungeons:shelterer"
 	minTier = 1
-	maxTier = 6
+	maxTier = 5
 	presetAffixes = []
 	affixList = ["lively","adaptable","dampening"]
 	affixPermission = "BLACKLIST"
@@ -394,8 +394,30 @@
 	affixPermission = "BLACKLIST"
 [[entities]]
 	entity = "minecraft:ender_dragon"
-	minTier = 1
+	minTier = 2
 	maxTier = 6
 	presetAffixes = []
 	affixList = ["lively","adaptable"]
 	affixPermission = "BLACKLIST"
+[[entities]]
+	entity = "alexsmobs:crimson_mosquito"
+	minTier = 0
+	maxTier = 6
+	presetAffixes = ["plagued"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+[[entities]]
+	entity = "twilightforest:mosquito_swarm"
+	minTier = 0
+	maxTier = 6
+	presetAffixes = ["plagued"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+[[entities]]
+	entity = "rats:plague_beast"
+	minTier = 0
+	maxTier = 6
+	presetAffixes = ["plagued"]
+	affixList = []
+	affixPermission = "BLACKLIST"
+
