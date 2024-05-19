@@ -13,11 +13,10 @@ ChunksFromSpawn = 10
 #Range: 0 ~ 250
 ClaimLimit = 4
 #Blocks that bypass claims on right click
-BypassBlocks = ["minecraft:ender_chest"]
+BypassBlocks = ["minecraft:ender_chest", "minecraft:smithing_table", "lootr:*-lootr", "tombstone:*-grave", "minecraft:crafting_table", "blue_skies:food_prep_table", "blue_skies:tool_box", "minecraft:bell", "minecraft:grindstone", "twilightforest:*-trophy", "minecraft:fletching_table", "minecraft:cartography_table", "blue_skies:summoning_table", "blue_skies:alchemy_table", "minecraft:stonecutter", "minecraft:loom", "waystones:*-way"]
 #Entities that bypass claims on right click
-BypassEntities = [""]
+BypassEntities = ["goblintraders:goblin_trader", "minecraft:wandering_trader","rats:plague_doctor"]
 #Include dimensions
 IncludeDims = ["*"]
 #Exclude dimensions
 ExcludeDims = [""]
-
