@@ -2791,5 +2791,52 @@
 				}
 			]
 		}
+		{
+			x: 18.0d
+			y: 0.5d
+			subtitle: "The power of the 4 arcs combined"
+			description: [
+				"Using an infusion pedestal (See End Exploration chapter) and all 4 boss arcs you can create the Infused Arc Sword, a sword that can charge up to deal double damage."
+				""
+				"All ingredients can be obtained from either the overworld or blue skies, You do not need to access the end to make the sword."
+				""
+				"The sword has extremely low enchantability, so you may have to use enchanted books to apply enchantments to it."
+			]
+			dependencies: [
+				"0DF7112340FB8A00"
+				"1A14F33889B103A2"
+			]
+			id: "24CFE033EACDA5C3"
+			tasks: [{
+				id: "47CAF057C07BD186"
+				type: "item"
+				item: {
+					id: "blue_skies:infused_arc_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "36BB824D92DC7041"
+				type: "item"
+				item: {
+					id: "randomite:randomite_ore"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5
+			}]
+		}
 	]
 }

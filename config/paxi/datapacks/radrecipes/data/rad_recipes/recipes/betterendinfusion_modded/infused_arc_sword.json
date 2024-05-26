@@ -1,0 +1,40 @@
+{
+  "type": "betterendforge:infusion",
+  "input": {
+    "item": "blue_skies:charoite_sword"
+  },
+  "output": {
+    "id": "blue_skies:infused_arc_sword",
+    "Count": 1,
+    "tag": {
+      "InfusedCooldown": 1
+    }
+  },
+  "time": 400,
+  "catalysts": [
+    {
+      "item": {
+        "item": "blue_skies:ethereal_arc"
+      },
+      "index": 0
+    },
+    {
+      "item": {
+        "item": "blue_skies:dusk_arc"
+      },
+      "index": 2
+    },
+    {
+      "item": {
+        "item": "blue_skies:nature_arc"
+      },
+      "index": 4
+    },
+    {
+      "item": {
+        "item": "blue_skies:poison_arc"
+      },
+      "index": 6
+    }
+  ]
+}

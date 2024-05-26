@@ -31,6 +31,8 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:mysticalworld:lead_shovel>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Heavy Weapon modifier", -0.25, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
 <item:mysticalworld:lead_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Heavy Weapon modifier", -0.25, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
 
+//infused arc sword double damage when charged
+<item:blue_skies:infused_arc_sword>.withTag({InfusedCooldown: 0 as int}).anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb3", "Weapon modifier", 4.2, ADDITION, [<equipmentslottype:mainhand>]);
 
 //weighted lead + magic resistance
 <item:mysticalworld:lead_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "309220a7-861a-48f8-b601-4b85c503c890", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:head>]);
