@@ -294,6 +294,8 @@ onEvent('item.tags', event => {
 	event.add('curios:curse_ring', 'enigmaticlegacy:cursed_ring')
 	event.remove('curios:ring', 'enigmaticlegacy:cursed_ring')
 
+	event.add('forge:cheese', 'simplefarming:cheese_slice')
+	event.add('forge:cheese', 'simplefarming:cheese_block')
 })
 
 onEvent('player.logged_in', event => {
