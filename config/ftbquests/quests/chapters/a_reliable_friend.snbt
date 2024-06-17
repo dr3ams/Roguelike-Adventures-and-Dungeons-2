@@ -21,6 +21,7 @@
 				"Step 3:"
 				"Feed the dog at least one Training Treat and the dog will disappear for a very brief second and a dog without a collar will take its place. At this point, you now have a Doggy Talents dog."
 			]
+			dependencies: ["3E1010E7853074C0"]
 			size: 1.5d
 			id: "000000000000062D"
 			tasks: [{
@@ -559,6 +560,7 @@
 				"Sneak Click the bed with an empty hand \\& offhand while your dog is on it to set their spawn to that bed. If done correctly the bed when clicked on again without sneaking will show your dog as the owner of the bed."
 				""
 				"If the dog were to ever die clicking their bed will respawn them back where they died."
+				"If a dog dies in another dimension they will respawn at the coordinates of their death, but instead in the dimension the bed is in."
 				""
 				"Dogs also regenerate health faster when on a bed."
 			]
@@ -748,7 +750,7 @@
 					Damage: 0
 				}
 			}
-			x: -2.0d
+			x: -5.5d
 			y: -4.5d
 			description: [
 				"Pets won't survive against the champions without a good defense."
@@ -759,7 +761,7 @@
 				""
 				"Try equipping armors with aura effects; they can turn your pets into powerful supports!"
 			]
-			dependencies: ["000000000000062F"]
+			dependencies: ["3E1010E7853074C0"]
 			id: "6C2E2AA49378EE39"
 			tasks: [{
 				id: "7FA3E78C24A8B216"
@@ -836,6 +838,26 @@
 					ftb_money: 10L
 				}
 			]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			description: [
+				"You tamed a new friend to accompany you in your adventures!"
+				""
+				"Don't worry about bringing them along, for you will never be able to hurt your own pets in this modpack."
+				"And you can also equip them with armor to protect them against foes."
+				""
+				"Pets will also slowly regenerate health over time, though feeding them their favorite food is still recommended to speed up the healing."
+			]
+			size: 1.5d
+			id: "3E1010E7853074C0"
+			tasks: [{
+				id: "730C32C610098E16"
+				type: "advancement"
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+			}]
 		}
 	]
 }

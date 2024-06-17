@@ -30,8 +30,13 @@ CTEventManager.register<MCPlayerLoggedInEvent>((event) => {
 	} else {
 		if (player.getPersistentData().contains("feedbackNotified"))
 			return;
-		player.updatePersistentData({feedbackNotified: 1});
 		world.asServerWorld().server.executeCommand("tellraw " + username + ' [{"text":"Welcome to ","color":"white"},{"text":"RAD 2! ","color":"green"},{"text":"Check the ","color":"white"},{"text":"Specialization","color":"gold"},{"text":" Tab in the ","color":"white"},{"translate":"item.ftbquests.book","color":"white"},{"text":" to pick your starting kit. It also contains some useful info and a lot of ","color":"white"},{"text":"quests!","color":"green"}]', true);
 	}
+
+		if (player.getPersistentData().contains("feedbackNotified"))
+			return;
+		world.asServerWorld().server.executeCommand("execute if score dummy GameState matches 1.. run tellraw " + username + ' [{"text":"Since you joined a server in expert or master mode there is a booster kit available in the ","color":"gold"},{"translate":"item.ftbquests.book","color":"gold"},{"text":" to get some xp for iron equipment.","color":"gold"}]', true);
+		player.updatePersistentData({feedbackNotified: 1});
+		world.asServerWorld().server.executeCommand('ftbquests change_progress ' + username + ' complete 2358E374BEAF092F', true);
 	
 });
