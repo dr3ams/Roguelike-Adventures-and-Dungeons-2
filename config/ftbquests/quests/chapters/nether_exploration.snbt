@@ -2630,7 +2630,7 @@
 				"I think you know what to do with these..."
 				"Good Luck!"
 			]
-			dependencies: ["4ABA0AF14F4830E5"]
+			dependencies: ["6D946460884FA90E"]
 			id: "2DF36A4C59310AB7"
 			tasks: [
 				{
@@ -2695,15 +2695,15 @@
 			shape: "octagon"
 			subtitle: "New mechanics for Expert Mode:"
 			description: [
-				"- loot has a 25% chance to be doubled"
+				"- Loot has a 25% chance to be doubled"
 				""
-				"- experience from all sources is increased by 20%"
+				"- Experience from all sources is increased by 20%"
 				""
-				"- all monsters have their health and damage increased by 20%(at night the bonus is doubled to 40%)"
+				"- All monsters have their health and damage increased by 20%(at night the bonus is doubled to 40%)"
 				""
-				"- Illusioner spawn naturally during the night"
+				"- Illusioners spawn naturally during the night"
 				""
-				"- new Elite Skeleton spawn naturally during the night(shoots arrows extremely precisely)"
+				"- New Elite Skeletons spawn naturally during the night(shoots arrows extremely precisely)"
 				""
 				"- Piglins may spawn in a group"
 				""
@@ -2717,13 +2717,13 @@
 				""
 				"- Undead Army now has 4 waves"
 				""
-				"- undead spawned during the Undead Army are twice as likely to have enchanted items"
+				"- Undead spawned during the Undead Army are twice as likely to have enchanted items"
 				""
-				"- undead spawned during the Undead Army are twice as likely to have armor pieces"
+				"- Undead spawned during the Undead Army are twice as likely to have armor pieces"
 				""
 				"- Undead Army gives 100% more experience for completing it"
 				""
-				"- whenever you die from Bleeding or are killed by a Zombie there spawns a special Zombie with your head"
+				"- Whenever you die from Bleeding or are killed by a Zombie there spawns a special Zombie with your head"
 			]
 			dependencies: ["2DF36A4C59310AB7"]
 			size: 1.5d
@@ -3136,7 +3136,7 @@
 			x: 3.0d
 			y: -0.5d
 			description: ["A scythe is useful to obtain wither skulls at a much higher rate."]
-			optional: true
+			dependencies: ["4ABA0AF14F4830E5"]
 			id: "6D946460884FA90E"
 			tasks: [{
 				id: "501FC3186E30C604"

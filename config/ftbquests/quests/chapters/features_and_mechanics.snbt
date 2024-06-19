@@ -292,7 +292,6 @@
 				"The strength of mobs is determined by the average difficulty of nearby players."
 			]
 			dependencies: ["38049609F73B874B"]
-			hide: true
 			id: "0F19628AC9F04F38"
 			tasks: [{
 				id: "7006A7CF76CC94F9"
@@ -630,7 +629,6 @@
 				"You can use the scroll bar or your mouse wheel to see all the slots."
 			]
 			dependencies: ["2B14E71EF06F5938"]
-			hide: true
 			id: "0E5AE2A43020AFC3"
 			tasks: [{
 				id: "0904DC2D17454C24"
@@ -737,7 +735,6 @@
 				"You can create a party with the \"/pmmo party\" command, which gives increased XP gain, reduced friendly fire, and minor Skill XP sharing."
 			]
 			dependencies: ["79F271A2D7FA06A1"]
-			hide: true
 			id: "000000000000009D"
 			tasks: [{
 				id: "000000000000009E"
@@ -1209,6 +1206,7 @@
 				"5562C277365DF050"
 				"5AC9081752E85D51"
 			]
+			dependency_requirement: "one_completed"
 			size: 0.85d
 			optional: true
 			id: "6754527124EA8B6B"
@@ -1243,7 +1241,6 @@
 				"7D7A71EA9FCC15E2"
 				"68203BBBB58B26EA"
 			]
-			hide: true
 			size: 1.5d
 			id: "0A8694E6D7E5B93E"
 			tasks: [{
@@ -1339,7 +1336,7 @@
 				""
 				"-Tier 1 Champions can be identified by their yellow particles, while Tier 2 champions will have orange particles."
 				""
-				"Fighting these champions is not always the best option early in the game.Champions are a test of your knowledge of building, agility and modded knowledge; charging in with just a sword is almost a guaranteed way to get a quick death."
+				"Fighting these champions is not always the best option early in the game. Champions are a test of your knowledge of building, agility and modded knowledge; charging in with just a sword is almost a guaranteed way to get a quick death."
 				""
 				"When faced against these mobs, be creative with the two mobility options from the previous quests to quickly escape from danger when needed by dashing through the champions when cornered or getting onto high ground where they cannot reach you."
 			]
@@ -1347,7 +1344,6 @@
 				"55DE8B3522A4F8A6"
 				"0617314E10C6AEF9"
 			]
-			hide: true
 			id: "38049609F73B874B"
 			tasks: [{
 				id: "72DE9AD07435F340"
@@ -1395,15 +1391,7 @@
 		}
 		{
 			title: "Just Enough Items (JEI)"
-			icon: {
-				id: "ars_nouveau:glyph_craft"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "ars_nouveau:glyph_craft"
 			x: -6.0d
 			y: -2.0d
 			subtitle: "Your encyclopedia for modded recipes!"
@@ -1419,7 +1407,6 @@
 				""
 			]
 			dependencies: ["7FF57EE6F8F6FC1C"]
-			hide: true
 			id: "7B1C0892C86A4177"
 			tasks: [{
 				id: "4665A7B467B41395"
@@ -1441,7 +1428,6 @@
 				"You do not lose the item when completing these quests."
 			]
 			dependencies: ["7B1C0892C86A4177"]
-			hide: true
 			id: "1AC343ABFB96DF71"
 			tasks: [
 				{
@@ -1556,7 +1542,6 @@
 				"When you die you will lose 25% progress to gaining a level, however you will never lose actual levels meaning you will not lose access to unlocked requirements after completing them."
 			]
 			dependencies: ["7B1C0892C86A4177"]
-			hide: true
 			id: "79F271A2D7FA06A1"
 			tasks: [{
 				id: "35029CE2D859E7F9"
@@ -1874,7 +1859,6 @@
 				"They can also come in the form of barrels and shulker boxes in some structures."
 			]
 			dependencies: ["143E7EB383FC8A60"]
-			hide: true
 			id: "2B14E71EF06F5938"
 			tasks: [{
 				id: "74E46D8664297FE3"
