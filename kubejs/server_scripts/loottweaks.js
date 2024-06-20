@@ -21,6 +21,9 @@ onEvent("lootjs", event => {
     // turn ingots back into emeralds in village chests. Not getting them that easily...
     event.addLootTableModifier(/.*chests\/village.*/).randomChance(1.0).thenReplace("kubejs:emerald_ingot", "minecraft:emerald");
 
+    // turn ingots back into emeralds for dungeons gear enchantment effects
+    event.addLootTableModifier(/.*dungeons_gear:enchantments.*/).randomChance(1.0).thenReplace("kubejs:emerald_ingot", "minecraft:emerald");
+
 })
 
 onEvent('block.loot_tables', event => {

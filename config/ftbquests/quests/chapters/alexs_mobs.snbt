@@ -2415,7 +2415,11 @@
 		{
 			x: -4.0d
 			y: 10.5d
-			description: ["The Crimson Mosquito is a native of Crimson Forests where it will suck the blood of almost any creature. It can then spit this blood back at other targets."]
+			description: [
+				"The Crimson Mosquito is a native of Crimson Forests where it will suck the blood of almost any creature. It can then spit this blood back at other targets."
+				""
+				"Champion Mosquitos are also very effective at spreading the plague..."
+			]
 			id: "3EF3C919FDC60E1B"
 			tasks: [{
 				id: "5E6012AB1B7B64E9"
@@ -2686,6 +2690,22 @@
 					id: "6A2376672884C884"
 					type: "item"
 					item: "majruszs_difficulty:bandage"
+				}
+				{
+					id: "7D7686B69A1B8DF5"
+					type: "command"
+					title: "Make a player suspicious (works better in multiplayer, chance to backfire!)"
+					icon: {
+						id: "kubejs:magnifier"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					command: "/tellraw @a [{\"text\":\"<\"},{\"selector\":\"@r\"},{\"text\":\"> I think \"},{\"selector\":\"@r\"},{\"text\":\" is suspicious\"}]"
+					player_command: false
 				}
 			]
 		}
@@ -3258,6 +3278,7 @@
 			}]
 		}
 		{
+			title: "Dropbear Encountered"
 			icon: {
 				id: "alexsmobs:tab_icon"
 				Count: 1b
@@ -3269,30 +3290,23 @@
 			y: 9.5d
 			description: ["The Dropbear is an evil creature native to the Nether Wastes. It hangs from the ceiling where it waits for things to walk beneath it to drop down upon and attack."]
 			id: "0544039A394BA4C5"
-			tasks: [
-				{
-					id: "3904F121483CB9A9"
-					type: "checkmark"
-					title: "Dropbear Encountered"
-				}
-				{
-					id: "02FCD11BA9A44382"
-					type: "observation"
-					title: "Dropbear"
-					icon: {
-						id: "alexsmobs:spawn_egg_dropbear"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				id: "02FCD11BA9A44382"
+				type: "observation"
+				title: "Dropbear"
+				icon: {
+					id: "alexsmobs:spawn_egg_dropbear"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					timer: 0L
-					observe_type: 5
-					to_observe: "alexsmobs:dropbear"
 				}
-			]
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:dropbear"
+			}]
 			rewards: [{
 				id: "2B0A0D2830DC0523"
 				type: "xp"

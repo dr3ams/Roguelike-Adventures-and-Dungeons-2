@@ -293,30 +293,6 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 9.5d
-			description: ["By applying this upgrade to your oven it will be able to accept RF to cook food, no longer requiring fuel."]
-			dependencies: ["0000000000000FF6"]
-			id: "000000000000100A"
-			tasks: [{
-				id: "000000000000100B"
-				type: "item"
-				item: "cookingforblockheads:heating_unit"
-			}]
-			rewards: [
-				{
-					id: "00000000000012F2"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "7C6B1878ADC16A46"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
 			x: 2.0d
 			y: 10.5d
 			description: [

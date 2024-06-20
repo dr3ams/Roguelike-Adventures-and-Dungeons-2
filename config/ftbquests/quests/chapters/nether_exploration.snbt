@@ -7,18 +7,32 @@
 	icon: "minecraft:crimson_nylium"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: -6.5d
-		y: -7.5d
-		width: 3.0d
-		height: 3.0d
-		rotation: 0.0d
-		image: "nethers_delight:textures/block/crimson_fungus_colony_stage3.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
+	images: [
+		{
+			x: -6.5d
+			y: -7.5d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "nethers_delight:textures/block/crimson_fungus_colony_stage3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: 4.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/warped_roots.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			x: 0.0d
@@ -52,7 +66,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -1.5d
 			y: -4.0d
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "46986285004F8604"
@@ -75,7 +89,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -1.0d
 			y: -5.5d
 			dependencies: ["46986285004F8604"]
 			id: "0BC837BAE9BF5D1D"
@@ -253,7 +267,7 @@
 		}
 		{
 			x: 0.5d
-			y: -3.0d
+			y: -3.5d
 			description: ["Drops gold nuggets when mined. Careful not to anger the locals..."]
 			dependencies: ["4ABA0AF14F4830E5"]
 			dependency_requirement: "one_completed"
@@ -400,8 +414,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 2.5d
+			x: -2.0d
+			y: 1.5d
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "0D02D42CC2FE1569"
 			tasks: [{
@@ -422,8 +436,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 1.5d
+			x: -2.5d
+			y: -2.0d
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "3974D350BB9DAE3A"
 			tasks: [{
@@ -470,8 +484,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 2.0d
+			x: -3.5d
+			y: -2.5d
 			dependencies: ["3974D350BB9DAE3A"]
 			id: "3547528CA228CD35"
 			tasks: [{
@@ -651,8 +665,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.5d
+			x: -3.5d
+			y: 2.5d
 			dependencies: ["0D02D42CC2FE1569"]
 			id: "6F71C255CDF5A4D9"
 			tasks: [{
@@ -2293,8 +2307,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -2.0d
+			x: -0.5d
+			y: -3.5d
 			description: ["Has unique painting designs"]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "26273B48330D94FC"
@@ -2322,8 +2336,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -6.5d
+			x: 0.5d
+			y: -6.0d
 			dependencies: ["357B034F06F47129"]
 			id: "1C246B7933ACF8FA"
 			tasks: [
@@ -2401,7 +2415,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: 0.0d
 			y: -5.0d
 			dependencies: ["46986285004F8604"]
 			id: "357B034F06F47129"
@@ -2429,7 +2443,7 @@
 			]
 		}
 		{
-			x: 0.0d
+			x: -0.5d
 			y: -7.0d
 			dependencies: ["0BC837BAE9BF5D1D"]
 			id: "29EAFB7C2D441011"
@@ -2494,8 +2508,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 0.5d
+			x: 1.5d
+			y: 2.5d
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "192679B4B812DFED"
 			tasks: [{
@@ -2616,7 +2630,7 @@
 				"I think you know what to do with these..."
 				"Good Luck!"
 			]
-			dependencies: ["4ABA0AF14F4830E5"]
+			dependencies: ["6D946460884FA90E"]
 			id: "2DF36A4C59310AB7"
 			tasks: [
 				{
@@ -2681,15 +2695,15 @@
 			shape: "octagon"
 			subtitle: "New mechanics for Expert Mode:"
 			description: [
-				"- loot has a 25% chance to be doubled"
+				"- Loot has a 25% chance to be doubled"
 				""
-				"- experience from all sources is increased by 20%"
+				"- Experience from all sources is increased by 20%"
 				""
-				"- all monsters have their health and damage increased by 20%(at night the bonus is doubled to 40%)"
+				"- All monsters have their health and damage increased by 20%(at night the bonus is doubled to 40%)"
 				""
-				"- Illusioner spawn naturally during the night"
+				"- Illusioners spawn naturally during the night"
 				""
-				"- new Elite Skeleton spawn naturally during the night(shoots arrows extremely precisely)"
+				"- New Elite Skeletons spawn naturally during the night(shoots arrows extremely precisely)"
 				""
 				"- Piglins may spawn in a group"
 				""
@@ -2703,13 +2717,13 @@
 				""
 				"- Undead Army now has 4 waves"
 				""
-				"- undead spawned during the Undead Army are twice as likely to have enchanted items"
+				"- Undead spawned during the Undead Army are twice as likely to have enchanted items"
 				""
-				"- undead spawned during the Undead Army are twice as likely to have armor pieces"
+				"- Undead spawned during the Undead Army are twice as likely to have armor pieces"
 				""
 				"- Undead Army gives 100% more experience for completing it"
 				""
-				"- whenever you die from Bleeding or are killed by a Zombie there spawns a special Zombie with your head"
+				"- Whenever you die from Bleeding or are killed by a Zombie there spawns a special Zombie with your head"
 			]
 			dependencies: ["2DF36A4C59310AB7"]
 			size: 1.5d
@@ -2841,14 +2855,17 @@
 			]
 		}
 		{
+			title: "Heading to the end"
 			x: 6.0d
 			y: -2.0d
+			shape: "octagon"
 			description: [
 				"Now you have needed materials to locate the End portal and face the Ender Dragon!"
 				""
 				"Are you sure you are ready?"
 			]
 			dependencies: ["641181016BC6E8FA"]
+			size: 1.25d
 			id: "216F05F4361A6D0F"
 			tasks: [
 				{
@@ -3119,7 +3136,7 @@
 			x: 3.0d
 			y: -0.5d
 			description: ["A scythe is useful to obtain wither skulls at a much higher rate."]
-			optional: true
+			dependencies: ["4ABA0AF14F4830E5"]
 			id: "6D946460884FA90E"
 			tasks: [{
 				id: "501FC3186E30C604"
@@ -3241,6 +3258,48 @@
 					}
 				}
 			]
+		}
+		{
+			icon: {
+				id: "spartanweaponry:piglin_head"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.0d
+			y: -5.0d
+			description: [
+				"- Piglins now have a reputation system that works similarly to Villagers. Doing things like fighting alongside them against Wither mobs, giving them gifts and bartering with them increases your reputation. Doing things like hurting or killing Piglin mobs and engaging in unauthorized mining/chest opening around them decreases your reputation."
+				""
+				"- At +50 reputation with a Piglin, you will no longer be required to wear gold armor around them. At +100 reputation, you will be authorized to open chests and mine gold around them."
+				""
+				"- At -50 reputation with a Piglin, you will no longer receive items from bartering. At -100 reputation, you will be attacked on sight regardless of whether or not you are wearing gold armor."
+				""
+				"- Piglins seek out and pick up food items (by default, porkchops and cooked porkchops) and consume them, complete with an eating animation. Players can also right-click them with their food items if the Piglin has not already recently eaten and they will accept it. Eating food will also restore a Piglin's health in an amount identical to the food item's hunger value."
+				""
+				"- Piglins can now barter with gold nuggets and gold blocks. Gold nuggets make you far more likely to receive common barter items, with all item stack sizes halved. Gold blocks make you far more likely to receive rare barter items, with all item stack sizes doubled."
+				""
+				"- Piglins now shake their heads like Villagers when declining an offered item."
+				""
+				" Piglins now emit particles/make sounds when accepting an item from you or declining it."
+				""
+				""
+			]
+			dependencies: ["67A339531A61A13F"]
+			id: "0DA780E82198E59C"
+			tasks: [{
+				id: "4C371DDFD42B66C2"
+				type: "checkmark"
+				title: "New Piglins Behavior"
+			}]
+			rewards: [{
+				id: "665866DA9908B914"
+				type: "item"
+				item: "minecraft:golden_carrot"
+			}]
 		}
 	]
 }
