@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 0.0d
-			y: -1.0d
+			x: -0.07d
+			y: -0.95d
 			width: 10.0d
 			height: 10.0d
 			rotation: 0.0d
@@ -64,138 +64,6 @@
 				id: "5592572112E7815D"
 				type: "item"
 				item: "supplementaries:candy"
-			}]
-		}
-		{
-			icon: {
-				id: "losttrinkets:creepo"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 7.5d
-			y: 3.0d
-			description: [
-				"Lost Trinkets adds more than 70+ unlockable trinkets with different abilities and rarities."
-				""
-				"Trinkets are randomly unlocked when you doing some activities like fighting enemies and bosses, trading, mining ores, cutting trees, and farming.Each activity has a rarity of unlocking trinkets eg: killing bosses has a better chance than normal enemies"
-				""
-				"You can access the trinket GUI by pressing the R key on your keyboard. "
-				"========================"
-				"There are also countless amount of curious(baubles) which have their own slot in your inventory. Each with unique different ability or property. "
-			]
-			dependencies: ["5F7DCF112F9F6C1C"]
-			id: "46999E88BCF5B1BD"
-			tasks: [{
-				id: "62A65DFCEE9F4AA5"
-				type: "checkmark"
-				title: "Trinkets"
-			}]
-			rewards: [
-				{
-					id: "49273F2D34DC8D06"
-					type: "item"
-					item: "supplementaries:candy"
-				}
-				{
-					id: "3C1CFE358EE92938"
-					type: "item"
-					item: "minecraft:apple"
-				}
-			]
-		}
-		{
-			title: "Ore Excavation"
-			icon: "itemfilters:not"
-			x: 7.0d
-			y: 2.0d
-			description: [
-				"This pack has ore Excavation(or veinmining) feature that allows players to mine whole veins of ore or cut down whole trees in one go."
-				""
-				"Controls (you will likely need to change that):"
-				"` - (hold) excavate"
-			]
-			dependencies: ["518DF4A178673014"]
-			id: "143E7EB383FC8A60"
-			tasks: [{
-				id: "0EEDD89EE27ED37B"
-				type: "checkmark"
-				title: "Ultimine"
-			}]
-			rewards: [{
-				id: "65B246D328EEEA52"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "apotheosis:strong_haste"
-					}
-				}
-			}]
-		}
-		{
-			icon: "itemfilters:not"
-			x: 1.0d
-			y: 0.0d
-			description: [
-				"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that item\\s recipe."
-				"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids."
-				"• To search by mod name use the \"@\" key before search in search box. (e.g. @Quark)"
-				"• To select the search box without clicking on it, the player can press Ctrl + F."
-				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A."
-				""
-			]
-			dependencies: ["2DDD649416AA95EC"]
-			id: "7B1C0892C86A4177"
-			tasks: [{
-				id: "4665A7B467B41395"
-				type: "checkmark"
-				title: "JEI(recipe browser)"
-			}]
-			rewards: [
-				{
-					id: "5353785639EC83D0"
-					type: "item"
-					item: "minecraft:torch"
-					count: 2
-				}
-				{
-					id: "214983D047D7EB57"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-			]
-		}
-		{
-			icon: "itemfilters:id_regex"
-			x: 1.0d
-			y: -2.0d
-			description: [
-				"Quests come in a number of different types in this pack."
-				""
-				"You can have quests for simply traveling to a destination or by traveling a certain number of blocks."
-				""
-				"A majority of the quests in this pack will be completed by gaining the required item in your inventory. You will automatically get a pop up message in the top corner when this happens."
-				""
-				"The final quest type, such as this one, simply requires you to click the checkbox in the Tasks box to complete the quest (as a confirmation of reading :])."
-				""
-				"Finally to collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
-			]
-			dependencies: ["2DDD649416AA95EC"]
-			id: "5AD3CAD77014FECC"
-			tasks: [{
-				id: "6BF0D787CC57A597"
-				type: "checkmark"
-				title: "Quest Types and Rewards"
-			}]
-			rewards: [{
-				id: "2C9FAD1B34763B10"
-				type: "item"
-				item: "minecraft:apple"
 			}]
 		}
 		{
@@ -2314,11 +2182,7 @@
 			x: 20.5d
 			y: -1.0d
 			shape: "gear"
-			description: [
-				"Nether portals now come in the form of Dimensional Rifts, which you'll find scattered deep underground. You'll have to find one of these Rifts in order to get to the Nether."
-				""
-				"For information on how to enter and exit the Nether, refer to the \"New nether portal mechanics\" quest in the \"Features | Mechanics\" chapter."
-			]
+			description: ["Nether portals now come in the form of Dimensional Rifts, which you'll find scattered deep underground. You'll have to find one of these Rifts in order to get to the Nether."]
 			dependencies: ["446936F80D06B8A4"]
 			id: "1C7D1D2C57D866A2"
 			tasks: [{
@@ -3345,7 +3209,7 @@
 			title: "You asked for this, Mage"
 			x: 20.0d
 			y: 7.0d
-			description: ["Blame @Doctor Mage#5234"]
+			description: ["Blame @doctor_mage"]
 			hide_dependency_lines: false
 			dependencies: ["76CDF977DD44821E"]
 			hide: true
@@ -3628,34 +3492,6 @@
 			]
 		}
 		{
-			title: "Experience, skills and character progression."
-			x: 4.0d
-			y: 0.0d
-			subtitle: "(brief explanation about stats)"
-			description: [
-				"Project MMO allows players to advance through the game in their own unique method. Compared to traditional Minecraft gameplay where players have to craft powerful armors and weapons and later rely entirely on them for damage and protection, Project MMO introduces a more “RPG-styled” method of progressing through the game."
-				""
-				"Starting the game you will not be able to use armor, decent tools and specific artifacts/relics/baubles, because this requires a certain level of the player associated with a specific item. In addition to the restrictions - leveling gives a variety of bonuses - passive(like improving your damage) or active(like the ability to salvage item for another one), thereby engaging in certain activities, you will improve your character."
-				""
-				"As players perform a certain action, they would get better at doing so. For example, if a player wants to become the best warrior, they can train themselves by swinging their swords all day to earn more points in strength."
-				""
-				"You will be able to see the settings of the mod when you press the P button"
-			]
-			dependencies: ["18FF6DA5335C0711"]
-			id: "79F271A2D7FA06A1"
-			tasks: [{
-				id: "35029CE2D859E7F9"
-				type: "pmmo:skill"
-				skill: "agility"
-				requiredLevel: 1.0d
-			}]
-			rewards: [{
-				id: "3EF5B45E046B2310"
-				type: "random"
-				table_id: 8545390299491237994L
-			}]
-		}
-		{
 			title: "Leap Of Faith"
 			x: 0.0d
 			y: 8.0d
@@ -3728,69 +3564,6 @@
 					auto: "invisible"
 					skill: "flying"
 					amount: 1.0d
-				}
-			]
-		}
-		{
-			title: "Reforging?"
-			icon: {
-				id: "minecraft:smithing_table"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 0.0d
-			y: 5.0d
-			subtitle: "No goblins to rob you of your hard earned platinum"
-			description: [
-				"To reforge an item interact with a smithing table."
-				""
-				"Click the reforge button."
-				""
-				"Add the item + its repair material and click the hammer"
-			]
-			id: "0D3A108B094C746F"
-			tasks: [{
-				id: "73E91283ED684744"
-				type: "observation"
-				title: "Reforging?"
-				icon: "minecraft:smithing_table"
-				timer: 80L
-				observe_type: 0
-				to_observe: "minecraft:smithing_table"
-			}]
-			rewards: [
-				{
-					id: "35A3201138EF4229"
-					type: "item"
-					item: {
-						id: "minecraft:cobblestone"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "665C2F0D72342C11"
-					type: "item"
-					item: {
-						id: "minecraft:stone_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
 				}
 			]
 		}
@@ -3972,76 +3745,14 @@
 			]
 		}
 		{
-			icon: {
-				id: "minecraft:end_crystal"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 24.5d
-			y: -1.0d
-			shape: "gear"
-			subtitle: "Next chapter: End!"
-			description: ["You can find more quests for End dimension in 'End Exploration' chapter!"]
-			dependencies: ["008B0C537B24A89F"]
-			id: "359F39A14EC630B9"
-			tasks: [{
-				id: "46670F28D9622188"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "3F29E09F7659682A"
-				type: "item"
-				item: {
-					id: "roughtweaks:medkit"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 23.5d
-			y: -1.0d
-			description: [
-				"Gather needed materials in Nether and prepare yourself to enter The End dimension!"
-				""
-				"To access the End, you must go through the process of finding a stronghold using eyes of ender, finding the portal room, and activating the end portal in the end portal room by filling the 12 end portal frames each with an eye of ender. Each frame block has a 10% chance of generating with an eye in it already, meaning you may not necessarily use 12 eyes to activate it."
-				""
-			]
-			dependencies: ["07CCE1397519FEDA"]
-			id: "008B0C537B24A89F"
-			tasks: [{
-				id: "35201FBC45860505"
-				type: "item"
-				item: {
-					id: "minecraft:ender_eye"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "1114A58D5C1C7725"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
 			title: "What's next?"
 			icon: "kubejs:skull2"
-			x: 22.5d
+			x: 24.0d
 			y: -1.0d
-			subtitle: "Expert Mode starts when the first player kills the Wither"
-			description: ["For detailed explanation of new mechanics for Expert Mode visit \"Features | Mechanics\" chapter."]
-			dependencies: ["1C7D1D2C57D866A2"]
+			shape: "octagon"
+			description: ["Check the Nether Exploration Chapter to find quests relating to the nether!"]
+			dependencies: ["25045A0059F4E280"]
+			size: 2.0d
 			id: "07CCE1397519FEDA"
 			tasks: [{
 				id: "658E392E488348C7"
@@ -4049,33 +3760,6 @@
 			}]
 			rewards: [{
 				id: "7D8824F7F11C404F"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			icon: {
-				id: "kubejs:skull2"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 25.5d
-			y: -1.0d
-			subtitle: "Master Mode starts when the first player kills the Ender Dragon."
-			description: ["For detailed explanation of new mechanics for Master Mode visit \"Features | Mechanics\" chapter."]
-			dependencies: ["359F39A14EC630B9"]
-			id: "094D987502D8F928"
-			tasks: [{
-				id: "43224396FE9DF54F"
-				type: "checkmark"
-				title: "Master mode"
-			}]
-			rewards: [{
-				id: "710AAA393FBC476E"
 				type: "xp"
 				xp: 100
 			}]
@@ -4243,7 +3927,7 @@
 			}]
 		}
 		{
-			x: 19.5d
+			x: 16.5d
 			y: -4.5d
 			description: ["You can also disenchant useless enchanted books and any equipment on Grindstone and get some levels back."]
 			dependencies: ["43509530CAD67EE9"]
@@ -4704,6 +4388,219 @@
 					table_id: 768393147870328736L
 				}
 			]
+		}
+		{
+			title: "New Enchantment system by Apotheosis"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: 19.5d
+			y: -4.5d
+			description: [
+				"There is now a new system for enchanting that uses three stats, instead of the original single stat system."
+				""
+				"To support the new enchantment stat system, Apotheosis adds 11 new bookshelves, each with their own unique enchanting stat combinations.  Shown here are the Endshelves, Seashelves, Hellshelves, the Beeshelf and the Melonshelf.  Combinations of these shelves can allow for any stat values you could dream of, however, reaching significantly high Eterna levels requires Endshelves."
+			]
+			dependencies: ["43509530CAD67EE9"]
+			id: "6FCA404FDB2D82CC"
+			tasks: [{
+				id: "07F42EA7E8CC38A5"
+				type: "checkmark"
+				title: "New Enchanting mechanics"
+			}]
+			rewards: [{
+				id: "25FD19220EA221C0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Eterna"
+			x: 20.5d
+			y: -4.5d
+			description: [
+				"Eterna is the base power of your enchantments. It is what determines how strong your enchantments will be and its level cost."
+				""
+				"Most bookshelves provide eterna, up to a maximum."
+				""
+				"The vanilla bookshelf only can have up to 15 Eterna so you will need stronger bookshelves in order to get stronger enchantments."
+			]
+			dependencies: ["6FCA404FDB2D82CC"]
+			id: "0A7911EB233F4FD6"
+			tasks: [{
+				id: "15DC3E6F6598D84C"
+				type: "checkmark"
+				title: "Eterna"
+				icon: {
+					id: "buzzier_bees:lime_candle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 21.5d
+			y: -4.5d
+			description: [
+				"Quanta adds some randomness to your enchanting power."
+				""
+				"When enchanting it will either increase or decrease the base power by its amount."
+				""
+				"Most mob heads provite quanta, up to a maximum."
+				""
+				"By default the enchanting table has 15 quanta which means the enchanting power can be anywhere from -15 to +15 more powerful."
+				""
+				"Rectification can be used to reduce the negative effects of quanta. Glowstone, Amethyst Blocks, and Rectification Shelves can provide rectification."
+			]
+			dependencies: ["0A7911EB233F4FD6"]
+			id: "09F74D0C27C859A1"
+			tasks: [{
+				id: "28FEC88005A016BF"
+				type: "checkmark"
+				title: "Quanta"
+				icon: {
+					id: "buzzier_bees:orange_candle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Arcana"
+			icon: "buzzier_bees:purple_candle"
+			x: 22.5d
+			y: -4.5d
+			description: [
+				"Arcana increases the chance of finding rarer, more valuable enchantments."
+				""
+				"At 25% and 75% Arcana, you will gain an extra enchantment when enchanting items."
+				""
+				"Jack-o-lanterns are an easy way of increasing your arcana."
+			]
+			dependencies: ["09F74D0C27C859A1"]
+			id: "0054E85C9D29551B"
+			tasks: [{
+				id: "6BE566D5A9954337"
+				type: "checkmark"
+				title: "Arcana"
+				icon: {
+					id: "buzzier_bees:purple_candle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "betterportals:portal_fluid_bucket"
+			x: 22.0d
+			y: -1.0d
+			description: [
+				"The classic obsidian square nether portals won't work here."
+				""
+				"Instead, Nether portals now come in the form of Dimensional Rifts, which you'll find scattered deep underground. You'll have to find one of these Rifts in order to get to the Nether - but be careful, because it's now a one-way trip!"
+				""
+				"To get back from the Nether, you'll have to search for a Monolith. These are new, semi-rare structures that can be easily spotted from far away thanks to the beams they shoot into the sky."
+				""
+				"The block at the center of each Monolith that shoots this beam is called a Reclaimer, and it's the key to returning to the Overworld. However, the Reclaimer won't do much without a little power. In order to power it, you'll have to place a gold block on each of its four sides - something that shouldn't be too difficult to pull off in the Nether. "
+				""
+				"Once powered, the Reclaimer has the ability to lift you back into the Overworld."
+				"================================="
+				" You can bucket the Dimensional Plasma from a Dimensional Rift to bring it closer to your base, and you can mine the Reclaimer from a Monolith and place it right by where your Plasma teleports you to in the Nether."
+				""
+				"So, it's pretty close to a two-way portal, the only real difference being you'll have to find a Dimensional Rift and a Monolith first."
+			]
+			dependencies: ["1C7D1D2C57D866A2"]
+			id: "25045A0059F4E280"
+			tasks: [{
+				id: "7C18E741D1CA3145"
+				type: "checkmark"
+				title: "New nether portal mechanics"
+			}]
+			rewards: [{
+				id: "079877221EB51759"
+				type: "item"
+				item: {
+					id: "minecraft:golden_carrot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "enigmaticlegacy:enchantment_transposer"
+			x: 16.5d
+			y: -2.5d
+			description: [
+				"There are multiple methods to perform disenchanting."
+				""
+				"Cobwebs can be used in an anvil to remove non-curse enchantments."
+				""
+				"Prismatic Cobwebs can be used in an anvil to remove curse enchantments."
+				""
+				"Book of Disenchantment can be used with a Grave Soul to strip multiple enchantments from items (not books), into individual books. Knowledge of Death perks can increase the amount extracted."
+				""
+				"Tome of Hungering Knowledge crafts together with an enchanted item to transfer all enchantments to one book."
+				""
+				"Tome of Scrapping is the only method that destroys the item, and it only takes some enchantments."
+			]
+			dependencies: ["43509530CAD67EE9"]
+			id: "4FFE28F3DB5EC162"
+			tasks: [{
+				id: "4C7B1B6EFBA461F3"
+				type: "checkmark"
+				title: "Disenchanting"
+			}]
+			rewards: [{
+				id: "48EE2F06FDD8213D"
+				type: "item"
+				icon: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:protection"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				item: {
+					id: "minecraft:book"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
 		}
 	]
 }

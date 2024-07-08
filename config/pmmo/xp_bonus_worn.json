@@ -2408,34 +2408,36 @@
 		"farming": 50
 	},
 	"kubejs:mark_warrior": {
-		"combat": 10,
+		"combat": 15,
 		"endurance": 15
 	},
 	"kubejs:mark_mercenary": {
-		"combat": 25,
-		"endurance": 20
+		"combat": 35,
+		"endurance": 35
 	},
 	"kubejs:mark_champion": {
 		"combat": 50,
-		"endurance": 30
+		"endurance": 50
 	},
 	"kubejs:mark_archer": {
-		"archery": 10
+		"archery": 15
 	},
 	"kubejs:mark_arbalester": {
-		"archery": 25
+		"archery": 30
 	},
 	"kubejs:mark_artillerist": {
-		"archery": 50
+		"archery": 60
 	},
 	"kubejs:mark_wizard": {
-		"magic": 15
+		"magic": 25
 	},
 	"kubejs:mark_alchemist": {
-		"magic": 30
+		"magic": 40,
+		"alchemy": 10
 	},
 	"kubejs:mark_thaumaturge": {
-		"magic": 60
+		"magic": 65,
+		"alchemy": 20
 	},
 	"kubejs:mark_pirate": {
 		"combat": 10,
@@ -2482,32 +2484,32 @@
 	"kubejs:mark_healer": {
 		"light": 15,
 		"alchemy": 25,
-		"magic": 25
+		"magic": 15
 	},
 	"kubejs:mark_spiritualist": {
 		"light": 25,
 		"alchemy": 50,
-		"magic": 50
+		"magic": 40
 	},
 	"kubejs:mark_shaman": {
 		"light": 50,
 		"alchemy": 75,
-		"magic": 75
+		"magic": 65
 	},
 	"kubejs:mark_pitfighter": {
-		"agility": 25,
-		"combat": 15,
+		"agility": 15,
+		"combat": 10,
 		"endurance": 15
 	},
 	"kubejs:mark_fighter": {
-		"agility": 50,
-		"combat": 35,
-		"endurance": 35
+		"agility": 40,
+		"combat": 25,
+		"endurance": 20
 	},
 	"kubejs:mark_underdog": {
-		"agility": 75,
+		"agility": 65,
 		"combat": 50,
-		"endurance": 50
+		"endurance": 30
 	},
 	"kubejs:mark_tamer": {
 		"agility": 25,
