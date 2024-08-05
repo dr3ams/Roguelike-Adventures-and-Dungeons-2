@@ -17,7 +17,7 @@ onEvent("lootjs", event => {
             let treasureSeekerLevel = $CorailEntityHelper.getPerkLevelWithBonus(context.getKillerEntity().minecraftPlayer, $CorailModPerks.treasure_seeker)
             let chanceboost = 1 + treasureSeekerLevel * 0.3 + luck * 0.1
             
-            console.log("Grave Dust: " + 0.01 * chanceboost)
+            //console.log("Grave Dust: " + 0.01 * chanceboost)
             for (let i = 0; i < Math.ceil(Math.sqrt(looting)) + 1; i++) {
                 if (Math.random() < (0.01 * chanceboost)) {
                     context.addLoot('tombstone:grave_dust')
