@@ -3302,16 +3302,27 @@
 			}]
 		}
 		{
+			icon: {
+				id: "kubejs:arrow_up"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 14.0d
-			y: -1.0d
+			y: -0.5d
 			subtitle: "Take your books to the next level!"
 			description: [
 				"Apex Upgrading is a new type of enchanting utilizing a fully powered beacon."
 				""
 				"To start, place 5 standard chests next to the beacon, 1 on each side \\& on top."
 				""
-				""
+				"Then in the top chest, place 4 of the same level enchanted book and use a totem of undying on it."
+				"If done right, an animation with end crystals will occur and the enchanted book will be upgraded, which can upgrade books way beyond their max level."
 			]
+			dependencies: ["30D48209ECED6B8B"]
 			id: "169FADF0D87C1DB2"
 			tasks: [{
 				id: "37B9E0119410B141"
