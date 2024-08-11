@@ -889,13 +889,14 @@
 		}
 		{
 			x: 6.0d
-			y: 0.5d
+			y: 1.0d
 			description: ["Both the everbright and everdawn need four of these to access their tower illager boss. Can't find all four? Here's a hint: check the brewing stands!"]
 			id: "2A1BA8C5A433CB02"
 			tasks: [{
 				id: "25A3C9BEE96D20D3"
 				type: "item"
 				item: "blue_skies:blinding_key"
+				count: 4L
 			}]
 			rewards: [
 				{
@@ -2837,6 +2838,210 @@
 				}
 				count: 5
 			}]
+		}
+		{
+			title: "Resummoning the Summoner"
+			x: 6.0d
+			y: -0.5d
+			description: [
+				"Using your Ethereal Arc on the keystone will allow you to resummon the boss for better rewards."
+				""
+				"The Arc will not be consumed."
+			]
+			dependencies: ["436F1887204A780B"]
+			id: "50E0D9E7E8D46B70"
+			tasks: [{
+				id: "7D2D18B9502A583F"
+				type: "questsadditions:use"
+				block: "blue_skies:bright_blinding_keystone"
+				value: 1L
+				checkItem: true
+				isItemInteraction: false
+				item: {
+					id: "blue_skies:ethereal_arc"
+					Count: 1b
+					tag: {
+						ArcLevel: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1923F52D708568BA"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "73B5CC102AA4A678"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Respawning the Alchemist"
+			x: 6.0d
+			y: 5.5d
+			description: [
+				"Using the dusk arc on the keystone will respawn the Alchemist, improving his rewards."
+				""
+				"The arc will not be consumed."
+			]
+			dependencies: ["4B967D68D94BF6D0"]
+			id: "69F2667A4E5CC2C0"
+			tasks: [{
+				id: "28D7AFBC380AF993"
+				type: "questsadditions:use"
+				block: "blue_skies:dawn_blinding_keystone"
+				value: 1L
+				checkItem: true
+				isItemInteraction: false
+				item: {
+					id: "blue_skies:dusk_arc"
+					Count: 1b
+					tag: {
+						ArcLevel: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0DD16D958ABB4153"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "5232EC4090C52865"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Regrowing the Starlit Crusher"
+			x: 15.5d
+			y: -4.5d
+			description: [
+				"If you read the previous resummoning quest you should know how this works."
+				""
+				"If not, just use the arc on the nature keystone and the starlit crusher will respawn."
+			]
+			dependencies: ["2376F4CD121F43F6"]
+			id: "65D22F17959C58AC"
+			tasks: [{
+				id: "20F3CCA6F8E0BFDB"
+				type: "questsadditions:use"
+				block: "blue_skies:nature_keystone"
+				value: 1L
+				checkItem: true
+				isItemInteraction: false
+				item: {
+					id: "blue_skies:nature_arc"
+					Count: 1b
+					tag: {
+						ArcLevel: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1723DF37CB241116"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "2C2CB354EB24122B"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Re-evoking the Arachnarch"
+			x: 15.5d
+			y: 5.5d
+			description: ["No need to find a new structure! Use the poisonous arc on the keystone to fight arachnarch again."]
+			dependencies: ["45879AD48D37550E"]
+			id: "71803E71AF943D59"
+			tasks: [{
+				id: "39AC4CFEC6788EB2"
+				type: "questsadditions:use"
+				block: "blue_skies:poison_keystone"
+				value: 1L
+				checkItem: true
+				isItemInteraction: false
+				item: {
+					id: "blue_skies:poison_arc"
+					Count: 1b
+					tag: {
+						ArcLevel: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6D6DC3E078572BEA"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "247E76A4638B6B15"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 	]
 }

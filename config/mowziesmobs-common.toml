@@ -1,7 +1,7 @@
 
 [general]
 	#Add a mob's full name here to prevent it from being frozen or taking damage from ice magic.
-	freeze_blacklist = ["mowziesmobs:frostmaw", "minecraft:enderdragon", "minecraft:blaze", "minecraft:magma_cube"]
+	freeze_blacklist = ["mowziesmobs:frostmaw", "minecraft:enderdragon", "minecraft:blaze", "minecraft:magma_cube", "iceandfire:ice_dragon"]
 
 [tools_and_abilities]
 	#Range: 0.0 ~ 1.7976931348623157E308
@@ -12,10 +12,10 @@
 		#Range: > 0
 		suns_blessing_duration = 60
 		#Range: 0.0 ~ 1.7976931348623157E308
-		suns_blessing_attack_multiplier = 1.0
+		suns_blessing_attack_multiplier = 4.0
 		#Cost in minutes of using the solar beam ability.
 		#Range: > 0
-		solar_beam_cost = 5
+		solar_beam_cost = 3
 
 	[tools_and_abilities.wrought_helm]
 		#Set to true for the Wrought Helm to have limited durability.
@@ -56,7 +56,7 @@
 	[tools_and_abilities.ice_crystal]
 		#Multiply all damage done with the ice crystal by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_multiplier = 1.0
+		attack_multiplier = 2.0
 		#Set to true for the ice crystal to have limited durability.
 		#Prevents regeneration in inventory.
 		breakable = false

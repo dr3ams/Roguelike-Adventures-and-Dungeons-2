@@ -154,6 +154,18 @@ event.hide('losttrinkets:book_o_enchanting')
 event.hide('losttrinkets:ash_gloves')
 event.hide('losttrinkets:octopus_leg')
 event.hide('losttrinkets:magical_feathers')
+event.hide('losttrinkets:horseshoe')
+event.hide('losttrinkets:tha_ghost')
+event.hide('losttrinkets:warm_void')
+event.hide('losttrinkets:fire_mind')
+event.hide('losttrinkets:starfish')
+event.hide('losttrinkets:dark_egg')
+event.hide('losttrinkets:mirror_shard')
+event.hide('losttrinkets:mossy_ring')
+event.hide('losttrinkets:mossy_belt')
+event.hide('losttrinkets:treasure_ring')
+event.hide('losttrinkets:octopick')
+event.hide('losttrinkets:magical_herbs')
 
 event.hide('pickletweaks:magnet')
 
@@ -283,6 +295,11 @@ event.hide('twilightdelight:ego_blade')
 event.hide('buddycards:medal.5')
 event.hide('cookingforblockheads:heating_unit')
 event.hide('sophisticatedbackpacks:battery_upgrade')
+
+event.hide('paraglider:heart_container')
+event.hide('alexsmobs:mimicream')
+event.hide('upgradednetherite_items:ultimate_upgraded_netherite_totem')
+event.hide('upgradednetherite_items:creative_upgraded_netherite_totem')
 })
 
 onEvent('item.tooltip', tooltip => {
@@ -291,7 +308,167 @@ onEvent('item.tooltip', tooltip => {
 	text.add(1, Text.gold('May contain answers to some questions'))  
     text.add(2, Text.of('This book belongs to ').append(Client.player.name))
   })
-  
+
+    let standard_arrows = [
+        ['minecraft:arrow'],
+        ['minecraft:spectral_arrow'],
+        ['minecraft:tipped_arrow'],
+        ['fins:teal_arrowfish'],
+        ['apotheosis:broadhead_arrow'],
+        ['apotheosis:explosive_arrow'],
+        ['archers_paradox:prismarine_arrow'],
+        ['archers_paradox:shulker_arrow'],
+        ['betterdefaultbiomes:hunter_arrow'],
+        ['betterdefaultbiomes:bandit_arrow'],
+        ['betterdefaultbiomes:torch_arrow'],
+        ['ars_nouveau:split_arrow'],
+        ['ars_nouveau:pierce_arrow'],
+        ['ars_nouveau:amplify_arrow'],
+        ['rats:rat_arrow'],
+        ['supplementaries:rope_arrow'],
+        ['alexsmobs:shark_tooth_arrow']
+    ]
+
+    let strong_arrows = [
+        ['archers_paradox:quartz_arrow'],
+        ['iceandfire:amphithere_arrow']
+    ]
+
+    let weak_arrows = [
+        ['archers_paradox:blaze_arrow'],
+        ['archers_paradox:lightning_arrow'],
+        ['archers_paradox:frost_arrow']
+    ]
+
+    let extra_weak_arrows = [
+        ['archers_paradox:displacement_arrow'],
+        ['archers_paradox:explosive_arrow'],
+        ['archers_paradox:glowstone_arrow'],
+        ['archers_paradox:redstone_arrow'],
+        ['archers_paradox:spore_arrow'],
+        ['archers_paradox:verdant_arrow'],
+        ['archers_paradox:ender_arrow']
+    ]
+
+    let harmless_arrows = [
+        ['archers_paradox:training_arrow'],
+        ['archers_paradox:challenge_arrow'],
+        ['apotheosis:iron_mining_arrow'],
+        ['apotheosis:diamond_mining_arrow']
+    ]
+
+    let netheritebows = [
+        ['upgradednetherite:netherite_bow'],
+        ['upgradednetherite:gold_upgraded_netherite_bow'],
+        ['upgradednetherite:fire_upgraded_netherite_bow'],
+        ['upgradednetherite:ender_upgraded_netherite_bow'],
+        ['upgradednetherite:water_upgraded_netherite_bow'],
+        ['upgradednetherite:wither_upgraded_netherite_bow'],
+        ['upgradednetherite:poison_upgraded_netherite_bow'],
+        ['upgradednetherite:phantom_upgraded_netherite_bow'],
+        ['upgradednetherite:feather_upgraded_netherite_bow'],
+        ['upgradednetherite:corrupt_upgraded_netherite_bow']
+    ]
+
+    let netheritecrossbows = [
+        ['upgradednetherite:netherite_crossbow'],
+        ['upgradednetherite:gold_upgraded_netherite_crossbow'],
+        ['upgradednetherite:fire_upgraded_netherite_crossbow'],
+        ['upgradednetherite:ender_upgraded_netherite_crossbow'],
+        ['upgradednetherite:water_upgraded_netherite_crossbow'],
+        ['upgradednetherite:wither_upgraded_netherite_crossbow'],
+        ['upgradednetherite:poison_upgraded_netherite_crossbow'],
+        ['upgradednetherite:phantom_upgraded_netherite_crossbow'],
+        ['upgradednetherite:feather_upgraded_netherite_crossbow'],
+        ['upgradednetherite:corrupt_upgraded_netherite_crossbow']
+    ]
+
+  tooltip.addAdvanced(standard_arrows, (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.spartanweaponry.modifiers.projectile.base_damage').darkAqua().append(Text.of('2.0').gray()) )
+	text.add(2,Text.translate('tooltip.spartanweaponry.modifiers.projectile.range').darkAqua().append(Text.of('x1.0').gray()) )  
+  })
+
+  tooltip.addAdvanced(weak_arrows, (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.spartanweaponry.modifiers.projectile.base_damage').darkAqua().append(Text.of('1.5').gray()) )
+	text.add(2,Text.translate('tooltip.spartanweaponry.modifiers.projectile.range').darkAqua().append(Text.of('x1.0').gray()) )  
+  })
+
+  tooltip.addAdvanced(extra_weak_arrows, (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.spartanweaponry.modifiers.projectile.base_damage').darkAqua().append(Text.of('0.5').gray()) )
+	text.add(2,Text.translate('tooltip.spartanweaponry.modifiers.projectile.range').darkAqua().append(Text.of('x1.0').gray()) )  
+  })
+
+  tooltip.addAdvanced(harmless_arrows, (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.spartanweaponry.modifiers.projectile.base_damage').darkAqua().append(Text.of('0.0').gray()) )
+	text.add(2,Text.translate('tooltip.spartanweaponry.modifiers.projectile.range').darkAqua().append(Text.of('x1.0').gray()) )  
+  })
+
+  tooltip.addAdvanced('archers_paradox:slime_arrow', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.spartanweaponry.modifiers.projectile.base_damage').darkAqua().append(Text.of('0.5').gray()) )
+	text.add(2,Text.translate('tooltip.spartanweaponry.modifiers.projectile.range').darkAqua().append(Text.of('x1.0 x 8 bounces').gray()) )  
+  })
+
+  tooltip.addAdvanced('supplementaries:amethyst_arrow', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.spartanweaponry.modifiers.projectile.base_damage').darkAqua().append(Text.of('1.0').gray()) )
+	text.add(2,Text.translate('tooltip.spartanweaponry.modifiers.projectile.range').darkAqua().append(Text.of('x1.0').gray()) )  
+	text.add(3, Text.gold('Splits into shards on hit')) 
+  })
+
+  tooltip.addAdvanced('apotheosis:obsidian_arrow', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.spartanweaponry.modifiers.projectile.base_damage').darkAqua().append(Text.of('2.4').gray()) )
+	text.add(2,Text.translate('tooltip.spartanweaponry.modifiers.projectile.range').darkAqua().append(Text.of('x1.0').gray()) )  
+  })
+
+  tooltip.addAdvanced(strong_arrows, (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.spartanweaponry.modifiers.projectile.base_damage').darkAqua().append(Text.of('2.5').gray()) )
+	text.add(2,Text.translate('tooltip.spartanweaponry.modifiers.projectile.range').darkAqua().append(Text.of('x1.0').gray()) )  
+  })
+
+  tooltip.addAdvanced('iceandfire:sea_serpent_arrow', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.spartanweaponry.modifiers.projectile.base_damage').darkAqua().append(Text.of('3.0').gray()) )
+	text.add(2,Text.translate('tooltip.spartanweaponry.modifiers.projectile.range').darkAqua().append(Text.of('x1.0').gray()) )  
+  })
+
+  tooltip.addAdvanced('iceandfire:stymphalian_arrow', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.spartanweaponry.modifiers.projectile.base_damage').darkAqua().append(Text.of('3.5').gray()) )
+	text.add(2,Text.translate('tooltip.spartanweaponry.modifiers.projectile.range').darkAqua().append(Text.of('x6.0').gray()) )  
+  })
+
+  tooltip.addAdvanced('archers_paradox:diamond_arrow', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.spartanweaponry.modifiers.projectile.base_damage').darkAqua().append(Text.of('4.0').gray()) )
+	text.add(2,Text.translate('tooltip.spartanweaponry.modifiers.projectile.range').darkAqua().append(Text.of('x1.0').gray()) )  
+  })
+
+  tooltip.addAdvanced('iceandfire:hydra_arrow', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.spartanweaponry.modifiers.projectile.base_damage').darkAqua().append(Text.of('5.0').gray()) )
+	text.add(2,Text.translate('tooltip.spartanweaponry.modifiers.projectile.range').darkAqua().append(Text.of('x1.0').gray()) )  
+  })
+
+  tooltip.addAdvanced('iceandfire:dragonbone_arrow', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.spartanweaponry.modifiers.projectile.base_damage').darkAqua().append(Text.of('10.0').gray()) )
+	text.add(2,Text.translate('tooltip.spartanweaponry.modifiers.projectile.range').darkAqua().append(Text.of('x1.0').gray()) )  
+  })
+
+  tooltip.addAdvanced(netheritebows, (item, advanced, text) => {
+	text.add(1,Text.of('Sets ').aqua().append(Text.of('Base Damage').darkAqua().append(Text.of(' of shot arrows to ').aqua().append(Text.of('3.0').gray()))) )
+  }) 
+
+  tooltip.addAdvanced(netheritecrossbows, (item, advanced, text) => {
+	text.add(1,Text.of('Sets ').aqua().append(Text.of('Range').darkAqua().append(Text.of(' of shot arrows to ').aqua().append(Text.of('x1.5').gray()))) )
+  }) 
+
+//phantasmal arrow intentionally not added here
+
+    let tooltip_wolf_armors = [
+        ['atum:desert_wolf_iron_armor'],
+        ['atum:desert_wolf_gold_armor'],
+        ['atum:desert_wolf_diamond_armor']
+    ]
+
+  tooltip.addAdvanced(tooltip_wolf_armors, (item, advanced, text) => {
+	text.add(1,Text.of('Worn by desert wolves only, found in the Atum dimension. Other wolves can wear player armor.').aqua())
+  }) 
+
 })
 
 

@@ -859,5 +859,76 @@
 				criterion: ""
 			}]
 		}
+		{
+			title: "Pet Care"
+			x: -2.0d
+			y: -4.0d
+			shape: "circle"
+			description: [
+				"Regular Meat doesn't heal your dogs like it does with wolves. You will need certain special items to heal your dog."
+				""
+				"Dog Food can be fed to instantly heal the dog while bandages can be used to clear bleed on them."
+			]
+			dependencies: ["000000000000062D"]
+			id: "40509027210B7392"
+			tasks: [
+				{
+					id: "13B8B5296057EF47"
+					type: "item"
+					item: {
+						id: "farmersdelight:dog_food"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "443E3B15590EB520"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:bandage"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "65C5BB7531065573"
+					type: "item"
+					item: {
+						id: "farmersdelight:dog_food"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "47F2CFECF900C093"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:bandage"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
 	]
 }

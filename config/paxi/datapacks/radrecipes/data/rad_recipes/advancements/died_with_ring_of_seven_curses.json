@@ -1,0 +1,26 @@
+{
+  "parent": "rad_recipes:has_ring_of_seven_curses",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "rad_recipes:has_ring_of_seven_curses": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "rad_recipes:ring_of_seven_curses_death_reminder"
+  }
+}

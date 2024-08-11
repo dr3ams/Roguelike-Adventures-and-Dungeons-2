@@ -177,13 +177,25 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:buddycards:perfect_buddysteel_boots>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "cba394eb-e251-43f9-b4b8-6439c95bec51", "buddy magic", 0.2, ADDITION, [<equipmentslottype:feet>]);
 
 //forbidden axe buff (Smite damage, Souls, Lifesteal)
-<item:enigmaticlegacy:forbidden_axe>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:smite>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "undead smite bonus", 4, ADDITION, [<equipmentslottype:mainhand>]);
-<item:enigmaticlegacy:forbidden_axe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "execution soul harvest", 2, ADDITION, [<equipmentslottype:mainhand>]);
+<item:enigmaticlegacy:forbidden_axe>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:smite>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "undead smite bonus", 3, ADDITION, [<equipmentslottype:mainhand>]);
+<item:enigmaticlegacy:forbidden_axe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "execution soul harvest", 4, ADDITION, [<equipmentslottype:mainhand>]);
 <item:enigmaticlegacy:forbidden_axe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "execution life steal bonus", 0.05, ADDITION, [<equipmentslottype:mainhand>]);
 
-//The Twist buff (+150% Magic Damage in Offhand)
-<item:enigmaticlegacy:the_twist>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "db5fd450-851b-45c4-89b8-059bb1df7f62", "twisted spellcasting", 1.5, ADDITION, [<equipmentslottype:offhand>]);
-<item:enigmaticlegacy:the_twist>.anyDamage().anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Twisted Spellcasting: +150% Magic Damage in the offhand").setStyle(<formatting:dark_purple>));
+//Silver Spartan Weaponry smite
+<item:spartanweaponry:longbow_silver>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:smite>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "undead smite bonus", 2, ADDITION, [<equipmentslottype:mainhand>]);
+<item:spartanweaponry:heavy_crossbow_silver>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:smite>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "undead smite bonus", 2, ADDITION, [<equipmentslottype:mainhand>]);
+
+//Enderite Pearl
+<item:upgradednetherite_items:ender_upgraded_netherite_pearl>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "no attack", -1, MULTIPLY_TOTAL, [<equipmentslottype:mainhand>]);
+<item:upgradednetherite_items:ender_upgraded_netherite_pearl>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "extra reach", 2, ADDITION, [<equipmentslottype:mainhand>]);
+
+//Wand and Scepter buff
+<item:eidolon:soulfire_wand>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.5, ADDITION, [<equipmentslottype:mainhand>]);
+<item:eidolon:soulfire_wand>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.5, ADDITION, [<equipmentslottype:offhand>]);
+<item:twilightforest:twilight_scepter>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.0, ADDITION, [<equipmentslottype:mainhand>]);
+<item:twilightforest:twilight_scepter>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.0, ADDITION, [<equipmentslottype:offhand>]);
+<item:twilightforest:lifedrain_scepter>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.0, ADDITION, [<equipmentslottype:mainhand>]);
+<item:twilightforest:lifedrain_scepter>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.0, ADDITION, [<equipmentslottype:offhand>]);
 
 //unplaceable spawners
 <item:minecraft:spawner>.addGlobalAttributeModifier(<attribute:forge:reach_distance>, "a6f5182f-39e8-4f5d-9998-fc9ddf7c969f", "Unplaceable", -1, MULTIPLY_TOTAL, [<equipmentslottype:mainhand>]);
@@ -230,6 +242,13 @@ for allItems in game.items {
 	    if (allItems.getDefinition().isIn(<tag:items:upgradednetherite:upgraded_netherite_horse_armor>) ) {
 		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 3, ADDITION, [<equipmentslottype:chest>]);
 		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, "a4b21eca-d3ca-3ecd-72a7-b2a5dbb53dc7", "Horse Knockback Resistance", 0.1, ADDITION, [<equipmentslottype:chest>]);
+	    }
+
+	    if (allItems.getDefinition().isIn(<tag:items:radrecipes:netherite_bows_durability_boost>) ) {
+    var bowMaxDurability = allItems.maxDamage;
+    if bowMaxDurability != 0 {
+        allItems.maxDamage = bowMaxDurability * 3;
+    }
 	    }
 
 }

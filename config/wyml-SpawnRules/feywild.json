@@ -1,0 +1,101 @@
+{
+	"mod": "feywild",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"mandragora": {
+						// Do not edit this name
+						"name": "mandragora",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dwarf_baker": {
+						// Do not edit this name
+						"name": "dwarf_baker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"winter_pixie": {
+						// Do not edit this name
+						"name": "winter_pixie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"shroomling": {
+						// Do not edit this name
+						"name": "shroomling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dwarf_dragon_hunter": {
+						// Do not edit this name
+						"name": "dwarf_dragon_hunter",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dwarf_shepherd": {
+						// Do not edit this name
+						"name": "dwarf_shepherd",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"bee_knight": {
+						// Do not edit this name
+						"name": "bee_knight",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dwarf_miner": {
+						// Do not edit this name
+						"name": "dwarf_miner",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dwarf_toolsmith": {
+						// Do not edit this name
+						"name": "dwarf_toolsmith",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"spring_pixie": {
+						// Do not edit this name
+						"name": "spring_pixie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dwarf_blacksmith": {
+						// Do not edit this name
+						"name": "dwarf_blacksmith",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dwarf_artificer": {
+						// Do not edit this name
+						"name": "dwarf_artificer",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"summer_pixie": {
+						// Do not edit this name
+						"name": "summer_pixie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"autumn_pixie": {
+						// Do not edit this name
+						"name": "autumn_pixie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": { }
+			}
+		}
+	}
+}

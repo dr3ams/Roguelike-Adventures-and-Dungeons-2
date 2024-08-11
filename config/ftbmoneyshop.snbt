@@ -393,7 +393,7 @@
 						id: "ftbquests:lootcrate"
 						Count: 1b
 						tag: {
-							CustomModelData: 1,
+							CustomModelData: 1
 							type: "crate_crate"
 						}
 						ForgeCaps: {
@@ -570,10 +570,9 @@
 					item: {
 						id: "enigmaticlegacy:cursed_ring"
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+						tag: {
+							Damage: 0
+							itemModifier: "modifiers:none"
 						}
 					}
 					buy: 500L
@@ -596,78 +595,156 @@
 			}
 			entries: [
 				{
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:swiftness"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					buy: 15L
+					item: "bountifulbaubles:potion_recall"
+					buy: 100L
 				}
 				{
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strength"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					buy: 15L
-				}
-				{
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "quark:resistance"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					buy: 20L
-				}
-				{
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "apotheosis:haste"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					buy: 15L
-				}
-				{
-					item: {
-						id: "bountifulbaubles:potion_recall"
-						Count: 1b
-					}
+					item: "bountifulbaubles:potion_wormhole"
 					buy: 100L
 				}
 				{
 					item: {
-						id: "bountifulbaubles:potion_wormhole"
+						id: "minecraft:potion"
 						Count: 1b
+						tag: {
+							CustomPotionEffects: [
+								{
+									Duration: 1200
+									Id: 39b
+									Amplifier: 1b
+								}
+								{
+									Duration: 1200
+									Id: 42b
+									Amplifier: 4b
+								}
+							]
+							Potion: "minecraft:thick"
+							display: {
+								Lore: ["{\"text\":\"Deal and recieve double damage\",\"color\":\"dark_red\",\"italic\":false}"]
+								Name: "{\"italic\":false,\"text\":\"Berserker's Brew\",\"color\":\"dark_red\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
 					}
-					buy: 100L
+					buy: 85L
+				}
+				{
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [
+								{
+									Duration: 600
+									Id: -87b
+									Amplifier: 0b
+								}
+								{
+									Duration: 600
+									Id: -110b
+									Amplifier: 0b
+								}
+								{
+									Duration: 600
+									Id: 124b
+									Amplifier: 0b
+								}
+								{
+									Duration: 200
+									Id: 108b
+									Amplifier: 0b
+								}
+							]
+							Potion: "minecraft:mundane"
+							display: {
+								Lore: ["{\"text\":\"A fine blend of the coldest minerals in this world.\",\"color\":\"blue\",\"italic\":false}"]
+								Name: "{\"italic\":false,\"text\":\"Chilly Concoction\",\"color\":\"aqua\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 85L
+				}
+				{
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [
+								{
+									Duration: 600
+									Id: 44b
+									Amplifier: 0b
+								}
+								{
+									Duration: 600
+									Id: 114b
+									Amplifier: 0b
+								}
+								{
+									Duration: 600
+									Id: 94b
+									Amplifier: 0b
+								}
+								{
+									Duration: 600
+									Id: 33b
+									Amplifier: 0b
+								}
+							]
+							Potion: "minecraft:mundane"
+							display: {
+								Lore: ["{\"text\":\"Lots of bleeding.\",\"color\":\"gray\",\"italic\":false}"]
+								Name: "{\"italic\":false,\"text\":\"Potion of a thousand cuts\",\"color\":\"red\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 35L
+				}
+				{
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [
+								{
+									Duration: 2400
+									Id: 14b
+									Amplifier: 0b
+								}
+								{
+									Duration: 2400
+									Id: 93b
+									Amplifier: 0b
+								}
+							]
+							Potion: "minecraft:mundane"
+							display: {
+								Lore: ["{\"text\":\"Become one with the shadows.\",\"color\":\"dark_gray\",\"italic\":false}"]
+								Name: "{\"italic\":false,\"text\":\"Shade Potion\",\"color\":\"gray\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 85L
 				}
 			]
 		}
@@ -676,10 +753,6 @@
 			icon: {
 				id: "usefulhats:lucky_hat"
 				Count: 1b
-				tag: {
-					Damage: 0
-					itemModifier: "modifiers:intrepid"
-				}
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -687,37 +760,41 @@
 				}
 			}
 			entries: [
-			{
-				item: {
-					id: "spartanweaponry:pike_wood"
-					Count: 1b
-					tag: {
-						CustomModelData: 1
-						Damage: 0
-						display: {
-							Name: "{\"translate\":\"item.rad2.big_stick\",\"bold\":\"true\",\"italic\":\"false\"}"
+				{
+					item: {
+						id: "spartanweaponry:pike_wood"
+						Count: 1b
+						tag: {
+							CustomModelData: 1
+							Damage: 0
+							display: {
+								Name: "{\"translate\":\"item.rad2.big_stick\",\"bold\":\"true\",\"italic\":\"false\"}"
+							}
 						}
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [{
-								data: [{
-									lvl: 1s
-									id: "uniquee:combo_star"
-								},{
-									lvl: 1s
-									id: "minecraft:knockback"
-								},{
-									lvl: 1s
-									id: "uniquee:ecological"
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [
+										{
+											lvl: 1s
+											id: "uniquee:combo_star"
+										}
+										{
+											lvl: 1s
+											id: "minecraft:knockback"
+										}
+										{
+											lvl: 1s
+											id: "uniquee:ecological"
+										}
+									]
+									source: "dungeons_libraries:gear_config"
 								}]
-								source: "dungeons_libraries:gear_config"
-							}]
+							}
 						}
 					}
+					buy: 75L
 				}
-				buy: 75L
-			}
 				{
 					item: {
 						id: "usefulhats:lucky_hat"
@@ -847,44 +924,26 @@
 		}
 		{
 			title: "Consumable"
-			icon: {
-				id: "minecraft:enchanted_golden_apple"
-				Count: 1b
-			}
+			icon: "minecraft:enchanted_golden_apple"
 			entries: [
 				{
-					item: {
-						id: "berry_nice:goldensweetberry"
-						Count: 1b
-					}
+					item: "berry_nice:goldensweetberry"
 					buy: 20L
 				}
 				{
-					item: {
-						id: "brewevolution:full_dried_bread"
-						Count: 1b
-					}
+					item: "brewevolution:full_dried_bread"
 					buy: 10L
 				}
 				{
-					item: {
-						id: "atum:quail_cooked"
-						Count: 1b
-					}
+					item: "atum:quail_cooked"
 					buy: 30L
 				}
 				{
-					item: {
-						id: "farmersdelight:bacon_sandwich"
-						Count: 1b
-					}
+					item: "farmersdelight:bacon_sandwich"
 					buy: 40L
 				}
 				{
-					item: {
-						id: "quark:golden_frog_leg"
-						Count: 1b
-					}
+					item: "quark:golden_frog_leg"
 					buy: 50L
 				}
 			]

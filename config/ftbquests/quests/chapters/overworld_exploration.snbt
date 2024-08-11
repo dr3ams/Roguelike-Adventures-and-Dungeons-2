@@ -4320,7 +4320,7 @@
 		{
 			x: 20.0d
 			y: 6.0d
-			description: ["A refined ingot created by smelting Emerald Ores, and also rarely found in loot chests replacing normal emeralds (except village chests)"]
+			description: ["A refined alloy created by crafting together Emeralds and Tin, and also rarely found in loot chests replacing normal emeralds (except village chests)"]
 			dependencies: ["544027B606EEA00D"]
 			id: "4424404688C4DA49"
 			tasks: [
@@ -4601,6 +4601,73 @@
 					}
 				}
 			}]
+		}
+		{
+			title: "Repairing"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:mending"
+					}]
+				}
+			}
+			x: 15.0d
+			y: -2.5d
+			subtitle: "Mending isn't the only way; alternative enchantments to repair your gear"
+			description: [
+				"While you may already know of the vanilla repair methods; crafting, anvil repairing and mending, this pack adds many new enchantments and items to restore durability on your items."
+				""
+				"Reinforced and Ecological slowly restore durability over time."
+				""
+				"Warrior's Grace is a powerful enchantment that repairs your weapon by defeating mobs."
+				""
+				"Preservation and Second Life fully repair your tool when its about to break, at the cost of losing a level of this enchantment."
+				""
+				"Mending itself as a few variants too, like Ender Mending and the cursed Life Mending enchantments."
+				""
+				""
+				"There are also a few items that can repair your gear too, like Mending Mixture and the Book of Repairing. Give them a try!"
+				""
+				"(The book of repairing needs a decorative grave, see the Essence of Undeath quest found in the bottom left of this chapter)"
+			]
+			dependencies: ["2AA12D542527B597"]
+			id: "1C7CB1E29AADFB98"
+			tasks: [{
+				id: "090F037FFBAEE28E"
+				type: "checkmark"
+				title: "Repairing Methods"
+			}]
+			rewards: [
+				{
+					id: "1A9C1852683F27C6"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:mending_mixture"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2FACCB33DB2BA43E"
+					type: "item"
+					item: {
+						id: "tombstone:book_of_repairing"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 	]
 }

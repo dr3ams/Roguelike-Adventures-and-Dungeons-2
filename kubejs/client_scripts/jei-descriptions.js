@@ -28,7 +28,8 @@ event.add('elenaidodge2:iron_feather', ["When brewed with an Awkward Potion crea
 event.add('elenaidodge2:golden_feather', ["When brewed with an Awkward Potion creates a Potion of Feathers. Add to a Regeneration Potion to create a Replenishment Potion. (JEI doesn't show these recipes for some reason)"])
 event.add('undergarden:regalium_ingot', ["Used to trade with Stoneborn."])
 event.add('minecraft:emerald', ["This polished gem is well desired by villagers but is too brittle to be used for crafting equipment."])
-event.add('kubejs:emerald_ingot', ["A Refined Emerald Ore that can be used for crafting equipment. Found from Emerald Ores or Rarely from any loot chest replacing normal emeralds"])
+event.add('kubejs:emerald_ingot', ["A Refined Emerald Ore that can be used for crafting equipment."])
+event.add('iceandfire:dread_queen_sword', ["Awarded for completing the Large Dread Gate Pearl"])
 event.add('blue_skies:infused_arc_sword', ["Charges up over time. When fully charged, the next 31 times you attack, your damage is doubled, after which it changes back to its normal damage."])
 
 

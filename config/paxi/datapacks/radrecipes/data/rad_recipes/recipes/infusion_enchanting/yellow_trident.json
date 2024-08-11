@@ -1,0 +1,24 @@
+{
+	"type": "apotheosis:enchanting",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"input": {
+		"item": "apotheosis:inert_trident"
+	},
+	"requirements": {
+		"eterna": 20,
+		"quanta": 50,
+		"arcana": 35
+	},
+	"max_requirements": {
+		"eterna": 30,
+		"quanta": -1,
+		"arcana": -1
+	},
+	"result": {
+		"item": "dungeons_mobs:yellow_trident",
+		"count": 1
+	}
+}

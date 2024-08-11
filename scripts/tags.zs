@@ -3,6 +3,13 @@ import crafttweaker.api.food.MCFood;
 
 <tag:blocks:twilightforest:portal/edge>.add(<block:byg:meadow_grass_block>);
 
+<tag:blocks:minecraft:dragon_immune>.add(
+   <block:betterendforge:flavolite>,
+   <block:betterendforge:flavolite_stairs>,
+   <block:betterendforge:flavolite_wall>,
+   <block:betterendforge:thallasium_bars>
+);
+
 //<tag:items:curios:charm>.remove(<item:storagenetwork:collector_remote>);
 
 for item in game.items {
@@ -13,6 +20,43 @@ for item in game.items {
     }
   }
 }
+
+<tag:items:radrecipes:netherite_bows_durability_boost>.add(
+    <item:upgradednetherite:netherite_bow>,
+    <item:upgradednetherite:gold_upgraded_netherite_bow>,
+    <item:upgradednetherite:fire_upgraded_netherite_bow>,
+    <item:upgradednetherite:ender_upgraded_netherite_bow>,
+    <item:upgradednetherite:water_upgraded_netherite_bow>,
+    <item:upgradednetherite:wither_upgraded_netherite_bow>,
+    <item:upgradednetherite:poison_upgraded_netherite_bow>,
+    <item:upgradednetherite:phantom_upgraded_netherite_bow>,
+    <item:upgradednetherite:feather_upgraded_netherite_bow>,
+    <item:upgradednetherite:corrupt_upgraded_netherite_bow>,
+    <item:upgradednetherite:netherite_crossbow>,
+    <item:upgradednetherite:gold_upgraded_netherite_crossbow>,
+    <item:upgradednetherite:fire_upgraded_netherite_crossbow>,
+    <item:upgradednetherite:ender_upgraded_netherite_crossbow>,
+    <item:upgradednetherite:water_upgraded_netherite_crossbow>,
+    <item:upgradednetherite:wither_upgraded_netherite_crossbow>,
+    <item:upgradednetherite:poison_upgraded_netherite_crossbow>,
+    <item:upgradednetherite:phantom_upgraded_netherite_crossbow>,
+    <item:upgradednetherite:feather_upgraded_netherite_crossbow>,
+    <item:upgradednetherite:corrupt_upgraded_netherite_crossbow>
+);
+
+<tag:items:farmersdelight:wolf_prey>.add(
+    <item:blue_skies:venison>,
+    <item:mysticalworld:venison>,
+    <item:twilightforest:raw_venison>,
+    <item:twilightdelight:raw_venison_rib>
+);
+
+<tag:items:supplementaries:cookies>.add(
+    <item:abnormals_delight:mulberry_cookie>,
+    <item:feywild:magical_honey_cookie>,
+    <item:farmersrespite:green_tea_cookie>,
+    <item:twilightdelight:torchberry_cookie>
+);
 
 <tag:items:forge:chef_upgrade_items>.add(
     <item:farmersdelight:vegetable_soup>,

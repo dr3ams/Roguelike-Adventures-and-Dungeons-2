@@ -1,0 +1,302 @@
+{
+    "size": "medium",
+    "color": "#41715a",
+    "waves": [{
+            "entities": [{
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "minecraft:guardian"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:guardian",
+                "rolls": 3
+            }],
+            "max_wave_time": 1200,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "upgrade_aquatic:thrasher"
+                },
+                {
+                    "entity": "upgrade_aquatic:thrasher"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:guardian",
+                "rolls": 5
+            },{
+                "type": "entity_loot",
+                "entity": "upgrade_aquatic:thrasher",
+                "rolls": 2
+            }],
+            "max_wave_time": 1400,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "minecraft:elder_guardian"
+                },
+                {
+                    "entity": "upgrade_aquatic:thrasher"
+                },
+                {
+                    "entity": "upgrade_aquatic:thrasher"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.4
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.3
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:guardian",
+                "rolls": 10
+            },{
+                "type": "entity_loot",
+                "entity": "upgrade_aquatic:thrasher",
+                "rolls": 3
+            }],
+            "max_wave_time": 1600,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "minecraft:guardian"
+                },
+		{
+                    "entity": "minecraft:drowned"
+                },
+                {
+                    "entity": "upgrade_aquatic:thrasher"
+                },
+                {
+                    "entity": "upgrade_aquatic:thrasher"
+                },
+		{
+                    "entity": "upgrade_aquatic:great_thrasher"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.6
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 4
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.attack_knockback",
+                    "operation": "ADDITION",
+                    "value": 2.0
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.12
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.16
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:guardian",
+                "rolls": 12
+            },{
+                "type": "entity_loot",
+                "entity": "upgrade_aquatic:thrasher",
+                "rolls": 4
+            }],
+            "max_wave_time": 1800,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "minecraft:guardian"
+                },
+                {
+                    "entity": "upgrade_aquatic:thrasher"
+                },
+		{
+                    "entity": "upgrade_aquatic:thrasher"
+                },
+                {
+                    "entity": "minecraft:elder_guardian"
+                },
+		{
+                    "entity": "minecraft:elder_guardian"
+                },
+                {
+                    "entity": "upgrade_aquatic:great_thrasher"
+                },
+                {
+                    "entity": "upgrade_aquatic:great_thrasher"
+                },   
+		{
+                    "entity": "minecraft:drowned"
+                },
+		{
+                    "entity": "minecraft:guardian"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.8
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 5
+                },
+                {
+                    "attribute": "generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "value": 5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.8
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.18
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:guardian",
+                "rolls": 12
+            },{
+                "type": "entity_loot",
+                "entity": "upgrade_aquatic:thrasher",
+                "rolls": 4
+            }],
+            "max_wave_time": 2000,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [{
+        "type": "entity_loot",
+        "entity": "minecraft:guardian",
+        "rolls": 30
+    },{
+        "type": "entity_loot",
+        "entity": "minecraft:elder_guardian",
+        "rolls": 1
+    },{
+        "type": "entity_loot",
+        "entity": "upgrade_aquatic:great_thrasher",
+        "rolls": 1
+    }],
+    "completion_xp": 666,
+	"spawn_range": 10
+}

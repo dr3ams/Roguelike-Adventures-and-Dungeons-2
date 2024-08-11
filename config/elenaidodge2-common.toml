@@ -13,14 +13,14 @@
 	#Range: -1 ~ 20
 	hunger = 6
 	#Whether the player can dodge whilst sneaking.
-	enable_whilst_sneaking = false
+	enable_whilst_sneaking = true
 	#Whether the player can dodge whilst blocking.
 	enable_whilst_blocking = false
 	#Whether the player can dodge whilst airborne.
 	enable_whilst_airborne = false
 	#How many in-game ticks of invincibility the player has after dodging. 20 ticks is 1 second.
 	#Range: 0 ~ 100
-	invincibility_ticks = 10
+	invincibility_ticks = 13
 	#Potions that prevent the player from dodging. Insert values in the format modid:potion,modid:potion. Idea Credit: SandwichHorror
 	potion_blacklist = ""
 
@@ -30,7 +30,7 @@
 	cost = 2
 	#The amount of ticks required to regenerate half a feather. Please only change this when you have full feathers.
 	#Range: > 1
-	regen_rate = 80
+	regen_rate = 60
 	#Whether to enable 'Half Feathers'. Instead of weight values rounding down, they will instead show as a half feather. These can be used if the 'Cost' value is set to an odd number.
 	half_feathers = false
 	#How many half feathers dodging in midair requires. [Enable Whilst Airborne must be Enabled]

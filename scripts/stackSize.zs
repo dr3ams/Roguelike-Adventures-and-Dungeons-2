@@ -19,5 +19,10 @@ for allItems in game.items {
     if ("music_disc" in (allItems.registryName as string)){
         allItems.setMaxStackSize(16);
     }
+    if ("simplefarming:" in (allItems.registryName as string)){
+    if ("_soup" in (allItems.registryName as string)){
+        allItems.setMaxStackSize(16);
+	}
+    }
 }
 

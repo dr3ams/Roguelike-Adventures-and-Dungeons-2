@@ -1259,12 +1259,12 @@
 		#Can appear in Villager Trades
 		Trading = true
 		#Determines which Enchantments/Items are blacklisted. Valid entries are: 'modid:itemid', 'modid:enchantid', 'ItemClassName'
-		Incompatibilities = ["dungeons_gear:critical_hit", "ensorcellation:vorpal", "uniquee:combo_star"]
+		Incompatibilities = ["dungeons_gear:critical_hit", "ensorcellation:vorpal"]
 		#Determines the maximum level of the Enchantment. Some mods (like Apotheosis and Quark) can bypass this.
 		#Range: 1 ~ 10
 		"Max Level" = 3
 		#Rarity of the Enchantment (Valid entries: COMMON, UNCOMMON, RARE, VERY_RARE
-		Rarity = "VERY_RARE"
+		Rarity = "RARE"
 		#Lucky Strike skips these Vanilla Crit checks: Falling, Airborne, Not on Ladder, Not in Water, Not Blind, Not Riding
 		#Range: 0.01 ~ 1.0
 		"Base Chance" = 0.15

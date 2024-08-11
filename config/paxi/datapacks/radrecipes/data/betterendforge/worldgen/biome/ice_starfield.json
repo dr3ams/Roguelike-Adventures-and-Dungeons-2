@@ -1,0 +1,72 @@
+{
+  "scale": 0.2,
+  "effects": {
+    "sky_color": 0,
+    "foliage_color": -4066060,
+    "grass_color": -9692882,
+    "fog_color": -2034178,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "music": {
+      "sound": "minecraft:music.end",
+      "min_delay": 600,
+      "max_delay": 2400,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "betterendforge:snowflake"
+      },
+      "probability": 0.002
+    },
+    "ambient_sound": "betterendforge:betterendforge.ambient.dust_wastelands"
+  },
+  "surface_builder": "minecraft:end",
+  "carvers": {
+    "air": [],
+    "liquid": []
+  },
+  "features": [
+    [
+      "betterendforge:ice_star",
+      "betterendforge:ice_star_small"
+    ],
+    [],
+    [],
+    [],
+    [
+      "betterendforge:crashed_ship",
+      "minecraft:end_gateway_return"
+    ],
+    [],
+    [
+      "betterendforge:thallasium_ore",
+      "betterendforge:ender_ore"
+    ]
+  ],
+  "starts": [
+    "betterendforge:giant_ice_star_structure"
+    ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:stray",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 60
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": false,
+  "precipitation": "none",
+  "category": "the_end",
+  "temperature": 0.0,
+  "downfall": 0.5,
+  "depth": 0.1
+}

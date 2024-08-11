@@ -25,8 +25,3 @@ onEvent("lootjs", event => {
     event.addLootTableModifier(/.*dungeons_gear:enchantments.*/).randomChance(1.0).thenReplace("kubejs:emerald_ingot", "minecraft:emerald");
 
 })
-
-onEvent('block.loot_tables', event => {
-    // makes all emerald ores drop themselves
-  event.addSimpleBlock(/.*emerald_ore/);
-})
