@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "features_and_mechanics"
-	title: "Features | mechanics"
+	title: "Features | Mechanics"
 	icon: {
 		id: "losttrinkets:book_o_enchanting"
 		Count: 1b
@@ -675,7 +675,7 @@
 			]
 		}
 		{
-			title: "Welcome to RAD2!"
+			title: "&4Check the questbook for more info!"
 			icon: {
 				id: "kubejs:star"
 				Count: 1b
@@ -687,6 +687,7 @@
 			}
 			x: -8.0d
 			y: -2.0d
+			subtitle: "Welcome to RAD2!"
 			description: [
 				"This quest book will guide you through all the mechanics of this pack."
 				""
@@ -697,9 +698,9 @@
 			size: 2.0d
 			id: "7FF57EE6F8F6FC1C"
 			tasks: [{
-				id: "1A4B7F6D74AF92E1"
-				type: "checkmark"
-				title: "More quests await"
+				id: "063DC6675EC1C0AC"
+				type: "dimension"
+				dimension: "minecraft:overworld"
 			}]
 			rewards: [{
 				id: "7F6399762CFD3995"

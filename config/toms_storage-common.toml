@@ -14,4 +14,14 @@ multiblockInv = []
 #Wireless terminal reach
 #Range: 16 ~ 512
 advWirelessRange = 128
+#Adv Wireless terminal requied beacon level for infinite range
+#Value of 0 only requires a single beacon block nearby
+#Value of -1 disables this feature entirely
+#Range: -1 ~ 4
+wirelessTermBeaconLvl = 1
+#Adv Wireless terminal requied beacon level for cross dimensional access
+#Value of 0 only requires a single beacon block nearby
+#Value of -1 disables this feature entirely
+#Range: -1 ~ 4
+wirelessTermBeaconLvlDim = 4
 
