@@ -35,8 +35,8 @@ CTEventManager.register<MCPlayerLoggedInEvent>((event) => {
 
 		if (player.getPersistentData().contains("feedbackNotified"))
 			return;
-		world.asServerWorld().server.executeCommand("execute if score dummy GameState matches 1.. run tellraw " + username + ' [{"text":"Since you joined a server in expert or master mode there is a booster kit available in the ","color":"gold"},{"translate":"item.ftbquests.book","color":"gold"},{"text":" to get some xp for iron equipment.","color":"gold"}]', true);
+		world.asServerWorld().server.executeCommand("execute if score dummy GameState matches 2.. run tellraw " + username + ' [{"text":"Since you joined a server in expert or master mode there is a booster kit available in the ","color":"gold"},{"translate":"item.ftbquests.book","color":"gold"},{"text":" to get some xp for iron equipment.","color":"gold"}]', true);
 		player.updatePersistentData({feedbackNotified: 1});
-		world.asServerWorld().server.executeCommand('execute if score dummy GameState matches 1.. run ftbquests change_progress ' + username + ' complete 2358E374BEAF092F', true);
+		world.asServerWorld().server.executeCommand('execute if score dummy GameState matches 2.. run ftbquests change_progress ' + username + ' complete 2358E374BEAF092F', true);
 	
 });

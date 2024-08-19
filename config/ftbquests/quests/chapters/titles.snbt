@@ -53,11 +53,7 @@
 			y: 5.0d
 			shape: "hexagon"
 			subtitle: "Earned by completing the Feedback Form during beta."
-			description: [
-				"Link to form: bit.ly/RAD2FeedbackTEST"
-				""
-				"If you provide your username if the form, you will be added to a list of users who will receive this title in the next update."
-			]
+			description: ["This title cannot be obtained anymore."]
 			optional: true
 			id: "555DE2027606D5B7"
 			tasks: [{
@@ -412,17 +408,10 @@
 			description: [""]
 			id: "2A973F38FD6E0B08"
 			tasks: [{
-				id: "7B1D271057BED93A"
-				type: "item"
-				item: {
-					id: "alexsmobs:spawn_egg_warped_mosco"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "03FAA250379E1666"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
+				criterion: ""
 			}]
 		}
 		{
