@@ -346,7 +346,7 @@
 	#Add biome types that the Enderlings can spawn in. 
 	#Put a "!" before the type to prevent spawning in that biome type. 
 	#Leave this blank if you don't want them to spawn at all.
-	enderlingBiomeTypes = ["END", "!END_CENTER"]
+	enderlingBiomeTypes = []
 	#Spawn weight of Enderlings in the locations they can spawn in. [default:5]
 	#Range: 0 ~ 1024
 	enderlingSpawnWeight = 5
