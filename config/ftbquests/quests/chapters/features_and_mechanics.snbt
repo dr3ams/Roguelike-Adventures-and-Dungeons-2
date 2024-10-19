@@ -166,7 +166,15 @@
 			y: -2.5d
 			subtitle: "Dodge through mobs with the elenai dodge mod!"
 			description: [
-				"By pressing the dodge key (default Left Alt) while moving in a direction you can perform a dodge. This launches you in the direction you are walking, giving you brief invulnerability allowing you to pass through mobs and projectiles without taking damage."
+				"&6By tapping left alt while moving you can dash through projectiles and enemies without getting hurt."
+				""
+				""
+				""
+				"&a<More in depth details below>"
+				""
+				""
+				""
+				"By pressing the dodge key &3(default Left Alt, this is the same as pmmo list so might want to change this)&r while moving in a direction you can perform a dodge. This launches you in the direction you are walking, giving you brief invulnerability allowing you to pass through mobs and projectiles without taking damage."
 				""
 				"You cannot dodge while blocking with a shield or in mid-air, but you can dodge while eating."
 				""
@@ -285,7 +293,7 @@
 			y: -2.0d
 			subtitle: "Difficulty over time"
 			description: [
-				"Difficulty will increase over time per-player, after 3 in-game days."
+				"&6Difficulty will increase over time per-player, after 10 in-game days."
 				""
 				"As the difficulty increases mobs gain increased stats (damage, speed, health, knockback, magic resistance) and will spawn with more equipment that can be enchanted."
 				""
@@ -327,9 +335,7 @@
 			x: 2.5d
 			y: -2.0d
 			description: [
-				"The vanilla bosses have become stronger."
-				""
-				"Not only will they always spawn as Champion mobs, but they also gain new abilities and better rewards and experience."
+				"The vanilla bosses have become stronger, with new abilities, better rewards and experience."
 				""
 				"Wither"
 				"- Summons Wither Skeletons. Drops Nether Star Shards."
@@ -338,6 +344,8 @@
 				"- Summons Shulkers"
 				""
 				"The Elder Guardian while not a boss, still gains power each time they are defeated."
+				""
+				"-Attacks way faster than usual"
 				""
 				"-The Monument is fully protected while they are alive."
 				""
@@ -615,15 +623,27 @@
 			x: -3.0d
 			y: -2.0d
 			description: [
+				"&6Trinkets and Curios are passive items that buff the player when worn in special slots."
+				""
+				""
+				""
+				"&a<More in depth details below>"
+				""
+				""
+				""
 				"Lost Trinkets adds more than 50 unlockable trinkets with different abilities and rarities."
 				""
-				"Trinkets are randomly unlocked during some activities like killing enemies and bosses, trading, mining ores, cutting trees, and farming. Each activity has a different chance of unlocking a trinket."
+				"Trinkets are randomly unlocked during some activities like killing enemies and bosses, trading, mining ores, cutting trees, and farming."
 				""
-				"You can access the Trinkets GUI with its keybind (Default: R). Here you can equip them and unlock more slots."
+				"Each activity has a different chance of unlocking a trinket, with bosses having the highest chance."
+				""
+				"There is a 2 minute cooldown after unlocking a trinket before you can unlock another."
+				""
+				"You can access the Trinkets GUI with its keybind (Default: &3R&r). Here you can equip them and unlock more slots."
 				""
 				"========================"
 				""
-				"There are also countless curios which have their own slot in your Curio Inventory which you can open with the icon in your inventory, or with a keybind (Default: G)."
+				"There are also countless curios which have their own slot in your Curio Inventory which you can open with the icon in your inventory, or with a keybind (Default: &3G&r)."
 				""
 				"Try equipping the enigmatic amulet in your inventory by placing it into one of the \"Charm\" slots."
 				"You can use the scroll bar or your mouse wheel to see all the slots."
@@ -689,11 +709,11 @@
 			y: -2.0d
 			subtitle: "Welcome to RAD2!"
 			description: [
-				"This quest book will guide you through all the mechanics of this pack."
-				""
-				"Click the grey checkmark above under \"Tasks\" to complete a quest and unlock the next quests."
+				"&6This quest book will guide you through all the mechanics of this pack."
 				""
 				"To collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
+				""
+				"To move onto the next quest you can click the view dependants button &6▶&r below the close &c&lX&r button to see the next available quest(s), or just click a lit up quest linked to a completed gold outlined quest."
 			]
 			size: 2.0d
 			id: "7FF57EE6F8F6FC1C"
@@ -1236,7 +1256,7 @@
 			description: [
 				"You can choose starter gear in the Specialization chapter. You can get Marks which can boost pmmo exp, however you cannot change your specialization. If you are in multiplayer you should pick your specialization before joining a team."
 				""
-				"Head over to the Specialization Chapter by hovering your cursor on the left edge of this quest book."
+				"&eThis quest requires completion of another quest in another chapter. Head over to the Specialization Chapter by hovering your cursor on the left edge of this quest book, while no quest is opened."
 			]
 			dependencies: [
 				"7D7A71EA9FCC15E2"
@@ -1266,11 +1286,21 @@
 			y: -1.5d
 			subtitle: "Scale up to 3-high walls with the wall jump mod!"
 			description: [
+				"&6Hold sneak against a wall to hang onto it, then press jump again for some extra vertical mobility."
+				""
+				""
+				""
+				"&a<More in depth details below>"
+				""
+				""
+				""
 				"Jump onto a wall and hold the wall jump key on a wall (default Shift) will allow you to \"cling\" onto the wall for a short time."
 				""
 				"You can't hold on forever though as you will slowly slide down from the wall."
 				""
 				"Releasing the wall jump key will cause you to jump off the wall giving you extra vertical height."
+				""
+				"If you find sneaking to wall jump too difficult you can try rebinding the wall-jump jey to the same as your jump keybind instead."
 			]
 			dependencies: ["0E5AE2A43020AFC3"]
 			id: "0617314E10C6AEF9"
@@ -1329,7 +1359,14 @@
 			y: -2.0d
 			subtitle: "Elite Mobs"
 			description: [
-				"Mobs have a chance to spawn as Champions, elite mobs with enhanced stats, extra abilities, and extra loot (Enchanted Books and Coins)."
+				"&6Mobs have a chance to spawn as Champions, elite mobs with enhanced stats, extra abilities, and extra loot (Enchanted Books and Coins)."
+				""
+				""
+				""
+				"&a<More in depth details below>"
+				""
+				""
+				""
 				""
 				"Champions have affixes that grant them powers, with higher tiers having more affixes."
 				""
@@ -1393,40 +1430,52 @@
 		{
 			title: "Just Enough Items (JEI)"
 			icon: "ars_nouveau:glyph_craft"
-			x: -6.0d
+			x: -5.0d
 			y: -2.0d
 			subtitle: "Your encyclopedia for modded recipes!"
 			description: [
+				"&6JEI lets you view recipes and uses for items by hovering your mouse on an item then pressing r or u on them."
+				""
+				"&eClick the Grey Checkmark to unlock the next quests."
+				""
+				""
+				""
+				""
+				"&a<More in depth details below>"
+				""
+				""
+				""
+				""
 				"JEI is a recipe browser found on the right side of your screen when in any inventory interface."
+				""
 				"You can use it to look up any item and find out its uses."
 				""
-				"• Hovering over any item (not just in the JEI interface) and pressing the \"R\" key (for Recipe) will display that item's recipe."
-				"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids."
-				"• To search by mod name use the \"@\" key before search in search box. (e.g. @Quark)"
-				"• To select the search box without clicking on it, the player can press Ctrl + F."
-				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item and press \"A\"."
-				""
+				"• Hovering over any item (not just in the JEI interface) and pressing the &3\"R\"&r key (for Recipe) will display that item's recipe."
+				"• Pressing the &3\"U\"&r key (for Use) shows what that item can be used to create through crafting grids."
+				"• To search by mod name use the \"&3@&r\" key before search in search box. (e.g. @Quark)"
+				"• To select the search box without clicking on it, the player can press &3Ctrl + F&r."
+				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item and press \"&3A&r\"."
 			]
-			dependencies: ["7FF57EE6F8F6FC1C"]
+			dependencies: ["143E7EB383FC8A60"]
 			id: "7B1C0892C86A4177"
 			tasks: [{
 				id: "4665A7B467B41395"
 				type: "checkmark"
-				title: "JEI(recipe browser)"
+				title: "Click this to progress"
 			}]
 		}
 		{
 			title: "Using JEI"
-			x: -6.0d
+			x: -5.5d
 			y: -3.5d
 			description: [
 				"Use jei to figure out how to craft the items above."
 				""
 				"You can click an item in the Tasks section of a quest to view its recipe."
 				""
-				"A majority of the quests in this pack like this one will be completed by gaining the required item in your inventory. You will automatically get a pop up message in the top corner when this happens."
+				"&eThese are Item Quests. A majority of the quests in this pack like this one will be completed by gaining the required item in your inventory. You will automatically get a pop up message in the top corner when this happens."
 				""
-				"You do not lose the item when completing these quests."
+				"&eYou do not lose the item when completing these quests."
 			]
 			dependencies: ["7B1C0892C86A4177"]
 			id: "1AC343ABFB96DF71"
@@ -1476,6 +1525,19 @@
 						}
 					}
 				}
+				{
+					id: "0917374F8AA170A7"
+					type: "item"
+					item: {
+						id: "simplefarming:fruit_salad"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1486,6 +1548,7 @@
 				"There are two kinds of coins that can be discovered in this pack, material coins and quest coins."
 				""
 				"Quest Coins are obtained from completing quests, and can be exchanged for items at the shop."
+				""
 				"The shop can be found on the top-right of this quest book, it looks like a bag with coins scattered around it."
 				""
 				"Material Coins (copper, iron, gold, diamond) are tangible items that drop from champions."
@@ -1532,9 +1595,9 @@
 			description: [
 				"Project: Massive Multiplaer Online (PMMO) adds stats that increase when doing certain activities."
 				""
-				"These stats can be seen in the top-left of the screen and toggled on and off by pressing the Show List key (default Left Alt)."
+				"These stats can be seen in the top-left of the screen and toggled on and off by pressing the &3Show List &rkey &3(default Left Alt)&r."
 				""
-				"Items can have Requirements, XP Boosts, or Salvageable. These can be toggled with the Toggle Tooltip key (default F6)"
+				"Items can have Requirements, XP Boosts, or Salvageable. These can be toggled with the Toggle Tooltip key &3(default F6)&r"
 				""
 				"Requirements show the name of a specific skills needed to use it as a tool, weapon, wear, or use. The requirements will be in either green or red text depending on if you meet the stat conditions or not. If you don't meet the requirements of an item it cannot be used."
 				""
@@ -1542,7 +1605,7 @@
 				""
 				"When you die you will lose 25% progress to gaining a level, however you will never lose actual levels meaning you will not lose access to unlocked requirements after completing them."
 			]
-			dependencies: ["7B1C0892C86A4177"]
+			dependencies: ["143E7EB383FC8A60"]
 			id: "79F271A2D7FA06A1"
 			tasks: [{
 				id: "35029CE2D859E7F9"
@@ -1850,14 +1913,27 @@
 			y: -2.0d
 			subtitle: "Loot for everyone!"
 			description: [
+				"&6Chests in natural structures can be looted by multiple players and help indicate which structures you have already looted."
+				""
+				""
+				""
+				"&a<More in depth details below>"
+				""
+				""
+				""
 				"Chests found in various structures will look rather different compared to the standard wooden chests you are used to seeing."
 				""
 				"These bejeweled chests are Lootr chests, which provide individual loot for every player that comes across it."
+				""
 				"Any items you put in the chest also cannot be seen by other players."
 				""
 				"If you have already opened a lootr chest it will appear a bluish-grey color instead."
 				""
+				"When destroyed they will NOT drop the loot inside so make sure to open it and watch out for explosive traps in certain structures."
+				""
 				"They can also come in the form of barrels and shulker boxes in some structures."
+				""
+				"&eThese are Observation quests. Find the block out in the world to complete this quest."
 			]
 			dependencies: ["143E7EB383FC8A60"]
 			id: "2B14E71EF06F5938"
@@ -1881,26 +1957,21 @@
 		}
 		{
 			title: "Ore Excavation"
-			icon: {
-				id: "kubejs:mine"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: -5.0d
+			icon: "kubejs:mine"
+			x: -6.0d
 			y: -2.0d
 			description: [
-				"This pack has ore Excavation(or veinmining) feature that allows players to mine whole veins of ore or cut down whole trees in one go."
+				"&6By holding down the ` key you can mine multiple ores or logs in one go."
 				""
-				"You must be holding a tool and only ores and logs can be excavated with this ability."
 				""
-				"Controls (you will likely need to change that):"
-				"` - (hold) excavate"
+				""
+				"&a<More in depth details below>"
+				""
+				""
+				""
+				"Ore excavation only works when you are holding something in your hand, like an axe."
 			]
-			dependencies: ["7B1C0892C86A4177"]
+			dependencies: ["7FF57EE6F8F6FC1C"]
 			id: "143E7EB383FC8A60"
 			tasks: [{
 				id: "0EEDD89EE27ED37B"
@@ -1975,6 +2046,25 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			icon: "rats:trash_can"
+			x: -4.5d
+			y: -3.5d
+			description: [
+				"The trash can slot found on the bottom right of your inventory and certain other interfaces can be used to delete unwanted items."
+				""
+				"When an item is in this slot, it will not be deleted until another item is placed onto it, reducing the chance of accidentally deleting an item."
+				""
+				"You can click and drag to move the slot anywhere you want, and it can be toggled on and off with a keybind, &3default T&r."
+			]
+			dependencies: ["7B1C0892C86A4177"]
+			id: "4B28C11BE60618B8"
+			tasks: [{
+				id: "7850FB9347991619"
+				type: "checkmark"
+				title: "Trash Can Slot"
 			}]
 		}
 	]

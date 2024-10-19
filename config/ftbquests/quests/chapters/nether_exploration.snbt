@@ -3330,5 +3330,30 @@
 				title: "Apex Upgrading"
 			}]
 		}
+		{
+			x: -7.5d
+			y: 3.5d
+			subtitle: "Trade with the Netherologist in the Nether dimension"
+			dependencies: ["02CE728BCDC1E758"]
+			id: "710A05F9B0FEBDDD"
+			tasks: [{
+				id: "2889874B283A31A0"
+				type: "advancement"
+				advancement: "morevillagers:nether_trade"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7C5D55F47104ACC0"
+					type: "random"
+					table_id: 4734148794142699034L
+				}
+				{
+					id: "4402EA861FA5ABB3"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
 	]
 }

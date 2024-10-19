@@ -77,7 +77,7 @@
 				"The more you level up your dog using the Treats in this order: Training Treat, Super Treat, Master Treat, and Dire Treat; the more points you have available to spend on your talents. Eventually, the dog will hit its maximum level, which will not"
 				"allow you to get anymore points once it hits this level cap."
 			]
-			dependencies: ["000000000000062F"]
+			dependencies: ["3E00EB5E08FB8C15"]
 			id: "0000000000000631"
 			tasks: [{
 				id: "0000000000000632"
@@ -85,7 +85,7 @@
 				item: "minecraft:stick"
 			}]
 			rewards: [{
-				id: "0000000000000664"
+				id: "141E616C094ABC70"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
@@ -929,6 +929,53 @@
 					count: 3
 				}
 			]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			description: [
+				"Now that you have a treat, give it to one of your tamed wolves to transform them into a dog!"
+				""
+				"Dogs even before adding upgrades have double the health and attack power of a regular wolf."
+				""
+				"Right now they may just look like a wolf and have no collar, but you can customize their looks, collar and add accessories to them."
+			]
+			dependencies: ["000000000000062F"]
+			id: "3E00EB5E08FB8C15"
+			tasks: [{
+				id: "013F4E1736C602CD"
+				type: "observation"
+				title: "Train a wolf into a dog"
+				icon: {
+					id: "doggytalents:doggy_charm"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "doggytalents:dog"
+			}]
+			rewards: [{
+				id: "0249F6D69E4A6F90"
+				type: "command"
+				title: "Dog Training Message"
+				icon: {
+					id: "kubejs:manuscript"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				auto: "enabled"
+				command: "/tellraw @p {\"text\":\"You have trained a dog! Right now they are docile and will not attack mobs, but you can use a stick to change their behavior.\",\"color\":\"yellow\"}"
+				player_command: false
+			}]
 		}
 	]
 }

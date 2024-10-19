@@ -51,6 +51,10 @@ for item in game.items {
     <item:twilightdelight:raw_venison_rib>
 );
 
+<tag:items:minecraft:sand>.add(
+    <tag:items:tropicraft:sand>
+);
+
 <tag:items:supplementaries:cookies>.add(
     <item:abnormals_delight:mulberry_cookie>,
     <item:feywild:magical_honey_cookie>,

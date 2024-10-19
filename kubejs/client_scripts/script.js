@@ -275,12 +275,6 @@ event.hide('byg:pendorite_shovel')
 event.hide('byg:pendorite_hoe')
 event.hide('byg:pendorite_horse_armor')
 
-event.hide('tropicraft:azurite_ore')
-event.hide('tropicraft:eudialyte_ore')
-event.hide('tropicraft:manganese_ore')
-event.hide('tropicraft:shaka_ore')
-event.hide('tropicraft:zircon_ore')
-
 event.hide('spawnermod:spawner_key')
 
 event.hide('apotheosis:iron_mining_arrow')

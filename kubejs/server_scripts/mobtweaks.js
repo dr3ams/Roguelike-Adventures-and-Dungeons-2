@@ -1,9 +1,3 @@
-onEvent('entity.attack', event => {
-	if (event.source.actual.type == "minecraft:cat") {
-	event.entity.potionEffects.add("radenchants:vulnerable", 400, 1, false, true)
-	}
-})
-
 onEvent('entity.spawned', event => {
 	if (event.entity.type == "doggytalents:dog" || event.entity.type == "minecraft:cat") {
 

@@ -1559,5 +1559,87 @@
 				ftb_money: 1L
 			}]
 		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"A guardian spine can damage mobs that are on it while it is powered."
+				""
+				"Mobs will also try to avoid it at all costs even when inactive making it a good perimeter for your base."
+			]
+			id: "673F762A2111A156"
+			tasks: [{
+				id: "71855EEEADA1C04C"
+				type: "item"
+				item: {
+					id: "upgrade_aquatic:guardian_spine"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6BCB8D6C6DF3B500"
+				type: "ftbmoney:money"
+				ftb_money: 1L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["Like the guardian spine but does even more damage"]
+			dependencies: ["673F762A2111A156"]
+			id: "2D4A75D854C0A4E3"
+			tasks: [{
+				id: "503A3B2042ED3258"
+				type: "item"
+				item: {
+					id: "upgrade_aquatic:elder_guardian_spine"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0AB95E9D9866AA56"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: [
+				"Suprisingly, this is a block."
+				""
+				"It emits redstone when an entity walks in front of its vision."
+			]
+			dependencies: ["673F762A2111A156"]
+			id: "3D77AEEEC4265ACE"
+			tasks: [{
+				id: "03A4B6F5C374A6CF"
+				type: "item"
+				item: {
+					id: "upgrade_aquatic:elder_eye"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "488F89C35CCA6617"
+				type: "ftbmoney:money"
+				ftb_money: 3L
+			}]
+		}
 	]
 }

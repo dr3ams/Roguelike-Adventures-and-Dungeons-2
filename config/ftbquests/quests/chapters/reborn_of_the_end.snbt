@@ -3266,6 +3266,7 @@
 			y: 1.0d
 			shape: "octagon"
 			subtitle: "Kill the Ender Dragon"
+			description: ["WARNING: If you use beds or other indirect damage to finish off the dragon (without attacking them with a weapon within the last 5 seconds) you will not complete this quest and get locked out of progression."]
 			dependencies: ["3D208B95463DFD24"]
 			dependency_requirement: "one_started"
 			size: 2.0d
@@ -4397,6 +4398,31 @@
 					}
 				}
 			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			subtitle: "Trade with the Enderologist in the End dimension"
+			dependencies: ["79BFE48B969A1C28"]
+			id: "723B381395B12DC0"
+			tasks: [{
+				id: "125747390E80143F"
+				type: "advancement"
+				advancement: "morevillagers:end_trade"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "76E900EF2F954E12"
+					type: "random"
+					table_id: 4734148794142699034L
+				}
+				{
+					id: "0EACBB14E211BB08"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
 		}
 	]
 }
