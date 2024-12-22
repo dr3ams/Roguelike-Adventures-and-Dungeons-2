@@ -36,8 +36,8 @@
 	quests: [
 		{
 			icon: "minecraft:potato"
-			x: 3.5d
-			y: 1.0d
+			x: 4.5d
+			y: 2.0d
 			description: [
 				"Eating a variety of nutrients with right balance will make you stronger and faster. Ignoring your nutritional balance can slow you down and weaken you."
 				"Hover over a food to see which nutrients it provides along with the total number of Nutritional Units (NUs)."
@@ -105,6 +105,7 @@
 			x: 0.0d
 			y: -1.0d
 			subtitle: "Getting Wood"
+			description: ["Remember to check the &3Features | Mechanics&r section on the left to see how to chop whole trees at once!"]
 			id: "2DDD649416AA95EC"
 			tasks: [{
 				id: "4A2AD7B3B078CCFD"
@@ -512,8 +513,8 @@
 		}
 		{
 			x: 6.0d
-			y: 3.5d
-			dependencies: ["518DF4A178673014"]
+			y: 4.5d
+			dependencies: ["0D53B0136F089B1F"]
 			id: "02ED7F720C5EBABD"
 			tasks: [
 				{
@@ -1314,7 +1315,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 3.5d
 			y: 2.0d
 			description: ["After filling it with water it can be used to instantly moisurize farmland."]
 			dependencies: ["45367EFC307FBA67"]
@@ -1423,7 +1424,7 @@
 			]
 		}
 		{
-			x: 2.5d
+			x: 3.5d
 			y: 0.5d
 			description: [
 				"Ready to sail the seven seas!"
@@ -2116,37 +2117,75 @@
 		}
 		{
 			x: 7.0d
-			y: 4.0d
+			y: 3.0d
 			shape: "gear"
-			subtitle: "Knives are scavenging tools: they allow you to obtain a few more resources from both fauna and flora."
 			description: [
+				"The Cutting Board is a workstation where players can break down one item into many outputs, by using a valid tool on it."
 				""
+				"For example it can be used to convert wool into string, or wood bark for easier paper, and scrap leather armor into leather."
+				""
+				"It also has many culinary uses,"
 				"Head over to the \"Farmer's Delight\" quest chapter to learn more!"
 			]
-			dependencies: ["02ED7F720C5EBABD"]
+			dependencies: ["0D53B0136F089B1F"]
 			id: "01F975837F68C5EC"
 			tasks: [{
 				id: "3D214AA8DBE6B811"
 				type: "item"
 				item: {
-					id: "farmersdelight:flint_knife"
+					id: "farmersdelight:cutting_board"
 					Count: 1b
-					tag: {
-						Damage: 0
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
 					}
 				}
 			}]
-			rewards: [{
-				id: "1520BCB5225D5739"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:healing"
+			rewards: [
+				{
+					id: "09C5F2A882CCC6F9"
+					type: "item"
+					item: {
+						id: "minecraft:oak_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
 					}
 				}
-			}]
+				{
+					id: "379C40857D15C63C"
+					type: "item"
+					item: {
+						id: "minecraft:white_wool"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "213348D835376FDB"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 819
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 10.0d
@@ -2642,8 +2681,9 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 5.5d
 			y: 2.0d
+			description: [""]
 			dependencies: ["518DF4A178673014"]
 			id: "3BEED9F6C8434FF5"
 			tasks: [{
@@ -2862,15 +2902,15 @@
 		}
 		{
 			title: "Let's make a Mesh!"
-			x: 5.0d
-			y: 3.5d
+			x: 6.0d
+			y: 3.0d
 			description: [
-				"You can aquire Flint more effectively with Fiber Mesh."
+				"You can acquire Flint more effectively with Fiber Mesh."
 				"Craft Flint shears and cut some grass to make Mesh. Then you can sift Gravel and get Flint."
 				""
-				"NOTE: You need to cut MINECRAFT grass, modded will not work."
+				"Both short grass or minecraft grass work in the recipe."
 			]
-			dependencies: ["02ED7F720C5EBABD"]
+			dependencies: ["518DF4A178673014"]
 			id: "0D53B0136F089B1F"
 			tasks: [
 				{
@@ -3825,56 +3865,6 @@
 			]
 		}
 		{
-			x: 16.0d
-			y: 1.0d
-			subtitle: "Trade with the Netherologist in the Nether dimension"
-			dependencies: ["4355236339BC275F"]
-			id: "710A05F9B0FEBDDD"
-			tasks: [{
-				id: "2889874B283A31A0"
-				type: "advancement"
-				advancement: "morevillagers:nether_trade"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "7C5D55F47104ACC0"
-					type: "random"
-					table_id: 4734148794142699034L
-				}
-				{
-					id: "4402EA861FA5ABB3"
-					type: "ftbmoney:money"
-					ftb_money: 50L
-				}
-			]
-		}
-		{
-			x: 17.0d
-			y: 2.0d
-			subtitle: "Trade with the Enderologist in the End dimension"
-			dependencies: ["710A05F9B0FEBDDD"]
-			id: "723B381395B12DC0"
-			tasks: [{
-				id: "125747390E80143F"
-				type: "advancement"
-				advancement: "morevillagers:end_trade"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "76E900EF2F954E12"
-					type: "random"
-					table_id: 4734148794142699034L
-				}
-				{
-					id: "0EACBB14E211BB08"
-					type: "ftbmoney:money"
-					ftb_money: 50L
-				}
-			]
-		}
-		{
 			x: 17.0d
 			y: 3.5d
 			subtitle: "Trade with every villager profession"
@@ -4227,7 +4217,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 2.5d
 			y: 3.0d
 			description: ["Better watering can with a larger area of effect."]
 			dependencies: ["568C31B3FDBED711"]
@@ -4665,6 +4655,116 @@
 							}
 						}
 					}
+				}
+			]
+		}
+		{
+			title: "Foraging"
+			x: 2.5d
+			y: 0.5d
+			description: [
+				"The berry bushes from Simple Farming are one of the most common sources of food you will find when starting your world."
+				""
+				"Collect at least 2 of these 4 berries to complete this quest."
+			]
+			dependencies: ["18FF6DA5335C0711"]
+			dependency_requirement: "one_started"
+			min_required_tasks: 2
+			id: "38D9CB4BCD7CB8CB"
+			tasks: [
+				{
+					id: "67CBABFDEB63D80C"
+					type: "item"
+					item: {
+						id: "simplefarming:blackberries"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3A22034E69AC0E9A"
+					type: "item"
+					item: {
+						id: "simplefarming:blueberries"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "63F5D9CC5B41A56B"
+					type: "item"
+					item: {
+						id: "simplefarming:raspberries"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5F69FD275CDD541B"
+					type: "item"
+					item: {
+						id: "simplefarming:strawberries"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "48C1004F18D7FBA0"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			shape: "gear"
+			description: [
+				"With a bowl and 3 of any kind of fruit you can make one of the simplest dishes in Simple Farming."
+				""
+				"Head over to the Culinary Expedition chapter to find more recipes"
+			]
+			dependencies: ["38D9CB4BCD7CB8CB"]
+			id: "2A7975C3556EB5A4"
+			tasks: [{
+				id: "61F98BFA232C5BE4"
+				type: "item"
+				item: {
+					id: "simplefarming:fruit_salad"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57D52498D06DA9BB"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "21C79B204E9E3FC7"
+					type: "ftbmoney:money"
+					ftb_money: 5L
 				}
 			]
 		}

@@ -1956,10 +1956,11 @@
 			}]
 		}
 		{
-			title: "Ore Excavation"
+			title: "Veinmining?"
 			icon: "kubejs:mine"
 			x: -6.0d
 			y: -2.0d
+			subtitle: "Ore Excavation"
 			description: [
 				"&6By holding down the ` key you can mine multiple ores or logs in one go."
 				""
@@ -1974,9 +1975,17 @@
 			dependencies: ["7FF57EE6F8F6FC1C"]
 			id: "143E7EB383FC8A60"
 			tasks: [{
-				id: "0EEDD89EE27ED37B"
-				type: "checkmark"
-				title: "OreExcavation"
+				id: "7A601096BEF88C06"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 5L
 			}]
 			rewards: [{
 				id: "65B246D328EEEA52"

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "cucumber:enabled",
+      "item": "pickletweaks:grass_fiber"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "pickletweaks:grass_fiber_ingredients"
+    },
+    {
+      "tag": "pickletweaks:grass_fiber_ingredients"
+    },
+    {
+      "tag": "pickletweaks:grass_fiber_ingredients"
+    }
+  ],
+  "result": {
+    "item": "pickletweaks:grass_fiber"
+  }
+}

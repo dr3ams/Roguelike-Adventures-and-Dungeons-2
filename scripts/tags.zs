@@ -21,6 +21,40 @@ for item in game.items {
   }
 }
 
+<tag:items:radrecipes:extra_stackable_bowls>.add(
+    <item:simplefarming:fruit_salad>,
+    <item:simplefarming:vegetable_medley>,
+    <item:simplefarming:borscht>,
+    <item:simplefarming:chili>,
+    <item:simplefarming:corn_salad>,
+    <item:simplefarming:cucumber_soup>,
+    <item:simplefarming:oatmeal>,
+    <item:simplefarming:onion_soup>,
+    <item:simplefarming:pea_soup>,
+    <item:simplefarming:pumpkin_soup>,
+    <item:simplefarming:quinoa_salad>,
+    <item:simplefarming:radish_soup>,
+    <item:simplefarming:rice_bowl>,
+    <item:simplefarming:salad>,
+    <item:simplefarming:sausage_barley_soup>,
+    <item:simplefarming:sorghum_porridge>,
+    <item:simplefarming:squash_soup>,
+    <item:simplefarming:tomato_soup>,
+    <item:twilightdelight:glowstew>,
+    <item:twilightdelight:thousand_plant_stew>,
+    <item:infernalexp:blindsight_tongue_stew>,
+    <item:undergarden:bloody_stew>,
+    <item:undergarden:inky_stew>,
+    <item:undergarden:indigo_stew>,
+    <item:undergarden:veiled_stew>
+);
+//this tag doesn't work when its in stacksize.zs so its here instead
+for allItems in game.items {
+    if (allItems.getDefinition().isIn(<tag:items:radrecipes:extra_stackable_bowls>)) {
+        allItems.setMaxStackSize(16);
+    }
+}
+
 <tag:items:radrecipes:netherite_bows_durability_boost>.add(
     <item:upgradednetherite:netherite_bow>,
     <item:upgradednetherite:gold_upgraded_netherite_bow>,

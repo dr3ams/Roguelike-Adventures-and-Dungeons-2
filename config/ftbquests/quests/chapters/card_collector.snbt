@@ -760,7 +760,15 @@
 		{
 			x: -4.0d
 			y: 6.0d
-			shape: "hexagon"
+			description: [
+				"Buddysteel Tools gain extra power the more cards you have collected."
+				""
+				"Power increases the damage, mining speed or armor points of equipment."
+				""
+				"To reach 100% you must collect every card, the gummy ones included."
+				""
+				"Buddysteel tools and armor grant a Serendipity bonus which increases your luck, fortune and looting."
+			]
 			dependencies: [
 				"6EBC4DDD8CB96BF2"
 				"2D701990943C8711"
@@ -802,6 +810,13 @@
 			x: -2.0d
 			y: 11.5d
 			shape: "hexagon"
+			description: [
+				"Perfect Buddysteel gains power from collecting Foil cards."
+				""
+				"You can tell a card is foil by the enchanted glint and star after the card number."
+				""
+				"The gummy cards can also be foil."
+			]
 			dependencies: ["1B8637456FEED263"]
 			id: "57AC1D3D4265AD15"
 			tasks: [{
@@ -1852,6 +1867,36 @@
 					xp_levels: 5
 				}
 			]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			description: [
+				"Edible cards obtained from the farmer's delight pack."
+				""
+				"These are not required to get the medal but do count towards buddysteel power progress."
+				""
+				"(and no you do not lose progress by eating one afterwards)"
+			]
+			dependencies: ["3D628FBE675C6335"]
+			id: "081F43838777FF89"
+			tasks: [{
+				id: "6CCF54A4DE79C62D"
+				type: "item"
+				title: "Any #buddycards:gummy_cards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "buddycards:gummy_cards"
+					}
+				}
+			}]
+			rewards: [{
+				id: "20E85FBC7078EC8D"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
 		}
 	]
 }

@@ -2130,37 +2130,30 @@
 			}]
 		}
 		{
+			title: "Knives"
 			x: 2.5d
 			y: 26.0d
 			shape: "hexagon"
-			subtitle: "The Cutting Board is a workstation where players can break down one item into many outputs, by using a valid tool on it."
 			description: [
-				"Items can be placed on the Cutting Board by using them on it. It always prefers receiving items from the off-hand, allowing players to hold their ingredients there while holding the tool in their main hand, processing the stack simply by holding the use button."
+				"Knives are scavenging tools: they allow you to obtain a few more resources from both fauna and flora."
 				""
-				"When the correct tool is used on a valid item, it will be broken down into 1-4 different outputs, which are swiped sideways. Outputs always fly to the direction opposite to the Cutting Board's handle, allowing them to be collected by an item-capturing block, such as a Hopper or Basket. The tool receives 1 point of damage for each processed item."
+				"They are also used to cut certain foods on the cutting board."
 			]
 			dependencies: ["19A4385584636C45"]
 			size: 1.5d
 			id: "2FEC85DD348C7C1C"
-			tasks: [
-				{
-					id: "298229CF438BC9F7"
-					type: "item"
-					item: "farmersdelight:cutting_board"
-				}
-				{
-					id: "372026CF74458EAB"
-					type: "item"
-					title: "Any #farmersdelight:tools/knives"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "farmersdelight:tools/knives"
-						}
+			tasks: [{
+				id: "372026CF74458EAB"
+				type: "item"
+				title: "Any #farmersdelight:tools/knives"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "farmersdelight:tools/knives"
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "3459E88F5003EC26"

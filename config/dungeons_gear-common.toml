@@ -194,7 +194,7 @@
 	chainsChance = 0.3
 	#The decimal chance for Radiance to trigger [0.0-1.0, default: 0.2]
 	#Range: 0.0 ~ 1.0
-	radianceChance = 0.0
+	radianceChance = 0.01
 	#The decimal chance for Thundering to trigger [0.0-1.0, default: 0.3]
 	#Range: 0.0 ~ 1.0
 	thunderingChance = 0.3
@@ -206,13 +206,13 @@
 	altruisticDamageToHealingPerLevel = 0.25
 	#The decimal base multiplier on the minions's damage for beast boss [0.0-5.0, default: 0.1]
 	#Range: 0.0 ~ 5.0
-	beastBossBaseMultiplier = 0.25
+	beastBossBaseMultiplier = 1.0
 	#The multiplier increase per level for beast boss [0.0-5.0, default: 0.1]
 	#Range: 0.0 ~ 5.0
-	beastBossMultiplierPerLevel = 0.25
+	beastBossMultiplierPerLevel = 0.5
 	#The amount of damage per trigger of Beast burst. Each trigger causes an explosion around each minion [0-100, default: 5]
 	#Range: 0 ~ 100
-	beastBurstDamagePerLevel = 8
+	beastBurstDamagePerLevel = 12
 	#The duration in ticks of the speed boost applied by Beast Surge. [0-10000, default: 200]
 	#Range: 0 ~ 10000
 	beastSurgeDuration = 600
