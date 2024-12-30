@@ -15,7 +15,7 @@
 	#Example entry: "amplify=5"
 	augment_limits = []
 	#Range: 0.0 ~ 2.147483647E9
-	amplify = 0.5
+	amplify = 0.25
 	#Explosion base intensity
 	#Range: 0.0 ~ 100.0
 	base = 1.0
@@ -26,5 +26,5 @@
 	damage = 6.0
 	#Additional damage per amplify
 	#Range: 0.0 ~ 2.147483647E9
-	amp_damage = 3.5
+	amp_damage = 4.0
 

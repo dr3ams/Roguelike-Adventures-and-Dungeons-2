@@ -1,16 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "dreadsteel:dreadsteel_chestplate",
+      "item": "iceandfire:dread_queen_sword",
       "nbt": "{Damage:0}"
     },
     "title": {
-      "text": "Don me with Dreadsteel",
-      "color": "dark_purple",
-      "obfuscated": true
+      "text": "Dreaded Champion",
+      "color": "dark_purple"
     },
     "description": {
-      "text": "Complete a set of dreadsteel armor (This advancement awards a special title!)"
+      "text": "Defeat the Large Dread Gate and claim the dread queen sword (This advancement awards a special title!)"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -24,16 +23,7 @@
       "conditions": {
         "items": [
           {
-            "item": "dreadsteel:dreadsteel_helmet"
-          },
-          {
-            "item": "dreadsteel:dreadsteel_chestplate"
-          },
-          {
-            "item": "dreadsteel:dreadsteel_leggings"
-          },
-          {
-            "item": "dreadsteel:dreadsteel_boots"
+            "item": "iceandfire:dread_queen_sword"
           }
         ]
       }

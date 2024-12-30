@@ -36,7 +36,7 @@
 		regeneration_amplifier = 1
 		#Duration in seconds of Bleeding Immunity effect.
 		#Range: 1.0 ~ 600.0
-		immunity_duration = 20.0
+		immunity_duration = 120.0
 
 	#Configuration for treasure bags.
 	[Features.TreasureBag]
@@ -65,7 +65,7 @@
 	[Features.Bleeding]
 		#Damage dealt by bleeding every tick.
 		#Range: 0.0 ~ 20.0
-		damage = 1.5
+		damage = 1
 		#Cooldown between attacking entity.
 		#Range: 0.0 ~ 20.0
 		cooldown = 4.0
@@ -82,10 +82,10 @@
 			normal = 0
 			#Expert Mode
 			#Range: 0 ~ 10
-			expert = 1.5
+			expert = 0.5
 			#Master Mode
 			#Range: 0 ~ 10
-			master = 2
+			master = 1
 
 	#Spider inflicts poison.
 	[Features.SpiderPoison]
@@ -145,7 +145,7 @@
 		chance = 1.0
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
-		duration = 12.0
+		duration = 24.0
 
 	#All sharp items inflict bleeding. (tools, weapons, shears etc.)
 	[Features.SharpItemBleeding]
@@ -156,7 +156,7 @@
 		chance = 0.2
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
-		duration = 10.0
+		duration = 20.0
 
 	#Arrow inflicts bleeding.
 	[Features.ArrowBleeding]
@@ -167,7 +167,7 @@
 		chance = 0.2
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
-		duration = 24.0
+		duration = 48.0
 
 	#Thrown trident cause bleeding on target.
 	[Features.TridentBleeding]
@@ -178,7 +178,7 @@
 		chance = 0.5
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
-		duration = 25.0
+		duration = 50.0
 
 	#Animals, zombies and spiders inflict bleeding.
 	[Features.BiteBleeding]
@@ -189,7 +189,7 @@
 		chance = 0.2
 		#Effect duration in seconds.
 		#Range: 1.0 ~ 600.0
-		duration = 15.0
+		duration = 30.0
 
 	#Enderman attack teleports the player somewhere nearby.
 	[Features.EndermanTeleport]

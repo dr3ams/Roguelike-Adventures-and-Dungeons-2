@@ -3,6 +3,7 @@ onEvent('entity.spawned', event => {
 
     event.server.scheduleInTicks(1, event.server, (callback) => {
       // spawning event is 1 tick before the mob actually spawns for some reason, this took me way too long to figure out
+      callback.data.runCommandSilent(`execute as ${event.entity.id} if entity @s[type=doggytalents:dog] at @s run function rad_recipes:doggytalents_pos_fix`)
       callback.data.runCommandSilent(`execute as ${event.entity.id} unless entity @s[tag=has_been_buffed] run function rad_recipes:pet_buff`)
     })
 

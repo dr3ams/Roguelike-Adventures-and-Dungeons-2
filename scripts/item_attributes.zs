@@ -69,6 +69,9 @@ import crafttweaker.api.util.text.MCTextComponent;
 //durability increase from 99 to 512
 <item:twilightforest:block_and_chain>.maxDamage = 512;
 
+//honey crystal shield durability increase
+<item:the_bumblezone:honey_crystal_shield>.maxDamage = 333;
+
 //nerf bulldozer durability to 3
 //<item:prefab:item_bulldozer>.maxDamage = 3;
 
@@ -116,11 +119,15 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:betterendforge:crystalite_boots>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Full set grants Regeneration I").setStyle(<formatting:red>));
 
 //lightning dragonsteel tooltip
-<item:iceandfire:dragonsteel_lightning_sword>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
-<item:iceandfire:dragonsteel_lightning_axe>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
-<item:iceandfire:dragonsteel_lightning_pickaxe>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
-<item:iceandfire:dragonsteel_lightning_shovel>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
-<item:iceandfire:dragonsteel_lightning_hoe>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has 2x Thundering When Crafted").setStyle(<formatting:light_purple>));
+<item:iceandfire:dragonsteel_lightning_sword>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has Thundering When Crafted").setStyle(<formatting:light_purple>));
+<item:iceandfire:dragonsteel_lightning_axe>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has Thundering When Crafted").setStyle(<formatting:light_purple>));
+<item:iceandfire:dragonsteel_lightning_pickaxe>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has Thundering When Crafted").setStyle(<formatting:light_purple>));
+<item:iceandfire:dragonsteel_lightning_shovel>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has Thundering When Crafted").setStyle(<formatting:light_purple>));
+<item:iceandfire:dragonsteel_lightning_hoe>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has Thundering When Crafted").setStyle(<formatting:light_purple>));
+
+//dread sword debuff
+<item:iceandfire:dread_knight_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "5dea655f-2321-4af0-8f17-a66e8ce6f0f4", "damage nerf", -7, ADDITION, [<equipmentslottype:mainhand>]);
+
 //soul weapons
 <item:atum:anubis_wrath>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
 <item:eidolon:reaper_scythe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);

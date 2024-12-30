@@ -55,6 +55,106 @@ for allItems in game.items {
     }
 }
 
+<tag:items:radrecipes:dragonscale_helmets>.add(
+    <item:iceandfire:armor_red_helmet>,
+    <item:iceandfire:armor_bronze_helmet>,
+    <item:iceandfire:armor_green_helmet>,
+    <item:iceandfire:armor_gray_helmet>,
+    <item:iceandfire:armor_blue_helmet>,
+    <item:iceandfire:armor_white_helmet>,
+    <item:iceandfire:armor_sapphire_helmet>,
+    <item:iceandfire:armor_silver_helmet>,
+    <item:iceandfire:armor_electric_helmet>,
+    <item:iceandfire:armor_amythest_helmet>,
+    <item:iceandfire:armor_copper_helmet>,
+    <item:iceandfire:armor_black_helmet>
+);
+
+<tag:items:radrecipes:dragonscale_chestplates>.add(
+    <item:iceandfire:armor_red_chestplate>,
+    <item:iceandfire:armor_bronze_chestplate>,
+    <item:iceandfire:armor_green_chestplate>,
+    <item:iceandfire:armor_gray_chestplate>,
+    <item:iceandfire:armor_blue_chestplate>,
+    <item:iceandfire:armor_white_chestplate>,
+    <item:iceandfire:armor_sapphire_chestplate>,
+    <item:iceandfire:armor_silver_chestplate>,
+    <item:iceandfire:armor_electric_chestplate>,
+    <item:iceandfire:armor_amythest_chestplate>,
+    <item:iceandfire:armor_copper_chestplate>,
+    <item:iceandfire:armor_black_chestplate>
+);
+
+<tag:items:radrecipes:dragonscale_leggings>.add(
+    <item:iceandfire:armor_red_leggings>,
+    <item:iceandfire:armor_bronze_leggings>,
+    <item:iceandfire:armor_green_leggings>,
+    <item:iceandfire:armor_gray_leggings>,
+    <item:iceandfire:armor_blue_leggings>,
+    <item:iceandfire:armor_white_leggings>,
+    <item:iceandfire:armor_sapphire_leggings>,
+    <item:iceandfire:armor_silver_leggings>,
+    <item:iceandfire:armor_electric_leggings>,
+    <item:iceandfire:armor_amythest_leggings>,
+    <item:iceandfire:armor_copper_leggings>,
+    <item:iceandfire:armor_black_leggings>
+);
+
+<tag:items:radrecipes:dragonscale_boots>.add(
+    <item:iceandfire:armor_red_boots>,
+    <item:iceandfire:armor_bronze_boots>,
+    <item:iceandfire:armor_green_boots>,
+    <item:iceandfire:armor_gray_boots>,
+    <item:iceandfire:armor_blue_boots>,
+    <item:iceandfire:armor_white_boots>,
+    <item:iceandfire:armor_sapphire_boots>,
+    <item:iceandfire:armor_silver_boots>,
+    <item:iceandfire:armor_electric_boots>,
+    <item:iceandfire:armor_amythest_boots>,
+    <item:iceandfire:armor_copper_boots>,
+    <item:iceandfire:armor_black_boots>
+);
+
+<tag:items:radrecipes:tide_guardian_helmets>.add(
+    <item:iceandfire:tide_blue_helmet>,
+    <item:iceandfire:tide_bronze_helmet>,
+    <item:iceandfire:tide_deepblue_helmet>,
+    <item:iceandfire:tide_green_helmet>,
+    <item:iceandfire:tide_purple_helmet>,
+    <item:iceandfire:tide_red_helmet>,
+    <item:iceandfire:tide_teal_helmet>
+);
+
+<tag:items:radrecipes:tide_guardian_chestplates>.add(
+    <item:iceandfire:tide_blue_chestplate>,
+    <item:iceandfire:tide_bronze_chestplate>,
+    <item:iceandfire:tide_deepblue_chestplate>,
+    <item:iceandfire:tide_green_chestplate>,
+    <item:iceandfire:tide_purple_chestplate>,
+    <item:iceandfire:tide_red_chestplate>,
+    <item:iceandfire:tide_teal_chestplate>
+);
+
+<tag:items:radrecipes:tide_guardian_leggings>.add(
+    <item:iceandfire:tide_blue_leggings>,
+    <item:iceandfire:tide_bronze_leggings>,
+    <item:iceandfire:tide_deepblue_leggings>,
+    <item:iceandfire:tide_green_leggings>,
+    <item:iceandfire:tide_purple_leggings>,
+    <item:iceandfire:tide_red_leggings>,
+    <item:iceandfire:tide_teal_leggings>
+);
+
+<tag:items:radrecipes:tide_guardian_boots>.add(
+    <item:iceandfire:tide_blue_boots>,
+    <item:iceandfire:tide_bronze_boots>,
+    <item:iceandfire:tide_deepblue_boots>,
+    <item:iceandfire:tide_green_boots>,
+    <item:iceandfire:tide_purple_boots>,
+    <item:iceandfire:tide_red_boots>,
+    <item:iceandfire:tide_teal_boots>
+);
+
 <tag:items:radrecipes:netherite_bows_durability_boost>.add(
     <item:upgradednetherite:netherite_bow>,
     <item:upgradednetherite:gold_upgraded_netherite_bow>,

@@ -33,16 +33,16 @@
 [growth]
 	#The percent increase in health multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	healthGrowth = 0.5
+	healthGrowth = 0.4
 	#The percent increase in attack damage multiplied by the growth factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	attackGrowth = 1.0
+	attackGrowth = 0.8
 	#The increase in armor multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
-	armorGrowth = 3.0
+	armorGrowth = 2.0
 	#The increase in armor toughness multiplied by the growth factor
 	#Range: 0.0 ~ 30.0
-	toughnessGrowth = 3.0
+	toughnessGrowth = 2.0
 	#The increase in knockback resistance multiplied by the growth factor
 	#Range: 0.0 ~ 1.0
 	knockbackResistanceGrowth = 0.1
@@ -157,10 +157,10 @@
 		reflectiveMinPercent = 0.01
 		#The maximum percent of damage to reflect back
 		#Range: 0.0 ~ 1.0
-		reflectiveMaxPercent = 0.25
+		reflectiveMaxPercent = 0.1
 		#The maximum amount of damage to reflect back
 		#Range: > 0
-		reflectiveMax = 80
+		reflectiveMax = 40
 		#Set to true to enable deadly reflected strikes
 		reflectiveLethal = false
 

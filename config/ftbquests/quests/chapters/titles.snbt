@@ -323,12 +323,12 @@
 			title: "§5the §kDreaded"
 			x: 0.0d
 			y: 3.0d
-			subtitle: "Complete a set of dreadsteel armor"
+			subtitle: "Complete the Large Dread Gate Pearl and claim the Dread Queen's Sword"
 			id: "3D080F094832612B"
 			tasks: [{
 				id: "39363838F22031BC"
 				type: "advancement"
-				advancement: "rad_recipes:dreadsteel_set"
+				advancement: "rad_recipes:dreaded_queen_blade"
 				criterion: ""
 			}]
 		}
@@ -482,29 +482,6 @@
 			}]
 		}
 		{
-			title: "the Dragonslayer"
-			x: -1.5d
-			y: 6.0d
-			subtitle: "Slay a dragon."
-			description: ["Dragons are much tougher here than you may be used to so be well prepared before fighting one."]
-			id: "4DA0C9352F8BBA87"
-			tasks: [{
-				id: "21537AE7C67D4471"
-				type: "advancement"
-				advancement: "iceandfire:iceandfire/kill_if_dragon"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "7EEDC06EAE308F30"
-				type: "command"
-				title: "Dragonslayer's Message"
-				icon: "iceandfire:manuscript"
-				auto: "enabled"
-				command: "/tellraw @p {\"text\":\"The fall of a dragon has awakened the power of some weaker bosses previously held under its control.\",\"color\":\"dark_red\",\"bold\":true}"
-				player_command: false
-			}]
-		}
-		{
 			x: 0.0d
 			y: 6.0d
 			subtitle: "Relocate a full bee's nest with silk touch and become the keeper of bees"
@@ -551,18 +528,6 @@
 				id: "0BBB182F4D8BDDEC"
 				type: "advancement"
 				advancement: "twilightforest:arborist"
-				criterion: ""
-			}]
-		}
-		{
-			x: 1.5d
-			y: 6.0d
-			subtitle: "Defeat the extremely rare Pied Piper and steal his title"
-			id: "7A6B7E410672A9BE"
-			tasks: [{
-				id: "31639C090BD00959"
-				type: "advancement"
-				advancement: "rats:rats/piper"
 				criterion: ""
 			}]
 		}

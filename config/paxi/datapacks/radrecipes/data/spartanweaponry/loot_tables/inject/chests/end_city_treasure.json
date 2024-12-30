@@ -19,7 +19,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.2
+                  "chance": 0.5
                 }
               ]
             }
@@ -37,7 +37,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.2
+                  "chance": 0.5
                 }
               ]
             }
@@ -50,13 +50,24 @@
             {
               "function": "minecraft:enchant_randomly",
               "enchantments": [
-                "minecraft:protection",
+                "minecraft:protection"
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
                 "minecraft:thorns"
               ],
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.2
+                  "chance": 0.3
                 }
               ]
             }
@@ -74,7 +85,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.2
+                  "chance": 0.5
                 }
               ]
             }
@@ -92,7 +103,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.25
+                  "chance": 0.6
                 }
               ]
             }
@@ -110,7 +121,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.25
+                  "chance": 0.6
                 }
               ]
             }
@@ -123,13 +134,24 @@
             {
               "function": "minecraft:enchant_randomly",
               "enchantments": [
-                "minecraft:protection",
+                "minecraft:protection"
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.6
+                }
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
                 "minecraft:thorns"
               ],
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.25
+                  "chance": 0.45
                 }
               ]
             }
@@ -147,7 +169,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.25
+                  "chance": 0.6
                 }
               ]
             }
@@ -236,8 +258,8 @@
     },
     {
       "rolls": {
-        "min": 2,
-        "max": 4
+        "min": 3,
+        "max": 6
       },
       "entries": [
         {
@@ -256,6 +278,20 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 2,
+          "name": "enigmaticlegacy:etherium_ore",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 1,
           "name": "betterendforge:aeternium_ingot"
         },
@@ -268,7 +304,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 3
               }
             }
           ]

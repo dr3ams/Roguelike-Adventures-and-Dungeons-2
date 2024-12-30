@@ -51,7 +51,7 @@
 	defaultColor = 610000
 	chance = 0.25
 	growthFactor = 32
-	effects = []
+	effects = ["dungeons_gear:life_steal;2"]
 	presetAffixes = []
 
 [[ranks]]
@@ -60,5 +60,5 @@
 	defaultColor = 16065792
 	chance = 0.0625
 	growthFactor = 64
-	effects = ["dungeons_gear:life_steal;4", "minecraft:glowing", "minecraft:resistance;3", "quark:resilience;69"]
+	effects = ["dungeons_gear:party_starter;0","dungeons_gear:life_steal;4", "minecraft:glowing", "minecraft:resistance;3", "quark:resilience;69"]
 	presetAffixes = []

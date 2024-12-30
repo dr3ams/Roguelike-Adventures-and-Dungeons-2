@@ -5,12 +5,6 @@ import mods.gamestages.events.GameStageAdded;
 
 
 //need to add localization for them so that underscore is not shown in game nitpick but can be left for full release
-StageHelper.grantStageOnAdvancement("iceandfire:iceandfire/kill_if_dragon", "Dragon_Destroyer");
-StageHelper.grantStageOnKill(<entitytype:iceandfire:fire_dragon>, "Dragon_Destroyer");
-StageHelper.grantStageOnKill(<entitytype:iceandfire:ice_dragon>, "Dragon_Destroyer");
-StageHelper.grantStageOnKill(<entitytype:iceandfire:lightning_dragon>, "Dragon_Destroyer");
-StageHelper.grantStageOnAdvancement("minecraft:end/kill_dragon", "Dragon_Destroyer");
-StageHelper.grantStageOnKill(<entitytype:minecraft:ender_dragon>, "Dragon_Destroyer");
 
 StageHelper.grantStageOnAdvancement("minecraft:end/kill_dragon", "Ender_Ender");
 StageHelper.grantStageOnKill(<entitytype:minecraft:ender_dragon>, "Ender_Ender");
@@ -37,33 +31,33 @@ CTEventManager.register<GameStageAdded>((event) => {
     }
 });
 
-//locks bosses from getting affixes until first edragon kill. Easier bosses locked behind any dragon instead.
+//locks bosses from getting affixes until first edragon kill. Easier bosses locked behind wither or end instead.
 
 //these bosses appear after the dragon so they would always be champion anyways
 //"stalwart_dungeons:shelterer","alexsmobs:void_worm"
 
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "twilightforest:naga");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "twilightforest:lich");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "twilightforest:minoshroom");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "twilightforest:knight_phantom");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "stalwart_dungeons:awful_ghast");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "meetyourfight:swampjaw");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "meetyourfight:bellringer");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "meetyourfight:dame_fortuna");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "mowziesmobs:ferrous_wroughtnaut");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "mowziesmobs:barako");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "mowziesmobs:frostmaw");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "alexsmobs:warped_mosco");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "blue_skies:alchemist");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "blue_skies:summoner");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "minecraft:wither");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "ars_nouveau:wilden_boss");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "blue_skies:arachnarch");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "blue_skies:starlit_crusher");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "twilightforest:snow_queen");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "twilightforest:hydra");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "twilightforest:ur_ghast");
-mods.champions.ChampionStages.addStage("Dragon_Destroyer", "atum:pharaoh");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "twilightforest:naga");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "twilightforest:lich");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "twilightforest:minoshroom");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "twilightforest:knight_phantom");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "stalwart_dungeons:awful_ghast");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "meetyourfight:swampjaw");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "meetyourfight:bellringer");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "meetyourfight:dame_fortuna");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "mowziesmobs:ferrous_wroughtnaut");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "mowziesmobs:barako");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "mowziesmobs:frostmaw");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "alexsmobs:warped_mosco");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "blue_skies:alchemist");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "blue_skies:summoner");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "minecraft:wither");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "ars_nouveau:wilden_boss");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "blue_skies:arachnarch");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "blue_skies:starlit_crusher");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "twilightforest:snow_queen");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "twilightforest:hydra");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "twilightforest:ur_ghast");
+mods.champions.ChampionStages.addStage("Wither_Wiper", "atum:pharaoh");
 
 //locks legendary and ultimate champions behind killing wither
 mods.champions.ChampionStages.addTierStage("Wither_Wiper", 3);
