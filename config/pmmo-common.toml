@@ -193,7 +193,7 @@
 	#Range: 1 ~ 1000000
 	levelsPerMilestone = 100
 	#Should fireworks appear on Milestone level up, to other players?
-	milestoneLevelUpFirework = true
+	milestoneLevelUpFirework = false
 	#What is the x in: x * (exponentialBase^(exponentialRate * level))
 	#Range: 1.0 ~ 1000000.0
 	exponentialBaseXp = 83.0
@@ -213,7 +213,7 @@
 	#Should levels be determined using an Exponential formula? (false = the original way)
 	useExponentialFormula = true
 	#Should fireworks appear on level up?
-	levelUpFirework = true
+	levelUpFirework = false
 	#What is the baseXp to reach level 2 (baseXp + level * xpPerLevel)
 	#Range: 1.0 ~ 1000000.0
 	baseXp = 250.0
