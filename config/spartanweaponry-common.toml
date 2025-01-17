@@ -410,7 +410,7 @@
 	explosion_strength_dynamite = 2.0
 
 [projectiles]
-	#Bows in this blacklist will not get Arrows pulled out of the Arrow Quiver. Use the registry ID of the bow to add to this. e.g. "minecraft:bow"
+	#Bows in this blacklist will not get Arrows pulled out of the Arrow Quiver. Use the registry ID of the bow to add to  e.g. "minecraft:bow"
 	quiver_bow_blacklist = ["botania:crystal_bow"]
 	#Disables Recipes for all new Arrows.
 	disable_new_arrow_recipes = false

@@ -1,9 +1,14 @@
 
-["CaveBiomeAPI Configs"]
-	#Determines if the Default Cave Biome should generate. 
-	#This option will not disable all the cave biomes, it will replace any space that should be default cave with the surface cave biome, so the biome generation can be more like in 1.18.
-	"Generate Default Cave Biome" = true
-	#Determines if the Noise Carvers should generate. 
-	#This option will allow the generation of huge caves that are created by noise, similar to the new caves from 1.17 but a bit smaller.
-	"Generate Noise Carvers" = true
+[Worldgen]
+	#Dimension whitelist of where underground biomes should generate.
+	whitelistedDimensions = ["minecraft:overworld"]
+	#Legacy biome source uses multiple noise values for biome placement.
+	#Experimental biome source is based on the surface biome values in addition to noise.
+	useExperimentalBiomeSource = false
+
+[Debug]
+	#Toggle Biome Debug Mode, a system to visualize cave biome placement through the world.
+	#This does not represent the biome placement accurately, but it's useful for debugging.
+	#This feature is focused for the Experimental biome source.
+	biomeDebugMode = false
 
