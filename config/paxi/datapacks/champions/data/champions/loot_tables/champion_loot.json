@@ -1,430 +1,1101 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "name": "tier#1",
+      "rolls": 1,
+      "entries": [
         {
-            "name": "tier#1",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:book",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "champions:entity_champion",
-                            "entity": "this",
-                            "maxTier": 1
-                        },
-                        {
-                            "condition": "minecraft:random_chance_with_looting",
-                            "chance": 0.2,
-                            "looting_multiplier": 0.01
-                        },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "min": 5,
-                                "max": 10
-                            },
-                            "treasure": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "tier#2",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:book",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "champions:entity_champion",
-                            "entity": "this",
-                            "minTier": 2,
-                            "maxTier": 2
-                        },
-                        {
-                            "condition": "minecraft:random_chance_with_looting",
-                            "chance": 0.6,
-                            "looting_multiplier": 0.01
-                        },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "min": 10,
-                                "max": 15
-                            },
-                            "treasure": true
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "tier#3",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:book",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "champions:entity_champion",
-                            "entity": "this",
-                            "minTier": 3,
-                            "maxTier": 3
-                        },
-                        {
-                            "condition": "minecraft:random_chance_with_looting",
-                            "chance": 0.85,
-                            "looting_multiplier": 0.01
-                        },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "enchant_randomly"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "tier#4",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:book",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "champions:entity_champion",
-                            "entity": "this",
-                            "minTier": 4,
-                            "maxTier": 4
-                        },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "min": 15,
-                                "max": 20
-                            },
-                            "treasure": true
-                        },
-                        {
-                            "function": "enchant_randomly"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "tier#5",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:book",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "champions:entity_champion",
-                            "entity": "this",
-                            "minTier": 5,
-                            "maxTier": 5
-                        },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "min": 30,
-                                "max": 30
-                            },
-                            "treasure": true
-                        },
-                        {
-                            "function": "enchant_randomly"
-                        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "translate": "rank.champions.title.5",
-                                "extra": [
-                                    {
-                                        "text": " "
-                                    },
-                                    {
-                                        "translate": "item.minecraft.enchanted_book"
-                                    }
-                                ],
-                                "color": "dark_blue",
-                                "italic": false
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "tier#6",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:book",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "champions:entity_champion",
-                            "entity": "this",
-                            "minTier": 6
-                        },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "min": 40,
-                                "max": 50
-                            },
-                            "treasure": true
-                        },
-                        {
-                            "function": "enchant_randomly"
-                        },
-                        {
-                            "function": "enchant_randomly",
-                            "only_compatible": true,
-		            "enchantments": [
-		            "minecraft:mending",
-		            "uniquee:ender_mending",
-		            "uniquee:warriors_grace",
-		            "apotheosis:life_mending"
-			      ]
-                        },
-		        {
-		          "function": "minecraft:set_nbt",
-		          "tag": "{Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:69}]}",
-		          "conditions": [
-		            {
-		              "condition": "minecraft:random_chance",
-		              "chance": 0.01
-		            }
-		          ]
-		        },
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "translate": "rank.champions.title.6",
-                                "extra": [
-                                    {
-                                        "text": " "
-                                    },
-                                    {
-                                        "translate": "item.minecraft.enchanted_book"
-                                    }
-                                ],
-                                "color": "dark_red",
-                                "italic": false
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "coppercoin",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "kubejs:copper_coin",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance_with_looting",
-                            "chance": 0.4,
-                            "looting_multiplier": 0.01
-                        },
-                        {
-                            "condition": "champions:entity_champion",
-                            "entity": "this",
-                            "maxTier": 2
-                        },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "nethercoin",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "kubejs:nether_coin",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "champions:entity_champion",
-                            "entity": "this"
-                        },
-                        {
-                            "condition": "minecraft:random_chance_with_looting",
-                            "chance": 0.2,
-                            "looting_multiplier": 0.005
-                        },
-                        {
-                            "condition": "killed_by_player"
-                        },
-                        {
-                            "condition": "minecraft:entity_properties",
-                            "entity": "this",
-                            "predicate": {
-                                "location": {
-                                    "dimension": "minecraft:the_nether"
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "monstercoin",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "kubejs:monster_coin",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance_with_looting",
-                            "chance": 0.15,
-                            "looting_multiplier": 0.005
-                        },
-                        {
-                            "condition": "champions:entity_champion",
-                            "entity": "this",
-                            "minTier": 2
-                        },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "ironcoin",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "kubejs:iron_coin",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance_with_looting",
-                            "chance": 0.2,
-                            "looting_multiplier": 0.0075
-                        },
-                        {
-                            "condition": "champions:entity_champion",
-                            "entity": "this",
-                            "minTier": 2,
-                            "maxTier": 3
-                        },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "goldcoin",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "kubejs:gold_coin",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance_with_looting",
-                            "chance": 0.1,
-                            "looting_multiplier": 0.005
-                        },
-                        {
-                            "condition": "champions:entity_champion",
-                            "entity": "this",
-                            "minTier": 4
-                        },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "diamondcoin",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "kubejs:diamond_coin",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance_with_looting",
-                            "chance": 1,
-                            "looting_multiplier": 0.005
-                        },
-                        {
-                            "condition": "champions:entity_champion",
-                            "entity": "this",
-                            "minTier": 6
-                        },
-                        {
-                            "condition": "killed_by_player"
-                        }
-                    ]
-                }
-            ]
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "maxTier": 1
+            },
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.2,
+              "looting_multiplier": 0.01
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 5,
+                "max": 10
+              },
+              "treasure": false
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "name": "tier#2",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 2,
+              "maxTier": 2
+            },
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.6,
+              "looting_multiplier": 0.01
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 10,
+                "max": 15
+              },
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#3",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 3,
+              "maxTier": 3
+            },
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.85,
+              "looting_multiplier": 0.01
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#4",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 5,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 4,
+              "maxTier": 4
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 25
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 4,
+              "maxTier": 4
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"uniquee:ameliorated_bane_of_arthropods\",lvl:15},{id:\"minecraft:fire_protection\",lvl:15},{id:\"apotheosis:depth_miner\",lvl:15},{id:\"uniqueutil:sleipnirs_grace\",lvl:15},{id:\"uniqueutil:dementers_blessing\",lvl:15},{id:\"dungeons_gear:poison_focus\",lvl:15}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Reluctant Tome",
+                "color": "light_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Come on, just give it a chance!",
+                  "color": "aqua"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#5",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "apotheosis:weapon_book",
+          "weight": 4,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 5,
+              "maxTier": 5
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 35,
+                "max": 40
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.5",
+                "extra": [
+                  {
+                    "text": " Weapons Manual"
+                  }
+                ],
+                "color": "dark_blue",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "apotheosis:bow_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 5,
+              "maxTier": 5
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 35,
+                "max": 40
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.5",
+                "extra": [
+                  {
+                    "text": " Archery Handbook"
+                  }
+                ],
+                "color": "dark_blue",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "apotheosis:fishing_rod_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 5,
+              "maxTier": 5
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 35,
+                "max": 40
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.5",
+                "extra": [
+                  {
+                    "text": " Dictionary on Fishing"
+                  }
+                ],
+                "color": "dark_blue",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "apotheosis:null_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 5,
+              "maxTier": 5
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 35,
+                "max": 40
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.5",
+                "extra": [
+                  {
+                    "text": " Chronicle of Many Things"
+                  }
+                ],
+                "color": "dark_blue",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "apotheosis:armor_head_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 5,
+              "maxTier": 5
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 35,
+                "max": 40
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.5",
+                "extra": [
+                  {
+                    "text": " Guide to Head Safety"
+                  }
+                ],
+                "color": "dark_blue",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "apotheosis:armor_chest_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 5,
+              "maxTier": 5
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 35,
+                "max": 40
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.5",
+                "extra": [
+                  {
+                    "text": " Compendium to Bodyblocking"
+                  }
+                ],
+                "color": "dark_blue",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "apotheosis:armor_legs_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 5,
+              "maxTier": 5
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 35,
+                "max": 40
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.5",
+                "extra": [
+                  {
+                    "text": " Scriptures on Exquisite Jeans"
+                  }
+                ],
+                "color": "dark_blue",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "apotheosis:armor_feet_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 5,
+              "maxTier": 5
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 35,
+                "max": 40
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.5",
+                "extra": [
+                  {
+                    "text": " Instructions on Proper Boot Imbuement"
+                  }
+                ],
+                "color": "dark_blue",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tier#6",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "apotheosis:weapon_book",
+          "weight": 4,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 6
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 40,
+                "max": 50
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "enchant_randomly",
+              "only_compatible": true,
+              "enchantments": [
+                "uniquee:ender_mending",
+                "uniquee:warriors_grace"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:69}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.02
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.6",
+                "extra": [
+                  {
+                    "text": "'s Weapons Manual"
+                  }
+                ],
+                "color": "dark_red",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "apotheosis:bow_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 6
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 40,
+                "max": 50
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "enchant_randomly",
+              "only_compatible": true,
+              "enchantments": [
+                "uniquee:ender_mending",
+                "uniquee:ender_marksmen"
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.6",
+                "extra": [
+                  {
+                    "text": "'s Archery Handbook"
+                  }
+                ],
+                "color": "dark_red",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "apotheosis:fishing_rod_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 6
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 40,
+                "max": 50
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "enchant_randomly",
+              "only_compatible": true,
+              "enchantments": [
+                "minecraft:mending",
+                "uniquee:ender_mending"
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.6",
+                "extra": [
+                  {
+                    "text": "'s Dictionary on Fishing"
+                  }
+                ],
+                "color": "dark_red",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "apotheosis:null_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 6
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 40,
+                "max": 50
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "enchant_randomly",
+              "only_compatible": true,
+              "enchantments": [
+                "minecraft:mending",
+                "uniquee:ender_mending",
+                "apotheosis:life_mending"
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.6",
+                "extra": [
+                  {
+                    "text": "'s Chronicle of Many Things"
+                  }
+                ],
+                "color": "dark_red",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "apotheosis:armor_head_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 6
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 40,
+                "max": 50
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "enchant_randomly",
+              "only_compatible": true,
+              "enchantments": [
+                "minecraft:mending",
+                "apotheosis:life_mending"
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.6",
+                "extra": [
+                  {
+                    "text": "'s Guide to Head Safety"
+                  }
+                ],
+                "color": "dark_red",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "apotheosis:armor_chest_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 6
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 40,
+                "max": 50
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "enchant_randomly",
+              "only_compatible": true,
+              "enchantments": [
+                "minecraft:mending",
+                "apotheosis:life_mending"
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.6",
+                "extra": [
+                  {
+                    "text": "'s Compendium to Bodyblocking"
+                  }
+                ],
+                "color": "dark_red",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "apotheosis:armor_legs_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 6
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 40,
+                "max": 50
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "enchant_randomly",
+              "only_compatible": true,
+              "enchantments": [
+                "minecraft:mending",
+                "apotheosis:life_mending"
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.6",
+                "extra": [
+                  {
+                    "text": "'s Scriptures on Exquisite Jeans"
+                  }
+                ],
+                "color": "dark_red",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "apotheosis:armor_feet_book",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 6
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 40,
+                "max": 50
+              },
+              "treasure": true
+            },
+            {
+              "function": "enchant_randomly"
+            },
+            {
+              "function": "enchant_randomly",
+              "only_compatible": true,
+              "enchantments": [
+                "minecraft:mending",
+                "apotheosis:life_mending"
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "rank.champions.title.6",
+                "extra": [
+                  {
+                    "text": "'s Instructions on Proper Boot Imbuement"
+                  }
+                ],
+                "color": "dark_red",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coppercoin",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:copper_coin",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.4,
+              "looting_multiplier": 0.01
+            },
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "maxTier": 2
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nethercoin",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:nether_coin",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this"
+            },
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.2,
+              "looting_multiplier": 0.005
+            },
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "dimension": "minecraft:the_nether"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "monstercoin",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:monster_coin",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.15,
+              "looting_multiplier": 0.005
+            },
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 2
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ironcoin",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:iron_coin",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.2,
+              "looting_multiplier": 0.0075
+            },
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 2,
+              "maxTier": 3
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "goldcoin",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:gold_coin",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.1,
+              "looting_multiplier": 0.005
+            },
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 4
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "diamondcoin",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:diamond_coin",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 1,
+              "looting_multiplier": 0.005
+            },
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 6
+            },
+            {
+              "condition": "killed_by_player"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
