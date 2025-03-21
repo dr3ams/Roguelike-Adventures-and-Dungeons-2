@@ -1,9 +1,14 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "tag": "forge:buckets/milk"
-    },
+	[
+	    {
+	      "tag": "forge:buckets/milk"
+	    },
+	    {
+	      "item": "minecraft:milk_bucket"
+	    }
+	],
     {
       "item": "minecraft:glass_bottle"
     },
