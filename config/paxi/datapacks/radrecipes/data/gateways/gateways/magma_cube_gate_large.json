@@ -1,43 +1,53 @@
 {
     "size": "large",
-    "color": "#03272E",
+    "color": "#CB3D07",
     "waves": [{
             "entities": [{
-                    "entity": "iceandfire:dread_ghoul"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_thrall"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_ghoul"
+                    "entity": "minecraft:magma_cube"
+                },
+				{
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_thrall"
+                    "entity": "minecraft:magma_cube"
+                },
+                {
+                    "entity": "minecraft:magma_cube"
                 }
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "iceandfire:dread_knight",
-                "rolls": 5
+                "entity": "minecraft:magma_cube",
+				"nbt": "{\"Size\": 0}",
+                "rolls": 20
             }],
-            "max_wave_time": 1600,
+            "max_wave_time": 1500,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "iceandfire:dread_knight"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_horse"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_beast"
+                    "entity": "minecraft:magma_cube"
+                },
+				{
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_scuttler"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_scuttler"
+                    "entity": "minecraft:magma_cube"
                 }
             ],
             "modifiers": [{
@@ -68,30 +78,37 @@
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "iceandfire:dread_knight",
-                "rolls": 10
+                "entity": "minecraft:magma_cube",
+				"nbt": "{\"Size\": 0}",
+                "rolls": 30
             }],
-            "max_wave_time": 1640,
+            "max_wave_time": 1500,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "iceandfire:dread_beast"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_beast"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_beast"
+                    "entity": "minecraft:magma_cube"
                 },
 				{
-                    "entity": "iceandfire:dread_thrall"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_thrall"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_thrall"
+                    "entity": "minecraft:magma_cube"
+                },
+                {
+                    "entity": "minecraft:magma_cube"
+                },
+                {
+                    "entity": "minecraft:magma_cube"
                 }
             ],
             "modifiers": [{
@@ -117,38 +134,48 @@
                 {
                     "attribute": "generic.movement_speed",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.15
+                    "value": 0.10
                 }
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "iceandfire:dread_knight",
-                "rolls": 15
+                "entity": "minecraft:magma_cube",
+				"nbt": "{\"Size\": 0}",
+                "rolls": 40
             }],
-            "max_wave_time": 1680,
+            "max_wave_time": 1500,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "iceandfire:dread_beast"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_ghoul"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_horse"
+                    "entity": "minecraft:magma_cube"
                 },
 				{
-                    "entity": "iceandfire:dread_knight"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_scuttler"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_thrall"
+                    "entity": "minecraft:magma_cube"
                 },
-			 {
-                    "entity": "iceandfire:dread_lich"
+                {
+                    "entity": "minecraft:magma_cube"
+                },
+                {
+                    "entity": "minecraft:magma_cube"
+                },
+                {
+                    "entity": "minecraft:magma_cube"
+                },
+                {
+                    "entity": "minecraft:magma_cube"
                 }
             ],
             "modifiers": [{
@@ -174,61 +201,69 @@
                 {
                     "attribute": "generic.movement_speed",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.18
+                    "value": 0.15
                 }
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "iceandfire:dread_knight",
-                "rolls": 20
+                "entity": "minecraft:magma_cube",
+				"nbt": "{\"Size\": 0}",
+                "rolls": 50
             }],
-            "max_wave_time": 1800,
+            "max_wave_time": 1500,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "iceandfire:dread_beast"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_ghoul"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_horse"
+                    "entity": "minecraft:magma_cube"
                 },
 				{
-                    "entity": "iceandfire:dread_knight"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_horse"
-                },
-				{
-                    "entity": "iceandfire:dread_knight"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_scuttler"
+                    "entity": "minecraft:magma_cube"
                 },
                 {
-                    "entity": "iceandfire:dread_thrall"
-                },   
-			 {
-                    "entity": "iceandfire:dread_lich"
+                    "entity": "minecraft:magma_cube"
                 },
-			 {
-                    "entity": "iceandfire:dread_lich"
+                {
+                    "entity": "minecraft:magma_cube"
+                },
+                {
+                    "entity": "minecraft:magma_cube"
+                },
+                {
+                    "entity": "minecraft:magma_cube"
+                },
+                {
+                    "entity": "minecraft:magma_cube"
+                },
+                {
+                    "entity": "minecraft:magma_cube"
+                },
+                {
+                    "entity": "minecraft:magma_cube"
+                },
+                {
+                    "entity": "minecraft:magma_cube"
                 }
             ],
             "modifiers": [{
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 1.3
+                    "value": 1.25
                 },
                 {
                     "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 6
-                },
-                {
-                    "attribute": "generic.armor_toughness",
                     "operation": "ADDITION",
                     "value": 6
                 },
@@ -250,24 +285,26 @@
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "iceandfire:dread_knight",
-                "rolls": 25
+                "entity": "minecraft:magma_cube",
+				"nbt": "{\"Size\": 0}",
+                "rolls": 60
             }],
-            "max_wave_time": 2000,
-            "setup_time": 200
+            "max_wave_time": 1500,
+            "setup_time": 150
         }
     ],
     "rewards": [{
         "type": "entity_loot",
-        "entity": "iceandfire:dread_knight",
-        "rolls": 60
+        "entity": "minecraft:magma_cube",
+		"nbt": "{\"Size\": 0}",
+        "rolls": 120
     },
 	{
 		"type": "stack",
 		"stack": {
-			"item": "iceandfire:dread_queen_sword"
+			"item": "minecraft:nether_star"
 		}
 	}],
-    "completion_xp": 1600,
-	"spawn_range": 12
+    "completion_xp": 2500,
+	"spawn_range": 9
 }
