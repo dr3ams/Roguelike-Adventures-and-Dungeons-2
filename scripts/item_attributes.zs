@@ -25,25 +25,22 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:mysticalworld:copper_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Weapon modifier", -0.5, ADDITION, [<equipmentslottype:mainhand>]);
 <item:mysticalworld:tin_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Weapon modifier", -0.25, ADDITION, [<equipmentslottype:mainhand>]);
 <item:mysticalworld:tin_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Weapon modifier", -0.25, ADDITION, [<equipmentslottype:mainhand>]);
-<item:mysticalworld:lead_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Heavy Weapon modifier", -0.25, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
-<item:mysticalworld:lead_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Heavy Weapon modifier", -0.25, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
-<item:mysticalworld:lead_pickaxe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Heavy Weapon modifier", -0.25, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
-<item:mysticalworld:lead_shovel>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Heavy Weapon modifier", -0.25, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
-<item:mysticalworld:lead_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Heavy Weapon modifier", -0.25, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
+<item:iceandfire:silver_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 4.5, ADDITION, [<equipmentslottype:mainhand>]);
+<item:iceandfire:silver_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 7, ADDITION, [<equipmentslottype:mainhand>]);
 
 //infused arc sword double damage when charged
 <item:blue_skies:infused_arc_sword>.withTag({InfusedCooldown: 0 as int}).anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb3", "Weapon modifier", 4.2, ADDITION, [<equipmentslottype:mainhand>]);
 
 //weighted lead + magic resistance
-<item:mysticalworld:lead_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "309220a7-861a-48f8-b601-4b85c503c890", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:head>]);
-<item:mysticalworld:lead_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:chest>]);
-<item:mysticalworld:lead_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "d0bb4c83-92f3-415d-b7e0-be56feb74fae", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:legs>]);
-<item:mysticalworld:lead_boots>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "e1c53dc8-1188-4621-902f-f9de8f33ded6", "lead armor weight", 0.05, MULTIPLY_BASE, [<equipmentslottype:feet>]);
+<item:mysticalworld:lead_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "309220a7-861a-48f8-b601-4b85c503c890", "lead armor weight", 0.04, MULTIPLY_BASE, [<equipmentslottype:head>]);
+<item:mysticalworld:lead_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "lead armor weight", 0.04, MULTIPLY_BASE, [<equipmentslottype:chest>]);
+<item:mysticalworld:lead_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "d0bb4c83-92f3-415d-b7e0-be56feb74fae", "lead armor weight", 0.04, MULTIPLY_BASE, [<equipmentslottype:legs>]);
+<item:mysticalworld:lead_boots>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "e1c53dc8-1188-4621-902f-f9de8f33ded6", "lead armor weight", 0.04, MULTIPLY_BASE, [<equipmentslottype:feet>]);
 
-<item:mysticalworld:lead_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "d42226ab-a863-4460-b4ae-3fb36a41189b", "lead armor magicres", 0.05, MULTIPLY_BASE, [<equipmentslottype:head>]);
-<item:mysticalworld:lead_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "6dceba43-18c8-4b9e-a4b3-fc2042d68e73", "lead armor magicres", 0.05, MULTIPLY_BASE, [<equipmentslottype:chest>]);
-<item:mysticalworld:lead_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "9bc73f25-95a3-4344-8ec3-44bb910b044a", "lead armor magicres", 0.05, MULTIPLY_BASE, [<equipmentslottype:legs>]);
-<item:mysticalworld:lead_boots>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "f6488f1b-af9a-4329-9714-28bdf64af63c", "lead armor magicres", 0.05, MULTIPLY_BASE, [<equipmentslottype:feet>]);
+<item:mysticalworld:lead_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "d42226ab-a863-4460-b4ae-3fb36a41189b", "lead armor magicres", 0.08, MULTIPLY_BASE, [<equipmentslottype:head>]);
+<item:mysticalworld:lead_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "6dceba43-18c8-4b9e-a4b3-fc2042d68e73", "lead armor magicres", 0.08, MULTIPLY_BASE, [<equipmentslottype:chest>]);
+<item:mysticalworld:lead_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "9bc73f25-95a3-4344-8ec3-44bb910b044a", "lead armor magicres", 0.08, MULTIPLY_BASE, [<equipmentslottype:legs>]);
+<item:mysticalworld:lead_boots>.anyDamage().addGlobalAttributeModifier(<attribute:radenchants:magic_resistance>, "f6488f1b-af9a-4329-9714-28bdf64af63c", "lead armor magicres", 0.08, MULTIPLY_BASE, [<equipmentslottype:feet>]);
 
 //thallasium paraglider boost
 <item:betterendforge:thallasium_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:paraglider:max_stamina>, "309220a7-861a-48f8-b601-4b85c503c890", "thallasium light weight", 0.75, MULTIPLY_BASE, [<equipmentslottype:head>]);
@@ -62,6 +59,10 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:iceandfire:armor_silver_metal_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "b29b5a90-6bf9-4b9f-8203-7e0c51de88a8", "silver armor bless", 2, ADDITION, [<equipmentslottype:chest>]);
 <item:iceandfire:armor_silver_metal_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "d0bb4c83-92f3-415d-b7e0-be56feb74fae", "silver armor bless", 2, ADDITION, [<equipmentslottype:legs>]);
 <item:iceandfire:armor_silver_metal_boots>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:blessed>, "e1c53dc8-1188-4621-902f-f9de8f33ded6", "silver armor bless", 2, ADDITION, [<equipmentslottype:feet>]);
+
+//extra smite attribute on ice and fire silver sword and axe
+<item:iceandfire:silver_sword>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:smite>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "undead smite bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
+<item:iceandfire:silver_axe>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:smite>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "undead smite bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
 
 //buff to ore magnet durability because 12 is just awful and outclassed by the minewood tree.
 <item:twilightforest:ore_magnet>.maxDamage = 64;

@@ -43,7 +43,7 @@
 		oreChances = 4
 		#Max size of the vein.
 		#Range: 1 ~ 256
-		veinSize = 3
+		veinSize = 4
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
 		minY = 0
@@ -60,7 +60,7 @@
 		oreChances = 4
 		#Max size of the vein.
 		#Range: 1 ~ 256
-		veinSize = 3
+		veinSize = 4
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
 		minY = 16
@@ -452,7 +452,7 @@
 	[armor_config.lead_armor]
 		#Armor value for chest piece
 		#Range: > 0
-		chest_armor = 6
+		chest_armor = 7
 		#Armor value for feet piece
 		#Range: > 0
 		feet_armor = 2
@@ -464,7 +464,7 @@
 		legs_armor = 5
 		#Toughness for armor made of this material
 		#Range: 0.0 ~ 1.7976931348623157E308
-		toughness = 1.0
+		toughness = 1.5
 
 	#Configuration for sapphire armor
 	[armor_config.sapphire_armor]
