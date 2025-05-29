@@ -30,7 +30,7 @@ event.add('undergarden:regalium_ingot', ["Used to trade with Stoneborn."])
 event.add('minecraft:emerald', ["This polished gem is well desired by villagers but is too brittle to be used for crafting equipment."])
 event.add('kubejs:emerald_ingot', ["A Refined Emerald Ore that can be used for crafting equipment."])
 event.add('iceandfire:dread_queen_sword', ["Awarded for completing the Large Dread Gate Pearl"])
-event.add('blue_skies:infused_arc_sword', ["Charges up over time. When fully charged, the next 31 times you attack, your damage is doubled, after which it changes back to its normal damage."])
+event.add('blue_skies:infused_arc_sword', ["Charges up over time. When fully charged, the next 31 times you attack, your damage is tripled, after which it changes back to its normal damage."])
 
 event.add('tropicraft:limeade', ["Can be made using the drink mixer.", "Ingredients: lime + sugar + water bucket"])
 event.add('tropicraft:caipirinha', ["Can be made using the drink mixer.", "Ingredients: lime + sugar canes + water bucket"])

@@ -155,7 +155,7 @@ for allItems in game.items {
     <item:iceandfire:tide_teal_boots>
 );
 
-<tag:items:radrecipes:netherite_bows_durability_boost>.add(
+<tag:items:radrecipes:has_durability_boost>.add(
     <item:upgradednetherite:netherite_bow>,
     <item:upgradednetherite:gold_upgraded_netherite_bow>,
     <item:upgradednetherite:fire_upgraded_netherite_bow>,
@@ -175,7 +175,17 @@ for allItems in game.items {
     <item:upgradednetherite:poison_upgraded_netherite_crossbow>,
     <item:upgradednetherite:phantom_upgraded_netherite_crossbow>,
     <item:upgradednetherite:feather_upgraded_netherite_crossbow>,
-    <item:upgradednetherite:corrupt_upgraded_netherite_crossbow>
+    <item:upgradednetherite:corrupt_upgraded_netherite_crossbow>,
+    <item:upgradednetherite:netherite_shield>,
+    <item:upgradednetherite:gold_upgraded_netherite_shield>,
+    <item:upgradednetherite:fire_upgraded_netherite_shield>,
+    <item:upgradednetherite:ender_upgraded_netherite_shield>,
+    <item:upgradednetherite:water_upgraded_netherite_shield>,
+    <item:upgradednetherite:wither_upgraded_netherite_shield>,
+    <item:upgradednetherite:poison_upgraded_netherite_shield>,
+    <item:upgradednetherite:phantom_upgraded_netherite_shield>,
+    <item:upgradednetherite:feather_upgraded_netherite_shield>,
+    <item:upgradednetherite:corrupt_upgraded_netherite_shield>
 );
 
 <tag:items:farmersdelight:wolf_prey>.add(

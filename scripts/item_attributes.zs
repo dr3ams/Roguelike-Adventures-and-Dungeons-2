@@ -22,14 +22,14 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:pirate_hat:pirate_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:swim_speed>, "309220a7-861a-48f8-b601-4b85c503c890", "pirate swim", 0.6, ADDITION, [<equipmentslottype:head>]);
 
 //mystical world weapon rebalanced to be similar to spartan weaponry
-<item:mysticalworld:copper_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Weapon modifier", -0.5, ADDITION, [<equipmentslottype:mainhand>]);
-<item:mysticalworld:tin_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Weapon modifier", -0.25, ADDITION, [<equipmentslottype:mainhand>]);
-<item:mysticalworld:tin_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb4", "Weapon modifier", -0.25, ADDITION, [<equipmentslottype:mainhand>]);
+<item:mysticalworld:copper_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 4.5, ADDITION, [<equipmentslottype:mainhand>]);
+<item:mysticalworld:tin_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 4.75, ADDITION, [<equipmentslottype:mainhand>]);
+<item:mysticalworld:tin_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 8.75, ADDITION, [<equipmentslottype:mainhand>]);
 <item:iceandfire:silver_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 4.5, ADDITION, [<equipmentslottype:mainhand>]);
 <item:iceandfire:silver_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 7, ADDITION, [<equipmentslottype:mainhand>]);
 
-//infused arc sword double damage when charged
-<item:blue_skies:infused_arc_sword>.withTag({InfusedCooldown: 0 as int}).anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb3", "Weapon modifier", 4.2, ADDITION, [<equipmentslottype:mainhand>]);
+//infused arc sword triple damage when charged
+<item:blue_skies:infused_arc_sword>.withTag({InfusedCooldown: 0 as int}).anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb3", "Weapon modifier", 10.8, ADDITION, [<equipmentslottype:mainhand>]);
 
 //weighted lead + magic resistance
 <item:mysticalworld:lead_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "309220a7-861a-48f8-b601-4b85c503c890", "lead armor weight", 0.04, MULTIPLY_BASE, [<equipmentslottype:head>]);
@@ -127,7 +127,7 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:iceandfire:dragonsteel_lightning_hoe>.anyDamage().addTooltip(MCTextComponent.createStringTextComponent("Has Thundering When Crafted").setStyle(<formatting:light_purple>));
 
 //dread sword debuff
-<item:iceandfire:dread_knight_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "5dea655f-2321-4af0-8f17-a66e8ce6f0f4", "damage nerf", -7, ADDITION, [<equipmentslottype:mainhand>]);
+<item:iceandfire:dread_knight_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 9, ADDITION, [<equipmentslottype:mainhand>]);
 
 //soul weapons
 <item:atum:anubis_wrath>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
@@ -153,7 +153,7 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:buddycards:buddysteel_fillet_knife>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.25, ADDITION, [<equipmentslottype:mainhand>]);
 <item:buddycards:buddysteel_fishing_rod>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.luck>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 2, ADDITION, [<equipmentslottype:mainhand>]);
 
-<item:buddycards:buddysteel_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon Modifier", 6, ADDITION, [<equipmentslottype:mainhand>]);
+<item:buddycards:buddysteel_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "Weapon modifier", 1, ADDITION, [<equipmentslottype:mainhand>]);
 <item:buddycards:buddysteel_sword>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.02, ADDITION, [<equipmentslottype:mainhand>]);
 <item:buddycards:buddysteel_pickaxe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.02, ADDITION, [<equipmentslottype:mainhand>]);
 <item:buddycards:buddysteel_axe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.02, ADDITION, [<equipmentslottype:mainhand>]);
@@ -168,6 +168,7 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:buddycards:perfect_buddysteel_shovel>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.5, ADDITION, [<equipmentslottype:mainhand>]);
 <item:buddycards:perfect_buddysteel_hoe>.anyDamage().addGlobalAttributeModifier(<attribute:mysticalworld:serendipity>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "buddy luck", 0.5, ADDITION, [<equipmentslottype:mainhand>]);
 
+<item:buddycards:perfect_buddysteel_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "9862c2d7-52dd-487d-bc6d-a5f9aa914146", "Weapon modifier", 1.5, ADDITION, [<equipmentslottype:mainhand>]);
 <item:buddycards:perfect_buddysteel_sword>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.05, ADDITION, [<equipmentslottype:mainhand>]);
 <item:buddycards:perfect_buddysteel_pickaxe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.05, ADDITION, [<equipmentslottype:mainhand>]);
 <item:buddycards:perfect_buddysteel_axe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "162c8d87-74c6-4935-b595-0e21ababffaf", "buddy lifesteal", 0.05, ADDITION, [<equipmentslottype:mainhand>]);
@@ -204,11 +205,6 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:twilightforest:twilight_scepter>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.0, ADDITION, [<equipmentslottype:offhand>]);
 <item:twilightforest:lifedrain_scepter>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.0, ADDITION, [<equipmentslottype:mainhand>]);
 <item:twilightforest:lifedrain_scepter>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.0, ADDITION, [<equipmentslottype:offhand>]);
-
-//unplaceable spawners
-<item:minecraft:spawner>.addGlobalAttributeModifier(<attribute:forge:reach_distance>, "a6f5182f-39e8-4f5d-9998-fc9ddf7c969f", "Unplaceable", -1, MULTIPLY_TOTAL, [<equipmentslottype:mainhand>]);
-<item:minecraft:spawner>.addGlobalAttributeModifier(<attribute:forge:reach_distance>, "b7f5182f-39e8-4f5d-9998-fc9ddf7c969f", "Unplaceable", -1, MULTIPLY_TOTAL, [<equipmentslottype:offhand>]);
-<item:minecraft:spawner>.addTooltip("Cannot be placed");
 
 //buffs to horse armors
 <item:minecraft:diamond_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 2, ADDITION, [<equipmentslottype:chest>]);
@@ -252,10 +248,10 @@ for allItems in game.items {
 		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, "a4b21eca-d3ca-3ecd-72a7-b2a5dbb53dc7", "Horse Knockback Resistance", 0.1, ADDITION, [<equipmentslottype:chest>]);
 	    }
 
-	    if (allItems.getDefinition().isIn(<tag:items:radrecipes:netherite_bows_durability_boost>) ) {
-    var bowMaxDurability = allItems.maxDamage;
-    if bowMaxDurability != 0 {
-        allItems.maxDamage = bowMaxDurability * 3;
+	    if (allItems.getDefinition().isIn(<tag:items:radrecipes:has_durability_boost>) ) {
+    var netheriteMaxDurability = allItems.maxDamage;
+    if netheriteMaxDurability != 0 {
+        allItems.maxDamage = netheriteMaxDurability * 3;
     }
 	    }
 
