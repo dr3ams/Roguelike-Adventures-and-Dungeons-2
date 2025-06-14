@@ -1,7 +1,19 @@
 {
 "farmersdelight:flint_knife":
 	{
-		"combat": 3
+		"combat": 2
+	},
+"pickletweaks:wooden_paxel":
+	{
+		"combat": 0
+	},
+"pickletweaks:stone_paxel":
+	{
+		"combat": 1
+	},
+"pickletweaks:flint_paxel":
+	{
+		"combat": 2
 	},
 "pickletweaks:flint_pickaxe":
 	{
@@ -9,31 +21,37 @@
 	},
 "pickletweaks:flint_axe":
 	{
-		"combat": 5
+		"combat": 2
 	},
 "pickletweaks:wooden_sickle":
 	{
-		"combat": 1
+		"combat": 0,
+		"farming": 1
 	},
 "pickletweaks:stone_sickle":
 	{
-		"combat": 1
+		"combat": 0,
+		"farming": 1
 	},
 "pickletweaks:flint_sickle":	
 	{
-		"combat": 5
+		"combat": 0,
+		"farming": 2
 	},
 "pickletweaks:iron_sickle":	
 	{
-		"combat": 25
+		"combat": 0,
+		"farming": 5
 	},
 "pickletweaks:golden_sickle":
 	{
-		"combat": 10
+		"combat": 0,
+		"farming": 3
 	},
 "pickletweaks:diamond_sickle":
 	{
-		"combat": 45
+		"combat": 0,
+		"farming": 15
 	},
 "pickletweaks:emerald_scythe":
 	{
@@ -53,7 +71,7 @@
 	},
 "pickletweaks:flint_scythe":
 	{
-		"combat": 5
+		"combat": 2
 	},
 "pickletweaks:iron_scythe":	
 	{
@@ -69,11 +87,13 @@
 	},
 "pickletweaks:emerald_sickle":
 	{
-		"combat": 55
+		"combat": 0,
+		"farming": 20
 	},
 "pickletweaks:netherite_sickle":
 	{
-		"combat": 60
+		"combat": 0,
+		"farming": 25
 	},
 "druidcraft:bone_pickaxe":
 	{
@@ -83,13 +103,29 @@
 	{
 		"combat": 1
 	},	
+"mysticalworld:cactus_axe":
+	{
+		"combat": 1
+	},	
+"mysticalworld:cactus_pickaxe":
+	{
+		"combat": 1
+	},	
+"mysticalworld:cactus_shovel":
+	{
+		"combat": 1
+	},	
+"mysticalworld:cactus_hoe":
+	{
+		"combat": 1
+	},	
 "mysticalworld:cactus_spear":
 	{
 		"combat": 1
 	},	
 "pickletweaks:flint_sword":
 	{
-		"combat": 5
+		"combat": 2
 	},
 "pickletweaks:emerald_sword":
 	{
@@ -105,11 +141,23 @@
 	},
 "mysticalworld:tin_sword":
 	{
-		"combat": 10
+		"combat": 7
 	},
 "mysticalworld:copper_sword":
 	{
-		"combat": 6
+		"combat": 8
+	},
+"mysticalworld:copper_axe":
+	{
+		"combat": 8
+	},
+"mysticalworld:copper_shovel":
+	{
+		"combat": 1
+	},
+"mysticalworld:copper_hoe":
+	{
+		"combat": 1
 	},
 "iceandfire:silver_sword":
 	{
@@ -165,7 +213,7 @@
 	},
 "mysticalworld:tin_axe":
 	{
-		"combat": 1
+		"combat": 7
 	},
 "mysticalworld:tin_pickaxe":
 	{
@@ -181,7 +229,7 @@
 	},
 "greekfantasy:flint_knife":
 	{
-		"combat": 3
+		"combat": 2
 	},
 "greekfantasy:cursed_bow":
 	{
@@ -258,6 +306,10 @@
 	{
 		"combat": 75
 	},
+	"dungeons_mobs:wooden_ladle":
+	{
+		"combat": 2
+	},
 	"dungeons_gear:ancient_bow":
 	{
 		"archery": 25
@@ -286,7 +338,8 @@
 	},
 	"dungeons_gear:battlestaff_of_terror":
 	{
-		"combat": 35
+		"magic": 10,
+		"combat": 5
 	},
 	"dungeons_gear:bonebow":
 	{
@@ -410,7 +463,8 @@
 	},
 	"dungeons_gear:growing_staff":
 	{
-		"combat": 35
+		"magic": 10,
+		"combat": 5
 	},
 	"dungeons_gear:guardian_bow":
 	{
@@ -548,7 +602,8 @@
 	},
 	"dungeons_gear:sickle":
 	{
-		"combat": 10
+		"combat": 0,
+		"farming": 4
 	},
 	"dungeons_gear:slayer_crossbow":
 	{
@@ -600,7 +655,8 @@
 	},
 	"dungeons_gear:the_last_laugh":
 	{
-		"combat": 25
+		"combat": 0,
+		"farming": 6
 	},
 	"dungeons_gear:the_pink_scoundrel":
 	{
@@ -797,8 +853,8 @@
 	},
 	"iceandfire:dread_queen_sword":
 	{
-		"combat": 50,
-		"shadow": 3
+		"combat": 60,
+		"shadow": 13
 	},
 	"iceandfire:dread_sword":
 	{
@@ -1007,7 +1063,7 @@
 	},
 	"spartanweaponry:battleaxe_copper":
 	{
-		"combat": 20
+		"combat": 8
 	},
 	"spartanweaponry:battleaxe_diamond":
 	{
@@ -1055,15 +1111,15 @@
 	},
 	"spartanweaponry:battleaxe_stone":
 	{
-		"combat": 15
+		"combat": 5
 	},
 	"spartanweaponry:battleaxe_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:battleaxe_wood":
 	{
-		"combat": 5
+		"combat": 2
 	},
 	"spartanweaponry:boomerang_bronze":
 	{
@@ -1132,17 +1188,17 @@
 	},
 	"spartanweaponry:boomerang_stone":
 	{
-		"combat": 15,
+		"combat": 5,
 		"archery": 0
 	},
 	"spartanweaponry:boomerang_tin":
 	{
-		"combat": 15,
+		"combat": 7,
 		"archery": 0
 	},
 	"spartanweaponry:boomerang_wood":
 	{
-		"combat": 5,
+		"combat": 2,
 		"archery": 0
 	},
 	"spartanweaponry:cestus":
@@ -1223,7 +1279,7 @@
 	},
 	"spartanweaponry:dagger_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:dagger_wood":
 	{
@@ -1283,15 +1339,15 @@
 	},
 	"spartanweaponry:flanged_mace_stone":
 	{
-		"combat": 15
+		"combat": 5
 	},
 	"spartanweaponry:flanged_mace_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:flanged_mace_wood":
 	{
-		"combat": 5
+		"combat": 2
 	},
 	"spartanweaponry:glaive_bronze":
 	{
@@ -1299,7 +1355,7 @@
 	},
 	"spartanweaponry:glaive_copper":
 	{
-		"combat": 12
+		"combat": 8
 	},
 	"spartanweaponry:glaive_diamond":
 	{
@@ -1347,15 +1403,15 @@
 	},
 	"spartanweaponry:glaive_stone":
 	{
-		"combat": 15
+		"combat": 5
 	},
 	"spartanweaponry:glaive_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:glaive_wood":
 	{
-		"combat": 5
+		"combat": 2
 	},
 	"spartanweaponry:greatsword_bronze":
 	{
@@ -1411,15 +1467,15 @@
 	},
 	"spartanweaponry:greatsword_stone":
 	{
-		"combat": 15
+		"combat": 5
 	},
 	"spartanweaponry:greatsword_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:greatsword_wood":
 	{
-		"combat": 5
+		"combat": 2
 	},
 	"spartanweaponry:halberd_bronze":
 	{
@@ -1475,15 +1531,15 @@
 	},
 	"spartanweaponry:halberd_stone":
 	{
-		"combat": 15
+		"combat": 5
 	},
 	"spartanweaponry:halberd_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:halberd_wood":
 	{
-		"combat": 5
+		"combat": 2
 	},
 	"spartanweaponry:hammer_bronze":
 	{
@@ -1539,15 +1595,15 @@
 	},
 	"spartanweaponry:hammer_stone":
 	{
-		"combat": 15
+		"combat": 5
 	},
 	"spartanweaponry:hammer_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:hammer_wood":
 	{
-		"combat": 5
+		"combat": 2
 	},
 	"spartanweaponry:heavy_crossbow_bronze":
 	{
@@ -1680,17 +1736,17 @@
 	},
 	"spartanweaponry:javelin_stone":
 	{
-		"combat": 15,
+		"combat": 5,
 		"archery": 0
 	},
 	"spartanweaponry:javelin_tin":
 	{
-		"combat": 15,
+		"combat": 7,
 		"archery": 0
 	},
 	"spartanweaponry:javelin_wood":
 	{
-		"combat": 5,
+		"combat": 2,
 		"archery": 0
 	},
 	"spartanweaponry:katana_bronze":
@@ -1747,15 +1803,15 @@
 	},
 	"spartanweaponry:katana_stone":
 	{
-		"combat": 15
+		"combat": 5
 	},
 	"spartanweaponry:katana_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:katana_wood":
 	{
-		"combat": 5
+		"combat": 2
 	},
 	"spartanweaponry:lance_bronze":
 	{
@@ -1811,15 +1867,15 @@
 	},
 	"spartanweaponry:lance_stone":
 	{
-		"combat": 15
+		"combat": 5
 	},
 	"spartanweaponry:lance_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:lance_wood":
 	{
-		"combat": 5
+		"combat": 2
 	},
 	"spartanweaponry:longbow_bronze":
 	{
@@ -1939,15 +1995,15 @@
 	},
 	"spartanweaponry:longsword_stone":
 	{
-		"combat": 15
+		"combat": 5
 	},
 	"spartanweaponry:longsword_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:longsword_wood":
 	{
-		"combat": 5
+		"combat": 2
 	},
 	"spartanweaponry:pike_bronze":
 	{
@@ -2003,95 +2059,111 @@
 	},
 	"spartanweaponry:pike_stone":
 	{
-		"combat": 15
+		"combat": 5
 	},
 	"spartanweaponry:pike_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:pike_wood":
 	{
-		"combat": 5
+		"combat": 2
 	},
 	"spartanweaponry:quarterstaff_bronze":
 	{
 		"combat": 10,
-		"agility": 10
+		"agility": 10,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_copper":
 	{
-		"combat": 8,
-		"agility": 4
+		"combat": 4,
+		"agility": 4,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_diamond":
 	{
 		"combat": 22,
-		"agility": 22
+		"agility": 22,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_electrum":
 	{
 		"combat": 10,
-		"agility": 10
+		"agility": 10,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_gold":
 	{
 		"combat": 5,
-		"agility": 5
+		"agility": 5,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_invar":
 	{
 		"combat": 11,
-		"agility": 11
+		"agility": 11,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_iron":
 	{
 		"combat": 12,
-		"agility": 12
+		"agility": 12,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_lead":
 	{
 		"combat": 15,
-		"agility": 15
+		"agility": 15,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_netherite":
 	{
 		"combat": 30,
-		"agility": 30
+		"agility": 30,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_nickel":
 	{
 		"combat": 10,
-		"agility": 10
+		"agility": 10,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_platinum":
 	{
 		"combat": 18,
-		"agility": 18
+		"agility": 18,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_silver":
 	{
 		"combat": 10,
-		"agility": 10
+		"agility": 10,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_steel":
 	{
 		"combat": 13,
-		"agility": 13
+		"agility": 13,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_stone":
 	{
-		"combat": 7,
-		"agility": 7
+		"combat": 2,
+		"agility": 2,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_tin":
 	{
-		"combat": 8,
-		"agility": 8
+		"combat": 3,
+		"agility": 3,
+		"magic": 0
 	},
 	"spartanweaponry:quarterstaff_wood":
 	{
-		"combat": 2,
-		"agility": 2
+		"combat": 1,
+		"agility": 1,
+		"magic": 0
 	},
 	"spartanweaponry:rapier_bronze":
 	{
@@ -2099,7 +2171,7 @@
 	},
 	"spartanweaponry:rapier_copper":
 	{
-		"combat": 5
+		"combat": 8
 	},
 	"spartanweaponry:rapier_diamond":
 	{
@@ -2151,11 +2223,11 @@
 	},
 	"spartanweaponry:rapier_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:rapier_wood":
 	{
-		"combat": 5
+		"combat": 2
 	},
 	"spartanweaponry:saber_bronze":
 	{
@@ -2163,7 +2235,7 @@
 	},
 	"spartanweaponry:saber_copper":
 	{
-		"combat": 5
+		"combat": 8
 	},
 	"spartanweaponry:saber_diamond":
 	{
@@ -2211,15 +2283,15 @@
 	},
 	"spartanweaponry:saber_stone":
 	{
-		"combat": 15
+		"combat": 5
 	},
 	"spartanweaponry:saber_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:saber_wood":
 	{
-		"combat": 5
+		"combat": 2
 	},
 	"spartanweaponry:spear_bronze":
 	{
@@ -2275,15 +2347,15 @@
 	},
 	"spartanweaponry:spear_stone":
 	{
-		"combat": 15
+		"combat": 5
 	},
 	"spartanweaponry:spear_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:spear_wood":
 	{
-		"combat": 5
+		"combat": 2
 	},
 	"spartanweaponry:throwing_knife_bronze":
 	{
@@ -2292,7 +2364,7 @@
 	},
 	"spartanweaponry:throwing_knife_copper":
 	{
-		"combat": 5,
+		"combat": 8,
 		"archery": 0
 	},
 	"spartanweaponry:throwing_knife_diamond":
@@ -2352,17 +2424,17 @@
 	},
 	"spartanweaponry:throwing_knife_stone":
 	{
-		"combat": 15,
+		"combat": 5,
 		"archery": 0
 	},
 	"spartanweaponry:throwing_knife_tin":
 	{
-		"combat": 15,
+		"combat": 7,
 		"archery": 0
 	},
 	"spartanweaponry:throwing_knife_wood":
 	{
-		"combat": 5,
+		"combat": 2,
 		"archery": 0
 	},
 	"spartanweaponry:tomahawk_bronze":
@@ -2372,7 +2444,7 @@
 	},
 	"spartanweaponry:tomahawk_copper":
 	{
-		"combat": 5,
+		"combat": 8,
 		"archery": 0
 	},
 	"spartanweaponry:tomahawk_diamond":
@@ -2432,17 +2504,17 @@
 	},
 	"spartanweaponry:tomahawk_stone":
 	{
-		"combat": 15,
+		"combat": 5,
 		"archery": 0
 	},
 	"spartanweaponry:tomahawk_tin":
 	{
-		"combat": 15,
+		"combat": 7,
 		"archery": 0
 	},
 	"spartanweaponry:tomahawk_wood":
 	{
-		"combat": 5,
+		"combat": 2,
 		"archery": 0
 	},
 	"spartanweaponry:warhammer_bronze":
@@ -2499,15 +2571,15 @@
 	},
 	"spartanweaponry:warhammer_stone":
 	{
-		"combat": 15
+		"combat": 5
 	},
 	"spartanweaponry:warhammer_tin":
 	{
-		"combat": 15
+		"combat": 7
 	},
 	"spartanweaponry:warhammer_wood":
 	{
-		"combat": 5
+		"combat": 2
 	},
 	"spartanweaponry:scythe_lead":
     {
@@ -2515,11 +2587,11 @@
     },
     "spartanweaponry:scythe_wood":
     {
-        "combat": 5
+        "combat": 2
     },
     "spartanweaponry:scythe_stone":
     {
-        "combat": 15
+        "combat": 5
     },
     "spartanweaponry:scythe_iron":
     {
@@ -2539,7 +2611,7 @@
     },
     "spartanweaponry:scythe_tin":
     {
-        "combat": 15
+        "combat": 7
     },
     "spartanweaponry:scythe_silver":
     {
@@ -2575,7 +2647,7 @@
     },
 "spartanweaponry:parrying_dagger_tin":
     {
-        "combat": 15
+        "combat": 7
     },
 "spartanweaponry:parrying_dagger_silver":
     {
@@ -3456,7 +3528,7 @@
 	},
 "atum:iron_club":
 	{
-		"combat": 40
+		"combat": 30
 	},
 
 "good_nights_sleep:candy_sword":
@@ -3483,6 +3555,11 @@
 	{
 		"combat": 45
 	},
+"blue_skies:infused_arc_sword":
+	{
+		"combat": 45,
+		"light": 10
+	},
 "stalwart_dungeons:wooden_hammer":
 	{
 		"combat": 1
@@ -3506,5 +3583,14 @@
 "stalwart_dungeons:netherite_hammer":
 	{
 		"combat": 60
+	},
+"twilightforest:block_and_chain":
+	{
+		"combat": 25,
+		"magic": 0
+	},
+"tropicraft:dagger":
+	{
+		"combat": 3
 	}
 }

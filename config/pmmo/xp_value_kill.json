@@ -152,7 +152,8 @@
 	},
 	"minecraft:cave_spider":
 	{
-		"combat": 15
+		"combat": 15,
+		"dungeoneering": 10
 	},
 	"minecraft:creeper":
 	{
@@ -217,6 +218,10 @@
 	{
 		"combat": 35
 	},
+	"minecraft:witch":
+	{
+		"magic": 10
+	},
 	"minecraft:wither":
 	{
 		"combat": 100,
@@ -246,9 +251,25 @@
 	{
 		"light": 10
 	},
+	"blue_skies:alchemist":
+	{
+		"alchemy": 50,
+		"dungeoneering": 50
+	},
+	"blue_skies:summoner":
+	{
+		"magic": 50,
+		"dungeoneering": 50
+	},
+	"blue_skies:starlit_crusher":
+	{
+		"shadow": 100,
+		"dungeoneering": 200
+	},
 	"blue_skies:arachnarch":
 	{
-		"light": 10
+		"light": 100,
+		"dungeoneering": 200
 	},
 	"blue_skies:infested_swarmer":
 	{
@@ -272,11 +293,15 @@
 	},
 	"undergarden:masticator":
 	{
-		"light": 10
+		"light": 100
 	},
 	"greekfantasy:shade":
 	{
 		"light": 10
+	},
+	"twilightforest:skeleton_druid":
+	{
+		"farming": 20
 	},
 	"twilightforest:naga":
 	{
@@ -310,6 +335,49 @@
 		"light": 50,
 		"dungeoneering": 50,
 		"wayfaring": 20
+	},
+	"mowzies_mobs:ferrous_wroughtnaut":
+	{
+		"light": 50,
+		"dungeoneering": 200
+	},
+	"mowzies_mobs:frostmaw":
+	{
+		"wayfaring": 50
+	},
+	"mowzies_mobs:barako":
+	{
+		"shadow": 50
+	},
+	"mowzies_mobs:grottol":
+	{
+		"mining": 25,
+		"gathering": 25
+	},
+	"mowziesmobs:foliaath":
+	{
+		"combat": 10
+	},
+	"mowzies_mobs:naga":
+	{
+		"combat": 25
+	},
+	"meetyourfight:swampjaw":
+	{
+		"light": 40
+	},
+	"meetyourfight:bellringer":
+	{
+		"light": 50
+	},
+	"meetyourfight:dame_fortuna":
+	{
+		"light": 60
+	},
+	"quark:stoneling":
+	{
+		"mining": 8,
+		"gathering": 8
 	},
 	"dungeonsmod:sun":
 	{
@@ -347,6 +415,15 @@
 	{
 		"shadow": 50
 	},
+	"supplementaries:red_merchant":
+	{
+		"shadow": 50
+	},
+	"minecraft:wandering_trader":
+	{
+		"light": 25,
+		"shadow": 25
+	},
 	"atum:villager_male":
 	{
 		"shadow": 50
@@ -374,5 +451,39 @@
 	"twilightforest:wraith":
 	{
 		"light": 5
+	},
+	"stalwart_dungeons:shelterer":
+	{
+		"combat": 100,
+		"light": 100,
+		"endurance": 200
+	},
+	"eidolon:zombie_brute":
+	{
+		"combat": 15
+	},
+	"greekfantasy:empusa":
+	{
+		"combat": 20
+	},
+	"humancompanions:arbalist":
+	{
+		"shadow": 50
+	},
+	"humancompanions:archer":
+	{
+		"shadow": 50
+	},
+	"humancompanions:knight":
+	{
+		"shadow": 50
+	},
+	"humancompanions:axeguard":
+	{
+		"shadow": 50
+	},
+	"good_nights_sleep:herobrine":
+	{
+		"light": 50
 	}
 }

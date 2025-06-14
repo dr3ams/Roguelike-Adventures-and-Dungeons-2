@@ -6,16 +6,24 @@
 	},
 	"quark:monster_box":
 	{
-		"mining": 50,
-		"combat": 50,
-		"endurance": 50,
-		"gathering": 50,
-		"dungeoneering": 50
+		"mining": 60,
+		"combat": 60,
+		"endurance": 60,
+		"gathering": 60,
+		"dungeoneering": 100
 	},
 	"randomite:randomite_ore":
 	{
 		"mining": 20,
 		"gathering": 20
+	},
+	"minecraft:iron_bars":
+	{
+		"dungeoneering": 2
+	},
+	"quark:gold_bars":
+	{
+		"dungeoneering": 2.5
 	},
 	"minecraft:ancient_debris":
 	{
@@ -887,11 +895,11 @@
 	},
 	"minecraft:spawner":
 	{
-		"mining": 50,
-		"combat": 50,
-		"endurance": 50,
-		"gathering": 50,
-		"dungeoneering": 50
+		"mining": 60,
+		"combat": 60,
+		"endurance": 60,
+		"gathering": 60,
+		"dungeoneering": 100
 	},
 	"minecraft:spruce_log":
 	{
@@ -1315,5 +1323,100 @@
 	{
 		"mining": 20,
 		"farming": 100
+	},
+	"infernalexp:glowdust_sand":
+	{
+		"excavation": 1,
+		"gathering": 1
+	},
+	"byg:quartzite_sand":
+	{
+		"excavation": 1,
+		"gathering": 1
+	},
+	"byg:raw_quartz_block":
+	{
+		"mining": 1,
+		"gathering": 1
+	},
+	"byg:baobab_fruit_block":
+	{
+		"farming": 5
+	},
+	"byg:ripe_orchard_leaves":
+	{
+		"farming": 5
+	},
+	"byg:ripe_joshua_leaves":
+	{
+		"farming": 5
+	},
+	"outer_end:cobalt_crystal":
+	{
+		"mining": 5,
+		"gathering": 5
+	},
+	"outer_end:mint_crystal":
+	{
+		"mining": 5,
+		"gathering": 5
+	},
+	"outer_end:rose_crystal":
+	{
+		"mining": 5,
+		"gathering": 5
+	},
+	"darkerdepths:glowshroom":
+	{
+		"farming": 5
+	},
+	"darkerdepths:glowshroom_block":
+	{
+		"farming": 5
+	},
+	"darkerdepths:glowshroom_stem":
+	{
+		"farming": 5
+	},
+	"projectvibrantjourneys:natural_cobweb":
+	{
+		"gathering": 5
+
+	},
+	"projectvibrantjourneys:bark_mushroom":
+	{
+		"gathering": 2
+
+	},
+	"projectvibrantjourneys:berried_juniper_leaves":
+	{
+		"farming": 10
+
+	},
+	"simplefarming:blackberry_bush":
+	{
+		"gathering": 5
+
+	},
+	"simplefarming:blueberry_bush":
+	{
+		"gathering": 5
+
+	},
+	"simplefarming:raspberry_bush":
+	{
+		"gathering": 5
+
+	},
+	"simplefarming:strawberry_bush":
+	{
+		"gathering": 5
+
+	},
+	"betterdefaultbiomes:pink_cactus_flower":
+	{
+		"gathering": 2,
+		"farming": 2
+
 	}
 }

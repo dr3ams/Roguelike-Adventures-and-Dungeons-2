@@ -19,6 +19,14 @@
 		"woodcutting": -75,
 		"farming": -75
 	},
+	"minecraft:modified_jungle_edge":
+	{
+		"wayfaring": 100,
+		"light": 100,
+		"gathering": 100,
+		"woodcutting": 100,
+		"farming": 100
+	},
 	"minecraft:cold_ocean":
 	{
 		"swimming": 50,
@@ -37,11 +45,38 @@
 		"fishing": 20,
 		"endurance": 20
 	},
+	"minecraft:deep_lukewarm_ocean":
+	{
+		"swimming": 40,
+		"fishing": 75
+	},
+	"minecraft:lukewarm_ocean":
+	{
+		"swimming": 20,
+		"fishing": 50
+	},
+	"minecraft:warm_ocean":
+	{
+		"swimming": 35,
+		"fishing": 35
+	},
 	"minecraft:desert":
 	{
 		"excavation": 10,
 		"farming": -15,
 		"endurance": 30
+	},
+	"minecraft:badlands":
+	{
+		"endurance": 15,
+		"mining": 10,
+		"gathering": 10
+	},
+	"minecraft:badlands_plateau":
+	{
+		"endurance": 10,
+		"mining": 15,
+		"gathering": 15
 	},
 	"minecraft:frozen_ocean":
 	{
@@ -79,6 +114,10 @@
 		"woodcutting": -75,
 		"farming": -75
 	},
+	"minecraft:mushroom_fields":
+	{
+		"farming": 75
+	},
 	"minecraft:ocean":
 	{
 		"swimming": 25,
@@ -88,20 +127,201 @@
 	{
 		"fishing": 5
 	},
+	"minecraft:mountains":
+	{
+		"mining": 3,
+		"gathering": 3
+	},
+	"minecraft:warped_forest":
+	{
+		"archery": 25,
+		"farming": 25,
+		"flying": -25
+	},
 	"twilightforest:enchanted_forest":
 	{
 		"magic": 30
 	},
-	"betterendforge:dust_wastelands":
+	"twilightforest:highlands":
 	{
-		"combat": 20
+		"wayfaring": 50
 	},
-	"betterendforge:shadow_forest":
+	"byg:skyris_highlands":
+	{
+		"wayfaring": 20
+	},
+	"byg:ebony_woods":
+	{
+		"shadow": 10
+	},
+	"byg:orchard":
+	{
+		"farming": 20
+	},
+	"byg:dunes":
+	{
+		"agility": 10
+	},
+	"byg:bluff_steeps":
+	{
+		"dungeoneering": 10,
+		"flying": 10,
+		"wayfaring": 10
+	},
+	"byg:oasis":
+	{
+		"farming": 15,
+		"fishing": 5
+	},
+	"byg:weeping_witch_forest":
+	{
+		"magic": 20
+	},
+	"byg:red_desert":
+	{
+		"combat": 30,
+		"farming": -15,
+		"endurance": 10
+	},
+	"byg:rainbow_beach":
+	{
+		"fishing": 10,
+		"alchemy": 10,
+		"farming": 10
+	},
+	"byg:tropical_islands":
+	{
+		"fishing": 10,
+		"alchemy": 10,
+		"farming": 10
+	},
+	"byg:seasonal_deciduous_clearing":
+	{
+		"farming": 3.33,
+		"gathering": 3.33,
+		"woodcutting": 3.33,
+		"wayfaring": 3.33
+	},
+	"byg:rose_fields":
+	{
+		"farming": 5
+	},
+	"byg:rocky_beach":
+	{
+		"mining": 5,
+		"gathering": 5
+	},
+	"byg:fresh_water_lake":
+	{
+		"fishing": 20,
+		"swimming": 20
+	},
+	"byg:polluted_lake":
+	{
+		"excavation": 20,
+		"gathering": 20,
+		"fishing": -15,
+		"swimming": -15
+	},
+	"byg:dover_mountains":
+	{
+		"gathering": 7,
+		"mining": 7
+	},
+	"byg:guiana_shield":
+	{
+		"endurance": 15,
+		"combat": 10
+	},
+	"byg:guiana_clearing":
+	{
+		"endurance": 15,
+		"agility": 20
+	},
+	"byg:quartz_desert":
+	{
+		"gathering": 20
+	},
+	"byg:withering_woods":
 	{
 		"shadow": 20
 	},
+	"bayou_blues:bayou":
+	{
+		"fishing": 10,
+		"wayfaring": 10
+	},
+	"darkerdepths:crystal_cave":
+	{
+		"gathering": 5,
+		"mining": 5
+	},
+	"darkerdepths:glowshroom_cave":
+	{
+		"farming": 5
+	},
+	"darkerdepths:molten_cavern":
+	{
+		"endurance": 5
+	},
+	"darkerdepths:sandy_catacombs":
+	{
+		"combat": 5
+	},
+	"atum:oasis":
+	{
+		"farming": 30,
+		"swimming": 10,
+		"fishing": 10
+	},
+	"atum:dead_oasis":
+	{
+		"farming": -30,
+		"swimming": -10,
+		"fishing": -10,
+		"gathering": 45
+	},
+	"outer_end:crystal_crag":
+	{
+		"gathering": 40,
+		"mining": 40
+	},
+	"byg:cryptic_wastes":
+	{
+		"endurance": 40
+	},
+	"byg:nightshade_forest":
+	{
+		"archery": 25,
+		"shadow": 25
+	},
+	"betterendforge:umbra_valley":
+	{
+		"endurance": 40
+	},
+	"betterendforge:chorus_forest":
+	{
+		"gathering": 40,
+		"woodcutting": 40
+	},
+	"betterendforge:sulfur_springs":
+	{
+		"alchemy": 40
+	},
+	"betterendforge:dust_wastelands":
+	{
+		"combat": 40
+	},
+	"betterendforge:shadow_forest":
+	{
+		"shadow": 40
+	},
 	"betterendforge:dragon_graveyards":
 	{
-		"dragonslayer": 20
+		"dragonslayer": 40
+	},
+	"projectvibrantjourneys:redwood_peaks":
+	{
+		"archery": 20
 	}
 }
