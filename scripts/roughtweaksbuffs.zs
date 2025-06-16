@@ -11,7 +11,7 @@ import crafttweaker.api.util.text.MCTextComponent;
 
 CTEventManager.register<crafttweaker.api.event.entity.living.MCLivingEntityUseItemEvent>((event) => {
     if event.entity.world.isRemote() return;
-    if (!(entity is MCPlayerEntity)) return;
+    if (!(event.entity is MCPlayerEntity)) return;
 
     var player = event.entity as MCPlayerEntity;
     var itemUsed = event.item;
