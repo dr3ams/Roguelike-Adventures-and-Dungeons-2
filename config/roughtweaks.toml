@@ -17,16 +17,16 @@
 	salveHealCount = 4
 	#Use count for the plaster item
 	#Range: > 0
-	plasterHealCount = 4
+	plasterHealCount = 5
 	#Use count for the bandage item
 	#Range: > 0
-	bandageHealCount = 6
+	bandageHealCount = 8
 	#Use count for the medkit item
 	#Range: > 0
-	medkitHealCount = 16
+	medkitHealCount = 32
 	#Use count for the enchanted medkit item
 	#Range: > 0
-	medkitEnchantedHealCount = 16
+	medkitEnchantedHealCount = 32
 
 #Defines how much health the item restores on rightclick.
 [HealAmount]
@@ -35,7 +35,7 @@
 	salveHealAmount = 1.0
 	#Salve heal amount
 	#Range: 1.0 ~ 1.7976931348623157E308
-	plasterHealAmount = 1.0
+	plasterHealAmount = 1.5
 	#Salve heal amount
 	#Range: 1.0 ~ 1.7976931348623157E308
 	bandageHealAmount = 1.0
@@ -50,17 +50,17 @@
 [HealTime]
 	#Use time for the salve item
 	#Range: 0 ~ 72000
-	salveUseTime = 5
+	salveUseTime = 2
 	#Use count for the plaster item
 	#Range: 0 ~ 72000
-	plasterUseTime = 10
+	plasterUseTime = 5
 	#Use count for the bandage item
 	#Range: 0 ~ 72000
-	bandageUseTime = 20
+	bandageUseTime = 10
 	#Use count for the medkit item
 	#Range: 0 ~ 72000
-	medkitUseTime = 40
+	medkitUseTime = 20
 	#Use count for the enchanted medkit item
 	#Range: 0 ~ 72000
-	medkitEnchantedUseTime = 40
+	medkitEnchantedUseTime = 20
 
