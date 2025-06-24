@@ -28,7 +28,7 @@ onEvent("lootjs", (event) => {
             "maxTier": 3
         })
         .thenModify(Ingredient.getAll(), (itemStack) => {
-            return itemStack.withCount(itemStack.getCount() * getRndInteger(1, 4));
+            return itemStack.withCount(itemStack.getCount() * getRndInteger(1, 3));
             
         });
     event
@@ -40,7 +40,7 @@ onEvent("lootjs", (event) => {
             "maxTier": 4
         })
         .thenModify(Ingredient.getAll(), (itemStack) => {
-            return itemStack.withCount(itemStack.getCount() * getRndInteger(1, 8));
+            return itemStack.withCount(itemStack.getCount() * getRndInteger(1, 6));
         });
     event
         .addLootTypeModifier(LootType.ENTITY)
@@ -51,7 +51,7 @@ onEvent("lootjs", (event) => {
             "maxTier": 5
         })
         .thenModify(Ingredient.getAll(), (itemStack) => {
-            return itemStack.withCount(itemStack.getCount() * getRndInteger(1, 16));
+            return itemStack.withCount(itemStack.getCount() * getRndInteger(1, 12));
         });
     event
         .addLootTypeModifier(LootType.ENTITY)
@@ -62,6 +62,6 @@ onEvent("lootjs", (event) => {
             "maxTier": 6
         })
         .thenModify(Ingredient.getAll(), (itemStack) => {
-            return itemStack.withCount(itemStack.getCount() * getRndInteger(1, 32));
+            return itemStack.withCount(itemStack.getCount() * getRndInteger(1, 24));
         });
 });
