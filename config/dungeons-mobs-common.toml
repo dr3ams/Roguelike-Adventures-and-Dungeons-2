@@ -64,7 +64,7 @@
 	#Add biome types that the Necromancer can spawn in. 
 	#Put a "!" before the type to prevent spawning in that biome type. 
 	#Leave this blank if you don't want them to spawn at all.
-	necromancerBiomeTypes = ["SANDY", "!MUSHROOM", "!NETHER", "!END"]
+	necromancerBiomeTypes = []
 	#Spawn weight of Necromancers in the locations they can spawn in. [default:5]
 	#Range: 0 ~ 1024
 	necromancerSpawnWeight = 5
