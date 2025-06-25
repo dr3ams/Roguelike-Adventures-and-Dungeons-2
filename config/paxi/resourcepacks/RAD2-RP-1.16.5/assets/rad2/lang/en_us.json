@@ -2,14 +2,20 @@
   "item.rad2.big_stick": "Big Stick",
   "item.rad2.enchanters_hammer": "Enchanter's Hammer",
 
+  "selectWorld.gameMode.hardcore.line1": "Hardcore has been revamped; §l§aYou can now Respawn with soul crystals",
+  "selectWorld.gameMode.hardcore.line2": "§r§cBut you permanantly have the cursed ring and cannot naturally regenerate health.",
+
   "tooltip.rad2.nobleed": "Removes Bleeding",
   "tooltip.rad2.nobleedmedkit": "Removes Bleeding and grants Bleeding Immunity for 1 minute",
   "tooltip.rad2.nobleedmedkitstrong": "Removes Bleeding and grants Bleeding Immunity for 2 minutes and Absorption for 1 minute",
   "status.rad2.nope": "This Item is disabled",
-  "gamemode.rad2.hardcore_revive": "Your soul crystal brought you back to life.",
+  "gamemode.rad2.hardcore_revive": "Your soul crystal brought you back to life. (%s left)",
+  "gamemode.rad2.hardcore_last_life": "Last Life! Reclaim your soul crystals or you won't respawn next death!",
   "gamemode.rad2.hardcore_no_lives": "You ran out of soul crystals... Game Over!",
-  "status.rad2.hardcore_cursering": "As you are in Hardcore Mode some extra modifiers are active:",
-  "status.rad2.hardcore_respawn_cursering": "- You can respawn as long as you have not died 9 times without recollecting soul crystals.",
+  "status.rad2.hardcore_cursering": "In Hardcore Mode some extra modifiers are active:",
+  "status.rad2.hardcore_respawn_cursering_line1": "- You can respawn as long as you have not died 9 times,",
+  "status.rad2.hardcore_respawn_cursering_line2": "recollecting soul crystals restores lives.",
+  "status.rad2.hardcore_no_friendly_fire_cursering": "- You cannot hurt other bearers of the cursed ring.",
   "status.rad2.hardcore_permanant_cursering": "- The ring cannot even be removed with the Unholy Stone.",
   "status.rad2.hardcore_noregen_cursering": "- Your health regenerates much slower.",
 
