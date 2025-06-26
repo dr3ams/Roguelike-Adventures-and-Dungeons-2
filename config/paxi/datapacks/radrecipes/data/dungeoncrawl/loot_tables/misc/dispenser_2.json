@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "name": "dungeon_dispenser_2",
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "betterdefaultbiones:hunter_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 9
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:splash_potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:harming\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:splash_potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"apotheosis:sundering\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

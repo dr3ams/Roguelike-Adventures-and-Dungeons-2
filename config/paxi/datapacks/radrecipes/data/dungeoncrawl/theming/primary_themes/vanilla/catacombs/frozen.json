@@ -1,0 +1,156 @@
+{
+  "id": 80,
+  "theme": {
+    "generic": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "quark:slate_bricks"
+        },
+        {
+          "block": "iceandfire:frozen_cobblestone"
+        },
+        {
+          "block": "quark:snow_bricks"
+        },
+        {
+          "block": "quark:polished_slate"
+        }
+      ]
+    },
+    "solid": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "quark:slate_bricks"
+        },
+        {
+          "block": "quark:chiseled_slate_bricks"
+        },
+        {
+          "block": "iceandfire:frozen_cobblestone"
+        },
+        {
+          "block": "quark:snow_bricks"
+        },
+        {
+          "block": "quark:polished_slate"
+        }
+      ]
+    },
+    "pillar": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "quark:slate_pillar",
+          "weight": 3
+        }
+      ]
+    },
+    "floor": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "quark:slate_pavement",
+          "weight": 4
+        },
+        {
+          "block": "quark:snow_bricks",
+          "weight": 3
+        }
+      ]
+    },
+    "stairs": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "quark:slate_bricks_stairs"
+        },
+        {
+          "block": "quark:polished_slate_stairs"
+        },
+        {
+          "block": "quark:snow_bricks_stairs"
+        }
+      ]
+    },
+    "solid_stairs": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "quark:slate_bricks_stairs"
+        },
+        {
+          "block": "quark:polished_slate_stairs"
+        },
+        {
+          "block": "quark:snow_bricks_stairs"
+        }
+      ]
+    },
+    "material": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "quark:slate_bricks"
+        },
+        {
+          "block": "iceandfire:frozen_cobblestone"
+        },
+        {
+          "block": "quark:snow_bricks"
+        },
+        {
+          "block": "quark:polished_slate"
+        }
+      ]
+    },
+    "slab": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "quark:slate_bricks_slab"
+        },
+        {
+          "block": "quark:snow_bricks_slab"
+        },
+        {
+          "block": "quark:polished_slate_slab"
+        }
+      ]
+    },
+    "solid_slab": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "quark:slate_bricks_slab"
+        },
+        {
+          "block": "quark:snow_bricks_slab"
+        },
+        {
+          "block": "quark:polished_slate_slab"
+        }
+      ]
+    },
+    "wall": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "quark:slate_bricks_wall"
+        },
+        {
+          "block": "quark:snow_bricks_wall"
+        }
+      ]
+    },
+    "fencing": {
+      "type": "block",
+      "block": "minecraft:iron_bars"
+    },
+    "fluid": {
+      "type": "block",
+      "block": "minecraft:ice"
+    }
+  }
+}

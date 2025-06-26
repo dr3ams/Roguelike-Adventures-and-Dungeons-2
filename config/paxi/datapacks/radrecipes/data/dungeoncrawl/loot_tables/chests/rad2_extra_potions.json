@@ -1,0 +1,87 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects: [{Duration: 450, Id: 42b, Amplifier: 1b}], Potion: \"undergarden:strong_brittleness\", display: {Lore: ['{\"text\":\"Brewed from the Undergarden, the toxic spores of the Blood Mushroom Globule open a weak spot in even the toughest of armor, if only for a short moment.\",\"color\":\"light_purple\",\"italic\":false}'], Name: '{\"italic\":false,\"text\":\"Champion\\'s Bane\",\"color\":\"red\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects: [{Duration: 2400, Id: -98, Amplifier: 4}, {Duration: 2400, Id: -95, Amplifier: 4}, {Duration: 2400, Id: -100, Amplifier: 4}, {Duration: 2400, Id: 61, Amplifier: 0}], CustomPotionColor: 3847130, Potion: \"minecraft:mundane\", display: {Lore: ['[{\"text\":\"Become untouchable! (Dodge with \",\"color\":\"yellow\",\"italic\":false},{\"keybind\":\"key.elenaidodge.dodge\"},{\"text\":\")\"}]'], Name: '{\"italic\":false,\"text\":\"Super Dodge Potion\",\"color\":\"aqua\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects: [{Duration: 1800, Id: 39b, Amplifier: 1b}, {Duration: 1800, Id: 42b, Amplifier: 4b}], Potion: \"minecraft:thick\", display: {Lore: ['{\"text\":\"Deal and recieve double damage\",\"color\":\"dark_red\",\"italic\":false}'], Name: '{\"italic\":false,\"text\":\"Berserker\\'s Brew\",\"color\":\"dark_red\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects: [{Duration: 600, Id: -105b, Amplifier: 0b}, {Duration: 600, Id: -128b, Amplifier: 0b}, {Duration: 600, Id: 106b, Amplifier: 0b}, {Duration: 200, Id: 90b, Amplifier: 0b}], Potion: \"minecraft:mundane\", display: {Lore: ['{\"text\":\"A fine blend of the coldest minerals in this world.\",\"color\":\"blue\",\"italic\":false}'], Name: '{\"italic\":false,\"text\":\"Chilly Concoction\",\"color\":\"aqua\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects: [{Duration: 3600, Id: 14b, Amplifier: 0b}, {Duration: 3600, Id: 75b, Amplifier: 0b}], Potion: \"minecraft:mundane\", display: {Lore: ['{\"text\":\"Become one with the shadows.\",\"color\":\"dark_gray\",\"italic\":false}'], Name: '{\"italic\":false,\"text\":\"Shade Potion\",\"color\":\"gray\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects: [{Duration: 600, Id: 44b, Amplifier: 0b}, {Duration: 600, Id: 96b, Amplifier: 0b}, {Duration: 600, Id: 76b, Amplifier: 0b}, {Duration: 600, Id: 33b, Amplifier: 0b}], Potion: \"minecraft:mundane\", display: {Lore: ['{\"text\":\"Lots of bleeding.\",\"color\":\"gray\",\"italic\":false}'], Name: '{\"italic\":false,\"text\":\"Potion of a thousand cuts\",\"color\":\"red\"}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects: [{Duration: 2400, Id: 19, Amplifier: 0b}], Potion: \"upgrade_aquatic:repellence_long\", display: {Lore: ['{\"italic\":true,\"color\":\"green\",\"text\":\"Produces a poisonous stench that makes some mobs attack each other when nearby.\"}'], Name: '{\"italic\":false,\"text\":\"Toxic Fumes\",\"color\":\"dark_green\"}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,691 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "Cursed Damage",
+                  "amount": -6.66,
+                  "operation": "multiply_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "Normal Sword Speed",
+                  "amount": -2.4,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.mythic",
+                  "color": "gold"
+                },
+                {
+                  "text": "A sword whose strength only comes to those who are at their weakest. Perhaps you can unlock its power by giving yourself the Weakness effect...",
+                  "color": "dark_red"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Sword of the Seven Curses",
+                "color": "light_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"MYTHIC\",Enchantments:[{lvl:1s,id:\"uniquee:pestilences_odium\"},{lvl:1s,id:\"enigmaticlegacy:nemesis_curse\"},{lvl:1s,id:\"uniquee:combo_star\"},{lvl:1s,id:\"apotheosis:life_mending\"},{lvl:1s,id:\"uniquebattle:lunatic_despair\"},{lvl:1s,id:\"uniquebattle:ifrits_judgement\"},{lvl:1s,id:\"uniquebattle:wars_odium\"}],Affixes:{\"apotheosis:fire_damage\":6.66f,\"apotheosis:life_steal\":0.0666f,\"apotheosis:overheal\":0.0666f} }"
+            }
+          ],
+          "name": "dungeons_gear:sinister_sword",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniquebattle:streakers_will",
+                "uniquebattle:ares_grace"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"MYTHIC\",Affixes:{\"apotheosis:piercing\":0.25f,\"apotheosis:shield_damage\":4.0f} }"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.mythic",
+                  "color": "MYTHIC"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Serrated Edge",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 8,
+                "max": 14
+              },
+              "treasure": true
+            }
+          ],
+          "name": "twilightforest:knightmetal_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniquebattle:ifrits_blessing"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"UNCOMMON\",Affixes:{\"apotheosis:fire_damage\":2.0f,\"apotheosis:torch_placement\":5.0f} }"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.uncommon",
+                  "color": "green"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Scorch n' Torch",
+                "color": "green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 8,
+                "max": 14
+              },
+              "treasure": true
+            }
+          ],
+          "name": "blue_skies:horizonite_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "dungeons_gear:freezing"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniquee:focused_impact"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{itemModifier:\"modifiers:heavy\",apoth.rarity:\"COMMON\",Affixes:{\"apotheosis:cold_damage\":2.0f} }"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.common",
+                  "color": "gray"
+                },
+                {
+                  "text": "Cold as Ice and Heavy as Lead the Slammer hits hard like a Sled crashing into a tree.",
+                  "color": "white"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Sled Slammer",
+                "color": "gray",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 8,
+                "max": 14
+              },
+              "treasure": true
+            }
+          ],
+          "name": "spartanweaponry:warhammer_lead"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniquee:ameliorated_smite"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniquee:bone_crusher"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{itemModifier:\"modifiers:smiting\",apoth.rarity:\"RARE\",Affixes:{\"apotheosis:crit_damage\":0.33f} }"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.rare",
+                  "color": "blue"
+                },
+                {
+                  "text": "Brings utmost destruction to any undead that dare to cross its wielder\'s path.",
+                  "color": "white"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Skullcrusher",
+                "color": "blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 10,
+                "max": 20
+              },
+              "treasure": true
+            }
+          ],
+          "name": "spartanweaponry:flanged_mace_silver"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:purple_rune\",Count:1b}, itemModifier:\"modifiers:magical\",Enchantments:[{lvl:1,id:\"tombstone:soulbound\"}],CurioAttributeModifiers:[{Slot:\"necklace\", AttributeName:\"dungeons_libraries:magic_damage_multiplier\", Name:\"magic\", Amount:0.5, Operation:0, UUID:[I;74230076,-1815132125,-1207503540,690542051]},{Slot:\"necklace\", AttributeName:\"dungeons_libraries:soul_cap\", Name:\"noarmor\", Amount:100, Operation:0, UUID:[I;74230076,-1815132125,-1207503540,690542051]},{Slot:\"necklace\", AttributeName:\"dungeons_libraries:artifact_cooldown_multiplier\", Name:\"cooldownreduction\", Amount:-0.25, Operation:0, UUID:[I;74230076,-1815132125,-1207503540,690542051]}]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.uncommon",
+                  "color": "green"
+                },
+                {
+                  "text": "Enchanted to maximize artifact and magic potential.",
+                  "color": "light_purple"
+                }
+              ]
+            }
+          ],
+          "name": "ars_nouveau:amulet_of_mana_regen",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:light_gray_rune\",Count:1b},Enchantments:[{lvl:3,id:\"uniquee:smart_ass\"},{lvl:1,id:\"apotheosis:knowledge\"}]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.common",
+                  "color": "gray"
+                },
+                {
+                  "text": "A saddle once worn by one of the smartest donkeys in the land.",
+                  "color": "white"
+                },
+                {
+                  "text": "When equipped to a Donkey:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "+5 Equestrian Knowledge",
+                  "color": "blue",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Donkey\'s Intelligence",
+                "color": "gold",
+                "italic": false
+              }
+            }
+          ],
+          "name": "minecraft:saddle",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:light_gray_rune\",Count:1b}, itemModifier:\"modifiers:healthy\",Enchantments:[{lvl:1,id:\"tombstone:soulbound\"}],CurioAttributeModifiers:[{Slot:\"ring\", AttributeName:\"minecraft:generic.max_health\", Name:\"bulk\", Amount:4.0, Operation:1, UUID:[I;591621172,406079247,-2059016193,-632690416]},{Slot:\"ring\", AttributeName:\"minecraft:generic.armor\", Name:\"noarmor\", Amount:-1.0, Operation:1, UUID:[I;591621172,406079247,-2059016193,-632690416]},{Slot:\"ring\", AttributeName:\"minecraft:generic.armor_toughness\", Name:\"notoughness\", Amount:-1.0, Operation:1, UUID:[I;591621172,406079247,-2059016193,-632690416]}]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.mythic",
+                  "color": "gold"
+                },
+                {
+                  "text": "\"Who needs armor anyways?\" - Skullbreaker the Piglin Brute",
+                  "color": "yellow"
+                },
+                {
+                  "text": "Health boost does not stack with other Ring of Bulks.",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Ring of Bulk",
+                "color": "gold",
+                "italic": false
+              }
+            }
+          ],
+          "name": "buddycards:luminis_band",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "forge:entity_gravity",
+                  "name": "SlowFall",
+                  "amount": -0.9,
+                  "operation": "multiply_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.knockback_resistance",
+                  "name": "Knock",
+                  "amount": -0.9,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"COMMON\",display:{Name:'[{\"text\":\"The 360-Slow-Scope\",\"color\":\"gray\",\"italic\":false}]',Lore:['{\"italic\":true,\"color\":\"gray\",\"translate\":\"rarity.apoth.common\"}','{\"italic\":true,\"color\":\"light_purple\",\"text\":\"Time Slows down while holding this crossbow... but only for you.\"}']},Affixes:{\"apotheosis:snipe_damage\":2.0f,\"apotheosis:shield_speed\":-0.9f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 7,
+                "max": 21
+              },
+              "treasure": true
+            }
+          ],
+          "name": "dungeons_gear:the_slicer",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "Base Armor",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "forge:entity_gravity",
+                  "name": "WeightsGrav",
+                  "amount": 0.25,
+                  "operation": "multiply_total",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "forge:swim_speed",
+                  "name": "WeightsSwim",
+                  "amount": -0.25,
+                  "operation": "multiply_total",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "minecraft:generic.knockback_resistance",
+                  "name": "WeightsKRes",
+                  "amount": 0.25,
+                  "operation": "addition",
+                  "slot": "feet"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"COMMON\",display:{Name:'[{\"text\":\"Weighted Terror\",\"color\":\"gray\",\"italic\":false}]',Lore:['{\"italic\":true,\"color\":\"gray\",\"translate\":\"rarity.apoth.common\"}']},Affixes:{\"apotheosis:shield_speed\":-0.25f,\"apotheosis:armor\":2.0f,\"apotheosis:armor_toughness\":2.0f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 7,
+                "max": 21
+              },
+              "treasure": true
+            }
+          ],
+          "name": "pickletweaks:flint_boots",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "dungeons_gear:reckless",
+                "uniquee:berserker",
+                "dungeons_gear:frenzied"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"UNCOMMON\",display:{Name:'[{\"text\":\"Beetle Rage\",\"color\":\"green\",\"italic\":false}]',Lore:['{\"italic\":true,\"color\":\"green\",\"translate\":\"rarity.apoth.uncommon\"}']},Affixes:{\"apotheosis:shield_damage\":1.0f,\"apotheosis:overheal\":0.01f,\"apotheosis:crit_damage\":0.02f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 9,
+                "max": 18
+              },
+              "treasure": true
+            }
+          ],
+          "name": "mysticalworld:beetle_chestplate",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniquee:ender_mending",
+                "uniquee:warriors_grace"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniquee:combo_star",
+                "dungeons_gear:critical_hit"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniquee:fast_food",
+                "dungeons_gear:stunning"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniqueapex:blessed_blade"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{fusioned:2b,apoth.rarity:\"ANCIENT\",display:{Name:'[{\"text\":\"The Bonk\",\"color\":\"rainbow\",\"italic\":false}]',Lore:['{\"italic\":true,\"color\":\"rainbow\",\"translate\":\"rarity.apoth.ancient\"}']},Affixes:{\"apotheosis:crit_chance\":0.6f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 10,
+                "max": 20
+              },
+              "treasure": true
+            }
+          ],
+          "name": "farmersdelight:skillet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "farmersdelight:backstabbing"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:loyalty"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniquebattle:snare"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"RARE\",display:{Name:'[{\"text\":\"The Signature Move\",\"color\":\"blue\",\"italic\":false}]',Lore:['{\"italic\":true,\"color\":\"blue\",\"translate\":\"rarity.apoth.rare\"}']},Affixes:{\"apotheosis:cold_damage\":1.0f,\"apotheosis:crit_damage\":0.15f,\"apotheosis:overheal\":0.05f} }"
+            }
+          ],
+          "name": "spartanweaponry:dagger_tin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "dungeons_gear:deflect",
+                "uniquee:swift",
+                "elenaidodge2:lightweight"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"COMMON\",display:{Name:'[{\"text\":\"The Untouchable\",\"color\":\"gray\",\"italic\":false}]',Lore:['{\"italic\":true,\"color\":\"gray\",\"translate\":\"rarity.apoth.common\"}']},Affixes:{\"apotheosis:shield_speed\":0.1f,\"apotheosis:max_health\":1.0f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 9,
+                "max": 18
+              },
+              "treasure": true
+            }
+          ],
+          "name": "alexsmobs:emu_leggings",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniquee:swift_blade",
+                "uniquee:combo_star"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"EPIC\",display:{Name:'[{\"text\":\"Sickle of the Battlefarmer\",\"color\":\"dark_purple\",\"italic\":false}]',Lore:['{\"italic\":true,\"color\":\"dark_purple\",\"translate\":\"rarity.apoth.epic\"}']},Affixes:{\"apotheosis:crit_chance\":0.3f,\"apotheosis:cold_damage\":3.0f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 9,
+                "max": 16
+              },
+              "treasure": true
+            }
+          ],
+          "name": "pickletweaks:diamond_sickle",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"RARE\",display:{Lore:['{\"italic\":true,\"color\":\"blue\",\"translate\":\"rarity.apoth.rare\"}']},Affixes:{\"apotheosis:armor_toughness\":1.9f,\"apotheosis:max_health\":2.0f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 9,
+                "max": 18
+              },
+              "treasure": true
+            }
+          ],
+          "name": "greekfantasy:helm_of_darkness",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"EPIC\",display:{Name:'[{\"text\":\"The Diminisher\",\"color\":\"dark_purple\",\"italic\":false}]',Lore:['{\"italic\":true,\"color\":\"dark_purple\",\"translate\":\"rarity.apoth.epic\"}']},Affixes:{\"apotheosis:eldritch_block\":1.0f,\"apotheosis:spiked_shield\":0.4f,\"apotheosis:shield_speed\":-0.1f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 8,
+                "max": 17
+              },
+              "treasure": true
+            }
+          ],
+          "name": "spartanshields:shield_basic_lead",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"UNCOMMON\",display:{Lore:['{\"italic\":true,\"color\":\"green\",\"translate\":\"rarity.apoth.uncommon\"}']},Affixes:{\"apotheosis:crit_chance\":0.12f,\"apotheosis:crit_damage\":0.12f,\"apotheosis:life_steal\":0.05f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 9,
+                "max": 17
+              },
+              "treasure": true
+            }
+          ],
+          "name": "mowziesmobs:naga_fang_dagger",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.booktype:5,Affixes:{\"apotheosis:spiked_shield\":0.1f,\"apotheosis:overheal\":0.05f,\"apotheosis:cold_damage\":0.1f,\"apotheosis:torch_placement\":10.0f,\"apotheosis:max_health\":0.1f,\"apotheosis:snipe_damage\":0.1f} }"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "A versatile tome that can be applied to equipment in an anvil. Stat depends on what type of equipment it is.",
+                  "color": "yellow"
+                },
+                {
+                  "text": "The Stat applied depends on what type of equipment it is.",
+                  "color": "yellow"
+                }
+              ]
+            }
+          ],
+          "name": "apotheosis:common_tome",
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,551 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 5,
+      "bonus_rolls": {
+        "min": 0,
+        "max": 0.5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:copper_pile",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:silver_pile",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:gold_pile",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 9
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "treasure",
+      "rolls": {
+        "min": 7,
+        "max": 8,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "enigmaticlegacy:enchantment_transposer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "enigmaticlegacy:mending_mixture"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "apotheosis:prismatic_web"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "farmersdelight:honey_glazed_ham"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "iceandfire:witherbone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "quark:blank_rune"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "spartanweaponry:bolt_diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "supplementaries:bomb_blue"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 32,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:experience_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "kubejs:iron_coin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "kubejs:gold_coin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 32,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 10,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "iceandfire:silver_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 12,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "mysticalworld:copper_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "mysticalworld:sapphire"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:red_rune\",Count:1b},apoth.rarity:\"MYTHIC\",display:{Lore:['{\"italic\":true,\"color\":\"#ED7014\",\"translate\":\"rarity.apoth.mythic\"}']},Affixes:{\"apotheosis:enchantability\":6.0f,\"apotheosis:armor\":1.0f,\"apotheosis:armor_toughness\":3.0f,\"apotheosis:max_health\":2.0f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 40,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "iceandfire:armor_silver_metal_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:red_rune\",Count:1b},apoth.rarity:\"MYTHIC\",display:{Lore:['{\"italic\":true,\"color\":\"#ED7014\",\"translate\":\"rarity.apoth.mythic\"}']},Affixes:{\"apotheosis:enchantability\":6.0f,\"apotheosis:armor\":1.0f,\"apotheosis:armor_toughness\":3.0f,\"apotheosis:max_health\":2.0f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 40,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "iceandfire:armor_silver_metal_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:red_rune\",Count:1b},apoth.rarity:\"MYTHIC\",display:{Lore:['{\"italic\":true,\"color\":\"#ED7014\",\"translate\":\"rarity.apoth.mythic\"}']},Affixes:{\"apotheosis:enchantability\":6.0f,\"apotheosis:armor\":1.0f,\"apotheosis:armor_toughness\":3.0f,\"apotheosis:max_health\":2.0f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 40,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "iceandfire:armor_silver_metal_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:red_rune\",Count:1b},apoth.rarity:\"MYTHIC\",display:{Lore:['{\"italic\":true,\"color\":\"#ED7014\",\"translate\":\"rarity.apoth.mythic\"}']},Affixes:{\"apotheosis:enchantability\":6.0f,\"apotheosis:armor\":1.0f,\"apotheosis:armor_toughness\":3.0f,\"apotheosis:max_health\":2.0f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 40,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "iceandfire:armor_silver_metal_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:red_rune\",Count:1b},apoth.rarity:\"MYTHIC\",display:{Lore:['{\"italic\":true,\"color\":\"#ED7014\",\"translate\":\"rarity.apoth.mythic\"}']},Affixes:{\"apotheosis:enchantability\":6.0f,\"apotheosis:draw_speed\":0.25f,\"apotheosis:snare_hit\":5.0f,\"apotheosis:teleport_drops\":3.0f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 40,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "spartanweaponry:heavy_crossbow_silver"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:red_rune\",Count:1b},apoth.rarity:\"MYTHIC\",display:{Lore:['{\"italic\":true,\"color\":\"#ED7014\",\"translate\":\"rarity.apoth.mythic\"}']},Affixes:{\"apotheosis:enchantability\":6.0f,\"apotheosis:shield_damage\":2.0f,\"apotheosis:fire_damage\":3.0f,\"apotheosis:attack_speed\":0.2f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 40,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "spartanweaponry:longsword_silver"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:red_rune\",Count:1b},apoth.rarity:\"MYTHIC\",display:{Lore:['{\"italic\":true,\"color\":\"#ED7014\",\"translate\":\"rarity.apoth.mythic\"}']},Affixes:{\"apotheosis:enchantability\":6.0f,\"apotheosis:omnitool\":2.0f,\"apotheosis:torch_placement\":4.0f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 40,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "iceandfire:silver_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:red_rune\",Count:1b},apoth.rarity:\"MYTHIC\",display:{Lore:['{\"italic\":true,\"color\":\"#ED7014\",\"translate\":\"rarity.apoth.mythic\"}']},Affixes:{\"apotheosis:enchantability\":6.0f,\"apotheosis:overheal\":0.05f,\"apotheosis:piercing\":0.15f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 40,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "iceandfire:silver_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:red_rune\",Count:1b},apoth.rarity:\"MYTHIC\",display:{Lore:['{\"italic\":true,\"color\":\"#ED7014\",\"translate\":\"rarity.apoth.mythic\"}']},Affixes:{\"apotheosis:enchantability\":6.0f,\"apotheosis:omnitool\":2.0f,\"apotheosis:torch_placement\":4.0f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 40,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "iceandfire:silver_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:red_rune\",Count:1b},apoth.rarity:\"MYTHIC\",display:{Lore:['{\"italic\":true,\"color\":\"#ED7014\",\"translate\":\"rarity.apoth.mythic\"}']},Affixes:{\"apotheosis:enchantability\":6.0f,\"apotheosis:spiked_shield\":0.65f,\"apotheosis:arrow_catcher\":1.0f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 30,
+                "max": 40,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "spartanshields:shield_basic_silver"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "pickletweaks:diamond_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pickletweaks:emerald_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 12,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:golden_carrot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 30,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "dungeoncrawl:random_item",
+              "loot_level": 5
+            }
+          ],
+          "name": "minecraft:air"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "dungeoncrawl:random_potion",
+              "loot_level": 4
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "name": "dungeoncrawl:chests/rad2_extra_potions"
+        }
+      ]
+    }
+  ]
+}

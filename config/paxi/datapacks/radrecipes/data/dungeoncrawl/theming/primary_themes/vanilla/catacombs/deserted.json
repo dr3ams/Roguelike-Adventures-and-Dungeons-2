@@ -1,0 +1,219 @@
+{
+  "decorations": [
+  ],
+  "theme": {
+    "generic": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "byg:mossy_stone",
+          "weight": 1
+        },
+        {
+          "block": "byg:red_rock",
+          "weight": 2
+        },
+        {
+          "block": "byg:cracked_red_rock_bricks",
+          "weight": 2
+        },
+        {
+          "block": "byg:mossy_red_rock_bricks",
+          "weight": 5
+        }
+      ]
+    },
+    "solid": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "byg:mossy_stone",
+          "weight": 1
+        },
+        {
+          "block": "byg:red_rock",
+          "weight": 2
+        },
+        {
+          "block": "byg:cracked_red_rock_bricks",
+          "weight": 2
+        },
+        {
+          "block": "byg:mossy_red_rock_bricks",
+          "weight": 5
+        }
+      ]
+    },
+    "pillar": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "quark:polished_jasper"
+        },
+        {
+          "block": "byg:chiseled_red_rock_bricks"
+        },
+        {
+          "block": "byg:cracked_red_rock_bricks"
+        },
+        {
+          "block": "byg:mossy_red_rock_bricks",
+          "weight": 3
+        }
+      ]
+    },
+    "floor": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "atum:limestone_gravel",
+          "weight": 1
+        },
+        {
+          "block": "byg:mossy_stone",
+          "weight": 1
+        },
+        {
+          "block": "byg:red_rock",
+          "weight": 2
+        },
+        {
+          "block": "byg:cracked_red_rock_bricks",
+          "weight": 2
+        },
+        {
+          "block": "byg:mossy_red_rock_bricks",
+          "weight": 5
+        }
+      ]
+    },
+    "stairs": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "byg:red_rock_stairs",
+          "weight": 2
+        },
+        {
+          "block": "byg:mossy_stone_stairs",
+          "weight": 1
+        },
+        {
+          "block": "byg:mossy_red_rock_brick_stairs",
+          "weight": 2
+        },
+        {
+          "block": "byg:cracked_red_rock_brick_stairs",
+          "weight": 1
+        }
+      ]
+    },
+    "solid_stairs": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "byg:red_rock_stairs",
+          "weight": 2
+        },
+        {
+          "block": "byg:mossy_stone_stairs",
+          "weight": 1
+        },
+        {
+          "block": "byg:mossy_red_rock_brick_stairs",
+          "weight": 2
+        },
+        {
+          "block": "byg:cracked_red_rock_brick_stairs",
+          "weight": 1
+        }
+      ]
+    },
+    "material": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "byg:mossy_stone",
+          "weight": 1
+        },
+        {
+          "block": "byg:red_rock",
+          "weight": 2
+        },
+        {
+          "block": "byg:cracked_red_rock_bricks",
+          "weight": 2
+        },
+        {
+          "block": "byg:mossy_red_rock_bricks",
+          "weight": 5
+        }
+      ]
+    },
+    "slab": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "byg:red_rock_slab",
+          "weight": 2
+        },
+        {
+          "block": "byg:mossy_stone_slab",
+          "weight": 1
+        },
+        {
+          "block": "byg:mossy_red_rock_brick_slab",
+          "weight": 2
+        },
+        {
+          "block": "byg:cracked_red_rock_brick_slab",
+          "weight": 1
+        }
+      ]
+    },
+    "solid_slab": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "byg:red_rock_slab",
+          "weight": 2
+        },
+        {
+          "block": "byg:mossy_stone_slab",
+          "weight": 1
+        },
+        {
+          "block": "byg:mossy_red_rock_brick_slab",
+          "weight": 2
+        },
+        {
+          "block": "byg:cracked_red_rock_brick_slab",
+          "weight": 1
+        }
+      ]
+    },
+    "wall": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "byg:red_rock_wall"
+        },
+        {
+          "block": "byg:mossy_red_rock_brick_wall",
+          "weight": 2
+        },
+        {
+          "block": "byg:cracked_red_rock_brick_wall"
+        }
+      ]
+    },
+    "fencing": {
+      "type": "block",
+      "block": "undergarden:cloggrum_bars"
+    },
+    "fluid": {
+      "type": "block",
+      "block": "minecraft:water"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "theme": {
+    "button": {
+      "type": "block",
+      "block": "minecraft:warped_button"
+    },
+    "door": {
+      "type": "block",
+      "block": "supplementaries:gold_trapdoor"
+    },
+    "fence": {
+      "type": "block",
+      "block": "minecraft:warped_fence"
+    },
+    "fence_gate": {
+      "type": "block",
+      "block": "minecraft:cave_air"
+    },
+    "material": {
+      "type": "random_block",
+      "blocks": [
+        {
+          "block": "byg:blue_nether_bricks",
+          "weight": 100
+        },
+        {
+          "block": "quark:blue_nether_bricks",
+          "weight": 100
+        },
+        {
+          "block": "byg:blue_netherrack",
+          "weight": 20
+        },
+        {
+          "block": "byg:nylium_soul_sand",
+          "weight": 15
+        },
+        {
+          "block": "minecraft:warped_wart_block",
+          "weight": 10
+        },
+        {
+          "block": "betterendforge:charcoal_block",
+          "weight": 5
+        }
+      ]
+    },
+    "pillar": {
+      "type": "block",
+      "block": "byg:frost_magma"
+    },
+    "pressure_plate": {
+      "type": "block",
+      "block": "minecraft:warped_pressure_plate"
+    },
+    "slab": {
+      "type": "block",
+      "block": "quark:blue_nether_bricks_slab"
+    },
+    "stairs": {
+      "type": "block",
+      "block": "quark:blue_nether_bricks_stairs"
+    },
+    "trapdoor": {
+      "type": "block",
+      "block": "supplementaries:gold_trapdoor"
+    }
+  }
+}

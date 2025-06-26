@@ -1,0 +1,241 @@
+{
+  "pools": [
+    {
+      "name": "rare_forge_loot",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dungeons_gear:reinforced_mail_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dungeons_gear:reinforced_mail_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dungeons_gear:reinforced_mail_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dungeons_gear:reinforced_mail_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dungeons_gear:highland_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dungeons_gear:highland_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dungeons_gear:highland_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dungeons_gear:highland_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dungeons_gear:highland_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"COMMON\",display:{Lore:['{\"color\":\"gray\",\"translate\":\"rarity.apoth.common\"}']},Affixes:{\"apotheosis:crit_damage\": 0.1f}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dungeons_gear:great_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dungeons_gear:great_axeblade"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ]
+    },
+    {
+      "name": "guaranteed_coal",
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "forge",
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "byg:chain_plating",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniqueutil:reinforced"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "radenchants:welding_apron"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniqueutil:reinforced"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniqueutil:reinforced"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniqueutil:reinforced"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "radenchants:welding_apron"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniqueutil:reinforced"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniqueutil:reinforced"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:scrap_tome"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "betterendforge:iron_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "dungeoncrawl:random_item",
+              "loot_level": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

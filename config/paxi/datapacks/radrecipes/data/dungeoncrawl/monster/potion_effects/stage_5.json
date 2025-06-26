@@ -1,0 +1,95 @@
+{
+  "chance": 0.3,
+  "rolls": {
+    "min": 1,
+    "max": 3
+  },
+  "guaranteed": [
+    {
+      "effect": "minecraft:fire_resistance",
+      "duration": 6000
+    }
+  ],
+  "effects": [
+    {
+      "effect": "minecraft:strength",
+      "duration": 6000,
+      "amplifier": {
+        "min": 1,
+        "max": 2
+      },
+      "weight": 2
+    },
+    {
+      "effect": "minecraft:speed",
+      "duration": 6000,
+      "amplifier": {
+        "min": 2,
+        "max": 2
+      }
+    },
+    {
+      "effect": "minecraft:absorption",
+      "duration": 6000,
+      "amplifier": {
+        "min": 2,
+        "max": 4
+      },
+      "weight": 2
+    },
+    {
+      "effect": "quark_resilience",
+      "duration": 6000,
+      "amplifier": {
+        "min": 1,
+        "max": 2
+      },
+      "weight": 2
+    },
+    {
+      "effect": "tombstone:bone_shield",
+      "duration": 6000,
+      "amplifier": {
+        "min": 1,
+        "max": 2
+      },
+      "weight": 2
+    },
+    {
+      "effect": "dungeons_gear:life_steal",
+      "duration": 6000,
+      "amplifier": {
+        "min": 1,
+        "max": 3
+      },
+      "weight": 2
+    },
+    {
+      "effect": "mysticalworld:slow_regeneration",
+      "duration": 6000,
+      "amplifier": {
+        "min": 1,
+        "max": 3
+      },
+      "weight": 2
+    },
+    {
+      "effect": "dungeons_gear:party_starter",
+      "duration": 12000,
+      "amplifier": {
+        "min": 1,
+        "max": 1
+      },
+      "weight": 1
+    },
+    {
+      "effect": "dungeons_gear:soul_protection",
+      "duration": 12000,
+      "amplifier": {
+        "min": 1,
+        "max": 1
+      },
+      "weight": 1
+    }
+  ]
+}

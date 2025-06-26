@@ -14,14 +14,4 @@ onEvent("lootjs", event => {
             return itemstack.withCount(itemstack.getCount() + getRndInteger(0, maxloot))
         })
 
-
-    // replace emeralds with emerald ingots in all loot chests (10% chance)
-  event.addLootTypeModifier(LootType.CHEST).randomChance(0.1).thenReplace("minecraft:emerald", "kubejs:emerald_ingot");
-
-    // turn ingots back into emeralds in village chests. Not getting them that easily...
-    event.addLootTableModifier(/.*chests\/village.*/).randomChance(1.0).thenReplace("kubejs:emerald_ingot", "minecraft:emerald");
-
-    // turn ingots back into emeralds for dungeons gear enchantment effects
-    event.addLootTableModifier(/.*dungeons_gear:enchantments.*/).randomChance(1.0).thenReplace("kubejs:emerald_ingot", "minecraft:emerald");
-
 })
