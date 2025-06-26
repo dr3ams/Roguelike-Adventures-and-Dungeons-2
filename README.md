@@ -29,6 +29,8 @@ Modpack encourages many different playstyles like
 
 ✔️ Cooking - Dozens of new food and drinks with powerful bonuses;
 
+✔️ Revamped Hardcore - More than just 1 life- now actually make the game harder!;
+
 ✔️ Basic Technology Contraptions - Basic processing and automation;
 
 ✔️ and a little bit of magic!
