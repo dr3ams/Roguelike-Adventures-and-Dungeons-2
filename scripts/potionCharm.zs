@@ -84,7 +84,6 @@ var potionEffectList = [
 	"goblintraders:extended_slow_falling",
 	"goblintraders:powerful_strength",
 	"goblintraders:haste",
-	"goblintraders:absorption",
 	"goblintraders:levitation",
 	"goblintraders:luck",
 	"goblintraders:dolphins_grace",
