@@ -415,7 +415,7 @@
 	endurancePerLevel = 0.1
 	#How many half hearts regenerate per minute at level 0 Endurance (at 1, and at level 0 Endurance, you regenerate half a heart every 60 seconds, 0 means no base regeneration)
 	#Range: 0.0 ~ 1000.0
-	hpRegenPerMinuteBase = 1.0
+	hpRegenPerMinuteBase = 0.25
 	#Addition per level to hpRegenPerMinuteBase (if set to 0.01, every 100 Endurance levels, you regen 1 more half heart per 60 seconds, 0 means no extra regeneration)
 	#Range: 0.0 ~ 1000.0
 	hpRegenPerMinuteBoostPerLevel = 0.0
