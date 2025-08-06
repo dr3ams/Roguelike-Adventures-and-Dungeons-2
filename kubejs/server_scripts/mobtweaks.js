@@ -17,10 +17,12 @@ onEvent('entity.spawned', event => {
 
 	}
 
-	if (event.entity.type == "minecraft:zombie") {
+	if (event.entity.type == "minecraft:zombie" || event.entity.type == "minecraft:zombie_villager" || event.entity.type == "minecraft:husk" || event.entity.type == "minecraft:drowned" || event.entity.type == "minecraft:skeleton" || event.entity.type == "minecraft:stray" || event.entity.type == "minecraft:wither_skeleton" || event.entity.type == "minecraft:piglin" || event.entity.type == "minecraft:piglin_brute" || event.entity.type == "minecraft:pillager" || event.entity.type == "minecraft:vindicator" || event.entity.type == "minecraft:evoker") {
+
     event.server.scheduleInTicks(1, event.server, (callback) => {
       callback.data.runCommandSilent(`execute as ${event.entity.id} run function rad_recipes:head_lag_fix`)
     })
+
 	}
 
 })

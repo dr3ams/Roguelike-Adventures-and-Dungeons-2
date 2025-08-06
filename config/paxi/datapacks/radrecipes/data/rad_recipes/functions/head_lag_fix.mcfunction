@@ -1,1 +1,2 @@
-execute if entity @s[nbt={ArmorItems:[{tag:{SkullOwner:"LightAseption"}}]}] run replaceitem entity @s armor.head minecraft:air
+execute if entity @s[nbt={ArmorItems:[{tag:{SkullOwner:"MHF_Spider"}}]}] run replaceitem entity @s armor.head spartanweaponry:spider_head
+execute if entity @s[nbt={ArmorItems:[{id:"minecraft:player_head"}]}] run replaceitem entity @s armor.head minecraft:air
