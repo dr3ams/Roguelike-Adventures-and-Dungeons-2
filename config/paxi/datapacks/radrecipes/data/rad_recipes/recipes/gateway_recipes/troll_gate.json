@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "###",
+    "YAY",
+    "###"
+  ],
+  "key": {
+    "A": {
+      "item": "cofh_core:ectoplasm"
+    },
+    "Y": {
+      "item": "iceandfire:troll_tusk"
+    },
+    "#": [{
+      "item": "iceandfire:troll_leather_forest"
+    },{
+      "item": "iceandfire:troll_leather_frost"
+    },{
+      "item": "iceandfire:troll_leather_mountain"
+    }]
+  },
+  "result": {
+    "item": "gateways:gate_pearl",
+    "type": "forge:nbt",
+    "nbt": "{display:{Lore:['{\"italic\":false,\"color\":\"red\",\"translate\":\"rad_recipes.troll_gate.tooltip\"}']}}"
+  },
+  "gateway": "rad_recipes:troll_gate"
+}

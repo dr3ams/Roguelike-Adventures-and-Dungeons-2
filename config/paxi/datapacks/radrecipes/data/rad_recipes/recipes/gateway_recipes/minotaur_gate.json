@@ -3,7 +3,7 @@
   "group": "gateways",
   "pattern": [
     "###",
-    "#A#",
+    "YAY",
     "###"
   ],
   "key": {
@@ -12,7 +12,12 @@
     },
     "A": {
       "item": "cofh_core:ectoplasm"
-    }
+    },
+    "Y": [{
+      "item": "twilightforest:raw_meef"
+    },{
+      "item": "greekfantasy:horn"
+    }]
   },
   "result": {
     "item": "gateways:gate_pearl"

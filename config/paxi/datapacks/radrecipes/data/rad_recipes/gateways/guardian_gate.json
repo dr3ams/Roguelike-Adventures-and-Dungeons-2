@@ -1,6 +1,7 @@
 {
     "size": "medium",
     "color": "#41715a",
+    "leash_range": 80,
     "waves": [{
             "entities": [{
                     "entity": "minecraft:guardian"
@@ -296,7 +297,13 @@
         "type": "entity_loot",
         "entity": "upgrade_aquatic:great_thrasher",
         "rolls": 1
-    }],
+    },
+	{
+		"type": "stack",
+		"stack": {
+			"item": "minecraft:heart_of_the_sea"
+		}
+	}],
     "completion_xp": 1337,
 	"spawn_range": 10
 }

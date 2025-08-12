@@ -1,55 +1,78 @@
 {
     "size": "medium",
-    "color": "#976797",
+    "color": "#75818B",
     "waves": [{
             "entities": [{
-                    "entity": "minecraft:shulker"
+                    "entity": "iceandfire:troll"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "iceandfire:troll"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "iceandfire:troll"
                 }
             ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": -0.5
+            },{
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": -5.0
+            },{
+                    "attribute": "generic.attack_knockback",
+                    "operation": "ADDITION",
+                    "value": 5.0
+            }],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "minecraft:shulker",
-                "rolls": 5
+                "entity": "iceandfire:troll",
+                "rolls": 1
             }],
             "max_wave_time": 1800,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "minecraft:shulker"
+                    "entity": "iceandfire:troll"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "iceandfire:troll"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "iceandfire:troll"
                 }
             ],
             "modifiers": [{
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.33
+                    "value": 0.25
                 },
                 {
                     "attribute": "generic.armor",
                     "operation": "ADDITION",
-                    "value": 2.5
+                    "value": 1
+                },
+                {
+                    "attribute": "generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "value": 1
                 },
                 {
                     "attribute": "generic.attack_damage",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.33
+                    "value": 0.1
+                },
+                {
+                    "attribute": "generic.attack_knockback",
+                    "operation": "ADDITION",
+                    "value": 0.5
                 },
                 {
                     "attribute": "generic.knockback_resistance",
                     "operation": "ADDITION",
-                    "value": 0.05
+                    "value": -0.45
                 },
                 {
                     "attribute": "generic.movement_speed",
@@ -59,36 +82,94 @@
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "minecraft:shulker",
-                "rolls": 10
+                "entity": "iceandfire:troll",
+                "rolls": 1
             }],
             "max_wave_time": 1800,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "minecraft:shulker"
+                    "entity": "iceandfire:troll"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "iceandfire:troll"
                 },
                 {
-                    "entity": "minecraft:shulker"
-                },
-				{
-                    "entity": "minecraft:shulker"
+                    "entity": "iceandfire:troll"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "iceandfire:troll"
                 }
             ],
             "modifiers": [{
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.66
+                    "value": 0.5
                 },
                 {
                     "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2
+                },
+                {
+                    "attribute": "generic.armor_toughness",
+                    "operation": "ADDITION",
+                    "value": 2
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.3
+                },
+                {
+                    "attribute": "generic.attack_knockback",
+                    "operation": "ADDITION",
+                    "value": 1
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "iceandfire:troll",
+                "rolls": 1
+            }],
+            "max_wave_time": 1800,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "iceandfire:troll"
+                },
+                {
+                    "entity": "iceandfire:troll"
+                },
+                {
+                    "entity": "iceandfire:troll"
+                },
+		{
+                    "entity": "iceandfire:troll"
+                },
+                {
+                    "entity": "iceandfire:troll"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.75
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 4
+                },
+                {
+                    "attribute": "generic.armor_toughness",
                     "operation": "ADDITION",
                     "value": 4
                 },
@@ -98,48 +179,51 @@
                     "value": 0.5
                 },
                 {
-                    "attribute": "generic.knockback_resistance",
+                    "attribute": "generic.attack_knockback",
                     "operation": "ADDITION",
-                    "value": 0.10
+                    "value": 1.5
                 },
                 {
                     "attribute": "generic.movement_speed",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.10
+                    "value": 0.2
                 }
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "minecraft:shulker",
-                "rolls": 15
+                "entity": "iceandfire:troll",
+                "rolls": 1
             }],
             "max_wave_time": 1800,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "minecraft:shulker"
+                    "entity": "iceandfire:troll"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "iceandfire:troll"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "iceandfire:troll"
                 },
-				{
-                    "entity": "minecraft:shulker"
-                },
-                {
-                    "entity": "minecraft:shulker"
+		{
+                    "entity": "iceandfire:troll"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "iceandfire:troll"
+                },
+		{
+                    "entity": "iceandfire:troll"
+                },
+                {
+                    "entity": "iceandfire:troll"
                 }
             ],
             "modifiers": [{
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.85
+                    "value": 0.75
                 },
                 {
                     "attribute": "generic.armor",
@@ -147,82 +231,30 @@
                     "value": 5
                 },
                 {
-                    "attribute": "generic.attack_damage",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.66
-                },
-                {
-                    "attribute": "generic.knockback_resistance",
+                    "attribute": "generic.armor_toughness",
                     "operation": "ADDITION",
-                    "value": 0.15
-                },
-                {
-                    "attribute": "generic.movement_speed",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.15
-                }
-            ],
-            "rewards": [{
-                "type": "entity_loot",
-                "entity": "minecraft:shulker",
-                "rolls": 20
-            }],
-            "max_wave_time": 1800,
-            "setup_time": 150
-        },
-        {
-            "entities": [{
-                    "entity": "minecraft:shulker"
-                },
-                {
-                    "entity": "minecraft:shulker"
-                },
-                {
-                    "entity": "minecraft:shulker"
-                },
-				{
-                    "entity": "minecraft:shulker"
-                },
-                {
-                    "entity": "minecraft:shulker"
-                },
-                {
-                    "entity": "minecraft:shulker"
-                },
-                {
-                    "entity": "minecraft:shulker"
-                }
-            ],
-            "modifiers": [{
-                    "attribute": "generic.max_health",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 1.25
-                },
-                {
-                    "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 6
+                    "value": 5
                 },
                 {
                     "attribute": "generic.attack_damage",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.85
+                    "value": 0.5
                 },
                 {
-                    "attribute": "generic.knockback_resistance",
+                    "attribute": "generic.attack_knockback",
                     "operation": "ADDITION",
-                    "value": 0.20
-                },
+                    "value": 2
+                }, 
                 {
                     "attribute": "generic.movement_speed",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.20
+                    "value": 0.25
                 }
             ],
             "rewards": [{
                 "type": "entity_loot",
-                "entity": "minecraft:shulker",
-                "rolls": 25
+                "entity": "iceandfire:troll",
+                "rolls": 1
             }],
             "max_wave_time": 1800,
             "setup_time": 150
@@ -230,9 +262,9 @@
     ],
     "rewards": [{
         "type": "entity_loot",
-        "entity": "minecraft:shulker",
-        "rolls": 60
+        "entity": "iceandfire:troll",
+        "rolls": 1
     }],
     "completion_xp": 1000,
-	"spawn_range": 7
+	"spawn_range": 10
 }

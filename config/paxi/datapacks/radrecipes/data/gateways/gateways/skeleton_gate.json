@@ -1,6 +1,7 @@
 {
     "size": "medium",
     "color": "#D3D3D3",
+    "leash_range": 64,
     "waves": [{
             "entities": [{
                     "entity": "minecraft:skeleton"
@@ -17,7 +18,7 @@
                 "entity": "minecraft:skeleton",
                 "rolls": 5
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 1800,
             "setup_time": 150
         },
         {
@@ -62,7 +63,7 @@
                 "entity": "minecraft:skeleton",
                 "rolls": 10
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 1800,
             "setup_time": 150
         },
         {
@@ -113,7 +114,7 @@
                 "entity": "minecraft:skeleton",
                 "rolls": 15
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 1800,
             "setup_time": 150
         },
         {
@@ -167,7 +168,7 @@
                 "entity": "minecraft:skeleton",
                 "rolls": 20
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 1800,
             "setup_time": 150
         },
         {
@@ -224,7 +225,7 @@
                 "entity": "minecraft:skeleton",
                 "rolls": 25
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 1800,
             "setup_time": 150
         }
     ],

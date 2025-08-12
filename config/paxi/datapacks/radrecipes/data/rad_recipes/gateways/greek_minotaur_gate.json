@@ -9,15 +9,19 @@
                     "entity": "greekfantasy:minotaur"
                 },
                 {
-                    "entity": "greekfantasy:minotaur"
+                    "entity": "twilightforest:minotaur"
                 }
             ],
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "greekfantasy:minotaur",
-                "rolls": 5
+                "rolls": 3
+            },{
+                "type": "entity_loot",
+                "entity": "twilightforest:minotaur",
+                "rolls": 3
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 1800,
             "setup_time": 150
         },
         {
@@ -28,7 +32,7 @@
                     "entity": "greekfantasy:minotaur"
                 },
                 {
-                    "entity": "greekfantasy:minotaur"
+                    "entity": "twilightforest:minotaur"
                 }
             ],
             "modifiers": [{
@@ -47,6 +51,11 @@
                     "value": 0.33
                 },
                 {
+                    "attribute": "generic.attack_knockback",
+                    "operation": "ADDITION",
+                    "value": 0.25
+                },
+                {
                     "attribute": "generic.knockback_resistance",
                     "operation": "ADDITION",
                     "value": 0.05
@@ -60,9 +69,13 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "greekfantasy:minotaur",
-                "rolls": 10
+                "rolls": 5
+            },{
+                "type": "entity_loot",
+                "entity": "twilightforest:minotaur",
+                "rolls": 5
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 1800,
             "setup_time": 150
         },
         {
@@ -75,11 +88,11 @@
                 {
                     "entity": "greekfantasy:minotaur"
                 },
-				{
-                    "entity": "greekfantasy:minotaur"
+		{
+                    "entity": "twilightforest:minotaur"
                 },
                 {
-                    "entity": "greekfantasy:minotaur"
+                    "entity": "twilightforest:minotaur"
                 }
             ],
             "modifiers": [{
@@ -98,6 +111,11 @@
                     "value": 0.5
                 },
                 {
+                    "attribute": "generic.attack_knockback",
+                    "operation": "ADDITION",
+                    "value": 0.5
+                },
+                {
                     "attribute": "generic.knockback_resistance",
                     "operation": "ADDITION",
                     "value": 0.10
@@ -111,9 +129,13 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "greekfantasy:minotaur",
-                "rolls": 15
+                "rolls": 7
+            },{
+                "type": "entity_loot",
+                "entity": "twilightforest:minotaur",
+                "rolls": 7
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 1800,
             "setup_time": 150
         },
         {
@@ -126,14 +148,14 @@
                 {
                     "entity": "greekfantasy:minotaur"
                 },
-				{
-                    "entity": "greekfantasy:minotaur"
+		{
+                    "entity": "twilightforest:minotaur"
                 },
                 {
-                    "entity": "greekfantasy:minotaur"
+                    "entity": "twilightforest:minotaur"
                 },
                 {
-                    "entity": "greekfantasy:minotaur"
+                    "entity": "twilightforest:minotaur"
                 }
             ],
             "modifiers": [{
@@ -152,6 +174,11 @@
                     "value": 0.66
                 },
                 {
+                    "attribute": "generic.attack_knockback",
+                    "operation": "ADDITION",
+                    "value": 0.75
+                },
+                {
                     "attribute": "generic.knockback_resistance",
                     "operation": "ADDITION",
                     "value": 0.15
@@ -165,9 +192,13 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "greekfantasy:minotaur",
-                "rolls": 20
+                "rolls": 10
+            },{
+                "type": "entity_loot",
+                "entity": "twilightforest:minotaur",
+                "rolls": 10
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 1800,
             "setup_time": 150
         },
         {
@@ -180,17 +211,17 @@
                 {
                     "entity": "greekfantasy:minotaur"
                 },
-				{
+		{
                     "entity": "greekfantasy:minotaur"
                 },
                 {
-                    "entity": "greekfantasy:minotaur"
+                    "entity": "twilightforest:minotaur"
                 },
                 {
-                    "entity": "greekfantasy:minotaur"
+                    "entity": "twilightforest:minotaur"
                 },
                 {
-                    "entity": "greekfantasy:minotaur"
+                    "entity": "twilightforest:minotaur"
                 }
             ],
             "modifiers": [{
@@ -209,6 +240,11 @@
                     "value": 0.85
                 },
                 {
+                    "attribute": "generic.attack_knockback",
+                    "operation": "ADDITION",
+                    "value": 1
+                },
+                {
                     "attribute": "generic.knockback_resistance",
                     "operation": "ADDITION",
                     "value": 0.20
@@ -222,17 +258,25 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "greekfantasy:minotaur",
-                "rolls": 25
+                "rolls": 12
+            },{
+                "type": "entity_loot",
+                "entity": "twilightforest:minotaur",
+                "rolls": 12
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 1800,
             "setup_time": 150
         }
     ],
     "rewards": [{
         "type": "entity_loot",
         "entity": "greekfantasy:minotaur",
-        "rolls": 60
-    }],
+        "rolls": 30
+    },{
+                "type": "entity_loot",
+                "entity": "twilightforest:minotaur",
+                "rolls": 30
+            }],
     "completion_xp": 1000,
 	"spawn_range": 7
 }
