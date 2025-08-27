@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "incompat_hit_head": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "legs": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:protection",
+                  "levels": {
+                    "min": 1
+                  }
+                },
+                {
+                  "enchantment": "radenchants:safeguard",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rad_recipes:enchant_enforce/enchant_enforce_legs"
+  }
+}
