@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "roughtweaks:isconfigenabled",
+          "config_setting": "enable_salve"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+        {
+            "tag": "minecraft:small_flowers"
+        },
+        {
+            "tag": "minecraft:small_flowers"
+        },
+        {
+            "item": "minecraft:bowl"
+        }
+		],
+        "result": {
+          "item": "roughtweaks:salve"
+        }
+      }
+    }
+  ]
+}

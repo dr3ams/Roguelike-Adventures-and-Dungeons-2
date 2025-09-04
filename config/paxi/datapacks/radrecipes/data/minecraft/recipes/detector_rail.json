@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "X X",
+        "X#X",
+        "XRX"
+    ],
+    "key": {
+        "X": [
+            {
+                "tag": "forge:nuggets/iron"
+            },
+            {
+                "tag": "forge:nuggets/tin"
+            }
+        ],
+        "#": [
+            {
+                "item": "minecraft:stone_pressure_plate"
+            },
+            {
+                "item": "atum:limestone_pressure_plate"
+            }
+        ],
+        "R": {
+            "tag": "forge:dusts/redstone"
+        }
+    },
+    "result": {
+        "count": 6,
+        "item": "minecraft:detector_rail"
+    }
+}

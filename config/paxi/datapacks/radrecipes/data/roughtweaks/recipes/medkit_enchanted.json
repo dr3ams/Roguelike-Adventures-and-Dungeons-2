@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "roughtweaks:isconfigenabled",
+          "config_setting": "enable_medkit_enchanted"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "roughtweaks:medkit"
+          },
+          {
+            "item": "minecraft:golden_apple"
+          },
+          {
+            "item": "greekfantasy:purified_snakeskin"
+          }
+        ],
+        "result": {
+          "item": "roughtweaks:medkit_enchanted",
+          "type": "forge:nbt",
+	  "nbt": "{RepairCost:20}"
+        }
+      }
+    }
+  ]
+}

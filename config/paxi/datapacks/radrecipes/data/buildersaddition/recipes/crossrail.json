@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "X#X",
+        "###",
+        "X#X"
+    ],
+    "key": {
+        "X": [
+            {
+                "tag": "forge:nuggets/iron"
+            },
+            {
+                "tag": "forge:nuggets/tin"
+            }
+        ],
+        "#": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+        "count": 8,
+        "item": "buildersaddition:crossrail"
+    }
+}
