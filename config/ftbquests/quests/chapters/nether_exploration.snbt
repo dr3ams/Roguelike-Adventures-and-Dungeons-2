@@ -5,12 +5,13 @@
 	filename: "nether_exploration"
 	title: "Nether Exploration"
 	icon: "minecraft:crimson_nylium"
+	subtitle: ["A-nether adventure"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: -6.5d
-			y: -7.5d
+			x: -3.5d
+			y: -6.0d
 			width: 3.0d
 			height: 3.0d
 			rotation: 0.0d
@@ -21,8 +22,8 @@
 			corner: false
 		}
 		{
-			x: -6.5d
-			y: 4.5d
+			x: -4.0d
+			y: 2.0d
 			width: 2.0d
 			height: 2.0d
 			rotation: 0.0d
@@ -38,6 +39,7 @@
 			x: 0.0d
 			y: -0.5d
 			shape: "octagon"
+			subtitle: "The Netherrack Cube"
 			description: ["For information on how to enter and exit the Nether, refer to the \"New nether portal mechanics\" quest in the \"World Exploration\" chapter."]
 			size: 1.5d
 			id: "4ABA0AF14F4830E5"
@@ -61,13 +63,14 @@
 				{
 					id: "23EAEB5BF0046E19"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: "mysticalworld:apple_cordial"
 				}
 			]
 		}
 		{
 			x: -1.5d
 			y: -4.0d
+			subtitle: "Commence the basalt"
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "46986285004F8604"
 			tasks: [{
@@ -79,7 +82,7 @@
 				{
 					id: "4B7E5C8736523516"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: "mysticalworld:apple_cordial"
 				}
 				{
 					id: "6BB95B4CAACB68A3"
@@ -89,20 +92,28 @@
 			]
 		}
 		{
-			x: -1.0d
+			x: -1.5d
 			y: -5.5d
 			dependencies: ["46986285004F8604"]
 			id: "0BC837BAE9BF5D1D"
 			tasks: [{
 				id: "53D9BE3D344F0B59"
 				type: "item"
-				item: "minecraft:polished_basalt"
+				item: {
+					id: "infernalexp:basalt_bricks"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 			rewards: [
 				{
 					id: "4BD734E66B5B5949"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: "mysticalworld:apple_cordial"
 				}
 				{
 					id: "2725679FB19F83B0"
@@ -125,7 +136,7 @@
 				{
 					id: "290185B21B1A4BFC"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: "mysticalworld:apple_cordial"
 				}
 				{
 					id: "42AA588530A43F82"
@@ -135,31 +146,13 @@
 			]
 		}
 		{
-			x: 5.5d
+			x: 4.5d
 			y: -6.0d
-			dependencies: ["5924C8AA2148FC68"]
-			id: "09D61D5FA721A63F"
-			tasks: [{
-				id: "46B34FF518F8D7F3"
-				type: "item"
-				item: "minecraft:polished_blackstone"
-			}]
-			rewards: [
-				{
-					id: "56C6ABA6E2A51CD6"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "73274FAEE5D9F37A"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
+			description: [
+				"10% chance to drop a gold nugget instead if not mined with Silk Touch."
+				""
+				"A key component to crafting the shelf of hellbound rectification."
 			]
-		}
-		{
-			x: 5.0d
-			y: -5.0d
 			dependencies: ["5924C8AA2148FC68"]
 			id: "5D3072BDDCF2CCDA"
 			tasks: [{
@@ -171,7 +164,15 @@
 				{
 					id: "27377B1B8BCCF8F0"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: {
+						id: "mysticalworld:apple_cordial"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 				{
 					id: "08CFFE9163063EDD"
@@ -181,36 +182,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -6.0d
-			dependencies: ["5924C8AA2148FC68"]
-			id: "1F4D4B7F7BFFE905"
-			tasks: [{
-				id: "7319C5B794C2989E"
-				type: "item"
-				item: "betterendforge:blackstone_lantern"
-			}]
-			rewards: [
-				{
-					id: "3A7D2BF21A310A97"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "14988FCA9C5454A0"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "55DBF9AB804E499E"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 3.5d
-			y: -6.5d
+			x: 3.0d
+			y: -7.0d
 			dependencies: ["5924C8AA2148FC68"]
 			id: "0EC9F28874B977ED"
 			tasks: [{
@@ -222,7 +195,7 @@
 				{
 					id: "5791C218A41E32AE"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: "mysticalworld:apple_cordial"
 				}
 				{
 					id: "65FDA5A3C84B95BF"
@@ -232,8 +205,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: -6.5d
+			x: 4.0d
+			y: -7.0d
 			dependencies: ["5924C8AA2148FC68"]
 			id: "783B50DE91433AEE"
 			tasks: [{
@@ -245,7 +218,7 @@
 				{
 					id: "5ACF132C0B17E231"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: "mysticalworld:apple_cordial"
 				}
 				{
 					id: "4789B7BF20131B20"
@@ -283,7 +256,7 @@
 				{
 					id: "5DCD112866E8B619"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: "mysticalworld:apple_cordial"
 				}
 				{
 					id: "18C5751A138E87B7"
@@ -293,10 +266,11 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -3.0d
+			x: 1.0d
+			y: 10.5d
+			subtitle: "A Netherite Apple a day keeps the monsters at bay"
 			description: ["A powerful apple that provides the unique Netherite Strength and Netherite Resistance Effects, stronger variants of the vanilla effects."]
-			dependencies: ["4ABA0AF14F4830E5"]
+			dependencies: ["65760A3965C0610B"]
 			id: "63E4DEAD58EA1044"
 			tasks: [{
 				id: "3034171437DF36AD"
@@ -315,7 +289,7 @@
 				{
 					id: "71AB21640D8CB173"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: "mysticalworld:apple_cordial"
 				}
 				{
 					id: "049F4F81204488DB"
@@ -325,8 +299,9 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: -3.5d
+			x: 1.0d
+			y: 11.5d
+			subtitle: "How am I even able to bite into this?"
 			description: ["Same as netherite apple but now it gives level 2 Netherite effects."]
 			dependencies: ["63E4DEAD58EA1044"]
 			id: "21F1BF0DE36BC880"
@@ -369,8 +344,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 1.5d
+			x: -2.0d
+			y: -3.0d
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "40609C59E4FA4972"
 			tasks: [{
@@ -393,7 +368,7 @@
 				{
 					id: "63D77BB5509ADFF5"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: "mysticalworld:apple_cordial"
 				}
 				{
 					id: "18201286EAFF10E1"
@@ -414,63 +389,9 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 1.5d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "0D02D42CC2FE1569"
-			tasks: [{
-				id: "79564CBC68B5670B"
-				type: "item"
-				item: "minecraft:warped_nylium"
-			}]
-			rewards: [{
-				id: "3B44E17FF5FC683A"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:healing"
-					}
-				}
-			}]
-		}
-		{
-			x: -2.5d
-			y: -2.0d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "3974D350BB9DAE3A"
-			tasks: [{
-				id: "5D6A645089BC6306"
-				type: "item"
-				item: "minecraft:crimson_nylium"
-			}]
-			rewards: [{
-				id: "009FBBDEBAFECCC2"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
 			x: -2.5d
 			y: -4.5d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "4111908B09AAFE7D"
-			tasks: [{
-				id: "6378CFAE315823D3"
-				type: "item"
-				item: "minecraft:crimson_stem"
-			}]
-			rewards: [{
-				id: "2CF7A1A187C8AD39"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -1.5d
-			y: -6.5d
-			dependencies: ["4111908B09AAFE7D"]
+			dependencies: ["40609C59E4FA4972"]
 			id: "18DCBB7814DAF929"
 			tasks: [{
 				id: "7CC1B0852FA2DB7B"
@@ -484,201 +405,37 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -2.5d
-			dependencies: ["3974D350BB9DAE3A"]
-			id: "3547528CA228CD35"
-			tasks: [{
-				id: "60F479E513B5144D"
-				type: "item"
-				item: "minecraft:crimson_fungus"
-			}]
-			rewards: [{
-				id: "7B31AD95B24EF082"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -5.0d
-			y: -4.0d
-			dependencies: ["4111908B09AAFE7D"]
-			id: "5F0EB14CE3831AE9"
-			tasks: [{
-				id: "0A3BAD56B238BA49"
-				type: "item"
-				item: "floormats:connected/nether/connected_gilded_crimson_stem"
-			}]
-			rewards: [{
-				id: "11BF22A7EE7EDD98"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -2.5d
-			y: -6.5d
-			dependencies: ["4111908B09AAFE7D"]
-			id: "3A9F44F58CBB1632"
-			tasks: [{
-				id: "07517DC6DA222C63"
-				type: "item"
-				item: "floormats:connected/nether/connected_crimson_stem"
-			}]
-			rewards: [{
-				id: "150B4073413E12DB"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -4.0d
-			y: -6.5d
-			dependencies: ["4111908B09AAFE7D"]
-			id: "29490C6065BD6AAC"
-			tasks: [{
-				id: "546574C5FCB24D40"
-				type: "item"
-				item: "quark:crimson_chest"
-			}]
-			rewards: [
-				{
-					id: "386EE48756D87B73"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:healing"
-						}
-					}
-				}
-				{
-					id: "077F7E12A3361B6F"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
+			x: 4.5d
+			y: -4.5d
+			shape: "gear"
+			subtitle: "Nether Wart Substitute"
+			description: [
+				"If you can't find nether warts you can make these sprouts as an alternative."
+				""
+				"Check out the &3Dark Magic&r quest chapter to learn more about eidolon!"
+				""
+				"If you did find nether warts, well... make it anyways."
 			]
-		}
-		{
-			x: -7.0d
-			y: 0.0d
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "3A0EF46E832AB5E4"
-			tasks: [{
-				id: "3DBB1C9ECAB1C116"
-				type: "item"
-				item: "floormats:connected/nether/connected_warped_stem"
-			}]
-			rewards: [
-				{
-					id: "2DE6F23F35670218"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "0BF69E955C71CF52"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_monsters"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -5.5d
-			y: 0.5d
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "34C353266CF4D229"
-			tasks: [{
-				id: "7CD040E160309DD7"
-				type: "item"
-				item: "floormats:connected/nether/connected_gilded_warped_stem"
-			}]
-			rewards: [{
-				id: "68F9BDF6A8C5DF02"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -6.0d
-			y: -2.0d
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "43A18A19D4D9D8E2"
-			tasks: [{
-				id: "516723368B3D9747"
-				type: "item"
-				item: "quark:warped_chest"
-			}]
-		}
-		{
-			x: -4.0d
-			y: 1.5d
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "04013B081700E4A9"
-			tasks: [{
-				id: "60A827DB82BEB6E9"
-				type: "item"
-				item: "valhelsia_structures:warped_post"
-			}]
-			rewards: [{
-				id: "7F2986E56E2264DF"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -4.0d
-			y: -0.5d
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "0F0AA12E6E9A4350"
-			tasks: [{
-				id: "6D690E6928BE634E"
-				type: "item"
-				item: "minecraft:warped_stem"
-			}]
-			rewards: [{
-				id: "5273057D3607AB4A"
-				type: "item"
-				item: "supplementaries:candy"
-			}]
-		}
-		{
-			x: -5.0d
-			y: 2.0d
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "39B4598D10583635"
-			tasks: [{
-				id: "43E060F4CBD7350E"
-				type: "item"
-				item: "minecraft:warped_door"
-			}]
-			rewards: [{
-				id: "2B7FAC4F31780F71"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -3.5d
-			y: 2.5d
-			dependencies: ["0D02D42CC2FE1569"]
+			dependencies: ["1C6B53E307B94F2B"]
 			id: "6F71C255CDF5A4D9"
 			tasks: [{
 				id: "434C39CDB41DEB44"
 				type: "item"
-				item: "eidolon:warped_sprouts"
+				item: {
+					id: "eidolon:fungus_sprouts"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 			rewards: [
 				{
 					id: "5C63479985C68918"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: "mysticalworld:apple_cordial"
 				}
 				{
 					id: "7F9D9DCC997C087A"
@@ -693,90 +450,10 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: -1.5d
-			dependencies: ["0F0AA12E6E9A4350"]
-			id: "70BC62E7AF939546"
-			tasks: [{
-				id: "6233D945FF30CB8B"
-				type: "item"
-				item: "quark:warped_post"
-			}]
-			rewards: [
-				{
-					id: "3348A8D7D4B5F8A7"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "3B4049A1C71A3B32"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_monsters"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -3.5d
-			y: -1.5d
-			description: ["A dimmer version of the torch. Piglins prefer to stay away from them."]
-			dependencies: ["4ABA0AF14F4830E5"]
-			id: "1FF5E2CC96EA1264"
-			tasks: [{
-				id: "03BFDC95874E8D43"
-				type: "item"
-				item: "minecraft:soul_torch"
-			}]
-			rewards: [
-				{
-					id: "620230C3CD465B73"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "2753F32E2BC5AF02"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-			]
-		}
-		{
-			x: -4.5d
-			y: -2.5d
-			dependencies: ["1FF5E2CC96EA1264"]
-			id: "09EBBFAC3E896F55"
-			tasks: [{
-				id: "21246CBACECE1231"
-				type: "item"
-				item: "minecraft:soul_lantern"
-			}]
-			rewards: [
-				{
-					id: "62080E69141A4A87"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "7215A20D4E41C35A"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "2A5E4E82A40DBFCC"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: -2.5d
-			y: 0.5d
-			dependencies: ["4ABA0AF14F4830E5"]
+			x: -3.0d
+			y: 1.0d
+			description: ["A decorative brazier with soul fire that can also be used to heat up cooking pots if you want."]
+			dependencies: ["60EE45363E31B08B"]
 			id: "63871B96A2A11F52"
 			tasks: [{
 				id: "3DE176441FA028F7"
@@ -796,8 +473,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -2.0d
+			x: -2.0d
+			y: 0.5d
 			description: [
 				"A dimmer and more painful version of the campfire, piglins are known to try to stay away from this."
 				""
@@ -814,7 +491,7 @@
 				{
 					id: "33BA4FC62E58B08B"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: "mysticalworld:apple_cordial"
 				}
 				{
 					id: "3A8B818AF34A8042"
@@ -825,7 +502,7 @@
 		}
 		{
 			x: -2.5d
-			y: 3.5d
+			y: 2.5d
 			subtitle: "Making a home in the nether"
 			description: ["Set up a place to spawn in the nether with the respawn anchor."]
 			dependencies: ["7137B3D4835692E8"]
@@ -839,7 +516,7 @@
 				{
 					id: "049C63E7861E4DEA"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: "mysticalworld:apple_cordial"
 				}
 				{
 					id: "15EEEAE6CEAA853B"
@@ -866,7 +543,8 @@
 		}
 		{
 			x: -1.5d
-			y: 2.5d
+			y: 1.5d
+			subtitle: "Waaaaaaah"
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "7137B3D4835692E8"
 			tasks: [{
@@ -889,7 +567,7 @@
 				{
 					id: "57A8B2FE62FEA9CC"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: "mysticalworld:apple_cordial"
 				}
 				{
 					id: "732A9F26810E2099"
@@ -897,99 +575,6 @@
 					item: "minecraft:golden_carrot"
 				}
 			]
-		}
-		{
-			x: -6.0d
-			y: -5.0d
-			dependencies: ["5F0EB14CE3831AE9"]
-			id: "7B2D427CAF90540B"
-			tasks: [{
-				id: "2BD352363122F8A0"
-				type: "item"
-				item: "floormats:nether/crimson_stem/gilded_crimson_stem_floormat_item"
-			}]
-			rewards: [{
-				id: "172A81EE1762714C"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -3.5d
-			y: -7.5d
-			dependencies: ["3A9F44F58CBB1632"]
-			id: "10591673E1C1B10F"
-			tasks: [{
-				id: "16C1E34D147314C4"
-				type: "item"
-				item: "floormats:nether/crimson_stem/crimson_stem_floormat_item"
-			}]
-			rewards: [
-				{
-					id: "2810F1BECD402F74"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "39A35A728AFD13A3"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_monsters"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -6.5d
-			y: 2.0d
-			dependencies: ["34C353266CF4D229"]
-			id: "4F3F64911B9A47E4"
-			tasks: [{
-				id: "5FC14B204FBABAD9"
-				type: "item"
-				item: "floormats:nether/warped_stem/gilded_warped_stem_floormat_item"
-			}]
-			rewards: [{
-				id: "1000F8C6E3DE03D8"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -8.5d
-			y: -1.0d
-			dependencies: ["3A0EF46E832AB5E4"]
-			id: "1C41CF5FCC54E352"
-			tasks: [{
-				id: "5E817E7015907CF9"
-				type: "item"
-				item: "floormats:nether/warped_stem/warped_stem_floormat_item"
-			}]
-			rewards: [{
-				id: "67D99C447E344317"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -5.0d
-			y: -5.5d
-			dependencies: ["4111908B09AAFE7D"]
-			id: "17EE68968A44657A"
-			tasks: [{
-				id: "7A826A100E53D9C8"
-				type: "item"
-				item: "minecraft:crimson_door"
-			}]
-			rewards: [{
-				id: "29C76C6BFCC88DD0"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
 		}
 		{
 			x: -1.0d
@@ -1130,9 +715,17 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 5.5d
+			title: "What about phanterite?"
+			x: 1.875d
+			y: 10.5d
+			description: [
+				"I won't make you get this one, while the reach bonus on the tools is handy, the armor's step height bonus is completely obsolete thanks to the step height mod."
+				""
+				"If you need fall damage resistance consider the &afeatherite&r set, boot enchantments like &afeather falling&r or &arabbit's feet&r or curios like the &alucky horseshoe&r."
+			]
 			dependencies: ["65760A3965C0610B"]
+			size: 0.75d
+			optional: true
 			id: "6D57242610098E42"
 			tasks: [{
 				id: "6BCA7F4637FD9EB5"
@@ -1153,8 +746,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 10.5d
+			x: -1.0d
+			y: 5.5d
 			dependencies: ["65760A3965C0610B"]
 			id: "42D44EE61E2CEF2E"
 			tasks: [{
@@ -1178,7 +771,8 @@
 		{
 			x: 0.0d
 			y: 8.0d
-			shape: "gear"
+			shape: "rsquare"
+			subtitle: "Never wrong either"
 			description: [
 				"The most powerful material in vanilla minecraft."
 				""
@@ -1192,18 +786,30 @@
 				type: "item"
 				item: "minecraft:netherite_ingot"
 			}]
-			rewards: [{
-				id: "4F87250F366A0B40"
-				type: "item"
-				item: "aquaculture:lockbox"
-			}]
+			rewards: [
+				{
+					id: "4F87250F366A0B40"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "7B794D0FCA861ECD"
+					type: "xp"
+					xp: 200
+				}
+			]
 		}
 		{
 			title: "Golderite Armor"
 			x: -3.5d
 			y: 9.5d
-			description: ["Increases your Luck stat by 2 and makes piglins not attack you as if wearing golden armor."]
+			description: [
+				"Increases your Luck stat by 2 and makes piglins not attack you as if wearing golden armor."
+				""
+				"&6Only 2 are required to complete the quest and activate the set bonus."
+			]
 			dependencies: ["3B5966CE0415E109"]
+			min_required_tasks: 2
 			id: "6727E197F4283EAD"
 			tasks: [
 				{
@@ -1273,8 +879,13 @@
 			title: "Prismarite Armor"
 			x: 3.5d
 			y: 8.5d
-			description: ["Increased Swim Speed, Permanant Water breathing and immunity to the Mining Fatigue effect."]
+			description: [
+				"Increased Swim Speed, Permanant Water breathing and immunity to the Mining Fatigue effect."
+				""
+				"&6Only 2 are required to complete the quest and activate the set bonus."
+			]
 			dependencies: ["56ADA502CFC3807D"]
+			min_required_tasks: 2
 			id: "602F6BB604D64DDA"
 			tasks: [
 				{
@@ -1342,16 +953,19 @@
 		}
 		{
 			title: "Enderite Armor"
-			x: 2.0d
-			y: 11.0d
+			x: -1.0d
+			y: 4.5d
 			description: [
 				"Prevents endermen from being angry at you when looked at."
 				""
 				"You already get saved from the void so the second attribute is useless."
 				""
 				"This set is completely useless with the ring of seven curses equipped."
+				""
+				"&6Only 2 are required to complete the quest and activate the set bonus."
 			]
 			dependencies: ["42D44EE61E2CEF2E"]
+			min_required_tasks: 2
 			id: "179CE2F43D189547"
 			tasks: [
 				{
@@ -1421,8 +1035,13 @@
 			title: "Blazerite Armor"
 			x: -1.0d
 			y: 11.5d
-			description: ["Grants immunity to fire damage and faster swim speed in lava."]
+			description: [
+				"Grants immunity to fire damage and faster swim speed in lava."
+				""
+				"&6Only 2 are required to complete the quest and activate the set bonus."
+			]
 			dependencies: ["22AD943138F5C856"]
+			min_required_tasks: 2
 			id: "3EF22104C917962E"
 			tasks: [
 				{
@@ -1496,8 +1115,11 @@
 				"Grants the ability to walk on liquids, immunity to fall damage, 2 extra jumps and levitation immunity."
 				""
 				"Extra jumps stack with the double-jump enchantment and cloud in a bottle."
+				""
+				"&6Only 2 are required to complete the quest and activate the set bonus."
 			]
 			dependencies: ["4FC103EC12228BBB"]
+			min_required_tasks: 2
 			id: "2B235A1B58499000"
 			tasks: [
 				{
@@ -1564,86 +1186,16 @@
 			]
 		}
 		{
-			title: "Phanterite Armor"
-			x: -2.0d
-			y: 5.0d
-			description: [
-				"Grants fall damage immunity."
-				""
-				"Also grants step height but you already have that anyways."
-			]
-			dependencies: ["6D57242610098E42"]
-			id: "1D0C9364745C4EDE"
-			tasks: [
-				{
-					id: "7ED8A0489873B69D"
-					type: "item"
-					item: {
-						id: "upgradednetherite:phantom_upgraded_netherite_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "082914C018753EEC"
-					type: "item"
-					item: {
-						id: "upgradednetherite:phantom_upgraded_netherite_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4AE1C495591D2C96"
-					type: "item"
-					item: {
-						id: "upgradednetherite:phantom_upgraded_netherite_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4963730B016401BF"
-					type: "item"
-					item: {
-						id: "upgradednetherite:phantom_upgraded_netherite_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "6BA753E32269582D"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "38A1B6562A01340D"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-				{
-					id: "00EB64A48520112A"
-					type: "ftbmoney:money"
-					ftb_money: 50L
-				}
-			]
-		}
-		{
 			title: "Spiderite Armor"
 			x: 3.5d
 			y: 6.5d
-			description: ["Grants poison immunity and the ability to climb up walls."]
+			description: [
+				"Grants poison immunity and the ability to climb up walls."
+				""
+				"&6Only 2 are required to complete the quest and activate the set bonus."
+			]
 			dependencies: ["363BD95AA810F14F"]
+			min_required_tasks: 2
 			id: "74D61CFA5A3395DB"
 			tasks: [
 				{
@@ -1713,8 +1265,13 @@
 			title: "Witherite Armor"
 			x: -3.5d
 			y: 7.0d
-			description: ["Grants the player immunity to the Wither effect."]
+			description: [
+				"Grants the player immunity to the Wither effect."
+				""
+				"&6Only 2 are required to complete the quest and activate the set bonus."
+			]
 			dependencies: ["1F32E351FBF052A2"]
+			min_required_tasks: 2
 			id: "004D06A98BA5D542"
 			tasks: [
 				{
@@ -1787,9 +1344,12 @@
 			description: [
 				"Increased drops from mobs and blocks."
 				""
-				"The sword deals 10% more damage to piglin brutes."
+				"The sword deals bonus damage to piglin brutes."
+				""
+				"&6You only need to collect 1 of the 3 items above to complete this quest."
 			]
 			dependencies: ["3B5966CE0415E109"]
+			min_required_tasks: 1
 			id: "2DF44D23C354CDC6"
 			tasks: [
 				{
@@ -1847,8 +1407,11 @@
 				"Increased Damage against enemies on fire."
 				""
 				"Any items dropped from mobs killed or blocks mined with these will be automatically smelted."
+				""
+				"&6You only need to collect 1 of the 3 items above to complete this quest."
 			]
 			dependencies: ["22AD943138F5C856"]
+			min_required_tasks: 1
 			id: "791FB402D5A1BFA4"
 			tasks: [
 				{
@@ -1900,14 +1463,17 @@
 		}
 		{
 			title: "Enderite Arms"
-			x: 1.0d
-			y: 11.5d
+			x: -2.0d
+			y: 5.0d
 			description: [
 				"Increases damage against enderman and prevents them from teleporting for 10 seconds, and causes them to drop more loot."
 				""
 				"Sneak-click a chest to teleport any mob drops you obtain with this sword to it."
+				""
+				"&6You only need to collect 1 of the 3 items above to complete this quest."
 			]
 			dependencies: ["42D44EE61E2CEF2E"]
+			min_required_tasks: 1
 			id: "581E9E45E5ED4FB2"
 			tasks: [
 				{
@@ -1961,8 +1527,13 @@
 			title: "Spiderite Arms"
 			x: 3.5d
 			y: 7.5d
-			description: ["Poisons enemies and increases damage against poisoned targets."]
+			description: [
+				"Poisons enemies and increases damage against poisoned targets."
+				""
+				"&6You only need to collect 1 of the 2 items above to complete this quest."
+			]
 			dependencies: ["363BD95AA810F14F"]
+			min_required_tasks: 1
 			id: "2835561D267FAFDD"
 			tasks: [
 				{
@@ -2005,8 +1576,13 @@
 			title: "Prismarite Arms"
 			x: 3.5d
 			y: 9.5d
-			description: ["Increases mining speed underwater and bonus damage towards mobs immune to fire and endermen."]
+			description: [
+				"Increases mining speed underwater and bonus damage towards mobs immune to fire and endermen."
+				""
+				"&6You only need to collect 1 of the 3 items above to complete this quest."
+			]
 			dependencies: ["56ADA502CFC3807D"]
+			min_required_tasks: 1
 			id: "4A450C79CCDB7840"
 			tasks: [
 				{
@@ -2060,8 +1636,13 @@
 			title: "Featherite Arms"
 			x: 2.0d
 			y: 5.0d
-			description: ["Attracts items towards you. The shield pushes enemies away when blocking."]
+			description: [
+				"Attracts items towards you. The shield pushes enemies away when blocking."
+				""
+				"&6You only need to collect 1 of the 3 items above to complete this quest."
+			]
 			dependencies: ["4FC103EC12228BBB"]
+			min_required_tasks: 1
 			id: "222CFF53D6C06F91"
 			tasks: [
 				{
@@ -2112,70 +1693,16 @@
 			]
 		}
 		{
-			title: "Phanterite Arms"
-			x: -1.0d
-			y: 4.5d
-			description: [
-				"Increases your reach by 2 blocks and allows you to see nearby enemies."
-				""
-				"10% more damage to phantoms."
-			]
-			dependencies: ["6D57242610098E42"]
-			id: "4E8D67A9761ACBC1"
-			tasks: [
-				{
-					id: "09A5173C7C6F938D"
-					type: "item"
-					item: {
-						id: "upgradednetherite:phantom_upgraded_netherite_sword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3FB1B6A23A34A383"
-					type: "item"
-					item: {
-						id: "upgradednetherite:phantom_upgraded_netherite_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "59B464BF69A26689"
-					type: "item"
-					item: {
-						id: "upgradednetherite:phantom_upgraded_netherite_shield"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "1FA5C9F831780266"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "24758E7B88FB0F09"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-			]
-		}
-		{
 			title: "Witherite Arms"
 			x: -3.5d
 			y: 6.0d
-			description: ["Applies the Wither effect and increases damage against withered enemies."]
+			description: [
+				"Applies the Wither effect and increases damage against withered enemies."
+				""
+				"&6You only need to collect 1 of the 2 items above to complete this quest."
+			]
 			dependencies: ["1F32E351FBF052A2"]
+			min_required_tasks: 1
 			id: "77A8AD4D89E56A1F"
 			tasks: [
 				{
@@ -2215,23 +1742,40 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 2.5d
-			dependencies: ["40609C59E4FA4972"]
+			x: 2.5d
+			y: 3.5d
+			subtitle: "A brighter base"
+			description: ["If you ever wanted stairs and slabs that emit light, here it is!"]
+			dependencies: ["50E72E795925546C"]
 			id: "214E89C00242A696"
-			tasks: [{
-				id: "1A675B88F8FEB881"
-				type: "item"
-				item: {
-					id: "infernalexp:smooth_glowstone"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "1A675B88F8FEB881"
+					type: "item"
+					item: {
+						id: "infernalexp:smooth_glowstone_stairs"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "2C474DE4A9535940"
+					type: "item"
+					item: {
+						id: "infernalexp:smooth_glowstone_slab"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "31B02BE5C55C9799"
@@ -2244,65 +1788,9 @@
 					ftb_money: 10L
 				}
 				{
-					id: "1122E0D9CE8352D2"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: -3.0d
-			dependencies: ["60EE45363E31B08B"]
-			id: "14873B1D32953A2B"
-			tasks: [{
-				id: "5C6A0082559AC281"
-				type: "item"
-				item: "infernalexp:glow_campfire"
-			}]
-			rewards: [
-				{
-					id: "1D68018529B421B1"
-					type: "item"
-					item: "aquaculture:box"
-				}
-				{
-					id: "4FED94CDA21B2EBE"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "49E74A8C18825E26"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			x: -6.0d
-			y: -3.0d
-			dependencies: ["09EBBFAC3E896F55"]
-			id: "71C6E5460F00AAA8"
-			tasks: [{
-				id: "3C956F3B57CC2011"
-				type: "item"
-				item: "infernalexp:glow_lantern"
-			}]
-			rewards: [
-				{
-					id: "09FBA31E24DD1B48"
-					type: "item"
-					item: "aquaculture:box"
-				}
-				{
-					id: "08BB9C8E2DCA87D0"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "26087375E4EADD6E"
-					type: "xp_levels"
-					xp_levels: 1
+					id: "4E7397125AB4B415"
+					type: "xp"
+					xp: 40
 				}
 			]
 		}
@@ -2336,93 +1824,35 @@
 			]
 		}
 		{
+			title: "The Gentle Giant"
 			x: 0.5d
-			y: -6.0d
-			dependencies: ["357B034F06F47129"]
-			id: "1C246B7933ACF8FA"
-			tasks: [
-				{
-					id: "18375501281BBACA"
-					type: "item"
-					item: "infernalexp:charged_chiseled_soul_slate_bricks"
-				}
-				{
-					id: "6C6E1333CFDAB164"
-					type: "item"
-					item: {
-						id: "infernalexp:charged_chiseled_soul_stone_bricks"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
+			y: -6.5d
+			description: [
+				"These golem-like beings may look intimidating, but they are actually neutral and won't attack unless provoked or you are wearing the Ring of Seven Curses."
+				""
+				"They are hostile towards magma cubes and drop magma blocks when slain."
 			]
-			rewards: [
-				{
-					id: "55FCF6B30CF4861B"
-					type: "item"
-					item: "aquaculture:box"
-				}
-				{
-					id: "13F2BC52777948FF"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "3C7E01AF2E530D97"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			x: 4.0d
-			y: 4.0d
-			dependencies: ["214E89C00242A696"]
-			id: "2A31BA8A10957C75"
+			dependencies: ["46986285004F8604"]
+			id: "357B034F06F47129"
 			tasks: [{
-				id: "67B4730D00FD196B"
-				type: "item"
-				item: {
-					id: "infernalexp:chiseled_glowstone_bricks"
+				id: "53D30DAF450E9254"
+				type: "observation"
+				title: "Observe a basalt giant"
+				icon: {
+					id: "alexsmobs:tab_icon"
 					Count: 1b
+					tag: {
+						DisplayEntityType: "infernalexp:basalt_giant"
+					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
 						}
 					}
 				}
-			}]
-			rewards: [
-				{
-					id: "06FC5EE9503321A5"
-					type: "item"
-					item: "aquaculture:box"
-				}
-				{
-					id: "3340FB26402FFF64"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "11BEE253B27AE9D1"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: -5.0d
-			dependencies: ["46986285004F8604"]
-			id: "357B034F06F47129"
-			tasks: [{
-				id: "5D8DDA737DE45C45"
-				type: "item"
-				item: "infernalexp:magmatic_chiseled_basalt_bricks"
+				timer: 0L
+				observe_type: 5
+				to_observe: "infernalexp:basalt_giant"
 			}]
 			rewards: [
 				{
@@ -2443,7 +1873,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -1.0d
 			y: -7.0d
 			dependencies: ["0BC837BAE9BF5D1D"]
 			id: "29EAFB7C2D441011"
@@ -2468,9 +1898,10 @@
 		}
 		{
 			x: 0.0d
-			y: 2.5d
+			y: 3.5d
 			subtitle: "Cinnamon Rolls?"
 			dependencies: ["4ABA0AF14F4830E5"]
+			size: 1.25d
 			id: "38E3B9FEC8AA6D51"
 			tasks: [{
 				id: "298525A9BE1B7322"
@@ -2508,8 +1939,9 @@
 			]
 		}
 		{
-			x: 1.5d
+			x: 1.0d
 			y: 2.5d
+			subtitle: "May the quartz be with you"
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "192679B4B812DFED"
 			tasks: [{
@@ -2521,7 +1953,7 @@
 				{
 					id: "7F81777E298E3B2A"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: "mysticalworld:apple_cordial"
 				}
 				{
 					id: "109D1976CA7A846F"
@@ -2551,6 +1983,7 @@
 		{
 			x: 10.0d
 			y: -0.5d
+			subtitle: "Expert Mode has arrived, Wither or not you like it"
 			dependencies: ["3D007BCE6C843D07"]
 			id: "5A302A15FA9774B4"
 			tasks: [{
@@ -2585,7 +2018,13 @@
 		{
 			x: 12.0d
 			y: -0.5d
-			description: ["A beacon is a block that projects a beam skyward, and can provide beneficial status effects to players in a radius around it when placed on top of a solid pyramid base constructed from iron, gold, diamond, emerald or netherite blocks."]
+			shape: "circle"
+			subtitle: "More useful here than you think"
+			description: [
+				"A beacon is a block that projects a beam skyward, and can provide beneficial status effects to players in a radius around it when placed on top of a solid pyramid base constructed from valuable blocks."
+				""
+				"These valuable blocks are normally iron, gold, diamond, and netherite blocks but can also include metals and gems from other dimensions."
+			]
 			dependencies: ["5A302A15FA9774B4"]
 			id: "30D48209ECED6B8B"
 			tasks: [{
@@ -2663,6 +2102,7 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+							RepairCost: 20
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -2690,20 +2130,27 @@
 		}
 		{
 			title: "Now entering: Expert Mode!"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "minecraft:wither"
+				}
+			}
 			x: 7.5d
 			y: -0.5d
 			shape: "octagon"
 			subtitle: "New mechanics for Expert Mode:"
 			description: [
-				"- Loot has a 25% chance to be doubled"
+				"- Loot has a 25% chance to be &2doubled"
 				""
-				"- Experience from all sources is increased by 20%"
+				"- &2Experience&r from all sources is increased by 20%"
 				""
 				"- All monsters have their health and damage increased by 20%(at night the bonus is doubled to 40%)"
 				""
 				"- Illusioners spawn naturally during the night"
 				""
-				"- New Elite Skeletons spawn naturally during the night(shoots arrows extremely precisely)"
+				"- New &aElite Skeletons&r spawn naturally during the night(shoots arrows extremely precisely)"
 				""
 				"- Piglins may spawn in a group"
 				""
@@ -2721,16 +2168,25 @@
 				""
 				"- Undead spawned during the Undead Army are twice as likely to have armor pieces"
 				""
-				"- Undead Army gives 100% more experience for completing it"
+				"- Undead Army gives &a100%&r more experience for completing it"
 				""
 				"- Whenever you die from Bleeding or are killed by a Zombie there spawns a special Zombie with your head"
 			]
 			dependencies: ["2DF36A4C59310AB7"]
-			size: 1.5d
+			size: 0.6d
 			id: "3D007BCE6C843D07"
 			tasks: [{
 				id: "259EE186B9E4E3F1"
 				type: "kill"
+				icon: {
+					id: "majruszs_difficulty:wither_treasure_bag"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "minecraft:wither"
 				value: 1L
 			}]
@@ -2756,8 +2212,14 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: -2.0d
+			x: 3.0d
+			y: -2.5d
+			subtitle: "There's 8 surrounding each blaze yet only drop 1? What a scam!"
+			description: [
+				"If you can't find a nether fortress blazes can also be found spawning naturally in the &aembur bog&r biome."
+				""
+				"A blaze spawner can also be found under a blaze lantern in obsidian spikes with a blaze lantern on it, which is found in lava oceans."
+			]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "641181016BC6E8FA"
 			tasks: [{
@@ -2772,8 +2234,10 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -3.0d
+			x: 5.0d
+			y: -3.5d
+			subtitle: "Need my morning coffee"
+			description: ["&6Note: As you may have noticed, potions are stackable now. However to insert into the brewing stand potions need to be &eunstacked&6."]
 			dependencies: ["641181016BC6E8FA"]
 			id: "1C6B53E307B94F2B"
 			tasks: [{
@@ -2808,7 +2272,7 @@
 		}
 		{
 			x: 6.0d
-			y: -4.0d
+			y: -4.5d
 			description: ["A new potion added by Quark that provides damage reduction."]
 			dependencies: ["1C6B53E307B94F2B"]
 			id: "3F35EA02A0EF5661"
@@ -2824,17 +2288,6 @@
 				}
 			}]
 			rewards: [
-				{
-					id: "0E370D5369AC2CCB"
-					type: "item"
-					item: {
-						id: "roughtweaks:medkit"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
 				{
 					id: "395F76150F6CFE2C"
 					type: "item"
@@ -2860,7 +2313,7 @@
 			y: -2.0d
 			shape: "octagon"
 			description: [
-				"Now you have needed materials to locate the End portal and face the Ender Dragon!"
+				"Now you have needed materials to locate the &aEnd portal&r and face the &eEnder Dragon!"
 				""
 				"Are you sure you are ready?"
 			]
@@ -2900,9 +2353,13 @@
 		}
 		{
 			x: 4.0d
-			y: -3.5d
+			y: -1.5d
 			description: ["Prevents you from being caught on fire, but does not prevent direct lava damage."]
-			dependencies: ["641181016BC6E8FA"]
+			dependencies: [
+				"6D946460884FA90E"
+				"641181016BC6E8FA"
+			]
+			dependency_requirement: "one_completed"
 			id: "06EBA7A32121915D"
 			tasks: [{
 				id: "5E094556AF7847FE"
@@ -2931,6 +2388,7 @@
 		{
 			x: 2.0d
 			y: -5.0d
+			subtitle: "Cheaper but still forgotten"
 			description: [
 				"Lodestones are much cheaper in this pack, only needing soul beads instead of netherite."
 				""
@@ -2971,48 +2429,12 @@
 					}
 					count: 2
 				}
-				{
-					id: "27DBE4E831BEAE32"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							CustomPotionEffects: [
-								{
-									Duration: 3000
-									Id: -112b
-								}
-								{
-									Duration: 3000
-									Id: -116b
-								}
-								{
-									Duration: 3000
-									Id: -114b
-								}
-								{
-									Duration: 3000
-									Id: -118b
-								}
-							]
-							Potion: "minecraft:mundane"
-							display: {
-								Name: "{\"text\":\"Hey, where'd my map go?\",\"italic\":false,\"color\":\"gray\"}"
-							}
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
 			]
 		}
 		{
 			x: 1.5d
 			y: -4.0d
+			subtitle: "Maybe I could make a soul necklace with this?"
 			description: ["Dropped by wraiths found in the soul sand valleys. When clicked it will summon a spiral that heads towards the nearest nether fortress."]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "285ABC6C20EEB458"
@@ -3036,8 +2458,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.5d
+			x: 3.5d
+			y: 1.0d
 			subtitle: "The Nether's Coal"
 			description: [
 				"Found in the Brimstone Caverns or from bartering with piglins."
@@ -3076,8 +2498,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -3.0d
+			x: 6.25d
+			y: -3.5d
 			description: ["Needed to craft the Hellshelf."]
 			dependencies: ["1C6B53E307B94F2B"]
 			id: "2AE5CBF6176606CF"
@@ -3135,7 +2557,12 @@
 		{
 			x: 3.0d
 			y: -0.5d
-			description: ["A scythe is useful to obtain wither skulls at a much higher rate."]
+			subtitle: "Getting a-head in your chances"
+			description: [
+				"A scythe is useful to obtain wither skulls at a much higher rate."
+				""
+				"Scythes can also collect new heads from some mobs, like spiders, piglins and illagers!"
+			]
 			dependencies: ["4ABA0AF14F4830E5"]
 			id: "6D946460884FA90E"
 			tasks: [{
@@ -3178,11 +2605,11 @@
 			]
 		}
 		{
-			x: -6.5d
-			y: 3.0d
+			x: -2.5d
+			y: -0.5d
 			shape: "diamond"
 			description: ["Workstation for the Netherologist villager profession."]
-			dependencies: ["0F0AA12E6E9A4350"]
+			dependencies: ["4ABA0AF14F4830E5"]
 			id: "02CE728BCDC1E758"
 			tasks: [{
 				id: "7A93E11EAADF36E8"
@@ -3260,27 +2687,39 @@
 			]
 		}
 		{
-			icon: {
-				id: "spartanweaponry:piglin_head"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 1.0d
+			icon: "spartanweaponry:piglin_head"
+			x: 0.5d
 			y: -5.0d
 			description: [
-				"- Piglins now have a reputation system that works similarly to Villagers. Doing things like fighting alongside them against Wither mobs, giving them gifts and bartering with them increases your reputation. Doing things like hurting or killing Piglin mobs and engaging in unauthorized mining/chest opening around them decreases your reputation."
+				"- Piglins now have a reputation system that affects piglin behavior, improved hoglin hunting abilities, and bartering loot."
 				""
-				"- At +50 reputation with a Piglin, you will no longer be required to wear gold armor around them. At +100 reputation, you will be authorized to open chests and mine gold around them."
+				"&eReputation:"
 				""
-				"- At -50 reputation with a Piglin, you will no longer receive items from bartering. At -100 reputation, you will be attacked on sight regardless of whether or not you are wearing gold armor."
+				"-&aKilling a Wither nearby: +300 Reputation"
+				"-&aKilling a Wither Skeleton nearby: +50 Reputation"
+				"-&aGifting non-barter gold items: +12 Reputation"
+				"-&aGifting food items: +6 Reputation"
+				"-&aBartering: +3 Reputation"
+				"-&cOpening a chest or mining gold nearby: -12 Reputation"
+				"-&cHurting an adult Piglin: -12 Reputation"
+				"-&cHurting a baby Piglin: -25 Reputation"
+				"-&cKilling a Piglin: -25 Reputation (for nearby piglins)"
+				"-&cKilling a baby Piglin: -50 Reputation (for nearby piglins)"
+				"-&cKilling a Piglin Brute: -100 Reputation"
 				""
-				"- Piglins seek out and pick up food items (by default, porkchops and cooked porkchops) and consume them, complete with an eating animation. Players can also right-click them with their food items if the Piglin has not already recently eaten and they will accept it. Eating food will also restore a Piglin's health in an amount identical to the food item's hunger value."
+				"- &2At +50 reputation with a Piglin, you will no longer be required to wear gold armor around them. At +100 reputation, you will be authorized to open chests and mine gold around them."
 				""
-				"- Piglins can now barter with gold nuggets and gold blocks. Gold nuggets make you far more likely to receive common barter items, with all item stack sizes halved. Gold blocks make you far more likely to receive rare barter items, with all item stack sizes doubled."
+				"- &4At -50 reputation with a Piglin, you will no longer receive items from bartering. At -100 reputation, you will be attacked on sight regardless of whether or not you are wearing gold armor."
+				""
+				"- &6Each piglin has a seperate reputation, but piglins nearby will spread reputation when talking with each other."
+				""
+				"&eHunting:"
+				""
+				"- Piglins will eat porkchops and hogchops from hunting hoglins."
+				""
+				"&eBartering:"
+				""
+				"- Piglins can barter with gold nuggets and gold blocks. Nuggets give more common items while blocks are more likely to give you rare items."
 				""
 				"- Piglins now shake their heads like Villagers when declining an offered item."
 				""
@@ -3302,37 +2741,81 @@
 			}]
 		}
 		{
-			icon: {
-				id: "kubejs:arrow_up"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			title: "Apex Upgrading"
+			icon: "kubejs:arrow_up"
 			x: 14.0d
 			y: -0.5d
 			subtitle: "Take your books to the next level!"
 			description: [
-				"Apex Upgrading is a new type of enchanting utilizing a fully powered beacon."
+				"Apex Upgrading is one of 2 of the new types of enchanting utilizing a beacon with at least &63&r stages."
 				""
-				"To start, place 5 standard chests next to the beacon, 1 on each side \\& on top."
+				"To start, place &a5 standard chests&r next to the beacon, 1 on each side \\& on top."
 				""
-				"Then in the top chest, place 4 of the same level enchanted book and use a totem of undying on it."
+				"Then in the top chest, place &a4 of the same level enchanted books&r and use a &atotem of undying&r on it."
 				"If done right, an animation with end crystals will occur and the enchanted book will be upgraded, which can upgrade books way beyond their max level."
+				""
+				""
+				"&oIf you insert 16 unstacked enchanted books of the same level, the books will be upgraded 2 levels higher instead, allowing the player to save a totem."
+				""
+				""
+				"&3For more information check out &9https://github.com/TinyModularThings/UniqueEnchantments/wiki/Apex-Upgrading"
 			]
 			dependencies: ["30D48209ECED6B8B"]
+			size: 1.25d
 			id: "169FADF0D87C1DB2"
 			tasks: [{
-				id: "37B9E0119410B141"
-				type: "checkmark"
-				title: "Apex Upgrading"
+				id: "0315A4B2FC467B67"
+				type: "item"
+				item: {
+					id: "minecraft:chest"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
 			}]
+			rewards: [
+				{
+					id: "5488C21313DD85D9"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:smite"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "1FCA2C5191D6C30A"
+					type: "item"
+					item: {
+						id: "minecraft:totem_of_undying"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
-			x: -7.5d
-			y: 3.5d
+			x: -3.5d
+			y: -0.5d
 			subtitle: "Trade with the Netherologist in the Nether dimension"
 			dependencies: ["02CE728BCDC1E758"]
 			id: "710A05F9B0FEBDDD"
@@ -3352,6 +2835,754 @@
 					id: "4402EA861FA5ABB3"
 					type: "ftbmoney:money"
 					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -3.5d
+			subtitle: "More like a sHELLf, am i right?"
+			description: ["A shelf that provides a good amount of eterna and quanta."]
+			dependencies: ["2AE5CBF6176606CF"]
+			id: "2FB33739FE341ABB"
+			tasks: [{
+				id: "11EE1A500B5B2DFC"
+				type: "item"
+				item: "apotheosis:hellshelf"
+			}]
+			rewards: [
+				{
+					id: "22BE486E4E2C0595"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3991EFA1A2C0EBDC"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			subtitle: "Your mending book is overdue by 11 months"
+			description: [
+				"&6The Enchantment Library is a block that can store countless amounts of enchantments."
+				""
+				""
+				"&aDetailed Info Below:"
+				""
+				""
+				"Simply insert an enchanted book, and every enchantment on that book will be stored in the library internally."
+				""
+				"Each enchantment is stored as one point multiplied by its level."
+				""
+				"The library also records the max level it has ever seen for a given enchantment, and you may only extract enchantments up to that level.  Meaning if you want to be able to extract a higher level of an enchantment, the library will need to have had that level deposited at least one time."
+				""
+				"To extract enchantments from the library, simply click on the enchantment you want to extract, and it will appear as an enchantment book in the output slot."
+				""
+				"You can add more enchantments to the book by clicking another enchantment if it is compatible, and you can add more levels by clicking an enchantment again, if you have enough points."
+				""
+				"Shift-Clicking an enchantment option will add the maximum level possible with the amount of points you have."
+				""
+				"The enchantment library will &onot&r lose the enchantments if you break the block."
+			]
+			dependencies: [
+				"2FB33739FE341ABB"
+				"216F05F4361A6D0F"
+			]
+			id: "0E3EAF4D21A7FE1E"
+			tasks: [{
+				id: "2B528E43718E6D52"
+				type: "item"
+				item: {
+					id: "apotheosis:enchantment_library"
+					Count: 1b
+					tag: {
+						BlockEntityTag: { }
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "368A1D75223F239B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62002003FFC57CD8"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			icon: "infernalexp:dimstone"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "A familiar looking portal"
+			description: [
+				"A glowstone ruin. Not much to it."
+				""
+				"Found in the glowstone canyon biome."
+			]
+			dependencies: ["50E72E795925546C"]
+			id: "357684D8A6FCB287"
+			tasks: [{
+				id: "6FA7619C55B05265"
+				type: "structure"
+				structure: "infernalexp:glowstone_canyon_ruin"
+			}]
+			rewards: [
+				{
+					id: "0D9B7A8C19689147"
+					type: "command"
+					title: "Gloomper anthem secret"
+					icon: "undergarden:music_disc_gloomper_anthem"
+					auto: "enabled"
+					command: "/execute at @p run playsound undergarden:music.disc.gloomper_secret player @p ~ ~ ~ 25 1 1"
+					player_command: false
+				}
+				{
+					id: "40C031C4AE18B823"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			title: "Apex Crafting"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 2s
+						id: "uniqueapex:blessed_blade"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 16.0d
+			y: -0.5d
+			subtitle: "Making the most powerful enchantments"
+			description: [
+				"This is the other type of enchanting that can be performed with a beacon pyramid."
+				""
+				"Just like apex upgrading, at least a tier 3 beacon pyramid is required with the 5 vanilla chests next to it."
+				""
+				"The main difference is the ingredients."
+				""
+				"Pressing &3U&r on a beacon in an inventory screen will show all the apex crafting recipes."
+				""
+				"Place the item you want to enchant in the top chest, &6&lnote that unlike upgrading you must enchant an item directly, putting it onto a book will cause the enchantment to disappear when applied onto something else.&l"
+				""
+				"&eCatalyst&r items go in the side chests, &eBases&r go in the top after the item you want to enchant."
+				""
+				"Finally, apex crafting is activated by clicking the top chest with a &aEnd Crystal&r instead of a totem."
+				""
+				"&3Similarly to apex upgrading, the official unique enchantments wiki page for apex crafting can be found here: &9https://github.com/TinyModularThings/UniqueEnchantments/wiki/Apex-Crafting"
+			]
+			dependencies: ["169FADF0D87C1DB2"]
+			size: 1.25d
+			id: "14966D90E83C7C31"
+			tasks: [{
+				id: "2E688716E91CCEAA"
+				type: "item"
+				item: {
+					id: "minecraft:end_crystal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "45AA6C80118B8481"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "799DCEFA5F2D25B8"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: -2.0d
+			subtitle: "An apex predicament"
+			description: [
+				"Hey, Tiger here."
+				""
+				"While making these quests and watching some rad2 playthrough videos, someone mentioned having a tough time finding &eTropical Fish &7(vanilla mob, bucket of tropical fish is an ingredient for blessed blade)&r and believed that these fish did not exist in the pack."
+				""
+				"This quest is just here to mention that I can confirm that tropical fish still spawn in the &bwarm oceans&r."
+				""
+				"It is also wandering trader trade."
+				""
+				"Also, in case the tropical fish don't spawn in that biome for whatever reason, a crafting recipe has been added to change a tropicraft tropical fish bucket into the vanilla bucket of tropical fish."
+			]
+			dependencies: ["14966D90E83C7C31"]
+			id: "7609C4BA003EB508"
+			tasks: [{
+				id: "472656A356AF2C20"
+				type: "item"
+				item: {
+					id: "minecraft:tropical_fish_bucket"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "649E02053CFA9A7F"
+				type: "item"
+				item: {
+					id: "kubejs:iron_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			description: ["Remember you can use the &aNature's Compass&r to help find it"]
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "50E72E795925546C"
+			tasks: [{
+				id: "5F2A7770086A0660"
+				type: "biome"
+				icon: {
+					id: "infernalexp:glowdust_sand"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				biome: "infernalexp:glowstone_canyon"
+			}]
+			rewards: [
+				{
+					id: "54F11F479BBB8148"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "4243C3284774C0BE"
+					type: "ftbmoney:money"
+					ftb_money: 8L
+				}
+				{
+					id: "2D881C1FF1B9568F"
+					type: "item"
+					item: {
+						id: "minecraft:gold_nugget"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			description: [
+				"Glowcoke is dropped by &aglowsquitos&r when slain."
+				""
+				"It can be used to craft glowlight variations of torches, campfires and lanterns."
+			]
+			dependencies: ["07D8D35F435C3EE0"]
+			id: "2F1B12A10C613BCF"
+			tasks: [{
+				id: "2D5FC5D138A39767"
+				type: "item"
+				item: {
+					id: "infernalexp:glowcoal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B2ED57B674E3140"
+				type: "item"
+				item: {
+					id: "infernalexp:glow_torch"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			disable_toast: true
+			x: 3.5d
+			y: 3.0d
+			description: [
+				"Glowsquitos are much more calm than their crimson relatives."
+				""
+				"Glowsquitos will only attack players and mobs that are under the &cLuminous&r effect. Watch your step as various foliage in the glowstone canyon can apply the effect to you."
+				""
+				"Can be bred with &aShroomlight Tears&r, should you want to farm the &aGlowcoke drops."
+				""
+				"Bonemeal a shroomlight and a tear will grow under it."
+			]
+			dependencies: ["50E72E795925546C"]
+			id: "07D8D35F435C3EE0"
+			tasks: [{
+				id: "630455B2CFBF5E5D"
+				type: "observation"
+				title: "Discover a glowsquito"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "infernalexp:glowsquito"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "infernalexp:glowsquito"
+			}]
+			rewards: [
+				{
+					id: "47FB24182912991F"
+					type: "xp"
+					xp: 90
+				}
+				{
+					id: "1D3BAC2C9676A6DE"
+					type: "ftbmoney:money"
+					ftb_money: 9L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			subtitle: "No torches needed!"
+			description: [
+				"Luminous slabs and stairs not enough? How about a window that doubles as a light source!"
+				""
+				"These can be obtained by smelting the &ashimmering sand&r found in the glowstone canyon."
+			]
+			dependencies: ["214E89C00242A696"]
+			id: "6EAD1076231A60A2"
+			tasks: [{
+				id: "1300A3F073116B24"
+				type: "item"
+				item: {
+					id: "infernalexp:glow_glass"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4B66DE4C95F35716"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "70BEF504895A0B1D"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "Find a Foxhound"
+			x: -1.0d
+			y: 2.5d
+			subtitle: "Hot Dogs"
+			description: [
+				"Foxhounds are usually hostile and will set you on fire when attacking."
+				""
+				"However there is a way to &6tame&r these fiery beasts."
+				""
+				"While under the effect of &eFire Resistance&r, feeding a foxhound &aCoal&r has a chance to tame."
+				""
+				"The chance is much lower than that of wolves, so make sure to bring at least a stack, possibly more."
+			]
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "406B25E6731C41A1"
+			tasks: [{
+				id: "6376B77C247F71F5"
+				type: "observation"
+				title: "Find a Foxhound"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "quark:foxhound"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "quark:foxhound"
+			}]
+			rewards: [
+				{
+					id: "4A07A7F67BC77B30"
+					type: "item"
+					item: {
+						id: "minecraft:coal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "7283723F4C6D9EE2"
+					type: "xp"
+					xp: 120
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			subtitle: "Moving mobs has never been easier"
+			description: [
+				"Despite the name, an enderite pearl is smithed with a vanilla netherite ingot, not an enderite ingot."
+				""
+				"&6The enderite pearl can be used to harmlessly teleport other mobs around."
+				"It can be used an &eunlimited&r amount of times."
+				""
+				"To use, hit a mob you want to teleport &o(this will deal no damage)"
+				""
+				"then throw the pearl where you want to teleport the selected mob to."
+				""
+				"You need to have &aender pearls&r in your inventory to be able to throw the enderite pearl."
+			]
+			dependencies: ["65760A3965C0610B"]
+			id: "3283EF1FB852DB82"
+			tasks: [{
+				id: "7E104AB8C157E52A"
+				type: "item"
+				item: {
+					id: "upgradednetherite_items:ender_upgraded_netherite_pearl"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "431298D840895D0A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "76A925FAE70DFEEE"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			description: [
+				"Tungsten Ore does not spawn like other ores do."
+				""
+				"Instead it is only found in a special dungeon made of &asoul bricks&r."
+				""
+				"Within the dungeon this ore can be found on the ceilings or in hidden rooms underneath certain chests."
+				""
+				"This dungeon can be found in the &eSoul Sand Valley&r."
+			]
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "70EEA0F7382BF117"
+			tasks: [{
+				id: "0E7446FC942D2DD6"
+				type: "questsadditions:break"
+				block: "stalwart_dungeons:tungsten_ore"
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [
+				{
+					id: "6568D3634B5FD285"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "410D21F875AB94CC"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			description: [
+				"Tungsten armor boasts great defense, but the main selling point is its set bonus, which grants full immunity to fire and withering."
+				""
+				"&6All 4 are needed for this quest. Try out the set bonus!"
+			]
+			dependencies: [
+				"70EEA0F7382BF117"
+				"490D24647A0BC728"
+			]
+			id: "4206930596756DB8"
+			tasks: [
+				{
+					id: "3823C25B52968A78"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:tungsten_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2399A5BBF7B2DF67"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:tungsten_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4364327E7E7C7F9F"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:tungsten_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "03A5E329891CF740"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:tungsten_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6035CFAF076F2DAA"
+					type: "xp"
+					xp: 450
+				}
+				{
+					id: "111BAF8FB99992D4"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "6F8DBD443ADA777F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "325A326A34624192"
+					type: "item"
+					item: {
+						id: "kubejs:nether_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			description: [
+				"Dropped by &eReinforced Blazes&r, which also reside within the soul brick dungeons."
+				""
+				"&o(see &3Break: 1x Tungsten Ore&r&o quest for more info about the soul brick dungeon)"
+			]
+			dependencies: ["4ABA0AF14F4830E5"]
+			id: "490D24647A0BC728"
+			tasks: [{
+				id: "1A9FC156C609A143"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:blaze_armor_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4E1F9AB0E9A19B79"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "4F8F93956001CE70"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			description: [
+				"Bamboo-like stalks found in the &eSythian Torrids&r biome, these stalks contain a small amount of gold which makes for a great way to increase your reputation with the piglins when given (dropped or &3right-clicked&r on) to a piglin."
+				""
+				"&aThis is considered gifting a non-barter item so it gives +12 reputation."
+			]
+			dependencies: ["0DA780E82198E59C"]
+			id: "363034BA5E582CA0"
+			tasks: [{
+				id: "7738E33A6374081A"
+				type: "item"
+				item: {
+					id: "byg:sythian_stalk_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "177BF8E0D6446C31"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0BE5E8A3502C7E9F"
+					type: "item"
+					item: {
+						id: "nethers_delight:hoglin_sirloin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
 				}
 			]
 		}

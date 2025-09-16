@@ -102,13 +102,42 @@
 			}]
 		}
 		{
+			title: "Rats"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "rats:rat"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: -3.5d
 			y: -1.0d
 			description: ["Rats are small creatures that spawn at night in the overworld, just like monsters. They are usually afraid of players and will run from them on sight. They can become quite a nuisance as rats are able to dig through wooden walls, steal food and seeds from chests, and destroy crops. Additionally, rats can sneak through fences and navigate through doors."]
 			id: "60A98B1357B81D11"
 			tasks: [{
-				id: "3F6B4DE3B6DF35E5"
-				type: "checkmark"
+				id: "5D7C85B81E995514"
+				type: "observation"
+				title: "Find a rat"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "rats:rat"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "rats:rat"
 			}]
 			rewards: [
 				{
@@ -347,6 +376,15 @@
 			]
 		}
 		{
+			icon: {
+				id: "rats:cheese"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 0.5d
 			y: -1.0d
 			description: [
@@ -374,6 +412,15 @@
 			]
 		}
 		{
+			icon: {
+				id: "itemfilters:tag"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 1.5d
 			y: 0.0d
 			description: [

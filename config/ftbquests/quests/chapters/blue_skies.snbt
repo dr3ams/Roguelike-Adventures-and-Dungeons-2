@@ -1,10 +1,11 @@
 {
 	id: "0B0D9C6DF18D6709"
 	group: "241F1DC7B6D6E9D6"
-	order_index: 6
+	order_index: 5
 	filename: "blue_skies"
 	title: "Blue Skies"
 	icon: "blue_skies:star_flare"
+	subtitle: ["Not related to the producers of the movie Rio"]
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	images: [
@@ -254,9 +255,9 @@
 			x: -1.5d
 			y: 0.5d
 			description: [
-				"Find the Gatekeeper and trade a book in exchange for his journal. You can find the houses spawning in either plains, mountains, and most snowy biomes."
+				"Find the &aGatekeeper&r and trade a book in exchange for a &ajournal&r. You can find the &ahouses&r spawning in either &dplains&r, &dmountains&r, and most &dsnowy biomes&r."
 				""
-				"The Blue Journal, a book written by the Gatekeeper that’s filled with information discovered from his experiences in these dimensions. The more you progress through Blue Skies, the more pages you will unlock in the journal. You only need to obtain the blue journal item once. Afterwards, you can always find access to it by opening your inventory and clicking the tab on the right with the blue journal icon."
+				"The &9Blue Journal&r is a book written by the Gatekeeper, filled with information discovered from the Gatekeeper's experiences in these dimensions. The more you progress through Blue Skies, the more pages you will unlock in the journal. &6You only need to obtain the blue journal item once.&r Afterwards, you can always find access to it by &3opening your inventory&r and &3clicking the tab on the right with the blue journal icon&r."
 			]
 			size: 1.5d
 			id: "2B1333F88EBD6BA9"
@@ -284,7 +285,11 @@
 			y: -2.5d
 			shape: "octagon"
 			subtitle: "Find an Everbright portal and enter it"
-			description: ["The Everbright is a realm of eternal day and frigid cold. Home to large beasts and ethereal mobs, you’ll need to keep an eye on your back as you traverse through this world. Be sure to watch out for snow storms that bring thick fog and more enemies than usual. As you explore, you’ll encounter the Summoner’s Blinding Dungeon and the new Nature Dungeon, home of the Starlit Crusher."]
+			description: [
+				"The Everbright is a realm of eternal day and frigid cold. Home to large beasts and ethereal mobs, you’ll need to keep an eye on your back as you traverse through this world. Be sure to watch out for snow storms that bring thick fog and more enemies than usual. As you explore, you’ll encounter the Summoner’s Blinding Dungeon and the new Nature Dungeon, home of the Starlit Crusher."
+				""
+				"&6Combat Tip: Many enemies here take bonus damage from a blue skies pickaxe."
+			]
 			dependencies: ["2B1333F88EBD6BA9"]
 			size: 1.5d
 			id: "72F9931405BEFE11"
@@ -322,7 +327,11 @@
 			y: 3.5d
 			shape: "octagon"
 			subtitle: "Find an Everdawn portal and enter it"
-			description: ["The Everdawn has its sun forever rising. With this being a much more humid and warm world, insects and reptiles flourish. Before entering, it’s worth preparing for poison and fire as many parts of this world may inflict those on you. Venture across this diverse landscape to uncover the Alchemist’s Blinding Dungeon and then the new Poison Dungeon, lair of the Arachnarch."]
+			description: [
+				"The Everdawn has its sun forever rising. With this being a much more humid and warm world, insects and reptiles flourish. Before entering, it’s worth preparing for poison and fire as many parts of this world may inflict those on you. Venture across this diverse landscape to uncover the Alchemist’s Blinding Dungeon and then the new Poison Dungeon, lair of the Arachnarch."
+				""
+				"&6Combat Tip: Many enemies here are arthropods, which can make the Bane of Arthropods enchantment very useful."
+			]
 			dependencies: ["2B1333F88EBD6BA9"]
 			size: 1.5d
 			id: "26A94FF0B70C2076"
@@ -357,6 +366,7 @@
 		{
 			x: 4.0d
 			y: -4.5d
+			subtitle: "This ore keeps telling me all its problems"
 			description: ["While you can't craft tools with this, you can use it to craft buckets, shears, anvils and most importantly, the tool box!"]
 			dependencies: ["72F9931405BEFE11"]
 			id: "4794A9B6D95E1E20"
@@ -381,6 +391,7 @@
 		{
 			x: 2.5d
 			y: -5.0d
+			subtitle: "This ore never tells the truth..."
 			description: ["In addition to its crafting uses, Falsite is used to grant tools bonus durability"]
 			dependencies: ["72F9931405BEFE11"]
 			id: "55F576A9B46CDEE9"
@@ -411,6 +422,7 @@
 		{
 			x: 4.0d
 			y: 5.5d
+			subtitle: "Where's the verticalite?"
 			description: ["Used to craft the horizonite forge, and make tools with autosmelt."]
 			dependencies: ["26A94FF0B70C2076"]
 			id: "1855EE653FA1E241"
@@ -435,6 +447,7 @@
 		{
 			x: 4.5d
 			y: 1.5d
+			subtitle: "Carbon Diopside"
 			description: ["Diopside has higher damage and armor toughness than charoite, but lower attack speed and armor."]
 			dependency_requirement: "one_completed"
 			id: "1BCB46BE15E966C4"
@@ -465,6 +478,7 @@
 		{
 			x: 3.5d
 			y: 0.5d
+			subtitle: "Name sounds familiar"
 			description: ["Similar tier to copper tools."]
 			dependency_requirement: "one_completed"
 			id: "1665D4E72E5CDCC4"
@@ -495,6 +509,7 @@
 		{
 			x: 4.5d
 			y: 0.5d
+			subtitle: "Not quite the best"
 			description: ["Similar tier to iron tools."]
 			dependency_requirement: "one_completed"
 			id: "420FF8CF919A5422"
@@ -525,6 +540,7 @@
 		{
 			x: 3.5d
 			y: 1.5d
+			subtitle: "uhh charcoal or something"
 			description: ["Similar Tier to Diamond Tools."]
 			dependency_requirement: "one_completed"
 			id: "458F3157DF05FBE7"
@@ -555,6 +571,7 @@
 		{
 			x: 4.5d
 			y: -0.5d
+			subtitle: "Under the moonlight"
 			description: ["Can be used to craft a moonstone, which emits light."]
 			dependency_requirement: "one_completed"
 			id: "3FB1D4C5A889ACED"
@@ -585,7 +602,11 @@
 		{
 			x: 2.5d
 			y: -6.5d
-			description: ["Can be used as a method of teleportation."]
+			description: [
+				"Can be used as a method of teleportation."
+				""
+				"The Star Emitter also acts as a workstation for creating the targazer villager profession."
+			]
 			dependencies: ["55F576A9B46CDEE9"]
 			id: "5FC39CB208286BC5"
 			tasks: [
@@ -650,6 +671,7 @@
 		{
 			x: 0.0d
 			y: 0.5d
+			subtitle: "You have my zeal of approval"
 			description: ["Needed to light both the everbright and everdawn portals. Creates blue fire when used in the everbright, and black fire when in the everdawn."]
 			dependencies: ["2B1333F88EBD6BA9"]
 			id: "644C1F036C73D23E"
@@ -744,7 +766,11 @@
 			x: 5.5d
 			y: -4.5d
 			subtitle: "Keeping your tools well repaired"
-			description: ["The Tool Box can be used to change a blue skies tool's rod, and grant it bonus durability with a falsite ingot."]
+			description: [
+				"The Tool Box can be used to change a blue skies tool's rod, and grant it bonus durability with a falsite ingot."
+				""
+				"Enables the Shoveler villager profession."
+			]
 			dependencies: ["4794A9B6D95E1E20"]
 			id: "5C5D93DD699B0DE5"
 			tasks: [{
@@ -772,9 +798,14 @@
 			]
 		}
 		{
-			x: 14.0d
-			y: 0.5d
-			description: ["This table can be used to combine any 5 foods (even ones not from blue skies) into one. Most foods will also keep their effects when converted into the meal."]
+			x: 10.5d
+			y: 0.0d
+			subtitle: "On a diet"
+			description: [
+				"This table can be used to combine any 5 foods (even ones not from blue skies) into one. Most foods will also keep their effects when converted into the meal."
+				""
+				"&6Foods combined into a meal have no nutrient bonuses, handy for managing your diet."
+			]
 			id: "75170045DA295BD4"
 			tasks: [{
 				id: "54C327253DA603E9"
@@ -890,7 +921,7 @@
 		{
 			x: 6.0d
 			y: 1.0d
-			description: ["Both the everbright and everdawn need four of these to access their tower illager boss. Can't find all four? Here's a hint: check the brewing stands!"]
+			description: ["Both the everbright and everdawn need four of these to access their tower illager boss. Can't find all four? &6Here's a hint: check the brewing stands!"]
 			id: "2A1BA8C5A433CB02"
 			tasks: [{
 				id: "25A3C9BEE96D20D3"
@@ -919,6 +950,11 @@
 		{
 			x: 7.5d
 			y: -2.5d
+			description: [
+				"Summons artificial golems, lightning, and launches large blue orbs at the player."
+				""
+				"&eCombat Tip: The summoner will constantly teleport except while casting a spell, which is the perfect opportunity to attack."
+			]
 			dependencies: ["72F9931405BEFE11"]
 			id: "6D75A9B7EE136A30"
 			tasks: [{
@@ -943,6 +979,13 @@
 		{
 			x: 7.5d
 			y: 3.5d
+			description: [
+				"Summons falling rocks, arrows, leaves potion clouds and blinds the player."
+				""
+				"It's not called the blinding dungeon for nothing, after all!"
+				""
+				"&eCombat Tip: Like the summoner the alchemist will constantly teleport around except while casting a spell, which is the opportunity to attack."
+			]
 			dependencies: ["26A94FF0B70C2076"]
 			id: "50D7B576C27AE274"
 			tasks: [{
@@ -967,7 +1010,9 @@
 		{
 			x: 1.0d
 			y: -4.5d
+			description: ["&6Only 1 is required."]
 			dependencies: ["72F9931405BEFE11"]
+			min_required_tasks: 1
 			id: "5D453B4B8C1418C4"
 			tasks: [
 				{
@@ -995,7 +1040,9 @@
 		{
 			x: 0.0d
 			y: 5.5d
+			description: ["&6Only 1 is required."]
 			dependencies: ["26A94FF0B70C2076"]
+			min_required_tasks: 1
 			id: "14A0F3DA7B02F22D"
 			tasks: [
 				{
@@ -1030,6 +1077,12 @@
 			x: 12.0d
 			y: 3.5d
 			shape: "hexagon"
+			subtitle: "Wow Bane of Arthropods actually a useful enchant?"
+			description: [
+				"&61 key is found in one of the chests on each of the 4 floors of the dungeon."
+				""
+				"&6Combat Tip: The Glass Shard trinket is very handy here to make traversing through the webs easier."
+			]
 			dependencies: ["50D7B576C27AE274"]
 			size: 1.5d
 			id: "00A6F781F98D8F25"
@@ -1074,6 +1127,7 @@
 			y: -2.5d
 			shape: "hexagon"
 			subtitle: "I recommend getting a blue skies axe and spear before fighting this living tree, or you are going to have a bad time..."
+			description: ["&61 key is found in one of the chests on each of the 4 floors of the dungeon."]
 			dependencies: ["6D75A9B7EE136A30"]
 			size: 1.5d
 			id: "3EBFB973D7E9DF7D"
@@ -1116,6 +1170,11 @@
 		{
 			x: 5.5d
 			y: -6.5d
+			description: [
+				"Dropped by &eFrost Spirits&r, which are released from &earmored frost spirits&r and &ecrynocerous&r."
+				""
+				"&eFrost Spirits&r have low health, but are fast and hard to hit!"
+			]
 			id: "51C0535FF6ABCB08"
 			tasks: [{
 				id: "41311F9319F721F7"
@@ -1351,8 +1410,8 @@
 			]
 		}
 		{
-			x: 16.0d
-			y: 1.5d
+			x: 14.0d
+			y: 0.5d
 			id: "7EB63B54191C6460"
 			tasks: [{
 				id: "5273EB44FD04E159"
@@ -1439,6 +1498,7 @@
 		{
 			x: 14.0d
 			y: -0.5d
+			description: ["Also tames and heals the Cosmic Fox."]
 			id: "146434C41CFC3AFE"
 			tasks: [{
 				id: "60886CC5507194F4"
@@ -1520,12 +1580,28 @@
 		{
 			x: -0.5d
 			y: -4.5d
+			description: ["Observe an Azulfo"]
 			dependencies: ["72F9931405BEFE11"]
 			id: "3A0A937B1C45672D"
 			tasks: [{
-				id: "0FD61AA185081600"
-				type: "item"
-				item: "blue_skies:azulfo_horn"
+				id: "48AB2F519F737436"
+				type: "observation"
+				title: "Azulfo"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "blue_skies:azulfo"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "blue_skies:azulfo"
 			}]
 			rewards: [
 				{
@@ -1562,52 +1638,48 @@
 			]
 		}
 		{
+			title: "The Shadow Foxy"
 			x: 2.5d
 			y: 5.5d
+			subtitle: "Discover a Cosmic Fox"
+			description: ["Unlike a vanilla fox these ones are actually tameable using crescent fruits!"]
 			dependencies: ["26A94FF0B70C2076"]
 			id: "13080F1C460AE9E4"
 			tasks: [{
-				id: "5EE1F878044F6297"
-				type: "item"
-				item: "blue_skies:fox_pelt"
+				id: "50FB27E38582B49E"
+				type: "observation"
+				title: "What does the fox say?"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "blue_skies:cosmic_fox"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "blue_skies:cosmic_fox"
 			}]
-			rewards: [
-				{
-					id: "524F6E291A569C8A"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-				{
-					id: "7C67405C397228AE"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "507AB2ED24874F74"
-					type: "xp"
-					xp: 250
-				}
-				{
-					id: "0403CA452E3F55BB"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_random"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			rewards: [{
+				id: "34BF6C221B1792FE"
+				type: "item"
+				title: "Ding ding ding ding ding ding ding ding ding"
+				item: {
+					id: "minecraft:bell"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
 				}
-			]
+			}]
 		}
 		{
 			x: 1.5d
 			y: 5.5d
+			subtitle: "You don't have the guts to do it"
+			description: ["Bug Guts are a Crogre's favorite food."]
 			dependencies: ["26A94FF0B70C2076"]
 			id: "688992BF934B789F"
 			tasks: [{
@@ -1629,7 +1701,7 @@
 				{
 					id: "0A1C40E6A183E874"
 					type: "xp"
-					xp: 250
+					xp: 125
 				}
 				{
 					id: "59E28C7552C50CF7"
@@ -1653,7 +1725,7 @@
 			x: 14.5d
 			y: -2.5d
 			subtitle: "Enter a Nature dungeon"
-			description: [""]
+			description: ["&eCombat Tip: Throwing a spear at the starlit crusher will briefly stun it."]
 			dependencies: ["3EBFB973D7E9DF7D"]
 			id: "0DF7112340FB8A00"
 			tasks: [{
@@ -1701,6 +1773,7 @@
 			x: 14.5d
 			y: 3.5d
 			subtitle: "Enter a Poison dungeon"
+			description: ["&eCombat Tip: The Arachnarch takes greatly reduced damage while on the ceiling. A blue skies shield can briefly stun the arachnarch during its lunge attack, other shields will not work and take massive durability damage."]
 			dependencies: ["00A6F781F98D8F25"]
 			id: "1A14F33889B103A2"
 			tasks: [{
@@ -1799,8 +1872,9 @@
 			]
 		}
 		{
-			x: 1.5d
+			x: 1.0d
 			y: 6.5d
+			subtitle: "Exterminate!"
 			dependencies: ["688992BF934B789F"]
 			id: "31432302BD6EAA3B"
 			tasks: [{
@@ -1828,6 +1902,7 @@
 			x: 9.0d
 			y: -0.5d
 			subtitle: "Use a summoning table to summon artificial golem"
+			description: ["When all your real companions keep dying on you, better make an artificial one!"]
 			dependencies: ["35C5EAA0D938BEAA"]
 			id: "4AC62C9E31D53CFA"
 			tasks: [{
@@ -1884,7 +1959,11 @@
 		{
 			x: 9.0d
 			y: -1.5d
-			description: ["Used to summon your own minions"]
+			description: [
+				"Used to summon your own minions"
+				""
+				"Villagers can also use this to become the Summoner profession, who can be traded with like other villagers."
+			]
 			dependencies: ["6D75A9B7EE136A30"]
 			id: "35C5EAA0D938BEAA"
 			tasks: [{
@@ -1918,7 +1997,11 @@
 		{
 			x: 9.0d
 			y: 4.5d
-			description: ["Used to convert blocks into similar blocks. Useful for changing the color of certain items like wool and dragon scales."]
+			description: [
+				"Used to convert blocks into similar blocks. Useful for changing the color of certain items like wool and dragon scales."
+				""
+				"Villagers can use this to become the Alchemist profession who can be traded with like other villagers."
+			]
 			dependencies: ["50D7B576C27AE274"]
 			id: "5B94856F3F11992D"
 			tasks: [{
@@ -1952,6 +2035,7 @@
 		{
 			x: 6.0d
 			y: -1.5d
+			subtitle: "Good season, but I liked episode 2 better"
 			description: ["Grants a speed boost when worn in the arcs section. This is not a curio."]
 			dependencies: ["6D75A9B7EE136A30"]
 			id: "436F1887204A780B"
@@ -1989,6 +2073,7 @@
 		{
 			x: 6.0d
 			y: 4.5d
+			subtitle: "Underrated episode, the reveal was so good"
 			description: ["Grants invisibility while sneaking when worn in the arcs section. This is not a curio."]
 			dependencies: ["50D7B576C27AE274"]
 			id: "4B967D68D94BF6D0"
@@ -2209,9 +2294,11 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 1.0d
 			y: 0.5d
-			description: ["Tools, Weapons and Armor outside the blue skies dimensions will be weaker when in them. You will want to make gear from the dimensions to help you progress."]
+			subtitle: "Like starting a new world"
+			description: ["Tools, Weapons and Armor outside the blue skies dimensions will be &cweaker&r when in them. You will want to &amake gear from the dimensions&r to help you progress."]
 			dependencies: ["644C1F036C73D23E"]
 			dependency_requirement: "one_completed"
 			id: "1ED53320619BBE2F"
@@ -2243,18 +2330,14 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			x: 2.0d
 			y: 0.5d
+			subtitle: "may pierce my peers, but words will never hurt me"
 			description: [
-				"Blue skies tools will be slightly different based on what stick you use in its recipe. Some give more durability while others give more attack speed. The Tool Box can be used to change the rod whenever you want."
+				"Blue skies tools will be slightly different based on what &astick&r you use in its recipe. Some give more &6durability&r while others give more &6attack speed&r. The &aTool Box&r can be used to change the rod whenever you want."
 				""
-				"Spears from Blue Skies are throwable and are your main source of ranged attacks while in either of these dimensions. They also make a boss much easier later on."
+				"&aSpears&r from Blue Skies are &ethrowable&r and are your main source of &eranged attacks&r while in either of these dimensions. &o&7They also make a boss much easier later on&r."
 				""
 				"Try crafting blue skies tools and spears with these sticks and notice the change in durability and attack speed."
 			]
@@ -2320,6 +2403,7 @@
 		{
 			x: 15.5d
 			y: 4.5d
+			subtitle: "This thing sacks"
 			dependencies: ["1A14F33889B103A2"]
 			id: "08907E5B9B51CA0B"
 			tasks: [{
@@ -2437,6 +2521,7 @@
 			title: "Break 640x Turquoise Stone and Lunar Stone"
 			x: 3.5d
 			y: -0.5d
+			subtitle: "Not again..."
 			description: ["Remember that stone mining quest back in the overworld chapter? Now do it here!"]
 			id: "21D2681DBB1F5668"
 			tasks: [
@@ -2471,7 +2556,7 @@
 		{
 			x: 8.0d
 			y: 5.0d
-			subtitle: "I wouldn't really call summoning rocks \"alchemy\""
+			subtitle: "I wouldn't really call summoning rocks alchemy, more like geomancy"
 			dependencies: ["50D7B576C27AE274"]
 			id: "03A7C00B4DB2FAAC"
 			tasks: [{
@@ -2576,7 +2661,12 @@
 		{
 			x: -0.5d
 			y: -3.0d
-			description: ["A Furnace that runs on snowcaps."]
+			subtitle: "An oven... that makes its fuel colder?"
+			description: [
+				"A Furnace that runs on cold items, primairly snowcaps to smelt items."
+				""
+				"Can also absorb the heat from horizonite items turning them into iron."
+			]
 			dependencies: ["72F9931405BEFE11"]
 			id: "27A5A1DE6F026D6A"
 			tasks: [{
@@ -2591,6 +2681,7 @@
 						}
 					}
 				}
+				consume_items: false
 			}]
 			rewards: [{
 				id: "743A5BC896AAB34A"
@@ -2610,6 +2701,7 @@
 		{
 			x: 14.5d
 			y: 4.5d
+			subtitle: "Thought the nature arc was better but still a good plot"
 			description: ["Increases your melee damage while you are poisoned."]
 			id: "45879AD48D37550E"
 			tasks: [{
@@ -2642,7 +2734,12 @@
 		{
 			x: 14.5d
 			y: -3.5d
-			description: ["Gives you special green hearts that regnerate over time."]
+			subtitle: "Ah, episode 5, enjoyed the finale"
+			description: [
+				"Gives you special green hearts that regnerate over time."
+				""
+				"&bNote: Green hearts are invisible due to the Health Overlay, but still block damage."
+			]
 			dependencies: ["0DF7112340FB8A00"]
 			id: "2376F4CD121F43F6"
 			tasks: [{
@@ -2759,9 +2856,9 @@
 			x: 2.0d
 			y: 1.5d
 			description: [
-				"These Spears can be enchanted with Piercing as well as Loyalty, making them like a trident that's good for dealing with multiple mobs at once."
+				"These Spears can be enchanted with &bPiercing&r as well as &bLoyalty&r, making them like a trident that's good for dealing with multiple mobs at once."
 				""
-				"To make them more relevant in this modpack there are enchanting table infusion enchanting recipes that allow you to enchant them with damage upgrades like Wrath which cannot be normally put on the spears."
+				"To make them more relevant in this modpack there are enchanting table &ainfusion enchanting recipes&r that allow you to enchant them with damage upgrades like &aWrath&r which cannot be normally put on the spears."
 			]
 			dependencies: ["4115F1E842101C67"]
 			id: "458ABA83F93AD1B5"
@@ -2799,7 +2896,7 @@
 			description: [
 				"Using an infusion pedestal (See End Exploration chapter) and all 4 boss arcs you can create the Infused Arc Sword, a sword that can charge up to deal triple damage."
 				""
-				"All ingredients can be obtained from either the overworld or blue skies, You do not need to access the end to make the sword."
+				"All ingredients can be obtained from either the overworld or blue skies, You do &lnot&r need to access the end to make the sword."
 				""
 				"The sword has extremely low enchantability, so you may have to use enchanted books to apply enchantments to it."
 			]
@@ -2824,20 +2921,27 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "36BB824D92DC7041"
-				type: "item"
-				item: {
-					id: "randomite:randomite_ore"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			rewards: [
+				{
+					id: "36BB824D92DC7041"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
+					count: 30
 				}
-				count: 5
-			}]
+				{
+					id: "7C7A8760BC1EE4CC"
+					type: "xp"
+					xp: 300
+				}
+			]
 		}
 		{
 			title: "Resummoning the Summoner"
@@ -3040,6 +3144,139 @@
 							}
 						}
 					}
+				}
+			]
+		}
+		{
+			title: "Traveling all crogre the world"
+			x: 2.0d
+			y: 6.5d
+			subtitle: "Not related to ogres... I think"
+			description: ["Found in the Moonlit Resovir biome, the Crogre scares off the arthropods of the everdawn, can be fed bug guts and even used as a mount with a saddle!"]
+			dependencies: ["688992BF934B789F"]
+			id: "0D112091C18A8872"
+			tasks: [{
+				id: "48E4CE15E90073BC"
+				type: "observation"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "blue_skies:crogre"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "blue_skies:crogre"
+			}]
+			rewards: [
+				{
+					id: "50FF3886E91EDBE8"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "21A24C4604A4A3CA"
+					type: "xp"
+					xp: 125
+				}
+				{
+					id: "2EB9183C373D2BB5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			description: [
+				"Crafted from cosmic fox pelts, or traded with the Nightwatcher villager profession."
+				""
+				"Sneak-click the back of a villager to steal some of their goods. Don't get caught, or they will alert nearby iron golems."
+				""
+				"Sneak-click the ground to place the bag and access the goodies."
+				""
+				"Items stolen are identical to villager gifts given when a player has hero of the village."
+				""
+				"Enables the nightwatcher profession, which allows you to get more of these without foxes."
+			]
+			dependencies: ["13080F1C460AE9E4"]
+			id: "3E61B2B5FEF8D5A8"
+			tasks: [{
+				id: "4DE6E8CB9CC5B844"
+				type: "item"
+				item: {
+					id: "blue_skies:bag_of_spoils"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5DC23CD0540E2CC6"
+					type: "xp"
+					xp: 160
+				}
+				{
+					id: "32740F4ED8C323BE"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			description: [
+				"It can be filled with wheat."
+				""
+				"Used as a workstation for the Wrangler villager profession."
+			]
+			id: "3570FD3D84BBAE36"
+			tasks: [{
+				id: "3E419C063EAB996F"
+				type: "item"
+				item: {
+					id: "blue_skies:trough"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "69CE27E6B2F03192"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "1B99D1A4AC5FBE81"
+					type: "xp"
+					xp: 3
 				}
 			]
 		}

@@ -5,6 +5,7 @@
 	filename: "card_collector"
 	title: "Card Collector"
 	icon: "buddycards:mystery_pack"
+	subtitle: ["Minecraft: the trading card game"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
@@ -748,18 +749,19 @@
 				{
 					id: "1ECCA3C632182C8C"
 					type: "ftbmoney:money"
-					ftb_money: 10L
+					ftb_money: 35L
 				}
 				{
-					id: "429DA504D12D3BC9"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "5FBFAE1A7B39B6F3"
+					type: "xp"
+					xp: 250
 				}
 			]
 		}
 		{
 			x: -4.0d
 			y: 6.0d
+			subtitle: "A set that powers up with cards!"
 			description: [
 				"Buddysteel Tools gain extra power the more cards you have collected."
 				""
@@ -810,6 +812,7 @@
 			x: -2.0d
 			y: 11.5d
 			shape: "hexagon"
+			subtitle: "Believe in the heart of the cards"
 			description: [
 				"Perfect Buddysteel gains power from collecting Foil cards."
 				""
@@ -836,7 +839,7 @@
 				{
 					id: "75E6CD339CE12986"
 					type: "ftbmoney:money"
-					ftb_money: 10L
+					ftb_money: 40L
 				}
 				{
 					id: "3D2D0903E766E4AD"
@@ -868,37 +871,6 @@
 				type: "ftbmoney:money"
 				ftb_money: 5L
 			}]
-		}
-		{
-			x: 0.5d
-			y: 11.5d
-			dependencies: ["57AC1D3D4265AD15"]
-			id: "5CBB9084CB8B9B55"
-			tasks: [{
-				id: "7503F68AC2157454"
-				type: "item"
-				item: {
-					id: "buddycards:perfect_buddysteel_block"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "5AD7CBCE4AC44DE6"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "607F3A89D1BFEDEE"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
 		}
 		{
 			x: -4.0d
@@ -1169,6 +1141,7 @@
 		{
 			x: -1.0d
 			y: 8.0d
+			description: ["Obtained by trading with enderlings"]
 			id: "67217E4BABFC629B"
 			tasks: [{
 				id: "5551EEC1EA31F0FD"
@@ -1197,8 +1170,13 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 9.0d
+			x: 0.0d
+			y: 8.5d
+			description: [
+				"Lets you reset an enderling's trades, but only after trading every single one of them until they all have an \"&cX&r\" on them."
+				""
+				"Very grindy, but the only way to get the special zylex items, which only appear after the 2nd/3rd refresh."
+			]
 			dependencies: ["67217E4BABFC629B"]
 			id: "6EDCB8C7A16CDD62"
 			tasks: [{
@@ -1291,6 +1269,17 @@
 		{
 			x: -5.5d
 			y: 7.0d
+			description: [
+				"Grants a small amount of serendipity (+fortune, looting, luck) and starts with the same defense as iron."
+				""
+				"At max power each piece has 1 more armor than diamond:"
+				"Helmet: 4 Armor, 2 Toughness"
+				"Chestplate: 9 Armor, 2 Toughness"
+				"Leggings: 7 Armor, 2 Toughness"
+				"Boots: 4 Armor, 2 Toughness"
+				""
+				"&o(See buddysteel ingot quest for how to gain power)"
+			]
 			dependencies: ["28E1A362EAC8E3E4"]
 			id: "565A56A4106D6FF0"
 			tasks: [
@@ -1372,6 +1361,7 @@
 						id: "ftbquests:lootcrate"
 						Count: 1b
 						tag: {
+							CustomModelData: 1
 							type: "crate_crate"
 						}
 						ForgeCaps: {
@@ -1386,6 +1376,11 @@
 		{
 			x: -5.5d
 			y: 5.0d
+			description: [
+				"Same life-steal and serendipity bonuses as the sword."
+				""
+				"Power increases mining speed."
+			]
 			dependencies: ["28E1A362EAC8E3E4"]
 			id: "7ADB88A4C8F35C5F"
 			tasks: [{
@@ -1432,6 +1427,11 @@
 		{
 			x: -5.5d
 			y: 6.0d
+			description: [
+				"Has a small amount of life steal and serendipity (+fortune, looting, luck)"
+				""
+				"At max power: +3 Damage for a total of 10 base Attack Damage"
+			]
 			dependencies: ["28E1A362EAC8E3E4"]
 			id: "0C4392B7819B7E07"
 			tasks: [{
@@ -1463,6 +1463,7 @@
 						id: "ftbquests:lootcrate"
 						Count: 1b
 						tag: {
+							CustomModelData: 1
 							type: "crate_crate"
 						}
 						ForgeCaps: {
@@ -1476,7 +1477,16 @@
 		}
 		{
 			x: -1.0d
-			y: 10.5d
+			y: 11.0d
+			description: [
+				"Grants extra fortune and non-ars magic damage."
+				""
+				"At max power each piece has 2 more armor than netherite:"
+				"Helmet: 5 Armor, 3 Toughness"
+				"Chestplate: 10 Armor, 3 Toughness"
+				"Leggings: 8 Armor, 3 Toughness"
+				"Boots: 5 Armor, 3 Toughness"
+			]
 			dependencies: ["57AC1D3D4265AD15"]
 			id: "7798038099F959B3"
 			tasks: [
@@ -1549,7 +1559,7 @@
 				{
 					id: "7FF61E0A207EE8EB"
 					type: "ftbmoney:money"
-					ftb_money: 10L
+					ftb_money: 40L
 				}
 				{
 					id: "13151CEADA837D6C"
@@ -1561,6 +1571,11 @@
 		{
 			x: -2.0d
 			y: 10.5d
+			description: [
+				"Gives extra serendipity (luck, fortune, looting) and life stealing."
+				""
+				"At max power: +3 Damage for a total of 11.5 attack damage."
+			]
 			dependencies: ["57AC1D3D4265AD15"]
 			id: "7F5B7A159D030244"
 			tasks: [{
@@ -1583,7 +1598,7 @@
 				{
 					id: "55F85F7EC896E0A9"
 					type: "ftbmoney:money"
-					ftb_money: 10L
+					ftb_money: 40L
 				}
 				{
 					id: "744189C5AB1B7199"
@@ -1595,6 +1610,11 @@
 		{
 			x: -2.0d
 			y: 12.5d
+			description: [
+				"Same boosts as the sword."
+				""
+				"Power increases mining speed."
+			]
 			dependencies: ["57AC1D3D4265AD15"]
 			id: "4EE1C3EDF92E3C06"
 			tasks: [{
@@ -1617,7 +1637,7 @@
 				{
 					id: "3A871805AB53B977"
 					type: "ftbmoney:money"
-					ftb_money: 10L
+					ftb_money: 40L
 				}
 				{
 					id: "36EB8188B4F3CFBF"
@@ -1627,9 +1647,10 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 8.0d
-			dependencies: ["67217E4BABFC629B"]
+			x: 1.0d
+			y: 7.5d
+			description: ["Lets you carry buddysteel vaults and keep the contents"]
+			dependencies: ["6EDCB8C7A16CDD62"]
 			id: "473933334B02386B"
 			tasks: [{
 				id: "6E9A2A10B5AF5714"
@@ -1648,18 +1669,24 @@
 				{
 					id: "1459E05367D3205E"
 					type: "ftbmoney:money"
-					ftb_money: 10L
+					ftb_money: 800L
 				}
 				{
-					id: "49052E8807605F1E"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "1F6944DB2871DFFC"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "2A518D975A205011"
+					type: "choice"
+					table_id: 3625101487890710202L
 				}
 			]
 		}
 		{
 			x: 1.0d
 			y: 9.0d
+			description: ["Lets you refresh enderling trades without a token."]
 			dependencies: ["473933334B02386B"]
 			id: "0F9EFE4B674086C9"
 			tasks: [{
@@ -1679,18 +1706,67 @@
 				{
 					id: "19A33FF239F5F182"
 					type: "ftbmoney:money"
-					ftb_money: 10L
+					ftb_money: 1500L
 				}
 				{
-					id: "54BEEB28CD4FEBF5"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "5AFE799F9F69DD8A"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "2A0AF9A4DFE5F0B7"
+					type: "choice"
+					table_id: 3625101487890710202L
+				}
+				{
+					id: "7F056CD7DE2306FC"
+					type: "choice"
+					table_id: 3625101487890710202L
+				}
+				{
+					id: "5F02E0F8223FC6F0"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "uniquee:endest_reap"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0DAF675D4E2724EE"
+					type: "item"
+					item: {
+						id: "kubejs:diamond_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
 		{
 			x: -9.0d
 			y: 11.5d
+			description: [
+				"The rarest of the 3 luminis items that can be found when blowing up deep luminis."
+				""
+				"It increases the chances of finding deep luminis from luminis ores even more."
+				""
+				"Using the pickaxe, the ring and the medal together gives you the chance to find buddycards when mining luminis!"
+			]
 			dependencies: ["19D894B1D039D67F"]
 			id: "229FE9AD34C67D72"
 			tasks: [{
@@ -1722,6 +1798,11 @@
 		{
 			x: -8.0d
 			y: 13.0d
+			description: [
+				"Rarely obtained by blowing up deep luminis blocks, not craftable."
+				""
+				"Increases the chance of finding deep luminis from luminis ores."
+			]
 			dependencies: ["578EB82044AA224C"]
 			id: "19D894B1D039D67F"
 			tasks: [{
@@ -1752,8 +1833,9 @@
 		}
 		{
 			x: 0.0d
-			y: 9.0d
-			dependencies: ["67217E4BABFC629B"]
+			y: 7.0d
+			description: ["Even more powerful than perfect buddysteel boots!"]
+			dependencies: ["6EDCB8C7A16CDD62"]
 			id: "56E3C49EFC0F9DAE"
 			tasks: [{
 				id: "6228677A805C507C"
@@ -1775,18 +1857,30 @@
 				{
 					id: "006C65C8806730A4"
 					type: "ftbmoney:money"
-					ftb_money: 10L
+					ftb_money: 800L
 				}
 				{
-					id: "6659DA3F3D462BE6"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "202121DAC2C33A22"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "4FB972C218FF114D"
+					type: "choice"
+					table_id: 3625101487890710202L
 				}
 			]
 		}
 		{
 			x: -8.0d
 			y: 10.5d
+			description: [
+				"&lExtremely&r rarely obtained by blowing up deep luminis blocks, not craftable."
+				""
+				"Increases the chance of finding deep luminis from luminis ore and upgrades with card power like buddysteel."
+				""
+				"Like the buddysteel pickaxe card power will make it dig faster."
+			]
 			dependencies: ["578EB82044AA224C"]
 			id: "6FA6003DC06CED24"
 			tasks: [{
@@ -1820,7 +1914,7 @@
 		}
 		{
 			x: -1.0d
-			y: 12.5d
+			y: 12.0d
 			dependencies: ["57AC1D3D4265AD15"]
 			id: "32668F16C2285BB6"
 			tasks: [{
@@ -1859,7 +1953,7 @@
 				{
 					id: "2C7C8EF66CA5248B"
 					type: "ftbmoney:money"
-					ftb_money: 10L
+					ftb_money: 40L
 				}
 				{
 					id: "274C1C0BCF315EBA"

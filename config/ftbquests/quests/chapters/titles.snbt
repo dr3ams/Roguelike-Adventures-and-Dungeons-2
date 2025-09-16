@@ -18,6 +18,7 @@
 	quests: [
 		{
 			icon: "kubejs:scroll_01c"
+			disable_toast: true
 			x: 0.0d
 			y: 0.0d
 			description: [
@@ -639,8 +640,8 @@
 			icon: "minecraft:spawner"
 			x: 6.0d
 			y: 6.0d
-			subtitle: "Break 500 Spawners"
-			description: ["Complete the Break 500 Spawners Quest in the \"Meet your Fight!\" Chapter."]
+			subtitle: "Break 300 Spawners"
+			description: ["Complete the Break 300 Spawners Quest in the \"Meet your Fight!\" Chapter."]
 			dependencies: ["40FF66BE65AF171D"]
 			id: "4B455D9DA6A65FFC"
 			tasks: [{
@@ -810,6 +811,46 @@
 				}
 				command: "/titles add @p rad_recipes:mad_mage"
 				player_command: false
+			}]
+		}
+		{
+			title: "the Hellish Hydrator"
+			icon: "minecraft:water_bucket"
+			x: 1.5d
+			y: 6.0d
+			subtitle: "Find or create water in the nether, then swim in it"
+			id: "7BF5B9C4E0A1CC57"
+			tasks: [{
+				id: "0CB99A625C532E31"
+				type: "advancement"
+				advancement: "rad_recipes:water_in_nether"
+				criterion: ""
+			}]
+		}
+		{
+			title: "The Seagull Magnet"
+			x: -1.5d
+			y: 6.0d
+			subtitle: "Feed a seagull a raw cod"
+			id: "195D4C92B50DC41E"
+			tasks: [{
+				id: "56CF27ECF49B37B1"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/seagull_steal"
+				criterion: ""
+			}]
+		}
+		{
+			title: "The Beard Buddy"
+			x: 6.0d
+			y: 4.5d
+			subtitle: "Trade with a dwarf"
+			id: "72A703F31BF32212"
+			tasks: [{
+				id: "682B6A9C26E8535A"
+				type: "advancement"
+				advancement: "feywild:feywild/dwarf_trade"
+				criterion: ""
 			}]
 		}
 	]

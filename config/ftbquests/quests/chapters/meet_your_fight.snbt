@@ -5,6 +5,7 @@
 	filename: "meet_your_fight"
 	title: "Meet Your Fight!"
 	icon: "meetyourfight:haunted_bell"
+	subtitle: ["The grind never stops"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -12,14 +13,11 @@
 			x: -3.5d
 			y: 3.0d
 			shape: "hexagon"
+			subtitle: "It's Calling to you"
 			description: [
-				"Bellringer is a boss added by Meet Your Fight. It can be summoned by using a Haunted Bell. When killed, it drops 1 Phantoplasm and 3-4 Gold Ingots."
+				"Bellringer is a boss added by Meet Your Fight. It can be summoned by using a Haunted Bell. When killed, it drops 1 &aPhantoplasm&r and 3-4 Gold Ingots."
 				""
-				"Bellringer floats above the ground and can pass through walls, similarly to a Vex. When targeting a player, it tries to constantly stay a few blocks in front and above its target."
-				""
-				"All of its attacks consists of sending waves of projectiles that travel in a straight line after a short delay. Each projectile deals 8 damage on contact and can pass through walls. Bellringer randomly alternates between the following two attacks during the fight:"
-				""
-				"After falling below 50%, it rings its bell to apply Slowness II for 15 seconds to all nearby entities, then quickly fire 20 lines of projectiles at ground level that go toward its current target. After this attack is finished, Bellringer resumes its normal attacks, but each will fire 4 waves of projectiles instead of 3 for the rest of the fight."
+				"Bellringer will float in front of the player, summoning lines of blue cubes low enough to the ground for the player to jump over, or dropping them from above."
 			]
 			size: 1.5d
 			id: "01586496C0B6EB67"
@@ -51,9 +49,9 @@
 					}
 				}
 				{
-					id: "792365B00559EB46"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "0E0E322767B70341"
+					type: "xp"
+					xp: 125
 				}
 			]
 		}
@@ -61,13 +59,13 @@
 			x: 0.0d
 			y: 2.25d
 			shape: "hexagon"
+			subtitle: "So that's how the archaeologists find them so easily!"
 			description: [
-				"Swampjaw is a boss added by Meet Your Fight. It can be summoned by using a Fossil Bait. When killed, it drops 1 Mossy Tooth, 3-6 Bones, 2-4 Vines, and 1-3 Dirt."
+				"Swampjaw is a boss added by Meet Your Fight. It can be summoned by using a Fossil Bait. When killed, it drops some Bones, Vines, and Dirt and most importantly, the &aMossy Tooth."
 				""
-				"Swampjaw usually flies above its current target and moves like a Phantom, except it can see and fly through walls. When attacking it repeats the following pattern in the same order:"
-				"Orbit a few seconds around and above its target."
-				"Rapidly move above its target to drop 3 mines, these explode when touching the ground with half the strength of TNT and do not destroy blocks or hurt Swampjaw."
-				"Swoop down to charge its target, dealing 7 damage on contact. Damaging Swampjaw prematurely cancels this attack."
+				"Swampjaw is a flying boss that will hover above the player, dropping 3 explosives that damage the player but not terrain before attempting to swoop down at the player for a bite attack."
+				""
+				"&eCombat Tip: When swampjaw goes for the swoop, block it with your shield and hit immediately after with a slow but strong weapon like an axe."
 			]
 			size: 1.5d
 			id: "6A51E5206B5F75D4"
@@ -99,21 +97,22 @@
 					}
 				}
 				{
-					id: "5E254AE76002A078"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "319B66016C1EDE37"
+					type: "xp"
+					xp: 100
 				}
 			]
 		}
 		{
 			x: 3.5d
 			y: 3.0d
+			subtitle: "Heads I win, tails you lose"
 			description: [
-				"Dame Fortuna is a boss added by meet your fight that uses red cube projectiles to attack."
+				"Dame Fortuna is a boss added by meet your fight that uses red cube projectiles and evoker fangs to attack."
 				""
-				"These attacks can come from the side or from above."
+				"Like Bellringer the cube attacks can come from the side or from above but are faster and more difficult to dodge."
 				""
-				"When killed Dame Fortuna will drop a Fortune's Favor, along with some emeralds and 3 random enchanted books."
+				"When killed Dame Fortuna will drop a &aFortune's Favor&r, along with some emeralds and 3 random enchanted books."
 			]
 			size: 1.5d
 			id: "4BBEF37E398FA6EA"
@@ -145,21 +144,31 @@
 					}
 				}
 				{
-					id: "56631FF9380F6F5A"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "050DAD6D7FB8712A"
+					type: "xp"
+					xp: 150
 				}
 			]
 		}
 		{
 			x: -5.0d
 			y: 3.0d
+			subtitle: "The bell has rung"
+			description: ["Crafting item."]
 			dependencies: ["01586496C0B6EB67"]
 			id: "4FA4121CB7AE573E"
 			tasks: [{
 				id: "265903DA5FB66C0E"
 				type: "item"
-				item: "meetyourfight:phantoplasm"
+				item: {
+					id: "meetyourfight:phantoplasm"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -183,6 +192,8 @@
 		{
 			x: 0.0d
 			y: 4.0d
+			subtitle: "Swampjaw really needs a better toothbrush"
+			description: ["Crafting item."]
 			dependencies: ["6A51E5206B5F75D4"]
 			id: "430B95CA9EB92E5C"
 			tasks: [{
@@ -212,6 +223,8 @@
 		{
 			x: 5.0d
 			y: 3.0d
+			subtitle: "Looting's Luck"
+			description: ["Crafting item."]
 			dependencies: ["4BBEF37E398FA6EA"]
 			id: "2902A2D96332A34A"
 			tasks: [{
@@ -241,6 +254,7 @@
 		{
 			x: 7.0d
 			y: 2.5d
+			subtitle: "Sliced and Diced"
 			description: ["There's a chance to double your damage based on your Luck Attribute."]
 			dependencies: ["2902A2D96332A34A"]
 			id: "2BFC276EEE062A1F"
@@ -275,6 +289,7 @@
 		{
 			x: 6.0d
 			y: 4.0d
+			subtitle: "Tried putting this one up my sleeve once. Really hurt."
 			description: ["Chance to negate all damage based on your Luck Attribute."]
 			dependencies: ["2902A2D96332A34A"]
 			id: "3825DCF170FB6A6A"
@@ -309,6 +324,7 @@
 		{
 			x: 6.0d
 			y: 2.0d
+			subtitle: "With a sword like this one, the mobs will be the ones chickening out!"
 			description: ["Chance to give you random helpful effects based on your Luck Attribute."]
 			dependencies: ["2902A2D96332A34A"]
 			id: "6B90A18AD9F4B77D"
@@ -349,6 +365,7 @@
 		{
 			x: 7.0d
 			y: 3.5d
+			subtitle: "Fortune Cookie"
 			description: ["Gives 10 minutes of Luck."]
 			dependencies: ["2902A2D96332A34A"]
 			id: "0D656D70646EA87A"
@@ -383,6 +400,7 @@
 		{
 			x: -1.5d
 			y: 4.0d
+			subtitle: "For when the bone trees start shedding"
 			description: ["These strong bone claws grant you an extra 2 melee attack damage."]
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "36FC8D7BB0D670BF"
@@ -417,6 +435,7 @@
 		{
 			x: 1.0d
 			y: 5.0d
+			subtitle: "Commence primary weap- oh you said &ldepth &rstar my bad"
 			description: ["Hold Right-Click to charge a small explosion. Aim at a mob's feet to launch them upwards!"]
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "00C8004131AAE6F7"
@@ -457,6 +476,7 @@
 		{
 			x: 1.5d
 			y: 4.0d
+			subtitle: "Keep the feelings in, and your enemies out"
 			description: ["This ribcage protects you from powerful hits."]
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "3E12346156015D00"
@@ -491,6 +511,7 @@
 		{
 			x: -1.0d
 			y: 5.0d
+			subtitle: "Good source of protein"
 			dependencies: ["430B95CA9EB92E5C"]
 			id: "3F3BE8A3EBB7D7B7"
 			tasks: [{
@@ -524,6 +545,7 @@
 		{
 			x: -7.0d
 			y: 3.5d
+			subtitle: "One ticket to the afterlife please!"
 			description: ["Used to phase through walls, at the cost of some xp and your health."]
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "6FB76A93A64BE52D"
@@ -558,6 +580,7 @@
 		{
 			x: -6.0d
 			y: 2.0d
+			subtitle: "hex-ray"
 			description: ["Detects nearby mobs."]
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "0B6A4216C393C695"
@@ -592,6 +615,7 @@
 		{
 			x: -6.0d
 			y: 4.0d
+			subtitle: "Reach beyond"
 			description: ["Increases Block Reach distance by 2."]
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "352860E048E56249"
@@ -626,6 +650,7 @@
 		{
 			x: -7.0d
 			y: 2.5d
+			subtitle: "Not as good as you think"
 			description: ["Gives 5 seconds of levitation when eaten."]
 			dependencies: ["4FA4121CB7AE573E"]
 			id: "2C8425F45507BE14"
@@ -659,8 +684,10 @@
 		}
 		{
 			x: -8.5d
-			y: 0.0d
+			y: -7.5d
 			shape: "octagon"
+			subtitle: "What is the wroughtnaut's favorite amusement park ride? the Ferrous wheel!"
+			description: ["&eCombat Tip: Ferrous Wroughtnaut can only be hurt in the back after the axe slam attack. This only lasts for 1 attack, so powerful single-hit weapons like an Axe or a Dagger from spartan weaponry is recommended."]
 			size: 1.5d
 			id: "33ED106956388C27"
 			tasks: [{
@@ -688,7 +715,16 @@
 				{
 					id: "38665752FB5C6B50"
 					type: "item"
-					item: "aquaculture:lockbox"
+					item: {
+						id: "minecraft:iron_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
 				}
 				{
 					id: "2013AE83DD9F3CD8"
@@ -709,7 +745,7 @@
 		}
 		{
 			x: -8.5d
-			y: -1.5d
+			y: -4.5d
 			shape: "octagon"
 			size: 1.5d
 			id: "4446A9B07703FE84"
@@ -765,7 +801,7 @@
 		}
 		{
 			x: -7.0d
-			y: 0.0d
+			y: -4.5d
 			shape: "octagon"
 			size: 1.5d
 			id: "382A5D280EB90F59"
@@ -821,7 +857,7 @@
 		}
 		{
 			x: -5.5d
-			y: -3.0d
+			y: -6.0d
 			shape: "octagon"
 			size: 1.5d
 			id: "7E0B0B3735772BEB"
@@ -877,7 +913,7 @@
 		}
 		{
 			x: -7.0d
-			y: -3.0d
+			y: -6.0d
 			shape: "octagon"
 			size: 1.5d
 			id: "1A32C61A2D159BC3"
@@ -933,7 +969,7 @@
 		}
 		{
 			x: -8.5d
-			y: -3.0d
+			y: -6.0d
 			shape: "octagon"
 			size: 1.5d
 			id: "34F0AA6D88CF1F5B"
@@ -989,7 +1025,7 @@
 		}
 		{
 			x: -5.5d
-			y: -1.5d
+			y: -4.5d
 			shape: "octagon"
 			size: 1.5d
 			id: "0740419211FF21CA"
@@ -1044,8 +1080,8 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: -1.5d
+			x: 0.0d
+			y: -7.5d
 			shape: "octagon"
 			size: 1.5d
 			id: "54F57E26D76A7CBE"
@@ -1094,8 +1130,8 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 0.0d
+			x: -7.0d
+			y: -7.5d
 			shape: "octagon"
 			size: 1.5d
 			id: "69E6868AE0269E59"
@@ -1109,10 +1145,15 @@
 					id: "10C16DCB10D52C98"
 					type: "item"
 					item: {
-						id: "roughtweaks:bandage"
+						id: "roughtweaks:plaster"
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
@@ -1124,7 +1165,25 @@
 				{
 					id: "218571033E135056"
 					type: "item"
-					item: "aquaculture:lockbox"
+					icon: {
+						id: "greekfantasy:snakeskin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
 				}
 				{
 					id: "70F3385175B0508C"
@@ -1144,47 +1203,77 @@
 			]
 		}
 		{
-			title: "Gateways"
+			title: "Gate Pearls"
 			icon: {
 				id: "gateways:gate_pearl"
 				Count: 1b
 				tag: {
 					gateway: "gateways:ghast_gate"
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			x: 0.0d
 			y: -2.0d
 			shape: "hexagon"
+			subtitle: "Who needs mob farms?"
 			description: [
-				"Gateways are a great way to farm mob drops after you have collected a few."
+				"&6Gate Pearls open up Gateways which are a great way to farm mob drops after you have collected a few."
 				""
-				"Every gate opened contains a link to a world full of a certain type of mob.  Waves and waves of those mobs will progressively pour forth, and each wave completed will spawn additional loot from that mob at that portal."
+				"A gate pearl when placed will open a gateway that spawns waves of the mob you chose to craft the pearl with."
 				""
-				"Completion of an entire portal will cause a massive amount of loot and experience to pour forth from the portal, and the portal will close."
+				"Defeating each wave grants lots of that mob's drops."
 				""
-				"To open a gateway, you must first craft a Gate Pearl.  A gate pearl will be able to open a specific portal size, attuned to a specific mob.  Simply craft the gate opener you want, and use it on the nearest block."
-				""
-				"Once you've opened a gateway, your next goal is to close it.  You can close a gateway by completing each wave.  But be warned, failure to complete a wave on time will trigger a destabilization event, which will annihilate the gateway and may damage nearby things!"
-				""
-				"A gateway's max number of stages is indicated by its boss bar.  Every section on the bar represents a wave, and each section will tick down once it begins.  Clearing a wave will immediately end that wave's timer, and start the sequence for the next wave.  Every time a wave is completed, additional loot (as if more of the spawned mob had died) will spawn from the portal.  The more waves you clear, the more loot spawns at the center, but the stronger the spawned monsters become.  Each wave, the mobs that come forth will be exponentially stronger than their predecessors.  Upon completion of every wave, you will receive a large burst of experience and loot, and the portal will close with no adverse effects."
+				"You do not have to complete all 5 waves to get more drops than you spent, but completing all 5 waves will give you a massive amount of xp!"
 			]
 			dependencies: ["636C994CC9BDE02A"]
 			size: 2.0d
 			id: "2859B5A6AAB94D7E"
 			tasks: [{
-				id: "6B770A19DC00095E"
-				type: "checkmark"
+				id: "65651E970D4089D2"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
-			rewards: [{
-				id: "557B489BEE277204"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "398B446559CF8952"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "67CCDF22E0AA32D2"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7CEA75F89AEBCB4E"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "33C909A611025294"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:skeleton_gate_small"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			icon: {
@@ -1212,14 +1301,14 @@
 					table_id: 8545390299491237994L
 				}
 				{
-					id: "09E2C3F9CC6C1C73"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "7C67CE02F9D23233"
 					type: "ftbmoney:money"
 					ftb_money: 20L
+				}
+				{
+					id: "73100B32D1A876CF"
+					type: "xp"
+					xp: 75
 				}
 			]
 		}
@@ -1354,14 +1443,14 @@
 					table_id: 8545390299491237994L
 				}
 				{
-					id: "731EA944C13B333A"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "0ACB71D1CDBA7FC9"
 					type: "ftbmoney:money"
 					ftb_money: 20L
+				}
+				{
+					id: "3CA9C2D383C3E49C"
+					type: "xp"
+					xp: 75
 				}
 			]
 		}
@@ -1604,14 +1693,14 @@
 					table_id: 8545390299491237994L
 				}
 				{
-					id: "3BCBB82AC3AD70F8"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "11FF61351D74E30C"
 					type: "ftbmoney:money"
 					ftb_money: 20L
+				}
+				{
+					id: "2BC08EBF3B7EFE23"
+					type: "xp"
+					xp: 75
 				}
 			]
 		}
@@ -1692,17 +1781,10 @@
 			]
 		}
 		{
-			icon: {
-				id: "minecraft:wither_skeleton_skull"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 4.0d
+			icon: "minecraft:wither_skeleton_skull"
+			x: 5.0d
 			y: 6.5d
+			description: ["Can also spawn in overworld dungeoncrawl dungeons on the lower floors"]
 			id: "5C2C1E234FEA1C04"
 			tasks: [{
 				id: "415DB1EB8A5355E0"
@@ -1717,14 +1799,14 @@
 					table_id: 8545390299491237994L
 				}
 				{
-					id: "025E37F43005D4F3"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "7F509E5081A7304B"
 					type: "ftbmoney:money"
 					ftb_money: 20L
+				}
+				{
+					id: "780B9F10D3DEE0C6"
+					type: "xp"
+					xp: 75
 				}
 			]
 		}
@@ -1738,7 +1820,7 @@
 					}
 				}
 			}
-			x: 4.0d
+			x: 5.0d
 			y: 7.5d
 			dependencies: ["5C2C1E234FEA1C04"]
 			id: "682B081A32B48DDE"
@@ -1767,17 +1849,10 @@
 			]
 		}
 		{
-			icon: {
-				id: "minecraft:wither_skeleton_skull"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 4.0d
+			icon: "minecraft:wither_skeleton_skull"
+			x: 5.0d
 			y: 8.5d
+			subtitle: "I beat you, Wither or not you like it!"
 			dependencies: ["682B081A32B48DDE"]
 			id: "1041E459F94EE676"
 			tasks: [{
@@ -1818,14 +1893,14 @@
 					table_id: 8545390299491237994L
 				}
 				{
-					id: "1ADD8BC61AF2E9DD"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "3211EE883D534D14"
 					type: "ftbmoney:money"
 					ftb_money: 20L
+				}
+				{
+					id: "6285CBC8160F5609"
+					type: "xp"
+					xp: 75
 				}
 			]
 		}
@@ -1912,37 +1987,38 @@
 			tasks: [{
 				id: "29E9E152501083FA"
 				type: "kill"
-				entity: "artifacts:mimic"
-				value: 5L
+				entity: "minecraft:guardian"
+				value: 10L
 			}]
 			rewards: [
-				{
-					id: "084186EA34770330"
-					type: "choice"
-					table_id: 768393147870328736L
-				}
 				{
 					id: "6711A7AE8013DC92"
 					type: "ftbmoney:money"
 					ftb_money: 20L
 				}
 				{
-					id: "713C7FC71A30BEF1"
-					type: "xp_levels"
-					xp_levels: 3
+					id: "0D2B4F969FA27C56"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "6E6BF92702EDBC1E"
+					type: "xp"
+					xp: 75
 				}
 			]
 		}
 		{
 			x: -4.5d
 			y: 11.5d
+			subtitle: "Guard-die-an"
 			dependencies: ["0D9F089E98AADBA5"]
 			id: "33B1EEED95230156"
 			tasks: [{
 				id: "64EDE97C92EA5711"
 				type: "kill"
-				entity: "artifacts:mimic"
-				value: 10L
+				entity: "minecraft:guardian"
+				value: 25L
 			}]
 			rewards: [
 				{
@@ -1965,13 +2041,21 @@
 		{
 			x: -4.5d
 			y: 12.5d
-			dependencies: ["33B1EEED95230156"]
 			id: "051B70EFF9CDE3D2"
 			tasks: [{
 				id: "4EDBC053436B248A"
 				type: "kill"
-				entity: "artifacts:mimic"
-				value: 50L
+				icon: {
+					id: "upgrade_aquatic:elder_eye"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:elder_guardian"
+				value: 3L
 			}]
 			rewards: [
 				{
@@ -2012,14 +2096,14 @@
 					table_id: 8545390299491237994L
 				}
 				{
-					id: "3102A24CFA15F6B4"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "7F138B8806B5B549"
 					type: "ftbmoney:money"
 					ftb_money: 20L
+				}
+				{
+					id: "0C36EAD3079C188D"
+					type: "xp"
+					xp: 75
 				}
 			]
 		}
@@ -2134,45 +2218,11 @@
 			]
 		}
 		{
-			icon: {
-				id: "quark:slime_in_a_bucket"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "quark:slime_in_a_bucket"
 			x: -2.0d
 			y: 10.5d
+			subtitle: "No me goo-sta"
 			dependencies: ["5964A60436E9CAC5"]
-			id: "30CC1CE792CF948C"
-			tasks: [{
-				id: "18083296F033EEF3"
-				type: "kill"
-				icon: "minecraft:slime_ball"
-				entity: "minecraft:slime"
-				value: 400L
-			}]
-			rewards: [{
-				id: "3BBB8A7A2CD4CC5F"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
-		}
-		{
-			icon: {
-				id: "quark:slime_in_a_bucket"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: -2.0d
-			y: 11.5d
-			dependencies: ["30CC1CE792CF948C"]
 			id: "3ABE874AEB3190FD"
 			tasks: [{
 				id: "2944EA85C53B17E8"
@@ -2256,14 +2306,14 @@
 					table_id: 8545390299491237994L
 				}
 				{
-					id: "080EF117FE6F7A42"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "44F0CA59ABC867A9"
 					type: "ftbmoney:money"
 					ftb_money: 20L
+				}
+				{
+					id: "59045732FEA5F330"
+					type: "xp"
+					xp: 75
 				}
 			]
 		}
@@ -2307,17 +2357,10 @@
 			]
 		}
 		{
-			icon: {
-				id: "spartanweaponry:illager_head"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "spartanweaponry:illager_head"
 			x: 8.0d
 			y: 8.5d
+			subtitle: "Wololo"
 			dependencies: ["4C0A01CEE6B9573F"]
 			id: "657547F95421C44F"
 			tasks: [{
@@ -2406,6 +2449,7 @@
 		{
 			x: 8.0d
 			y: 12.5d
+			subtitle: "I axe the questions around here!"
 			dependencies: ["18023C5D8E985695"]
 			id: "7E06D127A3796ACD"
 			tasks: [{
@@ -2463,14 +2507,14 @@
 					table_id: 8545390299491237994L
 				}
 				{
-					id: "6385754E72704CC7"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "7752B52AB3BD4A9E"
 					type: "ftbmoney:money"
 					ftb_money: 20L
+				}
+				{
+					id: "2CCD2E310730CA53"
+					type: "xp"
+					xp: 75
 				}
 			]
 		}
@@ -2583,6 +2627,8 @@
 		{
 			x: 9.5d
 			y: 11.5d
+			subtitle: "That wasn't so Harrrd..."
+			description: [""]
 			dependencies: ["3A90C6BB095363CF"]
 			id: "386E3605520B9CC4"
 			tasks: [{
@@ -2656,6 +2702,7 @@
 		{
 			x: 11.0d
 			y: 8.5d
+			subtitle: "Just a miner inconvienence"
 			description: ["Found in illager mines and the mining dimension."]
 			id: "3B931FE5DA0EC3CE"
 			tasks: [{
@@ -2692,7 +2739,7 @@
 					}
 				}
 			}
-			x: 4.0d
+			x: 5.0d
 			y: 9.5d
 			id: "3C7112CE44982D6D"
 			tasks: [{
@@ -2729,7 +2776,7 @@
 					}
 				}
 			}
-			x: 4.0d
+			x: 5.0d
 			y: 10.5d
 			dependencies: ["3C7112CE44982D6D"]
 			id: "43A621B14FB554AC"
@@ -2767,7 +2814,7 @@
 					}
 				}
 			}
-			x: 4.0d
+			x: 5.0d
 			y: 11.5d
 			dependencies: ["43A621B14FB554AC"]
 			id: "3F4E0FB2177E7F52"
@@ -2791,17 +2838,10 @@
 			]
 		}
 		{
-			icon: {
-				id: "spartanweaponry:piglin_head"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 2.5d
+			icon: "spartanweaponry:piglin_head"
+			x: 3.5d
 			y: 6.5d
+			description: ["Can also spawn in certain overworld structures like mushroom houses"]
 			id: "04C9E8009D84B7A1"
 			tasks: [{
 				id: "2D26F348F7EF4D12"
@@ -2816,14 +2856,14 @@
 					table_id: 8545390299491237994L
 				}
 				{
-					id: "70FDBFC55C98101D"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "4C3EF65AF982FC1A"
 					type: "ftbmoney:money"
 					ftb_money: 20L
+				}
+				{
+					id: "06B3AE59F1AA9AD8"
+					type: "xp"
+					xp: 75
 				}
 			]
 		}
@@ -2837,7 +2877,7 @@
 					}
 				}
 			}
-			x: 2.5d
+			x: 3.5d
 			y: 7.5d
 			dependencies: ["04C9E8009D84B7A1"]
 			id: "686519D5266C6F27"
@@ -2867,14 +2907,10 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			x: 2.5d
+			x: 3.5d
 			y: 10.5d
+			subtitle: "200+ Mods in the pack and somehow they still don't drop anything useful..."
 			id: "11944C68F6D95C77"
 			tasks: [{
 				id: "3E1BB1EE7BF49EA5"
@@ -2913,7 +2949,7 @@
 					}
 				}
 			}
-			x: 2.5d
+			x: 3.5d
 			y: 11.5d
 			dependencies: ["11944C68F6D95C77"]
 			id: "307EEF462D4E001C"
@@ -2948,14 +2984,10 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
-			x: 2.5d
+			x: 3.5d
 			y: 12.5d
+			subtitle: "You may be a brute, but i'm brutal!"
 			dependencies: ["307EEF462D4E001C"]
 			id: "005B0AC8724A04CA"
 			tasks: [{
@@ -3016,14 +3048,14 @@
 					table_id: 8545390299491237994L
 				}
 				{
-					id: "363F9A60B5811C4A"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "5D294DBA533C16FC"
 					type: "ftbmoney:money"
 					ftb_money: 20L
+				}
+				{
+					id: "222712718BEF7AED"
+					type: "xp"
+					xp: 75
 				}
 			]
 		}
@@ -3124,72 +3156,10 @@
 			]
 		}
 		{
-			title: "Any Gate Pearl"
-			x: 0.0d
-			y: -3.5d
-			shape: "hexagon"
-			dependencies: ["2859B5A6AAB94D7E"]
-			id: "708556958CC998BE"
-			tasks: [{
-				id: "3F20ECAB58D7FF2C"
-				type: "item"
-				item: {
-					id: "gateways:gate_pearl"
-					Count: 1b
-					tag: { }
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "4790D2538E078E87"
-					type: "choice"
-					table_id: 768393147870328736L
-				}
-				{
-					id: "36AA73BB03AB93CC"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "4F21C6CA74AA160E"
-					type: "ftbmoney:money"
-					ftb_money: 60L
-				}
-				{
-					id: "491F411908A9772E"
-					type: "item"
-					item: {
-						id: "gateways:gate_pearl"
-						Count: 1b
-						tag: {
-							gateway: "gateways:skeleton_gate_small"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			icon: {
-				id: "minecraft:skeleton_skull"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "minecraft:skeleton_skull"
 			x: -8.5d
 			y: 12.5d
+			subtitle: "There's a skele-ton of skele-puns I could put here, but they've all been overdone"
 			dependencies: ["7AA5044D18A2E23E"]
 			id: "72ED70613E3B7E52"
 			tasks: [{
@@ -3220,17 +3190,11 @@
 			]
 		}
 		{
-			icon: {
-				id: "minecraft:zombie_head"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "minecraft:zombie_head"
 			x: -11.0d
 			y: 12.5d
+			subtitle: "No zombies on my yard!"
+			description: [""]
 			dependencies: ["42B5C52B1EB2CF21"]
 			id: "733169FE486DB8DD"
 			tasks: [{
@@ -3262,8 +3226,9 @@
 		}
 		{
 			x: -9.5d
-			y: 8.5d
-			dependencies: ["4A070C730B96D131"]
+			y: 7.5d
+			subtitle: "Feeling Elite"
+			description: ["Elite Skeletons only spawn after expert mode."]
 			dependency_requirement: "one_started"
 			id: "2FDED9C5C6011798"
 			tasks: [{
@@ -3294,28 +3259,27 @@
 			]
 		}
 		{
+			title: "Kill 25x Frozen Zombie"
 			x: -12.0d
 			y: 8.5d
-			dependencies: ["0C2F14176C8B6233"]
+			description: ["&6Note: There are two types of Frozen Zombie in the modpack. Kill 25 of one or the other to complete the quest."]
 			dependency_requirement: "one_started"
-			id: "336930A0E23D9E2E"
-			tasks: [{
-				id: "1C83BACB05E772C6"
-				type: "kill"
-				entity: "betterdefaultbiomes:frozen_zombie"
-				value: 100L
-			}]
-			rewards: [
+			min_required_tasks: 1
+			id: "336930A0E23D9E2F"
+			tasks: [
 				{
-					id: "16BA6181D3D83FBA"
-					type: "ftbmoney:money"
-					ftb_money: 100L
+					id: "1C83BACB05E772C7"
+					type: "kill"
+					title: "Frozen Zombie (Better Default Biomes)"
+					entity: "betterdefaultbiomes:frozen_zombie"
+					value: 25L
 				}
 				{
-					id: "20D065708C993D7D"
-					type: "item"
-					item: {
-						id: "kubejs:gold_coin"
+					id: "0EF72E1D01374C1D"
+					type: "kill"
+					title: "Frozen Zombie (Dungeons Mobs)"
+					icon: {
+						id: "dungeons_mobs:frozen_zombie_spawn_egg"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -3323,29 +3287,52 @@
 							}
 						}
 					}
+					entity: "dungeons_mobs:frozen_zombie"
+					value: 25L
+				}
+			]
+			rewards: [
+				{
+					id: "16BA6181D3D83FBB"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "20D065708C993D7E"
+					type: "item"
+					item: {
+						id: "kubejs:iron_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
 				}
 			]
 		}
 		{
 			x: -12.0d
 			y: 9.5d
-			dependencies: ["0C2F14176C8B6233"]
+			subtitle: "Et tu, brute?"
 			dependency_requirement: "one_started"
 			id: "4AEA984BA064D20A"
 			tasks: [{
-				id: "15A9DD637AE57E7C"
+				id: "15A9DD637AE57E7D"
 				type: "kill"
 				entity: "eidolon:zombie_brute"
-				value: 100L
+				value: 75L
 			}]
 			rewards: [
 				{
-					id: "4F4A9608E8E6B6B8"
+					id: "4F4A9608E8E6B6B9"
 					type: "ftbmoney:money"
 					ftb_money: 100L
 				}
 				{
-					id: "689CC7350DE3446E"
+					id: "689CC7350DE3446F"
 					type: "item"
 					item: {
 						id: "kubejs:gold_coin"
@@ -3362,7 +3349,7 @@
 		{
 			x: -9.5d
 			y: 9.5d
-			dependencies: ["4A070C730B96D131"]
+			subtitle: "Overgrown skeletons part 2"
 			dependency_requirement: "one_started"
 			id: "7CE5BD5932677CA2"
 			tasks: [{
@@ -3436,7 +3423,8 @@
 		{
 			x: -6.0d
 			y: 8.5d
-			dependencies: ["7DD33DBEE207DD46"]
+			subtitle: "Aah! Tiny creepers!"
+			description: ["Creeperlings sometimes appear when a creeper explodes, appearing more often at higher difficulties."]
 			dependency_requirement: "one_started"
 			id: "625E8C6D6672AEFA"
 			tasks: [{
@@ -3631,17 +3619,10 @@
 			]
 		}
 		{
-			icon: {
-				id: "spartanweaponry:blaze_head"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "spartanweaponry:blaze_head"
 			x: 1.0d
 			y: 9.5d
+			subtitle: "You can't burn me i'm already on fire!"
 			dependencies: ["5537F265CE8EBD3E"]
 			id: "75244E4C3649BA77"
 			tasks: [{
@@ -3672,17 +3653,10 @@
 			]
 		}
 		{
-			icon: {
-				id: "spartanweaponry:drowned_head"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "spartanweaponry:drowned_head"
 			x: -0.5d
 			y: 7.5d
+			subtitle: "Drowned more like the Slashed now"
 			dependencies: ["32E4964F2AAA4E25"]
 			id: "124CDF84B0FC4EF8"
 			tasks: [{
@@ -3713,17 +3687,11 @@
 			]
 		}
 		{
-			icon: {
-				id: "spartanweaponry:husk_head"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "spartanweaponry:husk_head"
 			x: -0.5d
 			y: 10.0d
+			subtitle: "Husky? That's not a dog that's a zombie!"
+			description: [""]
 			dependencies: ["61CCF5EFBAC2D198"]
 			id: "14C32922D8142F37"
 			tasks: [{
@@ -3754,17 +3722,10 @@
 			]
 		}
 		{
-			icon: {
-				id: "spartanweaponry:stray_skull"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "spartanweaponry:stray_skull"
 			x: -0.5d
 			y: 12.5d
+			subtitle: "Seems you strayed too far"
 			dependencies: ["5927A8C2376D0588"]
 			id: "2D7D534F253D0806"
 			tasks: [{
@@ -3795,24 +3756,17 @@
 			]
 		}
 		{
-			icon: {
-				id: "spartanweaponry:piglin_head"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 2.5d
+			icon: "spartanweaponry:piglin_head"
+			x: 3.5d
 			y: 8.5d
+			subtitle: "Pigwin more like pig... lose. still thinking about that one."
 			dependencies: ["686519D5266C6F27"]
 			id: "37A9A6535E7429F0"
 			tasks: [{
 				id: "2010972436B14537"
 				type: "kill"
 				icon: {
-					id: "spartanweaponry:zombified_piglin_head"
+					id: "spartanweaponry:piglin_head"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
@@ -3854,7 +3808,7 @@
 					}
 				}
 			}
-			x: 4.0d
+			x: 5.0d
 			y: 12.5d
 			dependencies: ["3F4E0FB2177E7F52"]
 			id: "34E47A2C5335A2A7"
@@ -3970,12 +3924,14 @@
 			title: "Bad Reputation I"
 			x: 11.0d
 			y: 10.5d
+			subtitle: "If a wandering trader is exiled from its village you could say they are a Hrrm-it"
+			optional: true
 			id: "40F5EEC0C7474750"
 			tasks: [{
 				id: "634CFAF0104F83AF"
 				type: "kill"
 				entity: "minecraft:wandering_trader"
-				value: 10L
+				value: 1L
 			}]
 			rewards: [
 				{
@@ -4002,13 +3958,15 @@
 			title: "Bad Reputation II"
 			x: 11.0d
 			y: 11.5d
+			subtitle: "That terrible joke from earlier is sure to give me a... Bad Reputation"
 			dependencies: ["40F5EEC0C7474750"]
+			optional: true
 			id: "234394677552B368"
 			tasks: [{
 				id: "791007DE26AFE145"
 				type: "kill"
 				entity: "minecraft:wandering_trader"
-				value: 50L
+				value: 10L
 			}]
 			rewards: [
 				{
@@ -4035,13 +3993,15 @@
 			title: "Bad Reputation III"
 			x: 11.0d
 			y: 12.5d
+			subtitle: "I thought they said \"wandering traitor\""
 			dependencies: ["234394677552B368"]
+			optional: true
 			id: "0F58A03E48624EA5"
 			tasks: [{
 				id: "3081D7A3C8398AC1"
 				type: "kill"
 				entity: "minecraft:wandering_trader"
-				value: 100L
+				value: 30L
 			}]
 			rewards: [
 				{
@@ -4069,6 +4029,72 @@
 					skill: "shadow"
 					amount: 300.0d
 					ignoreBonuses: false
+				}
+				{
+					id: "06DA3DF602FA4A5A"
+					type: "item"
+					item: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							CustomModelData: 1
+							display: {
+								Name: "{\"text\":\"Club of Bad Reputation\",\"italic\":false}"
+							}
+							Enchantments: [{
+								lvl: 5
+								id: "minecraft:knockback"
+							}]
+							DisplayEntityType: "minecraft:wandering_trader"
+							Damage: 0
+							AttributeModifiers: [
+								{
+									Slot: "mainhand"
+									AttributeName: "minecraft:generic.attack_damage"
+									UUID: [I;
+										-2074234244
+										-970700449
+										-1935712224
+										-1448768662
+									]
+									Amount: 11.0d
+									Name: "Bonk"
+								}
+								{
+									Amount: -3.3d
+									Slot: "mainhand"
+									AttributeName: "minecraft:generic.attack_speed"
+									Operation: 0
+									UUID: [I;
+										-2074234244
+										-970700449
+										-1935712224
+										-1448768663
+									]
+									Name: "Club Slow"
+								}
+								{
+									Slot: "mainhand"
+									AttributeName: "minecraft:generic.attack_knockback"
+									UUID: [I;
+										-2074234244
+										-970700449
+										-1935712224
+										-1448768662
+									]
+									Amount: 5.0d
+									Name: "Knock"
+								}
+							]
+							itemModifier: "modifiers:heavy"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
@@ -4117,6 +4143,7 @@
 		{
 			x: -1.5d
 			y: -1.5d
+			subtitle: "Spooky"
 			description: ["Upgraded version of spirit orb used to make bigger gateways."]
 			dependencies: ["636C994CC9BDE02A"]
 			id: "382CA6AE28A6316A"
@@ -4223,7 +4250,7 @@
 		}
 		{
 			x: -3.0d
-			y: -1.0d
+			y: -2.0d
 			description: ["Dropped during the Undead Army event."]
 			id: "7D48C1C4B70B99F8"
 			tasks: [{
@@ -4247,7 +4274,7 @@
 		}
 		{
 			x: -3.0d
-			y: -2.0d
+			y: -3.0d
 			description: ["Do it again! The mob spawners this event creates is a great way to get renewable spirit orbs"]
 			dependencies: ["7D48C1C4B70B99F8"]
 			id: "71296448B1C20014"
@@ -4280,7 +4307,7 @@
 		{
 			x: -6.0d
 			y: 9.5d
-			dependencies: ["7DD33DBEE207DD46"]
+			subtitle: "The cooler colder creeper"
 			dependency_requirement: "one_started"
 			id: "21E7D8572F331C73"
 			tasks: [{
@@ -4321,17 +4348,10 @@
 			]
 		}
 		{
-			icon: {
-				id: "minecraft:creeper_head"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "minecraft:creeper_head"
 			x: -7.0d
 			y: 12.5d
+			subtitle: "No more creeping for you!"
 			dependencies: ["552084F86F88D15C"]
 			id: "3CF6376C2F15744D"
 			tasks: [{
@@ -4371,7 +4391,7 @@
 					}
 				}
 			}
-			x: 5.5d
+			x: 6.5d
 			y: 6.5d
 			id: "6EE8F9129E0A1D60"
 			tasks: [{
@@ -4387,29 +4407,23 @@
 					table_id: 8545390299491237994L
 				}
 				{
-					id: "334797DAED97A549"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "6EA2ACE325DC9658"
 					type: "ftbmoney:money"
 					ftb_money: 25L
 				}
+				{
+					id: "1410E0B3724AAF2A"
+					type: "xp"
+					xp: 75
+				}
 			]
 		}
 		{
-			icon: {
-				id: "spartanweaponry:cave_spider_head"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "spartanweaponry:cave_spider_head"
 			x: -3.5d
 			y: 8.0d
+			subtitle: "I got the cave spider!"
+			description: [""]
 			id: "189B48C7EE98B1EF"
 			tasks: [{
 				id: "7FCC20C2E6061313"
@@ -4436,7 +4450,7 @@
 			]
 		}
 		{
-			x: 5.5d
+			x: 6.5d
 			y: 7.5d
 			dependencies: ["6EE8F9129E0A1D60"]
 			id: "2B0920822CAF3FEB"
@@ -4474,7 +4488,7 @@
 			]
 		}
 		{
-			x: 5.5d
+			x: 6.5d
 			y: 8.5d
 			dependencies: ["2B0920822CAF3FEB"]
 			id: "0AB325E800C9C5B9"
@@ -4507,8 +4521,9 @@
 			]
 		}
 		{
-			x: 5.5d
+			x: 6.5d
 			y: 9.5d
+			subtitle: "Giving the dimension its namesake"
 			dependencies: ["0AB325E800C9C5B9"]
 			id: "3109A29AC8E8F676"
 			tasks: [{
@@ -4547,6 +4562,7 @@
 		{
 			x: 9.5d
 			y: 12.5d
+			subtitle: "I got the illusioner! Did you see that? No?"
 			description: ["Illusioners start to spawn naturally in Expert Mode (after wither is defeated), but can also spawn in raids."]
 			id: "4F18B88B2A7608F8"
 			tasks: [{
@@ -4569,7 +4585,7 @@
 			]
 		}
 		{
-			x: 5.5d
+			x: 6.5d
 			y: 12.0d
 			id: "4F565EBA69E9725A"
 			tasks: [{
@@ -4594,6 +4610,8 @@
 		{
 			x: -4.5d
 			y: 9.5d
+			subtitle: "I spi with my 8 eyes..."
+			description: [""]
 			dependencies: ["16B7281F7910FF1E"]
 			id: "7500D3E11DFC4CAA"
 			tasks: [{
@@ -4630,7 +4648,7 @@
 			]
 		}
 		{
-			x: 5.5d
+			x: 6.5d
 			y: 11.0d
 			id: "014B8B99CC212F9F"
 			tasks: [{
@@ -4656,6 +4674,7 @@
 			title: "Break 50 Spawners"
 			x: 2.5d
 			y: -1.5d
+			description: ["50 spawners. That's a lot of xp"]
 			dependencies: ["203172A2D2865B49"]
 			id: "3AEDA39629AAEB5D"
 			tasks: [{
@@ -4779,6 +4798,7 @@
 		{
 			x: 2.5d
 			y: -0.5d
+			description: ["50 more boxes."]
 			dependencies: ["58C1C68226071763"]
 			id: "7CA0166C29898F7A"
 			tasks: [{
@@ -4845,6 +4865,7 @@
 		{
 			x: 3.5d
 			y: -1.5d
+			description: ["If you found a big enough dungeon this shouldn't be too bad"]
 			dependencies: ["3AEDA39629AAEB5D"]
 			id: "5A3FA8B6A53D834D"
 			tasks: [{
@@ -4917,6 +4938,7 @@
 		{
 			x: 3.5d
 			y: -0.5d
+			description: ["Almost there..."]
 			dependencies: ["7CA0166C29898F7A"]
 			id: "7FC5E3377BF8195C"
 			tasks: [{
@@ -4989,39 +5011,39 @@
 			x: 4.5d
 			y: -1.5d
 			shape: "square"
-			subtitle: "Break 500 Spawners"
+			subtitle: "Break 300 Spawners"
 			description: [
-				"Those who resist the temptation to spawner farm and go out of their way to break 500 spawners in the world will be granted the title of Spawner Smasher!"
-				"(the title can be claimed in the \"Titles\" chapter after completing this)"
+				"Those who resist the temptation to spawner farm and go out of their way to break 300 spawners in the world will be granted the title of &2Spawner Smasher&r!"
+				"(the title can be claimed in the \"&3Titles&r\" chapter after completing this)"
 			]
 			dependencies: ["5A3FA8B6A53D834D"]
 			id: "40FF66BE65AF171D"
 			tasks: [{
-				id: "0BA38C8135DBD375"
+				id: "0BA38C8135DBD376"
 				type: "questsadditions:break"
 				title: "Spawner Smasher"
 				block: "minecraft:spawner"
-				value: 500L
+				value: 300L
 				checkItem: false
 			}]
 			rewards: [
 				{
-					id: "4FACAC916D9610C3"
+					id: "4FACAC916D9610C4"
 					type: "choice"
 					table_id: 3680913278004027102L
 				}
 				{
-					id: "2FFAD71E1DBE55D8"
+					id: "2FFAD71E1DBE55D9"
 					type: "xp"
 					xp: 2000
 				}
 				{
-					id: "35CB99F7BA276C77"
+					id: "35CB99F7BA276C78"
 					type: "ftbmoney:money"
 					ftb_money: 260L
 				}
 				{
-					id: "7F8BC65C013D4AEB"
+					id: "7F8BC65C013D4AEC"
 					type: "item"
 					item: {
 						id: "kubejs:monster_coin"
@@ -5035,7 +5057,7 @@
 					count: 10
 				}
 				{
-					id: "153C8C7D45877D2D"
+					id: "153C8C7D45877D2E"
 					type: "item"
 					item: {
 						id: "kubejs:diamond_coin"
@@ -5049,7 +5071,7 @@
 					count: 2
 				}
 				{
-					id: "75A20CDEB1600DA8"
+					id: "75A20CDEB1600DA9"
 					type: "pmmo:xpreward"
 					title: "1337 Dungeoneering XP"
 					icon: "kubejs:chest2"
@@ -5063,35 +5085,39 @@
 			x: 4.5d
 			y: -0.5d
 			shape: "square"
-			subtitle: "Break 500 Monster Box"
+			subtitle: "Break 300 Monster Box"
+			description: [
+				"When there's a lot of mobs in your neighborhood,"
+				"who you going to call?"
+			]
 			dependencies: ["7FC5E3377BF8195C"]
 			id: "03B12F1965ADB68A"
 			tasks: [{
-				id: "144956EFB7B19305"
+				id: "144956EFB7B19306"
 				type: "questsadditions:break"
 				title: "Box Buster"
 				block: "quark:monster_box"
-				value: 500L
+				value: 300L
 				checkItem: false
 			}]
 			rewards: [
 				{
-					id: "2B41C567E2A21A7F"
+					id: "2B41C567E2A21A7E"
 					type: "choice"
 					table_id: 3680913278004027102L
 				}
 				{
-					id: "4EA6AF700E2BC93F"
+					id: "4EA6AF700E2BC93E"
 					type: "xp"
 					xp: 2222
 				}
 				{
-					id: "2B48AAEC3AC68022"
+					id: "2B48AAEC3AC68023"
 					type: "ftbmoney:money"
 					ftb_money: 260L
 				}
 				{
-					id: "381213364F8A807E"
+					id: "381213364F8A807F"
 					type: "item"
 					item: {
 						id: "kubejs:monster_coin"
@@ -5105,7 +5131,7 @@
 					count: 10
 				}
 				{
-					id: "3449A6A113241569"
+					id: "3449A6A113241570"
 					type: "item"
 					item: {
 						id: "kubejs:diamond_coin"
@@ -5119,7 +5145,7 @@
 					count: 2
 				}
 				{
-					id: "0D1976BBC5B3A26F"
+					id: "0D1976BBC5B3A26E"
 					type: "pmmo:xpreward"
 					title: "1337 Dungeoneering XP"
 					icon: "kubejs:chest2"
@@ -5130,216 +5156,10 @@
 			]
 		}
 		{
-			icon: {
-				id: "eyeofdragons:eye_of_lightningdragon"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 6.5d
-			y: 7.0d
-			id: "03EBEF4821B1CEE2"
-			tasks: [{
-				id: "7B5CDE77F69043BB"
-				type: "kill"
-				icon: {
-					id: "eyeofdragons:eye_of_lightningdragon"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "dungeons_mobs:watchling"
-				value: 50L
-			}]
-			rewards: [
-				{
-					id: "056AAADE230CE301"
-					type: "choice"
-					table_id: 8545390299491237994L
-				}
-				{
-					id: "0DF5A8692D14CBAA"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					id: "3605D8CFFD0236F3"
-					type: "ftbmoney:money"
-					ftb_money: 25L
-				}
-			]
-		}
-		{
-			icon: {
-				id: "ars_nouveau:amplify_arrow"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 6.5d
-			y: 8.0d
-			id: "49C3ADEE8EF0A7B7"
-			tasks: [{
-				id: "356346071285C8DB"
-				type: "kill"
-				icon: {
-					id: "ars_nouveau:amplify_arrow"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "dungeons_mobs:blastling"
-				value: 50L
-			}]
-			rewards: [
-				{
-					id: "4CE1B1380E202EEA"
-					type: "choice"
-					table_id: 8545390299491237994L
-				}
-				{
-					id: "6295AF27047D67B0"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					id: "08F4328CA57548F7"
-					type: "ftbmoney:money"
-					ftb_money: 25L
-				}
-			]
-		}
-		{
-			icon: {
-				id: "undergarden:goo_ball"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 6.5d
-			y: 9.0d
-			id: "2C3F71474FA583F9"
-			tasks: [{
-				id: "2EF1123D56D1EA76"
-				type: "kill"
-				icon: {
-					id: "undergarden:goo_ball"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				entity: "dungeons_mobs:snareling"
-				value: 50L
-			}]
-			rewards: [
-				{
-					id: "0F752F89D131145B"
-					type: "choice"
-					table_id: 8545390299491237994L
-				}
-				{
-					id: "3E0D8ED86646F5C0"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					id: "0D93855FF5A9FBEA"
-					type: "ftbmoney:money"
-					ftb_money: 25L
-				}
-			]
-		}
-		{
-			x: 6.5d
-			y: 10.0d
-			id: "40600B4E4849BC6F"
-			tasks: [{
-				id: "1616C05863195D03"
-				type: "kill"
-				icon: {
-					id: "dungeons_gear:hammer_of_gravity"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [{
-								data: [
-									{
-										lvl: 1s
-										id: "dungeons_gear:swirling"
-									}
-									{
-										lvl: 1s
-										id: "dungeons_gear:gravity"
-									}
-								]
-								source: "dungeons_libraries:gear_config"
-							}]
-						}
-					}
-				}
-				entity: "dungeons_mobs:endersent"
-				value: 3L
-			}]
-			rewards: [
-				{
-					id: "4528505731FCEBAA"
-					type: "choice"
-					table_id: 768393147870328736L
-				}
-				{
-					id: "7D2BF511F9003EA0"
-					type: "item"
-					item: {
-						id: "kubejs:gold_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 2
-				}
-				{
-					id: "23B58C13E0649343"
-					type: "xp"
-					xp: 200
-				}
-			]
-		}
-		{
-			icon: {
-				id: "spartanweaponry:witch_head"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "spartanweaponry:witch_head"
 			x: 8.0d
 			y: 9.5d
+			subtitle: "Outwit the witch"
 			id: "72936547B4597586"
 			tasks: [{
 				id: "5A36C9AEE5100375"
@@ -5351,6 +5171,659 @@
 				id: "1BAA66D915E510E0"
 				type: "choice"
 				table_id: 768393147870328736L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.5d
+			dependencies: ["4B68EB265B0E1129"]
+			dependency_requirement: "one_started"
+			id: "274C1E702FD2AC6E"
+			tasks: [{
+				id: "79EF91FF9AE8E061"
+				type: "kill"
+				icon: {
+					id: "stalwart_dungeons:blaze_armor_scrap"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "stalwart_dungeons:reinforced_blaze"
+				value: 25L
+			}]
+			rewards: [
+				{
+					id: "17B7D8714385D983"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "6E3D48F19BBDADD9"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "47E1A653EF1E3FB3"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			shape: "octagon"
+			description: ["Obtained by trading with barakoa."]
+			dependencies: ["65658361525E4D21"]
+			size: 1.5d
+			id: "47C690F715D19BF1"
+			tasks: [
+				{
+					id: "15C5ECABDEA13A05"
+					type: "item"
+					item: {
+						id: "mowziesmobs:blowgun"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+							"dungeons_gear:bow": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+							}
+						}
+					}
+				}
+				{
+					id: "1A2C45F87C7F7736"
+					type: "item"
+					item: {
+						id: "mowziesmobs:dart"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "02DCC2938A5FE37F"
+					type: "item"
+					item: {
+						id: "mowziesmobs:dart"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 20
+				}
+				{
+					id: "1493A6E428AF03CF"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			shape: "octagon"
+			description: ["Also obtained by trading with barakoa."]
+			dependencies: ["65658361525E4D21"]
+			size: 1.5d
+			id: "7B823D1DD6D06D74"
+			tasks: [{
+				id: "745AE71808A1C7CC"
+				type: "item"
+				item: {
+					id: "mowziesmobs:spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6CC5FF47C3B3481A"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "0248A37332A3E85D"
+					type: "item"
+					item: {
+						id: "kubejs:iron_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "dungeons_mobs:jungle_zombie_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -12.0d
+			y: 7.5d
+			id: "66B2397A9F931351"
+			tasks: [{
+				id: "6505B6B45B56C850"
+				type: "kill"
+				icon: {
+					id: "dungeons_mobs:jungle_zombie_spawn_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "dungeons_mobs:jungle_zombie"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "08345BD6DA2A51E1"
+					type: "item"
+					item: {
+						id: "kubejs:iron_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "01BB6D390125E00F"
+					type: "xp"
+					xp: 135
+				}
+			]
+		}
+		{
+			icon: "dungeons_mobs:mossy_skeleton_spawn_egg"
+			x: -9.5d
+			y: 8.5d
+			subtitle: "Overgrown skeletons part 1"
+			id: "4C085E84DA0E70AB"
+			tasks: [{
+				id: "2292AAEB08305042"
+				type: "kill"
+				icon: {
+					id: "dungeons_mobs:mossy_skeleton_spawn_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "dungeons_mobs:mossy_skeleton"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "429005FBF9540883"
+					type: "item"
+					item: {
+						id: "kubejs:iron_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1C78854F7348CB37"
+					type: "xp"
+					xp: 135
+				}
+			]
+		}
+		{
+			title: "Illusioner Armor"
+			x: -3.0d
+			y: -1.0d
+			description: [
+				"The Illusioner set greatly increases your magic and evasive capabilities."
+				""
+				"&6Only 1 is needed to complete this quest."
+			]
+			dependencies: ["7D48C1C4B70B99F8"]
+			min_required_tasks: 1
+			id: "326751E1F5394C88"
+			tasks: [
+				{
+					id: "2F5072B9DB0A91A5"
+					type: "item"
+					item: {
+						id: "dungeons_mobs:illusioner_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [
+										{
+											lvl: 3s
+											id: "ars_nouveau:mana_regen"
+										}
+										{
+											lvl: 3s
+											id: "ars_nouveau:mana_boost"
+										}
+										{
+											lvl: 3s
+											id: "elenaidodge2:lightweight"
+										}
+										{
+											lvl: 1s
+											id: "uniquee:ender_eyes"
+										}
+									]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+					match_nbt: false
+				}
+				{
+					id: "180930A7CEFD9E18"
+					type: "item"
+					item: {
+						id: "dungeons_mobs:illusioner_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [
+										{
+											lvl: 3s
+											id: "ars_nouveau:mana_regen"
+										}
+										{
+											lvl: 3s
+											id: "ars_nouveau:mana_boost"
+										}
+										{
+											lvl: 3s
+											id: "elenaidodge2:lightweight"
+										}
+										{
+											lvl: 2s
+											id: "dungeons_gear:bag_of_souls"
+										}
+									]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+					match_nbt: false
+				}
+				{
+					id: "259E743CA25E9ABD"
+					type: "item"
+					item: {
+						id: "dungeons_mobs:illusioner_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [
+										{
+											lvl: 3s
+											id: "ars_nouveau:mana_regen"
+										}
+										{
+											lvl: 3s
+											id: "ars_nouveau:mana_boost"
+										}
+										{
+											lvl: 3s
+											id: "elenaidodge2:lightweight"
+										}
+										{
+											lvl: 2s
+											id: "dungeons_gear:swiftfooted"
+										}
+									]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+					match_nbt: false
+				}
+				{
+					id: "17D7D6A4D14AD372"
+					type: "item"
+					item: {
+						id: "dungeons_mobs:illusioner_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [
+										{
+											lvl: 3s
+											id: "ars_nouveau:mana_regen"
+										}
+										{
+											lvl: 3s
+											id: "ars_nouveau:mana_boost"
+										}
+										{
+											lvl: 3s
+											id: "elenaidodge2:lightweight"
+										}
+										{
+											lvl: 3s
+											id: "tombstone:shadow_step"
+										}
+										{
+											lvl: 3s
+											id: "dungeons_gear:dodge"
+										}
+									]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+					match_nbt: false
+				}
+			]
+			rewards: [
+				{
+					id: "496371296C31014E"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "2850818CB5822B98"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 10.5d
+			subtitle: "Overgrown skeletons part 3"
+			description: ["They kinda look like the modpack creator's minecraft skin..."]
+			id: "4D4A6B670213188A"
+			tasks: [{
+				id: "191E6E6C1DA5B351"
+				type: "kill"
+				icon: {
+					id: "dungeons_mobs:sunken_skeleton_spawn_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "dungeons_mobs:sunken_skeleton"
+				value: 75L
+			}]
+			rewards: [
+				{
+					id: "2DAA24F5853F0732"
+					type: "ftbmoney:money"
+					ftb_money: 101L
+				}
+				{
+					id: "68D1B85BBF7DABA9"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -7.5d
+			shape: "octagon"
+			description: ["&eCombat Tip: Setting yourself on fire can let you resist the frostmaw's freezing."]
+			size: 1.5d
+			id: "78F932ECCA4141FD"
+			tasks: [{
+				id: "2CB6A89803AAB74B"
+				type: "item"
+				item: {
+					id: "mowziesmobs:ice_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "400EDD793B316C2C"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "47D22F8C697A5DBA"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "4EA070CE6DF0E07B"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "1EFC617FBAC60918"
+					type: "item"
+					item: {
+						id: "archers_paradox:frost_arrow"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "5883C7AA2D193608"
+					type: "item"
+					item: {
+						id: "simplefarming:ice_cream_sundae"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 9.5d
+			subtitle: "If you thought vindicators were tough..."
+			description: ["Terrifyingly powerful illagers found in bastilles, and during raids"]
+			id: "33989824AAD0FF70"
+			tasks: [{
+				id: "7204FA992C49FA26"
+				type: "kill"
+				icon: {
+					id: "takesapillage:legioner_spawn_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "takesapillage:legioner"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "0C809443DDB9F8C9"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "64D80FBC0CAE8CCF"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			shape: "octagon"
+			description: [
+				"Trade 7 &aGold Blocks&r to the sun chief to recieve a powerful* blessing for 3 hours. You can refresh the duration for free by returning to the sun chief."
+				""
+				"This effect unlocks 2 abilities:"
+				"&eSun strike&r: with an empty hand, &3Right Click&r anywhere that's exposed to the sky to call down a ray of sun at that spot."
+				""
+				"&eSun Beam&r: &3Right Click while Sneaking&r with an empty hand to unleash a beam that can hit many enemies at once. &cDeducts 1 minute from the blessing."
+				""
+				"&o&7*When I say powerful, I mean it."
+				"&o&7It has been greatly improved in this modpack to deal &l6x&r&o&7 the damage compared to default. Give it a try!"
+			]
+			dependencies: ["65658361525E4D21"]
+			size: 1.5d
+			id: "72C98F131D0076AE"
+			tasks: [{
+				id: "5734FE2B1BB8C2A9"
+				type: "advancement"
+				advancement: "mowziesmobs:suns_blessing"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "423AF2842AF0B0C4"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "44A5C99630CBCE23"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ingots_valuable"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			shape: "octagon"
+			description: [
+				"Blend in to a barakoa village by wearing one of the barakoa masks."
+				""
+				"This will allow you to trade with the various barakoa and the sun chief."
+				""
+				"Watch out though, attacking or stealing from a chest will provoke the barakoa."
+			]
+			size: 1.5d
+			id: "65658361525E4D21"
+			tasks: [{
+				id: "26F8CDBC44E4ACFF"
+				type: "advancement"
+				advancement: "mowziesmobs:sneak_village"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1776F46197F0A7F3"
+				type: "choice"
+				table_id: 7685042081442074286L
 			}]
 		}
 	]

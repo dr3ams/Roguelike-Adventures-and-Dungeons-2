@@ -140,6 +140,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
+			subtitle: "Scoot aside, turtles! There's a new scute in town!"
 			description: ["This Crocodile item is dropped when baby crocodiles age up or are killed."]
 			dependencies: ["4B89A8800535AB16"]
 			id: "2FBC1196F9B59DF7"
@@ -1959,6 +1960,7 @@
 		{
 			x: 6.5d
 			y: 4.0d
+			subtitle: "or Arms for Arms"
 			description: [
 				"Tame a Mantis Shrimp with Tropical Fish."
 				""
@@ -2063,6 +2065,7 @@
 		{
 			x: -15.5d
 			y: 0.5d
+			subtitle: "Not a tarantula, nor a hawk"
 			description: [
 				"Encounter a Tarantula Hawk"
 				""
@@ -2114,6 +2117,7 @@
 		{
 			x: -6.0d
 			y: -3.5d
+			subtitle: "It's grrrrrrrreat!"
 			description: [
 				"Feed meat to a Tiger to gain its blessing."
 				""
@@ -2415,6 +2419,7 @@
 		{
 			x: -4.0d
 			y: 10.5d
+			subtitle: "The reason I avoid the crimson forests in any pack with this mod"
 			description: [
 				"The Crimson Mosquito is a native of Crimson Forests where it will suck the blood of almost any creature. It can then spit this blood back at other targets."
 				""
@@ -2518,6 +2523,7 @@
 			}
 			x: 3.5d
 			y: 2.0d
+			subtitle: "Has my seal of approval... wait didn't I already make this joke"
 			description: ["The seal is a cute, if not loud, creature frequently found on beaches or icebergs. Usually they are found sleeping but are very good swimmers. Giving a seal three fish with \"trade\" with the seal and they will dive into the water and bring back a sea related item (some are valuable). Can be bred with lobster tails."]
 			id: "5A0A76BD018B4C93"
 			tasks: [{
@@ -2689,7 +2695,18 @@
 				{
 					id: "6A2376672884C884"
 					type: "item"
-					item: "majruszs_difficulty:bandage"
+					item: {
+						id: "roughtweaks:bandage"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 				{
 					id: "7D7686B69A1B8DF5"
@@ -2705,6 +2722,15 @@
 						}
 					}
 					command: "/tellraw @a [{\"text\":\"<\"},{\"selector\":\"@r\"},{\"text\":\"> I think \"},{\"selector\":\"@r\"},{\"text\":\" is suspicious\"}]"
+					player_command: false
+				}
+				{
+					id: "77213838DFC308AA"
+					type: "command"
+					title: "Mungus Music"
+					icon: "undergarden:music_disc_limax_maximus"
+					auto: "invisible"
+					command: "/execute at @p run playsound undergarden:music.disc.limax_maximus music @p ~ ~ ~ 1000 1.75 1"
 					player_command: false
 				}
 			]
@@ -2948,6 +2974,7 @@
 			}
 			x: -18.0d
 			y: 0.5d
+			subtitle: "Is it a dragon?"
 			description: [
 				"The Komodo Dragon is the largest lizard you will ever see, which you could experience travelling through the badlands. They will attack almost anything so watch out and they have a very poisonous bite."
 				"If given a very large amount of rotten flesh they can be tamed where they will fiercely protect their friends and are also a good mount."
@@ -3217,6 +3244,7 @@
 			}
 			x: 8.5d
 			y: 8.5d
+			subtitle: "Do your enderhomework!"
 			description: ["This large animal of the End is a peaceful floating creature that is happy spending its days just floating around Chorus Forests eating chorus fruits. You can lure a Endergrade over to you by holding a Chorus fruit which you can also use to breed them."]
 			id: "3CD714A755372F99"
 			tasks: [{
@@ -3372,7 +3400,7 @@
 					id: "5B1B638F98FC6015"
 					type: "item"
 					item: {
-						id: "buddycards:pack.1"
+						id: "buddycards:mystery_pack"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -3385,16 +3413,17 @@
 					id: "6FED21B7D6A2E607"
 					type: "item"
 					item: {
-						id: "minecraft:splash_potion"
+						id: "minecraft:lingering_potion"
 						Count: 1b
 						tag: {
 							CustomPotionEffects: [{
-								Duration: 25
-								Id: -125
+								Duration: 120
+								Id: 113
 								Amplifier: 20
 							}]
 							Potion: "minecraft:mundane"
 							display: {
+								Lore: ["[{\"text\":\"Makes it really hard for mobs to jump and fly\",\"color\":\"yellow\",\"italic\":false}]"]
 								Name: "{\"text\":\"Engineer's Potion\",\"italic\":false,\"color\":\"gold\"}"
 							}
 						}
@@ -3404,7 +3433,7 @@
 							}
 						}
 					}
-					count: 3
+					count: 5
 				}
 			]
 		}
@@ -3492,9 +3521,10 @@
 			}]
 		}
 		{
+			title: "The Snap Trap"
 			x: -2.0d
 			y: 16.0d
-			description: ["A block that when powered by redstone deals damage to anyone caught within the jaws"]
+			description: ["The void worm beak when powered by redstone deals damage to anyone caught within the jaws"]
 			dependencies: ["46341B81ACA2EB15"]
 			id: "58B16EC56568A6DC"
 			tasks: [{
@@ -3510,11 +3540,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "2560594503EDCE97"
-				type: "choice"
-				table_id: 3680913278004027102L
-			}]
+			rewards: [
+				{
+					id: "2560594503EDCE97"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "7A78ED29551FFB6F"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+			]
 		}
 	]
 }

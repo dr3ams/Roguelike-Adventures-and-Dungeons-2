@@ -23,15 +23,34 @@
 		{ item: "twilightforest:fiery_ingot" }
 		{ item: "atum:nebu_ingot" }
 		{ item: "twilightforest:ironwood_ingot" }
-		{ item: "tropicraft:shaka_ingot" }
 		{ item: "blue_skies:horizonite_ingot" }
 		{ item: "blue_skies:ventium_ingot" }
 		{ item: "blue_skies:falsite_ingot" }
-		{ item: "aquaculture:box" }
-		{ item: "aquaculture:lockbox" }
 		{
 			item: {
-				id: "blue_skies:horizonite_ingot"
+				id: "majruszs_difficulty:end_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "stalwart_dungeons:tungsten_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "betterendforge:aeternium_ingot"
 				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {

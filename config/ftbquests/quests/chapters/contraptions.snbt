@@ -22,6 +22,7 @@
 		{
 			x: 0.0d
 			y: -2.0d
+			subtitle: "Insert joke about one of the 9 main characters from a 2007 game here"
 			description: ["The Wrench is used to rotate blocks already placed in the world."]
 			id: "685B1BCA8B0F49D2"
 			tasks: [{
@@ -43,23 +44,20 @@
 			rewards: [{
 				id: "0E76340F94DF0E1B"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 4L
 			}]
 		}
 		{
 			title: "Rotation Lock"
-			icon: {
-				id: "kubejs:help"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "kubejs:help"
 			x: 0.0d
 			y: -4.0d
-			description: ["Rotation lock is enabled by pressing K by default on your keyboard. You will see a cube to the right of your crosshair. This makes all blocks you place face in the direction you were facing in when the lock was enabled. Press it again to change direction and again to turn it off."]
+			subtitle: "Makes building stair roofs less annoying"
+			description: [
+				"Rotation lock is enabled by pressing &3K&r by default on your keyboard."
+				""
+				"You will see a cube to the right of your crosshair. This makes all blocks you place face in the direction you were facing in when the lock was enabled. Press it again to change direction and again to turn it off."
+			]
 			id: "0FFBD03D30C69566"
 			tasks: [{
 				id: "0262BB5E11609CFF"
@@ -94,6 +92,7 @@
 		{
 			x: 1.0d
 			y: -2.5d
+			subtitle: "Textured walls made easy"
 			description: ["Places random blocks from your hotbar. Useful for making natural looking walls and paths."]
 			id: "165C637A0F04D7FD"
 			tasks: [{
@@ -115,7 +114,7 @@
 			rewards: [{
 				id: "15E2E48F2E8BEAC0"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 3L
 			}]
 		}
 		{
@@ -149,6 +148,7 @@
 		{
 			x: 1.0d
 			y: -0.5d
+			subtitle: "You see me"
 			description: ["Emits a redstone signal when looked at."]
 			id: "6CE12F9EBD63ABFA"
 			tasks: [{
@@ -164,11 +164,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "0AB4195D044F0B85"
-				type: "ftbmoney:money"
-				ftb_money: 1L
-			}]
+			rewards: [
+				{
+					id: "0AB4195D044F0B85"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "77C1F5621BAD523E"
+					type: "choice"
+					table_id: 7685042081442074286L
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -191,12 +198,13 @@
 			rewards: [{
 				id: "59F1A9BC7C85974F"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
 			x: 1.0d
 			y: -3.5d
+			subtitle: "An item you can always count on"
 			description: ["Used to measure the amount blocks between two points."]
 			id: "70D23E7FD975D726"
 			tasks: [{
@@ -215,13 +223,17 @@
 			rewards: [{
 				id: "56A7C3A5723BF51E"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
 			x: 2.0d
 			y: -5.0d
-			description: ["Used to find slime chunks; the areas where slimes can spawn in"]
+			description: [
+				"Used to find slime chunks; the areas where slimes can spawn in"
+				""
+				"When it's bobbing that means you are in a slime chunk."
+			]
 			id: "7F50F903FEF3FDFD"
 			tasks: [{
 				id: "5D3048957969E9EB"
@@ -239,7 +251,7 @@
 			rewards: [{
 				id: "6038EBB1EB453B2A"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
@@ -263,12 +275,13 @@
 			rewards: [{
 				id: "4101C767EAB146BB"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
 			x: 2.5d
 			y: -2.0d
+			subtitle: "Oh, chute"
 			description: ["Put a hopper above it and it will drop all items below it."]
 			id: "1A1032A815E0BEE0"
 			tasks: [{
@@ -284,17 +297,32 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "6371F0E475BDA375"
-				type: "ftbmoney:money"
-				ftb_money: 1L
-			}]
+			rewards: [
+				{
+					id: "6371F0E475BDA375"
+					type: "ftbmoney:money"
+					ftb_money: 7L
+				}
+				{
+					id: "1455A0219655BB6A"
+					type: "item"
+					item: {
+						id: "aquaculture:box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "The Crankonator"
 			x: -1.0d
 			y: -5.5d
-			description: ["Cranks are used to give the exact redstone signal you want"]
+			description: ["Cranks are used to give the exact redstone signal you want."]
 			id: "576E37A04D699593"
 			tasks: [{
 				id: "0A1A3F181EBDA173"
@@ -336,38 +364,77 @@
 			rewards: [{
 				id: "5BEABEB16ADC8A0D"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
 			title: "VERTICAL REDSTONE?!"
 			x: -3.5d
 			y: -4.0d
-			description: ["The Cog Block can transmit redstone vertically!"]
+			description: [
+				"The Cog Block can transmit redstone vertically!"
+				""
+				"Also redstone repeaters and comparators can be placed on walls."
+			]
 			id: "57114F4515F106CE"
-			tasks: [{
-				id: "63A9040490A4F42D"
-				type: "item"
-				item: {
-					id: "supplementaries:cog_block"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "63A9040490A4F42D"
+					type: "item"
+					item: {
+						id: "supplementaries:cog_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "79DF88ABAF6B3F7C"
-				type: "ftbmoney:money"
-				ftb_money: 1L
-			}]
+				{
+					id: "75AD9A1F5F5121C8"
+					type: "item"
+					item: {
+						id: "minecraft:repeater"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1C34D2F83A40F018"
+					type: "item"
+					item: {
+						id: "minecraft:comparator"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "79DF88ABAF6B3F7C"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "66E3139BEBFED038"
+					type: "xp"
+					xp: 60
+				}
+			]
 		}
 		{
 			x: -2.5d
 			y: -4.0d
-			description: ["stores liquids and captures tiny mobs"]
+			description: ["Stores liquids and captures tiny mobs"]
 			id: "7EFBB9A760690892"
 			tasks: [{
 				id: "672CD462B12A618E"
@@ -385,13 +452,13 @@
 			rewards: [{
 				id: "5B30978F5128B23A"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
 			x: -2.0d
 			y: -5.0d
-			description: ["captures small mobs like chickens"]
+			description: ["Captures small mobs like chickens"]
 			dependencies: ["7EFBB9A760690892"]
 			id: "5A2297A4C2BB4A7B"
 			tasks: [{
@@ -410,7 +477,7 @@
 			rewards: [{
 				id: "2CA9161E9A27FAE4"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
@@ -435,15 +502,23 @@
 				}
 			}]
 			rewards: [{
-				id: "0378ACBE594B8DE1"
-				type: "ftbmoney:money"
-				ftb_money: 1L
+				id: "0449E823EC60CD79"
+				type: "item"
+				item: {
+					id: "doggytalents:training_treat"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 		{
 			x: -2.0d
 			y: -1.0d
-			description: ["emits redstone signal when a key is used on it. The key can be renamed so only that key can be used."]
+			description: ["Emits redstone signal when a key is used on it. The key can be renamed so only that key can be used."]
 			dependencies: ["656E18F286DDF200"]
 			id: "5174D7892CC4EC9C"
 			tasks: [{
@@ -462,7 +537,7 @@
 			rewards: [{
 				id: "7B84D1CC2A665976"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
@@ -486,7 +561,7 @@
 			rewards: [{
 				id: "58B4812153C1E38B"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
@@ -519,12 +594,14 @@
 						}
 					}
 				}
+				count: 3
 			}]
 		}
 		{
 			x: -1.0d
 			y: -3.5d
-			description: ["can place blocks from a distance!"]
+			subtitle: "Cawcaw heehawww"
+			description: ["Can place blocks from a distance!"]
 			id: "44018815222E8CA9"
 			tasks: [{
 				id: "6179061DE2FEE6BC"
@@ -580,7 +657,7 @@
 			title: "How the tables have turned..."
 			x: -0.5d
 			y: 0.5d
-			description: ["rotates blocks and mobs standing on it"]
+			description: ["Rotates blocks and mobs standing on it"]
 			id: "6C27B8ECBE98B97A"
 			tasks: [{
 				id: "797AE75BADF88032"
@@ -598,13 +675,14 @@
 			rewards: [{
 				id: "435172B3707ACE3B"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
 			x: 0.0d
 			y: -0.5d
-			description: ["Launches you into the air when powered, or if you land on it from a high place"]
+			subtitle: "Where's the summer launcher?"
+			description: ["Launches you into the air when powered, or if you land on it from a high place (also while powered)."]
 			id: "33871879DC31D806"
 			tasks: [{
 				id: "66E7DA28B84ED6F9"
@@ -622,13 +700,17 @@
 			rewards: [{
 				id: "289A223170201F80"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
 			x: -3.0d
 			y: -1.0d
-			description: ["These strong doors can be locked with a key and can be opened with your hand."]
+			description: [
+				"These strong doors can be locked with a key and can be opened with your hand."
+				""
+				"Using a named key prevents other players from opening it unless they have the same key in their inventory/curio slot."
+			]
 			dependencies: ["656E18F286DDF200"]
 			id: "1A01E6EA78F32D04"
 			tasks: [
@@ -663,7 +745,7 @@
 				{
 					id: "5A8F33072CE67638"
 					type: "ftbmoney:money"
-					ftb_money: 50L
+					ftb_money: 65L
 				}
 				{
 					id: "442C0819A4C52690"
@@ -713,13 +795,14 @@
 			rewards: [{
 				id: "58FD7DB39E3AB2BD"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 15L
 			}]
 		}
 		{
 			x: 0.5d
 			y: 0.5d
-			description: ["Emits light based on its redstone signal."]
+			subtitle: "Dim the lights, please"
+			description: ["Emits light dependant on its reverse redstone signal."]
 			id: "589AAF1FD992CE82"
 			tasks: [{
 				id: "0112A5D6B124D755"
@@ -737,7 +820,7 @@
 			rewards: [{
 				id: "0B45903BA59420DC"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
@@ -835,7 +918,7 @@
 			rewards: [{
 				id: "2A25FDE281A1648D"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
@@ -883,7 +966,11 @@
 			disable_toast: true
 			x: -2.0d
 			y: 0.0d
-			description: ["A small early-game shulker box that can only hold 5 items. Carry too many in your inventory and you get slowed down"]
+			description: [
+				"A small early-game shulker box that can only hold 5 items. Carry too many in your inventory and you get slowed down"
+				""
+				"No reward because you start with one."
+			]
 			id: "347C4ABF9BCB62A2"
 			tasks: [{
 				id: "66388320D6EF886E"
@@ -897,11 +984,6 @@
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "51CB6B3699DD0DD9"
-				type: "ftbmoney:money"
-				ftb_money: 1L
 			}]
 		}
 		{
@@ -925,7 +1007,7 @@
 			rewards: [{
 				id: "3625E0F42D3737E0"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 8L
 			}]
 		}
 		{
@@ -987,7 +1069,7 @@
 			rewards: [{
 				id: "5A6BB54E75B014C8"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
@@ -1074,18 +1156,24 @@
 				{
 					id: "7E14F20DCBEF043E"
 					type: "ftbmoney:money"
-					ftb_money: 50L
+					ftb_money: 65L
 				}
 				{
 					id: "69A2EECF0E672EDF"
 					type: "xp"
 					xp: 250
 				}
+				{
+					id: "14F53191E2696E29"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
 			]
 		}
 		{
 			x: 2.5d
 			y: -3.0d
+			subtitle: "Scaling up in power"
 			description: ["Only drops from Respawned Ender Dragons. Used to create a copy of an elytra"]
 			id: "5C054B01A4C3BBE6"
 			tasks: [{
@@ -1104,7 +1192,7 @@
 			rewards: [{
 				id: "447F27BFA75D8A39"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
@@ -1161,12 +1249,13 @@
 			rewards: [{
 				id: "153D3A065FE6A07B"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
 			x: 3.5d
 			y: -3.0d
+			subtitle: "Players sure are heavy..."
 			description: ["Can only be activated by players."]
 			id: "4D7997F821600BF2"
 			tasks: [{
@@ -1185,12 +1274,13 @@
 			rewards: [{
 				id: "1766B6C16B27375B"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
 			x: -3.0d
 			y: -6.0d
+			subtitle: "How did the villagers even get this?"
 			description: ["The Brass Lantern can only be obtained from Librarian Villagers. You cannot find it anywhere else!"]
 			id: "60A8B8712FF18A56"
 			tasks: [{
@@ -1341,12 +1431,13 @@
 						}
 					}
 				}
-				count: 4
+				count: 6
 			}]
 		}
 		{
 			x: -4.5d
 			y: -3.0d
+			subtitle: "It's alive!"
 			description: ["Feed a Skeleton Horse a whole stack of rotten flesh to convert them into a Zombie Horse!"]
 			id: "62585DE5A68B21F3"
 			tasks: [{
@@ -1369,22 +1460,29 @@
 				observe_type: 5
 				to_observe: "minecraft:zombie_horse"
 			}]
-			rewards: [{
-				id: "08D5A62CE032C61E"
-				type: "item"
-				item: {
-					id: "minecraft:lingering_potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:strong_harming"
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			rewards: [
+				{
+					id: "08D5A62CE032C61E"
+					type: "item"
+					item: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "36680697534F983B"
+					type: "choice"
+					table_id: 7685042081442074286L
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -1411,7 +1509,7 @@
 			rewards: [{
 				id: "1303F725DD6638F9"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
@@ -1436,12 +1534,13 @@
 			rewards: [{
 				id: "795F188BD24E29E0"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
 			x: 3.0d
 			y: -5.0d
+			subtitle: "And I thought comparators were complex..."
 			description: ["Works like an inverted comparator; it combines the total of 3 sides (indicated by red triangles) into the 4th side."]
 			id: "1997E229249CB00E"
 			tasks: [{
@@ -1460,7 +1559,7 @@
 			rewards: [{
 				id: "34AEDD1BE60DDA63"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
@@ -1485,11 +1584,27 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "5ACDF0E43FA26E35"
-				type: "ftbmoney:money"
-				ftb_money: 1L
-			}]
+			rewards: [
+				{
+					id: "5ACDF0E43FA26E35"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "53978E94589FB198"
+					type: "item"
+					item: {
+						id: "atum:linen_thread"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -1556,12 +1671,13 @@
 			rewards: [{
 				id: "07BE3BDAEE2CB0A4"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
 			x: 2.0d
 			y: 0.0d
+			subtitle: "Painful traffic cones"
 			description: [
 				"A guardian spine can damage mobs that are on it while it is powered."
 				""
@@ -1584,12 +1700,13 @@
 			rewards: [{
 				id: "6BCB8D6C6DF3B500"
 				type: "ftbmoney:money"
-				ftb_money: 1L
+				ftb_money: 5L
 			}]
 		}
 		{
 			x: 3.0d
 			y: 0.0d
+			subtitle: "This one doesn't even look sharp..."
 			description: ["Like the guardian spine but does even more damage"]
 			dependencies: ["673F762A2111A156"]
 			id: "2D4A75D854C0A4E3"
@@ -1609,12 +1726,13 @@
 			rewards: [{
 				id: "0AB95E9D9866AA56"
 				type: "ftbmoney:money"
-				ftb_money: 3L
+				ftb_money: 10L
 			}]
 		}
 		{
 			x: 1.5d
 			y: 1.0d
+			subtitle: "I see you"
 			description: [
 				"Suprisingly, this is a block."
 				""
@@ -1638,7 +1756,101 @@
 			rewards: [{
 				id: "488F89C35CCA6617"
 				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			title: "VERTICAL SLABS?!!"
+			x: -4.5d
+			y: -4.0d
+			description: ["Yep, vertical slabs. They are just like slabs but upright."]
+			id: "68B6A48FF0CAC3D6"
+			tasks: [{
+				id: "36B92F4CE69673F2"
+				type: "item"
+				title: "Any #quark:vertical_slab"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "quark:vertical_slab"
+					}
+				}
+			}]
+			rewards: [{
+				id: "011191A56DB3ED52"
+				type: "ftbmoney:money"
 				ftb_money: 3L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			description: [
+				"When clicked, opens a screen allowing you can draw on it!"
+				""
+				"Click and drag black pixels to make it white, click and drag white pixels to make them dark again."
+				""
+				"Retains drawing even when broken."
+			]
+			id: "1F4D4B7F7BFFE905"
+			tasks: [{
+				id: "7319C5B794C2989E"
+				type: "item"
+				item: {
+					id: "supplementaries:blackboard"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3A7D2BF21A310A97"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+				}
+				{
+					id: "14988FCA9C5454A0"
+					type: "item"
+					item: "minecraft:golden_carrot"
+				}
+				{
+					id: "55DBF9AB804E499E"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			description: [
+				"An arcade from builders addition."
+				""
+				"Yes it actually works."
+			]
+			id: "57F60EAC931B94BA"
+			tasks: [{
+				id: "42EF87A47B7EEA72"
+				type: "item"
+				item: {
+					id: "buildersaddition:arcade_oak"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B96B4F4595B2076"
+				type: "ftbmoney:money"
+				ftb_money: 5L
 			}]
 		}
 	]

@@ -1,11 +1,11 @@
 {
 	id: "64BDE577925E9849"
 	group: "241F1DC7B6D6E9D6"
-	order_index: 5
+	order_index: 6
 	filename: "into_the_sands"
 	title: "Into the sands"
 	icon: "atum:scarab"
-	subtitle: ["Atum 2"]
+	subtitle: ["A tomb in Atum"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
@@ -71,54 +71,6 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -3.5d
-			dependencies: ["0B31940CA9D2174C"]
-			id: "44FA7602468F715F"
-			tasks: [{
-				id: "28DCB71CE4F09570"
-				type: "item"
-				item: "atum:relic_dirty_necklace"
-			}]
-			rewards: [{
-				id: "702996D2214CF377"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: 1.5d
-			y: -3.5d
-			dependencies: ["0B31940CA9D2174C"]
-			id: "5203A1A138F6C52B"
-			tasks: [{
-				id: "44EF93BF1F17E60B"
-				type: "item"
-				item: "atum:relic_dirty_bracelet"
-			}]
-			rewards: [{
-				id: "378D34BC9901C687"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: -2.0d
-			y: -3.5d
-			dependencies: ["0B31940CA9D2174C"]
-			id: "354818C177588C52"
-			tasks: [{
-				id: "03AD6BE87589A2D2"
-				type: "item"
-				item: "atum:relic_dirty_ring"
-			}]
-			rewards: [{
-				id: "7A964F281312B3E8"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
 			x: 0.5d
 			y: -1.0d
 			dependencies: ["0B31940CA9D2174C"]
@@ -130,38 +82,6 @@
 			}]
 			rewards: [{
 				id: "789139B5E7FF3C1E"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: 8.5d
-			y: -3.5d
-			dependencies: ["0B31940CA9D2174C"]
-			id: "43CC5882023343EA"
-			tasks: [{
-				id: "730E98CDDACD6C66"
-				type: "item"
-				item: "atum:relic_dirty_idol"
-			}]
-			rewards: [{
-				id: "5B367DC995131357"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: 5.0d
-			y: -3.5d
-			dependencies: ["0B31940CA9D2174C"]
-			id: "296ECB07D46243CA"
-			tasks: [{
-				id: "61F6C53C34BDEEDF"
-				type: "item"
-				item: "atum:relic_dirty_brooch"
-			}]
-			rewards: [{
-				id: "21E8CC7C739F50C3"
 				type: "xp"
 				xp: 100
 			}]
@@ -532,400 +452,13 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -4.5d
-			dependencies: ["44FA7602468F715F"]
-			id: "01D1C691EC6EAE4C"
-			tasks: [{
-				id: "0F5F3CE12D50785F"
-				type: "item"
-				item: "atum:relic_silver_necklace"
-			}]
-			rewards: [{
-				id: "01B93EDDF0236E32"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: -6.5d
-			y: -5.5d
-			dependencies: ["44FA7602468F715F"]
-			id: "0BCEA74C0808FAD8"
-			tasks: [{
-				id: "53E41BD659BF157E"
-				type: "item"
-				item: "atum:relic_gold_necklace"
-			}]
-			rewards: [
-				{
-					id: "293170E221F60A2F"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "4F84A4A561B170D4"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "774F983AAAECB27F"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: -6.0d
-			y: -6.5d
-			dependencies: ["44FA7602468F715F"]
-			id: "1E2F726CC4ECF724"
-			tasks: [{
-				id: "74E516991A2ECA0A"
-				type: "item"
-				item: "atum:relic_sapphire_necklace"
-			}]
-			rewards: [
-				{
-					id: "1B1DE91D0C5FE254"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "40F0AE3F28DF13F1"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "4C30F3F71755479D"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: -4.5d
-			y: -4.5d
-			dependencies: ["44FA7602468F715F"]
-			id: "184A34BF0798E81D"
-			tasks: [{
-				id: "4B689185439F9205"
-				type: "item"
-				item: "atum:relic_emerald_necklace"
-			}]
-			rewards: [
-				{
-					id: "6291D7DA00070C21"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "2AA242A70816B1EB"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "07AF144536F79691"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: -5.0d
-			y: -6.5d
-			dependencies: ["44FA7602468F715F"]
-			id: "6606E3F1248DC4A5"
-			tasks: [{
-				id: "540D5E0B18D13358"
-				type: "item"
-				item: "atum:relic_ruby_necklace"
-			}]
-			rewards: [
-				{
-					id: "0E31EA7015468B4F"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "5CF0B949C5B54973"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "33A9990DE02BDF5F"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: -4.5d
-			y: -5.5d
-			dependencies: ["44FA7602468F715F"]
-			id: "679CB16B5DF3D016"
-			tasks: [{
-				id: "40237594E7990123"
-				type: "item"
-				item: "atum:relic_diamond_necklace"
-			}]
-			rewards: [
-				{
-					id: "566679CD707F628D"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "6182441190D1D50C"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "61C583719ED2110E"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: -3.0d
-			y: -4.5d
-			dependencies: ["354818C177588C52"]
-			id: "7667BFE44F69BFE9"
-			tasks: [{
-				id: "6D7346F1130252F4"
-				type: "item"
-				item: "atum:relic_silver_ring"
-			}]
-			rewards: [{
-				id: "79C462D80DE8AD70"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: -3.0d
-			y: -5.5d
-			dependencies: ["354818C177588C52"]
-			id: "16BA3A41907447B8"
-			tasks: [{
-				id: "4B2C62F1FD873AC7"
-				type: "item"
-				item: "atum:relic_gold_ring"
-			}]
-			rewards: [
-				{
-					id: "44C74ECB58DEC445"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "6AE6540BC9A6DFCF"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "1036E317A3A47AB4"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: -2.5d
-			y: -6.5d
-			dependencies: ["354818C177588C52"]
-			id: "242FF1AFF714FDE0"
-			tasks: [{
-				id: "1F6CE27AEC27C9A8"
-				type: "item"
-				item: "atum:relic_sapphire_ring"
-			}]
-			rewards: [
-				{
-					id: "1C93B9B17766C155"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "208214C90DD2D94F"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "4EB1E43145B0DF7A"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: -1.5d
-			y: -6.5d
-			dependencies: ["354818C177588C52"]
-			id: "457BF5A4D78A70FC"
-			tasks: [{
-				id: "4EC8C601CC9AF74F"
-				type: "item"
-				item: "atum:relic_ruby_ring"
-			}]
-			rewards: [
-				{
-					id: "51EE85302687474D"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "019253E545278579"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "7CD4DA8AC5EFFE76"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: -1.0d
-			y: -4.5d
-			dependencies: ["354818C177588C52"]
-			id: "5A97A41D2C56DA31"
-			tasks: [{
-				id: "4722683C52689E85"
-				type: "item"
-				item: "atum:relic_emerald_ring"
-			}]
-			rewards: [
-				{
-					id: "421801C24595ACEF"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "403B7CAC5340D224"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "5209C5FF32F4C58D"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: -1.0d
-			y: -5.5d
-			dependencies: ["354818C177588C52"]
-			id: "3FC975909C4A51F0"
-			tasks: [{
-				id: "6CDB807D1EE8C650"
-				type: "item"
-				item: "atum:relic_diamond_ring"
-			}]
-			rewards: [
-				{
-					id: "72E218BFBE00705A"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "7FFEF09FAD35A3A3"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "51C46501D176D7B4"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
 			x: -0.5d
 			y: -1.0d
+			description: [
+				"Can be used to trade with Atum Villagers."
+				""
+				"&6If a villager does not have any trades you may need to relog"
+			]
 			dependencies: ["588B4B156084E534"]
 			id: "7A5718AFBC7DE7CC"
 			tasks: [{
@@ -972,595 +505,6 @@
 							}
 						}
 					}
-				}
-			]
-		}
-		{
-			x: 0.5d
-			y: -5.5d
-			dependencies: ["5203A1A138F6C52B"]
-			id: "0F535B520AA86577"
-			tasks: [{
-				id: "08F344C2A22A576E"
-				type: "item"
-				item: "atum:relic_gold_bracelet"
-			}]
-			rewards: [
-				{
-					id: "61C7FFB02BFC2B7E"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "5C60E1439FBCA98F"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "42034DCD38ECF557"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 0.5d
-			y: -4.5d
-			dependencies: ["5203A1A138F6C52B"]
-			id: "5E96B592F5F63CBD"
-			tasks: [{
-				id: "5F8F33F00553EBF8"
-				type: "item"
-				item: "atum:relic_silver_bracelet"
-			}]
-			rewards: [{
-				id: "750ED35E7097D19D"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: 1.0d
-			y: -6.5d
-			dependencies: ["5203A1A138F6C52B"]
-			id: "1882DA1A8C96824C"
-			tasks: [{
-				id: "4E145E2E28EDE59B"
-				type: "item"
-				item: "atum:relic_sapphire_bracelet"
-			}]
-			rewards: [
-				{
-					id: "622CF21F0B5C91CA"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "316B75BA9D19AE6E"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "2BDB3171E3A441BF"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 2.0d
-			y: -6.5d
-			dependencies: ["5203A1A138F6C52B"]
-			id: "23567C12FFA51D74"
-			tasks: [{
-				id: "34B8533CC1A35960"
-				type: "item"
-				item: "atum:relic_ruby_bracelet"
-			}]
-			rewards: [
-				{
-					id: "1BD33E0677D97D2A"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "4ED801704598B219"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "6465DA58B25BECD0"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 2.5d
-			y: -5.5d
-			dependencies: ["5203A1A138F6C52B"]
-			id: "7EAB895C4146339D"
-			tasks: [{
-				id: "3823AB6B62582B6B"
-				type: "item"
-				item: "atum:relic_diamond_bracelet"
-			}]
-			rewards: [
-				{
-					id: "3D8565C9E493F32C"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "73867093657AE9BD"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "3E2F31FA4DBCE0D9"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 2.5d
-			y: -4.5d
-			dependencies: ["5203A1A138F6C52B"]
-			id: "70E06E3EA6D6580E"
-			tasks: [{
-				id: "4C8057C4437B8388"
-				type: "item"
-				item: "atum:relic_emerald_bracelet"
-			}]
-			rewards: [
-				{
-					id: "20024705743A92AF"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "6A5A5D5E633FE5D9"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "6215CEFF9009EC26"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 4.0d
-			y: -4.5d
-			dependencies: ["296ECB07D46243CA"]
-			id: "469D217033B364B1"
-			tasks: [{
-				id: "64267FCA8C4A7E64"
-				type: "item"
-				item: "atum:relic_silver_brooch"
-			}]
-			rewards: [{
-				id: "389148B170824AE7"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: 4.0d
-			y: -5.5d
-			dependencies: ["296ECB07D46243CA"]
-			id: "7034B6C72257E8DB"
-			tasks: [{
-				id: "13A1633439C69FFE"
-				type: "item"
-				item: "atum:relic_gold_brooch"
-			}]
-			rewards: [
-				{
-					id: "3C4BD8EC8789A35A"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "471423EFFFFFD379"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "3CF3C8E245CAB36A"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 4.5d
-			y: -6.5d
-			dependencies: ["296ECB07D46243CA"]
-			id: "4D724A0C4A9435DF"
-			tasks: [{
-				id: "4DA074E1A505CF21"
-				type: "item"
-				item: "atum:relic_sapphire_brooch"
-			}]
-			rewards: [
-				{
-					id: "35C1E7E126BA0226"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "4385E7FE0E32D79F"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "07542A949DFD6E17"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 5.5d
-			y: -6.5d
-			dependencies: ["296ECB07D46243CA"]
-			id: "60024A6205AE28C9"
-			tasks: [{
-				id: "49DD0B8FED2A2A31"
-				type: "item"
-				item: "atum:relic_ruby_brooch"
-			}]
-			rewards: [
-				{
-					id: "484A28A985B70DC7"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "5DBC391FA5533084"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "39A50E962730334C"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 6.0d
-			y: -4.5d
-			dependencies: ["296ECB07D46243CA"]
-			id: "45C2FCA151CDF9C2"
-			tasks: [{
-				id: "6D75E8DA87335B26"
-				type: "item"
-				item: "atum:relic_emerald_brooch"
-			}]
-			rewards: [
-				{
-					id: "1F401396857EF4B9"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "3D412435B5D93A09"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "0EC59C39E9B328C5"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 6.0d
-			y: -5.5d
-			dependencies: ["296ECB07D46243CA"]
-			id: "7E13383BA7290593"
-			tasks: [{
-				id: "2D42EB910E8668D2"
-				type: "item"
-				item: "atum:relic_diamond_brooch"
-			}]
-			rewards: [
-				{
-					id: "2DC7D8C703A8B536"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "768444FB16DD8CD7"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "28EB19B22EFAE629"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 7.5d
-			y: -4.5d
-			dependencies: ["43CC5882023343EA"]
-			id: "0399563A92B57346"
-			tasks: [{
-				id: "32EACA39AE8714D9"
-				type: "item"
-				item: "atum:relic_silver_idol"
-			}]
-			rewards: [{
-				id: "25CFA54926DBD601"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: 8.0d
-			y: -6.5d
-			dependencies: ["43CC5882023343EA"]
-			id: "340C50F0DC60500B"
-			tasks: [{
-				id: "211D011497BE4397"
-				type: "item"
-				item: "atum:relic_sapphire_idol"
-			}]
-			rewards: [
-				{
-					id: "4EB463E030B8E585"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "19C8E34D3B79AA5F"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "3C58D95623888608"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 9.0d
-			y: -6.5d
-			dependencies: ["43CC5882023343EA"]
-			id: "2111C2B69395031A"
-			tasks: [{
-				id: "3D65735AD19F24E5"
-				type: "item"
-				item: "atum:relic_ruby_idol"
-			}]
-			rewards: [
-				{
-					id: "1601A42EDEDB24A9"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "35BBC5E982D3CE66"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "169892498335617C"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 9.5d
-			y: -4.5d
-			description: [""]
-			dependencies: ["43CC5882023343EA"]
-			id: "72B8966C744595E7"
-			tasks: [{
-				id: "2EBEC68F53553905"
-				type: "item"
-				item: "atum:relic_emerald_idol"
-			}]
-			rewards: [
-				{
-					id: "03FC95D4CF42DA3C"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "721AC98376DA05AC"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "7D0EAA0209D2DCBB"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 9.5d
-			y: -5.5d
-			dependencies: ["43CC5882023343EA"]
-			id: "47F455DEAB2998CA"
-			tasks: [{
-				id: "25EFC9B41894EF08"
-				type: "item"
-				item: "atum:relic_diamond_idol"
-			}]
-			rewards: [
-				{
-					id: "235C1DE5AD00A2D7"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "167267C4824FA310"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "2A8ACEB9E13416EC"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 7.5d
-			y: -5.5d
-			dependencies: ["43CC5882023343EA"]
-			id: "474E2CC9D6598CE4"
-			tasks: [{
-				id: "0EF848353AAE9E5F"
-				type: "item"
-				item: "atum:relic_gold_idol"
-			}]
-			rewards: [
-				{
-					id: "0CB078F1CC282CF8"
-					type: "item"
-					item: {
-						id: "minecraft:gold_nugget"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "4DA55F42BC73CC12"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "0943A5D21BFC056C"
-					type: "xp"
-					xp: 100
 				}
 			]
 		}
@@ -1683,6 +627,13 @@
 		{
 			x: 2.0d
 			y: 4.5d
+			description: [
+				"This weapon's damage increases as you defeat mobs with it."
+				""
+				"At the final tier it can deal double damage against non-undead enemies."
+				""
+				"It also can gather souls for dungeons gear artifacts."
+			]
 			id: "38E0F2EEBDD1D58C"
 			tasks: [{
 				id: "1DEAAC3117F2BB23"
@@ -1789,8 +740,10 @@
 			]
 		}
 		{
+			title: "Atem Armor"
 			x: 5.0d
 			y: 1.0d
+			description: ["Full set teleports you back to spawn if you would otherwise die."]
 			id: "0EEA858378C7FB99"
 			tasks: [
 				{
@@ -1880,6 +833,11 @@
 		{
 			x: 5.0d
 			y: 2.0d
+			description: [
+				"This instantly teleports you back to spawn, which works across dimensions."
+				""
+				"Unlike the dimensional carver this &ldoes &rbreak when it runs out of durability so be careful"
+			]
 			id: "34F4E8BE4EAFC1C1"
 			tasks: [{
 				id: "20F47D51DE232006"
@@ -1986,8 +944,10 @@
 			]
 		}
 		{
+			title: "Ra Armor"
 			x: 9.5d
 			y: 0.0d
+			description: ["Full set gives immunity to fire damage."]
 			id: "642695668CF70DBD"
 			tasks: [
 				{
@@ -2077,6 +1037,7 @@
 		{
 			x: 8.5d
 			y: 5.0d
+			subtitle: "RAAAAAAAAAAAAAHHHH!"
 			id: "5A69C0189D81BF3D"
 			tasks: [{
 				id: "339906F1CBD5F32A"
@@ -2357,6 +1318,7 @@
 		{
 			x: 6.5d
 			y: 1.0d
+			subtitle: "You've heard of Sethbling, now get ready for..."
 			id: "3DF6539FA3C166C4"
 			tasks: [{
 				id: "207B21B5D4A43C7A"
@@ -2411,6 +1373,7 @@
 		{
 			x: 3.5d
 			y: 6.0d
+			description: ["Has a chance to turn iron ores into gold!"]
 			id: "7D035D0842DB4C30"
 			tasks: [{
 				id: "3F126B75E38F0DB3"
@@ -2901,6 +1864,13 @@
 		{
 			x: 2.0d
 			y: 6.0d
+			description: [
+				"Strikes lightning on foes it is thrown on, like a channeling trident but regardless of the weather."
+				""
+				"It also returns to you when thrown and can be enchanted with Snare to slow down enemies."
+				""
+				"However it has around a 1 second longer charge time than a trident, meaning you will need to hold the use button for longer even after the throwing animation finishes."
+			]
 			id: "1CA7BAEB6F09143E"
 			tasks: [{
 				id: "31D97ADD00CCC4B8"
@@ -2955,6 +1925,7 @@
 		{
 			x: 5.0d
 			y: 4.5d
+			description: ["Very slightly increases your movement speed and emits fancy particles when you walk."]
 			id: "170E3741104776E6"
 			tasks: [{
 				id: "36F1FE0FAFFE4D87"
@@ -3065,6 +2036,7 @@
 		{
 			x: 3.5d
 			y: 4.5d
+			description: ["An axe that when the attack cooldown meter is full lets you deal damage to all nearby mobs and knock them back."]
 			id: "5CCCC5CE8922EA0F"
 			tasks: [{
 				id: "7DC1876DE9724E2B"
@@ -3227,6 +2199,7 @@
 		{
 			x: 9.5d
 			y: 5.0d
+			description: ["Wherever a fully charged arrow lands or after 1 second in mid-air it will turn into 5 arrows that drop to the ground"]
 			id: "0D631E9919C0A334"
 			tasks: [{
 				id: "061C127FED93DB0F"
@@ -3561,6 +2534,11 @@
 		{
 			x: 0.0d
 			y: 1.5d
+			description: [
+				"Dates can be found in various chest loot throughout atum."
+				""
+				"They can also be farmed by using bone meal on the bottom of a palm leaves block, if there is a palm log adjacent to the spot 1 block below the leaves."
+			]
 			id: "03CE6291D7B14D58"
 			tasks: [{
 				id: "6CD341BF2DD17B27"
@@ -3588,6 +2566,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
+			description: ["An alternative way of making Potions of Regeneration."]
 			dependencies: ["03CE6291D7B14D58"]
 			id: "64EF624F536E39AF"
 			tasks: [{
@@ -3841,6 +2820,8 @@
 		{
 			x: -2.0d
 			y: 3.0d
+			subtitle: "Nyeh heh heh!"
+			description: ["Used to make a scroll, an alternative to paper in crafting recipes."]
 			id: "037EB0B707B88A91"
 			tasks: [{
 				id: "7FFD535028D2E28D"
@@ -3893,33 +2874,6 @@
 				id: "67A10B17F81DB623"
 				type: "xp"
 				xp: 100
-			}]
-		}
-		{
-			x: -2.0d
-			y: 4.5d
-			id: "067347768F36B92D"
-			tasks: [{
-				id: "7675CF99149D7B4A"
-				type: "item"
-				item: "atum:wolf_pelt"
-			}]
-			rewards: [{
-				id: "719B3CC564B7CBDE"
-				type: "item"
-				item: {
-					id: "ftbquests:lootcrate"
-					Count: 1b
-					tag: {
-						type: "materials_monsters"
-						rpgloot.randomize: 0b
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
 			}]
 		}
 		{
@@ -4601,15 +3555,7 @@
 		}
 		{
 			title: "Desert Secrets"
-			icon: {
-				id: "atum:sarcophagus"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "atum:sarcophagus"
 			x: 5.0d
 			y: -2.0d
 			subtitle: "Long Since Forgotten"
@@ -4716,7 +3662,10 @@
 				"These relics need to be washed. To do so drop them carefully into water. (This also works dropping into a cauldron of water.)"
 				""
 				"Sometimes you may randomly fumble while washing them off and the item will be destroyed."
+				""
+				"&6You only need to collect 1 to complete this quest."
 			]
+			min_required_tasks: 1
 			id: "0B31940CA9D2174C"
 			tasks: [
 				{
@@ -4817,6 +3766,64 @@
 					id: "1755E31270AF469B"
 					type: "xp"
 					xp: 100
+				}
+			]
+		}
+		{
+			title: "Jewelry in the Sands"
+			x: 0.0d
+			y: -4.0d
+			description: [
+				"Jewelry are curios that provide small pmmo XP Boosts to the player. They come in 6 tiers, with each tier giving more XP than the last:"
+				""
+				"These tiers are: &7Silver, &6Gold, &1Sapphire, &4Ruby, &2Emerald, &rand &bDiamond."
+				""
+				"The Xp type given is also based on what the jewelry is."
+				""
+				"Idols give &cCombat"
+				"Necklaces give &dMagic"
+				"Rings give &6Gathering&r and &bMining"
+				"Brooches give &4Endurance"
+				"Bracelets give &eArchery"
+			]
+			dependencies: ["0B31940CA9D2174C"]
+			size: 1.5d
+			id: "0424E7A1144E9447"
+			tasks: [{
+				id: "2E973EF8B529E7EE"
+				type: "item"
+				title: "Any #atum:relic_non_dirty"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "atum:relic_non_dirty"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2DB2DCD0533D2B88"
+					type: "item"
+					item: {
+						id: "minecraft:gold_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "76D0EDD7B51800AE"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "2A1D2CA72AF84E6D"
+					type: "xp"
+					xp: 150
 				}
 			]
 		}

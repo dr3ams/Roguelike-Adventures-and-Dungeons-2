@@ -396,6 +396,7 @@
 					Damage: 0
 				}
 			}
+			disable_toast: true
 			x: -2.5d
 			y: 15.0d
 			shape: "octagon"
@@ -896,6 +897,8 @@
 		{
 			x: -13.5d
 			y: 12.5d
+			shape: "rsquare"
+			description: ["Great value earlygame, better than bread but requires a bit more crafting"]
 			id: "00000000000013E3"
 			tasks: [{
 				id: "00000000000013E4"
@@ -986,6 +989,12 @@
 		{
 			x: -15.0d
 			y: 23.5d
+			shape: "rsquare"
+			description: [
+				"Another food that I think has great value."
+				""
+				"Almost full hunger restoration for relatively simple midgame ingredients."
+			]
 			id: "00000000000013EB"
 			tasks: [{
 				id: "00000000000013EC"
@@ -1241,6 +1250,7 @@
 		{
 			title: "Soup, Salad, and Casserole"
 			icon: "simplefarming:spinach_quinoa_quiche"
+			disable_toast: true
 			x: 10.75d
 			y: 11.0d
 			shape: "diamond"
@@ -1262,7 +1272,6 @@
 				"00000000000013F5"
 				"00000000000013FD"
 			]
-			hide: true
 			size: 2.0d
 			optional: true
 			id: "22A371ED8FFC7FFF"
@@ -1274,6 +1283,7 @@
 		{
 			title: "Two Slices of Bread and Anything"
 			icon: "fins:crab_sandwich"
+			disable_toast: true
 			x: -15.75d
 			y: 20.5d
 			shape: "diamond"
@@ -1291,7 +1301,6 @@
 				"00000000000013EB"
 				"0000000000001401"
 			]
-			hide: true
 			size: 2.0d
 			optional: true
 			id: "64725ADDE2ACEA50"
@@ -1303,6 +1312,7 @@
 		{
 			title: "All Around the World"
 			icon: "simplefarming:chicken_curry"
+			disable_toast: true
 			x: -15.75d
 			y: 11.0d
 			shape: "diamond"
@@ -1324,7 +1334,6 @@
 				"00000000000013E7"
 				"00000000000013C7"
 			]
-			hide: true
 			size: 2.0d
 			optional: true
 			id: "2B31C2CFA31CBE7F"
@@ -1374,7 +1383,7 @@
 			y: 26.0d
 			shape: "hexagon"
 			description: ["Each type of drink will provide useful benefit"]
-			dependencies: ["19A4385584636C45"]
+			dependencies: ["32D6083223BDCD90"]
 			size: 1.5d
 			id: "0960AD8BA5C09440"
 			tasks: [{
@@ -1773,15 +1782,56 @@
 			]
 		}
 		{
+			title: "Heat Sources"
 			x: -2.5d
-			y: 29.5d
-			size: 1.5d
+			y: 26.0d
+			shape: "hexagon"
+			subtitle: "Going Camping"
+			description: ["Many blocks can serve as a heat source for cooking pots, skillets and kettles, like &afire&r, &acampfires&r, &abraziers&r, and even &amagma blocks&r!"]
+			size: 2.0d
+			min_required_tasks: 1
 			id: "32D6083223BDCD90"
-			tasks: [{
-				id: "2F29C6C3020F6B0A"
-				type: "item"
-				item: "minecraft:campfire"
-			}]
+			tasks: [
+				{
+					id: "53653895BE738BAE"
+					type: "item"
+					item: {
+						id: "minecraft:campfire"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2DA94E15D4E1A98A"
+					type: "item"
+					item: {
+						id: "decorative_blocks:brazier"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3C9608A0B6BE8686"
+					type: "item"
+					item: {
+						id: "minecraft:magma_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "39474A18862183A9"
@@ -1794,15 +1844,16 @@
 					item: "kubejs:copper_coin"
 				}
 				{
-					id: "5036299CEDA9E672"
-					type: "xp_levels"
-					xp_levels: 1
+					id: "383651E487A75F3B"
+					type: "xp"
+					xp: 10
 				}
 			]
 		}
 		{
 			x: -6.5d
 			y: 22.0d
+			description: ["&6Tip: A Strider Slice drops from Striders (and rarely straddlers) and does not burn in lava, so harvesting it is not as difficult as expected."]
 			hide_dependency_lines: true
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "29DA0B063A256624"
@@ -1835,6 +1886,7 @@
 		{
 			x: 3.5d
 			y: 28.0d
+			description: ["&6Tip: A Strider Slice drops from Striders (and rarely straddlers) and does not burn in lava, so harvesting it is not as difficult as expected."]
 			dependencies: ["2FEC85DD348C7C1C"]
 			id: "14D298CB7608D220"
 			tasks: [{
@@ -1963,20 +2015,15 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 26.0d
+			x: -3.0d
+			y: 28.0d
 			shape: "hexagon"
 			description: [
-				"The Stove is a direct upgrade to the Campfire's cooking features, and a suitable heat source for the Cooking Pot."
+				"A stove is an upgrade from a campfire, it can cook up to &e6&r items placed on it at a time instead of 4."
 				""
-				"To add items to its grill, simply right-click the Stove when it has no objects blocking its top face. Stoves detect campfire recipes to cook, meaning they usually also take 30 seconds to fully prepare items. Stoves cannot be automated through item transferring blocks (e.g. Hoppers), but require no fuel to cook items, much like a Campfire."
-				""
-				"Stoves can hold six (6) items on its grill, and will gently pop cooked outputs above its surface, instead of throwing them around."
-				""
-				"Stoves can be put out using shovels or buckets of water, and reignited with Flint and Steel."
+				"It also does all the other things a campfire can, like acting as a &eheat source&r for &acooking pots&r and &askillets&r, damaging entities standing on it, and can be extinguished with a shovel/water bucket and reignited with an igniting item like flint and steel."
 			]
 			dependencies: ["32D6083223BDCD90"]
-			size: 1.5d
 			id: "19A4385584636C45"
 			tasks: [{
 				id: "6424A97C1667029E"
@@ -2022,13 +2069,13 @@
 			y: 20.0d
 			shape: "hexagon"
 			description: [
-				"The Cooking Pot is a workstation where you can both prepare and store a large amount of meals. When placed above any suitable heat source (campfire, open flames, lava, a stove etc.), it will start bubbling, indicating it's ready to cook."
+				"The &aCooking Pot&r is a workstation where you can both prepare and store a large amount of meals. When placed above any suitable heat source (campfire, open flames, lava, a stove etc.), it will start bubbling, indicating it's ready to cook."
 				""
-				"You can put up to six ingredients inside a pot. If they match, the pot will start cooking them up into a meal. Most meals need a container to be served on, such as Bowls; the result slot will tell you which one to use. Simply add the container on the corresponding slot, or right-click the pot with it, to take a serving!"
+				"You can put up to six ingredients inside a pot. If they match, the pot will start cooking them up into a &ameal&r. Most &ameals&r need a container to be served on, such as &aBowls&r; the result slot will tell you which one to use. Simply add the container on the corresponding slot, or &3right-click&r the pot with it, to take a serving!"
 				""
-				"Meals tend to be quite large, so they don't stack up as high in your inventory. If you're not going to eat them all right away, you can just mine the whole pot and take it with you! Cooking Pots can hold 64 servings of any meal with a container, regardless of their maximum stack limit."
+				"&aMeals&r tend to be quite large, so they don't stack up as high in your inventory. If you're not going to eat them all right away, you can just mine the whole pot and take it with you! Cooking Pots can hold 64 servings of any meal with a container, regardless of their maximum stack limit."
 			]
-			dependencies: ["19A4385584636C45"]
+			dependencies: ["32D6083223BDCD90"]
 			size: 2.0d
 			id: "18F8DADD01FEC9C2"
 			tasks: [{
@@ -2068,12 +2115,21 @@
 			rewards: [{
 				id: "2538FF1A0AAE6B7A"
 				type: "item"
-				item: "aquaculture:lockbox"
+				item: {
+					id: "kubejs:iron_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 		{
 			x: -1.5d
 			y: 17.5d
+			shape: "rsquare"
 			description: ["When consumed, it will remove a single random negative effect from the player, keeping positive ones untouched. This provides a simple use for Cocoa Beans in difficult, risky trips."]
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "55AF1779E7AE28A7"
@@ -2091,6 +2147,12 @@
 		{
 			x: 1.5d
 			y: 22.0d
+			subtitle: "You can be a big pig too"
+			description: [
+				"A massive dish with 9 servings total."
+				""
+				"Also provides Nourishment like other meals despite the plates not saying so in the tooltips."
+			]
 			dependencies: ["619A52669514E850"]
 			id: "54890B0F03CB39E0"
 			tasks: [{
@@ -2139,7 +2201,6 @@
 				""
 				"They are also used to cut certain foods on the cutting board."
 			]
-			dependencies: ["19A4385584636C45"]
 			size: 1.5d
 			id: "2FEC85DD348C7C1C"
 			tasks: [{
@@ -2238,7 +2299,12 @@
 		{
 			x: -6.5d
 			y: 23.5d
-			description: ["This combination allows wolves to catch up a lot more easily with you or nimble opponents, as well as last longer in battle."]
+			shape: "rsquare"
+			description: [
+				"This combination will &6fully heal&r any wolf-like pet it is fed to along with providing some extra effects for battle."
+				""
+				"Wolves, dogs and foxhounds alike will all enjoy some dog food."
+			]
 			dependencies: ["604569BC4764E258"]
 			id: "3693C3F67BD59401"
 			tasks: [{
@@ -2253,8 +2319,10 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: -5.0d
 			y: 22.0d
+			subtitle: "These meals provide great potion effects to certain tamed creatures"
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "604569BC4764E258"
 			tasks: [{
@@ -2269,13 +2337,16 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 0.0d
 			y: 22.0d
 			subtitle: "Feasts are very large meals, which can be placed as a block to provide multiple servings to players."
 			description: [
-				"Feasts are not edible directly as an item; they must be placed down as a block first. When placed, players can use (right-click) them with Bowls to serve themselves with a consumable portion."
+				"Feasts are not edible directly as an item; they must be &3placed down&r as a block first. When placed, players can use &3(right-click)&r them with &aBowls&r to serve themselves with a consumable portion."
 				""
-				"The existing feasts in Farmer's Delight provide 4 servings in total. Plated feasts will also leave behind leftovers in the form of a dirty plate; right-clicking or mining it will retrieve the original Bowl, and any bones or food scraps left behind."
+				"A feast serving provides the &eNourishment&r effect which makes the saturation bar not drain from moving and sprinting."
+				""
+				"The existing feasts in Farmer's Delight provide 4 servings in total. Plated feasts will also leave behind leftovers in the form of a dirty plate; &3right-clicking&r or mining it will retrieve the original &aBowl&r, and any bones or food scraps left behind."
 			]
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "619A52669514E850"
@@ -2309,6 +2380,8 @@
 		{
 			x: 1.5d
 			y: 20.5d
+			shape: "rsquare"
+			description: ["A plate of this food will provide all 5 nutrients at once!"]
 			dependencies: ["619A52669514E850"]
 			id: "41751B25A229932D"
 			tasks: [{
@@ -2325,6 +2398,8 @@
 		{
 			x: 1.5d
 			y: 23.5d
+			shape: "rsquare"
+			description: ["Out of the feasts this one tends to be the easiest to obtain."]
 			dependencies: ["619A52669514E850"]
 			id: "0F27533115C5827C"
 			tasks: [{
@@ -2853,6 +2928,8 @@
 		{
 			x: 8.5d
 			y: 25.5d
+			shape: "rsquare"
+			description: ["Very cheap to make thanks to the berry bushes. Great earlygame food source"]
 			id: "4427C8DD4E3B7E3B"
 			tasks: [{
 				id: "1A9E871DA8D4745B"
@@ -3158,6 +3235,11 @@
 		{
 			x: 11.5d
 			y: 25.5d
+			description: [
+				"It's a real shame these can't be cooked on campfires..."
+				""
+				"what a missed opportunity"
+			]
 			id: "1E10C0D99E06B5C8"
 			tasks: [{
 				id: "2638E590488A64E1"
@@ -3219,6 +3301,7 @@
 		{
 			x: -15.0d
 			y: 17.0d
+			description: ["What do you want me to say? It's pizza!"]
 			id: "6D2DE14EB2051FB7"
 			tasks: [{
 				id: "18C98E73F1FE3CC3"
@@ -3271,11 +3354,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "68090CC174B19A49"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "68090CC174B19A49"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "47946EE621019A57"
+					type: "xp"
+					xp: 1
+				}
+			]
 		}
 		{
 			x: -15.0d
@@ -3530,11 +3620,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "09A8E04952937D20"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "09A8E04952937D20"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "410EF25BD6F5AF0B"
+					type: "xp"
+					xp: 1
+				}
+			]
 		}
 		{
 			x: 13.0d
@@ -3623,6 +3720,8 @@
 		{
 			x: 9.5d
 			y: 20.0d
+			shape: "rsquare"
+			description: ["A good choice if you happen to find yourself in a biome with huge pumpkins"]
 			id: "60CB2DC710998BD1"
 			tasks: [{
 				id: "6F1A524D91500B5E"
@@ -3720,11 +3819,13 @@
 			]
 		}
 		{
-			title: "Cakes and Pies"
+			title: "Pies"
 			icon: "simplefarming:strawberry_pie"
+			disable_toast: true
 			x: -15.75d
 			y: 29.5d
 			shape: "diamond"
+			description: ["Not just made from pumpkins!"]
 			size: 2.0d
 			optional: true
 			id: "7B4567B19E7932E0"
@@ -3843,6 +3944,7 @@
 		{
 			title: "Sweets n` Snacks"
 			icon: "supplementaries:candy"
+			disable_toast: true
 			x: 10.75d
 			y: 22.5d
 			shape: "diamond"
@@ -3926,6 +4028,7 @@
 		{
 			x: 0.0d
 			y: 19.0d
+			description: ["Comes with the dlc, the soundtrack, the... wait wrong kind of Cod"]
 			hide_dependency_lines: true
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "650D31A3982255CD"
@@ -4046,6 +4149,7 @@
 		{
 			x: 4.5d
 			y: 22.0d
+			description: ["It is what it says."]
 			hide_dependency_lines: true
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "663AD475C9745103"
@@ -4751,6 +4855,7 @@
 		{
 			x: 6.0d
 			y: 20.5d
+			description: ["A taste that takes some getting used to"]
 			hide_dependency_lines: true
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "50349536A63FCF65"
@@ -5894,6 +5999,293 @@
 					}
 				}
 			}]
+		}
+		{
+			x: -5.5d
+			y: 27.0d
+			shape: "rsquare"
+			description: [
+				"Gives weakness but extends the duration of one of your current potion effects."
+				""
+				"Can be very powerful in the right hands..."
+			]
+			dependencies: ["0960AD8BA5C09440"]
+			id: "4E4B15BD47D9F608"
+			tasks: [{
+				id: "515D0B628518E460"
+				type: "item"
+				item: {
+					id: "farmersrespite:purulent_tea"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "496930D75138AD14"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "3CDDFBA24649F67A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -15.75d
+			y: 37.0d
+			shape: "rsquare"
+			description: ["Suprisingly good saturation for its cost"]
+			id: "1D2FA4C3CB9218FD"
+			tasks: [{
+				id: "5253E9E8ED04B884"
+				type: "item"
+				item: {
+					id: "berry_nice:sweetberrypie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0F1C416D4BB1F467"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "284806A2ADA546AA"
+					type: "xp"
+					xp: 1
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 35.5d
+			id: "7675F74772BA0E1E"
+			tasks: [{
+				id: "4244FD8AFB7EAE0C"
+				type: "item"
+				item: {
+					id: "byg:crimson_berry_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4260A342E9AA0DF8"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "486659E9AEB73BDB"
+					type: "xp"
+					xp: 1
+				}
+			]
+		}
+		{
+			x: -15.0d
+			y: 35.5d
+			id: "39E00257223A06F1"
+			tasks: [{
+				id: "4CD58A87EEAE7944"
+				type: "item"
+				item: {
+					id: "byg:nightshade_berry_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3EDB9E55312D5EA6"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "630478D0EFAA05E7"
+					type: "xp"
+					xp: 1
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 35.5d
+			id: "341EAE95183E8A16"
+			tasks: [{
+				id: "57BB86549B7F8D0D"
+				type: "item"
+				item: {
+					id: "byg:blueberry_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3D97D7A088A6931A"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3897C8FD34316D84"
+					type: "xp"
+					xp: 1
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 35.5d
+			id: "3A669D3B809EE530"
+			tasks: [{
+				id: "65317A86CDAD1B61"
+				type: "item"
+				item: {
+					id: "byg:green_apple_pie"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7E5C3E8C378D567B"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "3DB4B0D82BFF00C9"
+					type: "xp"
+					xp: 1
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 26.0d
+			description: [
+				"When holding a cookable food in the offhand hold right-click near a &aHeat Source&r to quickly cook it."
+				""
+				"You can also place it as a block above a &aheat source&r it serves as a very fast campfire, allowing a whole stack of items to be placed on it at once!"
+				"&3Sneak+right-click&r to place."
+				""
+				"Also a makeshift weapon with a funny sound, retains enchantments and other data when placed."
+			]
+			dependencies: ["32D6083223BDCD90"]
+			size: 1.25d
+			id: "653E36B253DB9A00"
+			tasks: [{
+				id: "63DFC8FB474A7ED0"
+				type: "item"
+				item: {
+					id: "farmersdelight:skillet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2790F0C912F82A23"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "7592B27CCD0742FF"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 28.0d
+			description: [
+				"Identical to the Stove, except it counts as cooking on a soul campfire."
+				""
+				"This means you can use it to scrap more &aaffix items&r at once."
+			]
+			dependencies: ["32D6083223BDCD90"]
+			id: "03A2AE8FCA79D472"
+			tasks: [{
+				id: "1650BAEF85CF89FC"
+				type: "item"
+				item: {
+					id: "nethers_delight:blackstone_stove"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "31BA633F0A6AE3CD"
+					type: "item"
+					item: {
+						id: "kubejs:iron_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3872101BA40C4DAC"
+					type: "xp"
+					xp: 130
+				}
+			]
 		}
 	]
 }

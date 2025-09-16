@@ -9,6 +9,7 @@
 		Count: 1b
 		tag: { }
 	}
+	subtitle: ["Curses and Curios"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	images: [{
@@ -791,6 +792,7 @@
 		{
 			x: 6.5d
 			y: 4.5d
+			description: ["Boosts your mining speed, fortune level and togglable night vision."]
 			dependencies: ["30BAA33E78499F26"]
 			id: "234B5DC00B2AFBFB"
 			tasks: [{
@@ -894,7 +896,11 @@
 		{
 			x: 6.5d
 			y: 3.5d
-			description: ["Can remove the ring of seven curses, but not without a sacrifice."]
+			description: [
+				"Can remove the ring of seven curses, but not without a sacrifice."
+				""
+				"&4This does not work in Hardcore Mode!"
+			]
 			dependencies: ["6E16203B7577B88A"]
 			optional: true
 			id: "67A6EE38F2FCE4AA"

@@ -1,6 +1,6 @@
 {
 	id: "06D97134E53F8B2D"
-	order_index: 44
+	order_index: 38
 	title: "Nether loot crate"
 	loot_size: 1
 	rewards: [
@@ -17,7 +17,7 @@
 					}
 				}
 			}
-			count: 64
+			count: 128
 		}
 		{
 			item: {
@@ -41,7 +41,7 @@
 					}
 				}
 			}
-			count: 16
+			count: 32
 		}
 		{
 			item: {
@@ -66,7 +66,18 @@
 		{ item: "minecraft:red_nether_bricks", count: 32 }
 		{ item: "minecraft:blackstone", count: 32 }
 		{ item: "minecraft:glowstone_dust", count: 16 }
-		{ item: "minecraft:gold_nugget", count: 16 }
+		{
+			item: {
+				id: "minecraft:gold_nugget"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 18
+		}
 		{ item: "minecraft:blaze_rod", count: 2 }
 		{ item: "minecraft:magma_cream", count: 4 }
 		{ item: "minecraft:ghast_tear", count: 2 }

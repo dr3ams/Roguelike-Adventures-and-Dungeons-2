@@ -1,7 +1,8 @@
 {
 	id: "74D5534F12831B4E"
-	order_index: 18
+	order_index: 16
 	title: "Hat crate"
+	icon: "atum:palm_crate"
 	loot_size: 1
 	use_title: true
 	rewards: [
@@ -12,8 +13,13 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
-			weight: 45
+			weight: 50
 		}
 		{
 			item: {
@@ -23,7 +29,7 @@
 					Damage: 0
 				}
 			}
-			weight: 35
+			weight: 40
 		}
 		{
 			item: {
@@ -32,8 +38,13 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
-			weight: 40
+			weight: 45
 		}
 		{
 			item: {
@@ -42,8 +53,13 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -52,8 +68,13 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -62,8 +83,13 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -72,8 +98,13 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -82,8 +113,13 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -92,8 +128,13 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -102,8 +143,13 @@
 				tag: {
 					Damage: 0
 				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -113,7 +159,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -123,7 +169,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -133,7 +179,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -143,7 +189,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -153,10 +199,27 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
-		{ item: "artifacts:novelty_drinking_hat", weight: 40 }
-		{ item: "artifacts:plastic_drinking_hat", weight: 40 }
+		{
+			item: {
+				id: "artifacts:novelty_drinking_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+					display: {
+						Name: "[{\"text\":\"Strange \",\"color\":\"gold\",\"italic\":\"false\"},{\"translate\":\"item.artifacts.novelty_drinking_hat\"}]"
+					}
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 12
+		}
+		{ item: "artifacts:plastic_drinking_hat", weight: 30 }
 		{
 			item: {
 				id: "artifacts:superstitious_hat"
@@ -165,9 +228,9 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
-		{ item: "artifacts:villager_hat", weight: 40 }
+		{ item: "artifacts:villager_hat", weight: 30 }
 		{
 			item: {
 				id: "atum:desert_helmet_diamond"
@@ -176,27 +239,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "atum:desert_helmet_gold"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "atum:desert_helmet_iron"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -206,27 +249,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "atum:wanderer_helmet"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
-		}
-		{
-			item: {
-				id: "blue_skies:pyrope_helmet"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -236,7 +259,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -246,7 +269,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -256,7 +279,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -266,7 +289,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -276,7 +299,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -286,7 +309,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -296,7 +319,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -306,7 +329,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -316,7 +339,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -326,7 +349,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -336,7 +359,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -346,7 +369,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -356,7 +379,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -366,7 +389,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -376,7 +399,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -386,7 +409,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -396,7 +419,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -406,7 +429,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -416,7 +439,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -426,7 +449,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -436,7 +459,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -446,7 +469,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -456,7 +479,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -466,7 +489,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -476,7 +499,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -486,7 +509,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -496,7 +519,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -506,7 +529,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -516,7 +539,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -526,7 +549,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -536,7 +559,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -546,7 +569,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -556,7 +579,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -566,7 +589,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -576,7 +599,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -586,7 +609,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -596,7 +619,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -606,7 +629,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -616,7 +639,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -626,7 +649,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -636,7 +659,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -646,7 +669,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -656,7 +679,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -666,7 +689,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -676,7 +699,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -686,7 +709,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -696,7 +719,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -706,7 +729,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -724,7 +747,7 @@
 					}
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -734,7 +757,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -749,7 +772,7 @@
 					}
 				}
 			}
-			weight: 4
+			weight: 12
 		}
 		{
 			item: {
@@ -764,7 +787,7 @@
 					}
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -774,7 +797,7 @@
 					Damage: 0
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			item: {
@@ -792,7 +815,224 @@
 					}
 				}
 			}
-			weight: 4
+			weight: 12
+		}
+		{
+			item: {
+				id: "eidolon:top_hat"
+				Count: 1b
+				tag: {
+					Unbreakable: 1b
+					"quark:RuneAttached": 1b
+					Enchantments: [{
+						lvl: 1
+						id: "apotheosis:infusion"
+					}]
+					"quark:RuneColor": {
+						id: "quark:magenta_rune"
+						Count: 1b
+					}
+					display: {
+						Name: "[{\"text\":\"Unusual \",\"color\":\"dark_purple\",\"italic\":\"false\"},{\"translate\":\"item.eidolon.top_hat\"}]"
+					}
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [
+								{
+									lvl: 10s
+									id: "ars_nouveau:mana_boost"
+								}
+								{
+									lvl: 1s
+									id: "tombstone:soulbound"
+								}
+							]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "dungeons_gear:ember_robes_helmet"
+				Count: 1b
+				tag: {
+					Unbreakable: 1b
+					"quark:RuneAttached": 1b
+					Enchantments: [{
+						lvl: 1
+						id: "apotheosis:infusion"
+					}]
+					"quark:RuneColor": {
+						id: "quark:magenta_rune"
+						Count: 1b
+					}
+					display: {
+						Name: "[{\"text\":\"Unusual \",\"color\":\"dark_purple\",\"italic\":\"false\"},{\"translate\":\"item.dungeons_gear.ember_robes_helmet\"}]"
+					}
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [
+								{
+									lvl: 10s
+									id: "dungeons_gear:fire_focus"
+								}
+								{
+									lvl: 1s
+									id: "tombstone:soulbound"
+								}
+							]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "rats:archeologist_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 30
+		}
+		{
+			item: {
+				id: "dungeons_gear:evocation_robes_helmet"
+				Count: 1b
+				tag: {
+					Affixes: {
+						"apotheosis:shield_damage": 1.0d
+					}
+					Damage: 0
+					display: {
+						Name: "[{\"text\":\"Strange \",\"color\":\"gold\",\"italic\":\"false\"},{\"translate\":\"item.dungeons_gear.evocation_robes_helmet\"}]"
+					}
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [{
+								lvl: 1s
+								id: "ars_nouveau:mana_boost"
+							}]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
+			}
+			weight: 12
+		}
+		{
+			item: {
+				id: "rats:fisherman_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 30
+		}
+		{
+			item: {
+				id: "pirate_hat:pirate_helmet"
+				Count: 1b
+				tag: {
+					Unbreakable: 1b
+					"quark:RuneAttached": 1b
+					Enchantments: [{
+						lvl: 1
+						id: "apotheosis:infusion"
+					}]
+					"quark:RuneColor": {
+						id: "quark:magenta_rune"
+						Count: 1b
+					}
+					display: {
+						Name: "[{\"text\":\"Unusual \",\"color\":\"dark_purple\",\"italic\":\"false\"},{\"translate\":\"item.pirate_hat.pirate_helmet\"}]"
+					}
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [
+								{
+									lvl: 10s
+									id: "minecraft:respiration"
+								}
+								{
+									lvl: 1s
+									id: "tombstone:soulbound"
+								}
+							]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "iceandfire:armor_silver_metal_helmet"
+				Count: 1b
+				tag: {
+					Unbreakable: 1b
+					"quark:RuneAttached": 1b
+					Enchantments: [{
+						lvl: 1
+						id: "apotheosis:infusion"
+					}]
+					"quark:RuneColor": {
+						id: "quark:magenta_rune"
+						Count: 1b
+					}
+					display: {
+						Name: "[{\"text\":\"Unusual \",\"color\":\"dark_purple\",\"italic\":\"false\"},{\"translate\":\"item.iceandfire.armor_silver_metal_helmet\"}]"
+					}
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [
+								{
+									lvl: 10s
+									id: "dungeons_gear:soul_focus"
+								}
+								{
+									lvl: 1s
+									id: "tombstone:soulbound"
+								}
+							]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
+				}
+			}
+			weight: 2
 		}
 	]
 	loot_crate: {
@@ -801,7 +1041,7 @@
 			passive: 0
 			monster: 0
 		}
-		color: 16777215
+		color: 6711425
 		string_id: "hat_crate"
 	}
 }

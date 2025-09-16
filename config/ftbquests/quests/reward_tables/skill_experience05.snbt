@@ -1,56 +1,77 @@
 {
 	id: "6AA6C10E54488EAE"
-	order_index: 53
-	title: "Skill Experience (50)"
+	order_index: 46
+	title: "Skill Experience (125)"
 	loot_size: 1
 	use_title: true
 	rewards: [
 		{
 			auto: "invisible"
+			skill: "combat"
+			amount: 125.0d
+			ignoreBonuses: true
+			type: "pmmo:xpreward"
+		}
+		{
+			auto: "invisible"
 			skill: "gathering"
-			amount: 50.0d
-			ignoreBonuses: false
+			amount: 125.0d
+			ignoreBonuses: true
 			type: "pmmo:xpreward"
 		}
 		{
 			auto: "invisible"
 			skill: "magic"
-			amount: 50.0d
-			ignoreBonuses: false
+			amount: 125.0d
+			ignoreBonuses: true
 			type: "pmmo:xpreward"
 		}
 		{
 			auto: "invisible"
 			skill: "endurance"
-			amount: 50.0d
-			ignoreBonuses: false
+			amount: 125.0d
+			ignoreBonuses: true
 			type: "pmmo:xpreward"
 		}
 		{
 			auto: "invisible"
 			skill: "smithing"
-			amount: 50.0d
-			ignoreBonuses: false
+			amount: 125.0d
+			ignoreBonuses: true
 			type: "pmmo:xpreward"
 		}
 		{
 			auto: "invisible"
 			skill: "farming"
-			amount: 50.0d
-			ignoreBonuses: false
+			amount: 125.0d
+			ignoreBonuses: true
 			type: "pmmo:xpreward"
 		}
 		{
 			auto: "invisible"
 			skill: "flying"
-			amount: 50.0d
-			ignoreBonuses: false
+			amount: 125.0d
+			ignoreBonuses: true
+			type: "pmmo:xpreward"
+		}
+		{
+			auto: "invisible"
+			skill: "fishing"
+			amount: 125.0d
+			ignoreBonuses: true
 			type: "pmmo:xpreward"
 		}
 		{
 			auto: "invisible"
 			skill: "archery"
-			amount: 50.0d
+			amount: 125.0d
+			ignoreBonuses: true
+			type: "pmmo:xpreward"
+		}
+		{
+			auto: "invisible"
+			skill: "swimming"
+			amount: 125.0d
 			ignoreBonuses: false
 			type: "pmmo:xpreward"
 		}

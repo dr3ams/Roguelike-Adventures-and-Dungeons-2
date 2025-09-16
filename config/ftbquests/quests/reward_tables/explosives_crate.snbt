@@ -1,0 +1,203 @@
+{
+	id: "2092E777E0565899"
+	order_index: 91
+	title: "Explosives Crate"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:tnt"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 10
+		}
+		{
+			item: {
+				id: "spartanweaponry:dynamite"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 20
+		}
+		{
+			item: {
+				id: "supplementaries:bomb"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 10
+		}
+		{
+			item: {
+				id: "supplementaries:bomb_blue"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "minecraft:firework_rocket"
+				Count: 1b
+				tag: {
+					Fireworks: {
+						Flight: 1b
+						Explosions: [
+							{
+								Type: 1b
+								Colors: [I;11743532]
+								FadeColors: [I;1973019]
+							}
+							{
+								Type: 1b
+								Colors: [I;11743532]
+								FadeColors: [I;1973019]
+							}
+							{
+								Type: 1b
+								Colors: [I;11743532]
+								FadeColors: [I;1973019]
+							}
+							{
+								Type: 1b
+								Colors: [I;11743532]
+								FadeColors: [I;1973019]
+							}
+							{
+								Type: 1b
+								Colors: [I;11743532]
+								FadeColors: [I;1973019]
+							}
+							{
+								Type: 1b
+								Colors: [I;11743532]
+								FadeColors: [I;1973019]
+							}
+							{
+								Type: 1b
+								Colors: [I;11743532]
+								FadeColors: [I;1973019]
+							}
+						]
+					}
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 10
+		}
+		{
+			item: {
+				id: "tropicraft:exploding_coconut"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "apotheosis:explosive_arrow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 12
+		}
+		{
+			item: {
+				id: "spartanweaponry:arrow_explosive"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 12
+		}
+		{
+			item: {
+				id: "archers_paradox:explosive_arrow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 12
+		}
+		{
+			item: {
+				id: "infernalexp:ascus_bomb"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 13
+		}
+		{
+			item: {
+				id: "undergarden:blisterbomb"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 11
+		}
+		{
+			item: {
+				id: "twilightforest:ice_bomb"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 6
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 11546150
+		string_id: "explosives_crate"
+	}
+}

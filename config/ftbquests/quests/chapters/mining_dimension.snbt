@@ -4,15 +4,8 @@
 	order_index: 12
 	filename: "mining_dimension"
 	title: "Mining Dimension"
-	icon: {
-		id: "mining_dimension:teleporter"
-		Count: 1b
-		ForgeCaps: {
-			"dungeons_libraries:built_in_enchantments": {
-				BuiltInEnchantments: [ ]
-			}
-		}
-	}
+	icon: "mining_dimension:teleporter"
+	subtitle: ["A place where I can mine my own business"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -136,6 +129,7 @@
 		{
 			x: 1.5d
 			y: -1.0d
+			subtitle: "Stop Crying!"
 			description: [
 				"This is found in the Overworld, the Nether, and the End."
 				""
@@ -184,6 +178,7 @@
 		{
 			x: -1.5d
 			y: 1.5d
+			subtitle: "A Classic"
 			description: [
 				"Found or made pretty much anywhere."
 				""

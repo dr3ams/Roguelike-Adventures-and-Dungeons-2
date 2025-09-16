@@ -5,12 +5,14 @@
 	filename: "the_garden_under"
 	title: "The garden Under"
 	icon: "undergarden:deepturf_block"
+	subtitle: ["Between a bedrock and a hard place"]
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: -1.0d
 			y: 0.0d
+			subtitle: "a list of cats?"
 			description: ["To create an Undergarden portal, create a Nether Portal structure using Stone Bricks and light it with the Catalyst."]
 			id: "4C6F949FFA715364"
 			tasks: [{
@@ -57,6 +59,7 @@
 		{
 			x: 5.0d
 			y: -1.0d
+			description: ["Just a basic 6-damage ranged weapon but its ammo comes very cheap."]
 			dependencies: ["0B5EF31B3DBC9DE2"]
 			id: "556166EB2D38864C"
 			tasks: [
@@ -135,6 +138,7 @@
 		{
 			x: 1.5d
 			y: 4.5d
+			subtitle: "This ingot keeps blocking the sewer systems!"
 			dependencies: ["018570DD4BB7DE24"]
 			id: "2BE179E3CB62EC60"
 			tasks: [{
@@ -208,7 +212,15 @@
 		{
 			x: 1.0d
 			y: 6.0d
+			description: [
+				"Cloggrum armor is almost as strong as diamond with the durability and rarity of iron."
+				""
+				"The boots also prevent slowdown on scintling goo."
+				""
+				"&6Only 3 of 4 are needed to complete this quest."
+			]
 			dependencies: ["2BE179E3CB62EC60"]
+			min_required_tasks: 3
 			id: "323B957615CD18E2"
 			tasks: [
 				{
@@ -377,6 +389,7 @@
 		{
 			x: 6.5d
 			y: 4.5d
+			subtitle: "Fit for royalty"
 			description: ["These are needed to trade with stoneborn."]
 			dependencies: ["3E8D81625369E9E9"]
 			id: "7AB829B116D3495C"
@@ -407,6 +420,7 @@
 		{
 			x: 12.5d
 			y: 3.0d
+			subtitle: "What was that ingot called again?"
 			dependencies: ["6EC6F2C9D32D1B8E"]
 			id: "4A455CCEEE973422"
 			tasks: [{
@@ -470,6 +484,7 @@
 		{
 			x: 3.5d
 			y: 4.5d
+			subtitle: "So many -steel metals, but no actual steel"
 			dependencies: ["28413C0BD4F59A16"]
 			id: "6021E7E3254ACF31"
 			tasks: [{
@@ -521,6 +536,7 @@
 		{
 			x: 9.5d
 			y: -2.0d
+			subtitle: "I've heard Shard and the beanstalk is a classic story passed around residents of the undergarden"
 			dependencies: ["658339B2ABB5FB34"]
 			id: "0A930BDB32118A2D"
 			tasks: [{
@@ -553,6 +569,11 @@
 		{
 			x: 8.0d
 			y: -4.0d
+			description: [
+				"Provides immunity to Virulent Mix (the purple fluid all over the undergarden)"
+				""
+				"Virulent Resistance does not provide immunity from other sources of poison."
+			]
 			dependencies: ["6491E7803F70CCCA"]
 			id: "188D2C7BC58D2BEE"
 			tasks: [{
@@ -614,6 +635,7 @@
 		{
 			x: 5.5d
 			y: -2.5d
+			description: ["You can get this by shearing Mogs, which are often found in the Forgotten Field."]
 			dependencies: ["29BF84A63E82A63C"]
 			id: "0B5EF31B3DBC9DE2"
 			tasks: [{
@@ -640,8 +662,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -2.0d
+			x: -0.5d
+			y: 1.5d
 			dependencies: ["29BF84A63E82A63C"]
 			id: "703849AAE5F2D4BC"
 			tasks: [{
@@ -656,9 +678,10 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 0.5d
-			dependencies: ["499F09164370C639"]
+			x: 1.5d
+			y: -3.0d
+			description: ["This stew makes me feel as light as a feather!"]
+			dependencies: ["5AF59F0998A265D3"]
 			id: "24BD242ECF4E943A"
 			tasks: [{
 				id: "5A9A3F4AC43D221C"
@@ -679,9 +702,10 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 0.5d
-			dependencies: ["499F09164370C639"]
+			x: 2.5d
+			y: -2.5d
+			description: ["This stew greatly improves my vision in the undergarden!"]
+			dependencies: ["5AF59F0998A265D3"]
 			id: "760DC5559AB33E17"
 			tasks: [{
 				id: "0916E7A253CFE8F7"
@@ -702,9 +726,10 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 0.5d
-			dependencies: ["274C8CD10763851C"]
+			x: -0.5d
+			y: -2.5d
+			description: ["Drinking this stew seems to severly inhibit my vision, but I feel much tougher..."]
+			dependencies: ["5AF59F0998A265D3"]
 			id: "091975CE7D583E34"
 			tasks: [{
 				id: "3CA5706B80048326"
@@ -725,9 +750,10 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: 0.0d
-			dependencies: ["6EC6F2C9D32D1B8E"]
+			x: 0.5d
+			y: -3.0d
+			description: ["This stew makes me feel stronger but more vulnerable..."]
+			dependencies: ["5AF59F0998A265D3"]
 			id: "483F411F5D478DBA"
 			tasks: [{
 				id: "4F3396878253753A"
@@ -748,14 +774,23 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -4.0d
-			dependencies: ["0B5EF31B3DBC9DE2"]
+			x: 3.0d
+			y: 0.0d
+			description: ["It can be used as a stick, or as string!"]
+			dependencies: ["29BF84A63E82A63C"]
 			id: "0CF99C9FC38B1ED2"
 			tasks: [{
 				id: "6050DC2E3686068C"
 				type: "item"
-				item: "undergarden:mogmoss_rug"
+				item: {
+					id: "undergarden:twistytwig"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -778,6 +813,7 @@
 		{
 			x: 5.5d
 			y: -4.5d
+			description: ["While you can use any bed in the undergarden, this bed will let your home look more garden-y..."]
 			dependencies: ["0B5EF31B3DBC9DE2"]
 			id: "29198808C005A0FA"
 			tasks: [{
@@ -820,37 +856,122 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: 4.5d
+			x: 12.5d
+			y: 6.0d
+			description: [
+				"Forgotten Tools and Weapons are extremely effective while in the undergarden."
+				""
+				"&6You only need to collect 1 to complete this quest."
+			]
 			dependencies: ["4A455CCEEE973422"]
+			min_required_tasks: 1
 			id: "113ADEE783C3B34A"
-			tasks: [{
-				id: "2526E202F20807A2"
+			tasks: [
+				{
+					id: "2526E202F20807A2"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "700C71E973B19EC9"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "40B9038CC08391D6"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5A11ECFCEED667E0"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "18AB3658FD7EC24A"
+					type: "item"
+					item: {
+						id: "undergarden:forgotten_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7353BB6301956A0E"
 				type: "item"
 				item: {
-					id: "undergarden:forgotten_sword"
+					id: "roughtweaks:medkit_enchanted"
 					Count: 1b
 					tag: {
 						Damage: 0
 					}
-				}
-			}]
-			rewards: [{
-				id: "7B53BBF3D81E21AF"
-				type: "item"
-				item: {
-					id: "roughtweaks:bandage"
-					Count: 1b
-					tag: {
-						Damage: 0
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
 					}
 				}
 			}]
 		}
 		{
-			x: 12.0d
-			y: 5.5d
-			dependencies: ["4A455CCEEE973422"]
+			x: 6.5d
+			y: 9.0d
+			description: [
+				"An upgrade from the Cloggrum Battle Axe."
+				""
+				"More attack speed, and the same 2x damage against undergarden mobs similar to the other Forgotten Weapons."
+			]
+			dependencies: [
+				"4A455CCEEE973422"
+				"6EE569E1517DFE8E"
+			]
 			id: "00723ECE71700C83"
 			tasks: [{
 				id: "52F2EB9493B1065B"
@@ -867,73 +988,30 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "25BD203EF2A97C63"
-				type: "item"
-				item: {
-					id: "roughtweaks:bandage"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "7F2F7B14E684245A"
+					type: "item"
+					item: {
+						id: "spartanweaponry:bolt_tipped_diamond"
+						Count: 1b
+						tag: {
+							Potion: "undergarden:long_brittleness"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
 					}
+					count: 10
 				}
-			}]
-		}
-		{
-			x: 13.0d
-			y: 5.5d
-			dependencies: ["4A455CCEEE973422"]
-			id: "7613B36490A0BCBF"
-			tasks: [{
-				id: "379D08C4035C9454"
-				type: "item"
-				item: {
-					id: "undergarden:forgotten_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
+				{
+					id: "3F348D876784956C"
+					type: "xp"
+					xp: 666
 				}
-			}]
-			rewards: [{
-				id: "2A87178B553BF2B2"
-				type: "item"
-				item: {
-					id: "roughtweaks:bandage"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 13.5d
-			y: 4.5d
-			dependencies: ["4A455CCEEE973422"]
-			id: "247089BEDE2B3704"
-			tasks: [{
-				id: "083DF5B42F98EB4C"
-				type: "item"
-				item: {
-					id: "undergarden:forgotten_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "67994B284108DCD1"
-				type: "item"
-				item: {
-					id: "roughtweaks:bandage"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
+			]
 		}
 		{
 			x: 8.5d
@@ -974,6 +1052,7 @@
 		{
 			x: 8.5d
 			y: 4.5d
+			subtitle: "Can't think of a good description for this one, so uhhh... therium?"
 			dependencies: ["55A4EF2BD2B47F6F"]
 			id: "4CD65985F3E4B85E"
 			tasks: [{
@@ -1003,7 +1082,13 @@
 		{
 			x: 4.0d
 			y: 6.0d
+			description: [
+				"Provides massive armor toughness with the same defense as iron, at the cost of slower movement speed."
+				""
+				"&6Only 3 of 4 are needed to complete this quest."
+			]
 			dependencies: ["6021E7E3254ACF31"]
+			min_required_tasks: 3
 			id: "08EB7BF28317474D"
 			tasks: [
 				{
@@ -1069,9 +1154,15 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 8.5d
 			y: 5.5d
+			description: [
+				"Armor that is as strong as netherite!"
+				""
+				"&6You only need to collect 2 to complete this quest."
+			]
 			dependencies: ["4CD65985F3E4B85E"]
+			min_required_tasks: 2
 			id: "588080D63F6F6110"
 			tasks: [
 				{
@@ -1126,6 +1217,7 @@
 					id: "ftbquests:lootcrate"
 					Count: 1b
 					tag: {
+						CustomModelData: 1
 						type: "crate_crate"
 					}
 					ForgeCaps: {
@@ -1137,8 +1229,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 6.0d
+			x: 0.0d
+			y: 5.0d
+			description: ["Has double the durability of a standard shield."]
 			dependencies: ["2BE179E3CB62EC60"]
 			id: "247E3AE1E4DE8A8A"
 			tasks: [{
@@ -1157,6 +1250,114 @@
 				type: "item"
 				item: "aquaculture:lockbox"
 			}]
+		}
+		{
+			title: "To Slay a Champion: Cracking the Armor"
+			x: 1.0d
+			y: 2.0d
+			description: [
+				"The Blood Mushroom Globule can be used to brew the potion of Brittleness,"
+				"which will come quite handy when taking down high-armored enemies, particularly Champions."
+				""
+				"They still heal a lot though, maybe the Dark Magic chapter will have a solution..."
+			]
+			dependencies: ["29BF84A63E82A63C"]
+			id: "1FD66F24F598D2F1"
+			tasks: [{
+				id: "463B44369B5F9DA2"
+				type: "item"
+				item: {
+					id: "undergarden:blood_mushroom_globule"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3BBE5DA5AAD089FE"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			description: ["By trading with Stoneborn you can acquire the powerful Cloggrum Battleaxe."]
+			dependencies: [
+				"2BE179E3CB62EC60"
+				"7AB829B116D3495C"
+			]
+			id: "6EE569E1517DFE8E"
+			tasks: [{
+				id: "193ED43F245E2588"
+				type: "item"
+				item: {
+					id: "undergarden:cloggrum_battleaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4A3676E25FE78427"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "1A5BF40E9B1451B7"
+					type: "item"
+					item: {
+						id: "decorative_blocks_abnormals:ender_chandelier"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: ["The Undergarden has a variety of mushrooms, which can make rather odd-looking stews."]
+			dependencies: ["29BF84A63E82A63C"]
+			id: "5AF59F0998A265D3"
+			tasks: [{
+				id: "2E0DCA1C1BDE3229"
+				type: "item"
+				title: "Any #undergarden:mushrooms"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "undergarden:mushrooms"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "621D0CE13A5BE790"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "7BEB1C1D3245E675"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
 		}
 	]
 }

@@ -5,6 +5,7 @@
 	filename: "pathfinder"
 	title: "Pathfinder"
 	icon: "supplementaries:globe"
+	subtitle: ["5th edition"]
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
 	images: [{
@@ -3092,6 +3093,70 @@
 					id: "1177740E03DF8366"
 					type: "choice"
 					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			subtitle: "Where's that biome?"
+			description: [
+				"With all the new biomes in the game it is much less likely you will find the one you want."
+				""
+				"Luckily you have access to the nature's compass to search for biomes of your choosing."
+				""
+				"&7Remember you can press the \"Show List\" keybind (default &3Left Alt&7) to hide the pmmo stats covering up the compass info."
+			]
+			dependencies: ["26393DF1645B5F2A"]
+			id: "28DBC19418F341F5"
+			tasks: [{
+				id: "0A9DA2CA442639B7"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2FD5B99EB2A785DD"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			icon: {
+				id: "undergarden:virulent_mix_bucket"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -4.5d
+			y: 2.0d
+			id: "377BE23312393D4C"
+			tasks: [{
+				id: "4EECD46868786407"
+				type: "biome"
+				biome: "byg:polluted_lake"
+			}]
+			rewards: [
+				{
+					id: "4288C41234905257"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "03690B50EC6C24E8"
+					type: "xp"
+					xp: 250
 				}
 			]
 		}

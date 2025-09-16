@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:water_bucket"
+    },
+    "title": {
+      "text": "The Hellish Hydrator"
+    },
+    "description": {
+      "text": "Find or create water in the nether, then swim in it."
+    }
+  },
+  "parent": "titles:root",
+  "criteria": {
+    "water_nether": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        },
+        "block": "minecraft:water"
+      }
+    }
+  }
+}

@@ -4,12 +4,16 @@
 	order_index: 3
 	filename: "trinkets__curios"
 	title: "Trinkets 'n Curios"
+	subtitle: ["More exciting loot!"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 6.0d
-			y: 2.5d
+			x: 3.5d
+			y: 3.0d
+			subtitle: "Bountiful Baubles? Why not Copious Curios?"
+			description: ["Lets you recycle curios from Bountiful Baubles into Spectral Silt."]
+			size: 1.25d
 			id: "3AABACB45BD17A3D"
 			tasks: [{
 				id: "51E07B6FEB1097E5"
@@ -38,8 +42,12 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 2.5d
+			x: 5.0d
+			y: 3.0d
+			subtitle: "Not a pile of dirt"
+			description: ["Used to craft the Resplendent Token."]
+			dependencies: ["3AABACB45BD17A3D"]
+			size: 1.25d
 			id: "71455036E8DC2C51"
 			tasks: [{
 				id: "262FD7A74760A60F"
@@ -68,8 +76,12 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 2.5d
+			x: 6.5d
+			y: 3.0d
+			subtitle: "Token of has been mispelled too many times"
+			description: ["This token can be used to recraft a new trinket from bountiful baubles."]
+			dependencies: ["71455036E8DC2C51"]
+			size: 1.25d
 			id: "660A9800A8365339"
 			tasks: [{
 				id: "0F20DA19C3FF6F66"
@@ -137,9 +149,10 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 3.5d
+			x: 4.0d
+			y: 12.0d
 			shape: "diamond"
+			subtitle: "From ruined to runed"
 			description: [
 				"Used to repair Relics."
 				""
@@ -150,21 +163,39 @@
 				"This process costs experience points and may take some time"
 			]
 			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
+			size: 1.25d
 			id: "3BFC6AA60A53EBEF"
-			tasks: [{
-				id: "5C2C5B614B13EF4E"
-				type: "item"
-				item: {
-					id: "relics:runic_anvil"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "5C2C5B614B13EF4E"
+					type: "item"
+					item: {
+						id: "relics:runic_anvil"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "08146AA5D24EF7FA"
+					type: "item"
+					item: {
+						id: "relics:runic_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "1AA9303F99F35CE5"
@@ -179,379 +210,203 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 4.0d
+			title: "Rune Collector"
+			x: 6.0d
+			y: 12.0d
 			shape: "diamond"
+			subtitle: "Darune sandstorm"
 			description: [
-				"Used to repair Relics."
+				"Runes (from the Relics mod) are occationally found in dungeon loot and are used to create certain relics from the mod."
 				""
-				"For usage, see the Runic Anvil."
+				"Unfortunately not all the runes have a use, so this quest will give you a relic of your choice for collecting them all!"
 			]
 			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "056C737A9F7067AC"
-			tasks: [{
-				id: "4F9A4C91F34BB7CD"
-				type: "item"
-				item: {
-					id: "relics:runic_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "1B02F04C80D5D360"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "27498848F0AE56B7"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 3.0d
-			y: 11.0d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "4AC02F79E1FC598E"
-			tasks: [{
-				id: "5B293DAF792E36AA"
-				type: "item"
-				item: {
-					id: "relics:rune_of_earth"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "20B9823C5D935B5D"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "32B2DCDAC5926249"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 1.5d
-			y: 9.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "04810B465CB4CFBC"
-			tasks: [{
-				id: "6F3E6D0355E8BC98"
-				type: "item"
-				item: {
-					id: "relics:rune_of_air"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "4FCCE8C6BA4115D5"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "2F1C7307F62B6B31"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 1.5d
-			y: 5.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "4FA2DA9A1472A660"
-			tasks: [{
-				id: "6645E18329022AC9"
-				type: "item"
-				item: {
-					id: "relics:rune_of_cold"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "67CA93717EC1189D"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "4FA5891A9B808057"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 1.0d
-			y: 7.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "3593E9928FEE5A23"
-			tasks: [{
-				id: "6694C1EE02BB5402"
-				type: "item"
-				item: {
-					id: "relics:rune_of_moon"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "39504CBC2D81CC19"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "7EB64F6DAD817115"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 5.0d
-			y: 11.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "65076A3CC0CD08D3"
-			tasks: [{
-				id: "6436E15FA73A54BB"
-				type: "item"
-				item: {
-					id: "relics:rune_of_explosion"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "06675AB01C2B5B21"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "7356EF213931DB6B"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 7.0d
-			y: 4.0d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
+			size: 1.25d
 			id: "4D77F0FB2E285FF1"
-			tasks: [{
-				id: "0F7B5B2DFC6D83CE"
-				type: "item"
-				item: {
-					id: "relics:rune_of_fire"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "7C5208F238448096"
+					type: "item"
+					item: {
+						id: "relics:rune_of_air"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-			}]
-			rewards: [
 				{
-					id: "0E9E737C5EEC7D3A"
-					type: "xp_levels"
-					xp_levels: 2
+					id: "2C1C31725D579EE0"
+					type: "item"
+					item: {
+						id: "relics:rune_of_love"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 				{
-					id: "0F6B4C0A8AE9AAF3"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					id: "40B6385316A35DC3"
+					type: "item"
+					item: {
+						id: "relics:rune_of_redstone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "56A1BFDA8308D3BE"
+					type: "item"
+					item: {
+						id: "relics:rune_of_fire"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4DBDBA8C488E4CAF"
+					type: "item"
+					item: {
+						id: "relics:rune_of_sun"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7AFAC0CEB096532B"
+					type: "item"
+					item: {
+						id: "relics:rune_of_lightning"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "08ADCC37E865C01D"
+					type: "item"
+					item: {
+						id: "relics:rune_of_luck"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "267D9D70400ACC23"
+					type: "item"
+					item: {
+						id: "relics:rune_of_explosion"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0A50D30C03D8BFB3"
+					type: "item"
+					item: {
+						id: "relics:rune_of_earth"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6942DFFF97AA9A3A"
+					type: "item"
+					item: {
+						id: "relics:rune_of_moon"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7F2784D2056AD138"
+					type: "item"
+					item: {
+						id: "relics:rune_of_water"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "11D568C6A7791D36"
+					type: "item"
+					item: {
+						id: "relics:rune_of_cold"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
-		}
-		{
-			x: 9.0d
-			y: 7.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "242A5C2AEE70A243"
-			tasks: [{
-				id: "26EEBCCC4C5BC6A8"
-				type: "item"
-				item: {
-					id: "relics:rune_of_water"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [
 				{
-					id: "6D6325386FBB759A"
-					type: "xp_levels"
-					xp_levels: 2
+					id: "3C71EB581BDE5618"
+					type: "xp"
+					xp: 800
 				}
 				{
-					id: "1101D120A282F773"
+					id: "2D6B7704A8D0B704"
 					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 8.5d
-			y: 5.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "74E8668933CCF55C"
-			tasks: [{
-				id: "173F1A4391914B2B"
-				type: "item"
-				item: {
-					id: "relics:rune_of_lightning"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "16E98CF11F5B91C5"
-					type: "xp_levels"
-					xp_levels: 2
+					ftb_money: 120L
 				}
 				{
-					id: "7F77A7EA43DDAF34"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 7.0d
-			y: 11.0d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "58D2B9BA292FF97D"
-			tasks: [{
-				id: "72A46651D28BF5A5"
-				type: "item"
-				item: {
-					id: "relics:rune_of_love"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "47D7EC9C06D26988"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "0D256758F3FD116C"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 8.5d
-			y: 9.5d
-			shape: "diamond"
-			hide_dependency_lines: true
-			dependencies: ["6C45CE02A03DCEE9"]
-			id: "29D20461B83BD6F1"
-			tasks: [{
-				id: "673B14E67F942E0F"
-				type: "item"
-				item: {
-					id: "relics:rune_of_sun"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "0F8D94859F6C39FC"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "3CBA7C434D58147D"
-					type: "ftbmoney:money"
-					ftb_money: 10L
+					id: "48DEDB63C0451092"
+					type: "choice"
+					table_id: 5824378382408918036L
 				}
 			]
 		}
 		{
 			x: 5.0d
 			y: 5.0d
+			description: [
+				"The ice breaker will allow you to deal 3x falling damage to foes you land on while sneaking."
+				""
+				"The faster you fall the more damage you deal."
+			]
 			dependencies: ["6C45CE02A03DCEE9"]
 			id: "675F9F5E9DE54E52"
 			tasks: [{
@@ -596,7 +451,6 @@
 					Count: 1b
 					tag: {
 						Damage: 0
-						itemModifier: "modifiers:wild"
 					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
@@ -689,6 +543,7 @@
 		{
 			x: 5.0d
 			y: 10.0d
+			description: ["A must-have for any tamer, allowing your pets to deal great damage to enemies and boost loot drops."]
 			dependencies: ["6C45CE02A03DCEE9"]
 			id: "1F653D87579A55F5"
 			tasks: [{
@@ -723,6 +578,11 @@
 		{
 			x: 6.5d
 			y: 9.0d
+			description: [
+				"Lets you use riptide tridents on land."
+				""
+				"Pairs nicely with the ice breaker relic."
+			]
 			dependencies: ["6C45CE02A03DCEE9"]
 			id: "58AD1BD73DE914DF"
 			tasks: [{
@@ -927,6 +787,7 @@
 		{
 			x: 11.5d
 			y: 7.5d
+			subtitle: "I keep seeing the front as an !"
 			description: ["Either sets mobs on fire for 8 seconds, inflicts slowness, or strikes them with lightning."]
 			id: "1A0B0B0C455CD7DD"
 			tasks: [{
@@ -995,6 +856,7 @@
 		{
 			x: 5.0d
 			y: 1.0d
+			subtitle: "This artifact is sentient; It can think!"
 			description: ["Gives random potions."]
 			id: "323BB1B3705C832B"
 			tasks: [{
@@ -1063,6 +925,7 @@
 		{
 			x: 8.0d
 			y: 2.0d
+			subtitle: "These boots are made for walking"
 			description: ["Speed III for 2 seconds."]
 			id: "111F7DA351EE9339"
 			tasks: [{
@@ -1255,6 +1118,7 @@
 		{
 			x: 10.5d
 			y: 4.5d
+			subtitle: "Had the name before it was cool"
 			description: [
 				"Costs 15 Souls."
 				""
@@ -1403,6 +1267,7 @@
 		{
 			x: 7.0d
 			y: 13.5d
+			subtitle: "I bet this is where elenai got the inspiration from"
 			description: ["Activate to do a short hop. Useful as a weak double jump"]
 			id: "45BC33FB2B2F14F2"
 			tasks: [{
@@ -1679,6 +1544,7 @@
 		{
 			x: 9.5d
 			y: 3.0d
+			subtitle: "Now your foes will really quiver in fear!"
 			description: [
 				"Costs 10 Souls."
 				""
@@ -1899,6 +1765,7 @@
 		{
 			x: 11.0d
 			y: 5.5d
+			subtitle: "The one artifact you can't get in Minecraft Dungeons anymore"
 			description: ["Orange version of the Corrupted Beacon."]
 			id: "6D99960BCE7C37E4"
 			tasks: [{

@@ -41,18 +41,6 @@
 			corner: false
 		}
 		{
-			x: 6.0d
-			y: 6.0d
-			width: 6.0d
-			height: 6.0d
-			rotation: 0.0d
-			image: "rad2:textures/misc/rad_dice.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
 			x: 1.5d
 			y: -4.5d
 			width: 5.0d
@@ -92,16 +80,17 @@
 	quests: [
 		{
 			icon: "ars_nouveau:ritual_moonfall"
+			disable_toast: true
 			x: 1.5d
 			y: -3.5d
 			description: [
-				"Blood Moon:"
+				"&4Blood Moon&r:"
 				"- Increases monster spawn cap and prevents sleeping."
 				""
-				"Harvest Moon:"
+				"&eHarvest Moon&r:"
 				"Increases crop growth rate and drop rate."
 				""
-				"Blue Moon:"
+				"&bBlue Moon&r:"
 				"Gives players the Luck effect, increasing some loot quality and fishing loot."
 				""
 				"Sometimes a super version of lunar events occurs that has an amplified effect."
@@ -121,24 +110,25 @@
 		}
 		{
 			icon: "blue_skies:everbright_portal"
+			disable_toast: true
 			x: -1.0d
 			y: 4.0d
 			shape: "square"
 			subtitle: "Current dimensions count: 10"
 			description: [
-				"• Atum 2 - a new and unique desert dimension full of sand, temples, as well as many new enemies! Traveling through the dimension you can discover new artifacts, making your way to them through mountains of sand and enemies."
+				"• &6Atum 2&r - a new and unique desert dimension full of sand, temples, as well as many new enemies! Traveling through the dimension you can discover new artifacts, making your way to them through mountains of sand and enemies."
 				""
-				"• Blue skies: Everbright and Everdawn - two new dimensions, one lighter and colder, and the other darker and warmer. In each of them you will find new blocks, mobs, tools, weapons and bosses."
+				"• &9Blue&r &8skies&r: Everbright and Everdawn - two new dimensions, one lighter and colder, and the other darker and warmer. In each of them you will find new blocks, mobs, tools, weapons and bosses."
 				""
-				"• Dimensional Dungeons - limitless procedurally generated dungeons dimension."
+				"• &7Dimensional Dungeons&r - limitless procedurally generated dungeons dimension."
 				""
-				"• The Bumblezone - an unBEElievable dimension full of bees that become REALLY angry if you take their honey!"
+				"• &eThe Bumblezone&r - an unBEElievable dimension full of bees that become REALLY angry if you take their honey!"
 				""
-				"• Tropicraft - dimension adding tropical world"
+				"• &bTropicraft&r - dimension adding tropical world"
 				""
-				"• Twilight forest - a realm basked in mystery and eerie twilight."
+				"• &aTwilight forest&r - a realm basked in mystery and eerie twilight."
 				""
-				"• Undergarden - a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."
+				"• &2Undergarden&r - a dark, subterranean world located deep below the bedrock of the Overworld. The flora here has adapted to their conditions and can grow anywhere, independent of light. Strange creatures call these dark lands home, and are plagued by the invasive Rotspawn, monsters originating from a chaotic, mysterious realm."
 			]
 			id: "6EAF4C02AC262FC0"
 			tasks: [{
@@ -162,11 +152,14 @@
 		}
 		{
 			icon: "ars_nouveau:glyph_haste"
+			disable_toast: true
 			x: -2.0d
 			y: -2.5d
 			subtitle: "Dodge through mobs with the elenai dodge mod!"
 			description: [
 				"&6By tapping left alt while moving you can dash through projectiles and enemies without getting hurt."
+				""
+				"&6Dodge can be useful even out of combat to negate the speed penalty of eating or using items like bows."
 				""
 				""
 				""
@@ -182,7 +175,7 @@
 				""
 				"Wearing armor turns some of the feathers gray, making them unusable for dodging."
 				""
-				"The lightweight enchantment reduces the amount of gray feathers."
+				"The &alightweight&r enchantment reduces the amount of gray feathers."
 				""
 				"There are also various potion effects that can affect your dodge feathers."
 			]
@@ -208,12 +201,10 @@
 		{
 			title: "New and overhauled structures!"
 			icon: "ars_nouveau:familiar_wixie"
+			disable_toast: true
 			x: 2.0d
 			y: 4.0d
-			description: [
-				"- underground and flying villages"
-				"- overhauled mineshaft, strongholds, dungeons, caves"
-			]
+			description: ["- overhauled mineshaft, strongholds, dungeons, caves"]
 			id: "6560CFA3F7737BBB"
 			tasks: [{
 				id: "3E8E9CE8F8302CF2"
@@ -236,12 +227,14 @@
 		}
 		{
 			icon: "archers_paradox:redstone_arrow"
+			disable_toast: true
 			x: 0.5d
 			y: -3.5d
+			subtitle: "the player Bleeds When Shot!"
 			description: [
-				"Damage from sharp objects, bites, and cactuses will cause entities to bleed."
+				"Damage from sharp objects, bites, and cacti will cause entities to &cbleed&r."
 				""
-				"Bleeding causes damage over time, like poison, and is lethal. Bandages can cure bleeding and provide regeneration."
+				"Bleeding causes damage over time, like poison, and is lethal. &aBandages&r can cure bleeding and provide healing."
 				""
 				"Each piece of armor equipped reduces bleed chance by 10%."
 				""
@@ -289,6 +282,7 @@
 					}
 				}
 			}
+			disable_toast: true
 			x: 0.5d
 			y: -2.0d
 			subtitle: "Difficulty over time"
@@ -332,18 +326,19 @@
 					}
 				}
 			}
+			disable_toast: true
 			x: 2.5d
 			y: -2.0d
 			description: [
 				"The vanilla bosses have become stronger, with new abilities, better rewards and experience."
 				""
-				"Wither"
+				"&8Wither"
 				"- Summons Wither Skeletons. Drops Nether Star Shards."
 				""
-				"Ender Dragon"
+				"&5Ender Dragon"
 				"- Summons Shulkers"
 				""
-				"The Elder Guardian while not a boss, still gains power each time they are defeated."
+				"&eThe Elder Guardian&r while not a boss, still gains power each time they are defeated."
 				""
 				"-Attacks way faster than usual"
 				""
@@ -360,40 +355,14 @@
 				icon: "productivebees:upgrade_productivity"
 			}]
 			rewards: [{
-				id: "07F3497AA521167E"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						CustomPotionEffects: [
-							{
-								Duration: 1200
-								Id: 39b
-								Amplifier: 1b
-							}
-							{
-								Duration: 1200
-								Id: 42b
-								Amplifier: 4b
-							}
-						]
-						Potion: "minecraft:thick"
-						display: {
-							Lore: ["{\"text\":\"Deal and recieve double damage\",\"color\":\"dark_red\",\"italic\":false}"]
-							Name: "{\"italic\":false,\"text\":\"Berserker's Brew\",\"color\":\"dark_red\"}"
-						}
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "4B9D5B11561B3437"
+				type: "ftbmoney:money"
+				ftb_money: 1L
 			}]
 		}
 		{
 			icon: "majruszs_difficulty:undead_battle_standard"
+			disable_toast: true
 			x: 1.5d
 			y: -2.0d
 			subtitle: "Difficulty through progression"
@@ -414,13 +383,18 @@
 				title: "Progressive Difficulty"
 			}]
 			rewards: [{
-				id: "203EF8DF6395F7A6"
+				id: "2F9ECD5D325C27F7"
 				type: "item"
 				item: {
-					id: "minecraft:potion"
+					id: "roughtweaks:plaster"
 					Count: 1b
 					tag: {
-						Potion: "minecraft:healing"
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
 					}
 				}
 			}]
@@ -428,6 +402,7 @@
 		{
 			title: "Normal mode changes"
 			icon: "minecraft:skeleton_skull"
+			disable_toast: true
 			x: 1.5d
 			y: -0.5d
 			subtitle: "Some of the new difficulty mechanics:"
@@ -435,20 +410,14 @@
 				"- Groups of enemies"
 				"Enemies appear in groups with one leader and followers who attack the same target as the leader. Followers are more likely to have weapons and leaders to have armors."
 				""
-				"- Undead Army (new Raid)"
+				"- &dUndead Army (New Raid)&r"
 				"The new raid starts after killing a certain amount of undead enemies. It has 3-5 waves, scales difficulty over time, and rewards the player with a treasure bag after finishing it. Also scales difficulty with each player participating in!"
 				""
-				"- fall damage can causes Slowness and Nausea"
+				"- fall damage can cause Slowness and Nausea"
 				""
-				"- drowning damage can causes Nausea and Weakness"
+				"- drowning damage can cause Nausea and Weakness"
 				""
 				"- Creepers may spawn with a negative effect"
-				""
-				"- animals (like Wolves), Zombies, and Spiders can bite you causing Bleeding"
-				""
-				"- arrows and direct damage from sharp items (tools, weapons, shears) also can cause Bleeding"
-				""
-				"- touching a cactus also may cause Bleeding"
 			]
 			dependencies: ["577182F7C0C5B85B"]
 			id: "6E509EA1B20B6476"
@@ -473,18 +442,21 @@
 		}
 		{
 			icon: "farmersdelight:cake_slice"
+			disable_toast: true
 			x: -5.0d
 			y: 5.0d
 			subtitle: "Benefits for eating variety of foods"
 			description: [
-				"Eating a variety of nutrients, with the right balance, will grant you buffs. There are no negatives for not keeping a variety however."
+				"&6Eating a variety of nutrients, with the right balance, will grant you buffs. There are no negatives for not keeping a variety however."
 				""
-				"Food now has tooltips that show which nutrients they provide, along with the total number of Nutritional Units (NUs)."
+				"&rFood now has tooltips that show which nutrients they provide, along with the total number of Nutritional Units (NUs)."
 				""
-				"To see Nutritional Balance, press the Nutrient Gui keybind (Default: N) or click the bread icon in your inventory."
+				"To see Nutritional Balance, press the Nutrient Gui keybind &3(Default: N)&r or &3click the bread icon&r in your inventory."
 				""
-				"- Blue indicates your current NUs for each category"
-				"- Green lines show the range for buffs. Veggies has a limitless range."
+				"- &1Blue Bars&r indicate your current NUs for each category"
+				"- &2Green lines&r show the range for buffs. Veggies has a limitless range."
+				""
+				"&e-Keep all 5 blue bars in between the green lines to gain a Well Fed buff that boosts your health and speed."
 			]
 			dependencies: ["128C6C5B6273C0F3"]
 			dependency_requirement: "one_started"
@@ -570,6 +542,7 @@
 		}
 		{
 			icon: "fins:spindly_emerald"
+			disable_toast: true
 			x: 0.0d
 			y: 4.0d
 			description: [
@@ -620,35 +593,34 @@
 					AssignedColor: 0.1f
 				}
 			}
+			disable_toast: true
 			x: -3.0d
 			y: -2.0d
 			description: [
-				"&6Trinkets and Curios are passive items that buff the player when worn in special slots."
-				""
+				"&6Trinkets and Curios are passive items that improve the player when worn in special slots."
 				""
 				""
 				"&a<More in depth details below>"
 				""
 				""
-				""
-				"Lost Trinkets adds more than 50 unlockable trinkets with different abilities and rarities."
-				""
 				"Trinkets are randomly unlocked during some activities like killing enemies and bosses, trading, mining ores, cutting trees, and farming."
 				""
 				"Each activity has a different chance of unlocking a trinket, with bosses having the highest chance."
 				""
-				"There is a 2 minute cooldown after unlocking a trinket before you can unlock another."
+				"After unlocking a trinket you won't unlock another for 2 minutes."
 				""
 				"You can access the Trinkets GUI with its keybind (Default: &3R&r). Here you can equip them and unlock more slots."
 				""
 				"========================"
 				""
-				"There are also countless curios which have their own slot in your Curio Inventory which you can open with the icon in your inventory, or with a keybind (Default: &3G&r)."
+				"&aCurios&r are items identifiable by a \"&6Slot:&r\" tooltip followed by the &eslots&r it can be inserted into. Example: \"&6Slot: &eCharm&r\""
 				""
-				"Try equipping the enigmatic amulet in your inventory by placing it into one of the \"Charm\" slots."
+				"These slots can be found by pressing the &abutton next to your helmet slot&r in your inventory, or by pressing the curio inventory keybind (Default &3G&r)."
+				""
+				"Try equipping the &aEnigmatic Amulet&r in your inventory by placing it into one of the \"&eCharm&r\" slots."
 				"You can use the scroll bar or your mouse wheel to see all the slots."
 			]
-			dependencies: ["2B14E71EF06F5938"]
+			dependencies: ["7B1C0892C86A4177"]
 			id: "0E5AE2A43020AFC3"
 			tasks: [{
 				id: "0904DC2D17454C24"
@@ -711,7 +683,7 @@
 			description: [
 				"&6This quest book will guide you through all the mechanics of this pack."
 				""
-				"To collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
+				"To collect any reward simply click on in it in the above &6Rewards&r box, as you can above, to get a torch for some light as you get going."
 				""
 				"To move onto the next quest you can click the view dependants button &6▶&r below the close &c&lX&r button to see the next available quest(s), or just click a lit up quest linked to a completed gold outlined quest."
 			]
@@ -720,6 +692,7 @@
 			tasks: [{
 				id: "063DC6675EC1C0AC"
 				type: "dimension"
+				title: "Visit the overworld. Oh wait you're already there"
 				dimension: "minecraft:overworld"
 			}]
 			rewards: [{
@@ -739,21 +712,22 @@
 		{
 			title: "Character progression and skills"
 			icon: "itemfilters:item_group"
+			disable_toast: true
 			x: -6.0d
 			y: 2.0d
 			subtitle: "More in depth features of the stats"
 			description: [
 				"Project MMO adds stats that level up while doing certain activities."
 				""
-				"You can access the Project MMO menu with the Open Menu key (Default: P). Here you can see stats, skills, the glossary and their benefits, how to get experience, and much more."
+				"You can access the Project MMO menu with the Open Menu key &3(Default: P)&r. Here you can see stats, skills, the glossary and their benefits, how to get experience, and much more."
 				""
-				"Higher skill levels gives you bonuses related to the skill, and allows you to use more items."
+				"Higher skill levels gives you &2bonuses&r related to the skill, and allows you to &ause more items&r."
 				""
-				"Certain items will grant a boost to Skill XP gain, when either held in your hands or worn."
+				"Certain items will grant a boost to &eSkill XP&r gain, when either held in your hands or worn."
 				""
-				"Some biomes and dimensions also adjust Skill XP gain, information like this can be found in the Glossary as well."
+				"Some biomes and dimensions also adjust &eSkill XP&r gain, information like this can be found in the Glossary as well."
 				""
-				"You can create a party with the \"/pmmo party\" command, which gives increased XP gain, reduced friendly fire, and minor Skill XP sharing."
+				"You can create a party with the &2\"/pmmo party\"&r command, which gives increased XP gain, reduced friendly fire, and minor Skill XP sharing."
 			]
 			dependencies: ["79F271A2D7FA06A1"]
 			id: "000000000000009D"
@@ -788,7 +762,7 @@
 			description: [
 				"Alchemy experience is gained by crafting brewing ingredients and brewing potions in a brewing stand."
 				""
-				"Higher levels increase the chance for extra potions to be brewed."
+				"&oSome potion-related curios will require alchemy to wear."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -823,6 +797,8 @@
 				"- Being saved from fall damage by this skill"
 				""
 				"Higher levels will increase the chance to prevent fall damage."
+				""
+				"&oAgility is required to start using a bow, and to wear some light armors."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -845,6 +821,8 @@
 				"Swimming experience. Yep."
 				""
 				"Reaching level 25 will unlock underwater night vision."
+				""
+				"&oSwimming alongside Fishing is used to use some sea-related equipment."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -873,6 +851,8 @@
 				"Flying experience is gained during Elytra flight."
 				""
 				"Higher levels do not give any bonuses."
+				""
+				"&oSome end items that boost the elytra will require Flying."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -901,6 +881,8 @@
 				"Endurance experience is gained by taking damage."
 				""
 				"Higher levels will increase damage reduction and max health."
+				""
+				"&oMost armor sets require Endurance to wear."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -931,6 +913,8 @@
 				"Less experience is gained if the mob dies, or is one-shot from full health."
 				""
 				"Higher levels increase melee damage."
+				""
+				"&oMost melee weapons require Combat."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -963,6 +947,8 @@
 				"Higher levels increase ranged damage."
 				""
 				"NOTICE: Experience gain has issues, and we can't fix it on our end."
+				""
+				"&oArchery allows the usage of better bows."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1075,6 +1061,8 @@
 				"Farming experience is gained from crops maturing, harvesting certain crops, and breeding animals."
 				""
 				"Higher levels increase harvest size and growth speed."
+				""
+				"&oFarming allows use of farming-related curios, alongside Sickles, a unique weapon for farmers."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1105,6 +1093,8 @@
 				"Higher levels increase the chance of catching better items and enchantments."
 				""
 				"You can see detailed info on this in the Glossary."
+				""
+				"&oFishing is used to use some sea-related armor sets."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1131,6 +1121,8 @@
 				"Higher levels grant increased maximum mana, mana regeneration, and magic damage."
 				""
 				"NOTICE: Experience gain has issues, and we can't fix it on our end."
+				""
+				"&oHigher levels allow usage of better glyphs from &3Ars Nouveau&r&o, alongside some curios."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1158,6 +1150,8 @@
 				"- Increased salvage success rate"
 				"- Increased repair amount in anvil"
 				"- Reduced chance of anvil damage"
+				""
+				"&oSmithing is required to wear the Aeternium Armor."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1220,7 +1214,7 @@
 			description: [
 				"Gathering skill is the sum of your Mining, Woodcutting and Excavating experience."
 				""
-				"Higher levels allow you to equip and use higher quality items."
+				"&oHigher levels allow you to equip and use higher quality items."
 			]
 			dependencies: [
 				"416E81CE76446066"
@@ -1254,7 +1248,7 @@
 			y: -2.0d
 			shape: "hexagon"
 			description: [
-				"You can choose starter gear in the Specialization chapter. You can get Marks which can boost pmmo exp, however you cannot change your specialization. If you are in multiplayer you should pick your specialization before joining a team."
+				"You can choose starter gear in the &3Specialization&r chapter. You can get &aMarks&r which can boost pmmo exp, however you cannot change your specialization. If you are in multiplayer you should pick your specialization before joining a team."
 				""
 				"&eThis quest requires completion of another quest in another chapter. Head over to the Specialization Chapter by hovering your cursor on the left edge of this quest book, while no quest is opened."
 			]
@@ -1269,7 +1263,7 @@
 				type: "questsadditions:time"
 				title: "Choose a Specialization"
 				icon: {
-					id: "kubejs:mark_huntsman"
+					id: "kubejs:medal"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
@@ -1282,6 +1276,7 @@
 		}
 		{
 			icon: "ars_nouveau:glyph_leap"
+			disable_toast: true
 			x: -2.0d
 			y: -1.5d
 			subtitle: "Scale up to 3-high walls with the wall jump mod!"
@@ -1334,15 +1329,17 @@
 			description: [
 				"These skills do not have bonuses like the others, but are used solely for item requirements."
 				""
-				"Dragonslayer is gained from... slaying dragons."
+				"&6Dragonslayer&r is gained from... slaying dragons."
 				""
-				"Shadow is gained from killing certain mobs (see Glossary's Mobs Info section) and crafting Eidolon items."
+				"&8Shadow&r is gained from killing certain mobs (see Glossary's Mobs Info section) and crafting Eidolon items."
 				""
-				"Light is gained from killing certain mobs (see Glossary's Mobs Info section)."
+				"&eLight&r is gained from killing certain mobs (see Glossary's Mobs Info section)."
 				""
-				"Wayfaring is gained from exploring new structures and areas."
+				"&9Wayfaring&r is gained from exploring new structures and areas."
+				"&oIt is solely used to wear the &ayeti armors&r&o from the &3Twilight Forest&r."
 				""
-				"Dungeoneering is gained from crafting and mining dungeon related items and blocks."
+				"&7Dungeoneering&r is gained from crafting and mining dungeon related items and blocks."
+				"&oIt currently has no use except to show your progress in dungeons."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1355,6 +1352,7 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: -0.5d
 			y: -2.0d
 			subtitle: "Elite Mobs"
@@ -1430,7 +1428,8 @@
 		{
 			title: "Just Enough Items (JEI)"
 			icon: "ars_nouveau:glyph_craft"
-			x: -5.0d
+			disable_toast: true
+			x: -4.5d
 			y: -2.0d
 			subtitle: "Your encyclopedia for modded recipes!"
 			description: [
@@ -1542,20 +1541,21 @@
 		}
 		{
 			icon: "kubejs:coin_q_1"
+			disable_toast: true
 			x: -0.5d
 			y: -0.5d
 			description: [
 				"There are two kinds of coins that can be discovered in this pack, material coins and quest coins."
 				""
-				"Quest Coins are obtained from completing quests, and can be exchanged for items at the shop."
+				"&eQuest Coins &rare obtained from completing quests, and can be exchanged for items at the shop."
 				""
 				"The shop can be found on the top-right of this quest book, it looks like a bag with coins scattered around it."
 				""
-				"Material Coins (copper, iron, gold, diamond) are tangible items that drop from champions."
+				"&eMaterial Coins &r(copper, iron, gold, diamond) are tangible items that drop from &eChampions&r."
 				""
-				"Stronger champions drop better coins."
+				"&4Stronger champions &rdrop better coins."
 				""
-				"They can be exchanged for items in the Coin Shop quest tab, which is a chapter found on the left."
+				"They can be exchanged for items in the &3Coin Shop &rquest tab, which is a chapter found on the left."
 				""
 			]
 			dependencies: ["38049609F73B874B"]
@@ -1593,7 +1593,13 @@
 			shape: "hexagon"
 			subtitle: "(brief explanation about stats)"
 			description: [
-				"Project: Massive Multiplaer Online (PMMO) adds stats that increase when doing certain activities."
+				"&6Project: Massive Multiplaer Online (PMMO) adds stats that increase when doing certain activities, which let you use better equipment and unlock new passive abilities."
+				""
+				""
+				""
+				"&a<More in depth details below>"
+				""
+				""
 				""
 				"These stats can be seen in the top-left of the screen and toggled on and off by pressing the &3Show List &rkey &3(default Left Alt)&r."
 				""
@@ -1645,7 +1651,7 @@
 				type: "observation"
 				title: "Reforging?"
 				icon: "minecraft:smithing_table"
-				timer: 80L
+				timer: 40L
 				observe_type: 0
 				to_observe: "minecraft:smithing_table"
 			}]
@@ -1683,15 +1689,17 @@
 		}
 		{
 			title: "Hardmode Booster Pack"
-			x: -3.0d
+			x: -2.0d
 			y: -4.0d
 			shape: "rsquare"
 			description: [
 				"Since you joined the server late this booster kit will help you overcome the increased difficulty."
 				""
-				"These stats will level up you enough to use iron equipment and a basic spellbook."
+				"These stats will level up you enough to use iron equipment and a novice spellbook."
 				""
 				"These pmmo stat bonuses are not affected by xp boosts."
+				""
+				"&cIn hardcore these rewards are not available even if you joined a server late."
 			]
 			hide_text_until_complete: false
 			size: 2.0d
@@ -1785,30 +1793,6 @@
 					}
 				}
 				{
-					id: "4DE7A604DA877394"
-					type: "item"
-					auto: "disabled"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							CustomPotionEffects: [{
-								Duration: 12000
-								Id: 95b
-							}]
-							Potion: "minecraft:mundane"
-							display: {
-								Name: "[{\"translate\":\"item.minecraft.potion\",\"italic\":false},{\"text\":\" of \"},{\"translate\":\"effect.majruszs_difficulty.bleeding_immunity\"}]"
-							}
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "4F3C942CE4E1AD39"
 					type: "item"
 					item: {
@@ -1820,6 +1804,22 @@
 								Name: "{\"text\":\"RAD2 & Knuckles\",\"color\":\"gold\",\"italic\":false}"
 							}
 							itemModifier: "modifiers:angelic"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7F1AEE9621891799"
+					type: "item"
+					item: {
+						id: "roughtweaks:medkit"
+						Count: 1b
+						tag: {
+							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1852,16 +1852,8 @@
 				id: "6161B1DF42B0DED6"
 				type: "observation"
 				title: "Salvaging?"
-				icon: {
-					id: "minecraft:smithing_table"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				timer: 100L
+				icon: "minecraft:smithing_table"
+				timer: 40L
 				observe_type: 0
 				to_observe: "minecraft:smithing_table"
 			}]
@@ -1909,8 +1901,8 @@
 		}
 		{
 			title: "Dungeon Treasures"
-			x: -4.0d
-			y: -2.0d
+			x: -5.0d
+			y: -1.0d
 			subtitle: "Loot for everyone!"
 			description: [
 				"&6Chests in natural structures can be looted by multiple players and help indicate which structures you have already looted."
@@ -1941,16 +1933,8 @@
 				id: "74E46D8664297FE3"
 				type: "observation"
 				title: "Discover a Lootr Chest"
-				icon: {
-					id: "lootr:lootr_chest"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				timer: 50L
+				icon: "lootr:lootr_chest"
+				timer: 30L
 				observe_type: 0
 				to_observe: "lootr:lootr_chest"
 			}]
@@ -1988,19 +1972,23 @@
 				count: 5L
 			}]
 			rewards: [{
-				id: "65B246D328EEEA52"
+				id: "3820B968656201A3"
 				type: "item"
 				item: {
-					id: "minecraft:potion"
+					id: "minecraft:torch"
 					Count: 1b
-					tag: {
-						Potion: "apotheosis:strong_haste"
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
 					}
 				}
+				count: 2
 			}]
 		}
 		{
 			title: "Modifiers"
+			disable_toast: true
 			x: -3.0d
 			y: 0.0d
 			description: [
@@ -2010,12 +1998,12 @@
 				""
 				"While they usually grant basic effects like extra health, damage, or defense, they can sometimes have extra new attributes. Most are self-explanatory, but a few may not be clear on what they do:"
 				""
-				"-Smite: Bonus damage vs undead"
-				"-Blessed: Undead attacking you take this much damage"
-				"-Serendipity: Extra looting, fortune and luck"
-				"-Life Steal: Heal based on killed mob's hp percentage"
-				"-Soul Gathering/Soul Cap: Gain souls on defeating mobs (see Souls quest after this one)"
-				"-Summon Cap: Can summon more mobs using artifacts from the dungeons gear mod"
+				"-&9Smite: &rBonus damage vs undead"
+				"-&9Blessed: &rUndead attacking you take this much damage"
+				"-&9Serendipity: &rExtra looting, fortune and luck"
+				"-&9Life Steal: &rHeal based on killed mob's hp percentage"
+				"-&9Soul Gathering/Soul Cap: &rGain souls on defeating mobs (see Souls quest after this one)"
+				"-&9Summon Cap: &rCan summon more mobs using artifacts from the dungeons gear mod"
 			]
 			dependencies: ["0E5AE2A43020AFC3"]
 			hide: false
@@ -2027,18 +2015,19 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: -2.0d
 			y: 0.0d
 			description: [
 				"After aquiring certain magical artifacts from the Dungeons Gear mod you may notice a blue bar appearing on the bottom left side of your screen."
 				""
-				"Killing a mob will grant you souls equal to your total Soul Gathering Attribute, up to your current Soul Cap. By default you can have up to 300 souls."
+				"Killing a mob will grant you souls equal to your total &9Soul Gathering&r Attribute, up to your current Soul Cap. By default you can have up to &9300 souls&r."
 				""
 				"This attribute can be found on modifiers as well as soul-related weapons and armor."
 				""
-				"Souls can be spent by using certain dungeons artifacts. Check the Trinkets n' Curios quest chapter to see which artifacts use souls and their cost."
+				"Souls can be spent by using certain dungeons artifacts. Check the &3Trinkets n' Curios &rquest chapter to see which artifacts use souls and their cost."
 				""
-				"Certain enchantments can also benefit more by having a high soul bar, like Enigma Resonator."
+				"Certain enchantments can also benefit more by having a high soul bar, like &6Enigma Resonator."
 			]
 			dependencies: ["4C74D405A58FCD5B"]
 			id: "2E5549A74BA848D1"
@@ -2059,14 +2048,21 @@
 		}
 		{
 			icon: "rats:trash_can"
+			disable_toast: true
 			x: -4.5d
 			y: -3.5d
 			description: [
-				"The trash can slot found on the bottom right of your inventory and certain other interfaces can be used to delete unwanted items."
+				"&6In your inventory there is a trash can slot to delete unwanted items."
+				""
+				""
+				"&a<More in-depth details below>"
+				""
 				""
 				"When an item is in this slot, it will not be deleted until another item is placed onto it, reducing the chance of accidentally deleting an item."
 				""
 				"You can click and drag to move the slot anywhere you want, and it can be toggled on and off with a keybind, &3default T&r."
+				""
+				"Additionally, pressing &3Del&7(Delete key)&r on an item will move it to the trash slot, if its already in the trash slot it will be deleted without having to put another item on it."
 			]
 			dependencies: ["7B1C0892C86A4177"]
 			id: "4B28C11BE60618B8"
@@ -2074,6 +2070,43 @@
 				id: "7850FB9347991619"
 				type: "checkmark"
 				title: "Trash Can Slot"
+				disable_toast: true
+			}]
+		}
+		{
+			disable_toast: true
+			x: -8.0d
+			y: -3.5d
+			subtitle: "One guidebook to rule them all"
+			description: [
+				"&6The akashic tome contains &o&6almost&r&6 every guidebook in the modpack!"
+				""
+				"Just open it and select a book and the tome will shapeshift into it."
+				""
+				"To turn it back into the akashic tome, just &3left-click&r in the air!"
+				""
+				"If you lose it you can always craft a new one or buy it from the shop."
+			]
+			dependencies: ["7FF57EE6F8F6FC1C"]
+			id: "6CF82F388AFAF4BC"
+			tasks: [{
+				id: "57E7CB7AB4BEB422"
+				type: "item"
+				item: {
+					id: "akashictome:tome"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "16A2101F2DB6C4CF"
+				type: "xp"
+				title: "Wow so much knowledge"
+				xp: 5
 			}]
 		}
 	]

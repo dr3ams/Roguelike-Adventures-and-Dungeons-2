@@ -5,6 +5,7 @@
 	filename: "greek_fantasy"
 	title: "Greek Fantasy"
 	icon: "greekfantasy:wooden_lyre"
+	subtitle: ["Fantasy became real"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
@@ -799,7 +800,11 @@
 			x: 2.0d
 			y: -3.0d
 			subtitle: "The three-headed hound of the underworld"
-			description: ["To summon this fiend, you must build a 4x4 hollow frame of blackstone blocks, with a 2x2 of lava in the middle. Then sacrifice the head of an Orthus by tossing it into the lava. The lava will turn to magma and the Cerberus will appear."]
+			description: [
+				"To summon this fiend, you must build a &a4x4 hollow frame of blackstone, with a 2x2 of lava in the middle.&r Then sacrifice the head of an Orthus by tossing it into the lava. The lava will turn to magma and the Cerberus will appear."
+				""
+				"&6(imagine the twilight forest portal but there's no flowers, the dirt is blackstone, the water is lava, and the diamond is an orthus head)"
+			]
 			id: "5D12D90A59FADF6A"
 			tasks: [{
 				id: "7315402A54DA531C"
@@ -938,7 +943,11 @@
 			x: 12.0d
 			y: 0.0d
 			subtitle: "Brass automaton that will devastate any player foolish enough to build it."
-			description: ["To summon the Talos, place 3x2 gold blocks and place an ichor-infused block on top. Watch out! That dispenser on his arm isn't just for looks..."]
+			description: [
+				"To summon the Talos, &aplace 3x2 gold blocks&r and place an ichor-infused block on top. Watch out! That dispenser on his arm isn't just for looks..."
+				""
+				"&6(3 blocks horizontal, 2 vertical)"
+			]
 			id: "5F907B1936D811FC"
 			tasks: [{
 				id: "2A089EBCE8C7D10E"

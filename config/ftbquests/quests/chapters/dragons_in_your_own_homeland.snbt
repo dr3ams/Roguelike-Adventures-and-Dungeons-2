@@ -33,6 +33,7 @@
 			x: 0.0d
 			y: 1.0d
 			shape: "octagon"
+			description: ["You can find this in the akashic tome"]
 			dependencies: ["2CFA4190DF280F3F"]
 			size: 2.0d
 			id: "589F991D7DCB2D69"
@@ -69,10 +70,10 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -1.0d
+			x: -2.0d
+			y: -1.5d
 			subtitle: "Click on the scale to learn more!"
-			dependencies: ["0289B5163EDBE735"]
+			dependencies: ["11F3995682DDB29C"]
 			id: "43CB9B3DAD77683A"
 			tasks: [{
 				id: "4ADC46F4B9A68D7C"
@@ -103,10 +104,10 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -1.0d
+			x: 2.0d
+			y: -1.5d
 			subtitle: "Click on the scale to learn more!"
-			dependencies: ["0289B5163EDBE735"]
+			dependencies: ["11F3995682DDB29C"]
 			id: "35557AE2D124F340"
 			tasks: [{
 				id: "2C38EDA94738B25A"
@@ -140,7 +141,7 @@
 			x: 1.5d
 			y: -2.5d
 			subtitle: "Click on the scale to learn more!"
-			dependencies: ["0289B5163EDBE735"]
+			dependencies: ["11F3995682DDB29C"]
 			id: "605894F90D1565D9"
 			tasks: [{
 				id: "1BC7DBCE2CFB50A0"
@@ -788,6 +789,11 @@
 		{
 			x: 0.0d
 			y: -0.5d
+			description: [
+				"The bestiary starts off small; adding manuscripts can unlock more information in the book."
+				""
+				"If you used the akashic tome, the pages will be saved even if you switch to a different book, making it very convienent."
+			]
 			dependencies: ["589F991D7DCB2D69"]
 			id: "0289B5163EDBE735"
 			tasks: [{
@@ -875,7 +881,7 @@
 		{
 			x: 0.0d
 			y: -2.5d
-			dependencies: ["0289B5163EDBE735"]
+			dependencies: ["11F3995682DDB29C"]
 			id: "49AD80E916672BBE"
 			tasks: [{
 				id: "03DD66F1004D3C84"
@@ -1064,8 +1070,8 @@
 		}
 		{
 			x: -1.5d
-			y: -2.5d
-			dependencies: ["0289B5163EDBE735"]
+			y: -3.0d
+			dependencies: ["11F3995682DDB29C"]
 			id: "6981F829E387F126"
 			tasks: [{
 				id: "702F12FBB62E3915"
@@ -1096,8 +1102,8 @@
 			]
 		}
 		{
-			x: -7.5d
-			y: 1.5d
+			x: -7.0d
+			y: 1.0d
 			dependencies: ["5C42AD1E351785EA"]
 			id: "51C4C91587A70CBA"
 			tasks: [{
@@ -1140,7 +1146,7 @@
 			]
 		}
 		{
-			x: -7.0d
+			x: -6.0d
 			y: 0.5d
 			description: ["Calls your dragon back to you, useful if they fly away."]
 			dependencies: ["5C42AD1E351785EA"]
@@ -1225,7 +1231,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -5.0d
 			y: 0.0d
 			description: ["Stores your dragon in this horn to carry them with you during your adventures."]
 			dependencies: ["5C42AD1E351785EA"]
@@ -1486,6 +1492,7 @@
 		{
 			x: -1.5d
 			y: 8.5d
+			description: ["Main ingredient to craft the death worm tongue."]
 			id: "556A07D30BC8D028"
 			tasks: [{
 				id: "0AC4E22746A8E4A0"
@@ -1566,6 +1573,7 @@
 		{
 			x: -1.0d
 			y: 10.0d
+			subtitle: "Last one to find a cockatrice is a..."
 			description: ["Rarely laid by chickens. Can be thrown like a chicken egg to spawn a tamed cockatrice!"]
 			id: "05A7E9B1299D7219"
 			tasks: [{
@@ -1653,6 +1661,7 @@
 		{
 			x: 0.0d
 			y: 10.0d
+			subtitle: "Was a gorgon, now gor-gone"
 			description: [
 				"A one-time use item that can turn any mob into stone (except the enderdragon)"
 				""
@@ -1773,6 +1782,11 @@
 		{
 			x: 1.0d
 			y: 4.5d
+			description: [
+				"Makes one of the most powerful arrows in the game."
+				""
+				"Can also be traded by a scribe villager, if you don't think you can take on a hydra."
+			]
 			id: "0ADD071E01154009"
 			tasks: [{
 				id: "0F62115205D793EF"
@@ -1857,8 +1871,9 @@
 			]
 		}
 		{
-			x: -6.0d
+			x: -5.0d
 			y: 3.0d
+			subtitle: "yum!"
 			description: ["Speeds up the growth of your dragons."]
 			dependencies: ["5C42AD1E351785EA"]
 			id: "1DCD8CFCE09D656F"
@@ -1889,8 +1904,9 @@
 			]
 		}
 		{
-			x: -7.0d
+			x: -6.0d
 			y: 2.5d
+			subtitle: "eww..."
 			description: ["Stops the growth of your dragon. This is a permanant change to your dragon."]
 			dependencies: ["1DCD8CFCE09D656F"]
 			id: "4451F4351231A711"
@@ -2039,6 +2055,7 @@
 		{
 			x: -3.0d
 			y: 7.5d
+			subtitle: "Swarm! I repeat, Swarm!"
 			dependencies: ["7A802CBAD47B9356"]
 			id: "068274D8B4859A4D"
 			tasks: [{
@@ -2070,6 +2087,7 @@
 		{
 			x: -4.5d
 			y: 9.0d
+			subtitle: "A Swarm is coming your way, load up"
 			dependencies: ["4C794E3FD4687CA5"]
 			id: "616FBE2E85C35B68"
 			tasks: [{
@@ -2101,6 +2119,7 @@
 		{
 			x: -0.5d
 			y: 7.0d
+			subtitle: "Amp hit here?"
 			id: "53F95089CB6FF9CF"
 			tasks: [{
 				id: "6651C8310874C6FE"
@@ -2124,6 +2143,7 @@
 		{
 			x: 1.0d
 			y: 7.0d
+			subtitle: "Amp hit here Mac uah util?"
 			description: ["Flings mobs high into the air like an iron golem's swing!"]
 			dependencies: ["53F95089CB6FF9CF"]
 			id: "0638813A7CD7CB60"
@@ -2185,7 +2205,9 @@
 		{
 			x: -6.0d
 			y: 8.0d
+			description: ["&6Only 3 of 4 are needed to complete the quest."]
 			dependencies: ["4C794E3FD4687CA5"]
+			min_required_tasks: 3
 			id: "01189CB83DB9E541"
 			tasks: [
 				{
@@ -2303,7 +2325,9 @@
 		{
 			x: -4.5d
 			y: 6.5d
+			description: ["&6Only 3 of 4 are needed to complete the quest."]
 			dependencies: ["7A802CBAD47B9356"]
+			min_required_tasks: 3
 			id: "3650F5B9FA248305"
 			tasks: [
 				{
@@ -2421,6 +2445,7 @@
 		{
 			x: -3.5d
 			y: 6.5d
+			description: ["Unlike the Chitin Swords, Stinger Swords can poison their foes."]
 			dependencies: ["7A802CBAD47B9356"]
 			id: "0A467E459CE07970"
 			tasks: [{
@@ -2489,6 +2514,7 @@
 		{
 			x: -5.5d
 			y: 7.0d
+			description: ["Unlike the Chitin Swords, Stinger Swords can poison their foes."]
 			dependencies: ["4C794E3FD4687CA5"]
 			id: "786DB1AF99840E9D"
 			tasks: [{
@@ -2679,7 +2705,7 @@
 			]
 		}
 		{
-			x: -6.0d
+			x: -7.0d
 			y: -10.5d
 			description: ["Burns enemies and knocks them back further away."]
 			dependencies: ["5F7B4E456CD5AD52"]
@@ -2856,7 +2882,7 @@
 			]
 		}
 		{
-			x: -5.5d
+			x: -4.5d
 			y: -9.5d
 			dependencies: ["5F7B4E456CD5AD52"]
 			id: "44117F70E9596B2B"
@@ -3031,8 +3057,10 @@
 		}
 		{
 			x: -5.5d
-			y: -8.5d
+			y: -8.0d
+			description: ["&6Only 3 of 4 are needed to complete the quest."]
 			dependencies: ["5F7B4E456CD5AD52"]
+			min_required_tasks: 3
 			id: "27158F9244EA2788"
 			tasks: [
 				{
@@ -3167,8 +3195,10 @@
 		}
 		{
 			x: 6.0d
-			y: -9.5d
+			y: -10.5d
+			description: ["&6Only 3 of 4 are needed to complete the quest."]
 			dependencies: ["586BC8112DF3B5FA"]
+			min_required_tasks: 3
 			id: "62638BBF2AB81B65"
 			tasks: [
 				{
@@ -3304,7 +3334,9 @@
 		{
 			x: 3.5d
 			y: -12.0d
+			description: ["&6Only 3 of 4 are needed to complete the quest."]
 			dependencies: ["2BFCFAF2EF10A54E"]
+			min_required_tasks: 3
 			id: "59FAEE03C6A088F6"
 			tasks: [
 				{
@@ -3704,6 +3736,8 @@
 			x: 7.0d
 			y: 9.0d
 			shape: "hexagon"
+			description: ["&6Only 3 of 4 are needed to complete the quest."]
+			min_required_tasks: 3
 			id: "461694134C5F7AB4"
 			tasks: [
 				{
@@ -3822,6 +3856,8 @@
 			x: 6.0d
 			y: 9.0d
 			shape: "hexagon"
+			description: ["&6Only 3 of 4 are needed to complete the quest."]
+			min_required_tasks: 3
 			id: "0E881D23151E6A38"
 			tasks: [
 				{
@@ -3940,6 +3976,8 @@
 			x: 5.0d
 			y: 9.0d
 			shape: "hexagon"
+			description: ["&6Only 3 of 4 are needed to complete the quest."]
+			min_required_tasks: 3
 			id: "077A073A83843265"
 			tasks: [
 				{
@@ -4055,22 +4093,53 @@
 			]
 		}
 		{
-			x: -5.5d
+			title: "Death Worm Chitin"
+			x: -4.5d
 			y: 5.0d
+			description: ["&6Only 1 is needed to complete this quest."]
+			min_required_tasks: 1
 			id: "2FA74B751A466994"
-			tasks: [{
-				id: "3CB84413F32FDB55"
-				type: "item"
-				item: {
-					id: "iceandfire:deathworm_chitin_yellow"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "3CB84413F32FDB55"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_chitin_yellow"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "1C11821A7DBD43EC"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_chitin_white"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1D39F17684AE38D6"
+					type: "item"
+					item: {
+						id: "iceandfire:deathworm_chitin_red"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "029457FEDA0E920E"
@@ -4084,92 +4153,6 @@
 				}
 				{
 					id: "18CFC9B6FE054AA1"
-					type: "item"
-					item: {
-						id: "aquaculture:lockbox"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -4.5d
-			y: 5.0d
-			id: "3C69793758816639"
-			tasks: [{
-				id: "0D714BBE2908402B"
-				type: "item"
-				item: {
-					id: "iceandfire:deathworm_chitin_white"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "5590778D7EF9D76C"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "78D5688D21DD33C3"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "6E969D8F4A284C64"
-					type: "item"
-					item: {
-						id: "aquaculture:lockbox"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -3.5d
-			y: 5.0d
-			id: "3E7A578EDADACEAA"
-			tasks: [{
-				id: "291E0F94BC74C6F0"
-				type: "item"
-				item: {
-					id: "iceandfire:deathworm_chitin_red"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "1F7A5E097D5C5C1A"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "4CD47C78E98A47F3"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "54117358CFAEB747"
 					type: "item"
 					item: {
 						id: "aquaculture:lockbox"
@@ -4228,75 +4211,43 @@
 		}
 		{
 			x: -7.0d
-			y: -10.5d
+			y: 2.0d
 			description: [
 				"Dragon Armors can be used to protect your dragon from attacks."
 				""
 				"Thanks to the unique enchantments mod they can be enchanted with protection through an anvil."
 			]
-			dependencies: ["5F7B4E456CD5AD52"]
+			dependencies: ["5C42AD1E351785EA"]
 			id: "79222FD515377830"
-			tasks: [
-				{
-					id: "0F06D7E462C3DA96"
-					type: "item"
-					item: {
-						id: "iceandfire:dragonarmor_dragonsteel_fire_head"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
+			tasks: [{
+				id: "0F06D7E462C3DA96"
+				type: "item"
+				title: "Any #iceandfire:dragon_armors"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "iceandfire:dragon_armors"
 					}
 				}
-				{
-					id: "28FA607B9BB8E9A4"
-					type: "item"
-					item: {
-						id: "iceandfire:dragonarmor_dragonsteel_fire_neck"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "4A904035CB0B06DC"
-					type: "item"
-					item: {
-						id: "iceandfire:dragonarmor_dragonsteel_fire_body"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "140BF893D4219CDF"
-					type: "item"
-					item: {
-						id: "iceandfire:dragonarmor_dragonsteel_fire_tail"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
+			}]
 			rewards: [
 				{
 					id: "0A3C8BCBE94E2928"
 					type: "pmmo:xpreward"
+					title: "100 Dragonslayer XP"
+					icon: {
+						id: "iceandfire:dragon_skull_lightning"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 					auto: "invisible"
 					skill: "dragonslayer"
-					amount: 10.0d
+					amount: 100.0d
 					ignoreBonuses: false
 				}
 				{
@@ -4315,190 +4266,7 @@
 							}
 						}
 					}
-				}
-			]
-		}
-		{
-			x: 6.5d
-			y: -11.0d
-			description: [
-				"Dragon Armors can be used to protect your dragon from attacks."
-				""
-				"Thanks to the unique enchantments mod they can be enchanted with protection through an anvil."
-			]
-			dependencies: ["586BC8112DF3B5FA"]
-			id: "47FBF871DC42B9F0"
-			tasks: [
-				{
-					id: "2BB50C61CFDCF7EC"
-					type: "item"
-					item: {
-						id: "iceandfire:dragonarmor_dragonsteel_ice_head"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "4C060598F506EC3B"
-					type: "item"
-					item: {
-						id: "iceandfire:dragonarmor_dragonsteel_ice_neck"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "71A8630E47EE6B7F"
-					type: "item"
-					item: {
-						id: "iceandfire:dragonarmor_dragonsteel_ice_body"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "336AD3AD826B45AF"
-					type: "item"
-					item: {
-						id: "iceandfire:dragonarmor_dragonsteel_ice_tail"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "6B160E867B5C5849"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "4DD12C80ACA445AF"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_magic"
-							rpgloot.randomize: 0b
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 2.5d
-			y: -10.0d
-			description: [
-				"Dragon Armors can be used to protect your dragon from attacks."
-				""
-				"Thanks to the unique enchantments mod they can be enchanted with protection through an anvil."
-			]
-			dependencies: ["2BFCFAF2EF10A54E"]
-			id: "7004E82094588EBB"
-			tasks: [
-				{
-					id: "1D967B92490E8439"
-					type: "item"
-					item: {
-						id: "iceandfire:dragonarmor_dragonsteel_lightning_head"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "6A3131582A002322"
-					type: "item"
-					item: {
-						id: "iceandfire:dragonarmor_dragonsteel_lightning_neck"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "6F3E32777167185B"
-					type: "item"
-					item: {
-						id: "iceandfire:dragonarmor_dragonsteel_lightning_body"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "00F497242271FAF8"
-					type: "item"
-					item: {
-						id: "iceandfire:dragonarmor_dragonsteel_lightning_tail"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "013A330E688A1439"
-					type: "pmmo:xpreward"
-					auto: "invisible"
-					skill: "dragonslayer"
-					amount: 10.0d
-					ignoreBonuses: false
-				}
-				{
-					id: "2AABF01BA85D3A02"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_magic"
-							rpgloot.randomize: 0b
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
+					count: 3
 				}
 			]
 		}
@@ -4722,6 +4490,41 @@
 					}
 				}
 				count: 4
+			}]
+		}
+		{
+			title: "Preparing for a Big Fight"
+			icon: "kubejs:armour"
+			disable_toast: true
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Hold your horses!... and everything else"
+			description: [
+				"If you're playing the modpack specifically only for the dragons, you will be missing out on a lot of other stuff. Give the other 200+ mods a try!"
+				""
+				"Dragons are much tougher than usual in this pack. It's a good idea to get some better equipment and enchantments before taking one on."
+				""
+				"At least highly enchanted diamond or netherite gear and fire resistance potions should help, and make sure to check out the craftable bosses in the &3Meet your fight&r section! Their items will greatly help you throughout your adventures."
+			]
+			dependencies: ["0289B5163EDBE735"]
+			id: "11F3995682DDB29C"
+			tasks: [{
+				id: "76950F803770ADE6"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2C95604801C092CD"
+				type: "item"
+				item: {
+					id: "mysticalworld:apple_cordial"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
 			}]
 		}
 	]

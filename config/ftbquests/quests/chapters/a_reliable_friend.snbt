@@ -5,55 +5,20 @@
 	filename: "a_reliable_friend"
 	title: "A Reliable Friend"
 	icon: "doggytalents:doggy_charm"
+	subtitle: ["A companion during ruff times"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Dog Bone"
-			x: -3.0d
-			y: -2.5d
-			shape: "gear"
-			description: [
-				"Step 1:"
-				"Find a wild wolf (the Vanilla Minecraft wolf)."
-				"Step 2:"
-				"Feed it bones (right click with a bone in your hand) until hearts appear above its head. If a collar appears on its neck and it sits down, you've done it right!"
-				"Step 3:"
-				"Feed the dog at least one Training Treat and the dog will disappear for a very brief second and a dog without a collar will take its place. At this point, you now have a Doggy Talents dog."
-			]
-			dependencies: ["3E1010E7853074C0"]
-			size: 1.5d
-			id: "000000000000062D"
-			tasks: [{
-				id: "000000000000062E"
-				type: "item"
-				item: "minecraft:bone"
-				count: 8L
-			}]
-			rewards: [
-				{
-					id: "000000000000066F"
-					type: "item"
-					item: "aquaculture:box"
-				}
-				{
-					id: "1E81638DEBDC2793"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "potions"
-						}
-					}
-				}
-			]
-		}
-		{
 			x: -0.5d
 			y: -2.5d
-			description: ["The first treat you will need to level up your dog. It can only level the dog to 20. After that, you will require the next tier treat, the Super Treat."]
-			dependencies: ["000000000000062D"]
+			subtitle: "How to train your dog"
+			description: [
+				"A Training Treat will change your vanilla minecraft wolf into a Doggy Talents Dog, which is explained further in the quest below."
+				""
+				"You can then continue to feed these treats to level up your dog. It can only level the dog to &e20&r. After that, you will require the next tier treat, the &aSuper Treat&r."
+			]
+			dependencies: ["3E1010E7853074C0"]
 			id: "000000000000062F"
 			tasks: [{
 				id: "0000000000000630"
@@ -70,12 +35,17 @@
 			x: -0.5d
 			y: -0.5d
 			description: [
-				"Once you have a Doggy Talents dog, you will be able to right click on it with a stick in hand (main or secondary) to open the dog information/talents menu."
+				"A Stick will allow you to customize a dog's looks, abilities and more."
 				""
-				"This menu allows you to change the name of your dog, toggle its behavior, add talents, and toggle whether to obey other players. In the menu, your dog's basic level, dire level, and level spending points will be displayed just under the name box."
+				"Simply &3Right-Click&r your dog to open up the menu."
 				""
-				"The more you level up your dog using the Treats in this order: Training Treat, Super Treat, Master Treat, and Dire Treat; the more points you have available to spend on your talents. Eventually, the dog will hit its maximum level, which will not"
-				"allow you to get anymore points once it hits this level cap."
+				"There are many skills to choose from, which require points."
+				"A dog starts with &615 points&r and can acquire more with &atreats&r."
+				""
+				"This also allows changing your dog's behavior. Right now the dog is in Docile mode which means it will not fight but is ready to play!"
+				"Click the Docile button to change the behavior."
+				""
+				"The quest to the right will explain all the dog behaviors."
 			]
 			dependencies: ["3E00EB5E08FB8C15"]
 			id: "0000000000000631"
@@ -84,16 +54,23 @@
 				type: "item"
 				item: "minecraft:stick"
 			}]
-			rewards: [{
-				id: "141E616C094ABC70"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
+			rewards: [
+				{
+					id: "300395B4BA4DAEC1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3CB90FCD5A8037F2"
+					type: "ftbmoney:money"
+					ftb_money: 3L
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: -4.5d
-			description: ["The second treat you will need to level up your dog. It can only level the dog to 40. After that, you will require the next tier treat, the Master Treat."]
+			description: ["The second treat you will need to level up your dog. It can only level the dog to &e40&r. After that, you will require the next tier treat, the &aMaster Treat&r."]
 			dependencies: ["000000000000062F"]
 			id: "0000000000000633"
 			tasks: [{
@@ -122,7 +99,8 @@
 		{
 			x: 3.5d
 			y: -4.5d
-			description: ["The third treat you will need to level up your dog. It can only level the dog to 60. After that, you will require the final tier treat, the Dire Treat."]
+			subtitle: "Da da da da!"
+			description: ["The third treat you will need to level up your dog. It can only level the dog to &e60&r. After that, you will require the final tier treat, the &aDire Treat&r."]
 			dependencies: ["0000000000000633"]
 			id: "0000000000000635"
 			tasks: [{
@@ -156,8 +134,9 @@
 		{
 			x: 5.5d
 			y: -4.5d
+			subtitle: "Dire situations call for dire treats"
 			description: [
-				"The forth and final treat you will need to level up your dog. It adds dire levels, which is maxed at 30. After that, you will no longer have the ability to level up the dog, hence the dog has reached the ultimate level. Also, at the maximum dire"
+				"The forth and final treat you will need to level up your dog. It adds dire levels, which is maxed at &e30&r. After that, you will no longer have the ability to level up the dog, hence the dog has reached the ultimate level. Also, at the maximum dire"
 				"level, end-like particles will begin to emit from your dog."
 			]
 			dependencies: ["0000000000000635"]
@@ -195,22 +174,23 @@
 			title: "Whistle"
 			x: 3.5d
 			y: -2.5d
+			subtitle: "Wheewe!"
 			description: [
 				"The Whistle has 7 different modes which command all your nearby dogs."
 				""
-				"Command Stand: Makes your owned dogs stand up"
+				"&6Command Stand&r: Makes your owned dogs stand up"
 				""
-				"Command Heel: Your Standing Dogs teleport to you. Sitting dogs won't teleport so make sure to use the stand command first"
+				"&6Command Heel&r: Your Standing Dogs teleport to you. Sitting dogs won't teleport so make sure to use the stand command first"
 				""
-				"Command Stay: Makes your dogs sit"
+				"&6Command Stay&r: Makes your dogs sit"
 				""
-				"Command Ok?: Acts same as Stand"
+				"&6Command Ok?&r: Acts same as Stand"
 				""
-				"Shepherd's Whistle: Dogs with the Shepherd upgrade will put nearby animals on their back and come to you."
+				"&6Shepherd's Whistle&r: Dogs with the Shepherd upgrade will put nearby animals on their back and come to you."
 				""
-				"Tactical Whistle: The whistle throws a snowball which commands all wolves in Tactical Mode to attack the hit mob."
+				"&6Tactical Whistle&r: The whistle throws a snowball which commands all wolves in Tactical Mode to attack the hit mob."
 				""
-				"Roaring Whistle: Dogs with the Roaring Gale talent will use a powerful growl that pushes back mobs."
+				"&6Roaring Whistle&r: Dogs with the Roaring Gale talent will use a powerful growl that pushes back mobs."
 			]
 			dependencies: ["000000000000062F"]
 			id: "0000000000000639"
@@ -241,6 +221,7 @@
 		{
 			x: 5.0d
 			y: -1.5d
+			subtitle: "Don't lose your dog!"
 			description: [
 				"This item is like a map, but for locating your dog when it has the Radio Collar equipped. To locate your dog, right click with the item in your main hand and it will give your dog's distance away from you and in which direction it is in. However,"
 				"this item only works if the dog is in the same dimension."
@@ -315,7 +296,9 @@
 			title: "Dog Decorations"
 			x: 2.0d
 			y: -1.5d
+			description: ["&6Only 2 is needed to complete."]
 			dependencies: ["0000000000000639"]
+			min_required_tasks: 2
 			id: "000000000000063F"
 			tasks: [
 				{
@@ -382,8 +365,11 @@
 			description: [
 				"This gives your dog a collar! To equip the collar, right click on your dog with the collar in your main hand. You can customize the color of the collars in a similar fashion as in the Wearable Backpacks mod!"
 				"To do so, just add it and dyes in a crafting table or applying it directly to your dog. You can take them off by using the Collar Shears"
+				""
+				"&6Only 1 is needed to complete."
 			]
 			dependencies: ["0000000000000639"]
+			min_required_tasks: 1
 			id: "0000000000000644"
 			tasks: [
 				{
@@ -669,7 +655,11 @@
 		{
 			x: 4.0d
 			y: -0.5d
-			description: ["These special shears can cut off the wool collars off your dog. Also, the shears can untame your dog."]
+			description: [
+				"These special shears can cut off the wool collars off your dog. Also, the shears can untame your dog."
+				""
+				"Careful not to accidentally click twice when removing cosmetics..."
+			]
 			dependencies: ["0000000000000639"]
 			id: "0000000000000658"
 			tasks: [{
@@ -702,33 +692,34 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: -4.5d
+			disable_toast: true
+			x: 1.0d
+			y: -0.5d
 			description: [
 				"Modes"
 				"These control how the dog reacts to other entities and interacts with you The tips of each mode appear above the dog as in the following image"
 				""
-				"Docile (D)"
-				"In this mode, your dog will follow you but not attack anything. They will also play fetch with you when you throw the Throw Bone or Throw Stick. This mode will show up as the tip,\"(D)\" just above the dogs name."
+				"&bDocile (D)&r"
+				"In this mode, your dog will follow you but not attack anything. They will also play fetch with you when you throw the &aThrow Bone&r or &aThrow Stick&r. This mode will show up as the tip,\"(D)\" just above the dogs name."
 				""
-				"Wandering (W)"
+				"&bWandering (W)&r"
 				"In this mode, your dog will stay near its bowl and wait for your next command. To set your dog's bowl, simply place one and bring your dog within 1 block of it. This mode will show up as the tip,\"(W)\" just above the dog's name."
 				""
-				"Aggressive (A)"
-				"In this mode, your dog will follow you and attack anything that either attacks you or that you attack. This mode will show up as the tip,\"(A)\" just above the dogs name."
+				"&bAggressive (A)&r"
+				"&o&7Default vanilla wolf behavior.&r In this mode, your dog will follow you and attack anything that either attacks you or that you attack. This mode will show up as the tip,\"(A)\" just above the dogs name."
 				""
-				"Berserker (B)"
-				"In this mode, your dog will follow you and will attack any mob that draws near. This mode will show up as the tip,\"(B)\" just above the dogs name."
+				"&bBerserker (B)&r"
+				"In this mode, your dog will follow you and will attack any hostile mob that draws near. This mode will show up as the tip,\"(B)\" just above the dogs name."
 				""
-				"Tactical (T)"
-				"In this mode, your dog will follow you but will not attack anything unless you use the whistle to attack the entity you right click on (with the item in hand). This mode will show up as the tip,\"(T)\" just above the dogs name."
+				"&bTactical (T)&r"
+				"In this mode, your dog will follow you but will not attack anything unless you use the &awhistle&r to attack the entity you right click on (with the item in hand). This mode will show up as the tip,\"(T)\" just above the dogs name."
 				""
-				""
-				""
-				""
-				""
+				"&bPatrol (P)&r"
+				"Might not be working? Dog will stand still and only retaliate when attacked."
+				"Despite the description of the mode saying command emblem, that item was removed and replaced with the whistle."
+				"There is no \"patrol whistle\" and the tactical whistle does not seem to do affect the dog in this mode."
 			]
-			dependencies: ["000000000000062F"]
+			dependencies: ["0000000000000631"]
 			id: "000000000000065A"
 			tasks: [{
 				id: "000000000000065B"
@@ -737,9 +728,9 @@
 				icon: "itemfilters:tag"
 			}]
 			rewards: [{
-				id: "000000000000065D"
-				type: "xp_levels"
-				xp_levels: 3
+				id: "145DE3D5CF233A7E"
+				type: "xp"
+				xp: 20
 			}]
 		}
 		{
@@ -750,16 +741,20 @@
 					Damage: 0
 				}
 			}
-			x: -5.5d
+			disable_toast: true
+			x: -3.0d
 			y: -4.5d
+			subtitle: "Impenetrable Pets"
 			description: [
-				"Pets won't survive against the champions without a good defense."
+				"Pets won't survive against the &cchampions&r without a good defense."
 				""
-				"You can equip armor to your pets by sneaking and right-clicking on them."
+				"You can &aequip armor&r to your pets by &3sneaking&r and &3right-clicking&r on them."
 				""
-				"You can also swap their armor just by equipping another one to them and you'll get the other one back."
+				"You can also &eswap their armor&r just by equipping another one to them and you'll get the other one back."
 				""
-				"Try equipping armors with aura effects; they can turn your pets into powerful supports!"
+				"Try equipping armors with &aaura effects&r; they can turn your pets into &epowerful supports&r!"
+				""
+				"&l&6ALL&r&6 pets can be armored, not just wolves and dogs. Dragons however can only wear dragon armor."
 			]
 			dependencies: ["3E1010E7853074C0"]
 			id: "6C2E2AA49378EE39"
@@ -794,7 +789,7 @@
 		{
 			title: "Big Dogs \\& Little Dogs"
 			x: 1.0d
-			y: -0.5d
+			y: -1.5d
 			description: ["These Bones can be used to resize your dogs."]
 			dependencies: ["000000000000062F"]
 			id: "6C50E14A07952420"
@@ -840,7 +835,7 @@
 			]
 		}
 		{
-			x: -5.5d
+			x: -3.0d
 			y: -2.5d
 			description: [
 				"You tamed a new friend to accompany you in your adventures!"
@@ -850,7 +845,6 @@
 				""
 				"Pets will also slowly regenerate health over time, though feeding them their favorite food is still recommended to speed up the healing."
 			]
-			size: 1.5d
 			id: "3E1010E7853074C0"
 			tasks: [{
 				id: "730C32C610098E16"
@@ -858,18 +852,24 @@
 				advancement: "minecraft:husbandry/tame_an_animal"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "74225EE17E3F2C5A"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			title: "Pet Care"
-			x: -2.0d
-			y: -4.0d
+			x: -0.5d
+			y: -4.5d
 			shape: "circle"
+			subtitle: "Good Dogs"
 			description: [
 				"Regular Meat doesn't heal your dogs like it does with wolves. You will need certain special items to heal your dog."
 				""
-				"Dog Food can be fed to instantly heal the dog while bandages can be used to clear bleed on them."
+				"Dog Food can be fed to instantly heal the dog to full while bandages can be used to clear bleed on them."
 			]
-			dependencies: ["000000000000062D"]
+			dependencies: ["000000000000062F"]
 			id: "40509027210B7392"
 			tasks: [
 				{
@@ -934,9 +934,9 @@
 			x: -0.5d
 			y: -1.5d
 			description: [
-				"Now that you have a treat, give it to one of your tamed wolves to transform them into a dog!"
+				"Use a training treat on your tamed wolf to turn them into a dog!"
 				""
-				"Dogs even before adding upgrades have double the health and attack power of a regular wolf."
+				"Dogs even before adding upgrades have &6double the health and attack power&r compared to a tamed wolf."
 				""
 				"Right now they may just look like a wolf and have no collar, but you can customize their looks, collar and add accessories to them."
 			]

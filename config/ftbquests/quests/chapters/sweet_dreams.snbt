@@ -1,18 +1,11 @@
 {
 	id: "67FB3A412A928375"
 	group: "241F1DC7B6D6E9D6"
-	order_index: 13
+	order_index: 7
 	filename: "sweet_dreams"
 	title: "Sweet Dreams"
-	icon: {
-		id: "good_nights_sleep:lolipop_bush"
-		Count: 1b
-		ForgeCaps: {
-			"dungeons_libraries:built_in_enchantments": {
-				BuiltInEnchantments: [ ]
-			}
-		}
-	}
+	icon: "good_nights_sleep:lolipop_bush"
+	subtitle: ["are made of these"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -152,7 +145,7 @@
 				}
 			}
 			x: 2.0d
-			y: 0.0d
+			y: 0.5d
 			shape: "rsquare"
 			dependencies: ["7708C151E2F0FAA4"]
 			secret: true
@@ -213,7 +206,7 @@
 				}
 			}
 			x: 2.0d
-			y: 2.0d
+			y: 1.5d
 			shape: "rsquare"
 			dependencies: ["337E0BFFABCBEFA1"]
 			secret: true
@@ -251,6 +244,74 @@
 							}
 						}
 					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			subtitle: "???"
+			description: [""]
+			dependencies: ["337E0BFFABCBEFA1"]
+			id: "0C067FF9250AC544"
+			tasks: [{
+				id: "6B862CAAB9FC62C7"
+				type: "kill"
+				title: "&4&kHerobrine"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "good_nights_sleep:herobrine"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "good_nights_sleep:herobrine"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "68E002CE13967228"
+					type: "item"
+					item: {
+						id: "betterendforge:missing_tile"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 6
+				}
+				{
+					id: "2A55A7145B6DB5FC"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "35D2FEED14174F73"
+					type: "ftbmoney:money"
+					ftb_money: 13L
+				}
+				{
+					id: "698FE6986DC966FF"
+					type: "ftbmoney:money"
+					ftb_money: 6L
+				}
+				{
+					id: "5DEE8E35321E940A"
+					type: "xp"
+					xp: 8
+				}
+				{
+					id: "3E87E44FD28D0E13"
+					type: "xp"
+					xp: 66
 				}
 			]
 		}

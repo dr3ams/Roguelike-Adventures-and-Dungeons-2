@@ -76,16 +76,6 @@ onEvent('recipes', event => {
 	})
 	event.shapeless('9x kubejs:coin_04', ['kubejs:coin_05'])
 	
-	event.shaped('kubejs:coin_06', [
-    'CCC',
-    'CCC',
-    'CCC'
-	], {
-    C: 'kubejs:coin_05'
-	})
-	event.shapeless('9x kubejs:coin_05', ['kubejs:coin_06'])	
-
-	
 event.remove({output: 'quark:magnet'})
 event.remove({output: 'quark:backpack'})
 event.remove({output: 'quark:ravager_hide'})

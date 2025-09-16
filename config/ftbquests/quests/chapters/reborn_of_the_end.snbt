@@ -5,6 +5,7 @@
 	filename: "reborn_of_the_end"
 	title: "End Exploration"
 	icon: "betterendforge:chorus_nylium"
+	subtitle: ["But is it truly the end?"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -142,6 +143,7 @@
 		{
 			x: -3.5d
 			y: 2.5d
+			description: ["Yes there is in fact water in the end."]
 			dependencies: ["00000000000005E9"]
 			id: "00000000000005D2"
 			tasks: [{
@@ -235,6 +237,7 @@
 		{
 			x: -4.5d
 			y: 2.0d
+			description: ["Grants extra &dArcana&r compared to a normal bookshelf"]
 			dependencies: ["00000000000005E9"]
 			id: "00000000000005E7"
 			tasks: [{
@@ -258,6 +261,7 @@
 		{
 			x: -4.5d
 			y: 3.5d
+			subtitle: "Poyz!"
 			dependencies: ["3D208B95463DFD24"]
 			id: "00000000000005E9"
 			tasks: [{
@@ -278,9 +282,24 @@
 			size: 1.5d
 			id: "3D208B95463DFD24"
 			tasks: [{
-				id: "00000000000005F0"
-				type: "item"
-				item: "minecraft:end_stone"
+				id: "03B47707ADACA795"
+				type: "dimension"
+				icon: {
+					id: "minecraft:end_portal_frame"
+					Count: 1b
+					tag: {
+						BlockStateTag: {
+							eye: "true"
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				disable_toast: true
+				dimension: "minecraft:the_end"
 			}]
 			rewards: [{
 				id: "0000000000000627"
@@ -429,6 +448,11 @@
 			x: 0.0d
 			y: -3.5d
 			shape: "hexagon"
+			description: [
+				"Time to fly out and explore all the new end biomes!"
+				""
+				"&6Tip: Elytra is located at the bottom of the new end ships."
+			]
 			dependencies: ["1486101A3CE0CAAA"]
 			size: 1.5d
 			id: "3697C11949A0A907"
@@ -655,6 +679,7 @@
 		{
 			x: 0.0d
 			y: -7.0d
+			subtitle: "Perfect for an orchestra"
 			description: ["A forest of Chorus plants and Pythadendron trees."]
 			dependencies: ["3697C11949A0A907"]
 			id: "580BDDDD0ED68F5A"
@@ -680,15 +705,23 @@
 		}
 		{
 			x: -4.0d
-			y: -2.5d
-			description: ["A desolate, dusty region with not much significance beyond a large Enderman population."]
+			y: -3.0d
+			description: ["A desolate, dusty region, home to the bonestorms, blaze-like beings that throw bones at you."]
 			dependencies: ["3697C11949A0A907"]
 			id: "5660A78B0AE862C7"
 			tasks: [{
 				id: "6C9A3C8AFE33C2A9"
 				type: "biome"
 				title: "Dust Wasteland"
-				icon: "minecraft:end_stone"
+				icon: {
+					id: "betterendforge:endstone_dust"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				biome: "betterendforge:dust_wastelands"
 			}]
 			rewards: [
@@ -705,17 +738,25 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: -3.5d
-			description: ["A layered mountainous land of various ender rocks."]
-			dependencies: ["3697C11949A0A907"]
+			x: -1.5d
+			y: 1.0d
+			description: ["A land with many crystals and the neutral Stalkers, which drop meat when slain."]
+			dependencies: ["211D755718A5FF50"]
 			id: "4FD8DB6A4B137B73"
 			tasks: [{
 				id: "509D3A508AD6D23E"
 				type: "biome"
-				title: "Painted Mountains"
-				icon: "betterendforge:violecite"
-				biome: "betterendforge:painted_mountains"
+				title: "Crystal Crag"
+				icon: {
+					id: "outer_end:violite"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				biome: "outer_end:crystal_crag"
 			}]
 			rewards: [
 				{
@@ -732,7 +773,7 @@
 		}
 		{
 			x: -4.0d
-			y: -4.5d
+			y: -4.0d
 			description: ["Dark forest of Dragon trees and shadow plants."]
 			dependencies: ["3697C11949A0A907"]
 			id: "6D798E6430C4C1C5"
@@ -785,7 +826,7 @@
 		{
 			x: 8.0d
 			y: -3.5d
-			description: ["Mining Aurora Crystal will give you shards that are infused with a mythical energy that pulses through the End."]
+			description: ["Mining &aAurora Crystal&r will give you shards that are infused with a mythical energy that pulses through the End."]
 			dependencies: ["742FA17F32B5562D"]
 			id: "5E2DFA9A653F3619"
 			tasks: [{
@@ -881,6 +922,8 @@
 				"Infused Terminite Armor."
 				""
 				"Grants various buffs on the player."
+				""
+				"&6All 4 are needed for this quest. Try out the set bonus!"
 			]
 			dependencies: ["5E4164741B56B1BC"]
 			id: "254E533B919E0141"
@@ -939,7 +982,7 @@
 				{
 					id: "4D2AF817482E4721"
 					type: "ftbmoney:money"
-					ftb_money: 20L
+					ftb_money: 40L
 				}
 				{
 					id: "2C3D30465188331A"
@@ -951,6 +994,11 @@
 							type: "materials_random"
 						}
 					}
+				}
+				{
+					id: "475D560CAAF1EB0E"
+					type: "xp"
+					xp: 300
 				}
 			]
 		}
@@ -1132,8 +1180,14 @@
 			title: "Terminite Tools"
 			x: 7.5d
 			y: 5.5d
-			description: ["A handy Terminite tool set."]
+			subtitle: "Terminator at work"
+			description: [
+				"A handy Terminite tool set."
+				""
+				"&6You only need to collect at least 4 to complete this quest."
+			]
 			dependencies: ["2F65B1126A72219F"]
+			min_required_tasks: 4
 			id: "692AFCEA58029429"
 			tasks: [
 				{
@@ -1213,8 +1267,13 @@
 			title: "Terminite Armor"
 			x: 9.5d
 			y: 5.5d
-			description: ["A whole set of End-alloy armor."]
+			description: [
+				"A whole set of End-alloy armor."
+				""
+				"&6You only need to collect at least 3 to complete this quest."
+			]
 			dependencies: ["2F65B1126A72219F"]
+			min_required_tasks: 3
 			id: "3A8254A2C4CDE79E"
 			tasks: [
 				{
@@ -1272,15 +1331,19 @@
 			title: "Aeternium Armor"
 			x: 12.5d
 			y: 5.5d
+			subtitle: "I am Aeternal"
 			description: [
 				"From combining Terminite Armor with Aeternium ingots in a Smithing Table."
 				""
 				"One of the highest tiers of armor."
+				""
+				"&6You only need to collect at least 3 to complete this quest."
 			]
 			dependencies: [
 				"0BD7D528F30810EC"
 				"3A8254A2C4CDE79E"
 			]
+			min_required_tasks: 3
 			id: "28A8442346F33F41"
 			tasks: [
 				{
@@ -1354,8 +1417,11 @@
 				"A set of some of the most durable tools in the game."
 				""
 				"While the sword is not as great in combat as some other weapons, this is the only tool set in the game with the max mining level other than Dragonsteel."
+				""
+				"&6You only have to collect at least 3 to complete the quest."
 			]
 			dependencies: ["6FF5FFEE7F672F05"]
+			min_required_tasks: 3
 			id: "36543B4BFF59FC05"
 			tasks: [
 				{
@@ -1442,22 +1508,9 @@
 					ftb_money: 150L
 				}
 				{
-					id: "63395C5FF8289465"
-					type: "pmmo:xpreward"
-					title: "1500 Smithing XP"
-					icon: {
-						id: "minecraft:anvil"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					auto: "invisible"
-					skill: "smithing"
-					amount: 1500.0d
-					ignoreBonuses: false
+					id: "796FB4269130C3C8"
+					type: "choice"
+					table_id: 3680913278004027102L
 				}
 			]
 		}
@@ -1465,8 +1518,13 @@
 			title: "Aeternium Tool Parts"
 			x: 14.0d
 			y: 3.5d
-			description: ["Smithed in an anvil with a Smith Hammer and Aeternium ingots."]
+			description: [
+				"Smithed in an anvil with a Smith Hammer and Aeternium ingots."
+				""
+				"&6You only have to collect at least 4 to complete the quest."
+			]
 			dependencies: ["0BD7D528F30810EC"]
+			min_required_tasks: 3
 			id: "6FF5FFEE7F672F05"
 			tasks: [
 				{
@@ -1878,7 +1936,7 @@
 			]
 		}
 		{
-			x: 3.5d
+			x: 5.0d
 			y: 9.5d
 			shape: "square"
 			dependencies: ["63A64571BBB85FE5"]
@@ -1923,7 +1981,7 @@
 			]
 		}
 		{
-			x: 4.0d
+			x: 5.0d
 			y: 10.5d
 			shape: "square"
 			dependencies: ["75E1E7342850F01A"]
@@ -2013,8 +2071,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 10.0d
+			x: 3.0d
+			y: 9.5d
 			shape: "square"
 			dependencies: ["63A64571BBB85FE5"]
 			id: "6CEB160C26CB76E6"
@@ -2103,7 +2161,7 @@
 			]
 		}
 		{
-			x: 5.0d
+			x: 6.0d
 			y: 9.5d
 			shape: "square"
 			dependencies: ["63A64571BBB85FE5"]
@@ -2194,7 +2252,7 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -3.5d
 			y: 8.5d
 			shape: "hexagon"
 			id: "264AD5D47F599BB4"
@@ -2225,7 +2283,7 @@
 			]
 		}
 		{
-			x: -3.0d
+			x: -2.5d
 			y: 8.0d
 			shape: "hexagon"
 			id: "3A69B1F4A875CBF9"
@@ -2256,38 +2314,7 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 8.0d
-			shape: "hexagon"
-			id: "2591568476B5A934"
-			tasks: [{
-				id: "74A1F02F0BE73F1C"
-				type: "item"
-				item: {
-					id: "betterendforge:end_lotus_log"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "20A65672AE424809"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "15F38E118DD192C7"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: -1.0d
+			x: -1.5d
 			y: 8.5d
 			shape: "hexagon"
 			id: "0B5B4B03D633C140"
@@ -2318,7 +2345,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -1.0d
 			y: 9.5d
 			shape: "hexagon"
 			id: "26650D3189DFCC04"
@@ -2349,39 +2376,8 @@
 			]
 		}
 		{
-			x: -1.0d
+			x: -1.5d
 			y: 10.5d
-			shape: "hexagon"
-			id: "7478ED9C3DED4949"
-			tasks: [{
-				id: "04DC150448BF002A"
-				type: "item"
-				item: {
-					id: "betterendforge:tenanea_bark"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "0F2CF2B90A8A4FA6"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "491DC0A755234688"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: -2.0d
-			y: 11.0d
 			shape: "hexagon"
 			id: "3CAF3F3365052229"
 			tasks: [{
@@ -2411,7 +2407,7 @@
 			]
 		}
 		{
-			x: -4.5d
+			x: -4.0d
 			y: 9.5d
 			shape: "hexagon"
 			id: "707438FF0D3D725F"
@@ -2442,7 +2438,7 @@
 			]
 		}
 		{
-			x: -4.0d
+			x: -3.5d
 			y: 10.5d
 			shape: "hexagon"
 			id: "0B7D883FB10BC411"
@@ -2473,7 +2469,7 @@
 			]
 		}
 		{
-			x: -3.0d
+			x: -2.5d
 			y: 11.0d
 			shape: "hexagon"
 			id: "48BC53862EE64A59"
@@ -2504,7 +2500,7 @@
 			]
 		}
 		{
-			x: 2.5d
+			x: 4.0d
 			y: 9.5d
 			shape: "square"
 			dependencies: ["75E1E7342850F01A"]
@@ -2576,6 +2572,7 @@
 		{
 			x: 7.0d
 			y: 4.5d
+			description: ["There sure are a lot of lamps that can be made from end materials..."]
 			dependencies: ["2F65B1126A72219F"]
 			id: "553BC4807C727F26"
 			tasks: [{
@@ -2781,6 +2778,7 @@
 		{
 			x: 10.5d
 			y: -1.5d
+			description: ["Any pedestal from the better end mod works."]
 			dependencies: ["55DCE2FA47D4C837"]
 			id: "3435DF9BFA69769A"
 			tasks: [{
@@ -2951,8 +2949,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: 8.5d
+			x: -4.5d
+			y: 11.0d
 			shape: "hexagon"
 			id: "6A63E88C8F4D9F42"
 			tasks: [{
@@ -2982,8 +2980,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: 7.5d
+			x: -4.5d
+			y: 8.0d
 			shape: "hexagon"
 			description: ["These can be grown on shadow grass."]
 			id: "0CA55C9A2FFEEB26"
@@ -3045,9 +3043,10 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 7.5d
+			x: -0.5d
+			y: 8.0d
 			shape: "hexagon"
+			description: ["Obtained from Glowing Grasslands"]
 			id: "037F3C67CD6E3745"
 			tasks: [{
 				id: "5CC0501C1EF9C1E0"
@@ -3077,8 +3076,9 @@
 		}
 		{
 			x: 0.0d
-			y: 8.5d
+			y: 9.5d
 			shape: "hexagon"
+			description: ["Obtainable from Amber Lands"]
 			id: "0F1D8D8A78843218"
 			tasks: [{
 				id: "14071F5137347D5B"
@@ -3107,39 +3107,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 10.5d
-			shape: "hexagon"
-			id: "216F437C44439913"
-			tasks: [{
-				id: "4233F2E22F1834AF"
-				type: "item"
-				item: {
-					id: "betterendforge:end_lotus_seed"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "100108CEE7318530"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "353E81C1FB8BB602"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: -1.0d
-			y: 11.5d
+			x: -0.5d
+			y: 11.0d
 			shape: "hexagon"
 			id: "4094A73E83DFF591"
 			tasks: [{
@@ -3169,8 +3138,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: 12.0d
+			x: -5.0d
+			y: 9.5d
 			shape: "hexagon"
 			id: "0753C459CE8187DE"
 			tasks: [{
@@ -3200,40 +3169,10 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: 11.5d
+			x: -2.5d
+			y: 12.0d
 			shape: "hexagon"
-			id: "1C4E24B20AC41148"
-			tasks: [{
-				id: "4C0BF9701A853190"
-				type: "item"
-				item: {
-					id: "betterendforge:chorus_mushroom_seed"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "49F735F3ED2954F3"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "7BD13927CF6ED84A"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: -5.0d
-			y: 10.5d
-			shape: "hexagon"
+			description: ["Obtained from Amber Lands"]
 			id: "6908CFE949DB869F"
 			tasks: [{
 				id: "5A6841D66740EEBD"
@@ -3266,7 +3205,7 @@
 			y: 1.0d
 			shape: "octagon"
 			subtitle: "Kill the Ender Dragon"
-			description: ["WARNING: If you use beds or other indirect damage to finish off the dragon (without attacking them with a weapon within the last 5 seconds) you will not complete this quest and get locked out of progression."]
+			description: ["&cWARNING: If you use beds or other indirect damage to finish off the dragon (without attacking the dragon with a weapon within the last 5 seconds) you will not complete this quest and get locked out of progression."]
 			dependencies: ["3D208B95463DFD24"]
 			dependency_requirement: "one_started"
 			size: 2.0d
@@ -3345,10 +3284,10 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -3.5d
 			y: 1.0d
 			subtitle: "Respawn the Ender Dragon"
-			dependencies: ["211D755718A5FF50"]
+			dependencies: ["7AD19B72AEE779D0"]
 			id: "1375943627C14039"
 			tasks: [{
 				id: "1FAD06BAB6DB6217"
@@ -3414,6 +3353,8 @@
 			x: 2.0d
 			y: 6.5d
 			shape: "square"
+			subtitle: "Hey, isn't this just recolored deepslate?"
+			description: [""]
 			dependencies: ["63A64571BBB85FE5"]
 			id: "5D76159D1CCEA89B"
 			tasks: [{
@@ -3460,7 +3401,7 @@
 			y: -3.5d
 			subtitle: "Making your home in the end"
 			description: [
-				"You can spend 6 Amber Gems to set your spawnpoint next to the obelisk."
+				"You can spend &a6 Amber Gems&r to set your spawnpoint next to the obelisk."
 				""
 				"This can be used to set your spawn in any dimension, not just the end."
 			]
@@ -3520,6 +3461,7 @@
 			x: 2.5d
 			y: 4.5d
 			shape: "diamond"
+			subtitle: "Job Opportunities in the End!"
 			description: ["Station for the Enderologist villager profession."]
 			dependencies: ["3D208B95463DFD24"]
 			id: "79BFE48B969A1C28"
@@ -3592,8 +3534,13 @@
 		{
 			x: 3.0d
 			y: -8.0d
-			description: ["More durable than Aeternium with reduced knockback resistance."]
+			description: [
+				"More durable than Aeternium with reduced knockback resistance."
+				""
+				"&6You only need to collect at least 2 to complete this quest."
+			]
 			dependencies: ["328111EAA4D59A8E"]
+			min_required_tasks: 2
 			id: "379506F627A084C9"
 			tasks: [
 				{
@@ -3682,14 +3629,40 @@
 					}
 					count: 2
 				}
+				{
+					id: "28211CF94DDE695C"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "4EED7B23D0CBA160"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
 			title: "End Tools"
 			x: 4.0d
 			y: -7.5d
-			description: ["Less durable than aeternium, but with higher attack strength and grants a special power."]
+			description: [
+				"Less durable than aeternium, but with higher attack strength and grants a special power."
+				""
+				"&6You only need to collect at least 3 to complete this quest."
+			]
 			dependencies: ["328111EAA4D59A8E"]
+			min_required_tasks: 3
 			id: "47C6889BA9DA6B71"
 			tasks: [
 				{
@@ -3775,23 +3748,30 @@
 			]
 			rewards: [
 				{
-					id: "26C0AA0DD3BBE89A"
-					type: "random"
+					id: "1D016D9A9DDE634F"
+					type: "choice"
 					table_id: 3680913278004027102L
 				}
 				{
-					id: "440BA7DF110F77C9"
+					id: "3BAE4940F05181AB"
 					type: "item"
 					item: {
-						id: "enigmaticlegacy:mending_mixture"
+						id: "ftbquests:lootcrate"
 						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
 					}
-					count: 3
+				}
+				{
+					id: "0556A3EB6E702820"
+					type: "ftbmoney:money"
+					ftb_money: 130L
 				}
 			]
 		}
@@ -3837,8 +3817,13 @@
 			title: "Etherium Tools"
 			x: 4.5d
 			y: -6.5d
-			description: ["When it comes to non-magical mining, etherium is the best method there is with its area of effect mining ability."]
+			description: [
+				"When it comes to non-magical mining, etherium is an excellent method with its area of effect mining ability."
+				""
+				"&6You only need to collect at least 3 to complete this quest."
+			]
 			dependencies: ["7059E391B00B0081"]
+			min_required_tasks: 3
 			id: "7F37BC388DA180A2"
 			tasks: [
 				{
@@ -3953,9 +3938,11 @@
 			x: 5.0d
 			y: -5.5d
 			description: [
-				"This armor is invisible on the player."
+				"Has the strongest defense of all the armor sets found in The End."
 				""
-				"While this ability is mostly useless thanks to the cosmetic armor mod, it still is a very strong armor, its defense only rivaled by dragon-based armors."
+				"When wearing the full set, it grants a shield similar to that of the Wither when your health is below half, reducing damage even further and blocking projectiles."
+				""
+				"&6All 4 are needed for this quest. Try out the set bonus!"
 			]
 			dependencies: ["7059E391B00B0081"]
 			id: "4898675B39433EDA"
@@ -4131,7 +4118,7 @@
 				"So you think Shulker Boxes are now useless because backpacks exist?"
 				""
 				"WRONG!"
-				"You can place shulker boxes into backpacks, giving even more storage than ever before!"
+				"You can place shulker boxes into &abackpacks&r, giving even more storage than ever before!"
 			]
 			dependencies: ["1BEA85235B47FA5B"]
 			id: "2DA5966E41A21CA7"
@@ -4188,18 +4175,13 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			x: 4.5d
 			y: 2.5d
 			description: [
 				"Anvil Smithing is a new crafting mechanic added by Better End."
 				""
-				"To start forging new items, place a Smithing Hammer on the left slot of an anvil and the ingredient on the right."
+				"To start forging new items, place a &aSmithing Hammer&r on the left slot of an &aanvil&r and the ingredient on the right."
 				"This can be the vanilla anvil or any of the 3 better end anvils."
 				""
 				"Some items may need a certain tier of hammer or anvil to craft, like ender pearls to ender dust."
@@ -4272,6 +4254,11 @@
 		{
 			x: 3.0d
 			y: 1.5d
+			description: [
+				"When the dragon is perched or after a dragon fireball explodes it will leave damaging purple clouds."
+				""
+				"Use a glass bottle on it will collect the breath for later."
+			]
 			dependencies: ["3D208B95463DFD24"]
 			id: "781AF715393AA4A9"
 			tasks: [{
@@ -4360,16 +4347,10 @@
 				tag: {
 					DisplayEntityType: "minecraft:endermite"
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			x: -2.5d
 			y: 4.5d
 			subtitle: "The Endermites have learned a few things from the silverfish..."
-			description: [""]
 			dependencies: ["3D208B95463DFD24"]
 			optional: true
 			secret: true
@@ -4420,7 +4401,251 @@
 				{
 					id: "0EACBB14E211BB08"
 					type: "ftbmoney:money"
-					ftb_money: 50L
+					ftb_money: 75L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			description: ["Endshelves are needed to reach 40 Eterna! There is only one shelf that has a higher max eterna than it..."]
+			dependencies: ["781AF715393AA4A9"]
+			id: "63CDFE43B8BB0D1A"
+			tasks: [{
+				id: "2A6B1BB096A13EDE"
+				type: "item"
+				item: "apotheosis:endshelf"
+			}]
+			rewards: [
+				{
+					id: "2980101B86232A62"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "betterendforge:end_veil"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "44EC15EB50D32138"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			title: "A Quick Shortcut"
+			x: 9.0d
+			y: -6.5d
+			description: [
+				"You may have noticed an odd broken structure made of &aEternal Runed Flavolite&r."
+				""
+				"This is a portal that allows a quick shortcut back to the overworld, and creating a portal in the overworld that allows you to get back to the outer islands easily."
+				""
+				"Complete the portal by filling the empty spots (if any) with &aRuned Flavolite&r."
+				""
+				"Then place 6 &aEternal Crystals&r, one on each pedestal to activate the portal."
+			]
+			dependencies: ["16BC2746E4DD50B9"]
+			id: "43B6EFDF7CE9FC81"
+			tasks: [{
+				id: "0128046ACF768B58"
+				type: "observation"
+				title: "Activate the Overworld Portal"
+				icon: {
+					id: "betterendforge:flavolite_runed_eternal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 1L
+				observe_type: 0
+				to_observe: "betterendforge:end_portal_block"
+			}]
+			rewards: [
+				{
+					id: "050E3EEC1FBCB3F0"
+					type: "item"
+					item: {
+						id: "waystones:sandy_waystone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1E53C5136B2D4034"
+					type: "ftbmoney:money"
+					ftb_money: 200L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			shape: "hexagon"
+			description: [
+				"&6Tip: Dragon heads are found at the top of the new end ships, behind some end rods."
+				""
+				"&6These heads are also a rare drop from the ender dragon."
+			]
+			dependencies: ["3697C11949A0A907"]
+			size: 1.1d
+			id: "121D136C44B62C71"
+			tasks: [{
+				id: "0C82EF3B6BAB44B8"
+				type: "item"
+				item: {
+					id: "minecraft:dragon_head"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5930F036DD87D84D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "17BDE14364743FA7"
+					type: "ftbmoney:money"
+					ftb_money: 66L
+				}
+				{
+					id: "209BA69E6C95CF14"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["The final tier of bookshelf, letting you reach the maximum of 50 Eterna."]
+			dependencies: [
+				"121D136C44B62C71"
+				"63CDFE43B8BB0D1A"
+			]
+			id: "229E15E175C50A76"
+			tasks: [{
+				id: "03C55D51C96705FD"
+				type: "item"
+				item: {
+					id: "apotheosis:draconic_endshelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "27E8F80F0AAA473F"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "5165154B5F9D57FE"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+			]
+		}
+		{
+			title: "Crystals in the Crag"
+			x: -2.5d
+			y: 1.0d
+			description: [
+				"Breaking these crystals will drop &ashards&r which can be crafted back into the full block, similar to glowstone."
+				""
+				"Rose Crystals are needed to craft end crystals."
+				""
+				"In addition it serves as a cheap way to get pink, green and cyan runes to decorate your enchanted items."
+			]
+			dependencies: ["4FD8DB6A4B137B73"]
+			id: "7AD19B72AEE779D0"
+			tasks: [
+				{
+					id: "48018C4E61927D80"
+					type: "item"
+					item: {
+						id: "outer_end:rose_crystal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "71A9FEE76BB9046C"
+					type: "item"
+					item: {
+						id: "outer_end:mint_crystal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5D928371993A461A"
+					type: "item"
+					item: {
+						id: "outer_end:cobalt_crystal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "55A5C462EA46AA96"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "5FC25CC04C4A0A44"
+					type: "ftbmoney:money"
+					ftb_money: 20L
 				}
 			]
 		}

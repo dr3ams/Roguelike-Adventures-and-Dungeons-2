@@ -18,6 +18,15 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 0.0d
 			y: -1.0d
 			subtitle: "Starter kits with tiers!"
@@ -37,6 +46,7 @@
 				id: "0358255126AF5F51"
 				type: "checkmark"
 				title: "Choose your Specialization"
+				disable_toast: true
 			}]
 			rewards: [{
 				id: "4149E0BDD7A35D3D"
@@ -93,22 +103,6 @@
 					item: {
 						id: "minecraft:water_bucket"
 						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "25DEAF44858C1224"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "alexsmobs:clinging"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -311,23 +305,6 @@
 					}
 				}
 				{
-					id: "2D2BB435AB5EA99F"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "abundance:supportive_strong"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "6BE59974EF919616"
 					type: "item"
 					item: {
@@ -351,7 +328,6 @@
 							Effectiveness: {
 								Value: 0.3d
 							}
-							itemModifier: "modifiers:angry"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -409,21 +385,42 @@
 						}
 					}
 				}
+				{
+					id: "3C8CF32EEDEE6AD1"
+					type: "item"
+					item: {
+						id: "pickletweaks:stone_sickle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
 			title: "Warrior"
 			icon: {
-				id: "minecraft:iron_sword"
+				id: "stalwart_dungeons:iron_hammer"
 				Count: 1b
 				tag: {
 					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
 				}
 			}
 			x: -4.5d
 			y: 1.0d
 			subtitle: "Taking a short-cut through the mobs"
-			description: ["You beat up mobs with your sword not much to say here"]
+			description: ["You beat up mobs not much to say here"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -450,7 +447,6 @@
 					id: "4DEC4B439C3206B2"
 					type: "checkmark"
 					title: "Confirm this Specialization"
-					disable_toast: true
 				}
 			]
 			rewards: [
@@ -471,34 +467,24 @@
 					}
 				}
 				{
-					id: "0D97E79B1051F9A3"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_regeneration"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "7E4D602B180F2F44"
 					type: "item"
 					team_reward: false
 					item: {
-						id: "minecraft:stone_sword"
+						id: "stalwart_dungeons:stone_hammer"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "dungeons_gear:guarding_strike"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -610,23 +596,6 @@
 						}
 					}
 					count: 24
-				}
-				{
-					id: "0490DA710D1DED7C"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "dungeons_gear:short_speed"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
 				}
 				{
 					id: "27D665D697C5EEE1"
@@ -752,11 +721,7 @@
 			x: -1.5d
 			y: 1.0d
 			subtitle: "You're a hairy wizard"
-			description: [
-				"Tattered tomes grant Magic xp when read. Each player can read from the book once."
-				""
-				"(You should share it after reading it)"
-			]
+			description: ["To make your own spells, craft the Novice Spell Book!"]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -791,7 +756,7 @@
 					id: "2BEB7368C856AD59"
 					type: "item"
 					item: {
-						id: "minecraft:golden_carrot"
+						id: "ars_nouveau:source_berry_roll"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -802,41 +767,7 @@
 					count: 20
 				}
 				{
-					id: "375AD6B0C7D4AD36"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "ars_nouveau:mana_regen_potion_long"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "162B33A34AD7293F"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "ars_nouveau:mana_regen_potion"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "6A395BB7C0DF0938"
 					type: "item"
 					team_reward: false
 					item: {
@@ -857,10 +788,10 @@
 					type: "item"
 					team_reward: false
 					item: {
-						id: "dungeons_gear:updraft_tome"
+						id: "ars_nouveau:caster_tome"
 						Count: 1b
 						tag: {
-							Damage: 0
+							spell_0: "[projectile, harm]"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -879,20 +810,6 @@
 						tag: {
 							Damage: 0
 						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "569965C18F065B26"
-					type: "item"
-					item: {
-						id: "enigmaticlegacy:tattered_tome"
-						Count: 1b
-						tag: { }
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -923,7 +840,15 @@
 		}
 		{
 			title: "Pirate"
-			icon: "pirate_hat:pirate_helmet"
+			icon: {
+				id: "pirate_hat:eyepatch_helmet"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 0.0d
 			y: 1.0d
 			subtitle: "Arr"
@@ -959,23 +884,6 @@
 			]
 			rewards: [
 				{
-					id: "5D438713DAE63B8E"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_swiftness"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "346F6F2EDABA2816"
 					type: "item"
 					item: {
@@ -993,10 +901,10 @@
 					id: "049808729794354C"
 					type: "item"
 					item: {
-						id: "minecraft:potion"
+						id: "minecraft:fishing_rod"
 						Count: 1b
 						tag: {
-							Potion: "minecraft:luck"
+							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1025,14 +933,17 @@
 					type: "item"
 					team_reward: false
 					item: {
-						id: "spartanweaponry:rapier_stone"
+						id: "dungeons_gear:cutlass"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [ ]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -1045,7 +956,7 @@
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Potion: "minecraft:water_breathing"
+							Potion: "minecraft:long_water_breathing"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1100,7 +1011,11 @@
 			x: 1.5d
 			y: 1.0d
 			subtitle: "Nerves of Steal"
-			description: ["Mobs in boats can't turn around. This lets you get an easy backstab on tough champions."]
+			description: [
+				"Mobs in boats can't turn around. This lets you get an easy backstab on tough champions."
+				""
+				"&7(A \"back\" stab is dependent on mob head rotation, not actually the back)"
+			]
 			dependencies: ["7D7A71EA9FCC15E2"]
 			optional: true
 			incompatible: [
@@ -1149,40 +1064,6 @@
 					}
 				}
 				{
-					id: "2647AA6E4164FA39"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:invisibility"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "72290944407FE738"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:slow_falling"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "0FBEC69DA008C19D"
 					type: "item"
 					team_reward: false
@@ -1214,7 +1095,34 @@
 						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Potion: "alexsmobs:speed_iii"
+							CustomPotionEffects: [
+								{
+									Duration: 2400
+									Id: -98
+									Amplifier: 4
+								}
+								{
+									Duration: 2400
+									Id: -95
+									Amplifier: 4
+								}
+								{
+									Duration: 2400
+									Id: -100
+									Amplifier: 4
+								}
+								{
+									Duration: 2400
+									Id: 61
+									Amplifier: 0
+								}
+							]
+							CustomPotionColor: 3847130
+							Potion: "minecraft:mundane"
+							display: {
+								Lore: ["[{\"text\":\"Become untouchable! (Dodge with \",\"color\":\"yellow\",\"italic\":false},{\"keybind\":\"key.elenaidodge.dodge\"},{\"text\":\")\"}]"]
+								Name: "{\"italic\":false,\"text\":\"Super Dodge Potion\",\"color\":\"aqua\"}"
+							}
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1386,40 +1294,6 @@
 					}
 				}
 				{
-					id: "43276BF5186F8085"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "elenaidodge2:long_forceful"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "08AA90618FCCBE97"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "alexsmobs:speed_iii"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "199EEACD05F73094"
 					type: "item"
 					team_reward: false
@@ -1533,7 +1407,7 @@
 					type: "item"
 					team_reward: false
 					item: {
-						id: "dungeons_gear:gong_of_weakening"
+						id: "greekfantasy:healing_rod"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -1572,40 +1446,6 @@
 						Count: 1b
 						tag: {
 							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "6F6ABB58D6B308E9"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "abundance:supportive_strong"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "61CAB824200577A5"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "quark:long_danger_sight"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1695,23 +1535,6 @@
 			]
 			rewards: [
 				{
-					id: "0927300223230674"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "dungeons_gear:iron_hide_amulet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "503F2B46D2D7B587"
 					type: "item"
 					team_reward: false
@@ -1720,40 +1543,6 @@
 						Count: 1b
 						tag: {
 							Potion: "alexsmobs:soulsteal"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "0BB4823987FD6968"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_swiftness"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "34B9C8BCCC85B207"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "elenaidodge2:long_forceful"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1909,11 +1698,8 @@
 					type: "item"
 					team_reward: false
 					item: {
-						id: "minecraft:splash_potion"
+						id: "farmersdelight:dog_food"
 						Count: 1b
-						tag: {
-							Potion: "minecraft:long_swiftness"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1930,23 +1716,6 @@
 						Count: 1b
 						tag: {
 							Potion: "abundance:supportive_strong"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "21EE5B8E33FA9256"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "quark:long_danger_sight"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -2134,22 +1903,6 @@
 					}
 				}
 				{
-					id: "414DFC619952E2E5"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_swiftness"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "739FD7F5D7C18819"
 					type: "item"
 					item: {
@@ -2281,10 +2034,10 @@
 					id: "006CBF035095E794"
 					type: "item"
 					item: {
-						id: "minecraft:potion"
+						id: "minecraft:splash_potion"
 						Count: 1b
 						tag: {
-							Potion: "upgrade_aquatic:repellence_long"
+							Potion: "upgrade_aquatic:repellence"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -2302,22 +2055,6 @@
 						tag: {
 							Damage: 0
 							itemModifier: "modifiers:rash"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "4D2ED61BE77B9FC0"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "quark:long_danger_sight"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -2439,7 +2176,11 @@
 			x: -4.5d
 			y: 2.5d
 			subtitle: "Soldier for Hire"
-			description: ["You are tankier now."]
+			description: [
+				"The Iron Hide Amulet grants a Resistance II boost to all nearby players and pets, including yourself."
+				""
+				"Now you can really protect the party during battle!"
+			]
 			dependencies: ["2B8432D35FB49159"]
 			optional: true
 			id: "0B619314C9EEA318"
@@ -2468,32 +2209,26 @@
 					id: "2E47700E21977FD0"
 					type: "pmmo:skill"
 					skill: "combat"
-					requiredLevel: 20.0d
+					requiredLevel: 24.0d
 				}
 				{
-					id: "525F564998AE70A0"
-					type: "kill"
-					entity: "minecraft:zombie"
-					value: 50L
-				}
-			]
-			rewards: [
-				{
-					id: "21EC47315F2AFA81"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
+					id: "508B930E98BCC19A"
+					type: "stat"
+					title: "Kill 75 Mobs"
+					icon: {
+						id: "kubejs:skull2"
 						Count: 1b
-						tag: {
-							Potion: "apotheosis:long_resistance"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
 					}
+					stat: "minecraft:mob_kills"
+					value: 75
 				}
+			]
+			rewards: [
 				{
 					id: "75B067DD5CB29C77"
 					type: "item"
@@ -2549,22 +2284,6 @@
 					}
 				}
 				{
-					id: "452232F9DC240261"
-					type: "item"
-					item: {
-						id: "dungeons_gear:death_cap_mushroom"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "70196AC16958A08F"
 					type: "item"
 					item: {
@@ -2598,6 +2317,22 @@
 									data: [ ]
 									source: "dungeons_libraries:gear_config"
 								}]
+							}
+						}
+					}
+				}
+				{
+					id: "56FF67A55D01D2D7"
+					type: "item"
+					item: {
+						id: "dungeons_gear:iron_hide_amulet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
 							}
 						}
 					}
@@ -2997,15 +2732,10 @@
 		}
 		{
 			title: "Corsair"
-			icon: {
-				id: "dungeons_gear:cutlass"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "pirate_hat:sailor_helmet"
 			x: 0.0d
 			y: 2.5d
+			subtitle: "Yarr"
 			description: ["A ship's sails can be raised by pressing the \"toggle sail\" key (default r)"]
 			dependencies: ["5ABCBE93E9B7A41E"]
 			optional: true
@@ -3034,8 +2764,8 @@
 				{
 					id: "02A5FBA21B583705"
 					type: "pmmo:skill"
-					skill: "agility"
-					requiredLevel: 10.0d
+					skill: "fishing"
+					requiredLevel: 5.0d
 				}
 				{
 					id: "3DA9DEE22160663F"
@@ -3049,7 +2779,7 @@
 					id: "04EC6DB0840DC464"
 					type: "item"
 					item: {
-						id: "dungeons_gear:cutlass"
+						id: "dungeons_gear:anchor"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -3057,7 +2787,16 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [{
-									data: [ ]
+									data: [
+										{
+											lvl: 1s
+											id: "dungeons_gear:swirling"
+										}
+										{
+											lvl: 1s
+											id: "dungeons_gear:gravity"
+										}
+									]
 									source: "dungeons_libraries:gear_config"
 								}]
 							}
@@ -3190,22 +2929,6 @@
 			]
 			rewards: [
 				{
-					id: "160ECB2CE1A636C8"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "elenaidodge2:long_forceful"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "23EA3ED03D3ED93B"
 					type: "item"
 					item: {
@@ -3239,22 +2962,6 @@
 									data: [ ]
 									source: "dungeons_libraries:gear_config"
 								}]
-							}
-						}
-					}
-				}
-				{
-					id: "529074AFB9FDE8ED"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "apotheosis:strong_haste"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
 							}
 						}
 					}
@@ -3315,10 +3022,19 @@
 					id: "1D4A4B93B2B650B2"
 					type: "item"
 					item: {
-						id: "minecraft:splash_potion"
+						id: "minecraft:lingering_potion"
 						Count: 1b
 						tag: {
-							Potion: "minecraft:poison"
+							CustomPotionEffects: [{
+								Duration: 2400
+								Id: 19
+								Amplifier: 0b
+							}]
+							Potion: "upgrade_aquatic:repellence_long"
+							display: {
+								Lore: ["{\"italic\":true,\"color\":\"green\",\"text\":\"Produces a poisonous stench that makes some mobs attack each other when nearby.\"}"]
+								Name: "{\"italic\":false,\"text\":\"Toxic Fumes\",\"color\":\"dark_green\"}"
+							}
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -3412,22 +3128,6 @@
 						}
 					}
 					count: 16
-				}
-				{
-					id: "3734EACFC1FA78DE"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "elenaidodge2:strong_replenishment"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
 				}
 				{
 					id: "4A23959C1F02081D"
@@ -3537,7 +3237,7 @@
 			}
 			x: 4.5d
 			y: 2.5d
-			description: ["To use the Secret Ingredient, you have to hold it in your hand not wear it to enhance the potions, unlike other pocket curios."]
+			description: ["To use the &aSecret Ingredient&r, you have to hold it in your hand not wear it to enhance the potions, unlike other pocket curios."]
 			dependencies: ["591E749ECBF3BF91"]
 			optional: true
 			id: "50DB09954A68BDF3"
@@ -3661,22 +3361,6 @@
 					count: 3
 				}
 				{
-					id: "1BF8ED4E003C7AF5"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "785D752883ACF8AF"
 					type: "item"
 					item: {
@@ -3684,6 +3368,7 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+							RepairCost: 20
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -3787,8 +3472,8 @@
 				{
 					id: "0052526AEC9AAC84"
 					type: "pmmo:skill"
-					skill: "agility"
-					requiredLevel: 20.0d
+					skill: "dungeoneering"
+					requiredLevel: 10.0d
 				}
 				{
 					id: "17267B1D3B6F9DA4"
@@ -3798,57 +3483,6 @@
 				}
 			]
 			rewards: [
-				{
-					id: "2EAB4269E49997AC"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "alexsmobs:speed_iii"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "5D9D6B2B0E654975"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "elenaidodge2:strong_replenishment"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "3293C946E5DD15C3"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "elenaidodge2:long_endurance"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
 				{
 					id: "1EBDD4F682EFC962"
 					type: "item"
@@ -3937,6 +3571,43 @@
 					}
 					count: 2
 				}
+				{
+					id: "64CA8D0CA886A36F"
+					type: "item"
+					item: {
+						id: "dungeons_gear:death_cap_mushroom"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "743509921BEB6BD0"
+					type: "item"
+					item: {
+						id: "spartanweaponry:tomahawk_silver"
+						Count: 1b
+						tag: {
+							AmmoUsed: 0
+							Damage: 0
+							Enchantments: [{
+								lvl: 1
+								id: "minecraft:loyalty"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -3951,9 +3622,9 @@
 			x: 7.5d
 			y: 2.5d
 			description: [
-				"Any pet can be given a player's armor by sneak-clicking on them."
+				"Any pet can be given a player's armor by &3sneak-clicking&r on them."
 				""
-				"The Flute can teleport your pets standing up instantly to you. Useful for saving them from hazards like lava in a pinch."
+				"The &aFlute&r can teleport your pets standing up instantly to you. Useful for saving them from hazards like lava in a pinch."
 			]
 			dependencies: ["75434610CC4789B4"]
 			optional: true
@@ -4287,14 +3958,14 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			x: -6.0d
 			y: 4.0d
+			description: [
+				"Have a sample of honey glazed ham, one of the most nourishing foods available."
+				""
+				"To learn more, check out the &6Feasts&r quest in the &3Culinary Expedition&r chapter!"
+			]
 			dependencies: ["2D76206095D119CB"]
 			optional: true
 			id: "228F0BED78F0BD1F"
@@ -4456,7 +4127,7 @@
 								BuiltInEnchantments: [{
 									data: [{
 										lvl: 1s
-										id: "ensorcellation:gourmand"
+										id: "radenchants:gluttony"
 									}]
 									source: "dungeons_libraries:gear_config"
 								}]
@@ -4478,7 +4149,7 @@
 								BuiltInEnchantments: [{
 									data: [{
 										lvl: 1s
-										id: "ensorcellation:vitality"
+										id: "radenchants:welding_apron"
 									}]
 									source: "dungeons_libraries:gear_config"
 								}]
@@ -4499,6 +4170,7 @@
 			}
 			x: -4.5d
 			y: 4.0d
+			description: ["You are even tankier now."]
 			dependencies: ["0B619314C9EEA318"]
 			optional: true
 			id: "79B3B9D8435C6B6C"
@@ -4524,16 +4196,20 @@
 					points: false
 				}
 				{
-					id: "571FC1F8AB3D9335"
-					type: "kill"
-					entity: "minecraft:zombie"
-					value: 200L
-				}
-				{
-					id: "48796F8B570BBFC9"
-					type: "kill"
-					entity: "minecraft:skeleton"
-					value: 50L
+					id: "5E744D467F052882"
+					type: "stat"
+					title: "Kill 300 Mobs"
+					icon: {
+						id: "kubejs:skull2"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					stat: "minecraft:mob_kills"
+					value: 300
 				}
 			]
 			rewards: [
@@ -4939,7 +4615,7 @@
 			}
 			x: 0.0d
 			y: 4.0d
-			description: ["Sneak-Clicking a ship lets you access its storage."]
+			description: ["&3Sneak-Clicking&r a ship lets you access its storage."]
 			dependencies: ["7FE110B6FD08031B"]
 			optional: true
 			id: "5835821DED0B50BB"
@@ -4967,14 +4643,14 @@
 				{
 					id: "197B4B6271894EAA"
 					type: "pmmo:skill"
-					skill: "agility"
+					skill: "fishing"
 					requiredLevel: 20.0d
 				}
 				{
 					id: "3AAC7A60C14B9A83"
 					type: "pmmo:skill"
-					skill: "endurance"
-					requiredLevel: 25.0d
+					skill: "swimming"
+					requiredLevel: 15.0d
 				}
 			]
 			rewards: [
@@ -5162,6 +4838,10 @@
 						Count: 1b
 						tag: {
 							Damage: 0
+							Enchantments: [{
+								lvl: 2
+								id: "walljump:doublejump"
+							}]
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -5254,11 +4934,11 @@
 								BuiltInEnchantments: [{
 									data: [
 										{
-											lvl: 4s
+											lvl: 7s
 											id: "farmersdelight:backstabbing"
 										}
 										{
-											lvl: 1s
+											lvl: 2s
 											id: "apotheosis:scavenger"
 										}
 									]
@@ -5367,23 +5047,6 @@
 			]
 			rewards: [
 				{
-					id: "10900A6CD8BA20CF"
-					type: "item"
-					team_reward: false
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_swiftness"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "434BD6DFBEB6CF7D"
 					type: "item"
 					team_reward: false
@@ -5477,7 +5140,7 @@
 			}
 			x: 4.5d
 			y: 4.0d
-			description: ["The Totem of Soul Protection is a soul artifact. It needs Souls to use, indicated by the blue bar on the bottom left of your screen if you have any. To get souls just kill mobs with the artifact equipped."]
+			description: ["The &aTotem of Soul Protection&r is a &9soul&r artifact. It needs &9Souls&r to use, indicated by the &9blue bar&r on the &ebottom left of your screen&r if you have any. To get &9souls&r just &ekill mobs&r with the artifact equipped."]
 			dependencies: ["50DB09954A68BDF3"]
 			optional: true
 			id: "2541699B18497F4D"
@@ -5517,22 +5180,6 @@
 			]
 			rewards: [
 				{
-					id: "64EAA4053F1EF29A"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "goblintraders:powerful_instant_health"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
 					id: "795F29673D0A5895"
 					type: "item"
 					item: {
@@ -5547,7 +5194,7 @@
 							}
 						}
 					}
-					count: 2
+					count: 3
 				}
 				{
 					id: "1DA2EF8D75118D8A"
@@ -5574,7 +5221,7 @@
 						id: "artifacts:crystal_heart"
 						Count: 1b
 						tag: {
-							itemModifier: "modifiers:hard"
+							itemModifier: "modifiers:healthy"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -5679,8 +5326,8 @@
 				{
 					id: "6FC702D450811FBE"
 					type: "pmmo:skill"
-					skill: "agility"
-					requiredLevel: 40.0d
+					skill: "dungeoneering"
+					requiredLevel: 20.0d
 				}
 			]
 			rewards: [
@@ -5727,7 +5374,7 @@
 						id: "artifacts:vampiric_glove"
 						Count: 1b
 						tag: {
-							itemModifier: "modifiers:half_hearted"
+							itemModifier: "modifiers:healthy"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -5782,9 +5429,9 @@
 			x: 7.5d
 			y: 4.0d
 			description: [
-				"The Dog Mount dog upgrade allows you to ride your dog."
-				"This Lance increases the damage you deal while riding something."
-				"Pair them together and you become the Dog Knight!"
+				"The &6Dog Mount&r dog upgrade allows you to &aride your dog&r."
+				"This &aLance&r increases the damage you deal while riding something."
+				"Pair them together and you become the &eDog Knight&r!"
 			]
 			dependencies: ["18156A17C2B04B79"]
 			optional: true

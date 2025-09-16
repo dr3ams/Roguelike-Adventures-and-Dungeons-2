@@ -707,6 +707,13 @@
 			x: 4.5d
 			y: 2.5d
 			subtitle: "Connects to adjacent inventories allowing Storage Terminal to see all of the items"
+			description: [
+				"The heart of the storage system."
+				""
+				"The storage terminal is usually placed on this."
+				""
+				"Can connect to trims and storage blocks diagonally."
+			]
 			dependencies: ["0B19DE4C8450F1F8"]
 			size: 1.5d
 			id: "6748D3F04B39CA14"
@@ -733,6 +740,15 @@
 			x: 2.5d
 			y: 2.5d
 			subtitle: "Connects to inventory behind it and list the items in that inventory."
+			description: [
+				"&6This can be obtained pre-nether:"
+				""
+				"A comparator can be obtained from Small Blimps."
+				""
+				"Quartz Blocks can also be obtained from the 3rd floor of Dungeoncrawl dungeons, which can be broken down using a cutting board."
+				""
+				"Glowstone can be found on the ceiling of dungeoncrawl dungeons, under village waystones, and on a special tree."
+			]
 			id: "0B19DE4C8450F1F8"
 			tasks: [{
 				id: "7C61916BDEE4E11A"
@@ -781,7 +797,8 @@
 		{
 			x: 6.5d
 			y: 3.0d
-			subtitle: "Used to extend connection between Inventory Connector and the inventory"
+			subtitle: "Place next to an Inventory connector to extend its range"
+			description: ["Can also connect diagonally."]
 			dependencies: ["6748D3F04B39CA14"]
 			id: "4D8F7A5DC35CCA10"
 			tasks: [{
@@ -1003,7 +1020,7 @@
 		{
 			x: 4.5d
 			y: -1.0d
-			subtitle: "Advanced version of wireless terminal (64 blocks)"
+			subtitle: "Advanced version of wireless terminal (256 blocks)"
 			dependencies: ["0069B9DF54835434"]
 			id: "1B6CD39B642DF273"
 			tasks: [{
@@ -1026,8 +1043,10 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 8.5d
 			y: 1.0d
+			description: ["Has 27 slots, same as a single chest."]
 			id: "2054E11CE018502D"
 			tasks: [{
 				id: "64A4E958029CF225"
@@ -1049,6 +1068,7 @@
 		{
 			x: 9.5d
 			y: -0.5d
+			description: ["Has 54 slots, same as a double chest."]
 			dependencies: ["2054E11CE018502D"]
 			id: "51B0905EE4A366F2"
 			tasks: [{
@@ -1072,6 +1092,7 @@
 		{
 			x: 11.5d
 			y: -1.0d
+			description: ["Has 81 slots, like 3 chests."]
 			dependencies: ["51B0905EE4A366F2"]
 			id: "6467F1F232F9DD67"
 			tasks: [{
@@ -1101,6 +1122,7 @@
 		{
 			x: 13.5d
 			y: -0.5d
+			description: ["Has 108 slots, equivalent to 4 chests."]
 			dependencies: ["6467F1F232F9DD67"]
 			id: "505D5D5258983F9E"
 			tasks: [{
@@ -1130,6 +1152,11 @@
 		{
 			x: 14.5d
 			y: 1.0d
+			description: [
+				"Has 120 slots."
+				""
+				"Like all netherite items this upgrade also makes it not burn when dropped in lava."
+			]
 			dependencies: ["505D5D5258983F9E"]
 			id: "4643DCF8052DED30"
 			tasks: [{

@@ -5,6 +5,7 @@
 	filename: "overworld_exploration"
 	title: "World Exploration"
 	icon: "minecraft:grass_block"
+	subtitle: ["The vast homeland"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [
@@ -21,8 +22,8 @@
 			corner: false
 		}
 		{
-			x: 14.5d
-			y: -0.5d
+			x: 2.5d
+			y: 0.5d
 			width: 20.0d
 			height: 15.0d
 			rotation: 0.0d
@@ -32,40 +33,20 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: 22.0d
+			y: 3.5d
+			width: 6.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "rad2:textures/misc/rad_dice.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
-		{
-			icon: "minecraft:potato"
-			x: 4.5d
-			y: 2.0d
-			description: [
-				"Eating a variety of nutrients with right balance will make you stronger and faster. Ignoring your nutritional balance can slow you down and weaken you."
-				"Hover over a food to see which nutrients it provides along with the total number of Nutritional Units (NUs)."
-				""
-				"To see Nutritional Balance, press the 'n' key (configurable) or click nutrient button in your inventory."
-				"- blue areas show your current level of each nutrient."
-				"- green lines show the boundaries of the \"target\" area."
-				"- red lines at the left show the \"malnourishment\" boundaries."
-				"- red lines at the right show the \"engorgement\" boundaries."
-				""
-				"Get all of your nutrients in the target areas to achieve a balanced diet and get a few buffs."
-				""
-				"Avoid letting your nutrient levels cross the red boundaries or you will get some debuffs."
-				""
-			]
-			dependencies: ["45367EFC307FBA67"]
-			id: "006F7F9BE37E4FA7"
-			tasks: [{
-				id: "43036004E3C8DE83"
-				type: "checkmark"
-				title: "Food Variety and Bonuses"
-			}]
-			rewards: [{
-				id: "5592572112E7815D"
-				type: "item"
-				item: "supplementaries:candy"
-			}]
-		}
 		{
 			x: 3.0d
 			y: -1.0d
@@ -87,25 +68,19 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "0B264D41515258A4"
-					type: "item"
-					item: "minecraft:torch"
-					count: 2
-				}
-				{
-					id: "597375E3537F40FB"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-			]
+			rewards: [{
+				id: "0B264D41515258A4"
+				type: "item"
+				item: "minecraft:torch"
+				count: 2
+			}]
 		}
 		{
 			x: 0.0d
 			y: -1.0d
 			subtitle: "Getting Wood"
 			description: ["Remember to check the &3Features | Mechanics&r section on the left to see how to chop whole trees at once!"]
+			size: 1.5d
 			id: "2DDD649416AA95EC"
 			tasks: [{
 				id: "4A2AD7B3B078CCFD"
@@ -134,92 +109,9 @@
 			]
 		}
 		{
-			title: "Iron Armor"
-			x: 9.5d
-			y: -2.0d
-			description: ["Modded Dungeons love to give out a lot of these."]
-			dependencies: ["7FC81AF332294769"]
-			id: "6D049357B6972937"
-			tasks: [
-				{
-					id: "7A59F70F6CECEB9D"
-					type: "item"
-					item: {
-						id: "minecraft:iron_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "254388055F61137E"
-					type: "item"
-					item: {
-						id: "minecraft:iron_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6F51F5434FCDE447"
-					type: "item"
-					item: {
-						id: "minecraft:iron_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7013CDAF65DF6B77"
-					type: "item"
-					item: {
-						id: "minecraft:iron_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "137CF1399FFC0175"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-				{
-					id: "2B1E8EE536776EC1"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "dungeons_gear:short_speed"
-						}
-					}
-				}
-				{
-					id: "443F297BF3A0BAD4"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "6C0E3C173DC1F61A"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			title: "So much room for activities now!"
-			x: 6.0d
-			y: 1.0d
-			description: ["Below you can find overworld tools in order of mining skill requirement. There are a lot more tools available and these are just basic ones."]
+			x: 5.5d
+			y: 2.0d
+			description: ["A classic stone pickaxe."]
 			dependencies: ["01ECE22274DDE487"]
 			id: "518DF4A178673014"
 			tasks: [{
@@ -248,60 +140,40 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: 6.0d
-			description: ["The standard iron vanilla pickaxe with all around average stats."]
+			title: "Iron"
+			x: 14.5d
+			y: -1.0d
+			shape: "octagon"
+			subtitle: "A versatile classic"
+			description: [
+				"The standard vanilla minecraft iron."
+				""
+				"Versatile for much more than just tools and armor!"
+				""
+				"Like for example it can upgrade your backpack, and make basic defensive curios like the &aIron Ring&r."
+			]
 			dependencies: ["0197357833059D83"]
 			dependency_requirement: "one_started"
+			size: 1.5d
 			id: "62D2AC9343C06D18"
-			tasks: [
-				{
-					id: "102F50AAAD309336"
-					type: "item"
-					item: {
-						id: "minecraft:iron_ingot"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				id: "102F50AAAD309337"
+				type: "item"
+				item: {
+					id: "minecraft:iron_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
 				}
-				{
-					id: "675BA03793FCFBDC"
-					type: "item"
-					item: {
-						id: "minecraft:iron_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					match_nbt: false
-					weak_nbt_match: true
-				}
-			]
+			}]
 			rewards: [
 				{
 					id: "3B66E8BAF341EEC6"
 					type: "ftbmoney:money"
 					ftb_money: 10L
-				}
-				{
-					id: "169D78A2835AE656"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "16A0527242CC63C7"
-					type: "xp_levels"
-					xp_levels: 2
 				}
 				{
 					id: "03C46CD81F6C73A1"
@@ -319,16 +191,18 @@
 						}
 					}
 				}
+				{
+					id: "533F29F152540F51"
+					type: "xp"
+					xp: 50
+				}
 			]
 		}
 		{
-			x: 18.0d
-			y: 6.0d
+			x: 21.0d
+			y: 0.5d
 			description: ["The classic pickaxe of Minecraft. Perfect for mining a lot of obsidian."]
-			dependencies: [
-				"446936F80D06B8A4"
-				"3A78EBA961882C21"
-			]
+			dependencies: ["446936F80D06B8A4"]
 			dependency_requirement: "one_started"
 			id: "544027B606EEA00D"
 			tasks: [{
@@ -343,11 +217,6 @@
 				}
 			}]
 			rewards: [
-				{
-					id: "0DDE4550FE92C2C5"
-					type: "item"
-					item: "minecraft:cake"
-				}
 				{
 					id: "73BA3FB9A10AAA40"
 					type: "item"
@@ -369,83 +238,28 @@
 						}
 					}
 				}
-			]
-		}
-		{
-			title: "Cover me in diamonds"
-			x: 19.0d
-			y: 5.0d
-			dependencies: ["544027B606EEA00D"]
-			id: "39936E09D0EA4517"
-			tasks: [
 				{
-					id: "71DB85DA8A05E8D4"
+					id: "202BC1DF0AAA8A64"
 					type: "item"
 					item: {
-						id: "minecraft:diamond_chestplate"
+						id: "farmersdelight:sweet_berry_cheesecake_slice"
 						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "1CFA73401384B78A"
-					type: "item"
-					item: {
-						id: "minecraft:diamond_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "74AE2F7C8C718201"
-					type: "item"
-					item: {
-						id: "minecraft:diamond_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4397A4296E044FE7"
-					type: "item"
-					item: {
-						id: "minecraft:diamond_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
 			]
-			rewards: [{
-				id: "40DDDC8AADD0C66A"
-				type: "item"
-				item: {
-					id: "ftbquests:lootcrate"
-					Count: 1b
-					tag: {
-						type: "rare_loot_crate"
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
 		}
 		{
-			x: 18.0d
+			x: 21.0d
 			y: -1.0d
 			shape: "octagon"
+			subtitle: "The link to other worlds"
 			description: ["The keystone to crafting many magical items and accessing multiple magical dimensions"]
-			dependencies: ["7FC81AF332294769"]
+			dependencies: ["3A78EBA961882C21"]
 			dependency_requirement: "one_completed"
 			size: 1.5d
 			id: "446936F80D06B8A4"
@@ -470,26 +284,39 @@
 					type: "ftbmoney:money"
 					ftb_money: 10L
 				}
+				{
+					id: "17551661839153CA"
+					type: "xp"
+					xp: 80
+				}
 			]
 		}
 		{
-			x: 10.5d
+			x: 11.5d
 			y: -3.0d
+			subtitle: "Tower Defense"
 			description: [
-				"Protect yourself with a large Iron Tower Shield!"
+				"Protect yourself with a large Copper Tower Shield!"
 				""
 				"Just like the regular shield, tower shields can also have banners applied to them."
+				""
+				"Copper has a &ehigher durability&r than tin making it a good choice for shields and armor."
 			]
-			dependencies: ["7FC81AF332294769"]
+			dependencies: ["0197357833059D83"]
 			id: "3481C7E0750A45D6"
 			tasks: [{
 				id: "09FD4ED16AC85B23"
 				type: "item"
 				item: {
-					id: "spartanshields:shield_tower_iron"
+					id: "spartanshields:shield_tower_copper"
 					Count: 1b
 					tag: {
 						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
 					}
 				}
 			}]
@@ -512,8 +339,9 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 4.5d
+			x: 8.5d
+			y: -1.0d
+			subtitle: "Like stone, but better!"
 			dependencies: ["0D53B0136F089B1F"]
 			id: "02ED7F720C5EBABD"
 			tasks: [
@@ -541,27 +369,38 @@
 					ftb_money: 10L
 				}
 				{
-					id: "1007EEA58F9AEDBF"
+					id: "5D268BE09E7BC54A"
 					type: "item"
-					item: "farmersdelight:melon_juice"
+					item: {
+						id: "roughtweaks:bandage"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 				{
-					id: "2BAAE95FE2AB845A"
-					type: "xp_levels"
-					xp_levels: 2
+					id: "6378C8A6D7AC8F3B"
+					type: "xp"
+					xp: 25
 				}
 			]
 		}
 		{
 			title: "Utility tools"
-			x: 8.0d
-			y: -2.0d
+			x: 7.0d
+			y: 1.0d
 			description: [
-				"- Paxels: A combination of Axe, Pickaxe, and Shovel. Can be used to create Path blocks as well as Stripped Logs."
+				"- &aPaxels&r: A combination of Axe, Pickaxe, and Shovel. Can be used to create Path blocks as well as Stripped Logs."
 				""
-				"- Scythes: A tool for harvesting + replanting crops in an AOE when sneaking. Also works as a weapon with an attack AOE."
+				"- &aScythes&r: A tool for harvesting + replanting crops in an AOE when sneaking. Also works as a weapon with an attack AOE."
 				""
-				"- Sickles: A tool for mining plant material blocks in an AOE."
+				"- &aSickles&r: A tool for mining plant material blocks in an AOE."
 			]
 			dependencies: ["01ECE22274DDE487"]
 			id: "6EC9F2BFD2FC1809"
@@ -632,13 +471,10 @@
 		}
 		{
 			title: "Tin"
-			x: 6.0d
-			y: 6.0d
-			description: [
-				"Tin matches flint gear in power, but it has the first pickaxe that can mine tougher ores like diamond."
-				""
-				"Tin Pickaxe is optional for unlocking the next quest."
-			]
+			x: 10.0d
+			y: -1.0d
+			subtitle: "Who needs iron tools?"
+			description: ["Tin matches flint gear in power, but it has the first pickaxe that can mine tougher ores like diamond."]
 			dependencies: ["02ED7F720C5EBABD"]
 			dependency_requirement: "one_started"
 			id: "59F003B96FBE2813"
@@ -674,94 +510,72 @@
 					ftb_money: 10L
 				}
 				{
-					id: "445250757E68784C"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "64B726491BF23568"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
 					id: "5E93248E977069F9"
 					type: "item"
 					item: "randomite:randomite_ore"
+				}
+				{
+					id: "094AF99446344E27"
+					type: "xp"
+					xp: 35
 				}
 			]
 		}
 		{
 			title: "Copper"
-			x: 8.0d
-			y: 6.0d
+			x: 12.5d
+			y: -1.0d
+			subtitle: "Easy to find"
 			description: ["Slightly more durable than tin."]
 			dependencies: ["59F003B96FBE2813"]
 			dependency_requirement: "one_started"
 			id: "0197357833059D83"
-			tasks: [
-				{
-					id: "3CD99AD47F5C8882"
-					type: "item"
-					title: "Any #forge:ingots/copper"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:ingots/copper"
-						}
+			tasks: [{
+				id: "3CD99AD47F5C8883"
+				type: "item"
+				title: "Any #forge:ingots/copper"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/copper"
 					}
 				}
+			}]
+			rewards: [
 				{
-					id: "77E04829E5975DE3"
-					type: "item"
-					item: {
-						id: "mysticalworld:copper_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					id: "4A7DD72150FA5D05"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "4EC4ACF00C9CD657"
+					type: "xp"
+					xp: 40
 				}
 			]
-			rewards: [{
-				id: "4A7DD72150FA5D05"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
 		}
 		{
 			title: "Silver"
-			x: 12.0d
-			y: 6.0d
+			x: 16.5d
+			y: -1.0d
+			subtitle: "Slayer of the Undead"
 			description: ["A sidegrade to iron great for warding off the undead."]
 			dependencies: ["62D2AC9343C06D18"]
 			dependency_requirement: "one_started"
-			id: "5F4896458FA5BB60"
-			tasks: [
-				{
-					id: "761E68267A9E38B3"
-					type: "item"
-					title: "Any #forge:ingots/silver"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:ingots/silver"
-						}
+			id: "5F4896458FA5BB61"
+			tasks: [{
+				id: "761E68267A9E38B4"
+				type: "item"
+				title: "Any #forge:ingots/silver"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/silver"
 					}
 				}
-				{
-					id: "1B92D6D386949AD9"
-					type: "item"
-					item: {
-						id: "iceandfire:silver_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
+			}]
 			rewards: [
 				{
 					id: "44BDE80617282948"
@@ -769,70 +583,43 @@
 					ftb_money: 10L
 				}
 				{
-					id: "7874C49EC166D55D"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "7D288C0ED476DA84"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
 					id: "1B5F0975C35BDF14"
 					type: "item"
 					item: "randomite:randomite_ore"
+				}
+				{
+					id: "38E4EE9C5BF23EDF"
+					type: "xp"
+					xp: 55
 				}
 			]
 		}
 		{
 			title: "Sapphire"
-			x: 16.0d
-			y: 6.0d
+			x: 19.5d
+			y: -1.0d
+			subtitle: "Feeling very lucky today"
 			description: ["The first diamond-level equipment. The tools have less durability than diamond but much more than iron."]
 			dependencies: ["1D6D6CB93ECEF297"]
 			dependency_requirement: "one_started"
 			id: "3A78EBA961882C21"
-			tasks: [
-				{
-					id: "32A2B99CC144E938"
-					type: "item"
-					title: "Any #forge:gems/sapphire"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:gems/sapphire"
-						}
+			tasks: [{
+				id: "32A2B99CC144E939"
+				type: "item"
+				title: "Any #forge:gems/sapphire"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:gems/sapphire"
 					}
 				}
-				{
-					id: "78A177EBF70BD2E4"
-					type: "item"
-					item: {
-						id: "mysticalworld:sapphire_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
+			}]
 			rewards: [
 				{
-					id: "4AFD451A1AABF862"
+					id: "4AFD451A1AABF863"
 					type: "ftbmoney:money"
 					ftb_money: 10L
-				}
-				{
-					id: "5985DB1F59750E04"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
-					id: "2EEA4891BC7E979C"
-					type: "xp_levels"
-					xp_levels: 2
 				}
 				{
 					id: "2B4272E963BB8DF8"
@@ -850,18 +637,24 @@
 						}
 					}
 				}
+				{
+					id: "773C02A511BDF837"
+					type: "xp"
+					xp: 75
+				}
 			]
 		}
 		{
 			title: "Lead"
-			x: 14.0d
-			y: 6.0d
+			x: 18.0d
+			y: -1.0d
+			subtitle: "Moving on up"
 			description: [
-				"A sidegrade to iron with slower but stronger attack and mining power."
+				"Tough but slow, Lead is a good upgrade between iron and diamond equipment."
 				""
-				"The first pickaxe that can mine obsidian, though very slowly."
+				"Lead also has the first pickaxe that can mine obsidian, though very slowly."
 			]
-			dependencies: ["5F4896458FA5BB60"]
+			dependencies: ["5F4896458FA5BB61"]
 			dependency_requirement: "one_started"
 			id: "1D6D6CB93ECEF297"
 			tasks: [
@@ -889,11 +682,23 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "337EE79617A367F0"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
+			rewards: [
+				{
+					id: "337EE79617A367F0"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "288B30B0968B44F7"
+					type: "loot"
+					table_id: 4734148794142699034L
+				}
+				{
+					id: "39A4611DFA8D32C0"
+					type: "xp"
+					xp: 60
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -913,50 +718,6 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -2.5d
-			dependencies: ["18FF6DA5335C0711"]
-			id: "17FC433734DE388E"
-			tasks: [{
-				id: "1CE86177C64AD58B"
-				type: "item"
-				title: "Any #minecraft:beds"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:beds"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "2C175A17ADDFAB98"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_regeneration"
-						}
-					}
-				}
-				{
-					id: "645587FDD331B4E8"
-					type: "item"
-					item: {
-						id: "majruszs_difficulty:bandage"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
 			x: 6.0d
 			y: -1.0d
 			shape: "octagon"
@@ -969,23 +730,26 @@
 				type: "item"
 				item: "minecraft:cobblestone"
 			}]
-			rewards: [
-				{
-					id: "43D196EC2C9E4104"
-					type: "item"
-					item: "farmersdelight:melon_juice"
+			rewards: [{
+				id: "3A588CB1BDC74D84"
+				type: "item"
+				item: {
+					id: "mysticalworld:apple_cordial"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
 				}
-				{
-					id: "38177DD8E484FE66"
-					type: "item"
-					item: "minecraft:cooked_mutton"
-				}
-			]
+				count: 3
+			}]
 		}
 		{
 			x: 18.0d
-			y: -2.5d
-			dependencies: ["446936F80D06B8A4"]
+			y: 0.0d
+			description: ["Just 1 obsidan. Not too bad."]
+			dependencies: ["1D6D6CB93ECEF297"]
 			id: "4D4CE785FDA4EFB9"
 			tasks: [{
 				id: "0995187A5468E252"
@@ -1011,21 +775,15 @@
 					ftb_money: 10L
 				}
 				{
-					id: "0D137D1D9C39EB00"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "ingots_valuable"
-						}
-					}
+					id: "1E9E98CF7FF7D807"
+					type: "xp"
+					xp: 25
 				}
 			]
 		}
 		{
 			x: 18.0d
-			y: -5.0d
+			y: 3.0d
 			dependencies: ["43509530CAD67EE9"]
 			id: "4E332FAD066528F2"
 			tasks: [{
@@ -1067,7 +825,7 @@
 		{
 			title: "Time to farm"
 			x: 5.0d
-			y: 0.5d
+			y: 1.0d
 			shape: "circle"
 			description: [
 				"The hoe acts as a hybrid of both the scythe and the sickle."
@@ -1095,8 +853,15 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -3.5d
+			title: "Storage Drawers"
+			x: 2.0d
+			y: 0.0d
+			shape: "gear"
+			description: [
+				"Storage Drawers can hold a large amount of a single item."
+				""
+				"Head to the \"Storage Solutions\" chapter for more ways to store your stuff!"
+			]
 			dependencies: ["18FF6DA5335C0711"]
 			id: "1E03F8C49106D140"
 			tasks: [{
@@ -1126,10 +891,10 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 1.5d
+			x: 9.0d
+			y: 0.0d
 			description: ["This is slightly better than a stone sword."]
-			dependencies: ["01ECE22274DDE487"]
+			dependencies: ["02ED7F720C5EBABD"]
 			id: "5F7DCF112F9F6C1C"
 			tasks: [{
 				id: "039E1ED0EC79C6AD"
@@ -1157,17 +922,11 @@
 				{
 					id: "593CBF39D932D356"
 					type: "item"
-					item: "majruszs_difficulty:bandage"
-				}
-				{
-					id: "416049D8311C4081"
-					type: "item"
 					item: {
-						id: "apotheosis:potion_charm"
+						id: "roughtweaks:plaster"
 						Count: 1b
 						tag: {
 							Damage: 0
-							Potion: "minecraft:long_regeneration"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1179,10 +938,16 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 7.0d
-			description: ["Increases Max Health."]
+			x: 12.5d
+			y: -3.0d
+			subtitle: "Who even needs iron?"
+			description: [
+				"Increases Max Health."
+				""
+				"&6You only need to collect at least 2 to complete this quest."
+			]
 			dependencies: ["0197357833059D83"]
+			min_required_tasks: 2
 			id: "0C028AFE6361A9C0"
 			tasks: [
 				{
@@ -1257,20 +1022,31 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 5.0d
-			description: ["Makes you heavier, harder to knock back, and blocks some magic damage."]
+			x: 18.5d
+			y: -2.0d
+			subtitle: "No radiation can stop you now!"
+			description: [
+				"Makes you heavier, harder to knock back, and blocks some magic damage."
+				""
+				"&6You only need to collect at least 2 to complete this quest."
+			]
 			dependencies: ["1D6D6CB93ECEF297"]
+			min_required_tasks: 2
 			id: "401C62C883E0CDDA"
 			tasks: [
 				{
 					id: "20CB222D27D7D660"
 					type: "item"
 					item: {
-						id: "mysticalworld:lead_chestplate"
+						id: "mysticalworld:lead_helmet"
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
@@ -1278,10 +1054,15 @@
 					id: "46CE900EA59B46D0"
 					type: "item"
 					item: {
-						id: "mysticalworld:lead_helmet"
+						id: "mysticalworld:lead_chestplate"
 						Count: 1b
 						tag: {
 							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
@@ -1311,11 +1092,11 @@
 			rewards: [{
 				id: "7AD0A1CC6C7CC3FC"
 				type: "ftbmoney:money"
-				ftb_money: 20L
+				ftb_money: 25L
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.5d
 			y: 2.0d
 			description: ["After filling it with water it can be used to instantly moisurize farmland."]
 			dependencies: ["45367EFC307FBA67"]
@@ -1350,35 +1131,15 @@
 			]
 		}
 		{
-			x: 9.5d
-			y: -3.0d
-			dependencies: ["7FC81AF332294769"]
-			id: "301CBA57941D24A3"
-			tasks: [{
-				id: "6F1A7F24FA2CA8A1"
-				type: "item"
-				item: "minecraft:map"
-			}]
-			rewards: [
-				{
-					id: "0D09F45E9CF58F23"
-					type: "item"
-					item: "minecraft:ink_sac"
-					count: 5
-				}
-				{
-					id: "5A9F1591BF791379"
-					type: "item"
-					item: "minecraft:clay_ball"
-					count: 5
-				}
-			]
-		}
-		{
 			title: "Go full nomad!"
-			x: 4.5d
-			y: -3.5d
-			dependencies: ["17FC433734DE388E"]
+			x: 4.0d
+			y: -2.5d
+			description: [
+				"If only there was a way to sleep without changing my spawn point..."
+				""
+				"Oh wait there is!"
+			]
+			dependencies: ["18FF6DA5335C0711"]
 			id: "221A3D2E31B74520"
 			tasks: [{
 				id: "092A1CD36EC4FE13"
@@ -1399,11 +1160,6 @@
 					item: "aquaculture:box"
 				}
 				{
-					id: "2BD4781D8FB9745E"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
 					id: "3F2013E48B41C56A"
 					type: "ftbmoney:money"
 					ftb_money: 20L
@@ -1421,11 +1177,16 @@
 						}
 					}
 				}
+				{
+					id: "2740517204932D79"
+					type: "xp"
+					xp: 70
+				}
 			]
 		}
 		{
-			x: 3.5d
-			y: 0.5d
+			x: 4.0d
+			y: 0.0d
 			description: [
 				"Ready to sail the seven seas!"
 				""
@@ -1458,23 +1219,13 @@
 					item: "minecraft:clay_ball"
 					count: 5
 				}
-				{
-					id: "5D53105CFAE14B44"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "goblintraders:dolphins_grace"
-						}
-					}
-				}
 			]
 		}
 		{
 			x: 18.0d
-			y: -3.5d
-			description: ["Lapis Lazuli you place in the table will stay even if you exit the menu."]
+			y: 2.0d
+			subtitle: "is it an enchanting table or an enchantment table?"
+			description: ["&aLapis Lazuli&r you place in the table will stay even if you exit the menu."]
 			dependencies: ["4D4CE785FDA4EFB9"]
 			id: "43509530CAD67EE9"
 			tasks: [{
@@ -1487,11 +1238,6 @@
 					id: "04F3F2EDCEA8FEE0"
 					type: "ftbmoney:money"
 					ftb_money: 20L
-				}
-				{
-					id: "58F9F27DA4F6E2DA"
-					type: "xp_levels"
-					xp_levels: 5
 				}
 				{
 					id: "59D33CFC2EDF1D4F"
@@ -1507,15 +1253,21 @@
 					}
 					count: 3
 				}
+				{
+					id: "02B2E01907FD6ADA"
+					type: "xp"
+					xp: 300
+				}
 			]
 		}
 		{
 			x: 19.5d
-			y: -3.5d
+			y: 2.0d
+			subtitle: "Is this where chicken of the sea is made?"
 			description: [
-				"The Altar of the Sea is a block which allows you to recycle worthless enchanted items."
+				"&6The Altar of the Sea is a block which allows you to recycle worthless enchanted items."
 				""
-				"To begin, you need four enchanted items and a fair amount of experience."
+				"&rTo begin, you need four enchanted items and a fair amount of experience."
 				""
 				"Then, you place one enchanted item on each pillar (target the pillar and right click it while holding the item)."
 				""
@@ -1534,61 +1286,26 @@
 			}]
 			rewards: [
 				{
-					id: "74F88CDB15961CEB"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "goblintraders:dolphins_grace"
-						}
-					}
-				}
-				{
 					id: "371389B2F0F94369"
 					type: "ftbmoney:money"
-					ftb_money: 10L
+					ftb_money: 50L
+				}
+				{
+					id: "2013053644C9F57B"
+					type: "xp"
+					xp: 450
 				}
 			]
 		}
 		{
 			x: 18.0d
-			y: -6.0d
-			dependencies: ["4E332FAD066528F2"]
-			id: "2FB33739FE341ABB"
-			tasks: [{
-				id: "11EE1A500B5B2DFC"
-				type: "item"
-				item: "apotheosis:hellshelf"
-			}]
-			rewards: [
-				{
-					id: "22BE486E4E2C0595"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:fire_resistance"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "3991EFA1A2C0EBDC"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 19.0d
-			y: -6.0d
+			y: 4.0d
 			subtitle: "sea shelves by the seashore"
+			description: [
+				"Provides both &aEterna&r and &dArcana&r."
+				""
+				"Check the candle quests to the right to see what those mean."
+			]
 			dependencies: ["4E332FAD066528F2"]
 			id: "2DD4ECB63E6C32C8"
 			tasks: [{
@@ -1616,29 +1333,16 @@
 				{
 					id: "1FD3222ADD5B291A"
 					type: "ftbmoney:money"
-					ftb_money: 10L
+					ftb_money: 30L
 				}
-			]
-		}
-		{
-			x: 17.0d
-			y: -6.0d
-			dependencies: ["4E332FAD066528F2"]
-			id: "63CDFE43B8BB0D1A"
-			tasks: [{
-				id: "2A6B1BB096A13EDE"
-				type: "item"
-				item: "apotheosis:endshelf"
-			}]
-			rewards: [
 				{
-					id: "2980101B86232A62"
+					id: "02DED0BB2C4A8D98"
 					type: "item"
 					item: {
-						id: "minecraft:potion"
+						id: "ftbquests:lootcrate"
 						Count: 1b
 						tag: {
-							Potion: "betterendforge:end_veil"
+							type: "ingots_valuable"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1647,18 +1351,19 @@
 						}
 					}
 				}
-				{
-					id: "44EC15EB50D32138"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
 			]
 		}
 		{
-			x: 6.0d
-			y: 7.0d
-			description: ["Increases Block Reach Distance."]
+			x: 9.5d
+			y: -3.0d
+			subtitle: "If only I had a brain..."
+			description: [
+				"Increases Block Reach Distance."
+				""
+				"&6You only need to collect at least 1 to complete this quest."
+			]
 			dependencies: ["59F003B96FBE2813"]
+			min_required_tasks: 1
 			id: "62B5E244F71CBC3E"
 			tasks: [
 				{
@@ -1713,10 +1418,16 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 5.0d
-			description: ["Reflects Damage against Undead Mobs."]
-			dependencies: ["5F4896458FA5BB60"]
+			x: 16.5d
+			y: -2.0d
+			subtitle: "Extra stylish"
+			description: [
+				"Reflects Damage against Undead Mobs."
+				""
+				"&6You only need to collect at least 2 to complete this quest."
+			]
+			dependencies: ["5F4896458FA5BB61"]
+			min_required_tasks: 2
 			id: "252A609057F3DB46"
 			tasks: [
 				{
@@ -1784,10 +1495,16 @@
 			]
 		}
 		{
-			x: 16.0d
-			y: 5.0d
-			description: ["Grants Serpendipity, which boosts fortune, looting, and luck."]
+			x: 19.5d
+			y: -2.0d
+			subtitle: "Become one with the ocean and its treasures will arrive"
+			description: [
+				"Grants Serpendipity, which boosts fortune, looting, and luck."
+				""
+				"&6You only need to collect at least 2 to complete this quest."
+			]
 			dependencies: ["3A78EBA961882C21"]
+			min_required_tasks: 2
 			id: "4DFC83646717BEC5"
 			tasks: [
 				{
@@ -1856,7 +1573,7 @@
 		}
 		{
 			x: 9.0d
-			y: 2.5d
+			y: 1.0d
 			description: ["The vanilla bow is needed to level up archery, which allows you to use better bows."]
 			dependencies: ["5F7DCF112F9F6C1C"]
 			id: "7B627325BF285247"
@@ -1881,11 +1598,6 @@
 			}]
 			rewards: [
 				{
-					id: "464DFC6436A7920B"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-				{
 					id: "6D3C90EDEEF988B4"
 					type: "item"
 					item: "aquaculture:box"
@@ -1894,7 +1606,48 @@
 					id: "58F2BFD15572EB71"
 					type: "item"
 					item: {
-						id: "majruszs_difficulty:bandage"
+						id: "roughtweaks:plaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 1.0d
+			subtitle: "More villages!"
+			description: [
+				"There are multiple new villager jobs, all with unique trades, workstations, and advancements!"
+				"OCEANOGRAPHER, NETHEROLOGIST, FORESTER, ENDEROLOGIST, ENGINEER, FLORIST, HUNTER."
+				""
+				"Netherologist and Enderologist's station quests can be found in the nether and end chapters."
+			]
+			dependencies: ["59F003B96FBE2813"]
+			id: "4EAD123C4CC0E5CA"
+			tasks: [{
+				id: "5C999B707ECD4E61"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+			rewards: [
+				{
+					id: "21944CB61A484264"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "28CCF3B04BBE75AA"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1906,48 +1659,30 @@
 			]
 		}
 		{
-			x: 13.5d
+			x: 15.5d
 			y: 0.0d
-			subtitle: "More villages!"
+			shape: "gear"
 			description: [
-				"There are multiple new villager jobs, all with unique trades, workstations, and advancements!"
-				"OCEANOGRAPHER, NETHEROLOGIST, FORESTER, ENDEROLOGIST, ENGINEER, FLORIST, HUNTER."
+				"Grants extra free defense when worn."
 				""
-				"Netherologist and Enderologist's station quests can be found in the nether and end chapters."
+				"You will notice its recipe crafts &aChain Links&r instead."
+				""
+				"Use the double arrow button that appears to change the result to the ring."
+				""
+				"Check out the \"&3Enigmatic Legacy&r\" Chapter for more!"
 			]
-			dependencies: ["7FC81AF332294769"]
-			id: "4EAD123C4CC0E5CA"
-			tasks: [{
-				id: "5C999B707ECD4E61"
-				type: "item"
-				item: "minecraft:emerald"
-			}]
-			rewards: [{
-				id: "4F8B1185E804F38E"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "alexsmobs:soulsteal"
-					}
-				}
-			}]
-		}
-		{
-			x: 12.0d
-			y: 0.5d
-			description: ["Allows you to dig blocks with your bare hands."]
-			dependencies: ["7FC81AF332294769"]
+			dependencies: ["62D2AC9343C06D18"]
 			id: "5F5F8F6B0B5A2718"
 			tasks: [{
 				id: "44C7C0EA990D4971"
 				type: "item"
 				item: {
-					id: "bountifulbaubles:gloves_digging_iron"
+					id: "enigmaticlegacy:iron_ring"
 					Count: 1b
-					tag: {
-						Damage: 0
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
 					}
 				}
 			}]
@@ -1971,34 +1706,9 @@
 			]
 		}
 		{
-			x: 19.5d
-			y: -2.0d
-			shape: "gear"
-			subtitle: "Boosts your mining speed, fortune level and togglable night vision."
-			description: [
-				""
-				"Head over to the \"Enigmatic Legacy\" quest chapter to learn more!"
-			]
-			dependencies: ["446936F80D06B8A4"]
-			id: "4CC0C281BCE93043"
-			tasks: [{
-				id: "27B18CB58A827FCC"
-				type: "item"
-				item: {
-					id: "enigmaticlegacy:mining_charm"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "7C320F66009D8B3F"
-				type: "ftbmoney:money"
-				ftb_money: 20L
-			}]
-		}
-		{
-			x: 8.0d
+			x: 7.0d
 			y: -4.0d
+			subtitle: "having a blast"
 			description: ["The blast furnace can be used to smelt down diamond and neptunium tools back into a tiny amount of materials."]
 			dependencies: ["766E4FEA8148AEDA"]
 			id: "4D3A62DB1CC130EA"
@@ -2014,25 +1724,28 @@
 					item: "aquaculture:lockbox"
 				}
 				{
-					id: "33CCE7DC118A0AC7"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
 					id: "3C6F2B40DB6079B6"
 					type: "ftbmoney:money"
 					ftb_money: 20L
 				}
+				{
+					id: "3CD6D3EB35AE2AFB"
+					type: "xp"
+					xp: 70
+				}
 			]
 		}
 		{
-			title: "Novice Monster Slayer"
-			x: 9.0d
-			y: 1.0d
+			title: "Monster Slayer"
+			x: 10.0d
+			y: 0.5d
+			shape: "gear"
 			description: [
 				"Defeat some mobs with your new sword."
 				""
-				"Check the Meet Your Fight! Chapter to see more monster hunting quests."
+				"Check the \"&3Meet Your Fight!&r\" Chapter to see more monster hunting quests,"
+				""
+				"and also for information about &aGate Pearls &rto get tons of mob loot!"
 			]
 			dependencies: ["5F7DCF112F9F6C1C"]
 			id: "3D96F603D819128E"
@@ -2116,32 +1829,51 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: 3.0d
+			x: 7.5d
+			y: 0.0d
 			shape: "gear"
+			subtitle: "More than just for cooking!"
 			description: [
-				"The Cutting Board is a workstation where players can break down one item into many outputs, by using a valid tool on it."
+				"The Cutting Board is a workstation where players can break down one item into many outputs, by using the right tool for the job."
 				""
-				"For example it can be used to convert wool into string, or wood bark for easier paper, and scrap leather armor into leather."
+				"For example it can be used to convert &awool&r into &astring&r, chop &alogs&r into &abark&r for easier &apaper&r, and scrap &aleather armor&r into &aleather&r."
+				""
+				"To cut an item with the cutting board, place the item you want to cut onto it then &eright-click&r it with the right tool which can be found in &bJEI. &7(in this case its your axe and shears)"
+				"&rNote that the board &eprioritizes your offhand&r when placing items to cut."
 				""
 				"It also has many culinary uses,"
-				"Head over to the \"Farmer's Delight\" quest chapter to learn more!"
+				"Head over to the \"&3Fishing and Foraging&r\" quest chapter to learn more!"
 			]
 			dependencies: ["0D53B0136F089B1F"]
 			id: "01F975837F68C5EC"
-			tasks: [{
-				id: "3D214AA8DBE6B811"
-				type: "item"
-				item: {
-					id: "farmersdelight:cutting_board"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "3D214AA8DBE6B811"
+					type: "item"
+					item: {
+						id: "farmersdelight:cutting_board"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "382AC73679B2894F"
+					type: "item"
+					item: {
+						id: "farmersdelight:tree_bark"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "09C5F2A882CCC6F9"
@@ -2176,7 +1908,7 @@
 						id: "minecraft:leather_helmet"
 						Count: 1b
 						tag: {
-							Damage: 819
+							Damage: 309
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -2188,8 +1920,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: 3.0d
+			x: 9.0d
+			y: 2.0d
 			description: ["Carries a plethora of arrows and looks nice on your back."]
 			dependencies: ["7B627325BF285247"]
 			id: "05A4EC5F750582F2"
@@ -2218,10 +1950,24 @@
 		}
 		{
 			title: "Preparing for the nether!"
-			x: 20.5d
+			icon: "betterportals:portal_fluid_bucket"
+			x: 22.5d
 			y: -1.0d
 			shape: "gear"
-			description: ["Nether portals now come in the form of Dimensional Rifts, which you'll find scattered deep underground. You'll have to find one of these Rifts in order to get to the Nether."]
+			subtitle: "You'll Nether believe how you get there!"
+			description: [
+				"The classic obsidian rectangular nether portals won't work here."
+				""
+				"Nether portals now come in the form of &dDimensional Rifts&r deep underground, which you'll find scattered deep underground. You'll have to find one of these Rifts in order to get to &cThe Nether&r."
+				""
+				"But be well prepared, because &cit's now a one-way trip!&r"
+				""
+				"The rifts can also be carried in a bucket if you want to bring it closer to home."
+				""
+				"You may want to bring some &agold blocks&r, as that is one of the key components to get back out."
+				""
+				"More information about getting out in the \"&eWe need to Escape&r\" quest found in the \"&3Nether Exploration&r\" chapter."
+			]
 			dependencies: ["446936F80D06B8A4"]
 			id: "1C7D1D2C57D866A2"
 			tasks: [{
@@ -2250,14 +1996,19 @@
 			]
 		}
 		{
-			x: 11.0d
-			y: 1.0d
+			x: 2.5d
+			y: -4.5d
 			subtitle: "Medkit."
 			description: [
 				"Medkit."
-				"{image:roughtweaks:textures/item/medkit.png width:100 height:100 align:1}"
+				""
+				"If you want to stop bleeding before it happens, get Medkit."
+				""
 			]
-			dependencies: ["7FC81AF332294769"]
+			dependencies: [
+				"1864D71ABDC07863"
+				"46BB1401A4065026"
+			]
 			id: "5CD3C0B70F668A36"
 			tasks: [{
 				id: "694E2779EDF92E96"
@@ -2275,134 +2026,33 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "2281A8E6AE497709"
-				type: "item"
-				item: {
-					id: "aquaculture:lockbox"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			rewards: [
+				{
+					id: "2281A8E6AE497709"
+					type: "item"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
-				}
-				count: 2
-			}]
-		}
-		{
-			x: 11.0d
-			y: -1.0d
-			shape: "octagon"
-			dependencies: ["01ECE22274DDE487"]
-			size: 1.5d
-			id: "7FC81AF332294769"
-			tasks: [{
-				id: "4B035BAC70D36833"
-				type: "item"
-				item: "minecraft:iron_ingot"
-			}]
-			rewards: [
-				{
-					id: "63C308856B60AD76"
-					type: "item"
-					item: "aquaculture:lockbox"
+					count: 2
 				}
 				{
-					id: "5D3C8BC5B5C09E66"
-					type: "item"
-					item: "farmersdelight:melon_juice"
-				}
-			]
-		}
-		{
-			x: 6.5d
-			y: -4.0d
-			dependencies: ["766E4FEA8148AEDA"]
-			id: "6F26DE64987DD63C"
-			tasks: [{
-				id: "2569723935D3ED68"
-				type: "item"
-				item: "minecraft:brick"
-			}]
-			rewards: [
-				{
-					id: "6844AAC87194CD1A"
-					type: "ftbmoney:money"
-					ftb_money: 5L
-				}
-				{
-					id: "4BDDE0A19395412B"
-					type: "item"
-					item: "aquaculture:box"
-				}
-				{
-					id: "28C28F178EFEA40A"
+					id: "0676F62980DB8B1C"
 					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: 7.5d
-			y: -5.0d
-			dependencies: ["6F26DE64987DD63C"]
-			id: "4D3A500BA602EAA3"
-			tasks: [{
-				id: "3C348F831B66DF98"
-				type: "item"
-				item: "supplementaries:planter"
-			}]
-			rewards: [
-				{
-					id: "149A8F6AB444A7E8"
-					type: "item"
-					item: "randomite:randomite_ore"
-				}
-				{
-					id: "67B1A5BA6AA4D3AD"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-				{
-					id: "007A9CBEF8E8DFA8"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: 8.0d
-			y: -6.0d
-			dependencies: ["4D3A500BA602EAA3"]
-			id: "2C6EF7D8EC662472"
-			tasks: [{
-				id: "1ECEA011AC385C54"
-				type: "item"
-				item: "supplementaries:planter_rich"
-			}]
-			rewards: [
-				{
-					id: "01139A781405BB22"
-					type: "item"
-					item: "aquaculture:treasure_chest"
-				}
-				{
-					id: "7843F1A22C10442A"
-					type: "item"
-					item: "randomite:randomite_ore"
-				}
-				{
-					id: "2FEBF52D0C1CC087"
-					type: "ftbmoney:money"
-					ftb_money: 20L
+					xp: 90
 				}
 			]
 		}
 		{
 			title: "Nomadic dreams"
 			x: 5.5d
-			y: -4.0d
+			y: -3.0d
+			subtitle: "no way is that a reference to the modpack dev?"
 			description: [
 				"Modpack encourages many different playstyles including nomadic exploring!"
 				""
@@ -2445,7 +2095,7 @@
 					id: "3166BEE80BC5969E"
 					type: "item"
 					item: {
-						id: "sophisticatedbackpacks:auto_smelting_upgrade"
+						id: "sophisticatedbackpacks:smelting_upgrade"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -2477,6 +2127,7 @@
 							}
 						}
 					}
+					match_nbt: false
 				}
 			]
 			rewards: [
@@ -2554,17 +2205,17 @@
 			x: 5.0d
 			y: -2.0d
 			description: [
-				"You can wear backpacks in your Back curio slot or on your Chest."
+				"&6Backpacks are wearable items that increase your carrying space when traveling."
 				""
-				"The Open Backpack keybind can be used to open the backpack from your curios, or chest, hotbar, or inventory in that order."
+				"The Open Backpack keybind &3(default b)&r can be used to open the backpack from your curios, or the leftmost backpack in your inventory if you aren't wearing one."
 				""
-				"The keybind also works by hovering over the backpack you want to open, while not having a backpack already open."
+				"If you have multiple backpacks, you can choose which one to open by hovering your cursor over it then pressing the Open Backpack key."
 				""
-				"You can also place backpacks on the ground by sneak-using them. This allows them to be connected to a Simple Storage Network via cables."
+				"You can also place backpacks on the ground by sneak-using them. This allows them to be connected to a Tom's Storage Network via &aInventory Trims&r."
 				""
 				"Like a shulker box, backpacks will store their items when broken."
 				""
-				"NOTICE: There is currently a bug with items not stacking when using a magnet. We cannot fix this on our end. Please use the Sort Container button (or Sort Backpack keybind) as a workaround."
+				"&cNOTICE: There is currently a bug with items not stacking when using a magnet. We cannot fix this on our end. Please use the Sort Container button (or Sort Backpack keybind) as a workaround."
 			]
 			dependencies: ["18FF6DA5335C0711"]
 			id: "6564CCC871E811E4"
@@ -2588,78 +2239,21 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -3.5d
-			description: [
-				"The Enchantment Library is a block focused on storing enchantments."
-				""
-				"Simply insert an enchanted book, and every enchantment on that book will be stored in the library internally."
-				""
-				"Each enchantment is stored as one point multiplied by its level."
-				""
-				"The library also records the max level it has ever seen for a given enchantment, and you may only extract enchantments up to that level.  Meaning if you want to be able to extract a higher level of an enchantment, the library will need to have had that level deposited at least one time."
-				""
-				"To extract enchantments from the library, simply click on the enchantment you want to extract, and it will appear as an enchantment book in the output slot."
-				""
-				"You can add more enchantments to the book by clicking another enchantment if it is compatible, and you can add more levels by clicking an enchantment again, if you have enough points."
-				""
-				"Shift-Clicking an enchantment option will add the maximum level possible with the amount of points you have."
-				""
-				"The enchantment library will not lose the enchantments if you break the block."
-			]
-			dependencies: ["43509530CAD67EE9"]
-			id: "0E3EAF4D21A7FE1E"
-			tasks: [{
-				id: "2B528E43718E6D52"
-				type: "item"
-				item: {
-					id: "apotheosis:enchantment_library"
-					Count: 1b
-					tag: {
-						BlockEntityTag: { }
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "516A8237D14EF6E9"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 4s
-							id: "minecraft:unbreaking"
-						}]
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: 13.5d
-			y: -2.0d
+			x: 14.5d
+			y: 0.5d
+			subtitle: "If Minecraft can't provide the goods, i'll forge them myself!"
 			description: [
 				"Anvils have significantly more utility than previously."
 				""
-				"Anvils will spend your xp as points instead of xp levels."
+				"&6Anvils will spend your xp as points instead of xp levels."
 				""
-				"Anvils have no level limit, and are enchantable with Unbreaking, Splitting, and Obliteration."
+				"&6Anvils have no level limit&r, and are enchantable with &aUnbreaking&r, &aSplitting&r, and &aObliteration&r."
 				""
-				"Splitting is a new enchantment that allows you to drop an anvil on an enchanted book with multiple enchantments, and receive an individual book for each level."
+				"Splitting is a new enchantment that allows you to seperate an enchanted book with multiple enchantments on it by simply placing the anvil on top of a dropped enchanted book. However the chance is not guaranteed until level 5."
 				""
-				"However, this process only has a 20% success chance per level of splitting, and will always cause damage to the anvil (but can be prevented by unbreaking).  Obliteration is similar, it has the same success rules, but it works on books with a single enchantment above level one.  It will create two books, each a level lower than the original.  Think of it as the inverse of combining two books in an anvil."
+				"Obliteration allows seperating a higher level enchantment into multiple lower level books, similar to combining books in an anvil but reversed."
 			]
-			dependencies: ["7FC81AF332294769"]
+			dependencies: ["62D2AC9343C06D18"]
 			id: "2AA12D542527B597"
 			tasks: [{
 				id: "4F487362297E0A2C"
@@ -2677,143 +2271,32 @@
 			rewards: [{
 				id: "7ED1D9EF85BDCCEE"
 				type: "xp"
-				xp: 100
+				xp: 120
 			}]
 		}
 		{
-			x: 5.5d
-			y: 2.0d
-			description: [""]
-			dependencies: ["518DF4A178673014"]
-			id: "3BEED9F6C8434FF5"
-			tasks: [{
-				id: "38B20E5035A852F5"
-				type: "item"
-				item: {
-					id: "minecraft:campfire"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "7367F4F4308F9D40"
-					type: "item"
-					item: {
-						id: "minecraft:torch"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "1FEF3F3074B0F311"
-					type: "item"
-					item: {
-						id: "pickletweaks:coal_piece"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Humble accommodation "
+			title: "Humble accommodation"
 			x: 8.0d
-			y: -3.0d
+			y: -3.5d
+			description: [
+				"Chests, Ladders, and Bookshelves can be decorated into different wood types, to better fit your home."
+				""
+				"Simply insert a chest/ladder/bookshelf alongside the wooden plank of your choice to change its looks."
+			]
 			dependencies: ["766E4FEA8148AEDA"]
 			id: "3A7C045E94E9A459"
-			tasks: [
-				{
-					id: "1F443F87E865B086"
-					type: "item"
-					item: {
-						id: "minecraft:loom"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
+			tasks: [{
+				id: "59E586F187E52357"
+				type: "item"
+				title: "Any wood chest except the vanilla one"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "quark:revertable_chests"
 					}
 				}
-				{
-					id: "289A1C199514C6E3"
-					type: "item"
-					item: {
-						id: "minecraft:smoker"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "374CF1ECE21C1FF6"
-					type: "item"
-					item: {
-						id: "minecraft:smithing_table"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "35F0EB2695EC88EC"
-					type: "item"
-					item: {
-						id: "minecraft:stonecutter"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "789B54C4DA2E65CB"
-					type: "item"
-					item: {
-						id: "minecraft:grindstone"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "7F2DFBB4A19186E0"
-					type: "item"
-					item: {
-						id: "minecraft:cartography_table"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
+			}]
 			rewards: [
 				{
 					id: "7723D15CD9A19830"
@@ -2894,23 +2377,23 @@
 					}
 				}
 				{
-					id: "30F7B5E239C40FB0"
+					id: "7C36989EA6961163"
 					type: "choice"
-					table_id: 8545390299491237994L
+					table_id: 7685042081442074286L
 				}
 			]
 		}
 		{
 			title: "Let's make a Mesh!"
-			x: 6.0d
-			y: 3.0d
+			x: 7.5d
+			y: -1.0d
 			description: [
 				"You can acquire Flint more effectively with Fiber Mesh."
 				"Craft Flint shears and cut some grass to make Mesh. Then you can sift Gravel and get Flint."
 				""
 				"Both short grass or minecraft grass work in the recipe."
 			]
-			dependencies: ["518DF4A178673014"]
+			dependencies: ["01ECE22274DDE487"]
 			id: "0D53B0136F089B1F"
 			tasks: [
 				{
@@ -2963,13 +2446,14 @@
 				{
 					id: "0FDA59ECE23859F8"
 					type: "xp"
-					xp: 100
+					xp: 15
 				}
 			]
 		}
 		{
-			x: 10.0d
-			y: 7.0d
+			x: 14.0d
+			y: -2.5d
+			description: ["Looks like a daunting quest at first, but you will get this much quicker than expected."]
 			dependencies: ["62D2AC9343C06D18"]
 			id: "479C78EE75C68AC0"
 			tasks: [{
@@ -2980,21 +2464,24 @@
 				checkItem: false
 			}]
 			rewards: [{
-				id: "786BA5646CD3FA65"
+				id: "4A77D3F77B87E73F"
 				type: "choice"
-				table_id: 768393147870328736L
+				table_id: 3680913278004027102L
 			}]
 		}
 		{
-			title: "Apprentice Monster Slayer"
-			x: 12.5d
-			y: -4.5d
-			description: ["Defeat even more mobs using your new weapon."]
-			dependencies: ["329013243101B08C"]
-			id: "12F259CB162FE046"
+			title: "Spoils of Battle"
+			x: 11.0d
+			y: -4.0d
+			description: ["Gather some more monster loot with your new equipment."]
+			dependencies: [
+				"329013243101B08C"
+				"3481C7E0750A45D6"
+			]
+			id: "12F259CB162FE047"
 			tasks: [
 				{
-					id: "1878399D9F5BA529"
+					id: "1878399D9F5BA530"
 					type: "item"
 					item: {
 						id: "minecraft:rotten_flesh"
@@ -3005,10 +2492,10 @@
 							}
 						}
 					}
-					count: 32L
+					count: 4L
 				}
 				{
-					id: "5965110B2FF7121B"
+					id: "5965110B2FF7121C"
 					type: "item"
 					item: {
 						id: "minecraft:spider_eye"
@@ -3019,10 +2506,10 @@
 							}
 						}
 					}
-					count: 8L
+					count: 2L
 				}
 				{
-					id: "12DC45A943680F3A"
+					id: "12DC45A943680F3B"
 					type: "item"
 					item: {
 						id: "minecraft:gunpowder"
@@ -3033,10 +2520,10 @@
 							}
 						}
 					}
-					count: 24L
+					count: 2L
 				}
 				{
-					id: "179B4AF394673589"
+					id: "179B4AF394673590"
 					type: "item"
 					item: {
 						id: "minecraft:bone"
@@ -3047,24 +2534,24 @@
 							}
 						}
 					}
-					count: 32L
+					count: 3L
 				}
 			]
 			rewards: [
 				{
 					id: "59897BC0C73C35C2"
 					type: "choice"
-					table_id: 768393147870328736L
+					table_id: 8545390299491237994L
 				}
 				{
 					id: "0DECB1F3F45A7C8E"
 					type: "ftbmoney:money"
-					ftb_money: 50L
+					ftb_money: 25L
 				}
 				{
 					id: "7F2AB077B5A0295B"
 					type: "xp"
-					xp: 500
+					xp: 200
 				}
 				{
 					id: "09E2EBE13999E4EA"
@@ -3083,69 +2570,13 @@
 			]
 		}
 		{
-			x: 19.0d
-			y: 0.0d
-			dependencies: ["446936F80D06B8A4"]
-			id: "7CD3436C8DD7B7F9"
-			tasks: [{
-				id: "570220E57AA0CAA7"
-				type: "item"
-				item: {
-					id: "minecraft:diamond_shovel"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "012F9A5DD583AE0D"
-					type: "xp"
-					xp: 666
-				}
-				{
-					id: "1272E921FE5B720B"
-					type: "item"
-					item: {
-						id: "kubejs:copper_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
+			x: 21.0d
+			y: 1.5d
+			description: ["Uh oh..."]
+			dependencies: [
+				"268FEFB76E852EE6"
+				"544027B606EEA00D"
 			]
-		}
-		{
-			x: 19.0d
-			y: 1.0d
-			dependencies: ["7CD3436C8DD7B7F9"]
-			id: "6FF6BF31AB27E3B5"
-			tasks: [{
-				id: "55F206EA433E7FBA"
-				type: "questsadditions:break"
-				block: "minecraft:gravel"
-				value: 640L
-				checkItem: false
-			}]
-			rewards: [{
-				id: "6C443F8C07FE54F2"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
-		}
-		{
-			x: 19.0d
-			y: 7.0d
-			dependencies: ["268FEFB76E852EE6"]
 			hide: true
 			id: "76CDF977DD44821E"
 			tasks: [{
@@ -3174,11 +2605,19 @@
 			]
 		}
 		{
-			x: 17.0d
-			y: 7.0d
-			description: [""]
-			dependencies: ["544027B606EEA00D"]
+			x: 19.0d
+			y: 0.5d
+			description: [
+				"A stack of obsidian mined."
+				""
+				"Might need a faster pickaxe, lead will take forever..."
+			]
+			dependencies: [
+				"4D4CE785FDA4EFB9"
+				"3A78EBA961882C21"
+			]
 			hide: true
+			dependency_requirement: "one_started"
 			id: "62CC0A7EBAFC51DD"
 			tasks: [{
 				id: "5B96DB466E7BEDA1"
@@ -3187,16 +2626,23 @@
 				value: 64L
 				checkItem: false
 			}]
-			rewards: [{
-				id: "5EB6427F5ADE7314"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
+			rewards: [
+				{
+					id: "5EB6427F5ADE7314"
+					type: "choice"
+					table_id: 768393147870328736L
+				}
+				{
+					id: "376BF830C3BDBEF0"
+					type: "xp"
+					xp: 199
+				}
+			]
 		}
 		{
-			x: 18.0d
-			y: 7.0d
-			description: [""]
+			x: 20.0d
+			y: 1.0d
+			description: ["2 stacks. Where is this going..."]
 			dependencies: ["62CC0A7EBAFC51DD"]
 			hide: true
 			id: "268FEFB76E852EE6"
@@ -3226,28 +2672,32 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: 5.0d
-			description: ["Iron is a very versatile material, get as much as you can!"]
-			dependencies: ["0197357833059D83"]
+			x: 15.0d
+			y: -2.5d
+			description: [
+				"Iron is a very versatile material, get as much as you can!"
+				""
+				"&7Remember, ores spawn more often in caves in this modpack."
+			]
+			dependencies: ["62D2AC9343C06D18"]
 			id: "46732178BA7B82A4"
 			tasks: [{
 				id: "101D3373D18436BD"
 				type: "questsadditions:break"
 				block: "minecraft:iron_ore"
-				value: 100L
+				value: 50L
 				checkItem: false
 			}]
 			rewards: [{
-				id: "50F3DE979F71518D"
+				id: "0F02C8405FB094FF"
 				type: "choice"
-				table_id: 768393147870328736L
+				table_id: 3680913278004027102L
 			}]
 		}
 		{
 			title: "You asked for this, Mage"
-			x: 20.0d
-			y: 7.0d
+			x: 22.0d
+			y: 2.0d
 			description: ["Blame @doctor_mage"]
 			hide_dependency_lines: false
 			dependencies: ["76CDF977DD44821E"]
@@ -3270,9 +2720,25 @@
 				{
 					id: "3782D208352ADA5B"
 					type: "item"
-					item: {
+					title: "Cake"
+					icon: {
 						id: "minecraft:cake"
 						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					item: {
+						id: "minecraft:paper"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"italic\":true,\"color\":\"white\",\"text\":\"Seems those 100 cakes you were promised were in fact, a lie\"}"]
+								Name: "{\"italic\":false,\"text\":\"No Cakes?\",\"color\":\"gray\"}"
+							}
+						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -3315,47 +2781,43 @@
 						}
 					}
 				}
+				{
+					id: "6CF0C386C5A9C914"
+					type: "command"
+					title: "&dThe Obsidian Obliterator (aka the time waster)"
+					icon: {
+						id: "titles:title_scroll_rare"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							"quark:RuneAttached": 1b
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+							"quark:RuneColor": {
+								ForgeCaps: {
+									"dungeons_libraries:built_in_enchantments": {
+										BuiltInEnchantments: [ ]
+									}
+								}
+								id: "quark:magenta_rune"
+								Count: 1b
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					command: "/titles add @p rad_recipes:time_waster"
+					player_command: false
+				}
 			]
 		}
 		{
-			x: 11.5d
-			y: 7.0d
-			description: [""]
-			dependencies: ["62D2AC9343C06D18"]
-			id: "3C06C79413BD4E04"
-			tasks: [{
-				id: "2AB6762BF681AFCF"
-				type: "questsadditions:break"
-				block: "minecraft:emerald_ore"
-				value: 32L
-				checkItem: false
-			}]
-			rewards: [{
-				id: "15E9F7DBCE254D17"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
-		}
-		{
-			x: 12.5d
-			y: 7.0d
-			dependencies: ["3C06C79413BD4E04"]
-			id: "7C426A8DEF44C9BE"
-			tasks: [{
-				id: "7B1C2B892B6D394E"
-				type: "questsadditions:break"
-				block: "minecraft:emerald_ore"
-				value: 64L
-				checkItem: false
-			}]
-			rewards: [{
-				id: "1A17EB34BB2F2760"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
-		}
-		{
-			title: "Knowledge of Death"
+			title: "A RAD Demise"
 			icon: {
 				id: "tombstone:decorative_grave_cross"
 				Count: 1b
@@ -3363,7 +2825,7 @@
 					model_texture: 1
 				}
 			}
-			x: 0.0d
+			x: 16.0d
 			y: 6.0d
 			subtitle: "Die at least 1 time"
 			optional: true
@@ -3375,22 +2837,23 @@
 				value: 1
 			}]
 			rewards: [{
-				id: "02873F690435EC38"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "69E5E8E80BE95E1B"
+				type: "xp"
+				xp: 150
 			}]
 		}
 		{
-			x: 1.5d
+			x: 14.5d
 			y: 6.0d
 			subtitle: "Chose your first knowledge of death"
 			description: [
 				"Players earns knowledge points each time they use a grave's soul to enchant an item, when they free a soul from a receptacle, by praying near a decorative grave with a special item called Ankh of Pray (with a cooldown of 6 in-game hours), or by accomplishing the tombstone advancements."
 				""
-				"Theses points allow you to unlock some perks in a special gui \"Knowledge of Death\" (the keybind in \"misc\" is not defined by default)."
+				"These points allow you to unlock some perks in a special gui \"&3Knowledge of Death&r\" (the keybind in \"misc\" is not defined by default)."
 				""
 				"The perks are small bonus related to all the features of tombstone, instead of providing them by default."
 			]
+			size: 1.5d
 			id: "5FD02944DC20453B"
 			tasks: [{
 				id: "2E682B242C3E989A"
@@ -3405,17 +2868,18 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 7.0d
-			subtitle: "Decorative graves"
+			title: "Decorative Graves"
+			x: 14.5d
+			y: 4.5d
+			subtitle: "More than just a decoration"
 			description: [
-				"The decorative graves are special blocks with a fog particle only during the night."
+				"Decorative Graves are crafted with &aEssence of Undeath&r and blocks made from &aGrave Dust&r."
 				""
-				"The decorative graves can be haunted by a soul. The soul stays until used and allows some enchants like magic scroll/tablet, or upgrade the grave's key."
+				"Unlike the ones that appear after your untimely demise, a decorative grave will spawn a floating purple orb after a while. These are &5Grave Souls&r."
 				""
-				"To build a decorative grave, you will need to collect Grave's Dust (the common way to obtain them is by killing undeads or with Cat Morning Gift), and one Essence of Undeath being an ingredient obtainable through the advancements (the first one is by finding how to select your favorite grave in the config in game) and rarely foundable on undeads, Cat Morning Gift and by fishing in deep water (but don't hope to find them by theses ways except by luck)."
+				"This can be used with corail's &5magic books&r (&aBook of Disenchantment&r and &aBook of Repairing&r for example) or to enchant your grave key to quickly teleport back to your death point."
 				""
-				"Rarely, a Grave Guardian can appear near a decorative grave. This guardian will protect the surroundings from hostile creatures and will offer to trade with the players. This is one way to obtain Grave's Dust and Essence of Undeath. During special events, the trades may differ."
+				"Rarely, a &2Grave Guardian&r can appear near a decorative grave. This guardian will protect the surroundings from hostile creatures and will offer to trade with the players. This is another way to obtain &aGrave's Dust&r and &aEssence of Undeath&r. During special events, the trades may differ."
 			]
 			dependencies: ["5FD02944DC20453B"]
 			id: "2D09120BC5B9A53D"
@@ -3466,9 +2930,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 7.0d
-			dependencies: ["5FD02944DC20453B"]
+			x: 15.5d
+			y: 4.5d
+			dependencies: ["2D09120BC5B9A53D"]
 			id: "631533869B9D2B84"
 			tasks: [{
 				id: "753B247AF2BAD062"
@@ -3497,8 +2961,13 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 6.0d
+			x: 13.5d
+			y: 4.5d
+			description: [
+				"Pray (Hold &3Right Click&r) near a &adecorative grave&r to increase your Knowledge of Death points."
+				""
+				"In addition it has various uses with certain Knowledge of Death perks."
+			]
 			dependencies: ["5FD02944DC20453B"]
 			id: "054955FDD2370B91"
 			tasks: [{
@@ -3532,14 +3001,17 @@
 		}
 		{
 			title: "Leap Of Faith"
-			x: 0.0d
-			y: 8.0d
+			x: 3.0d
+			y: 4.0d
 			subtitle: "Falling with style"
 			description: [
 				"Gliders can be used to glide across long distances."
 				""
-				"The distance they glide is limited to a unique stamina mechanic."
+				"To use just fall a certain distance while holding it in your mainhand."
+				""
+				"The distance they glide is limited to a unique &estamina&r mechanic."
 			]
+			dependencies: ["2DDD649416AA95EC"]
 			id: "1E51B8E76910275C"
 			tasks: [{
 				id: "614490657F783439"
@@ -3556,27 +3028,29 @@
 			}]
 			rewards: [
 				{
-					id: "054B39A2DAD1BB84"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					id: "57F236719A0A8ACC"
 					type: "ftbmoney:money"
 					ftb_money: 15L
+				}
+				{
+					id: "2163511AD6CCF39C"
+					type: "xp"
+					xp: 25
 				}
 			]
 		}
 		{
 			title: "Praise Hylia"
-			x: 1.0d
-			y: 8.0d
+			x: 5.0d
+			y: 4.0d
 			description: [
 				"A lonely momenument to an ancient goddess."
 				""
 				"They can be found around all over the world but are not uncommon in villages."
 				""
-				"Offer them spirit orbs to increase your stamina."
+				"Offer them &aspirit orbs&r to increase your &estamina&r."
+				""
+				"&6&oNote for players who have played other modpacks with Paragliders: Health Containers are disabled and these statues will only provide stamina."
 			]
 			dependencies: ["1E51B8E76910275C"]
 			id: "533B104DB3063EAB"
@@ -3608,8 +3082,8 @@
 		}
 		{
 			title: "Stylish Statues"
-			x: 2.0d
-			y: 8.0d
+			x: 7.0d
+			y: 4.0d
 			description: ["Find or craft all the statues"]
 			dependencies: ["533B104DB3063EAB"]
 			id: "23BE4F851A51A152"
@@ -3742,20 +3216,25 @@
 		}
 		{
 			title: "Spartan Weapons"
-			x: 12.5d
+			x: 10.5d
 			y: -3.0d
-			description: ["There are a large variety of new weapons provided by Spartan Weaponry, try them out!"]
-			dependencies: ["7FC81AF332294769"]
+			subtitle: "This is..."
+			description: [
+				"There are a large variety of new weapons provided by Spartan Weaponry, try them out!"
+				""
+				"Tin has decent damage and low combat requirements, making it a good choice for weaponry."
+			]
+			dependencies: ["59F003B96FBE2813"]
 			id: "329013243101B08C"
 			tasks: [{
 				id: "58F2E3554C7C2C33"
 				type: "item"
-				title: "Any #spartanweaponry:iron_weapons"
+				title: "Any #spartanweaponry:tin_weapons"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						value: "spartanweaponry:iron_weapons"
+						value: "spartanweaponry:tin_weapons"
 					}
 				}
 			}]
@@ -3786,11 +3265,12 @@
 		{
 			title: "What's next?"
 			icon: "kubejs:skull2"
+			disable_toast: true
 			x: 24.0d
 			y: -1.0d
 			shape: "octagon"
-			description: ["Check the Nether Exploration Chapter to find quests relating to the nether!"]
-			dependencies: ["25045A0059F4E280"]
+			description: ["Check the \"&3Nether Exploration&r\" Chapter to find quests relating to the nether!"]
+			dependencies: ["1C7D1D2C57D866A2"]
 			size: 2.0d
 			id: "07CCE1397519FEDA"
 			tasks: [{
@@ -3804,8 +3284,8 @@
 			}]
 		}
 		{
-			x: 15.0d
-			y: 0.0d
+			x: 11.0d
+			y: 2.0d
 			subtitle: "Find a village"
 			dependencies: ["4EAD123C4CC0E5CA"]
 			id: "79A9E6D98A50387F"
@@ -3822,8 +3302,8 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: 0.0d
+			x: 11.0d
+			y: 3.0d
 			subtitle: "Make your first villager trade"
 			dependencies: ["79A9E6D98A50387F"]
 			id: "4355236339BC275F"
@@ -3840,85 +3320,10 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 1.0d
-			subtitle: "Find or craft villager workstations(20)"
-			dependencies: ["4355236339BC275F"]
-			id: "04A6238F09D204C6"
-			tasks: [{
-				id: "4335BEE2CBD3AFA2"
-				type: "advancement"
-				advancement: "morevillagers:first_workstation_get"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "5D1E3B574C5278E6"
-					type: "random"
-					table_id: 5735513140715080140L
-				}
-				{
-					id: "2D0982CA6FC0C565"
-					type: "ftbmoney:money"
-					ftb_money: 200L
-				}
-			]
-		}
-		{
-			x: 17.0d
-			y: 3.5d
-			subtitle: "Trade with every villager profession"
-			dependencies: ["723B381395B12DC0"]
-			id: "3798A245BFA80027"
-			tasks: [{
-				id: "4C43586C6F409DCD"
-				type: "advancement"
-				advancement: "morevillagers:all_professions_traded"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "2299DD6C4A2351EB"
-					type: "random"
-					table_id: 5735513140715080140L
-				}
-				{
-					id: "6B50E1D2CAC3907F"
-					type: "ftbmoney:money"
-					ftb_money: 200L
-				}
-			]
-		}
-		{
-			x: 15.0d
-			y: 1.0d
-			subtitle: "Locate a Pillager camp"
-			dependencies: ["79A9E6D98A50387F"]
-			id: "308F2C3D797D33A2"
-			tasks: [{
-				id: "14CC3C6F7FE9E1B7"
-				type: "advancement"
-				advancement: "takesapillage:pillager_camp"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "02F7C1C79B296FC8"
-				type: "item"
-				item: {
-					id: "kubejs:copper_coin"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
 			x: 16.5d
-			y: -4.5d
-			description: ["You can also disenchant useless enchanted books and any equipment on Grindstone and get some levels back."]
+			y: 2.0d
+			subtitle: "The grind never stops!"
+			description: ["You can also disenchant useless enchanted books&r and any equipment on &bGrindstone&r and get some levels back."]
 			dependencies: ["43509530CAD67EE9"]
 			id: "6055F3844F5746A1"
 			tasks: [{
@@ -3983,8 +3388,8 @@
 			]
 		}
 		{
-			x: 12.5d
-			y: 2.0d
+			x: 12.0d
+			y: 1.5d
 			shape: "diamond"
 			description: ["The workstation used by the Oceanographer villager."]
 			dependencies: ["4EAD123C4CC0E5CA"]
@@ -4018,8 +3423,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 3.0d
+			x: 13.0d
+			y: 2.5d
 			shape: "diamond"
 			description: ["Table for the Forester Profession."]
 			dependencies: ["4EAD123C4CC0E5CA"]
@@ -4053,8 +3458,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 3.0d
+			x: 12.0d
+			y: 2.5d
 			shape: "diamond"
 			description: ["The table for the Engineer profession."]
 			dependencies: ["4EAD123C4CC0E5CA"]
@@ -4088,8 +3493,8 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 2.0d
+			x: 13.0d
+			y: 1.5d
 			shape: "diamond"
 			description: ["Table for the Florist profession."]
 			dependencies: ["4EAD123C4CC0E5CA"]
@@ -4123,8 +3528,8 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: 2.5d
+			x: 12.5d
+			y: 2.0d
 			shape: "diamond"
 			description: ["Table for the Hunter Profession."]
 			dependencies: ["4EAD123C4CC0E5CA"]
@@ -4158,31 +3563,10 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 0.0d
-			dependencies: ["7CD3436C8DD7B7F9"]
-			id: "1F815B88793EC6F1"
-			tasks: [{
-				id: "2C54A09575EF0DF0"
-				type: "questsadditions:break"
-				block: "minecraft:sand"
-				value: 640L
-				checkItem: false
-			}]
-			rewards: [{
-				id: "0F3A5F9B2CCD86C7"
-				type: "choice"
-				table_id: 768393147870328736L
-			}]
-		}
-		{
-			x: 11.0d
-			y: 2.0d
+			x: 2.5d
+			y: -5.5d
 			subtitle: "Enchanted Medkit."
-			description: [
-				"Enchanted Medkit."
-				"{image:roughtweaks:textures/item/medkit_enchanted.png width:100 height:100 align:1}"
-			]
+			description: ["Enchanted Medkit."]
 			dependencies: ["5CD3C0B70F668A36"]
 			id: "0D2C405AA42C1CF9"
 			tasks: [{
@@ -4201,23 +3585,30 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "62B0BFA5F94AF431"
-				type: "item"
-				item: {
-					id: "aquaculture:treasure_chest"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			rewards: [
+				{
+					id: "62B0BFA5F94AF431"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
+					count: 3
 				}
-				count: 3
-			}]
+				{
+					id: "5CBB75A0608A42FE"
+					type: "xp"
+					xp: 180
+				}
+			]
 		}
 		{
-			x: 2.5d
+			x: 4.5d
 			y: 3.0d
 			description: ["Better watering can with a larger area of effect."]
 			dependencies: ["568C31B3FDBED711"]
@@ -4273,11 +3664,15 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: 3.5d
+			x: 8.0d
+			y: 1.0d
 			subtitle: "Featherless arrows"
-			description: ["Weaker than normal arrows, but very cheap to craft."]
-			dependencies: ["7B627325BF285247"]
+			description: ["A cheaper arrow that can be crafted entirely from wood byproducts. Flies further than standard arrows."]
+			dependencies: [
+				"7B627325BF285247"
+				"01F975837F68C5EC"
+			]
+			dependency_requirement: "one_completed"
 			id: "3957DD0D691D5277"
 			tasks: [{
 				id: "538F9975B8F5BBB5"
@@ -4307,10 +3702,10 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 6.0d
-			description: ["A refined alloy created by crafting together Emeralds and Tin, and also rarely found in loot chests replacing normal emeralds (except village chests)"]
-			dependencies: ["544027B606EEA00D"]
+			x: 12.5d
+			y: 0.5d
+			description: ["A refined alloy created by crafting together Emeralds and Tin."]
+			dependencies: ["4EAD123C4CC0E5CA"]
 			id: "4424404688C4DA49"
 			tasks: [
 				{
@@ -4391,11 +3786,13 @@
 				}
 			}
 			x: 19.5d
-			y: -4.5d
+			y: 3.0d
 			description: [
-				"There is now a new system for enchanting that uses three stats, instead of the original single stat system."
+				"There is now a new system for enchanting that divides enchanting into 3 stats called &aEterna&r, &cQuanta&r and &dArcana&r."
 				""
-				"To support the new enchantment stat system, Apotheosis adds 11 new bookshelves, each with their own unique enchanting stat combinations.  Shown here are the Endshelves, Seashelves, Hellshelves, the Beeshelf and the Melonshelf.  Combinations of these shelves can allow for any stat values you could dream of, however, reaching significantly high Eterna levels requires Endshelves."
+				"Apotheosis adds 11 new stronger bookshelves that can modify these stats in unique ways."
+				""
+				"Many non-bookshelf items can be used in enchanting too, which can be checked by searching \"Eterna\", \"Quanta\", or \"Arcana\" in the JEI menu."
 			]
 			dependencies: ["43509530CAD67EE9"]
 			id: "6FCA404FDB2D82CC"
@@ -4411,46 +3808,41 @@
 			}]
 		}
 		{
-			title: "Eterna"
+			title: "&aEterna"
+			icon: "buzzier_bees:lime_candle"
+			disable_toast: true
 			x: 20.5d
-			y: -4.5d
+			y: 3.0d
+			subtitle: "The enchanting you are familiar with!"
 			description: [
 				"Eterna is the base power of your enchantments. It is what determines how strong your enchantments will be and its level cost."
 				""
-				"Most bookshelves provide eterna, up to a maximum."
+				"Most &abookshelves&r provide eterna, up to a maximum."
 				""
 				"The vanilla bookshelf only can have up to 15 Eterna so you will need stronger bookshelves in order to get stronger enchantments."
 			]
 			dependencies: ["6FCA404FDB2D82CC"]
 			id: "0A7911EB233F4FD6"
 			tasks: [{
-				id: "15DC3E6F6598D84C"
+				id: "03377CE893A534B8"
 				type: "checkmark"
 				title: "Eterna"
-				icon: {
-					id: "buzzier_bees:lime_candle"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
 			}]
 		}
 		{
+			title: "&cQuanta"
+			disable_toast: true
 			x: 21.5d
-			y: -4.5d
+			y: 3.0d
+			subtitle: "Gambling time!"
 			description: [
 				"Quanta adds some randomness to your enchanting power."
 				""
 				"When enchanting it will either increase or decrease the base power by its amount."
 				""
-				"Most mob heads provite quanta, up to a maximum."
+				"Most &amob heads&r provide quanta. Just place them where you would normally put a bookshelf to gain quanta."
 				""
 				"By default the enchanting table has 15 quanta which means the enchanting power can be anywhere from -15 to +15 more powerful."
-				""
-				"Rectification can be used to reduce the negative effects of quanta. Glowstone, Amethyst Blocks, and Rectification Shelves can provide rectification."
 			]
 			dependencies: ["0A7911EB233F4FD6"]
 			id: "09F74D0C27C859A1"
@@ -4459,7 +3851,7 @@
 				type: "checkmark"
 				title: "Quanta"
 				icon: {
-					id: "buzzier_bees:orange_candle"
+					id: "buzzier_bees:red_candle"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
@@ -4470,16 +3862,18 @@
 			}]
 		}
 		{
-			title: "Arcana"
+			title: "&dArcana"
 			icon: "buzzier_bees:purple_candle"
+			disable_toast: true
 			x: 22.5d
-			y: -4.5d
+			y: 3.0d
+			subtitle: "The rarer the better"
 			description: [
 				"Arcana increases the chance of finding rarer, more valuable enchantments."
 				""
-				"At 25% and 75% Arcana, you will gain an extra enchantment when enchanting items."
+				"At &525%&r and &575%&r Arcana, you will gain an extra enchantment when enchanting items."
 				""
-				"Jack-o-lanterns are an easy way of increasing your arcana."
+				"&aJack-o-lanterns&r are an easy way of increasing your arcana."
 			]
 			dependencies: ["09F74D0C27C859A1"]
 			id: "0054E85C9D29551B"
@@ -4499,61 +3893,23 @@
 			}]
 		}
 		{
-			icon: "betterportals:portal_fluid_bucket"
-			x: 22.0d
-			y: -1.0d
-			description: [
-				"The classic obsidian square nether portals won't work here."
-				""
-				"Instead, Nether portals now come in the form of Dimensional Rifts, which you'll find scattered deep underground. You'll have to find one of these Rifts in order to get to the Nether - but be careful, because it's now a one-way trip!"
-				""
-				"To get back from the Nether, you'll have to search for a Monolith. These are new, semi-rare structures that can be easily spotted from far away thanks to the beams they shoot into the sky."
-				""
-				"The block at the center of each Monolith that shoots this beam is called a Reclaimer, and it's the key to returning to the Overworld. However, the Reclaimer won't do much without a little power. In order to power it, you'll have to place a gold block on each of its four sides - something that shouldn't be too difficult to pull off in the Nether. "
-				""
-				"Once powered, the Reclaimer has the ability to lift you back into the Overworld."
-				"================================="
-				" You can bucket the Dimensional Plasma from a Dimensional Rift to bring it closer to your base, and you can mine the Reclaimer from a Monolith and place it right by where your Plasma teleports you to in the Nether."
-				""
-				"So, it's pretty close to a two-way portal, the only real difference being you'll have to find a Dimensional Rift and a Monolith first."
-			]
-			dependencies: ["1C7D1D2C57D866A2"]
-			id: "25045A0059F4E280"
-			tasks: [{
-				id: "7C18E741D1CA3145"
-				type: "checkmark"
-				title: "New nether portal mechanics"
-			}]
-			rewards: [{
-				id: "079877221EB51759"
-				type: "item"
-				item: {
-					id: "minecraft:golden_carrot"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
 			icon: "enigmaticlegacy:enchantment_transposer"
 			x: 16.5d
-			y: -2.5d
+			y: 3.0d
 			description: [
 				"There are multiple methods to perform disenchanting."
 				""
-				"Cobwebs can be used in an anvil to remove non-curse enchantments."
+				"&aCobwebs&r remove all non-curse enchantments."
 				""
-				"Prismatic Cobwebs can be used in an anvil to remove curse enchantments."
+				"&aPrismatic Cobwebs&r remove all curse enchantments, at a hefty xp price."
 				""
-				"Book of Disenchantment can be used with a Grave Soul to strip multiple enchantments from items (not books), into individual books. Knowledge of Death perks can increase the amount extracted."
+				"&aTome of Scrapping&r is the only method that destroys the item, and it only takes some enchantments. However it is the cheapest option."
 				""
-				"Tome of Hungering Knowledge crafts together with an enchanted item to transfer all enchantments to one book."
+				"&6To use the Cobwebs, Prismatic Cobwebs or the Tome of Scrapping, just combine it with the enchanted item in an anvil."
 				""
-				"Tome of Scrapping is the only method that destroys the item, and it only takes some enchantments."
+				"&aBook of Disenchantment&r can be used with a Grave Soul to strip multiple enchantments from items (not books), into individual books. Knowledge of Death perks can increase the amount extracted."
+				""
+				"&aTome of Hungering Knowledge&r &ecrafts&r together with an enchanted item to transfer all enchantments to one book. This is the most powerful but most expensive option."
 			]
 			dependencies: ["43509530CAD67EE9"]
 			id: "4FFE28F3DB5EC162"
@@ -4565,21 +3921,6 @@
 			rewards: [{
 				id: "48EE2F06FDD8213D"
 				type: "item"
-				icon: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 5s
-							id: "minecraft:protection"
-						}]
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
 				item: {
 					id: "minecraft:book"
 					Count: 1b
@@ -4603,24 +3944,25 @@
 					}]
 				}
 			}
-			x: 15.0d
-			y: -2.5d
+			disable_toast: true
+			x: 14.5d
+			y: 1.75d
 			subtitle: "Mending isn't the only way; alternative enchantments to repair your gear"
 			description: [
 				"While you may already know of the vanilla repair methods; crafting, anvil repairing and mending, this pack adds many new enchantments and items to restore durability on your items."
 				""
-				"Reinforced and Ecological slowly restore durability over time."
+				"&6Reinforced&r and &6Ecological &rslowly restore durability over time."
 				""
-				"Warrior's Grace is a powerful enchantment that repairs your weapon by defeating mobs."
+				"&6Warrior's Grace&r is a powerful enchantment that repairs your weapon by defeating mobs."
 				""
-				"Preservation and Second Life fully repair your tool when its about to break, at the cost of losing a level of this enchantment."
+				"&6Preservation&r and &6Second Life&r fully repair your tool when its about to break, at the cost of losing a level of this enchantment."
 				""
-				"Mending itself as a few variants too, like Ender Mending and the cursed Life Mending enchantments."
+				"Mending itself has a few variants too, like &6Ender Mending&r and the cursed &6Life Mending&r enchantments."
 				""
 				""
-				"There are also a few items that can repair your gear too, like Mending Mixture and the Book of Repairing. Give them a try!"
+				"There are also a few items that can repair your gear too, like &6Mending Mixture&r and the &6Book of Repairing&r. Give them a try!"
 				""
-				"(The book of repairing needs a decorative grave, see the Essence of Undeath quest found in the bottom left of this chapter)"
+				"(The book of repairing needs a decorative grave, see the &3Decorative Grave&r quest found below)"
 			]
 			dependencies: ["2AA12D542527B597"]
 			id: "1C7CB1E29AADFB98"
@@ -4660,7 +4002,7 @@
 		}
 		{
 			title: "Foraging"
-			x: 2.5d
+			x: 3.0d
 			y: 0.5d
 			description: [
 				"The berry bushes from Simple Farming are one of the most common sources of food you will find when starting your world."
@@ -4732,13 +4074,13 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 3.0d
 			y: 1.5d
 			shape: "gear"
 			description: [
 				"With a bowl and 3 of any kind of fruit you can make one of the simplest dishes in Simple Farming."
 				""
-				"Head over to the Culinary Expedition chapter to find more recipes"
+				"Head over to the \"&3Culinary Expedition&r\" chapter to find more recipes"
 			]
 			dependencies: ["38D9CB4BCD7CB8CB"]
 			id: "2A7975C3556EB5A4"
@@ -4759,12 +4101,1036 @@
 				{
 					id: "57D52498D06DA9BB"
 					type: "xp"
-					xp: 5
+					xp: 10
 				}
 				{
 					id: "21C79B204E9E3FC7"
 					type: "ftbmoney:money"
 					ftb_money: 5L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			subtitle: "Not the most comfortable armor, but it'll keep me safe"
+			description: [
+				"Low Requirements to wear, and stronger than leather armor."
+				""
+				"&6You only need to collect at least 2 to complete this quest."
+			]
+			dependencies: ["02ED7F720C5EBABD"]
+			min_required_tasks: 2
+			id: "190BBBFBABA835C4"
+			tasks: [
+				{
+					id: "691827D6EDB7AC8B"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4F27CCA8F26C5334"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "79B697B7D9EBF2F7"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "25FEE925D101D408"
+					type: "item"
+					item: {
+						id: "pickletweaks:flint_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "16CF093EEA766D37"
+					type: "choice"
+					table_id: 7685042081442074286L
+				}
+				{
+					id: "51085D0BFAEBD023"
+					type: "ftbmoney:money"
+					ftb_money: 6L
+				}
+			]
+		}
+		{
+			title: "Stop the Bleeding!"
+			x: 3.0d
+			y: -3.5d
+			description: [
+				"A &abandage&r is a simple way to heal up and &eremove the bleeding&r effect from yourself."
+				""
+				"Especially useful in &4hardcore&r mode where your health natually regenerates even slower."
+				""
+				"Of course it won't prevent you from getting bleeding, but the next quest might help with that..."
+			]
+			dependencies: ["441C81E09E31EB1C"]
+			id: "1864D71ABDC07863"
+			tasks: [{
+				id: "1CBE4EA6C82000AA"
+				type: "item"
+				item: {
+					id: "roughtweaks:bandage"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "726BBA4EDE4AEDC7"
+				type: "item"
+				item: {
+					id: "aquaculture:box"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Quick Healing"
+			x: 2.5d
+			y: -2.5d
+			description: [
+				"The healing salve is a very fast healing item, useful when healing from food is too slow."
+				""
+				"Crafting healing items is a source of &aendurance xp&r during the early game."
+				""
+				"&eDon't worry about wasting it&r, it is cheap to craft,"
+				"only needing a &abowl&r and &aany 2 flowers&r."
+				""
+				"&6Tip: Hold &3Shift&6 on a Rough Tweaks item in an inventory to see its healing stats and uses."
+			]
+			dependencies: ["18FF6DA5335C0711"]
+			id: "441C81E09E31EB1C"
+			tasks: [{
+				id: "1BDD47376228AB38"
+				type: "item"
+				item: {
+					id: "roughtweaks:salve"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "56095019BE416D1C"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "Gold"
+			x: 11.5d
+			y: 0.0d
+			description: [
+				"Gold has the highest pmmo stat boosts of all equipment."
+				""
+				"It can also upgrade an iron backpack even further to a &agold backpack&r."
+			]
+			dependencies: ["59F003B96FBE2813"]
+			id: "02D6F16022BCEDE2"
+			tasks: [{
+				id: "1B166A760DA1CDA3"
+				type: "item"
+				item: {
+					id: "minecraft:gold_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6C18F3495BFD85F0"
+					type: "ftbmoney:money"
+					ftb_money: 3L
+				}
+				{
+					id: "1460124A1754D845"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "60BF2CF8E2F7C586"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&eRectification"
+			icon: "buzzier_bees:yellow_candle"
+			disable_toast: true
+			x: 21.5d
+			y: 4.0d
+			subtitle: "Less risky gambling"
+			description: [
+				"Rectification can be used to reduce the negative effects of quanta. &aGlowstone&r, &aAmethyst Blocks&r, and &aRectification Shelves&r can provide rectification."
+				""
+				"Normally 15 Quanta will make the enchanting table gain a random power from -15 to +15."
+				""
+				"However with 15 Rectification, the Quanta can only be benefitial, from +0 to +15."
+				""
+				"Negative Rectification on the other hand will make the negative effects of Quanta more frequent."
+			]
+			dependencies: ["09F74D0C27C859A1"]
+			id: "3E766F33DFDA9EB0"
+			tasks: [{
+				id: "0D74ADCB188AC4B7"
+				type: "checkmark"
+				title: "Rectification"
+			}]
+		}
+		{
+			title: "&3Enchanting Clues"
+			icon: "buzzier_bees:cyan_candle"
+			disable_toast: true
+			x: 23.5d
+			y: 3.0d
+			subtitle: "No more guessing"
+			description: [
+				"Normally you can only see one of the enchantments you are going to get from the enchanting table."
+				""
+				"Enchanting Clues lets you see more or less enchantments before picking an option."
+				""
+				"&aShelf of Sight&r, &aShelf of Masterful Sight&r, and the &aQuesting Ram Trophy&r from Twilight forest will let you see more than 1 enchantment."
+				""
+				"However the &cBlazing Hellshelf&r will reduce the enchanting clues by 1, meaning you will not be able to see the enchantments before picking an option."
+			]
+			dependencies: ["0054E85C9D29551B"]
+			id: "1F58267CEED0635B"
+			tasks: [{
+				id: "483B8653446C334E"
+				type: "checkmark"
+				title: "Enchanting Clues"
+			}]
+		}
+		{
+			title: "Building Tools"
+			x: 6.5d
+			y: 2.0d
+			shape: "gear"
+			description: [
+				"There are many tools that can help improve building."
+				""
+				"The wands can be used to place multiple of the same type of block at once, provided you have the resources."
+				""
+				"Head to the \"&3Mini Contraptions&r\" quest chapter for more quality of life mechanisms."
+			]
+			dependencies: ["01ECE22274DDE487"]
+			id: "391774315F0BD348"
+			tasks: [{
+				id: "11E0DD546D1CB172"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4BA3BACD712CA1B4"
+					type: "item"
+					item: {
+						id: "minecraft:torch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "2A3D87657E471158"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			title: "Selling Dungeon Equipment"
+			icon: {
+				id: "dungeons_gear:reinforced_mail_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 11.0d
+			y: 4.0d
+			description: [
+				"&bSelling &ris a mechanic added by &6Dungeons Gear&r that allows you to sell equipments from that mod into emeralds."
+				""
+				"To sell an item, sneak and right click the villager with the item you want to sell in hand."
+				"&o&l&7This is different from trading, and only items from the dungeons gear mod can be sold."
+				""
+				"Melee Weapons can be sold to the &2Weaponsmith,&r"
+				""
+				"Metal Armor can be sold to the &2Armorer,&r"
+				""
+				"Non-Metal Armor can be sold to the &2Leatherworker,&r"
+				""
+				"Bows and Crossbows can be sold to the &2Fletcher,&r"
+				""
+				"Artifacts can be sold to the &9Wandering Trader.&r"
+			]
+			dependencies: ["4355236339BC275F"]
+			id: "2E3163ED5E9D761B"
+			tasks: [{
+				id: "2A4C1CB3F16B3E5F"
+				type: "item"
+				item: {
+					id: "minecraft:emerald"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 12L
+			}]
+			rewards: [{
+				id: "0CE5368AF1224FAA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			title: "Your first bossfight!"
+			x: 11.0d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "A jaw-dropping experience"
+			description: [
+				"Craft this item to summon swampjaw."
+				""
+				"Remember to check the \"&3Meet Your Fight!&r\" Chapter to see what swampjaw does, what it drops, and to find more craftable bosses."
+			]
+			dependencies: ["12F259CB162FE047"]
+			id: "13CDFCB6515698EB"
+			tasks: [{
+				id: "20D1461ADDA2D2C9"
+				type: "item"
+				item: {
+					id: "meetyourfight:fossil_bait"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "084D9A00AAD38EFC"
+				type: "item"
+				item: {
+					id: "minecraft:arrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			title: "Getting Stronger"
+			x: 17.5d
+			y: -2.0d
+			subtitle: "Slow but powerful"
+			description: [
+				"Lead Spartan Weapons deal even more damage than Diamond, but are heavier giving you a -25% attack speed penalty."
+				""
+				"Dps wise they are better than iron but worse than diamond weapons."
+				""
+				"Great for hit and run fights."
+			]
+			dependencies: ["1D6D6CB93ECEF297"]
+			id: "6D593D7FE9BEB098"
+			tasks: [{
+				id: "22667A57DFD495DA"
+				type: "item"
+				title: "Any #spartanweaponry:lead_weapons"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "spartanweaponry:lead_weapons"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0100A5BE61C0A821"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "318C03A712E37CF6"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			title: "Chicken Shearing"
+			x: 7.5d
+			y: -2.0d
+			description: [
+				"Did you know that you can get &afeathers&r from &achickens without killing them&r?"
+				""
+				"With your trusty &ashears&r you can pluck a feather off of them &akeeping the chicken alive&r!"
+				""
+				"This has a &c5 minute cooldown&r, shared with chicken breeding."
+			]
+			dependencies: ["0D53B0136F089B1F"]
+			id: "6D18D84018CE56C4"
+			tasks: [{
+				id: "2F54F05B57E919D2"
+				type: "item"
+				item: {
+					id: "minecraft:feather"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4800E2B097F9121A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "67498A017BC31FC7"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+			]
+		}
+		{
+			title: "Stoneling"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "quark:stoneling"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 21.0d
+			y: -2.5d
+			subtitle: "Pet rocks!"
+			description: [
+				"&bStonelings&r are shy creatures found in large caves."
+				""
+				"When slain they will drop the item they are carrying, and a &aHeart of Diamond&r, which can be used on any kind of natural stone block to summon your own tamed Stoneling to carry items,"
+				"or crafted into the &aPickarang&r, a way to mine and collect blocks from a far distance."
+				""
+				"However they are &cimmune to arrows&r and will try to run away but can be tempted by holding a &adiamond&r in either hand."
+			]
+			dependencies: ["446936F80D06B8A4"]
+			id: "1F2F03A02F4CEE4E"
+			tasks: [{
+				id: "6764B5E6F3B1EB6A"
+				type: "observation"
+				title: "Observe a Stoneling"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "quark:stoneling"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "quark:stoneling"
+			}]
+			rewards: [
+				{
+					id: "5E3CA0C4DF3171BA"
+					type: "item"
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0B2A7D42BD41423D"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 3.0d
+			description: [
+				"Two very handy books for managing your equipment."
+				""
+				"Check the 3 quests linked to this to figure out how to use them to their fullest potential!"
+			]
+			dependencies: [
+				"2D09120BC5B9A53D"
+				"4FFE28F3DB5EC162"
+				"1C7CB1E29AADFB98"
+			]
+			dependency_requirement: "one_completed"
+			size: 1.25d
+			id: "06C4FA2045CE3263"
+			tasks: [
+				{
+					id: "6017B2459A62C972"
+					type: "item"
+					item: {
+						id: "tombstone:book_of_disenchantment"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0157BDB275C06B57"
+					type: "item"
+					item: {
+						id: "tombstone:book_of_repairing"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "18699C87BBEB57B3"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			title: "One more fight, please!"
+			x: 22.0d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "Fight Dame Fortuna!"
+			description: [
+				"Still don't think you'll survive the nether endevour?"
+				""
+				"How about another fight to prove your might?"
+				""
+				"If you can take on this boss, and claim the drops"
+				""
+				"I think you'll be alright"
+				""
+				"&6You can obtain netherrack from the Dimensional Rifts. Netherrack, along with the Devil's Ante itself, can also be found rarely in the bottom floors of the dungeoncrawl dungeons."
+				""
+				"(Once again, see the \"&3Meet your fight&r\" chapter for boss and drop details)"
+			]
+			dependencies: [
+				"1C7D1D2C57D866A2"
+				"446936F80D06B8A4"
+			]
+			dependency_requirement: "one_completed"
+			id: "2347DBB8D1ED46A5"
+			tasks: [{
+				id: "63B729B7B4CDDC3B"
+				type: "item"
+				item: {
+					id: "meetyourfight:devils_ante"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "03CE76E015E6C65B"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "1D71F11C8DD8312E"
+					type: "item"
+					item: {
+						id: "roughtweaks:bandage"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Dimension Traveling"
+			x: 22.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Explore 3 new dimensions!"
+			description: [
+				"With a diamond you now have access to the &3Twilight Forest&r, &3The Undergarden&r, and &3Atum&r!"
+				""
+				"Twilight Forest is the easiest dimension while Atum is generally regarded as the hardest of the 3."
+				""
+				"Each dimension has their own unique quest chapter, these are"
+				"&3Twilight Zone&r, &3The Garden Under&r, and &3Into the Sands&r."
+			]
+			dependencies: ["446936F80D06B8A4"]
+			id: "4C849739704A0A53"
+			tasks: [
+				{
+					id: "38F2FA4D10196E70"
+					type: "item"
+					item: {
+						id: "minecraft:diamond"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "14499F5DD3A17452"
+					type: "item"
+					item: {
+						id: "undergarden:catalyst"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5FA314E512A64F71"
+					type: "item"
+					item: {
+						id: "atum:scarab"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7DE333B972209EE0"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "2D5649B39F95E57E"
+					type: "pmmo:xpreward"
+					title: "50 Wayfaring XP"
+					icon: {
+						id: "kubejs:map"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "invisible"
+					skill: "wayfaring"
+					amount: 50.0d
+					ignoreBonuses: true
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			subtitle: "Stronger Leads"
+			description: [
+				"A simple way to bring mobs with you."
+				""
+				"A chain line can attach to any mob including hostile mobs and the chain is harder to break by going too far."
+				""
+				"Tied to wall blocks instead of fence posts."
+			]
+			dependencies: ["62D2AC9343C06D18"]
+			id: "46BDF487D6E0C729"
+			tasks: [{
+				id: "61B89A0DF4FB86D1"
+				type: "item"
+				item: {
+					id: "iceandfire:chain"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6F1623A3104B6DE6"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "1602892E19CBD275"
+					type: "xp"
+					xp: 20
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			description: [
+				"The Plaster specializes in healing efficiency."
+				""
+				"While it doesn't cure bleeding like the bandage, it heals for slightly more in a shorter amount of time."
+				""
+				"Each use heals 3/4th of a heart instead of half a heart like the &asalve&r and &abandage&r."
+			]
+			dependencies: ["441C81E09E31EB1C"]
+			id: "46BB1401A4065026"
+			tasks: [{
+				id: "1F5E027FCF313909"
+				type: "item"
+				item: {
+					id: "roughtweaks:plaster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "10B4FBBB3DB936B1"
+				type: "item"
+				item: {
+					id: "aquaculture:box"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Cheaper Rails"
+			x: 11.0d
+			y: -2.0d
+			subtitle: "Build Bigger Railways!"
+			description: [
+				"Rails are much, much cheaper, requiring only 6 tin or iron &anuggets&r to craft and the recipe makes an &eentire stack&r."
+				""
+				"&aPowered rails&r can also be crafted with gold or copper &anuggets&r and craft &e16&r."
+				""
+				"Builder's Crafts and Addition also adds a &acrossrail&r for 4-way intersections."
+			]
+			dependencies: ["59F003B96FBE2813"]
+			id: "250D9D7A86F54711"
+			tasks: [
+				{
+					id: "49825460F596CF41"
+					type: "item"
+					item: {
+						id: "minecraft:rail"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "04294F49518A8AD6"
+					type: "item"
+					item: {
+						id: "minecraft:powered_rail"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "307891010C5494E3"
+					type: "item"
+					item: {
+						id: "minecraft:detector_rail"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3CB7F65A3B81B78E"
+					type: "item"
+					item: {
+						id: "minecraft:activator_rail"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2F9983E7A17EE7E2"
+					type: "item"
+					item: {
+						id: "buildersaddition:crossrail"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "678B5DF04DA1021B"
+					type: "item"
+					item: {
+						id: "minecraft:minecart"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6F2E9F9C27606666"
+					type: "ftbmoney:money"
+					ftb_money: 35L
+				}
+				{
+					id: "23FFF5D46D80F366"
+					type: "item"
+					item: {
+						id: "randomite:randomite_ore"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Capsules"
+			x: 4.5d
+			y: -3.5d
+			subtitle: "Carry your base wherever you go!"
+			description: [
+				"&6Capsules can be used to carry important groups of blocks with you, like chests and furnaces, and eventually even houses!"
+				""
+				"The capsule shown above in the &9Tasks&r is a basic 3x3 capsule crafted with tin."
+				"However &airon ingots&r or &rcopper ingots&r may also be used in place of tin to craft it."
+				""
+				"More valuable materials will craft bigger capsules, and much later on can be expanded further with popped chorus fruits."
+				""
+				"To use a capsule, you will need a &acapture base&r facing towards the area you want to carry in the capsule. It may be useful to craft a &awrench&r or utilize quark's rotation lock to orient the capture base in the needed direction."
+				""
+				"Then holding the capsule in hand, an outline will appear in front of the capture base."
+				"Using &3(Right Click)&r the capsule will throw it and capture the blocks in the outlined area."
+				""
+				"To deploy the capsule, just use it in the desired location. You do not need the capture base to pick up the blocks again."
+				""
+				"The 1x1 capsule does not require a capture base, it is handy for picking up singular chests you may find in the world."
+				""
+				""
+				"While Capsules can pick up many types of blocks, &cCapsules cannot pick up monster spawners or unbreakable blocks like bedrock."
+			]
+			dependencies: ["221A3D2E31B74520"]
+			id: "112E7D169DE57EF5"
+			tasks: [
+				{
+					id: "623156F17C2D1449"
+					type: "item"
+					item: {
+						id: "capsule:capsulemarker"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "697CA9DD61239B74"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 0
+							color: 12244701
+							size: 3
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1D38D5561F69E16A"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "78DF894A14D2AEE3"
+					type: "ftbmoney:money"
+					ftb_money: 50L
 				}
 			]
 		}

@@ -15,8 +15,13 @@
 						tag: {
 							Damage: 0
 						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
 					}
-					buy: 5L
+					buy: 10L
 				}
 				{
 					item: {
@@ -25,20 +30,28 @@
 						tag: {
 							Damage: 0
 						}
-					}
-					buy: 10L
-				}
-				{
-					item: {
-						id: "majruszs_difficulty:bandage"
-						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
 							}
 						}
 					}
-					buy: 20L
+					buy: 3L
+				}
+				{
+					item: {
+						id: "roughtweaks:bandage"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 15L
 				}
 				{
 					item: {
@@ -209,6 +222,62 @@
 					}
 					buy: 50L
 				}
+				{
+					item: {
+						id: "roughtweaks:medkit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 100L
+				}
+				{
+					item: {
+						id: "quark:pipe"
+						Count: 1b
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"Seems to work just fine without oddities...?\",\"color\":\"gray\",\"italic\":false}"]
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 5L
+				}
+				{
+					item: {
+						id: "aquaculture:tin_can"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 2L
+				}
+				{
+					item: {
+						id: "aquaculture:goldfish"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 7L
+				}
 			]
 		}
 		{
@@ -227,16 +296,32 @@
 			}
 			entries: [
 				{
-					item: "aquaculture:lockbox"
-					buy: 50L
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 30L
 				}
 				{
 					item: "aquaculture:box"
 					buy: 10L
 				}
 				{
-					item: "aquaculture:treasure_chest"
-					buy: 100L
+					item: {
+						id: "aquaculture:treasure_chest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 75L
 				}
 				{
 					item: {
@@ -258,6 +343,22 @@
 						id: "ftbquests:lootcrate"
 						Count: 1b
 						tag: {
+							"quark:RuneAttached": 1b
+							HideFlags: 3
+							Enchantments: [{
+								lvl: 1
+								id: "apotheosis:infusion"
+							}]
+							"quark:RuneColor": {
+								id: "quark:blue_rune"
+								Count: 1b
+							}
+							display: {
+								Lore: [
+									"{\"text\":\"Has an extremely rare chance at an Unusual!\",\"color\":\"light_purple\",\"italic\":false}"
+									"{\"text\":\"(0.36% chance. Unusuals are Unbreakable Cosmetic Items that stay in your inventory on death.)\",\"color\":\"gray\"}"
+								]
+							}
 							type: "hat_crate"
 						}
 						ForgeCaps: {
@@ -289,6 +390,9 @@
 						Count: 1b
 						tag: {
 							type: "artefact_crate"
+							display: {
+								Lore: ["{\"text\":\"Contains artifacts from the Artifacts mod, not to be confused with the Dungeon's Artifacts Crate.\",\"color\":\"yellow\",\"italic\":false}"]
+							}
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -348,21 +452,6 @@
 						id: "ftbquests:lootcrate"
 						Count: 1b
 						tag: {
-							type: "weapon_crate"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					buy: 200L
-				}
-				{
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
 							type: "dungeon_s_gear_crate"
 						}
 						ForgeCaps: {
@@ -378,23 +467,11 @@
 						id: "ftbquests:lootcrate"
 						Count: 1b
 						tag: {
-							type: "armor_crate"
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					buy: 200L
-				}
-				{
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
 							CustomModelData: 1
 							type: "crate_crate"
+							display: {
+								Lore: ["{\"text\":\"Contains 3 Random Crates, which may include itself! Crateception?\",\"color\":\"yellow\",\"italic\":false}"]
+							}
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -447,7 +524,25 @@
 							}
 						}
 					}
-					buy: 200L
+					buy: 125L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "explosives_crate"
+							display: {
+								Lore: ["{\"text\":\"It's a Boombox! heh.\",\"color\":\"yellow\",\"italic\":false}"]
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 90L
 				}
 			]
 		}
@@ -574,8 +669,35 @@
 							Damage: 0
 							itemModifier: "modifiers:none"
 						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
 					}
 					buy: 500L
+				}
+				{
+					item: {
+						id: "alexsmobs:tab_icon"
+						Count: 1b
+						tag: {
+							DisplayEntityType: "quark:crab"
+							display: {
+								Lore: [
+									"{\"text\":\"Money Money Money Money...\",\"color\":\"gold\",\"italic\":false}"
+									"{\"text\":\"(This has no purpose other than to show that you're rich)\",\"color\":\"gray\",\"italic\":true}"
+								]
+								Name: "{\"text\":\"Krab\",\"color\":\"red\",\"italic\":false}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 10000L
 				}
 			]
 		}
@@ -609,12 +731,12 @@
 						tag: {
 							CustomPotionEffects: [
 								{
-									Duration: 1200
+									Duration: 2400
 									Id: 39b
 									Amplifier: 1b
 								}
 								{
-									Duration: 1200
+									Duration: 2400
 									Id: 42b
 									Amplifier: 4b
 								}
@@ -641,22 +763,22 @@
 							CustomPotionEffects: [
 								{
 									Duration: 600
-									Id: -87b
+									Id: -105
 									Amplifier: 0b
 								}
 								{
 									Duration: 600
-									Id: -110b
+									Id: -128
 									Amplifier: 0b
 								}
 								{
 									Duration: 600
-									Id: 124b
+									Id: 106
 									Amplifier: 0b
 								}
 								{
 									Duration: 200
-									Id: 108b
+									Id: 90
 									Amplifier: 0b
 								}
 							]
@@ -687,12 +809,12 @@
 								}
 								{
 									Duration: 600
-									Id: 114b
+									Id: 96
 									Amplifier: 0b
 								}
 								{
 									Duration: 600
-									Id: 94b
+									Id: 76
 									Amplifier: 0b
 								}
 								{
@@ -722,13 +844,13 @@
 						tag: {
 							CustomPotionEffects: [
 								{
-									Duration: 2400
+									Duration: 3600
 									Id: 14b
 									Amplifier: 0b
 								}
 								{
-									Duration: 2400
-									Id: 93b
+									Duration: 3600
+									Id: 75
 									Amplifier: 0b
 								}
 							]
@@ -744,7 +866,97 @@
 							}
 						}
 					}
+					buy: 65L
+				}
+				{
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [
+								{
+									Duration: 2400
+									Id: -98
+									Amplifier: 4
+								}
+								{
+									Duration: 2400
+									Id: -95
+									Amplifier: 4
+								}
+								{
+									Duration: 2400
+									Id: -100
+									Amplifier: 4
+								}
+								{
+									Duration: 2400
+									Id: 61
+									Amplifier: 0
+								}
+							]
+							CustomPotionColor: 3847130
+							Potion: "minecraft:mundane"
+							display: {
+								Lore: ["[{\"text\":\"Become untouchable! (Dodge with \",\"color\":\"yellow\",\"italic\":false},{\"keybind\":\"key.elenaidodge.dodge\"},{\"text\":\")\"}]"]
+								Name: "{\"italic\":false,\"text\":\"Super Dodge Potion\",\"color\":\"aqua\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 					buy: 85L
+				}
+				{
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [{
+								Duration: 450
+								Id: 42b
+								Amplifier: 1b
+							}]
+							Potion: "undergarden:strong_brittleness"
+							display: {
+								Lore: ["{\"text\":\"Brewed from the Undergarden, the toxic spores of the Blood Mushroom Globule open a weak spot in even the toughest of armor, if only for a short moment.\",\"color\":\"light_purple\",\"italic\":false}"]
+								Name: "{\"italic\":false,\"text\":\"Champion's Bane\",\"color\":\"red\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 150L
+				}
+				{
+					item: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							CustomPotionEffects: [{
+								Duration: 2400
+								Id: 19
+								Amplifier: 0b
+							}]
+							Potion: "upgrade_aquatic:repellence_long"
+							display: {
+								Lore: ["{\"italic\":true,\"color\":\"green\",\"text\":\"Produces a poisonous stench that makes some mobs attack each other when nearby.\"}"]
+								Name: "{\"italic\":false,\"text\":\"Toxic Fumes\",\"color\":\"dark_green\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 20L
 				}
 			]
 		}
@@ -753,6 +965,9 @@
 			icon: {
 				id: "usefulhats:lucky_hat"
 				Count: 1b
+				tag: {
+					Damage: 0
+				}
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -920,6 +1135,60 @@
 					}
 					buy: 250L
 				}
+				{
+					item: {
+						id: "spartanweaponry:greatsword_electrum"
+						Count: 1b
+						tag: {
+							RepairCost: 15
+							CustomModelData: 1
+							Enchantments: [
+								{
+									lvl: 3s
+									id: "radenchants:one_man_army"
+								}
+								{
+									lvl: 3s
+									id: "radenchants:one_with_the_blade"
+								}
+								{
+									lvl: 3s
+									id: "uniquee:pestilences_odium"
+								}
+							]
+							display: {
+								Lore: [
+									"{\"italic\":true,\"color\":\"light_purple\",\"text\":\"Become one with the blade. You need nothing else, and no one else.\"}"
+									"{\"text\":\"Not available on servers.\",\"color\":\"light_purple\"}"
+								]
+								Name: "{\"italic\":false,\"text\":\"Solo Soldier's Slasher\",\"color\":\"dark_purple\"}"
+							}
+							Affixes: {
+								"apotheosis:damage_chain": 4.0f
+							}
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [
+										{
+											lvl: 3s
+											id: "dungeons_gear:leeching"
+										}
+										{
+											lvl: 1s
+											id: "dungeons_gear:exploding"
+										}
+									]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+					buy: 600L
+					disabled_server: true
+				}
 			]
 		}
 		{
@@ -929,10 +1198,6 @@
 				{
 					item: "berry_nice:goldensweetberry"
 					buy: 20L
-				}
-				{
-					item: "brewevolution:full_dried_bread"
-					buy: 10L
 				}
 				{
 					item: "atum:quail_cooked"
@@ -945,6 +1210,18 @@
 				{
 					item: "quark:golden_frog_leg"
 					buy: 50L
+				}
+				{
+					item: {
+						id: "buzzier_bees:honey_bread"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 10L
 				}
 			]
 		}

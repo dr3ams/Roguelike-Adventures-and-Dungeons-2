@@ -6,7 +6,21 @@
 	default_autoclaim_rewards: "disabled"
 	default_quest_shape: "circle"
 	default_quest_disable_jei: false
-	emergency_items_cooldown: 300
+	emergency_items: [{
+		id: "majruszs_difficulty:recall_potion"
+		Count: 1b
+		tag: {
+			display: {
+				Lore: ["{\"text\":\"Only use when really stuck. Wait on this screen for 15 minutes to obtain.\",\"color\":\"yellow\"}"]
+			}
+		}
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}]
+	emergency_items_cooldown: 900
 	drop_loot_crates: false
 	loot_crate_no_drop: {
 		passive: 4000

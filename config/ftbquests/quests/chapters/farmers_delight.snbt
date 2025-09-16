@@ -3,7 +3,7 @@
 	group: "67B03B24E53297B4"
 	order_index: 0
 	filename: "farmers_delight"
-	title: "Farmer's Delight"
+	title: "Fishing and Foraging"
 	icon: "simplefarming:grapes"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
@@ -17,7 +17,7 @@
 				"The following quests give you some drinks to try."
 				""
 				"Specific alcohol beverages will grant unique effects when consumed. However, when consumed too much, a random negative effect will be placed on the player."
-				"Potential random negative effects: Weakness, Blindness, Wither, Mining fatigue, Hunger, Poison, Unluck"
+				"Potential random negative effects: &7Weakness&r, &0Blindness&r, &0Wither&r, &8Mining fatigue&r, &2Hunger&r, &2Poison&r, &6Bad Luck"
 			]
 			dependencies: ["731B6ECB5FED58CF"]
 			id: "00000000000001B9"
@@ -211,6 +211,7 @@
 			x: 10.5d
 			y: 7.5d
 			subtitle: "Regeneration"
+			description: [""]
 			dependencies: ["00000000000001C7"]
 			id: "00000000000001C9"
 			tasks: [{
@@ -440,6 +441,7 @@
 		{
 			x: -9.5d
 			y: -4.5d
+			subtitle: "Cannot guarantee it will actually scare crows"
 			description: ["Will prevent crops from being trampled in a 10 block radius."]
 			id: "000000000000035D"
 			tasks: [{
@@ -1289,6 +1291,7 @@
 		{
 			x: -8.5d
 			y: 1.0d
+			description: ["Also gives the Comfort effect"]
 			dependencies: ["0000000000000FC8"]
 			id: "0000000000000FE6"
 			tasks: [{
@@ -1337,38 +1340,20 @@
 			}]
 			rewards: [
 				{
-					id: "0000000000000169"
-					type: "item"
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s
-								id: "ensorcellation:furrowing"
-							}]
-						}
-					}
-				}
-				{
-					id: "000000000000016A"
-					type: "item"
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [{
-								lvl: 1s
-								id: "ensorcellation:weeding"
-							}]
-						}
-					}
-				}
-				{
 					id: "000000000000032B"
 					type: "item"
 					item: "minecraft:paper"
 					count: 3
+				}
+				{
+					id: "017C02B5E25E4F6A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "429DB13AD1CAEA13"
+					type: "ftbmoney:money"
+					ftb_money: 10L
 				}
 			]
 		}
@@ -1485,7 +1470,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -5.0d
 			y: -4.0d
 			dependencies: ["0000000000000FD0"]
 			id: "1FA146104659E072"
@@ -1518,39 +1503,6 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: -4.0d
-			dependencies: ["1FA146104659E072"]
-			id: "7D269CB37BDFB0A1"
-			tasks: [{
-				id: "5E3C38EBFA2B2106"
-				type: "item"
-				item: {
-					id: "farmersdelight:carrot_crate"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				count: 64L
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "3240C41F0846CA1E"
-					type: "item"
-					item: "kubejs:iron_coin"
-				}
-				{
-					id: "2C7DAC075364452A"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-		}
-		{
 			x: -4.0d
 			y: -2.5d
 			description: ["The skin of the innocent..... oh boy that sounds bad....."]
@@ -1569,7 +1521,7 @@
 		{
 			x: -2.5d
 			y: -2.0d
-			description: ["Man I will be able to write so much stuff on this."]
+			description: ["I will be able to write so much stuff on this."]
 			dependencies: ["000000000000072E"]
 			id: "0000000000000FCE"
 			tasks: [{
@@ -1650,39 +1602,8 @@
 		}
 		{
 			x: -2.5d
-			y: 0.0d
-			dependencies: ["22E18643E07DD4EA"]
-			id: "3DC57F999F6E5629"
-			tasks: [{
-				id: "30D0116213A45892"
-				type: "item"
-				item: {
-					id: "quark:bamboo_block"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				count: 64L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "7EBF3F3B020955CC"
-				type: "item"
-				item: {
-					id: "ftbquests:lootcrate"
-					Count: 1b
-					tag: {
-						type: "uncommon_loot_crate"
-					}
-				}
-			}]
-		}
-		{
-			x: -2.5d
-			y: 1.0d
+			y: 0.5d
+			description: ["Pre-release Rad2 quests be like \"oh you made this thing? Cool now get &o&la ridiculous amount&r more!\""]
 			dependencies: ["0000000000001154"]
 			id: "22E18643E07DD4EA"
 			tasks: [{
@@ -1794,39 +1715,6 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 3.0d
-			dependencies: ["0000000000000FDA"]
-			id: "643748DB082D7133"
-			tasks: [{
-				id: "3EA584B4BA8DD977"
-				type: "item"
-				item: {
-					id: "minecraft:melon"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				count: 64L
-				consume_items: false
-			}]
-			rewards: [
-				{
-					id: "5B3FDF4050EBAC89"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "430C45D743551205"
-					type: "item"
-					item: "kubejs:iron_coin"
-				}
-			]
-		}
-		{
 			x: -3.0d
 			y: -3.0d
 			description: ["Eggs o'plenty!"]
@@ -1852,7 +1740,6 @@
 				""
 				"Pretty much a sharp stick."
 			]
-			dependencies: ["00000000000015DB"]
 			id: "000000000000161A"
 			tasks: [{
 				id: "000000000000161B"
@@ -1878,28 +1765,6 @@
 					item: "aquaculture:box"
 				}
 			]
-		}
-		{
-			x: 7.0d
-			y: -7.5d
-			description: ["Time to get fishing!"]
-			id: "00000000000015DB"
-			tasks: [{
-				id: "00000000000015DC"
-				type: "item"
-				item: {
-					id: "minecraft:fishing_rod"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "0BA485538F5B8AF1"
-				type: "item"
-				item: "aquaculture:lockbox"
-			}]
 		}
 		{
 			x: 5.0d
@@ -2077,9 +1942,11 @@
 		}
 		{
 			title: "Gotta Catch Them All!"
-			x: 6.0d
-			y: -6.0d
-			dependencies: ["00000000000015DB"]
+			x: 9.0d
+			y: -8.5d
+			subtitle: "Gonna be the very best, like no one ever was"
+			description: ["Some fish can only be found in certain biomes, like the shroomas which can be found near mushroom islands."]
+			dependencies: ["00000000000015DD"]
 			id: "000000000000033B"
 			tasks: [
 				{
@@ -2264,12 +2131,6 @@
 					count: 64
 				}
 				{
-					id: "408945D7AF67DCD8"
-					type: "item"
-					item: "aquaculture:treasure_chest"
-					count: 5
-				}
-				{
 					id: "000000000000035F"
 					type: "item"
 					item: {
@@ -2285,13 +2146,27 @@
 					type: "item"
 					item: "aquaculture:neptunium_ingot"
 				}
+				{
+					id: "6842A19DEFEF8B88"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:fishing_treasure_bag"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
 			]
 		}
 		{
 			title: "Bait"
 			x: 9.0d
-			y: -5.0d
-			description: ["Worms are but a single bait that can be used with fishing rods. Their are also leeches and minnows that you catch by fishing."]
+			y: -5.5d
+			description: ["Worms are but a single bait that can be used with fishing rods. There are also leeches and minnows that you catch by fishing."]
 			dependencies: ["00000000000015E7"]
 			id: "00000000000015E9"
 			tasks: [{
@@ -2332,9 +2207,11 @@
 		}
 		{
 			title: "What is this junk?"
-			x: 7.5d
-			y: -6.0d
-			dependencies: ["00000000000015DB"]
+			x: 9.0d
+			y: -7.5d
+			description: ["&6Collect at least 5 of the 6 junk to complete."]
+			dependencies: ["00000000000015DD"]
+			min_required_tasks: 5
 			id: "0000000000000168"
 			tasks: [
 				{
@@ -2375,20 +2252,20 @@
 					item: "quark:pink_blossom_sapling"
 				}
 				{
-					id: "0000000000000361"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
 					id: "2F97F8F9A311A5E9"
 					type: "item"
 					item: "kubejs:iron_coin"
+				}
+				{
+					id: "4151F38253276A9B"
+					type: "xp"
+					xp: 40
 				}
 			]
 		}
 		{
 			x: 9.0d
-			y: -4.0d
+			y: -4.5d
 			description: ["Can be dyed like leather and can be used to customize your fishing rod."]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015F0"
@@ -2411,7 +2288,7 @@
 		}
 		{
 			x: 9.0d
-			y: -6.0d
+			y: -6.5d
 			description: ["The worm box works like the composter (load with vegetables or fruit) but it produces worms to use as bait."]
 			dependencies: ["00000000000015DD"]
 			id: "00000000000015E7"
@@ -2422,10 +2299,11 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -3.0d
+			x: 11.5d
+			y: -1.5d
+			subtitle: "A note for yourself"
 			description: ["Plays a note when a fish is about to bite when applied to a rod."]
-			dependencies: ["00000000000015E5"]
+			dependencies: ["00000000000015F4"]
 			id: "0000000000001600"
 			tasks: [{
 				id: "0000000000001601"
@@ -2445,10 +2323,10 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -2.0d
+			x: 9.5d
+			y: -1.5d
 			description: ["Increases the amount of time allowed to reel in a fish when applied to a rod."]
-			dependencies: ["00000000000015E5"]
+			dependencies: ["00000000000015F4"]
 			id: "00000000000015FE"
 			tasks: [{
 				id: "00000000000015FF"
@@ -2468,10 +2346,11 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -1.0d
+			x: 9.5d
+			y: -3.5d
+			subtitle: "You know what's better than one hook?"
 			description: ["Allows a chance to catch two things at once when applied to a rod."]
-			dependencies: ["00000000000015E5"]
+			dependencies: ["00000000000015F4"]
 			id: "00000000000015FC"
 			tasks: [{
 				id: "00000000000015FD"
@@ -2491,10 +2370,11 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 0.0d
+			x: 10.5d
+			y: -1.0d
+			subtitle: "When hooks fly"
 			description: ["Allows a rod to cast further when applied to a rod."]
-			dependencies: ["00000000000015E5"]
+			dependencies: ["00000000000015F4"]
 			id: "00000000000015FA"
 			tasks: [{
 				id: "00000000000015FB"
@@ -2514,10 +2394,10 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 0.0d
+			x: 12.0d
+			y: -2.5d
 			description: ["Incurs a 50% chance to not use durability when applied to a rod."]
-			dependencies: ["00000000000015E5"]
+			dependencies: ["00000000000015F4"]
 			id: "00000000000015F8"
 			tasks: [{
 				id: "00000000000015F9"
@@ -2537,10 +2417,11 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -1.0d
+			x: 13.5d
+			y: -2.5d
+			subtitle: "Totally worth it"
 			description: ["Incurs a 50% chance to not use durability when applied to a rod, as well as increase the rods luck."]
-			dependencies: ["00000000000015E5"]
+			dependencies: ["00000000000015F8"]
 			id: "0000000000001602"
 			tasks: [{
 				id: "0000000000001603"
@@ -2560,9 +2441,16 @@
 			}]
 		}
 		{
+			title: "Tackling some upgrades"
 			x: 10.5d
-			y: -3.0d
-			description: ["Is placed on the ground with a rightclick. From there, you can access it's inventory where you can apply tackle to fishing rods on the right. The box also has storage slots to hold bait and tackle. To pickup the box again simply shift rightclick it."]
+			y: -6.0d
+			description: [
+				"If I really want to improve my fishing experience, i'll want to make a tackle box."
+				""
+				"This box will allow attaching &ahooks&r to bolster the rod's ability to catch fish."
+				""
+				"The box is also a handy way to store bait, my fishing rod, and other accessories for it."
+			]
 			dependencies: ["00000000000015DD"]
 			id: "00000000000015E5"
 			tasks: [{
@@ -2577,9 +2465,13 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -3.0d
-			description: ["Incurs a 20% chance to not use durability when applied to a rod."]
+			x: 10.5d
+			y: -2.5d
+			description: [
+				"Incurs a 20% chance to not use durability when applied to a rod."
+				""
+				"Used as a base to craft all the other hooks."
+			]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015F4"
 			tasks: [{
@@ -2601,7 +2493,7 @@
 		}
 		{
 			x: 12.0d
-			y: -4.0d
+			y: -4.5d
 			description: ["Can be dyed like leather and can be used to customize your fishing rod."]
 			dependencies: ["00000000000015E5"]
 			id: "00000000000015F2"
@@ -2623,10 +2515,11 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -2.0d
+			x: 9.0d
+			y: -2.5d
+			subtitle: "The hook kind of looks like a seahorse doesn't it"
 			description: ["Increases a rods luck when applied to a rod."]
-			dependencies: ["00000000000015E5"]
+			dependencies: ["00000000000015F4"]
 			id: "00000000000015F6"
 			tasks: [{
 				id: "00000000000015F7"
@@ -2640,9 +2533,11 @@
 			}]
 		}
 		{
-			x: 13.5d
-			y: -3.0d
-			dependencies: ["00000000000015F4"]
+			x: 10.5d
+			y: -9.0d
+			subtitle: "No it does not let you ride fish"
+			description: ["Used to display caught fish."]
+			dependencies: ["00000000000015DD"]
 			id: "0000000000000157"
 			tasks: [{
 				id: "0000000000000158"
@@ -2650,15 +2545,16 @@
 				item: "aquaculture:oak_fish_mount"
 			}]
 			rewards: [{
-				id: "0000000000000363"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "38A758CBBAD5EEA4"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
-			x: 14.75d
-			y: -4.75d
+			x: 12.75d
+			y: -6.0d
 			shape: "octagon"
+			subtitle: "Seems Neptune lost the paper towels again"
 			description: ["I caught a chest..... wonder if it is anything valuable?"]
 			dependencies: ["00000000000015DD"]
 			size: 1.5d
@@ -2767,7 +2663,7 @@
 		{
 			x: 12.0d
 			y: -7.5d
-			description: ["When you are the best fisherman around."]
+			description: ["When you are the best fisher around."]
 			dependencies: ["00000000000015DD"]
 			id: "00000000000015DF"
 			tasks: [{
@@ -2781,45 +2677,82 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "336047F18F270D0B"
-				type: "item"
-				item: "aquaculture:lockbox"
-			}]
-		}
-		{
-			x: 10.5d
-			y: -7.5d
-			description: ["My own custom designed fishing rod. Can be customized with special tackle and bait."]
-			dependencies: ["00000000000015DB"]
-			id: "00000000000015DD"
-			tasks: [{
-				id: "00000000000015DE"
-				type: "item"
-				item: {
-					id: "aquaculture:iron_fishing_rod"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
-					id: "000000000000164B"
+					id: "336047F18F270D0B"
 					type: "item"
-					item: "minecraft:iron_ingot"
-					random_bonus: 2
+					item: "aquaculture:lockbox"
 				}
 				{
-					id: "000000000000164C"
-					type: "xp_levels"
-					xp_levels: 1
+					id: "63474367C544BAFE"
+					type: "xp"
+					xp: 20
 				}
+			]
+		}
+		{
+			title: "Gone Fishing"
+			x: 10.5d
+			y: -7.5d
+			description: [
+				"Time to go fishing! I could go with a classic wooden fishing pole or a reinforced iron one for some serious fishing."
+				""
+				"&6Only need to collect 1 to complete"
+			]
+			min_required_tasks: 1
+			id: "00000000000015DD"
+			tasks: [
+				{
+					id: "00000000000015DE"
+					type: "item"
+					item: {
+						id: "minecraft:fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3A076BC0015D9AE6"
+					type: "item"
+					item: {
+						id: "aquaculture:iron_fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
 				{
 					id: "00C983DF9427E5C6"
 					type: "item"
-					item: "aquaculture:box"
+					item: {
+						id: "aquaculture:lockbox"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0278C58286EDF0E3"
+					type: "xp"
+					xp: 10
 				}
 			]
 		}
@@ -2849,6 +2782,7 @@
 			x: 9.0d
 			y: 7.0d
 			subtitle: "Speed"
+			description: [""]
 			dependencies: ["731B6ECB5FED58CF"]
 			id: "728BBD0E207A04D4"
 			tasks: [{
@@ -2873,6 +2807,7 @@
 		{
 			x: 0.0d
 			y: -4.5d
+			description: [""]
 			id: "4DBC257325271F05"
 			tasks: [{
 				id: "5B0FFDC13A51CFB4"
@@ -3272,9 +3207,9 @@
 			subtitle: "Knives are scavenging tools: they allow you to obtain a few more resources from both fauna and flora."
 			description: [
 				""
-				"- Any animals you slay using a Knife are guaranteed to drop secondary items, such as Leather and Feathers;"
+				"- Any animals you slay using a Knife are &eguaranteed&r to drop secondary items, such as Leather and Feathers;"
 				""
-				"- Grassy plants (grass, wheat, rice etc) cut with a Knife will occasionally yield Straw, a firm and useful fiber;"
+				"- Grassy plants (grass, wheat, rice etc) cut with a Knife will occasionally yield &aStraw&r, a firm and useful fiber;"
 				""
 				"- They act as a modest melee weapon: swings faster than a sword for lesser damage;"
 				""
@@ -3598,6 +3533,7 @@
 		{
 			x: -9.5d
 			y: 2.5d
+			subtitle: "Nice! I can plant on my roof now!"
 			dependencies: ["1ECE1542EEE8BAC9"]
 			id: "3F871E9C0C55331C"
 			tasks: [{

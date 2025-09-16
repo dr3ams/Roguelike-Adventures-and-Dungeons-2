@@ -5,6 +5,7 @@
 	filename: "dark_magoc"
 	title: "Dark Magic"
 	icon: "eidolon:unholy_symbol"
+	subtitle: ["The forgotten mod"]
 	default_quest_shape: "pentagon"
 	default_hide_dependency_lines: false
 	images: [{
@@ -377,7 +378,15 @@
 		{
 			x: 8.0d
 			y: 5.0d
+			description: [
+				"Strong source of magic and shadow xp gain."
+				""
+				"What it doesn't tell you is the hat also increases your non-ars magic damage when worn."
+				""
+				"&6You only need to collect 2 to complete this quest."
+			]
 			dependencies: ["3E9BA331A9835279"]
+			min_required_tasks: 2
 			id: "149F6FD66D67C8F2"
 			tasks: [
 				{
@@ -418,7 +427,7 @@
 				{
 					id: "52E7DEA2B133682A"
 					type: "ftbmoney:money"
-					ftb_money: 30L
+					ftb_money: 70L
 				}
 				{
 					id: "3754AC93CBE7E917"
@@ -430,6 +439,11 @@
 							type: "potions"
 						}
 					}
+				}
+				{
+					id: "706E6AC07252ABAF"
+					type: "choice"
+					table_id: 8545390299491237994L
 				}
 			]
 		}
@@ -500,21 +514,29 @@
 				type: "item"
 				item: "eidolon:wicked_weave"
 			}]
-			rewards: [{
-				id: "63DD7787C6970790"
-				type: "item"
-				item: {
-					id: "ftbquests:lootcrate"
-					Count: 1b
-					tag: {
-						type: "materials_magic"
+			rewards: [
+				{
+					id: "63DD7787C6970790"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "materials_magic"
+						}
 					}
 				}
-			}]
+				{
+					id: "3A3B28ABCA603691"
+					type: "xp"
+					xp: 80
+				}
+			]
 		}
 		{
 			x: 8.5d
 			y: 4.0d
+			description: ["Has a great reach distance!"]
 			dependencies: ["3E9BA331A9835279"]
 			id: "27769955ED81E09C"
 			tasks: [{
@@ -525,12 +547,13 @@
 			rewards: [{
 				id: "6FDB1A9CFDA8F2C6"
 				type: "ftbmoney:money"
-				ftb_money: 20L
+				ftb_money: 50L
 			}]
 		}
 		{
 			x: 4.0d
 			y: 2.0d
+			description: ["A simple belt that provides some armor toughness."]
 			dependencies: ["718979859BEC4605"]
 			id: "142904685D8A33AE"
 			tasks: [{
@@ -623,6 +646,7 @@
 		{
 			x: 5.5d
 			y: 5.0d
+			subtitle: "Cobalt Shield but in belt form"
 			dependencies: ["718979859BEC4605"]
 			id: "5168B8C00C0AA09D"
 			tasks: [{
@@ -634,7 +658,7 @@
 				{
 					id: "7C6C590A4CFAEC59"
 					type: "ftbmoney:money"
-					ftb_money: 30L
+					ftb_money: 90L
 				}
 				{
 					id: "1661A13A736A8E21"
@@ -657,12 +681,101 @@
 				{
 					id: "4410688C22762B7E"
 					type: "ftbmoney:money"
-					ftb_money: 30L
+					ftb_money: 75L
 				}
 				{
 					id: "54E7400DD810C2DD"
 					type: "item"
 					item: "aquaculture:lockbox"
+				}
+				{
+					id: "67D07DDD8BDB12E7"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
+		}
+		{
+			title: "To Slay a Champion: Chilled to the Bone"
+			x: 7.0d
+			y: 2.0d
+			description: [
+				"The bonechill wand's chilling effect is just the thing to stop those champions from healing themselves."
+				"Might come in handy vs other bosses too."
+			]
+			dependencies: ["718979859BEC4605"]
+			id: "526628695ECC7E87"
+			tasks: [{
+				id: "59250DA324CEFBD2"
+				type: "item"
+				item: {
+					id: "eidolon:bonechill_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0ADCAB5ADF7A8AD5"
+					type: "choice"
+					table_id: 7685042081442074286L
+				}
+				{
+					id: "1CC9E5667DD8B35C"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "6D406D4BCCC99B23"
+					type: "ftbmoney:money"
+					ftb_money: 80L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			description: ["A hard-hitting wand that scales with your &dMagic Damage Multiplier&r Attribute."]
+			dependencies: ["718979859BEC4605"]
+			id: "352DAED55399B555"
+			tasks: [{
+				id: "62C937BEE6A441F4"
+				type: "item"
+				item: {
+					id: "eidolon:soulfire_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2428D8A0385CEC61"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1588FD536677312D"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "00EFE3498DB05B0D"
+					type: "choice"
+					table_id: 3680913278004027102L
 				}
 			]
 		}
