@@ -34,7 +34,7 @@
 	enableSalvaging = true
 	#Add enchantments that should be prevented from being applied to any gear. 
 	#To do so, enter their registry names.
-	enchantmentBlacklist = ["dungeons_gear:melee_aura", "dungeons_gear:gravity_pulse", "dungeons_gear:life_boost", "dungeons_gear:freezing_shot", "dungeons_gear:gale_shot"]
+	enchantmentBlacklist = ["dungeons_gear:melee_aura", "dungeons_gear:gravity_pulse", "dungeons_gear:life_boost", "dungeons_gear:freezing_shot", "dungeons_gear:gale_shot", "dungeons_gear:illagers_bane"]
 	#Add enchantments that should be designated as treasure-only. 
 	#To do so, enter their registry names.
 	treasureOnlyEnchantments = []
@@ -170,10 +170,10 @@
 	leechingMultiplierPerLevel = 0.2
 	#The max stacks for dynamo. [0-10000, default: 20]
 	#Range: 0 ~ 10000
-	dynamoMaxStacks = 20
+	dynamoMaxStacks = 10
 	#Multiplier per level applied to the damage. damage * (1 + (configValue*Stacks)) [0.0-5.0, default: 0.1]
 	#Range: 0.0 ~ 5.0
-	dynamoDamageMultiplierPerStack = 0.1
+	dynamoDamageMultiplierPerStack = 0.2
 	#The decimal base multiplier on the damage for max damage committed.  [0.0-5.0, default: 1.25]
 	#Range: 0.0 ~ 5.0
 	committedBaseMultiplier = 1.25
@@ -185,7 +185,7 @@
 	freezingDuration = 60
 	#The decimal chance for Soul Siphon to trigger [0.0-1.0, default: 0.05]
 	#Range: 0.0 ~ 1.0
-	soulSiphonChance = 0.05
+	soulSiphonChance = 0.1
 	#The amount of souls per trigger of Soul Siphon. Each souls will give a value based on Soul Gathering. [0-100, default: 2]
 	#Range: 0 ~ 100
 	soulSiphonSoulsPerLevel = 2
@@ -200,7 +200,7 @@
 	thunderingChance = 0.3
 	#The base damage for Thundering [0-10000, default: 5]
 	#Range: 0 ~ 10000
-	thunderingBaseDamage = 5
+	thunderingBaseDamage = 8
 	#Multiplier per level damage to healing conversion. [0.0-5.0, default: 0.25]
 	#Range: 0.0 ~ 5.0
 	altruisticDamageToHealingPerLevel = 0.25
@@ -212,10 +212,10 @@
 	beastBossMultiplierPerLevel = 0.5
 	#The amount of damage per trigger of Beast burst. Each trigger causes an explosion around each minion [0-100, default: 5]
 	#Range: 0 ~ 100
-	beastBurstDamagePerLevel = 12
+	beastBurstDamagePerLevel = 24
 	#The duration in ticks of the speed boost applied by Beast Surge. [0-10000, default: 200]
 	#Range: 0 ~ 10000
-	beastSurgeDuration = 600
+	beastSurgeDuration = 1000
 	#The decimal base multiplier on the damage for cowardice [0.0-5.0, default: 0.1]
 	#Range: 0.0 ~ 5.0
 	cowardiceBaseMultiplier = 0.1
@@ -227,7 +227,7 @@
 	deflectChancePerLevel = 0.2
 	#The multiplier increase per level for Focus Enchantments [0.0-5.0, default: 0.25]
 	#Range: 0.0 ~ 5.0
-	focusMultiplierPerLevel = 0.25
+	focusMultiplierPerLevel = 0.75
 	#The multiplier increase per level for Frenzied [0.0-5.0, default: 0.1]
 	#Range: 0.0 ~ 5.0
 	frenziedMultiplierPerLevel = 0.1
@@ -239,10 +239,10 @@
 	gravityPulseStrengthPerLevel = 0.1
 	#The decimal base duration for Potion Barrier [0-10000, default: 60]
 	#Range: 0 ~ 10000
-	potionBarrierBaseDuration = 60
+	potionBarrierBaseDuration = 200
 	#The duration increase per level for Potion Barrier [0-10000, default: 20]
 	#Range: 0 ~ 10000
-	potionBarrierDurationPerLevel = 20
+	potionBarrierDurationPerLevel = 100
 	#The multiplier to max health for reckless. Balanced as a negative number. [-5.0-5.0, default: -0.6]
 	#Range: -5.0 ~ 5.0
 	recklessMaxHealthMultiplier = -0.6
@@ -257,7 +257,7 @@
 	explodingMultiplierPerLevel = 0.2
 	#The chance for Poison Cloud to trigger [-5.0-5.0, default: 0.3]
 	#Range: -5.0 ~ 5.0
-	prospectorChancePerLevel = 0.0
+	prospectorChancePerLevel = 0.005
 	#The chance per level for dodge to trigger [-5.0-5.0, default: 0.25]
 	#Range: -5.0 ~ 5.0
 	dodgeChancePerLevel = 0.01
@@ -266,7 +266,7 @@
 	voidDodgeChancePerLevel = 0.05
 	#The chance per level for beehive to trigger [-5.0-5.0, default: 0.25]
 	#Range: -5.0 ~ 5.0
-	beehiveChancePerLevel = 0.1
+	beehiveChancePerLevel = 0.05
 	#The chance per level for Stunning to trigger [-5.0-5.0, default: 0.25]
 	#Range: -5.0 ~ 5.0
 	stunningChancePerLevel = 0.1
