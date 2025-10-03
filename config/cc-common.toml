@@ -1,7 +1,7 @@
 #Add owner name to some messages
 AddOwner = true
 #Mob explosions can destroy blocks based on mob target
-MobDestroy = true
+MobDestroy = false
 #Explosions caused by any player can destroy blocks
 PvpMode = false
 #Report placing fluid from a bucket
@@ -11,7 +11,7 @@ ReportBucket = false
 ChunksFromSpawn = 10
 #Maximum claims per player
 #Range: 0 ~ 250
-ClaimLimit = 4
+ClaimLimit = 6
 #Blocks that bypass claims on right click
 BypassBlocks = ["minecraft:ender_chest", "minecraft:smithing_table", "lootr:*-lootr", "tombstone:*-grave", "minecraft:crafting_table", "blue_skies:food_prep_table", "blue_skies:tool_box", "minecraft:bell", "minecraft:grindstone", "twilightforest:*-trophy", "minecraft:fletching_table", "minecraft:cartography_table", "blue_skies:summoning_table", "blue_skies:alchemy_table", "minecraft:stonecutter", "minecraft:loom", "waystones:*-way"]
 #Entities that bypass claims on right click
