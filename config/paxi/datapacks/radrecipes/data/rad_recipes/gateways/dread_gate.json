@@ -1,6 +1,7 @@
 {
     "size": "large",
     "color": "#03272E",
+    "leash_range": 80,
     "waves": [{
             "entities": [{
                     "entity": "iceandfire:dread_ghoul"
@@ -20,7 +21,7 @@
                 "entity": "iceandfire:dread_knight",
                 "rolls": 5
             }],
-            "max_wave_time": 1900,
+            "max_wave_time": 6000,
             "setup_time": 150
         },
         {
@@ -71,7 +72,7 @@
                 "entity": "iceandfire:dread_knight",
                 "rolls": 10
             }],
-            "max_wave_time": 1940,
+            "max_wave_time": 6100,
             "setup_time": 150
         },
         {
@@ -125,7 +126,7 @@
                 "entity": "iceandfire:dread_knight",
                 "rolls": 15
             }],
-            "max_wave_time": 1980,
+            "max_wave_time": 6200,
             "setup_time": 150
         },
         {
@@ -182,7 +183,7 @@
                 "entity": "iceandfire:dread_knight",
                 "rolls": 20
             }],
-            "max_wave_time": 2000,
+            "max_wave_time": 6300,
             "setup_time": 150
         },
         {
@@ -253,7 +254,7 @@
                 "entity": "iceandfire:dread_knight",
                 "rolls": 25
             }],
-            "max_wave_time": 2100,
+            "max_wave_time": 6400,
             "setup_time": 200
         }
     ],
@@ -268,6 +269,6 @@
 			"item": "iceandfire:dread_queen_sword"
 		}
 	}],
-    "completion_xp": 1600,
+    "completion_xp": 7777,
 	"spawn_range": 12
 }

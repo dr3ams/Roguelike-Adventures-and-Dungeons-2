@@ -1,6 +1,7 @@
 {
     "size": "medium",
     "color": "#75818B",
+    "leash_range": 64,
     "waves": [{
             "entities": [{
                     "entity": "iceandfire:troll"
@@ -30,7 +31,7 @@
                 "entity": "iceandfire:troll",
                 "rolls": 1
             }],
-            "max_wave_time": 1800,
+            "max_wave_time": 3600,
             "setup_time": 150
         },
         {
@@ -85,7 +86,7 @@
                 "entity": "iceandfire:troll",
                 "rolls": 1
             }],
-            "max_wave_time": 1800,
+            "max_wave_time": 3600,
             "setup_time": 150
         },
         {
@@ -138,7 +139,7 @@
                 "entity": "iceandfire:troll",
                 "rolls": 1
             }],
-            "max_wave_time": 1800,
+            "max_wave_time": 3600,
             "setup_time": 150
         },
         {
@@ -194,7 +195,7 @@
                 "entity": "iceandfire:troll",
                 "rolls": 1
             }],
-            "max_wave_time": 1800,
+            "max_wave_time": 3600,
             "setup_time": 150
         },
         {
@@ -256,7 +257,7 @@
                 "entity": "iceandfire:troll",
                 "rolls": 1
             }],
-            "max_wave_time": 1800,
+            "max_wave_time": 3600,
             "setup_time": 150
         }
     ],
@@ -265,6 +266,6 @@
         "entity": "iceandfire:troll",
         "rolls": 1
     }],
-    "completion_xp": 1000,
+    "completion_xp": 2000,
 	"spawn_range": 10
 }

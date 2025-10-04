@@ -14,7 +14,7 @@
                 "entity": "minecraft:zombie",
                 "rolls": 3
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         },
         {
@@ -33,7 +33,7 @@
                 {
                     "attribute": "generic.armor",
                     "operation": "ADDITION",
-                    "value": 2.5
+                    "value": 2
                 },
                 {
                     "attribute": "generic.attack_damage",
@@ -56,7 +56,7 @@
                 "entity": "minecraft:zombie",
                 "rolls": 6
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         },
         {
@@ -81,7 +81,7 @@
                 {
                     "attribute": "generic.armor",
                     "operation": "ADDITION",
-                    "value": 4
+                    "value": 3
                 },
                 {
                     "attribute": "generic.attack_damage",
@@ -104,7 +104,7 @@
                 "entity": "minecraft:zombie",
                 "rolls": 9
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         },
         {
@@ -129,7 +129,7 @@
                 {
                     "attribute": "generic.armor",
                     "operation": "ADDITION",
-                    "value": 5
+                    "value": 4
                 },
                 {
                     "attribute": "generic.attack_damage",
@@ -152,7 +152,7 @@
                 "entity": "minecraft:zombie",
                 "rolls": 12
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         },
         {
@@ -180,7 +180,7 @@
                 {
                     "attribute": "generic.armor",
                     "operation": "ADDITION",
-                    "value": 6
+                    "value": 5
                 },
                 {
                     "attribute": "generic.attack_damage",
@@ -203,7 +203,7 @@
                 "entity": "minecraft:zombie",
                 "rolls": 15
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         }
     ],
@@ -212,6 +212,6 @@
         "entity": "minecraft:zombie",
         "rolls": 30
     }],
-    "completion_xp": 500,
+    "completion_xp": 1000,
 	"spawn_range": 5
 }

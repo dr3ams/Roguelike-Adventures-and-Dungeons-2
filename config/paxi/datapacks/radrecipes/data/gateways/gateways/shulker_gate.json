@@ -1,6 +1,7 @@
 {
     "size": "medium",
     "color": "#976797",
+    "leash_range": 80,
     "waves": [{
             "entities": [{
                     "entity": "minecraft:shulker"
@@ -17,7 +18,7 @@
                 "entity": "minecraft:shulker",
                 "rolls": 5
             }],
-            "max_wave_time": 1800,
+            "max_wave_time": 3600,
             "setup_time": 150
         },
         {
@@ -38,8 +39,8 @@
                 },
                 {
                     "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 2.5
+                    "operation": "MULTIPLY_BASE",
+                    "value": 1
                 },
                 {
                     "attribute": "generic.attack_damage",
@@ -62,7 +63,7 @@
                 "entity": "minecraft:shulker",
                 "rolls": 10
             }],
-            "max_wave_time": 1800,
+            "max_wave_time": 3600,
             "setup_time": 150
         },
         {
@@ -89,8 +90,8 @@
                 },
                 {
                     "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 4
+                    "operation": "MULTIPLY_BASE",
+                    "value": 1
                 },
                 {
                     "attribute": "generic.attack_damage",
@@ -113,7 +114,7 @@
                 "entity": "minecraft:shulker",
                 "rolls": 15
             }],
-            "max_wave_time": 1800,
+            "max_wave_time": 3600,
             "setup_time": 150
         },
         {
@@ -143,8 +144,8 @@
                 },
                 {
                     "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 5
+                    "operation": "MULTIPLY_BASE",
+                    "value": 1.5
                 },
                 {
                     "attribute": "generic.attack_damage",
@@ -167,7 +168,7 @@
                 "entity": "minecraft:shulker",
                 "rolls": 20
             }],
-            "max_wave_time": 1800,
+            "max_wave_time": 3600,
             "setup_time": 150
         },
         {
@@ -200,8 +201,8 @@
                 },
                 {
                     "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 6
+                    "operation": "MULTIPLY_BASE",
+                    "value": 1.5
                 },
                 {
                     "attribute": "generic.attack_damage",
@@ -224,7 +225,7 @@
                 "entity": "minecraft:shulker",
                 "rolls": 25
             }],
-            "max_wave_time": 1800,
+            "max_wave_time": 3600,
             "setup_time": 150
         }
     ],
@@ -233,6 +234,6 @@
         "entity": "minecraft:shulker",
         "rolls": 60
     }],
-    "completion_xp": 1000,
+    "completion_xp": 2000,
 	"spawn_range": 7
 }

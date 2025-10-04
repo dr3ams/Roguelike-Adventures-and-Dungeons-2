@@ -1,7 +1,7 @@
 {
     "size": "large",
     "color": "#F0F0F0",
-	"leash_range": 64,
+    "leash_range": 128,
     "waves": [{
             "entities": [{
                     "entity": "minecraft:ghast"
@@ -27,7 +27,7 @@
                 "entity": "minecraft:ghast",
                 "rolls": 20
             }],
-            "max_wave_time": 2100,
+            "max_wave_time": 6300,
             "setup_time": 150
         },
         {
@@ -81,7 +81,7 @@
                 "entity": "minecraft:ghast",
                 "rolls": 30
             }],
-            "max_wave_time": 2100,
+            "max_wave_time": 6300,
             "setup_time": 150
         },
         {
@@ -141,7 +141,7 @@
                 "entity": "minecraft:ghast",
                 "rolls": 40
             }],
-            "max_wave_time": 2100,
+            "max_wave_time": 6300,
             "setup_time": 150
         },
         {
@@ -207,7 +207,7 @@
                 "entity": "minecraft:ghast",
                 "rolls": 50
             }],
-            "max_wave_time": 2100,
+            "max_wave_time": 6300,
             "setup_time": 150
         },
         {
@@ -285,7 +285,7 @@
                 "entity": "minecraft:ghast",
                 "rolls": 60
             }],
-            "max_wave_time": 2100,
+            "max_wave_time": 6300,
             "setup_time": 150
         }
     ],
@@ -300,6 +300,6 @@
 			"item": "minecraft:nether_star"
 		}
 	}],
-    "completion_xp": 2500,
+    "completion_xp": 7500,
 	"spawn_range": 9
 }

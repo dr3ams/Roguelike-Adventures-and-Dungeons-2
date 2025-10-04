@@ -1,7 +1,7 @@
 {
     "size": "large",
     "color": "#575763",
-    "leash_range": 128,
+    "leash_range": 256,
     "waves": [{
             "entities": [{
                     "entity": "twilightforest:naga"
@@ -55,7 +55,7 @@
                 "entity": "twilightforest:kobold",
                 "rolls": 10
             }],
-            "max_wave_time": 12000,
+            "max_wave_time": 36000,
             "setup_time": 300
         },
         {
@@ -112,7 +112,7 @@
                 "entity": "twilightforest:kobold",
                 "rolls": 20
             }],
-            "max_wave_time": 12000,
+            "max_wave_time": 36000,
             "setup_time": 300
         },
         {
@@ -185,7 +185,7 @@
                 "entity": "twilightforest:kobold",
                 "rolls": 25
             }],
-            "max_wave_time": 12000,
+            "max_wave_time": 36000,
             "setup_time": 300
         },
         {
@@ -243,7 +243,7 @@
                 "entity": "twilightforest:adherent",
                 "rolls": 25
             }],
-            "max_wave_time": 24000,
+            "max_wave_time": 72000,
             "setup_time": 300
         }
     ],
@@ -270,6 +270,6 @@
 			"item": "minecraft:nether_star"
 		}
 	}],
-    "completion_xp": 2700,
+    "completion_xp": 8000,
 	"spawn_range": 20
 }

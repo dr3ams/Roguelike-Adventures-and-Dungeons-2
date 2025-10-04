@@ -1,7 +1,7 @@
 {
     "size": "small",
     "color": "#CC00FA",
-    "leash_range": 80,
+    "leash_range": 128,
     "waves": [{
             "entities": [{
                     "entity": "minecraft:enderman"
@@ -15,7 +15,7 @@
                 "entity": "minecraft:enderman",
                 "rolls": 3
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         },
         {
@@ -57,7 +57,7 @@
                 "entity": "minecraft:enderman",
                 "rolls": 6
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         },
         {
@@ -105,7 +105,7 @@
                 "entity": "minecraft:enderman",
                 "rolls": 9
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         },
         {
@@ -153,7 +153,7 @@
                 "entity": "minecraft:enderman",
                 "rolls": 12
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         },
         {
@@ -204,7 +204,7 @@
                 "entity": "minecraft:enderman",
                 "rolls": 15
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         }
     ],
@@ -213,6 +213,6 @@
         "entity": "minecraft:enderman",
         "rolls": 30
     }],
-    "completion_xp": 500,
+    "completion_xp": 1000,
 	"spawn_range": 5
 }

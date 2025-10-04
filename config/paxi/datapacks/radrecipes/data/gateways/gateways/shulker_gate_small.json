@@ -1,12 +1,15 @@
 {
     "size": "small",
     "color": "#976797",
+    "leash_range": 80,
     "waves": [{
             "entities": [{
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 }
             ],
             "rewards": [{
@@ -14,15 +17,17 @@
                 "entity": "minecraft:shulker",
                 "rolls": 3
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 }
             ],
             "modifiers": [{
@@ -32,8 +37,8 @@
                 },
                 {
                     "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 2.5
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.5
                 },
                 {
                     "attribute": "generic.attack_damage",
@@ -56,21 +61,25 @@
                 "entity": "minecraft:shulker",
                 "rolls": 6
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 }
             ],
             "modifiers": [{
@@ -80,8 +89,8 @@
                 },
                 {
                     "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 4
+                    "operation": "MULTIPLY_BASE",
+                    "value": 0.5
                 },
                 {
                     "attribute": "generic.attack_damage",
@@ -104,21 +113,25 @@
                 "entity": "minecraft:shulker",
                 "rolls": 9
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 }
             ],
             "modifiers": [{
@@ -128,8 +141,8 @@
                 },
                 {
                     "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 5
+                    "operation": "MULTIPLY_BASE",
+                    "value": 1
                 },
                 {
                     "attribute": "generic.attack_damage",
@@ -152,24 +165,29 @@
                 "entity": "minecraft:shulker",
                 "rolls": 12
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         },
         {
             "entities": [{
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 },
                 {
-                    "entity": "minecraft:shulker"
+                    "entity": "minecraft:shulker",
+					"nbt": "{\"Color\": 16b}"
                 }
             ],
             "modifiers": [{
@@ -179,8 +197,8 @@
                 },
                 {
                     "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 6
+                    "operation": "MULTIPLY_BASE",
+                    "value": 1
                 },
                 {
                     "attribute": "generic.attack_damage",
@@ -203,7 +221,7 @@
                 "entity": "minecraft:shulker",
                 "rolls": 15
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         }
     ],
@@ -212,6 +230,6 @@
         "entity": "minecraft:shulker",
         "rolls": 30
     }],
-    "completion_xp": 500,
+    "completion_xp": 1000,
 	"spawn_range": 5
 }
