@@ -172,7 +172,7 @@
 			compatible_items = []
 			#Range: > 0
 			min_delay = 10
-			climb_speed = ["minecraft:ladder;2", "minecraft:vine;5", "minecraft:scaffolding;5"]
+			climb_speed = ["minecraft:ladder;1", "minecraft:vine;0", "minecraft:scaffolding;2"]
 
 		[general.utils.phanes_regret]
 			#If the Enchantment is Obtainable
@@ -523,9 +523,9 @@
 			#Allows to add custom compatible Items
 			compatible_items = []
 			#Range: 0.0 ~ 1.7976931348623157E308
-			range_base = 15.0
+			range_base = 16.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			range_level = 2.5
+			range_level = 4.0
 			#Range: 0.0 ~ 1.7976931348623157E308
 			base_damage = 1.0
 			#Range: > 0

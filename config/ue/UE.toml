@@ -147,7 +147,7 @@
 			min_level = 1
 			#Maximum Enchantment Level
 			#Range: > 0
-			max_level = 5
+			max_level = 8
 			#Rarity of the Enchantment
 			#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
 			rarity = "RARE"
@@ -392,7 +392,7 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = ["enigmaticlegacy:the_twist"]
+			compatible_items = ["enigmaticlegacy:the_twist", "stalwart_dungeons:wooden_hammer", "stalwart_dungeons:stone_hammer", "stalwart_dungeons:iron_hammer", "stalwart_dungeons:golden_hammer", "stalwart_dungeons:diamond_hammer", "stalwart_dungeons:netherite_hammer", "stalwart_dungeons:tungsten_hammer", "stalwart_dungeons:nether_hammer", "pickletweaks:wooden_sickle", "pickletweaks:stone_sickle", "pickletweaks:iron_sickle", "pickletweaks:golden_sickle", "pickletweaks:diamond_sickle", "pickletweaks:netherite_sickle"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_speed_comparison = 1.05
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -524,9 +524,9 @@
 			#Allows to add custom compatible Items
 			compatible_items = []
 			#Range: 0.0 ~ 1.7976931348623157E308
-			range_base = 5.0
+			range_base = 6.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			range_level = 5.5
+			range_level = 6.0
 
 		[general.base.swift_blade]
 			#If the Enchantment is Obtainable
@@ -649,7 +649,7 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = ["enigmaticlegacy:the_twist"]
+			compatible_items = ["enigmaticlegacy:the_twist", "stalwart_dungeons:wooden_hammer", "stalwart_dungeons:stone_hammer", "stalwart_dungeons:iron_hammer", "stalwart_dungeons:golden_hammer", "stalwart_dungeons:diamond_hammer", "stalwart_dungeons:netherite_hammer", "stalwart_dungeons:tungsten_hammer", "stalwart_dungeons:nether_hammer", "pickletweaks:wooden_sickle", "pickletweaks:stone_sickle", "pickletweaks:iron_sickle", "pickletweaks:golden_sickle", "pickletweaks:diamond_sickle", "pickletweaks:netherite_sickle"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			bonus_per_hit = 0.1
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -1177,7 +1177,7 @@
 			#Allows to add custom compatible Items
 			compatible_items = []
 			#Range: > 0
-			baseDuration = 120
+			baseDuration = 100
 			#Range: 0.0 ~ 1.7976931348623157E308
 			scalingReduction = 4.0
 

@@ -11,7 +11,7 @@
 	quests: [
 		{
 			x: 4.5d
-			y: 0.0d
+			y: -1.0d
 			subtitle: "ancient relic used to summon skeleton warriors"
 			description: [
 				"How to get: 8% chance they will drop when breaking a bone block"
@@ -31,8 +31,13 @@
 		}
 		{
 			x: 6.0d
-			y: -5.5d
+			y: -7.0d
 			subtitle: " purifies the user by removing all negative effects"
+			description: [
+				"Hold &3Right-click&r to use."
+				""
+				"Pairs well with &aturtle master&r and &aberserker's brew&r potions for getting rid of the negative side effects."
+			]
 			dependencies: ["7D78E6607E3F20FD"]
 			id: "7CC541B0654F5EEB"
 			tasks: [{
@@ -74,7 +79,7 @@
 		}
 		{
 			x: 7.5d
-			y: 0.0d
+			y: -1.0d
 			subtitle: "a small drop of the blood of the gods"
 			description: ["How to get: open a mysterious box and give a diamond to the Elpis that (sometimes) comes out. Also dropped by the Talos and Bronze Bull."]
 			id: "23C599B70D1149FD"
@@ -91,7 +96,7 @@
 		}
 		{
 			x: 7.5d
-			y: 1.5d
+			y: 0.5d
 			subtitle: "magical nectar with the same power as an enchanted golden apple"
 			dependencies: [
 				"3C4FAF5EBED427B9"
@@ -111,7 +116,7 @@
 		}
 		{
 			x: 9.5d
-			y: -4.0d
+			y: -5.5d
 			subtitle: "dropped by Charybdis"
 			description: [
 				"use to place water, sneak+use to pick up water"
@@ -138,9 +143,9 @@
 		}
 		{
 			x: 6.0d
-			y: -4.5d
+			y: -5.5d
 			subtitle: "required to catch and tame a Unicorn and Pegasus"
-			dependencies: ["12D4145017567B15"]
+			dependencies: ["0F9EB34DF8A7D6AE"]
 			id: "7D78E6607E3F20FD"
 			tasks: [{
 				id: "5C796671C72134F9"
@@ -175,8 +180,9 @@
 		}
 		{
 			x: 0.0d
-			y: 0.0d
+			y: -1.0d
 			subtitle: "musical instrument used by the Satyrs"
+			description: ["&3Sneak&r and &3right-click&r to select a song, hold &3right-click&r to play"]
 			id: "3B01A39BFA4E9ADF"
 			tasks: [{
 				id: "73E9134302BEA81D"
@@ -191,7 +197,8 @@
 		}
 		{
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
+			description: ["Plays the same songs but with the \"guitar\" instrument"]
 			dependencies: ["29E5E1ED32144AFB"]
 			id: "106D5115954429A4"
 			tasks: [{
@@ -238,7 +245,7 @@
 		}
 		{
 			x: 3.0d
-			y: 0.0d
+			y: -1.0d
 			subtitle: "small bundle of web that may contain items... or spider eggs"
 			description: ["How to get: 10% chance they will drop when breaking a cobweb"]
 			id: "1F268C3D4CA22927"
@@ -275,7 +282,7 @@
 		}
 		{
 			x: 8.5d
-			y: -4.5d
+			y: -6.0d
 			subtitle: "use to get a brief speed boost"
 			dependencies: [
 				"3BC38BFA654397E1"
@@ -321,7 +328,7 @@
 		}
 		{
 			x: 1.5d
-			y: 0.0d
+			y: -1.0d
 			description: ["Has no use."]
 			id: "78FE81EEEBEAAAC0"
 			tasks: [{
@@ -337,7 +344,7 @@
 		}
 		{
 			x: 7.5d
-			y: 3.0d
+			y: 2.0d
 			subtitle: "overflowing with food"
 			dependencies: ["5369168883EF7185"]
 			id: "2ACE22D2DDF10DDF"
@@ -380,7 +387,7 @@
 		}
 		{
 			x: 9.0d
-			y: 1.5d
+			y: 0.5d
 			dependencies: ["6472AEC58B19441A"]
 			id: "4C569E44A9B702A7"
 			tasks: [{
@@ -396,7 +403,7 @@
 		}
 		{
 			x: 7.5d
-			y: -4.0d
+			y: -5.5d
 			subtitle: "dropped by Harpies (or found in their nests);"
 			dependencies: ["217D61A0D07A5213"]
 			id: "57E398C88EA451BB"
@@ -421,7 +428,7 @@
 		}
 		{
 			x: 2.0d
-			y: -4.0d
+			y: -5.5d
 			subtitle: "dropped by Cerberus"
 			description: [""]
 			dependencies: ["5D12D90A59FADF6A"]
@@ -447,7 +454,7 @@
 		}
 		{
 			x: 1.0d
-			y: -4.5d
+			y: -6.0d
 			subtitle: "legendary helmet that turns the wearer and their items invisible"
 			dependencies: [
 				"69C46C39116E3319"
@@ -493,8 +500,9 @@
 		}
 		{
 			x: 0.0d
-			y: 1.5d
+			y: 0.5d
 			subtitle: "musical instrument"
+			description: ["plays the same songs as the panflute but with a different instrument"]
 			dependencies: ["3B01A39BFA4E9ADF"]
 			id: "29E5E1ED32144AFB"
 			tasks: [{
@@ -510,7 +518,7 @@
 		}
 		{
 			x: 12.0d
-			y: 1.5d
+			y: 0.5d
 			subtitle: "dropped by Talos"
 			dependencies: ["5F907B1936D811FC"]
 			id: "5700E253FAF1F246"
@@ -535,14 +543,22 @@
 		}
 		{
 			x: 9.0d
-			y: 0.0d
+			y: -1.0d
 			subtitle: "Hoglin on steroids"
 			description: ["Giant Boars are created when feeding a Hoglin a poisonous potato outside of the Nether."]
 			id: "6472AEC58B19441A"
 			tasks: [{
 				id: "463582D4B6894981"
 				type: "kill"
-				icon: "kubejs:skull2"
+				icon: {
+					id: "kubejs:skull"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "greekfantasy:giant_boar"
 				value: 1L
 			}]
@@ -554,8 +570,8 @@
 		}
 		{
 			x: 0.0d
-			y: -4.0d
-			subtitle: "dropped by Fury;"
+			y: -5.5d
+			subtitle: "dropped by Fury and rarely Cyclopes"
 			dependencies: ["09DAAA0F8D72C26A"]
 			id: "69C46C39116E3319"
 			tasks: [{
@@ -579,7 +595,8 @@
 		}
 		{
 			x: 11.5d
-			y: -4.0d
+			y: -5.5d
+			description: ["Can be crafted into Tough Snakeskin, or into Purified Snakeskin which can craft various strong healing items."]
 			dependencies: ["354015E58AE4BA7C"]
 			id: "702924383722D949"
 			tasks: [{
@@ -594,8 +611,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -4.0d
+			x: 4.5d
+			y: -5.5d
 			subtitle: "dropped by Empusa"
 			dependencies: ["6FD8087235582413"]
 			id: "12D4145017567B15"
@@ -620,7 +637,7 @@
 		}
 		{
 			x: 3.5d
-			y: -4.0d
+			y: -5.0d
 			subtitle: "dropped by Empusa and Fury"
 			description: ["used to tame Orthus."]
 			id: "54A13E036C358D72"
@@ -645,8 +662,9 @@
 		}
 		{
 			x: 13.5d
-			y: 1.5d
+			y: 0.5d
 			subtitle: "dropped by Nemean Lion"
+			description: ["A tough \"helmet\" that provides near-immunity to projectiles"]
 			dependencies: ["6E808001354311DC"]
 			id: "04BC0CD08BA2C081"
 			tasks: [{
@@ -668,7 +686,7 @@
 		}
 		{
 			x: 6.0d
-			y: 0.0d
+			y: -1.0d
 			subtitle: "dropped by horned creatures (Minotaur, Cerastes, Cyprian);"
 			id: "3C4FAF5EBED427B9"
 			tasks: [{
@@ -683,15 +701,26 @@
 			}]
 		}
 		{
-			icon: "kubejs:skull2"
 			x: 7.5d
-			y: -3.0d
+			y: -4.0d
 			subtitle: "Half-bird, half-women who want to eat your entrails."
 			description: ["Found in nests that appear in most biomes, and rarely in the desert."]
 			id: "217D61A0D07A5213"
 			tasks: [{
 				id: "6308710103479FA6"
 				type: "kill"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:harpy"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "greekfantasy:harpy"
 				value: 1L
 			}]
@@ -703,8 +732,9 @@
 		}
 		{
 			x: 13.5d
-			y: -4.0d
+			y: -5.5d
 			subtitle: "dropped by Pythons and Medusa"
+			description: ["Resource to craft the snakeskin armor"]
 			dependencies: ["1061E2C83B33D8F3"]
 			id: "7E5C67CE9EBF4325"
 			tasks: [{
@@ -719,32 +749,54 @@
 			}]
 		}
 		{
-			icon: "kubejs:skull2"
 			x: 13.5d
-			y: -3.0d
+			y: -4.0d
 			subtitle: "Huge, venomous snake found in abandoned pits in jungles."
 			id: "1061E2C83B33D8F3"
 			tasks: [{
 				id: "420C18BD3A325E61"
 				type: "kill"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:python"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "greekfantasy:python"
 				value: 1L
 			}]
 			rewards: [{
 				id: "5195F0500729B4D2"
 				type: "ftbmoney:money"
-				ftb_money: 10L
+				ftb_money: 70L
 			}]
 		}
 		{
-			icon: "kubejs:skull2"
 			x: 0.0d
-			y: -3.0d
+			y: -4.0d
 			subtitle: "Harbringers of death found in the Nether"
 			id: "09DAAA0F8D72C26A"
 			tasks: [{
 				id: "65E3E8AFDE38E8AB"
 				type: "kill"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:fury"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "greekfantasy:fury"
 				value: 1L
 			}]
@@ -756,12 +808,14 @@
 		}
 		{
 			x: 15.0d
-			y: 1.5d
-			subtitle: "dropped by Satyrs"
+			y: 0.5d
 			description: [
-				"when placed, gives Absorption effect;"
+				"Crafted from biomes you go &aroses&r."
+				"Those roses are dropped by Satyrs or found from certain biomes like the &eRose Fields&r."
 				""
-				"can be crafted with a book to get a Hunting enchantment. Items with Hunting have a chance to instantly kill most animals."
+				"When stepped on, gives Absorption effect;"
+				""
+				"Can be crafted with a book to get a &eHunting&r enchantment. Items with &eHunting&r have increased damage vs animals, ice and fire dragons included."
 			]
 			dependencies: ["41357C5DA244DC7E"]
 			id: "6561014214B83306"
@@ -770,24 +824,55 @@
 				type: "item"
 				item: "greekfantasy:wild_rose"
 			}]
-			rewards: [{
-				id: "04D67F08672915ED"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
+			rewards: [
+				{
+					id: "04D67F08672915ED"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "51EF6DD5C8EA4DB8"
+					type: "choice"
+					table_id: 7685042081442074286L
+				}
+			]
 		}
 		{
-			icon: "kubejs:skull2"
+			icon: {
+				id: "greekfantasy:panflute"
+				Count: 1b
+				tag: {
+					Song: "greekfantasy:greensleeves"
+				}
+			}
 			x: 15.0d
-			y: 0.0d
+			y: -1.0d
 			subtitle: " Fun-loving, pipe-playing, fire-dancing goatmen;"
-			description: ["Satyr shamans will summon wolves when they are attacked."]
+			description: [
+				"Satyr shamans will summon wolves when they are attacked."
+				""
+				"Drops sweet berries, and rarely a rose"
+			]
 			id: "41357C5DA244DC7E"
 			tasks: [{
-				id: "089265F695A0F6AD"
-				type: "kill"
-				entity: "greekfantasy:satyr"
-				value: 1L
+				id: "22D377DCE3AAEB2F"
+				type: "observation"
+				title: "Observe a Satyr"
+				icon: {
+					id: "greekfantasy:panflute"
+					Count: 1b
+					tag: {
+						Song: "greekfantasy:greensleeves"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "greekfantasy:satyr"
 			}]
 			rewards: [{
 				id: "43319A6D052FAE9A"
@@ -796,9 +881,8 @@
 			}]
 		}
 		{
-			icon: "kubejs:skull"
 			x: 2.0d
-			y: -3.0d
+			y: -4.0d
 			subtitle: "The three-headed hound of the underworld"
 			description: [
 				"To summon this fiend, you must build a &a4x4 hollow frame of blackstone, with a 2x2 of lava in the middle.&r Then sacrifice the head of an Orthus by tossing it into the lava. The lava will turn to magma and the Cerberus will appear."
@@ -809,6 +893,18 @@
 			tasks: [{
 				id: "7315402A54DA531C"
 				type: "kill"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:cerberus"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "greekfantasy:cerberus"
 				value: 1L
 			}]
@@ -821,7 +917,7 @@
 		{
 			icon: "kubejs:skull"
 			x: 9.5d
-			y: -3.0d
+			y: -4.0d
 			subtitle: "Dangerous whirlpool monster."
 			description: ["Summoned by feeding a Heart of the Sea to a Whirl (by dropping the item nearby)."]
 			id: "2942F2856A444B23"
@@ -838,14 +934,31 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -3.0d
+			x: 4.5d
+			y: -4.0d
 			subtitle: "Vampiric demons who thirst for the lifeblood of unwary players. Dies during the day, even when not exposed to the sun."
+			description: [
+				"Spawns at night in the overworld."
+				"Also spawns in the nether, but only while it is nighttime in the overworld."
+				""
+				"A hot-headed demon that can fire off a deadly beam at close range. Keep your distance!"
+			]
 			id: "6FD8087235582413"
 			tasks: [{
 				id: "64DC9FCADCCBB673"
 				type: "kill"
-				icon: "kubejs:skull2"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:empusa"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "greekfantasy:empusa"
 				value: 1L
 			}]
@@ -856,54 +969,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -6.0d
-			dependencies: ["57E398C88EA451BB"]
-			id: "1C4DEB57F0D08FC6"
-			tasks: [{
-				id: "366168E2B33FB735"
-				type: "item"
-				item: {
-					id: "greekfantasy:magic_feather"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				count: 32L
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "22C3B34C9D3F41AB"
-					type: "item"
-					item: {
-						id: "kubejs:iron_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "019340A09D99BEBE"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-				{
-					id: "2E2E213D7247581E"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-		}
-		{
 			x: 10.5d
-			y: 0.0d
+			y: -1.0d
 			subtitle: "Three-headed gigante whose only passion is a herd of Mad Cows."
 			description: ["Summon by placing three Gigante heads and killing a cow in close proximity."]
 			id: "11E83F17835E8E8B"
@@ -922,26 +989,44 @@
 		}
 		{
 			x: 16.5d
-			y: -3.0d
+			y: -4.0d
 			subtitle: "Fierce, fire-breathing, clockwork bull"
 			description: ["To summon the Bronze Bull, you must build a 2x2 of gold blocks with 2 ichor-infused blocks on the sides"]
 			id: "595F31F04D5EE832"
 			tasks: [{
 				id: "7211EAAF81ABC351"
 				type: "kill"
-				icon: "kubejs:skull"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:bronze_bull"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "greekfantasy:bronze_bull"
 				value: 1L
 			}]
-			rewards: [{
-				id: "6F321D4637A67D6C"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
+			rewards: [
+				{
+					id: "6F321D4637A67D6C"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "6BEE21335DD558E6"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+			]
 		}
 		{
 			x: 12.0d
-			y: 0.0d
+			y: -1.0d
 			subtitle: "Brass automaton that will devastate any player foolish enough to build it."
 			description: [
 				"To summon the Talos, &aplace 3x2 gold blocks&r and place an ichor-infused block on top. Watch out! That dispenser on his arm isn't just for looks..."
@@ -964,7 +1049,7 @@
 		}
 		{
 			x: -1.5d
-			y: -1.5d
+			y: -2.5d
 			subtitle: "(Neutral until attacked) Women cursed to have their hearts turn to flint"
 			description: ["Spawns: in Ara Tents made of grey and white wool. These tents sometimes have a chest."]
 			id: "3E46643D4C7C360C"
@@ -973,8 +1058,11 @@
 				type: "observation"
 				title: "Ara"
 				icon: {
-					id: "greekfantasy:ara_spawn_egg"
+					id: "alexsmobs:tab_icon"
 					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:ara"
+					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -993,15 +1081,26 @@
 		}
 		{
 			x: 0.0d
-			y: -1.5d
+			y: -2.5d
 			subtitle: "(Neutral until attacked) Half-men, half-horse"
 			description: ["Spawns: in plains and taiga areas"]
 			id: "57F033F7F0C22F1B"
 			tasks: [{
 				id: "33132B019DD8683E"
 				type: "observation"
-				title: "Centaur"
-				icon: "greekfantasy:centaur_spawn_egg"
+				title: "Find a Centaur"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:centaur"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				timer: 0L
 				observe_type: 5
 				to_observe: "greekfantasy:centaur"
@@ -1014,7 +1113,7 @@
 		}
 		{
 			x: 1.5d
-			y: -1.5d
+			y: -2.5d
 			subtitle: "(Hostile) Horned vipers"
 			description: ["Spawns: in the desert and other sandy areas"]
 			id: "512F6C9E10C753BE"
@@ -1023,8 +1122,11 @@
 				type: "observation"
 				title: "Cerastes"
 				icon: {
-					id: "greekfantasy:cerastes_spawn_egg"
+					id: "alexsmobs:tab_icon"
 					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:cerastes"
+					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1043,7 +1145,7 @@
 		}
 		{
 			x: 3.0d
-			y: -1.5d
+			y: -2.5d
 			description: [
 				"Sorcerer who spawns wherever witches spawn. Her wand can turn people to pigs!"
 				"Spawns: 2% chance to replace a witch that is spawned"
@@ -1052,26 +1154,48 @@
 			tasks: [{
 				id: "392D1CB88C744D2F"
 				type: "kill"
-				icon: "kubejs:skull2"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:circe"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "greekfantasy:circe"
 				value: 1L
 			}]
 			rewards: [{
 				id: "6DD20B88D4D2354A"
 				type: "ftbmoney:money"
-				ftb_money: 10L
+				ftb_money: 30L
 			}]
 		}
 		{
 			x: 4.5d
-			y: -1.5d
+			y: -2.0d
 			subtitle: "(Hostile) One-eyed monsters that are slightly bigger than the player"
 			description: ["Spawns: in mountain areas"]
 			id: "66CF5A82A071E2B0"
 			tasks: [{
 				id: "6B1DA199E150221E"
 				type: "kill"
-				icon: "kubejs:skull2"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:cyclopes"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "iceandfire:cyclops"
 				value: 1L
 			}]
@@ -1083,7 +1207,7 @@
 		}
 		{
 			x: 6.0d
-			y: -1.5d
+			y: -2.5d
 			subtitle: "(Hostile) Bull-headed centaurs"
 			description: [
 				"Spawns: plains and taiga areas"
@@ -1093,7 +1217,18 @@
 			tasks: [{
 				id: "098EBB70F2232C40"
 				type: "kill"
-				icon: "kubejs:skull2"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:cyprian"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "greekfantasy:cyprian"
 				value: 1L
 			}]
@@ -1105,7 +1240,7 @@
 		}
 		{
 			x: 11.5d
-			y: -3.0d
+			y: -4.0d
 			subtitle: "(Hostile) Snake monster"
 			description: [
 				"Spawns: in most overworld biomes and the nether"
@@ -1115,7 +1250,18 @@
 			tasks: [{
 				id: "6ED1ED82F9F3624E"
 				type: "kill"
-				icon: "kubejs:skull2"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:drakaina"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "greekfantasy:drakaina"
 				value: 1L
 			}]
@@ -1127,17 +1273,20 @@
 		}
 		{
 			x: 7.5d
-			y: -1.5d
+			y: -2.5d
 			subtitle: "(Neutral) Spirits of the trees and protectors of nature"
 			description: ["Spawns: in most overworld biomes"]
 			id: "54AEC0D74732C8D8"
 			tasks: [{
 				id: "4F69BA0A2FC46C91"
 				type: "observation"
-				title: "Dryad"
+				title: "Find a Dryad"
 				icon: {
-					id: "greekfantasy:dryad_spawn_egg"
+					id: "alexsmobs:tab_icon"
 					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:dryad"
+					}
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1156,7 +1305,7 @@
 		}
 		{
 			x: 9.0d
-			y: -1.5d
+			y: -2.5d
 			subtitle: "(Neutral until attacked) the original giants"
 			description: ["Spawns: in mountain areas and snowy plains"]
 			id: "594026DA1FB53C1E"
@@ -1165,7 +1314,7 @@
 				type: "observation"
 				title: "Gigante"
 				icon: {
-					id: "greekfantasy:gigante_spawn_egg"
+					id: "greekfantasy:gigante_head"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
@@ -1185,7 +1334,7 @@
 		}
 		{
 			x: 10.5d
-			y: -1.5d
+			y: -2.5d
 			subtitle: "(Neutral) Spirits of the trees and protectors of nature in the Nether"
 			description: ["Spawns: in crimson and warped forest biomes"]
 			id: "45934F8FADD563D5"
@@ -1213,8 +1362,20 @@
 			}]
 		}
 		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "greekfantasy:mad_cow"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			x: 12.0d
-			y: -1.5d
+			y: -2.5d
 			subtitle: "(Hostile) identical to a regular cow except for the part where it tries to eat you"
 			description: ["Spawns: in most overworld biomes, and when summoned by the Geryon"]
 			id: "164E59F7E5633025"
@@ -1233,14 +1394,29 @@
 		}
 		{
 			x: 13.5d
-			y: -1.5d
+			y: -2.5d
 			subtitle: "(Hostile) Half-men, half bull creatures that charge on sight"
-			description: ["Spawns: in most overworld biomes"]
+			description: [
+				"&6Spawns: in most overworld biomes."
+				""
+				"A great source of leather earlygame."
+			]
 			id: "67D113EDDEEDED53"
 			tasks: [{
 				id: "093453BFE1F89674"
 				type: "kill"
-				icon: "kubejs:skull2"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:minotaur"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "greekfantasy:minotaur"
 				value: 1L
 			}]
@@ -1252,35 +1428,30 @@
 		}
 		{
 			x: 15.0d
-			y: -1.5d
+			y: -2.5d
 			subtitle: "(Neutral until attacked) Gentle protectors of the rivers and oceans"
+			description: ["Drops prismarine shards and crystals when slain, which can be handy for early enchanting"]
 			id: "24BF78C57EA29893"
-			tasks: [
-				{
-					id: "43ABA2E327E2E7E6"
-					type: "kill"
-					icon: "kubejs:skull2"
-					entity: "greekfantasy:naiad"
-					value: 1L
-				}
-				{
-					id: "62734F0E9B18F673"
-					type: "observation"
-					title: "Naiad"
-					icon: {
-						id: "greekfantasy:naiad_spawn_egg"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
+			tasks: [{
+				id: "0DDDD559C64B86C0"
+				type: "observation"
+				title: "Find a Naiad"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:naiad"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
-					timer: 0L
-					observe_type: 5
-					to_observe: "greekfantasy:naiad"
 				}
-			]
+				timer: 0L
+				observe_type: 5
+				to_observe: "greekfantasy:naiad"
+			}]
 			rewards: [{
 				id: "6F3FB21D6D90AD90"
 				type: "ftbmoney:money"
@@ -1289,7 +1460,7 @@
 		}
 		{
 			x: 13.5d
-			y: 0.0d
+			y: -1.0d
 			subtitle: "(Miniboss) Giant lion with arrow-proof hide."
 			description: ["Spawns: in deserts in Lion Dens. Can also spawn when an Ocelot with the Strength potion effect is hit by lightning."]
 			id: "6E808001354311DC"
@@ -1308,14 +1479,25 @@
 		}
 		{
 			x: 15.0d
-			y: -3.0d
+			y: -4.0d
 			subtitle: "(Hostile) Two-headed dog from the underworld"
 			description: ["Spawns: in the nether"]
 			id: "20A32D27FE82D9FD"
 			tasks: [{
 				id: "6DE2ECCDF5438DAC"
 				type: "kill"
-				icon: "kubejs:skull2"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:orthus"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "greekfantasy:orthus"
 				value: 1L
 			}]
@@ -1327,33 +1509,25 @@
 		}
 		{
 			x: 16.5d
-			y: -1.5d
-			subtitle: "(Miniboss) Huge, venomous snake of lore"
-			description: ["Spawns: in pyramid-shaped pits found half-buried in the jungle"]
-			id: "7064F7A89BD915B1"
-			tasks: [{
-				id: "049181154A5209AD"
-				type: "kill"
-				icon: "kubejs:skull2"
-				entity: "greekfantasy:python"
-				value: 1L
-			}]
-			rewards: [{
-				id: "73BDE9AD85A84A45"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: 18.0d
-			y: -1.5d
+			y: -2.5d
 			subtitle: "(Hostile) Spirit of the deceased"
 			description: ["Spawns:Any time a player dies, with about half of the player's experience"]
 			id: "630DD6121E8705F4"
 			tasks: [{
 				id: "77C26FDFF71CA67F"
 				type: "kill"
-				icon: "kubejs:skull2"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:shade"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 				entity: "greekfantasy:shade"
 				value: 1L
 			}]
@@ -1364,236 +1538,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -6.0d
-			dependencies: ["12D4145017567B15"]
-			id: "5DD71CB8F2FCD202"
-			tasks: [{
-				id: "4B42BE15B8883D14"
-				type: "item"
-				item: {
-					id: "greekfantasy:cursed_hair"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				count: 32L
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "4507BE926F3A2DA8"
-					type: "item"
-					item: {
-						id: "kubejs:iron_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "607FD1E459312F3C"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-				{
-					id: "07E8E35C2B5010F4"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-		}
-		{
-			x: 3.5d
-			y: -6.0d
-			dependencies: ["54A13E036C358D72"]
-			id: "4FCC01F46898261D"
-			tasks: [{
-				id: "1E4D26D61B244410"
-				type: "item"
-				item: {
-					id: "greekfantasy:fiery_bat_wing"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				count: 32L
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "0CDFDF009B56BC52"
-					type: "item"
-					item: {
-						id: "kubejs:iron_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "3AA161EFEC296766"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-				{
-					id: "5D2CF87FF62CF774"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-		}
-		{
-			x: 2.0d
-			y: -6.0d
-			dependencies: ["3ADA97A9D953D1A5"]
-			id: "65E93BFFD0A98FBC"
-			tasks: [{
-				id: "4188E135122470EF"
-				type: "item"
-				item: {
-					id: "greekfantasy:fiery_hide"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				count: 32L
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "4C428B1800D1E59F"
-					type: "item"
-					item: {
-						id: "kubejs:iron_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "3C243646BCB28057"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-				{
-					id: "3BCBDDA1EDB5200C"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: -6.0d
-			dependencies: ["69C46C39116E3319"]
-			id: "18AFCB288F65BDA2"
-			tasks: [{
-				id: "6DD401FD465080FE"
-				type: "item"
-				item: {
-					id: "greekfantasy:styxian_shard"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				count: 32L
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "0AE5401F7771393E"
-					type: "item"
-					item: {
-						id: "kubejs:iron_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "081B3320F7DA62A3"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-				{
-					id: "54364D466A839548"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-		}
-		{
-			x: 9.5d
-			y: -6.0d
-			dependencies: ["3BC38BFA654397E1"]
-			id: "6FDBE3E4A1C15A29"
-			tasks: [{
-				id: "71C1A5B98E6FD5CD"
-				type: "item"
-				item: {
-					id: "greekfantasy:conch"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				count: 2L
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "72D27D2DDD975B35"
-					type: "item"
-					item: {
-						id: "kubejs:iron_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "78DF2A6415E49665"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-				{
-					id: "5961D68A68471993"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-		}
-		{
 			x: 9.0d
-			y: 3.0d
+			y: 2.0d
 			dependencies: ["4C569E44A9B702A7"]
 			id: "39022BC2B3098B5B"
 			tasks: [{
@@ -1629,84 +1575,8 @@
 			]
 		}
 		{
-			x: 11.5d
-			y: -6.0d
-			dependencies: ["702924383722D949"]
-			id: "53BBAF7D515781C7"
-			tasks: [{
-				id: "1C3F7847088D0724"
-				type: "item"
-				item: "greekfantasy:snakeskin"
-				count: 32L
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "34E514D9A09B09A4"
-					type: "item"
-					item: {
-						id: "kubejs:iron_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "3BFAB41F2770C65A"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-				{
-					id: "37F7A62FF77A4450"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-		}
-		{
-			x: 13.5d
-			y: -6.0d
-			dependencies: ["7E5C67CE9EBF4325"]
-			id: "28655BF0B745BF55"
-			tasks: [{
-				id: "22489DFA73E4C555"
-				type: "item"
-				item: "greekfantasy:tough_snakeskin"
-				count: 32L
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "60DE352CAB2E4F67"
-					type: "item"
-					item: {
-						id: "kubejs:iron_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "21228006EEA0244A"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-				{
-					id: "078274532DEDA160"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-		}
-		{
 			x: 12.0d
-			y: 3.0d
+			y: 2.0d
 			description: ["Prevents mob spawns in a radius around itself"]
 			dependencies: ["5700E253FAF1F246"]
 			id: "43136CFDCFFAB6D3"
@@ -1751,7 +1621,7 @@
 		}
 		{
 			x: 8.5d
-			y: -5.5d
+			y: -7.0d
 			dependencies: ["3537828114521F51"]
 			id: "4E9B2AE1A668BEA3"
 			tasks: [{
@@ -1802,7 +1672,7 @@
 		}
 		{
 			x: 1.5d
-			y: 1.5d
+			y: 0.5d
 			description: [
 				"Chance to either heal or harm you when drank."
 				""
@@ -1855,6 +1725,111 @@
 					random_bonus: 1
 				}
 			]
+		}
+		{
+			x: 16.5d
+			y: -6.0d
+			dependencies: ["595F31F04D5EE832"]
+			id: "06CA078C9BD6570F"
+			tasks: [{
+				id: "742046F7964C5311"
+				type: "item"
+				item: {
+					id: "greekfantasy:fiery_gear"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "50BB0D1CC1630F30"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -7.0d
+			description: [
+				"One of the main ingredients to craft the &aHealing Rod&r and the &aEnchanted Medkit&r."
+				""
+				"The &ahealing rod&r can launch orbs that heal 8 health to anything it hits."
+				""
+				"The &aEnchanted Medkit&r can be used to heal yourself greatly, grants absorption and immunity to bleeding for a few minutes."
+			]
+			dependencies: ["702924383722D949"]
+			id: "51FD7BC5CA21D660"
+			tasks: [{
+				id: "46896E809543E3A1"
+				type: "item"
+				item: {
+					id: "greekfantasy:purified_snakeskin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4C5A3F446B5E589E"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "3FF8C121F32F4E4D"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			title: "Pegasus"
+			x: 6.0d
+			y: -4.0d
+			description: [
+				"The task name is to help new players get here."
+				""
+				"&6You can tame a pegasus using a &aGolden Bridle&6, after which you will mount the pegasus and it works like standard horse taming."
+				""
+				"The bridle is not consumed on use, meaning you only need to craft one."
+				""
+				""
+				"The Pegasus can jump in mid-air and is immune to fall damage."
+				""
+				"Despite looking similar to a horse the pegasus cannot wear horse armor."
+			]
+			id: "0F9EB34DF8A7D6AE"
+			tasks: [{
+				id: "4C6AF64B2CF2EB91"
+				type: "observation"
+				title: "See &3Greek Fantasy&r quest chapter for how to tame a pegasus"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:pegasus"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 100L
+				observe_type: 5
+				to_observe: "greekfantasy:pegasus"
+			}]
+			rewards: [{
+				id: "19B77FD606874283"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
 		}
 	]
 }

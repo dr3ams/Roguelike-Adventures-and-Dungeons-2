@@ -326,7 +326,7 @@
 						Count: 1b
 						tag: {
 							Effectiveness: {
-								Value: 0.3d
+								Value: 0.5d
 							}
 						}
 						ForgeCaps: {
@@ -396,7 +396,13 @@
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "dungeons_gear:radiance"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -2123,10 +2129,16 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [{
-									data: [{
-										lvl: 1s
-										id: "dungeons_gear:swirling"
-									}]
+									data: [
+										{
+											lvl: 1s
+											id: "dungeons_gear:swirling"
+										}
+										{
+											lvl: 2s
+											id: "farmersdelight:backstabbing"
+										}
+									]
 									source: "dungeons_libraries:gear_config"
 								}]
 							}
@@ -2158,6 +2170,50 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2B7C5BAF3157CA9D"
+					type: "item"
+					item: {
+						id: "dungeons_mobs:chef_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "radenchants:gluttony"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "278EFEBCB839C83B"
+					type: "item"
+					item: {
+						id: "dungeons_mobs:chef_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "radenchants:welding_apron"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -4114,10 +4170,24 @@
 					}
 				}
 				{
-					id: "4500232B846CBA8A"
+					id: "0F43F06C5CE9408E"
 					type: "item"
 					item: {
-						id: "dungeons_mobs:chef_helmet"
+						id: "nethers_delight:mimicarnation"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "6C40E6A90E3ED1BD"
+					type: "item"
+					item: {
+						id: "dungeons_gear:beehive_leggings"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -4127,7 +4197,7 @@
 								BuiltInEnchantments: [{
 									data: [{
 										lvl: 1s
-										id: "radenchants:gluttony"
+										id: "dungeons_gear:potion_aura"
 									}]
 									source: "dungeons_libraries:gear_config"
 								}]
@@ -4136,10 +4206,10 @@
 					}
 				}
 				{
-					id: "7C25E7AD8A86DAE8"
+					id: "08C1A6EA2AC82EF5"
 					type: "item"
 					item: {
-						id: "dungeons_mobs:chef_chestplate"
+						id: "dungeons_gear:beehive_boots"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -4147,10 +4217,7 @@
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [{
-									data: [{
-										lvl: 1s
-										id: "radenchants:welding_apron"
-									}]
+									data: [ ]
 									source: "dungeons_libraries:gear_config"
 								}]
 							}

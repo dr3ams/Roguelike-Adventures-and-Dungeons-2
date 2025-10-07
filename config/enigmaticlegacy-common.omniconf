@@ -502,7 +502,7 @@
     B:SuperMagnetRingSound=false
 
     # Attack damage of The Twist, actual damage shown in tooltip will be is 1 + this_value. [range: 0.0 ~ 32768.0, default: 8.0, synchronized: yes]
-    D:TheTwistAttackDamage=10
+    D:TheTwistAttackDamage=11
 
     # Attack speed of The Twist. [range: -32768.0 ~ 32768.0, default: -1.8, synchronized: yes]
     D:TheTwistAttackSpeed=-1.8
@@ -584,10 +584,10 @@
     I:CursedRingEnchantingBonus=10
 
     # Allows to adjust how frequently Endermen will try to randomly teleport to player bearing the ring, even if they can't see the player and are not angered yet. Lower value = less probability of this happening. [range: 0.01 ~ 32768.0, default: 1.0, synchronized: yes]
-    D:CursedRingEndermenRandomportFrequency=1.0
+    D:CursedRingEndermenRandomportFrequency=0.5
 
     # Range in which Endermen can try to randomly teleport to bearers of the ring. [range: 8.0 ~ 32768.0, default: 32.0, synchronized: yes]
-    D:CursedRingEndermenRandomportRange=32.0
+    D:CursedRingEndermenRandomportRange=24.0
 
     # How much experience will drop from mobs to bearers of the ring, measured in percents. [range: 0 ~ 32768, default: 400, synchronized: yes]
     I:CursedRingExperienceBonus=400
@@ -612,7 +612,7 @@
     D:CursedRingNeutralAngerRange=24.0
 
     # Range in which neutral creatures can see and target bearers of the ring even if they can't directly see them. [range: 0.0 ~ 32768.0, default: 4.0, synchronized: yes]
-    D:CursedRingNeutralXRayRange=4.0
+    D:CursedRingNeutralXRayRange=3.0
 
     # Defines how much damage bearers of the ring receive from any source. Measured as percentage. [range: 0 ~ 32768, default: 200, synchronized: yes]
     I:CursedRingPainModifier=200

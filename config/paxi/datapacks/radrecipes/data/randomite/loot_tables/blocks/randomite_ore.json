@@ -42,7 +42,7 @@
                     {
                       "function": "minecraft:set_count",
                       "count": {
-                        "min": 1,
+                        "min": 3,
                         "max": 5,
                         "type": "minecraft:uniform"
                       }
@@ -67,7 +67,7 @@
                       "function": "minecraft:set_count",
                       "count": {
                         "min": 1,
-                        "max": 2,
+                        "max": 3,
                         "type": "minecraft:uniform"
                       }
                     },
@@ -91,7 +91,7 @@
                       "function": "minecraft:set_count",
                       "count": {
                         "min": 1,
-                        "max": 2,
+                        "max": 3,
                         "type": "minecraft:uniform"
                       }
                     },
@@ -112,6 +112,14 @@
 		  "quality": 1,
                   "functions": [
                     {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 2,
+                        "type": "minecraft:uniform"
+                      }
+                    },
+                    {
                       "function": "minecraft:apply_bonus",
                       "enchantment": "minecraft:fortune",
                       "formula": "minecraft:ore_drops"
@@ -128,6 +136,14 @@
 		  "quality": 0,
                   "functions": [
                     {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 2,
+                        "type": "minecraft:uniform"
+                      }
+                    },
+                    {
                       "function": "minecraft:apply_bonus",
                       "enchantment": "minecraft:fortune",
                       "formula": "minecraft:ore_drops"
@@ -143,6 +159,14 @@
                   "weight": 10,
 		  "quality": 0,
                   "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1,
+                        "max": 2,
+                        "type": "minecraft:uniform"
+                      }
+                    },
                     {
                       "function": "minecraft:apply_bonus",
                       "enchantment": "minecraft:fortune",
@@ -163,7 +187,7 @@
                       "function": "minecraft:set_count",
                       "count": {
                         "min": 1,
-                        "max": 2,
+                        "max": 3,
                         "type": "minecraft:uniform"
                       }
                     },
@@ -186,8 +210,8 @@
                     {
                       "function": "minecraft:set_count",
                       "count": {
-                        "min": 1,
-                        "max": 2,
+                        "min": 2,
+                        "max": 3,
                         "type": "minecraft:uniform"
                       }
                     },
@@ -210,8 +234,8 @@
                     {
                       "function": "minecraft:set_count",
                       "count": {
-                        "min": 1,
-                        "max": 2,
+                        "min": 2,
+                        "max": 3,
                         "type": "minecraft:uniform"
                       }
                     },
@@ -255,7 +279,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "weight": 5,
+                  "weight": 6,
 		  "quality": 1,
                   "functions": [
                     {
@@ -295,7 +319,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "weight": 3,
+                  "weight": 4,
 		  "quality": 1,
                   "functions": [
                     {
@@ -311,7 +335,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "weight": 4,
+                  "weight": 5,
 		  "quality": 1,
                   "functions": [
                     {
@@ -327,7 +351,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "weight": 2,
+                  "weight": 3,
 		  "quality": 2,
                   "functions": [
                     {

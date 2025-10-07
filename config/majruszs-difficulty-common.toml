@@ -194,10 +194,10 @@
 	#Enderman attack teleports the player somewhere nearby.
 	[Features.EndermanTeleport]
 		#Is this feature enabled?
-		is_enabled = true
+		is_enabled = false
 		#Chance of this feature to happen. (this value is scaled by Clamped Regional Difficulty)
 		#Range: 0.0 ~ 1.0
-		chance = 0.4
+		chance = 0.0
 
 	#Sneaking while attacking with End Sword inflicts levitation.
 	[Features.EndSwordLevitation]
@@ -593,13 +593,13 @@
 	[UndeadArmy.Experience]
 		#Normal Mode
 		#Range: 4 ~ 1000
-		normal = 40
+		normal = 200
 		#Expert Mode
 		#Range: 4 ~ 1000
-		expert = 80
+		expert = 400
 		#Master Mode
 		#Range: 4 ~ 1000
-		master = 120
+		master = 800
 
 	#Treasure Bags for each player after defeating the Undead Army.
 	[UndeadArmy.TreasureBags]
