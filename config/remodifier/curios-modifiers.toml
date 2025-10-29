@@ -11,5 +11,5 @@
 	#The amount used to calculate the attribute effect. Also can be multiple. Use ';' to split
 	AMOUNTS = ["0.5", "1", "0.02", "0.02", "0.02", "0.25", "0.5", "0.5", "0.5", "-0.05;-0.05", "0.025", "0.5;0.1", "0.1;0.1", "-0.05;0.05;0.05;1", "0.03", "0.03", "-0.5", "-1", "-0.05", "-0.5", "1;-0.05", "1;-0.05", "0.01;0.25;0.25;0.01;0.01;0.25;0.25", "-0.05;-0.05;-0.05;1;0.5"]
 	#The operation ID of the attribute calculation. Can be three values: 0,1,2. 0 is ADDITION. 1 is MULTIPLY_BASE. 2 is MULTIPLY_TOTAL. you can refer to the calculation of the attributes already in the game
-	OPERATIONS_IDS = ["0", "0", "2", "2", "2", "0", "0", "0", "0", "2;0", "0", "0;0", "0;2", "2;0;2;0", "0", "2", "0", "0", "0", "2", "0", "0;2", "0;2", "2;0;0;2;2;0;0", "2;2;2;0;0"]
+	OPERATIONS_IDS = ["0", "0", "2", "2", "2", "0", "0", "0", "0", "2;0", "0", "0;0", "0;2", "2;0;2;0", "0", "2", "0", "0", "2", "0", "0;2", "0;2", "2;0;0;2;2;0;0", "2;2;2;0;0"]
 
