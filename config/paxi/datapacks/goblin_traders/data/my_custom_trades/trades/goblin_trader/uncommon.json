@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "trades": [
     {
       "type": "goblintraders:basic",
@@ -18,25 +18,12 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:emerald",
-        "count": 6
-      },
-      "payment_item": {
-        "item": "minecraft:turtle_egg",
+        "item": "kubejs:copper_coin",
         "count": 1
       },
-      "price_multiplier": 0.0,
-      "experience": 10
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "minecraft:emerald",
-        "count": 8
-      },
       "payment_item": {
-        "item": "minecraft:pufferfish_bucket",
-        "count": 1
+        "item": "projectvibrantjourneys:cattail",
+        "count": 10
       },
       "price_multiplier": 0.0,
       "max_trades": 4,
@@ -45,14 +32,75 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:sponge",
+        "item": "randomite:randomite_ore",
         "count": 1
       },
       "payment_item": {
-        "item": "minecraft:emerald",
-        "count": 8
+        "item": "betterdefaultbiomes:tall_water_reeds",
+        "count": 12
       },
       "price_multiplier": 0.0,
+      "max_trades": 4,
+      "experience": 10
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "roughtweaks:plaster",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "projectvibrantjourneys:bark_mushroom",
+        "count": 12
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 4,
+      "experience": 10
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "roughtweaks:bandage",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "projectvibrantjourneys:sea_oats",
+        "count": 12
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 4,
+      "experience": 10
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:diamond",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:flint",
+        "count": 5
+      },
+      "secondary_payment_item": {
+        "item": "pickletweaks:grass_fiber_mesh",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "experience": 50
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "pickletweaks:mesh",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:gravel",
+        "count": 32
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 2,
       "experience": 10
     },
     {
@@ -121,34 +169,6 @@
       },
       "price_multiplier": 0.0,
       "max_trades": 32,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "kubejs:iron_coin",
-        "count": 1
-      },
-      "payment_item": {
-        "item": "minecraft:diamond",
-        "count": 20
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 3,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "kubejs:iron_coin",
-        "count": 1
-      },
-      "payment_item": {
-        "item": "minecraft:emerald",
-        "count": 20
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 3,
       "experience": 4
     },
     {

@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "trades": [
     {
       "type": "goblintraders:basic",
@@ -50,14 +50,13 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:fishing_rod",
+        "item": "quark:ancient_tome",
         "count": 1,
-        "nbt": "{Damage:0}"
+        "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:luck_of_the_sea\"}]}"
       },
       "payment_item": {
-        "item": "minecraft:fishing_rod",
-        "count": 1,
-        "nbt": "{Damage:0}"
+        "item": "minecraft:emerald",
+        "count": 5
       },
       "secondary_payment_item": {
         "item": "minecraft:enchanted_book",
@@ -66,25 +65,18 @@
       },
       "price_multiplier": 0.5,
       "max_trades": 2,
-      "experience": 30,
-      "enchantments": [
-        {
-          "id": "minecraft:luck_of_the_sea",
-          "level": 5
-        }
-      ]
+      "experience": 30
     },
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:fishing_rod",
+        "item": "quark:ancient_tome",
         "count": 1,
-        "nbt": "{Damage:0}"
+        "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:lure\"}]}"
       },
       "payment_item": {
-        "item": "minecraft:fishing_rod",
-        "count": 1,
-        "nbt": "{Damage:0}"
+        "item": "minecraft:emerald",
+        "count": 5
       },
       "secondary_payment_item": {
         "item": "minecraft:enchanted_book",
@@ -93,18 +85,12 @@
       },
       "price_multiplier": 0.5,
       "max_trades": 2,
-      "experience": 30,
-      "enchantments": [
-        {
-          "id": "minecraft:lure",
-          "level": 5
-        }
-      ]
+      "experience": 30
     },
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:music_disc_cat",
+        "item": "rats:music_disc_mice_on_venus",
         "count": 1
       },
       "payment_item": {
@@ -118,7 +104,7 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:music_disc_blocks",
+        "item": "rats:music_disc_living_mice",
         "count": 1
       },
       "payment_item": {
@@ -132,7 +118,7 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:music_disc_chirp",
+        "item": "simplefarming:music_disc_nourish",
         "count": 1
       },
       "payment_item": {
@@ -146,7 +132,7 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:music_disc_mellohi",
+        "item": "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov",
         "count": 1
       },
       "payment_item": {
@@ -160,7 +146,7 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:music_disc_stal",
+        "item": "twilightdelight:music_disc_iron_lotus",
         "count": 1
       },
       "payment_item": {
@@ -174,110 +160,42 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:diamond_pickaxe",
+        "item": "quark:ancient_tome",
         "count": 1,
-        "nbt": "{Damage:0}"
+        "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:efficiency\"}]}"
       },
       "payment_item": {
-        "item": "minecraft:diamond_pickaxe",
-        "count": 1,
-        "nbt": "{Damage:0}"
+        "item": "minecraft:emerald",
+        "count": 5
       },
       "secondary_payment_item": {
         "item": "minecraft:enchanted_book",
         "count": 1,
         "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:efficiency\"}]}"
       },
-      "price_multiplier": 0.0,
-      "max_trades": 1,
-      "experience": 200,
-      "enchantments": [
-        {
-          "id": "minecraft:efficiency",
-          "level": 6
-        }
-      ]
+      "price_multiplier": 0.5,
+      "max_trades": 2,
+      "experience": 200
     },
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:diamond_pickaxe",
+        "item": "quark:ancient_tome",
         "count": 1,
-        "nbt": "{Damage:0}"
+        "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:fortune\"}]}"
       },
       "payment_item": {
-        "item": "minecraft:diamond_pickaxe",
-        "count": 1,
-        "nbt": "{Damage:0}"
+        "item": "minecraft:emerald",
+        "count": 5
       },
       "secondary_payment_item": {
         "item": "minecraft:enchanted_book",
         "count": 1,
         "nbt": "{StoredEnchantments:[{lvl:3s,id:\"minecraft:fortune\"}]}"
       },
-      "price_multiplier": 0.0,
-      "max_trades": 1,
-      "experience": 200,
-      "enchantments": [
-        {
-          "id": "minecraft:fortune",
-          "level": 4
-        }
-      ]
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "minecraft:diamond_axe",
-        "count": 1,
-        "nbt": "{Damage:0}"
-      },
-      "payment_item": {
-        "item": "minecraft:diamond_axe",
-        "count": 1,
-        "nbt": "{Damage:0}"
-      },
-      "secondary_payment_item": {
-        "item": "minecraft:enchanted_book",
-        "count": 1,
-        "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:efficiency\"}]}"
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 1,
-      "experience": 200,
-      "enchantments": [
-        {
-          "id": "minecraft:efficiency",
-          "level": 6
-        }
-      ]
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
-        "item": "minecraft:diamond_shovel",
-        "count": 1,
-        "nbt": "{Damage:0}"
-      },
-      "payment_item": {
-        "item": "minecraft:diamond_shovel",
-        "count": 1,
-        "nbt": "{Damage:0}"
-      },
-      "secondary_payment_item": {
-        "item": "minecraft:enchanted_book",
-        "count": 1,
-        "nbt": "{StoredEnchantments:[{lvl:5s,id:\"minecraft:efficiency\"}]}"
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 1,
-      "experience": 200,
-      "enchantments": [
-        {
-          "id": "minecraft:efficiency",
-          "level": 6
-        }
-      ]
+      "price_multiplier": 0.5,
+      "max_trades": 2,
+      "experience": 200
     },
     {
       "type": "goblintraders:basic",
@@ -291,7 +209,7 @@
       },
       "price_multiplier": 0.0,
       "max_trades": 1,
-      "experience": 4
+      "experience": 30
     }
   ]
 }

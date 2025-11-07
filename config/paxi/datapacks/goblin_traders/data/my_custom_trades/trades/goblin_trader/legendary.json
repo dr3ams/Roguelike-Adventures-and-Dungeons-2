@@ -1,0 +1,45 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "quark:ancient_tome",
+        "count": 1,
+        "nbt": "{StoredEnchantments:[{lvl:3s,id:\"apotheosis:earths_boon\"}]}"
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "secondary_payment_item": {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": "{StoredEnchantments:[{lvl:3s,id:\"apotheosis:earths_boon\"}]}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "experience": 1000
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "quark:ancient_tome",
+        "count": 1,
+        "nbt": "{StoredEnchantments:[{lvl:3s,id:\"radenchants:socketed\"}]}"
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "secondary_payment_item": {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": "{StoredEnchantments:[{lvl:3s,id:\"radenchants:socketed\"}]}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "experience": 500
+    }
+  ]
+}

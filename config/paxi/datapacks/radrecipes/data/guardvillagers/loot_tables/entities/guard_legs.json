@@ -10,12 +10,24 @@
             {
               "type": "minecraft:item",
               "weight": 55,
-              "name": "dungeons_gear:guards_leggings"
+              "name": "dungeons_gear:guards_leggings",
+	          "functions": [
+	            {
+	              "function": "minecraft:set_nbt",
+	              "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:1}]}"
+	            }
+	          ]
             },
             {
               "type": "minecraft:item",
               "weight": 5,
-              "name": "dungeons_gear:champions_leggings"
+              "name": "dungeons_gear:champions_leggings",
+	          "functions": [
+	            {
+	              "function": "minecraft:set_nbt",
+	              "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:1}]}"
+	            }
+	          ]
             }
           ],
           "conditions": [
@@ -83,6 +95,20 @@
                 "predicate": {
                   "equipment": {
                     "mainhand": {
+                      "item": "minecraft:tnt"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
                     "tag": "spartanweaponry:silver_weapons"
                     }
                   }
@@ -96,7 +122,13 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "iceandfire:armor_silver_metal_leggings"
+              "name": "iceandfire:armor_silver_metal_leggings",
+	          "functions": [
+	            {
+	              "function": "minecraft:set_nbt",
+	              "tag": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:1}]}"
+	            }
+	          ]
             }
           ],
           "conditions": [
@@ -118,7 +150,13 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "dungeons_gear:evocation_robes_leggings"
+              "name": "dungeons_gear:evocation_robes_leggings",
+	          "functions": [
+	            {
+	              "function": "minecraft:set_nbt",
+	              "tag": "{Enchantments:[{id:\"dungeons_gear:melee_aura\",lvl:1},{id:\"dungeons_gear:life_steal_aura\",lvl:1},{id:\"apotheosis:magic_protection\",lvl:1}]}"
+	            }
+	          ]
             }
           ],
           "conditions": [
@@ -140,7 +178,13 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "dungeons_gear:hunters_leggings"
+              "name": "dungeons_gear:hunters_leggings",
+	          "functions": [
+	            {
+	              "function": "minecraft:set_nbt",
+	              "tag": "{Enchantments:[{id:\"minecraft:projectile_protection\",lvl:1}]}"
+	            }
+	          ]
             }
           ],
           "conditions": [
@@ -184,7 +228,13 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "dungeons_gear:mercenary_leggings"
+              "name": "dungeons_gear:mercenary_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"uniquee:vitae\",lvl:1},{id:\"dungeons_gear:altruistic\",lvl:1},{id:\"minecraft:blast_protection\",lvl:1}]}"
+            }
+          ]
             }
           ],
           "conditions": [
@@ -195,6 +245,34 @@
                 "equipment": {
                   "mainhand": {
                     "tag": "guardvillagers:guard_mercenary_items"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "dungeons_gear:rugged_climbing_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:blast_protection\",lvl:2}]}"
+            }
+          ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "item": "minecraft:tnt"
                   }
                 }
               }

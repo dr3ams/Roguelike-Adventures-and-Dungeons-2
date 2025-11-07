@@ -1,0 +1,46 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:totem_of_undying",
+        "count": 4
+      },
+      "payment_item": {
+        "item": "minecraft:netherite_ingot",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "experience": 10
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:netherite_scrap",
+        "count": 5
+      },
+      "payment_item": {
+        "item": "minecraft:ancient_debris",
+        "count": 4
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 20,
+      "experience": 50
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:emerald",
+        "count": 22
+      },
+      "payment_item": {
+        "item": "byg:hypogeal_imperium",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "experience": 40
+    }
+  ]
+}

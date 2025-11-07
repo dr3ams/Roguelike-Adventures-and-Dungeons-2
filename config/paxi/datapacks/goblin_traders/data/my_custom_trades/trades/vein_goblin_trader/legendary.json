@@ -1,0 +1,45 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "quark:ancient_tome",
+        "count": 1,
+        "nbt": "{StoredEnchantments:[{lvl:5s,id:\"uniquee:ameliorated_sharpness\"}]}"
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "secondary_payment_item": {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": "{StoredEnchantments:[{lvl:5s,id:\"uniquee:ameliorated_sharpness\"}]}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "experience": 1000
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "quark:ancient_tome",
+        "count": 1,
+        "nbt": "{StoredEnchantments:[{lvl:4s,id:\"uniquee:endest_reap\"}]}"
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 5
+      },
+      "secondary_payment_item": {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "nbt": "{StoredEnchantments:[{lvl:4s,id:\"uniquee:endest_reap\"}]}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "experience": 1250
+    }
+  ]
+}
