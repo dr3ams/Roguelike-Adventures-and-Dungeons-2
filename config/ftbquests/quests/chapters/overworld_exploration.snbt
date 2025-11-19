@@ -34,8 +34,8 @@
 			corner: false
 		}
 		{
-			x: 22.0d
-			y: 3.5d
+			x: 26.5d
+			y: 4.5d
 			width: 6.0d
 			height: 6.0d
 			rotation: 0.0d
@@ -109,22 +109,41 @@
 			]
 		}
 		{
-			x: 5.5d
-			y: 2.0d
-			description: ["A classic stone pickaxe."]
+			title: "Mining Tools"
+			x: 6.5d
+			y: 1.5d
+			description: ["Bring out the classic stone pickaxe, or try something new like a stone hammer!"]
 			dependencies: ["01ECE22274DDE487"]
 			id: "518DF4A178673014"
-			tasks: [{
-				id: "0A4DEEAE9F94ACC9"
-				type: "item"
-				item: {
-					id: "minecraft:stone_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "0A4DEEAE9F94ACC9"
+					type: "item"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "6DF2E13F784CD025"
+					type: "item"
+					item: {
+						id: "stalwart_dungeons:stone_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "249C63A931C8878F"
@@ -141,7 +160,7 @@
 		}
 		{
 			title: "Iron"
-			x: 14.5d
+			x: 18.5d
 			y: -1.0d
 			shape: "octagon"
 			subtitle: "A versatile classic"
@@ -176,11 +195,6 @@
 					ftb_money: 10L
 				}
 				{
-					id: "03C46CD81F6C73A1"
-					type: "item"
-					item: "randomite:randomite_ore"
-				}
-				{
 					id: "79932CB177D6F11A"
 					type: "item"
 					item: {
@@ -196,10 +210,23 @@
 					type: "xp"
 					xp: 50
 				}
+				{
+					id: "7866EF85AAA8105B"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			x: 21.0d
+			x: 27.0d
 			y: 0.5d
 			description: ["The classic pickaxe of Minecraft. Perfect for mining a lot of obsidian."]
 			dependencies: ["446936F80D06B8A4"]
@@ -254,7 +281,7 @@
 			]
 		}
 		{
-			x: 21.0d
+			x: 27.0d
 			y: -1.0d
 			shape: "octagon"
 			subtitle: "The link to other worlds"
@@ -275,11 +302,6 @@
 					item: "minecraft:cake"
 				}
 				{
-					id: "6C1F687B2A13D026"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
 					id: "1D100FB166BC1CE4"
 					type: "ftbmoney:money"
 					ftb_money: 10L
@@ -289,16 +311,29 @@
 					type: "xp"
 					xp: 80
 				}
+				{
+					id: "3E584DC5BA406829"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			x: 11.5d
+			x: 15.5d
 			y: -3.0d
 			subtitle: "Tower Defense"
 			description: [
 				"Protect yourself with a large Copper Tower Shield!"
 				""
-				"Just like the regular shield, tower shields can also have banners applied to them."
+				"Just like the regular shield, tower shields can also have banners applied."
 				""
 				"Copper has a &ehigher durability&r than tin making it a good choice for shields and armor."
 			]
@@ -324,7 +359,15 @@
 				{
 					id: "1C3031489B7EDC39"
 					type: "item"
-					item: "aquaculture:lockbox"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 				{
 					id: "647A677AD4A70DCA"
@@ -339,7 +382,7 @@
 			]
 		}
 		{
-			x: 8.5d
+			x: 11.5d
 			y: -1.0d
 			subtitle: "Like stone, but better!"
 			dependencies: ["0D53B0136F089B1F"]
@@ -393,8 +436,8 @@
 		}
 		{
 			title: "Utility tools"
-			x: 7.0d
-			y: 1.0d
+			x: 8.5d
+			y: 0.5d
 			description: [
 				"- &aPaxels&r: A combination of Axe, Pickaxe, and Shovel. Can be used to create Path blocks as well as Stripped Logs."
 				""
@@ -471,12 +514,14 @@
 		}
 		{
 			title: "Tin"
-			x: 10.0d
+			x: 14.0d
 			y: -1.0d
+			shape: "octagon"
 			subtitle: "Who needs iron tools?"
 			description: ["Tin matches flint gear in power, but it has the first pickaxe that can mine tougher ores like diamond."]
 			dependencies: ["02ED7F720C5EBABD"]
 			dependency_requirement: "one_started"
+			size: 1.5d
 			id: "59F003B96FBE2813"
 			tasks: [
 				{
@@ -510,20 +555,28 @@
 					ftb_money: 10L
 				}
 				{
-					id: "5E93248E977069F9"
-					type: "item"
-					item: "randomite:randomite_ore"
-				}
-				{
 					id: "094AF99446344E27"
 					type: "xp"
 					xp: 35
+				}
+				{
+					id: "4DB3BC42C8D6A06A"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
 		{
 			title: "Copper"
-			x: 12.5d
+			x: 16.0d
 			y: -1.0d
 			subtitle: "Easy to find"
 			description: ["Slightly more durable than tin."]
@@ -557,7 +610,7 @@
 		}
 		{
 			title: "Silver"
-			x: 16.5d
+			x: 20.75d
 			y: -1.0d
 			subtitle: "Slayer of the Undead"
 			description: ["A sidegrade to iron great for warding off the undead."]
@@ -583,20 +636,28 @@
 					ftb_money: 10L
 				}
 				{
-					id: "1B5F0975C35BDF14"
-					type: "item"
-					item: "randomite:randomite_ore"
-				}
-				{
 					id: "38E4EE9C5BF23EDF"
 					type: "xp"
 					xp: 55
+				}
+				{
+					id: "0CA4C12E90B61D8B"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
 		{
 			title: "Sapphire"
-			x: 19.5d
+			x: 25.0d
 			y: -1.0d
 			subtitle: "Feeling very lucky today"
 			description: ["The first diamond-level equipment. The tools have less durability than diamond but much more than iron."]
@@ -622,11 +683,6 @@
 					ftb_money: 10L
 				}
 				{
-					id: "2B4272E963BB8DF8"
-					type: "item"
-					item: "randomite:randomite_ore"
-				}
-				{
 					id: "2541E5407954EAB1"
 					type: "item"
 					item: {
@@ -642,12 +698,26 @@
 					type: "xp"
 					xp: 75
 				}
+				{
+					id: "16A8D1D1A0C06DB6"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
 			title: "Lead"
-			x: 18.0d
+			x: 23.0d
 			y: -1.0d
+			shape: "octagon"
 			subtitle: "Moving on up"
 			description: [
 				"Tough but slow, Lead is a good upgrade between iron and diamond equipment."
@@ -656,6 +726,7 @@
 			]
 			dependencies: ["5F4896458FA5BB61"]
 			dependency_requirement: "one_started"
+			size: 1.5d
 			id: "1D6D6CB93ECEF297"
 			tasks: [
 				{
@@ -698,10 +769,23 @@
 					type: "xp"
 					xp: 60
 				}
+				{
+					id: "17E47265772EEF10"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			x: 6.5d
+			x: 7.5d
 			y: -2.5d
 			dependencies: ["01ECE22274DDE487"]
 			id: "766E4FEA8148AEDA"
@@ -718,7 +802,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 7.0d
 			y: -1.0d
 			shape: "octagon"
 			description: ["You can also find rocks scattered on the ground and and skip making wooden tools altogether."]
@@ -746,8 +830,8 @@
 			}]
 		}
 		{
-			x: 18.0d
-			y: 0.0d
+			x: 23.0d
+			y: 0.5d
 			description: ["Just 1 obsidan. Not too bad."]
 			dependencies: ["1D6D6CB93ECEF297"]
 			id: "4D4CE785FDA4EFB9"
@@ -775,15 +859,23 @@
 					ftb_money: 10L
 				}
 				{
-					id: "1E9E98CF7FF7D807"
-					type: "xp"
-					xp: 25
+					id: "04BF4D178D7DAE1E"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
 		{
-			x: 18.0d
-			y: 3.0d
+			x: 23.0d
+			y: 4.0d
 			dependencies: ["43509530CAD67EE9"]
 			id: "4E332FAD066528F2"
 			tasks: [{
@@ -824,8 +916,8 @@
 		}
 		{
 			title: "Time to farm"
-			x: 5.0d
-			y: 1.0d
+			x: 5.5d
+			y: 0.5d
 			shape: "circle"
 			description: [
 				"The hoe acts as a hybrid of both the scythe and the sickle."
@@ -891,7 +983,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 11.5d
 			y: 0.0d
 			description: ["This is slightly better than a stone sword."]
 			dependencies: ["02ED7F720C5EBABD"]
@@ -938,7 +1030,7 @@
 			]
 		}
 		{
-			x: 12.5d
+			x: 16.5d
 			y: -3.0d
 			subtitle: "Who even needs iron?"
 			description: [
@@ -1022,8 +1114,8 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: -2.0d
+			x: 23.5d
+			y: -2.5d
 			subtitle: "No radiation can stop you now!"
 			description: [
 				"Makes you heavier, harder to knock back, and blocks some magic damage."
@@ -1089,14 +1181,30 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "7AD0A1CC6C7CC3FC"
-				type: "ftbmoney:money"
-				ftb_money: 25L
-			}]
+			rewards: [
+				{
+					id: "7AD0A1CC6C7CC3FC"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "23061DD8D4D8D959"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
 		}
 		{
-			x: 4.5d
+			x: 5.0d
 			y: 2.0d
 			description: ["After filling it with water it can be used to instantly moisurize farmland."]
 			dependencies: ["45367EFC307FBA67"]
@@ -1116,7 +1224,15 @@
 				{
 					id: "55532D029509A09F"
 					type: "item"
-					item: "aquaculture:lockbox"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 				{
 					id: "444940D0B6ADC5EC"
@@ -1132,7 +1248,7 @@
 		}
 		{
 			title: "Go full nomad!"
-			x: 4.0d
+			x: 4.5d
 			y: -2.5d
 			description: [
 				"If only there was a way to sleep without changing my spawn point..."
@@ -1157,7 +1273,15 @@
 				{
 					id: "2E9D9E22E7194EA6"
 					type: "item"
-					item: "aquaculture:box"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 				{
 					id: "3F2013E48B41C56A"
@@ -1222,8 +1346,8 @@
 			]
 		}
 		{
-			x: 18.0d
-			y: 2.0d
+			x: 23.0d
+			y: 2.5d
 			subtitle: "is it an enchanting table or an enchantment table?"
 			description: ["&aLapis Lazuli&r you place in the table will stay even if you exit the menu."]
 			dependencies: ["4D4CE785FDA4EFB9"]
@@ -1261,8 +1385,8 @@
 			]
 		}
 		{
-			x: 19.5d
-			y: 2.0d
+			x: 24.5d
+			y: 2.5d
 			subtitle: "Is this where chicken of the sea is made?"
 			description: [
 				"&6The Altar of the Sea is a block which allows you to recycle worthless enchanted items."
@@ -1291,15 +1415,15 @@
 					ftb_money: 50L
 				}
 				{
-					id: "2013053644C9F57B"
+					id: "21112C5222B214EB"
 					type: "xp"
 					xp: 450
 				}
 			]
 		}
 		{
-			x: 18.0d
-			y: 4.0d
+			x: 23.0d
+			y: 5.5d
 			subtitle: "sea shelves by the seashore"
 			description: [
 				"Provides both &aEterna&r and &dArcana&r."
@@ -1354,7 +1478,7 @@
 			]
 		}
 		{
-			x: 9.5d
+			x: 13.5d
 			y: -3.0d
 			subtitle: "If only I had a brain..."
 			description: [
@@ -1418,8 +1542,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: -2.0d
+			x: 20.75d
+			y: -2.5d
 			subtitle: "Extra stylish"
 			description: [
 				"Reflects Damage against Undead Mobs."
@@ -1495,8 +1619,8 @@
 			]
 		}
 		{
-			x: 19.5d
-			y: -2.0d
+			x: 25.0d
+			y: -2.5d
 			subtitle: "Become one with the ocean and its treasures will arrive"
 			description: [
 				"Grants Serpendipity, which boosts fortune, looting, and luck."
@@ -1572,7 +1696,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 11.5d
 			y: 1.0d
 			description: ["The vanilla bow is needed to level up archery, which allows you to use better bows."]
 			dependencies: ["5F7DCF112F9F6C1C"]
@@ -1621,7 +1745,7 @@
 			]
 		}
 		{
-			x: 11.0d
+			x: 14.0d
 			y: 1.0d
 			subtitle: "More villages!"
 			description: [
@@ -1659,7 +1783,7 @@
 			]
 		}
 		{
-			x: 15.5d
+			x: 19.5d
 			y: 0.0d
 			shape: "gear"
 			description: [
@@ -1706,7 +1830,7 @@
 			]
 		}
 		{
-			x: 7.0d
+			x: 7.5d
 			y: -4.0d
 			subtitle: "having a blast"
 			description: ["The blast furnace can be used to smelt down diamond and neptunium tools back into a tiny amount of materials."]
@@ -1721,7 +1845,15 @@
 				{
 					id: "46C82EAECF2E3562"
 					type: "item"
-					item: "aquaculture:lockbox"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 				{
 					id: "3C6F2B40DB6079B6"
@@ -1737,7 +1869,7 @@
 		}
 		{
 			title: "Monster Slayer"
-			x: 10.0d
+			x: 12.5d
 			y: 0.5d
 			shape: "gear"
 			description: [
@@ -1774,11 +1906,8 @@
 					id: "1D81ED3C684980C0"
 					type: "item"
 					item: {
-						id: "minecraft:potion"
+						id: "kubejs:copper_coin"
 						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -1829,7 +1958,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 10.0d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "More than just for cooking!"
@@ -1920,7 +2049,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 11.5d
 			y: 2.0d
 			description: ["Carries a plethora of arrows and looks nice on your back."]
 			dependencies: ["7B627325BF285247"]
@@ -1945,13 +2074,21 @@
 			rewards: [{
 				id: "3762842C653D63B1"
 				type: "item"
-				item: "aquaculture:lockbox"
+				item: {
+					id: "kubejs:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 		{
 			title: "Preparing for the nether!"
 			icon: "betterportals:portal_fluid_bucket"
-			x: 22.5d
+			x: 28.5d
 			y: -1.0d
 			shape: "gear"
 			subtitle: "You'll Nether believe how you get there!"
@@ -2031,7 +2168,7 @@
 					id: "2281A8E6AE497709"
 					type: "item"
 					item: {
-						id: "aquaculture:lockbox"
+						id: "kubejs:copper_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -2050,8 +2187,8 @@
 		}
 		{
 			title: "Nomadic dreams"
-			x: 5.5d
-			y: -3.0d
+			x: 6.0d
+			y: -3.5d
 			subtitle: "no way is that a reference to the modpack dev?"
 			description: [
 				"Modpack encourages many different playstyles including nomadic exploring!"
@@ -2177,7 +2314,7 @@
 					id: "4F747595D6652826"
 					type: "item"
 					item: {
-						id: "aquaculture:treasure_chest"
+						id: "kubejs:iron_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -2202,8 +2339,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: -2.0d
+			x: 6.0d
+			y: -2.5d
 			description: [
 				"&6Backpacks are wearable items that increase your carrying space when traveling."
 				""
@@ -2233,13 +2370,22 @@
 				}
 			}]
 			rewards: [{
-				id: "6A0F7AF0AC1F747B"
-				type: "ftbmoney:money"
-				ftb_money: 50L
+				id: "2DA30895D38F2779"
+				type: "item"
+				item: {
+					id: "kubejs:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
 			}]
 		}
 		{
-			x: 14.5d
+			x: 18.5d
 			y: 0.5d
 			subtitle: "If Minecraft can't provide the goods, i'll forge them myself!"
 			description: [
@@ -2276,12 +2422,12 @@
 		}
 		{
 			title: "Humble accommodation"
-			x: 8.0d
+			x: 8.5d
 			y: -3.5d
 			description: [
 				"Chests, Ladders, and Bookshelves can be decorated into different wood types, to better fit your home."
 				""
-				"Simply insert a chest/ladder/bookshelf alongside the wooden plank of your choice to change its looks."
+				"Simply in the crafting grid place a chest/ladder/bookshelf alongside the wooden plank of your choice to change its looks."
 			]
 			dependencies: ["766E4FEA8148AEDA"]
 			id: "3A7C045E94E9A459"
@@ -2385,7 +2531,7 @@
 		}
 		{
 			title: "Let's make a Mesh!"
-			x: 7.5d
+			x: 10.0d
 			y: -1.0d
 			description: [
 				"You can acquire Flint more effectively with Fiber Mesh."
@@ -2451,7 +2597,7 @@
 			]
 		}
 		{
-			x: 14.0d
+			x: 18.0d
 			y: -2.5d
 			description: ["Looks like a daunting quest at first, but you will get this much quicker than expected."]
 			dependencies: ["62D2AC9343C06D18"]
@@ -2471,7 +2617,7 @@
 		}
 		{
 			title: "Spoils of Battle"
-			x: 11.0d
+			x: 15.0d
 			y: -4.0d
 			description: ["Gather some more monster loot with your new equipment."]
 			dependencies: [
@@ -2570,8 +2716,8 @@
 			]
 		}
 		{
-			x: 21.0d
-			y: 1.5d
+			x: 26.0d
+			y: 2.0d
 			description: ["Uh oh..."]
 			dependencies: [
 				"268FEFB76E852EE6"
@@ -2598,15 +2744,23 @@
 					ftb_money: 50L
 				}
 				{
-					id: "09C954B6D4DA5DC9"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "07B32BB36A1941F6"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
 		{
-			x: 19.0d
-			y: 0.5d
+			x: 24.0d
+			y: 1.0d
 			description: [
 				"A stack of obsidian mined."
 				""
@@ -2637,11 +2791,24 @@
 					type: "xp"
 					xp: 199
 				}
+				{
+					id: "163814E6A9385CA9"
+					type: "item"
+					item: {
+						id: "kubejs:iron_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			x: 20.0d
-			y: 1.0d
+			x: 25.0d
+			y: 1.5d
 			description: ["2 stacks. Where is this going..."]
 			dependencies: ["62CC0A7EBAFC51DD"]
 			hide: true
@@ -2665,14 +2832,23 @@
 					ftb_money: 25L
 				}
 				{
-					id: "69159EC2448FCBAC"
-					type: "xp_levels"
-					xp_levels: 2
+					id: "2AE8432C514DBF90"
+					type: "item"
+					item: {
+						id: "kubejs:iron_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
 				}
 			]
 		}
 		{
-			x: 15.0d
+			x: 19.0d
 			y: -2.5d
 			description: [
 				"Iron is a very versatile material, get as much as you can!"
@@ -2696,8 +2872,8 @@
 		}
 		{
 			title: "You asked for this, Mage"
-			x: 22.0d
-			y: 2.0d
+			x: 27.0d
+			y: 2.5d
 			description: ["Blame @doctor_mage"]
 			hide_dependency_lines: false
 			dependencies: ["76CDF977DD44821E"]
@@ -2817,33 +2993,7 @@
 			]
 		}
 		{
-			title: "A RAD Demise"
-			icon: {
-				id: "tombstone:decorative_grave_cross"
-				Count: 1b
-				tag: {
-					model_texture: 1
-				}
-			}
-			x: 16.0d
-			y: 6.0d
-			subtitle: "Die at least 1 time"
-			optional: true
-			id: "68365C63EFD23F2E"
-			tasks: [{
-				id: "3300C171DE09AC24"
-				type: "stat"
-				stat: "minecraft:deaths"
-				value: 1
-			}]
-			rewards: [{
-				id: "69E5E8E80BE95E1B"
-				type: "xp"
-				xp: 150
-			}]
-		}
-		{
-			x: 14.5d
+			x: 20.0d
 			y: 6.0d
 			subtitle: "Chose your first knowledge of death"
 			description: [
@@ -2869,7 +3019,7 @@
 		}
 		{
 			title: "Decorative Graves"
-			x: 14.5d
+			x: 20.0d
 			y: 4.5d
 			subtitle: "More than just a decoration"
 			description: [
@@ -2930,8 +3080,9 @@
 			}]
 		}
 		{
-			x: 15.5d
+			x: 21.0d
 			y: 4.5d
+			description: ["An ingredient for creating various tablets of teleportation."]
 			dependencies: ["2D09120BC5B9A53D"]
 			id: "631533869B9D2B84"
 			tasks: [{
@@ -2961,7 +3112,7 @@
 			]
 		}
 		{
-			x: 13.5d
+			x: 19.0d
 			y: 4.5d
 			description: [
 				"Pray (Hold &3Right Click&r) near a &adecorative grave&r to increase your Knowledge of Death points."
@@ -3001,8 +3152,8 @@
 		}
 		{
 			title: "Leap Of Faith"
-			x: 3.0d
-			y: 4.0d
+			x: 2.5d
+			y: 4.5d
 			subtitle: "Falling with style"
 			description: [
 				"Gliders can be used to glide across long distances."
@@ -3041,8 +3192,8 @@
 		}
 		{
 			title: "Praise Hylia"
-			x: 5.0d
-			y: 4.0d
+			x: 4.5d
+			y: 4.5d
 			description: [
 				"A lonely momenument to an ancient goddess."
 				""
@@ -3062,11 +3213,6 @@
 			}]
 			rewards: [
 				{
-					id: "35FBAD29A89BAD45"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "1EDF9EF24B575AA4"
 					type: "ftbmoney:money"
 					ftb_money: 30L
@@ -3078,12 +3224,25 @@
 					skill: "flying"
 					amount: 1.0d
 				}
+				{
+					id: "7E1B86E1AC9C3919"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
 			title: "Stylish Statues"
-			x: 7.0d
-			y: 4.0d
+			x: 6.5d
+			y: 4.5d
 			description: ["Find or craft all the statues"]
 			dependencies: ["533B104DB3063EAB"]
 			id: "23BE4F851A51A152"
@@ -3203,7 +3362,7 @@
 					id: "654107D9604321F0"
 					type: "item"
 					item: {
-						id: "kubejs:gold_coin"
+						id: "kubejs:copper_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -3216,7 +3375,7 @@
 		}
 		{
 			title: "Spartan Weapons"
-			x: 10.5d
+			x: 14.5d
 			y: -3.0d
 			subtitle: "This is..."
 			description: [
@@ -3266,7 +3425,7 @@
 			title: "What's next?"
 			icon: "kubejs:skull2"
 			disable_toast: true
-			x: 24.0d
+			x: 30.0d
 			y: -1.0d
 			shape: "octagon"
 			description: ["Check the \"&3Nether Exploration&r\" Chapter to find quests relating to the nether!"]
@@ -3284,9 +3443,11 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 2.0d
+			title: "Life in the Village"
+			x: 14.0d
+			y: 2.5d
 			subtitle: "Find a village"
+			description: ["Wait that's a different modpack..."]
 			dependencies: ["4EAD123C4CC0E5CA"]
 			id: "79A9E6D98A50387F"
 			tasks: [{
@@ -3302,9 +3463,10 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 3.0d
+			x: 14.0d
+			y: 4.0d
 			subtitle: "Make your first villager trade"
+			description: ["Hrr!"]
 			dependencies: ["79A9E6D98A50387F"]
 			id: "4355236339BC275F"
 			tasks: [{
@@ -3320,8 +3482,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 2.0d
+			x: 21.5d
+			y: 1.5d
 			subtitle: "The grind never stops!"
 			description: ["You can also disenchant useless enchanted books&r and any equipment on &bGrindstone&r and get some levels back."]
 			dependencies: ["43509530CAD67EE9"]
@@ -3388,8 +3550,8 @@
 			]
 		}
 		{
-			x: 12.0d
-			y: 1.5d
+			x: 15.5d
+			y: 2.0d
 			shape: "diamond"
 			description: ["The workstation used by the Oceanographer villager."]
 			dependencies: ["4EAD123C4CC0E5CA"]
@@ -3423,8 +3585,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 2.5d
+			x: 16.5d
+			y: 3.0d
 			shape: "diamond"
 			description: ["Table for the Forester Profession."]
 			dependencies: ["4EAD123C4CC0E5CA"]
@@ -3458,8 +3620,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 2.5d
+			x: 15.5d
+			y: 3.0d
 			shape: "diamond"
 			description: ["The table for the Engineer profession."]
 			dependencies: ["4EAD123C4CC0E5CA"]
@@ -3493,8 +3655,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 1.5d
+			x: 16.5d
+			y: 2.0d
 			shape: "diamond"
 			description: ["Table for the Florist profession."]
 			dependencies: ["4EAD123C4CC0E5CA"]
@@ -3528,8 +3690,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 2.0d
+			x: 16.0d
+			y: 2.5d
 			shape: "diamond"
 			description: ["Table for the Hunter Profession."]
 			dependencies: ["4EAD123C4CC0E5CA"]
@@ -3590,7 +3752,7 @@
 					id: "62B0BFA5F94AF431"
 					type: "item"
 					item: {
-						id: "aquaculture:treasure_chest"
+						id: "kubejs:iron_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -3634,7 +3796,7 @@
 					id: "40980B15F42DB795"
 					type: "item"
 					item: {
-						id: "aquaculture:treasure_chest"
+						id: "kubejs:copper_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -3642,6 +3804,7 @@
 							}
 						}
 					}
+					count: 3
 				}
 				{
 					id: "3F10F600B2F9288F"
@@ -3664,7 +3827,7 @@
 			]
 		}
 		{
-			x: 8.0d
+			x: 10.0d
 			y: 1.0d
 			subtitle: "Featherless arrows"
 			description: ["A cheaper arrow that can be crafted entirely from wood byproducts. Flies further than standard arrows."]
@@ -3691,7 +3854,7 @@
 				id: "5C8E55CB4C9931C5"
 				type: "item"
 				item: {
-					id: "aquaculture:box"
+					id: "kubejs:copper_coin"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
@@ -3702,8 +3865,9 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 0.5d
+			x: 16.0d
+			y: 1.0d
+			subtitle: "I call it overworldite!"
 			description: ["A refined alloy created by crafting together Emeralds and Tin."]
 			dependencies: ["4EAD123C4CC0E5CA"]
 			id: "4424404688C4DA49"
@@ -3785,8 +3949,8 @@
 					}]
 				}
 			}
-			x: 19.5d
-			y: 3.0d
+			x: 24.5d
+			y: 4.0d
 			description: [
 				"There is now a new system for enchanting that divides enchanting into 3 stats called &aEterna&r, &cQuanta&r and &dArcana&r."
 				""
@@ -3811,8 +3975,8 @@
 			title: "&aEterna"
 			icon: "buzzier_bees:lime_candle"
 			disable_toast: true
-			x: 20.5d
-			y: 3.0d
+			x: 25.5d
+			y: 4.0d
 			subtitle: "The enchanting you are familiar with!"
 			description: [
 				"Eterna is the base power of your enchantments. It is what determines how strong your enchantments will be and its level cost."
@@ -3832,8 +3996,8 @@
 		{
 			title: "&cQuanta"
 			disable_toast: true
-			x: 21.5d
-			y: 3.0d
+			x: 26.5d
+			y: 4.0d
 			subtitle: "Gambling time!"
 			description: [
 				"Quanta adds some randomness to your enchanting power."
@@ -3865,8 +4029,8 @@
 			title: "&dArcana"
 			icon: "buzzier_bees:purple_candle"
 			disable_toast: true
-			x: 22.5d
-			y: 3.0d
+			x: 27.5d
+			y: 4.0d
 			subtitle: "The rarer the better"
 			description: [
 				"Arcana increases the chance of finding rarer, more valuable enchantments."
@@ -3894,8 +4058,8 @@
 		}
 		{
 			icon: "enigmaticlegacy:enchantment_transposer"
-			x: 16.5d
-			y: 3.0d
+			x: 21.5d
+			y: 2.5d
 			description: [
 				"There are multiple methods to perform disenchanting."
 				""
@@ -3919,10 +4083,10 @@
 				title: "Disenchanting"
 			}]
 			rewards: [{
-				id: "48EE2F06FDD8213D"
+				id: "4EA5762C32D6E185"
 				type: "item"
 				item: {
-					id: "minecraft:book"
+					id: "kubejs:copper_coin"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
@@ -3945,8 +4109,8 @@
 				}
 			}
 			disable_toast: true
-			x: 14.5d
-			y: 1.75d
+			x: 18.5d
+			y: 2.0d
 			subtitle: "Mending isn't the only way; alternative enchantments to repair your gear"
 			description: [
 				"While you may already know of the vanilla repair methods; crafting, anvil repairing and mending, this pack adds many new enchantments and items to restore durability on your items."
@@ -4111,7 +4275,7 @@
 			]
 		}
 		{
-			x: 8.5d
+			x: 11.5d
 			y: -2.0d
 			subtitle: "Not the most comfortable armor, but it'll keep me safe"
 			description: [
@@ -4234,7 +4398,7 @@
 				id: "726BBA4EDE4AEDC7"
 				type: "item"
 				item: {
-					id: "aquaculture:box"
+					id: "kubejs:copper_coin"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
@@ -4284,7 +4448,7 @@
 		}
 		{
 			title: "Gold"
-			x: 11.5d
+			x: 15.0d
 			y: 0.0d
 			description: [
 				"Gold has the highest pmmo stat boosts of all equipment."
@@ -4336,8 +4500,8 @@
 			title: "&eRectification"
 			icon: "buzzier_bees:yellow_candle"
 			disable_toast: true
-			x: 21.5d
-			y: 4.0d
+			x: 26.5d
+			y: 5.0d
 			subtitle: "Less risky gambling"
 			description: [
 				"Rectification can be used to reduce the negative effects of quanta. &aGlowstone&r, &aAmethyst Blocks&r, and &aRectification Shelves&r can provide rectification."
@@ -4360,8 +4524,8 @@
 			title: "&3Enchanting Clues"
 			icon: "buzzier_bees:cyan_candle"
 			disable_toast: true
-			x: 23.5d
-			y: 3.0d
+			x: 28.5d
+			y: 4.0d
 			subtitle: "No more guessing"
 			description: [
 				"Normally you can only see one of the enchantments you are going to get from the enchanting table."
@@ -4382,8 +4546,8 @@
 		}
 		{
 			title: "Building Tools"
-			x: 6.5d
-			y: 2.0d
+			x: 7.5d
+			y: 1.5d
 			shape: "gear"
 			description: [
 				"There are many tools that can help improve building."
@@ -4442,8 +4606,8 @@
 					Damage: 0
 				}
 			}
-			x: 11.0d
-			y: 4.0d
+			x: 14.0d
+			y: 5.5d
 			description: [
 				"&bSelling &ris a mechanic added by &6Dungeons Gear&r that allows you to sell equipments from that mod into emeralds."
 				""
@@ -4477,14 +4641,22 @@
 				count: 12L
 			}]
 			rewards: [{
-				id: "0CE5368AF1224FAA"
-				type: "ftbmoney:money"
-				ftb_money: 5L
+				id: "2C1E3EEBD888117E"
+				type: "item"
+				item: {
+					id: "kubejs:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 		}
 		{
 			title: "Your first bossfight!"
-			x: 11.0d
+			x: 15.0d
 			y: -5.0d
 			shape: "gear"
 			subtitle: "A jaw-dropping experience"
@@ -4525,8 +4697,8 @@
 		}
 		{
 			title: "Getting Stronger"
-			x: 17.5d
-			y: -2.0d
+			x: 22.5d
+			y: -2.5d
 			subtitle: "Slow but powerful"
 			description: [
 				"Lead Spartan Weapons deal even more damage than Diamond, but are heavier giving you a -25% attack speed penalty."
@@ -4556,20 +4728,28 @@
 					ftb_money: 15L
 				}
 				{
-					id: "318C03A712E37CF6"
-					type: "xp"
-					xp: 50
+					id: "04745EBFFD5013D4"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
 		{
 			title: "Chicken Shearing"
-			x: 7.5d
+			x: 10.0d
 			y: -2.0d
 			description: [
 				"Did you know that you can get &afeathers&r from &achickens without killing them&r?"
 				""
-				"With your trusty &ashears&r you can pluck a feather off of them &akeeping the chicken alive&r!"
+				"With your trusty &ashears&r you can pluck a single feather off &akeeping the chicken alive&r!"
 				""
 				"This has a &c5 minute cooldown&r, shared with chicken breeding."
 			]
@@ -4615,7 +4795,7 @@
 					}
 				}
 			}
-			x: 21.0d
+			x: 27.0d
 			y: -2.5d
 			subtitle: "Pet rocks!"
 			description: [
@@ -4653,7 +4833,7 @@
 					id: "5E3CA0C4DF3171BA"
 					type: "item"
 					item: {
-						id: "aquaculture:treasure_chest"
+						id: "kubejs:copper_coin"
 						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -4670,8 +4850,8 @@
 			]
 		}
 		{
-			x: 14.5d
-			y: 3.0d
+			x: 20.0d
+			y: 2.5d
 			description: [
 				"Two very handy books for managing your equipment."
 				""
@@ -4721,7 +4901,7 @@
 		}
 		{
 			title: "One more fight, please!"
-			x: 22.0d
+			x: 28.0d
 			y: -2.0d
 			shape: "gear"
 			subtitle: "Fight Dame Fortuna!"
@@ -4783,7 +4963,7 @@
 		}
 		{
 			title: "Dimension Traveling"
-			x: 22.0d
+			x: 28.0d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "Explore 3 new dimensions!"
@@ -4865,7 +5045,7 @@
 			]
 		}
 		{
-			x: 13.5d
+			x: 17.5d
 			y: 0.0d
 			subtitle: "Stronger Leads"
 			description: [
@@ -4935,7 +5115,7 @@
 				id: "10B4FBBB3DB936B1"
 				type: "item"
 				item: {
-					id: "aquaculture:box"
+					id: "kubejs:copper_coin"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
@@ -4947,7 +5127,7 @@
 		}
 		{
 			title: "Cheaper Rails"
-			x: 11.0d
+			x: 15.0d
 			y: -2.0d
 			subtitle: "Build Bigger Railways!"
 			description: [
@@ -5059,6 +5239,19 @@
 					}
 					count: 3
 				}
+				{
+					id: "2078D06B477389DE"
+					type: "item"
+					item: {
+						id: "kubejs:iron_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -5131,6 +5324,173 @@
 					id: "78DF894A14D2AEE3"
 					type: "ftbmoney:money"
 					ftb_money: 50L
+				}
+				{
+					id: "37E945B33B6235D1"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			x: 26.0d
+			y: 0.0d
+			subtitle: "The modpack's not kidding when it says it encourages multiple playstyles!"
+			description: [
+				"&6A bounty board acts as a way to reward players for crafting a variety of items through tasks."
+				""
+				"It can be crafted or very rarely found in villages in the world."
+				""
+				"A bounty board will contain a &adecree&r which determines the items the &ebounties&r require."
+				""
+				"A &eBounty&r is a limited time task that will appear in the bounty board over time."
+				""
+				"Bounties will only stay in the board for so long, so make sure to take the one you want."
+				""
+				"Once you have the items, if the bounty's time has not ran out, &3right-click&r the bounty board with the bounty to claim the rewards."
+				""
+				"Additional &aDecrees&r can be crafted or rarely obtained as rewards from bounties."
+			]
+			dependencies: ["446936F80D06B8A4"]
+			id: "471E4AB417B46047"
+			tasks: [{
+				id: "66DA126871D8F9A9"
+				type: "item"
+				item: {
+					id: "bountiful:bountyboard"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6524E7C318E25190"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "64F9D831255F622A"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Guard Villagers"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "guardvillagers:guard"
+				}
+			}
+			x: 13.0d
+			y: 3.5d
+			subtitle: "The second line of village defense"
+			description: [
+				"&6Guard Villagers are neutral villagers that protect the village from any who try to attack residents of the village."
+				""
+				""
+				""
+				"&a<More in depth details below>"
+				""
+				""
+				""
+				"All guards have these in common:"
+				"&7-Guards slowly regenerate health over time."
+				"&7-Guards will not drop gear that the guard spawned with on death."
+				"&7-As a neutral mob, guards will attack you with the &4Ring of Seven Curses&r&7 on."
+				""
+				"If you want to create a new guard, &3Sneak and Use&r an unemployed or nitwit villager with a weapon of your choice. The new guard will use your weapon."
+				"&7-Note that you need &2Hero of the Village&r&7 to change the guard's equipment."
+				""
+				"Once you have the &2Hero of the Village&r effect, guards will now follow your commands."
+				"&7-A guard will &lnot&r&7 retaliate against a player with &2Hero of the Village&r&7 and &lwill&r&7 retaliate against anyone who attacks that player."
+				"&7-You will be able to open the guard's inventory and change (or steal) the guard's stuff."
+				"&7-In this inventory there are buttons to let the guard follow or patrol the area."
+				""
+				"Guards can use a large variety of equipment. In this modpack, guards will spawn as different class roles similar to those seen in role playing games."
+				""
+				"&bKnight&r: Equipped with a one-handed weapon, Guard's Armor or Silver Armor and a shield, or sometimes some food. Deals &abonus damage vs undead and illagers&r, and has minor &afire protection&r."
+				""
+				"&bRogue&r: Wields Daggers or a Shortbow, and sometimes carries an ender pearl to teleport behind foes. Can be identified by the dark Thief's Armor. Has &aimmunity to fall damage&r."
+				""
+				"&bArcher&r: Uses a Longbow or Crossbow. Bow archers &adeal more damage&r while Crossbow guards &aslow down targets&r. Wears brown-hooded hunting gear and has &aminor protection against arrows&r."
+				""
+				"&bMage&r: Probably the easiest to spot among the guards, the mage wears blue robes and an enchanted book that can summon &ashulker bullets&r and &aevoker fangs&r. The mage supports other guards with effects like &aspeed&r and &astrength&r. &rTakes &areduced damage from magic&r."
+				""
+				"&bMercenary&r: The \"tank\" of the guard ranks, equipped with a Two-Handed or otherwise heavy weapon. These guards boast &aextra health&r and wear tough mercenary armor. Like the &bKnight&r these guards are more effective vs undead and illagers. When hurt a mercenary guard can &aheal other nearby guards for a portion of the damage taken&r. Mercenaries &atake reduced explosive damage&r."
+				""
+				"&bBomber&r: The rarest guard type, this guard is easily identifiable by the fact this guard carries TNT and bombs! These guards can throw specialized TNT that &adoes not destroy blocks or hurt other guards&r."
+				""
+				"Like your &3Specializations&r, any guard can use any item you decide to equip to the guard."
+				"Guards can use any of the following items: &7Bow, Crossbow, Trident, Food, Potions, Flint and Steel, Lava Bucket, TNT, Snowball, Special Arrows, Shields, Ender Pearls, Enchanted Book (allows casting spells like the mage guard)"
+				"Any other item the guard will use as a melee weapon."
+			]
+			dependencies: ["79A9E6D98A50387F"]
+			id: "608F04D493BCD52B"
+			tasks: [{
+				id: "3B70C9BD982CFA93"
+				type: "observation"
+				title: "Find a Guard Villager"
+				icon: {
+					id: "dungeons_gear:guards_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [{
+								data: [ ]
+								source: "dungeons_libraries:gear_config"
+							}]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "\"guardvillagers:guard\""
+			}]
+			rewards: [
+				{
+					id: "2754023A9FFE9A7E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "429DDB05C7BAEB1A"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}

@@ -84,8 +84,9 @@
 	]
 	quests: [
 		{
-			x: -2.5d
-			y: 5.5d
+			x: -7.0d
+			y: 5.0d
+			description: ["Puff bugs can be stored in a bottle for convienent carrying."]
 			dependencies: ["00000000000005D4"]
 			id: "00000000000005CB"
 			tasks: [{
@@ -165,15 +166,23 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 5.0d
-			description: ["Puff Bugs like to hang around these, creating bolloom fruits."]
-			dependencies: ["3D208B95463DFD24"]
+			x: -6.0d
+			y: 3.5d
+			description: ["Puff Bugs like to hang around Bolloom Buds, creating bolloom fruits."]
+			dependencies: ["00000000000005E9"]
 			id: "00000000000005D4"
 			tasks: [{
 				id: "00000000000005D5"
 				type: "item"
-				item: "endergetic:bolloom_bud"
+				item: {
+					id: "endergetic:bolloom_fruit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -185,29 +194,6 @@
 					id: "000000000000062A"
 					type: "item"
 					item: "randomite:randomite_ore"
-				}
-			]
-		}
-		{
-			x: -5.5d
-			y: 2.5d
-			dependencies: ["00000000000005E9"]
-			id: "00000000000005D6"
-			tasks: [{
-				id: "00000000000005D7"
-				type: "item"
-				item: "endergetic:poise_ladder"
-			}]
-			rewards: [
-				{
-					id: "000000000000061A"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "594CFD242552141B"
-					type: "ftbmoney:money"
-					ftb_money: 10L
 				}
 			]
 		}
@@ -265,9 +251,18 @@
 			dependencies: ["3D208B95463DFD24"]
 			id: "00000000000005E9"
 			tasks: [{
-				id: "00000000000005EA"
-				type: "item"
-				item: "endergetic:poise_planks"
+				id: "42C4C44E1E2C05E3"
+				type: "biome"
+				icon: {
+					id: "endergetic:tall_poise_bush"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				biome: "endergetic:poise_forest"
 			}]
 			rewards: [{
 				id: "0000000000000628"
@@ -308,12 +303,12 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 6.0d
+			x: -7.0d
+			y: 2.0d
 			description: [
 				"This can be attached to mobs or yourself to make them fall slower."
 				""
-				"Attach enough and they will start floating upward."
+				"Attach enough and whatever you attached the balloons to will start floating upward."
 			]
 			dependencies: ["00000000000005D4"]
 			id: "5E58C743EB40697D"
@@ -335,97 +330,6 @@
 				}
 				{
 					id: "0BA4161A4D8AB0E4"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_random"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -6.0d
-			y: 3.5d
-			dependencies: ["00000000000005E9"]
-			id: "4417B225D5CD5381"
-			tasks: [{
-				id: "68CFF21289B30F3E"
-				type: "item"
-				item: "endergetic:poise_chest"
-			}]
-			rewards: [
-				{
-					id: "0CD57CE6D2BB0216"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "07D113535D3B2A6E"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
-			x: -5.5d
-			y: 4.5d
-			dependencies: ["00000000000005E9"]
-			id: "2E786F1B59BC1560"
-			tasks: [{
-				id: "6B2A602D98802BB6"
-				type: "item"
-				item: "endergetic:ender_lantern"
-			}]
-			rewards: [
-				{
-					id: "1D5C905E1B83A5AA"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-				{
-					id: "4EBC517C756A82A6"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "75CA88F230B8344E"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "materials_random"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -3.5d
-			y: 4.5d
-			dependencies: ["00000000000005E9"]
-			id: "61B63B9A90DC9A41"
-			tasks: [{
-				id: "6596A5A4EDE55B69"
-				type: "item"
-				item: "endergetic:ender_campfire"
-			}]
-			rewards: [
-				{
-					id: "4293EF83D8A7B5C6"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-				{
-					id: "65A9C5C801133A05"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-				{
-					id: "4FD58A74F4D07219"
 					type: "item"
 					item: {
 						id: "ftbquests:lootcrate"
@@ -740,7 +644,11 @@
 		{
 			x: -1.5d
 			y: 1.0d
-			description: ["A land with many crystals and the neutral Stalkers, which drop meat when slain."]
+			description: [
+				"A land with many crystals and the neutral Stalkers, which drop meat when slain."
+				""
+				"Remember the &aNature's Compass&r can be used to find biomes easier."
+			]
 			dependencies: ["211D755718A5FF50"]
 			id: "4FD8DB6A4B137B73"
 			tasks: [{
@@ -843,7 +751,11 @@
 		{
 			x: 5.5d
 			y: -2.5d
-			description: ["The End for Dummies explains portal restart rituals and infusions."]
+			description: [
+				"The End for Dummies explains portal restart rituals and infusions."
+				""
+				"This can be found in your &aakashic tome&r."
+			]
 			dependencies: [
 				"5E2DFA9A653F3619"
 				"0B56F802933E9AB7"
@@ -2810,7 +2722,7 @@
 		}
 		{
 			x: 0.0d
-			y: 5.0d
+			y: 5.5d
 			dependencies: ["3D208B95463DFD24"]
 			id: "34B1E3ABB56E4376"
 			tasks: [{
@@ -3241,31 +3153,27 @@
 			shape: "octagon"
 			subtitle: "New mechanics for Master Mode:"
 			description: [
-				"- loot has a 75% chance to be doubled"
+				"- loot has a &a75%&r chance to be &adoubled"
 				""
-				"- experience from all sources is increased by 50%"
+				"- experience from all sources is increased by &a50%"
 				""
-				"- all monsters have their health and damage increased by 40% (instead of 20% chance)(at night the bonus is doubled to 80%)"
-				""
-				"- Phantom and new End Keeper spawn naturally near new structures"
+				"- all monsters have their health and damage increased by &c40%&r (instead of 20% chance)(at night the bonus is doubled to &c80%&r)"
 				""
 				"- Elite Skeleton may spawn in a group"
 				""
-				"- Enderman may teleport target on hit"
-				""
-				"- Shulker may inflict Blindness effect"
+				"- Shulker may inflict &cBlindness&r effect"
 				""
 				"- Creepers on explosion may spawn more Creeperlings"
 				""
-				"- Undead Army now has 5 waves"
+				"- Undead Army now has &c5&r waves"
 				""
-				"- undead spawned during the Undead Army are quadruple as likely to have enchanted items"
+				"- undead spawned during the Undead Army are &cquadruple&r as likely to have enchanted items"
 				""
-				"- undead spawned during the Undead Army are thrice as likely to have armor pieces"
+				"- undead spawned during the Undead Army are &cthrice&r as likely to have armor pieces"
 				""
-				"- Undead Army now rewards with 2 Treasure Bags (instead of 1)"
+				"- Undead Army now rewards with &a2&r Treasure Bags (instead of 1)"
 				""
-				"- Undead Army gives 200% more experience for completing it (instead of 100%)"
+				"- Undead Army gives &a200%&r more experience for completing it (instead of 100%)"
 				""
 			]
 			dependencies: ["211D755718A5FF50"]
@@ -3404,6 +3312,8 @@
 				"You can spend &a6 Amber Gems&r to set your spawnpoint next to the obelisk."
 				""
 				"This can be used to set your spawn in any dimension, not just the end."
+				""
+				"Note: Once your spawn point is set in the end, to get out of the end, you will need to use one of the ruined overworld portals (see &3A Quick Shortcut&r quest, above this one)"
 			]
 			dependencies: [
 				"5E4164741B56B1BC"
@@ -3536,6 +3446,10 @@
 			y: -8.0d
 			description: [
 				"More durable than Aeternium with reduced knockback resistance."
+				""
+				"The &aEnd Leggings&r grants an extra &b+0.2&r Armor Points per enchantment level applied across &lALL&r your worn armor. &7(example: protection 4 on every piece will give an extra +3.2 armor)"
+				""
+				"As far as I can tell none of the other end armor parts have an extra bonus in this version."
 				""
 				"&6You only need to collect at least 2 to complete this quest."
 			]
@@ -4040,7 +3954,8 @@
 			]
 		}
 		{
-			x: 1.0d
+			title: "Purple Flames"
+			x: -1.5d
 			y: 5.5d
 			subtitle: "How many torches are there?!"
 			description: [
@@ -4050,38 +3965,95 @@
 			]
 			dependencies: ["3D208B95463DFD24"]
 			id: "311E972978EC5627"
-			tasks: [{
-				id: "18ABD1E2C4FDD9F4"
-				type: "item"
-				item: {
-					id: "endergetic:ender_torch"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			tasks: [
+				{
+					id: "18ABD1E2C4FDD9F4"
+					type: "item"
+					item: {
+						id: "endergetic:ender_torch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "1CB5F4F03E797C9E"
-				type: "item"
-				item: {
-					id: "largemeals:chorus_fruit_popsicle"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+				{
+					id: "3F0F2E8D182A7A96"
+					type: "item"
+					item: {
+						id: "endergetic:ender_campfire"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
 				}
-				count: 3
-			}]
+				{
+					id: "20A066C6F4FB17A5"
+					type: "item"
+					item: {
+						id: "endergetic:ender_lantern"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6180B64D1DE09B9E"
+					type: "item"
+					item: {
+						id: "supplementaries:sconce_ender"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1CB5F4F03E797C9E"
+					type: "item"
+					item: {
+						id: "largemeals:chorus_fruit_popsicle"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 10
+				}
+				{
+					id: "207034BEF9DA21DA"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
 		}
 		{
 			x: 4.5d
 			y: -4.5d
-			description: ["The hard protective shell of a Shulker. You can wear them on your head if you want to for some reason..."]
+			description: ["The hard protective shell of a Shulker. You can wear it on your head if you want to for some reason..."]
 			dependencies: ["3697C11949A0A907"]
 			id: "1BEA85235B47FA5B"
 			tasks: [{
@@ -4591,7 +4563,7 @@
 				""
 				"Rose Crystals are needed to craft end crystals."
 				""
-				"In addition it serves as a cheap way to get pink, green and cyan runes to decorate your enchanted items."
+				"In addition it serves as a cheap way to get pink, green and cyan &arunes&r to decorate your enchanted items."
 			]
 			dependencies: ["4FD8DB6A4B137B73"]
 			id: "7AD19B72AEE779D0"
@@ -4646,6 +4618,66 @@
 					id: "5FC25CC04C4A0A44"
 					type: "ftbmoney:money"
 					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			description: [
+				"Booflos are found in the &bPoise Forest&r."
+				""
+				"These creatures can be tamed by feeding &abolloom fruits&r nearby while a booflo, in which the booflo will hold and eat it."
+				""
+				"Make sure to be &3sneaking&r when approaching one, otherwise the booflo may become aggressive."
+				"Watch out as whether aggressive or not the booflo can knock you around greatly when slamming on the ground."
+				""
+				"This may take multiple fruits before successfully taming one."
+				""
+				""
+				"Once tamed, you can ride the Booflo."
+				""
+				"Holding &3jump&r will cause the Booflo to jump, similar to a horse. You can have the Booflo jump multiple times in the air."
+				""
+				"Holding the &3Booflo Slam&r keybind will cause the Booflo to drop to the ground knocking back nearby mobs."
+			]
+			dependencies: ["00000000000005D4"]
+			id: "71969EBCEB7AB3D6"
+			tasks: [{
+				id: "3897B94B4D29D347"
+				type: "observation"
+				title: "Observe a Booflo"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "endergetic:booflo"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "endergetic:booflo"
+			}]
+			rewards: [
+				{
+					id: "5B1D3285871F4159"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "770C737CD3FF1AA3"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "562597546481624E"
+					type: "choice"
+					table_id: 8545390299491237994L
 				}
 			]
 		}

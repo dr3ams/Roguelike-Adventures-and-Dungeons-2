@@ -5,14 +5,14 @@
 	loot_size: 1
 	rewards: [
 		{
-			title: "Unbreaking 3"
+			title: "Unbreaking"
 			item: {
 				id: "enigmaticlegacy:iron_ring"
 				Count: 1b
 				tag: {
 					RepairCost: 1
 					Enchantments: [{
-						lvl: 3s
+						lvl: 1s
 						id: "minecraft:unbreaking"
 					}]
 				}
@@ -22,7 +22,7 @@
 					}
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			title: "Efficiency 5"
@@ -46,7 +46,7 @@
 					}
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			title: "Mending"
@@ -87,7 +87,7 @@
 					}
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			title: "Silk Touch"
@@ -107,7 +107,7 @@
 					}
 				}
 			}
-			weight: 40
+			weight: 30
 		}
 		{
 			title: "Life-Mending 3"
@@ -188,7 +188,7 @@
 					}
 				}
 			}
-			weight: 3
+			weight: 5
 		}
 		{
 			item: {
@@ -202,6 +202,44 @@
 			}
 			count: 4
 			weight: 10
+		}
+		{
+			title: "Mobile 2"
+			item: {
+				id: "minecraft:minecart"
+				Count: 1b
+				tag: {
+					Enchantments: [{
+						lvl: 2
+						id: "radenchants:mobile"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "iceandfire:earplugs"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 1
+						id: "radenchants:earplugs"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			weight: 4
 		}
 	]
 	loot_crate: {

@@ -148,6 +148,11 @@
 			y: -8.0d
 			shape: "hexagon"
 			subtitle: "Enter the mysterious magical woodlands; the Twilight Forest."
+			description: [
+				"The Traveler's Logbook is the guidebook for the Twilight Forest (although it is incomplete), which can be accessed through your &aakashic tome&r."
+				""
+				"Lost it? Just craft another one or buy it from the shop!"
+			]
 			size: 2.0d
 			id: "539453A048F71094"
 			tasks: [{
@@ -156,20 +161,9 @@
 				dimension: "twilightforest:twilightforest"
 			}]
 			rewards: [{
-				id: "0EAE70B906F60E07"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "twilightforest:guide"
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "4FFCA6B6DF3416CD"
+				type: "xp"
+				xp: 5
 			}]
 		}
 		{

@@ -289,7 +289,7 @@
 			description: [
 				"&6Difficulty will increase over time per-player, after 10 in-game days."
 				""
-				"As the difficulty increases mobs gain increased stats (damage, speed, health, knockback, magic resistance) and will spawn with more equipment that can be enchanted."
+				"As the difficulty increases mobs gain increased stats (damage, speed, health, knockback) and will spawn with more equipment that can be enchanted."
 				""
 				"The strength of mobs is determined by the average difficulty of nearby players."
 			]
@@ -342,7 +342,7 @@
 				""
 				"-Attacks way faster than usual"
 				""
-				"-The Monument is fully protected while they are alive."
+				"-The Monument is fully protected while any elder guardians are alive."
 				""
 				"- Summons Guardians. Drops Sponges and Elder Guardian Spikes."
 			]
@@ -600,7 +600,9 @@
 				"&6Trinkets and Curios are passive items that improve the player when worn in special slots."
 				""
 				""
+				""
 				"&a<More in depth details below>"
+				""
 				""
 				""
 				"Trinkets are randomly unlocked during some activities like killing enemies and bosses, trading, mining ores, cutting trees, and farming."
@@ -717,19 +719,29 @@
 			y: 2.0d
 			subtitle: "More in depth features of the stats"
 			description: [
-				"Project MMO adds stats that level up while doing certain activities."
+				"&6Project MMO adds stats that level up while doing certain activities."
+				""
+				"&6See quests connected to this to see how to level up individual skills."
+				""
+				""
+				""
+				"&a<Optional: For more information and technical details, read below this line &4&l(Warning: Very Long!)&r&a>"
+				""
+				""
+				""
+				"These stats can be seen in the top-left of the screen and toggled on and off by pressing the &3Show List &rkey &3(default Left Alt)&r."
 				""
 				"You can access the Project MMO menu with the Open Menu key &3(Default: P)&r. Here you can see stats, skills, the glossary and their benefits, how to get experience, and much more."
 				""
 				"Higher skill levels gives you &2bonuses&r related to the skill, and allows you to &ause more items&r."
 				""
-				"Certain items will grant a boost to &eSkill XP&r gain, when either held in your hands or worn."
+				"Certain items will grant a boost to &eSkill XP&r gain, when either held in your hands or worn. These can be toggled with the Toggle Tooltip key &3(default F6)&r"
 				""
 				"Some biomes and dimensions also adjust &eSkill XP&r gain, information like this can be found in the Glossary as well."
 				""
 				"You can create a party with the &2\"/pmmo party\"&r command, which gives increased XP gain, reduced friendly fire, and minor Skill XP sharing."
 			]
-			dependencies: ["79F271A2D7FA06A1"]
+			dependencies: ["143E7EB383FC8A60"]
 			id: "000000000000009D"
 			tasks: [{
 				id: "000000000000009E"
@@ -755,7 +767,7 @@
 			}]
 		}
 		{
-			title: "Alchemy"
+			title: "&6Alchemy"
 			icon: "minecraft:brewing_stand"
 			x: -4.25d
 			y: 1.275d
@@ -777,7 +789,7 @@
 			}]
 		}
 		{
-			title: "Agility"
+			title: "&aAgility"
 			icon: {
 				id: "minecraft:iron_boots"
 				Count: 1b
@@ -813,7 +825,7 @@
 			}]
 		}
 		{
-			title: "Swimming"
+			title: "&9Swimming"
 			icon: "minecraft:tropical_fish"
 			x: -4.25d
 			y: 3.8249999999999997d
@@ -837,7 +849,7 @@
 			}]
 		}
 		{
-			title: "Flying"
+			title: "&7Flying"
 			icon: {
 				id: "minecraft:elytra"
 				Count: 1b
@@ -867,7 +879,7 @@
 			}]
 		}
 		{
-			title: "Endurance"
+			title: "&4Endurance"
 			icon: {
 				id: "minecraft:iron_chestplate"
 				Count: 1b
@@ -878,7 +890,7 @@
 			x: -5.1d
 			y: 0.425d
 			description: [
-				"Endurance experience is gained by taking damage."
+				"Endurance experience is gained by &6taking damage&r."
 				""
 				"Higher levels will increase damage reduction and max health."
 				""
@@ -897,7 +909,7 @@
 			}]
 		}
 		{
-			title: "Combat"
+			title: "&cCombat"
 			icon: {
 				id: "minecraft:iron_sword"
 				Count: 1b
@@ -929,7 +941,7 @@
 			}]
 		}
 		{
-			title: "Archery"
+			title: "&eArchery"
 			icon: {
 				id: "minecraft:bow"
 				Count: 1b
@@ -963,7 +975,7 @@
 			}]
 		}
 		{
-			title: "Excavation"
+			title: "&6Excavation"
 			icon: {
 				id: "minecraft:iron_shovel"
 				Count: 1b
@@ -991,7 +1003,7 @@
 			}]
 		}
 		{
-			title: "Mining"
+			title: "&bMining"
 			icon: {
 				id: "minecraft:iron_pickaxe"
 				Count: 1b
@@ -1019,7 +1031,7 @@
 			}]
 		}
 		{
-			title: "Woodcutting"
+			title: "&6Woodcutting"
 			icon: {
 				id: "minecraft:iron_axe"
 				Count: 1b
@@ -1047,7 +1059,7 @@
 			}]
 		}
 		{
-			title: "Farming"
+			title: "&aFarming"
 			icon: {
 				id: "minecraft:iron_hoe"
 				Count: 1b
@@ -1077,7 +1089,7 @@
 			}]
 		}
 		{
-			title: "Fishing"
+			title: "&bFishing"
 			icon: {
 				id: "minecraft:fishing_rod"
 				Count: 1b
@@ -1109,7 +1121,7 @@
 			}]
 		}
 		{
-			title: "Magic"
+			title: "&5Magic"
 			icon: "ars_nouveau:wand"
 			x: -7.6499999999999995d
 			y: 0.425d
@@ -1142,7 +1154,7 @@
 			x: -4.25d
 			y: 2.125d
 			description: [
-				"Smithing experience is gained from repairing items in an anvil and salvaging items at a smithing table (sneak-use)."
+				"Smithing experience is gained from repairing items in an anvil and salvaging items at a smithing table &7(see connected &3Salvaging?&r&7 quest for more info)&r."
 				""
 				"Higher levels give multiple benefits."
 				""
@@ -1201,7 +1213,7 @@
 			}]
 		}
 		{
-			title: "Gathering"
+			title: "&6Gathering"
 			icon: {
 				id: "bountifulbaubles:gloves_digging_iron"
 				Count: 1b
@@ -1331,7 +1343,7 @@
 				""
 				"&6Dragonslayer&r is gained from... slaying dragons."
 				""
-				"&8Shadow&r is gained from killing certain mobs (see Glossary's Mobs Info section) and crafting Eidolon items."
+				"&8Shadow&r is gained from killing certain mobs (see Glossary's Mobs Info section), using &aSmoke Balls&r and crafting Eidolon items."
 				""
 				"&eLight&r is gained from killing certain mobs (see Glossary's Mobs Info section)."
 				""
@@ -1370,7 +1382,7 @@
 				""
 				"Champions can spawn as 6 different tiers, increasing in power with each tier, luckily only the first 2 tiers will spawn until you reach a certain progression point (more about that later)"
 				""
-				"-Tier 1 Champions can be identified by their yellow particles, while Tier 2 champions will have orange particles."
+				"-&eTier 1&r Champions can be identified by their yellow particles, while &6Tier 2&r champions will have orange particles."
 				""
 				"Fighting these champions is not always the best option early in the game. Champions are a test of your knowledge of building, agility and modded knowledge; charging in with just a sword is almost a guaranteed way to get a quick death."
 				""
@@ -1440,7 +1452,7 @@
 				""
 				""
 				""
-				"&a<More in depth details below>"
+				"&a<More in depth details below. These are not as important to read, but can be useful if you need more clarification for the summary above>"
 				""
 				""
 				""
@@ -1551,12 +1563,11 @@
 				""
 				"The shop can be found on the top-right of this quest book, it looks like a bag with coins scattered around it."
 				""
-				"&eMaterial Coins &r(copper, iron, gold, diamond) are tangible items that drop from &eChampions&r."
+				"&eMaterial Coins &r(copper, iron, gold, diamond) are tangible items that can also be found in quests, but also drop from &eChampions&r and some other loot throughout the world."
 				""
 				"&4Stronger champions &rdrop better coins."
 				""
-				"They can be exchanged for items in the &3Coin Shop &rquest tab, which is a chapter found on the left."
-				""
+				"These can be exchanged for items in the &3Coin Shop &rquest tab, which is a chapter found on the left."
 			]
 			dependencies: ["38049609F73B874B"]
 			id: "3F721FF28238E067"
@@ -1587,45 +1598,6 @@
 			]
 		}
 		{
-			title: "PMMO Skills"
-			x: -6.0d
-			y: -0.5d
-			shape: "hexagon"
-			subtitle: "(brief explanation about stats)"
-			description: [
-				"&6Project: Massive Multiplaer Online (PMMO) adds stats that increase when doing certain activities, which let you use better equipment and unlock new passive abilities."
-				""
-				""
-				""
-				"&a<More in depth details below>"
-				""
-				""
-				""
-				"These stats can be seen in the top-left of the screen and toggled on and off by pressing the &3Show List &rkey &3(default Left Alt)&r."
-				""
-				"Items can have Requirements, XP Boosts, or Salvageable. These can be toggled with the Toggle Tooltip key &3(default F6)&r"
-				""
-				"Requirements show the name of a specific skills needed to use it as a tool, weapon, wear, or use. The requirements will be in either green or red text depending on if you meet the stat conditions or not. If you don't meet the requirements of an item it cannot be used."
-				""
-				"XP Boosts increase the amount of xp you gain from a specific stat, shown as a +% on the item and on the stats in the top left. These are generally found on shields and armor. They can apply either in your hand, in your offhand, or when worn as armor/curio slot. Being in certain biomes or dimensions can also affect your xp boosts."
-				""
-				"When you die you will lose 25% progress to gaining a level, however you will never lose actual levels meaning you will not lose access to unlocked requirements after completing them."
-			]
-			dependencies: ["143E7EB383FC8A60"]
-			id: "79F271A2D7FA06A1"
-			tasks: [{
-				id: "35029CE2D859E7F9"
-				type: "pmmo:skill"
-				skill: "agility"
-				requiredLevel: 1.0d
-			}]
-			rewards: [{
-				id: "3EF5B45E046B2310"
-				type: "random"
-				table_id: 8545390299491237994L
-			}]
-		}
-		{
 			title: "Reforging?"
 			icon: "minecraft:smithing_table"
 			x: -3.0d
@@ -1636,7 +1608,9 @@
 				""
 				"Click the reforge button."
 				""
-				"Add the item + its repair material and click the hammer"
+				"Add the item + its repair material and click the hammer."
+				""
+				"&6Note that the item's modifier doesn't change until you take the item out."
 				""
 				"If the item doesn't have a repair material (like curios), you will need to use a nether star instead."
 			]
@@ -1695,7 +1669,7 @@
 			description: [
 				"Since you joined the server late this booster kit will help you overcome the increased difficulty."
 				""
-				"These stats will level up you enough to use iron equipment and a novice spellbook."
+				"These stats will level up you enough to use &alead equipment&r &7&o(tools, weapons, armor)&r and a novice spellbook."
 				""
 				"These pmmo stat bonuses are not affected by xp boosts."
 				""
@@ -1724,28 +1698,28 @@
 				{
 					id: "0E5266FECA3997C1"
 					type: "pmmo:xpreward"
-					title: "Level 25 Combat"
+					title: "Level 30 Combat"
 					auto: "disabled"
 					skill: "combat"
-					amount: 7789.0d
+					amount: 13289.0d
 					ignoreBonuses: true
 				}
 				{
 					id: "1FA0C2103D1E12C1"
 					type: "pmmo:xpreward"
-					title: "Level 15 Endurance"
+					title: "Level 25 Endurance"
 					auto: "disabled"
 					skill: "endurance"
-					amount: 2393.0d
+					amount: 7788.0d
 					ignoreBonuses: true
 				}
 				{
 					id: "1DAEC6762DD48417"
 					type: "pmmo:xpreward"
-					title: "Level 15 Gathering"
+					title: "Level 25 Gathering"
 					auto: "disabled"
 					skill: "gathering"
-					amount: 2393.0d
+					amount: 7788.0d
 					ignoreBonuses: true
 				}
 				{
@@ -1780,10 +1754,14 @@
 					type: "item"
 					auto: "disabled"
 					item: {
-						id: "enigmaticlegacy:iron_ring"
+						id: "meetyourfight:caged_heart"
 						Count: 1b
 						tag: {
-							itemModifier: "modifiers:rough"
+							Enchantments: [{
+								lvl: 1
+								id: "tombstone:soulbound"
+							}]
+							itemModifier: "modifiers:steeled"
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
@@ -1803,6 +1781,10 @@
 								Lore: ["{\"text\":\"These fists arrive to save those who are in grave danger.\",\"color\":\"light_purple\"}"]
 								Name: "{\"text\":\"RAD2 & Knuckles\",\"color\":\"gold\",\"italic\":false}"
 							}
+							Enchantments: [{
+								lvl: 1
+								id: "tombstone:soulbound"
+							}]
 							itemModifier: "modifiers:angelic"
 						}
 						ForgeCaps: {
@@ -1828,6 +1810,68 @@
 						}
 					}
 				}
+				{
+					id: "329379CA45C7E9C1"
+					type: "item"
+					item: {
+						id: "sophisticatedbackpacks:backpack"
+						Count: 1b
+						tag: {
+							borderColor: 4673362
+							clothColor: 4673362
+							Enchantments: [{
+								lvl: 1
+								id: "tombstone:soulbound"
+							}]
+							itemModifier: "modifiers:versatile"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "65B3BED29A308BBC"
+					type: "item"
+					item: {
+						id: "comforts:sleeping_bag_gray"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "51FA9E446232E710"
+					type: "item"
+					item: {
+						id: "mysticalworld:lead_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "33E8D87382A15B0A"
+					type: "item"
+					item: {
+						id: "spartanweaponry:handle"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -1837,13 +1881,13 @@
 			y: 2.5d
 			subtitle: "Let me break it down for you"
 			description: [
-				"Salvaging can refund a small amount of materials used to craft certain items."
+				"Salvaging can &erefund a small amount of materials&r used to craft certain items."
 				""
-				"To salvage an item interact with the smithing table while sneaking."
+				"To salvage an item &3interact with the smithing table while sneaking&r."
 				""
-				"Certain items will require a specific level of Smithing to salvage."
+				"Certain items will require a specific level of &bSmithing&r to salvage."
 				""
-				"At Smithing level 50 you unlock Dual Salvaging which allows you to salvage items from both hands at the same time."
+				"At &bSmithing level 50&r you unlock Dual Salvaging which allows you to salvage items from both hands at the same time."
 			]
 			dependencies: ["41F4A32BEA5C4295"]
 			dependency_requirement: "one_started"
@@ -1907,6 +1951,8 @@
 			description: [
 				"&6Chests in natural structures can be looted by multiple players and help indicate which structures you have already looted."
 				""
+				"&eThese are Observation quests. Find the block out in the world to complete this quest."
+				""
 				""
 				""
 				"&a<More in depth details below>"
@@ -1924,8 +1970,6 @@
 				"When destroyed they will NOT drop the loot inside so make sure to open it and watch out for explosive traps in certain structures."
 				""
 				"They can also come in the form of barrels and shulker boxes in some structures."
-				""
-				"&eThese are Observation quests. Find the block out in the world to complete this quest."
 			]
 			dependencies: ["143E7EB383FC8A60"]
 			id: "2B14E71EF06F5938"
@@ -1945,17 +1989,7 @@
 			x: -6.0d
 			y: -2.0d
 			subtitle: "Ore Excavation"
-			description: [
-				"&6By holding down the ` key you can mine multiple ores or logs in one go."
-				""
-				""
-				""
-				"&a<More in depth details below>"
-				""
-				""
-				""
-				"Ore excavation only works when you are holding something in your hand, like an axe."
-			]
+			description: ["&6By holding down the ` key with an item in hand you can mine multiple ores or logs in one go."]
 			dependencies: ["7FF57EE6F8F6FC1C"]
 			id: "143E7EB383FC8A60"
 			tasks: [{
@@ -1987,7 +2021,16 @@
 			}]
 		}
 		{
-			title: "Modifiers"
+			title: "New Modifiers and Attributes"
+			icon: {
+				id: "kubejs:armour"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
 			disable_toast: true
 			x: -3.0d
 			y: 0.0d
@@ -2004,6 +2047,8 @@
 				"-&9Life Steal: &rHeal based on killed mob's hp percentage"
 				"-&9Soul Gathering/Soul Cap: &rGain souls on defeating mobs (see Souls quest after this one)"
 				"-&9Summon Cap: &rCan summon more mobs using artifacts from the dungeons gear mod"
+				""
+				"&6Some items (like &asilver&r&6 and &alead&r&6 equipment) have bonus attributes which are not shown unless holding &3Shift&r&6 on it. This will also show the &eDurability&r&6 of the item. Make sure to examine every item carefully!"
 			]
 			dependencies: ["0E5AE2A43020AFC3"]
 			hide: false
@@ -2055,7 +2100,9 @@
 				"&6In your inventory there is a trash can slot to delete unwanted items."
 				""
 				""
+				""
 				"&a<More in-depth details below>"
+				""
 				""
 				""
 				"When an item is in this slot, it will not be deleted until another item is placed onto it, reducing the chance of accidentally deleting an item."
@@ -2106,7 +2153,7 @@
 				id: "16A2101F2DB6C4CF"
 				type: "xp"
 				title: "Wow so much knowledge"
-				xp: 5
+				xp: 7
 			}]
 		}
 	]

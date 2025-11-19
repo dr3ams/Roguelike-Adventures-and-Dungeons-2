@@ -2,15 +2,7 @@
 	id: "6A93A345CDF7C226"
 	order_index: 3
 	title: "Random Dyes"
-	icon: {
-		id: "minecraft:purple_dye"
-		Count: 1b
-		ForgeCaps: {
-			"dungeons_libraries:built_in_enchantments": {
-				BuiltInEnchantments: [ ]
-			}
-		}
-	}
+	icon: "minecraft:purple_dye"
 	loot_size: 2
 	use_title: true
 	rewards: [
@@ -25,7 +17,6 @@
 		{ item: "minecraft:black_dye" }
 		{ item: "minecraft:red_dye" }
 		{ item: "minecraft:green_dye" }
-		{ item: "minecraft:brown_dye" }
 		{ item: "minecraft:brown_dye" }
 		{ item: "minecraft:blue_dye" }
 		{ item: "minecraft:purple_dye" }

@@ -158,7 +158,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments:[{id:\"uniquee:ameliorated_bane_of_arthropods\",lvl:15},{id:\"minecraft:fire_protection\",lvl:15},{id:\"apotheosis:depth_miner\",lvl:15},{id:\"uniqueutil:sleipnirs_grace\",lvl:15},{id:\"uniqueutil:dementers_blessing\",lvl:15},{id:\"dungeons_gear:poison_focus\",lvl:15}]}"
+              "tag": "{StoredEnchantments:[{id:\"uniquee:ameliorated_bane_of_arthropods\",lvl:15},{id:\"minecraft:fire_protection\",lvl:15},{id:\"apotheosis:depth_miner\",lvl:15},{id:\"uniqueutil:sleipnirs_grace\",lvl:15},{id:\"uniqueutil:demeters_blessing\",lvl:15},{id:\"dungeons_gear:poison_focus\",lvl:15},{id:\"dungeons_gear:health_synergy\",lvl:15},{id:\"spartanshields:payback\",lvl:15}]}"
             },
             {
               "function": "minecraft:set_name",
@@ -943,7 +943,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance_with_looting",
-              "chance": 0.4,
+              "chance": 0.2,
               "looting_multiplier": 0.01
             },
             {
@@ -973,7 +973,7 @@
             },
             {
               "condition": "minecraft:random_chance_with_looting",
-              "chance": 0.2,
+              "chance": 0.1,
               "looting_multiplier": 0.005
             },
             {
@@ -1003,7 +1003,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance_with_looting",
-              "chance": 0.15,
+              "chance": 0.1,
               "looting_multiplier": 0.005
             },
             {
@@ -1019,6 +1019,63 @@
       ]
     },
     {
+      "name": "monstercoin_bad_enchant_bonus",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:monster_coin",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.15
+            },
+            {
+              "condition": "champions:entity_champion",
+              "entity": "this",
+              "minTier": 2
+            },
+	    {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:bane_of_arthropods"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "killer_player",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "enchantments": [
+                      {
+                        "enchantment": "uniquee:ameliorated_bane_of_arthropods"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+          ]
+        }
+      ]
+    },
+    {
       "name": "ironcoin",
       "rolls": 1,
       "entries": [
@@ -1029,7 +1086,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance_with_looting",
-              "chance": 0.2,
+              "chance": 0.1,
               "looting_multiplier": 0.0075
             },
             {
@@ -1056,7 +1113,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance_with_looting",
-              "chance": 0.1,
+              "chance": 0.05,
               "looting_multiplier": 0.005
             },
             {

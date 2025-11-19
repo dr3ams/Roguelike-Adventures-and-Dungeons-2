@@ -110,6 +110,13 @@
 		{
 			x: -3.5d
 			y: 1.5d
+			description: [
+				"The durability of this shield scales with its &eRepair Cost&r."
+				""
+				"&eRepair Cost&r increases whenever you apply enchantments or repair this item."
+				""
+				"Cannot be enchanted with mending, but can recieve similar enchantments like Ender Mending or Life-Mending."
+			]
 			dependencies: ["5E4C69CC15CADF88"]
 			id: "3E69CC75B111D4A4"
 			tasks: [{
@@ -257,20 +264,15 @@
 		{
 			x: 3.5d
 			y: -1.0d
+			description: ["Created when lava touches still sugar water."]
 			dependencies: ["17777CD49B8B6F41"]
 			id: "3730EDB687A5A265"
 			tasks: [{
-				id: "31C72068708F3FEB"
-				type: "item"
-				item: {
-					id: "the_bumblezone:sugar_infused_stone"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
+				id: "271BBBBBDED18575"
+				type: "questsadditions:break"
+				block: "the_bumblezone:sugar_infused_stone"
+				value: 1L
+				checkItem: false
 			}]
 			rewards: [
 				{

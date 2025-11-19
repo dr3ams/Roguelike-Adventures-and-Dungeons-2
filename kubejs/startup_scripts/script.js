@@ -5,6 +5,9 @@ console.info('Starting recipe modification scripts...')
 onEvent('item.registry', event => {
 	// Register new items here
 	// event.create('example_item').displayName('Example Item')
+
+event.create('medal').displayName('Blank Mark').tooltip('Exchange for a §3Specialization§r in the quest book!').glow(true)
+
 event.create('mark_miner').displayName('I. Mark of the Miner').glow(true)
 event.create('mark_farmer').displayName('I. Mark of the Farmer').glow(true)
 event.create('mark_warrior').displayName('I. Mark of the Warrior').glow(true)
@@ -51,7 +54,7 @@ event.create('iron_coin').displayName('Iron Coin').tooltip('Acquired from quests
 event.create('gold_coin').displayName('Gold Coin').tooltip('Acquired from quests, coin shop exchange, and defeating Tier 4, 5 & 6 Champions')
 event.create('diamond_coin').displayName('Diamond Coin').tooltip('Acquired from quests and coin shop exchange')
 event.create('netherite_coin').displayName('Netherite Coin').tooltip('Not yet implemented.')
-event.create('monster_coin').displayName('Monster Coin').tooltip('Acquired from spawner quests and defeating Tier 2, 3, 4, 5 & 6 Champions')
+event.create('monster_coin').displayName('Monster Coin').tooltip('Acquired from spawner quests and defeating Tier 2, 3, 4, 5 & 6 Champions. Using Bane of Arthropods or its Ameliorated version increases the chances.')
 event.create('nether_coin').displayName('Nether Coin').tooltip('Acquired from defeating Champions in the Nether')
 //event.create('end_coin').displayName('End Coin').tooltip('Acquired from defeating Champions in the End')
 
@@ -68,7 +71,6 @@ event.create('coin_05').displayName('Dozen of Coins')
 event.create('coin_q_1').displayName('Quest Coin')
 
 event.create('star').displayName('Star').glow(true)
-event.create('medal').displayName('Medal').glow(true)
 event.create('heart').displayName('Heart')
 event.create('heart-half').displayName('Half Heart')
 event.create('caution').displayName('Caution')

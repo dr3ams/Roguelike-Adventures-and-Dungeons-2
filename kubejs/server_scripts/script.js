@@ -312,6 +312,7 @@ onEvent('player.logged_in', event => {
     event.player.stages.add('starting_items')
     // Give some items to player
 	event.player.give('ftbquests:book')
+	event.player.give(Item.of('kubejs:medal','{RepairCost:1337,Enchantments:[{lvl:1,id:"tombstone:soulbound"}]}'))
 	event.player.give('16x minecraft:torch')
 	event.player.give('titles:title_scroll_common')
 	event.player.give('2x roughtweaks:bandage')

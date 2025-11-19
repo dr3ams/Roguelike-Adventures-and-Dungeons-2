@@ -4,18 +4,36 @@
 	title: "Legendary loot crate"
 	loot_size: 1
 	use_title: true
-	rewards: [{
-		item: {
-			id: "minecraft:totem_of_undying"
-			Count: 1b
-			ForgeCaps: {
-				"dungeons_libraries:built_in_enchantments": {
-					BuiltInEnchantments: [ ]
+	rewards: [
+		{
+			item: {
+				id: "minecraft:totem_of_undying"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
 				}
 			}
+			count: 3
 		}
-		count: 3
-	}]
+		{
+			title: "2x Epic Loot Crate"
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "epic_loot_crate"
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+		}
+	]
 	loot_crate: {
 		drops: {
 			boss: 0
