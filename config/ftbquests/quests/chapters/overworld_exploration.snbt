@@ -518,7 +518,11 @@
 			y: -1.0d
 			shape: "octagon"
 			subtitle: "Who needs iron tools?"
-			description: ["Tin matches flint gear in power, but it has the first pickaxe that can mine tougher ores like diamond."]
+			description: [
+				"Tin Ores can be found between Y levels &e12&r to &e62&r."
+				""
+				"Tin matches flint gear in power, but it has the first pickaxe that can mine tougher ores like diamond."
+			]
 			dependencies: ["02ED7F720C5EBABD"]
 			dependency_requirement: "one_started"
 			size: 1.5d
@@ -579,7 +583,11 @@
 			x: 16.0d
 			y: -1.0d
 			subtitle: "Easy to find"
-			description: ["Slightly more durable than tin."]
+			description: [
+				"Copper Ores can be located between Y-levels &e20&r to &e116&r."
+				""
+				"Slightly more durable than tin."
+			]
 			dependencies: ["59F003B96FBE2813"]
 			dependency_requirement: "one_started"
 			id: "0197357833059D83"
@@ -613,7 +621,11 @@
 			x: 20.75d
 			y: -1.0d
 			subtitle: "Slayer of the Undead"
-			description: ["A sidegrade to iron great for warding off the undead."]
+			description: [
+				"Silver ores spawn anywhere from the bottom of the world to y-level &e26&r."
+				""
+				"A sidegrade to iron great for warding off the undead."
+			]
 			dependencies: ["62D2AC9343C06D18"]
 			dependency_requirement: "one_started"
 			id: "5F4896458FA5BB61"
@@ -660,7 +672,11 @@
 			x: 25.0d
 			y: -1.0d
 			subtitle: "Feeling very lucky today"
-			description: ["The first diamond-level equipment. The tools have less durability than diamond but much more than iron."]
+			description: [
+				"Sapphire ores appear below y-level &e24&r."
+				""
+				"The first diamond-level equipment. The tools have less durability than diamond but much more than iron."
+			]
 			dependencies: ["1D6D6CB93ECEF297"]
 			dependency_requirement: "one_started"
 			id: "3A78EBA961882C21"
@@ -720,6 +736,8 @@
 			shape: "octagon"
 			subtitle: "Moving on up"
 			description: [
+				"You may spot Lead ore when mining at y-levels between &e8&r and &e48&r."
+				""
 				"Tough but slow, Lead is a good upgrade between iron and diamond equipment."
 				""
 				"Lead also has the first pickaxe that can mine obsidian, though very slowly."
