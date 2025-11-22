@@ -3604,5 +3604,46 @@
 				ftb_money: 10L
 			}]
 		}
+		{
+			x: 12.0d
+			y: -9.0d
+			description: [
+				"If you need to collect more junk the &aFishing Rod of Misfortune&r is a good choice."
+				""
+				"A tombstone with a purple orb may be used to enchant it, making it &eUnbreakable&r."
+				""
+				"A blue orb will create an &bAncient Fishing Rod of Misfortune&r, even more powerful and unlucky than the enchanted version."
+			]
+			id: "36A2AEC49E6482DF"
+			tasks: [{
+				id: "4331E88F7A760233"
+				type: "item"
+				item: {
+					id: "tombstone:fishing_rod_of_misadventure"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "74343D8A54D0F7C8"
+				type: "item"
+				item: {
+					id: "kubejs:copper_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
 	]
 }

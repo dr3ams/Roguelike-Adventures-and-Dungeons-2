@@ -373,9 +373,9 @@
 	{
 		"combat": 35
 	},
-	"dungeons_gear:cutless":
+	"dungeons_gear:cutlass":
 	{
-		"combat": 10
+		"combat": 0
 	},
 	"dungeons_gear:dagger":
 	{
@@ -595,6 +595,11 @@
 	{
 		"archery": 25
 	},
+	"dungeons_gear:shear_dagger":
+	{
+		"combat": 0,
+		"farming": 10
+	},
 	"dungeons_gear:shortbow":
 	{
 		"agility": 5,
@@ -684,7 +689,8 @@
 	},
 	"dungeons_gear:vine_whip":
 	{
-		"combat": 15
+		"combat": 0,
+		"farming": 30
 	},
 	"dungeons_gear:voidcaller":
 	{
@@ -971,7 +977,7 @@
 	},
 	"minecraft:crossbow":
 	{
-		"archery": 5
+		"agility": 2
 	},
 	"minecraft:diamond_axe":
 	{
@@ -983,7 +989,7 @@
 	},
 	"minecraft:diamond_shovel":
 	{
-		"combat": 40
+		"combat": 1
 	},
 	"minecraft:golden_axe":
 	{
@@ -995,7 +1001,7 @@
 	},
 	"minecraft:golden_shovel":
 	{
-		"combat": 10
+		"combat": 1
 	},
 	"minecraft:golden_sword":
 	{
@@ -1023,7 +1029,7 @@
 	},
 	"minecraft:netherite_shovel":
 	{
-		"combat": 55
+		"combat": 1
 	},
 	"minecraft:stone_axe":
 	{
@@ -1939,7 +1945,7 @@
 	},
 	"spartanweaponry:longbow_wood":
 	{
-		"archery": 5
+		"archery": 2
 	},
 	"spartanweaponry:longsword_bronze":
 	{
@@ -2729,93 +2735,173 @@
 	{
 		"combat": 65
 	},
+"upgradednetherite:gold_upgraded_netherite_pickaxe":
+	{
+		"combat": 1
+	},	
+"upgradednetherite:fire_upgraded_netherite_pickaxe":
+	{
+		"combat": 1
+	},	
+"upgradednetherite:ender_upgraded_netherite_pickaxe":
+	{
+		"combat": 1
+	},	
+"upgradednetherite:water_upgraded_netherite_pickaxe":
+	{
+		"combat": 1
+	},	
+"upgradednetherite:phantom_upgraded_netherite_pickaxe":
+	{
+		"combat": 1
+	},	
+"upgradednetherite:feather_upgraded_netherite_pickaxe":
+	{
+		"combat": 1
+	},	
+"upgradednetherite:ultimate_upgraded_netherite_pickaxe":
+	{
+		"combat": 1
+	},	
+"upgradednetherite:corrupt_upgraded_netherite_pickaxe":
+	{
+		"combat": 1
+	},
+"upgradednetherite:wither_upgraded_netherite_pickaxe":
+	{
+		"combat": 1
+	},
+"upgradednetherite:spider_upgraded_netherite_pickaxe":
+	{
+		"combat": 1
+	},
+"upgradednetherite:gold_upgraded_netherite_shovel":
+	{
+		"combat": 1
+	},	
+"upgradednetherite:fire_upgraded_netherite_shovel":
+	{
+		"combat": 1
+	},	
+"upgradednetherite:ender_upgraded_netherite_shovel":
+	{
+		"combat": 1
+	},	
+"upgradednetherite:water_upgraded_netherite_shovel":
+	{
+		"combat": 1
+	},	
+"upgradednetherite:phantom_upgraded_netherite_shovel":
+	{
+		"combat": 1
+	},	
+"upgradednetherite:feather_upgraded_netherite_shovel":
+	{
+		"combat": 1
+	},	
+"upgradednetherite:ultimate_upgraded_netherite_shovel":
+	{
+		"combat": 1
+	},	
+"upgradednetherite:corrupt_upgraded_netherite_shovel":
+	{
+		"combat": 1
+	},
+"upgradednetherite:wither_upgraded_netherite_shovel":
+	{
+		"combat": 1
+	},
+"upgradednetherite:spider_upgraded_netherite_shovel":
+	{
+		"combat": 1
+	},
 "upgradednetherite:netherite_bow":
 	{
-		"archery": 60
+		"archery": 50
 	},	
 "upgradednetherite:netherite_crossbow":
 	{
-		"archery": 60
+		"archery": 50
 	},
 "upgradednetherite:gold_upgraded_netherite_bow":
 	{
-		"archery": 65
+		"archery": 55
 	},	
 "upgradednetherite:fire_upgraded_netherite_bow":
 	{
-		"archery": 65
+		"archery": 55
 	},	
 "upgradednetherite:ender_upgraded_netherite_bow":
 	{
-		"archery": 65
+		"archery": 55
 	},	
 "upgradednetherite:water_upgraded_netherite_bow":
 	{
-		"archery": 65
+		"archery": 55
 	},	
 "upgradednetherite:phantom_upgraded_netherite_bow":
 	{
-		"archery": 65
+		"archery": 55
 	},	
 "upgradednetherite:feather_upgraded_netherite_bow":
 	{
-		"archery": 65
+		"archery": 55
 	},	
 "upgradednetherite:ultimate_upgraded_netherite_bow":
 	{
-		"archery": 65
+		"archery": 55
 	},	
 "upgradednetherite:corrupt_upgraded_netherite_bow":
 	{
-		"archery": 65
+		"archery": 55
 	},
 "upgradednetherite:poison_upgraded_netherite_bow":
 	{
-		"archery": 65
+		"archery": 55
 	},
 "upgradednetherite:wither_upgraded_netherite_bow":
 	{
-		"archery": 65
+		"archery": 55
 	},
 "upgradednetherite:gold_upgraded_netherite_crossbow":
 	{
-		"archery": 65
+		"archery": 55
 	},	
 "upgradednetherite:fire_upgraded_netherite_crossbow":
 	{
-		"archery": 65
+		"archery": 55
 	},	
 "upgradednetherite:ender_upgraded_netherite_crossbow":
 	{
-		"archery": 65
+		"archery": 55
 	},	
 "upgradednetherite:water_upgraded_netherite_crossbow":
 	{
-		"archery": 65
+		"archery": 55
 	},	
 "upgradednetherite:phantom_upgraded_netherite_crossbow":
 	{
-		"archery": 65
+		"archery": 55
 	},	
 "upgradednetherite:feather_upgraded_netherite_crossbow":
 	{
-		"archery": 65
+		"archery": 55
 	},	
 "upgradednetherite:ultimate_upgraded_netherite_crossbow":
 	{
-		"archery": 65
+		"archery": 55
 	},	
 "upgradednetherite:corrupt_upgraded_netherite_crossbow":
 	{
-		"archery": 65
+		"archery": 55
 	},
 "upgradednetherite:wither_upgraded_netherite_crossbow":
 	{
-		"archery": 65
+		"archery": 55
 	},
 "upgradednetherite:spider_upgraded_netherite_crossbow":
 	{
-		"archery": 65
+		"archery": 55
 	},
 "atum:short_bow":
 	{
@@ -2872,7 +2958,7 @@
 	},
 "twilightforest:seeker_bow":
 	{
-		"archery": 15
+		"archery": 33
 	},
 "twilightforest:ender_bow":
 	{
