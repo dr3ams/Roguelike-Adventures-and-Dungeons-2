@@ -219,30 +219,6 @@ import crafttweaker.api.util.text.MCTextComponent;
 
 for allItems in game.items {
 
-	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:greatswords>) ) {
-		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "a1780227-963c-4ada-bf81-14aa59b9fc30", "ReachFix", 1, ADDITION, [<equipmentslottype:mainhand>]);
-	    }
-
-	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:spears>) ) {
-		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "a1780227-963c-4ada-bf81-14aa59b9fc30", "ReachFix", 1, ADDITION, [<equipmentslottype:mainhand>]);
-	    }
-
-	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:halberds>) ) {
-		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "a1780227-963c-4ada-bf81-14aa59b9fc30", "ReachFix", 1, ADDITION, [<equipmentslottype:mainhand>]);
-	    }
-
-	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:pikes>) ) {
-		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "a1780227-963c-4ada-bf81-14aa59b9fc30", "ReachFix", 2, ADDITION, [<equipmentslottype:mainhand>]);
-	    }
-
-	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:lances>) ) {
-		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "a1780227-963c-4ada-bf81-14aa59b9fc30", "ReachFix", 1, ADDITION, [<equipmentslottype:mainhand>]);
-	    }
-
-	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:glaives>) ) {
-		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "a1780227-963c-4ada-bf81-14aa59b9fc30", "ReachFix", 1, ADDITION, [<equipmentslottype:mainhand>]);
-	    }
-
 	    if (allItems.getDefinition().isIn(<tag:items:upgradednetherite:upgraded_netherite_horse_armor>) ) {
 		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 3, ADDITION, [<equipmentslottype:chest>]);
 		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, "a4b21eca-d3ca-3ecd-72a7-b2a5dbb53dc7", "Horse Knockback Resistance", 0.1, ADDITION, [<equipmentslottype:chest>]);
