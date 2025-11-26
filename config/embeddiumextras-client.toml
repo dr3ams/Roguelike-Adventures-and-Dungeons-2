@@ -1,0 +1,54 @@
+
+[EmbeddiumExtras]
+
+	[EmbeddiumExtras.FadeInChunks]
+		EnableFadeInChunks = true
+		#Range: 0 ~ 30
+		ChunksFadeInAnimationSpeedModifier = 20
+
+	[EmbeddiumExtras.RenderDistance]
+		EnableEntityDistanceCheck = false
+		#Range: > 0
+		EntityMaxRenderableHeight = 32
+		#Range: > 0
+		EntityMaxRenderableDistanceSquared = 4096
+		#Accept both modID and registry name
+		EntitiesAlwaysRenderable = []
+		EnableTileEntityDistanceCheck = false
+		#Range: > 0
+		TileMaxRenderableHeight = 32
+		#Range: > 0
+		TileMaxRenderableDistanceSquared = 4096
+		#Accept both modID and registry name
+		TilesAlwaysRenderable = []
+
+	[EmbeddiumExtras.FpsDisplay]
+		#Allowed Values: OFF, SIMPLE, ADVANCED
+		FpsDisplayMode = "OFF"
+		DisplayFpsAtRightSide = false
+		#Range: > 0
+		FpsDisplayPositionXOffset = 12
+		#Range: > 0
+		FpsDisplayPositionYOffset = 12
+		ShowGpuInfo = false
+		ShowMemoryInfo = false
+		ShowGameTime = false
+
+	[EmbeddiumExtras.Misc]
+		Note = true
+		ShutUpGLError = false
+		PotentialMemoryLeakFix = true
+		FastChest = false
+		#Stop rendering the items in Just Enough Items GUI unless you are searching
+		HideJEIItems = false
+		#Removes the banding at the horizon of Vanilla Minecraft
+		EnableClearSkies = false
+		EnableNightVision = false
+		HideNightVisionOptionInVideoSetting = true
+
+	[EmbeddiumExtras.Zoom]
+		EnableZoom = false
+		#Default: Double#MAX_VALUE
+		#Range: 50.0 ~ 1.7976931348623157E308
+		MaxZoomScale = 1.7976931348623157E308
+
