@@ -729,9 +729,9 @@
 				""
 				""
 				""
-				"These stats can be seen in the top-left of the screen and toggled on and off by pressing the &3Show List &rkey &3(default Left Alt)&r."
+				"These stats can be seen in the top-left of the screen and toggled on and off by pressing the &3Show List &rkey &3(default Right Alt)&r."
 				""
-				"You can access the Project MMO menu with the Open Menu key &3(Default: P)&r. Here you can see stats, skills, the glossary and their benefits, how to get experience, and much more."
+				"You can access the Project MMO menu with the Open Menu key &3(Default: Home key)&r. Here you can see stats, skills, the glossary and their benefits, how to get experience, and much more."
 				""
 				"Higher skill levels gives you &2bonuses&r related to the skill, and allows you to &ause more items&r."
 				""
@@ -890,7 +890,7 @@
 			x: -5.1d
 			y: 0.425d
 			description: [
-				"Endurance experience is gained by &6taking damage&r."
+				"Endurance experience is gained by &6taking damage&r and crafting healing items, like &aSalves&r, &aPlasters&r, and &aBandages&r."
 				""
 				"Higher levels will increase damage reduction and max health."
 				""
@@ -1337,21 +1337,20 @@
 			icon: "bountifulbaubles:broken_black_dragon_scale"
 			x: -5.95d
 			y: 3.8249999999999997d
-			subtitle: "Dragonslayer, Shadow, Light, Wayfaring, Dungeoneering"
+			subtitle: "Dragonslayer, Wayfaring, Karma"
 			description: [
 				"These skills do not have bonuses like the others, but are used solely for item requirements."
 				""
 				"&6Dragonslayer&r is gained from... slaying dragons."
 				""
-				"&8Shadow&r is gained from killing certain mobs (see Glossary's Mobs Info section), using &aSmoke Balls&r and crafting Eidolon items."
-				""
-				"&eLight&r is gained from killing certain mobs (see Glossary's Mobs Info section)."
-				""
 				"&9Wayfaring&r is gained from exploring new structures and areas."
 				"&oIt is solely used to wear the &ayeti armors&r&o from the &3Twilight Forest&r."
 				""
-				"&7Dungeoneering&r is gained from crafting and mining dungeon related items and blocks."
-				"&oIt currently has no use except to show your progress in dungeons."
+				"&7Karma&r is earned by slaying foes of both light and dark, and exploring dungeons. See the Pmmo Glossary for a list of mobs that grant this."
+				""
+				"The primary way to obtain Karma is by breaking spawners and defeating bosses."
+				""
+				"&oKarma is a requirement for many items aligned towards the light or dark."
 			]
 			dependencies: ["000000000000009D"]
 			size: 0.85d
@@ -1984,12 +1983,18 @@
 			}]
 		}
 		{
-			title: "Veinmining?"
+			title: "Excavation"
 			icon: "kubejs:mine"
 			x: -6.0d
 			y: -2.0d
-			subtitle: "Ore Excavation"
-			description: ["&6By holding down the ` key with an item in hand you can mine multiple ores or logs in one go."]
+			subtitle: "Dig it all at once!"
+			description: [
+				"Excavating lets you break a whole tree or an entire ore vein at once. It is a huge time saver so using it is recommended."
+				""
+				"&6Simply hold &3Left Shift&6 while breaking an ore or log."
+				""
+				"You may change this by rebinding the &3\"Excavate\"&r keybind in the options menu."
+			]
 			dependencies: ["7FF57EE6F8F6FC1C"]
 			id: "143E7EB383FC8A60"
 			tasks: [{

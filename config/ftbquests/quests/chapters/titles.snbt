@@ -22,7 +22,7 @@
 			x: 0.0d
 			y: 0.0d
 			description: [
-				"Press 't' (you will most likely have to change this if it conflicts with something) to open the Titles gui."
+				"Press &3Open Title Selection Screen key (default Enter)&r to open the Titles gui."
 				""
 				"Understand that you may not have any titles to choose from at first."
 				""
@@ -56,6 +56,7 @@
 			subtitle: "Earned by completing the Feedback Form during beta."
 			description: ["This title cannot be obtained anymore."]
 			optional: true
+			secret: true
 			id: "555DE2027606D5B7"
 			tasks: [{
 				id: "5D6983FD863F51B3"
@@ -114,7 +115,12 @@
 			x: -6.0d
 			y: 3.0d
 			shape: "hexagon"
-			subtitle: "Granted to users who helped develop the pack. Please do not impersonate developers by giving yourself this title."
+			subtitle: "Awarded to valued members who helped develop the pack."
+			description: [
+				"If you are not a developer, and/or not using quest editing mode and you see this something went wrong."
+				""
+				"Do not use this to impersonate a developer. &4&oWe ar&ke&r&4&o a&kl&r&4&oways watc&kh&r&4&oing."
+			]
 			optional: true
 			secret: true
 			id: "70E5ACFA41387822"
@@ -376,37 +382,10 @@
 			}]
 		}
 		{
-			title: "the Seagull Magnet"
-			icon: {
-				id: "twilightforest:ore_magnet"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 4.5d
-			y: 3.0d
-			subtitle: "Obtained by feeding a seagull"
-			description: [""]
-			id: "4C23F119C971EE8D"
-			tasks: [{
-				id: "3A44934BFAF90576"
-				type: "advancement"
-				advancement: "alexsmobs:alexsmobs/seagull_steal"
-				criterion: ""
-			}]
-		}
-		{
 			title: "the Chad"
 			x: -4.5d
 			y: 3.0d
 			subtitle: "Defeat the Warped Mosco and claim the title of Chad"
-			description: [""]
 			id: "2A973F38FD6E0B08"
 			tasks: [{
 				id: "03FAA250379E1666"
@@ -437,16 +416,10 @@
 				tag: {
 					Damage: 0
 				}
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 			}
 			x: 3.0d
 			y: 4.0d
 			subtitle: "Give every dish from farmer's delight a taste to become the ultimate Food Critic"
-			description: [""]
 			id: "3F13F86497060869"
 			tasks: [{
 				id: "7D1FE4BDDB938965"
@@ -473,7 +446,6 @@
 			x: -3.0d
 			y: 6.0d
 			subtitle: "Defeat Herobrine in the Nightmare dimension"
-			description: [""]
 			id: "7ABDB4D872CD85AF"
 			tasks: [{
 				id: "4CCEA9A64A09F393"
@@ -607,6 +579,7 @@
 			subtitle: "Granted to users who test RAD2 pre-release versions."
 			description: ["Best of us"]
 			optional: true
+			secret: true
 			id: "290AB1813B3A9515"
 			tasks: [{
 				id: "1EDA9B202A8A35A2"
@@ -829,8 +802,8 @@
 		}
 		{
 			title: "The Seagull Magnet"
-			x: -1.5d
-			y: 6.0d
+			x: 4.5d
+			y: 3.0d
 			subtitle: "Feed a seagull a raw cod"
 			id: "195D4C92B50DC41E"
 			tasks: [{
@@ -842,8 +815,8 @@
 		}
 		{
 			title: "The Beard Buddy"
-			x: 6.0d
-			y: 4.5d
+			x: -1.5d
+			y: 6.0d
 			subtitle: "Trade with a dwarf"
 			id: "72A703F31BF32212"
 			tasks: [{
