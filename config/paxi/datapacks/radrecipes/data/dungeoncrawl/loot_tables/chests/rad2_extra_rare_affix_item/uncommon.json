@@ -1,0 +1,297 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "Pants Attack Penalty",
+                  "amount": -9,
+                  "operation": "addition",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "name": "Pants Speed Penalty",
+                  "amount": -0.33,
+                  "operation": "multiply_base",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "dungeons_libraries:life_steal",
+                  "name": "Pants Life Steal Penalty",
+                  "amount": -0.15,
+                  "operation": "addition",
+                  "slot": "legs"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:3,Unbreakable:1,Enchantments:[{lvl:3,id:\"dungeons_gear:melee_aura\"},{lvl:3,id:\"dungeons_gear:speed_aura\"},{lvl:3,id:\"dungeons_gear:life_steal_aura\"},{lvl:10,id:\"dungeons_gear:potion_aura\"}],apoth.rarity:\"UNCOMMON\"}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.uncommon",
+                  "color": "green"
+                },
+                {
+                  "text": "Greatly boost others at the expense of your own abilities.",
+                  "color": "white"
+                },
+                {
+                  "text": "Provides Strength 3, Speed 3 and Life Steal 3 to nearby players and pets.",
+                  "color": "yellow"
+                },
+                {
+                  "text": "Provides no armor, and you do not benefit from these effects.",
+                  "color": "red"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Support Pants",
+                "color": "green",
+                "italic": false
+              }
+            }
+          ],
+          "name": "dungeons_gear:wolf_leggings",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "Hammer Attack Base",
+                  "amount": 2,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "Hammer Attack Speed",
+                  "amount": -3.1,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "Hammer Multiply",
+                  "amount": 2.0,
+                  "operation": "multiply_base",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"UNCOMMON\"}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.uncommon",
+                  "color": "green"
+                },
+                {
+                  "text": "The Hammer of Righteousness was already taken.",
+                  "color": "white"
+                },
+                {
+                  "text": "Strength affects this 3 times.",
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Hammer of Wrongeousness",
+                "color": "green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "dungeons_gear:artifact_synergy",
+                "dungeons_gear:exploding",
+                "dungeons_gear:shockwave"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 10,
+                "max": 24
+              },
+              "treasure": true
+            }
+          ],
+          "name": "stalwart_dungeons:iron_hammer",
+          "conditions": []
+        },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "dungeons_gear:reckless",
+                                "uniquee:berserker",
+                                "dungeons_gear:frenzied"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{apoth.rarity:\"UNCOMMON\",display:{Name:'[{\"text\":\"Beetle Rage\",\"color\":\"green\",\"italic\":false}]',Lore:['{\"italic\":true,\"color\":\"green\",\"translate\":\"rarity.apoth.uncommon\"}']},Affixes:{\"apotheosis:shield_damage\":1.0f,\"apotheosis:overheal\":0.01f,\"apotheosis:crit_damage\":0.02f} }"
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 10,
+                                "max": 20
+                            },
+                            "treasure": true
+                        }
+                    ],
+                    "name": "mysticalworld:beetle_chestplate",
+                    "conditions": []
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "uniquebattle:ifrits_blessing"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{apoth.rarity:\"UNCOMMON\",Affixes:{\"apotheosis:fire_damage\":3.0f,\"apotheosis:torch_placement\":4.0f} }"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "rarity.apoth.uncommon",
+                                    "color": "green"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "The Scorch n' Torch",
+                                "color": "green",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 10,
+                                "max": 16
+                            },
+                            "treasure": true
+                        }
+                    ],
+                    "name": "blue_skies:horizonite_sword"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:purple_rune\",Count:1b}, itemModifier:\"modifiers:magical\",Enchantments:[{lvl:1,id:\"tombstone:soulbound\"}],CurioAttributeModifiers:[{Slot:\"necklace\", AttributeName:\"dungeons_libraries:magic_damage_multiplier\", Name:\"magic\", Amount:0.5, Operation:0, UUID:[I;74230076,-1815132125,-1207503540,690542051]},{Slot:\"necklace\", AttributeName:\"dungeons_libraries:soul_cap\", Name:\"soulboost\", Amount:100, Operation:0, UUID:[I;74230076,-1815132125,-1207503540,690542051]},{Slot:\"necklace\", AttributeName:\"dungeons_libraries:artifact_cooldown_multiplier\", Name:\"cooldownreduction\", Amount:-0.25, Operation:0, UUID:[I;74230076,-1815132125,-1207503540,690542051]}]}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "rarity.apoth.uncommon",
+                                    "color": "green"
+                                },
+                                {
+                                    "text": "Enchanted to maximize artifact and magic potential.",
+                                    "color": "light_purple"
+                                }
+                            ]
+                        }
+                    ],
+                    "name": "ars_nouveau:amulet_of_mana_regen",
+                    "conditions": []
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "minecraft:mending",
+                                "uniquee:ender_mending",
+                                "uniquee:ameliorated_sharpness",
+                                "radenchants:life_leech",
+                                "radenchants:magical_blade",
+                                "minecraft:fortune",
+                                "minecraft:looting"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{apoth.rarity:\"UNCOMMON\",HideFlags:3}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "rarity.apoth.uncommon",
+                                    "color": "green"
+                                },
+                                {
+                                    "text": "Garbage, garbage, more garbage. Where's all the good loot in these dungeons?",
+                                    "color": "yellow"
+                                },
+                                {
+                                    "text": "This garbage pile seems to glow with enchanted magic. Maybe if I disenchant it there could be something nice…",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "Also don't place it you will lose the hidden enchantment.",
+                                    "color": "gray"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Enchanted Garbage",
+                                "color": "green",
+                                "italic": false
+                            }
+                        }
+                    ],
+                    "name": "rats:garbage_pile"
+                }
+            ]
+        }
+    ]
+}

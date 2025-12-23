@@ -1,0 +1,227 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Enchantments:[{lvl:3,id:\"radweaponry:socketed\"},{lvl:1,id:\"tombstone:soulbound\"}],CurioAttributeModifiers:[{Slot:\"charm\", AttributeName:\"minecraft:generic.attack_speed\", Name:\"Dice Attack Speed\", Amount:-0.5, Operation:0,UUID:[I;-1019976490,-1268432272,-1406158533,70971201]},{Slot:\"charm\", AttributeName:\"minecraft:generic.knockback_resistance\", Name:\"Dice Knockback\", Amount:-0.25, Operation:0,UUID:[I;-1019976490,-1268432272,-1406158533,70971201]},{Slot:\"charm\", AttributeName:\"forge:entity_gravity\", Name:\"Dice Gravity\", Amount:0.2, Operation:2,UUID:[I;-1019976490,-1268432272,-1406158533,70971201]},{Slot:\"charm\", AttributeName:\"minecraft:generic.attack_damage\", Name:\"Dice Damage\", Amount:3, Operation:0,UUID:[I;-1019976490,-1268432272,-1406158533,70971201]},{Slot:\"charm\", AttributeName:\"dungeons_libraries:ranged_damage_multiplier\", Name:\"Dice Archery\", Amount:0.25, Operation:2,UUID:[I;-1019976490,-1268432272,-1406158533,70971201]},{Slot:\"charm\", AttributeName:\"dungeons_libraries:magic_damage_multiplier\", Name:\"Dice Magic\", Amount:0.25, Operation:2,UUID:[I;-1019976490,-1268432272,-1406158533,70971201]},{Slot:\"charm\", AttributeName:\"paraglider:max_stamina\", Name:\"Dice Stamina\", Amount:0.25, Operation:2,UUID:[I;-1019976490,-1268432272,-1406158533,70971201]},{Slot:\"charm\", AttributeName:\"minecraft:generic.luck\", Name:\"Dice Luck\", Amount:0.5, Operation:0,UUID:[I;-1019976490,-1268432272,-1406158533,70971201]}],\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:green_rune\",Count:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Tiger\'s Gambit",
+                                "color": "blue",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "rarity.apoth.rare",
+                                    "color": "blue"
+                                },
+                                {
+                                    "text": "A rather strange die preferred by those who use more unconventional weaponry.",
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "player": {
+                                            "advancements": {
+                                                "iceandfire:iceandfire/kill_if_dragon": false
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "player": {
+                                            "advancements": {
+                                                "minecraft:story/enter_the_end": true,
+                                                "iceandfire:iceandfire/kill_if_dragon": true
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "name": "meetyourfight:slicers_dice"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 127,
+                                "max": 127
+                            },
+                            "treasure": true
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{HideFlags:3,\"quark:RuneAttached\":1b,\"quark:RuneColor\":{id:\"quark:blue_rune\",Count:1b},Enchantments:[{lvl:1,id:\"minecraft:binding_curse\"}],Affixes:{\"apotheosis:enchantability\":127.0f}}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "rarity.apoth.rare",
+                                    "color": "blue"
+                                },
+                                {
+                                    "text": "An enchanted book with overwhelming power",
+                                    "color": "yellow",
+                                    "extra": [
+                                        {
+                                            "text": "."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "This item\'s affixes cannot be removed.",
+                                    "color": "red"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 3
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Book of Potential",
+                                "color": "blue",
+                                "italic": false
+                            }
+                        }
+                    ],
+                    "name": "minecraft:book",
+                    "conditions": []
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "uniquee:ameliorated_smite"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "uniquee:bone_crusher"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{itemModifier:\"modifiers:smiting\",apoth.rarity:\"RARE\",Affixes:{\"apotheosis:crit_damage\":0.33f} }"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "rarity.apoth.rare",
+                                    "color": "blue"
+                                },
+                                {
+                                    "text": "Brings utmost destruction to any undead that dare to cross its wielder\'s path.",
+                                    "color": "white"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Skullcrusher",
+                                "color": "blue",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 10,
+                                "max": 20
+                            },
+                            "treasure": true
+                        }
+                    ],
+                    "name": "spartanweaponry:flanged_mace_silver"
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "dungeons_gear:swirling"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "uniquee:focused_impact",
+                                "uniquee:swift_blade",
+                                "uniquee:combo_star"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{apoth.rarity:\"RARE\",display:{Name:'[{\"text\":\"Sickle of the Battlefarmer\",\"color\":\"blue\",\"italic\":false}]',Lore:['{\"italic\":true,\"color\":\"blue\",\"translate\":\"rarity.apoth.rare\"}']},Affixes:{\"apotheosis:crit_chance\":0.3f,\"apotheosis:cold_damage\":4.0f} }"
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 10,
+                                "max": 18
+                            },
+                            "treasure": true
+                        }
+                    ],
+                    "name": "pickletweaks:diamond_sickle",
+                    "conditions": []
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{apoth.rarity:\"RARE\",display:{Lore:['{\"italic\":true,\"color\":\"blue\",\"translate\":\"rarity.apoth.rare\"}']},Affixes:{\"apotheosis:armor_toughness\":1.9f,\"apotheosis:max_health\":3.0f} }"
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 18,
+                                "max": 36
+                            },
+                            "treasure": true
+                        }
+                    ],
+                    "name": "greekfantasy:helm_of_darkness",
+                    "conditions": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,270 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_shovel",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{apoth.rarity:\"EPIC\",itemModifier:\"modifiers:none\",Affixes:{\"apotheosis:crit_chance\":-1.0f,\"apotheosis:crit_damage\":1.0f,\"apotheosis:attack_speed\":-0.2f}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Market Barterer",
+                                "color": "dark_purple",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "rarity.apoth.epic",
+                                    "color": "dark_purple"
+                                },
+                                {
+                                    "text": "The runes on this shovel depict piglins launching into the air with some sort of unknown explosive weapon. Seems dangerous.",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "Critical Hits while Blast Jumping",
+                                    "color": "blue",
+				    "italic": false
+                                },
+                                {
+                                    "text": "No Random Crits",
+                                    "color": "red",
+				    "italic": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CurioAttributeModifiers:[{Slot:\"artifact\", AttributeName:\"minecraft:generic.luck\", Name:\"Unlucky\", Amount:-5, Operation:0, UUID:[I;-560821536,-1871558711,-1289291842,1894029363]},{Slot:\"artifact\", AttributeName:\"mysticalworld:serendipity\", Name:\"Unluckier\", Amount:-5, Operation:0, UUID:[I;-560821536,-1871558711,-1289291842,1894029363]},{Slot:\"artifact\", AttributeName:\"dungeons_libraries:soul_gathering\", Name:\"Extra Souls\", Amount:5, Operation:0, UUID:[I;-560821536,-1871558711,-1289291842,1894029363]},{Slot:\"artifact\", AttributeName:\"dungeons_libraries:soul_cap\", Name:\"Extra Soul Cap\", Amount:1, Operation:2, UUID:[I;-560821536,-1871558711,-1289291842,1894029363]},{Slot:\"artifact\", AttributeName:\"dungeons_libraries:magic_damage_multiplier\", Name:\"Extra Damage\", Amount:0.3, Operation:0, UUID:[I;-560821536,-1871558711,-1289291842,1894029363]}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name":
+                {
+                  "text": "Extra Corrupted Beacon",
+                  "color": "dark_purple",
+		  "italic": false
+                }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.epic",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "This beacon is said to give its wearer great misfortune. Sounds horrible, but could be handy for those seeking more common loot, or perhaps even worse. What secrets could be in store for only the most unlucky of adventurers?",
+                  "color": "white"
+                },
+                {
+                  "text": "Negative Luck allows the obtaining of Worthless rarity items from dungeon loot.",
+                  "color": "yellow"
+                }
+              ]
+            }
+          ],
+          "name": "dungeons_gear:corrupted_beacon",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"EPIC\",display:{Name:'[{\"text\":\"The Diminisher\",\"color\":\"dark_purple\",\"italic\":false}]',Lore:['{\"italic\":true,\"color\":\"dark_purple\",\"translate\":\"rarity.apoth.epic\"}']},Affixes:{\"apotheosis:eldritch_block\":1.0f,\"apotheosis:spiked_shield\":1.0f,\"apotheosis:shield_speed\":-0.1f} }"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 12,
+                "max": 22
+              },
+              "treasure": true
+            }
+          ],
+          "name": "spartanshields:shield_basic_lead",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{lvl:15s,id:\"farmersdelight:backstabbing\"}],apoth.rarity:\"EPIC\",display:{Name:'[{\"text\":\"The Signature Move\",\"color\":\"dark_purple\",\"italic\":false}]',Lore:['{\"italic\":true,\"color\":\"dark_purple\",\"translate\":\"rarity.apoth.epic\"}']},Affixes:{\"apotheosis:cold_damage\":3.0f,\"apotheosis:crit_damage\":0.33f,\"apotheosis:overheal\":0.05f} }"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "dungeons_gear:rushdown"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:loyalty"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniquebattle:snare"
+              ]
+            }
+          ],
+          "name": "spartanweaponry:dagger_lead"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.max_health",
+                  "name": "Major Apron Health Bonus",
+                  "amount": 30,
+                  "operation": "addition",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.luck",
+                  "name": "Apron Luck Bonus",
+                  "amount": 3,
+                  "operation": "addition",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "Pacifist",
+                  "amount": -1.0,
+                  "operation": "multiply_total",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "dungeons_libraries:summon_cap",
+                  "name": "Summoner",
+                  "amount": 5,
+                  "operation": "addition",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"EPIC\",Enchantments:[{lvl:5s,id:\"radenchants:rejuvenate\"},{lvl:3s,id:\"radenchants:welding_apron\"}]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.epic",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "A tough apron worn by those who prefer doing things other than fighting.",
+                  "color": "white"
+                },
+                {
+                  "text": "Pairs nicely with the Ring of Bulk (a mythic dungeon loot).",
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Pacifist\'s Garbs",
+                "color": "dark_purple",
+                "italic": false
+              }
+            }
+          ],
+          "name": "dungeons_mobs:chef_chestplate",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "name": "Unmoving",
+                  "amount": -1.0,
+                  "operation": "multiply_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "forge:nametag_distance",
+                  "name": "Unseen",
+                  "amount": -1.0,
+                  "operation": "multiply_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "name": "Unmoving",
+                  "amount": -1.0,
+                  "operation": "multiply_total",
+                  "slot": "offhand"
+                },
+                {
+                  "attribute": "forge:nametag_distance",
+                  "name": "Unseen",
+                  "amount": -1.0,
+                  "operation": "multiply_base",
+                  "slot": "offhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"EPIC\",Enchantments:[{lvl:5s,id:\"farmersdelight:backstabbing\"},{lvl:3s,id:\"radenchants:focus_fire\"},{lvl:3s,id:\"dungeons_gear:growing\"}],Affixes:{\"apotheosis:snipe_damage\":10.0f,\"apotheosis:teleport_drops\":10.0f} }"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.epic",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "Zooms in when held, perfect for hunting foes from a great distance.",
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Shrouded Takedown",
+                "color": "dark_purple",
+                "italic": false
+              }
+            }
+          ],
+          "name": "dungeons_gear:mechanical_shortbow",
+          "conditions": []
+        }
+
+      ]
+    }
+   ]
+}

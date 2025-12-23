@@ -1,0 +1,385 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Enchantments:[{lvl:1,id:\"minecraft:binding_curse\"}],CurioAttributeModifiers:[{Slot:\"scroll\", AttributeName:\"minecraft:generic.attack_damage\", Name:\"Arcane Curse\", Amount:-6.66, Operation:0,UUID:[I;2122986471,-2119614173,-2014801915,-706343144]},{Slot:\"scroll\", AttributeName:\"minecraft:generic.max_health\", Name:\"Life Drain\", Amount:-0.666, Operation:2,UUID:[I;2122986471,-2119614173,-2014801915,-706343144]},{Slot:\"scroll\", AttributeName:\"dungeons_libraries:artifact_cooldown_multiplier\", Name:\"Cooldown Boost\", Amount:-0.666, Operation:2,UUID:[I;2122986471,-2119614173,-2014801915,-706343144]},{Slot:\"scroll\", AttributeName:\"dungeons_libraries:soul_cap\", Name:\"More Souls\", Amount:666, Operation:0,UUID:[I;2122986471,-2119614173,-2014801915,-706343144]},{Slot:\"scroll\", AttributeName:\"dungeons_libraries:soul_gathering\", Name:\"More Souls\", Amount:6.66, Operation:0,UUID:[I;2122986471,-2119614173,-2014801915,-706343144]},{Slot:\"scroll\", AttributeName:\"dungeons_libraries:magic_damage_multiplier\", Name:\"More Souls\", Amount:6.66, Operation:0,UUID:[I;2122986471,-2119614173,-2014801915,-706343144]}],\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:white_rune\",Count:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Lich Pact",
+                                "color": "rainbow",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "rarity.apoth.ancient",
+                                    "color": "rainbow"
+                                },
+                                {
+                                    "text": "A scroll locked away by the dread liches, only to arrive to the most lucky of explorers.",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "Wearing it drains your very life essence but gives you a newfound affinity with lesser used magic.",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "Pairs well with the Sword of the Seven Curses.",
+                                    "color": "yellow"
+                                }
+                            ]
+                        }
+                    ],
+                    "name": "enigmaticlegacy:darkest_scroll",
+                    "conditions": []
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "twilightforest:glass_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{itemModifier:\"modifiers:none\",apoth.rarity:\"ANCIENT\",Enchantments:[{lvl:1,id:\"enigmaticlegacy:nemesis_curse\"},{lvl:2,id:\"uniquebattle:lunatic_despair\"},{lvl:1,id:\"dungeons_gear:pain_cycle\"},{lvl:5,id:\"radenchants:void_bane\"},{lvl:5,id:\"radenchants:dual_edge\"}],\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:rainbow_rune\",Count:1b},RadEnchants: {dualedge: 2147483647}}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.attack_damage",
+                                    "name": "Total Annihilation",
+                                    "amount": 1.79769313486232E+308,
+                                    "operation": "addition",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.attack_speed",
+                                    "name": "Very Slow Attack",
+                                    "amount": -3.9,
+                                    "operation": "addition",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.armor",
+                                    "name": "No Armor for you",
+                                    "amount": -1.0,
+                                    "operation": "multiply_total",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.armor_toughness",
+                                    "name": "No Toughness for you either",
+                                    "amount": -1.0,
+                                    "operation": "multiply_total",
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Mutual Demise",
+                                "color": "rainbow",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "rarity.apoth.ancient",
+                                    "color": "rainbow"
+                                },
+                                {
+                                    "text": "A death for a death, if you can even survive until your first hit.",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "Also will likely break your armor if you get hit beforehand. You have been warned.",
+                                    "color": "yellow"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "mowziesmobs:wrought_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{apoth.rarity:\"ANCIENT\",Enchantments:[{lvl:5,id:\"dungeons_gear:shockwave\"},{lvl:5,id:\"apotheosis:chainsaw\"}],\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:rainbow_rune\",Count:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.attack_damage",
+                                    "name": "Billion Metal Axe Attack Damage",
+                                    "amount": 59,
+                                    "operation": "addition",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.attack_speed",
+                                    "name": "Billion Metal Axe Attack Speed",
+                                    "amount": -3.9,
+                                    "operation": "addition",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "forge:entity_gravity",
+                                    "name": "Billion Metal Axe Gravity",
+                                    "amount": 0.4,
+                                    "operation": "multiply_base",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.knockback_resistance",
+                                    "name": "Billion Metal Axe Knockback Resist",
+                                    "amount": 0.4,
+                                    "operation": "addition",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.movement_speed",
+                                    "name": "Billion Metal Axe Movement",
+                                    "amount": -0.4,
+                                    "operation": "multiply_base",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "forge:swim_speed",
+                                    "name": "Billion Metal Axe Swim",
+                                    "amount": -0.4,
+                                    "operation": "multiply_base",
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Axe of a Billion Metals",
+                                "color": "rainbow",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "rarity.apoth.ancient",
+                                    "color": "rainbow"
+                                },
+                                {
+                                    "text": "Seems ferrous had a much stronger ancestor. This axe is much heavier than any other weapon you've wielded before.",
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "Not an affix.",
+                                    "color": "red"
+                                }
+                            ]
+                        }
+                    ],
+		      "conditions": [
+		        {
+		          "condition": "minecraft:entity_properties",
+		          "entity": "this",
+		          "predicate": {
+		            "player": {
+		              "advancements": {
+		                "mowziesmobs:kill_ferrous_wroughtnaut": true
+		              }
+		            }
+		          }
+		        }
+		      ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "greekfantasy:snakeskin_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{apoth.rarity:\"ANCIENT\",Enchantments:[{lvl:5,id:\"dungeons_gear:poison_focus\"},{lvl:5,id:\"greekfantasy:poison\"}],\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:lime_rune\",Count:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.armor",
+                                    "name": "Helm Armor",
+                                    "amount": 3,
+                                    "operation": "addition",
+                                    "slot": "head"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.armor_toughness",
+                                    "name": "Helm Tough",
+                                    "amount": 3,
+                                    "operation": "addition",
+                                    "slot": "head"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.luck",
+                                    "name": "Helm Luck",
+                                    "amount": 1,
+                                    "operation": "addition",
+                                    "slot": "head"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:copy_nbt",
+                            "source": "this",
+                            "ops": [
+                                {
+                                    "source": "Inventory[{Slot:103b}].tag.Enchantments[]",
+                                    "target": "Enchantments",
+                                    "op": "append"
+                                },
+                                {
+                                    "source": "Inventory[{Slot:103b}].tag.Affixes",
+                                    "target": "Affixes",
+                                    "op": "replace"
+                                },
+                                {
+                                    "source": "Inventory[{Slot:103b}].tag.itemModifier",
+                                    "target": "itemModifier",
+                                    "op": "replace"
+                                },
+                                {
+                                    "source": "Inventory[{Slot:103b}].tag.RadEnchants",
+                                    "target": "RadEnchants",
+                                    "op": "replace"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "The Plague-gerizer",
+                                "color": "dark_green",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "rarity.apoth.ancient",
+                                    "color": "rainbow"
+                                },
+                                {
+                                    "text": "This venomous helmet seems oddly similar to your own, but with its own toxic twist.",
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "equipment": {
+                                    "head": {
+                                        "nbt": "{Enchantments:[{}]}"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Enchantments:[{lvl:3,id:\"radenchants:socketed\"}],CurioAttributeModifiers:[{Slot:\"bracelet\", AttributeName:\"mysticalworld:blessed\", Name:\"Blessed Boost\", Amount:2, Operation:0,UUID:[I;-292686190,174670447,-2102856285,-1339646638]},{Slot:\"bracelet\", AttributeName:\"mysticalworld:serendipity\", Name:\"Serendipity Boost\", Amount:2, Operation:0,UUID:[I;-292686190,174670447,-2102856285,-1339646638]},{Slot:\"bracelet\", AttributeName:\"minecraft:generic.luck\", Name:\"Luck Boost\", Amount:2, Operation:0,UUID:[I;-292686190,174670447,-2102856285,-1339646638]}],\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:green_rune\",Count:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Glimmering Hope",
+                                "color": "dark_green",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "rarity.apoth.ancient",
+                                    "color": "rainbow"
+                                },
+                                {
+                                    "text": "A simple bracelet for simple folk. Blesses wearers with enhanced fortune, no strings attached.",
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    ],
+                    "name": "atum:relic_emerald_bracelet",
+                    "conditions": []
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Enchantments:[{lvl:10s,id:\"dungeons_gear:stunning\"}],fusioned:2b,apoth.rarity:\"ANCIENT\",display:{Name:'[{\"text\":\"The Bonk\",\"color\":\"rainbow\",\"italic\":false}]',Lore:['{\"italic\":true,\"color\":\"rainbow\",\"translate\":\"rarity.apoth.ancient\"}']},Affixes:{\"apotheosis:crit_chance\":0.6f,\"apotheosis:crit_damage\":1.0f} }"
+                        },
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "uniquee:ender_mending",
+                                "uniquee:warriors_grace"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "uniquee:combo_star",
+                                "dungeons_gear:critical_hit"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "uniquee:fast_food"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "uniqueapex:blessed_blade"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 33,
+                                "max": 33
+                            },
+                            "treasure": true
+                        }
+                    ],
+                    "name": "farmersdelight:skillet"
+                }
+            ]
+        }
+    ]
+}

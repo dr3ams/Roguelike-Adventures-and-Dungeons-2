@@ -1,0 +1,205 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{lvl:1,id:\"tombstone:soulbound\"},{lvl:1,id:\"radenchants:glare\"},{lvl:1,id:\"radenchants:nightmask\"}]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Worthless",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "Wear it, I dare you.",
+                  "color": "white"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Pumpkin of Gullibility",
+		"color": "white",
+                "italic": false
+              }
+            }
+          ],
+          "name": "minecraft:carved_pumpkin",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{lvl:1,id:\"uniquee:pestilences_odium\"}]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Worthless",
+                  "color": "dark_gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Worthless Tome",
+		"color": "white",
+                "italic": false
+              }
+            }
+          ],
+          "name": "quark:ancient_tome",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "forge:nametag_distance",
+                  "name": "Ear",
+                  "amount": -1.0,
+                  "operation": "multiply_total",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.follow_range",
+                  "name": "Plugs",
+                  "amount": -1.0,
+                  "operation": "multiply_total",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Worthless",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "\"Finally! I can block out the other villagers constantly nagging me to increase my luck attribute! Let me do whatever I want, okay? It\'s not like it's affecting you.\" -Villager #132, the Nitwit",
+                  "color": "white"
+                },
+                {
+                  "text": "Can be equipped to hide your name from other players, or on mobs like pets or guards to make the mobs unable to target enemies, except when directly touching.",
+                  "color": "yellow"
+                }
+              ]
+            }
+          ],
+          "name": "iceandfire:earplugs",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "Fluctuating Attack",
+                  "amount": {
+                    "max": 9,
+                    "min": -1
+                  },
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "Shifting Speed",
+                  "amount": {
+                    "max": 0,
+                    "min": -3.99
+                  },
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_knockback",
+                  "name": "Knock Knock",
+                  "amount": {
+                    "max": 1,
+                    "min": 0
+                  },
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "dungeons_libraries:life_steal",
+                  "name": "Life or no life",
+                  "amount": {
+                    "max": 1,
+                    "min": 0
+                  },
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "dungeons_libraries:soul_gathering",
+                  "name": "solez",
+                  "amount": {
+                    "max": 1,
+                    "min": 0
+                  },
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Worthless",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "Some say it's dangerous to go alone. It’s also dangerous to rely on this makeshift weapon.",
+                  "color": "white"
+                },
+                {
+                  "text": "Attributes are randomized.",
+                  "color": "yellow"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Fluctuating Farmtool",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+   ]
+}

@@ -1,0 +1,293 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "Helm Armor",
+                  "amount": 6,
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.armor_toughness",
+                  "name": "Helm Armor Toughness",
+                  "amount": 6,
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.max_health",
+                  "name": "Helm Max Health",
+                  "amount": 10,
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "Helm Attack Damage",
+                  "amount": 0.2,
+                  "operation": "multiply_base",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "Helm Attack Speed",
+                  "amount": 0.2,
+                  "operation": "multiply_base",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "name": "Helm Movement Speed",
+                  "amount": 0.3,
+                  "operation": "multiply_base",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "dungeons_libraries:life_steal",
+                  "name": "Helm Life Steal",
+                  "amount": 0.1,
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "dungeons_libraries:soul_gathering",
+                  "name": "Helm No Souls",
+                  "amount": -1,
+                  "operation": "multiply_total",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "dungeons_libraries:ranged_damage_multiplier",
+                  "name": "Helm No Ranged",
+                  "amount": -1,
+                  "operation": "multiply_total",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "dungeons_libraries:magic_damage_multiplier",
+                  "name": "Helm No Magic",
+                  "amount": -1,
+                  "operation": "multiply_total",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "dungeons_libraries:summon_cap",
+                  "name": "Helm No Summons",
+                  "amount": -1,
+                  "operation": "multiply_total",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "paraglider:max_stamina",
+                  "name": "Helm No Paraglider",
+                  "amount": -0.99,
+                  "operation": "multiply_total",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "mysticalworld:blessed",
+                  "name": "Helm No Blessed",
+                  "amount": -1,
+                  "operation": "multiply_total",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "radenchants:magic_resistance",
+                  "name": "Helm No whatever this is",
+                  "amount": -0.25,
+                  "operation": "multiply_base",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "betterendforge:blindness_resistance",
+                  "name": "Helm Blindness",
+                  "amount": -1,
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "caelus:elytra_flight",
+                  "name": "Helm No Elytra Flight",
+                  "amount": -1,
+                  "operation": "addition",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"MYTHIC\",\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:yellow_rune\",Count:1b}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.mythic",
+                  "color": "gold"
+                },
+                {
+                  "text": "Once worn by a blind villager guard who rejects the magic of this world, only focusing on old traditions. This warrior preferred to fight in close combat, which became this warrior's downfall due to the rise of illager mages.",
+                  "color": "white"
+                },
+                {
+                  "text": "Not an affix.",
+                  "color": "red"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Full Zatochi",
+                "color": "gold",
+                "italic": false
+              }
+            }
+          ],
+          "name": "iceandfire:blindfold",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "Cursed Damage",
+                  "amount": -6.66,
+                  "operation": "multiply_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "Normal Sword Speed",
+                  "amount": -2.4,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.mythic",
+                  "color": "gold"
+                },
+                {
+                  "text": "A sword whose strength only comes to those who are at their weakest. Perhaps you can unlock its power by giving yourself the Weakness effect...",
+                  "color": "dark_red"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Sword of the Seven Curses",
+                "color": "light_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"MYTHIC\",Enchantments:[{lvl:1s,id:\"uniquee:pestilences_odium\"},{lvl:1s,id:\"uniqueutil:famines_odium\"},{lvl:1s,id:\"uniquee:combo_star\"},{lvl:1s,id:\"apotheosis:life_mending\"},{lvl:1s,id:\"uniquebattle:lunatic_despair\"},{lvl:1s,id:\"uniquebattle:ifrits_judgement\"},{lvl:1s,id:\"uniquebattle:wars_odium\"}],Affixes:{\"apotheosis:fire_damage\":6.66f,\"apotheosis:life_steal\":0.0666f,\"apotheosis:overheal\":0.0666f} }"
+            }
+          ],
+          "name": "dungeons_gear:sinister_sword",
+          "conditions": []
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniquebattle:streakers_will",
+                "uniquebattle:ares_grace"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{apoth.rarity:\"MYTHIC\",Affixes:{\"apotheosis:piercing\":0.25f,\"apotheosis:shield_damage\":4.0f} }"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.mythic",
+                  "color": "MYTHIC"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Serrated Edge",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 10,
+                "max": 15
+              },
+              "treasure": true
+            }
+          ],
+          "name": "twilightforest:knightmetal_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:light_gray_rune\",Count:1b}, itemModifier:\"modifiers:healthy\",Enchantments:[{lvl:1,id:\"tombstone:soulbound\"}],CurioAttributeModifiers:[{Slot:\"ring\", AttributeName:\"minecraft:generic.max_health\", Name:\"bulk\", Amount:4.0, Operation:1, UUID:[I;591621172,406079247,-2059016193,-632690416]},{Slot:\"ring\", AttributeName:\"minecraft:generic.armor\", Name:\"noarmor\", Amount:-1.0, Operation:1, UUID:[I;591621172,406079247,-2059016193,-632690416]},{Slot:\"ring\", AttributeName:\"minecraft:generic.armor_toughness\", Name:\"notoughness\", Amount:-1.0, Operation:1, UUID:[I;591621172,406079247,-2059016193,-632690416]}]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "rarity.apoth.mythic",
+                  "color": "gold"
+                },
+                {
+                  "text": "\"Who needs armor anyways?\" - Skullbreaker the Piglin Brute",
+                  "color": "yellow"
+                },
+                {
+                  "text": "Health boost does not stack with other Ring of Bulks.",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Ring of Bulk",
+                "color": "gold",
+                "italic": false
+              }
+            }
+          ],
+          "name": "buddycards:luminis_band",
+          "conditions": []
+        }
+
+      ]
+    }
+   ]
+}
