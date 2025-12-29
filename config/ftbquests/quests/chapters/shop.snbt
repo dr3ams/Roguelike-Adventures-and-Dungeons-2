@@ -2220,5 +2220,40 @@
 				table_id: 2347192857864329369L
 			}]
 		}
+		{
+			title: "Diamond Coin -> Any Foil Buddycard"
+			icon: {
+				id: "buddycards:booster_box.1"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: 2.0d
+			subtitle: "&bChoice Reward"
+			optional: true
+			id: "444784E3057DAB4C"
+			tasks: [{
+				id: "3C5C2400F07CDAF1"
+				type: "item"
+				item: {
+					id: "kubejs:diamond_coin"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "34F0D3137B2B6BA9"
+				type: "choice"
+				table_id: 5162836931424977119L
+			}]
+		}
 	]
 }
