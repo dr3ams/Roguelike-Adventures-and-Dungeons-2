@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "container": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "lootr:lootr_chest",
+            "nbt": "{ForgeCaps:{\"improvedmobs:opened_flag\":{HasBeenOpened:0b}}}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [],
+  "rewards": {
+    "function": "rad_recipes:mimic_chest"
+  }
+}

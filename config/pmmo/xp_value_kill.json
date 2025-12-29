@@ -1,7 +1,8 @@
 {
 	"artifacts:mimic":
 	{
-		"combat": 45
+		"combat": 45,
+		"dungeoneering": 35
 	},
 	"iceandfire:amphithere":
 	{
@@ -22,37 +23,37 @@
 	"iceandfire:dread_beast":
 	{
 		"combat": 35,
-		"light": 35
+		"dungeoneering": 35
 	},
 	"iceandfire:dread_ghoul":
 	{
 		"combat": 35,
-		"light": 35
+		"dungeoneering": 35
 	},
 	"iceandfire:dread_horse":
 	{
 		"combat": 35,
-		"light": 35
+		"dungeoneering": 35
 	},
 	"iceandfire:dread_knight":
 	{
 		"combat": 50,
-		"light": 50
+		"dungeoneering": 50
 	},
 	"iceandfire:dread_lich":
 	{
 		"combat": 50,
-		"light": 75
+		"dungeoneering": 75
 	},
 	"iceandfire:dread_lich_skull":
 	{
 		"combat": 50,
-		"light": 75
+		"dungeoneering": 75
 	},
 	"iceandfire:dread_scuttler":
 	{
 		"combat": 35,
-		"light": 35
+		"dungeoneering": 35
 	},
 	"iceandfire:dread_thrall":
 	{
@@ -116,7 +117,7 @@
 	"iceandfire:pixie":
 	{
 		"combat": 35,
-		"shadow": 10
+		"dungeoneering": 10
 	},
 	"iceandfire:sea_serpent":
 	{
@@ -144,7 +145,7 @@
 	},
 	"alexsmobs:void_worm":
 	{
-		"light": 100
+		"dungeoneering": 500
 	},
 	"minecraft:blaze":
 	{
@@ -165,12 +166,13 @@
 	},
 	"minecraft:elder_guardian":
 	{
-		"combat": 100
+		"combat": 100,
+		"dungeoneering": 50,
 	},
 	"minecraft:ender_dragon":
 	{
 		"combat": 100,
-		"light": 100,
+		"dungeoneering": 500,
 		"dragonslayer": 300
 	},
 	"minecraft:enderman":
@@ -179,7 +181,8 @@
 	},
 	"minecraft:evoker":
 	{
-		"combat": 40
+		"combat": 40,
+		"dungeoneering": 25
 	},
 	"minecraft:guardian":
 	{
@@ -189,9 +192,19 @@
 	{
 		"combat": 35
 	},
+	"minecraft:illusioner":
+	{
+		"combat": 40,
+		"dungeoneering": 30
+	},
 	"minecraft:magma_cube":
 	{
 		"combat": 7.5
+	},
+	"minecraft:pillager":
+	{
+		"combat": 10,
+		"dungeoneering": 10
 	},
 	"minecraft:ravager":
 	{
@@ -216,7 +229,8 @@
 	},
 	"minecraft:vindicator":
 	{
-		"combat": 35
+		"combat": 35,
+		"dungeoneering": 25
 	},
 	"minecraft:witch":
 	{
@@ -225,7 +239,7 @@
 	"minecraft:wither":
 	{
 		"combat": 100,
-		"light": 100
+		"dungeoneering": 300
 	},
 	"minecraft:wither_skeleton":
 	{
@@ -245,59 +259,57 @@
 	},
 	"atum:bandit_warlord":
 	{
-		"light": 10
+		"dungeoneering": 10
 	},
 	"atum:mummy":
 	{
-		"light": 10
+		"dungeoneering": 10
 	},
 	"blue_skies:alchemist":
 	{
 		"alchemy": 50,
-		"dungeoneering": 50
+		"dungeoneering": 175
 	},
 	"blue_skies:summoner":
 	{
 		"magic": 50,
-		"dungeoneering": 50
+		"dungeoneering": 175
 	},
 	"blue_skies:starlit_crusher":
 	{
-		"shadow": 100,
-		"dungeoneering": 200
+		"dungeoneering": 250
 	},
 	"blue_skies:arachnarch":
 	{
-		"light": 100,
-		"dungeoneering": 200
+		"dungeoneering": 250
 	},
 	"blue_skies:infested_swarmer":
 	{
-		"light": 10
+		"dungeoneering": 10
 	},
 	"blue_skies:polargeist":
 	{
-		"light": 10
+		"dungeoneering": 10
 	},
 	"blue_skies:venom_spider":
 	{
-		"light": 10
+		"dungeoneering": 10
 	},
 	"undergarden:brute":
 	{
-		"light": 10
+		"dungeoneering": 10
 	},
 	"undergarden:rotbeast":
 	{
-		"light": 10
+		"dungeoneering": 10
 	},
 	"undergarden:masticator":
 	{
-		"light": 100
+		"dungeoneering": 250
 	},
 	"greekfantasy:shade":
 	{
-		"light": 10
+		"dungeoneering": 10
 	},
 	"twilightforest:skeleton_druid":
 	{
@@ -305,49 +317,61 @@
 	},
 	"twilightforest:naga":
 	{
-		"light": 50,
-		"dungeoneering": 50,
+		"dungeoneering": 150,
 		"wayfaring": 20
 	},
 	"twilightforest:lich":
 	{
-		"light": 50,
-		"dungeoneering": 50,
+		"dungeoneering": 150,
 		"wayfaring": 20
 	},
 	"twilightforest:minoshroom":
 	{
-		"light": 50,
-		"dungeoneering": 50,
+		"dungeoneering": 200,
 		"wayfaring": 20
 	},
 	"twilightforest:yeti":
 	{
-		"wayfaring": 5
+		"wayfaring": 10
 	},
 	"twilightforest:yeti_alpha":
 	{
-		"light": 10,
+		"dungeoneering": 200,
+		"wayfaring": 50
+	},
+	"twilightforest:hydra":
+	{
+		"dungeoneering": 250,
 		"wayfaring": 20
 	},
 	"twilightforest:snow_queen":
 	{
-		"light": 50,
-		"dungeoneering": 50,
+		"dungeoneering": 250,
+		"wayfaring": 20
+	},
+	"twilightforest:knight_phantom":
+	{
+		"dungeoneering": 40,
+		"wayfaring": 4
+	},
+	"twilightforest:ur_ghast":
+	{
+		"dungeoneering": 250,
 		"wayfaring": 20
 	},
 	"mowzies_mobs:ferrous_wroughtnaut":
 	{
-		"light": 50,
-		"dungeoneering": 200
+		"dungeoneering": 200,
+		"smithing": 100
 	},
 	"mowzies_mobs:frostmaw":
 	{
-		"wayfaring": 50
+		"dungeoneering": 200,
+		"wayfaring": 75
 	},
 	"mowzies_mobs:barako":
 	{
-		"shadow": 50
+		"dungeoneering": 200
 	},
 	"mowzies_mobs:grottol":
 	{
@@ -364,98 +388,97 @@
 	},
 	"meetyourfight:swampjaw":
 	{
-		"light": 40
+		"dungeoneering": 60
 	},
 	"meetyourfight:bellringer":
 	{
-		"light": 50
+		"dungeoneering": 80
 	},
 	"meetyourfight:dame_fortuna":
 	{
-		"light": 60
+		"dungeoneering": 100
 	},
 	"quark:stoneling":
 	{
 		"mining": 8,
 		"gathering": 8
 	},
-	"dungeonsmod:sun":
-	{
-		"shadow": 50
-	},
 	"feywild:autumn_pixie":
 	{
-		"shadow": 10
+		"dungeoneering": 10
 	},
 	"feywild:spring_pixie":
 	{
-		"shadow": 10
+		"dungeoneering": 10
 	},
 	"goblintraders:goblin_trader":
 	{
-		"shadow": 10
+		"dungeoneering": 10
+	},
+	"goblintraders:vein_goblin_trader":
+	{
+		"dungeoneering": 20
 	},
 	"greekfantasy:dryad":
 	{
-		"shadow": 10
+		"dungeoneering": 10
 	},
 	"greekfantasy:harpy":
 	{
-		"light": 10
+		"dungeoneering": 10
 	},
 	"greekfantasy:unicorn":
 	{
-		"shadow": 10
+		"dungeoneering": 10
 	},
 	"guardvillagers:guard":
 	{
-		"shadow": 50
+		"dungeoneering": 35
 	},
 	"minecraft:villager":
 	{
-		"shadow": 50
+		"dungeoneering": 15
 	},
 	"supplementaries:red_merchant":
 	{
-		"shadow": 50
+		"dungeoneering": 25
 	},
 	"minecraft:wandering_trader":
 	{
-		"light": 25,
-		"shadow": 25
+		"dungeoneering": 15
 	},
 	"atum:villager_male":
 	{
-		"shadow": 50
+		"dungeoneering": 15
 	},
 	"atum:villager_female":
 	{
-		"shadow": 50
+		"dungeoneering": 15
 	},
 	"atum:wraith":
 	{
-		"light": 5
+		"dungeoneering": 5
 	},
 	"dungeons_mobs:wraith":
 	{
-		"light": 5
+		"dungeoneering": 5
 	},
 	"eidolon:wraith":
 	{
-		"light": 5
+		"dungeoneering": 5
 	},
 	"eidolon:necromancer":
 	{
-		"light": 5
+		"dungeoneering": 5
 	},
 	"twilightforest:wraith":
 	{
-		"light": 5
+		"dungeoneering": 5
 	},
 	"stalwart_dungeons:shelterer":
 	{
 		"combat": 100,
-		"light": 100,
+		"dungeoneering": 500,
 		"endurance": 200
 	},
 	"eidolon:zombie_brute":
@@ -468,22 +491,78 @@
 	},
 	"humancompanions:arbalist":
 	{
-		"shadow": 50
+		"dungeoneering": 25
 	},
 	"humancompanions:archer":
 	{
-		"shadow": 50
+		"dungeoneering": 25
 	},
 	"humancompanions:knight":
 	{
-		"shadow": 50
+		"dungeoneering": 25
 	},
 	"humancompanions:axeguard":
 	{
-		"shadow": 50
+		"dungeoneering": 25
 	},
 	"good_nights_sleep:herobrine":
 	{
-		"light": 50
+		"dungeoneering": 50
+	},
+	"takesapillage:archer":
+	{
+		"dungeoneering": 20
+	},
+	"takesapillage:legioner":
+	{
+		"dungeoneering": 50
+	},
+	"takesapillage:skirmisher":
+	{
+		"dungeoneering": 25
+	},
+	"illagers_plus:archer":
+	{
+		"dungeoneering": 20
+	},
+	"illagers_plus:berserker":
+	{
+		"dungeoneering": 25
+	},
+	"illagers_plus:black_iron_golem":
+	{
+		"dungeoneering": 25
+	},
+	"illagers_plus:enchanter":
+	{
+		"dungeoneering": 25
+	},
+	"illagers_plus:frostmancer":
+	{
+		"dungeoneering": 25
+	},
+	"illagers_plus:furantur":
+	{
+		"dungeoneering": 15
+	},
+	"illagers_plus:hoarder":
+	{
+		"dungeoneering": 20
+	},
+	"illagers_plus:illager_general":
+	{
+		"dungeoneering": 30
+	},
+	"illagers_plus:illager_king":
+	{
+		"dungeoneering": 30
+	},
+	"illagers_plus:miner":
+	{
+		"dungeoneering": 10
+	},
+	"illagers_plus:necromancer":
+	{
+		"dungeoneering": 30
 	}
 }

@@ -1,0 +1,8 @@
+execute if entity @s[team=Hardcore] if predicate rad_recipes:2_percent anchored eyes positioned ^ ^ ^1 if block ~ ~ ~ lootr:lootr_chest unless data block ~ ~ ~ LootrOpeners[0] run function rad_recipes:mimic_chest_change
+execute if entity @s[team=Hardcore] if predicate rad_recipes:2_percent anchored eyes positioned ^ ^ ^2 if block ~ ~ ~ lootr:lootr_chest unless data block ~ ~ ~ LootrOpeners[0] run function rad_recipes:mimic_chest_change
+execute if entity @s[team=Hardcore] if predicate rad_recipes:3_percent anchored eyes positioned ^ ^ ^3 if block ~ ~ ~ lootr:lootr_chest unless data block ~ ~ ~ LootrOpeners[0] run function rad_recipes:mimic_chest_change
+execute if entity @s[team=Hardcore] if predicate rad_recipes:3_percent anchored eyes positioned ^ ^ ^4 if block ~ ~ ~ lootr:lootr_chest unless data block ~ ~ ~ LootrOpeners[0] run function rad_recipes:mimic_chest_change
+execute if entity @s[team=Hardcore] if predicate rad_recipes:3_percent anchored eyes positioned ^ ^ ^5 if block ~ ~ ~ lootr:lootr_chest unless data block ~ ~ ~ LootrOpeners[0] run function rad_recipes:mimic_chest_change
+execute if entity @s[team=Hardcore] if predicate rad_recipes:3_percent anchored eyes positioned ^ ^ ^6 if block ~ ~ ~ lootr:lootr_chest unless data block ~ ~ ~ LootrOpeners[0] run function rad_recipes:mimic_chest_change
+
+execute if entity @s[team=Hardcore] run advancement revoke @s only rad_recipes:open_new_chest
