@@ -28,8 +28,8 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:iceandfire:silver_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 4.5, ADDITION, [<equipmentslottype:mainhand>]);
 <item:iceandfire:silver_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 7, ADDITION, [<equipmentslottype:mainhand>]);
 
-//infused arc sword triple damage when charged
-<item:blue_skies:infused_arc_sword>.withTag({InfusedCooldown: 0 as int}).anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb3", "Weapon modifier", 10.8, ADDITION, [<equipmentslottype:mainhand>]);
+//infused arc sword quadruple damage when charged
+<item:blue_skies:infused_arc_sword>.withTag({InfusedCooldown: 0 as int}).anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "1475ecd8-a1c9-40f0-9ca8-33588e0abcb3", "Weapon modifier", 17.4, ADDITION, [<equipmentslottype:mainhand>]);
 
 //weighted lead + magic resistance
 <item:mysticalworld:lead_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "309220a7-861a-48f8-b601-4b85c503c890", "lead armor weight", 0.04, MULTIPLY_BASE, [<equipmentslottype:head>]);

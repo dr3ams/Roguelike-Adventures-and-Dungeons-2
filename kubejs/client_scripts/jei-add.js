@@ -13,6 +13,6 @@ onEvent('jei.add.items', event => {
   event.add(Item.of('supplementaries:laser_block', {}))
   event.add(Item.of('magicaljewelry:the_one_ring', {}))
   event.add(Item.of('ars_nouveau:enchanters_sword', {CustomModelData:1,display:{Name:'{"translate":"item.rad2.enchanters_hammer","italic":false}'}}))
+  event.add(Item.of('spartanweaponry:dagger_wood', {}))
   event.add(Item.of('spartanweaponry:pike_wood', {CustomModelData:1,display:{Name:'{"translate":"item.rad2.big_stick","italic":false,"bold":true}'}}))
-
 })

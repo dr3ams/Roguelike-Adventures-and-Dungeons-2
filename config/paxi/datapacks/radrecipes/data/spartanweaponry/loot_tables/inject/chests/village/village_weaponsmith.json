@@ -594,6 +594,177 @@
           }
         }
       ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mysticalworld:tin_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mysticalworld:tin_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mysticalworld:tin_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mysticalworld:tin_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mysticalworld:copper_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mysticalworld:copper_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mysticalworld:copper_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mysticalworld:copper_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "mysticalworld:tin_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "mysticalworld:copper_pickaxe"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "player": {
+              "advancements": {
+                "minecraft:story/enter_the_nether": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mysticalworld:lead_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mysticalworld:lead_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mysticalworld:lead_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "mysticalworld:lead_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "mysticalworld:lead_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mysticalworld:sapphire_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mysticalworld:sapphire_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mysticalworld:sapphire_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mysticalworld:sapphire_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "mysticalworld:sapphire_pickaxe"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 15,
+            "max": 30
+          },
+          "treasure": true,
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "advancements": {
+                    "minecraft:story/enter_the_end": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "player": {
+              "advancements": {
+                "minecraft:story/enter_the_nether": true
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

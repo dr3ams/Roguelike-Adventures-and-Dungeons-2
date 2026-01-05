@@ -242,6 +242,7 @@ event.hide('mysticalworld:quicksilver_ore')
 event.hide('greekfantasy:wooden_spear')
 event.hide('greekfantasy:stone_spear')
 event.hide('greekfantasy:iron_spear')
+event.hide('greekfantasy:salve')
 
 event.hide('iceandfire:copper_sword')
 event.hide('iceandfire:copper_shovel')
@@ -294,6 +295,8 @@ event.hide('paraglider:heart_container')
 event.hide('alexsmobs:mimicream')
 event.hide('upgradednetherite_items:ultimate_upgraded_netherite_totem')
 event.hide('upgradednetherite_items:creative_upgraded_netherite_totem')
+
+event.hide('enigmaticlegacy:recall_potion')
 })
 
 onEvent('item.tooltip', tooltip => {

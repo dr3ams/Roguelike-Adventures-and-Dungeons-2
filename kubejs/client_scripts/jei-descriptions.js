@@ -28,7 +28,7 @@ event.add('elenaidodge2:iron_feather', ["When brewed with an Awkward Potion crea
 event.add('elenaidodge2:golden_feather', ["When brewed with an Awkward Potion creates a Potion of Feathers. Add to a Regeneration Potion to create a Replenishment Potion. (JEI doesn't show these recipes for some reason)"])
 event.add('undergarden:regalium_ingot', ["Used to trade with Stoneborn."])
 event.add('iceandfire:dread_queen_sword', ["Awarded for completing the Large Dread Gate Pearl"])
-event.add('blue_skies:infused_arc_sword', ["Charges up over time. When fully charged, the next 31 times you attack, your damage is tripled, after which it changes back to its normal damage."])
+event.add('blue_skies:infused_arc_sword', ["Charges up over time. When fully charged, the next 31 times you attack, your damage is quadrupled, after which it changes back to its normal damage."])
 
 event.add('tropicraft:limeade', ["Can be made using the drink mixer.", "Ingredients: lime + sugar + water bucket"])
 event.add('tropicraft:caipirinha', ["Can be made using the drink mixer.", "Ingredients: lime + sugar canes + water bucket"])
@@ -96,8 +96,5 @@ event.add('waystones:bound_scroll', ["This item can be bought in the shop"])
 event.add('waystones:warp_scroll', ["This item can be bought in the shop"])
 event.add('waystones:warp_stone', ["This item can be bought in the shop"])
 event.add('waystones:warp_plate', ["This item can be bought in the shop"])
-  
-  
-  
-  
+    
 })

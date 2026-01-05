@@ -127,6 +127,22 @@
     "minecraft:iron_sword": {
         "combat": 25
     },
+    "minecraft:trident": {
+        "combat": 20,
+	"fishing": 3
+    },
+    "dungeons_mobs:purple_trident": {
+        "combat": 20,
+	"fishing": 3
+    },
+    "dungeons_mobs:yellow_trident": {
+        "combat": 20,
+	"fishing": 3
+    },
+    "greekfantasy:bident": {
+        "combat": 20,
+	"dungeoneering": 3
+    },
     "mysticalworld:sapphire_pickaxe": {
         "combat": 1
     },
@@ -686,7 +702,8 @@
         "combat": 1
     },
     "iceandfire:tide_trident": {
-        "combat": 50
+        "combat": 50,
+        "fishing": 10
     },
     "iceandfire:troll_weapon_axe": {
         "combat": 30
@@ -2757,7 +2774,7 @@
     },
     "blue_skies:infused_arc_sword": {
         "combat": 45,
-        "dungeoneering": 10
+        "dungeoneering": 13
     },
     "stalwart_dungeons:wooden_hammer": {
         "combat": 1

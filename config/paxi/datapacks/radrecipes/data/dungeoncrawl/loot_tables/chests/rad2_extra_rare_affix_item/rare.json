@@ -69,6 +69,43 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{HideFlags:3,\"quark:RuneAttached\":1b,\"quark:RuneColor\":{id:\"quark:yellow_rune\",Count:1b},Enchantments:[{lvl:1,id:\"minecraft:binding_curse\"}]}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "rarity.apoth.rare",
+                                    "color": "blue"
+                                },
+                                {
+                                    "text": "Money doesn\'t grow on trees, but the apples grown from this tree could be sold for a fortune",
+                                    "color": "yellow",
+                                    "extra": [
+                                        {
+                                            "text": "!"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "block.greekfantasy.golden_apple_sapling",
+                                "color": "blue",
+                                "italic": false
+                            }
+                        }
+                    ],
+                    "name": "greekfantasy:golden_apple_sapling",
+                    "conditions": []
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
                                 "min": 127,
@@ -207,13 +244,13 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{apoth.rarity:\"RARE\",display:{Lore:['{\"italic\":true,\"color\":\"blue\",\"translate\":\"rarity.apoth.rare\"}']},Affixes:{\"apotheosis:armor_toughness\":1.9f,\"apotheosis:max_health\":3.0f} }"
+                            "tag": "{apoth.rarity:\"RARE\",display:{Lore:['{\"italic\":true,\"color\":\"blue\",\"translate\":\"rarity.apoth.rare\"}']},Affixes:{\"apotheosis:armor_toughness\":2.9f,\"apotheosis:max_health\":3.0f} }"
                         },
                         {
                             "function": "minecraft:enchant_with_levels",
                             "levels": {
-                                "min": 18,
-                                "max": 36
+                                "min": 20,
+                                "max": 40
                             },
                             "treasure": true
                         }

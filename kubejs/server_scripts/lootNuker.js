@@ -15,4 +15,13 @@ onEvent("lootjs", (event) => {
         .thenRemove("minecraft:spawner")
         .thenReplace('simplefarming:rice', 'farmersdelight:rice_panicle')
         .thenReplace('simplefarming:rice_seeds', 'farmersdelight:rice');
+
+    event//nuke basic iron gear from the village weaponsmith loot. Scaling loot is added through paxi/radrecipes/spartanweaponry datapack.
+        .addLootTableModifier("minecraft:chests/village/village_weaponsmith")
+        .thenRemove("minecraft:iron_helmet")
+        .thenRemove("minecraft:iron_chestplate")
+        .thenRemove("minecraft:iron_leggings")
+        .thenRemove("minecraft:iron_boots")
+        .thenRemove("minecraft:iron_sword")
+        .thenRemove("minecraft:iron_pickaxe");
 });

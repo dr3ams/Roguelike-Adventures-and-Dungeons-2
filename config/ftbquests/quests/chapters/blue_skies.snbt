@@ -2894,11 +2894,13 @@
 			y: 0.5d
 			subtitle: "The power of the 4 arcs combined"
 			description: [
-				"Using an infusion pedestal (See End Exploration chapter) and all 4 boss arcs you can create the Infused Arc Sword, a sword that can charge up to deal triple damage."
+				"Using an infusion pedestal (See End Exploration chapter) and all 4 boss arcs you can create the Infused Arc Sword, a sword that can charge up to deal &equadruple&r damage."
 				""
 				"All ingredients can be obtained from either the overworld or blue skies, You do &lnot&r need to access the end to make the sword."
 				""
 				"The sword has extremely low enchantability, so you may have to use enchanted books to apply enchantments to it."
+				""
+				"Has no repair material, and can be &areforged for free&r at the smithing table."
 			]
 			dependencies: [
 				"0DF7112340FB8A00"
@@ -3277,6 +3279,112 @@
 					id: "1B99D1A4AC5FBE81"
 					type: "xp"
 					xp: 3
+				}
+			]
+		}
+		{
+			title: "Defense from the dark arts"
+			x: 9.0d
+			y: 1.0d
+			description: [
+				"Shadow Armor can be obtained by smithing &aCharoite Armor&r and a &aShadow Gem&r (see &3Dark Magic&r quest chapter), or very rarely when fishing at a high level."
+				""
+				"Shadow Armor has equivalent defense to netherite, but with the added bonus of being fully useable in the blue skies dimensions, and can get bonus durability with falsite + the tool box."
+				""
+				"It can be repaired with Charoite."
+				""
+				"&6Only 2 of 4 are needed to complete this quest."
+			]
+			min_required_tasks: 2
+			id: "2239A0EF77494532"
+			tasks: [
+				{
+					id: "21E46F7F181F3257"
+					type: "item"
+					item: {
+						id: "blue_skies:shadow_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0860B20E1F9F93AE"
+					type: "item"
+					item: {
+						id: "blue_skies:shadow_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7A2A6E3EF650C078"
+					type: "item"
+					item: {
+						id: "blue_skies:shadow_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "09E9B4D1A76A5083"
+					type: "item"
+					item: {
+						id: "blue_skies:shadow_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6656AF57DBAE995A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "51B82091574CE92F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							CustomModelData: 1
+							type: "crate_crate"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}

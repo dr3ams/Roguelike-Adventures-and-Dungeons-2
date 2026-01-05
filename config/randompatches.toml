@@ -29,7 +29,7 @@
 	return_to_main_menu_after_disconnect = false
 	# Gives capes to RandomPatches contributors.
 	# Default: true
-	contributor_capes = true
+	contributor_capes = false
 
 	# Client-sided bug fixes.
 	[client.bug_fixes]
@@ -298,7 +298,7 @@
 		# The MC-145311 fix works client-side only, so please be mindful of server rules when using this feature.
 		# This also allows players to receive the Conduit Power effect in cauldrons filled with water.
 		# Default: true
-		fix_entities_not_being_considered_wet_in_cauldrons = true
+		fix_entities_not_being_considered_wet_in_cauldrons = false
 		# Fixes mobs not being able to cross rails.
 		# This bug is reported as MC-33359: https://bugs.mojang.com/browse/MC-33359
 		# Default: true
