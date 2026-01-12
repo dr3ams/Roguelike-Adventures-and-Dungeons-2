@@ -167,7 +167,7 @@
 	#Should biome positive effects be enabled? false means no positive effects
 	positiveBiomeEffectEnabled = true
 	#Should break requirements be enabled? false means no requirements
-	breakReqEnabled = false
+	breakReqEnabled = true
 	#Should xp values for breaking things first time be enabled? false means only Hardness xp is awarded for breaking
 	xpValueBreakingEnabled = true
 	#Commands being fired on specific level ups enabled? false = off
@@ -179,7 +179,7 @@
 	#Should tool requirements be enabled? false means no requirements
 	toolReqEnabled = true
 	#Should place requirements be enabled? false means no requirements
-	placeReqEnabled = false
+	placeReqEnabled = true
 	#When a Wear requirement is not met, should the item be dropped?
 	strictReqWear = true
 	#Should dimensional travel requirements be enabled? false means no requirements

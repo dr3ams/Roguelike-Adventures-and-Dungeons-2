@@ -23,16 +23,16 @@
 	[oregen.Tin_oregen]
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
-		oreChances = 8
+		oreChances = 9
 		#Max size of the vein.
 		#Range: 1 ~ 256
-		veinSize = 6
+		veinSize = 8
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
 		minY = 12
 		#Number of veins per chunk (set to 0 to disable).
 		#Range: 0 ~ 256
-		maxY = 62
+		maxY = 70
 		#The dimensions that this ore should spawn in as a list (default ["minecraft:overworld"])
 		dimensions = ["minecraft:overworld", "twilightforest:twilightforest"]
 

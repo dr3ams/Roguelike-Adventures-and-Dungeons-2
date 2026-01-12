@@ -48,7 +48,7 @@
 	]
 	quests: [
 		{
-			x: 3.0d
+			x: 3.5d
 			y: -1.0d
 			shape: "octagon"
 			subtitle: "Where it all begins"
@@ -110,40 +110,27 @@
 		}
 		{
 			title: "Mining Tools"
-			x: 6.5d
+			x: 7.5d
 			y: 1.5d
-			description: ["Bring out the classic stone pickaxe, or try something new like a stone hammer!"]
+			description: ["Consider the hammer if you need a pickaxe that is also useful for self-defense."]
 			dependencies: ["01ECE22274DDE487"]
 			id: "518DF4A178673014"
-			tasks: [
-				{
-					id: "0A4DEEAE9F94ACC9"
-					type: "item"
-					item: {
-						id: "minecraft:stone_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
+			tasks: [{
+				id: "6DF2E13F784CD025"
+				type: "item"
+				item: {
+					id: "stalwart_dungeons:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
 						}
 					}
 				}
-				{
-					id: "6DF2E13F784CD025"
-					type: "item"
-					item: {
-						id: "stalwart_dungeons:stone_hammer"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
+			}]
 			rewards: [
 				{
 					id: "249C63A931C8878F"
@@ -156,11 +143,29 @@
 					type: "ftbmoney:money"
 					ftb_money: 5L
 				}
+				{
+					id: "7771532BC1EAAA95"
+					type: "pmmo:xpreward"
+					title: "50 Gathering XP"
+					icon: {
+						id: "kubejs:mine"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "invisible"
+					skill: "gathering"
+					amount: 50.0d
+					ignoreBonuses: true
+				}
 			]
 		}
 		{
 			title: "Iron"
-			x: 18.5d
+			x: 19.5d
 			y: -1.0d
 			shape: "octagon"
 			subtitle: "A versatile classic"
@@ -226,7 +231,7 @@
 			]
 		}
 		{
-			x: 27.0d
+			x: 28.0d
 			y: 0.5d
 			description: ["The classic pickaxe of Minecraft. Perfect for mining a lot of obsidian."]
 			dependencies: ["446936F80D06B8A4"]
@@ -281,7 +286,7 @@
 			]
 		}
 		{
-			x: 27.0d
+			x: 28.0d
 			y: -1.0d
 			shape: "octagon"
 			subtitle: "The link to other worlds"
@@ -327,7 +332,7 @@
 			]
 		}
 		{
-			x: 15.5d
+			x: 16.5d
 			y: -3.0d
 			subtitle: "Tower Defense"
 			description: [
@@ -382,7 +387,7 @@
 			]
 		}
 		{
-			x: 11.5d
+			x: 12.5d
 			y: -1.0d
 			subtitle: "Like stone, but better!"
 			dependencies: ["0D53B0136F089B1F"]
@@ -436,7 +441,7 @@
 		}
 		{
 			title: "Utility tools"
-			x: 8.5d
+			x: 9.5d
 			y: 0.5d
 			description: [
 				"- &aPaxels&r: A combination of Axe, Pickaxe, and Shovel. Can be used to create Path blocks as well as Stripped Logs."
@@ -489,39 +494,37 @@
 			]
 			rewards: [
 				{
-					id: "493E1D8DD5E26C4C"
-					type: "item"
-					item: "minecraft:clay_ball"
-					count: 5
-				}
-				{
-					id: "711864CCA7E08EF4"
-					type: "item"
-					item: "minecraft:ink_sac"
-					count: 5
-				}
-				{
-					id: "0FB1712AD89DCA7D"
-					type: "item"
-					item: "minecraft:apple"
-				}
-				{
 					id: "29D27AAB07A881EE"
 					type: "ftbmoney:money"
 					ftb_money: 5L
+				}
+				{
+					id: "4AE66D9AE0E3CC6B"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
 		{
 			title: "Tin"
-			x: 14.0d
+			x: 15.0d
 			y: -1.0d
 			shape: "octagon"
 			subtitle: "Who needs iron tools?"
 			description: [
-				"Tin Ores can be found between Y levels &e12&r to &e62&r."
+				"Tin Ores can be found between Y levels &e12&r to &e70&r."
 				""
 				"Tin matches flint gear in power, but it has the first pickaxe that can mine tougher ores like diamond."
+				""
+				"Having &6Gathering 8&r is required to use the pickaxe, and also unlocks the ability to mine &aIron Ore&r."
 			]
 			dependencies: ["02ED7F720C5EBABD"]
 			dependency_requirement: "one_started"
@@ -580,13 +583,15 @@
 		}
 		{
 			title: "Copper"
-			x: 16.0d
+			x: 17.0d
 			y: -1.0d
 			subtitle: "Easy to find"
 			description: [
 				"Copper Ores can be located between Y-levels &e20&r to &e116&r."
 				""
 				"Slightly more durable than tin."
+				""
+				"&7Remember, ores spawn more often in caves in this modpack."
 			]
 			dependencies: ["59F003B96FBE2813"]
 			dependency_requirement: "one_started"
@@ -618,7 +623,7 @@
 		}
 		{
 			title: "Silver"
-			x: 20.75d
+			x: 21.75d
 			y: -1.0d
 			subtitle: "Slayer of the Undead"
 			description: [
@@ -669,7 +674,7 @@
 		}
 		{
 			title: "Sapphire"
-			x: 25.0d
+			x: 26.0d
 			y: -1.0d
 			subtitle: "Feeling very lucky today"
 			description: [
@@ -731,7 +736,7 @@
 		}
 		{
 			title: "Lead"
-			x: 23.0d
+			x: 24.0d
 			y: -1.0d
 			shape: "octagon"
 			subtitle: "Moving on up"
@@ -803,7 +808,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 8.0d
 			y: -2.5d
 			dependencies: ["01ECE22274DDE487"]
 			id: "766E4FEA8148AEDA"
@@ -820,7 +825,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 8.0d
 			y: -1.0d
 			shape: "octagon"
 			description: ["You can also find rocks scattered on the ground and and skip making wooden tools altogether."]
@@ -848,7 +853,7 @@
 			}]
 		}
 		{
-			x: 23.0d
+			x: 24.0d
 			y: 0.5d
 			description: ["Just 1 obsidan. Not too bad."]
 			dependencies: ["1D6D6CB93ECEF297"]
@@ -892,7 +897,7 @@
 			]
 		}
 		{
-			x: 23.0d
+			x: 24.0d
 			y: 4.0d
 			dependencies: ["43509530CAD67EE9"]
 			id: "4E332FAD066528F2"
@@ -934,7 +939,7 @@
 		}
 		{
 			title: "Time to farm"
-			x: 5.5d
+			x: 6.5d
 			y: 0.5d
 			shape: "circle"
 			description: [
@@ -964,7 +969,7 @@
 		}
 		{
 			title: "Storage Drawers"
-			x: 2.0d
+			x: 2.5d
 			y: 0.0d
 			shape: "gear"
 			description: [
@@ -1001,7 +1006,7 @@
 			]
 		}
 		{
-			x: 11.5d
+			x: 12.5d
 			y: 0.0d
 			description: ["This is slightly better than a stone sword."]
 			dependencies: ["02ED7F720C5EBABD"]
@@ -1048,7 +1053,7 @@
 			]
 		}
 		{
-			x: 16.5d
+			x: 17.5d
 			y: -3.0d
 			subtitle: "Who even needs iron?"
 			description: [
@@ -1132,7 +1137,7 @@
 			}]
 		}
 		{
-			x: 23.5d
+			x: 24.5d
 			y: -2.5d
 			subtitle: "No radiation can stop you now!"
 			description: [
@@ -1222,8 +1227,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 2.0d
+			x: 5.5d
+			y: 1.5d
 			description: ["After filling it with water it can be used to instantly moisurize farmland."]
 			dependencies: ["45367EFC307FBA67"]
 			id: "568C31B3FDBED711"
@@ -1251,11 +1256,7 @@
 							}
 						}
 					}
-				}
-				{
-					id: "444940D0B6ADC5EC"
-					type: "item"
-					item: "minecraft:golden_carrot"
+					count: 2
 				}
 				{
 					id: "744351B7FB9E2D98"
@@ -1327,7 +1328,7 @@
 			]
 		}
 		{
-			x: 4.0d
+			x: 4.5d
 			y: 0.0d
 			description: [
 				"Ready to sail the seven seas!"
@@ -1364,7 +1365,7 @@
 			]
 		}
 		{
-			x: 23.0d
+			x: 24.0d
 			y: 2.5d
 			subtitle: "is it an enchanting table or an enchantment table?"
 			description: ["&aLapis Lazuli&r you place in the table will stay even if you exit the menu."]
@@ -1403,21 +1404,21 @@
 			]
 		}
 		{
-			x: 24.5d
+			x: 25.5d
 			y: 2.5d
 			subtitle: "Is this where chicken of the sea is made?"
 			description: [
 				"&6The Altar of the Sea is a block which allows you to recycle worthless enchanted items."
 				""
-				"&rTo begin, you need four enchanted items and a fair amount of experience."
+				"&rTo begin, you need four enchanted items and a rather unfair amount of experience. Consider using &aGate Pearls&r to obtain the required experience easier."
 				""
 				"Then, you place one enchanted item on each pillar (target the pillar and right click it while holding the item)."
 				""
 				"Once all four pillars hold an item, the Altar will begin to drain experience from nearby players."
 				""
-				"The amount of experience required is based on the levels an rarities of the provided enchantments.  Once the experience has been drained, all four items will be consumed, and a newly created enchanted book will be created."
+				"The amount of experience required depends on the levels and rarities of the provided enchantments. Once the experience has been drained, all four items will be consumed, and a newly created enchanted book will be created."
 				""
-				"The new enchantments are random, but better enchantments will be obtained with higher levels and rarities of provided enchantments.  The Altar of the Sea can generate treasure enchantments."
+				"The new enchantments are random, but better enchantments will be obtained with higher levels and rarities of provided enchantments. &eThe Altar of the Sea can generate treasure enchantments."
 			]
 			dependencies: ["43509530CAD67EE9"]
 			id: "1A15D385F7DDF6E4"
@@ -1435,12 +1436,30 @@
 				{
 					id: "21112C5222B214EB"
 					type: "xp"
-					xp: 450
+					title: "It's expensive, I know. can't configure it sadly."
+					auto: "disabled"
+					xp: 3000
+				}
+				{
+					id: "555D5B62F12A0A0B"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:zombie_gate_small"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
 				}
 			]
 		}
 		{
-			x: 23.0d
+			x: 24.0d
 			y: 5.5d
 			subtitle: "sea shelves by the seashore"
 			description: [
@@ -1496,7 +1515,7 @@
 			]
 		}
 		{
-			x: 13.5d
+			x: 14.5d
 			y: -3.0d
 			subtitle: "If only I had a brain..."
 			description: [
@@ -1553,14 +1572,21 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "1C872BDCFF708DA1"
-				type: "ftbmoney:money"
-				ftb_money: 20L
-			}]
+			rewards: [
+				{
+					id: "1C872BDCFF708DA1"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "4E25F720058D9FEC"
+					type: "choice"
+					table_id: 7685042081442074286L
+				}
+			]
 		}
 		{
-			x: 20.75d
+			x: 21.75d
 			y: -2.5d
 			subtitle: "Extra stylish"
 			description: [
@@ -1637,7 +1663,7 @@
 			]
 		}
 		{
-			x: 25.0d
+			x: 26.0d
 			y: -2.5d
 			subtitle: "Become one with the ocean and its treasures will arrive"
 			description: [
@@ -1714,7 +1740,7 @@
 			]
 		}
 		{
-			x: 11.5d
+			x: 12.5d
 			y: 1.0d
 			description: ["The vanilla bow is needed to level up archery, which allows you to use better bows."]
 			dependencies: ["5F7DCF112F9F6C1C"]
@@ -1763,7 +1789,7 @@
 			]
 		}
 		{
-			x: 14.0d
+			x: 15.0d
 			y: 1.0d
 			subtitle: "More villages!"
 			description: [
@@ -1801,7 +1827,7 @@
 			]
 		}
 		{
-			x: 19.5d
+			x: 20.5d
 			y: 0.0d
 			shape: "gear"
 			description: [
@@ -1848,11 +1874,11 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: -4.0d
+			x: 20.0d
+			y: -2.5d
 			subtitle: "having a blast"
 			description: ["The blast furnace can be used to smelt down diamond and neptunium tools back into a tiny amount of materials."]
-			dependencies: ["766E4FEA8148AEDA"]
+			dependencies: ["62D2AC9343C06D18"]
 			id: "4D3A62DB1CC130EA"
 			tasks: [{
 				id: "1EB4479C7CF32358"
@@ -1887,7 +1913,7 @@
 		}
 		{
 			title: "Monster Slayer"
-			x: 12.5d
+			x: 13.5d
 			y: 0.5d
 			shape: "gear"
 			description: [
@@ -1976,7 +2002,7 @@
 			]
 		}
 		{
-			x: 10.0d
+			x: 11.0d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "More than just for cooking!"
@@ -2067,7 +2093,7 @@
 			]
 		}
 		{
-			x: 11.5d
+			x: 12.5d
 			y: 2.0d
 			description: ["Carries a plethora of arrows and looks nice on your back."]
 			dependencies: ["7B627325BF285247"]
@@ -2106,7 +2132,7 @@
 		{
 			title: "Preparing for the nether!"
 			icon: "betterportals:portal_fluid_bucket"
-			x: 28.5d
+			x: 29.5d
 			y: -1.0d
 			shape: "gear"
 			subtitle: "You'll Nether believe how you get there!"
@@ -2403,7 +2429,7 @@
 			}]
 		}
 		{
-			x: 18.5d
+			x: 19.5d
 			y: 0.5d
 			subtitle: "If Minecraft can't provide the goods, i'll forge them myself!"
 			description: [
@@ -2440,7 +2466,7 @@
 		}
 		{
 			title: "Humble accommodation"
-			x: 8.5d
+			x: 8.0d
 			y: -3.5d
 			description: [
 				"Chests, Ladders, and Bookshelves can be decorated into different wood types, to better fit your home."
@@ -2549,7 +2575,7 @@
 		}
 		{
 			title: "Let's make a Mesh!"
-			x: 10.0d
+			x: 11.0d
 			y: -1.0d
 			description: [
 				"You can acquire Flint more effectively with Fiber Mesh."
@@ -2615,7 +2641,7 @@
 			]
 		}
 		{
-			x: 18.0d
+			x: 19.0d
 			y: -2.5d
 			description: ["Looks like a daunting quest at first, but you will get this much quicker than expected."]
 			dependencies: ["62D2AC9343C06D18"]
@@ -2635,7 +2661,7 @@
 		}
 		{
 			title: "Spoils of Battle"
-			x: 15.0d
+			x: 16.0d
 			y: -4.0d
 			description: ["Gather some more monster loot with your new equipment."]
 			dependencies: [
@@ -2734,7 +2760,7 @@
 			]
 		}
 		{
-			x: 26.0d
+			x: 27.0d
 			y: 2.0d
 			description: ["Uh oh..."]
 			dependencies: [
@@ -2777,7 +2803,7 @@
 			]
 		}
 		{
-			x: 24.0d
+			x: 25.0d
 			y: 1.0d
 			description: [
 				"A stack of obsidian mined."
@@ -2825,7 +2851,7 @@
 			]
 		}
 		{
-			x: 25.0d
+			x: 26.0d
 			y: 1.5d
 			description: ["2 stacks. Where is this going..."]
 			dependencies: ["62CC0A7EBAFC51DD"]
@@ -2866,31 +2892,8 @@
 			]
 		}
 		{
-			x: 19.0d
-			y: -2.5d
-			description: [
-				"Iron is a very versatile material, get as much as you can!"
-				""
-				"&7Remember, ores spawn more often in caves in this modpack."
-			]
-			dependencies: ["62D2AC9343C06D18"]
-			id: "46732178BA7B82A4"
-			tasks: [{
-				id: "101D3373D18436BD"
-				type: "questsadditions:break"
-				block: "minecraft:iron_ore"
-				value: 50L
-				checkItem: false
-			}]
-			rewards: [{
-				id: "0F02C8405FB094FF"
-				type: "choice"
-				table_id: 3680913278004027102L
-			}]
-		}
-		{
 			title: "You asked for this, Mage"
-			x: 27.0d
+			x: 28.0d
 			y: 2.5d
 			description: ["Blame @doctor_mage"]
 			hide_dependency_lines: false
@@ -3011,7 +3014,7 @@
 			]
 		}
 		{
-			x: 20.0d
+			x: 21.0d
 			y: 6.0d
 			subtitle: "Chose your first knowledge of death"
 			description: [
@@ -3037,7 +3040,7 @@
 		}
 		{
 			title: "Decorative Graves"
-			x: 20.0d
+			x: 21.0d
 			y: 4.5d
 			subtitle: "More than just a decoration"
 			description: [
@@ -3098,7 +3101,7 @@
 			}]
 		}
 		{
-			x: 21.0d
+			x: 22.0d
 			y: 4.5d
 			description: ["An ingredient for creating various tablets of teleportation."]
 			dependencies: ["2D09120BC5B9A53D"]
@@ -3130,7 +3133,7 @@
 			]
 		}
 		{
-			x: 19.0d
+			x: 20.0d
 			y: 4.5d
 			description: [
 				"Pray (Hold &3Right Click&r) near a &adecorative grave&r to increase your Knowledge of Death points."
@@ -3393,7 +3396,7 @@
 		}
 		{
 			title: "Spartan Weapons"
-			x: 14.5d
+			x: 15.5d
 			y: -3.0d
 			subtitle: "This is..."
 			description: [
@@ -3443,7 +3446,7 @@
 			title: "What's next?"
 			icon: "kubejs:skull2"
 			disable_toast: true
-			x: 30.0d
+			x: 31.0d
 			y: -1.0d
 			shape: "octagon"
 			description: ["Check the \"&3Nether Exploration&r\" Chapter to find quests relating to the nether!"]
@@ -3462,7 +3465,7 @@
 		}
 		{
 			title: "Life in the Village"
-			x: 14.0d
+			x: 15.0d
 			y: 2.5d
 			subtitle: "Find a village"
 			description: ["Wait that's a different modpack..."]
@@ -3481,7 +3484,7 @@
 			}]
 		}
 		{
-			x: 14.0d
+			x: 15.0d
 			y: 4.0d
 			subtitle: "Make your first villager trade"
 			description: ["Hrr!"]
@@ -3500,7 +3503,7 @@
 			}]
 		}
 		{
-			x: 21.5d
+			x: 22.5d
 			y: 1.5d
 			subtitle: "The grind never stops!"
 			description: ["You can also disenchant useless enchanted books&r and any equipment on &bGrindstone&r and get some levels back."]
@@ -3568,7 +3571,7 @@
 			]
 		}
 		{
-			x: 15.5d
+			x: 16.5d
 			y: 2.0d
 			shape: "diamond"
 			description: ["The workstation used by the Oceanographer villager."]
@@ -3603,7 +3606,7 @@
 			}]
 		}
 		{
-			x: 16.5d
+			x: 17.5d
 			y: 3.0d
 			shape: "diamond"
 			description: ["Table for the Forester Profession."]
@@ -3638,7 +3641,7 @@
 			}]
 		}
 		{
-			x: 15.5d
+			x: 16.5d
 			y: 3.0d
 			shape: "diamond"
 			description: ["The table for the Engineer profession."]
@@ -3673,7 +3676,7 @@
 			}]
 		}
 		{
-			x: 16.5d
+			x: 17.5d
 			y: 2.0d
 			shape: "diamond"
 			description: ["Table for the Florist profession."]
@@ -3708,7 +3711,7 @@
 			}]
 		}
 		{
-			x: 16.0d
+			x: 17.0d
 			y: 2.5d
 			shape: "diamond"
 			description: ["Table for the Hunter Profession."]
@@ -3788,67 +3791,14 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 3.0d
-			description: ["Better watering can with a larger area of effect."]
-			dependencies: ["568C31B3FDBED711"]
-			id: "072499F4CEC25323"
-			tasks: [{
-				id: "4AAD875D4DE36A1A"
-				type: "item"
-				item: {
-					id: "pickletweaks:reinforced_watering_can"
-					Count: 1b
-					tag: {
-						Water: 0b
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "40980B15F42DB795"
-					type: "item"
-					item: {
-						id: "kubejs:copper_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 3
-				}
-				{
-					id: "3F10F600B2F9288F"
-					type: "item"
-					item: {
-						id: "farmersdelight:apple_cider"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "2F25D55BDE1978C1"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-			]
-		}
-		{
-			x: 10.0d
+			x: 11.0d
 			y: 1.0d
 			subtitle: "Featherless arrows"
-			description: ["A cheaper arrow that can be crafted entirely from wood byproducts. Flies further than standard arrows."]
+			description: [
+				"A cheaper arrow that can be crafted entirely from wood byproducts. Flies further than standard arrows."
+				""
+				"The damage is pitiful, but better than nothing and still scales well with the power enchantment."
+			]
 			dependencies: [
 				"7B627325BF285247"
 				"01F975837F68C5EC"
@@ -3883,7 +3833,7 @@
 			}]
 		}
 		{
-			x: 16.0d
+			x: 17.0d
 			y: 1.0d
 			subtitle: "I call it overworldite!"
 			description: ["A refined alloy created by crafting together Emeralds and Tin."]
@@ -3967,7 +3917,7 @@
 					}]
 				}
 			}
-			x: 24.5d
+			x: 25.5d
 			y: 4.0d
 			description: [
 				"There is now a new system for enchanting that divides enchanting into 3 stats called &aEterna&r, &cQuanta&r and &dArcana&r."
@@ -3993,7 +3943,7 @@
 			title: "&aEterna"
 			icon: "buzzier_bees:lime_candle"
 			disable_toast: true
-			x: 25.5d
+			x: 26.5d
 			y: 4.0d
 			subtitle: "The enchanting you are familiar with!"
 			description: [
@@ -4014,7 +3964,7 @@
 		{
 			title: "&cQuanta"
 			disable_toast: true
-			x: 26.5d
+			x: 27.5d
 			y: 4.0d
 			subtitle: "Gambling time!"
 			description: [
@@ -4047,7 +3997,7 @@
 			title: "&dArcana"
 			icon: "buzzier_bees:purple_candle"
 			disable_toast: true
-			x: 27.5d
+			x: 28.5d
 			y: 4.0d
 			subtitle: "The rarer the better"
 			description: [
@@ -4076,7 +4026,7 @@
 		}
 		{
 			icon: "enigmaticlegacy:enchantment_transposer"
-			x: 21.5d
+			x: 22.5d
 			y: 2.5d
 			description: [
 				"There are multiple methods to perform disenchanting."
@@ -4127,7 +4077,7 @@
 				}
 			}
 			disable_toast: true
-			x: 18.5d
+			x: 19.5d
 			y: 2.0d
 			subtitle: "Mending isn't the only way; alternative enchantments to repair your gear"
 			description: [
@@ -4184,7 +4134,7 @@
 		}
 		{
 			title: "Foraging"
-			x: 3.0d
+			x: 3.5d
 			y: 0.5d
 			description: [
 				"The berry bushes from Simple Farming are one of the most common sources of food you will find when starting your world."
@@ -4256,13 +4206,13 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 3.5d
 			y: 1.5d
 			shape: "gear"
 			description: [
 				"With a bowl and 3 of any kind of fruit you can make one of the simplest dishes in Simple Farming."
 				""
-				"Head over to the \"&3Culinary Expedition&r\" chapter to find more recipes"
+				"Head over to the \"&3Culinary Expedition&r\" chapter to find more recipes."
 			]
 			dependencies: ["38D9CB4BCD7CB8CB"]
 			id: "2A7975C3556EB5A4"
@@ -4293,7 +4243,7 @@
 			]
 		}
 		{
-			x: 11.5d
+			x: 12.5d
 			y: -2.0d
 			subtitle: "Not the most comfortable armor, but it'll keep me safe"
 			description: [
@@ -4466,7 +4416,7 @@
 		}
 		{
 			title: "Gold"
-			x: 15.0d
+			x: 16.0d
 			y: 0.0d
 			description: [
 				"Gold has the highest pmmo stat boosts of all equipment."
@@ -4518,7 +4468,7 @@
 			title: "&eRectification"
 			icon: "buzzier_bees:yellow_candle"
 			disable_toast: true
-			x: 26.5d
+			x: 27.5d
 			y: 5.0d
 			subtitle: "Less risky gambling"
 			description: [
@@ -4542,7 +4492,7 @@
 			title: "&3Enchanting Clues"
 			icon: "buzzier_bees:cyan_candle"
 			disable_toast: true
-			x: 28.5d
+			x: 29.5d
 			y: 4.0d
 			subtitle: "No more guessing"
 			description: [
@@ -4564,7 +4514,7 @@
 		}
 		{
 			title: "Building Tools"
-			x: 7.5d
+			x: 8.5d
 			y: 1.5d
 			shape: "gear"
 			description: [
@@ -4624,7 +4574,7 @@
 					Damage: 0
 				}
 			}
-			x: 14.0d
+			x: 15.0d
 			y: 5.5d
 			description: [
 				"&bSelling &ris a mechanic added by &6Dungeons Gear&r that allows you to sell equipments from that mod into emeralds."
@@ -4674,7 +4624,7 @@
 		}
 		{
 			title: "Your first bossfight!"
-			x: 15.0d
+			x: 16.0d
 			y: -5.0d
 			shape: "gear"
 			subtitle: "A jaw-dropping experience"
@@ -4715,7 +4665,7 @@
 		}
 		{
 			title: "Getting Stronger"
-			x: 22.5d
+			x: 23.5d
 			y: -2.5d
 			subtitle: "Slow but powerful"
 			description: [
@@ -4762,7 +4712,7 @@
 		}
 		{
 			title: "Chicken Shearing"
-			x: 10.0d
+			x: 11.0d
 			y: -2.0d
 			description: [
 				"Did you know that you can get &afeathers&r from &achickens without killing them&r?"
@@ -4813,7 +4763,7 @@
 					}
 				}
 			}
-			x: 27.0d
+			x: 28.0d
 			y: -2.5d
 			subtitle: "Pet rocks!"
 			description: [
@@ -4868,7 +4818,7 @@
 			]
 		}
 		{
-			x: 20.0d
+			x: 21.0d
 			y: 2.5d
 			description: [
 				"Two very handy books for managing your equipment."
@@ -4919,7 +4869,7 @@
 		}
 		{
 			title: "One more fight, please!"
-			x: 28.0d
+			x: 29.0d
 			y: -2.0d
 			shape: "gear"
 			subtitle: "Fight Dame Fortuna!"
@@ -4981,7 +4931,7 @@
 		}
 		{
 			title: "Dimension Traveling"
-			x: 28.0d
+			x: 29.0d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "Explore 3 new dimensions!"
@@ -5063,7 +5013,7 @@
 			]
 		}
 		{
-			x: 17.5d
+			x: 18.5d
 			y: 0.0d
 			subtitle: "Stronger Leads"
 			description: [
@@ -5145,7 +5095,7 @@
 		}
 		{
 			title: "Cheaper Rails"
-			x: 15.0d
+			x: 16.0d
 			y: -2.0d
 			subtitle: "Build Bigger Railways!"
 			description: [
@@ -5360,7 +5310,7 @@
 			]
 		}
 		{
-			x: 26.0d
+			x: 27.0d
 			y: 0.0d
 			subtitle: "The modpack's not kidding when it says it encourages multiple playstyles!"
 			description: [
@@ -5423,7 +5373,7 @@
 					DisplayEntityType: "guardvillagers:guard"
 				}
 			}
-			x: 13.0d
+			x: 14.0d
 			y: 3.5d
 			subtitle: "The second line of village defense"
 			description: [
@@ -5499,6 +5449,51 @@
 				}
 				{
 					id: "429DDB05C7BAEB1A"
+					type: "item"
+					item: {
+						id: "kubejs:copper_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 23.0d
+			y: 3.5d
+			subtitle: "Like taking a blood test"
+			description: [
+				"&3Sneak-Use&r an enchanting table while holding a &aGlass Bottle&r to store some of your experience in a &aBottle o' Enchanting&r."
+				""
+				"This will &churt&r a bit, but it is worth doing as the &aBottle o' Enchanting&r can be used for crafting various items and brewing the powerful &aPotion of Ancient Knowledge&r, quadrupling your experience gained."
+			]
+			dependencies: ["43509530CAD67EE9"]
+			id: "2ACC9C5638502366"
+			tasks: [{
+				id: "5DB5B2A7790EED19"
+				type: "item"
+				item: {
+					id: "minecraft:experience_bottle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "098778D55E5F2488"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "582CE0C904117F73"
 					type: "item"
 					item: {
 						id: "kubejs:copper_coin"
