@@ -1137,56 +1137,24 @@
 				}
 				{
 					item: {
-						id: "spartanweaponry:greatsword_electrum"
+						id: "atum:iron_club"
 						Count: 1b
 						tag: {
-							RepairCost: 15
-							CustomModelData: 1
-							Enchantments: [
-								{
-									lvl: 3s
-									id: "radenchants:one_man_army"
-								}
-								{
-									lvl: 3s
-									id: "radenchants:one_with_the_blade"
-								}
-								{
-									lvl: 3s
-									id: "uniquee:pestilences_odium"
-								}
-							]
+							Damage: 0
 							display: {
 								Lore: [
-									"{\"italic\":true,\"color\":\"light_purple\",\"text\":\"Become one with the blade. You need nothing else, and no one else.\"}"
-									"{\"text\":\"Not available on servers.\",\"color\":\"light_purple\"}"
+									"{\"text\":\"Can only be bought in singleplayer!\",\"color\":\"gold\",\"italic\":false}"
+									"{\"text\":\"A slow but strong weapon that only appears to those who fight alone.\",\"color\":\"white\",\"italic\":false}"
 								]
-								Name: "{\"italic\":false,\"text\":\"Solo Soldier's Slasher\",\"color\":\"dark_purple\"}"
 							}
-							Affixes: {
-								"apotheosis:damage_chain": 4.0f
-							}
-							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [{
-									data: [
-										{
-											lvl: 3s
-											id: "dungeons_gear:leeching"
-										}
-										{
-											lvl: 1s
-											id: "dungeons_gear:exploding"
-										}
-									]
-									source: "dungeons_libraries:gear_config"
-								}]
+								BuiltInEnchantments: [ ]
 							}
 						}
 					}
-					buy: 600L
+					buy: 300L
 					disabled_server: true
 				}
 			]

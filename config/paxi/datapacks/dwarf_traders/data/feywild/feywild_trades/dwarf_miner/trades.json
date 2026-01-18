@@ -1,6 +1,6 @@
 [
   {
-    "amount": 4,
+    "amount": 6,
     "trades": [
       {
         "input": {
@@ -8,11 +8,11 @@
           "count": 1
         },
         "output": {
-          "item": "minecraft:stone",
-          "count": 21
+          "item": "quark:slate",
+          "count": 32
         },
         "uses": 10,
-        "exp": 0,
+        "exp": 2,
         "mul": 0.05
       },
       {
@@ -21,11 +21,37 @@
           "count": 1
         },
         "output": {
-          "item": "minecraft:cobblestone",
+          "item": "quark:brimstone",
+          "count": 32
+        },
+        "uses": 10,
+        "exp": 2,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 1
+        },
+        "output": {
+          "item": "quark:permafrost",
+          "count": 32
+        },
+        "uses": 10,
+        "exp": 2,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 1
+        },
+        "output": {
+          "item": "quark:cobbled_deepslate",
           "count": 32
         },
         "uses": 20,
-        "exp": 0,
+        "exp": 2,
         "mul": 0.05
       },
       {
@@ -34,11 +60,11 @@
           "count": 1
         },
         "output": {
-          "item": "minecraft:gravel",
-          "count": 10
+          "item": "quark:marble",
+          "count": 32
         },
         "uses": 5,
-        "exp": 0,
+        "exp": 2,
         "mul": 0.05
       },
       {
@@ -47,11 +73,11 @@
           "count": 1
         },
         "output": {
-          "item": "minecraft:andesite",
-          "count": 21
+          "item": "quark:jasper",
+          "count": 32
         },
         "uses": 20,
-        "exp": 0,
+        "exp": 2,
         "mul": 0.05
       },
       {
@@ -60,11 +86,11 @@
           "count": 1
         },
         "output": {
-          "item": "minecraft:iron_ingot",
-          "count": 4
+          "item": "quark:limestone",
+          "count": 32
         },
-        "uses": 4,
-        "exp": 0,
+        "uses": 20,
+        "exp": 2,
         "mul": 0.05
       },
       {
@@ -73,141 +99,76 @@
           "count": 1
         },
         "output": {
-          "item": "minecraft:gold_ingot",
-          "count": 3
-        },
-        "uses": 4,
-        "exp": 0,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "feywild:lesser_fey_gem",
-          "count": 1
-        },
-        "output": {
-          "item": "mysticalworld:copper_ingot",
-          "count": 3
-        },
-        "uses": 4,
-        "exp": 0,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "feywild:lesser_fey_gem",
-          "count": 1
-        },
-        "output": {
-          "item": "darkerdepths:silver_ingot",
-          "count": 3
-        },
-        "uses": 4,
-        "exp": 0,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "feywild:lesser_fey_gem",
-          "count": 1
-        },
-        "output": {
-          "item": "minecraft:redstone",
-          "count": 14
-        },
-        "uses": 10,
-        "exp": 0,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "feywild:lesser_fey_gem",
-          "count": 1
-        },
-        "output": {
-          "item": "minecraft:lapis_lazuli",
-          "count": 8
-        },
-        "uses": 3,
-        "exp": 0,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "feywild:lesser_fey_gem",
-          "count": 1
-        },
-        "output": {
-          "item": "minecraft:coal",
-          "count": 20
-        },
-        "uses": 5,
-        "exp": 0,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "feywild:lesser_fey_gem",
-          "count": 3
-        },
-        "output": {
-          "item": "minecraft:emerald",
-          "count": 3
-        },
-        "uses": 2,
-        "exp": 0,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "feywild:lesser_fey_gem",
-          "count": 3
-        },
-        "output": {
-          "item": "minecraft:powered_rail",
-          "count": 8
-        },
-        "uses": 4,
-        "exp": 0,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "feywild:lesser_fey_gem",
-          "count": 3
-        },
-        "output": {
-          "item": "minecraft:detector_rail",
-          "count": 8
-        },
-        "uses": 4,
-        "exp": 0,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "feywild:lesser_fey_gem",
-          "count": 2
-        },
-        "output": {
-          "item": "minecraft:rail",
+          "item": "quark:duskbound_block",
           "count": 16
         },
-        "uses": 4,
-        "exp": 0,
+        "uses": 20,
+        "exp": 3,
         "mul": 0.05
       },
       {
         "input": {
           "item": "feywild:lesser_fey_gem",
-          "count": 3
+          "count": 1
         },
         "output": {
-          "item": "minecraft:activator_rail",
-          "count": 8
+          "item": "quark:myalite",
+          "count": 16
         },
-        "uses": 4,
-        "exp": 0,
+        "uses": 20,
+        "exp": 3,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 1
+        },
+        "output": {
+          "item": "darkerdepths:shale",
+          "count": 32
+        },
+        "uses": 20,
+        "exp": 2,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 1
+        },
+        "output": {
+          "item": "darkerdepths:aridrock",
+          "count": 32
+        },
+        "uses": 20,
+        "exp": 2,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 1
+        },
+        "output": {
+          "item": "darkerdepths:limestone",
+          "count": 32
+        },
+        "uses": 20,
+        "exp": 2,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 1
+        },
+        "output": {
+          "item": "darkerdepths:grimestone",
+          "count": 32
+        },
+        "uses": 20,
+        "exp": 2,
         "mul": 0.05
       },
       {
@@ -216,11 +177,115 @@
           "count": 2
         },
         "output": {
-          "item": "minecraft:tnt",
+          "item": "undergarden:cloggrum_ingot",
+          "count": 3
+        },
+        "uses": 4,
+        "exp": 3,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 2
+        },
+        "output": {
+          "item": "undergarden:froststeel_ingot",
+          "count": 2
+        },
+        "uses": 4,
+        "exp": 4,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 2
+        },
+        "output": {
+          "item": "twilightforest:ironwood_ingot",
+          "count": 4
+        },
+        "uses": 8,
+        "exp": 3,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 2
+        },
+        "output": {
+          "item": "blue_skies:aquite_gem",
           "count": 4
         },
         "uses": 4,
-        "exp": 0,
+        "exp": 3,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 2
+        },
+        "output": {
+          "item": "blue_skies:falsite_ingot",
+          "count": 4
+        },
+        "uses": 4,
+        "exp": 3,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 2
+        },
+        "output": {
+          "item": "blue_skies:ventium_ingot",
+          "count": 3
+        },
+        "uses": 10,
+        "exp": 4,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 2
+        },
+        "output": {
+          "item": "blue_skies:horizonite_ingot",
+          "count": 2
+        },
+        "uses": 3,
+        "exp": 5,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 2
+        },
+        "output": {
+          "item": "byg:anthracite",
+          "count": 25
+        },
+        "uses": 5,
+        "exp": 4,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:greater_fey_gem",
+          "count": 2
+        },
+        "output": {
+          "item": "byg:ametrine_gems",
+          "count": 3
+        },
+        "uses": 8,
+        "exp": 8,
         "mul": 0.05
       },
       {
@@ -229,10 +294,67 @@
           "count": 1
         },
         "output": {
-          "item": "minecraft:minecart",
-          "count": 1
+          "item": "undergarden:blisterbomb",
+          "count": 8
         },
         "uses": 4,
+        "exp": 5,
+        "mul": 0.05
+      }
+    ]
+  },
+  {
+    "amount": 4,
+    "trades": [
+      {
+        "input": {
+          "item": "feywild:shiny_fey_gem",
+          "count": 1
+        },
+        "output": {
+          "item": "twilightforest:fiery_ingot",
+          "count": 1
+        },
+        "uses": 8,
+        "exp": 5,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:greater_fey_gem",
+          "count": 2
+        },
+        "output": {
+          "item": "twilightforest:steeleaf_ingot",
+          "count": 2
+        },
+        "uses": 8,
+        "exp": 5,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:greater_fey_gem",
+          "count": 2
+        },
+        "output": {
+          "item": "undergarden:utherium_ingot",
+          "count": 1
+        },
+        "uses": 8,
+        "exp": 5,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:greater_fey_gem",
+          "count": 1
+        },
+        "output": {
+          "item": "supplementaries:bomb_blue",
+          "count": 1
+        },
+        "uses": 16,
         "exp": 0,
         "mul": 0.05
       }

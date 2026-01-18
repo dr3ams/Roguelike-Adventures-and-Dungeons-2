@@ -87,6 +87,14 @@ event.add('enigmaticlegacy:tattered_tome', ["Grants a bit of experience and magi
 event.add('enigmaticlegacy:withered_tome', ["Grants slightly more experience and magic xp points than the Tattered Tome. Generally found in nether loot. Like the Tattered Tome, each player can read it once, so share it with others!"])
 event.add('enigmaticlegacy:corrupted_tome', ["Grants even more experience and magic xp points than the Tattered and Withered Tomes. Generally found in end loot. And just like the other 2 tomes, it can be only read once per player, so others may still find it useful after you read it."])
 
+event.add('feywild:inactive_market_rune_stone', ["This item can be found in abandoned mineshafts."])
+event.add('feywild:market_rune_stone', ["The Dwarf Market closes at night. Dwarves there refresh trades every day."])
+event.add('feywild:lesser_fey_gem', ["Used as basic currency by the dwarves. After selling enough ores to one, you will unlock the ability to buy stuff with this."])
+event.add('feywild:greater_fey_gem', ["The second tier of fey gems can be obtained by selling rarer gems to dwarves. A summoned dwarf can also convert lesser gems into greater ones."])
+event.add('feywild:shiny_fey_gem', ["The third tier of fey gems is used in the dwarven market to buy very valuable items. Obtaining it will require great trust from a summoned dwarf blacksmith."])
+event.add('feywild:brilliant_fey_gem', ["The fourth and final tier of fey gems is used in the dwarven market to buy extremely valuable items."])
+event.add('simplefarming:beer', ["Can be created in the Brewing Barrel. See the Fishing and Foraging quest chapter for more info."])
+
 
 event.add('waystones:waystone', ["This item can be bought in the shop"])
 event.add('waystones:mossy_waystone', ["This item can be bought in the shop"])

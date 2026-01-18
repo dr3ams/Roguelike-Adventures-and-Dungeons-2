@@ -1831,5 +1831,106 @@
 				}
 			]
 		}
+		{
+			title: "Relic Binding"
+			x: 5.0d
+			y: 11.5d
+			subtitle: "You can have it when you pry it off my cold, bloody hands..."
+			description: [
+				"Relic Contracts allow you to \"bind\" an item which prevents other players from using it."
+				""
+				"Craft a &aBloody Lectern&r, &aBloody Feather&r, and a &aCoal Parchment&r."
+				""
+				"Place the parchment on the lectern, then use the feather on it 5 times to &4sign it with your blood&r."
+				""
+				"You now have a &aRelic Contract&r, which you can &ecraft&r with any relic to bind it to you... for the next hour."
+				""
+				"&5\"Why not just use Tombstone Soulbound?\"&r you may ask, and to that I say &2\"Good question.\""
+				""
+				"&oIt's not that great of the feature, so have a few soulbound books for the effort."
+			]
+			id: "4693104F58C9DDB7"
+			tasks: [
+				{
+					id: "7363EB110A47B4BC"
+					type: "item"
+					item: {
+						id: "relics:bloody_lectern"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0A75C1DD77445666"
+					type: "item"
+					item: {
+						id: "relics:bloody_feather"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4AEE64AB98B3D803"
+					type: "item"
+					item: {
+						id: "relics:coal_parchment"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "58CF3FD092AF62E2"
+					type: "item"
+					item: {
+						id: "relics:relic_contract"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0C9B2E5B84C61395"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "tombstone:soulbound"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "3FBE0AE910F50AAA"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
 	]
 }

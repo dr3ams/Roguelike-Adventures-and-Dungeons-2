@@ -1,6 +1,6 @@
 [
   {
-    "amount": 2,
+    "amount": 4,
     "trades": [
       {
         "input": {
@@ -14,8 +14,8 @@
           "item": "feywild:lesser_fey_gem",
           "count": 1
         },
-        "uses": 5,
-        "exp": 1,
+        "uses": 10,
+        "exp": 2,
         "mul": 0.05
       },
       {
@@ -28,26 +28,42 @@
         },
         "output": {
           "item": "feywild:lesser_fey_gem",
-          "count": 1
+          "count": 2
         },
-        "uses": 5,
-        "exp": 1,
+        "uses": 10,
+        "exp": 3,
         "mul": 0.05
       },
       {
         "input": {
           "item": "mysticalworld:copper_ore",
           "count": [
-            2,
-            3
+            3,
+            4
           ]
         },
         "output": {
           "item": "feywild:lesser_fey_gem",
           "count": 1
         },
-        "uses": 5,
-        "exp": 1,
+        "uses": 16,
+        "exp": 2,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "mysticalworld:tin_ore",
+          "count": [
+            3,
+            4
+          ]
+        },
+        "output": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 1
+        },
+        "uses": 16,
+        "exp": 2,
         "mul": 0.05
       },
       {
@@ -60,115 +76,157 @@
         },
         "output": {
           "item": "feywild:lesser_fey_gem",
-          "count": 1
+          "count": 2
         },
-        "uses": 5,
-        "exp": 1,
+        "uses": 10,
+        "exp": 3,
         "mul": 0.05
       },
       {
         "input": {
-          "item": "minecraft:coal",
-          "count": [
-            16,
-            20
-          ]
-        },
-        "output": {
-          "item": "feywild:lesser_fey_gem",
+          "item": "iceandfire:amythest_gem",
           "count": 1
         },
-        "uses": 5,
-        "exp": 1,
+        "output": {
+          "item": "feywild:greater_fey_gem",
+          "count": 5
+        },
+        "uses": 1,
+        "exp": 10,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "darkerdepths:amber",
+          "count": 1
+        },
+        "output": {
+          "item": "feywild:greater_fey_gem",
+          "count": 1
+        },
+        "uses": 4,
+        "exp": 3,
         "mul": 0.05
       },
       {
         "input": {
           "item": "minecraft:redstone",
           "count": [
-            10,
-            14
+            5,
+            7
           ]
         },
         "output": {
           "item": "feywild:lesser_fey_gem",
           "count": 1
         },
-        "uses": 5,
-        "exp": 1,
+        "uses": 12,
+        "exp": 2,
         "mul": 0.05
       },
       {
         "input": {
           "item": "minecraft:lapis_lazuli",
           "count": [
-            4,
-            8
+            2,
+            4
+          ]
+        },
+        "output": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 1
+        },
+        "uses": 12,
+        "exp": 2,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "minecraft:emerald",
+          "count": [
+            2,
+            4
           ]
         },
         "output": {
           "item": "feywild:lesser_fey_gem",
           "count": 2
         },
-        "uses": 5,
-        "exp": 1,
+        "uses": 10,
+        "exp": 2,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "ars_nouveau:mana_gem",
+          "count": [
+            3,
+            4
+          ]
+        },
+        "output": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 1
+        },
+        "uses": 10,
+        "exp": 2,
         "mul": 0.05
       }
     ]
   },
   {
-    "amount": 3,
+    "amount": 4,
     "trades": [
       {
         "output": {
-          "item": "minecraft:diamond_pickaxe",
+          "item": "iceandfire:silver_pickaxe",
           "count": 1
         },
         "input": {
           "item": "feywild:lesser_fey_gem",
-          "count": [8, 12]
+          "count": [4, 6]
         },
         "uses": 1,
-        "exp": 10,
+        "exp": 20,
         "mul": 0.05
       },
       {
         "output": {
-          "item": "minecraft:diamond_shovel",
+          "item": "iceandfire:silver_shovel",
           "count": 1
         },
         "input": {
           "item": "feywild:lesser_fey_gem",
-          "count": [6, 8]
+          "count": [3, 4]
         },
         "uses": 1,
-        "exp": 10,
+        "exp": 20,
         "mul": 0.05
       },
       {
         "output": {
-          "item": "minecraft:lantern",
-          "count": [3, 5]
+          "item": "randomite:randomite_ore",
+          "count": [1, 2]
         },
         "input": {
           "item": "feywild:lesser_fey_gem",
-          "count": 2
+          "count": 1
         },
-        "uses": 5,
-        "exp": 5,
+        "uses": 16,
+        "exp": 6,
         "mul": 0.05
       },
       {
         "output": {
-          "item": "minecraft:torch",
-          "count": [5, 7]
+          "item": "betterdefaultbiomes:torch_arrow",
+          "count": [32, 64]
         },
         "input": {
           "item": "feywild:lesser_fey_gem",
           "count": 1
         },
         "uses": 10,
-        "exp": 1,
+        "exp": 5,
         "mul": 0.05
       },
       {
@@ -180,34 +238,21 @@
           "item": "feywild:lesser_fey_gem",
           "count": [1, 2]
         },
-        "uses": 3,
-        "exp": 3,
+        "uses": 4,
+        "exp": 6,
         "mul": 0.05
       },
       {
         "output": {
-          "item": "minecraft:tnt",
-          "count": [3, 4]
+          "item": "spartanweaponry:dynamite",
+          "count": [5, 8]
         },
         "input": {
           "item": "feywild:lesser_fey_gem",
-          "count": 2
-        },
-        "uses": 5,
-        "exp": 5,
-        "mul": 0.05
-      },
-      {
-        "output": {
-          "item": "minecraft:minecart",
           "count": 1
         },
-        "input": {
-          "item": "feywild:lesser_fey_gem",
-          "count": 2
-        },
-        "uses": 2,
-        "exp": 3,
+        "uses": 8,
+        "exp": 9,
         "mul": 0.05
       }
     ]
@@ -225,6 +270,50 @@
           "count": [18, 24]
         },
         "uses": 1,
+        "exp": 50,
+        "mul": 0.05
+      }
+    ]
+  },
+  {
+    "amount": 3,
+    "trades": [
+      {
+        "output": {
+          "item": "dungeons_gear:stormlander",
+          "count": 1
+        },
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": [8, 12]
+        },
+        "uses": 1,
+        "exp": 25,
+        "mul": 0.05
+      },
+      {
+        "output": {
+          "item": "relics:squire_bag",
+          "count": 1
+        },
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": [10, 16]
+        },
+        "uses": 1,
+        "exp": 25,
+        "mul": 0.05
+      },
+      {
+        "output": {
+          "item": "buzzier_bees:candle",
+          "count": 16
+        },
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 1
+        },
+        "uses": 20,
         "exp": 5,
         "mul": 0.05
       }

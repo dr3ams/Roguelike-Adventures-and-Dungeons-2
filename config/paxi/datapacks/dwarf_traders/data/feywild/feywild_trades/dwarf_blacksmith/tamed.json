@@ -1,26 +1,30 @@
 [
   {
-    "amount": 4,
+    "amount": 6,
     "duplicates": true,
     "trades": [
       {
         "weight": 3,
         "output": [
           {
-            "item": "minecraft:cobblestone",
-            "count": 20
-          },
-          {
             "item": "minecraft:andesite",
-            "count": 10
+            "count": 50
           },
           {
             "item": "minecraft:diorite",
-            "count": 10
+            "count": 50
           },
           {
             "item": "minecraft:granite",
-            "count": 15
+            "count": 50
+          },
+          {
+            "item": "darkerdepths:shale",
+            "count": 50
+          },
+          {
+            "item": "quark:cobbled_deepslate",
+            "count": 50
           },
           {
             "item": "minecraft:coal",
@@ -28,79 +32,102 @@
           },
           {
             "item": "minecraft:clay",
-            "count": 8
+            "count": 12
           },
           {
             "item": "minecraft:redstone",
-            "count": 6
+            "count": 12
           },
           {
             "item": "minecraft:iron_ore",
-            "count": 3
+            "count": 8
           },
           {
             "item": "minecraft:gold_ore",
-            "count": 3
+            "count": 5
           },
           {
             "item": "mysticalworld:copper_ore",
-            "count": 3
+            "count": 12
+          },
+          {
+            "item": "mysticalworld:tin_ore",
+            "count": 12
+          },
+          {
+            "item": "mysticalworld:lead_ore",
+            "count": 6
           },
           {
             "item": "darkerdepths:raw_silver",
-            "count": 3
+            "count": 6
           },
           {
             "item": "minecraft:lapis_lazuli",
-            "count": 6
+            "count": 10
           }
         ],
         "input": [
           {
-            "item": "minecraft:apple",
+            "item": "simplefarming:apple_cordial",
             "count": 4
           },
           {
-            "item": "minecraft:bread",
+            "item": "simplefarming:sandwich",
             "count": 3
           },
           {
-            "item": "minecraft:cooked_porkchop",
-            "count": 2
-          },
-          {
-            "item": "minecraft:cooked_cod",
-            "count": 2
-          },
-          {
-            "item": "minecraft:cooked_salmon",
-            "count": 2
-          },
-          {
-            "item": "minecraft:cookie",
+            "item": "simplefarming:mushroom_barley",
             "count": 4
           },
           {
-            "item": "minecraft:melon_slice",
-            "count": 6
+            "item": "quark:root_item",
+            "count": 10
           },
           {
-            "item": "minecraft:cooked_beef",
+            "item": "farmersdelight:chicken_sandwich",
+            "count": 3
+          },
+          {
+            "item": "farmersdelight:beef_stew",
+            "count": 4
+          },
+          {
+            "item": "farmersdelight:roasted_mutton_chops",
             "count": 2
           },
           {
-            "item": "minecraft:cooked_chicken",
+            "item": "aquaculture:fish_fillet_cooked",
+            "count": 12
+          },
+          {
+            "item": "farmersdelight:baked_cod_stew",
             "count": 2
           },
           {
-            "item": "minecraft:mushroom_stew",
+            "item": "farmersdelight:roast_chicken_block",
             "count": 1
           },
           {
             "item": "minecraft:beetroot_soup",
-            "count": 1
+            "count": 6
+          },
+          {
+            "item": "simplefarming:pizza",
+            "count": 3
+          },
+          {
+            "item": "simplefarming:cheeseburger",
+            "count": 2
+          },
+          {
+            "item": "simplefarming:beer",
+            "count": 2
           }
-        ]
+        ],
+        "uses": 16,
+        "exp": 5,
+        "mul": 0.05
       },
       {
         "output": [
@@ -114,29 +141,21 @@
               "count": 3
             },
             {
-              "item": "minecraft:emerald",
-              "count": 6
+              "item": "kubejs:emerald_ingot",
+              "count": 2
             }
           ]
         ],
         "input": [
           [
             {
-              "item": "minecraft:cake",
-              "count": 2
-            },
-            {
-              "item": "minecraft:pumpkin_pie",
-              "count": 2
-            },
-            {
-              "item": "minecraft:rabbit_stew",
-              "count": 1
+              "item": "simplefarming:beer",
+              "count": 4
             }
           ]
         ],
-        "uses": 1,
-        "exp": 10,
+        "uses": 2,
+        "exp": 12,
         "mul": 0.05
       }
     ]
@@ -153,8 +172,8 @@
           "item": "feywild:lesser_fey_gem",
           "count": 4
         },
-        "uses": 5,
-        "exp": 1,
+        "uses": 8,
+        "exp": 2,
         "mul": 0.05
       },
       {
@@ -166,8 +185,8 @@
           "item": "feywild:greater_fey_gem",
           "count": 4
         },
-        "uses": 5,
-        "exp": 1,
+        "uses": 8,
+        "exp": 2,
         "mul": 0.05
       },
       {
@@ -179,8 +198,8 @@
           "item": "feywild:shiny_fey_gem",
           "count": 4
         },
-        "uses": 5,
-        "exp": 1,
+        "uses": 8,
+        "exp": 2,
         "mul": 0.05
       }
     ]
@@ -198,7 +217,7 @@
           "count": 1
         },
         "uses": 1,
-        "exp": 5,
+        "exp": 50,
         "mul": 0.05
       },
       {
@@ -211,8 +230,70 @@
           "count": 1
         },
         "uses": 1,
-        "exp": 5,
+        "exp": 50,
         "mul": 0.05
+      }
+    ]
+  },
+  {
+    "amount": 2,
+    "trades": [
+      {
+        "output": {
+          "item": "betterendforge:netherite_hammer",
+          "count": 1
+        },
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": [24, 30]
+        },
+        "uses": 1,
+        "exp": 50,
+        "mul": 0.05
+      },
+      {
+        "input": [
+          {
+            "item": "mushroomquest:whimsyfoam",
+            "count": 1
+          },
+          {
+            "item": "mushroomquest:glowinggoo",
+            "count": 1
+          },
+          {
+            "item": "mushroomquest:ointmentofburning",
+            "count": 1
+          },
+          {
+            "item": "mushroomquest:dewofgiants",
+            "count": 1
+          },
+          {
+            "item": "mushroomquest:thelastresort",
+            "count": 1
+          },
+          {
+            "item": "mushroomquest:brewofintoxication",
+            "count": 1
+          },
+          {
+            "item": "mushroomquest:devilsbrew",
+            "count": 1
+          },
+          {
+            "item": "mushroomquest:bottleddreamscape",
+            "count": 1
+          }
+        ],
+        "output": {
+          "item": "feywild:shiny_fey_gem",
+          "count": 2
+        },
+        "uses": 1,
+        "exp": 20,
+        "mul": 0.05,
+        "weight": 16
       }
     ]
   }

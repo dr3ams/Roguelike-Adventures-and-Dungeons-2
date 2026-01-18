@@ -1,31 +1,18 @@
 [
   {
-    "amount": 2,
+    "amount": 4,
     "trades": [
       {
         "input": {
           "item": "feywild:lesser_fey_gem",
-          "count": 2
-        },
-        "output": {
-          "item": "minecraft:gunpowder",
-          "count": 1
-        },
-        "uses": 3,
-        "exp": 1,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "feywild:greater_fey_gem",
           "count": 3
         },
         "output": {
           "item": "minecraft:ender_pearl",
           "count": 1
         },
-        "uses": 3,
-        "exp": 0,
+        "uses": 10,
+        "exp": 3,
         "mul": 0.05
       },
       {
@@ -34,11 +21,11 @@
           "count": 1
         },
         "output": {
-          "item": "minecraft:bone",
-          "count": 10
+          "item": "iceandfire:witherbone",
+          "count": 5
         },
         "uses": 6,
-        "exp": 0,
+        "exp": 3,
         "mul": 0.05
       },
       {
@@ -47,11 +34,24 @@
           "count": 1
         },
         "output": {
-          "item": "minecraft:rotten_flesh",
-          "count": 10
+          "item": "paraglider:spirit_orb",
+          "count": 2
         },
-        "uses": 10,
-        "exp": 0,
+        "uses": 32,
+        "exp": 3,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 1
+        },
+        "output": {
+          "item": "undergarden:blood_mushroom_globule",
+          "count": 4
+        },
+        "uses": 16,
+        "exp": 1,
         "mul": 0.05
       },
       {
@@ -61,75 +61,80 @@
         },
         "output": {
           "item": "minecraft:shulker_shell",
-          "count": 1
-        },
-        "uses": 1,
-        "exp": 0,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "feywild:lesser_fey_gem",
-          "count": 1
-        },
-        "output": {
-          "item": "minecraft:spider_eye",
-          "count": 10
-        },
-        "uses": 6,
-        "exp": 0,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "feywild:greater_fey_gem",
           "count": 2
         },
-        "output": {
-          "item": "minecraft:zombie_head",
-          "count": 1
-        },
-        "uses": 2,
-        "exp": 0,
+        "uses": 4,
+        "exp": 10,
         "mul": 0.05
       },
       {
         "input": {
-          "item": "feywild:greater_fey_gem",
-          "count": 3
-        },
-        "output": {
-          "item": "minecraft:creeper_head",
-          "count": 1
-        },
-        "uses": 2,
-        "exp": 0,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "feywild:greater_fey_gem",
-          "count": 2
-        },
-        "output": {
-          "item": "minecraft:skeleton_skull",
-          "count": 1
-        },
-        "uses": 2,
-        "exp": 0,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "feywild:brilliant_fey_gem",
+          "item": "feywild:shiny_fey_gem",
           "count": 1
         },
         "output": {
           "item": "minecraft:wither_skeleton_skull",
           "count": 1
         },
+        "uses": 3,
+        "exp": 20,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:shiny_fey_gem",
+          "count": 1
+        },
+        "output": {
+          "item": "spartanweaponry:enderman_head",
+          "count": 1
+        },
+        "uses": 5,
+        "exp": 20,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:brilliant_fey_gem",
+          "count": 3
+        },
+        "output": {
+          "item": "majruszs_difficulty:ender_dragon_treasure_bag",
+          "count": 1
+        },
         "uses": 1,
-        "exp": 0,
+        "exp": 20,
+        "mul": 0.05
+      }
+    ]
+  },
+  {
+    "amount": 2,
+    "trades": [
+      {
+        "input": {
+          "item": "feywild:shiny_fey_gem",
+          "count": 3
+        },
+        "output": {
+          "item": "spartantwilight:heavy_crossbow_fiery",
+          "count": 1
+        },
+        "uses": 1,
+        "exp": 20,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "feywild:greater_fey_gem",
+          "count": 1
+        },
+        "output": {
+          "item": "spartanweaponry:bolt_diamond",
+          "count": 16
+        },
+        "uses": 16,
+        "exp": 10,
         "mul": 0.05
       }
     ]
