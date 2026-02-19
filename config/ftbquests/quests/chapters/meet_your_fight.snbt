@@ -3645,39 +3645,6 @@
 			]
 		}
 		{
-			x: -12.5d
-			y: 9.5d
-			subtitle: "Et tu, brute?"
-			dependency_requirement: "one_started"
-			id: "4AEA984BA064D20A"
-			tasks: [{
-				id: "15A9DD637AE57E7D"
-				type: "kill"
-				entity: "eidolon:zombie_brute"
-				value: 75L
-			}]
-			rewards: [
-				{
-					id: "4F4A9608E8E6B6B9"
-					type: "ftbmoney:money"
-					ftb_money: 100L
-				}
-				{
-					id: "689CC7350DE3446F"
-					type: "item"
-					item: {
-						id: "kubejs:gold_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-		}
-		{
 			x: -9.0d
 			y: 9.5d
 			subtitle: "Overgrown skeletons part 2"

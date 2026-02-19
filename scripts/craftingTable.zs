@@ -62,9 +62,9 @@ craftingTable.addShaped("mining_dim_teleporter", <item:mining_dimension:teleport
 
 craftingTable.removeRecipe(<item:enigmaticlegacy:gem_ring>);
 craftingTable.addShaped("enigmatic_gold_ring", <item:enigmaticlegacy:gem_ring>, [
-    [<item:eidolon:arcane_gold_nugget>, <item:upgradednetherite:gold_upgraded_netherite_ingot>, <item:eidolon:arcane_gold_nugget>],
+    [<item:undergarden:regalium_nugget>, <item:upgradednetherite:gold_upgraded_netherite_ingot>, <item:undergarden:regalium_nugget>],
     [<item:upgradednetherite:gold_upgraded_netherite_ingot>, <item:enigmaticlegacy:iron_ring>, <item:upgradednetherite:gold_upgraded_netherite_ingot>],
-    [<item:eidolon:arcane_gold_nugget>, <item:upgradednetherite:gold_upgraded_netherite_ingot>, <item:eidolon:arcane_gold_nugget>]
+    [<item:undergarden:regalium_nugget>, <item:upgradednetherite:gold_upgraded_netherite_ingot>, <item:undergarden:regalium_nugget>]
 ]);
 
 

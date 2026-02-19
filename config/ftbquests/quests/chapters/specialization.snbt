@@ -680,10 +680,21 @@
 		{
 			title: "Wizard"
 			icon: {
-				id: "eidolon:warlock_hat"
+				id: "dungeons_gear:evocation_robes_helmet"
 				Count: 1b
 				tag: {
 					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [{
+							data: [{
+								lvl: 1s
+								id: "ars_nouveau:mana_boost"
+							}]
+							source: "dungeons_libraries:gear_config"
+						}]
+					}
 				}
 			}
 			x: -1.5d
@@ -761,14 +772,20 @@
 					type: "item"
 					team_reward: false
 					item: {
-						id: "eidolon:warlock_hat"
+						id: "dungeons_gear:evocation_robes_helmet"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "ars_nouveau:mana_boost"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
 							}
 						}
 					}
@@ -3431,6 +3448,7 @@
 				{
 					id: "0052526AEC9AAC84"
 					type: "pmmo:skill"
+					title: "&2karma"
 					skill: "dungeoneering"
 					requiredLevel: 10.0d
 				}
@@ -5373,6 +5391,7 @@
 				{
 					id: "6FC702D450811FBE"
 					type: "pmmo:skill"
+					title: "&2karma"
 					skill: "dungeoneering"
 					requiredLevel: 20.0d
 				}

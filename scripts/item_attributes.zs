@@ -97,7 +97,7 @@ import crafttweaker.api.util.text.MCTextComponent;
 //quark backpack
 <item:quark:backpack>.anyDamage().addTooltip("Please use the Backpack from Sophisticated Backpacks instead.");
 //soul enchanter
-<item:eidolon:soul_enchanter>.addTooltip("This item is purposely disabled due to being insanely powerful. If you found it in the book, the recipe above will not work.");
+//<item:eidolon:soul_enchanter>.addTooltip("This item is purposely disabled due to being insanely powerful. If you found it in the book, the recipe above will not work.");
 //golden bridle
 <item:greekfantasy:golden_bridle>.addTooltip("Used to tame Pegasus");
 //flint and steel
@@ -131,7 +131,7 @@ import crafttweaker.api.util.text.MCTextComponent;
 
 //soul weapons
 <item:atum:anubis_wrath>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
-<item:eidolon:reaper_scythe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
+//<item:eidolon:reaper_scythe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
 
 //dimensional carver tooltip + durability increase
 <item:alexsmobs:dimensional_carver>.maxDamage = 100;
@@ -199,8 +199,8 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:upgradednetherite_items:ender_upgraded_netherite_pearl>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_gear:attack_reach>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "extra reach", 2, ADDITION, [<equipmentslottype:mainhand>]);
 
 //Wand and Scepter buff
-<item:eidolon:soulfire_wand>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.5, ADDITION, [<equipmentslottype:mainhand>]);
-<item:eidolon:soulfire_wand>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.5, ADDITION, [<equipmentslottype:offhand>]);
+//<item:eidolon:soulfire_wand>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.5, ADDITION, [<equipmentslottype:mainhand>]);
+//<item:eidolon:soulfire_wand>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.5, ADDITION, [<equipmentslottype:offhand>]);
 <item:twilightforest:twilight_scepter>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.0, ADDITION, [<equipmentslottype:mainhand>]);
 <item:twilightforest:twilight_scepter>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.0, ADDITION, [<equipmentslottype:offhand>]);
 <item:twilightforest:lifedrain_scepter>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.0, ADDITION, [<equipmentslottype:mainhand>]);

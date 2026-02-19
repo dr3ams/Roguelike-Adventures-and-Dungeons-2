@@ -405,51 +405,6 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -4.5d
-			shape: "gear"
-			subtitle: "Nether Wart Substitute"
-			description: [
-				"If you can't find nether warts you can make these sprouts as an alternative."
-				""
-				"Check out the &3Dark Magic&r quest chapter to learn more about eidolon!"
-				""
-				"If you did find nether warts, well... make it anyways."
-			]
-			dependencies: ["1C6B53E307B94F2B"]
-			id: "6F71C255CDF5A4D9"
-			tasks: [{
-				id: "434C39CDB41DEB44"
-				type: "item"
-				item: {
-					id: "eidolon:fungus_sprouts"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "5C63479985C68918"
-					type: "item"
-					item: "mysticalworld:apple_cordial"
-				}
-				{
-					id: "7F9D9DCC997C087A"
-					type: "item"
-					item: "minecraft:golden_carrot"
-				}
-				{
-					id: "6D925AD6D9275970"
-					type: "ftbmoney:money"
-					ftb_money: 10L
-				}
-			]
-		}
-		{
 			x: -3.0d
 			y: 1.0d
 			description: ["A decorative brazier with soul fire that can also be used to heat up cooking pots if you want."]
