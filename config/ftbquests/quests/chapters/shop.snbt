@@ -586,7 +586,11 @@
 			y: 2.0d
 			shape: "octagon"
 			subtitle: "Choice repeatable reward"
-			description: ["Acquired by exchanging items, completing quests, and defeating &aTier 4, 5 \\& 6&r Champions."]
+			description: [
+				"Acquired by exchanging items, completing quests, and defeating &aTier 4, 5 \\& 6&r Champions."
+				""
+				"And like the copper and iron coins, Looting does increase the chance."
+			]
 			size: 2.0d
 			optional: true
 			id: "2146186B43D64F53"
@@ -634,7 +638,7 @@
 			y: 2.0d
 			shape: "octagon"
 			subtitle: "Choice repeatable reward"
-			description: ["Not yet implemented."]
+			description: ["Currently unobtainable. If you have any from old versions of the modpack, you may submit the coins here."]
 			size: 2.0d
 			optional: true
 			id: "4BD23FFF77631DA0"
@@ -1188,6 +1192,11 @@
 				Count: 1b
 				tag: {
 					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
 				}
 			}
 			disable_toast: true
@@ -1749,6 +1758,20 @@
 					}
 					consume_items: true
 				}
+				{
+					id: "01820D91FBC5F041"
+					type: "item"
+					item: {
+						id: "mysticalworld:copper_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					consume_items: true
+				}
 			]
 			rewards: [{
 				id: "5E2631375645C47C"
@@ -1821,20 +1844,6 @@
 						Count: 1b
 						tag: {
 							value: "forge:storage_blocks/amethyst"
-						}
-					}
-					consume_items: true
-				}
-				{
-					id: "5559BF4FBBADE705"
-					type: "item"
-					item: {
-						id: "eidolon:arcane_gold_block"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
 						}
 					}
 					consume_items: true

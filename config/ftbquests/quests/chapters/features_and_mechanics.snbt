@@ -111,7 +111,7 @@
 		{
 			icon: "blue_skies:everbright_portal"
 			disable_toast: true
-			x: -1.0d
+			x: -0.5d
 			y: 4.0d
 			shape: "square"
 			subtitle: "Current dimensions count: 10"
@@ -194,33 +194,6 @@
 					Count: 1b
 					tag: {
 						Potion: "elenaidodge2:long_replenishment"
-					}
-				}
-			}]
-		}
-		{
-			title: "New and overhauled structures!"
-			icon: "ars_nouveau:familiar_wixie"
-			disable_toast: true
-			x: 2.0d
-			y: 4.0d
-			description: ["- overhauled mineshaft, strongholds, dungeons, caves"]
-			id: "6560CFA3F7737BBB"
-			tasks: [{
-				id: "3E8E9CE8F8302CF2"
-				type: "checkmark"
-				title: "New structures!"
-			}]
-			rewards: [{
-				id: "1387A24745731B2C"
-				type: "item"
-				item: {
-					id: "minecraft:golden_carrot"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
 					}
 				}
 			}]
@@ -543,7 +516,7 @@
 		{
 			icon: "fins:spindly_emerald"
 			disable_toast: true
-			x: 0.0d
+			x: 0.5d
 			y: 4.0d
 			description: [
 				"There are new villager jobs, trades, workstations, and advancements!"
@@ -632,7 +605,7 @@
 		}
 		{
 			title: "Corail's Tombstones"
-			x: 1.0d
+			x: 1.5d
 			y: 4.0d
 			subtitle: "Keeps safe your inventory items on death with many features for better survivability and exploration"
 			description: [
@@ -1179,7 +1152,7 @@
 		}
 		{
 			title: "Waystones"
-			x: 3.0d
+			x: 2.5d
 			y: 4.0d
 			description: [
 				"Waystones allows players to return to them once they've been activated, either through a Warp Scroll, a Warp Stone, or another waystone."
@@ -1562,11 +1535,13 @@
 				""
 				"The shop can be found on the top-right of this quest book, it looks like a bag with coins scattered around it."
 				""
-				"&eMaterial Coins &r(copper, iron, gold, diamond) are tangible items that can also be found in quests, but also drop from &eChampions&r and some other loot throughout the world."
+				"&eMaterial Coins &r(copper, iron, monster, gold, diamond) are tangible items that can also be found in quests, but also drop from &eChampions&r and some other loot throughout the world."
 				""
 				"&4Stronger champions &rdrop better coins."
 				""
 				"These can be exchanged for items in the &3Coin Shop &rquest tab, which is a chapter found on the left."
+				""
+				"More details on which champions drop which coins can also be found in that quest tab."
 			]
 			dependencies: ["38049609F73B874B"]
 			id: "3F721FF28238E067"
@@ -1662,8 +1637,8 @@
 		}
 		{
 			title: "Hardmode Booster Pack"
-			x: -2.0d
-			y: -4.0d
+			x: 1.5d
+			y: 1.5d
 			shape: "rsquare"
 			description: [
 				"Since you joined the server late this booster kit will help you overcome the increased difficulty."
@@ -1675,7 +1650,7 @@
 				"&cIn hardcore these rewards are not available even if you joined a server late."
 			]
 			hide_text_until_complete: false
-			size: 2.0d
+			size: 1.5d
 			optional: true
 			secret: true
 			id: "54D9FFC26A3D59D8"
@@ -1884,8 +1859,6 @@
 				""
 				"To salvage an item &3interact with the smithing table while sneaking&r."
 				""
-				"Certain items will require a specific level of &bSmithing&r to salvage."
-				""
 				"At &bSmithing level 50&r you unlock Dual Salvaging which allows you to salvage items from both hands at the same time."
 			]
 			dependencies: ["41F4A32BEA5C4295"]
@@ -1983,7 +1956,7 @@
 			}]
 		}
 		{
-			title: "Excavation"
+			title: "Vein Mining?"
 			icon: "kubejs:mine"
 			x: -6.0d
 			y: -2.0d
@@ -1991,7 +1964,7 @@
 			description: [
 				"Excavating lets you break a whole tree or an entire ore vein at once. It is a huge time saver so using it is recommended."
 				""
-				"&6Simply hold &3Left Shift&6 while breaking an ore or log."
+				"&6While holding a tool or item &o(even the quest book!)&r&6 Simply hold &3Left Shift&6 while breaking an ore or log."
 				""
 				"You may change this by rebinding the &3\"Excavate\"&r keybind in the options menu."
 			]
@@ -2160,6 +2133,188 @@
 				title: "Wow so much knowledge"
 				xp: 7
 			}]
+		}
+		{
+			title: "Pmmo Deprecated Stat Removal"
+			icon: {
+				id: "mowziesmobs:mob_remover"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "Removes unused pmmo stats from old versions of the modpack"
+			description: [
+				"This quest will allow you to remove your pmmo stats from older versions that are no longer being used currently."
+				""
+				"This is useful if you find these extra stats cause the list to take up too much space. You may also choose not to claim this quest if you want to keep those stats as a reminder of your legacy."
+				""
+				"These stats include: &fLight&r, &8Shadow&r, &6Crafting&r, &6Cooking&r, &fTaming&r, &9Slayer&r, &6Gunslinging&r, &6Hunter&r."
+				""
+				"&eThis will have no effect if you created this world in the latest version of this modpack."
+				""
+				"&cPlease note: once you clear these stats, this action cannot be undone. Also once both checkmarks are clicked, the Collect all Rewards button on the top-east corner will auto-claim the xp removals."
+				""
+				"This quest will reset and be usable again if another pmmo stat becomes deprecated in the future. &o&7(if I remember to reset it, hopefully)"
+			]
+			size: 1.5d
+			optional: true
+			id: "5B28BF2C92F821D4"
+			tasks: [
+				{
+					id: "6B0C4FC7B3BE18E3"
+					type: "checkmark"
+					title: "I have read this quest description"
+				}
+				{
+					id: "353F64A7D8CBEF9F"
+					type: "checkmark"
+					title: "and I want to get those unused stats off my screen"
+				}
+			]
+			rewards: [
+				{
+					id: "071F2BF298E43AE0"
+					type: "pmmo:xpreward"
+					title: "Remove Light XP"
+					icon: {
+						id: "mowziesmobs:mob_remover"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					skill: "light"
+					amount: -2.8803259633435E11d
+					ignoreBonuses: true
+				}
+				{
+					id: "0E42A40F9456AA85"
+					type: "pmmo:xpreward"
+					title: "Remove Shadow XP"
+					icon: {
+						id: "mowziesmobs:mob_remover"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					skill: "shadow"
+					amount: -2.8803259633435E11d
+					ignoreBonuses: true
+				}
+				{
+					id: "00B5DABF54643BA5"
+					type: "pmmo:xpreward"
+					title: "Remove Crafting XP"
+					icon: {
+						id: "mowziesmobs:mob_remover"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					skill: "crafting"
+					amount: -2.8803259633435E11d
+					ignoreBonuses: true
+				}
+				{
+					id: "528D887014603C33"
+					type: "pmmo:xpreward"
+					title: "Remove Cooking XP"
+					icon: {
+						id: "mowziesmobs:mob_remover"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					skill: "cooking"
+					amount: -2.8803259633435E11d
+					ignoreBonuses: true
+				}
+				{
+					id: "7591C5FABA1A5CFB"
+					type: "pmmo:xpreward"
+					title: "Remove Taming XP"
+					icon: {
+						id: "mowziesmobs:mob_remover"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					skill: "taming"
+					amount: -2.8803259633435E11d
+					ignoreBonuses: true
+				}
+				{
+					id: "69149694E6CDD5B8"
+					type: "pmmo:xpreward"
+					title: "Remove Slayer XP"
+					icon: {
+						id: "mowziesmobs:mob_remover"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					skill: "slayer"
+					amount: -2.8803259633435E11d
+					ignoreBonuses: true
+				}
+				{
+					id: "42BBD241C4EAA7C8"
+					type: "pmmo:xpreward"
+					title: "Remove Gunslinging XP"
+					icon: {
+						id: "mowziesmobs:mob_remover"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					skill: "gunslinging"
+					amount: -2.8803259633435E11d
+					ignoreBonuses: true
+				}
+				{
+					id: "1C1AA20E5581F48A"
+					type: "pmmo:xpreward"
+					title: "Remove Hunter XP"
+					icon: {
+						id: "mowziesmobs:mob_remover"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					skill: "hunter"
+					amount: -2.8803259633435E11d
+					ignoreBonuses: true
+				}
+			]
 		}
 	]
 }

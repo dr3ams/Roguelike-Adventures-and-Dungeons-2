@@ -3972,11 +3972,11 @@
 				""
 				"Need lots of ores?"
 				""
-				"Look no further than these 3 special saplings!"
+				"Look no further than these 4 special saplings!"
 				""
-				"They can be found in loot like in the giant robust trees, and once grown, &3right-click&r the heart to activate their effects."
+				"These can be found in loot like in the giant robust trees, and once grown, &3right-click&r the heart to activate their effects."
 				""
-				"The heart logs cannot be picked up even with silk touch, and their leaves never drop new saplings so choose wisely where you plant the tree."
+				"The heart logs cannot be picked up even with silk touch, and the leaves never drop new saplings so choose wisely where you plant the tree."
 				""
 				"&6You only have to collect 1 to complete this quest."
 			]
@@ -4023,12 +4023,25 @@
 						}
 					}
 				}
+				{
+					id: "0EEA565F5CC1AA6A"
+					type: "item"
+					item: {
+						id: "twilightforest:mining_sapling"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
 			]
 			rewards: [
 				{
 					id: "0557F0BC11FCD43C"
 					type: "xp"
-					xp: 40
+					xp: 120
 				}
 				{
 					id: "1B35A45A95CEFE41"

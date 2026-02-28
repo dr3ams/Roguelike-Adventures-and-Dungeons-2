@@ -1947,6 +1947,7 @@
 			subtitle: "Gonna be the very best, like no one ever was"
 			description: ["Some fish can only be found in certain biomes, like the shroomas which can be found near mushroom islands."]
 			dependencies: ["00000000000015DD"]
+			optional: true
 			id: "000000000000033B"
 			tasks: [
 				{
@@ -2159,6 +2160,11 @@
 						}
 					}
 					count: 5
+				}
+				{
+					id: "2541E40ED65E2634"
+					type: "choice"
+					table_id: 3625101487890710202L
 				}
 			]
 		}

@@ -277,7 +277,11 @@
 		{
 			x: -5.0d
 			y: 15.0d
-			description: ["A custom weapon that fires mosquito spit as a weapon. Blood sacks can be used as ammunition."]
+			description: [
+				"A custom weapon that fires mosquito spit as a weapon. This never breaks, and its durability restores with Blood Sacs."
+				""
+				"It's not all that strong, so have lots of xp for your trouble."
+			]
 			dependencies: [
 				"3B5F5AF7209A9221"
 				"3EC4C7FDCDB42C8D"
@@ -296,15 +300,20 @@
 			}]
 			rewards: [
 				{
-					id: "6F0DBDCDADE8797F"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
 					id: "435322EC940FD8AC"
 					type: "item"
 					item: "alexsmobs:blood_sac"
 					count: 2
+				}
+				{
+					id: "6464514CD604946E"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "213266D12BF41BDC"
+					type: "xp"
+					xp: 500
 				}
 			]
 		}
@@ -725,58 +734,6 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 2.5d
-			description: ["When you want a slimey little buddy of your own."]
-			dependencies: ["2142DDB9A0AF6B94"]
-			id: "759CC2ED6720614D"
-			tasks: [{
-				id: "50F159BA577FC800"
-				type: "item"
-				item: "alexsmobs:blobfish_bucket"
-			}]
-			rewards: [{
-				id: "397F97B292D9E35D"
-				type: "item"
-				item: "losttrinkets:treasure_bag"
-			}]
-		}
-		{
-			x: 7.0d
-			y: 3.0d
-			description: ["The sad little body of a blobfish when it is killed."]
-			dependencies: ["2142DDB9A0AF6B94"]
-			id: "235A8DAEDFF467D7"
-			tasks: [{
-				id: "3286E77C29DC9875"
-				type: "item"
-				item: "alexsmobs:blobfish"
-			}]
-			rewards: [{
-				id: "0AFFC4BA380655F0"
-				type: "item"
-				item: "alexsmobs:blobfish"
-			}]
-		}
-		{
-			x: 8.0d
-			y: 4.0d
-			description: ["By compressing blobfish down into a bottle, Fish Oil can be made that can have some interesting properties in the rain."]
-			dependencies: ["235A8DAEDFF467D7"]
-			id: "005E68B4C5271269"
-			tasks: [{
-				id: "5C7464F62CB0DD68"
-				type: "item"
-				item: "alexsmobs:fish_oil"
-			}]
-			rewards: [{
-				id: "1E95E4F3FA1EEE0C"
-				type: "item"
-				item: "alexsmobs:fish_oil"
-				count: 2
-			}]
-		}
-		{
 			x: -12.5d
 			y: 3.0d
 			description: ["This Rattle is made with Rattlesnake tail. It will catch the attention of Cockroaches."]
@@ -1041,9 +998,9 @@
 				item: "alexsmobs:warped_muscle"
 			}]
 			rewards: [{
-				id: "28A197BA81394DDA"
-				type: "xp_levels"
-				xp_levels: 2
+				id: "062B1AE8C95D87D2"
+				type: "xp"
+				xp: 250
 			}]
 		}
 		{
@@ -1067,7 +1024,7 @@
 		{
 			x: 0.5d
 			y: 15.0d
-			description: ["An upgraded Blood Sprayer."]
+			description: ["An upgraded Blood Sprayer. Reloads with Hemolymph Sacs."]
 			dependencies: [
 				"323E3518BE41C84D"
 				"1DD27A6265642B96"
@@ -1085,11 +1042,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "1B6C481D87B6663E"
-				type: "item"
-				item: "aquaculture:box"
-			}]
+			rewards: [
+				{
+					id: "4FF54C01906D20CC"
+					type: "xp"
+					xp: 900
+				}
+				{
+					id: "21BC2EEA7D1726A5"
+					type: "choice"
+					table_id: 3625101487890710202L
+				}
+			]
 		}
 		{
 			x: -12.0d
@@ -1142,11 +1106,31 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "578539AEF0D91CB4"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "4DB8A8BF3DF7AA6B"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "40132098DC51F850"
+					type: "choice"
+					table_id: 8545390299491237994L
+				}
+				{
+					id: "35D2B8CB42FCBFB9"
+					type: "item"
+					item: {
+						id: "bountifulbaubles:sunglasses"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -2027,6 +2011,8 @@
 			description: [
 				"Tame a Bald Eagle with Fish Oil."
 				""
+				"Fish Oil can be obtained by simply using a glass bottle on any raw fish on a cutting board."
+				""
 				"Bald Eagles are neutral large birds found near mountains with plenty of trees. They fly to lakes to grab salmon out of the water or hunt nearby rabbits. They can be lured in and tamed with Fish Oil. They follow typical follower commands. They can be healed with fish and bred with rotten flesh."
 			]
 			id: "0433861EE023060D"
@@ -2463,9 +2449,9 @@
 				criterion: ""
 			}]
 			rewards: [{
-				id: "238F36B03F86D58D"
-				type: "xp_levels"
-				xp_levels: 2
+				id: "2CDA50CD5782E310"
+				type: "xp"
+				xp: 111
 			}]
 		}
 		{
@@ -2484,11 +2470,18 @@
 				advancement: "alexsmobs:alexsmobs/crimson_mosquito_sick"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "2BDE0160261BA560"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "592EB49AFB6DF92D"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "07B604C6C6251E63"
+					type: "choice"
+					table_id: 7685042081442074286L
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -2507,11 +2500,41 @@
 				advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "6BDC7FA1CF2C9F7C"
-				type: "item"
-				item: "losttrinkets:treasure_bag"
-			}]
+			rewards: [
+				{
+					id: "7545AB34300578D5"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "66AAC1E915ECBA19"
+					type: "choice"
+					table_id: 3680913278004027102L
+				}
+				{
+					id: "7D747A9C21322A44"
+					type: "item"
+					item: {
+						id: "enigmaticlegacy:mending_mixture"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
 		}
 		{
 			icon: {
@@ -2888,7 +2911,7 @@
 			}
 			x: -10.5d
 			y: -2.5d
-			description: ["This annoying bug is pretty common across the overworld. They will chase and bite zombies to near death. They are bred with rotten flesh. Make sure these do not get into the Nether...."]
+			description: ["This annoying bug can be found around polluted lakes. Flies will chase and bite zombies to near death and are are bred with rotten flesh. Make sure these do not get into the Nether...."]
 			id: "49AB71E75762D0B9"
 			tasks: [{
 				id: "3F5513E24A79A11D"
@@ -3160,41 +3183,6 @@
 			}]
 			rewards: [{
 				id: "0D3AE27787779FE9"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			icon: {
-				id: "alexsmobs:tab_icon"
-				Count: 1b
-				tag: {
-					DisplayEntityType: "alexsmobs:blobfish"
-				}
-			}
-			x: 6.5d
-			y: 1.5d
-			description: ["This..... squishy fish is usually found deep in oceans. When a slimeball is used on a blobfish will allow it to survive on land."]
-			id: "2142DDB9A0AF6B94"
-			tasks: [{
-				id: "3ED5AAA8C71CB733"
-				type: "observation"
-				title: "Blobfish"
-				icon: {
-					id: "alexsmobs:spawn_egg_blobfish"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				timer: 0L
-				observe_type: 5
-				to_observe: "alexsmobs:blobfish"
-			}]
-			rewards: [{
-				id: "2E6F7297801F88E0"
 				type: "xp"
 				xp: 100
 			}]

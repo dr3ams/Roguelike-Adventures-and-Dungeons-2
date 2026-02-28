@@ -217,8 +217,9 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 1.5d
+			x: 3.5d
+			y: -2.5d
+			dependencies: ["2F4B49D69F080CD6"]
 			id: "5593EDDAA317FEB7"
 			tasks: [{
 				id: "38A5333153DF4E9F"
@@ -264,8 +265,9 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 1.5d
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["2F4B49D69F080CD6"]
 			id: "1FB2244D469F5291"
 			tasks: [{
 				id: "15B3D1AE068E694E"
@@ -311,8 +313,9 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: 1.5d
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["2F4B49D69F080CD6"]
 			id: "70680CD09BACCA46"
 			tasks: [{
 				id: "1310120BD852DD36"
@@ -358,8 +361,9 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 1.5d
+			x: 6.5d
+			y: -2.5d
+			dependencies: ["2F4B49D69F080CD6"]
 			id: "63918B1CB625C303"
 			tasks: [{
 				id: "275EF50C5127EDE6"
@@ -405,7 +409,7 @@
 			]
 		}
 		{
-			x: -5.5d
+			x: -4.5d
 			y: 3.0d
 			id: "55CE8C6615E6967A"
 			tasks: [{
@@ -428,28 +432,43 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -5.5d
 			y: 3.0d
+			description: ["Extremely rare scarab variant. It can be eaten almost instantly for high saturation. Find it and get rich from this quest!"]
 			dependencies: ["55CE8C6615E6967A"]
+			optional: true
 			id: "023819ECF44FA5E1"
 			tasks: [{
 				id: "55B43CB223CB154D"
 				type: "item"
 				item: "atum:crunchy_golden_scarab"
 			}]
-			rewards: [{
-				id: "5FE8322CF3E67DEA"
-				type: "item"
-				item: {
-					id: "aquaculture:treasure_chest"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
+			rewards: [
+				{
+					id: "0C625283EAB9A929"
+					type: "choice"
+					table_id: 3625101487890710202L
+				}
+				{
+					id: "26F36BAF06CA750C"
+					type: "ftbmoney:money"
+					ftb_money: 500L
+				}
+				{
+					id: "05DEABBF4235BA64"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
 						}
 					}
+					count: 3
 				}
-			}]
+			]
 		}
 		{
 			x: -0.5d
@@ -573,6 +592,11 @@
 		{
 			x: 6.5d
 			y: 4.5d
+			description: [
+				"While held, lose 1 hunger (and saturation if it was higher) around every 4 seconds but gain 1 whenever you hit a mob gain 1 back. Does not restore saturation."
+				""
+				"Useful with enchantments that let you hit multiple mobs at once, like sweeping edge and swirling, and only holding it during combat."
+			]
 			id: "3B5BDACAE92D5635"
 			tasks: [{
 				id: "14CAEF58C9D9E6BC"
@@ -892,6 +916,7 @@
 		{
 			x: 5.0d
 			y: -1.0d
+			description: ["Can catch the special fish types from atum"]
 			id: "2F4B49D69F080CD6"
 			tasks: [{
 				id: "204C47F5E6669562"
@@ -1148,6 +1173,11 @@
 		{
 			x: 5.0d
 			y: 3.0d
+			description: [
+				"20% chance when blocking to make you immune to damage for around 5 seconds (despite the tooltip saying 10)."
+				""
+				"You'll know when this activates by blue particle effects that appear."
+			]
 			id: "4C467DDDEE90FC6F"
 			tasks: [{
 				id: "29990996D61DE3CD"
@@ -1264,6 +1294,7 @@
 		{
 			x: 5.0d
 			y: 6.0d
+			description: ["Extra knockback when the attack cooldown is full!"]
 			id: "05FE011569916676"
 			tasks: [{
 				id: "1569E5B1B14F4739"
@@ -1428,6 +1459,11 @@
 		{
 			x: 8.0d
 			y: 1.0d
+			description: [
+				"Incredibly high attack damage, slow attack speed, and &6stuns&r when the attack cooldown is full."
+				""
+				"Mobs stunned by this can still attack, but cannot move."
+			]
 			id: "620AAE2B60F1101E"
 			tasks: [{
 				id: "11E05B44BC9AE515"
@@ -2091,6 +2127,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
+			description: ["Identical damage to a netherite sword, doubled vs undead on a full charge attack."]
 			id: "11963E9C2FE5A80C"
 			tasks: [{
 				id: "28EA2144AE677843"
@@ -3089,7 +3126,7 @@
 			title: "Fragments of Godly Power"
 			x: -6.5d
 			y: -1.0d
-			subtitle: "Shatter their influience"
+			subtitle: "Shatter their influence"
 			description: ["Used to craft a variety of items. The two most interesting being the Godforged blocks and the Torches of the Gods."]
 			dependencies: ["65776DFA812A6986"]
 			id: "6000A5327F9AB578"
@@ -3556,8 +3593,8 @@
 		{
 			title: "Desert Secrets"
 			icon: "atum:sarcophagus"
-			x: 5.0d
-			y: -2.0d
+			x: -5.5d
+			y: 1.5d
 			subtitle: "Long Since Forgotten"
 			description: ["These sealed structures resist all normal attempts at entry. Placing Nebu torches on these Quandary Blocks near the entrance will break the ancient seal."]
 			id: "70912EEE83C41996"
@@ -3594,16 +3631,8 @@
 				{
 					id: "6A1F3324485A5E63"
 					type: "observation"
-					title: "Observer Quandary Block"
-					icon: {
-						id: "atum:quandary_block"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
+					title: "Observe a Quandary Block"
+					icon: "atum:quandary_block"
 					timer: 20L
 					observe_type: 0
 					to_observe: "atum:quandary_block"
@@ -3616,8 +3645,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -2.0d
+			x: -4.5d
+			y: 1.5d
 			subtitle: "Shut Tight, Something Stirs"
 			description: ["Like entering the pyramid placing Nebu Torches on the Quandary blocks will break the seal and allow you to open the Sarcophagus."]
 			dependencies: ["70912EEE83C41996"]
@@ -3824,6 +3853,110 @@
 					id: "2A1D2CA72AF84E6D"
 					type: "xp"
 					xp: 150
+				}
+			]
+		}
+		{
+			title: "100,000 Deadwood Log -> &4Collector's Golden Crunchy Scarab"
+			x: -6.5d
+			y: 3.0d
+			subtitle: "Optional quest for extremely bad luck"
+			description: ["&7&oMade for a very quiet player"]
+			optional: true
+			id: "3B37EB6066E435FD"
+			tasks: [{
+				id: "790FD5A43B04C7EB"
+				type: "item"
+				item: {
+					id: "atum:deadwood_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 100000L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0B005683DA2B231B"
+				type: "item"
+				item: {
+					id: "atum:crunchy_golden_scarab"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						"quark:RuneAttached": 1b
+						display: {
+							Lore: ["{\"text\":\"A nice bug for your collection... or to eat.\",\"color\":\"gold\",\"italic\":false}"]
+							Name: "[{\"text\":\"Collector's \",\"color\":\"dark_red\",\"italic\":false},{\"translate\":\"item.atum.crunchy_golden_scarab\",\"color\":\"dark_red\",\"italic\":false}]"
+						}
+						Enchantments: [{
+							lvl: 4s
+							id: "uniqueutil:ambrosia"
+						}]
+						"quark:RuneColor": {
+							ForgeCaps: {
+								"dungeons_libraries:built_in_enchantments": {
+									BuiltInEnchantments: [ ]
+								}
+							}
+							id: "quark:yellow_rune"
+							Count: 1b
+						}
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			subtitle: "Greed Overtakes All"
+			description: [
+				"Hunt down 5 pharaohs from various pyramids and amass a collection of special gear!"
+				""
+				"You can use the godforge to smelt down duplicates."
+			]
+			dependencies: ["70912EEE83C41996"]
+			id: "67A9DEED2AABF709"
+			tasks: [{
+				id: "788692AAD7590169"
+				type: "kill"
+				entity: "atum:pharaoh"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "50FACD599F1139D2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							CustomModelData: 1
+							type: "crate_crate"
+							display: {
+								Lore: ["{\"text\":\"Contains 3 Random Crates, which may include itself! Crateception?\",\"color\":\"yellow\",\"italic\":false}"]
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "060EE0BDA0E72374"
+					type: "xp"
+					xp: 1000
 				}
 			]
 		}
