@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "dragon_hardcore_phase_check": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "team": "Hardcore"
+        },
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rad_recipes:hardcore_enderdragon_phase"
+  }
+}

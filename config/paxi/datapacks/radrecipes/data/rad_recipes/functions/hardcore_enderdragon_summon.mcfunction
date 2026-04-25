@@ -1,0 +1,63 @@
+scoreboard objectives add dragonhp dummy {"text":"Dragon Health","color":"dark_purple"}
+scoreboard objectives add dragonmaxhp dummy {"text":"Dragon Max Health","color":"light_purple"}
+execute store result score @s dragonmaxhp run attribute @s minecraft:generic.max_health get 1
+execute store result score @s dragonhp run data get entity @s Health 100
+scoreboard players operation @s dragonhp /= @s dragonmaxhp
+
+#Phase 1: Turn 6 Random Endermen into Mages around the island with end crystals
+execute if score @s[tag=!phase1] dragonhp matches ..90 as @e[type=enderman,distance=..200,limit=6,sort=random] at @s run function rad_recipes:hardcore_enderdragon_magemarked
+
+execute if score @s[tag=!phase1] dragonhp matches ..90 run playsound minecraft:entity.ender_dragon.growl hostile @a[distance=..500] ~ ~ ~ 1000 1.5 1
+execute if score @s[tag=!phase1] dragonhp matches ..90 run tag @s add phase1
+
+#Phase 2: Summon 4 Propulk from the ender dragon with end crystals, and a watchling spawner
+execute if score @s[tag=!phase2] dragonhp matches ..75 run summon stalwart_dungeons:propulk ~3 ~ ~3 {Tags:["phase2_minion"],ActiveEffects:[{Id:12b,Duration:96000,ShowParticles:0b,Amplifier:0,Ambient:1b}],PersistenceRequired:1b,ForgeCaps:{"champions:champion":{tier:3,affixes:[{identifier:"arctic"},{identifier:"enkindling"}]},"dungeons_libraries:elite_mob":{isElite:1b},"dungeons_mobs:ancient":{ancient:1b}},NoGravity:0b,Motion:[0.5d,-0.25d,0.5d],Passengers:[{id:"minecraft:end_crystal",ShowBottom:0b}]}
+
+execute if score @s[tag=!phase2] dragonhp matches ..75 run summon stalwart_dungeons:propulk ~-3 ~ ~3 {Tags:["phase2_minion"],ActiveEffects:[{Id:12b,Duration:96000,ShowParticles:0b,Amplifier:0,Ambient:1b}],PersistenceRequired:1b,ForgeCaps:{"champions:champion":{tier:3,affixes:[{identifier:"arctic"},{identifier:"enkindling"}]},"dungeons_libraries:elite_mob":{isElite:1b},"dungeons_mobs:ancient":{ancient:1b}},NoGravity:0b,Motion:[-0.5d,-0.25d,0.5d],Passengers:[{id:"minecraft:end_crystal",ShowBottom:0b}]}
+
+execute if score @s[tag=!phase2] dragonhp matches ..75 run summon stalwart_dungeons:propulk ~3 ~ ~-3 {Tags:["phase2_minion"],ActiveEffects:[{Id:12b,Duration:96000,ShowParticles:0b,Amplifier:0,Ambient:1b}],PersistenceRequired:1b,ForgeCaps:{"champions:champion":{tier:3,affixes:[{identifier:"arctic"},{identifier:"enkindling"}]},"dungeons_libraries:elite_mob":{isElite:1b},"dungeons_mobs:ancient":{ancient:1b}},NoGravity:0b,Motion:[0.5d,-0.25d,-0.5d],Passengers:[{id:"minecraft:end_crystal",ShowBottom:0b}]}
+
+execute if score @s[tag=!phase2] dragonhp matches ..75 run summon stalwart_dungeons:propulk ~-3 ~ ~-3 {Tags:["phase2_minion"],ActiveEffects:[{Id:12b,Duration:96000,ShowParticles:0b,Amplifier:0,Ambient:1b}],PersistenceRequired:1b,ForgeCaps:{"champions:champion":{tier:3,affixes:[{identifier:"arctic"},{identifier:"enkindling"}]},"dungeons_libraries:elite_mob":{isElite:1b},"dungeons_mobs:ancient":{ancient:1b}},NoGravity:0b,Motion:[-0.5d,-0.25d,-0.5d],Passengers:[{id:"minecraft:end_crystal",ShowBottom:0b}]}
+
+execute if score @s[tag=!phase2] dragonhp matches ..75 run summon falling_block ~ ~ ~ {Tags:["phase2_spawner"],Time:10,HurtEntities:1b,DropItem:0b,BlockState:{Name:"minecraft:spawner"},TileEntityData:{RequiredPlayerRange:200s,Delay:10s,SpawnCount:5s,SpawnRange:100s,MinSpawnDelay:100s,MaxSpawnDelay:300s,MaxNearbyEntities:25s,SpawnPotentials:[{Entity:{id:"dungeons_mobs:watchling"},Weight:1}],SpawnData:{id:"dungeons_mobs:watchling"}}}
+execute if score @s[tag=!phase2] dragonhp matches ..75 run spreadplayers ~ ~ 0 100 false @e[tag=phase2_spawner]
+
+execute if score @s[tag=!phase2] dragonhp matches ..75 run tellraw @a[distance=..500] [{"text":"The Dragon has placed a Watchling Spawner somewhere on the island. Find it and destroy it to stop the watchings spawning!"}]
+
+
+execute if score @s[tag=!phase2] dragonhp matches ..75 run playsound minecraft:entity.ender_dragon.growl hostile @a[distance=..500] ~ ~ ~ 1000 1.5 1
+
+execute if score @s[tag=!phase2] dragonhp matches ..75 run tag @s add phase2
+
+#Phase 3: Summon a T5 champion endersent with an end crystal, and 2 spike trap spawners. Endersent constantly teleports around making it harder to destroy the end crystal on the back.
+execute if score @s[tag=!phase3] dragonhp matches ..50 run summon dungeons_mobs:endersent ~ ~ ~ {Tags:["phase3_minion"],ArmorItems:[{id:"dungeons_gear:curious_boots",Count:1b,tag:{Enchantments:[{id:"dungeons_gear:void_dodge",lvl:8},{id:"uniquee:vitae",lvl:5},{id:"minecraft:frost_walker",lvl:2}]} },{id:"dungeons_gear:curious_leggings",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:5},{id:"dungeons_gear:melee_aura",lvl:2},{id:"dungeons_gear:speed_aura",lvl:2},{id:"dungeons_gear:life_steal_aura",lvl:2}]} },{id:"dungeons_gear:curious_chestplate",Count:1b,tag:{Enchantments:[{id:"uniquebattle:golem_soul",lvl:2},{id:"minecraft:thorns",lvl:5}]} },{id:"dungeons_gear:curious_helmet",Count:1b,tag:{Enchantments:[{id:"uniquee:vitae",lvl:5},{id:"minecraft:protection",lvl:5}]} }],ActiveEffects:[{Id:24b,Duration:100,ShowParticles:0b,Ambient:1b},{Id:28b,Duration:100,ShowParticles:0b,Ambient:1b},{Id:10b,Duration:40,ShowParticles:0b,Amplifier:9,Ambient:1b}],PersistenceRequired:1b,ForgeCaps:{"champions:champion":{tier:5,affixes:[{identifier:"adaptable"},{identifier:"wounding"},{identifier:"hasty"},{identifier:"reflective"}]},"dungeons_libraries:elite_mob":{isElite:1b},"dungeons_mobs:ancient":{ancient:1b}},NoGravity:0b,Motion:[0.0d,-0.3d,0.0d],Passengers:[{id:"minecraft:end_crystal",ShowBottom:0b}]}
+
+execute if score @s[tag=!phase3] dragonhp matches ..50 run summon falling_block ~ ~ ~ {Tags:["phase3_spawner"],Time:10,HurtEntities:1b,DropItem:0b,BlockState:{Name:"minecraft:spawner"},TileEntityData:{RequiredPlayerRange:200s,Delay:20s,SpawnRange:100s,SpawnCount:5s,MaxNearbyEntities:5s,MinSpawnDelay:60s,MaxSpawnDelay:200s,SpawnPotentials:[{Entity:{id:"minecraft:falling_block",Time:10,Motion:[0.0d,0.5d,0.0d],HurtEntities:1b,BlockState:{Name:"supplementaries:bamboo_spikes",Properties:{facing:up,tipped:"true"}},TileEntityData:{id:"supplementaries:bamboo_spikes",Potion:"undergarden:brittleness",Charges:15}},Weight:1}],SpawnData:{id:"minecraft:falling_block",Time:10,Motion:[0.0d,0.5d,0.0d],HurtEntities:1b,BlockState:{Name:"supplementaries:bamboo_spikes",Properties:{facing:up,tipped:"true"}},TileEntityData:{id:"supplementaries:bamboo_spikes",Potion:"undergarden:brittleness",Charges:15}}}}
+execute if score @s[tag=!phase3] dragonhp matches ..50 run summon falling_block ~ ~ ~ {Tags:["phase3_spawner"],Time:10,HurtEntities:1b,DropItem:0b,BlockState:{Name:"minecraft:spawner"},TileEntityData:{RequiredPlayerRange:200s,Delay:30s,SpawnRange:100s,SpawnCount:5s,MaxNearbyEntities:5s,MinSpawnDelay:60s,MaxSpawnDelay:200s,SpawnPotentials:[{Entity:{id:"minecraft:falling_block",Time:10,Motion:[0.0d,0.5d,0.0d],HurtEntities:1b,BlockState:{Name:"supplementaries:bamboo_spikes",Properties:{facing:up,tipped:"true"}},TileEntityData:{id:"supplementaries:bamboo_spikes",Potion:"undergarden:brittleness",Charges:15}},Weight:1}],SpawnData:{id:"minecraft:falling_block",Time:10,Motion:[0.0d,0.5d,0.0d],HurtEntities:1b,BlockState:{Name:"supplementaries:bamboo_spikes",Properties:{facing:up,tipped:"true"}},TileEntityData:{id:"supplementaries:bamboo_spikes",Potion:"undergarden:brittleness",Charges:15}}}}
+
+execute if score @s[tag=!phase3] dragonhp matches ..50 run spreadplayers ~ ~ 10 25 false @e[tag=phase3_minion]
+execute if score @s[tag=!phase3] dragonhp matches ..50 run spreadplayers ~ ~ 10 100 false @e[tag=phase3_spawner]
+execute if score @s[tag=!phase3] dragonhp matches ..50 run tellraw @a[distance=..500] [{"text":"The Dragon has placed 2 Deadly Trap Spawners somewhere on the island. Touching the traps will be very lethal. Find and destroy the spawners before the traps cover the whole island!"}]
+
+execute if score @s[tag=!phase3] dragonhp matches ..50 run playsound minecraft:entity.ender_dragon.growl hostile @a[distance=..500] ~ ~ ~ 1000 1.5 1
+execute if score @s[tag=!phase3] dragonhp matches ..50 run tag @s add phase3
+
+#Phase 4: Summon a tier 5 lightning dragon wearing dragonsteel armor. The lightning dragon's presence stuns all endermen for 3 minutes. These stunned endermen take 3x damage + more with armor. The ender dragon gains extra defense, especially against explosions and heals more from end crystals, but can no longer heal above 50% hp.
+execute if score @s[tag=!phase4] dragonhp matches ..25 run summon minecraft:lightning_bolt 0 255 0
+execute if score @s[tag=!phase4] dragonhp matches ..25 run effect give @e[type=enderman,distance=..500] dungeons_gear:stunned 180 0 false
+execute if score @s[tag=!phase4] dragonhp matches ..25 run effect give @e[type=enderman,distance=..500] dungeons_mobs:ensnared 180 0 false
+execute if score @s[tag=!phase4] dragonhp matches ..25 run effect give @e[type=enderman,distance=..500] undergarden:brittleness 180 0 false
+execute if score @s[tag=!phase4] dragonhp matches ..25 run effect give @e[type=enderman,distance=..500] apotheosis:sundering 180 9 false
+execute if score @s[tag=!phase4] dragonhp matches ..25 run replaceitem entity @s armor.chest majruszs_difficulty:end_chestplate{Affixes:{"apotheosis:armor":2.0f,"apotheosis:armor_toughness":3.5f},Enchantments:[{id:"uniquee:berserker",lvl:8},{id:"minecraft:projectile_protection",lvl:3},{id:"minecraft:blast_protection",lvl:10},{id:"radenchants:rejuvenate",lvl:10},{id:"minecraft:mending",lvl:1}]}
+
+execute if score @s[tag=!phase4] dragonhp matches ..25 run summon iceandfire:lightning_dragon 0 420 0 {Tags:["phase4_minion"],ActiveEffects:[{Id:24b,Duration:840,ShowParticles:0b,Ambient:1b},{Id:28b,Duration:840,ShowParticles:0b,Ambient:1b},{Id:12b,Duration:12000,ShowParticles:0b,Ambient:1b}],CustomNameVisible:1b,CustomName:'[{"text":"Defeatus, Sibling of Victoria, Ageless ","color":"light_purple","bold":true},{"translate":"entity.minecraft.guardian"},{"text":" of the "},{"translate":"entity.minecraft.ender_dragon"},{"text":", Founder of the "},{"translate":"entity.iceandfire.lightning_dragon"},{"text":" Clan, and Ender of countless "},{"translate":"options.difficulty.hardcore"},{"text":" runs"}]',HandItems:[{id:"majruszs_difficulty:wither_sword",Count:1b,tag:{RadEnchants:{dualedge:10},Affixes:{"apotheosis:damage_chain":25.0f},Enchantments:[{id:"uniquebattle:deep_wounds",lvl:5},{id:"uniquebattle:ifrits_blessing",lvl:5},{id:"dungeons_gear:thundering",lvl:1},{id:"uniquee:climate_tranquility",lvl:4},{id:"uniquee:alchemists_grace",lvl:4},{id:"radenchants:dual_edge",lvl:1},{id:"radenchants:breaching",lvl:5}]}},{}],Attributes:[{Base:4096d,Name:"generic.max_health"}],TamedDragon:0b,Gender:-128b,Items:[{Slot:1b,id:"iceandfire:dragonarmor_dragonsteel_lightning_head",Count:1b},{Slot:2b,id:"iceandfire:dragonarmor_dragonsteel_lightning_neck",Count:1b},{Slot:3b,id:"iceandfire:dragonarmor_dragonsteel_lightning_body",Count:1b,tag:{Enchantments:[{id:"minecraft:projectile_protection",lvl:3}]}},{Slot:4b,id:"iceandfire:dragonarmor_dragonsteel_lightning_tail",Count:1b,tag:{Enchantments:[{id:"minecraft:depth_strider",lvl:3}]}}],Health:4096,AgeTicks:3000000,TamedDragon:0b,Passengers:[{id:"minecraft:end_crystal",ShowBottom:0b}]}
+execute if score @s[tag=!phase4] dragonhp matches ..25 run playsound minecraft:entity.ender_dragon.growl hostile @a[distance=..500] ~ ~ ~ 1000 1.5 1
+execute if score @s[tag=!phase4] dragonhp matches ..25 run playsound quark:music.endermosh record @a[distance=..500] ~ ~ ~ 1000 1.0 1
+execute if score @s[tag=!phase4] dragonhp matches ..25 run tellraw @a[distance=..500] [{"text":"The Dragon's Protector has arrived from the skies, sensing the ","color":"red"},{"translate":"entity.minecraft.ender_dragon"},{"text":" is in great danger. The protector's presence has left the endermen stunned. Defeat the ","color":"red"},{"translate":"entity.minecraft.ender_dragon"},{"text":" and escape fast, or you may have to face your toughest foe by far..."}]
+execute if score @s[tag=!phase4] dragonhp matches ..25 run tag @s add phase4
+
+#recall lightning dragon at 12% hp, mainly exists in case lightning dragon falls into the void, then activate phase 1 and 2 again at the same time
+execute if score @s[tag=!phase5] dragonhp matches ..12 run tag @s remove phase1
+execute if score @s[tag=!phase5] dragonhp matches ..12 run tag @s remove phase2
+execute if score @s[tag=!phase5] dragonhp matches ..12 run spreadplayers 0 0 10 25 false @e[tag=phase4_minion]
+execute if score @s[tag=!phase5] dragonhp matches ..12 run tag @s add phase5
