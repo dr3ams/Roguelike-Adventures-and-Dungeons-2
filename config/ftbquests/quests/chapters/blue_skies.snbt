@@ -310,15 +310,6 @@
 					type: "xp_levels"
 					xp_levels: 2
 				}
-				{
-					id: "712F666FF1C32522"
-					type: "pmmo:xpreward"
-					title: "50 Light XP"
-					auto: "invisible"
-					skill: "light"
-					amount: 50.0d
-					ignoreBonuses: false
-				}
 			]
 		}
 		{
@@ -351,15 +342,6 @@
 					id: "05A3333ADA798203"
 					type: "xp_levels"
 					xp_levels: 2
-				}
-				{
-					id: "7AABD3D23A7566D9"
-					type: "pmmo:xpreward"
-					title: "50 Shadow XP"
-					auto: "invisible"
-					skill: "shadow"
-					amount: 50.0d
-					ignoreBonuses: false
 				}
 			]
 		}
@@ -2724,9 +2706,9 @@
 			rewards: [{
 				id: "07CD2213D1654ED3"
 				type: "pmmo:xpreward"
-				title: "300 Shadow XP"
+				title: "300 Karma XP"
 				auto: "invisible"
-				skill: "shadow"
+				skill: "dungeoneering"
 				amount: 300.0d
 				ignoreBonuses: false
 			}]
@@ -2762,9 +2744,9 @@
 			rewards: [{
 				id: "1F12C0A62252AB89"
 				type: "pmmo:xpreward"
-				title: "300 Light XP"
+				title: "300 Karma XP"
 				auto: "invisible"
-				skill: "light"
+				skill: "dungeoneering"
 				amount: 300.0d
 				ignoreBonuses: false
 			}]
