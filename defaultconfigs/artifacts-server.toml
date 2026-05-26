@@ -11,7 +11,7 @@
 		#Range: 0 ~ 32767
 		durability = 0
 		#List of negative effects that can be cancelled by the antidote vessel
-		negative_effects = ["minecraft:slowness", "minecraft:mining_fatigue", "minecraft:nausea", "minecraft:blindness", "minecraft:hunger", "minecraft:weakness", "minecraft:poison", "minecraft:wither", "minecraft:levitation"]
+		negative_effects = ["minecraft:slowness", "minecraft:mining_fatigue", "minecraft:nausea", "minecraft:blindness", "minecraft:hunger", "minecraft:weakness", "minecraft:poison", "minecraft:wither", "minecraft:levitation","champions:paralysis","dungeons_gear:stunned","ars_nouveau:gravity","ars_nouveau:snared","dungeons_mobs:ensnared","mowziesmobs:frozen","twilightforest:frosted","elenaidodge2:weight","elenaidodge2:feeble","greekfantasy:petrified","alexsmobs:sunbird_curse","alexsmobs:fear","uniquebattle:snare"]
 		#The maximum duration (in ticks) a negative effect can last with the antidote vessel equipped
 		#Range: > 0
 		max_effect_duration = 120
@@ -98,10 +98,10 @@
 		durability = 10000
 		#Cooldown (in ticks) before the item can be eaten again
 		#Range: > 0
-		cooldown = 300
+		cooldown = 400
 		#Time (in ticks) it takes to eat this item
 		#Range: > 0
-		use_duration = 24
+		use_duration = 28
 
 	[items.everlasting_beef]
 		#Affects how many times this item can be eaten before breaking
@@ -110,10 +110,10 @@
 		durability = 10000
 		#Cooldown (in ticks) before the item can be eaten again
 		#Range: > 0
-		cooldown = 300
+		cooldown = 400
 		#Time (in ticks) it takes to eat this item
 		#Range: > 0
-		use_duration = 24
+		use_duration = 28
 
 	[items.feral_claws]
 		#Affects how many enemies can be hit using the feral claws before breaking
@@ -140,10 +140,10 @@
 		durability = 0
 		#Chance for the pendant to strike an attacker when the wearer is attacked
 		#Range: 0.0 ~ 1.0
-		strike_chance = 0.4
+		strike_chance = 1.0
 		#Duration (equal to total fire damage) for which entities are set on fire
 		#Range: > 0
-		fire_duration = 10
+		fire_duration = 16
 
 	[items.flippers]
 		#Affects how many seconds the player can swim using the flippers
@@ -186,14 +186,14 @@
 		#Affects how many seconds the player can fly using the helium flamingo before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 10000
+		durability = 20000
 		#The maximum amount of time (in ticks) a player can fly using the helium flamingo
 		#Set to 0 to allow swimming indefinitely
 		#Range: > 0
-		max_flight_time = 100
+		max_flight_time = 300
 		#The amount of time (in ticks) it takes for the helium flamingo to recharge
 		#Range: > 0
-		recharge_time = 300
+		recharge_time = 150
 
 	[items.kitty_slippers]
 		#Affects how many creepers the player can attack using the kitty slippers before breaking
@@ -302,7 +302,7 @@
 		durability = 0
 		#Chance for the pendant to strike an attacker when the wearer is attacked
 		#Range: 0.0 ~ 1.0
-		strike_chance = 0.25
+		strike_chance = 0.40
 
 	[items.snorkel]
 		#Affects how many seconds the player can stay underwater using the snorkel before breaking
@@ -332,11 +332,11 @@
 		durability = 0
 		#Chance for the pendant to strike an attacker when the wearer is attacked
 		#Range: 0.0 ~ 1.0
-		strike_chance = 0.5
+		strike_chance = 0.80
 		#Minimum damage dealt by thorn pendant
 		#Damage dealt is a random number between min_damage and max_damage
 		#Range: > 0
-		min_damage = 2
+		min_damage = 3
 		#Maximum damage dealt by thorn pendant
 		#Range: > 0
 		max_damage = 6
@@ -371,7 +371,7 @@
 		durability = 0
 		#The ratio of dealt damage absorbed by the wearer
 		#Range: 0.0 ~ Infinity
-		absorption_ratio = 0.2
+		absorption_ratio = 0.1
 		#The maximum amount of health that can be healed in a single hit
 		#Range: > 0
 		max_health_absorbed = 6
@@ -392,5 +392,5 @@
 		durability = 0
 		#Affects the amount of farts farted by players wearing the whoopee cushion
 		#Range: 0.0 ~ 1.0
-		flatulence = 0.125
+		flatulence = 0.25
 

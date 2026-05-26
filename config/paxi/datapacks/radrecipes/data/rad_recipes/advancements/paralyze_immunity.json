@@ -1,0 +1,63 @@
+{
+  "criteria": {
+    "wearing_ring_of_free_action": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{ForgeCaps:{\"curios:inventory\":{Curios:[{StacksHandler:{Stacks:{Items:[{id:\"bountifulbaubles:ring_free_action\"}]} }}] }}}"
+        },
+        "effects": {
+          "champions:paralysis": {}
+        }
+      }
+    },
+    "wearing_ankh_charm": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{ForgeCaps:{\"curios:inventory\":{Curios:[{StacksHandler:{Stacks:{Items:[{id:\"bountifulbaubles:ankh_charm\"}]} }}] }}}"
+        },
+        "effects": {
+          "champions:paralysis": {}
+        }
+      }
+    },
+    "wearing_ankh_shield": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{ForgeCaps:{\"curios:inventory\":{Curios:[{StacksHandler:{Stacks:{Items:[{id:\"bountifulbaubles:shield_ankh\"}]} }}] }}}"
+        },
+        "effects": {
+          "champions:paralysis": {}
+        }
+      }
+    },
+    "holding_ankh_shiekd": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "offhand": {
+              "item": "bountifulbaubles:shield_ankh"
+            }
+          }
+        },
+        "effects": {
+          "champions:paralysis": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wearing_ring_of_free_action",
+      "wearing_ankh_charm",
+      "wearing_ankh_shield",
+      "holding_ankh_shiekd"
+    ]
+  ],
+  "rewards": {
+    "function": "rad_recipes:remove_paralyze"
+  }
+}

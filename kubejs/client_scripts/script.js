@@ -380,6 +380,13 @@ onEvent('item.tooltip', tooltip => {
         ['upgradednetherite:corrupt_upgraded_netherite_crossbow']
     ]
 
+	// Only affects tooltip, actual immunity function is in radrecipes:advancements/paralyze_immunity
+    let paralysis_immunity = [
+        ['bountifulbaubles:ring_free_action'],
+        ['bountifulbaubles:ankh_charm'],
+        ['bountifulbaubles:shield_ankh']
+    ]
+
   tooltip.addAdvanced(standard_arrows, (item, advanced, text) => {
 	text.add(1,Text.translate('tooltip.spartanweaponry.modifiers.projectile.base_damage').darkAqua().append(Text.of('2.0').gray()) )
 	text.add(2,Text.translate('tooltip.spartanweaponry.modifiers.projectile.range').darkAqua().append(Text.of('x1.0').gray()) )  
@@ -453,6 +460,10 @@ onEvent('item.tooltip', tooltip => {
   tooltip.addAdvanced(netheritecrossbows, (item, advanced, text) => {
 	text.add(1,Text.of('Sets ').aqua().append(Text.of('Range').darkAqua().append(Text.of(' of shot arrows to ').aqua().append(Text.of('x1.5').gray()))) )
   }) 
+
+  tooltip.addAdvanced(paralysis_immunity, (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.rad2.paralysis_immunity').blue())
+  })
 
 //phantasmal arrow intentionally not added here
 
