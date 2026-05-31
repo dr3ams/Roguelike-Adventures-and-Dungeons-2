@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BSB",
+    "SBS",
+    "BSB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stone_bricks"
+    },
+    "S": {
+      "tag": "forge:storage_blocks/lightning_dragon_scale"
+    }
+  },
+  "result": {
+    "item": "iceandfire:dragonforge_lightning_brick",
+    "count": 5
+  }
+}
