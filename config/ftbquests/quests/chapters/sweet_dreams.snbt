@@ -73,18 +73,15 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "0F52FEAC533DEA1F"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
 		}
 		{
 			title: "Sweetest Dreams"
-			icon: {
-				id: "good_nights_sleep:luxurious_bed"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "good_nights_sleep:luxurious_bed"
 			x: 0.5d
 			y: 0.0d
 			shape: "rsquare"
@@ -96,59 +93,56 @@
 			]
 			dependencies: ["7CD8E2889CDD0041"]
 			hide: false
-			secret: true
 			id: "7708C151E2F0FAA4"
 			tasks: [{
 				id: "77B1F2A00BE4D9C9"
 				type: "dimension"
-				dimension: "good_nights_sleep:nightmare"
+				dimension: "good_nights_sleep:good_dream"
+			}]
+			rewards: [{
+				id: "29C551097F7E07B1"
+				type: "ftbmoney:money"
+				ftb_money: 10L
 			}]
 		}
 		{
 			title: "Bad Dreams"
-			icon: {
-				id: "good_nights_sleep:wretched_bed"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "good_nights_sleep:wretched_bed"
 			x: 0.5d
 			y: 2.0d
 			shape: "rsquare"
 			subtitle: "This is going to be a terrible night"
 			description: [
-				"Looks like someone slept on the wrong side of the bed"
+				"Looks like someone slept on the wrong side of the bed."
 				""
 				"What a terrible nightmare to be in on the bright side maybe you can find something useful."
 			]
 			dependencies: ["7CD8E2889CDD0041"]
 			hide: false
-			secret: true
 			id: "337E0BFFABCBEFA1"
 			tasks: [{
 				id: "5960A1FB331BB9F0"
 				type: "dimension"
-				dimension: "good_nights_sleep:good_dream"
+				dimension: "good_nights_sleep:nightmare"
+			}]
+			rewards: [{
+				id: "66D045F71F71915E"
+				type: "ftbmoney:money"
+				ftb_money: 10L
 			}]
 		}
 		{
-			icon: {
-				id: "good_nights_sleep:positite_gem"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "good_nights_sleep:positite_gem"
 			x: 2.0d
 			y: 0.5d
 			shape: "rsquare"
+			description: [
+				"The Luxurious Bed is guaranteed to grant good dreams."
+				""
+				"You know who else is a good dreams? The modpack creator!"
+				"&o&7Sorry that sounded cringy didn't it."
+			]
 			dependencies: ["7708C151E2F0FAA4"]
-			secret: true
 			id: "40AA71B8B95FAC98"
 			tasks: [
 				{
@@ -194,22 +188,23 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "76C19CB565118959"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
 		}
 		{
-			icon: {
-				id: "good_nights_sleep:negatite_gem"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "good_nights_sleep:negatite_gem"
 			x: 2.0d
 			y: 1.5d
 			shape: "rsquare"
+			description: [
+				"The wretched bed will be sure to bestow bad dreams."
+				""
+				"You know who else... okay i'll stop."
+			]
 			dependencies: ["337E0BFFABCBEFA1"]
-			secret: true
 			id: "3820F4EF979E7256"
 			tasks: [
 				{
@@ -246,6 +241,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "2CB889D8AF7B96AD"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
 		}
 		{
 			x: 2.0d
