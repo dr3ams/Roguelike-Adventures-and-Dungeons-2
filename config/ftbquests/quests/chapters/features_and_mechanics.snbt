@@ -157,7 +157,7 @@
 			y: -2.5d
 			subtitle: "Dodge through mobs with the elenai dodge mod!"
 			description: [
-				"&6By tapping left alt while moving you can dash through projectiles and enemies without getting hurt."
+				"&6Tap left alt while moving to dash through projectiles and enemies without getting hurt."
 				""
 				"&6Dodge can be useful even out of combat to negate the speed penalty of eating or using items like bows."
 				""
@@ -571,8 +571,6 @@
 			y: -2.0d
 			description: [
 				"&6Trinkets and Curios are passive items that improve the player when worn in special slots."
-				""
-				""
 				""
 				"&a<More in depth details below>"
 				""
@@ -1266,7 +1264,7 @@
 			y: -1.5d
 			subtitle: "Scale up to 3-high walls with the wall jump mod!"
 			description: [
-				"&6Hold sneak against a wall to hang onto it, then press jump again for some extra vertical mobility."
+				"&6Press jump while walking against a wall to climb short ledges."
 				""
 				""
 				""
@@ -1274,13 +1272,12 @@
 				""
 				""
 				""
-				"Jump onto a wall and hold the wall jump key on a wall (default Shift) will allow you to \"cling\" onto the wall for a short time."
+				"Jump onto a wall and hold the wall jump key on a wall (default Space) to \"cling\" onto the wall for a short time."
 				""
 				"You can't hold on forever though as you will slowly slide down from the wall."
 				""
-				"Releasing the wall jump key will cause you to jump off the wall giving you extra vertical height."
+				"Releasing the wall jump key while still holding a movement key will cause you to jump off the wall in that direction giving you extra vertical height."
 				""
-				"If you find sneaking to wall jump too difficult you can try rebinding the wall-jump jey to the same as your jump keybind instead."
 			]
 			dependencies: ["0E5AE2A43020AFC3"]
 			id: "0617314E10C6AEF9"
@@ -1962,11 +1959,25 @@
 			y: -2.0d
 			subtitle: "Dig it all at once!"
 			description: [
-				"Excavating lets you break a whole tree or an entire ore vein at once. It is a huge time saver so using it is recommended."
+				"&6Hold &3`&6 with an item in hand to mine multiple logs or ores at once."
 				""
-				"&6While holding a tool or item &o(even the quest book!)&r&6 Simply hold &3Left Shift&6 while breaking an ore or log."
 				""
-				"You may change this by rebinding the &3\"Excavate\"&r keybind in the options menu."
+				""
+				""
+				"&aRead below if it doesn't work:&r"
+				""
+				""
+				""
+				""
+				"You cannot excavate with an empty hand, nor when your hunger bar is completely empty."
+				""
+				"The &3`&r key is &lNOT&r the &3'&r apostrophe key. &3`&r is located below the escape key and is shared with the &3~&r key."
+				""
+				"You may rebind this key by looking for \"&6Excavate&r\" in the control settings. If you installed during an older version of the pack this may be set to &3Shift&r."
+				""
+				"You must be holding this key when the block breaking animation finishes to excavate rather than when it starts."
+				""
+				"Only ores and logs can be excavated this way."
 			]
 			dependencies: ["7FF57EE6F8F6FC1C"]
 			id: "143E7EB383FC8A60"

@@ -1740,29 +1740,17 @@
 			]
 		}
 		{
+			title: "Basic Archery"
 			x: 12.5d
 			y: 1.0d
-			description: ["The vanilla bow is needed to level up archery, which allows you to use better bows."]
+			description: ["The vanilla bow or crossbow is needed to level up archery, which allows you to use better bows."]
 			dependencies: ["5F7DCF112F9F6C1C"]
 			id: "7B627325BF285247"
 			tasks: [{
-				id: "69B7213478415C4D"
-				type: "item"
-				item: {
-					id: "minecraft:bow"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_gear:bow": {
-							lastFiredTime: 0L
-							fuseShotCounter: 0
-							crossbowChargeTime: 0
-							bowChargeTime: 0.0f
-						}
-					}
-				}
+				id: "6E39A0A5A2F16D20"
+				type: "advancement"
+				advancement: "minecraft:adventure/shoot_arrow"
+				criterion: ""
 			}]
 			rewards: [
 				{
@@ -3020,7 +3008,7 @@
 			description: [
 				"Players earns knowledge points each time they use a grave's soul to enchant an item, when they free a soul from a receptacle, by praying near a decorative grave with a special item called Ankh of Pray (with a cooldown of 6 in-game hours), or by accomplishing the tombstone advancements."
 				""
-				"These points allow you to unlock some perks in a special gui \"&3Knowledge of Death&r\" (the keybind in \"misc\" is not defined by default)."
+				"These points allow you to unlock some perks in a special gui \"&3Knowledge of Death&r\". By default this can be opened with &3\\\\ &r (backslash)"
 				""
 				"The perks are small bonus related to all the features of tombstone, instead of providing them by default."
 			]
