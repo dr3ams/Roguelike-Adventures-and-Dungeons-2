@@ -977,5 +977,198 @@
 				player_command: false
 			}]
 		}
+		{
+			title: "Horse Armor Improvements"
+			x: -5.0d
+			y: -2.5d
+			subtitle: "Only the neighsayers say horses are bad"
+			description: [
+				"&6Horse Armor has been improved to provide your horse some extra utility in and outside of combat."
+				""
+				""
+				"&a<More in depth details below>"
+				""
+				""
+				"Each tier of horse armor grants &eextra armor&r and varying amounts of &ebonus speed&r and &ejump height&r."
+				""
+				"Horse Armor can also be &5Enchanted&r with many of the same enchantments you can equip like &dProtection&r and &dFeather Falling&r."
+				""
+				"You can also find new enchantments for your horse like &dPegasus Soul&r which gives your horse the toggle ability to ignore gravity."
+				""
+				"&7If you are playing on a server, there is a known bug where you have to join a singleplayer first to see modified attributes/durability but it will still work correctly. This is why armor can show negative durability."
+			]
+			id: "201904BEEE892CBC"
+			tasks: [
+				{
+					id: "54D64E7255621431"
+					type: "item"
+					item: {
+						id: "minecraft:leather_horse_armor"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5553DF21BE365BBD"
+					type: "item"
+					item: {
+						id: "minecraft:iron_horse_armor"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "48C8FF94554E145D"
+					type: "item"
+					item: {
+						id: "minecraft:golden_horse_armor"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3F0A93A46B6501AD"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_horse_armor"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5F5869863646A7ED"
+					type: "item"
+					item: {
+						id: "farmersdelight:horse_feed"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "4B8E5D635BFA6EEE"
+					type: "item"
+					item: {
+						id: "majruszs_difficulty:golden_bandage"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "59880160F6DC128F"
+					type: "item"
+					item: {
+						id: "relics:horse_flute"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			subtitle: "The best one for a loyal steed"
+			description: [
+				"&aNetherite Horse Armor&r is not only as strong as your &aNetherite Armor&r, but also grants an impressive &e+80% speed boost&r to ensure your horse is the fastest in the land."
+				""
+				"Not only that you can &eupgrade&r this armor with more netherite."
+				""
+				"Want to be even faster? Get &aCorrupterite Horse Armor&r."
+				""
+				"Want to turn your horse into a super submarine? Forge some &aPrismarite Horse Armor&r."
+				""
+				"Or maybe you want your horse to leap mountains without breaking a leg, try &aPhanterite Horse Armor&r!"
+			]
+			dependencies: ["201904BEEE892CBC"]
+			id: "253B123000D7FE61"
+			tasks: [{
+				id: "7498F675593B8915"
+				type: "item"
+				item: {
+					id: "upgradednetherite:netherite_horse_armor"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "58CF0410A48418AB"
+					type: "item"
+					item: {
+						id: "farmersdelight:horse_feed"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "21DB2DCA12C3DF38"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "3A8441C0C8548972"
+					type: "xp"
+					xp: 900
+				}
+				{
+					id: "1B37EFF70E1388E0"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
 	]
 }

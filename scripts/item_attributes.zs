@@ -207,29 +207,35 @@ import crafttweaker.api.util.text.MCTextComponent;
 <item:twilightforest:lifedrain_scepter>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:magic_damage_multiplier>, "284f72cf-cc18-46f4-8035-b2de099a8e9f", "Magic Boost", 1.0, ADDITION, [<equipmentslottype:offhand>]);
 
 //buffs to horse armors
+<item:minecraft:leather_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Extra Armor", 7, ADDITION, [<equipmentslottype:chest>]);
 <item:minecraft:leather_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Speed Boost", 0.4, MULTIPLY_BASE, [<equipmentslottype:chest>]);
 
+<item:minecraft:iron_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Extra Armor", 15, ADDITION, [<equipmentslottype:chest>]);
 <item:minecraft:iron_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Speed Boost", 0.3, MULTIPLY_BASE, [<equipmentslottype:chest>]);
 <item:minecraft:iron_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:horse.jump_strength>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Jump", 0.3, MULTIPLY_BASE, [<equipmentslottype:chest>]);
 
+<item:minecraft:golden_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Extra Armor", 11, ADDITION, [<equipmentslottype:chest>]);
 <item:minecraft:golden_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Health Bonus", 16, ADDITION, [<equipmentslottype:chest>]);
 <item:minecraft:golden_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Speed Boost", 0.2, MULTIPLY_BASE, [<equipmentslottype:chest>]);
 <item:minecraft:golden_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:horse.jump_strength>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Jump", 0.55, MULTIPLY_BASE, [<equipmentslottype:chest>]);
 
+<item:minecraft:diamond_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Extra Armor", 20, ADDITION, [<equipmentslottype:chest>]);
 <item:minecraft:diamond_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 12, ADDITION, [<equipmentslottype:chest>]);
 <item:minecraft:diamond_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Speed Boost", 0.5, MULTIPLY_BASE, [<equipmentslottype:chest>]);
 <item:minecraft:diamond_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:horse.jump_strength>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Jump", 0.4, MULTIPLY_BASE, [<equipmentslottype:chest>]);
 
-<item:upgradednetherite:netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Speed Boost", 0.75, MULTIPLY_BASE, [<equipmentslottype:chest>]);
+<item:upgradednetherite:netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Speed Boost", 0.8, MULTIPLY_BASE, [<equipmentslottype:chest>]);
 <item:upgradednetherite:netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:horse.jump_strength>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Jump", 0.5, MULTIPLY_BASE, [<equipmentslottype:chest>]);
 <item:upgradednetherite:netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Health Bonus", 30, ADDITION, [<equipmentslottype:chest>]);
+<item:upgradednetherite:netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Extra Armor", 20, ADDITION, [<equipmentslottype:chest>]);
 <item:upgradednetherite:netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 20, ADDITION, [<equipmentslottype:chest>]);
 <item:upgradednetherite:netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, "a4b21eca-d3ca-3ecd-72a7-b2a5dbb53dc7", "Horse Knockback Resistance", 0.8, ADDITION, [<equipmentslottype:chest>]);
 
-<item:upgradednetherite:water_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:forge:swim_speed>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Swim", 1.5, ADDITION, [<equipmentslottype:chest>]);
+<item:upgradednetherite:water_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:forge:swim_speed>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Swim", 1.75, ADDITION, [<equipmentslottype:chest>]);
 <item:upgradednetherite:phantom_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Slowfall", -0.6, MULTIPLY_BASE, [<equipmentslottype:chest>]);
 
-<item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 18, ADDITION, [<equipmentslottype:chest>]);
+<item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Extra Armor", 20, ADDITION, [<equipmentslottype:chest>]);
+<item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 20, ADDITION, [<equipmentslottype:chest>]);
 <item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:horse.jump_strength>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Corrupted Horse Jump", 1.4, MULTIPLY_BASE, [<equipmentslottype:chest>]);
 <item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, "a4b21eca-d3ca-3ecd-72a7-b2a5dbb53dc7", "Horse Knockback Resistance", 0.8, ADDITION, [<equipmentslottype:chest>]);
 <item:upgradednetherite:corrupt_upgraded_netherite_horse_armor>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, "4108792f-c8be-47c8-b56b-2255269bde53", "Corrupted Horse Armor HP Reduction", -0.1, MULTIPLY_TOTAL, [<equipmentslottype:chest>]);
@@ -239,11 +245,12 @@ import crafttweaker.api.util.text.MCTextComponent;
 for allItems in game.items {
 
 	    if (allItems.getDefinition().isIn(<tag:items:upgradednetherite:upgraded_netherite_horse_armor>) ) {
-		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Speed Boost", 0.75, MULTIPLY_BASE, [<equipmentslottype:chest>]);
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Speed Boost", 0.8, MULTIPLY_BASE, [<equipmentslottype:chest>]);
 		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:horse.jump_strength>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Jump", 0.5, MULTIPLY_BASE, [<equipmentslottype:chest>]);
-		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Health Bonus", 20, ADDITION, [<equipmentslottype:chest>]);
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Health Bonus", 30, ADDITION, [<equipmentslottype:chest>]);
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Extra Armor", 20, ADDITION, [<equipmentslottype:chest>]);
 		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 20, ADDITION, [<equipmentslottype:chest>]);
-		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, "a4b21eca-d3ca-3ecd-72a7-b2a5dbb53dc7", "Horse Knockback Resistance", 0.4, ADDITION, [<equipmentslottype:chest>]);
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, "a4b21eca-d3ca-3ecd-72a7-b2a5dbb53dc7", "Horse Knockback Resistance", 0.8, ADDITION, [<equipmentslottype:chest>]);
 	    }
 
 	    if (allItems.getDefinition().isIn(<tag:items:radrecipes:has_durability_boost>) ) {
