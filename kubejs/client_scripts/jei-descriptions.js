@@ -94,6 +94,7 @@ event.add('feywild:greater_fey_gem', ["The second tier of fey gems can be obtain
 event.add('feywild:shiny_fey_gem', ["The third tier of fey gems is used in the dwarven market to buy very valuable items. Obtaining it will require great trust from a summoned dwarf blacksmith."])
 event.add('feywild:brilliant_fey_gem', ["The fourth and final tier of fey gems is used in the dwarven market to buy extremely valuable items."])
 event.add('simplefarming:beer', ["Can be created in the Brewing Barrel. See the Fishing and Foraging quest chapter for more info."])
+event.add('relics:arrow_quiver', ["Explosive Arrow does not damage blocks. Activate by holding Left Alt + the Cast first ability key (or second-fifth if you have multiple ability relics). When active your next bow shot has reduced draw speed and the arrow will deal significantly more damage. Explosive Arrow does not work with the vanilla bow in this pack due to a bug."])
 
 
 event.add('waystones:waystone', ["This item can be bought in the shop"])

@@ -5,10 +5,10 @@ ascendingWinds = true
 #  [block ID]   (Matches all state of the block)
 #  [block ID]#[property1=value],[property2=value],[property3=value]   (Matches state of the block that has specified properties)
 #Same property cannot be specified multiple times. Wind sources with any invalid part will be excluded.
-windSources = ["fire", "soul_fire", "campfire#lit=true", "soul_campfire#lit=true"]
+windSources = ["fire", "soul_fire", "campfire#lit=true", "soul_campfire#lit=true","endergetic:ender_fire","byg:cryptic_fire","byg:boric_fire","infernalexp:glow_fire","endergetic:ender_campfire#lit=true","byg:cryptic_campfire#lit=true","byg:boric_campfire#lit=true","infernalexp:glow_campfire#lit=true","blue_skies:blue_fire","blue_skies:black_fire","supplementaries:bellows#facing=up,power=15"]
 #Horizontal movement speed while paragliding.
 #Range: 0.2 ~ 10.0
-paraglidingSpeed = 1.0
+paraglidingSpeed = 1.2
 #Durability of Paragliders. Set to zero to disable durability.
 #Range: > 0
 paragliderDurability = 0
