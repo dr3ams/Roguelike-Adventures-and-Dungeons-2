@@ -241,10 +241,10 @@
 			mushroomMinesGenerates = true
 			#Maximum separation between Mushroom Mines (in chunks).
 			#Range: 0 ~ 1000000
-			mushroomMinesSpacing = 80
+			mushroomMinesSpacing = 75
 			#Minimum spacing between Mushroom Mines (in chunks).
 			#Range: 0 ~ 1000000
-			mushroomMinesSeparation = 30
+			mushroomMinesSeparation = 25
 			#Number of Jigsaw iterations when generating a Mushroom Mine.
 			#Range: 0 ~ 1000000
 			mushroomMinesSize = 100
@@ -252,7 +252,7 @@
 			mushroomMinesTransformsTerrain = true
 			#The point in which Mushroom Mines will start spawning. This is based around X = 0, Z = 0.
 			#Range: 0 ~ 1000000
-			mushroomMinesSpawnpointSeparation = 800
+			mushroomMinesSpawnpointSeparation = 750
 			#Whether cartographer villagers generate maps for Mushroom Mines or not.
 			mushroomMinesMapTrades = true
 
@@ -363,10 +363,10 @@
 			coliseumGenerates = true
 			#Maximum separation between Coliseums (in chunks).
 			#Range: 0 ~ 1000000
-			coliseumSpacing = 650
+			coliseumSpacing = 600
 			#Minimum spacing between Coliseums (in chunks).
 			#Range: 0 ~ 1000000
-			coliseumSeparation = 350
+			coliseumSeparation = 275
 			#Number of Jigsaw iterations when generating a Coliseum.
 			#Range: 0 ~ 1000000
 			coliseumSize = 10
@@ -374,7 +374,7 @@
 			coliseumTransformsTerrain = true
 			#The point in which Coliseums will start spawning. This is based around X = 0, Z = 0.
 			#Range: 0 ~ 1000000
-			coliseumSpawnpointSeparation = 1000
+			coliseumSpawnpointSeparation = 950
 			#Whether cartographer villagers generate maps for Coliseums or not.
 			coliseumMapTrades = true
 

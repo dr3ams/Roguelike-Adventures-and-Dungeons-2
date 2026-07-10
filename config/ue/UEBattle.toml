@@ -131,7 +131,7 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = ["enigmaticlegacy:the_twist", "blue_skies:venom_sac", "alexsmobs:blood_sprayer", "alexsmobs:hemolymph_blaster", "spartanweaponry:throwing_knife_wood", "spartanweaponry:throwing_knife_stone", "spartanweaponry:throwing_knife_iron", "spartanweaponry:throwing_knife_gold", "spartanweaponry:throwing_knife_diamond", "spartanweaponry:throwing_knife_netherite", "spartanweaponry:throwing_knife_copper", "spartanweaponry:throwing_knife_tin", "spartanweaponry:throwing_knife_silver", "spartanweaponry:throwing_knife_lead", "spartantwilight:throwing_knife_ironwood", "spartantwilight:throwing_knife_fiery", "spartantwilight:throwing_knife_steeleaf", "spartantwilight:throwing_knife_knightly", "spartanweaponry:tomahawk_wood", "spartanweaponry:tomahawk_stone", "spartanweaponry:tomahawk_iron", "spartanweaponry:tomahawk_gold", "spartanweaponry:tomahawk_diamond", "spartanweaponry:tomahawk_netherite", "spartanweaponry:tomahawk_copper", "spartanweaponry:tomahawk_tin", "spartanweaponry:tomahawk_silver", "spartanweaponry:tomahawk_lead", "spartantwilight:tomahawk_ironwood", "spartantwilight:tomahawk_fiery", "spartantwilight:tomahawk_steeleaf", "spartantwilight:tomahawk_knightly", "spartanweaponry:javelin_wood", "spartanweaponry:javelin_stone", "spartanweaponry:javelin_iron", "spartanweaponry:javelin_gold", "spartanweaponry:javelin_diamond", "spartanweaponry:javelin_netherite", "spartanweaponry:javelin_copper", "spartanweaponry:javelin_tin", "spartanweaponry:javelin_silver", "spartanweaponry:javelin_lead", "spartantwilight:javelin_ironwood", "spartantwilight:javelin_fiery", "spartantwilight:javelin_steeleaf", "spartantwilight:javelin_knightly", "spartanweaponry:boomerang_wood", "spartanweaponry:boomerang_stone", "spartanweaponry:boomerang_iron", "spartanweaponry:boomerang_gold", "spartanweaponry:boomerang_diamond", "spartanweaponry:boomerang_netherite", "spartanweaponry:boomerang_copper", "spartanweaponry:boomerang_tin", "spartanweaponry:boomerang_silver", "spartanweaponry:boomerang_lead", "spartantwilight:boomerang_ironwood", "spartantwilight:boomerang_fiery", "spartantwilight:boomerang_steeleaf", "spartantwilight:boomerang_knightly", "twilightforest:twilight_scepter", "twilightforest:lifedrain_scepter"]
+			compatible_items = ["enigmaticlegacy:the_twist", "blue_skies:venom_sac", "alexsmobs:blood_sprayer", "alexsmobs:hemolymph_blaster", "spartanweaponry:throwing_knife_wood", "spartanweaponry:throwing_knife_stone", "spartanweaponry:throwing_knife_iron", "spartanweaponry:throwing_knife_gold", "spartanweaponry:throwing_knife_diamond", "spartanweaponry:throwing_knife_netherite", "spartanweaponry:throwing_knife_copper", "spartanweaponry:throwing_knife_tin", "spartanweaponry:throwing_knife_silver", "spartanweaponry:throwing_knife_lead", "spartantwilight:throwing_knife_ironwood", "spartantwilight:throwing_knife_fiery", "spartantwilight:throwing_knife_steeleaf", "spartantwilight:throwing_knife_knightly", "spartanweaponry:tomahawk_wood", "spartanweaponry:tomahawk_stone", "spartanweaponry:tomahawk_iron", "spartanweaponry:tomahawk_gold", "spartanweaponry:tomahawk_diamond", "spartanweaponry:tomahawk_netherite", "spartanweaponry:tomahawk_copper", "spartanweaponry:tomahawk_tin", "spartanweaponry:tomahawk_silver", "spartanweaponry:tomahawk_lead", "spartantwilight:tomahawk_ironwood", "spartantwilight:tomahawk_fiery", "spartantwilight:tomahawk_steeleaf", "spartantwilight:tomahawk_knightly", "spartanweaponry:javelin_wood", "spartanweaponry:javelin_stone", "spartanweaponry:javelin_iron", "spartanweaponry:javelin_gold", "spartanweaponry:javelin_diamond", "spartanweaponry:javelin_netherite", "spartanweaponry:javelin_copper", "spartanweaponry:javelin_tin", "spartanweaponry:javelin_silver", "spartanweaponry:javelin_lead", "spartantwilight:javelin_ironwood", "spartantwilight:javelin_fiery", "spartantwilight:javelin_steeleaf", "spartantwilight:javelin_knightly", "spartanweaponry:boomerang_wood", "spartanweaponry:boomerang_stone", "spartanweaponry:boomerang_iron", "spartanweaponry:boomerang_gold", "spartanweaponry:boomerang_diamond", "spartanweaponry:boomerang_netherite", "spartanweaponry:boomerang_copper", "spartanweaponry:boomerang_tin", "spartanweaponry:boomerang_silver", "spartanweaponry:boomerang_lead", "spartantwilight:boomerang_ironwood", "spartantwilight:boomerang_fiery", "spartantwilight:boomerang_steeleaf", "spartantwilight:boomerang_knightly", "twilightforest:twilight_scepter", "twilightforest:lifedrain_scepter","ars_nouveau:caster_tome","ars_nouveau:novice_spell_book","ars_nouveau:apprentice_spell_book","ars_nouveau:archmage_spell_book"]
 			#Range: 0.0 ~ 1.7976931348623157E308
 			bonus_damage_base = 0.2
 			#Range: 0.0 ~ 1.7976931348623157E308
@@ -275,7 +275,7 @@
 			#Range: 0.0 ~ 1.7976931348623157E308
 			damage = 1.0
 			#Range: 0.0 ~ 1.7976931348623157E308
-			durability = 1.0
+			durability = 0.75
 
 		[general.battle.granis_soul]
 			#If the Enchantment is Obtainable
@@ -472,9 +472,9 @@
 
 		[general.base.fury]
 			#If the Enchantment is Obtainable
-			enabled = false
+			enabled = true
 			#If the Enchantment has any effect
-			activated = false
+			activated = true
 			#Minimum Enchantment Level
 			#Range: > 0
 			min_level = 1
@@ -493,7 +493,7 @@
 			base_cost = 20
 			#Increase of levels per Enchantment Level
 			#Range: > 0
-			per_level_cost = 4
+			per_level_cost = 6
 			#The Additional Upper Range of Required Levels
 			#Range: > 0
 			cost_limit = 50
@@ -505,13 +505,13 @@
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items
-			compatible_items = []
+			compatible_items = ["enigmaticlegacy:forbidden_axe", "spartanweaponry:battleaxe_wood", "spartanweaponry:battleaxe_stone", "spartanweaponry:battleaxe_iron", "spartanweaponry:battleaxe_gold", "spartanweaponry:battleaxe_diamond", "spartanweaponry:battleaxe_netherite", "spartanweaponry:battleaxe_copper", "spartanweaponry:battleaxe_tin", "spartanweaponry:battleaxe_silver", "spartanweaponry:battleaxe_lead", "spartantwilight:battleaxe_ironwood", "spartantwilight:battleaxe_fiery", "spartantwilight:battleaxe_steeleaf", "spartantwilight:battleaxe_knightly"]
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_speed_scale = 1.0
+			attack_speed_scale = 0.0025
 			#Range: 0.0 ~ 1.7976931348623157E308
-			drop_chance_base = 0.01
+			drop_chance_base = 0.00001
 			#Range: 0.0 ~ 1.7976931348623157E308
-			drop_chance_level = 0.03
+			drop_chance_level = 0.00001
 
 		[general.base.streakers_will]
 			#If the Enchantment is Obtainable

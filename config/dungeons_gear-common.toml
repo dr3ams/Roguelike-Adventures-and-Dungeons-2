@@ -34,7 +34,7 @@
 	enableSalvaging = true
 	#Add enchantments that should be prevented from being applied to any gear. 
 	#To do so, enter their registry names.
-	enchantmentBlacklist = ["dungeons_gear:melee_aura", "dungeons_gear:gravity_pulse", "dungeons_gear:life_boost", "dungeons_gear:freezing_shot", "dungeons_gear:gale_shot", "dungeons_gear:illagers_bane"]
+	enchantmentBlacklist = ["dungeons_gear:melee_aura", "dungeons_gear:gravity_pulse", "dungeons_gear:life_boost", "dungeons_gear:freezing_shot", "dungeons_gear:gale_shot", "dungeons_gear:illagers_bane", "dungeons_gear:beehive"]
 	#Add enchantments that should be designated as treasure-only. 
 	#To do so, enter their registry names.
 	treasureOnlyEnchantments = []
@@ -257,7 +257,7 @@
 	explodingMultiplierPerLevel = 0.2
 	#The chance for Poison Cloud to trigger [-5.0-5.0, default: 0.3]
 	#Range: -5.0 ~ 5.0
-	prospectorChancePerLevel = 0.005
+	prospectorChancePerLevel = 0.15
 	#The chance per level for dodge to trigger [-5.0-5.0, default: 0.25]
 	#Range: -5.0 ~ 5.0
 	dodgeChancePerLevel = 0.01
