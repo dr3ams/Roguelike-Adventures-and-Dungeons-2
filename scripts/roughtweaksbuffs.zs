@@ -1,3 +1,5 @@
+#priority 11
+
 import crafttweaker.api.events.CTEventManager;
 import crafttweaker.api.player.MCPlayerEntity;
 import crafttweaker.api.event.entity.living.MCLivingEntityUseItemEvent;
@@ -5,9 +7,7 @@ import crafttweaker.api.potion.MCPotionEffectInstance;
 import crafttweaker.api.potion.MCPotionEffect;
 import crafttweaker.api.util.text.MCTextComponent;
 
-<item:roughtweaks:bandage>.anyDamage().addTooltip(MCTextComponent.createTranslationTextComponent("tooltip.rad2.nobleed" as string).setStyle(<formatting:green>));
-<item:roughtweaks:medkit>.anyDamage().addTooltip(MCTextComponent.createTranslationTextComponent("tooltip.rad2.nobleedmedkit" as string).setStyle(<formatting:green>));
-<item:roughtweaks:medkit_enchanted>.anyDamage().addTooltip(MCTextComponent.createTranslationTextComponent("tooltip.rad2.nobleedmedkitstrong" as string).setStyle(<formatting:green>));
+// "removes bleeding" tooltips were moved to kubejs client scripts to fix the tooltip not appearing in multiplayer
 
 CTEventManager.register<crafttweaker.api.event.entity.living.MCLivingEntityUseItemEvent>((event) => {
     if event.entity.world.isRemote() return;

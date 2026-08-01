@@ -1,3 +1,5 @@
+#priority 9
+
 <item:minecraft:saddle>.setMaxStackSize(16);
 <item:minecraft:enchanted_book>.setMaxStackSize(64);
 <item:minecraft:potion>.setMaxStackSize(16);
@@ -23,10 +25,8 @@ for allItems in game.items {
     if ("music_disc" in (allItems.registryName as string)){
         allItems.setMaxStackSize(16);
     }
-    if ("simplefarming:" in (allItems.registryName as string)){
-    if ("_soup" in (allItems.registryName as string)){
+    if (allItems.getDefinition().isIn(<tag:items:radrecipes:extra_stackable_bowls>)) {
         allItems.setMaxStackSize(16);
-	}
     }
 }
 

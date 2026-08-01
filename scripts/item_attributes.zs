@@ -1,3 +1,5 @@
+#priority 11
+
 import crafttweaker.api.item.MCIngredientConditioned;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.util.text.MCTextComponent;

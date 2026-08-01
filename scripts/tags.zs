@@ -1,4 +1,4 @@
-#priority 11
+#priority 25
 import crafttweaker.api.food.MCFood;
 
 <tag:blocks:twilightforest:portal/edge>.add(<block:byg:meadow_grass_block>);
@@ -59,12 +59,6 @@ for item in game.items {
     <item:undergarden:indigo_stew>,
     <item:undergarden:veiled_stew>
 );
-//this tag doesn't work when its in stacksize.zs so its here instead
-for allItems in game.items {
-    if (allItems.getDefinition().isIn(<tag:items:radrecipes:extra_stackable_bowls>)) {
-        allItems.setMaxStackSize(16);
-    }
-}
 
 <tag:items:radrecipes:dragonscale_helmets>.add(
     <item:iceandfire:armor_red_helmet>,
