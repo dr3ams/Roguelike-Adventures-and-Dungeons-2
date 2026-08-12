@@ -280,7 +280,11 @@ event.hide('spawnermod:spawner_key')
 
 event.hide('apotheosis:iron_mining_arrow')
 event.hide('apotheosis:diamond_mining_arrow')
+
 event.hide('relics:magic_mirror')
+event.hide('relics:common_scrap')
+event.hide('relics:uncommon_scrap')
+event.hide('relics:rare_scrap')
 
 event.hide('rats:rat_upgrade_voodoo')
 
@@ -465,16 +469,28 @@ onEvent('item.tooltip', tooltip => {
 	text.add(1,Text.translate('tooltip.rad2.paralysis_immunity').blue())
   })
 
-  tooltip.addAdvanced('roughtweaks:bandage', (item, advanced, text) => {
-	text.add(1,Text.translate('tooltip.rad2.nobleed').green())
+  tooltip.addAdvanced('atum:linen_bandage', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.rad2.infinite_use').green())
+	text.add(2,Text.translate('tooltip.rad2.use_time').blue().append(Text.of(' 4 Seconds').gray()) )
+	text.add(3,Text.translate('tooltip.rad2.heal_amount').blue().append(Text.of(' 5 Hearts').gray()) )  
   })
 
-  tooltip.addAdvanced('roughtweaks:medkit', (item, advanced, text) => {
-	text.add(1,Text.translate('tooltip.rad2.nobleedmedkit').green())
+  tooltip.addAdvanced('twilightforest:triple_bow', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.rad2.no_i_frames').green())
   })
 
-  tooltip.addAdvanced('roughtweaks:medkit_enchanted', (item, advanced, text) => {
-	text.add(1,Text.translate('tooltip.rad2.nobleedmedkitstrong').green())
+  tooltip.addAdvanced('relics:epic_scrap', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.rad2.universal_reforge').green())
+  })
+
+  tooltip.addAdvanced('doggytalents:doggy_charm', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.rad2.doggy_charm').green())
+	text.add(2,Text.translate('tooltip.rad2.doggy_charm_2').green())
+  })
+
+  tooltip.addAdvanced('stalwart_dungeons:awful_gun', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.rad2.awful_gun').darkGreen())
+	text.add(2,Text.translate('tooltip.rad2.awful_gun_2').blue())
   })
 
 //phantasmal arrow intentionally not added here

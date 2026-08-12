@@ -1,0 +1,1 @@
+data modify entity @s damage set value 30
