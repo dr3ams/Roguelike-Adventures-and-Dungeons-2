@@ -469,6 +469,18 @@ onEvent('item.tooltip', tooltip => {
 	text.add(1,Text.translate('tooltip.rad2.paralysis_immunity').blue())
   })
 
+  tooltip.addAdvanced('roughtweaks:bandage', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.rad2.nobleed').green())
+  })
+
+  tooltip.addAdvanced('roughtweaks:medkit', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.rad2.nobleedmedkit').green())
+  })
+
+  tooltip.addAdvanced('roughtweaks:medkit_enchanted', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.rad2.nobleedmedkitstrong').green())
+  })
+
   tooltip.addAdvanced('atum:linen_bandage', (item, advanced, text) => {
 	text.add(1,Text.translate('tooltip.rad2.infinite_use').green())
 	text.add(2,Text.translate('tooltip.rad2.use_time').blue().append(Text.of(' 4 Seconds').gray()) )
