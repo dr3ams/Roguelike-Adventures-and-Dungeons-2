@@ -131,6 +131,9 @@ import crafttweaker.api.util.text.MCTextComponent;
 //dread sword debuff
 <item:iceandfire:dread_knight_sword>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 9, ADDITION, [<equipmentslottype:mainhand>]);
 
+//lightning bone sword minor damage boost
+<item:iceandfire:dragonbone_sword_lightning>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage>, "cb3f55d3-645c-4f38-a497-9c13a33db5cf", "Weapon modifier", 9, ADDITION, [<equipmentslottype:mainhand>]);
+
 //soul weapons
 <item:atum:anubis_wrath>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
 //<item:eidolon:reaper_scythe>.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:soul_gathering>, "ab1b3a5a-0a50-401e-af73-701136dbbc2b", "soul_bonus", 1, ADDITION, [<equipmentslottype:mainhand>]);
@@ -253,6 +256,15 @@ for allItems in game.items {
 		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Extra Armor", 20, ADDITION, [<equipmentslottype:chest>]);
 		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "d3c32fdb-e4db-4fde-83b8-c3b6eaa42fb0", "Horse Armor Toughness", 20, ADDITION, [<equipmentslottype:chest>]);
 		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.knockback_resistance>, "a4b21eca-d3ca-3ecd-72a7-b2a5dbb53dc7", "Horse Knockback Resistance", 0.8, ADDITION, [<equipmentslottype:chest>]);
+	    }
+
+	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:quarterstaves>) ) {
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:dungeons_libraries:life_steal>, "f0d302a9-2efb-4ad2-b92c-ab82c5263c9d", "quarterstaff survivor trait", 0.1, ADDITION, [<equipmentslottype:mainhand>]);
+	    }
+
+	    if (allItems.getDefinition().isIn(<tag:items:spartanweaponry:parrying_daggers>) ) {
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "e458ee59-f051-4029-8682-9b201684ebed", "parry dagger deflection trait", 3, ADDITION, [<equipmentslottype:mainhand>]);
+		   allItems.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "1772498a-13b8-4c0d-8311-9d3973443839", "parry dagger deflection trait", 3, ADDITION, [<equipmentslottype:offhand>]);
 	    }
 
 	    if (allItems.getDefinition().isIn(<tag:items:radrecipes:has_durability_boost>) ) {

@@ -384,6 +384,40 @@ onEvent('item.tooltip', tooltip => {
         ['upgradednetherite:corrupt_upgraded_netherite_crossbow']
     ]
 
+    let quarterstaff = [
+        ['spartanweaponry:quarterstaff_wood'],
+        ['spartanweaponry:quarterstaff_stone'],
+        ['spartanweaponry:quarterstaff_gold'],
+        ['spartanweaponry:quarterstaff_iron'],
+        ['spartanweaponry:quarterstaff_copper'],
+        ['spartanweaponry:quarterstaff_tin'],
+        ['spartanweaponry:quarterstaff_silver'],
+        ['spartanweaponry:quarterstaff_lead'],
+        ['spartanweaponry:quarterstaff_diamond'],
+        ['spartanweaponry:quarterstaff_netherite'],
+        ['spartantwilight:quarterstaff_ironwood'],
+        ['spartantwilight:quarterstaff_steeleaf'],
+        ['spartantwilight:quarterstaff_fiery'],
+        ['spartantwilight:quarterstaff_knightly']
+    ]
+
+    let parrydaggers = [
+        ['spartanweaponry:parrying_dagger_wood'],
+        ['spartanweaponry:parrying_dagger_stone'],
+        ['spartanweaponry:parrying_dagger_gold'],
+        ['spartanweaponry:parrying_dagger_iron'],
+        ['spartanweaponry:parrying_dagger_copper'],
+        ['spartanweaponry:parrying_dagger_tin'],
+        ['spartanweaponry:parrying_dagger_silver'],
+        ['spartanweaponry:parrying_dagger_lead'],
+        ['spartanweaponry:parrying_dagger_diamond'],
+        ['spartanweaponry:parrying_dagger_netherite'],
+        ['spartantwilight:parrying_dagger_ironwood'],
+        ['spartantwilight:parrying_dagger_steeleaf'],
+        ['spartantwilight:parrying_dagger_fiery'],
+        ['spartantwilight:parrying_dagger_knightly']
+    ]
+
 	// Only affects tooltip, actual immunity function is in radrecipes:advancements/paralyze_immunity
     let paralysis_immunity = [
         ['bountifulbaubles:ring_free_action'],
@@ -503,6 +537,24 @@ onEvent('item.tooltip', tooltip => {
   tooltip.addAdvanced('stalwart_dungeons:awful_gun', (item, advanced, text) => {
 	text.add(1,Text.translate('tooltip.rad2.awful_gun').darkGreen())
 	text.add(2,Text.translate('tooltip.rad2.awful_gun_2').blue())
+  })
+
+  tooltip.addAdvanced(quarterstaff, (item, advanced, text) => {
+        if (!tooltip.shift) {
+	text.add(3,Text.translate('tooltip.rad2.quarterstaff_trait').green())
+	} else {
+	text.add(4,Text.translate('tooltip.rad2.quarterstaff_trait').green())
+	text.add(5,Text.translate('tooltip.rad2.quarterstaff_trait_2').gray().italic())
+	}
+  })
+
+  tooltip.addAdvanced(parrydaggers, (item, advanced, text) => {
+        if (!tooltip.shift) {
+	text.add(3,Text.translate('tooltip.rad2.parrying_dagger_trait').green())
+	} else {
+	text.add(4,Text.translate('tooltip.rad2.parrying_dagger_trait').green())
+	text.add(5,Text.translate('tooltip.rad2.parrying_dagger_trait_2').gray().italic())
+	}
   })
 
 //phantasmal arrow intentionally not added here

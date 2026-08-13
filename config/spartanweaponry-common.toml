@@ -82,26 +82,26 @@
 	disable = false
 	#Damage Multiplier for Clubs.
 	#Range: 0.1 ~ 10.0
-	damage_multiplier = 1.0
+	damage_multiplier = 1.5
 	#Attack speed of Clubs.
 	#Range: 0.0 ~ 4.0
-	speed = 1.2999999523162842
+	speed = 1.4
 	#Base Damage of Clubs.
 	#Range: 0.1 ~ 100.0
-	base_damage = 4.0
+	base_damage = 5.0
 
 [cestus]
 	#Disables all recipes for all Cestusae.
 	disable = false
 	#Damage Multiplier for Cestusae.
 	#Range: 0.1 ~ 10.0
-	damage_multiplier = 0.5
+	damage_multiplier = 1.5
 	#Attack speed of Cestusae.
 	#Range: 0.0 ~ 4.0
 	speed = 3.5
 	#Base Damage of Cestusae.
 	#Range: 0.1 ~ 100.0
-	base_damage = 2.0
+	base_damage = 3.0
 
 [battle_hammer]
 	#Disables all recipes for all Battle Hammers.
@@ -295,7 +295,7 @@
 	speed = 1.399999976158142
 	#Base Damage of Quarterstaves.
 	#Range: 0.1 ~ 100.0
-	base_damage = 3.0
+	base_damage = 3.5
 
 [copper]
 	#Set to true to disable copper weapons
@@ -422,7 +422,7 @@
 	[projectiles.wood_arrow]
 		#Base damage for wood arrows
 		#Range: 0.1 ~ 100.0
-		base_damage = 0.20000000298023224
+		base_damage = 0.5
 		#Range muliplier for wood arrows
 		#Range: 0.1 ~ 100.0
 		range_multiplier = 1.5
@@ -503,10 +503,10 @@
 		chest_multiplier = 2.0
 		#Changes the "Riding Damage Bonus" Weapon Trait multiplier value
 		#Range: 1.0 ~ 50.0
-		riding_multiplier = 2.5
+		riding_multiplier = 3.0
 		#Changes the "Throwing Damage Bonus" Weapon Trait multiplier value
 		#Range: 1.0 ~ 50.0
-		throw_multiplier = 2.0
+		throw_multiplier = 2.5
 		#Changes the "Chest Damage Bonus" Weapon Trait multiplier value
 		#Range: 1.0 ~ 50.0
 		throw_javelin_multiplier = 3.0
@@ -523,12 +523,12 @@
 		undead_multiplier = 1.5
 		#Changes the "Backstab Damage Bonus" Weapon Trait multiplier value
 		#Range: 1.0 ~ 50.0
-		backstab_multiplier = 4.0
+		backstab_multiplier = 6.0
 
 	[traits.damage_absorption]
 		#Changes the percentage of damage absorbed by the "Damage Absorption" Weapon Trait
 		#Range: 0.0 ~ 1.0
-		damage_absorption_factor = 0.25
+		damage_absorption_factor = 0.2
 
 	[traits.reach]
 		#Changes the reach of any weapons with the "Reach I" Weapon Trait
@@ -554,7 +554,7 @@
 	[traits.quick_strike]
 		#Tweaks the hurt resistance ticks for weapons that use the "Quick Strike" Weapon Trait
 		#Range: 10 ~ 20
-		hurt_resistance_ticks = 14
+		hurt_resistance_ticks = 10
 
 	[traits.decapitate]
 		#Tweaks the percentage of Skull drops from weapons with the "Decapitate" Weapon Trait

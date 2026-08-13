@@ -1902,19 +1902,19 @@
 		"magic": 10
 	},
 	"dungeons_gear:mercenary_helmet": {
-		"endurance": 10,
+		"endurance": 8,
 		"combat": 3
 	},
 	"dungeons_gear:mercenary_chestplate": {
-		"endurance": 10,
+		"endurance": 8,
 		"combat": 3
 	},
 	"dungeons_gear:mercenary_leggings": {
-		"endurance": 10,
+		"endurance": 8,
 		"combat": 3
 	},
 	"dungeons_gear:mercenary_boots": {
-		"endurance": 10,
+		"endurance": 8,
 		"combat": 3
 	},
 	"dungeons_gear:renegade_helmet": {
@@ -2744,11 +2744,33 @@
 		"endurance": 5
 	},
 	"buddycards:zylex_band": {
-		"flying": 5
+		"flying": 200,
+		"endurance": 200,
+		"gathering": 200
 	},
 	"buddycards:zylex_boots": {
-		"wayfaring": 20,
-		"agility": 20
+		"wayfaring": 200,
+		"agility": 200,
+		"dungeoneering": 200
+	},
+	"buddycards:zylex_medal": {
+		"agility": 100,
+		"alchemy": 100,
+		"archery": 100,
+		"combat": 100,
+		"dragonslayer": 100,
+		"dungeoneering": 100,
+		"endurance": 100,
+		"excavation": 100,
+		"farming": 100,
+		"flying": 100,
+		"fishing": 100,
+		"gathering": 100,
+		"magic": 100,
+		"mining": 100,
+		"smithing": 100,
+		"wayfaring": 100,
+		"woodcutting": 100
 	},
 	"atum:eyes_of_atem": {
 		"fishing": 10,

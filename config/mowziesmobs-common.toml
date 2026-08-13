@@ -5,14 +5,14 @@
 
 [tools_and_abilities]
 	#Range: 0.0 ~ 1.7976931348623157E308
-	geomancy_attack_multiplier = 1.0
+	geomancy_attack_multiplier = 6.0
 
 	[tools_and_abilities.suns_blessing]
 		#Duration in minutes of the Sun's Blessing effect.
 		#Range: > 0
 		suns_blessing_duration = 180
 		#Range: 0.0 ~ 1.7976931348623157E308
-		suns_blessing_attack_multiplier = 6.0
+		suns_blessing_attack_multiplier = 8.0
 		#Cost in minutes of using the solar beam ability.
 		#Range: > 0
 		solar_beam_cost = 1
@@ -51,12 +51,12 @@
 			damage_reduction = 2
 			#See official Minecraft Wiki for an explanation of how armor toughness works.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			toughness = 0.0
+			toughness = 2.0
 
 	[tools_and_abilities.ice_crystal]
 		#Multiply all damage done with the ice crystal by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_multiplier = 6.0
+		attack_multiplier = 9.0
 		#Set to true for the ice crystal to have limited durability.
 		#Prevents regeneration in inventory.
 		breakable = false
@@ -72,7 +72,7 @@
 			damage_reduction = 1
 			#See official Minecraft Wiki for an explanation of how armor toughness works.
 			#Range: 0.0 ~ 1.7976931348623157E308
-			toughness = 0.0
+			toughness = 1.0
 
 	[tools_and_abilities.barakoa_spear]
 
@@ -87,10 +87,10 @@
 	[tools_and_abilities.naga_fang_dagger]
 		#Duration in ticks of the poison effect (20 ticks = 1 second).
 		#Range: > 0
-		poison_duration = 240
+		poison_duration = 320
 		#Damage multiplier when attacking from behind
 		#Range: 0.0 ~ 1.7976931348623157E308
-		backstab_damage_mult = 4.0
+		backstab_damage_mult = 10.0
 
 		[tools_and_abilities.naga_fang_dagger.tool_config]
 			#Tool attack damage
@@ -103,29 +103,29 @@
 	[tools_and_abilities.blowgun]
 		#Duration in ticks of the poison effect (20 ticks = 1 second).
 		#Range: > 0
-		poison_duration = 200
+		poison_duration = 260
 		#Multiply all damage done with the blowgun/darts by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_damage = 6.0
+		attack_damage = 8.0
 
 	[tools_and_abilities.earthbore_gauntlet]
 		#Multiply all damage done with the Earthbore Gauntlet by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_multiplier = 1.0
+		attack_multiplier = 10.0
 		#Set to true for the Earthbore Gauntlet to have limited durability.
 		#Prevents regeneration in inventory.
 		breakable = false
 		#Earthbore Gauntlet durability
 		#Range: > 1
-		durability = 400
+		durability = 3266
 
 		[tools_and_abilities.earthbore_gauntlet.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_damage = 6.0
+			attack_damage = 33.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_speed = 1.2000000476837158
+			attack_speed = 1.3
 
 [mobs]
 
