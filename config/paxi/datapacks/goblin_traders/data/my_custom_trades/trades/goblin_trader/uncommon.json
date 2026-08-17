@@ -5,7 +5,7 @@
       "type": "goblintraders:basic",
       "offer_item": {
         "item": "minecraft:gunpowder",
-        "count": 2
+        "count": 3
       },
       "payment_item": {
         "item": "minecraft:emerald",
@@ -23,10 +23,10 @@
       },
       "payment_item": {
         "item": "projectvibrantjourneys:cattail",
-        "count": 10
+        "count": 6
       },
       "price_multiplier": 0.0,
-      "max_trades": 4,
+      "max_trades": 6,
       "experience": 10
     },
     {
@@ -37,10 +37,10 @@
       },
       "payment_item": {
         "item": "betterdefaultbiomes:tall_water_reeds",
-        "count": 12
+        "count": 8
       },
       "price_multiplier": 0.0,
-      "max_trades": 4,
+      "max_trades": 6,
       "experience": 10
     },
     {
@@ -51,10 +51,10 @@
       },
       "payment_item": {
         "item": "projectvibrantjourneys:bark_mushroom",
-        "count": 12
+        "count": 8
       },
       "price_multiplier": 0.0,
-      "max_trades": 4,
+      "max_trades": 6,
       "experience": 10
     },
     {
@@ -65,10 +65,10 @@
       },
       "payment_item": {
         "item": "projectvibrantjourneys:sea_oats",
-        "count": 12
+        "count": 8
       },
       "price_multiplier": 0.0,
-      "max_trades": 4,
+      "max_trades": 6,
       "experience": 10
     },
     {
@@ -156,24 +156,6 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:book",
-        "count": 2
-      },
-      "payment_item": {
-        "item": "minecraft:leather",
-        "count": 1
-      },
-      "secondary_payment_item": {
-        "item": "minecraft:paper",
-        "count": 3
-      },
-      "price_multiplier": 0.0,
-      "max_trades": 32,
-      "experience": 4
-    },
-    {
-      "type": "goblintraders:basic",
-      "offer_item": {
         "item": "randomite:randomite_ore",
         "count": 1
       },
@@ -212,6 +194,21 @@
       "price_multiplier": 0.0,
       "max_trades": 32,
       "experience": 4
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "supplementaries:jar",
+        "count": 1,
+        "nbt": "{display:{Lore:['{\"text\":\"Cannot find a horse? Just buy one in a jar! Saddle not included.\",\"color\":\"gold\"}','{\"text\":\"Spawns a horse. Note that you cannot get the horse back in the jar.\",\"color\":\"white\"}'],Name:'{\"text\":\"Horse in a jar\",\"color\":\"yellow\",\"italic\":false}'},BlockEntityTag:{MobHolder:{EntityData:{Variant:2,Pos:[0.5d,0.2d,0.5d],Motion:[0.0d,0.2d,0.0d],Health:100.0d,PersistenceRequired:1b,id:\"minecraft:horse\"},Scale:0.2d,Name:\"Horse\"}}}"
+      },
+      "payment_item": {
+        "item": "pickletweaks:grass_fiber",
+        "count": 5
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 2,
+      "experience": 10
     }
   ]
 }
