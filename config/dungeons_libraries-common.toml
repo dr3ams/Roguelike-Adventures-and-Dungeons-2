@@ -6,7 +6,7 @@
 	enableAreaOfEffectOnOtherPlayers = false
 	#Add entities that will never be targeted by aggressive Dungeons effects. 
 	#To do so, enter their registry names.
-	effectTargetBlacklist = ["guardvillagers:guard", "minecraft:bat", "minecraft:bee", "minecraft:chicken", "minecraft:cod", "minecraft:cow", "minecraft:dolphin", "minecraft:donkey", "minecraft:fox", "minecraft:horse", "minecraft:iron_golem", "minecraft:mooshroom", "minecraft:ocelot", "minecraft:panda", "minecraft:parrot", "minecraft:pig", "minecraft:polar_bear", "minecraft:pufferfish", "minecraft:rabbit", "minecraft:salmon", "minecraft:sheep", "minecraft:squid", "minecraft:strider", "minecraft:trader_llama", "minecraft:tropical_fish", "minecraft:turtle", "minecraft:villager", "minecraft:wandering_trader", "minecraft:wolf"]
+	effectTargetBlacklist = ["feywild:dwarf_blacksmith","guardvillagers:guard", "minecraft:bat", "minecraft:bee", "minecraft:chicken", "minecraft:cod", "minecraft:cow", "minecraft:dolphin", "minecraft:donkey", "minecraft:fox", "minecraft:horse", "minecraft:iron_golem", "minecraft:mooshroom", "minecraft:ocelot", "minecraft:panda", "minecraft:parrot", "minecraft:pig", "minecraft:polar_bear", "minecraft:pufferfish", "minecraft:rabbit", "minecraft:salmon", "minecraft:sheep", "minecraft:squid", "minecraft:strider", "minecraft:trader_llama", "minecraft:tropical_fish", "minecraft:turtle", "minecraft:villager", "minecraft:wandering_trader", "minecraft:wolf"]
 	#Add entities that should be targetted, but aren't by aggressive Dungeons effects. 
 	#To do so, enter their registry names.
 	effectTargetWhitelist = []

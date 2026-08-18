@@ -149,7 +149,7 @@
 	tumbleBeeChancePerLevel = 0.1
 	#The decimal chance for rampaging to trigger [0.0-1.0, default: 0.1]
 	#Range: 0.0 ~ 1.0
-	rampagingChance = 0.1
+	rampagingChance = 0.15
 	#The duration in ticks (20ticks = 1 second) per level added for rampaging. [0-10000, default: 100]
 	#Range: 0 ~ 10000
 	rampagingDuration = 100
@@ -191,13 +191,13 @@
 	soulSiphonSoulsPerLevel = 2
 	#The decimal chance for Chains to trigger [0.0-1.0, default: 0.3]
 	#Range: 0.0 ~ 1.0
-	chainsChance = 0.3
+	chainsChance = 0.33
 	#The decimal chance for Radiance to trigger [0.0-1.0, default: 0.2]
 	#Range: 0.0 ~ 1.0
 	radianceChance = 0.01
 	#The decimal chance for Thundering to trigger [0.0-1.0, default: 0.3]
 	#Range: 0.0 ~ 1.0
-	thunderingChance = 0.3
+	thunderingChance = 0.33
 	#The base damage for Thundering [0-10000, default: 5]
 	#Range: 0 ~ 10000
 	thunderingBaseDamage = 8
@@ -212,7 +212,7 @@
 	beastBossMultiplierPerLevel = 0.5
 	#The amount of damage per trigger of Beast burst. Each trigger causes an explosion around each minion [0-100, default: 5]
 	#Range: 0 ~ 100
-	beastBurstDamagePerLevel = 24
+	beastBurstDamagePerLevel = 32
 	#The duration in ticks of the speed boost applied by Beast Surge. [0-10000, default: 200]
 	#Range: 0 ~ 10000
 	beastSurgeDuration = 1000
@@ -230,7 +230,7 @@
 	focusMultiplierPerLevel = 0.75
 	#The multiplier increase per level for Frenzied [0.0-5.0, default: 0.1]
 	#Range: 0.0 ~ 5.0
-	frenziedMultiplierPerLevel = 0.1
+	frenziedMultiplierPerLevel = 0.4
 	#The decimal base pull strength for Gravity Pulse [0.0-5.0, default: 0.1]
 	#Range: 0.0 ~ 5.0
 	gravityPulseBaseStrength = 0.1
@@ -254,7 +254,7 @@
 	recklessAttackDamageMultiplierPerLevel = 0.2
 	#The multiplier increase per level for exploding [-5.0-5.0, default: 0.2]
 	#Range: -5.0 ~ 5.0
-	explodingMultiplierPerLevel = 0.2
+	explodingMultiplierPerLevel = 0.25
 	#The chance for Poison Cloud to trigger [-5.0-5.0, default: 0.3]
 	#Range: -5.0 ~ 5.0
 	prospectorChancePerLevel = 0.15
