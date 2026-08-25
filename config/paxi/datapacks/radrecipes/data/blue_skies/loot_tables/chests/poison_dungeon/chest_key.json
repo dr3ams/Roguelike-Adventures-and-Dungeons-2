@@ -1,0 +1,225 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "blue_skies:poison_key"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:spider_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:spider_webbing"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:pyrope_gem"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:aquite_gem"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dungeoncrawl:chests/rad2_extra_rare_affix_item",
+          "weight": 1
+        },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "dungeons_gear:thundering"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{BlockEntityTag:{MobHolder:{EntityData:{ActiveEffects:[{Id:6b,Duration:20,Amplifier:9,ShowParticles:0b,Ambient:1b},{Id:10b,Duration:20,Amplifier:4,ShowParticles:0b,Ambient:1b}],ModelDead:0b,Sleeping:0b,AgeTicks:3000000,Pos:[0.5d,0.2d,0.5d],Motion:[0.0d,0.2d,0.0d],Health:4096.0d,PersistenceRequired:1b,id:\"iceandfire:lightning_dragon\"},Scale:0.2d,Name:\"Stage 5 Lightning Dragon\"}},\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:purple_rune\",Count:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "You've heard of lightning in a bottle, now get ready for...",
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "Spawns a wild stage 5 lightning dragon when used.",
+                                    "color": "light_purple"
+                                },
+                                {
+                                    "text": "WARNING: Dragon cannot be put back in the jar once released.",
+                                    "color": "red",
+				    "bold": true,
+				    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Lightning Dragon in a Jar",
+                                "color": "dark_purple",
+                                "italic": false
+                            }
+                        }
+                    ],
+                    "name": "supplementaries:jar"
+                },
+        {
+          "type": "minecraft:item",
+          "name": "upgradednetherite:poison_upgraded_netherite_ingot",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "advancements": {
+                    "minecraft:nether/obtain_ancient_debris": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:ancient_tome",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{lvl:3,id:\"greekfantasy:poison\"}]}"
+            }
+	  ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "relics:spider_necklace"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "good_nights_sleep:zitrite_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "advancements": {
+                    "minecraft:nether/obtain_ancient_debris": false
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 80,
+          "name": "kubejs:copper_coin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 18,
+          "name": "kubejs:iron_coin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "kubejs:gold_coin"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1.0
+        }
+      ]
+    }
+  ]
+}

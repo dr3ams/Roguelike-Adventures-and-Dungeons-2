@@ -68,7 +68,39 @@
       },
       {
         "input": {
+          "item": "mysticalworld:lead_ore",
+          "count": [
+            2,
+            3
+          ]
+        },
+        "output": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 2
+        },
+        "uses": 10,
+        "exp": 3,
+        "mul": 0.05
+      },
+      {
+        "input": {
           "item": "darkerdepths:raw_silver",
+          "count": [
+            2,
+            3
+          ]
+        },
+        "output": {
+          "item": "feywild:lesser_fey_gem",
+          "count": 2
+        },
+        "uses": 10,
+        "exp": 3,
+        "mul": 0.05
+      },
+      {
+        "input": {
+          "item": "buddycards:luminis_crystal",
           "count": [
             2,
             3
@@ -137,22 +169,6 @@
           "count": 1
         },
         "uses": 12,
-        "exp": 2,
-        "mul": 0.05
-      },
-      {
-        "input": {
-          "item": "minecraft:emerald",
-          "count": [
-            2,
-            4
-          ]
-        },
-        "output": {
-          "item": "feywild:lesser_fey_gem",
-          "count": 2
-        },
-        "uses": 10,
         "exp": 2,
         "mul": 0.05
       },

@@ -1,0 +1,668 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "uniform",
+        "min": 3,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "roughtweaks:bandage",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:mystery_pack",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:centipede_leg",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "greekfantasy:snake_fang",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:charm_of_keeping_1",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:purple_rune",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:white_rune",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:deep_luminis_crystal",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "greekfantasy:styxian_shard",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "waystones:warp_scroll",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mushroomquest:octopusstinkhorn",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mushroomquest:deadmansfingers",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mushroomquest:devilsbolete",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "greekfantasy:fiery_hide",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "greekfantasy:web_ball",
+          "weight": 35,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "greekfantasy:cursed_hair",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nethers_delight:rich_soul_soil",
+          "weight": 45,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "good_nights_sleep:despair_mushroom",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "relics:rune_of_explosion",
+          "weight": 17
+        },
+        {
+          "type": "minecraft:item",
+          "name": "relics:rune_of_moon",
+          "weight": 17
+        },
+        {
+          "type": "minecraft:item",
+          "name": "relics:rune_of_fire",
+          "weight": 17,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blue_skies:life_stone",
+          "weight": 55,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blue_skies:glowing_life_stone",
+          "weight": 55,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:myrmex_jungle_chitin",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 4,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:moonstone"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:poison_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:glowing_poison_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:crescent_fruit"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:spider_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:spider_webbing"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:pyrope_gem"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:aquite_gem"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.4
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "blue_skies:diopside_gem"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1.0
+            }
+          ],
+          "name": "blue_skies:horizonite_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1.0
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.65,
+                "max": 0.8
+              }
+            }
+          ],
+          "name": "blue_skies:moonstone_shield"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 15.0,
+                "max": 20.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": false
+            }
+          ],
+          "name": "minecraft:book"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Stick:\"blue_skies:maple_stick\"}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:bane_of_arthropods"
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.25,
+                "max": 0.55
+              }
+            }
+          ],
+          "name": "blue_skies:aquite_sword",
+	  "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniquee:ameliorated_bane_of_arthropods"
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Stick:\"blue_skies:maple_stick\"}"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.35,
+                "max": 0.45
+              }
+            }
+          ],
+          "name": "blue_skies:charoite_sword",
+	  "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blue_skies:camel_saddle",
+	  "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blue_skies:charoite",
+	  "weight": 9
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dungeoncrawl:chests/rad2_extra_rare_affix_item",
+          "weight": 1
+        },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "dungeons_gear:thundering"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{BlockEntityTag:{MobHolder:{EntityData:{ActiveEffects:[{Id:6b,Duration:20,Amplifier:9,ShowParticles:0b,Ambient:1b},{Id:10b,Duration:20,Amplifier:4,ShowParticles:0b,Ambient:1b}],ModelDead:0b,Sleeping:0b,AgeTicks:3000000,Pos:[0.5d,0.2d,0.5d],Motion:[0.0d,0.2d,0.0d],Health:4096.0d,PersistenceRequired:1b,id:\"iceandfire:lightning_dragon\"},Scale:0.2d,Name:\"Stage 5 Lightning Dragon\"}},\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:purple_rune\",Count:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "You've heard of lightning in a bottle, now get ready for...",
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "Spawns a wild stage 5 lightning dragon when used.",
+                                    "color": "light_purple"
+                                },
+                                {
+                                    "text": "WARNING: Dragon cannot be put back in the jar once released.",
+                                    "color": "red",
+				    "bold": true,
+				    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Lightning Dragon in a Jar",
+                                "color": "dark_purple",
+                                "italic": false
+                            }
+                        }
+                    ],
+                    "name": "supplementaries:jar"
+                },
+        {
+          "type": "minecraft:item",
+          "name": "upgradednetherite:poison_upgraded_netherite_ingot",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "advancements": {
+                    "minecraft:nether/obtain_ancient_debris": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:ancient_tome",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{lvl:3,id:\"greekfantasy:poison\"}]}"
+            }
+	  ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "relics:spider_necklace"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "good_nights_sleep:zitrite_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "advancements": {
+                    "minecraft:nether/obtain_ancient_debris": false
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 80,
+          "name": "kubejs:copper_coin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 18,
+          "name": "kubejs:iron_coin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "kubejs:gold_coin"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,677 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "uniform",
+        "min": 3,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "roughtweaks:bandage",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:mystery_pack",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buddycards:buddybeans",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tropicraft:coconut_chunk",
+          "weight": 35,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:charm_of_life_1",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "greekfantasy:magic_feather",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:cannoli",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:lime_rune",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:cyan_rune",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "waystones:warp_scroll",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mushroomquest:matsutake",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mushroomquest:chaga",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mushroomquest:weepingconk",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mushroomquest:tinderpolypore",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mushroomquest:bleedingtoothfungus",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mushroomquest:redbandedpolypore",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mushroomquest:birchpolypore",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:hot_cocoa",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tropicraft:pineapple_cubes",
+          "weight": 35,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalworld:silkworm_egg",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:rich_soil",
+          "weight": 70,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "good_nights_sleep:hope_mushroom",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "relics:rune_of_sun",
+          "weight": 17
+        },
+        {
+          "type": "minecraft:item",
+          "name": "relics:rune_of_cold",
+          "weight": 17
+        },
+        {
+          "type": "minecraft:item",
+          "name": "relics:rune_of_earth",
+          "weight": 17,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blue_skies:aquatic_stone",
+          "weight": 55,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blue_skies:glowing_aquatic_stone",
+          "weight": 55,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "greekfantasy:golden_fleece",
+          "weight": 10,
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 3,
+        "max": 4,
+        "type": "uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:starlit_sapling"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:blush_blossom"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:nature_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:glowing_nature_stone"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:brewberry"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:black_brewberry"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 1,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:pink_brewberry"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:pyrope_gem"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:aquite_gem"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.4
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "blue_skies:diopside_gem"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Stick:\"blue_skies:starlit_stick\"}"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.85,
+                "max": 0.9
+              }
+            }
+          ],
+          "name": "blue_skies:aquite_axe",
+	  "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 24.0,
+                "max": 36.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Stick:\"blue_skies:starlit_stick\"}"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.55,
+                "max": 0.9
+              }
+            }
+          ],
+          "name": "blue_skies:diopside_axe",
+	  "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.8,
+                "max": 0.85
+              }
+            }
+          ],
+          "name": "blue_skies:starlit_spear",
+	  "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 2,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 15,
+                "max": 20,
+                "type": "minecraft:uniform"
+              },
+              "treasure": false
+            }
+          ],
+          "name": "minecraft:book"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 15,
+                "max": 20,
+                "type": "minecraft:uniform"
+              },
+              "treasure": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.8,
+                "max": 0.85
+              }
+            }
+          ],
+          "name": "blue_skies:starlit_spear"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blue_skies:charoite",
+          "weight": 2
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dungeoncrawl:chests/rad2_extra_rare_affix_item",
+          "weight": 1
+        },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "minecraft:mending",
+                                "uniquee:ender_mending",
+                                "uniquee:ameliorated_sharpness",
+                                "radenchants:life_leech",
+                                "radenchants:magical_blade"
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{\"quark:RuneAttached\": 1b, \"quark:RuneColor\":{id:\"quark:blank_rune\",Count:1b}}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Paneful to see",
+                                    "color": "gray"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Secret Pane",
+                                "color": "green",
+                                "italic": false
+                            }
+                        }
+                    ],
+                    "name": "minecraft:light_gray_stained_glass_pane"
+                },
+        {
+          "type": "minecraft:item",
+          "name": "enigmaticlegacy:etherium_ore",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "advancements": {
+                    "minecraft:story/enter_the_end": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quark:ancient_tome",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{lvl:4,id:\"uniquee:ecological\"}]}"
+            }
+	  ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "relics:fragrant_flower"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "greekfantasy:healing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.1,
+                "max": 0.5
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "advancements": {
+                    "minecraft:story/enter_the_end": false
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 80,
+          "name": "kubejs:copper_coin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 18,
+          "name": "kubejs:iron_coin"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "kubejs:gold_coin"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ]
+    }
+  ]
+}
