@@ -243,6 +243,9 @@ event.hide('greekfantasy:wooden_spear')
 event.hide('greekfantasy:stone_spear')
 event.hide('greekfantasy:iron_spear')
 event.hide('greekfantasy:salve')
+event.hide('greekfantasy:mirror')
+event.hide('greekfantasy:artemis_bow')
+event.hide('greekfantasy:apollo_bow')
 
 event.hide('iceandfire:copper_sword')
 event.hide('iceandfire:copper_shovel')
@@ -257,7 +260,7 @@ event.hide('iceandfire:armor_copper_metal_chestplate')
 event.hide('iceandfire:armor_copper_metal_leggings')
 event.hide('iceandfire:armor_copper_metal_boots')
 
-event.hide('eidolon:lead_ore')
+//event.hide('eidolon:lead_ore')
 
 event.hide('byg:ametrine_ore')
 event.hide('byg:budding_ametrine_ore')
@@ -287,20 +290,81 @@ event.hide('relics:uncommon_scrap')
 event.hide('relics:rare_scrap')
 
 event.hide('rats:rat_upgrade_voodoo')
+event.hide('rats:tiny_coin')
+event.hide('rats:token_fragment')
+event.hide('rats:rat_upgrade_basic_energy')
+event.hide('rats:rat_upgrade_advanced_energy')
+event.hide('rats:rat_upgrade_elite_energy')
+event.hide('rats:rat_upgrade_extreme_energy')
+event.hide('rats:rat_upgrade_creative')
+event.hide('rats:rat_upgrade_combined_creative')
+
+event.hide('twilightforest:ore_meter')
+event.hide('twilightforest:cube_talisman')
+event.hide('twilightforest:cube_of_annihilation')
+event.hide('twilightforest:slider')
+event.hide('twilightforest:cinder_furnace')
+event.hide('twilightforest:boss_spawner_naga')
+event.hide('twilightforest:boss_spawner_lich')
+event.hide('twilightforest:boss_spawner_minoshroom')
+event.hide('twilightforest:boss_spawner_hydra')
+event.hide('twilightforest:boss_spawner_knight_phantom')
+event.hide('twilightforest:boss_spawner_ur_ghast')
+event.hide('twilightforest:boss_spawner_alpha_yeti')
+event.hide('twilightforest:boss_spawner_snow_queen')
+event.hide('twilightforest:boss_spawner_final_boss')
 
 event.hide('twilightdelight:iron_lotus')
 event.hide('twilightdelight:ego_blade')
+
+event.hide('stalwart_dungeons:awful_dungeon_spawner')
+event.hide('stalwart_dungeons:keeping_castle_spawner')
+event.hide('stalwart_dungeons:end_dungeon_spawner')
+
+event.hide('apotheosis:boss_summoner')
+
+event.hide('byg:emeraldite_ore')
+
+event.hide('ftbquests:barrier')
+event.hide('ftbquests:stage_barrier')
 
 event.hide('buddycards:medal.5')
 event.hide('cookingforblockheads:heating_unit')
 event.hide('sophisticatedbackpacks:battery_upgrade')
 
 event.hide('paraglider:heart_container')
+
 event.hide('alexsmobs:mimicream')
+event.hide('alexsmobs:spawn_egg_blobfish')
+event.hide('alexsmobs:blobfish')
+event.hide('alexsmobs:blobfish_bucket')
+event.hide('alexsmobs:leafcutter_ant_pupa')
+event.hide('alexsmobs:leafcutter_anthill')
+event.hide('alexsmobs:leafcutter_ant_chamber')
+event.hide('alexsmobs:spawn_egg_leafcutter_ant')
+
+event.hide('mowziesmobs:mob_remover')
+event.hide('mowziesmobs:grant_suns_blessing')
+event.hide('mowziesmobs:earth_talisman')
+event.hide('mowziesmobs:earthbore_gauntlet')
+
 event.hide('upgradednetherite_items:ultimate_upgraded_netherite_totem')
 event.hide('upgradednetherite_items:creative_upgraded_netherite_totem')
 
+event.hide('relics:steel_ingot')
+event.hide('relics:aquasteel_ingot')
+event.hide('relics:firesteel_ingot')
+event.hide('relics:terrasteel_ingot')
+event.hide('relics:airsteel_ingot')
+event.hide('relics:mithril_ingot')
+event.hide('relics:obsidian_ingot')
+event.hide('relics:flaming_amber_geode')
+event.hide('relics:flaming_amber_dust')
+event.hide('relics:chrysolite')
+
 event.hide('enigmaticlegacy:recall_potion')
+event.hide('enigmaticlegacy:enigmatic_item')
+event.hide('enigmaticlegacy:loot_generator')
 })
 
 onEvent('item.tooltip', tooltip => {
@@ -570,5 +634,3 @@ onEvent('item.tooltip', tooltip => {
   }) 
 
 })
-
-

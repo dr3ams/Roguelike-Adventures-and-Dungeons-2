@@ -71,7 +71,7 @@ event.add('greekfantasy:achilles_helmet', ["Grants a chance to ignore projectile
 event.add('greekfantasy:achilles_chestplate', ["Grants a chance to ignore projectiles, however achilles heel increases projectile damage taken."])
 event.add('greekfantasy:achilles_leggings', ["Grants a chance to ignore projectiles, however achilles heel increases projectile damage taken."])
 event.add('greekfantasy:achilles_boots', ["Grants a chance to ignore projectiles, however achilles heel increases projectile damage taken."])
-event.add('majruszs_difficulty:tattered_cloth', ["The main reward from fighting off an undead army, which happens after a player defeats 100 zombies. This cloth has great magical properties when crafted into armor."])
+event.add('majruszs_difficulty:tattered_cloth', ["The main reward from fighting off an undead army, which happens after a player defeats 200 undead. This cloth has great magical properties when crafted into armor."])
 event.add('dungeons_mobs:illusioner_helmet', ["Light and Magical, the innate enchantments of this set do not count towards the 10-enchant limit, incompatibilities, and can be stacked with enchantments of the same type. For example enchanting this with mana boost 3 will make it appear twice, which works as mana boost 6."])
 event.add('dungeons_mobs:illusioner_chestplate', ["Light and Magical, the innate enchantments of this set do not count towards the 10-enchant limit, incompatibilities, and can be stacked with enchantments of the same type. For example enchanting this with mana regen 3 will make it appear twice, which works as mana regen 6."])
 event.add('dungeons_mobs:illusioner_leggings', ["Light and Magical, the innate enchantments of this set do not count towards the 10-enchant limit, incompatibilities, and can be stacked with enchantments of the same type. For example enchanting this with lightweight 3 will make it appear twice, which works as lightweight 6."])
@@ -96,6 +96,10 @@ event.add('feywild:brilliant_fey_gem', ["The fourth and final tier of fey gems i
 event.add('simplefarming:beer', ["Can be created in the Brewing Barrel. See the Fishing and Foraging quest chapter for more info."])
 event.add('relics:arrow_quiver', ["Explosive Arrow does not damage blocks. Activate by holding Left Alt + the Cast first ability key (or second-fifth if you have multiple ability relics). When active your next bow shot has reduced draw speed and the arrow will deal significantly more damage. Explosive Arrow does not work with the vanilla bow in this pack due to a bug."])
 
+event.add('enigmaticlegacy:guardian_heart', ["Rare chance to obtain when defeating an elder guardian with the ring of seven curses equipped"])
+event.add('curios:crown', ["Can be obtained from the Grind never stops chapter by defeating slimes"])
+event.add('iceandfire:dragonbone_bow', ["Endless Quiver does not work on this, but Infinity does. #blamealex"])
+
 
 event.add('waystones:waystone', ["This item can be bought in the shop"])
 event.add('waystones:mossy_waystone', ["This item can be bought in the shop"])
@@ -105,5 +109,5 @@ event.add('waystones:bound_scroll', ["This item can be bought in the shop"])
 event.add('waystones:warp_scroll', ["This item can be bought in the shop"])
 event.add('waystones:warp_stone', ["This item can be bought in the shop"])
 event.add('waystones:warp_plate', ["This item can be bought in the shop"])
-    
+
 })
