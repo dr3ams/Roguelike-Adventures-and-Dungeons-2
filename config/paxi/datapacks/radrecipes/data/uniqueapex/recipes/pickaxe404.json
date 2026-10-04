@@ -1,0 +1,40 @@
+{
+    "type": "uniqueapex:fusion",
+    "ingredients": [
+        {
+            "input": { "item": "minecraft:obsidian" },
+            "amount": 64
+        },
+        {
+            "input": { "item": "minecraft:end_crystal" },
+            "amount": 8
+        },
+        {
+            "input": { "item": "minecraft:chorus_fruit" },
+            "amount": 32
+        },
+        {
+            "input": { "item": "minecraft:conduit" },
+            "amount": 3
+        },
+        {
+            "input": { "item": "minecraft:shulker_shell" },
+            "amount": 2
+        },
+        {
+            "input": { "item": "minecraft:creeper_head" },
+            "amount": 4
+        }
+    ],
+    "enchantments": [
+        { "type": "uniquee:ender_marksmen", "level": 1 },
+        { "type": "uniquee:ender_librarian", "level": 1 },
+        { "type": "minecraft:efficiency", "level": 5 },
+        { "type": "uniquee:ender_mending", "level": 3 }
+        
+    ],
+	"lock": true,
+	"max": 4,
+    "output": "uniqueapex:pickaxe404",
+    "output_mode": "average" 
+}

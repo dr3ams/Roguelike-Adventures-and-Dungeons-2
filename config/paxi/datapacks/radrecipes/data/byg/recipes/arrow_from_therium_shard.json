@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "Y"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:rods/wooden"
+    },
+    "X": {
+      "item": "byg:therium_shard"
+    },
+    "Y": {
+      "tag": "forge:feathers"
+    }
+  },
+  "result": {
+    "item": "supplementaries:amethyst_arrow",
+    "count": 12
+  }
+}

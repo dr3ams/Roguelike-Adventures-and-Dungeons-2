@@ -1,0 +1,35 @@
+{
+    "type": "uniqueapex:fusion",
+    "ingredients": [
+        {
+            "input": { "item": "minecraft:prismarine_crystals" },
+            "amount": 512
+        },
+        {
+            "input": { "item": "minecraft:conduit" },
+            "amount": 1
+        },
+        {
+        	"input": { "item": "minecraft:netherite_block" },
+        	"amount": 2
+        },
+        {
+        	"input": { "item": "minecraft:dirt" },
+        	"amount": 128
+        },
+        {
+        	"input": { "item": "minecraft:elytra" },
+        	"amount": 1
+        }
+    ],
+    "enchantments": [
+        { "type": "uniquee:ifrits_grace", "level": 3 },
+        { "type": "uniquee:ecological", "level": 3 },
+        { "type": "uniquee:cloud_walker", "level": 3 },
+        { "type": "uniqueutil:adept", "level": 1}
+    ],
+	"lock": true,
+	"max": 3,
+    "output": "uniqueapex:gaias_fragment",
+    "output_mode": "average" 
+}

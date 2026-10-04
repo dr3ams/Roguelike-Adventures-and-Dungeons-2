@@ -131,9 +131,9 @@ craftingTable.removeByName(<resource:gateways:enderman_gate_small>);
 //destruction core way more expensive
 craftingTable.removeRecipe(<item:constructionwand:core_destruction>);
 craftingTable.addShaped("harder_destruction_core", <item:constructionwand:core_destruction>,[
-    [<item:minecraft:netherite_pickaxe>, <item:minecraft:nether_star>, <item:minecraft:netherite_pickaxe>],
-    [<item:minecraft:nether_star>, <item:minecraft:netherite_block>, <item:minecraft:nether_star>],
-    [<item:minecraft:netherite_pickaxe>, <item:minecraft:nether_star>, <item:minecraft:netherite_pickaxe>]
+    [<item:stalwart_dungeons:tungsten_pickaxe>, <item:stalwart_dungeons:awful_crystal>, <item:stalwart_dungeons:tungsten_pickaxe>],
+    [<item:stalwart_dungeons:awful_crystal>, <item:minecraft:netherite_block>, <item:stalwart_dungeons:awful_crystal>],
+    [<item:stalwart_dungeons:tungsten_pickaxe>, <item:stalwart_dungeons:awful_crystal>, <item:stalwart_dungeons:tungsten_pickaxe>]
 ]);
 
 

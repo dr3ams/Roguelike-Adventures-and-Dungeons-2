@@ -3,30 +3,14 @@
     "ingredients": [
         {
             "input": { "item": "spartanweaponry:arrow_diamond" },
-            "amount": 256
+            "amount": 128
         },
         {
             "input": { "item": "spartanweaponry:quiver_arrow_huge" },
             "amount": 1
         },
         {
-            "input": { "item": "relics:arrow_quiver" },
-            "amount": 1
-        },
-        {
-            "input": { "item": "dungeons_gear:flaming_quiver" },
-            "amount": 1
-        },
-        {
-            "input": { "item": "dungeons_gear:torment_quiver" },
-            "amount": 1
-        },
-        {
-            "input": { "item": "dungeons_gear:thundering_quiver" },
-            "amount": 1
-        },
-        {
-            "input": { "item": "dungeons_gear:harpoon_quiver" },
+            "input": [{ "item": "relics:arrow_quiver" },{ "item": "dungeons_gear:flaming_quiver" },{ "item": "dungeons_gear:torment_quiver" },{ "item": "dungeons_gear:thundering_quiver" },{ "item": "dungeons_gear:harpoon_quiver" }],
             "amount": 1
         },
         {

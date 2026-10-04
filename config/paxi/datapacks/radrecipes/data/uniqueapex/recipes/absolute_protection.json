@@ -1,0 +1,30 @@
+{
+    "type": "uniqueapex:fusion",
+    "ingredients": [
+        {
+            "input": { "item": "minecraft:enchanted_golden_apple" },
+            "amount": 2
+        },
+        { 
+            "input": { "item": "minecraft:shulker_shell" }, 
+            "amount": 16
+        },
+        {
+            "input": { "item": "minecraft:shield" }
+        }, 
+        {
+            "input": { "item": "minecraft:crying_obsidian" },
+            "amount": 64
+        }
+    ],
+    "enchantments": [
+        { "type": "minecraft:protection", "level": 1 },
+        { "type": "minecraft:blast_protection", "level": 1 },
+        { "type": "minecraft:fire_protection", "level": 1 },
+        { "type": "minecraft:projectile_protection", "level": 1 } 
+    ],
+	"lock": true,
+	"max": 5,
+    "output": "uniqueapex:absolute_protection",
+    "output_mode": "min" 
+}
