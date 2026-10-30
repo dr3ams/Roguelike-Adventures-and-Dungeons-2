@@ -699,7 +699,28 @@
 					buy: 100L
 				}
 				{
-					item: "bountifulbaubles:potion_wormhole"
+					item: {
+						id: "bountifulbaubles:potion_wormhole"
+						Count: 1b
+						tag: {
+							Damage: 0
+							display: {
+								Lore: ["{\"text\":\"Does not leave your inventory when you die.\",\"color\":\"blue\",\"italic\":false}"]
+								Name: "[{\"text\":\"Eternal \",\"italic\":false,\"color\":\"yellow\"},{\"translate\":\"item.bountifulbaubles.potion_wormhole\"}]"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [{
+									data: [{
+										lvl: 1s
+										id: "tombstone:soulbound"
+									}]
+									source: "dungeons_libraries:gear_config"
+								}]
+							}
+						}
+					}
 					buy: 100L
 				}
 				{
@@ -716,12 +737,12 @@
 								{
 									Duration: 2400
 									Id: 42b
-									Amplifier: 4b
+									Amplifier: 1b
 								}
 							]
 							Potion: "minecraft:thick"
 							display: {
-								Lore: ["{\"text\":\"Deal and recieve double damage\",\"color\":\"dark_red\",\"italic\":false}"]
+								Lore: ["{\"text\":\"Deal double damage but recieve 40% more.\",\"color\":\"dark_red\",\"italic\":false}"]
 								Name: "{\"italic\":false,\"text\":\"Berserker's Brew\",\"color\":\"dark_red\"}"
 							}
 						}
@@ -1168,6 +1189,18 @@
 						}
 					}
 					buy: 10L
+				}
+				{
+					item: {
+						id: "enigmaticlegacy:forbidden_fruit"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 300L
 				}
 			]
 		}

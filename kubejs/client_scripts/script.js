@@ -579,6 +579,22 @@ onEvent('item.tooltip', tooltip => {
 	text.add(1,Text.translate('tooltip.rad2.nobleedmedkitstrong').green())
   })
 
+  tooltip.addAdvanced('minecraft:diamond_pickaxe', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.rad2.diamond_pickaxe').yellow())
+  })
+
+  tooltip.addAdvanced('paraglider:spirit_orb', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.rad2.spirit_orb').yellow())
+  })
+
+  tooltip.addAdvanced('cofh_core:ectoplasm', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.rad2.ectoplasm_orb').yellow())
+  })
+
+  tooltip.addAdvanced('upgradednetherite_items:ender_upgraded_netherite_pearl', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.rad2.enderite_pearl').yellow())
+  })
+
   tooltip.addAdvanced('atum:linen_bandage', (item, advanced, text) => {
 	text.add(1,Text.translate('tooltip.rad2.infinite_use').green())
 	text.add(2,Text.translate('tooltip.rad2.use_time').blue().append(Text.of(' 4 Seconds').gray()) )
