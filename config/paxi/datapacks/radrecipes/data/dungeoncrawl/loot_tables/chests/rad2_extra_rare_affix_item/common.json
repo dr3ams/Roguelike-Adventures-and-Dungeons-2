@@ -414,13 +414,13 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CurioAttributeModifiers:[{Slot:\"bracelet\", AttributeName:\"minecraft:generic.attack_damage\", Name:\"Damage Boost\", Amount:3, Operation:0, UUID:[I;-1405545705,-890286208,-1155534794,1199143110]},{Slot:\"bracelet\", AttributeName:\"minecraft:generic.attack_speed\", Name:\"Attack Speed Reduction\", Amount:-0.5, Operation:0, UUID:[I;-1405545705,-890286208,-1155534794,1199143110]}]}"
+              "tag": "{CurioAttributeModifiers:[{Slot:\"belt\", AttributeName:\"minecraft:generic.attack_damage\", Name:\"Damage Boost\", Amount:3, Operation:0, UUID:[I;-1405545705,-890286208,-1155534794,1199143110]},{Slot:\"belt\", AttributeName:\"minecraft:generic.attack_speed\", Name:\"Attack Speed Reduction\", Amount:-0.5, Operation:0, UUID:[I;-1405545705,-890286208,-1155534794,1199143110]}]}"
             },
             {
               "function": "minecraft:set_name",
               "name":
                 {
-                  "text": "Bracelet of Might",
+                  "text": "Belt of Might",
                   "color": "red",
 		  "italic": false
                 }
@@ -433,7 +433,7 @@
                   "color": "gray"
                 },
                 {
-                  "text": "Wearing this bracelet, your weapons feel a lot heftier.",
+                  "text": "Wearing this belt, your weapons feel a lot heftier.",
                   "color": "white"
                 }
               ]
@@ -447,13 +447,13 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CurioAttributeModifiers:[{Slot:\"bracelet\", AttributeName:\"minecraft:generic.armor\", Name:\"Defense Boost\", Amount:2, Operation:0, UUID:[I;2008230504,-719895582,-1788502341,-648286940]},{Slot:\"bracelet\", AttributeName:\"minecraft:generic.armor_toughness\", Name:\"Toughness Boost\", Amount:3, Operation:0, UUID:[I;2008230504,-719895582,-1788502341,-648286940]},{Slot:\"bracelet\", AttributeName:\"minecraft:generic.knockback_resistance\", Name:\"Knockback Penalty\", Amount:-1.5, Operation:0, UUID:[I;2008230504,-719895582,-1788502341,-648286940]}]}"
+              "tag": "{CurioAttributeModifiers:[{Slot:\"belt\", AttributeName:\"minecraft:generic.armor\", Name:\"Defense Boost\", Amount:2, Operation:0, UUID:[I;2008230504,-719895582,-1788502341,-648286940]},{Slot:\"belt\", AttributeName:\"minecraft:generic.armor_toughness\", Name:\"Toughness Boost\", Amount:3, Operation:0, UUID:[I;2008230504,-719895582,-1788502341,-648286940]},{Slot:\"belt\", AttributeName:\"minecraft:generic.knockback_resistance\", Name:\"Knockback Penalty\", Amount:-1.5, Operation:0, UUID:[I;2008230504,-719895582,-1788502341,-648286940]}]}"
             },
             {
               "function": "minecraft:set_name",
               "name":
                 {
-                  "text": "Bracelet of Bracing",
+                  "text": "Belt of Bracing",
                   "color": "blue",
 		  "italic": false
                 }
@@ -466,7 +466,7 @@
                   "color": "gray"
                 },
                 {
-                  "text": "Brace for Impact! This bracelet converts some of your foes' damage into kinetic energy.",
+                  "text": "Brace for Impact! This belt converts some of your foes' damage into kinetic energy.",
                   "color": "white"
                 }
               ]
