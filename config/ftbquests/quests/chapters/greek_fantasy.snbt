@@ -903,11 +903,6 @@
 					tag: {
 						DisplayEntityType: "greekfantasy:cerberus"
 					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
 				}
 				entity: "greekfantasy:cerberus"
 				value: 1L
@@ -1863,6 +1858,71 @@
 				type: "ftbmoney:money"
 				ftb_money: 25L
 			}]
+		}
+		{
+			title: "Arion"
+			x: 1.5d
+			y: 0.5d
+			subtitle: "The fastest steed"
+			description: [
+				"Feeding an &dEnchanted Golden Apple&r to your tamed horse will turn the horse into Arion."
+				""
+				"Arion is super fast and has more than double the health of a regular horse, and can still wear horse armor for even faster speed."
+				""
+				"However Arion is very picky and will only eat golden food to heal."
+				""
+				"Type &3$arion_food&r in jei to see all items that can be fed to arion."
+			]
+			id: "5999E0D18C087423"
+			tasks: [{
+				id: "75749ACD66756E7A"
+				type: "observation"
+				title: "Create the pee horse"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "greekfantasy:arion"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "greekfantasy:arion"
+			}]
+			rewards: [
+				{
+					id: "1847D5C4AFB0367C"
+					type: "item"
+					item: {
+						id: "kubejs:gold_coin"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7462F2528A073CA9"
+					type: "item"
+					item: {
+						id: "farmersdelight:horse_feed"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
 		}
 	]
 }
