@@ -327,22 +327,6 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -1.0d
-			description: ["Has no use."]
-			id: "78FE81EEEBEAAAC0"
-			tasks: [{
-				id: "4BA71DF6513A7B5B"
-				type: "item"
-				item: "greekfantasy:mirror"
-			}]
-			rewards: [{
-				id: "37D312FFB1480B92"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
 			x: 7.5d
 			y: 2.0d
 			subtitle: "overflowing with food"
@@ -386,7 +370,7 @@
 			]
 		}
 		{
-			x: 9.0d
+			x: 8.5d
 			y: 0.5d
 			dependencies: ["6472AEC58B19441A"]
 			id: "4C569E44A9B702A7"
@@ -545,7 +529,15 @@
 			x: 9.0d
 			y: -1.0d
 			subtitle: "Hoglin on steroids"
-			description: ["Giant Boars are created when feeding a Hoglin a poisonous potato outside of the Nether."]
+			description: [
+				"Difficulty: &6Normal (Ranged weapon recommended)"
+				""
+				"Giant Boars are created when feeding a Hoglin a poisonous potato outside of the Nether."
+				""
+				"Abilities: Melee"
+				""
+				"Drops: &aBoar Ear, Boar Tusk, Leather, Hoglin Loin (Meat)"
+			]
 			id: "6472AEC58B19441A"
 			tasks: [{
 				id: "463582D4B6894981"
@@ -752,6 +744,13 @@
 			x: 13.5d
 			y: -4.0d
 			subtitle: "Huge, venomous snake found in abandoned pits in jungles."
+			description: [
+				"Difficulty: &aEasy (Copper/Tin Gear Recommended)"
+				""
+				"Abilities: Melee, Charges up a barrage of venomous spit"
+				""
+				"Drops &aSnakeskin&r and &aTough Snakeskin&r when slain."
+			]
 			id: "1061E2C83B33D8F3"
 			tasks: [{
 				id: "420C18BD3A325E61"
@@ -885,9 +884,14 @@
 			y: -4.0d
 			subtitle: "The three-headed hound of the underworld"
 			description: [
-				"To summon this fiend, you must build a &a4x4 hollow frame of blackstone, with a 2x2 of lava in the middle.&r Then sacrifice the head of an Orthus by tossing it into the lava. The lava will turn to magma and the Cerberus will appear."
+				"&6Difficulty: Hard (At least lead equipment with a way to resist fire like &dFire Protection&6)"
 				""
+				"To summon this fiend, you must build a &a4x4 hollow frame of blackstone, with a 2x2 of lava in the middle.&r Then sacrifice the head of an Orthus by tossing it into the lava. The lava will turn to magma and the Cerberus will appear."
 				"&6(imagine the twilight forest portal but there's no flowers, the dirt is blackstone, the water is lava, and the diamond is an orthus head)"
+				""
+				"Attacks: Strong Melee, Fire Breath, Summon Orthus"
+				""
+				"Drops: &aFiery Hide&r"
 			]
 			id: "5D12D90A59FADF6A"
 			tasks: [{
@@ -919,7 +923,15 @@
 			x: 9.5d
 			y: -4.0d
 			subtitle: "Dangerous whirlpool monster."
-			description: ["Summoned by feeding a Heart of the Sea to a Whirl (by dropping the item nearby)."]
+			description: [
+				"Difficulty: &aEasy"
+				""
+				"Summoned by feeding a Heart of the Sea to a Whirl in water (by dropping the item nearby). This does not consume the Heart of the Sea."
+				""
+				"Abilities: Sucks nearby entities in, Arrow Immunity"
+				""
+				"Drops: &aConch, &lThe entire buried treasure loot table&r&a, and one of the shipwreck or underwater ruin loot tables."
+			]
 			id: "2942F2856A444B23"
 			tasks: [{
 				id: "4F3B1B39421BC996"
@@ -972,7 +984,15 @@
 			x: 10.5d
 			y: -1.0d
 			subtitle: "Three-headed gigante whose only passion is a herd of Mad Cows."
-			description: ["Summon by placing three Gigante heads and killing a cow in close proximity."]
+			description: [
+				"Difficulty: &6Normal (Lead Gear Recommended)"
+				""
+				"Summon by placing three Gigante heads and killing a cow in close proximity."
+				""
+				"Abilities: Melee, Club Slam that stuns for 2 seconds, Summon Mad Cow"
+				""
+				"Drops: &aHorn of Plenty, Ambrosia, Diamonds, Netherite, Iron Club with &5Smashing&a, Shield with &5Mirror (doesn't do anything)&a"
+			]
 			id: "11E83F17835E8E8B"
 			tasks: [{
 				id: "4E77812F402976D6"
@@ -991,7 +1011,15 @@
 			x: 16.5d
 			y: -4.0d
 			subtitle: "Fierce, fire-breathing, clockwork bull"
-			description: ["To summon the Bronze Bull, you must build a 2x2 of gold blocks with 2 ichor-infused blocks on the sides"]
+			description: [
+				"Difficulty: &cHard (At least Sapphire Armor recommended with a way to resist fire like &dFire Protection&c)"
+				""
+				"To summon the Bronze Bull, you must build a 2x2 of gold blocks with 2 ichor-infused blocks on the sides"
+				""
+				"Abilities: Bull Charge, Fire Breath, Arrow Immunity"
+				""
+				"Drops: &aGold Ingots, Fiery Gears, Ichor"
+			]
 			id: "595F31F04D5EE832"
 			tasks: [{
 				id: "7211EAAF81ABC351"
@@ -1029,9 +1057,15 @@
 			y: -1.0d
 			subtitle: "Brass automaton that will devastate any player foolish enough to build it."
 			description: [
-				"To summon the Talos, &aplace 3x2 gold blocks&r and place an ichor-infused block on top. Watch out! That dispenser on his arm isn't just for looks..."
+				"Difficulty: &6Normal (Lead Gear Recommended)"
 				""
-				"&6(3 blocks horizontal, 2 vertical)"
+				"To summon the Talos, &aplace 3x2 gold blocks&r and place an ichor-infused block on top. Watch out! That dispenser on the arm isn't just for looks..."
+				""
+				"&6(3 blocks horizontal in any direction, 2 vertical, total 6 gold blocks)"
+				""
+				"Abilities: Punch, Arrow Barrage, Arrow Immunity"
+				""
+				"Drops: &aTalos Heart, Gold Ingots, Ichor, Arrows"
 			]
 			id: "5F907B1936D811FC"
 			tasks: [{
@@ -1462,7 +1496,17 @@
 			x: 13.5d
 			y: -1.0d
 			subtitle: "(Miniboss) Giant lion with arrow-proof hide."
-			description: ["Spawns: in deserts in Lion Dens. Can also spawn when an Ocelot with the Strength potion effect is hit by lightning."]
+			description: [
+				"Difficulty: &4VERY HARD (Recommend Champion's Bane Potion, Parrying Dagger)"
+				"&7&oChampion's Bane potion can be found in dungeoncrawl dungeons or bought from the money shop for 150 coins."
+				""
+				"Spawns: in deserts in Lion Dens. Can also spawn when an Ocelot with the Strength potion effect is hit by lightning."
+				""
+				"Abilities: Strong Melee, High Damage Resistance, Arrow Immunity"
+				"&6Right Click the Nemean Lion to ride the lion and deal damage. The lion will throw you off, dealing damage which cannot be blocked with a shield but can be blocked with the parrying dagger."
+				""
+				"Drops: &aNemean Lion Hide (Helmet), Ichor, Gold Nuggets, Dog Claw"
+			]
 			id: "6E808001354311DC"
 			tasks: [{
 				id: "24761931679D0C7E"
@@ -1536,43 +1580,6 @@
 				type: "ftbmoney:money"
 				ftb_money: 10L
 			}]
-		}
-		{
-			x: 9.0d
-			y: 2.0d
-			dependencies: ["4C569E44A9B702A7"]
-			id: "39022BC2B3098B5B"
-			tasks: [{
-				id: "5935C77C3E1AB4F4"
-				type: "item"
-				item: "greekfantasy:boar_ear"
-				count: 5L
-			}]
-			rewards: [
-				{
-					id: "12F61D8841507C15"
-					type: "item"
-					item: {
-						id: "kubejs:iron_coin"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "0A2D77D9DB87FF1D"
-					type: "ftbmoney:money"
-					ftb_money: 20L
-				}
-				{
-					id: "6EE05AAA59D5066B"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
 		}
 		{
 			x: 12.0d
@@ -1672,7 +1679,7 @@
 		}
 		{
 			x: 1.5d
-			y: 0.5d
+			y: -1.0d
 			description: [
 				"Chance to either heal or harm you when drank."
 				""
@@ -1729,6 +1736,7 @@
 		{
 			x: 16.5d
 			y: -6.0d
+			description: ["Used to craft the Achilles Armor"]
 			dependencies: ["595F31F04D5EE832"]
 			id: "06CA078C9BD6570F"
 			tasks: [{
@@ -1829,6 +1837,31 @@
 				id: "19B77FD606874283"
 				type: "ftbmoney:money"
 				ftb_money: 5L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			description: ["Used to craft the &aIvory Sword&r, which is similar to a &aDiamond Sword&r but with extra knockback."]
+			dependencies: ["6472AEC58B19441A"]
+			id: "12D8AE7A1A921CAA"
+			tasks: [{
+				id: "20C6E362F678DB15"
+				type: "item"
+				item: {
+					id: "greekfantasy:boar_tusk"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B4AAD260B667F66"
+				type: "ftbmoney:money"
+				ftb_money: 25L
 			}]
 		}
 	]

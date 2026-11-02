@@ -591,6 +591,10 @@ onEvent('item.tooltip', tooltip => {
 	text.add(1,Text.translate('tooltip.rad2.ectoplasm_orb').yellow())
   })
 
+  tooltip.addAdvanced('greekfantasy:nemean_lion_hide', (item, advanced, text) => {
+	text.add(1,Text.translate('tooltip.rad2.nemean_lion_hide').yellow())
+  })
+
   tooltip.addAdvanced('upgradednetherite_items:ender_upgraded_netherite_pearl', (item, advanced, text) => {
 	text.add(1,Text.translate('tooltip.rad2.enderite_pearl').yellow())
   })
