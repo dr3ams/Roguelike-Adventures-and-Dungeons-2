@@ -15,6 +15,33 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Stick:\"blue_skies:lunar_stick\"}"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniqueutil:resonance"
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:efficiency"
+              ]
+            }
+          ],
+          "name": "blue_skies:aquite_pickaxe"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "weight": 3,
           "functions": [
             {

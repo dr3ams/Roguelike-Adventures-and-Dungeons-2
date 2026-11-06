@@ -15,6 +15,36 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "uniquee:treasurers_eyes"
+              ]
+            },
+            {
+                "function": "minecraft:set_lore",
+                "lore": [
+                    {
+                        "text": "After various complaints from the illager miners about not finding any ores, the enchanters finally gave in and granted this.",
+                        "color": "gray"
+                    },
+                    {
+                        "text": "Treasurer\'s Eyes allows seeing ores detected by the Resonance enchantment.",
+                        "color": "yellow"
+                    }
+                ]
+            }
+          ],
+          "name": "blue_skies:aquite_helmet"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "weight": 7,
           "functions": [
             {
